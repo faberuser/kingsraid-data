@@ -18,44 +18,40 @@
         "story_": "Kibera is a cheerful wielder of demonic swords who hails from the East.\nOther than the fact that he's from the East, the only other thing known about Kibera is that he likes cheap food despite his noble and dashing appearance, he's a skilled swordsman, and that he is abnormally obsessed with demonic swords. Anyone with common sense would stay away from demonic swords as they are afraid of the curses and tragedies the 'evil power' within these swords could bring upon. However, unphased by this so-called 'evil power,' Kibera rather casually picks up these cursed demonic swords with no hesitation.\nWhenever Kibera comes across a fine demonic sword, his eyes blaze with desire as if he's declaring that he will seize the sword no matter what. This abnormal possession of trying to acquire a sword, even risking his very own life with no regard to gains or loss, has made people avoid him altogether because it feels like he's a possessed spirit of a sword."
     },
     "skills": {
-        "page 1": {
-            "1": {
-                "name": "Mm, You Better Pay Attention!",
-                "cost": "2",
-                "cooldown": "10",
-                "description": "Attacks an enemy 11 times, dealing a total of ??? M.DMG. Afterward, summons a [Dark Whirlpool] for 4 sec that attacks the target and nearby enemies 8 times, dealing ??? M.DMG. If Nocturnal Demonic Sword, [Night Sky] is selected, DMG of self's normal attacks increases by 50% and each normal attack reduces Cooldown of this Skill by 0.5 sec.",
-                "thumbnail": "heroes/Kibera/skills/1.png"
-            },
-            "2 (1)": {
-                "name": "Heh, Let's Have Some Fun!",
-                "cost": "2",
-                "cooldown": "15",
-                "description": "Dispels all negative effects from self and turns into [Shadow Dominion] state. While in [Shadow Dominion] state, ATK is increased by ??? and HP does not fall below 10%. After Skill use, [Ha! Full of Openings!] can be used within 5 sec. If Umbral Demonic Sword, [Dark Shadow] is selected, the Mana Cost of this Skill is reduced by 1.",
-                "thumbnail": "heroes/Kibera/skills/2 (1).png"
-            },
-            "2 (2)": {
-                "name": "Ha! Full of Openings!",
-                "cost": null,
-                "cooldown": null,
-                "description": "Moves to the back of the enemy with the highest ATK, marking the target with [Dark Corrosion] and reducing the ATK Spd of the marked target by 400 for 10 sec. Kibera's attacks will prioritize the marked target. If Umbral Demonic Sword, [Dark Shadow] is selected, enemies inflicted with Dark Corrosion cannot receive positive effects, and have their Mana reduced by 250 every 1 sec. Upon selecting Darkslayer Demonic Sword, [Vell], this skill's Mana Cost will be increased from 0 to 1.",
-                "thumbnail": "heroes/Kibera/skills/2 (2).png"
-            }
+        "1": {
+            "name": "Mm, You Better Pay Attention!",
+            "cost": "2",
+            "cooldown": "10",
+            "description": "Attacks an enemy 11 times, dealing a total of ??? M.DMG. Afterward, summons a [Dark Whirlpool] for 4 sec that attacks the target and nearby enemies 8 times, dealing ??? M.DMG. If Nocturnal Demonic Sword, [Night Sky] is selected, DMG of self's normal attacks increases by 50% and each normal attack reduces Cooldown of this Skill by 0.5 sec.",
+            "thumbnail": "heroes/Kibera/skills/1.png"
         },
-        "page 2": {
-            "3": {
-                "name": "Say Hello to Death!!",
-                "cost": "3",
-                "cooldown": "20",
-                "description": "Sticks Darkslayer Demonic Sword, Veil into the ground, creating a shockwave that deals ??? M.DMG to nearby enemies in a circular range of self and inflicts Stun for 5 sec. Afterward, for 10 sec, unloads [Dark Thunder] to a random enemy every 2 sec, dealing ??? M.DMG and inflicting Stun for 0.5 sec. If Darkslayer Demonic Sword, [Veil] is selected, the Mana Cost of all Skills increases by 1, but DMG inflicted by this Skill will ignore DEF and the Heal Rate of enemies hit by [Dark Thunder] will be reduced by 50% for 5 sec.",
-                "thumbnail": "heroes/Kibera/skills/3.png"
-            },
-            "4": {
-                "name": "Three Demonic Swords",
-                "cost": null,
-                "cooldown": null,
-                "description": "At the beginning of the first battle, Kibera can select a demonic sword. He gains immunity to CC until he selects his sword, but he cannot recover Mana during that period. Once he selects a sword, his stats and the effect of a Skill will be enhanced depending on the selected sword.\nNocturnal Demonic Sword, [Night Sky] Increases ATK Spd by 300 and enhances the effect of [Mm, You Better Pay Attention!].\nUmbral Demonic Sword, [Dark Shadow] Increases DEF by ??? and enhances the effect of [Heh, Let's Have Some Fun!].\nDarkslayer Demonic Sword, [Veil] Increases ATK by ??? and enhances the effect of [Say Hello to Death!!].",
-                "thumbnail": "heroes/Kibera/skills/4.png"
-            }
+        "2 (1)": {
+            "name": "Heh, Let's Have Some Fun!",
+            "cost": "2",
+            "cooldown": "15",
+            "description": "Dispels all negative effects from self and turns into [Shadow Dominion] state. While in [Shadow Dominion] state, ATK is increased by ??? and HP does not fall below 10%. After Skill use, [Ha! Full of Openings!] can be used within 5 sec. If Umbral Demonic Sword, [Dark Shadow] is selected, the Mana Cost of this Skill is reduced by 1.",
+            "thumbnail": "heroes/Kibera/skills/2 (1).png"
+        },
+        "2 (2)": {
+            "name": "Ha! Full of Openings!",
+            "cost": null,
+            "cooldown": null,
+            "description": "Moves to the back of the enemy with the highest ATK, marking the target with [Dark Corrosion] and reducing the ATK Spd of the marked target by 400 for 10 sec. Kibera's attacks will prioritize the marked target. If Umbral Demonic Sword, [Dark Shadow] is selected, enemies inflicted with Dark Corrosion cannot receive positive effects, and have their Mana reduced by 250 every 1 sec. Upon selecting Darkslayer Demonic Sword, [Vell], this skill's Mana Cost will be increased from 0 to 1.",
+            "thumbnail": "heroes/Kibera/skills/2 (2).png"
+        },
+        "3": {
+            "name": "Say Hello to Death!!",
+            "cost": "3",
+            "cooldown": "20",
+            "description": "Sticks Darkslayer Demonic Sword, Veil into the ground, creating a shockwave that deals ??? M.DMG to nearby enemies in a circular range of self and inflicts Stun for 5 sec. Afterward, for 10 sec, unloads [Dark Thunder] to a random enemy every 2 sec, dealing ??? M.DMG and inflicting Stun for 0.5 sec. If Darkslayer Demonic Sword, [Veil] is selected, the Mana Cost of all Skills increases by 1, but DMG inflicted by this Skill will ignore DEF and the Heal Rate of enemies hit by [Dark Thunder] will be reduced by 50% for 5 sec.",
+            "thumbnail": "heroes/Kibera/skills/3.png"
+        },
+        "4": {
+            "name": "Three Demonic Swords",
+            "cost": null,
+            "cooldown": null,
+            "description": "At the beginning of the first battle, Kibera can select a demonic sword. He gains immunity to CC until he selects his sword, but he cannot recover Mana during that period. Once he selects a sword, his stats and the effect of a Skill will be enhanced depending on the selected sword.\nNocturnal Demonic Sword, [Night Sky] Increases ATK Spd by 300 and enhances the effect of [Mm, You Better Pay Attention!].\nUmbral Demonic Sword, [Dark Shadow] Increases DEF by ??? and enhances the effect of [Heh, Let's Have Some Fun!].\nDarkslayer Demonic Sword, [Veil] Increases ATK by ??? and enhances the effect of [Say Hello to Death!!].",
+            "thumbnail": "heroes/Kibera/skills/4.png"
         }
     },
     "books": {
