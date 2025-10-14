@@ -1,5 +1,27 @@
 [
     {
+        "name": "Solenis' Engraving",
+        "description": "Increase All DEF by (0) and Max HP by (1) for all allies every 10 sec. This effect can be stacked up to max 12 times and is irremovable. This effect does not stack with other similar effects cast by allies.",
+        "value": {
+            "0": "2%, 2.4%, 2.8%, 3.4%, 4.2%, 5%",
+            "1": "1%, 1.2%, 1.4%, 1.7%, 2.1%, 2.5%"
+        },
+        "thumbnail": "artifacts/Solenis' Engraving.png",
+        "story": "A miniature version of the engraving on Solenis' shield. It is said that the engraving was made by a master craftsman, and it is imbued with powerful magic.",
+        "aliases": null
+    },
+    {
+        "name": "Golem's Fuel",
+        "description": "Increase DMG dealt to Non-Hero enemies by (0) and reduces DMG taken by (1). If target is [Holy Golem], the effect is multiplied by 3.",
+        "value": {
+            "0": "10%, 12%, 14%, 17%, 21%, 25%",
+            "1": "5%, 6%, 7%, 8%, 10%, 12%"
+        },
+        "thumbnail": "artifacts/Golem's Fuel.png",
+        "story": "A miniature version of the fuel cell that powers the Holy Golem. It contains a large amount of magical energy, which can be used to enhance the power of the owner.",
+        "aliases": null
+    },
+    {
         "name": "Earth Storm",
         "description": "When inflicted by CC, recovers Mana by (0) and gains [Earth Storm] for 10 sec, increasing All DMG nearby enemies take by (1) every sec. If activated in the Arena, [Earth Storm] deals P.DMG equal to 3% of the target's max HP to neaby enemies every sec. This effect will not inflict a Crit Hit. The effect of [Earth Storm] has a Cooldown of 20 sec.",
         "value": {
