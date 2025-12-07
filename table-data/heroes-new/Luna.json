@@ -1,0 +1,160 @@
+{
+    "profile": {
+        "name": "Luna",
+        "title": "Child of Moonlight Luna",
+        "class": "Archer",
+        "position": "Back-300",
+        "attack_range": "2900",
+        "damage_type": "Magical",
+        "gender": "Female",
+        "age": "???",
+        "height": "110",
+        "race": "Animal Hybrid (Rabbit)",
+        "constellation": "Kandala the Conqueror",
+        "birth_of_month": "August 8th, Month of Vitality",
+        "like": "Carrots, friends",
+        "dislike": "Hunger",
+        "story": "Lulus, very rarely sighted and often considered mythical, are a race of animal hybrids. They live in an extremely cold region, and are very fearful of contacting the outside world. One day, a Lulu child was born with the exact opposite personality that is typical her race. That child is Luna. It's not that she was unhappy with the ways of her people. Nor did she have any grand purpose of experiencing the world outside. She was simply picking flowers, one step at a time. Another step to pick up some frozen branches for her slingshot. And another step to follow the scent of some sweet, red fruit. Before she knew it, she was outside, running toward a carrot field away from the mountain.",
+        "thumbnail": "heroes/Luna/ico.png"
+    },
+    "skills": {
+        "1": {
+            "name": "Pew!",
+            "cost": "1",
+            "cooldown": "8",
+            "description": "Unleashes an attack that bounces [64ffff]{1}[-] times starting from the nearest enemy, dealing [ffc800]684*(1+0.3Skill Level)+300% of Attack Power[-] Magic Damage to each enemy hit. Damage increases by up to [ffc800]100%[-] the farther the enemy is.",
+            "thumbnail": "heroes/Luna/skills/1.png"
+        },
+        "2": {
+            "name": "Look out above!",
+            "cost": "2",
+            "cooldown": "12",
+            "description": "Deals [ffc800]792(1+0.3Skill Level)+347.5% of Attack Power[-] Magic Damage [64ffff]{1} time(s)[-] to a random enemy and surrounding enemies, and [fa96fa]stuns[-] them for [64ffff]{3} sec[-]. Damage increases by up to [ffc800]200%[-] the farther the enemy is.",
+            "thumbnail": "heroes/Luna/skills/2.png"
+        },
+        "3": {
+            "name": "Twinkle Twinkle",
+            "cost": "3",
+            "cooldown": "15",
+            "description": "Deals [ffc800]342(1+0.3Skill Level)+150% of Attack Power[-] Magic Damage [64ffff]{2} time(s)[-] to enemies within range, [fa96fa]knocks them back[-] for [64ffff]{3} sec[-], and reduces their Critical Chance by [ff6464]{5}%[-] for [64ffff]{4} sec[-]. Damage increases by up to [ffc800]150%[-] the farther the enemy is.",
+            "thumbnail": "heroes/Luna/skills/3.png"
+        },
+        "4": {
+            "name": "Gotcha!",
+            "cost": null,
+            "cooldown": "12",
+            "description": "Attacks the farthest enemy, dealing [ffc800]799(1+0.3*Skill Level)+350% of Attack Power[-] Magic Damage, [fa96fa]knocking them back[-] for [64ffff]{2} sec[-], and increasing Magic Damage taken by [ff6464]{4}%[-] for [64ffff]{3} sec[-]. Damage increases by up to [ffc800]200%[-] the farther the enemy is.",
+            "thumbnail": "heroes/Luna/skills/4.png"
+        }
+    },
+    "books": {
+        "1": {
+            "II": "DMG is increased by [64ff64]10[-] %.",
+            "III": "DMG is increased by [64ff64]15[-] %.",
+            "IV": "DMG is increased by [64ff64]25[-] %."
+        },
+        "2": {
+            "II": "DMG is increased by [64ff64]10[-] %.",
+            "III": "DMG is increased by [64ff64]15[-] %.",
+            "IV": "DMG is increased by [64ff64]25[-] %."
+        },
+        "3": {
+            "II": "DMG is increased by [64ff64]10[-] %.",
+            "III": "DMG is increased by [64ff64]15[-] %.",
+            "IV": "DMG is increased by [64ff64]25[-] %."
+        },
+        "4": {
+            "II": "DMG is increased by [64ff64]10[-] %.",
+            "III": "DMG is increased by [64ff64]15[-] %.",
+            "IV": "DMG is increased by [64ff64]25[-] %."
+        }
+    },
+    "perks": {
+        "t3": {
+            "1": {
+                "light": {
+                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "thumbnail": "heroes/Luna/perks/s1l.png"
+                },
+                "dark": {
+                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "thumbnail": "heroes/Luna/perks/s1d.png"
+                }
+            },
+            "2": {
+                "light": {
+                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "thumbnail": "heroes/Luna/perks/s2l.png"
+                },
+                "dark": {
+                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "thumbnail": "heroes/Luna/perks/s2d.png"
+                }
+            },
+            "3": {
+                "light": {
+                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "thumbnail": "heroes/Luna/perks/s3l.png"
+                },
+                "dark": {
+                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "thumbnail": "heroes/Luna/perks/s3d.png"
+                }
+            },
+            "4": {
+                "light": {
+                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "thumbnail": "heroes/Luna/perks/s4l.png"
+                },
+                "dark": {
+                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "thumbnail": "heroes/Luna/perks/s4d.png"
+                }
+            }
+        },
+        "t5": {
+            "light": {
+                "effect": "ATK, DEF, HP +15% / Crit DMG +20%",
+                "thumbnail": "heroes/Luna/perks/light.png"
+            },
+            "dark": {
+                "effect": "Damage dealt to non-hero enemies is increased by {1}%, and damage taken is reduced by {2}%.",
+                "thumbnail": "heroes/Luna/perks/dark.png"
+            }
+        }
+    },
+    "uw": {
+        "name": "Flower of Eternity, Hyacinth",
+        "description": "Critical Damage is increased by {1}%, Normal Attack damage by {2}%, and Attack Range by {3}%.",
+        "thumbnail": "heroes/Luna/uw.png",
+        "story": "A slingshot made from hyacinth, a silver tree that only grows in extremely cold regions. It is said that hyacinths have been blessed by the Queen of Ice, and are able to bear bright red fruits even in the coldest weather. Simply holding onto a hyacinth branch allows one to ignore the coldness around the holder. These blessed trees also have the power to call upon snowstorms and frost. Needless to say, these powers are best harnessed by a weapon carved from one of these trees."
+    },
+    "uts": {
+        "1": {
+            "name": "Never-Melting Snow Flower",
+            "description": "[Pew!] Increases DMG by 20%, and upon Critical Hit, recovers Mana by 200.",
+            "thumbnail": "heroes/Luna/ut/1.png",
+            "story": "A legendary snowfield flower that blossomed from the never melting land of Windland Snow Mountain. It is said that it makes the energy of its master's body flow clearly and beautifully. An item that makes Luna's pure energy shine even brighter."
+        },
+        "2": {
+            "name": "Moonlight Carrot",
+            "description": "[Look Out Above!] Increases DMG by 20% and reduces Cooldown by 10% upon a Crit Hit.",
+            "thumbnail": "heroes/Luna/ut/2.png",
+            "story": "A carrot that grew from receiving moonlight a thousand times. \nThose hit by this carrot will have all evil stripped away from them, and they'll be able to tell apart good from bad."
+        },
+        "3": {
+            "name": "Golden Bell of Luck",
+            "description": "[Twinkle Twinkle] The Crit Chance Reduction effect becomes irremovable, and increases the duration by 2 sec.",
+            "thumbnail": "heroes/Luna/ut/3.png",
+            "story": "A golden bell that brings luck.\nIt's Luna's second favorite thing after carrots, and it brightly glitters when she walks and trots. The sound of the golden bell has a mystical power that summons luck from her homeland."
+        },
+        "4": {
+            "name": "Carrot Cake",
+            "description": "[Gotcha!] reduces Cooldown by {1} sec and cleanses self when affected by a CC once every 20 sec.",
+            "thumbnail": "heroes/Luna/ut/4.png",
+            "story": "Juno's special carrot cake.\nThis special carrot cake was made especially for Luna, who misses her family back in her hometown and the carrots she used to eat.\nAs it has the exact same taste like the ones Luna would eat back at home, the cake has become Luna's new soul food."
+        }
+    },
+    "splashart": "heroes/Luna/sa.png",
+    "costumes": "heroes/Luna/cos"
+}

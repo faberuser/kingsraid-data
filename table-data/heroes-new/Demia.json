@@ -1,0 +1,160 @@
+{
+    "profile": {
+        "name": "Demia",
+        "title": "Fortress of Steel Demia",
+        "class": "Knight",
+        "position": "Front-700",
+        "attack_range": "2000",
+        "damage_type": "Physical",
+        "gender": "Female",
+        "age": "25",
+        "height": "184",
+        "race": "Human",
+        "constellation": "Guardian Mertis",
+        "birth_of_month": "January 30th, Month of Protection",
+        "like": "A righteous monarch to serve",
+        "dislike": "Weak-minded people who betray others",
+        "story": "Demia Si Ziltrion. The commander of the Guardian Knights of Orvelia. She is a mighty and dignified knight who wields a lance and a giant shield. It is said that penetrating her shield is next to impossible. As a knight commander, she cherishes her subordinates, and is prepared to perform any task in service of her land. Having felt the recent change of the atmosphere within the royal palace, she hopes to quickly appoint Clause as the next commander so that she may protect Scarlet from the aggression of the nobles.",
+        "thumbnail": "heroes/Demia/ico.png"
+    },
+    "skills": {
+        "1": {
+            "name": "Penetration",
+            "cost": "3",
+            "cooldown": "10",
+            "description": "Throws a spear at the farthest enemy, dealing [ffc800]157*(1+0.3Skill Level)+121.2% of Attack Power[-] as Physical Damage, [fa96fa]pulls them in front of you[-], then deals [ffc800]105(1+0.3Skill Level)+80.8% of Attack Power[-] as Physical Damage to enemies within range and [fa96fa]stuns[-] them for [64ffff]3 sec[-].",
+            "thumbnail": "heroes/Demia/skills/1.png"
+        },
+        "2": {
+            "name": "Will to Win",
+            "cost": "2",
+            "cooldown": "14",
+            "description": "For [64ffff]{1} sec[-], your Physical Block Chance is increased by [64ff64]200[-], and when you block, you deal [ffc800]95(1+0.3Skill Level)+72.6% of Attack Power[-] as Physical Damage to nearby enemies and reduce their Attack by [ff6464]{3}%[-].",
+            "thumbnail": "heroes/Demia/skills/2.png"
+        },
+        "3": {
+            "name": "Steel Fortress",
+            "cost": "4",
+            "cooldown": "22",
+            "description": "For [64ffff]8 sec[-], all allies’ Physical Damage taken is reduced by [64ff64]{1}%[-], and you prepare to leap for [64ffff]5 sec[-].\nWhile preparing to leap, when you block, the leap attack’s damage is increased by [64ff64]7%[-], you deal [ffc800]126(1+0.3Skill Level)+96.8% of Attack Power[-] as Physical Damage to the attacker, and [fa96fa]stun[-] them for [64ffff]0.4 sec[-].\nWhen casting is complete, you leap to the enemy, dealing [ffc800]465(1+0.3Skill Level)+357.5% of Attack Power[-] as Physical Damage and [fa96fa]stunning[-] them for [64ffff]{4} sec[-].\nWhile preparing to leap, you are [fa96fa]immune to status ailments[-].",
+            "thumbnail": "heroes/Demia/skills/3.png"
+        },
+        "4": {
+            "name": "Spearhead",
+            "cost": null,
+            "cooldown": null,
+            "description": "Increases all allies’ Physical Defense by [64ff64]30(1+0.3Skill Level)[-] and Physical Block Chance by [64ff64]{2}[-].",
+            "thumbnail": "heroes/Demia/skills/4.png"
+        }
+    },
+    "books": {
+        "1": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases the duration of stun by [64ff64]25[-] sec."
+        },
+        "2": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases ATK Reduction by [ff6464]25[-]%."
+        },
+        "3": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        },
+        "4": {
+            "II": "Increases DEF Boost by [64ff64]10[-]%.",
+            "III": "Increases DEF Boost by [64ff64]15[-]%.",
+            "IV": "Increases DEF Boost by [64ff64]25[-]%."
+        }
+    },
+    "perks": {
+        "t3": {
+            "1": {
+                "light": {
+                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "thumbnail": "heroes/Demia/perks/s1l.png"
+                },
+                "dark": {
+                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "thumbnail": "heroes/Demia/perks/s1d.png"
+                }
+            },
+            "2": {
+                "light": {
+                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "thumbnail": "heroes/Demia/perks/s2l.png"
+                },
+                "dark": {
+                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "thumbnail": "heroes/Demia/perks/s2d.png"
+                }
+            },
+            "3": {
+                "light": {
+                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "thumbnail": "heroes/Demia/perks/s3l.png"
+                },
+                "dark": {
+                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "thumbnail": "heroes/Demia/perks/s3d.png"
+                }
+            },
+            "4": {
+                "light": {
+                    "effect": "Increases DEF Boost by [64ff64]{1}[-]%.",
+                    "thumbnail": "heroes/Demia/perks/s4l.png"
+                },
+                "dark": {
+                    "effect": "Increases DEF Boost by [64ff64]{1}[-]%.",
+                    "thumbnail": "heroes/Demia/perks/s4d.png"
+                }
+            }
+        },
+        "t5": {
+            "light": {
+                "effect": "ATK, DEF, HP +15% / P. Block +200",
+                "thumbnail": "heroes/Demia/perks/light.png"
+            },
+            "dark": {
+                "effect": "At the start of each battle, reduces all enemies’ Attack by 25% for 6 sec. This effect cannot be dispelled.",
+                "thumbnail": "heroes/Demia/perks/dark.png"
+            }
+        }
+    },
+    "uw": {
+        "name": "The Blue Light, Arpheus",
+        "description": "Increases all allies’ Physical Defense by 8%.\nOn block, has a 10% chance to restore 180 Mana to yourself and reduce the cooldown of all skills by 1 sec.",
+        "thumbnail": "heroes/Demia/uw.png",
+        "story": "One day, a vein exuding powerful mana was discovered in the territory of Ziltrion. While investigating, Demia found a blue ore, the likes of which she had never seen before. Numerous wizards and alchemists studied this mysterious ore with the characteristics of both gem and metal, but no one could figure out its identity. Jin the blacksmith, however, had a different idea. As soon as he saw the ore, he offered Demia to craft powerful gears out of it, with a big smile on his face. With it, he forged a lance and a shield, glowing blue with mana and tougher than diamond."
+    },
+    "uts": {
+        "1": {
+            "name": "Aura of Protection",
+            "description": "Increases ACC by 750, and CC ACC by 300 for the duration of skill.",
+            "thumbnail": "heroes/Demia/ut/1.png",
+            "story": "A stone known to protect one's soul from being absorbed by evil. It only shines for a while at dawn, so it's hard to find. One day, when Demia was tired from battle, a comrade put this in her hands. Even though it's a comrade that she can't ever see again... Demia always takes this stone when going out to the battlefield. She does her best to uphold her vow to never let the sacrifices of her comrades be in vain."
+        },
+        "2": {
+            "name": "Shield of Resolution",
+            "description": "[Will to Win] increases P.Block chance by {1} and raises the target’s P.DMG taken by {2}% for 5 sec.",
+            "thumbnail": "heroes/Demia/ut/2.png",
+            "story": "A wooden shield that Demia used as a child for practice. It's been used over a thousand times and is very worn out. \nDemia uses it to regain her composure when she feels like she has hit a limit.\nHer pride as a knight of Orvelia resurfaces when she sees this old, worn-out shield."
+        },
+        "3": {
+            "name": "Chest of Ziltrion",
+            "description": "[Steel Fortress] increases DMG Boost on Block by {1}% and extends the Stun duration of Leap Attack by {2} sec.",
+            "thumbnail": "heroes/Demia/ut/3.png",
+            "story": "An old Chest passed down among the Ziltrion family as an heirloom.\nA photo album of all the family members, from the first to the current generation, is safeguarded by a strong spell inside this chest to protect the family's bloodline. Demia's mother is worried about her daughter, who decided to be the shield of Orvelia. Whenever Demia marches to the battlefield, she prays to this chest for her daughter's safe return."
+        },
+        "4": {
+            "name": "Ring of Ziltrion",
+            "description": "recovers {1}% of P.DEF every sec when blocking, and increases P.DEF gained by {3}% for {2} sec. P.DEF Boost can stack up to {4} times.",
+            "thumbnail": "heroes/Demia/ut/4.png",
+            "story": "A ring handed down to the leaders of the Ziltrion Family.\nIt is decorated with a big blue jewel which was bestowed to the Ziltrions by the royal family of Orvel.\nIt was passed down to the leaders as the symbol of the family's eternal loyalty, and these leaders became the vanguards of punishing traitors."
+        }
+    },
+    "splashart": "heroes/Demia/sa.png",
+    "costumes": "heroes/Demia/cos"
+}

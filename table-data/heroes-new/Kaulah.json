@@ -1,0 +1,160 @@
+{
+    "profile": {
+        "name": "Kaulah",
+        "title": "Shaman of Lightning Kaulah",
+        "class": "Priest",
+        "position": "Back-100",
+        "attack_range": "800",
+        "damage_type": "Magical",
+        "gender": "Male",
+        "age": "46",
+        "height": "210",
+        "race": "Orc",
+        "constellation": "Lasiphil the Prophet",
+        "birth_of_month": "March 11th, Month of Insight",
+        "like": "Fellow kinsmen, world peace",
+        "dislike": "Malduk, war",
+        "story": "This great Orc shaman wields the power of lightning. He is the chieftain of the Skywind Tribe and a respected elder of the Orc Alliance. He has trained countless Orc shamans and is considered their spiritual leader. He is also one of the few shamans who has clairvoyant dreams, and he is wise enough to properly interpret them.",
+        "thumbnail": "heroes/Kaulah/ico.png"
+    },
+    "skills": {
+        "1": {
+            "name": "Thunderbolt",
+            "cost": "3",
+            "cooldown": "10",
+            "description": "Deals [ffc800]148(1+0.3Skill Level)+93.4% of Attack Power[-] as Magic Damage [64ffff]{2} times[-] to a random enemy and inflicts [fa96fa]Shock[-]. Enemies in [fa96fa]Shock[-] are [fa96fa]stunned[-] for [64ffff]{3} sec[-].",
+            "thumbnail": "heroes/Kaulah/skills/1.png"
+        },
+        "2": {
+            "name": "Healing Rain",
+            "cost": "2",
+            "cooldown": "11",
+            "description": "For [64ffff]{1} sec[-], restores HP by [ffc800]384(1+0.3Skill Level)+240% of Attack Power[-] every [64ffff]1 sec[-]. You cannot take other actions while the skill is active, but all allies' Magic Damage taken is reduced by [64ff64]{3}%[-].",
+            "thumbnail": "heroes/Kaulah/skills/2.png"
+        },
+        "3": {
+            "name": "Swift Wind",
+            "cost": "4",
+            "cooldown": "14",
+            "description": "For [64ffff]{1} sec[-], increases all allies' Attack by [64ff64]206(1+0.3Skill Level)[-], Attack Speed by [64ff64]42%[-], and Critical Hit Chance by [64ff64]{4}[-].",
+            "thumbnail": "heroes/Kaulah/skills/3.png"
+        },
+        "4": {
+            "name": "Chain Lightning",
+            "cost": null,
+            "cooldown": "15",
+            "description": "Deals [ffc800]174(1+0.3Skill Level)+109.2% of Attack Power[-] as Magic Damage to [64ffff]{1}[-] enemies, then inflicts [fa96fa]Shock[-] for [64ffff]{3} sec[-]. On a critical hit, [fa96fa]stuns[-] them for [64ffff]{4} sec[-].\nFor each enemy in [fa96fa]Shock[-], damage taken by you is reduced by [64ff64]{5}%[-], up to [64ffff]{6} stacks[-].\n[fa96fa]Shock:[-] For [64ffff]{7} sec[-], deals continuous Magic Damage equal to [ffc800]25% of Attack Power[-] every [64ffff]{7}1 sec[-].",
+            "thumbnail": "heroes/Kaulah/skills/4.png"
+        }
+    },
+    "books": {
+        "1": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases Crit Chance by [64ff64]25[-]."
+        },
+        "2": {
+            "II": "Increases Heal Rate by [64ff64]10[-]%.",
+            "III": "Increases Heal Rate by [64ff64]15[-]%.",
+            "IV": "Healing amount is increased by [64ff64]25[-]%."
+        },
+        "3": {
+            "II": "Increases ATK Boost by [64ff64]10[-]%.",
+            "III": "Increases ATK Boost by [64ff64]15[-]%.",
+            "IV": "Crit Chance is increased by [64ff64]25[-] for the duration of skill."
+        },
+        "4": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        }
+    },
+    "perks": {
+        "t3": {
+            "1": {
+                "light": {
+                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "thumbnail": "heroes/Kaulah/perks/s1l.png"
+                },
+                "dark": {
+                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "thumbnail": "heroes/Kaulah/perks/s1d.png"
+                }
+            },
+            "2": {
+                "light": {
+                    "effect": "Increases Heal Rate by [64ff64]{1}[-]%.",
+                    "thumbnail": "heroes/Kaulah/perks/s2l.png"
+                },
+                "dark": {
+                    "effect": "Increases Heal Rate by [64ff64]{1}[-]%.",
+                    "thumbnail": "heroes/Kaulah/perks/s2d.png"
+                }
+            },
+            "3": {
+                "light": {
+                    "effect": "Increases ATK Boost by [64ff64]{1}[-]%.",
+                    "thumbnail": "heroes/Kaulah/perks/s3l.png"
+                },
+                "dark": {
+                    "effect": "Increases ATK Boost by [64ff64]{1}[-]%.",
+                    "thumbnail": "heroes/Kaulah/perks/s3d.png"
+                }
+            },
+            "4": {
+                "light": {
+                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "thumbnail": "heroes/Kaulah/perks/s4l.png"
+                },
+                "dark": {
+                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "thumbnail": "heroes/Kaulah/perks/s4d.png"
+                }
+            }
+        },
+        "t5": {
+            "light": {
+                "effect": "ATK, DEF, HP +15% / Crit Chance +100",
+                "thumbnail": "heroes/Kaulah/perks/light.png"
+            },
+            "dark": {
+                "effect": "When hit, reduces the attacker's Attack Speed by {2}% and their Mana by {3} per sec for {1} sec. This effect can only trigger once every {4} sec.",
+                "thumbnail": "heroes/Kaulah/perks/dark.png"
+            }
+        }
+    },
+    "uw": {
+        "name": "The Bluewind, Coventina",
+        "description": "On Normal Attack, has a {1}% chance to deal Magic Damage equal to {3}% of Attack Power to {2} random enemies and reduce their Attack by {5}% for {4} sec. If they are shocked, they are stunned for {6} sec.",
+        "thumbnail": "heroes/Kaulah/uw.png",
+        "story": "A staff resembling the four-winged thunderbird. Indeed, it has been crafted from a feather of a thunderbird, a beast considered holy among the Skywind Orcs. The staff has the power to communicate with the sky, read the weather, and control the air. To a Skywind shaman who uses the power of lightning, this staff is the ultimate medium."
+    },
+    "uts": {
+        "1": {
+            "name": "Skywind Feather Decoration",
+            "description": "Reduces the target's Heal Rate by 30% and the target's Mana by 100 for 10 sec.",
+            "thumbnail": "heroes/Kaulah/ut/1.png",
+            "story": "Feather from a thunderbird, guardian of rain and thunder. The high ranking shamans of the Skywind Tribe commune through the feathers of a thunderbird. Shamans use this feather accessory when using Swift Wind \nto become one with the thunderbird, increasing ATK and ATK Spd of all allies."
+        },
+        "2": {
+            "name": "Thunderbird Mask",
+            "description": "[Healing Rain] Absorbs DMG of 200% ATK and creates a shield that grants Immunity to CC for 1 sec when used upon allies with full HP.",
+            "thumbnail": "heroes/Kaulah/ut/2.png",
+            "story": "Mask of the auspicious thunderbird that brings rain. \nOnce the Healing Droplets of the Skywind shaman begin, the soul of the thunderbird stays by those who were hit by Healing Rain and recovers their tired bodies."
+        },
+        "3": {
+            "name": "Thunderstone Bracelet",
+            "description": "[Swift Wind] Reduces Mana Cost by 1, and additionally increases Crit DMG by 20%.",
+            "thumbnail": "heroes/Kaulah/ut/3.png",
+            "story": "A bracelet made from a holy thunderstone.\nAlso known as Thunder God's Tear, the thunderstone on the bracelet maximizes the power of Thunderbolt. It's passed down through generations among the orc shamans."
+        },
+        "4": {
+            "name": "Skywind Stone",
+            "description": "[Chain Lightning] Reduces the target's ATK Spd by 250 and increases M.DMG it takes by 10% for 10 sec.",
+            "thumbnail": "heroes/Kaulah/ut/4.png",
+            "story": "A mysterious stone that summons Thunderbird.\nHolding the Thunder Elemental inside, it is a legendary stone that can infinitely bring forth the power of the Thunder Bird."
+        }
+    },
+    "splashart": "heroes/Kaulah/sa.png",
+    "costumes": "heroes/Kaulah/cos"
+}
