@@ -150,25 +150,65 @@
     "uts": {
         "1": {
             "name": "Barbarian Mug",
-            "description": "reduces the target’s ATK by 25% and increases the P.DMG they take by 15% for 10 sec.",
+            "description": "[Smash] reduces the target’s ATK by 25% and increases the P.DMG they take by {0}% for 10 sec.",
+            "value": {
+                "0": {
+                    "0": "15",
+                    "1": "17",
+                    "2": "19",
+                    "3": "22",
+                    "4": "26",
+                    "5": "30"
+                }
+            },
             "thumbnail": "heroes/Gau/ut/1.png",
             "story": "Mug of the Barbarian King who first settled down in the snowy mountains. When the first Barbarian King settled down in Windland, he swore to become the guardian of the snowy mountains and shared this mug with the holy beings of the mountains. The protect magic of the frost wolf imbued in the Barbarian Mug increases the ATK of Vortex and the effect of Freeze."
         },
         "2": {
             "name": "Fighter's Horn",
-            "description": "[Battle Roar] Reduces Mana Cost by {1} and increases targets' Crit DMG by {2}% for the duration of Skill.",
+            "description": "[Battle Roar] Reduces Mana Cost by 1 and increases targets' Crit DMG by {0}% for the duration of Skill.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            },
             "thumbnail": "heroes/Gau/ut/2.png",
             "story": "Trumpet made with the horn of the guardian beast of Windland Snow Mountain, Orox.\nOrox of the Snowy Mountain grants noble warriors great power and the ability to see the truth. \nWhen a warrior who has received the blessing of Orox blows this horn, it will boost the morale of comrades and bring clarity to their minds."
         },
         "3": {
             "name": "King of Frost Helmet",
-            "description": "increases DMG by {1}%, and its last hit increases the P.DMG the target takes by {3}% for {2} sec.",
+            "description": "[Vortex] increases DMG by 50%, and its last hit increases the P.DMG the target takes by {0}% for 10 sec.",
+            "value": {
+                "0": {
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
+                }
+            },
             "thumbnail": "heroes/Gau/ut/3.png",
             "story": "A worn-out helmet of Frost Giant King.\nIt was last used by the darkness-ridden Frost Giant King. Gau, hoping that the tragedy of Windland Snow Mountain won't repeat itself, keeps this broken helmet to mourn the fallen hero."
         },
         "4": {
             "name": "Snowdrop Bracelet",
-            "description": "Changes the max number of stacks to {1} and upon gaining {2} stacks, increases own DEF Penetration by {3}.",
+            "description": "[Enrage] Changes the max number of stacks to 30 and upon gaining 30 stacks, increases own DEF Penetration by {0}.",
+            "value": {
+                "0": {
+                    "0": "100",
+                    "1": "120",
+                    "2": "140",
+                    "3": "170",
+                    "4": "210",
+                    "5": "250"
+                }
+            },
             "thumbnail": "heroes/Gau/ut/4.png",
             "story": "A bracelet made with a Snowdrop Flower.\nAlthough it was made with clumsy hands, the children at the orphanage made this bracelet as a birthday gift for Gau after seeing him grieve for his fallen Barbarian tribes.\nA Snowdrop means hope and comfort in the language of flowers."
         }

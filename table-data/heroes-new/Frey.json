@@ -150,25 +150,65 @@
     "uts": {
         "1": {
             "name": "Forgotten Arbiter's Feather",
-            "description": "[Miraculous Light] Increases Heal Rate by 50% and target becomes Immune to DMG for 1 sec.",
+            "description": "[Miraculous Light] Increases Heal Rate by 50% and target becomes Immune to DMG for {0} sec.",
+            "value": {
+                "0": {
+                    "0": "1",
+                    "1": "1.2",
+                    "2": "1.4",
+                    "3": "1.7",
+                    "4": "2.1",
+                    "5": "2.5"
+                }
+            },
             "thumbnail": "heroes/Frey/ut/1.png",
             "story": "Feather from the Guardian of the Sun. Feather of an Angel who saved the people by fighting against the Demons in the past. He left his feather as proof of his promise to return once again if the world falls into chaos. An artifact of the Church of Lua that summons holy rays of the sun to blind the enemy."
         },
         "2": {
             "name": "Miraculous Medal",
-            "description": "[Blessings of Light] Increases the shield amount by 50% and recovers 100 Mana every sec for 4 sec.",
+            "description": "[Blessings of Light] Increases the shield amount by 50% and recovers {0} Mana every sec for 4 sec.",
+            "value": {
+                "0": {
+                    "0": "100",
+                    "1": "120",
+                    "2": "140",
+                    "3": "170",
+                    "4": "210",
+                    "5": "250"
+                }
+            },
             "thumbnail": "heroes/Frey/ut/2.png",
             "story": "Medal made by the saintess of miracles, Yvonne, with the revelation of the goddess. \nThe Medal of Miracles is a sacred artifact that contains the magic of light. It is said that saintess Yvonne saved the city that was invaded by the demons with the blessing of light that was boosted with this medal."
         },
         "3": {
             "name": "Angel's Egg",
-            "description": "[Heaven’s Vengeance] increases the target’s M.DMG taken by 20% for 10 sec and extends Blind duration by 0.6 sec.",
+            "description": "[Heaven’s Vengeance] increases the target’s M.DMG taken by 20% for 10 sec and extends Blind duration by {0} sec.",
+            "value": {
+                "0": {
+                    "0": "0.6",
+                    "1": "0.9",
+                    "2": "1.2",
+                    "3": "1.5",
+                    "4": "1.8",
+                    "5": "2.1"
+                }
+            },
             "thumbnail": "heroes/Frey/ut/3.png",
             "story": "The treasure that Frey loves dearly.\nIt is a crystal orb that Frey had when she was found as an infant under the World Tree. Frey named it Angel's Egg for its luster like angel's hair, and she's cherished it her entire life."
         },
         "4": {
             "name": "Angelic Advent",
-            "description": "[Goddess Grace] Upon activation, dispels all negative effects from the target and increases the target's Heal Rate by 20% for the duration of skill.",
+            "description": "[Goddess Grace] Upon activation, dispels all negative effects from the target and increases the target's Heal Rate by {0}% for the duration of skill.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            },
             "thumbnail": "heroes/Frey/ut/4.png",
             "story": "An old storybook owned by Frey.\nIt was the first storybook ever given to young Frey as a present, and it tells of a war between the Angels and Demons.\nFrey particularly likes the part where the Angels emerge victorious after defeating all the Demons."
         }

@@ -150,25 +150,65 @@
     "uts": {
         "1": {
             "name": "Miruru Cannonball",
-            "description": "[Baaaam!] Gains Immunity to CC for the skill's duration, and reduces the target's P.Crit Resistance by 200 for 10 sec.",
+            "description": "[Baaaam!] Gains Immunity to CC for the skill's duration, and reduces the target's P.Crit Resistance by {0} for 10 sec.",
+            "value": {
+                "0": {
+                    "0": "200",
+                    "1": "240",
+                    "2": "290",
+                    "3": "350",
+                    "4": "420",
+                    "5": "500"
+                }
+            },
             "thumbnail": "heroes/Miruru/ut/1.png",
             "story": "Cannonball engraved with the symbol of the Miruru Pirates. Miruru still vividly remembers her glorious past. Her fluttering flag emblazoned with a shark, and the sounds of explosions that were at her command. Those fond memories of enemy ships sinking in terror still remain within her. Miruru is using special cannonballs to attack enemies, while waiting for the glorious days to come back once again."
         },
         "2": {
             "name": "Pirate King's Sextant",
-            "description": "[Roll Over] increases DMG by 4% on every use and recovers 120 MP upon a Crit Hit. This effect stacks up to max 10 times.",
+            "description": "[Roll Over] increases DMG by {0}% on every use and recovers 120 MP upon a Crit Hit. This effect stacks up to max 10 times.",
+            "value": {
+                "0": {
+                    "0": "4",
+                    "1": "4.8",
+                    "2": "5.8",
+                    "3": "7",
+                    "4": "8.4",
+                    "5": "10"
+                }
+            },
             "thumbnail": "heroes/Miruru/ut/2.png",
             "story": "Sextant of Pirate King Olga, who was the first to discover the new continent. \nPirate King Olga went past the Orbis Continent to find a new continent, following a revelation from the gods. The sextant can calculate the most accurate location and angle in the world. Miruru uses the sextant to boost the damage from rolling bomb attacks, but she doesn't remember how she ended up with it."
         },
         "3": {
             "name": "Coin of the Deep",
-            "description": "[Miruru Pirates!] Increases DMG by 50% and reduces Cooldown by 12%.",
+            "description": "[Miruru Pirates!] Increases DMG by 50% and reduces Cooldown by {0}%.",
+            "value": {
+                "0": {
+                    "0": "12",
+                    "1": "14",
+                    "2": "17",
+                    "3": "21",
+                    "4": "25",
+                    "5": "30"
+                }
+            },
             "thumbnail": "heroes/Miruru/ut/3.png",
             "story": "Miruru's lucky coin is an ancient treasure of the sunken kingdom.\nIt is a trophy from her first treasure expedition after her form was changed into that of a kid. The coin, crafted via ancient metallurgy, was kept in Miruru's breast pocket, and it's now her precious lucky charm after saving her life several times."
         },
         "4": {
             "name": "Turtle Gunpowder Keg",
-            "description": "[Boooooom!] increases DMG by 50% and boosts ATK Spd by 20% for 3 sec upon activation.",
+            "description": "[Boooooom!] increases DMG by 50% and boosts ATK Spd by {0}% for 3 sec upon activation.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "32",
+                    "4": "45",
+                    "5": "50"
+                }
+            },
             "thumbnail": "heroes/Miruru/ut/4.png",
             "story": "A cannonball that Miruru made in collaboration with a new friend who is an explosives expert.\nHaving met last summer, both Miruru and Lakrak developed this special cannonball that is used for igniting the cannon.\nAs the gunpowder has a low ignition point, Miruru has been keeping it safe in a turtle powder keg she found in a treasure ship."
         }

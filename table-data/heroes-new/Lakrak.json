@@ -166,25 +166,65 @@
     "uts": {
         "1": {
             "name": "Goblincraft Special High-Density Gunpowder",
-            "description": "[Rapid Fire] Increases DMG by {1}%, and recovers {2} Mana upon a Critical Hit.",
+            "description": "[Rapid Fire] Increases DMG by 50%, and recovers {0} Mana upon a Critical Hit.",
+            "value": {
+                "0": {
+                    "0": "200",
+                    "1": "240",
+                    "2": "290",
+                    "3": "350",
+                    "4": "420",
+                    "5": "500"
+                }
+            },
             "thumbnail": "heroes/Lakrak/ut/1.png",
             "story": "Gunpowder made with Lakrak's dangerous secret recipe. \nLakrak believed that simple explosions weren't effective enough in terms of battle strategy, so he added some formic acid and stinging nettle poison to add a stunning effect. \nIt requires an extremely accurate filtering process, and he uses it in secret to avoid abuse."
         },
         "2": {
             "name": "Special Gas Mask",
-            "description": "[Smoke Bomb] Reduces Cooldown by 30% and increases the duration of Blind by 1 sec.",
+            "description": "[Smoke Bomb] Reduces Cooldown by 30% and increases the duration of Blind by {0} sec.",
+            "value": {
+                "0": {
+                    "0": "1",
+                    "1": "1.2",
+                    "2": "1.4",
+                    "3": "1.7",
+                    "4": "2.1",
+                    "5": "2.5"
+                }
+            },
             "thumbnail": "heroes/Lakrak/ut/2.png",
             "story": "A high-performing mask that was made with special materials that Lakrak obtained from around the Orbis Continent. \nThis mask is made from Harpy's first feather, a dragon's scales, a leaf from the World Tree, and the empire's mithril, which are all hard to find. \nThis mask protects one from poisonous gas as well as the blinding effect of Smoke Bombs."
         },
         "3": {
             "name": "Cudgel Bullet",
-            "description": "[Glue Bomb] Increases DMG by {1}% and reduces the Heal Rate of the hit target by {3}% for {2} sec.",
+            "description": "[Glue Bomb] Increases DMG by 50% and reduces the Heal Rate of the hit target by {0}% for 7 sec.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            },
             "thumbnail": "heroes/Lakrak/ut/3.png",
             "story": "A self-defense bullet with lower killing power.\nThis bullet, whose design is based on Lakrak's knowledge in precise explosive engineering, is used to cause knock-back when using Rapid Fire. To minimize unnecessary killing, he makes it a point to label all his explosives."
         },
         "4": {
             "name": "Bada Boom Cannonball",
-            "description": "[Load Cannon] Reduces Mana of hit enemies by 400. The first strike in a battle will activate [Load Cannon].",
+            "description": "[Load Cannon] Reduces Mana of hit enemies by {0}. The first strike in a battle will activate [Load Cannon].",
+            "value": {
+                "0": {
+                    "0": "400",
+                    "1": "480",
+                    "2": "580",
+                    "3": "700",
+                    "4": "840",
+                    "5": "1000"
+                }
+            },
             "thumbnail": "heroes/Lakrak/ut/4.png",
             "story": "A cannon shell Lakrak made in collaboration with Miruru Pirates.\nAfter overcoming many hardships, Miruru Pirates and Lakrak joined hands and worked together for this monster of a weapon.\nThe special Miruru gunpowder added a significant amount of destructive power to Lakrak's cannonball."
         }

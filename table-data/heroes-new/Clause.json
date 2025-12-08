@@ -150,25 +150,65 @@
     "uts": {
         "1": {
             "name": "Guardian Knight Insignia",
-            "description": "[Cut Ground] reduces Cooldown by {1}% per enemy hit and increases Stun duration by {2} sec.",
+            "description": "[Cut Ground] reduces Cooldown by {0}% per enemy hit and increases Stun duration by 2 sec.",
+            "value": {
+                "0": {
+                    "0": "5",
+                    "1": "6",
+                    "2": "7",
+                    "3": "8",
+                    "4": "9",
+                    "5": "10"
+                }
+            },
             "thumbnail": "heroes/Clause/ut/1.png",
             "story": "Rune of the Orvel Guardian Knights. A Gold Lion Rune that is given to knights when they first join the Guardian Knights, along with the vow that they will give their lives to protect the kingdom. \nThe rune from the Guardian Knights bolsters a knight's iron will and loyalty, increasing the effectiveness of the Guardian Shield."
         },
         "2": {
             "name": "Firm Determination",
-            "description": "[Shield Strike] reduces the P.DEF of hit enemies by {2}% and their P.Crit Resist by {3} for {1} sec.",
+            "description": "[Shield Strike] reduces the P.DEF of hit enemies by 30% and their P.Crit Resist by {0} for 4 sec.",
+            "value": {
+                "0": {
+                    "0": "250",
+                    "1": "300",
+                    "2": "350",
+                    "3": "400",
+                    "4": "450",
+                    "5": "500"
+                }
+            },
             "thumbnail": "heroes/Clause/ut/2.png",
             "story": "Old wooden shield of the knight of the Iron Wall. \nIt's a precious shield that Clause used when he first started training. He has since engraved the names of his deceased comrades in order to remember his determination as a guardian knight. \nEach time he pushes away enemies with the shield, the knight's firm determination helps him tap into power beyond his limits."
         },
         "3": {
             "name": "Cape of Justice",
-            "description": "[Guardian Shield] increases effect duration by 4.5 sec and boosts DEF increase by 20%.",
+            "description": "[Guardian Shield] increases effect duration by 4.5 sec and boosts DEF increase by {0}%.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            },
             "thumbnail": "heroes/Clause/ut/3.png",
             "story": "A ceremonial cape used on special occasions of Orvelia.\nEver since it was bestowed upon Clause on the day he was knighted, it reminds Clause of his early resolutions. Whenever he wants to quit, exhausted from all the battles, Clause would bring it out and contemplate on it. Young Kasel used to watch Clause do this and dream of becoming a knight."
         },
         "4": {
             "name": "Mittens",
-            "description": "[Vow of Knights] recovers {1}% of Max HP and increases the duration of own P.DEF by {2} sec.",
+            "description": "[Vow of Knights] recovers 6% of Max HP and increases the duration of own P.DEF by {0} sec.",
+            "value": {
+                "0": {
+                    "0": "1.5",
+                    "1": "2",
+                    "2": "2.5",
+                    "3": "3",
+                    "4": "3.5",
+                    "5": "4"
+                }
+            },
             "thumbnail": "heroes/Clause/ut/4.png",
             "story": "A pair of gloves that Clause cherishes the most.\nYoung Kasel and Frey gave him these when Clause was ordained a knight during a particularly cold winter.\nAlthough it wasn't knitted perfectly, each of them knitted each piece with their initials engraved on it."
         }

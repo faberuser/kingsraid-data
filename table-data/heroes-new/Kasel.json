@@ -142,13 +142,33 @@
     "uts": {
         "1": {
             "name": "Proxy's Insignia",
-            "description": "[Judgment Blade] Reduces Cooldown by {1}%, and increases DMG by {2}% upon every use. This effect can be stacked up to max {3} times and is irremovable.",
+            "description": "[Judgment Blade] Reduces Cooldown by 30%, and increases DMG by {0}% upon every use. This effect can be stacked up to max 10 times and is irremovable.",
+            "value": {
+                "0": {
+                    "0": "4",
+                    "1": "4.8",
+                    "2": "5.8",
+                    "3": "7",
+                    "4": "8.4",
+                    "5": "10"
+                }
+            },
             "thumbnail": "heroes/Kasel/ut/1.png",
             "story": "A rune that proves that one is an agent of Lua, the Goddess of Light. The Rune of Proxy is an artifact of the Church of Lua, and it's given to the knight who wields the Aea, the Sword of Light. The Rune of Proxy pushes enemies with the power of light and increases ATK and morale."
         },
         "2": {
             "name": "Emperor's Gauntlet",
-            "description": "[Valiant Dash] Increases DMG by 20% and reduces Cooldown by 10% upon a Crit Hit.",
+            "description": "[Valiant Dash] Increases DMG by {0}% and reduces Cooldown by 10% upon a Crit Hit.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            },
             "thumbnail": "heroes/Kasel/ut/2.png",
             "story": "Gauntlet imbued with the blessing of Lua, the Goddess of Light.\nGauntlet passed down to the kings of the Orbis Continent. Contains the encouragement of the goddess that allows you to use Valiant Dash towards enemies without any fear."
         },
@@ -170,7 +190,17 @@
         },
         "4": {
             "name": "Lua's Tear",
-            "description": "[Goddess Strike] Increases DEF Boost by {1}%, and own DMG dealt to bosses by {2}%.",
+            "description": "[Goddess Strike] Increases DEF Boost by 50%, and own DMG dealt to bosses by {0}%.",
+            "value": {
+                "0": {
+                    "0": "12",
+                    "1": "14",
+                    "2": "17",
+                    "3": "21",
+                    "4": "25",
+                    "5": "30"
+                }
+            },
             "thumbnail": "heroes/Kasel/ut/4.png",
             "story": "An azure-colored jewel that adorns the Holy Sword, Aea.\nIt is an intense condensation of sacred nature's spirit, bound by the teardrops of Lua, and has the mysterious power to guide the Guardian of Holy Sword on the path of light."
         }

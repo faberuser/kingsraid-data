@@ -158,25 +158,65 @@
     "uts": {
         "1": {
             "name": "Aura of Protection",
-            "description": "Increases ACC by 750, and CC ACC by 300 for the duration of skill.",
+            "description": "[Penetration] Increases ACC by 750, and CC ACC by {0} for the duration of skill.",
+            "value": {
+                "0": {
+                    "0": "300",
+                    "1": "360",
+                    "2": "430",
+                    "3": "520",
+                    "4": "630",
+                    "5": "750"
+                }
+            },
             "thumbnail": "heroes/Demia/ut/1.png",
             "story": "A stone known to protect one's soul from being absorbed by evil. It only shines for a while at dawn, so it's hard to find. One day, when Demia was tired from battle, a comrade put this in her hands. Even though it's a comrade that she can't ever see again... Demia always takes this stone when going out to the battlefield. She does her best to uphold her vow to never let the sacrifices of her comrades be in vain."
         },
         "2": {
             "name": "Shield of Resolution",
-            "description": "[Will to Win] increases P.Block chance by {1} and raises the target’s P.DMG taken by {2}% for 5 sec.",
+            "description": "[Will to Win] increases P.Block chance by 100 and raises the target’s P.DMG taken by {0}% for 5 sec.",
+            "value": {
+                "0": {
+                    "0": "15",
+                    "1": "17",
+                    "2": "19",
+                    "3": "22",
+                    "4": "26",
+                    "5": "30"
+                }
+            },
             "thumbnail": "heroes/Demia/ut/2.png",
             "story": "A wooden shield that Demia used as a child for practice. It's been used over a thousand times and is very worn out. \nDemia uses it to regain her composure when she feels like she has hit a limit.\nHer pride as a knight of Orvelia resurfaces when she sees this old, worn-out shield."
         },
         "3": {
             "name": "Chest of Ziltrion",
-            "description": "[Steel Fortress] increases DMG Boost on Block by {1}% and extends the Stun duration of Leap Attack by {2} sec.",
+            "description": "[Steel Fortress] increases DMG Boost on Block by 50% and extends the Stun duration of Leap Attack by {0} sec.",
+            "value": {
+                "0": {
+                    "0": "0.6",
+                    "1": "0.8",
+                    "2": "1.1",
+                    "3": "1.4",
+                    "4": "1.7",
+                    "5": "2.1"
+                }
+            },
             "thumbnail": "heroes/Demia/ut/3.png",
             "story": "An old Chest passed down among the Ziltrion family as an heirloom.\nA photo album of all the family members, from the first to the current generation, is safeguarded by a strong spell inside this chest to protect the family's bloodline. Demia's mother is worried about her daughter, who decided to be the shield of Orvelia. Whenever Demia marches to the battlefield, she prays to this chest for her daughter's safe return."
         },
         "4": {
             "name": "Ring of Ziltrion",
-            "description": "recovers {1}% of P.DEF every sec when blocking, and increases P.DEF gained by {3}% for {2} sec. P.DEF Boost can stack up to {4} times.",
+            "description": "[Spearhead] recovers 40% of P.DEF every sec when blocking, and increases P.DEF gained by {0}% for 5 sec. P.DEF Boost can stack up to 5 times.",
+            "value": {
+                "0": {
+                    "0": "5",
+                    "1": "7",
+                    "2": "9",
+                    "3": "11",
+                    "4": "13",
+                    "5": "15"
+                }
+            },
             "thumbnail": "heroes/Demia/ut/4.png",
             "story": "A ring handed down to the leaders of the Ziltrion Family.\nIt is decorated with a big blue jewel which was bestowed to the Ziltrions by the royal family of Orvel.\nIt was passed down to the leaders as the symbol of the family's eternal loyalty, and these leaders became the vanguards of punishing traitors."
         }

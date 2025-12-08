@@ -158,25 +158,65 @@
     "uts": {
         "1": {
             "name": "Flowers of a Forgotten Dukedom",
-            "description": "[Funeral Rites] reduces the target’s CC Resist by {2} and Magic Block chance by {3} for {1} sec.",
+            "description": "[Funeral Rites] reduces the target’s CC Resist by 400 and Magic Block chance by {0} for 4 sec.",
+            "value": {
+                "0": {
+                    "0": "300",
+                    "1": "340",
+                    "2": "390",
+                    "3": "450",
+                    "4": "520",
+                    "5": "600"
+                }
+            },
             "thumbnail": "heroes/Jane/ut/1.png",
             "story": "A flower of the Dukedom that can no longer be found. It is also known as the Flower of Boundaries that connects life and death, and it gets its nourishment from destruction. A painfully beautiful flower. If you gift it to someone, you will be able to share that person's last moment in a dream."
         },
         "2": {
             "name": "Death-imbued Cushion",
-            "description": "[Mark of Death] When a marked enemy dies, increases own ATK by 5% and Crit DMG by 10% for 20 sec. Stacks up to 16 times.",
+            "description": "[Mark of Death] When a marked enemy dies, increases own ATK by 5% and Crit DMG by {0}% for 20 sec. Stacks up to 16 times.",
+            "value": {
+                "0": {
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
+                }
+            },
             "thumbnail": "heroes/Jane/ut/2.png",
             "story": "The cushion that Jane hugs to sleep inside the coffin. It's imbued with the spirits that fell asleep with her inside the coffin. \nThey constantly give the hollowness of death to Jane."
         },
         "3": {
             "name": "Funeral Doll",
-            "description": "[Day of Ruin] increases DMG by 20% and reduces the target’s M.DEF by 3% for 5 sec each time damage is dealt. This effect can stack up to 10 times.",
+            "description": "[Day of Ruin] increases DMG by {0}% and reduces the target’s M.DEF by 3% for 5 sec each time damage is dealt. This effect can stack up to 10 times.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            },
             "thumbnail": "heroes/Jane/ut/3.png",
             "story": "A doll used in funeral ceremonies in the Dukedom of Gray.\n It is normally made to look like the deceased and put in front of the tombstone. After the Dukedom fell and Jane died, people put this doll beside her body."
         },
         "4": {
             "name": "First Friend Doll",
-            "description": "[Rest in Peace] reduces all DMG taken by {1}% for 10 sec after use. Cooldown set to 40 sec.",
+            "description": "[Rest in Peace] reduces all DMG taken by {0}% for 10 sec after use. Cooldown set to 40 sec.",
+            "value": {
+                "0": {
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
+                }
+            },
             "thumbnail": "heroes/Jane/ut/4.png",
             "story": "A doll that looks just like Rephy, Jane's first friend.\nJane froze in front of a shop selling poison.\nSeeing Jane's eyes locked on the limited edition of Rephy Doll on the shop display, Epis decided to buy her the doll.\nSince the doll could only be purchased with mileage, Epis was almost crying after spending all her pocket money. However, Jane's smile after getting this doll as her first friend was probably worth it."
         }

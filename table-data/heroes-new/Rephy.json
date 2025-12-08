@@ -142,25 +142,65 @@
     "uts": {
         "1": {
             "name": "Haven of Souls",
-            "description": "[Healing Soul] Reduces Mana Cost by 1, and increases the target's CC ACC by 100 for the duration of skill.",
+            "description": "[Healing Soul] Reduces Mana Cost by 1, and increases the target's CC ACC by {0} for the duration of skill.",
+            "value": {
+                "0": {
+                    "0": "100",
+                    "1": "120",
+                    "2": "140",
+                    "3": "170",
+                    "4": "210",
+                    "5": "250"
+                }
+            },
             "thumbnail": "heroes/Rephy/ut/1.png",
             "story": "An ornament that was used for the memorial ceremonies of deceased royalty in ancient times. Inside the green jewel, there's a crystallized tear of the mythical creature that leads people to death. It's used as a resting places to comfort the emptiness within souls."
         },
         "2": {
             "name": "Seed of Birth",
-            "description": "Increases M.DEF Boost by 50% and reduces Cooldown by 12%.",
+            "description": "[Salvation] Increases M.DEF Boost by 50% and reduces Cooldown by {0}%.",
+            "value": {
+                "0": {
+                    "0": "12",
+                    "1": "14",
+                    "2": "17",
+                    "3": "21",
+                    "4": "25",
+                    "5": "30"
+                }
+            },
             "thumbnail": "heroes/Rephy/ut/2.png",
             "story": "A collection of the energy that is created when a life is born. It's very warm and gentle, so souls like it. Rephy uses it to start a fire in a lamp to borrow the power of the souls. When a seed is put in a lamp, it shines brightly, like when the sun was first born."
         },
         "3": {
             "name": "Melody of Blue Star",
-            "description": "Reduces Mana Cost by 1 and heals all allies' HP by 8% of DMG.",
+            "description": "[Soulrush] Reduces Mana Cost by 1 and heals all allies' HP by {0}% of DMG.",
+            "value": {
+                "0": {
+                    "0": "8",
+                    "1": "10",
+                    "2": "12",
+                    "3": "14",
+                    "4": "17",
+                    "5": "20"
+                }
+            },
             "thumbnail": "heroes/Rephy/ut/3.png",
             "story": "A small music box containing the voice of Asiphia, Queen of Blue star. Rephy opens it when guiding souls.\nThe souls heading to the Garden of Rest receive the grace of the Blue Star by listening to the song of Asiphia recorded in the box.\nWhen Asiphia's voice flows, twinkling like starlight, nothing dark or corrupt can come near those souls."
         },
         "4": {
             "name": "Blue Star Candy",
-            "description": "[Spiritual Tuning] Increases Heal Rate by 50%. Targets have their ATK increased by 20% for 4 sec.",
+            "description": "[Spiritual Tuning] Increases Heal Rate by 50%. Targets have their ATK increased by {0}% for 4 sec.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            },
             "thumbnail": "heroes/Rephy/ut/4.png",
             "story": "A specialty of Lamp-keeper Town.\nThis candy that looks like a blue star is Rephy's favorite snack.\nIt is made from 'Jolt out of Sleep,' a blue herb that only grows in Lamp-keeper Town. Every time Rephy leaves town for journey, the village head always puts this candy in his pocket."
         }

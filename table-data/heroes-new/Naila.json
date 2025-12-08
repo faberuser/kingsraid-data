@@ -158,25 +158,65 @@
     "uts": {
         "1": {
             "name": "Tempest Pride",
-            "description": "[Fierce Wind] increases DMG by 50% and P.DMG taken by the target by {1}% for 4 sec.",
+            "description": "[Fierce Wind] increases DMG by 50% and P.DMG taken by the target by {0}% for 4 sec.",
+            "value": {
+                "0": {
+                    "0": "15",
+                    "1": "17",
+                    "2": "19",
+                    "3": "22",
+                    "4": "26",
+                    "5": "30"
+                }
+            },
             "thumbnail": "heroes/Naila/ut/1.png",
             "story": "A ritual offering of ancient religious people who worshipped the wind. It is a precious treasure among the Harpies, and it is said to be given to the most powerful Harpy warrior. The moment one wears this mask, they'll be able to freely use the wind. They can also attack at the speed of light."
         },
         "2": {
             "name": "Himmullis's Scarf",
-            "description": "[Wind Reading] All effects become irremovable and upon activation, heals own HP equal to {1}% of Max HP.",
+            "description": "[Wind Reading] All effects become irremovable and upon activation, heals own HP equal to {0}% of Max HP.",
+            "value": {
+                "0": {
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
+                }
+            },
             "thumbnail": "heroes/Naila/ut/2.png",
             "story": "The scarf that the dead Himmullis had on. Naila always has it on her.\nHimmullis use to always tell Naila to be proud of being a Harpy. \nThe scarf contains the sadness of losing family, and this makes Naila furious."
         },
         "3": {
             "name": "Soul of Gust",
-            "description": "[Dive Bomb] Reduces Mana Cost by 1 and increases DMG by {1}%.",
+            "description": "[Dive Bomb] Reduces Mana Cost by 1 and increases DMG by {0}%.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            },
             "thumbnail": "heroes/Naila/ut/3.png",
             "story": "This piece of amber containing a giant tornado is a treasure of the Harpies.\nAccording to myth, a gust of wind that Divine Beast Tyrfas raised out of rage hit the sap of the holy tree, solidified, and turned into amber. Time passed, and now it's divided into several fragments, but the gust inside has not died out. Harpies consider it to be divine and call it the Soul of Gust."
         },
         "4": {
             "name": "Green Ribbon",
-            "description": "[Tornado Strike] increases the chance of dealing additional DMG by {1}%, and if the target is a Hero, deals additional P.DMG equal to {2}% of the target’s Max HP.",
+            "description": "[Tornado Strike] increases the chance of dealing additional DMG by 10%, and if the target is a Hero, deals additional P.DMG equal to {0}% of the target’s Max HP.",
+            "value": {
+                "0": {
+                    "0": "5",
+                    "1": "6",
+                    "2": "7",
+                    "3": "8.5",
+                    "4": "10.5",
+                    "5": "12.5"
+                }
+            },
             "thumbnail": "heroes/Naila/ut/4.png",
             "story": "A ribbon that holds the grace of a Wind Elemental.\nSelene gave this green ribbon to Naila, who wanted high speed.\nIt contains a spell of Notos, the Wind Elemental, and it grants Naila rapid and powerful attacks."
         }

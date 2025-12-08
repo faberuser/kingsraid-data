@@ -158,25 +158,73 @@
     "uts": {
         "1": {
             "name": "Root of the World Tree",
-            "description": "[Thornbush Forest] Increases DMG by {1}% and reduces Cooldown by {2} sec.",
+            "description": "[Thornbush Forest] Increases DMG by 50% and reduces Cooldown by {0} sec.",
+            "value": {
+                "0": {
+                    "0": "1.2",
+                    "1": "1.4",
+                    "2": "1.7",
+                    "3": "2.1",
+                    "4": "2.5",
+                    "5": "3"
+                }
+            },
             "thumbnail": "heroes/Lorraine/ut/1.png",
             "story": "Proof of the unity between the Druids and the World Tree. The great sages of Elidora have always maintained a deep bond with the World Tree. The roots of the World Tree are proof of the deep bond with the Druids. They attack enemies with supernatural DMG whenever Druids shout the Wrath of the Forest to show nature's fury and hostility."
         },
         "2": {
             "name": "Deadly Belladonna",
-            "description": "[Seed of Belladonna] Reduces Mana Cost by 1, Mana of hit enemies by {1}, and recovers own Mana by {2}.",
+            "description": "[Seed of Belladonna] Reduces Mana Cost by 1, Mana of hit enemies by {0}, and recovers own Mana by {1}.",
+            "value": {
+                "0": {
+                    "0": "200",
+                    "1": "240",
+                    "2": "290",
+                    "3": "350",
+                    "4": "420",
+                    "5": "500"
+                },
+                "1": {
+                    "0": "100",
+                    "1": "120",
+                    "2": "140",
+                    "3": "170",
+                    "4": "210",
+                    "5": "250"
+                }
+            },
             "thumbnail": "heroes/Lorraine/ut/2.png",
             "story": "The beautiful but poisonous Belladonna.\nIt's a dangerous plant that only the Great Sage can handle. The little Belladonna that is mixed up with vines poisons enemies and makes them defenseless against magic attacks."
         },
         "3": {
             "name": "Book of Life",
-            "description": "[Wrath of the Forest] Increases DMG by 20%. Upon a Crit Hit on enemies with 5 or more stacks of Poison, reduces Cooldown by 4%.",
+            "description": "[Wrath of the Forest] Increases DMG by {0}%. Upon a Crit Hit on enemies with 5 or more stacks of Poison, reduces Cooldown by 4%.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            },
             "thumbnail": "heroes/Lorraine/ut/3.png",
             "story": "The Book containing knowledge about all life in the forest.\nA magical book passed down among the guardians of the World Tree since ancient times. After being in the hands of Elidoran sages for a long time, Lorraine now has it in safekeeping."
         },
         "4": {
             "name": "Terrarium of Circulation",
-            "description": "makes Poison effect irremovable and increases DMG dealt to Bosses by {1}%.",
+            "description": "[Poison] makes Poison effect irremovable and increases DMG dealt to Bosses by {0}%.",
+            "value": {
+                "0": {
+                    "0": "30",
+                    "1": "38",
+                    "2": "46",
+                    "3": "54",
+                    "4": "64",
+                    "5": "70"
+                }
+            },
             "thumbnail": "heroes/Lorraine/ut/4.png",
             "story": "A terrarium made with a broken World Tree twig.\nAs breaking of twigs of the World Tree is considered very bad luck, they are normally purified and discarded.\nHowever, Lorraine received a new revelation from it and decided to make a small terrarium out of it."
         }

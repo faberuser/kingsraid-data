@@ -142,25 +142,65 @@
     "uts": {
         "1": {
             "name": "Reminiscence of Escape",
-            "description": "[Slash, Blade of Judgment!] Increases DMG by 20% and reduces Mana Cost by 1.",
+            "description": "[Slash, Blade of Judgment!] Increases DMG by {0}% and reduces Mana Cost by 1.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            },
             "thumbnail": "heroes/Kirze/ut/1.png",
             "story": "The first makeshift weapon Kirze made when she escaped from the Demon lab. They were made in haste-\nsince this was her first time she resonated with the crimson arcane crystals-\njust so that she can escape.\nThis pair of daggers are barely finished, crude and on the verge of breaking.\n\nThese daggers are the very weapons that saved her and the other children.\nThey hold important memory, so she carries them as keepsakes."
         },
         "2": {
             "name": "Remnant of Hobby",
-            "description": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional {1} and increases DEF Penetration of all allies by {2} for the duration of Skill.",
+            "description": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional {0} and increases DEF Penetration of all allies by 250 for the duration of Skill.",
+            "value": {
+                "0": {
+                    "0": "100",
+                    "1": "120",
+                    "2": "140",
+                    "3": "170",
+                    "4": "210",
+                    "5": "250"
+                }
+            },
             "thumbnail": "heroes/Kirze/ut/2.png",
             "story": "Kirze adores dolls ever since she was a child, but all she had were rag dolls her mother made for her since her family did not have good living.\nWhile living with her mother, Kirze was able to learn some tips and tricks for sewing and doll making.\n\nAfter all this time, she still loves dolls, but now she makes them not only for herself but for others as well.\nEspecially for children who lost their loved ones at the hands of rouge Demons."
         },
         "3": {
             "name": "Lotus of Crimson Crystal",
-            "description": "Increases DMG of [Bloom, Crimson Flower!] by 40%, and upon gaining a stack of [Arcane Crystal Energy], there is a 40% chance to gain 3 additional stacks.",
+            "description": "Increases DMG of [Bloom, Crimson Flower!] by 40%, and upon gaining a stack of [Arcane Crystal Energy], there is a {0}% chance to gain 3 additional stacks.",
+            "value": {
+                "0": {
+                    "0": "40",
+                    "1": "48",
+                    "2": "58",
+                    "3": "70",
+                    "4": "84",
+                    "5": "100"
+                }
+            },
             "thumbnail": "heroes/Kirze/ut/3.png",
             "story": "Crystal fragments sometimes sprout from Kirze's body and fall off.\nUnable to toss away what used to be part of her body, she picks them up and collects them.\nWhile being unsure of what to do with her growing collection, she stopped by Orvel, and a glass decoration in May's General Shop caught her eyes.\n\nKirze thought it was beautiful, and with high hopes, gave all the fragments she collected to May.\n\nIn return, May gave her the first piece she made using those fragments - this crimson lotus trinket as a gift."
         },
         "4": {
             "name": "Moment of Peace",
-            "description": "[End to Evil Deeds!] Increases Crit Chance by an additional {1} and the duration of CC increase effect by an additional {2}%.",
+            "description": "[End to Evil Deeds!] Increases Crit Chance by an additional 250 and the duration of CC increase effect by an additional {0}%.",
+            "value": {
+                "0": {
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
+                }
+            },
             "thumbnail": "heroes/Kirze/ut/4.png",
             "story": "Sewing tool that Kirze uses for her hobby.\nIt is a must for her doll making pastime.\nRecently she was able to get her hands on special kinds of string and cotton.\nShe can happily make better dolls with them.\n\nOn the side note, the scissors are miniature version of her weapon."
         }

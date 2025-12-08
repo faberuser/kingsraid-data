@@ -142,25 +142,65 @@
     "uts": {
         "1": {
             "name": "Pendant of Darkness",
-            "description": "[Raven Storm] Gains immunity to CC for the skill's duration, and reduces the target's Mana by 100.",
+            "description": "[Raven Storm] Gains immunity to CC for the skill's duration, and reduces the target's Mana by {0}.",
+            "value": {
+                "0": {
+                    "0": "100",
+                    "1": "120",
+                    "2": "140",
+                    "3": "170",
+                    "4": "210",
+                    "5": "250"
+                }
+            },
             "thumbnail": "heroes/Maria/ut/1.png",
             "story": "Ashes of a grey messenger that announces the end. These are the ashes of the raven that flew into the Church of Lua right before the Dukedom of Gray collapsed a hundred years ago. Everyone ignored the ominous messenger, and only Priestess Maria cared for it until its last day. Even after its death, it has helped Maria expand her area of darkness by pouring its dark energy on her."
         },
         "2": {
             "name": "Spirit's Sabaton",
-            "description": "[Claw of Restriction] Increases DMG by 50% and increases M.Weakness of the affected enemy by 10% for 10 sec.",
+            "description": "[Claw of Restriction] Increases DMG by 50% and increases M.Weakness of the affected enemy by {0}% for 10 sec.",
+            "value": {
+                "0": {
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
+                }
+            },
             "thumbnail": "heroes/Maria/ut/2.png",
             "story": "A claw armor that Maria gifted to Lea's messenger. \nThe claw armor that is made with fancy gold contains a binding curse that never lets go of any enemy that it grabs. Enemies bound by the messenger's Sabaton will become defenseless against magic attacks and will receive great damage."
         },
         "3": {
             "name": "Turbulent Dance",
-            "description": "[Area of Darkness] increases DMG by 20%, and its last attack reduces the target’s M.DEF by 30% for 7 sec.",
+            "description": "[Area of Darkness] increases DMG by {0}%, and its last attack reduces the target’s M.DEF by 30% for 7 sec.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            },
             "thumbnail": "heroes/Maria/ut/3.png",
             "story": "A magic mirror that summons Tempest Elemental Aerial.\nThis magical mirror is made with an obsidian stone from Pandemonium, and Tempest Elemental Aerial sleeps inside it. Whenever Raven Storm is used, Aerial awakes and amplifies its effect with its violent dance."
         },
         "4": {
             "name": "Abyssal Letter",
-            "description": "[Black Wind] Attacks enemies inflicted with Curse of Lea every 10 sec, dealing M.DMG equal to 200% of ATK, and increasing own ATK by 2% for 20 sec per hit enemy. This effect can be stacked up to max 10 times.",
+            "description": "[Black Wind] Attacks enemies inflicted with Curse of Lea every 10 sec, dealing M.DMG equal to 200% of ATK, and increasing own ATK by {0}% for 20 sec per hit enemy. This effect can be stacked up to max 10 times.",
+            "value": {
+                "0": {
+                    "0": "2",
+                    "1": "2.4",
+                    "2": "2.9",
+                    "3": "3.5",
+                    "4": "4.2",
+                    "5": "5"
+                }
+            },
             "thumbnail": "heroes/Maria/ut/4.png",
             "story": "A letter of notice issued from Lea's Messenger.\nThis letter created by the Essence of Darkness contains a warning and the terms of the contract that Maria made with the darkness."
         }

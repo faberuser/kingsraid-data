@@ -158,25 +158,65 @@
     "uts": {
         "1": {
             "name": "Skywind Feather Decoration",
-            "description": "Reduces the target's Heal Rate by 30% and the target's Mana by 100 for 10 sec.",
+            "description": "[Thunderbolt] Reduces the target's Heal Rate by 30% and the target's Mana by {0} for 10 sec.",
+            "value": {
+                "0": {
+                    "0": "100",
+                    "1": "120",
+                    "2": "140",
+                    "3": "170",
+                    "4": "210",
+                    "5": "250"
+                }
+            },
             "thumbnail": "heroes/Kaulah/ut/1.png",
             "story": "Feather from a thunderbird, guardian of rain and thunder. The high ranking shamans of the Skywind Tribe commune through the feathers of a thunderbird. Shamans use this feather accessory when using Swift Wind \nto become one with the thunderbird, increasing ATK and ATK Spd of all allies."
         },
         "2": {
             "name": "Thunderbird Mask",
-            "description": "[Healing Rain] Absorbs DMG of 200% ATK and creates a shield that grants Immunity to CC for 1 sec when used upon allies with full HP.",
+            "description": "[Healing Rain] Absorbs DMG of {0}% ATK and creates a shield that grants Immunity to CC for 1 sec when used upon allies with full HP.",
+            "value": {
+                "0": {
+                    "0": "200",
+                    "1": "240",
+                    "2": "290",
+                    "3": "350",
+                    "4": "420",
+                    "5": "500"
+                }
+            },
             "thumbnail": "heroes/Kaulah/ut/2.png",
             "story": "Mask of the auspicious thunderbird that brings rain. \nOnce the Healing Droplets of the Skywind shaman begin, the soul of the thunderbird stays by those who were hit by Healing Rain and recovers their tired bodies."
         },
         "3": {
             "name": "Thunderstone Bracelet",
-            "description": "[Swift Wind] Reduces Mana Cost by 1, and additionally increases Crit DMG by 20%.",
+            "description": "[Swift Wind] Reduces Mana Cost by 1, and additionally increases Crit DMG by {0}%.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            },
             "thumbnail": "heroes/Kaulah/ut/3.png",
             "story": "A bracelet made from a holy thunderstone.\nAlso known as Thunder God's Tear, the thunderstone on the bracelet maximizes the power of Thunderbolt. It's passed down through generations among the orc shamans."
         },
         "4": {
             "name": "Skywind Stone",
-            "description": "[Chain Lightning] Reduces the target's ATK Spd by 250 and increases M.DMG it takes by 10% for 10 sec.",
+            "description": "[Chain Lightning] Reduces the target's ATK Spd by 250 and increases M.DMG it takes by {0}% for 10 sec.",
+            "value": {
+                "0": {
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
+                }
+            },
             "thumbnail": "heroes/Kaulah/ut/4.png",
             "story": "A mysterious stone that summons Thunderbird.\nHolding the Thunder Elemental inside, it is a legendary stone that can infinitely bring forth the power of the Thunder Bird."
         }

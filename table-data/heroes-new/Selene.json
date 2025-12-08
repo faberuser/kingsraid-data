@@ -130,9 +130,9 @@
             "0": {
                 "0": "20",
                 "1": "24",
-                "2": "28",
-                "3": "34",
-                "4": "41",
+                "2": "29",
+                "3": "35",
+                "4": "42",
                 "5": "50"
             },
             "1": {
@@ -150,25 +150,65 @@
     "uts": {
         "1": {
             "name": "Silver Arrow",
-            "description": "[Arrow Rain] Reduces Mana Cost by 1 and Cooldown by 1 sec.",
+            "description": "[Arrow Rain] Reduces Mana Cost by 1 and Cooldown by {0} sec.",
+            "value": {
+                "0": {
+                    "0": "1",
+                    "1": "1.2",
+                    "2": "1.4",
+                    "3": "1.7",
+                    "4": "2.1",
+                    "5": "2.5"
+                }
+            },
             "thumbnail": "heroes/Selene/ut/1.png",
             "story": "Arrowhead imbued with the blessing of the Goddess of Hunting and the Moon. An ancient artifact that is passed down to the best Elven hunter. It is said that the Goddess of Hunting and the Moon cared for the Elves who protected the holy forest, and she lent her power to them through the artifact. The silver arrow imbued with the power of the Goddess of the Moon has a mysterious power that allows the user to defeat his enemy and boost DMG."
         },
         "2": {
             "name": "Wind Spirit Seal Stone",
-            "description": "Increases DMG by 20% and has a 15% chance to summon 1 Rush Arrow upon a normal attack.",
+            "description": "[Rush] Increases DMG by {0}% and has a 15% chance to summon 1 Rush Arrow upon a normal attack.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            },
             "thumbnail": "heroes/Selene/ut/2.png",
             "story": "A stone in which a reckless wind bow elemental is sealed. \nThe elemental caused all kinds of trouble with its evil tricks, so it was sealed by the Fairy King. \nThe belligerent wind elemental infuses arrows with destructive wind, increasing its killing power by 5 times or more."
         },
         "3": {
             "name": "Sharpshooter's Gloves",
-            "description": "[Moonlight Flash] Increases DMG by 20%, and P.DMG the target takes by 20% for 10 sec.",
+            "description": "[Moonlight Flash] Increases DMG by {0}%, and P.DMG the target takes by 20% for 10 sec.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            },
             "thumbnail": "heroes/Selene/ut/3.png",
             "story": "Gloves blessed by a Wind Elemental.\nDosarta gave the gloves to her sister, Selene, as a present in gratitude for her hard work in protecting the peace of Elves. They were made with cloth imbued with the magic of a Wind Elemental, Sylphid, on which Dosarta added some embroidery with moonlight thread."
         },
         "4": {
             "name": "Circlet of Wind",
-            "description": "[Moonlight Arrow] increases normal attack DMG by 50% and DMG to Non-Hero enemies by 2% per stack.",
+            "description": "[Moonlight Arrow] increases normal attack DMG by 50% and DMG to Non-Hero enemies by {0}% per stack.",
+            "value": {
+                "0": {
+                    "0": "2",
+                    "1": "2.4",
+                    "2": "2.9",
+                    "3": "3.5",
+                    "4": "4.2",
+                    "5": "5"
+                }
+            },
             "thumbnail": "heroes/Selene/ut/4.png",
             "story": "A circlet that holds the grace of Notos and Wind Elementals.\nThe Circlet of Wind is passed down through the generations to the best Elven archer, and Selene is its current owner."
         }

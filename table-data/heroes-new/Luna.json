@@ -158,25 +158,65 @@
     "uts": {
         "1": {
             "name": "Never-Melting Snow Flower",
-            "description": "[Pew!] Increases DMG by 20%, and upon Critical Hit, recovers Mana by 200.",
+            "description": "[Pew!] Increases DMG by {0}%, and upon Critical Hit, recovers Mana by 200.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            },
             "thumbnail": "heroes/Luna/ut/1.png",
             "story": "A legendary snowfield flower that blossomed from the never melting land of Windland Snow Mountain. It is said that it makes the energy of its master's body flow clearly and beautifully. An item that makes Luna's pure energy shine even brighter."
         },
         "2": {
             "name": "Moonlight Carrot",
-            "description": "[Look Out Above!] Increases DMG by 20% and reduces Cooldown by 10% upon a Crit Hit.",
+            "description": "[Look Out Above!] Increases DMG by {0}% and reduces Cooldown by 10% upon a Crit Hit.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            },
             "thumbnail": "heroes/Luna/ut/2.png",
             "story": "A carrot that grew from receiving moonlight a thousand times. \nThose hit by this carrot will have all evil stripped away from them, and they'll be able to tell apart good from bad."
         },
         "3": {
             "name": "Golden Bell of Luck",
-            "description": "[Twinkle Twinkle] The Crit Chance Reduction effect becomes irremovable, and increases the duration by 2 sec.",
+            "description": "[Twinkle Twinkle] The Crit Chance Reduction effect becomes irremovable, and increases the duration by {0} sec.",
+            "value": {
+                "0": {
+                    "0": "2",
+                    "1": "2.4",
+                    "2": "2.9",
+                    "3": "3.5",
+                    "4": "4.2",
+                    "5": "5"
+                }
+            },
             "thumbnail": "heroes/Luna/ut/3.png",
             "story": "A golden bell that brings luck.\nIt's Luna's second favorite thing after carrots, and it brightly glitters when she walks and trots. The sound of the golden bell has a mystical power that summons luck from her homeland."
         },
         "4": {
             "name": "Carrot Cake",
-            "description": "[Gotcha!] reduces Cooldown by {1} sec and cleanses self when affected by a CC once every 20 sec.",
+            "description": "[Gotcha!] reduces Cooldown by {0} sec and cleanses self when affected by a CC once every 20 sec.",
+            "value": {
+                "0": {
+                    "0": "2",
+                    "1": "2.4",
+                    "2": "2.9",
+                    "3": "3.5",
+                    "4": "4.2",
+                    "5": "5"
+                }
+            },
             "thumbnail": "heroes/Luna/ut/4.png",
             "story": "Juno's special carrot cake.\nThis special carrot cake was made especially for Luna, who misses her family back in her hometown and the carrots she used to eat.\nAs it has the exact same taste like the ones Luna would eat back at home, the cake has become Luna's new soul food."
         }
