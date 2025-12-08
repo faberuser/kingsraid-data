@@ -22,28 +22,28 @@
             "name": "Judgment Blade",
             "cost": "2",
             "cooldown": "12",
-            "description": "Deals [ffc800]267*(1+0.3*Skill Level)+168.3% ATK[-] Physical DMG to enemies in the frontal area [64ffff]{2} times[-] and inflicts [fa96fa]Down[-] for [64ffff]{3} sec[-].\n[fa96fa][God's Proxy] :[-] Damage increases by [64ff64]{4}%[-], attack range increases by [64ff64]{5}%[-], and Down duration increases by [64ff64]{6} sec[-].",
+            "description": "Deals [ffc800]267*(1+0.3*Skill Level)+168.3% ATK[-] Physical DMG to enemies in the frontal area [64ffff]2 times[-] and inflicts [fa96fa]Down[-] for [64ffff]1.5 sec[-].\n[fa96fa][God's Proxy] :[-] Damage increases by [64ff64]25%[-], attack range increases by [64ff64]50%[-], and Down duration increases by [64ff64]0.5 sec[-].",
             "thumbnail": "heroes/Kasel/skills/1.png"
         },
         "2": {
             "name": "Valiant Dash",
             "cost": "2",
             "cooldown": "8",
-            "description": "Dashes behind the enemy and deals [ffc800]233*(1+0.3*Skill Level)+146.9% ATK[-] Physical DMG to enemies in range [64ffff]{2} times[-], increasing Physical DMG taken by [ff6464]{4}%[-] for [64ffff]{3} sec[-].\n[fa96fa][God's Proxy] :[-] Damage increases by [64ff64]{5}%[-], skill cast time is reduced by [ff6464]{6} sec[-], and Critical Rate is applied [64ff64]{7} higher[-].",
+            "description": "Dashes behind the enemy and deals [ffc800]233*(1+0.3*Skill Level)+146.9% ATK[-] Physical DMG to enemies in range [64ffff]3 times[-], increasing Physical DMG taken by [ff6464]30%[-] for [64ffff]4 sec[-].\n[fa96fa][God's Proxy] :[-] Damage increases by [64ff64]25%[-], skill cast time is reduced by [ff6464]1 sec[-], and Critical Rate is applied [64ff64]500 higher[-].",
             "thumbnail": "heroes/Kasel/skills/2.png"
         },
         "3": {
             "name": "Proxy of God",
             "cost": "3",
             "cooldown": "20",
-            "description": "Deals [ffc800]200*(1+0.3*Skill Level)+126% ATK[-] Physical DMG to nearby enemies and inflicts [fa96fa]Stun[-] for [64ffff]{2} sec[-]. Then enters [fa96fa][God's Proxy][-] state for [64ffff]{3} sec[-], empowering skills.\n[fa96fa][God's Proxy] :[-] ATK increases by [ffc800]264*(1+0.3*Skill Level)[-], Attack Speed by [64ff64]30%[-], Physical Evasion by [64ff64]{6}[-], Normal Attack DMG by [64ff64]{7}%[-], and Status Resistance by [64ff64]{8}[-]. This effect cannot be dispelled.",
+            "description": "Deals [ffc800]200*(1+0.3*Skill Level)+126% ATK[-] Physical DMG to nearby enemies and inflicts [fa96fa]Stun[-] for [64ffff]2 sec[-]. Then enters [fa96fa][God's Proxy][-] state for [64ffff]10 sec[-], empowering skills.\n[fa96fa][God's Proxy] :[-] ATK increases by [ffc800]264*(1+0.3*Skill Level)[-], Attack Speed by [64ff64]30%[-], Physical Evasion by [64ff64]300[-], Normal Attack DMG by [64ff64]150%[-], and Status Resistance by [64ff64]600[-]. This effect cannot be dispelled.",
             "thumbnail": "heroes/Kasel/skills/3.png"
         },
         "4": {
             "name": "Goddess Strike",
             "cost": null,
             "cooldown": null,
-            "description": "Magic DEF increases by [64ff64]85*(1+0.3*Skill Level)[-], and Magic Evasion increases by [64ff64]{2}[-].\nWhen [fa96fa][Holy Sword Ea][-] is equipped, damage dealt to non-hero enemies increases by [64ff64]{3}%[-], and damage taken is reduced by [64ff64]{4}%[-].",
+            "description": "Magic DEF increases by [64ff64]85*(1+0.3*Skill Level)[-], and Magic Evasion increases by [64ff64]250[-].\nWhen [fa96fa][Holy Sword Ea][-] is equipped, damage dealt to non-hero enemies increases by [64ff64]30%[-], and damage taken is reduced by [64ff64]30%[-].",
             "thumbnail": "heroes/Kasel/skills/4.png"
         }
     },
@@ -73,41 +73,41 @@
         "t3": {
             "1": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Increases DMG by 40%.",
                     "thumbnail": "heroes/Kasel/perks/s1l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "When there is only 1 enemy, damage increases by 100%.",
                     "thumbnail": "heroes/Kasel/perks/s1d.png"
                 }
             },
             "2": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is reduced by 1000.",
                     "thumbnail": "heroes/Kasel/perks/s2l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "On hit, reduces the target’s Physical DEF by 35% for 10 sec.",
                     "thumbnail": "heroes/Kasel/perks/s2d.png"
                 }
             },
             "3": {
                 "light": {
-                    "effect": "Increases ATK Boost by [64ff64]{1}[-]%.",
+                    "effect": "Reduces Physical DMG taken by 25% during the duration.",
                     "thumbnail": "heroes/Kasel/perks/s3l.png"
                 },
                 "dark": {
-                    "effect": "Increases ATK Boost by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost increases by 1000, but damage dealt to non-hero enemies increases by 100% during the duration.",
                     "thumbnail": "heroes/Kasel/perks/s3d.png"
                 }
             },
             "4": {
                 "light": {
-                    "effect": "Increases DEF Boost by [64ff64]{1}[-]%",
+                    "effect": "Physical Evasion increases by 150.\nOn evasion, restores 5% of Max HP. This effect can only trigger once every 3 sec.",
                     "thumbnail": "heroes/Kasel/perks/s4l.png"
                 },
                 "dark": {
-                    "effect": "Increases DEF Boost by [64ff64]{1}[-]%",
+                    "effect": "Damage taken from Heroes is reduced by 15%.",
                     "thumbnail": "heroes/Kasel/perks/s4d.png"
                 }
             }
@@ -118,14 +118,24 @@
                 "thumbnail": "heroes/Kasel/perks/light.png"
             },
             "dark": {
-                "effect": "On hit, deals additional Physical DMG equal to {1}% of ATK. Applied at {2}% against non-hero enemies and can only trigger once every {3} sec.",
+                "effect": "On hit, deals additional Physical DMG equal to 80% of ATK. Applied at 160% against non-hero enemies and can only trigger once every 0.5 sec.",
                 "thumbnail": "heroes/Kasel/perks/dark.png"
             }
         }
     },
     "uw": {
         "name": "The Holy Sword, Aea",
-        "description": "On hit, has a {1}% chance to deal additional Physical DMG equal to {2}% of ATK. This effect can only trigger once every {3} sec.",
+        "description": "On hit, has a 35% chance to deal additional Physical DMG equal to {0}% of ATK. This effect can only trigger once every 0.5 sec.",
+        "value": {
+            "0": {
+                "0": "160",
+                "1": "192",
+                "2": "230",
+                "3": "276",
+                "4": "331",
+                "5": "400"
+            }
+        },
         "thumbnail": "heroes/Kasel/uw.png",
         "story": "A legendary Holy Sword given to the world by Lua. This legendary artifact materialized 100 years ago when the Demons invaded the Orbis Continent through the Dimensional Gate. According to the legend, the Hero King Kyle used this sword to pierce the heart of the Dark Lord Angmund and brought an end to the war. However, the two simply vanished, and only Aea remained."
     },
@@ -144,7 +154,17 @@
         },
         "3": {
             "name": "Crown of Light",
-            "description": "[Proxy of God] increases Dodge Chance by an additional {1} and ATK Spd by an additional {2} for the duration of the Skill.",
+            "description": "[Proxy of God] increases Dodge Chance by an additional 250 and ATK Spd by an additional {0} for the duration of the Skill.",
+            "value": {
+                "0": {
+                    "0": "200",
+                    "1": "240",
+                    "2": "290",
+                    "3": "350",
+                    "4": "420",
+                    "5": "500"
+                }
+            },
             "thumbnail": "heroes/Kasel/ut/3.png",
             "story": "The crown of Kyle, the king of Orvelia and the Hero of Holy Sword.\nWorn by King Kyle during his expedition to kill Dark Lord Angmund 100 years ago, this golden grown contains the will of the Goddess of Light. After Angmund was defeated, the Crown of Light, along with the Holy Sword, Aea, was left in the place where the king disappeared."
         },

@@ -22,28 +22,28 @@
             "name": "Fire Needle",
             "cost": "2",
             "cooldown": "5",
-            "description": "Deals [ffc800]305*(1+0.3*Skill Level)+81.8% ATK[-] Magic DMG to a random enemy [64ffff]{2} times[-]. Each hit inflicts [fa96fa]Stun[-] for [64ffff]{3} sec[-]. When landing a Critical Hit, restores Mana by [64ff64]{5}[-]. Non-hero enemies take additional Magic DMG equal to [ffc800]1.4% ATK[-] per [fa96fa][Ember][-] stack.",
+            "description": "Deals [ffc800]305*(1+0.3*Skill Level)+81.8% ATK[-] Magic DMG to a random enemy [64ffff]5 times[-]. Each hit inflicts [fa96fa]Stun[-] for [64ffff]0.6 sec[-]. When landing a Critical Hit, restores Mana by [64ff64]100[-]. Non-hero enemies take additional Magic DMG equal to [ffc800]1.4% ATK[-] per [fa96fa][Ember][-] stack.",
             "thumbnail": "heroes/Cleo/skills/1.png"
         },
         "2": {
             "name": "Fire Ball",
             "cost": "3",
             "cooldown": "10",
-            "description": "Deals [ffc800]1259*(1+0.3*Skill Level)+450.2% ATK[-] Magic DMG to enemies in the target area and inflicts [fa96fa]Stun[-] for [64ffff]{2} sec[-]. Non-hero enemies take [ffc800]1759*(1+0.3*Skill Level)+850.2% ATK[-] plus additional Magic DMG equal to [ffc800]7.8% ATK[-] per [fa96fa][Ember][-] stack.",
+            "description": "Deals [ffc800]1259*(1+0.3*Skill Level)+450.2% ATK[-] Magic DMG to enemies in the target area and inflicts [fa96fa]Stun[-] for [64ffff]1.2 sec[-]. Non-hero enemies take [ffc800]1759*(1+0.3*Skill Level)+850.2% ATK[-] plus additional Magic DMG equal to [ffc800]7.8% ATK[-] per [fa96fa][Ember][-] stack.",
             "thumbnail": "heroes/Cleo/skills/2.png"
         },
         "3": {
             "name": "Fire Rain",
             "cost": "4",
             "cooldown": "15",
-            "description": "Deals [ffc800]638*(1+0.3*Skill Level)+136.2% ATK[-] Magic DMG to all enemies [64ffff]{2} times[-]. This attack applies Critical DMG [64ff64]{3}% higher[-], and non-hero enemies take additional Magic DMG equal to [ffc800]2.3% ATK[-] per [fa96fa][Ember][-] stack.",
+            "description": "Deals [ffc800]638*(1+0.3*Skill Level)+136.2% ATK[-] Magic DMG to all enemies [64ffff]5 times[-]. This attack applies Critical DMG [64ff64]150% higher[-], and non-hero enemies take additional Magic DMG equal to [ffc800]2.3% ATK[-] per [fa96fa][Ember][-] stack.",
             "thumbnail": "heroes/Cleo/skills/3.png"
         },
         "4": {
             "name": "Flame Diffusion",
             "cost": null,
             "cooldown": null,
-            "description": "On hit, applies an [fa96fa][Ember][-] stack to the target. When attacking a target at max stacks, restores Mana by [64ff64]{1}[-].\n[fa96fa][Ember] :[-] Deals [ffc800]43*(1+0.3*Skill Level)+20% ATK[-] Damage over Time every [64ffff]1 sec[-] for [64ffff]{2} sec[-], and stacks up to [64ffff]{4} times[-].",
+            "description": "On hit, applies an [fa96fa][Ember][-] stack to the target. When attacking a target at max stacks, restores Mana by [64ff64]30[-].\n[fa96fa][Ember] :[-] Deals [ffc800]43*(1+0.3*Skill Level)+20% ATK[-] Damage over Time every [64ffff]1 sec[-] for [64ffff]20 sec[-], and stacks up to [64ffff]12 times[-].",
             "thumbnail": "heroes/Cleo/skills/4.png"
         }
     },
@@ -73,41 +73,41 @@
         "t3": {
             "1": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "When there are 5 or more enemies, damage is reduced by 50%, but all enemies are attacked.",
                     "thumbnail": "heroes/Cleo/perks/s1l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost increases by 1000, but damage increases by 100%.",
                     "thumbnail": "heroes/Cleo/perks/s1d.png"
                 }
             },
             "2": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "When hitting an enemy with 10 or more [Ember] stacks, Magic DMG taken increases by 40% for 10 sec.",
                     "thumbnail": "heroes/Cleo/perks/s2l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Cooldown is reduced by 10% per enemy hit.",
                     "thumbnail": "heroes/Cleo/perks/s2d.png"
                 }
             },
             "3": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Increases DMG by 40%.",
                     "thumbnail": "heroes/Cleo/perks/s3l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "When there are 5 or more enemies, Mana cost is reduced by 2000 for 10 sec. This effect can only trigger once every 10 sec.",
                     "thumbnail": "heroes/Cleo/perks/s3d.png"
                 }
             },
             "4": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Each [Ember] stack reduces the target’s Magic DEF by 2.5%.",
                     "thumbnail": "heroes/Cleo/perks/s4l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Every 10 sec, stuns one enemy with [Ember] for 1.2 sec. If the target has 10 or more [Ember] stacks, stuns for 1.8 sec instead.",
                     "thumbnail": "heroes/Cleo/perks/s4d.png"
                 }
             }

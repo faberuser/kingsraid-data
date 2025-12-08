@@ -22,28 +22,28 @@
             "name": "Rapid Fire",
             "cost": "2",
             "cooldown": "8",
-            "description": "Deals [ffc800]739(1+0.3Skill Level)+355.4% of Attack Power[-] as Physical Damage to enemies in a straight line ahead, stunning them for [64ffff]{2} sec[-]. Deals an additional [ffc800]339(1+0.3Skill Level)+185.4% of Attack Power[-] as Physical Damage to non-hero enemies.\n[fa96fa][Experiment Successful!][-]: No cooldown is incurred.",
+            "description": "Deals [ffc800]739(1+0.3Skill Level)+355.4% of Attack Power[-] as Physical Damage to enemies in a straight line ahead, stunning them for [64ffff]1.8 sec[-]. Deals an additional [ffc800]339(1+0.3Skill Level)+185.4% of Attack Power[-] as Physical Damage to non-hero enemies.\n[fa96fa][Experiment Successful!][-]: No cooldown is incurred.",
             "thumbnail": "heroes/Lakrak/skills/1.png"
         },
         "2": {
             "name": "Smoke Bomb",
             "cost": "2",
             "cooldown": "15",
-            "description": "Deals [ffc800]443(1+0.3Skill Level)+213.5% of Attack Power[-] as Physical Damage to the target and nearby enemies, inflicting them with [fa96fa][Explosive Material][-] for [64ffff]{2} sec[-], which increases Physical Damage taken by [ff6464]{3}%[-] and [fa96fa]blinds[-] them for [64ffff]{4} sec[-].\n[fa96fa][Experiment Successful!][-]: Removes beneficial effects from enemies within range.",
+            "description": "Deals [ffc800]443(1+0.3Skill Level)+213.5% of Attack Power[-] as Physical Damage to the target and nearby enemies, inflicting them with [fa96fa][Explosive Material][-] for [64ffff]7 sec[-], which increases Physical Damage taken by [ff6464]25%[-] and [fa96fa]blinds[-] them for [64ffff]2.4 sec[-].\n[fa96fa][Experiment Successful!][-]: Removes beneficial effects from enemies within range.",
             "thumbnail": "heroes/Lakrak/skills/2.png"
         },
         "3": {
             "name": "Glue Bomb",
             "cost": "2",
             "cooldown": "12",
-            "description": "Attaches a sticky bomb to a random enemy.\nAfter [64ffff]{1} sec[-], the bomb explodes, dealing [ffc800]1500(1+0.3Skill Level)+755.2% of Attack Power[-] as Physical Damage to the target and nearby enemies and [fa96fa]stunning[-] them for [64ffff]{3} sec[-]. Enemies with [fa96fa][Explosive Material][-] take an additional [ffc800]1001(1+0.3Skill Level)+477.5% of Attack Power[-] as Physical Damage.\n[fa96fa][Experiment Successful!][-]: The bomb explodes immediately upon attaching, triggering its effects.",
+            "description": "Attaches a sticky bomb to a random enemy.\nAfter [64ffff]3 sec[-], the bomb explodes, dealing [ffc800]1500(1+0.3Skill Level)+755.2% of Attack Power[-] as Physical Damage to the target and nearby enemies and [fa96fa]stunning[-] them for [64ffff]1.8 sec[-]. Enemies with [fa96fa][Explosive Material][-] take an additional [ffc800]1001(1+0.3Skill Level)+477.5% of Attack Power[-] as Physical Damage.\n[fa96fa][Experiment Successful!][-]: The bomb explodes immediately upon attaching, triggering its effects.",
             "thumbnail": "heroes/Lakrak/skills/3.png"
         },
         "4": {
             "name": "Load Cannon",
             "cost": null,
             "cooldown": null,
-            "description": "On Normal Attack, has a [64ffff]{1}%[-] chance to fire a shell that deals [ffc800]345(1+0.3Skill Level)+166.3% of Attack Power[-] as Physical Damage to the target and nearby enemies, [fa96fa]stunning[-] them for [64ffff]{3} sec[-].\nAt the end of each skill, attempts an [fa96fa][Experiment][-]. There is a [64ffff]{4}%[-] chance for success, which empowers the next skill. Empowered skills do not attempt an [fa96fa][Experiment][-].",
+            "description": "On Normal Attack, has a [64ffff]15%[-] chance to fire a shell that deals [ffc800]345(1+0.3Skill Level)+166.3% of Attack Power[-] as Physical Damage to the target and nearby enemies, [fa96fa]stunning[-] them for [64ffff]1.2 sec[-].\nAt the end of each skill, attempts an [fa96fa][Experiment][-]. There is a [64ffff]50%[-] chance for success, which empowers the next skill. Empowered skills do not attempt an [fa96fa][Experiment][-].",
             "thumbnail": "heroes/Lakrak/skills/4.png"
         }
     },
@@ -73,41 +73,41 @@
         "t3": {
             "1": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Increases DMG by 40%.",
                     "thumbnail": "heroes/Lakrak/perks/s1l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Reduces the target's Mana by 700.",
                     "thumbnail": "heroes/Lakrak/perks/s1d.png"
                 }
             },
             "2": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is reduced by 1000.",
                     "thumbnail": "heroes/Lakrak/perks/s2l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Increases the duration of Blind by 1.2 sec.",
                     "thumbnail": "heroes/Lakrak/perks/s2d.png"
                 }
             },
             "3": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is increased by 1000, and the number of bomb placements is changed to 2.",
                     "thumbnail": "heroes/Lakrak/perks/s3l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Changes the target to the enemy with the highest ATK.",
                     "thumbnail": "heroes/Lakrak/perks/s3d.png"
                 }
             },
             "4": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Shell activation chance is increased by 10%, and stun duration is increased by 0.6 sec.",
                     "thumbnail": "heroes/Lakrak/perks/s4l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "On [Experiment] success, restores 500 Mana.",
                     "thumbnail": "heroes/Lakrak/perks/s4d.png"
                 }
             }
@@ -118,7 +118,7 @@
                 "thumbnail": "heroes/Lakrak/perks/light.png"
             },
             "dark": {
-                "effect": "On [Experiment] success, increases Attack Speed by {2}% and Status Ailment Accuracy by {3} for {1} sec.",
+                "effect": "On [Experiment] success, increases Attack Speed by 300% and Status Ailment Accuracy by 300 for 10 sec.",
                 "thumbnail": "heroes/Lakrak/perks/dark.png"
             }
         }

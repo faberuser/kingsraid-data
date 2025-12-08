@@ -22,28 +22,28 @@
             "name": "Merciless",
             "cost": "2",
             "cooldown": "8",
-            "description": "Deals [ffc800]243*(1+0.3*Skill Level)+140% ATK[-] Physical DMG to a random enemy [64ffff]{2} times[-], applies [fa96fa][Grievous Wound][-] stacks [64ffff]1[-], and increases Physical DMG taken by [ff6464]{4}%[-] for [64ffff]{3} sec[-].",
+            "description": "Deals [ffc800]243*(1+0.3*Skill Level)+140% ATK[-] Physical DMG to a random enemy [64ffff]3 times[-], applies [fa96fa][Grievous Wound][-] stacks [64ffff]1[-], and increases Physical DMG taken by [ff6464]30%[-] for [64ffff]4 sec[-].",
             "thumbnail": "heroes/Roi/skills/1.png"
         },
         "2": {
             "name": "Curtain of Darkness",
             "cost": "2",
             "cooldown": "14",
-            "description": "For [64ffff]{1} sec[-], increases all allies’ ATK by [64ff64]393*(1+0.3*Skill Level)[-] and Physical Evasion by [64ff64]{3}[-], and grants self [fa96fa][Breath of Death][-] for [64ffff]{4} sec[-].\n[fa96fa][Breath of Death] :[-] Attack Speed increases by [64ff64]30%[-], damage dealt to enemies increases by [64ff64]{6}%[-], and all Physical Attacks are evaded.",
+            "description": "For [64ffff]7 sec[-], increases all allies’ ATK by [64ff64]393*(1+0.3*Skill Level)[-] and Physical Evasion by [64ff64]300[-], and grants self [fa96fa][Breath of Death][-] for [64ffff]7 sec[-].\n[fa96fa][Breath of Death] :[-] Attack Speed increases by [64ff64]30%[-], damage dealt to enemies increases by [64ff64]25%[-], and all Physical Attacks are evaded.",
             "thumbnail": "heroes/Roi/skills/2.png"
         },
         "3": {
             "name": "Blade Claw",
             "cost": "3",
             "cooldown": "3",
-            "description": "Moves behind the enemy and deals [ffc800]799*(1+0.3*Skill Level)+459.4% ATK[-] Physical DMG, consuming all [fa96fa][Grievous Wound][-] stacks on the target and dealing additional Physical DMG equal to [ffc800]137.8% ATK[-] per [64ffff]{2} stack[-] consumed. On Critical Hit, applies [fa96fa]Bleed[-] stacks [64ffff]{4}[-] and resets the cooldown of [fa96fa][Slaughter][-].\n[fa96fa]Bleed :[-] Deals [ffc800]5% ATK[-] Physical DoT every [64ffff]1 sec[-] for [64ffff]{5} sec[-], stacking up to [64ffff]{7} times[-].",
+            "description": "Moves behind the enemy and deals [ffc800]799*(1+0.3*Skill Level)+459.4% ATK[-] Physical DMG, consuming all [fa96fa][Grievous Wound][-] stacks on the target and dealing additional Physical DMG equal to [ffc800]137.8% ATK[-] per [64ffff]1 stack[-] consumed. On Critical Hit, applies [fa96fa]Bleed[-] stacks [64ffff]1[-] and resets the cooldown of [fa96fa][Slaughter][-].\n[fa96fa]Bleed :[-] Deals [ffc800]5% ATK[-] Physical DoT every [64ffff]1 sec[-] for [64ffff]15 sec[-], stacking up to [64ffff]20 times[-].",
             "thumbnail": "heroes/Roi/skills/3.png"
         },
         "4": {
             "name": "Hack",
             "cost": null,
             "cooldown": "10",
-            "description": "Critical Rate increases by [64ff64]{1}[-].\nEvery [64ffff]{2} sec[-], when a Normal Attack lands as a Critical Hit, deals [ffc800]96*(1+0.3*Skill Level)+54.9% ATK[-] Physical DMG [64ffff]{3} times[-], with a [64ffff]{5}%[-] chance per hit to apply [fa96fa][Grievous Wound][-] stacks [64ffff]{6}[-].\n[fa96fa][Grievous Wound] :[-] Deals [ffc800]15% ATK[-] Physical DoT every [64ffff]1 sec[-] for [64ffff]{7} sec[-], stacking up to [64ffff]{9} times[-].",
+            "description": "Critical Rate increases by [64ff64]300[-].\nEvery [64ffff]10 sec[-], when a Normal Attack lands as a Critical Hit, deals [ffc800]96*(1+0.3*Skill Level)+54.9% ATK[-] Physical DMG [64ffff]6 times[-], with a [64ffff]50%[-] chance per hit to apply [fa96fa][Grievous Wound][-] stacks [64ffff]1[-].\n[fa96fa][Grievous Wound] :[-] Deals [ffc800]15% ATK[-] Physical DoT every [64ffff]1 sec[-] for [64ffff]15 sec[-], stacking up to [64ffff]5 times[-].",
             "thumbnail": "heroes/Roi/skills/4.png"
         }
     },
@@ -73,41 +73,41 @@
         "t3": {
             "1": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "The target is changed to the enemy with the highest ATK.",
                     "thumbnail": "heroes/Roi/perks/s1l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Changes the number of hits to 5 times.",
                     "thumbnail": "heroes/Roi/perks/s1d.png"
                 }
             },
             "2": {
                 "light": {
-                    "effect": "Increases ATK Boost by [64ff64]{1}[-]%.",
+                    "effect": "Upon use, dispels negative effects from self.",
                     "thumbnail": "heroes/Roi/perks/s2l.png"
                 },
                 "dark": {
-                    "effect": "Increases ATK Boost by [64ff64]{1}[-]%.",
+                    "effect": "Normal Attack damage increases by 115% for the duration.",
                     "thumbnail": "heroes/Roi/perks/s2d.png"
                 }
             },
             "3": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost increases by 1000 and damage increases by 100%.",
                     "thumbnail": "heroes/Roi/perks/s3l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "The target is changed to the enemy with the highest ATK.",
                     "thumbnail": "heroes/Roi/perks/s3d.png"
                 }
             },
             "4": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "The chance for [Rend] to apply [Fatal Wound] stacks is changed to 100%.",
                     "thumbnail": "heroes/Roi/perks/s4l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "On each hit, reduces the target's Mana by 150.",
                     "thumbnail": "heroes/Roi/perks/s4d.png"
                 }
             }
@@ -118,7 +118,7 @@
                 "thumbnail": "heroes/Roi/perks/light.png"
             },
             "dark": {
-                "effect": "On critical hit, Attack Speed is increased by {2}% and Critical Damage by {3}% for {1} sec. This effect can only be triggered once every {1} sec.",
+                "effect": "On critical hit, Attack Speed is increased by 300% and Critical Damage by 60% for 5 sec. This effect can only be triggered once every 5 sec.",
                 "thumbnail": "heroes/Roi/perks/dark.png"
             }
         }

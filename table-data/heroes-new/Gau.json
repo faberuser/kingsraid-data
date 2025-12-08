@@ -22,28 +22,28 @@
             "name": "Smash",
             "cost": "2",
             "cooldown": "8",
-            "description": "Deals [ffc800]304*(1+0.3Skill Level)+192.2% of Attack Power[-] as Physical Damage to enemies within range [64ffff]{2} times[-]. The first hit [fa96fa]knocks enemies down[-] for [64ffff]{3} sec[-] and reduces their Defense Penetration by [ff6464]{5}[-] for [64ffff]{4} sec[-].",
+            "description": "Deals [ffc800]304*(1+0.3Skill Level)+192.2% of Attack Power[-] as Physical Damage to enemies within range [64ffff]2 times[-]. The first hit [fa96fa]knocks enemies down[-] for [64ffff]1.8 sec[-] and reduces their Defense Penetration by [ff6464]300[-] for [64ffff]4 sec[-].",
             "thumbnail": "heroes/Gau/skills/1.png"
         },
         "2": {
             "name": "Battle Roar",
             "cost": "2",
             "cooldown": "12",
-            "description": "Removes all harmful effects from all allies and increases their Attack by [64ff64]252(1+0.3Skill Level)[-], Attack Speed by [64ff64]36%[-], and Physical Defense by [64ff64]91(1+0.3Skill Level)[-] for [64ffff]{1} sec[-].",
+            "description": "Removes all harmful effects from all allies and increases their Attack by [64ff64]252(1+0.3Skill Level)[-], Attack Speed by [64ff64]36%[-], and Physical Defense by [64ff64]91(1+0.3Skill Level)[-] for [64ffff]6 sec[-].",
             "thumbnail": "heroes/Gau/skills/2.png"
         },
         "3": {
             "name": "Vortex",
             "cost": "3",
             "cooldown": "20",
-            "description": "Charges forward and deals [ffc800]161(1+0.3Skill Level)+80.9% of Attack Power[-] as Physical Damage [64ffff]{2} times[-] to nearby enemies. Cannot be affected by status ailments while casting, and the final hit [fa96fa]freezes[-] enemies for [64ffff]{3} sec[-].",
+            "description": "Charges forward and deals [ffc800]161(1+0.3Skill Level)+80.9% of Attack Power[-] as Physical Damage [64ffff]12 times[-] to nearby enemies. Cannot be affected by status ailments while casting, and the final hit [fa96fa]freezes[-] enemies for [64ffff]2.4 sec[-].",
             "thumbnail": "heroes/Gau/skills/3.png"
         },
         "4": {
             "name": "Enrage",
             "cost": null,
             "cooldown": null,
-            "description": "Every second, Attack increases by [64ff64]16(1+0.3Skill Level)[-], Status Resistance by [64ff64]{2}[-], and damage dealt to non-hero enemies by [64ff64]{3}%[-]. This effect stacks up to [64ffff]{4} times[-]. At [64ffff]{5} or more[-] stacks, Normal Attack damage increases by [64ff64]{6}%[-].",
+            "description": "Every second, Attack increases by [64ff64]16(1+0.3Skill Level)[-], Status Resistance by [64ff64]30[-], and damage dealt to non-hero enemies by [64ff64]1.5%[-]. This effect stacks up to [64ffff]20 times[-]. At [64ffff]20 or more[-] stacks, Normal Attack damage increases by [64ff64]100%[-].",
             "thumbnail": "heroes/Gau/skills/4.png"
         }
     },
@@ -73,41 +73,41 @@
         "t3": {
             "1": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is reduced by 1000.",
                     "thumbnail": "heroes/Gau/perks/s1l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Each use increases damage by 15%. This effect stacks up to 10 times.",
                     "thumbnail": "heroes/Gau/perks/s1d.png"
                 }
             },
             "2": {
                 "light": {
-                    "effect": "Attack and Defense bonuses are increased by [64ff64]{1}%[-].",
+                    "effect": "All effects become undispellable.",
                     "thumbnail": "heroes/Gau/perks/s2l.png"
                 },
                 "dark": {
-                    "effect": "Attack and Defense bonuses are increased by [64ff64]{1}%[-].",
+                    "effect": "During the duration, Attack Speed is additionally increased by 24%.",
                     "thumbnail": "heroes/Gau/perks/s2d.png"
                 }
             },
             "3": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Cooldown is reduced by 2 sec.",
                     "thumbnail": "heroes/Gau/perks/s3l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Becomes immune to all damage while casting.",
                     "thumbnail": "heroes/Gau/perks/s3d.png"
                 }
             },
             "4": {
                 "light": {
-                    "effect": "Increases ATK Boost by [64ff64]{1}[-]%.",
+                    "effect": "All effects become undispellable.",
                     "thumbnail": "heroes/Gau/perks/s4l.png"
                 },
                 "dark": {
-                    "effect": "Increases ATK Boost by [64ff64]{1}[-]%.",
+                    "effect": "Defense is reduced by 3% per stack, but damage dealt to non-hero enemies is changed to 2.5%.",
                     "thumbnail": "heroes/Gau/perks/s4d.png"
                 }
             }

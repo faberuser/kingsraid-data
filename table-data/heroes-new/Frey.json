@@ -22,28 +22,28 @@
             "name": "Miraculous Light",
             "cost": "2",
             "cooldown": "8",
-            "description": "Dispels harmful effects from the ally with the lowest current HP and restores HP [ffc800]529*(1+0.3*Skill Level)+330.6% ATK[-] [64ffff]{2} times[-]. When healing the target, nearby allies are additionally healed for [64ffff]{3}%[-] of the healing amount.",
+            "description": "Dispels harmful effects from the ally with the lowest current HP and restores HP [ffc800]529*(1+0.3*Skill Level)+330.6% ATK[-] [64ffff]3 times[-]. When healing the target, nearby allies are additionally healed for [64ffff]40%[-] of the healing amount.",
             "thumbnail": "heroes/Frey/skills/1.png"
         },
         "2": {
             "name": "Blessings of Light",
             "cost": "2",
             "cooldown": "14",
-            "description": "Grants all allies a shield that absorbs [ffc800]1080*(1+0.3*Skill Level)+675.6% ATK[-] damage for [64ffff]{1} sec[-]. While the shield lasts, the target’s ATK increases by [64ff64]{3}%[-], Healing Power by [64ff64]{4}%[-], and Status Resistance by [64ff64]{5}[-].",
+            "description": "Grants all allies a shield that absorbs [ffc800]1080*(1+0.3*Skill Level)+675.6% ATK[-] damage for [64ffff]7 sec[-]. While the shield lasts, the target’s ATK increases by [64ff64]25%[-], Healing Power by [64ff64]65%[-], and Status Resistance by [64ff64]600[-].",
             "thumbnail": "heroes/Frey/skills/2.png"
         },
         "3": {
             "name": "Heaven's Vengeance",
             "cost": "3",
             "cooldown": "22",
-            "description": "Deals [ffc800]177*(1+0.3*Skill Level)+110.8% ATK[-] Magic DMG to the target and nearby enemies [64ffff]{2} times[-], then inflicts [fa96fa]Blind[-] for [64ffff]{3} sec[-], and increases Magic DMG taken by [64ff64]{5}%[-] for [64ffff]{4} sec[-]. This skill applies Critical Rate [64ff64]{6} higher[-].",
+            "description": "Deals [ffc800]177*(1+0.3*Skill Level)+110.8% ATK[-] Magic DMG to the target and nearby enemies [64ffff]6 times[-], then inflicts [fa96fa]Blind[-] for [64ffff]3.5 sec[-], and increases Magic DMG taken by [64ff64]25%[-] for [64ffff]10 sec[-]. This skill applies Critical Rate [64ff64]500 higher[-].",
             "thumbnail": "heroes/Frey/skills/3.png"
         },
         "4": {
             "name": "Goddess Grace",
             "cost": null,
             "cooldown": "14",
-            "description": "Magic DMG taken is reduced by [64ff64]{1}%[-].\nAt the start of each battle or every [64ffff]{2} sec[-], restores [64ff64]{4}%[-] of Max HP to the [64ffff]{3} allies[-] with the lowest current HP, and increases their Magic DEF by [64ff64]60*(1+0.3*Skill Level)[-] for [64ffff]{5} sec[-].",
+            "description": "Magic DMG taken is reduced by [64ff64]15%[-].\nAt the start of each battle or every [64ffff]14 sec[-], restores [64ff64]15%[-] of Max HP to the [64ffff]1 allies[-] with the lowest current HP, and increases their Magic DEF by [64ff64]60*(1+0.3*Skill Level)[-] for [64ffff]7 sec[-].",
             "thumbnail": "heroes/Frey/skills/4.png"
         }
     },
@@ -73,41 +73,41 @@
         "t3": {
             "1": {
                 "light": {
-                    "effect": "Increases Heal Rate by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost increases by 1000, but the target count changes to 2.",
                     "thumbnail": "heroes/Frey/perks/s1l.png"
                 },
                 "dark": {
-                    "effect": "Increases Heal Rate by [64ff64]{1}[-]%.",
+                    "effect": "Healed allies take 25% less Magic DMG for 10 sec.",
                     "thumbnail": "heroes/Frey/perks/s1d.png"
                 }
             },
             "2": {
                 "light": {
-                    "effect": "Increases shield by [64ff64]{1}[-]%.",
+                    "effect": "Shield amount increases by 50%.",
                     "thumbnail": "heroes/Frey/perks/s2l.png"
                 },
                 "dark": {
-                    "effect": "Increases shield by [64ff64]{1}[-]%.",
+                    "effect": "Reduces Cooldown by 3 sec.",
                     "thumbnail": "heroes/Frey/perks/s2d.png"
                 }
             },
             "3": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost increases by 1000 and damage increases by 80%.",
                     "thumbnail": "heroes/Frey/perks/s3l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Changes the target to random enemies.",
                     "thumbnail": "heroes/Frey/perks/s3d.png"
                 }
             },
             "4": {
                 "light": {
-                    "effect": "Increases M.DEF Boost by [64ff64]{1}[-]%.",
+                    "effect": "Reduces DMG the target takes from Non-Hero enemies by 40% for the duration of Skill.",
                     "thumbnail": "heroes/Frey/perks/s4l.png"
                 },
                 "dark": {
-                    "effect": "Increases M.DEF Boost by [64ff64]{1}[-]%.",
+                    "effect": "Number of targets changes to 2.",
                     "thumbnail": "heroes/Frey/perks/s4d.png"
                 }
             }

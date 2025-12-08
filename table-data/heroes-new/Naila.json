@@ -22,28 +22,28 @@
             "name": "Fierce Winds",
             "cost": "3",
             "cooldown": "8",
-            "description": "Charges a total of {1} time(s). On the first attack, moves behind the enemy and deals [ffc800]922(1+0.3Skill Level)+532.2% of Attack Power[-] as Physical Damage, [fa96fa]knocking them down[-] for [64ffff]{3} sec[-]. On the second attack, moves behind the enemy with the highest Attack, dealing [ffc800]615(1+0.3Skill Level)+344.1% of Attack Power[-] as Physical Damage, [fa96fa]knocking them down[-] for [64ffff]{5} sec[-], and increasing their Physical Damage taken by [ff6464]{7}%[-] for [64ffff]{6} sec[-].",
+            "description": "Charges a total of 2 time(s). On the first attack, moves behind the enemy and deals [ffc800]922(1+0.3Skill Level)+532.2% of Attack Power[-] as Physical Damage, [fa96fa]knocking them down[-] for [64ffff]1.8 sec[-]. On the second attack, moves behind the enemy with the highest Attack, dealing [ffc800]615(1+0.3Skill Level)+344.1% of Attack Power[-] as Physical Damage, [fa96fa]knocking them down[-] for [64ffff]1.8 sec[-], and increasing their Physical Damage taken by [ff6464]30%[-] for [64ffff]4 sec[-].",
             "thumbnail": "heroes/Naila/skills/1.png"
         },
         "2": {
             "name": "Wind Reading",
             "cost": "1",
             "cooldown": "20",
-            "description": "Removes your harmful effects and puts all allies into [fa96fa][Reading the Wind][-] state for [64ffff]{1} sec[-], increasing Attack by [64ff64]333(1+0.3Skill Level)[-] and Physical Evasion Chance by [64ff64]{3}[-].\nWhen a target in [fa96fa][Reading the Wind][-] state successfully evades, all allies’ Critical Damage is increased by [64ff64]{5}%[-] for [64ffff]{4} sec[-]. This effect stacks up to [64ffff]{6} times[-].",
+            "description": "Removes your harmful effects and puts all allies into [fa96fa][Reading the Wind][-] state for [64ffff]10 sec[-], increasing Attack by [64ff64]333(1+0.3Skill Level)[-] and Physical Evasion Chance by [64ff64]350[-].\nWhen a target in [fa96fa][Reading the Wind][-] state successfully evades, all allies’ Critical Damage is increased by [64ff64]3%[-] for [64ffff]10 sec[-]. This effect stacks up to [64ffff]10 times[-].",
             "thumbnail": "heroes/Naila/skills/2.png"
         },
         "3": {
             "name": "Dive Bomb",
             "cost": "3",
             "cooldown": "12",
-            "description": "Attacks enemies in a circular area around you, dealing [ffc800]1146(1+0.3Skill Level)+716.8% of Attack Power[-] as Physical Damage and [fa96fa]stunning[-] them for [64ffff]{2} sec[-]. This skill gains an additional [64ff64]{3}[-] Physical Defense Penetration.",
+            "description": "Attacks enemies in a circular area around you, dealing [ffc800]1146(1+0.3Skill Level)+716.8% of Attack Power[-] as Physical Damage and [fa96fa]stunning[-] them for [64ffff]1.8 sec[-]. This skill gains an additional [64ff64]500[-] Physical Defense Penetration.",
             "thumbnail": "heroes/Naila/skills/3.png"
         },
         "4": {
             "name": "Tornado Strike",
             "cost": null,
             "cooldown": null,
-            "description": "Increases Critical Hit Chance by [64ff64]{1}[-], and Normal Attacks ignore the target’s damage reduction effects.\nOn Normal Attack, has a [64ffff]{2}%[-] chance to deal [ffc800]488(1+0.3*Skill Level)+284.4% of Attack Power[-] as additional Physical Damage, [fa96fa]stunning[-] the target for [64ffff]{4} sec[-] and reducing their Physical Defense by [ff6464]{6}%[-] for [64ffff]{5} sec[-].",
+            "description": "Increases Critical Hit Chance by [64ff64]150[-], and Normal Attacks ignore the target’s damage reduction effects.\nOn Normal Attack, has a [64ffff]15%[-] chance to deal [ffc800]488(1+0.3*Skill Level)+284.4% of Attack Power[-] as additional Physical Damage, [fa96fa]stunning[-] the target for [64ffff]0.6 sec[-] and reducing their Physical Defense by [ff6464]25%[-] for [64ffff]5 sec[-].",
             "thumbnail": "heroes/Naila/skills/4.png"
         }
     },
@@ -73,41 +73,41 @@
         "t3": {
             "1": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Immune to status ailments while casting.",
                     "thumbnail": "heroes/Naila/perks/s1l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "On each attack, reduces the target’s Mana by 400.",
                     "thumbnail": "heroes/Naila/perks/s1d.png"
                 }
             },
             "2": {
                 "light": {
-                    "effect": "Increases ATK Boost by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is increased by 1000, and when triggered, removes all beneficial effects from all enemies.",
                     "thumbnail": "heroes/Naila/perks/s2l.png"
                 },
                 "dark": {
-                    "effect": "Increases ATK Boost by [64ff64]{1}[-]%.",
+                    "effect": "The maximum number of Critical Damage increase stacks is increased to 20.",
                     "thumbnail": "heroes/Naila/perks/s2d.png"
                 }
             },
             "3": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Increases DMG by 40%.",
                     "thumbnail": "heroes/Naila/perks/s3l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Reduces the target’s Healing Effectiveness by 40% for 6 sec.",
                     "thumbnail": "heroes/Naila/perks/s3d.png"
                 }
             },
             "4": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Normal Attack damage is increased by 25%, and the cooldown of all skills is reduced by 2 sec.",
                     "thumbnail": "heroes/Naila/perks/s4l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "At the start of battle, increases Defense Penetration by 400 for 2 sec and grants immunity to status ailments for 5 sec. The Defense Penetration increase cannot be dispelled.",
                     "thumbnail": "heroes/Naila/perks/s4d.png"
                 }
             }

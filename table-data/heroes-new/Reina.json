@@ -29,7 +29,7 @@
             "name": "Sharp End",
             "cost": "2",
             "cooldown": "20",
-            "description": "Removes your harmful effects and increases Attack by [64ff64]205(1+0.3Skill Level)[-] and Critical Hit Chance by [64ff64]{3}[-] for [64ffff]{1} sec[-].",
+            "description": "Removes your harmful effects and increases Attack by [64ff64]205(1+0.3Skill Level)[-] and Critical Hit Chance by [64ff64]600[-] for [64ffff]10 sec[-].",
             "thumbnail": "heroes/Reina/skills/2.png"
         },
         "3": {
@@ -43,7 +43,7 @@
             "name": "Lucky Child",
             "cost": null,
             "cooldown": null,
-            "description": "On critical hit, increases Attack by [64ff64]40(1+0.3*Skill Level)[-] for [64ffff]{1} sec[-]. This effect stacks up to [64ffff]8[-] times.",
+            "description": "On critical hit, increases Attack by [64ff64]40(1+0.3*Skill Level)[-] for [64ffff]10 sec[-]. This effect stacks up to [64ffff]8[-] times.",
             "thumbnail": "heroes/Reina/skills/4.png"
         }
     },
@@ -56,7 +56,7 @@
         "2": {
             "II": "Increases ATK Boost by [64ff64]10[-]%.",
             "III": "Increases ATK Boost by [64ff64]15[-]%.",
-            "IV": "Increases Crit Chance Boost by [64ff64]25[-]%."
+            "IV": "Increases Crit Chance Boost by [64ff64]50[-]%."
         },
         "3": {
             "II": "Increases DMG by [64ff64]10[-]%.",
@@ -66,48 +66,48 @@
         "4": {
             "II": "Increases ATK Boost by [64ff64]10[-]%.",
             "III": "Increases ATK Boost by [64ff64]15[-]%.",
-            "IV": "Increases DEF Penetration by [64ff64]25[-] for the duration of Skill."
+            "IV": "Increases DEF Penetration by [64ff64]250[-] for the duration of Skill."
         }
     },
     "perks": {
         "t3": {
             "1": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is increased by 1000, but the maximum number of [Wound Stacks] is increased to 10.\nIf [Wound Stacks] is 10, deals additional damage equal to 150% of Attack Power.",
                     "thumbnail": "heroes/Reina/perks/s1l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Immune to status ailments while casting.",
                     "thumbnail": "heroes/Reina/perks/s1d.png"
                 }
             },
             "2": {
                 "light": {
-                    "effect": "Increases ATK Boost by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is reduced by 1000.",
                     "thumbnail": "heroes/Reina/perks/s2l.png"
                 },
                 "dark": {
-                    "effect": "Increases ATK Boost by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is increased by 1000, but the Critical Hit Chance increase effect is changed to increase Critical Damage by 120%, and damage dealt to bosses is increased by 30%.",
                     "thumbnail": "heroes/Reina/perks/s2d.png"
                 }
             },
             "3": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Each time a critical hit occurs, the damage of the last hit is increased by 10%.",
                     "thumbnail": "heroes/Reina/perks/s3l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Immune to all damage while casting.",
                     "thumbnail": "heroes/Reina/perks/s3d.png"
                 }
             },
             "4": {
                 "light": {
-                    "effect": "Increases ATK Boost by [64ff64]{1}[-]%.",
+                    "effect": "Damage dealt to non-hero enemies is increased by 4% per stack.",
                     "thumbnail": "heroes/Reina/perks/s4l.png"
                 },
                 "dark": {
-                    "effect": "Increases ATK Boost by [64ff64]{1}[-]%.",
+                    "effect": "If there are 5 or more stacks, all damage taken is reduced by 20%.",
                     "thumbnail": "heroes/Reina/perks/s4d.png"
                 }
             }
@@ -118,7 +118,7 @@
                 "thumbnail": "heroes/Reina/perks/light.png"
             },
             "dark": {
-                "effect": "When using a skill, has a {1}% chance to increase your Critical Damage by {2}%. This effect stacks up to {3} times.",
+                "effect": "When using a skill, has a 10% chance to increase your Critical Damage by 10%. This effect stacks up to 10 times.",
                 "thumbnail": "heroes/Reina/perks/dark.png"
             }
         }

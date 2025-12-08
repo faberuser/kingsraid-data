@@ -29,21 +29,21 @@
             "name": "Will to Win",
             "cost": "2",
             "cooldown": "14",
-            "description": "For [64ffff]{1} sec[-], your Physical Block Chance is increased by [64ff64]200[-], and when you block, you deal [ffc800]95(1+0.3Skill Level)+72.6% of Attack Power[-] as Physical Damage to nearby enemies and reduce their Attack by [ff6464]{3}%[-].",
+            "description": "For [64ffff]7 sec[-], your Physical Block Chance is increased by [64ff64]200[-], and when you block, you deal [ffc800]95(1+0.3Skill Level)+72.6% of Attack Power[-] as Physical Damage to nearby enemies and reduce their Attack by [ff6464]25%[-].",
             "thumbnail": "heroes/Demia/skills/2.png"
         },
         "3": {
             "name": "Steel Fortress",
             "cost": "4",
             "cooldown": "22",
-            "description": "For [64ffff]8 sec[-], all allies’ Physical Damage taken is reduced by [64ff64]{1}%[-], and you prepare to leap for [64ffff]5 sec[-].\nWhile preparing to leap, when you block, the leap attack’s damage is increased by [64ff64]7%[-], you deal [ffc800]126(1+0.3Skill Level)+96.8% of Attack Power[-] as Physical Damage to the attacker, and [fa96fa]stun[-] them for [64ffff]0.4 sec[-].\nWhen casting is complete, you leap to the enemy, dealing [ffc800]465(1+0.3Skill Level)+357.5% of Attack Power[-] as Physical Damage and [fa96fa]stunning[-] them for [64ffff]{4} sec[-].\nWhile preparing to leap, you are [fa96fa]immune to status ailments[-].",
+            "description": "For [64ffff]8 sec[-], all allies’ Physical Damage taken is reduced by [64ff64]20%[-], and you prepare to leap for [64ffff]5 sec[-].\nWhile preparing to leap, when you block, the leap attack’s damage is increased by [64ff64]7%[-], you deal [ffc800]126(1+0.3Skill Level)+96.8% of Attack Power[-] as Physical Damage to the attacker, and [fa96fa]stun[-] them for [64ffff]0.4 sec[-].\nWhen casting is complete, you leap to the enemy, dealing [ffc800]465(1+0.3Skill Level)+357.5% of Attack Power[-] as Physical Damage and [fa96fa]stunning[-] them for [64ffff]2.5 sec[-].\nWhile preparing to leap, you are [fa96fa]immune to status ailments[-].",
             "thumbnail": "heroes/Demia/skills/3.png"
         },
         "4": {
             "name": "Spearhead",
             "cost": null,
             "cooldown": null,
-            "description": "Increases all allies’ Physical Defense by [64ff64]30(1+0.3Skill Level)[-] and Physical Block Chance by [64ff64]{2}[-].",
+            "description": "Increases all allies’ Physical Defense by [64ff64]30(1+0.3Skill Level)[-] and Physical Block Chance by [64ff64]250[-].",
             "thumbnail": "heroes/Demia/skills/4.png"
         }
     },
@@ -51,12 +51,12 @@
         "1": {
             "II": "Increases DMG by [64ff64]10[-]%.",
             "III": "Increases DMG by [64ff64]15[-]%.",
-            "IV": "Increases the duration of stun by [64ff64]25[-] sec."
+            "IV": "Increases the duration of stun by [64ff64]1.2[-] sec."
         },
         "2": {
             "II": "Increases DMG by [64ff64]10[-]%.",
             "III": "Increases DMG by [64ff64]15[-]%.",
-            "IV": "Increases ATK Reduction by [ff6464]25[-]%."
+            "IV": "Increases ATK Reduction by [ff6464]50[-]%."
         },
         "3": {
             "II": "Increases DMG by [64ff64]10[-]%.",
@@ -73,41 +73,41 @@
         "t3": {
             "1": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is increased by 1000, but pulls in 2 enemies.",
                     "thumbnail": "heroes/Demia/perks/s1l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Reduces the Physical Defense of pulled enemies by 30% for 5 sec.",
                     "thumbnail": "heroes/Demia/perks/s1d.png"
                 }
             },
             "2": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is increased by 1000, but cooldown is reduced by 4 sec.",
                     "thumbnail": "heroes/Demia/perks/s2l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "On cast, increases all allies’ Physical Defense by 24% for 7 sec.",
                     "thumbnail": "heroes/Demia/perks/s2d.png"
                 }
             },
             "3": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "When performing the leap attack, charges toward the enemy with the highest Attack.",
                     "thumbnail": "heroes/Demia/perks/s3l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is increased by 1000, but cooldown is reduced by 6 sec.",
                     "thumbnail": "heroes/Demia/perks/s3d.png"
                 }
             },
             "4": {
                 "light": {
-                    "effect": "Increases DEF Boost by [64ff64]{1}[-]%.",
+                    "effect": "Physical Defense increase is boosted by 30%, and Physical Block Chance is increased by 75.",
                     "thumbnail": "heroes/Demia/perks/s4l.png"
                 },
                 "dark": {
-                    "effect": "Increases DEF Boost by [64ff64]{1}[-]%.",
+                    "effect": "Physical Critical Resistance is additionally increased by 250.",
                     "thumbnail": "heroes/Demia/perks/s4d.png"
                 }
             }

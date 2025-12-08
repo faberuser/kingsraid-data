@@ -22,28 +22,28 @@
             "name": "Funeral Rites",
             "cost": "2",
             "cooldown": "8",
-            "description": "Deals [ffc800]361*(1+0.3Skill Level)+277.6% of Attack Power[-] damage to enemies within range and [fa96fa]stuns[-] them for [64ffff]{2} sec[-].",
+            "description": "Deals [ffc800]361*(1+0.3Skill Level)+277.6% of Attack Power[-] damage to enemies within range and [fa96fa]stuns[-] them for [64ffff]3 sec[-].",
             "thumbnail": "heroes/Jane/skills/1.png"
         },
         "2": {
             "name": "Mark of Death",
             "cost": "2",
             "cooldown": "5",
-            "description": "Engraves [fa96fa][Mark of Death][-] on all enemies for [64ffff]{1} sec[-], dealing [ffc800]9(1+0.3Skill Level)+6.9% of Attack Power[-] continuous Magic Damage. Enemies with [fa96fa][Mark of Death][-] take [ff6464]{3}%[-] increased Magic Damage, and if recast within [64ffff]15 sec[-], the effect is increased by [64ff64]{4}%[-]. This effect stacks up to [64ffff]{5} times[-] and cannot be dispelled.",
+            "description": "Engraves [fa96fa][Mark of Death][-] on all enemies for [64ffff]15 sec[-], dealing [ffc800]9(1+0.3Skill Level)+6.9% of Attack Power[-] continuous Magic Damage. Enemies with [fa96fa][Mark of Death][-] take [ff6464]25%[-] increased Magic Damage, and if recast within [64ffff]15 sec[-], the effect is increased by [64ff64]20%[-]. This effect stacks up to [64ffff]5 times[-] and cannot be dispelled.",
             "thumbnail": "heroes/Jane/skills/2.png"
         },
         "3": {
             "name": "Day of Ruin",
             "cost": "3",
             "cooldown": "24",
-            "description": "Deals [ffc800]127(1+0.3Skill Level)+97.6% of Attack Power[-] Magic Damage per second to all enemies for [64ffff]{1} sec[-], recovers HP equal to [ffc800]{3}%[-] of damage dealt, and has a [64ffff]{4}%[-] chance to [fa96fa]stun[-] them for [64ffff]{5} sec[-].\nDuring the duration, all allies take [64ff64]20%[-] reduced Physical Damage, and enemies with [fa96fa][Mark of Death][-] take additional Magic Damage equal to [ffc800]97.6% of Attack Power[-].",
+            "description": "Deals [ffc800]127(1+0.3Skill Level)+97.6% of Attack Power[-] Magic Damage per second to all enemies for [64ffff]12 sec[-], recovers HP equal to [ffc800]130%[-] of damage dealt, and has a [64ffff]10%[-] chance to [fa96fa]stun[-] them for [64ffff]0.6 sec[-].\nDuring the duration, all allies take [64ff64]20%[-] reduced Physical Damage, and enemies with [fa96fa][Mark of Death][-] take additional Magic Damage equal to [ffc800]97.6% of Attack Power[-].",
             "thumbnail": "heroes/Jane/skills/3.png"
         },
         "4": {
             "name": "Rest in Peace",
             "cost": null,
             "cooldown": "300",
-            "description": "Increases all allies’ Physical Defense by [64ff64]45(1+0.3Skill Level)[-].\nWhen taking damage that would be fatal, enters [fa96fa][Coffin][-] state for [64ffff]{2} sec[-], restoring [64ff64]197(1+0.3Skill Level)+153.7% of Attack Power[-] + [64ff64]{4}%[-] of Max HP.\nWhile in [fa96fa][Coffin][-] state, Attack Speed changes do not affect you, you are [fa96fa]immune[-] to all damage, and deal Magic Damage equal to [ffc800]{5}%[-] of Max HP per second to nearby enemies.",
+            "description": "Increases all allies’ Physical Defense by [64ff64]45(1+0.3Skill Level)[-].\nWhen taking damage that would be fatal, enters [fa96fa][Coffin][-] state for [64ffff]5 sec[-], restoring [64ff64]197(1+0.3Skill Level)+153.7% of Attack Power[-] + [64ff64]6%[-] of Max HP.\nWhile in [fa96fa][Coffin][-] state, Attack Speed changes do not affect you, you are [fa96fa]immune[-] to all damage, and deal Magic Damage equal to [ffc800]5%[-] of Max HP per second to nearby enemies.",
             "thumbnail": "heroes/Jane/skills/4.png"
         }
     },
@@ -61,7 +61,7 @@
         "3": {
             "II": "DMG is increased by [64ff64]10[-] %.",
             "III": "DMG is increased by [64ff64]15[-] %.",
-            "IV": "MP is recovered by [64ff64]25[-] %."
+            "IV": "MP is recovered by [64ff64]1[-] %."
         },
         "4": {
             "II": "Heal rate is increased by [64ff64]10[-] %.",
@@ -73,41 +73,41 @@
         "t3": {
             "1": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Recovers HP equal to 50% of damage dealt.",
                     "thumbnail": "heroes/Jane/perks/s1l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is increased by 1000, but pulls the target to your vicinity with a 100% success rate.",
                     "thumbnail": "heroes/Jane/perks/s1d.png"
                 }
             },
             "2": {
                 "light": {
-                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "effect": "Debuff duration is reduced to 10 sec, but damage is increased by 500%.",
                     "thumbnail": "heroes/Jane/perks/s2l.png"
                 },
                 "dark": {
-                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "effect": "[Mark of Death] cannot be removed by cleansing harmful effects.",
                     "thumbnail": "heroes/Jane/perks/s2d.png"
                 }
             },
             "3": {
                 "light": {
-                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "effect": "DMG is increased by 40%.",
                     "thumbnail": "heroes/Jane/perks/s3l.png"
                 },
                 "dark": {
-                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "effect": "Mana cost is increased by 1000, but cooldown is reduced by 7 sec.",
                     "thumbnail": "heroes/Jane/perks/s3d.png"
                 }
             },
             "4": {
                 "light": {
-                    "effect": "Heal rate is increased by [64ff64]{1}[-] %.",
+                    "effect": "When the effect triggers, removes all beneficial effects from all enemies.",
                     "thumbnail": "heroes/Jane/perks/s4l.png"
                 },
                 "dark": {
-                    "effect": "Heal rate is increased by [64ff64]{1}[-] %.",
+                    "effect": "When the effect triggers, [fa96fa]stuns[-] all enemies for 1.2 sec.",
                     "thumbnail": "heroes/Jane/perks/s4d.png"
                 }
             }

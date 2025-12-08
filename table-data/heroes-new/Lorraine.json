@@ -22,28 +22,28 @@
             "name": "Thornbush Forest",
             "cost": "2",
             "cooldown": "7",
-            "description": "Deals [ffc800]333(1+0.3Skill Level)+153.2% of Attack Power[-] as Magic Damage [64ffff]{1} times[-] to a random enemy and nearby enemies, [fa96fa]stunning[-] them for [64ffff]{3} sec[-].",
+            "description": "Deals [ffc800]333(1+0.3Skill Level)+153.2% of Attack Power[-] as Magic Damage [64ffff]3 times[-] to a random enemy and nearby enemies, [fa96fa]stunning[-] them for [64ffff]1.8 sec[-].",
             "thumbnail": "heroes/Lorraine/skills/1.png"
         },
         "2": {
             "name": "Seed of Belladonna",
             "cost": "3",
             "cooldown": "14",
-            "description": "Creates [fa96fa][Belladonna Seed][-] in the area around the target for [64ffff]{1} sec[-].\n[fa96fa][Belladonna Seed]:[-] Deals [ffc800]403(1+0.3Skill Level)+146.2% of Attack Power[-] as Magic Damage every [64ffff]1 sec[-] to nearby enemies and reduces their healing received by [ff6464]{4}%[-] for [64ffff]{3} sec[-].",
+            "description": "Creates [fa96fa][Belladonna Seed][-] in the area around the target for [64ffff]7 sec[-].\n[fa96fa][Belladonna Seed]:[-] Deals [ffc800]403(1+0.3Skill Level)+146.2% of Attack Power[-] as Magic Damage every [64ffff]1 sec[-] to nearby enemies and reduces their healing received by [ff6464]25%[-] for [64ffff]1 sec[-].",
             "thumbnail": "heroes/Lorraine/skills/2.png"
         },
         "3": {
             "name": "Wrath of the Forest",
             "cost": "3",
             "cooldown": "18",
-            "description": "Deals [ffc800]304(1+0.3Skill Level)+112.2% of Attack Power[-] as Magic Damage [64ffff]{1} time[-] to enemies in a wide area in front and [fa96fa]knocks them down[-] for [64ffff]{3} sec[-].",
+            "description": "Deals [ffc800]304(1+0.3Skill Level)+112.2% of Attack Power[-] as Magic Damage [64ffff]6 time[-] to enemies in a wide area in front and [fa96fa]knocks them down[-] for [64ffff]1.8 sec[-].",
             "thumbnail": "heroes/Lorraine/skills/3.png"
         },
         "4": {
             "name": "Poison",
             "cost": null,
             "cooldown": null,
-            "description": "On Normal and skill attacks, inflicts [fa96fa][Poison][-] on the target, dealing continuous Magic Damage equal to [ffc800]100% of Attack Power[-] every [64ffff]1 sec[-] for [64ffff]{1} sec[-] and reducing their healing received by [ff6464]{3}%[-]. This effect stacks up to [64ffff]{4} times[-].",
+            "description": "On Normal and skill attacks, inflicts [fa96fa][Poison][-] on the target, dealing continuous Magic Damage equal to [ffc800]100% of Attack Power[-] every [64ffff]1 sec[-] for [64ffff]20 sec[-] and reducing their healing received by [ff6464]5%[-]. This effect stacks up to [64ffff]5 times[-].",
             "thumbnail": "heroes/Lorraine/skills/4.png"
         }
     },
@@ -73,41 +73,41 @@
         "t3": {
             "1": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Reduces the target's Mana by 250. If the target is a boss, reduces it by 500 instead.",
                     "thumbnail": "heroes/Lorraine/perks/s1l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is increased by 1000, but damage dealt is increased by 100%.",
                     "thumbnail": "heroes/Lorraine/perks/s1d.png"
                 }
             },
             "2": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Increases DMG by 40%.",
                     "thumbnail": "heroes/Lorraine/perks/s2l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Enemies hit suffer increased status ailment duration by 30% for {1} sec.",
                     "thumbnail": "heroes/Lorraine/perks/s2d.png"
                 }
             },
             "3": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is increased by 1000, but damage dealt is increased by 80%.",
                     "thumbnail": "heroes/Lorraine/perks/s3l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is increased by 1000, but removes beneficial effects from enemies within range.",
                     "thumbnail": "heroes/Lorraine/perks/s3d.png"
                 }
             },
             "4": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "For each [Poison] stack, the target's Attack is reduced by 5%.",
                     "thumbnail": "heroes/Lorraine/perks/s4l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "If the target is a boss, [Poison] damage is increased by 70%.",
                     "thumbnail": "heroes/Lorraine/perks/s4d.png"
                 }
             }
@@ -118,7 +118,7 @@
                 "thumbnail": "heroes/Lorraine/perks/light.png"
             },
             "dark": {
-                "effect": "At the start of battle, all skill cooldowns are reduced by {1}%, and damage dealt to non-hero enemies is increased by {3}% for {2} sec. The damage increase stacks up to {4} times and cannot be dispelled.",
+                "effect": "At the start of battle, all skill cooldowns are reduced by 30%, and damage dealt to non-hero enemies is increased by 10% for 90 sec. The damage increase stacks up to 5 times and cannot be dispelled.",
                 "thumbnail": "heroes/Lorraine/perks/dark.png"
             }
         }

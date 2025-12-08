@@ -22,28 +22,28 @@
             "name": "Pew!",
             "cost": "1",
             "cooldown": "8",
-            "description": "Unleashes an attack that bounces [64ffff]{1}[-] times starting from the nearest enemy, dealing [ffc800]684*(1+0.3Skill Level)+300% of Attack Power[-] Magic Damage to each enemy hit. Damage increases by up to [ffc800]100%[-] the farther the enemy is.",
+            "description": "Unleashes an attack that bounces [64ffff]4[-] times starting from the nearest enemy, dealing [ffc800]684*(1+0.3Skill Level)+300% of Attack Power[-] Magic Damage to each enemy hit. Damage increases by up to [ffc800]100%[-] the farther the enemy is.",
             "thumbnail": "heroes/Luna/skills/1.png"
         },
         "2": {
             "name": "Look out above!",
             "cost": "2",
             "cooldown": "12",
-            "description": "Deals [ffc800]792(1+0.3Skill Level)+347.5% of Attack Power[-] Magic Damage [64ffff]{1} time(s)[-] to a random enemy and surrounding enemies, and [fa96fa]stuns[-] them for [64ffff]{3} sec[-]. Damage increases by up to [ffc800]200%[-] the farther the enemy is.",
+            "description": "Deals [ffc800]792(1+0.3Skill Level)+347.5% of Attack Power[-] Magic Damage [64ffff]2 time(s)[-] to a random enemy and surrounding enemies, and [fa96fa]stuns[-] them for [64ffff]1.8 sec[-]. Damage increases by up to [ffc800]200%[-] the farther the enemy is.",
             "thumbnail": "heroes/Luna/skills/2.png"
         },
         "3": {
             "name": "Twinkle Twinkle",
             "cost": "3",
             "cooldown": "15",
-            "description": "Deals [ffc800]342(1+0.3Skill Level)+150% of Attack Power[-] Magic Damage [64ffff]{2} time(s)[-] to enemies within range, [fa96fa]knocks them back[-] for [64ffff]{3} sec[-], and reduces their Critical Chance by [ff6464]{5}%[-] for [64ffff]{4} sec[-]. Damage increases by up to [ffc800]150%[-] the farther the enemy is.",
+            "description": "Deals [ffc800]342(1+0.3Skill Level)+150% of Attack Power[-] Magic Damage [64ffff]6 time(s)[-] to enemies within range, [fa96fa]knocks them back[-] for [64ffff]1.8 sec[-], and reduces their Critical Chance by [ff6464]100%[-] for [64ffff]7 sec[-]. Damage increases by up to [ffc800]150%[-] the farther the enemy is.",
             "thumbnail": "heroes/Luna/skills/3.png"
         },
         "4": {
             "name": "Gotcha!",
             "cost": null,
             "cooldown": "12",
-            "description": "Attacks the farthest enemy, dealing [ffc800]799(1+0.3*Skill Level)+350% of Attack Power[-] Magic Damage, [fa96fa]knocking them back[-] for [64ffff]{2} sec[-], and increasing Magic Damage taken by [ff6464]{4}%[-] for [64ffff]{3} sec[-]. Damage increases by up to [ffc800]200%[-] the farther the enemy is.",
+            "description": "Attacks the farthest enemy, dealing [ffc800]799(1+0.3*Skill Level)+350% of Attack Power[-] Magic Damage, [fa96fa]knocking them back[-] for [64ffff]1.2 sec[-], and increasing Magic Damage taken by [ff6464]20%[-] for [64ffff]6 sec[-]. Damage increases by up to [ffc800]200%[-] the farther the enemy is.",
             "thumbnail": "heroes/Luna/skills/4.png"
         }
     },
@@ -73,41 +73,41 @@
         "t3": {
             "1": {
                 "light": {
-                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "effect": "Ignores the target’s Block effects.",
                     "thumbnail": "heroes/Luna/perks/s1l.png"
                 },
                 "dark": {
-                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "effect": "[fa96fa]Stuns[-] enemies hit for 1.2 seconds.",
                     "thumbnail": "heroes/Luna/perks/s1d.png"
                 }
             },
             "2": {
                 "light": {
-                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "effect": "Mana cost is increased by 2000, but the number of hits is increased by 2.",
                     "thumbnail": "heroes/Luna/perks/s2l.png"
                 },
                 "dark": {
-                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "effect": "Mana cost is increased by 1000, but targets the farthest enemy.",
                     "thumbnail": "heroes/Luna/perks/s2d.png"
                 }
             },
             "3": {
                 "light": {
-                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "effect": "For 7 seconds, reduces Accuracy of enemies hit by 200.",
                     "thumbnail": "heroes/Luna/perks/s3l.png"
                 },
                 "dark": {
-                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "effect": "If there is only 1 enemy, damage dealt is increased by 100%.",
                     "thumbnail": "heroes/Luna/perks/s3d.png"
                 }
             },
             "4": {
                 "light": {
-                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "effect": "Removes positive effects from the target.",
                     "thumbnail": "heroes/Luna/perks/s4l.png"
                 },
                 "dark": {
-                    "effect": "DMG is increased by [64ff64]{1}[-] %.",
+                    "effect": "Number of targets changes to 2.",
                     "thumbnail": "heroes/Luna/perks/s4d.png"
                 }
             }
@@ -118,7 +118,7 @@
                 "thumbnail": "heroes/Luna/perks/light.png"
             },
             "dark": {
-                "effect": "Damage dealt to non-hero enemies is increased by {1}%, and damage taken is reduced by {2}%.",
+                "effect": "Damage dealt to non-hero enemies is increased by 30%, and damage taken is reduced by 30%.",
                 "thumbnail": "heroes/Luna/perks/dark.png"
             }
         }

@@ -22,28 +22,28 @@
             "name": "Absorbing Blow",
             "cost": "1",
             "cooldown": "10",
-            "description": "Deals [ffc800]871(1+0.3Skill Level)+500.2% of Attack Power[-] as Magic Damage to an enemy and restores HP equal to [64ff64]{2}%[-] of the damage dealt. For [64ffff]{3} sec[-], reduces the target's Attack by [ff6464]{4}%[-] and increases your Attack by [64ff64]{5}%[-]. The Attack increase effect stacks up to [64ffff]{6} times[-].",
+            "description": "Deals [ffc800]871(1+0.3Skill Level)+500.2% of Attack Power[-] as Magic Damage to an enemy and restores HP equal to [64ff64]25%[-] of the damage dealt. For [64ffff]6 sec[-], reduces the target's Attack by [ff6464]20%[-] and increases your Attack by [64ff64]10%[-]. The Attack increase effect stacks up to [64ffff]5 times[-].",
             "thumbnail": "heroes/Epis/skills/1.png"
         },
         "2": {
             "name": "Nightmare",
             "cost": "2",
             "cooldown": "10",
-            "description": "Moves to the farthest enemy and deals [ffc800]484(1+0.3Skill Level)+278% of Attack Power[-] as Magic Damage to the target and nearby enemies, increasing their Magic Damage taken by [ff6464]{2}%[-] for [64ffff]5 sec[-].\nIf enemies remain nearby after using the skill, additionally uses [fa96fa][Absorbing Strike][-].",
+            "description": "Moves to the farthest enemy and deals [ffc800]484(1+0.3Skill Level)+278% of Attack Power[-] as Magic Damage to the target and nearby enemies, increasing their Magic Damage taken by [ff6464]35%[-] for [64ffff]5 sec[-].\nIf enemies remain nearby after using the skill, additionally uses [fa96fa][Absorbing Strike][-].",
             "thumbnail": "heroes/Epis/skills/2.png"
         },
         "3": {
             "name": "Devil's Prom",
             "cost": "3",
             "cooldown": "20",
-            "description": "Deals [ffc800]458(1+0.3Skill Level)+263.6% of Attack Power[-] as Magic Damage [64ffff]{2} times[-] to enemies within range. You cannot be affected by status ailments while casting, and all damage taken is reduced by [64ff64]{3}%[-].",
+            "description": "Deals [ffc800]458(1+0.3Skill Level)+263.6% of Attack Power[-] as Magic Damage [64ffff]4 times[-] to enemies within range. You cannot be affected by status ailments while casting, and all damage taken is reduced by [64ff64]50%[-].",
             "thumbnail": "heroes/Epis/skills/3.png"
         },
         "4": {
             "name": "Harvest",
             "cost": null,
             "cooldown": null,
-            "description": "When an enemy is killed, all skill cooldowns are reduced by [64ff64]{1}%[-], and [fa96fa][Harvest][-] is stacked [64ffff]{2} times[-].\n[fa96fa][Harvest]:[-] For [64ffff]{3} sec[-], Attack increases by [64ff64]80(1+0.3Skill Level)[-], stacking up to [64ffff]{5} times[-].",
+            "description": "When an enemy is killed, all skill cooldowns are reduced by [64ff64]30%[-], and [fa96fa][Harvest][-] is stacked [64ffff]1 times[-].\n[fa96fa][Harvest]:[-] For [64ffff]12 sec[-], Attack increases by [64ff64]80(1+0.3Skill Level)[-], stacking up to [64ffff]10 times[-].",
             "thumbnail": "heroes/Epis/skills/4.png"
         }
     },
@@ -73,41 +73,41 @@
         "t3": {
             "1": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "If there is only 1 enemy, damage dealt is increased by 100%.",
                     "thumbnail": "heroes/Epis/perks/s1l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is increased by 1000, but cooldown is reduced by 3 sec.",
                     "thumbnail": "heroes/Epis/perks/s1d.png"
                 }
             },
             "2": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is reduced by 1000.",
                     "thumbnail": "heroes/Epis/perks/s2l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is increased by 1000, but damage is increased by 80%.",
                     "thumbnail": "heroes/Epis/perks/s2d.png"
                 }
             },
             "3": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "DMG is increased by 40%.",
                     "thumbnail": "heroes/Epis/perks/s3l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is increased by 2000, but [Harvest] is triggered once.",
                     "thumbnail": "heroes/Epis/perks/s3d.png"
                 }
             },
             "4": {
                 "light": {
-                    "effect": "Increases ATK Boost by [64ff64]{1}[-]%.",
+                    "effect": "Mana recovery per second is increased by 50% per stack.",
                     "thumbnail": "heroes/Epis/perks/s4l.png"
                 },
                 "dark": {
-                    "effect": "Increases ATK Boost by [64ff64]{1}[-]%.",
+                    "effect": "If stacks are 5 or more, cooldown is additionally reduced by 1 sec every second.",
                     "thumbnail": "heroes/Epis/perks/s4d.png"
                 }
             }

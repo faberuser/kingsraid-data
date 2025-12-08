@@ -29,14 +29,14 @@
             "name": "Roll Over",
             "cost": "2",
             "cooldown": "14",
-            "description": "Deals [ffc800]415(1+0.3Skill Level)+200% of Attack Power[-] as Physical Damage [64ffff]{1} times[-] to enemies in front.\nEach hit [fa96fa]knocks them down[-] for [64ffff]{3} sec[-] and increases their Physical Damage taken by [ff6464]{5}%[-] for [64ffff]{4} sec[-].",
+            "description": "Deals [ffc800]415(1+0.3Skill Level)+200% of Attack Power[-] as Physical Damage [64ffff]3 times[-] to enemies in front.\nEach hit [fa96fa]knocks them down[-] for [64ffff]1.2 sec[-] and increases their Physical Damage taken by [ff6464]30%[-] for [64ffff]7 sec[-].",
             "thumbnail": "heroes/Miruru/skills/2.png"
         },
         "3": {
             "name": "Miruru Pirates!",
             "cost": "3",
             "cooldown": "20",
-            "description": "Deals [ffc800]253(1+0.3Skill Level)+122% of Attack Power[-] as Physical Damage [64ffff]{1} time[-] to a random enemy and nearby enemies, reducing their Attack Speed by [ff6464]40%[-] for [64ffff]10 sec[-]. Against non-hero enemies, deals an additional [ffc800]308(1+0.3Skill Level)+148.2% of Attack Power[-] as Physical Damage.",
+            "description": "Deals [ffc800]253(1+0.3Skill Level)+122% of Attack Power[-] as Physical Damage [64ffff]5 time[-] to a random enemy and nearby enemies, reducing their Attack Speed by [ff6464]40%[-] for [64ffff]10 sec[-]. Against non-hero enemies, deals an additional [ffc800]308(1+0.3Skill Level)+148.2% of Attack Power[-] as Physical Damage.",
             "thumbnail": "heroes/Miruru/skills/3.png"
         },
         "4": {
@@ -73,41 +73,41 @@
         "t3": {
             "1": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "If there is only 1 enemy, damage dealt is increased by 100%.",
                     "thumbnail": "heroes/Miruru/perks/s1l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Attack is increased by 45% for 4 sec.",
                     "thumbnail": "heroes/Miruru/perks/s1d.png"
                 }
             },
             "2": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "DMG is increased by 40%.",
                     "thumbnail": "heroes/Miruru/perks/s2l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "For each enemy hit, cooldown is reduced by 8%.",
                     "thumbnail": "heroes/Miruru/perks/s2d.png"
                 }
             },
             "3": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Damage dealt is increased by 20%, and skill range is increased.",
                     "thumbnail": "heroes/Miruru/perks/s3l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Damage dealt is reduced by 30%, but the number of hits is doubled.",
                     "thumbnail": "heroes/Miruru/perks/s3d.png"
                 }
             },
             "4": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Has a 15% chance to stun the target for 1 sec.",
                     "thumbnail": "heroes/Miruru/perks/s4l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Damage dealt is reduced by 30%, but the number of hits is doubled.",
                     "thumbnail": "heroes/Miruru/perks/s4d.png"
                 }
             }

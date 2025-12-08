@@ -22,28 +22,28 @@
             "name": "Slash, Blade of Judgment!",
             "cost": "2",
             "cooldown": "9",
-            "description": "Deals [ffc800]52(1+0.3*Skill Level) + 26.2% of ATK[-] M.DMG per hit, attacking 7 times, to nearby enemies in a circular area around the user. Then deals [ffc800]548*(1+0.3*Skill Level) + 263.1% of ATK[-] M.DMG to enemies in a frontal area and knocks them [fa96fa]down[-] for [64ffff]{3}[-] sec.",
+            "description": "Deals [ffc800]52(1+0.3*Skill Level) + 26.2% of ATK[-] M.DMG per hit, attacking 7 times, to nearby enemies in a circular area around the user. Then deals [ffc800]548*(1+0.3*Skill Level) + 263.1% of ATK[-] M.DMG to enemies in a frontal area and knocks them [fa96fa]down[-] for [64ffff]1.8[-] sec.",
             "thumbnail": "heroes/Kirze/skills/1.png"
         },
         "2": {
             "name": "Disperse, Crystal Haze!",
             "cost": "2",
             "cooldown": "20",
-            "description": "Deals [ffc800]255(1+0.3*Skill Level) + 145% of ATK[-] M.DMG to all enemies and stuns them for [64ffff]{2}[-] sec. Upon casting, enters [fa96fa][Arcane Crystal Awakening][-] for [64ffff]{3}[-] sec, increasing the ATK Spd of all allies by [64ff64]{4}[-]. While active, releases a shockwave every [64ffff]{5}[-] sec, dealing [ffc800]280*(1+0.3*Skill Level) + 159% of ATK[-] M.DMG to nearby enemies and stunning them for [64ffff]{7}[-] sec.",
+            "description": "Deals [ffc800]255(1+0.3*Skill Level) + 145% of ATK[-] M.DMG to all enemies and stuns them for [64ffff]1.2[-] sec. Upon casting, enters [fa96fa][Arcane Crystal Awakening][-] for [64ffff]10[-] sec, increasing the ATK Spd of all allies by [64ff64]300[-]. While active, releases a shockwave every [64ffff]1.4[-] sec, dealing [ffc800]280*(1+0.3*Skill Level) + 159% of ATK[-] M.DMG to nearby enemies and stunning them for [64ffff]0.6[-] sec.",
             "thumbnail": "heroes/Kirze/skills/2.png"
         },
         "3": {
             "name": "Bloom, Crimson Flower!",
             "cost": "4",
             "cooldown": "20",
-            "description": "Summons an Arcane Crystal to deal [ffc800]518(1 + 0.3*Skill Level) + 221.3% of ATK[-] M.DMG to enemies in a frontal straight-line area, then causes an explosion shortly afterward that deals [ffc800]828*(1 + 0.3*Skill Level) + 354% of ATKadditional M.DMG[-]. Inflicts [fa96fa][Arcane Crystal Curse][-] on enemies for [64ffff]{3}[-] sec, reducing their ATK Spd by [ff6464]{4}[-].\nWhen attacking enemies under [fa96fa][Arcane Crystal Curse][-], applies 1 stack of [fa96fa][Arcane Crystal Energy][-]. [fa96fa][Arcane Crystal Curse][-] explodes after [64ffff]{5}[-] sec, dealing [ffc800]290*(1 + 0.3*Skill Level) + 200% of ATK[-] M.DMG plus an additional [ffc800]43% of ATK[-] per stack of [fa96fa][Arcane Crystal Energy][-].",
+            "description": "Summons an Arcane Crystal to deal [ffc800]518(1 + 0.3*Skill Level) + 221.3% of ATK[-] M.DMG to enemies in a frontal straight-line area, then causes an explosion shortly afterward that deals [ffc800]828*(1 + 0.3*Skill Level) + 354% of ATKadditional M.DMG[-]. Inflicts [fa96fa][Arcane Crystal Curse][-] on enemies for [64ffff]5[-] sec, reducing their ATK Spd by [ff6464]200[-].\nWhen attacking enemies under [fa96fa][Arcane Crystal Curse][-], applies 1 stack of [fa96fa][Arcane Crystal Energy][-]. [fa96fa][Arcane Crystal Curse][-] explodes after [64ffff]5[-] sec, dealing [ffc800]290*(1 + 0.3*Skill Level) + 200% of ATK[-] M.DMG plus an additional [ffc800]43% of ATK[-] per stack of [fa96fa][Arcane Crystal Energy][-].",
             "thumbnail": "heroes/Kirze/skills/3.png"
         },
         "4": {
             "name": "End to Evil Deeds!",
             "cost": null,
             "cooldown": null,
-            "description": "Changes base Mana Recovery per sec to [64ff64]{1}[-], increases Crit Chance by [64ff64]{2}[-], and increases the duration of CCs that all allies inflict on Bosses by [64ff64]{3}%[-].",
+            "description": "Changes base Mana Recovery per sec to [64ff64]150[-], increases Crit Chance by [64ff64]200[-], and increases the duration of CCs that all allies inflict on Bosses by [64ff64]30%[-].",
             "thumbnail": "heroes/Kirze/skills/4.png"
         }
     },
@@ -73,41 +73,41 @@
         "t3": {
             "1": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Reduces Cooldown by 3% per each enemy hit.",
                     "thumbnail": "heroes/Kirze/perks/s1l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "If there is only 1 enemy, DMG is increased by 100%.",
                     "thumbnail": "heroes/Kirze/perks/s1d.png"
                 }
             },
             "2": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Increases Mana Cost by 1000 and reduces Cooldown by 6 sec.",
                     "thumbnail": "heroes/Kirze/perks/s2l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "While under [Arcane Crystal Awakening], damage dealt to non-hero enemies is increased by 20%.",
                     "thumbnail": "heroes/Kirze/perks/s2d.png"
                 }
             },
             "3": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Increases Mana Cost by 1000 and reduces Cooldown by 6 sec.",
                     "thumbnail": "heroes/Kirze/perks/s3l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Inflicts 2 stacks of [Arcane Crystal Energy] at a time.",
                     "thumbnail": "heroes/Kirze/perks/s3d.png"
                 }
             },
             "4": {
                 "light": {
-                    "effect": "Increases ATK Boost by [64ff64]{1}[-]%.",
+                    "effect": "At the start of battle, increases damage dealt to non-hero enemies by 25% for 20 sec.",
                     "thumbnail": "heroes/Kirze/perks/s4l.png"
                 },
                 "dark": {
-                    "effect": "Increases ATK Boost by [64ff64]{1}[-]%.",
+                    "effect": "Deals 15% increased DMG to Bosses.",
                     "thumbnail": "heroes/Kirze/perks/s4d.png"
                 }
             }
@@ -118,7 +118,7 @@
                 "thumbnail": "heroes/Kirze/perks/light.png"
             },
             "dark": {
-                "effect": "Increases Crit DMG by {1}% and DEF Penetration by {2}. This effect increases by {4} times after Kirze attacks the enemy {3} times.",
+                "effect": "Increases Crit DMG by 40% and DEF Penetration by 150. This effect increases by 2 times after Kirze attacks the enemy 100 times.",
                 "thumbnail": "heroes/Kirze/perks/dark.png"
             }
         }

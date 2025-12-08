@@ -22,28 +22,28 @@
             "name": "Raven Storm",
             "cost": "2",
             "cooldown": "8",
-            "description": "Deals [ffc800]446(1+0.3Skill Level)+186.1% of Attack Power[-] as Magic Damage [64ffff]{2} times[-] to enemies in front, knocking them back and reducing their Attack Speed by [ff6464]{4}%[-] and Magic Defense by [ff6464]{5}%[-] for [64ffff]{3} sec[-]. Against non-hero enemies, each hit deals an additional [ffc800]446(1+0.3Skill Level)+186.1% of Attack Power[-] as Magic Damage.",
+            "description": "Deals [ffc800]446(1+0.3Skill Level)+186.1% of Attack Power[-] as Magic Damage [64ffff]3 times[-] to enemies in front, knocking them back and reducing their Attack Speed by [ff6464]30%[-] and Magic Defense by [ff6464]35%[-] for [64ffff]4 sec[-]. Against non-hero enemies, each hit deals an additional [ffc800]446(1+0.3Skill Level)+186.1% of Attack Power[-] as Magic Damage.",
             "thumbnail": "heroes/Maria/skills/1.png"
         },
         "2": {
             "name": "Claw of Restriction",
             "cost": "2",
             "cooldown": "13",
-            "description": "Deals [ffc800]608(1+0.3Skill Level)+253.4% of Attack Power[-] as Magic Damage to [64ffff]{1}[-] enemies and [fa96fa]roots[-] them for [64ffff]{3} sec[-]. Enemies hit take continuous Magic Damage equal to [ffc800]18% of Attack Power[-] every [64ffff]0.5 sec[-] for [64ffff]{4} sec[-], and their Magic Damage taken is increased by [ff6464]{6}%[-].",
+            "description": "Deals [ffc800]608(1+0.3Skill Level)+253.4% of Attack Power[-] as Magic Damage to [64ffff]2[-] enemies and [fa96fa]roots[-] them for [64ffff]3.6 sec[-]. Enemies hit take continuous Magic Damage equal to [ffc800]18% of Attack Power[-] every [64ffff]0.5 sec[-] for [64ffff]6 sec[-], and their Magic Damage taken is increased by [ff6464]30%[-].",
             "thumbnail": "heroes/Maria/skills/2.png"
         },
         "3": {
             "name": "Area of Darkness",
             "cost": "4",
             "cooldown": "25",
-            "description": "Pulls enemies within range toward the center and deals [ffc800]338(1+0.3Skill Level)+140.8% of Attack Power[-] as Magic Damage [64ffff]{2} times[-]. The final hit [fa96fa]stuns[-] them for [64ffff]{3} sec[-], and if they are not heroes, deals an additional [ffc800]338(1+0.3Skill Level)+140.8% of Attack Power[-] as Magic Damage.",
+            "description": "Pulls enemies within range toward the center and deals [ffc800]338(1+0.3Skill Level)+140.8% of Attack Power[-] as Magic Damage [64ffff]5 times[-]. The final hit [fa96fa]stuns[-] them for [64ffff]1.8 sec[-], and if they are not heroes, deals an additional [ffc800]338(1+0.3Skill Level)+140.8% of Attack Power[-] as Magic Damage.",
             "thumbnail": "heroes/Maria/skills/3.png"
         },
         "4": {
             "name": "Black Wind",
             "cost": null,
             "cooldown": null,
-            "description": "Critical Hit Chance is increased by [64ff64]{1}[-], and each time you deal damage, you inflict [fa96fa][Lea's Curse][-] on the target for [64ffff]{2} sec[-].\n[fa96fa][Lea's Curse]:[-] Critical Hit Chance is reduced by [ff6464]{3}[-] and Attack is reduced by [ff6464]{4}%[-].",
+            "description": "Critical Hit Chance is increased by [64ff64]150[-], and each time you deal damage, you inflict [fa96fa][Lea's Curse][-] on the target for [64ffff]10 sec[-].\n[fa96fa][Lea's Curse]:[-] Critical Hit Chance is reduced by [ff6464]250[-] and Attack is reduced by [ff6464]25%[-].",
             "thumbnail": "heroes/Maria/skills/4.png"
         }
     },
@@ -64,50 +64,50 @@
             "IV": "Increases DMG by [64ff64]25[-]%."
         },
         "4": {
-            "II": "Increases Crit Chance Boost by [64ff64]10[-].",
-            "III": "Increases Crit Chance Boost by [64ff64]15[-].",
-            "IV": "Increases Crit Chance Boost by [64ff64]25[-]."
+            "II": "Increases Crit Chance Boost by [64ff64]50[-].",
+            "III": "Increases Crit Chance Boost by [64ff64]75[-].",
+            "IV": "Increases Crit Chance Boost by [64ff64]125[-]."
         }
     },
     "perks": {
         "t3": {
             "1": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is increased by 1000, but damage dealt is increased by 80%.",
                     "thumbnail": "heroes/Maria/perks/s1l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Roots the target for 1.2 sec.",
                     "thumbnail": "heroes/Maria/perks/s1d.png"
                 }
             },
             "2": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is increased by 1000, but the target is changed to all enemies.",
                     "thumbnail": "heroes/Maria/perks/s2l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Root duration is increased by 0.9 sec.",
                     "thumbnail": "heroes/Maria/perks/s2d.png"
                 }
             },
             "3": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "For 10 sec, the target's Magic Damage taken is increased by 25%.",
                     "thumbnail": "heroes/Maria/perks/s3l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is reduced by 1000.",
                     "thumbnail": "heroes/Maria/perks/s3d.png"
                 }
             },
             "4": {
                 "light": {
-                    "effect": "Increases Crit Chance Boost by [64ff64]{1}[-].",
+                    "effect": "For each enemy affected by [Lea's Curse], your Attack increases by {2}%. This effect stacks up to {3} times and cannot be dispelled.",
                     "thumbnail": "heroes/Maria/perks/s4l.png"
                 },
                 "dark": {
-                    "effect": "Increases Crit Chance Boost by [64ff64]{1}[-].",
+                    "effect": "Reduces enemy M. Crit Resistance by 25% for 10 sec.",
                     "thumbnail": "heroes/Maria/perks/s4d.png"
                 }
             }

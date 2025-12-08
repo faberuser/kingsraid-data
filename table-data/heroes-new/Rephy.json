@@ -22,21 +22,21 @@
             "name": "Healing Soul",
             "cost": "2",
             "cooldown": "10",
-            "description": "Restores HP equal to [ffc800]{1}%[-] of Max HP to the 4 allies with the lowest HP, and additionally restores [ffc800]108*(1+0.3Skill Level)+67.5% of Attack Power[-] HP every [64ffff]0.5 sec[-] for [64ffff]{2} sec[-]. This effect cannot be dispelled.",
+            "description": "Restores HP equal to [ffc800]10%[-] of Max HP to the 4 allies with the lowest HP, and additionally restores [ffc800]108*(1+0.3Skill Level)+67.5% of Attack Power[-] HP every [64ffff]0.5 sec[-] for [64ffff]5 sec[-]. This effect cannot be dispelled.",
             "thumbnail": "heroes/Rephy/skills/1.png"
         },
         "2": {
             "name": "Salvation",
             "cost": "1",
             "cooldown": "12",
-            "description": "Removes harmful effects from all allies and increases their Magic Defense by [64ff64]50(1+0.3Skill Level)[-] for [64ffff]{1} sec[-].",
+            "description": "Removes harmful effects from all allies and increases their Magic Defense by [64ff64]50(1+0.3Skill Level)[-] for [64ffff]6 sec[-].",
             "thumbnail": "heroes/Rephy/skills/2.png"
         },
         "3": {
             "name": "Soulrush",
             "cost": "3",
             "cooldown": "20",
-            "description": "Deals [ffc800]88(1+0.3Skill Level)+55.8% of Attack Power[-] as Magic Damage to enemies within range [64ffff]{1} time(s)[-], and reduces their Attack Speed by [ff6464]{4}%[-] for [64ffff]{3} sec[-].",
+            "description": "Deals [ffc800]88(1+0.3Skill Level)+55.8% of Attack Power[-] as Magic Damage to enemies within range [64ffff]10 time(s)[-], and reduces their Attack Speed by [ff6464]25%[-] for [64ffff]10 sec[-].",
             "thumbnail": "heroes/Rephy/skills/3.png"
         },
         "4": {
@@ -51,12 +51,12 @@
         "1": {
             "II": "Increases Heal Rate by [64ff64]10[-]%.",
             "III": "Increases Heal Rate by [64ff64]15[-]%.",
-            "IV": "Increases Mana Recovery per sec of the target by [64ff64]25[-]%."
+            "IV": "Increases Mana Recovery per sec of the target by [64ff64]50[-]%."
         },
         "2": {
             "II": "Increases M.DEF Boost by [64ff64]10[-]%.",
             "III": "Increases M.DEF Boost by [64ff64]15[-]%.",
-            "IV": "Increases CC Resist by [64ffff]{2}[-] for [64ff64]25[-] sec."
+            "IV": "Increases CC Resist by [64ffff]300[-] for [64ff64]6[-] sec."
         },
         "3": {
             "II": "Increases DMG by [64ff64]10[-]%.",
@@ -66,48 +66,48 @@
         "4": {
             "II": "Increases Heal Rate by [64ff64]10[-]%.",
             "III": "Increases Heal Rate by [64ff64]15[-]%.",
-            "IV": "Increases Mana Recovery by [64ff64]25[-]%."
+            "IV": "Increases Mana Recovery by [64ff64]50[-]%."
         }
     },
     "perks": {
         "t3": {
             "1": {
                 "light": {
-                    "effect": "Increases Heal Rate by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is increased by 1000, and the effect now applies to all allies.",
                     "thumbnail": "heroes/Rephy/perks/s1l.png"
                 },
                 "dark": {
-                    "effect": "Increases Heal Rate by [64ff64]{1}[-]%.",
+                    "effect": "Each time you heal, has a 20% chance to remove a harmful effect.",
                     "thumbnail": "heroes/Rephy/perks/s1d.png"
                 }
             },
             "2": {
                 "light": {
-                    "effect": "Increases M.DEF Boost by [64ff64]{1}[-]%.",
+                    "effect": "Mana cost is reduced by 1000.",
                     "thumbnail": "heroes/Rephy/perks/s2l.png"
                 },
                 "dark": {
-                    "effect": "Increases M.DEF Boost by [64ff64]{1}[-]%.",
+                    "effect": "Magic Defense is additionally increased by 13%.",
                     "thumbnail": "heroes/Rephy/perks/s2d.png"
                 }
             },
             "3": {
                 "light": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Magic Damage taken by the target is increased by 25%.",
                     "thumbnail": "heroes/Rephy/perks/s3l.png"
                 },
                 "dark": {
-                    "effect": "Increases DMG by [64ff64]{1}[-]%.",
+                    "effect": "Physical Damage taken by the target is increased by 25%.",
                     "thumbnail": "heroes/Rephy/perks/s3d.png"
                 }
             },
             "4": {
                 "light": {
-                    "effect": "Increases Heal Rate by [64ff64]{1}[-]%.",
+                    "effect": "Cooldown is reduced by 2 sec.",
                     "thumbnail": "heroes/Rephy/perks/s4l.png"
                 },
                 "dark": {
-                    "effect": "Increases Heal Rate by [64ff64]{1}[-]%.",
+                    "effect": "Additionally restores 500 Mana to the 2 allies with the highest Attack.",
                     "thumbnail": "heroes/Rephy/perks/s4d.png"
                 }
             }
