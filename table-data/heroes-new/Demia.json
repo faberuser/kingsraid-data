@@ -125,7 +125,33 @@
     },
     "uw": {
         "name": "The Blue Light, Arpheus",
-        "description": "Increases all allies’ Physical Defense by 8%.\nOn block, has a 10% chance to restore 180 Mana to yourself and reduce the cooldown of all skills by 1 sec.",
+        "description": "Increases all allies’ Physical Defense by {0}%.\nOn block, has a {1}% chance to restore {2} Mana to yourself and reduce the cooldown of all skills by 1 sec.",
+        "value": {
+            "0": {
+                "0": "8",
+                "1": "9",
+                "2": "10",
+                "3": "11",
+                "4": "13",
+                "5": "15"
+            },
+            "1": {
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
+            },
+            "2": {
+                "0": "180",
+                "1": "198",
+                "2": "216",
+                "3": "234",
+                "4": "252",
+                "5": "270"
+            }
+        },
         "thumbnail": "heroes/Demia/uw.png",
         "story": "One day, a vein exuding powerful mana was discovered in the territory of Ziltrion. While investigating, Demia found a blue ore, the likes of which she had never seen before. Numerous wizards and alchemists studied this mysterious ore with the characteristics of both gem and metal, but no one could figure out its identity. Jin the blacksmith, however, had a different idea. As soon as he saw the ore, he offered Demia to craft powerful gears out of it, with a big smile on his face. With it, he forged a lance and a shield, glowing blue with mana and tougher than diamond."
     },

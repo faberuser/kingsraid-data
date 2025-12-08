@@ -125,7 +125,33 @@
     },
     "uw": {
         "name": "World Tree's Will, Roburu",
-        "description": "Every {1} sec, deals Magic Damage equal to {2}% of Attack Power to poisoned enemies, reduces their Magic Defense by {4}% for {3} sec, and increases their Magic Damage taken by {5}%.",
+        "description": "Every 7 sec, deals Magic Damage equal to {0}% of Attack Power to poisoned enemies, reduces their Magic Defense by {1}% for 10 sec, and increases their Magic Damage taken by {2}%.",
+        "value": {
+            "0": {
+                "0": "100",
+                "1": "120",
+                "2": "140",
+                "3": "170",
+                "4": "210",
+                "5": "250"
+            },
+            "1": {
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
+            },
+            "2": {
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
+            }
+        },
         "thumbnail": "heroes/Lorraine/uw.png",
         "story": "The legend has it that, once every 100 years, the World Tree bestows one of its branches to a chosen one. The branch radiates with eternal life, granting immense power and knowledge to its owner. Fusing the branch with the Stone of the Forest, an Elven treasure, Lorraine created this staff. Now, she can call upon the forces of nature and remain connected to the World Tree wherever she goes."
     },

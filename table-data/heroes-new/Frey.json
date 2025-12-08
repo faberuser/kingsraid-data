@@ -125,7 +125,25 @@
     },
     "uw": {
         "name": "God's Authority, Rosmerta",
-        "description": "Every {1} sec, heals the {2} allies with the lowest current HP by {3}% of ATK, and increases the Critical Rate of the {5} allies with the highest ATK by {6}, and Critical DMG by {7}% for {4} sec.",
+        "description": "Every 8 sec, heals the 4 allies with the lowest current HP by {0}% of ATK, and increases the Critical Rate of the 4 allies with the highest ATK by 200, and Critical DMG by {1}% for 8 sec.",
+        "value": {
+            "0": {
+                "0": "80",
+                "1": "96",
+                "2": "115",
+                "3": "138",
+                "4": "165",
+                "5": "200"
+            },
+            "1": {
+                "0": "15",
+                "1": "19",
+                "2": "23",
+                "3": "27",
+                "4": "31",
+                "5": "35"
+            }
+        },
         "thumbnail": "heroes/Frey/uw.png",
         "story": "The Angels are said to be closer to Lua than any other race. A high ranking angel called Rosmerta bestowed her core to the Church of Lua, and they crafted this holy staff from the core's divine energy."
     },

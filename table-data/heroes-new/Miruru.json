@@ -125,7 +125,25 @@
     },
     "uw": {
         "name": "Ultimate Weapon, Leviathan",
-        "description": "When using [KABOOM!] attacks, has a 30% chance to deal additional Physical Damage equal to 100% of Attack Power and increase the target's Physical Damage taken by 20% for 10 sec.",
+        "description": "When using [KABOOM!] attacks, has a 30% chance to deal additional Physical Damage equal to {0}% of Attack Power and increase the target's Physical Damage taken by {1}% for 10 sec.",
+        "value": {
+            "0": {
+                "0": "100",
+                "1": "120",
+                "2": "140",
+                "3": "170",
+                "4": "210",
+                "5": "250"
+            },
+            "1": {
+                "0": "20",
+                "1": "24",
+                "2": "29",
+                "3": "35",
+                "4": "42",
+                "5": "50"
+            }
+        },
         "thumbnail": "heroes/Miruru/uw.png",
         "story": "Back when Miruru reigned as the pirate empress, she was feared by sailors and a major threat to the naval forces of Orvelia and the empire. The cannons on her ship were especially terrifying to the Navy. The most powerful of them was the Leviathan, the ship's main cannon. After being cursed, she took one thing with her as she fled from her mutinous crew. Its value as a weapon is in fact far more valuable than any gold or loot. She took with her the Leviathan, the most powerful cannon in her arsenal. After numerous modifications, the once-terror of the sea now serves as a mobile artillery."
     },

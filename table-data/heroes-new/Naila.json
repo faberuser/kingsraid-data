@@ -125,7 +125,33 @@
     },
     "uw": {
         "name": "Cursed Claws, Baroro",
-        "description": "On hit, increases the target’s Physical Damage taken by {2}% and reduces Status Ailment Resistance by {3} for {1} sec.\nIf the target is a boss, damage dealt to the boss is increased by {4}%, and this boss damage increase effect stacks up to 10 times.",
+        "description": "On hit, increases the target’s Physical Damage taken by {0}% and reduces Status Ailment Resistance by {1} for 10 sec.\nIf the target is a boss, damage dealt to the boss is increased by {2}%, and this boss damage increase effect stacks up to 10 times.",
+        "value": {
+            "0": {
+                "0": "20",
+                "1": "24",
+                "2": "29",
+                "3": "35",
+                "4": "42",
+                "5": "50"
+            },
+            "1": {
+                "0": "200",
+                "1": "240",
+                "2": "290",
+                "3": "350",
+                "4": "420",
+                "5": "500"
+            },
+            "2": {
+                "0": "20",
+                "1": "24",
+                "2": "29",
+                "3": "35",
+                "4": "42",
+                "5": "50"
+            }
+        },
         "thumbnail": "heroes/Naila/uw.png",
         "story": "A cursed pair of gauntlets crafted from the claws of the Mad Demon Baroro, which was defeated during the war. Several times the size of the average human hands, these gauntlets directly connect to the nerves of the wearer, allowing the wielder to control them effortlessly. Although they grant immense power, they also break into the mind of the wearer, slowing eating away at the soul. Only a true warrior of noble conviction, strong will and undying spirit may handle these cursed weapons. They are the perfect weapons for a warrior with a strong will that shines even in the darkness of the abyss."
     },

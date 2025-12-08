@@ -125,7 +125,25 @@
     },
     "uw": {
         "name": "Lightning Flash, Livatis",
-        "description": "Each time a critical hit occurs, for 15 sec your Attack Speed is increased by 80 and Critical Damage is increased by 20%. This effect stacks up to 5 times.",
+        "description": "Each time a critical hit occurs, for 15 sec your Attack Speed is increased by {0} and Critical Damage is increased by {1}%. This effect stacks up to 5 times.",
+        "value": {
+            "0": {
+                "0": "80",
+                "1": "90",
+                "2": "110",
+                "3": "130",
+                "4": "160",
+                "5": "200"
+            },
+            "1": {
+                "0": "20",
+                "1": "24",
+                "2": "28",
+                "3": "34",
+                "4": "41",
+                "5": "50"
+            }
+        },
         "thumbnail": "heroes/Reina/uw.png",
         "story": "The Stein family boasts a long lineage that dates back to the early days of the empire. The honor of the family, however, stems from the skills of its warriors, not its noble bloodline. Aria Stein was a legendary master of the blade. Remembered as one of the most skilled warriors in the history of the empire, she laid the foundation of the Stein family honor. Reina is her descendant. Aria's sword, Livatis, currently belongs to Reina. Light as a feather yet strong enough to withstand any strike, this sword helped Reina earn the nickname 'Flash.'"
     },

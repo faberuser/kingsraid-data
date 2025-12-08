@@ -125,7 +125,17 @@
     },
     "uw": {
         "name": "Lea's Messenger, Cocytus",
-        "description": "Upon a Critical Hit, reduces Heal Rate of the target by 50% and increases own Crit DMG by 2% for 10 sec. Crit DMG increase effect can be stacked up to max 20 times.",
+        "description": "Upon a Critical Hit, reduces Heal Rate of the target by 50% and increases own Crit DMG by {0}% for 10 sec. Crit DMG increase effect can be stacked up to max 20 times.",
+        "value": {
+            "0": {
+                "0": "2",
+                "1": "2.4",
+                "2": "2.9",
+                "3": "3.5",
+                "4": "4.2",
+                "5": "5"
+            }
+        },
         "thumbnail": "heroes/Maria/uw.png",
         "story": "A mysterious raven that can travel across dimensions. Its intelligence and shrewdness are certainly not those of a mere bird. In truth, it is a monster filled with dark energy, much like Demons. Indeed, it is said that this beast is as powerful as a high-ranking Demon. Some claim that it occasionally flies over fields of battle, speaking in human languages. Much of this creature's identity is still shrouded in mystery."
     },

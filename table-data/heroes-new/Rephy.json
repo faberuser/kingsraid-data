@@ -125,7 +125,17 @@
     },
     "uw": {
         "name": "God's Lamp, Kurulati",
-        "description": "Every 20 sec, puts the 2 allies with the lowest HP into Spirit Form for 5 sec. Allies in Spirit Form are immune to physical attacks, their HP cannot be reduced below 1%, and their Mana recovery per second is increased by 50%.",
+        "description": "Every 20 sec, puts the 2 allies with the lowest HP into Spirit Form for {0} sec. Allies in Spirit Form are immune to physical attacks, their HP cannot be reduced below 1%, and their Mana recovery per second is increased by 50%.",
+        "value": {
+            "0": {
+                "0": "5",
+                "1": "6",
+                "2": "7",
+                "3": "8",
+                "4": "9",
+                "5": "10"
+            }
+        },
         "thumbnail": "heroes/Rephy/uw.png",
         "story": "It is the duty of a soul guide to lead the lost souls onto the right path, to help them move on to the next life. This lamp, powered by a mysterious orb created long ago by a dragon from a distant land, is a treasure of the Tamians. The orb at its core allows nearby souls to materialize, making it possible for its wielder to talk to them directly. As such, it is the ultimate medium for a soul guide. Tamian chieftains have used this relic to carry out the sacred duties of a soul guide for generations. Now, in the face a great danger that threatens the world, the lamp has been passed on to Rephy, the most powerful soul guide in existence."
     },

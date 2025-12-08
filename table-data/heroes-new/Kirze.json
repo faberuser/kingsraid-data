@@ -125,7 +125,17 @@
     },
     "uw": {
         "name": "Judgment Edge, Elicipira",
-        "description": "Greatly increases the effect range of [Bloom, Crimson Flower!].Normal and Skill attacks have a {1}% chance to deal additional M.DMG equal to {2}% of ATK. DMG is increased by {3} times against Bosses.",
+        "description": "Greatly increases the effect range of [Bloom, Crimson Flower!].Normal and Skill attacks have a 8% chance to deal additional M.DMG equal to {0}% of ATK. DMG is increased by 2 times against Bosses.",
+        "value": {
+            "0": {
+                "0": "250",
+                "1": "300",
+                "2": "360",
+                "3": "430",
+                "4": "500",
+                "5": "625"
+            }
+        },
         "thumbnail": "heroes/Kirze/uw.png",
         "story": "Giant scissors created with crimson arcane crystals that form Kirze's body.\nThey are based on antique scissors her mother used to have.\nIt is a very versatile weapon that can be swung like a great sword or split into two like double swords.\n\nThe weapon is built with prayers of a girl who wants no one to be tormented by the Demons anymore.\nThese scissors resonate with her emotions to unleash greater power."
     },

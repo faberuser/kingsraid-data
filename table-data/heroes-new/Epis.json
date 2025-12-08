@@ -125,7 +125,25 @@
     },
     "uw": {
         "name": "The Seductress, Guillotine",
-        "description": "On hit, has a 25% chance to deal additional Magic Damage equal to 80% of Attack Power and increase your Attack by 2%. The Attack increase stacks up to 10 times.",
+        "description": "On hit, has a 25% chance to deal additional Magic Damage equal to {0}% of Attack Power and increase your Attack by {1}%. The Attack increase stacks up to 10 times.",
+        "value": {
+            "0": {
+                "0": "80",
+                "1": "96",
+                "2": "115",
+                "3": "138",
+                "4": "165",
+                "5": "210"
+            },
+            "1": {
+                "0": "2",
+                "1": "2.4",
+                "2": "2.9",
+                "3": "3.5",
+                "4": "4.2",
+                "5": "5"
+            }
+        },
         "thumbnail": "heroes/Epis/uw.png",
         "story": "A deadly scythe that matches the characters of its wielder, Epis. It reaps the souls of those who approach it to admire its beauty. Created from within Epis's own body, the weapon is much like a succubus itself. It delivers extreme pleasure to its victims before absorbing their life energy. It seems that, in a way, Epis tried to show some sort of kindness with this weapon."
     },

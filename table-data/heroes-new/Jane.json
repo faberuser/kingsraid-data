@@ -125,7 +125,33 @@
     },
     "uw": {
         "name": "Unchanging Mind, Erekura",
-        "description": "Deals Magic Damage equal to {1}% of Attack Power per second to nearby enemies, reduces their Attack by {2}%, and recovers HP equal to {3}% of damage dealt.\nThe 4 allies with the highest Attack (excluding yourself) deal {4}% increased damage to non-hero enemies. This effect cannot be dispelled.",
+        "description": "Deals Magic Damage equal to {0}% of Attack Power per second to nearby enemies, reduces their Attack by {1}%, and recovers HP equal to 75% of damage dealt.\nThe 4 allies with the highest Attack (excluding yourself) deal {2}% increased damage to non-hero enemies. This effect cannot be dispelled.",
+        "value": {
+            "0": {
+                "0": "20",
+                "1": "30",
+                "2": "40",
+                "3": "50",
+                "4": "60",
+                "5": "70"
+            },
+            "1": {
+                "0": "14",
+                "1": "17",
+                "2": "20",
+                "3": "24",
+                "4": "29",
+                "5": "35"
+            },
+            "2": {
+                "0": "3",
+                "1": "3.5",
+                "2": "4",
+                "3": "5",
+                "4": "6",
+                "5": "7.5"
+            }
+        },
         "thumbnail": "heroes/Jane/uw.png",
         "story": "When Malduk's magic resurrected Jane as an undead, she should not have felt anything. Yet, she felt warm and comfortable as mysterious energy surrounded her dead body. She should not have been able to even feel it. But when Malduk took her, she instinctively reached out to the warm presence. Later, when a mysterious magic brought her back to consciousness, the first thing she did was to inspect her coffin, which radiated with tragic yet warm love. Inside, she found the following message carefully engraved: 'My unchanging love for you.'"
     },

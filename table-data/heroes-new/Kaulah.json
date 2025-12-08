@@ -125,7 +125,33 @@
     },
     "uw": {
         "name": "The Bluewind, Coventina",
-        "description": "On Normal Attack, has a {1}% chance to deal Magic Damage equal to {3}% of Attack Power to {2} random enemies and reduce their Attack by {5}% for {4} sec. If they are shocked, they are stunned for {6} sec.",
+        "description": "On Normal Attack, has a {0}% chance to deal Magic Damage equal to {1}% of Attack Power to 2 random enemies and reduce their Attack by {2}% for 10 sec. If they are shocked, they are stunned for 2 sec.",
+        "value": {
+            "0": {
+                "0": "12",
+                "1": "14",
+                "2": "17",
+                "3": "21",
+                "4": "25",
+                "5": "30"
+            },
+            "1": {
+                "0": "100",
+                "1": "120",
+                "2": "140",
+                "3": "170",
+                "4": "210",
+                "5": "250"
+            },
+            "2": {
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
+            }
+        },
         "thumbnail": "heroes/Kaulah/uw.png",
         "story": "A staff resembling the four-winged thunderbird. Indeed, it has been crafted from a feather of a thunderbird, a beast considered holy among the Skywind Orcs. The staff has the power to communicate with the sky, read the weather, and control the air. To a Skywind shaman who uses the power of lightning, this staff is the ultimate medium."
     },

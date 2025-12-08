@@ -125,7 +125,25 @@
     },
     "uw": {
         "name": "Specter's Breath, Redeal",
-        "description": "When using Normal Attacks or , has a {1}% chance to apply {2} additional stacks of [Fatal Wound] and deal additional Physical Damage equal to {3}% of Attack Power per [Fatal Wound] stack.",
+        "description": "When using Normal Attacks or [Rend], has a {0}% chance to apply 1 additional stacks of [Fatal Wound] and deal additional Physical Damage equal to {1}% of Attack Power per [Fatal Wound] stack.",
+        "value": {
+            "0": {
+                "0": "20",
+                "1": "24",
+                "2": "29",
+                "3": "35",
+                "4": "42",
+                "5": "50"
+            },
+            "1": {
+                "0": "12",
+                "1": "14",
+                "2": "17",
+                "3": "21",
+                "4": "25",
+                "5": "30"
+            }
+        },
         "thumbnail": "heroes/Roi/uw.png",
         "story": "The group of assassins known as the Laughing Mask has been the master of the Orvel's underworld for a long time. Only the best assassin of the Laughing Mask is allowed to wield this dreadful pair of daggers. It is said that the wounds inflicted by these daggers never heal, and that their victims inevitably bleed to death. According to the legend, these daggers were made from the scythe of the Grim Reaper."
     },

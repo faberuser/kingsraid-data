@@ -125,7 +125,41 @@
     },
     "uw": {
         "name": "Lakrak MK-1",
-        "description": "success chance is increased by {1}%.\nOn  success, Attack increases by {2}%, Attack Speed by {3}%, and damage dealt to non-hero enemies by {4}%. This effect stacks up to {5} times and cannot be dispelled.",
+        "description": "[Experiment] success chance is increased by {0}%.\nOn [Experiment] success, Attack increases by {1}%, Attack Speed by {2}%, and damage dealt to non-hero enemies by {3}%. This effect stacks up to 4 times and cannot be dispelled.",
+        "value": {
+            "0": {
+                "0": "20",
+                "1": "24",
+                "2": "29",
+                "3": "35",
+                "4": "42",
+                "5": "50"
+            },
+            "1": {
+                "0": "6",
+                "1": "7.2",
+                "2": "8.6",
+                "3": "10.5",
+                "4": "12.5",
+                "5": "15"
+            },
+            "2": {
+                "0": "60",
+                "1": "72",
+                "2": "86",
+                "3": "105",
+                "4": "125",
+                "5": "150"
+            },
+            "3": {
+                "0": "6",
+                "1": "7.2",
+                "2": "8.6",
+                "3": "10.5",
+                "4": "12.5",
+                "5": "15"
+            }
+        },
         "thumbnail": "heroes/Lakrak/uw.png",
         "story": "The destructive yet artistic magnum opus of a quirky Goblin inventor. This single-hand cannon packs the maximum amount of firepower a single Goblin can physically handle. Despite the dangerous amount of gunpowder used, this weapon has fortunately not blown up yet."
     },

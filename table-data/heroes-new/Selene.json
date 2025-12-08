@@ -125,7 +125,25 @@
     },
     "uw": {
         "name": "Green Winds, Notos",
-        "description": "On critical hit, Attack Speed is increased by 20% for 10 sec, and during the duration, Normal Attacks fire an additional arrow that deals 100% extra Physical Damage to the target. The additional damage can only occur once every 0.5 sec.",
+        "description": "On critical hit, Attack Speed is increased by {0}% for 10 sec, and during the duration, Normal Attacks fire an additional arrow that deals {1}% extra Physical Damage to the target. The additional damage can only occur once every 0.5 sec.",
+        "value": {
+            "0": {
+                "0": "20",
+                "1": "24",
+                "2": "28",
+                "3": "34",
+                "4": "41",
+                "5": "50"
+            },
+            "1": {
+                "0": "100",
+                "1": "120",
+                "2": "140",
+                "3": "170",
+                "4": "210",
+                "5": "250"
+            }
+        },
         "thumbnail": "heroes/Selene/uw.png",
         "story": "A bow blessed with the breath of Sylphid, the Wind Elemental. Only a person of noble character may wield it. Created from the breath of the Elemental, the arrow pierces through the target when the bow is drawn. No matter where the target is hiding, the arrow never misses it with the guidance of the Wind Elemental. Ever since her childhood, Selene has shared special bonds with Elementals. Of all the Elementals, Sylphid was the closest. As a sign of their friendship, Sylphid enchanted Selene's bow."
     },

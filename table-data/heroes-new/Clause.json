@@ -125,7 +125,25 @@
     },
     "uw": {
         "name": "The Guardian, Exian",
-        "description": "Every {1} skills used, increases all allies' Physical Defense by {3}% and Attack by {4}% for {2} sec. The Physical Defense increase is applied at {5} times its value to the 4 allies with the lowest Physical Defense.",
+        "description": "Every 3 skills used, increases all allies' Physical Defense by {0}% and Attack by {1}% for 15 sec. The Physical Defense increase is applied at 2 times its value to the 4 allies with the lowest Physical Defense.",
+        "value": {
+            "0": {
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
+            },
+            "1": {
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
+            }
+        },
         "thumbnail": "heroes/Clause/uw.png",
         "story": "A sword and shield set engraved with various Runes and infused with ancient magic. These legendary items are said to have been created eons ago by an ancient dragon named Exian, using its own scales. As one of the royal treasures of Orvel, the sword is bestowed only to the knight of the most honorable principles. Its wielder shall serve as the defender of the kingdom and its people, and the protector of life."
     },
