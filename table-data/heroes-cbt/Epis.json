@@ -1,0 +1,218 @@
+{
+    "profile": {
+        "name": "Epis",
+        "title": "Captivating Demon Epis",
+        "class": "Assassin",
+        "position": "Front-500",
+        "attack_range": "900",
+        "damage_type": "Magical",
+        "gender": "Female",
+        "age": "???",
+        "height": "164",
+        "race": "Demon",
+        "constellation": "Kandala the Conqueror",
+        "birth_of_month": "August 13th, Month of Vitality",
+        "like": "Anything that strikes interest or curiosity",
+        "dislike": "Boring atmosphere",
+        "story": "This playful and bewitching succubus acts on her own whims. As expected of her Demon lineage, she is a hedonist driven by what she finds fun and enjoyable. Even during the Demon War, she chose traveling around on her own over joining the invasion. In her eyes, fighting alongside Kyle was interesting enough for her to even betray her own kind. When she later met Kasel, she gladly joined his party, knowing that she found another fun adventure for herself. When she finds attractive men, she sometimes visits them in their dreams.",
+        "thumbnail": "heroes/Epis/ico.png"
+    },
+    "skills": {
+        "1": {
+            "name": "Absorbing Blow",
+            "cost": null,
+            "cooldown": null,
+            "description": "Deals [ffc800]871*(0.7+(0.3*Skill Level*Awakening Coefficient))+500.2% ATK[-] Magic DMG to an enemy and recovers HP equal to [64ff64]25%[-] of the damage dealt. Increases own ATK by [64ff64]4%[-] for [64ffff]15sec[-]. This ATK increase effect stacks up to [64ffff]6 times[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Epis/skills/1.png"
+        },
+        "2": {
+            "name": "Nightmare",
+            "cost": null,
+            "cooldown": null,
+            "description": "Moves to the rearmost enemy and deals [ffc800]484*(0.7+(0.3*Skill Level*Awakening Coefficient))+278% ATK[-] Magic DMG to the target and nearby enemies. Increases Magic DMG taken by [ff6464]20%[-] and reduces Status Resistance by [ff6464]320[-] for [64ffff]5sec[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Epis/skills/2.png"
+        },
+        "3": {
+            "name": "Devil's Prom",
+            "cost": null,
+            "cooldown": null,
+            "description": "Deals [ffc800]458*(0.7+(0.3*Skill Level*Awakening Coefficient))+263.6% ATK[-] Magic DMG to enemies within range [64ffff]4 times[-]. While casting, the caster is immune to status effects and all damage taken is reduced by [64ff64]60%[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Epis/skills/3.png"
+        },
+        "4": {
+            "name": "Harvest",
+            "cost": null,
+            "cooldown": null,
+            "description": "Upon killing an enemy, reduces the Cooldown of all skills by [64ff64]30%[-] and gains [fa96fa][Harvest][-] stacks [64ffff]1[-].\n\n[fa96fa][Harvest]:[-] Increases ATK by [64ff64]80*(0.7+(0.3*Skill Level*Awakening Coefficient))[-], stacking up to [64ffff]10 times[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Epis/skills/4.png"
+        }
+    },
+    "books": {
+        "1": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        },
+        "2": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        },
+        "3": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Upon a Crit Hit, heals [64ff64]25[-] % of DMG as HP."
+        },
+        "4": {
+            "II": "Increases ATK Boost by [64ff64]10[-]%.",
+            "III": "Increases ATK Boost by [64ff64]15[-]%.",
+            "IV": "When [fa96fa][Harvest][-] is triggered, restores 1000 of your Mana."
+        }
+    },
+    "perks": {
+        "t3": {
+            "1": {
+                "light": {
+                    "effect": "If there is only 1 enemy, damage dealt is increased by 100%.",
+                    "thumbnail": "heroes/Epis/perks/s1l.png"
+                },
+                "dark": {
+                    "effect": "Cooldown is reduced by 2 sec.",
+                    "thumbnail": "heroes/Epis/perks/s1d.png"
+                }
+            },
+            "2": {
+                "light": {
+                    "effect": "Damage increases by 50%.",
+                    "thumbnail": "heroes/Epis/perks/s2l.png"
+                },
+                "dark": {
+                    "effect": "Mana cost increases by 2000, but after using a skill, if there are nearby enemies, additionally uses [Absorbing Blow].",
+                    "thumbnail": "heroes/Epis/perks/s2d.png"
+                }
+            },
+            "3": {
+                "light": {
+                    "effect": "Damage is reduced by 30%, but the number of hits is doubled.",
+                    "thumbnail": "heroes/Epis/perks/s3l.png"
+                },
+                "dark": {
+                    "effect": "Mana cost increases by 1000, but triggers [Harvest] once.",
+                    "thumbnail": "heroes/Epis/perks/s3d.png"
+                }
+            },
+            "4": {
+                "light": {
+                    "effect": "Mana recovery per second increases by 10% per stack.",
+                    "thumbnail": "heroes/Epis/perks/s4l.png"
+                },
+                "dark": {
+                    "effect": "If stacks are 6 or more, cooldown is additionally reduced by 1 sec every second.",
+                    "thumbnail": "heroes/Epis/perks/s4d.png"
+                }
+            }
+        },
+        "t5": {
+            "light": {
+                "effect": "ATK, DEF, HP +15% / Crit DMG +20%",
+                "thumbnail": "heroes/Epis/perks/light.png"
+            },
+            "dark": {
+                "effect": "When attacking with a skill, increases Epis’s Attack by 4% and Armor Penetration by 4%. This effect stacks up to 5 times.",
+                "thumbnail": "heroes/Epis/perks/dark.png"
+            }
+        }
+    },
+    "uw": {
+        "name": "The Seductress, Guillotine",
+        "description": "On hit, has a 25% chance to deal additional Magic Damage equal to {0}% of Attack Power and increase your Attack by {1}%. The Attack increase stacks up to 5 times.",
+        "thumbnail": "heroes/Epis/uw.png",
+        "story": "A deadly scythe that matches the characters of its wielder, Epis. It reaps the souls of those who approach it to admire its beauty. Created from within Epis's own body, the weapon is much like a succubus itself. It delivers extreme pleasure to its victims before absorbing their life energy. It seems that, in a way, Epis tried to show some sort of kindness with this weapon.",
+        "value": {
+            "0": {
+                "0": "80",
+                "1": "96",
+                "2": "115",
+                "3": "138",
+                "4": "165",
+                "5": "200"
+            },
+            "1": {
+                "0": "2",
+                "1": "2.4",
+                "2": "2.8",
+                "3": "3.2",
+                "4": "3.6",
+                "5": "4"
+            }
+        }
+    },
+    "uts": {
+        "1": {
+            "name": "Seductress Shoes",
+            "description": "[Absorbing Blow] increases DMG by {0}% and resets its Cooldown upon killing an enemy.",
+            "thumbnail": "heroes/Epis/ut/1.png",
+            "story": "Epis's treasured item. When Epis first arrived in the human world, she really got into human culture and attended a masquerade. The dancing of a girl wearing red heels caught her eyes, and she made a deal with her in exchange for the those shoes. Epis wears her seductive heels and get carried away when inflicting pain on her enemies with her dance.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            }
+        },
+        "2": {
+            "name": "Succubus's Box",
+            "description": "[Nightmare] Increases DMG by 50% and stuns the affected enemy for {0} sec.",
+            "thumbnail": "heroes/Epis/ut/2.png",
+            "story": "Box containing the Nightmare Queen's sand of sleep. \nA box from the Demon World that contains magic sand that causes one to fall asleep. \nWhen the enemy falls asleep, attacks the enemy and deals M. DMG through a nightmare that cannot be dispelled.",
+            "value": {
+                "0": {
+                    "0": "2",
+                    "1": "2.4",
+                    "2": "2.9",
+                    "3": "3.5",
+                    "4": "4.2",
+                    "5": "5"
+                }
+            }
+        },
+        "3": {
+            "name": "Green Fairy",
+            "description": "[Devil's Prom] Reduces Mana Cost by 1 and increases DMG by {0}%.",
+            "thumbnail": "heroes/Epis/ut/3.png",
+            "story": "Epis's favorite liquor.\nThe most notorious liquor in Orvel, it is made from the strongest wormwood and can cause people to hallucinate. It is secretly used by artists to stoke their inspiration or as a cure for bad cases of insomnia. For Epis, however, it's a light, easy drink.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            }
+        },
+        "4": {
+            "name": "Memory of Dream",
+            "description": "[Harvest] Increases ATK boost by 50%. Killing an enemy increases ATK Spd by {0}. This effect can be stacked up to max 10 times.",
+            "thumbnail": "heroes/Epis/ut/4.png",
+            "story": "A magical mirror that reflects the dreams Epis has absorbed.\nSince Epis has been using the mirror to store interesting dreams, it is now filled with countless traces of the deepest of secrets.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            }
+        }
+    },
+    "splashart": "heroes/Epis/sa.png",
+    "costumes": "heroes/Epis/cos"
+}

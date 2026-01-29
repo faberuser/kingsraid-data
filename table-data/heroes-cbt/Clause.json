@@ -1,0 +1,218 @@
+{
+    "profile": {
+        "name": "Clause",
+        "title": "Knight of Iron Defense Clause",
+        "class": "Knight",
+        "position": "Front-700",
+        "attack_range": "1500",
+        "damage_type": "Physical",
+        "gender": "Male",
+        "age": "20",
+        "height": "195",
+        "race": "Human",
+        "constellation": "Asiphia the Empress",
+        "birth_of_month": "October 22nd, Month of Friendship",
+        "like": "His new family",
+        "dislike": "Causing harm to friends",
+        "story": "This upright and righteous man protects Orvel as one of its knights. Many people consider him a dependable defender of Orvel, but due to his lack of interest in wealth and success, his actual rank within the order has never been very high. He grew up together with Kasel and Frey in the same orphanage, and he loves his land as the home of those precious to him. He recently volunteered to join the expedition to investigate the King's Plains.",
+        "thumbnail": "heroes/Clause/ico.png"
+    },
+    "skills": {
+        "1": {
+            "name": "Cut Ground",
+            "cost": null,
+            "cooldown": null,
+            "description": "Leaps and deals [ffc800]258*(0.7+(0.3*Skill Level*Awakening Coefficient))+198% ATK[-] Physical DMG to enemies within range, and [fa96fa]stuns[-] them for [64ffff]2sec[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Clause/skills/1.png"
+        },
+        "2": {
+            "name": "Shield Strike",
+            "cost": null,
+            "cooldown": null,
+            "description": "Deals [ffc800]1405*(0.7+(0.3*Skill Level*Awakening Coefficient))+100% Physical DEF[-] Physical DMG to enemies within range, [fa96fa]knocking them back[-], and reduces their ATK by [ff6464]25%[-] and ATK Spd by [ff6464]20%[-] for [64ffff]4sec[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Clause/skills/2.png"
+        },
+        "3": {
+            "name": "Guardian Shield",
+            "cost": null,
+            "cooldown": null,
+            "description": "For [64ffff]14sec[-], increases all allies' Physical DEF by [ffc800]98*(0.7+(0.3*Skill Level*Awakening Coefficient))[-], Physical Block Chance by [64ff64]150[-], and reduces Physical DMG taken by [64ff64]10%[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Clause/skills/3.png"
+        },
+        "4": {
+            "name": "Vow of Knights",
+            "cost": null,
+            "cooldown": null,
+            "description": "On Block, deals [ffc800]48*(0.7+(0.3*Skill Level*Awakening Coefficient))+36.7% ATK[-] Physical DMG in front, reduces the target's ATK by [ff6464]3.5%[-] for [64ffff]6sec[-], and increases your Physical DEF by [64ff64]9%[-]. These effects stack up to [64ffff]4 times[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Clause/skills/4.png"
+        }
+    },
+    "books": {
+        "1": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        },
+        "2": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        },
+        "3": {
+            "II": "Increases DEF Boost by [64ff64]10[-]%.",
+            "III": "Increases DEF Boost by [64ff64]15[-]%.",
+            "IV": "Increases DEF Boost by [64ff64]25[-]%."
+        },
+        "4": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        }
+    },
+    "perks": {
+        "t3": {
+            "1": {
+                "light": {
+                    "effect": "Cooldown is reduced by 2 sec.",
+                    "thumbnail": "heroes/Clause/perks/s1l.png"
+                },
+                "dark": {
+                    "effect": "Mana cost increases by 2000, but pulls nearby enemies toward the target.",
+                    "thumbnail": "heroes/Clause/perks/s1d.png"
+                }
+            },
+            "2": {
+                "light": {
+                    "effect": "On block, cooldown is reduced by 0.5 sec.",
+                    "thumbnail": "heroes/Clause/perks/s2l.png"
+                },
+                "dark": {
+                    "effect": "After knockback, stuns the target for 1 sec.",
+                    "thumbnail": "heroes/Clause/perks/s2d.png"
+                }
+            },
+            "3": {
+                "light": {
+                    "effect": "Physical Defense increase amount increases by 50%.",
+                    "thumbnail": "heroes/Clause/perks/s3l.png"
+                },
+                "dark": {
+                    "effect": "Physical Block Chance additionally increases by 100.",
+                    "thumbnail": "heroes/Clause/perks/s3d.png"
+                }
+            },
+            "4": {
+                "light": {
+                    "effect": "On block, the Attack reduction effect and Physical Defense increase effect are changed to stack up to 6 times.",
+                    "thumbnail": "heroes/Clause/perks/s4l.png"
+                },
+                "dark": {
+                    "effect": "Cooldown is reduced by 2 sec.",
+                    "thumbnail": "heroes/Clause/perks/s4d.png"
+                }
+            }
+        },
+        "t5": {
+            "light": {
+                "effect": "ATK, DEF, HP +15% / P. Block +200",
+                "thumbnail": "heroes/Clause/perks/light.png"
+            },
+            "dark": {
+                "effect": "At the start of each battle, increases all allies' Max HP by 10%. This effect stacks up to 3 times and cannot be dispelled.",
+                "thumbnail": "heroes/Clause/perks/dark.png"
+            }
+        }
+    },
+    "uw": {
+        "name": "The Guardian, Exian",
+        "description": "Every 3 skills used, increases all allies' Physical Defense by {0}% and Attack by {1}% for 15 sec. The Physical Defense increase is applied at 2 times its value to the 4 allies with the lowest Physical Defense.",
+        "thumbnail": "heroes/Clause/uw.png",
+        "story": "A sword and shield set engraved with various Runes and infused with ancient magic. These legendary items are said to have been created eons ago by an ancient dragon named Exian, using its own scales. As one of the royal treasures of Orvel, the sword is bestowed only to the knight of the most honorable principles. Its wielder shall serve as the defender of the kingdom and its people, and the protector of life.",
+        "value": {
+            "0": {
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "16",
+                "4": "18",
+                "5": "20"
+            },
+            "1": {
+                "0": "2",
+                "1": "2.4",
+                "2": "2.8",
+                "3": "3.2",
+                "4": "3.6",
+                "5": "4"
+            }
+        }
+    },
+    "uts": {
+        "1": {
+            "name": "Guardian Knight Insignia",
+            "description": "[Cut Ground] reduces Cooldown by {0}% per enemy hit and increases Stun duration by 1 sec.",
+            "thumbnail": "heroes/Clause/ut/1.png",
+            "story": "Rune of the Orvel Guardian Knights. A Gold Lion Rune that is given to knights when they first join the Guardian Knights, along with the vow that they will give their lives to protect the kingdom. \nThe rune from the Guardian Knights bolsters a knight's iron will and loyalty, increasing the effectiveness of the Guardian Shield.",
+            "value": {
+                "0": {
+                    "0": "5",
+                    "1": "6",
+                    "2": "7",
+                    "3": "8",
+                    "4": "9",
+                    "5": "10"
+                }
+            }
+        },
+        "2": {
+            "name": "Firm Determination",
+            "description": "[Shield Strike] reduces the P.DEF of hit enemies by 25% and their P.Crit Resist by 210 for 4 sec.",
+            "thumbnail": "heroes/Clause/ut/2.png",
+            "story": "Old wooden shield of the knight of the Iron Wall. \nIt's a precious shield that Clause used when he first started training. He has since engraved the names of his deceased comrades in order to remember his determination as a guardian knight. \nEach time he pushes away enemies with the shield, the knight's firm determination helps him tap into power beyond his limits.",
+            "value": {
+                "0": {
+                    "0": "210",
+                    "1": "252",
+                    "2": "294",
+                    "3": "336",
+                    "4": "378",
+                    "5": "420"
+                }
+            }
+        },
+        "3": {
+            "name": "Cape of Justice",
+            "description": "[Guardian Shield] increases effect duration by 4.5 sec and boosts DEF increase by {0}%.",
+            "thumbnail": "heroes/Clause/ut/3.png",
+            "story": "A ceremonial cape used on special occasions of Orvelia.\nEver since it was bestowed upon Clause on the day he was knighted, it reminds Clause of his early resolutions. Whenever he wants to quit, exhausted from all the battles, Clause would bring it out and contemplate on it. Young Kasel used to watch Clause do this and dream of becoming a knight.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            }
+        },
+        "4": {
+            "name": "Mittens",
+            "description": "[Vow of Knights] recovers {0}% of Max HP and increases the duration of own P.DEF by 3 sec.",
+            "thumbnail": "heroes/Clause/ut/4.png",
+            "story": "A pair of gloves that Clause cherishes the most.\nYoung Kasel and Frey gave him these when Clause was ordained a knight during a particularly cold winter.\nAlthough it wasn't knitted perfectly, each of them knitted each piece with their initials engraved on it.",
+            "value": {
+                "0": {
+                    "0": "3",
+                    "1": "3.6",
+                    "2": "4.2",
+                    "3": "4.8",
+                    "4": "5.4",
+                    "5": "6"
+                }
+            }
+        }
+    },
+    "splashart": "heroes/Clause/sa.png",
+    "costumes": "heroes/Clause/cos"
+}

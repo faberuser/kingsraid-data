@@ -1,0 +1,210 @@
+{
+    "profile": {
+        "name": "Rephy",
+        "title": "Spiritual Guide Rephy",
+        "class": "Priest",
+        "position": "Back-100",
+        "attack_range": "1600",
+        "damage_type": "Magical",
+        "gender": "Male",
+        "age": "14",
+        "height": "110",
+        "race": "Tamia",
+        "constellation": "Asiphia the Empress",
+        "birth_of_month": "October 16th, Month of Friendship",
+        "like": "Souls, kind people",
+        "dislike": "Causing harm to others",
+        "story": "This pure and kindhearted Tamian soul guide can communicate with the dead. The Tamian race lives in harmony with nature, and they have the ability to read its flow and guide the souls of the dead. Rephy's ability as a soul guide is exceptional, even for a Tamian. He uses it to guide the souls of those who died in the forest and help them pass on, preventing them from turning evil. He is the most capable among the Tamians in discerning the paths of the stars, pacifying the souls of the dead, and properly guiding them to the afterlife.",
+        "thumbnail": "heroes/Rephy/ico.png"
+    },
+    "skills": {
+        "1": {
+            "name": "Healing Soul",
+            "cost": null,
+            "cooldown": null,
+            "description": "Restores HP equal to [ffc800]10%[-] of Max HP to the 4 allies with the lowest HP, and additionally restores [ffc800]88*(0.7+(0.3*Skill Level*Awakening Coefficient))+40.5% ATK[-] HP every [64ffff]1sec[-] for [64ffff]10sec[-]. This effect cannot be dispelled.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Rephy/skills/1.png"
+        },
+        "2": {
+            "name": "Salvation",
+            "cost": null,
+            "cooldown": null,
+            "description": "Removes all harmful effects from all allies and increases their Magic DEF by [64ff64]50*(0.7+(0.3*Skill Level*Awakening Coefficient))[-] for [64ffff]15sec[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Rephy/skills/2.png"
+        },
+        "3": {
+            "name": "Soulrush",
+            "cost": null,
+            "cooldown": null,
+            "description": "Deals [ffc800]88*(0.7+(0.3*Skill Level*Awakening Coefficient))+55.8% ATK[-] Magic DMG to enemies within range [64ffff]10 time[-], and reduces their ATK Spd by [ff6464]10%[-] for [64ffff]10sec[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Rephy/skills/3.png"
+        },
+        "4": {
+            "name": "Spiritual Tuning",
+            "cost": null,
+            "cooldown": null,
+            "description": "Every [64ffff]8sec[-], restores [64ffff]1000[-] Mana and [ffc800]264*(0.7+(0.3*Skill Level*Awakening Coefficient))+165.3% ATK[-] HP to [64ffff]1[-] ally with the lowest HP.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Rephy/skills/4.png"
+        }
+    },
+    "books": {
+        "1": {
+            "II": "Increases Heal Rate by [64ff64]10[-]%.",
+            "III": "Increases Heal Rate by [64ff64]15[-]%.",
+            "IV": "Increases Mana Recovery per sec of the target by [64ff64]15[-]%."
+        },
+        "2": {
+            "II": "Increases M.DEF Boost by [64ff64]10[-]%.",
+            "III": "Increases M.DEF Boost by [64ff64]15[-]%.",
+            "IV": "Increases CC Resist by [64ffff]120[-] for [64ff64]15[-] sec."
+        },
+        "3": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Reduces the target's Mana by [ff6464]200[-]."
+        },
+        "4": {
+            "II": "Increases Heal Rate by [64ff64]10[-]%.",
+            "III": "Increases Heal Rate by [64ff64]15[-]%.",
+            "IV": "Increases Mana Recovery by [64ff64]50[-]%."
+        }
+    },
+    "perks": {
+        "t3": {
+            "1": {
+                "light": {
+                    "effect": "Mana cost is increased by 1000, and the effect now applies to all allies.",
+                    "thumbnail": "heroes/Rephy/perks/s1l.png"
+                },
+                "dark": {
+                    "effect": "Each time you heal, has a 20% chance to remove a harmful effect.",
+                    "thumbnail": "heroes/Rephy/perks/s1d.png"
+                }
+            },
+            "2": {
+                "light": {
+                    "effect": "Mana cost is reduced by 1000.",
+                    "thumbnail": "heroes/Rephy/perks/s2l.png"
+                },
+                "dark": {
+                    "effect": "Magic Defense additionally increases by 10%.",
+                    "thumbnail": "heroes/Rephy/perks/s2d.png"
+                }
+            },
+            "3": {
+                "light": {
+                    "effect": "Increases the target’s Magic DMG taken by 10%.",
+                    "thumbnail": "heroes/Rephy/perks/s3l.png"
+                },
+                "dark": {
+                    "effect": "Increases the target’s Physical DMG taken by 10%.",
+                    "thumbnail": "heroes/Rephy/perks/s3d.png"
+                }
+            },
+            "4": {
+                "light": {
+                    "effect": "Cooldown is reduced by 2 sec.",
+                    "thumbnail": "heroes/Rephy/perks/s4l.png"
+                },
+                "dark": {
+                    "effect": "Additionally restores 500 Mana to the 2 allies with the highest Attack.",
+                    "thumbnail": "heroes/Rephy/perks/s4d.png"
+                }
+            }
+        },
+        "t5": {
+            "light": {
+                "effect": "ATK, DEF, HP +15% / M.Dodge +100",
+                "thumbnail": "heroes/Rephy/perks/light.png"
+            },
+            "dark": {
+                "effect": "All allies’ Mana recovery per second increases by 30%, and your cooldown of all skills is reduced by 5%.",
+                "thumbnail": "heroes/Rephy/perks/dark.png"
+            }
+        }
+    },
+    "uw": {
+        "name": "God's Lamp, Kurulati",
+        "description": "Every 20 sec, puts the 2 allies with the lowest HP into Spirit Form for {0} sec. Allies in Spirit Form are immune to physical attacks, their HP cannot be reduced below 1%, and their Mana recovery per second is increased by 35%.",
+        "thumbnail": "heroes/Rephy/uw.png",
+        "story": "It is the duty of a soul guide to lead the lost souls onto the right path, to help them move on to the next life. This lamp, powered by a mysterious orb created long ago by a dragon from a distant land, is a treasure of the Tamians. The orb at its core allows nearby souls to materialize, making it possible for its wielder to talk to them directly. As such, it is the ultimate medium for a soul guide. Tamian chieftains have used this relic to carry out the sacred duties of a soul guide for generations. Now, in the face a great danger that threatens the world, the lamp has been passed on to Rephy, the most powerful soul guide in existence.",
+        "value": {
+            "0": {
+                "0": "2.5",
+                "1": "3",
+                "2": "3.5",
+                "3": "4",
+                "4": "4.5",
+                "5": "5"
+            }
+        }
+    },
+    "uts": {
+        "1": {
+            "name": "Haven of Souls",
+            "description": "[Healing Soul] Reduces Mana Cost by 1, and increases the target's CC ACC by {0} for the duration of skill.",
+            "thumbnail": "heroes/Rephy/ut/1.png",
+            "story": "An ornament that was used for the memorial ceremonies of deceased royalty in ancient times. Inside the green jewel, there's a crystallized tear of the mythical creature that leads people to death. It's used as a resting places to comfort the emptiness within souls.",
+            "value": {
+                "0": {
+                    "0": "100",
+                    "1": "120",
+                    "2": "140",
+                    "3": "170",
+                    "4": "210",
+                    "5": "250"
+                }
+            }
+        },
+        "2": {
+            "name": "Seed of Birth",
+            "description": "[Salvation] Increases M.DEF Boost by 50% and reduces Cooldown by {0}%.",
+            "thumbnail": "heroes/Rephy/ut/2.png",
+            "story": "A collection of the energy that is created when a life is born. It's very warm and gentle, so souls like it. Rephy uses it to start a fire in a lamp to borrow the power of the souls. When a seed is put in a lamp, it shines brightly, like when the sun was first born.",
+            "value": {
+                "0": {
+                    "0": "12",
+                    "1": "14",
+                    "2": "17",
+                    "3": "21",
+                    "4": "25",
+                    "5": "30"
+                }
+            }
+        },
+        "3": {
+            "name": "Melody of Blue Star",
+            "description": "[Soulrush] Reduces Mana Cost by 1 and heals all allies' HP by {0}% of DMG.",
+            "thumbnail": "heroes/Rephy/ut/3.png",
+            "story": "A small music box containing the voice of Asiphia, Queen of Blue star. Rephy opens it when guiding souls.\nThe souls heading to the Garden of Rest receive the grace of the Blue Star by listening to the song of Asiphia recorded in the box.\nWhen Asiphia's voice flows, twinkling like starlight, nothing dark or corrupt can come near those souls.",
+            "value": {
+                "0": {
+                    "0": "8",
+                    "1": "10",
+                    "2": "12",
+                    "3": "14",
+                    "4": "17",
+                    "5": "20"
+                }
+            }
+        },
+        "4": {
+            "name": "Blue Star Candy",
+            "description": "[Spiritual Tuning] Increases Heal Rate by 50%. Targets have their ATK increased by {0}% for 4 sec.",
+            "thumbnail": "heroes/Rephy/ut/4.png",
+            "story": "A specialty of Lamp-keeper Town.\nThis candy that looks like a blue star is Rephy's favorite snack.\nIt is made from 'Jolt out of Sleep,' a blue herb that only grows in Lamp-keeper Town. Every time Rephy leaves town for journey, the village head always puts this candy in his pocket.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            }
+        }
+    },
+    "splashart": "heroes/Rephy/sa.png",
+    "costumes": "heroes/Rephy/cos"
+}

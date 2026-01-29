@@ -1,0 +1,226 @@
+{
+    "profile": {
+        "name": "Naila",
+        "title": "Wind's Fighter Naila",
+        "class": "Warrior",
+        "position": "Front-600",
+        "attack_range": "2100",
+        "damage_type": "Physical",
+        "gender": "Female",
+        "age": "19",
+        "height": "180",
+        "race": "Harpy",
+        "constellation": "Hexipolia the Wanderer",
+        "birth_of_month": "December 16th, Month of Patience",
+        "like": "Fellow kinsmen, those who possess a warrior's pride",
+        "dislike": "Cowards, hypocrites",
+        "story": "A stout and honorable warrior of the Harpies, the wielders of the power of wind. Her dignity as a Harpy warrior is more important to her than anything else in the world. She draws upon her willpower and desire to uphold her warrior's honor to bring down any enemy. Her skills are exceptional, even among her peers, and she is the ideal role model for younger Harpy warriors.",
+        "thumbnail": "heroes/Naila/ico.png"
+    },
+    "skills": {
+        "1": {
+            "name": "Fierce Winds",
+            "cost": null,
+            "cooldown": null,
+            "description": "Charges a total of 2 time(s). On the first attack, moves behind the enemy and deals [ffc800]922*(0.7+(0.3*Skill Level*Awakening Coefficient))+532.2% ATK[-] as Physical DMG, [fa96fa]knocking them down[-] for [64ffff]1sec[-]. On the second attack, moves behind the enemy with the highest ATK, dealing [ffc800]615*(0.7+(0.3*Skill Level*Awakening Coefficient))+344.1% ATK[-] as Physical DMG, [fa96fa]knocking them down[-] for [64ffff]1sec[-], and increasing Physical DMG taken by [ff6464]20%[-] for [64ffff]4sec[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Naila/skills/1.png"
+        },
+        "2": {
+            "name": "Wind Reading",
+            "cost": null,
+            "cooldown": null,
+            "description": "Removes your harmful effects and puts all allies into [fa96fa][Reading the Wind][-] state for [64ffff]7sec[-], increasing ATK by [64ff64]333*(0.7+(0.3*Skill Level*Awakening Coefficient))[-] and Physical Evasion Chance by [64ff64]300[-].\nWhen a target in [fa96fa][Reading the Wind][-] state successfully evades, all allies’ Critical DMG is increased by [64ff64]2%[-] for [64ffff]7sec[-]. This effect stacks up to [64ffff]10 times[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Naila/skills/2.png"
+        },
+        "3": {
+            "name": "Dive Bomb",
+            "cost": null,
+            "cooldown": null,
+            "description": "Attacks enemies in a circular area around you, dealing [ffc800]1146*(0.7+(0.3*Skill Level*Awakening Coefficient))+716.8% ATK[-] as Physical DMG and [fa96fa]stunning[-] them for [64ffff]1.8sec[-]. This skill gains an additional [64ff64]800[-] Physical Defense Penetration.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Naila/skills/3.png"
+        },
+        "4": {
+            "name": "Tornado Strike",
+            "cost": null,
+            "cooldown": null,
+            "description": "On Normal Attack, has a [64ffff]0%[-] chance to deal [ffc800]488*(0.7+(0.3*Skill Level*Awakening Coefficient))+284.4% ATK[-] as additional Physical DMG, [fa96fa]stunning[-] the target for [64ffff]0.5sec[-], and increasing Physical DMG taken by [ff6464]15%[-] for [64ffff]5sec[-]. This skill ignores the target’s damage reduction effects.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Naila/skills/4.png"
+        }
+    },
+    "books": {
+        "1": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        },
+        "2": {
+            "II": "Increases ATK Boost by [64ff64]10[-]%.",
+            "III": "Increases ATK Boost by [64ff64]15[-]%.",
+            "IV": "Increases ATK Boost by [64ff64]25[-]%."
+        },
+        "3": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Stuns damaged enemies for 1 sec."
+        },
+        "4": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        }
+    },
+    "perks": {
+        "t3": {
+            "1": {
+                "light": {
+                    "effect": "Immune to status ailments while casting.",
+                    "thumbnail": "heroes/Naila/perks/s1l.png"
+                },
+                "dark": {
+                    "effect": "On each attack, reduces the target’s Mana by 250.",
+                    "thumbnail": "heroes/Naila/perks/s1d.png"
+                }
+            },
+            "2": {
+                "light": {
+                    "effect": "Mana cost increases by 1000, and when triggered, removes all beneficial effects from all enemies.",
+                    "thumbnail": "heroes/Naila/perks/s2l.png"
+                },
+                "dark": {
+                    "effect": "The maximum number of Critical Damage increase stacks is increased to 20.",
+                    "thumbnail": "heroes/Naila/perks/s2d.png"
+                }
+            },
+            "3": {
+                "light": {
+                    "effect": "Increases DMG by 50%.",
+                    "thumbnail": "heroes/Naila/perks/s3l.png"
+                },
+                "dark": {
+                    "effect": "Reduces the target’s Healing Effectiveness by 20% for 7 sec.",
+                    "thumbnail": "heroes/Naila/perks/s3d.png"
+                }
+            },
+            "4": {
+                "light": {
+                    "effect": "Cooldown of all skills is reduced by 2 sec.",
+                    "thumbnail": "heroes/Naila/perks/s4l.png"
+                },
+                "dark": {
+                    "effect": "At the start of battle, increases Defense Penetration by 400 for 10 sec and grants immunity to status ailments for 5 sec. The Defense Penetration increase cannot be dispelled.",
+                    "thumbnail": "heroes/Naila/perks/s4d.png"
+                }
+            }
+        },
+        "t5": {
+            "light": {
+                "effect": "ATK, DEF, HP +15% / Crit Chance +100",
+                "thumbnail": "heroes/Naila/perks/light.png"
+            },
+            "dark": {
+                "effect": "On Normal Attack, increases Attack by 3% and Physical Evasion Chance by 35 for 10 sec. This effect stacks up to 10 times.",
+                "thumbnail": "heroes/Naila/perks/dark.png"
+            }
+        }
+    },
+    "uw": {
+        "name": "Cursed Claws, Baroro",
+        "description": "On hit, increases the target’s Physical Damage taken by {0}% and reduces Status Ailment Resistance by {1} for 10 sec.\nIf the target is a boss, damage dealt to the boss is increased by {2}%, and this boss damage increase effect stacks up to 10 times.",
+        "thumbnail": "heroes/Naila/uw.png",
+        "story": "A cursed pair of gauntlets crafted from the claws of the Mad Demon Baroro, which was defeated during the war. Several times the size of the average human hands, these gauntlets directly connect to the nerves of the wearer, allowing the wielder to control them effortlessly. Although they grant immense power, they also break into the mind of the wearer, slowing eating away at the soul. Only a true warrior of noble conviction, strong will and undying spirit may handle these cursed weapons. They are the perfect weapons for a warrior with a strong will that shines even in the darkness of the abyss.",
+        "value": {
+            "0": {
+                "0": "20",
+                "1": "24",
+                "2": "28",
+                "3": "34",
+                "4": "41",
+                "5": "50"
+            },
+            "1": {
+                "0": "200",
+                "1": "240",
+                "2": "290",
+                "3": "350",
+                "4": "420",
+                "5": "500"
+            },
+            "2": {
+                "0": "20",
+                "1": "24",
+                "2": "28",
+                "3": "34",
+                "4": "41",
+                "5": "50"
+            }
+        }
+    },
+    "uts": {
+        "1": {
+            "name": "Tempest Pride",
+            "description": "[Fierce Wind] increases DMG by 50% and P.DMG taken by the target by {0}% for 4 sec.",
+            "thumbnail": "heroes/Naila/ut/1.png",
+            "story": "A ritual offering of ancient religious people who worshipped the wind. It is a precious treasure among the Harpies, and it is said to be given to the most powerful Harpy warrior. The moment one wears this mask, they'll be able to freely use the wind. They can also attack at the speed of light.",
+            "value": {
+                "0": {
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "16",
+                    "4": "18",
+                    "5": "20"
+                }
+            }
+        },
+        "2": {
+            "name": "Himmullis's Scarf",
+            "description": "[Wind Reading] All effects become irremovable and upon activation, heals own HP equal to {0}% of Max HP.",
+            "thumbnail": "heroes/Naila/ut/2.png",
+            "story": "The scarf that the dead Himmullis had on. Naila always has it on her.\nHimmullis use to always tell Naila to be proud of being a Harpy. \nThe scarf contains the sadness of losing family, and this makes Naila furious.",
+            "value": {
+                "0": {
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
+                }
+            }
+        },
+        "3": {
+            "name": "Soul of Gust",
+            "description": "[Dive Bomb] Reduces Mana Cost by 1 and increases DMG by {0}%.",
+            "thumbnail": "heroes/Naila/ut/3.png",
+            "story": "This piece of amber containing a giant tornado is a treasure of the Harpies.\nAccording to myth, a gust of wind that Divine Beast Tyrfas raised out of rage hit the sap of the holy tree, solidified, and turned into amber. Time passed, and now it's divided into several fragments, but the gust inside has not died out. Harpies consider it to be divine and call it the Soul of Gust.",
+            "value": {
+                "0": {
+                    "0": "25",
+                    "1": "30",
+                    "2": "35",
+                    "3": "40",
+                    "4": "45",
+                    "5": "50"
+                }
+            }
+        },
+        "4": {
+            "name": "Green Ribbon",
+            "description": "[Tornado Strike] increases the chance of dealing additional DMG by 5%, and if the target is a Hero, deals additional P.DMG equal to {0}% of the target’s Max HP.",
+            "thumbnail": "heroes/Naila/ut/4.png",
+            "story": "A ribbon that holds the grace of a Wind Elemental.\nSelene gave this green ribbon to Naila, who wanted high speed.\nIt contains a spell of Notos, the Wind Elemental, and it grants Naila rapid and powerful attacks.",
+            "value": {
+                "0": {
+                    "0": "5",
+                    "1": "6",
+                    "2": "7",
+                    "3": "8",
+                    "4": "9",
+                    "5": "10"
+                }
+            }
+        }
+    },
+    "splashart": "heroes/Naila/sa.png",
+    "costumes": "heroes/Naila/cos"
+}

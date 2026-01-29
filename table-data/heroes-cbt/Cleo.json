@@ -1,0 +1,226 @@
+{
+    "profile": {
+        "name": "Cleo",
+        "title": "Sorceress of Purgatory Cleo",
+        "class": "Wizard",
+        "position": "Middle-200",
+        "attack_range": "300",
+        "damage_type": "Magical",
+        "gender": "Female",
+        "age": "17",
+        "height": "156",
+        "race": "Human",
+        "constellation": "Kandala the Conqueror",
+        "birth_of_month": "August 1st, Month of Vitality",
+        "like": "Campfire, pillows (?)",
+        "dislike": "Machines",
+        "story": "Cleo's earliest memory begins at the Tower of Sage. Raised by Dominix the Great Sage as an orphan, she is both a genius wizard and a troublemaker. Her inability to control her own power has often led to trouble, including partial destruction of the Red Tower, her own residence. Despite this, her apparent immunity to the wrath of the Great Sage has caused her to be ostracized from her peers. Although this has led her to become selfish and inconsiderate, deep inside, she is still a kindhearted girl who fears abandonment by others.",
+        "thumbnail": "heroes/Cleo/ico.png"
+    },
+    "skills": {
+        "1": {
+            "name": "Fire Needle",
+            "cost": null,
+            "cooldown": null,
+            "description": "Deals [ffc800]305*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 81.8% of ATK[-] Magic DMG to a random enemy [64ffff]5times[-]. Each hit stuns the target for [64ffff]0.5sec[-], and restores Mana by [64ff64]100[-] when landing a Critical Hit. Non-hero enemies take additional Magic DMG equal to [ffc800]7% of ATK[-] per [fa96fa][Ember][-] stack.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Cleo/skills/1.png"
+        },
+        "2": {
+            "name": "Fire Ball",
+            "cost": null,
+            "cooldown": null,
+            "description": "Deals [ffc800]1259*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 450.2% of ATK[-] Magic DMG to enemies in the target area and stuns them for [64ffff]1sec[-]. Non-hero enemies take [ffc800]1759*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 850.2% of ATK[-] plus additional Magic DMG equal to [ffc800]40% of ATK[-] per [fa96fa][Ember][-] stack.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Cleo/skills/2.png"
+        },
+        "3": {
+            "name": "Fire Rain",
+            "cost": null,
+            "cooldown": null,
+            "description": "Deals [ffc800]638*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 136.2% of ATK[-] Magic DMG to all enemies [64ffff]{2}times[-]. This attack applies [64ff64]160%[-] increased Critical DMG, and non-hero enemies take additional Magic DMG equal to [ffc800]10% of ATK[-] per [fa96fa][Ember][-] stack.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Cleo/skills/3.png"
+        },
+        "4": {
+            "name": "Flame Diffusion",
+            "cost": null,
+            "cooldown": null,
+            "description": "On hit, applies a stack of [fa96fa][Ember][-] to the target. When attacking a target at max stacks, restores Mana by [64ff64]30[-].\n\n[fa96fa][Ember]:[-] Deals [ffc800]43*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 20% of ATK[-] Magic Damage over Time every [64ffff]1sec[-] for [64ffff]20sec[-], and stacks up to [64ffff]10 times[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Cleo/skills/4.png"
+        }
+    },
+    "books": {
+        "1": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        },
+        "2": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        },
+        "3": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        },
+        "4": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        }
+    },
+    "perks": {
+        "t3": {
+            "1": {
+                "light": {
+                    "effect": "When there are 5 or more enemies, damage is reduced by 50%, but all enemies are attacked.",
+                    "thumbnail": "heroes/Cleo/perks/s1l.png"
+                },
+                "dark": {
+                    "effect": "Mana cost increases by 1000, but damage increases by 100%.",
+                    "thumbnail": "heroes/Cleo/perks/s1d.png"
+                }
+            },
+            "2": {
+                "light": {
+                    "effect": "When hitting an enemy with 10 or more [Ember] stacks, Magic DMG taken increases by 20% for 5 sec.",
+                    "thumbnail": "heroes/Cleo/perks/s2l.png"
+                },
+                "dark": {
+                    "effect": "Cooldown is reduced by 10% per enemy hit.",
+                    "thumbnail": "heroes/Cleo/perks/s2d.png"
+                }
+            },
+            "3": {
+                "light": {
+                    "effect": "Damage increases by 50%.",
+                    "thumbnail": "heroes/Cleo/perks/s3l.png"
+                },
+                "dark": {
+                    "effect": "When there are 5 or more enemies, Mana cost is reduced by 2000 for 10 sec. This effect can only trigger once every 10 sec.",
+                    "thumbnail": "heroes/Cleo/perks/s3d.png"
+                }
+            },
+            "4": {
+                "light": {
+                    "effect": "Each [Ember] stack increases the target’s Magic DMG taken by 1%.",
+                    "thumbnail": "heroes/Cleo/perks/s4l.png"
+                },
+                "dark": {
+                    "effect": "Every 10 sec, stuns enemies with [Ember] for 1 sec. If the target has 10 or more [Ember] stacks, stuns for 1.5 sec instead.",
+                    "thumbnail": "heroes/Cleo/perks/s4d.png"
+                }
+            }
+        },
+        "t5": {
+            "light": {
+                "effect": "ATK, DEF, HP +15% / Crit Chance +100",
+                "thumbnail": "heroes/Cleo/perks/light.png"
+            },
+            "dark": {
+                "effect": "[Ember] becomes non-dispellable, and applies 1 [Ember] stack every second to all non-hero enemies.",
+                "thumbnail": "heroes/Cleo/perks/dark.png"
+            }
+        }
+    },
+    "uw": {
+        "name": "Primal Flame, Flenos",
+        "description": "Critical Rate increases by {0}, Critial DMG increase by {1}, and Skill Attacks deal additional Magic DMG equal to {2}% of ATK per [Ember] stack on the target.",
+        "thumbnail": "heroes/Cleo/uw.png",
+        "story": "The essence of the First Flame of the world. The Fire Elemental Lord bestowed this beautiful gem to a human who entered into a contract with him. Over the ages, it ended up in the hands of an archmage, who turned it into the core of his staff. Later, the archmage presented this staff to his precious disciple.",
+        "value": {
+            "0": {
+                "0": "200",
+                "1": "240",
+                "2": "290",
+                "3": "350",
+                "4": "420",
+                "5": "500"
+            },
+            "1": {
+                "0": "3.0",
+                "1": "3.6",
+                "2": "4.3",
+                "3": "5.2",
+                "4": "6.3",
+                "5": "7.5"
+            },
+            "2": {
+                "0": "25",
+                "1": "30",
+                "2": "35",
+                "3": "40",
+                "4": "45",
+                "5": "50"
+            }
+        }
+    },
+    "uts": {
+        "1": {
+            "name": "Tome of Purgatory",
+            "description": "[Fire Needle] Each hit reduces the target's Mana by {0}. Upon every use, increases DMG by 10%. This effect can be stacked up to max 10 times.",
+            "thumbnail": "heroes/Cleo/ut/1.png",
+            "story": "A scroll written by a fire sorceress who was known as the Goddess of Fire. A scroll left by the greatest Fire Sorceress of Orvelia, Vesta, when she was in the Tower of Sage. It's very powerful, but it also requires a lot of mana. Cleo took the Scroll of Purgatory from the Tower of Sage, which was considered a forbidden scroll. Now she's using it to enhance her Fire Rain.",
+            "value": {
+                "0": {
+                    "0": "100",
+                    "1": "120",
+                    "2": "140",
+                    "3": "170",
+                    "4": "210",
+                    "5": "250"
+                }
+            }
+        },
+        "2": {
+            "name": "Flamel's Elixir",
+            "description": "[Fire Ball] Reduces Mana Cost by 1 and increases DMG by {0}%.",
+            "thumbnail": "heroes/Cleo/ut/2.png",
+            "story": "An elixir that fire alchemist Flamel created by condensing flame essence.\nFlamel's flames continue to burn and burn. Every wizard praises him for his flames, and the flame essence that he made with the salamanders from the Dragia Volcano maximizes the effect of Fire Ball.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            }
+        },
+        "3": {
+            "name": "Phoenix Lantern",
+            "description": "[Fire Rain] Increases DMG by 20%. Upon Critical Hit on an enemy with 5 or more stacks of Ember, Cooldown will be reduced by 5%. Upon killing an enemy with this Skill, Cooldown will be reduced by an additional 20%.",
+            "thumbnail": "heroes/Cleo/ut/3.png",
+            "story": "A magical lantern from the Tower of Sage.\nThe ever-burning phoenix, the Tower of Sage's first flame, is sealed inside it. Dominix looked after it with great care as phoenixes are now endangered, but Cleo nonchalantly uses it to enhance her Fire Needle spell without taking her teacher's concerns into consideration.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            }
+        },
+        "4": {
+            "name": "Introduction to Red Witch Spells",
+            "description": "[Flame Diffusion] Ember becomes irremovable and causes the target to take {0}% increased M.DMG per stack.",
+            "thumbnail": "heroes/Cleo/ut/4.png",
+            "story": "A textbook of Fire Magic by the Red Witch.\nThis powerful spellbook is spreading all over the Empire in secret, but most mages consider it as taboo because it casts destructive magic and destroys the caster's mind.",
+            "value": {
+                "0": {
+                    "0": "1",
+                    "1": "1.2",
+                    "2": "1.4",
+                    "3": "1.7",
+                    "4": "2.1",
+                    "5": "2.5"
+                }
+            }
+        }
+    },
+    "splashart": "heroes/Cleo/sa.png",
+    "costumes": "heroes/Cleo/cos"
+}

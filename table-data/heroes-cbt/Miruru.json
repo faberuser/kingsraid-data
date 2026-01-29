@@ -1,0 +1,218 @@
+{
+    "profile": {
+        "name": "Miruru",
+        "title": "Cursed Pirate Empress Miruru",
+        "class": "Mechanic",
+        "position": "Middle-400",
+        "attack_range": "1200",
+        "damage_type": "Physical",
+        "gender": "Female",
+        "age": "27 (Mentally: 12)",
+        "height": "130",
+        "race": "Human",
+        "constellation": "Graham the Thief",
+        "birth_of_month": "May 31st, Month of Hope",
+        "like": "Treasures or anything that sparkles",
+        "dislike": "The Navy",
+        "story": "She once roamed the seas as the pirate empress, instilling fear in sailors' hearts. However, a cursed item has turned her into a child, and all her loyal allies and crew members soon left her. Not one to give up, she started again from the scratch, and now dreams of returning to her former glory. Unfortunately, the curse of childhood has made her way of thinking immature as well. Even so, she continues to chase her dream. Currently, she commands the second Miruru Pirates consisting of Goblins and Gnolls.",
+        "thumbnail": "heroes/Miruru/ico.png"
+    },
+    "skills": {
+        "1": {
+            "name": "Baaaam!",
+            "cost": null,
+            "cooldown": null,
+            "description": "모든 적에게 [ffc800]830*(0.7+(0.3*스킬 레벨*각성 계수))+공격력 300%[-] 물리 피해를 입히고 [fa96fa]밀어냅니다.[-] 이 스킬은 일반 공격으로 적용됩니다.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Miruru/skills/1.png"
+        },
+        "2": {
+            "name": "Roll Over",
+            "cost": null,
+            "cooldown": null,
+            "description": "Deals [ffc800]415*(0.7+(0.3*Skill Level*Awakening Coefficient))+200% of Attack Power[-] as Physical Damage [64ffff]3 time[-] to enemies in front.\nEach hit [fa96fa]knocks them down[-] for [64ffff]1 sec[-] and increases Physical Damage taken by [ff6464]8%[-] for [64ffff]7 sec[-]. This effect stacks up to [64ffff]3 times[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Miruru/skills/2.png"
+        },
+        "3": {
+            "name": "Miruru Pirates!",
+            "cost": null,
+            "cooldown": null,
+            "description": "임의의 적과 주변 범위의 적들에게 [ffc800]253*(0.7+(0.3*스킬 레벨*각성 계수))+공격력 122%[-]의 물리 피해를 [64ffff]5회[-] 입히고 [64ffff]8초[-]간 공격 속도를 [ff6464]12%[-] 감소시킵니다. 영웅이 아닐 경우 [ffc800]308*(0.7+(0.3*스킬 레벨*각성 계수))+공격력 148.2%[-]의 추가 물리 피해를 입힙니다.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Miruru/skills/3.png"
+        },
+        "4": {
+            "name": "Boooooom!",
+            "cost": null,
+            "cooldown": null,
+            "description": "일반 공격 시, 추가 탄환을 발사하여 모든 적에게 [ffc800]117*(0.7+(0.3*스킬 레벨*각성 계수))+공격력 56.1%[-]의 추가 물리 피해를 입히고, [64ffff]10초[-]간 공격력을 [64ff64]0.5%[-] 증가시킵니다. 공격력 증가 효과는 최대 [64ffff]100회[-] 중첩되며, 해제할 수 없습니다.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Miruru/skills/4.png"
+        }
+    },
+    "books": {
+        "1": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        },
+        "2": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        },
+        "3": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        },
+        "4": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        }
+    },
+    "perks": {
+        "t3": {
+            "1": {
+                "light": {
+                    "effect": "If there is only 1 enemy, damage dealt is increased by 100%.",
+                    "thumbnail": "heroes/Miruru/perks/s1l.png"
+                },
+                "dark": {
+                    "effect": "Attack increases by 50% for 4 sec.",
+                    "thumbnail": "heroes/Miruru/perks/s1d.png"
+                }
+            },
+            "2": {
+                "light": {
+                    "effect": "Damage increases by 50%.",
+                    "thumbnail": "heroes/Miruru/perks/s2l.png"
+                },
+                "dark": {
+                    "effect": "For each enemy hit, cooldown is reduced by 8%.",
+                    "thumbnail": "heroes/Miruru/perks/s2d.png"
+                }
+            },
+            "3": {
+                "light": {
+                    "effect": "Damage dealt is increased by 20%, and skill range is increased.",
+                    "thumbnail": "heroes/Miruru/perks/s3l.png"
+                },
+                "dark": {
+                    "effect": "Damage dealt is reduced by 30%, but the number of hits is doubled.",
+                    "thumbnail": "heroes/Miruru/perks/s3d.png"
+                }
+            },
+            "4": {
+                "light": {
+                    "effect": "Has a 15% chance to stun the target for 1 sec.",
+                    "thumbnail": "heroes/Miruru/perks/s4l.png"
+                },
+                "dark": {
+                    "effect": "Damage dealt is reduced by 30%, but the number of hits is doubled.",
+                    "thumbnail": "heroes/Miruru/perks/s4d.png"
+                }
+            }
+        },
+        "t5": {
+            "light": {
+                "effect": "ATK, DEF, HP +15% / Crit Chance +100",
+                "thumbnail": "heroes/Miruru/perks/light.png"
+            },
+            "dark": {
+                "effect": "On hit, gains [Darkness] stacks equal to the number of enemies struck. When [Darkness] reaches 50 stacks, all [Darkness] is removed and you enter [Rampage] for 10 sec, increasing Attack Speed by 48% and Attack by 25%.",
+                "thumbnail": "heroes/Miruru/perks/dark.png"
+            }
+        }
+    },
+    "uw": {
+        "name": "Ultimate Weapon, Leviathan",
+        "description": "When using [KABOOM!] attacks, has a 30% chance to deal additional Physical Damage equal to {0}% of Attack Power and increase the target's Physical Damage taken by {1}% for 10 sec.",
+        "thumbnail": "heroes/Miruru/uw.png",
+        "story": "Back when Miruru reigned as the pirate empress, she was feared by sailors and a major threat to the naval forces of Orvelia and the empire. The cannons on her ship were especially terrifying to the Navy. The most powerful of them was the Leviathan, the ship's main cannon. After being cursed, she took one thing with her as she fled from her mutinous crew. Its value as a weapon is in fact far more valuable than any gold or loot. She took with her the Leviathan, the most powerful cannon in her arsenal. After numerous modifications, the once-terror of the sea now serves as a mobile artillery.",
+        "value": {
+            "0": {
+                "0": "100",
+                "1": "120",
+                "2": "140",
+                "3": "170",
+                "4": "210",
+                "5": "250"
+            },
+            "1": {
+                "0": "20",
+                "1": "24",
+                "2": "29",
+                "3": "35",
+                "4": "42",
+                "5": "50"
+            }
+        }
+    },
+    "uts": {
+        "1": {
+            "name": "Miruru Cannonball",
+            "description": "[Baaaam!] Gains Immunity to CC for the skill's duration, and reduces the target's P.Crit Resistance by {0} for 10 sec.",
+            "thumbnail": "heroes/Miruru/ut/1.png",
+            "story": "Cannonball engraved with the symbol of the Miruru Pirates. Miruru still vividly remembers her glorious past. Her fluttering flag emblazoned with a shark, and the sounds of explosions that were at her command. Those fond memories of enemy ships sinking in terror still remain within her. Miruru is using special cannonballs to attack enemies, while waiting for the glorious days to come back once again.",
+            "value": {
+                "0": {
+                    "0": "200",
+                    "1": "240",
+                    "2": "290",
+                    "3": "350",
+                    "4": "420",
+                    "5": "500"
+                }
+            }
+        },
+        "2": {
+            "name": "Pirate King's Sextant",
+            "description": "[Roll Over] increases DMG by {0}% on every use and recovers 120 MP upon a Crit Hit. This effect stacks up to max 10 times.",
+            "thumbnail": "heroes/Miruru/ut/2.png",
+            "story": "Sextant of Pirate King Olga, who was the first to discover the new continent. \nPirate King Olga went past the Orbis Continent to find a new continent, following a revelation from the gods. The sextant can calculate the most accurate location and angle in the world. Miruru uses the sextant to boost the damage from rolling bomb attacks, but she doesn't remember how she ended up with it.",
+            "value": {
+                "0": {
+                    "0": "4",
+                    "1": "4.8",
+                    "2": "5.8",
+                    "3": "7",
+                    "4": "8.4",
+                    "5": "10"
+                }
+            }
+        },
+        "3": {
+            "name": "Coin of the Deep",
+            "description": "[Miruru Pirates!] Increases DMG by 50% and reduces Cooldown by {0}%.",
+            "thumbnail": "heroes/Miruru/ut/3.png",
+            "story": "Miruru's lucky coin is an ancient treasure of the sunken kingdom.\nIt is a trophy from her first treasure expedition after her form was changed into that of a kid. The coin, crafted via ancient metallurgy, was kept in Miruru's breast pocket, and it's now her precious lucky charm after saving her life several times.",
+            "value": {
+                "0": {
+                    "0": "12",
+                    "1": "14",
+                    "2": "17",
+                    "3": "21",
+                    "4": "25",
+                    "5": "30"
+                }
+            }
+        },
+        "4": {
+            "name": "Turtle Gunpowder Keg",
+            "description": "[Boooooom!] increases DMG by 50% and boosts ATK Spd by {0}% for 3 sec upon activation.",
+            "thumbnail": "heroes/Miruru/ut/4.png",
+            "story": "A cannonball that Miruru made in collaboration with a new friend who is an explosives expert.\nHaving met last summer, both Miruru and Lakrak developed this special cannonball that is used for igniting the cannon.\nAs the gunpowder has a low ignition point, Miruru has been keeping it safe in a turtle powder keg she found in a treasure ship.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            }
+        }
+    },
+    "splashart": "heroes/Miruru/sa.png",
+    "costumes": "heroes/Miruru/cos"
+}

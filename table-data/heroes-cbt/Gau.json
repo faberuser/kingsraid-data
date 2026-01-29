@@ -1,0 +1,226 @@
+{
+    "profile": {
+        "name": "Gau",
+        "title": "Barbarian of Frozen Lands Gau",
+        "class": "Warrior",
+        "position": "Front-600",
+        "attack_range": "500",
+        "damage_type": "Physical",
+        "gender": "Male",
+        "age": "33",
+        "height": "231",
+        "race": "Barbarian",
+        "constellation": "Judgment Layan",
+        "birth_of_month": "September 23rd, Month of Truth",
+        "like": "Children, animals",
+        "dislike": "Destructive and violent people",
+        "story": "Gau is a powerful warrior from the Barbarian Kingdom. Whenever he swung his twin axes, a bloodbath would follow. As a warrior, he was feared for his peerless ferocity. However, he suddenly disappeared for 10 years. When he returned, he was a completely changed man. His violent Barbarian tendencies were all gone, even when others criticized him. Instead, he now faces them with smiles and jolly laughter. The kind, warm gaze he now shows to children and animals is especially surprising.",
+        "thumbnail": "heroes/Gau/ico.png"
+    },
+    "skills": {
+        "1": {
+            "name": "Smash",
+            "cost": null,
+            "cooldown": null,
+            "description": "Deals [ffc800]304*(0.7+(0.3*Skill Level*Awakening Coefficient))+192.2% ATK[-] Physical DMG to enemies within range [64ffff]2 times[-]. The first hit knocks enemies [fa96fa]down[-] for [64ffff]1.5sec[-]. This skill applies Defense Penetration [ff6464]800[-] higher.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Gau/skills/1.png"
+        },
+        "2": {
+            "name": "Battle Roar",
+            "cost": null,
+            "cooldown": null,
+            "description": "Removes all harmful effects from all allies and increases their Attack by [64ff64]252*(0.7+(0.3*Skill Level*Awakening Coefficient))[-], Attack Speed by [64ff64]10%[-], and Physical Defense by [64ff64]91*(0.7+(0.3*Skill Level*Awakening Coefficient))[-] for [64ffff]8sec[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Gau/skills/2.png"
+        },
+        "3": {
+            "name": "Vortex",
+            "cost": null,
+            "cooldown": null,
+            "description": "Charges forward and deals [ffc800]161*(0.7+(0.3*Skill Level*Awakening Coefficient))+80.9% ATK[-] Physical DMG to nearby enemies [64ffff]{2} times[-]. While casting, the caster is immune to status effects. The final hit freezes enemies [fa96fa]for [64ffff]2sec[-] and increases Physical DMG taken by [64ff64]16%[-] for [64ffff]10sec[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Gau/skills/3.png"
+        },
+        "4": {
+            "name": "Enrage",
+            "cost": null,
+            "cooldown": null,
+            "description": "Every second, Attack increases by [64ff64]16*(0.7+(0.3*Skill Level*Awakening Coefficient))[-], Status Resistance by [64ff64]10[-], and damage dealt to non-hero enemies by [64ff64]1%[-]. This effect stacks up to [64ffff]20 times[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Gau/skills/4.png"
+        }
+    },
+    "books": {
+        "1": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        },
+        "2": {
+            "II": "Attack and Defense bonuses are increased by [64ff64]10%[-].",
+            "III": "Attack and Defense bonuses are increased by [64ff64]15%[-].",
+            "IV": "Attack and Defense bonuses are increased by [64ff64]25%[-]."
+        },
+        "3": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Draws in nearby enemies while casting."
+        },
+        "4": {
+            "II": "Increases ATK Boost by [64ff64]10[-]%.",
+            "III": "Increases ATK Boost by [64ff64]15[-]%.",
+            "IV": "Status Resistance increases by 30 for each stack."
+        }
+    },
+    "perks": {
+        "t3": {
+            "1": {
+                "light": {
+                    "effect": "Mana cost is reduced by 1000.",
+                    "thumbnail": "heroes/Gau/perks/s1l.png"
+                },
+                "dark": {
+                    "effect": "Each use increases damage by 15%. This effect stacks up to 10 times.",
+                    "thumbnail": "heroes/Gau/perks/s1d.png"
+                }
+            },
+            "2": {
+                "light": {
+                    "effect": "All effects become undispellable.",
+                    "thumbnail": "heroes/Gau/perks/s2l.png"
+                },
+                "dark": {
+                    "effect": "ATK increase amount increases by 50%.",
+                    "thumbnail": "heroes/Gau/perks/s2d.png"
+                }
+            },
+            "3": {
+                "light": {
+                    "effect": "Cooldown is reduced by 3 sec.",
+                    "thumbnail": "heroes/Gau/perks/s3l.png"
+                },
+                "dark": {
+                    "effect": "Becomes immune to all damage while casting.",
+                    "thumbnail": "heroes/Gau/perks/s3d.png"
+                }
+            },
+            "4": {
+                "light": {
+                    "effect": "All effects become undispellable.",
+                    "thumbnail": "heroes/Gau/perks/s4l.png"
+                },
+                "dark": {
+                    "effect": "Defense is reduced by 3% per stack, but damage dealt to non-hero enemies is changed to 2.5%.",
+                    "thumbnail": "heroes/Gau/perks/s4d.png"
+                }
+            }
+        },
+        "t5": {
+            "light": {
+                "effect": "ATK, DEF, HP +15% / P. Block +200",
+                "thumbnail": "heroes/Gau/perks/light.png"
+            },
+            "dark": {
+                "effect": "Recovers HP every second equal to 10% of ATK, and for every 1% HP lost, all damage taken is reduced by 0.5%.",
+                "thumbnail": "heroes/Gau/perks/dark.png"
+            }
+        }
+    },
+    "uw": {
+        "name": "Holy Bird, Numinu",
+        "description": "Max HP increases by {0}%, and Normal Attacks have a 15% chance to deal additional Physical Damage equal to {1}% of Attack Power and freeze the target for 1 sec.",
+        "thumbnail": "heroes/Gau/uw.png",
+        "story": "It is said that there lives a sacred beast protecting the Barbarians in the Windland Snow Mountain. This beast, capable of dispelling the power of darkness, is supposed to be a blue phoenix composed of ice. Created in the shape of this beast is Numinu, its name means 'holy.' It has been crafted from enchanted ice that never melts. Considered a holy relic among Barbarians, this weapon is bestowed to their mightiest warrior. The wielder of this weapon is the most powerful warrior among Barbarians, and may be considered their king.",
+        "value": {
+            "0": {
+                "0": "14",
+                "1": "16.8",
+                "2": "19.6",
+                "3": "22.4",
+                "4": "25.2",
+                "5": "28"
+            },
+            "1": {
+                "0": "200",
+                "1": "240",
+                "2": "290",
+                "3": "350",
+                "4": "420",
+                "5": "500"
+            }
+        }
+    },
+    "uts": {
+        "1": {
+            "name": "Barbarian Mug",
+            "description": "[Smash] reduces the target’s ATK by 25% and increases the P.DMG they take by {0}% for 10 sec.",
+            "thumbnail": "heroes/Gau/ut/1.png",
+            "story": "Mug of the Barbarian King who first settled down in the snowy mountains. When the first Barbarian King settled down in Windland, he swore to become the guardian of the snowy mountains and shared this mug with the holy beings of the mountains. The protect magic of the frost wolf imbued in the Barbarian Mug increases the ATK of Vortex and the effect of Freeze.",
+            "value": {
+                "0": {
+                    "0": "15",
+                    "1": "17",
+                    "2": "19",
+                    "3": "22",
+                    "4": "26",
+                    "5": "30"
+                }
+            }
+        },
+        "2": {
+            "name": "Fighter's Horn",
+            "description": "[Battle Roar] Reduces Mana Cost by 1 and increases targets' Crit DMG by {0}% for the duration of Skill.",
+            "thumbnail": "heroes/Gau/ut/2.png",
+            "story": "Trumpet made with the horn of the guardian beast of Windland Snow Mountain, Orox.\nOrox of the Snowy Mountain grants noble warriors great power and the ability to see the truth. \nWhen a warrior who has received the blessing of Orox blows this horn, it will boost the morale of comrades and bring clarity to their minds.",
+            "value": {
+                "0": {
+                    "0": "3",
+                    "1": "3.6",
+                    "2": "4.2",
+                    "3": "4.8",
+                    "4": "5.4",
+                    "5": "6"
+                }
+            }
+        },
+        "3": {
+            "name": "King of Frost Helmet",
+            "description": "[Vortex] increases DMG by {0}%, and its last hit increases the P.DMG the target takes by {1}% for 10 sec.",
+            "thumbnail": "heroes/Gau/ut/3.png",
+            "story": "A worn-out helmet of Frost Giant King.\nIt was last used by the darkness-ridden Frost Giant King. Gau, hoping that the tragedy of Windland Snow Mountain won't repeat itself, keeps this broken helmet to mourn the fallen hero.",
+            "value": {
+                "0": {
+                    "0": "8",
+                    "1": "9.6",
+                    "2": "11.2",
+                    "3": "12.8",
+                    "4": "14.4",
+                    "5": "16"
+                },
+                "2": {
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
+                }
+            }
+        },
+        "4": {
+            "name": "Snowdrop Bracelet",
+            "description": "[Enrage] Changes the max number of stacks to 40 and upon gaining 30 stacks, increases own DEF Penetration by {0}.",
+            "thumbnail": "heroes/Gau/ut/4.png",
+            "story": "A bracelet made with a Snowdrop Flower.\nAlthough it was made with clumsy hands, the children at the orphanage made this bracelet as a birthday gift for Gau after seeing him grieve for his fallen Barbarian tribes.\nA Snowdrop means hope and comfort in the language of flowers.",
+            "value": {
+                "0": {
+                    "0": "180",
+                    "1": "216",
+                    "2": "252",
+                    "3": "288",
+                    "4": "324",
+                    "5": "360"
+                }
+            }
+        }
+    },
+    "splashart": "heroes/Gau/sa.png",
+    "costumes": "heroes/Gau/cos"
+}

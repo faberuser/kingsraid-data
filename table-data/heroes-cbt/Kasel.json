@@ -1,0 +1,210 @@
+{
+    "profile": {
+        "name": "Kasel",
+        "title": "Warrior of the Holy Sword Kasel",
+        "class": "Warrior",
+        "position": "Front-600",
+        "attack_range": "100",
+        "damage_type": "Physical",
+        "gender": "Male",
+        "age": "18",
+        "height": "185",
+        "race": "Human",
+        "constellation": "Asiphia the Empress",
+        "birth_of_month": "October 15th, Month of Friendship",
+        "like": "Food from the nature",
+        "dislike": "Fatalism",
+        "story": "A squire of the Kingdom of Orvelia. Traumatized by witnessing the deaths of his parents at the hands of the Demons invading the village, and later, the assassination of his sword teacher, he fears the idea of anyone around him dying. His past has driven him to seek out his sworn brother from his early years in the orphanage, Clause, who joined an expedition, but never returned.",
+        "thumbnail": "heroes/Kasel/ico.png"
+    },
+    "skills": {
+        "1": {
+            "name": "Judgment Blade",
+            "cost": null,
+            "cooldown": null,
+            "description": "Deals [ffc800]267*(0.7+(0.3*Skill Level*Awakening Coefficient))+ATK 168.3%[-] Physical DMG to enemies in the frontal area [64ffff]2 times[-], and inflicts [fa96fa]Down[-] for [64ffff]1.5 sec[-].\n\n[fa96fa][God's Proxy]:[-] Damage increases by [64ff64]25%[-], attack range increases by [64ff64]50%[-], and Down duration increases by [64ff64]0.5 sec[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Kasel/skills/1.png"
+        },
+        "2": {
+            "name": "Valiant Dash",
+            "cost": null,
+            "cooldown": null,
+            "description": "Dashes behind the enemy and deals [ffc800]233*(0.7+(0.3*Skill Level*Awakening Coefficient))+ATK 146.9%[-] Physical DMG to enemies in range [64ffff]3 times[-], increasing Physical DMG taken by [ff6464]24%[-] for [64ffff]5 sec[-].\n\n[fa96fa][God's Proxy]:[-] Damage increases by [64ff64]25%[-], skill cast time is reduced by [ff6464]1 sec[-], and Critical Rate is applied [64ff64]600[-] higher.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Kasel/skills/2.png"
+        },
+        "3": {
+            "name": "Proxy of God",
+            "cost": null,
+            "cooldown": null,
+            "description": "Deals [ffc800]200*(0.7+(0.3*Skill Level*Awakening Coefficient))+ATK126%[-] Physical DMG to nearby enemies and inflicts [fa96fa]Stun[-] for [64ffff]1 sec[-]. Then enters [fa96fa][God's Proxy][-] state for [64ffff]10 sec[-], empowering skills.\n\n[fa96fa][God's Proxy]:[-] ATK increases by [ffc800]264*(0.7+(0.3*Skill Level*Awakening Coefficient))[-], Normal Attack DMG increases by [64ff64]100%[-]. This effect cannot be dispelled.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Kasel/skills/3.png"
+        },
+        "4": {
+            "name": "Goddess Strike",
+            "cost": null,
+            "cooldown": null,
+            "description": "ATK increases by [64ff64]135*(0.7+(0.3*Skill Level*Awakening Coefficient))[-], and Magic Evasion increases by [64ff64]360[-].\n\nWhen [fa96fa][Holy Sword Ea][-] is equipped, damage dealt to non-hero enemies increases by [64ff64]20%[-], and damage taken from non-hero enemies is reduced by [64ff64]20%[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Kasel/skills/4.png"
+        }
+    },
+    "books": {
+        "1": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        },
+        "2": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        },
+        "3": {
+            "II": "Increases ATK Boost by [64ff64]10[-]%.",
+            "III": "Increases ATK Boost by [64ff64]15[-]%.",
+            "IV": "Increases ATK Boost by [64ff64]25[-]%."
+        },
+        "4": {
+            "II": "ATK increases by [64ff64]10[-]%.",
+            "III": "ATK increases by [64ff64]15[-]%.",
+            "IV": "ATK increases by [64ff64]25[-]%."
+        }
+    },
+    "perks": {
+        "t3": {
+            "1": {
+                "light": {
+                    "effect": "Damage increases by 50%.",
+                    "thumbnail": "heroes/Kasel/perks/s1l.png"
+                },
+                "dark": {
+                    "effect": "Mana cost is reduced by 1000.",
+                    "thumbnail": "heroes/Kasel/perks/s1d.png"
+                }
+            },
+            "2": {
+                "light": {
+                    "effect": "Damage increases by 50%.",
+                    "thumbnail": "heroes/Kasel/perks/s2l.png"
+                },
+                "dark": {
+                    "effect": "On hit, increases the target’s Physical DMG taken by 24% for 5 sec.",
+                    "thumbnail": "heroes/Kasel/perks/s2d.png"
+                }
+            },
+            "3": {
+                "light": {
+                    "effect": "Physical Evasion increases by 600 for the duration..",
+                    "thumbnail": "heroes/Kasel/perks/s3l.png"
+                },
+                "dark": {
+                    "effect": "Damage dealt to non-hero enemies increases by 34% for the duration.",
+                    "thumbnail": "heroes/Kasel/perks/s3d.png"
+                }
+            },
+            "4": {
+                "light": {
+                    "effect": "ATK increase amount increases by 50%.",
+                    "thumbnail": "heroes/Kasel/perks/s4l.png"
+                },
+                "dark": {
+                    "effect": "On evasion, restores 6% of Max HP every 3 sec.",
+                    "thumbnail": "heroes/Kasel/perks/s4d.png"
+                }
+            }
+        },
+        "t5": {
+            "light": {
+                "effect": "ATK, DEF, HP +15% / P.Dodge +100",
+                "thumbnail": "heroes/Kasel/perks/light.png"
+            },
+            "dark": {
+                "effect": "On hit, deals additional Physical DMG equal to 60% of ATK. Applied at 120% against non-hero enemies and can only trigger once every 0 sec.",
+                "thumbnail": "heroes/Kasel/perks/dark.png"
+            }
+        }
+    },
+    "uw": {
+        "name": "The Holy Sword, Aea",
+        "description": "On hit, has a 35% chance to deal additional Physical DMG equal to {0}% of ATK. This effect can only trigger once every 0.5 sec.",
+        "thumbnail": "heroes/Kasel/uw.png",
+        "story": "A legendary Holy Sword given to the world by Lua. This legendary artifact materialized 100 years ago when the Demons invaded the Orbis Continent through the Dimensional Gate. According to the legend, the Hero King Kyle used this sword to pierce the heart of the Dark Lord Angmund and brought an end to the war. However, the two simply vanished, and only Aea remained.",
+        "value": {
+            "0": {
+                "0": "160",
+                "1": "192",
+                "2": "230",
+                "3": "276",
+                "4": "331",
+                "5": "400"
+            }
+        }
+    },
+    "uts": {
+        "1": {
+            "name": "Proxy's Insignia",
+            "description": "[Judgment Blade] Reduces Cooldown by 30%, and increases DMG by {0}% upon every use. This effect can be stacked up to max 5 times and is irremovable.",
+            "thumbnail": "heroes/Kasel/ut/1.png",
+            "story": "A rune that proves that one is an agent of Lua, the Goddess of Light. The Rune of Proxy is an artifact of the Church of Lua, and it's given to the knight who wields the Aea, the Sword of Light. The Rune of Proxy pushes enemies with the power of light and increases ATK and morale.",
+            "value": {
+                "0": {
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "16",
+                    "4": "18",
+                    "5": "20"
+                }
+            }
+        },
+        "2": {
+            "name": "Emperor's Gauntlet",
+            "description": "[Valiant Dash] Increases DMG by {0}% and reduces Cooldown by 10% upon a Crit Hit.",
+            "thumbnail": "heroes/Kasel/ut/2.png",
+            "story": "Gauntlet imbued with the blessing of Lua, the Goddess of Light.\nGauntlet passed down to the kings of the Orbis Continent. Contains the encouragement of the goddess that allows you to use Valiant Dash towards enemies without any fear.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            }
+        },
+        "3": {
+            "name": "Crown of Light",
+            "description": "[Proxy of God] increases Dodge Chance by an additional 250 and ATK Spd by an additional {0} for the duration of the Skill.",
+            "thumbnail": "heroes/Kasel/ut/3.png",
+            "story": "The crown of Kyle, the king of Orvelia and the Hero of Holy Sword.\nWorn by King Kyle during his expedition to kill Dark Lord Angmund 100 years ago, this golden grown contains the will of the Goddess of Light. After Angmund was defeated, the Crown of Light, along with the Holy Sword, Aea, was left in the place where the king disappeared.",
+            "value": {
+                "0": {
+                    "0": "200",
+                    "1": "240",
+                    "2": "290",
+                    "3": "350",
+                    "4": "420",
+                    "5": "500"
+                }
+            }
+        },
+        "4": {
+            "name": "Lua's Tear",
+            "description": "[Goddess Strike] Increases DEF Boost by 50%, and own DMG dealt to bosses by {0}%.",
+            "thumbnail": "heroes/Kasel/ut/4.png",
+            "story": "An azure-colored jewel that adorns the Holy Sword, Aea.\nIt is an intense condensation of sacred nature's spirit, bound by the teardrops of Lua, and has the mysterious power to guide the Guardian of Holy Sword on the path of light.",
+            "value": {
+                "0": {
+                    "0": "12",
+                    "1": "14",
+                    "2": "17",
+                    "3": "21",
+                    "4": "25",
+                    "5": "30"
+                }
+            }
+        }
+    },
+    "splashart": "heroes/Kasel/sa.png",
+    "costumes": "heroes/Kasel/cos"
+}

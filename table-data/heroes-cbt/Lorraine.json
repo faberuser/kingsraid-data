@@ -1,0 +1,234 @@
+{
+    "profile": {
+        "name": "Lorraine",
+        "title": "Grand Elidoran Scholar Lorraine",
+        "class": "Wizard",
+        "position": "Middle-200",
+        "attack_range": "1300",
+        "damage_type": "Magical",
+        "gender": "Female",
+        "age": "???",
+        "height": "168",
+        "race": "Elf",
+        "constellation": "Graham the Thief",
+        "birth_of_month": "May 25th, Month of Hope",
+        "like": "Tranquil forest, beautiful songs",
+        "dislike": "Anything that harms nature",
+        "story": "The Great Sage of Elidora is the wisest of the Druids. As one of the heroes who fought against the Demon invaders 100 years ago, she is often considered the wisest person on the entire Orbis Continent. She has taught and trained countless Elves, and possesses keen insight and mystic powers befitting her age. It is said that even the current king of Elidora as well as his children were all once her students. Having recently sensed a strange disturbance from the Elidora Forest, she is preparing the path for the wielder of the Holy Sword.",
+        "thumbnail": "heroes/Lorraine/ico.png"
+    },
+    "skills": {
+        "1": {
+            "name": "Thornbush Forest",
+            "cost": null,
+            "cooldown": null,
+            "description": "Deals [ffc800]333*(0.7+(0.3*Skill Level*Awakening Coefficient))+153.2% ATK[-] Magic DMG [64ffff]{1} time[-] to a random enemy and nearby enemies, and [fa96fa]stuns[-] them for [64ffff]1.8sec[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Lorraine/skills/1.png"
+        },
+        "2": {
+            "name": "Seed of Belladonna",
+            "cost": null,
+            "cooldown": null,
+            "description": "Creates [fa96fa][Belladonna Seed][-] in the area around the target for [64ffff]7sec[-].\n\n[fa96fa][Belladonna Seed]:[-] Deals [ffc800]403*(0.7+(0.3*Skill Level*Awakening Coefficient))+146.2% ATK[-] Magic DMG to nearby enemies every [64ffff]1sec[-] and reduces Healing Rate by [ff6464]25%[-] for [64ffff]1sec[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Lorraine/skills/2.png"
+        },
+        "3": {
+            "name": "Wrath of the Forest",
+            "cost": null,
+            "cooldown": null,
+            "description": "Deals [ffc800]304*(0.7+(0.3*Skill Level*Awakening Coefficient))+112.2% ATK[-] Magic DMG [64ffff]{1} time[-] to enemies in a wide frontal area and [fa96fa]knocks them down[-] for [64ffff]1sec[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Lorraine/skills/3.png"
+        },
+        "4": {
+            "name": "Poison",
+            "cost": null,
+            "cooldown": null,
+            "description": "On Normal and Skill Attacks, inflicts [fa96fa][Poison][-] on the target, dealing Magic DoT equal to [ffc800]100% ATK[-] every [64ffff]1sec[-] for [64ffff]20sec[-] and reducing Healing Rate by [ff6464]1%[-]. This effect stacks up to [64ffff]25 times[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Lorraine/skills/4.png"
+        }
+    },
+    "books": {
+        "1": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Damage dealt is increased by [64ff64]25[-]%."
+        },
+        "2": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        },
+        "3": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        },
+        "4": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Damage dealt is increased by [64ff64]25[-]%."
+        }
+    },
+    "perks": {
+        "t3": {
+            "1": {
+                "light": {
+                    "effect": "Reduces the target's Mana by 250. If the target is a boss, reduces it by 500 instead.",
+                    "thumbnail": "heroes/Lorraine/perks/s1l.png"
+                },
+                "dark": {
+                    "effect": "Mana cost is increased by 1000, but damage dealt is increased by 100%.",
+                    "thumbnail": "heroes/Lorraine/perks/s1d.png"
+                }
+            },
+            "2": {
+                "light": {
+                    "effect": "Increases DMG by 50%.",
+                    "thumbnail": "heroes/Lorraine/perks/s2l.png"
+                },
+                "dark": {
+                    "effect": "Enemies hit suffer increased status ailment duration by 20% for 5 sec.",
+                    "thumbnail": "heroes/Lorraine/perks/s2d.png"
+                }
+            },
+            "3": {
+                "light": {
+                    "effect": "Mana cost increases by 1000, but damage increases by 100%.",
+                    "thumbnail": "heroes/Lorraine/perks/s3l.png"
+                },
+                "dark": {
+                    "effect": "Mana cost is increased by 1000, but removes beneficial effects from enemies within range.",
+                    "thumbnail": "heroes/Lorraine/perks/s3d.png"
+                }
+            },
+            "4": {
+                "light": {
+                    "effect": "For each [Poison] stack, the target's Attack is reduced by 1%.",
+                    "thumbnail": "heroes/Lorraine/perks/s4l.png"
+                },
+                "dark": {
+                    "effect": "If the target is a boss, [Poison] damage increases by 100%.",
+                    "thumbnail": "heroes/Lorraine/perks/s4d.png"
+                }
+            }
+        },
+        "t5": {
+            "light": {
+                "effect": "ATK, DEF, HP +15% / Crit Chance +100",
+                "thumbnail": "heroes/Lorraine/perks/light.png"
+            },
+            "dark": {
+                "effect": "At the start of battle, all skill cooldowns are reduced by 30%, and damage dealt to non-hero enemies is increased by 10% for 90 sec. The damage increase stacks up to 5 times and cannot be dispelled.",
+                "thumbnail": "heroes/Lorraine/perks/dark.png"
+            }
+        }
+    },
+    "uw": {
+        "name": "World Tree's Will, Roburu",
+        "description": "Every 7 sec, deals Magic Damage equal to {0}% of Attack Power to poisoned enemies, reduces their Magic Defense by {1}% for 10 sec, and increases their Magic Damage taken by {2}%.",
+        "thumbnail": "heroes/Lorraine/uw.png",
+        "story": "The legend has it that, once every 100 years, the World Tree bestows one of its branches to a chosen one. The branch radiates with eternal life, granting immense power and knowledge to its owner. Fusing the branch with the Stone of the Forest, an Elven treasure, Lorraine created this staff. Now, she can call upon the forces of nature and remain connected to the World Tree wherever she goes.",
+        "value": {
+            "0": {
+                "0": "120",
+                "1": "150",
+                "2": "175",
+                "3": "200",
+                "4": "225",
+                "5": "250"
+            },
+            "1": {
+                "0": "5",
+                "1": "6",
+                "2": "7",
+                "3": "8",
+                "4": "9",
+                "5": "10"
+            },
+            "2": {
+                "0": "5",
+                "1": "6",
+                "2": "7",
+                "3": "8",
+                "4": "9",
+                "5": "10"
+            }
+        }
+    },
+    "uts": {
+        "1": {
+            "name": "Root of the World Tree",
+            "description": "[Thornbush Forest] Increases DMG by 50% and reduces Cooldown by {0} sec.",
+            "thumbnail": "heroes/Lorraine/ut/1.png",
+            "story": "Proof of the unity between the Druids and the World Tree. The great sages of Elidora have always maintained a deep bond with the World Tree. The roots of the World Tree are proof of the deep bond with the Druids. They attack enemies with supernatural DMG whenever Druids shout the Wrath of the Forest to show nature's fury and hostility.",
+            "value": {
+                "0": {
+                    "0": "1",
+                    "1": "1.2",
+                    "2": "1.4",
+                    "3": "1.6",
+                    "4": "1.8",
+                    "5": "2"
+                }
+            }
+        },
+        "2": {
+            "name": "Deadly Belladonna",
+            "description": "[Seed of Belladonna] Reduces Mana Cost by 1, Mana of hit enemies by {0}, and recovers own Mana by {1}.",
+            "thumbnail": "heroes/Lorraine/ut/2.png",
+            "story": "The beautiful but poisonous Belladonna.\nIt's a dangerous plant that only the Great Sage can handle. The little Belladonna that is mixed up with vines poisons enemies and makes them defenseless against magic attacks.",
+            "value": {
+                "0": {
+                    "0": "125",
+                    "1": "150",
+                    "2": "175",
+                    "3": "200",
+                    "4": "225",
+                    "5": "250"
+                },
+                "1": {
+                    "0": "100",
+                    "1": "120",
+                    "2": "140",
+                    "3": "170",
+                    "4": "210",
+                    "5": "250"
+                }
+            }
+        },
+        "3": {
+            "name": "Book of Life",
+            "description": "[Wrath of the Forest] Increases DMG by {0}%. Upon a Crit Hit on enemies with 5 or more stacks of Poison, reduces Cooldown by 4%.",
+            "thumbnail": "heroes/Lorraine/ut/3.png",
+            "story": "The Book containing knowledge about all life in the forest.\nA magical book passed down among the guardians of the World Tree since ancient times. After being in the hands of Elidoran sages for a long time, Lorraine now has it in safekeeping.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            }
+        },
+        "4": {
+            "name": "Terrarium of Circulation",
+            "description": "[Poison] makes Poison effect irremovable and increases DMG dealt to Bosses by {0}%.",
+            "thumbnail": "heroes/Lorraine/ut/4.png",
+            "story": "A terrarium made with a broken World Tree twig.\nAs breaking of twigs of the World Tree is considered very bad luck, they are normally purified and discarded.\nHowever, Lorraine received a new revelation from it and decided to make a small terrarium out of it.",
+            "value": {
+                "0": {
+                    "0": "50",
+                    "1": "60",
+                    "2": "70",
+                    "3": "80",
+                    "4": "90",
+                    "5": "100"
+                }
+            }
+        }
+    },
+    "splashart": "heroes/Lorraine/sa.png",
+    "costumes": "heroes/Lorraine/cos"
+}

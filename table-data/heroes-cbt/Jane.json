@@ -1,0 +1,218 @@
+{
+    "profile": {
+        "name": "Jane",
+        "title": "Alabaster Corpse Jane",
+        "class": "Knight",
+        "position": "Front-700",
+        "attack_range": "2500",
+        "damage_type": "Magical",
+        "gender": "Female",
+        "age": "118",
+        "height": "150",
+        "race": "Undead",
+        "constellation": "Armil the Saint",
+        "birth_of_month": "April 17th, Month of Life",
+        "like": "I don't remember exactly... My...",
+        "dislike": "Large bones...",
+        "story": "She was once the princess of the fallen Dukedom of Gray. The Dukedom of Gray, wiped off the map by the Demon invaders during the Demon War, was the protector of countless secrets, including the ruins and technologies of an ancient civilization. Jane, too, lost her life to protect those secrets. Later, she was brought back to the world as an undead by Malduk, a high-ranking officer and a strategist of the Demon Army. She was given a new consciousness by a strange, dark magic. Now, she seeks to go on a journey to find her past self and her lost memories.",
+        "thumbnail": "heroes/Jane/ico.png"
+    },
+    "skills": {
+        "1": {
+            "name": "Funeral Rites",
+            "cost": null,
+            "cooldown": null,
+            "description": "Deals [ffc800]361*(1+0.3*Skill Level)+277.6% of Attack Power[-] damage to enemies within range and [fa96fa]stuns[-] them for [64ffff]2sec[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Jane/skills/1.png"
+        },
+        "2": {
+            "name": "Mark of Death",
+            "cost": null,
+            "cooldown": null,
+            "description": "Engraves [fa96fa][Mark of Death][-] on all enemies for [64ffff]15sec[-], dealing [ffc800]9*(1+0.3*Skill Level)+6.9% of Attack Power[-] Magic DoT every second and reducing Magic Defense by [ff6464]10%[-]. If recast within [64ffff]15sec[-], the Magic Defense reduction is increased by [64ff64]50%[-], stacking up to [64ffff]5times[-].This increase effect cannot be dispelled.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Jane/skills/2.png"
+        },
+        "3": {
+            "name": "Day of Ruin",
+            "cost": null,
+            "cooldown": null,
+            "description": "Deals [ffc800]127*(0.7+(0.3*Skill Level*Awakening Coefficient))+97.6% of Attack Power[-] as Magic Damage every second to all enemies for [64ffff]14 sec[-], and recovers HP equal to [ffc800]75%[-] of damage dealt. During the duration, all allies take [64ff64]10%[-] reduced Physical Damage, and enemies affected by [fa96fa][Mark of Death][-] take additional Magic Damage equal to [ffc800]97.6% of Attack Power[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Jane/skills/3.png"
+        },
+        "4": {
+            "name": "Rest in Peace",
+            "cost": null,
+            "cooldown": null,
+            "description": "Increases all allies’ Physical Defense by [64ff64]55*(1+0.3*Skill Level)[-]. When taking damage that would be fatal, enters [fa96fa][Coffin][-] state for [64ffff]5sec[-], restoring [64ff64]197*(1+0.3*Skill Level)+153.7% of Attack Power + 10% of Max HP[-]. [fa96fa][Coffin]:[-]Attack Speed changes do not affect the target. The target is [fa96fa]immune[-] to all damage and deals Magic Damage equal to [ffc800]5%[-] of Max HP to nearby enemies every [64ffff]1sec[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Jane/skills/4.png"
+        }
+    },
+    "books": {
+        "1": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        },
+        "2": {
+            "II": "DMG is increased by [64ff64]10[-] %.",
+            "III": "DMG is increased by [64ff64]15[-] %.",
+            "IV": "DMG is increased by [64ff64]25[-] %."
+        },
+        "3": {
+            "II": "DMG is increased by [64ff64]10[-] %.",
+            "III": "DMG is increased by [64ff64]15[-] %.",
+            "IV": "MP is recovered by [64ff64]1[-] %."
+        },
+        "4": {
+            "II": "Heal rate is increased by [64ff64]10[-] %.",
+            "III": "Heal rate is increased by [64ff64]15[-] %.",
+            "IV": "Heal rate is increased by [64ff64]25[-] %."
+        }
+    },
+    "perks": {
+        "t3": {
+            "1": {
+                "light": {
+                    "effect": "Recovers HP equal to 50% of damage dealt.",
+                    "thumbnail": "heroes/Jane/perks/s1l.png"
+                },
+                "dark": {
+                    "effect": "Mana cost increases by 2000, but pulls the target toward you.",
+                    "thumbnail": "heroes/Jane/perks/s1d.png"
+                }
+            },
+            "2": {
+                "light": {
+                    "effect": "Debuff duration is reduced to 10 sec, but damage is increased by 500%.",
+                    "thumbnail": "heroes/Jane/perks/s2l.png"
+                },
+                "dark": {
+                    "effect": "[Mark of Death] cannot be removed by cleansing harmful effects.",
+                    "thumbnail": "heroes/Jane/perks/s2d.png"
+                }
+            },
+            "3": {
+                "light": {
+                    "effect": "Damage increases by 50%.",
+                    "thumbnail": "heroes/Jane/perks/s3l.png"
+                },
+                "dark": {
+                    "effect": "All allies additionally take 10% less Physical DMG.",
+                    "thumbnail": "heroes/Jane/perks/s3d.png"
+                }
+            },
+            "4": {
+                "light": {
+                    "effect": "When the effect triggers, removes all harmful effects from all allies.",
+                    "thumbnail": "heroes/Jane/perks/s4l.png"
+                },
+                "dark": {
+                    "effect": "When the effect triggers, stuns all enemies for 1 sec.",
+                    "thumbnail": "heroes/Jane/perks/s4d.png"
+                }
+            }
+        },
+        "t5": {
+            "light": {
+                "effect": "ATK, DEF, HP +15% / M. Block +200",
+                "thumbnail": "heroes/Jane/perks/light.png"
+            },
+            "dark": {
+                "effect": "On hit, Attack and Healing increase by 1%. This effect stacks up to 35 times.",
+                "thumbnail": "heroes/Jane/perks/dark.png"
+            }
+        }
+    },
+    "uw": {
+        "name": "Unchanging Mind, Erekura",
+        "description": "Deals Magic Damage equal to {0}% of Attack Power per second to nearby enemies, reduces their Attack by {1}%, and recovers HP equal to 100% of damage dealt.",
+        "thumbnail": "heroes/Jane/uw.png",
+        "story": "When Malduk's magic resurrected Jane as an undead, she should not have felt anything. Yet, she felt warm and comfortable as mysterious energy surrounded her dead body. She should not have been able to even feel it. But when Malduk took her, she instinctively reached out to the warm presence. Later, when a mysterious magic brought her back to consciousness, the first thing she did was to inspect her coffin, which radiated with tragic yet warm love. Inside, she found the following message carefully engraved: 'My unchanging love for you.'",
+        "value": {
+            "0": {
+                "0": "40",
+                "1": "48",
+                "2": "56",
+                "3": "64",
+                "4": "72",
+                "5": "80"
+            },
+            "1": {
+                "0": "15",
+                "1": "18",
+                "2": "21",
+                "3": "24",
+                "4": "27",
+                "5": "30"
+            }
+        }
+    },
+    "uts": {
+        "1": {
+            "name": "Flowers of a Forgotten Dukedom",
+            "description": "[Funeral Rites] reduces the target’s CC Resist by 320 and Magic Block chance by {0} for 4 sec.",
+            "thumbnail": "heroes/Jane/ut/1.png",
+            "story": "A flower of the Dukedom that can no longer be found. It is also known as the Flower of Boundaries that connects life and death, and it gets its nourishment from destruction. A painfully beautiful flower. If you gift it to someone, you will be able to share that person's last moment in a dream.",
+            "value": {
+                "0": {
+                    "0": "210",
+                    "1": "252",
+                    "2": "294",
+                    "3": "336",
+                    "4": "378",
+                    "5": "420"
+                }
+            }
+        },
+        "2": {
+            "name": "Death-imbued Cushion",
+            "description": "[Mark of Death] When a marked enemy dies, increases own ATK by 5% and Crit DMG by {0}% for 20 sec. Stacks up to 16 times.",
+            "thumbnail": "heroes/Jane/ut/2.png",
+            "story": "The cushion that Jane hugs to sleep inside the coffin. It's imbued with the spirits that fell asleep with her inside the coffin. \nThey constantly give the hollowness of death to Jane.",
+            "value": {
+                "0": {
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
+                }
+            }
+        },
+        "3": {
+            "name": "Funeral Doll",
+            "description": "[Day of Ruin] increases DMG by {0}% and reduces the target’s M.DEF by 3% for 5 sec each time damage is dealt. This effect can stack up to 10 times.",
+            "thumbnail": "heroes/Jane/ut/3.png",
+            "story": "A doll used in funeral ceremonies in the Dukedom of Gray.\n It is normally made to look like the deceased and put in front of the tombstone. After the Dukedom fell and Jane died, people put this doll beside her body.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            }
+        },
+        "4": {
+            "name": "First Friend Doll",
+            "description": "[Rest in Peace] reduces all DMG taken by {0}% for 10 sec after use. Cooldown set to 40 sec.",
+            "thumbnail": "heroes/Jane/ut/4.png",
+            "story": "A doll that looks just like Rephy, Jane's first friend.\nJane froze in front of a shop selling poison.\nSeeing Jane's eyes locked on the limited edition of Rephy Doll on the shop display, Epis decided to buy her the doll.\nSince the doll could only be purchased with mileage, Epis was almost crying after spending all her pocket money. However, Jane's smile after getting this doll as her first friend was probably worth it.",
+            "value": {
+                "0": {
+                    "0": "50",
+                    "1": "54",
+                    "2": "58",
+                    "3": "62",
+                    "4": "66",
+                    "5": "70"
+                }
+            }
+        }
+    },
+    "splashart": "heroes/Jane/sa.png",
+    "costumes": "heroes/Jane/cos"
+}

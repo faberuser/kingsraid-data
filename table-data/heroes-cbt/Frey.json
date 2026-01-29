@@ -1,0 +1,218 @@
+{
+    "profile": {
+        "name": "Frey",
+        "title": "Priestess of Light Frey",
+        "class": "Priest",
+        "position": "Back-100",
+        "attack_range": "200",
+        "damage_type": "Magical",
+        "gender": "Female",
+        "age": "18",
+        "height": "170",
+        "race": "Human",
+        "constellation": "Guardian Mertis",
+        "birth_of_month": "January 1st, Month of Protection",
+        "like": "Lua, current job",
+        "dislike": "Injustice",
+        "story": "An apprentice priestess serving the Goddess Lua, the church has high expectations of her as a future priestess. From the early years of her training, she has amazed even the high priests with her strong faith and natural talent for channeling Lua's power. She herself considers priesthood her destined path, and her kind heart reflects her resolve. However, she shows no mercy toward evildoers.",
+        "thumbnail": "heroes/Frey/ico.png"
+    },
+    "skills": {
+        "1": {
+            "name": "Miraculous Light",
+            "cost": null,
+            "cooldown": null,
+            "description": "Dispels harmful effects from the ally with the lowest current HP and restores HP [ffc800]529*(0.7+(0.3*Skill Level*Awakening Coefficient))+330.6% ATK[-] [64ffff]3times[-], and when healing the target, nearby allies are additionally healed for [64ffff]40%[-] of the healing amount.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Frey/skills/1.png"
+        },
+        "2": {
+            "name": "Blessings of Light",
+            "cost": null,
+            "cooldown": null,
+            "description": "Grants all allies a shield that absorbs [ffc800]2080*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 800.6% of ATK[-] damage for [64ffff]4sec[-]. While the shield is active, Healing Power is increased by [64ff64]120%[-] and Status Resistance is increased by [64ff64]800[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Frey/skills/2.png"
+        },
+        "3": {
+            "name": "Heaven's Vengeance",
+            "cost": null,
+            "cooldown": null,
+            "description": "Deals [ffc800]177*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 110.8% of ATK[-] Magic DMG to the target and nearby enemies [64ffff]6times[-], then inflicts [fa96fa]Blind[-] for [64ffff]2sec[-]. This skill is applied with an increased Critical Rate of [64ff64]800[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Frey/skills/3.png"
+        },
+        "4": {
+            "name": "Goddess Grace",
+            "cost": null,
+            "cooldown": null,
+            "description": "Every [64ffff]20sec[-], restores [64ff64]0%[-] of Max HP to the [64ffff]0 allies[-] with the lowest current HP, and increases their Magic DEF by [64ff64]60*(0.7+(0.3*Skill Level*Awakening Coefficient))[-] for [64ffff]15sec[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Frey/skills/4.png"
+        }
+    },
+    "books": {
+        "1": {
+            "II": "Increases Heal Rate by [64ff64]10[-]%.",
+            "III": "Increases Heal Rate by [64ff64]15[-]%.",
+            "IV": "Increases Heal Rate by [64ff64]25[-]%."
+        },
+        "2": {
+            "II": "Increases shield by [64ff64]10[-]%.",
+            "III": "Increases shield by [64ff64]15[-]%.",
+            "IV": "Increases shield by [64ff64]25[-]%."
+        },
+        "3": {
+            "II": "Increases DMG by [64ff64]10[-]%.",
+            "III": "Increases DMG by [64ff64]15[-]%.",
+            "IV": "Increases DMG by [64ff64]25[-]%."
+        },
+        "4": {
+            "II": "Increases M.DEF Boost by [64ff64]10[-]%.",
+            "III": "Increases M.DEF Boost by [64ff64]15[-]%.",
+            "IV": "Increases M.DEF Boost by [64ff64]25[-]%."
+        }
+    },
+    "perks": {
+        "t3": {
+            "1": {
+                "light": {
+                    "effect": "Mana cost increases by 1000, but the target count changes to 2.",
+                    "thumbnail": "heroes/Frey/perks/s1l.png"
+                },
+                "dark": {
+                    "effect": "Healed allies take 40% less Magic DMG for 10 sec.",
+                    "thumbnail": "heroes/Frey/perks/s1d.png"
+                }
+            },
+            "2": {
+                "light": {
+                    "effect": "Shield amount increases by 50%.",
+                    "thumbnail": "heroes/Frey/perks/s2l.png"
+                },
+                "dark": {
+                    "effect": "Reduces Cooldown by 2 sec.",
+                    "thumbnail": "heroes/Frey/perks/s2d.png"
+                }
+            },
+            "3": {
+                "light": {
+                    "effect": "Increases the target’s Physical DMG taken by 10% for 10 sec.",
+                    "thumbnail": "heroes/Frey/perks/s3l.png"
+                },
+                "dark": {
+                    "effect": "Increases the target’s Magic DMG taken by 10% for 10 sec.",
+                    "thumbnail": "heroes/Frey/perks/s3d.png"
+                }
+            },
+            "4": {
+                "light": {
+                    "effect": "Activates [Goddess Grace] additionally at the start of every battle.",
+                    "thumbnail": "heroes/Frey/perks/s4l.png"
+                },
+                "dark": {
+                    "effect": "Magic DMG taken by Frey is reduced by 20%.",
+                    "thumbnail": "heroes/Frey/perks/s4d.png"
+                }
+            }
+        },
+        "t5": {
+            "light": {
+                "effect": "ATK, DEF, HP +15% / M. Block +200",
+                "thumbnail": "heroes/Frey/perks/light.png"
+            },
+            "dark": {
+                "effect": "All allies’ ATK increases by 5%.",
+                "thumbnail": "heroes/Frey/perks/dark.png"
+            }
+        }
+    },
+    "uw": {
+        "name": "God's Authority, Rosmerta",
+        "description": "Every 8 sec, heals the 4 allies with the lowest current HP by {0}% of ATK, and increases the Critical Rate of the 4 allies with the highest ATK by 200, and Critical DMG by {1}% for 8 sec.",
+        "thumbnail": "heroes/Frey/uw.png",
+        "story": "The Angels are said to be closer to Lua than any other race. A high ranking angel called Rosmerta bestowed her core to the Church of Lua, and they crafted this holy staff from the core's divine energy.",
+        "value": {
+            "0": {
+                "0": "80",
+                "1": "96",
+                "2": "115",
+                "3": "138",
+                "4": "165",
+                "5": "200"
+            },
+            "1": {
+                "0": "15",
+                "1": "19",
+                "2": "23",
+                "3": "27",
+                "4": "31",
+                "5": "35"
+            }
+        }
+    },
+    "uts": {
+        "1": {
+            "name": "Forgotten Arbiter's Feather",
+            "description": "[Miraculous Light] Increases Heal Rate by 50% and target becomes Immune to DMG for {0} sec.",
+            "thumbnail": "heroes/Frey/ut/1.png",
+            "story": "Feather from the Guardian of the Sun. Feather of an Angel who saved the people by fighting against the Demons in the past. He left his feather as proof of his promise to return once again if the world falls into chaos. An artifact of the Church of Lua that summons holy rays of the sun to blind the enemy.",
+            "value": {
+                "0": {
+                    "0": "1",
+                    "1": "1.2",
+                    "2": "1.4",
+                    "3": "1.7",
+                    "4": "2.1",
+                    "5": "2.5"
+                }
+            }
+        },
+        "2": {
+            "name": "Miraculous Medal",
+            "description": "[Blessings of Light] Increases the shield amount by 50% and recovers {0} Mana every sec for 4 sec.",
+            "thumbnail": "heroes/Frey/ut/2.png",
+            "story": "Medal made by the saintess of miracles, Yvonne, with the revelation of the goddess. \nThe Medal of Miracles is a sacred artifact that contains the magic of light. It is said that saintess Yvonne saved the city that was invaded by the demons with the blessing of light that was boosted with this medal.",
+            "value": {
+                "0": {
+                    "0": "100",
+                    "1": "120",
+                    "2": "140",
+                    "3": "170",
+                    "4": "210",
+                    "5": "250"
+                }
+            }
+        },
+        "3": {
+            "name": "Angel's Egg",
+            "description": "[Heaven’s Vengeance] increases the target’s M.DMG taken by 20% for 10 sec and extends Blind duration by {0} sec.",
+            "thumbnail": "heroes/Frey/ut/3.png",
+            "story": "The treasure that Frey loves dearly.\nIt is a crystal orb that Frey had when she was found as an infant under the World Tree. Frey named it Angel's Egg for its luster like angel's hair, and she's cherished it her entire life.",
+            "value": {
+                "0": {
+                    "0": "0.6",
+                    "1": "0.9",
+                    "2": "1.2",
+                    "3": "1.5",
+                    "4": "1.8",
+                    "5": "2.1"
+                }
+            }
+        },
+        "4": {
+            "name": "Angelic Advent",
+            "description": "[Goddess Grace] Upon activation, dispels all negative effects from the target and increases the target's Heal Rate by {0}% for the duration of skill.",
+            "thumbnail": "heroes/Frey/ut/4.png",
+            "story": "An old storybook owned by Frey.\nIt was the first storybook ever given to young Frey as a present, and it tells of a war between the Angels and Demons.\nFrey particularly likes the part where the Angels emerge victorious after defeating all the Demons.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            }
+        }
+    },
+    "splashart": "heroes/Frey/sa.png",
+    "costumes": "heroes/Frey/cos"
+}
