@@ -125,23 +125,23 @@
     },
     "uw": {
         "name": "Brilliant Praise, Brauxio",
-        "description": "Upon using a Skill 3 times, creates a Shield for 10 sec that blocks DMG proportional to (0) of own ATK, and ATK is increased by (1). While the Shield is in effect, gains immunity to CC.",
+        "description": "Upon using a Skill 3 times, creates a Shield for 10 sec that blocks DMG proportional to {0}% of own ATK, and ATK is increased by {1}%. While the Shield is in effect, gains immunity to CC.",
         "value": {
             "0": {
-                "0": "200%",
-                "1": "240%",
-                "2": "290%",
-                "3": "350%",
-                "4": "420%",
-                "5": "500%"
+                "0": "200",
+                "1": "240",
+                "2": "290",
+                "3": "350",
+                "4": "420",
+                "5": "500"
             },
             "1": {
-                "0": "20%",
-                "1": "24%",
-                "2": "29%",
-                "3": "35%",
-                "4": "42%",
-                "5": "50%"
+                "0": "20",
+                "1": "24",
+                "2": "29",
+                "3": "35",
+                "4": "42",
+                "5": "50"
             }
         },
         "thumbnail": "heroes/Artemia/uw.png",
@@ -150,15 +150,15 @@
     "uts": {
         "1": {
             "name": "Dignity of Queen",
-            "description": "[Pillar of Light] Reduces Mana Cost by 1 and increases M.DMG target receives by (0) for 10 sec.",
+            "description": "[Pillar of Light] Reduces Mana Cost by 1 and increases M.DMG target receives by {0}% for 10 sec.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Artemia/ut/1.png",
@@ -166,15 +166,15 @@
         },
         "2": {
             "name": "Queen's Pride",
-            "description": "[Critical Intensity] Gains Immunity to CC and increases DMG by (0).",
+            "description": "[Critical Intensity] Gains Immunity to CC and increases DMG by {0}%.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Artemia/ut/2.png",
@@ -182,15 +182,15 @@
         },
         "3": {
             "name": "Crown of Brilliance",
-            "description": "[Light's Judgment] DMG is increased by (0) and upon killing an enemy, recovers 700 mana.",
+            "description": "[Light's Judgment] DMG is increased by {0}% and upon killing an enemy, recovers 700 mana.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Artemia/ut/3.png",
@@ -198,15 +198,15 @@
         },
         "4": {
             "name": "Mirror of Blessings",
-            "description": "[Blessings of Light] Increases DMG by 50% and DMG Boost to Non-Hero enemies by an additional (0).",
+            "description": "[Blessings of Light] Increases DMG by 50% and DMG Boost to Non-Hero enemies by an additional {0}%.",
             "value": {
                 "0": {
-                    "0": "1%",
-                    "1": "1.2%",
-                    "2": "1.4%",
-                    "3": "1.7%",
-                    "4": "2.1%",
-                    "5": "2.5%"
+                    "0": "1",
+                    "1": "1.2",
+                    "2": "1.4",
+                    "3": "1.7",
+                    "4": "2.1",
+                    "5": "2.5"
                 }
             },
             "thumbnail": "heroes/Artemia/ut/4.png",

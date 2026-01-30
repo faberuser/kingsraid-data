@@ -125,15 +125,15 @@
     },
     "uw": {
         "name": "Mace of Rehabilitation, Hartnon",
-        "description": "Skill hits increase P.DMG the target takes by (0) for 5 sec and reduces Mana by (1) every sec, and grant [Sadism] effect upon self. [Sadism] activates once every 2 sec and stacks up to max 5 times. Upon reaching the max number of stacks, consumes all stacks and inflicts [Masochism] on all enemies for 5 sec, reducing thier CC Resist by (2) and increasing the duration of CC effects inflicted on them by 10% for the duration. [Sadism] and [Masochism] are irremovable. In the Arena, Skill attacks deal additionally P.DMG equal to (3) of the target's Max HP.",
+        "description": "Skill hits increase P.DMG the target takes by {0}% for 5 sec and reduces Mana by {1} every sec, and grant [Sadism] effect upon self. [Sadism] activates once every 2 sec and stacks up to max 5 times. Upon reaching the max number of stacks, consumes all stacks and inflicts [Masochism] on all enemies for 5 sec, reducing thier CC Resist by {2} and increasing the duration of CC effects inflicted on them by 10% for the duration. [Sadism] and [Masochism] are irremovable. In the Arena, Skill attacks deal additionally P.DMG equal to {3}% of the target's Max HP.",
         "value": {
             "0": {
-                "0": "20%",
-                "1": "24%",
-                "2": "29%",
-                "3": "35%",
-                "4": "42%",
-                "5": "50%"
+                "0": "20",
+                "1": "24",
+                "2": "29",
+                "3": "35",
+                "4": "42",
+                "5": "50"
             },
             "1": {
                 "0": "80",
@@ -152,12 +152,12 @@
                 "5": "500"
             },
             "3": {
-                "0": "0.8%",
-                "1": "1%",
-                "2": "1.2%",
-                "3": "1.4%",
-                "4": "1.7%",
-                "5": "2%"
+                "0": "0.8",
+                "1": "1",
+                "2": "1.2",
+                "3": "1.4",
+                "4": "1.7",
+                "5": "2"
             }
         },
         "thumbnail": "heroes/Nicky/uw.png",
@@ -166,15 +166,15 @@
     "uts": {
         "1": {
             "name": "Special Boots of Stockade",
-            "description": "[Mace of Rehabilitation] Reduces P.DEF of hit enemy by 25% for 10 sec, and adds Reduction Effect on Heal Rate by (0) in Disarmament state.",
+            "description": "[Mace of Rehabilitation] Reduces P.DEF of hit enemy by 25% for 10 sec, and adds Reduction Effect on Heal Rate by {0}% in Disarmament state.",
             "value": {
                 "0": {
-                    "0": "30%",
-                    "1": "36%",
-                    "2": "43%",
-                    "3": "52%",
-                    "4": "62%",
-                    "5": "75%"
+                    "0": "30",
+                    "1": "36",
+                    "2": "43",
+                    "3": "52",
+                    "4": "62",
+                    "5": "75"
                 }
             },
             "thumbnail": "heroes/Nicky/ut/1.png",
@@ -182,15 +182,15 @@
         },
         "2": {
             "name": "Pendant of War God",
-            "description": "[Merciless Gale] Increases DMG by 50% and reduces Cooldown by (0) for each enemy hit.",
+            "description": "[Merciless Gale] Increases DMG by 50% and reduces Cooldown by {0}% for each enemy hit.",
             "value": {
                 "0": {
-                    "0": "1.6%",
-                    "1": "1.9%",
-                    "2": "2.3%",
-                    "3": "2.7%",
-                    "4": "3.3%",
-                    "5": "4%"
+                    "0": "1.6",
+                    "1": "1.9",
+                    "2": "2.3",
+                    "3": "2.7",
+                    "4": "3.3",
+                    "5": "4"
                 }
             },
             "thumbnail": "heroes/Nicky/ut/2.png",
@@ -198,15 +198,15 @@
         },
         "3": {
             "name": "Merciless Skull Knuckle",
-            "description": "[Last Execution] Reduces Cooldown by 30% and increases own DMG to Boss by (0) per use. This effect can be stacked up to max 10 times.",
+            "description": "[Last Execution] Reduces Cooldown by 30% and increases own DMG to Boss by {0}% per use. This effect can be stacked up to max 10 times.",
             "value": {
                 "0": {
-                    "0": "4%",
-                    "1": "4.8%",
-                    "2": "5.8%",
-                    "3": "7%",
-                    "4": "8.4%",
-                    "5": "10%"
+                    "0": "4",
+                    "1": "4.8",
+                    "2": "5.8",
+                    "3": "7",
+                    "4": "8.4",
+                    "5": "10"
                 }
             },
             "thumbnail": "heroes/Nicky/ut/3.png",
@@ -214,15 +214,15 @@
         },
         "4": {
             "name": "Ominous Manicure",
-            "description": "[Massacre Instinct] Cruel Madness becomes irremovable. Upon activation, reduces Cooldown of all skills by (0) and additionally increases Heal Rate by 50% for the duration.",
+            "description": "[Massacre Instinct] Cruel Madness becomes irremovable. Upon activation, reduces Cooldown of all skills by {0}% and additionally increases Heal Rate by 50% for the duration.",
             "value": {
                 "0": {
-                    "0": "30%",
-                    "1": "36%",
-                    "2": "43%",
-                    "3": "52%",
-                    "4": "63%",
-                    "5": "75%"
+                    "0": "30",
+                    "1": "36",
+                    "2": "43",
+                    "3": "52",
+                    "4": "63",
+                    "5": "75"
                 }
             },
             "thumbnail": "heroes/Nicky/ut/4.png",

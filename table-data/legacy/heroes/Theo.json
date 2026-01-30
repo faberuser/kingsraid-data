@@ -125,7 +125,7 @@
     },
     "uw": {
         "name": "Lightning Bolt, Legios",
-        "description": "Normal and Skill attacks stack 'Lightning' upon self. At 50 stacks, activates 'Lightning Bold, Legios,' increasing own ATK Spd by (0), Crit DMG by (1), and DEF Penetration by (2) for 15 sec. While 'Lightning Bolt, Legios' is activated, 'Lightning' does not stack. This effect is irremovable.",
+        "description": "Normal and Skill attacks stack 'Lightning' upon self. At 50 stacks, activates 'Lightning Bold, Legios,' increasing own ATK Spd by {0}, Crit DMG by {1}%, and DEF Penetration by {2} for 15 sec. While 'Lightning Bolt, Legios' is activated, 'Lightning' does not stack. This effect is irremovable.",
         "value": {
             "0": {
                 "0": "300",
@@ -136,12 +136,12 @@
                 "5": "750"
             },
             "1": {
-                "0": "100%",
-                "1": "120%",
-                "2": "144%",
-                "3": "173%",
-                "4": "205%",
-                "5": "250%"
+                "0": "100",
+                "1": "120",
+                "2": "144",
+                "3": "173",
+                "4": "205",
+                "5": "250"
             },
             "2": {
                 "0": "300",
@@ -158,15 +158,15 @@
     "uts": {
         "1": {
             "name": "Fur Decoration of Sable",
-            "description": "[Final Crash] Dispels all negative effects from self, and upon each hit, has an (0) chance to remove all positive effects from the target.",
+            "description": "[Final Crash] Dispels all negative effects from self, and upon each hit, has an {0}% chance to remove all positive effects from the target.",
             "value": {
                 "0": {
-                    "0": "8%",
-                    "1": "10%",
-                    "2": "12%",
-                    "3": "14%",
-                    "4": "17%",
-                    "5": "20%"
+                    "0": "8",
+                    "1": "10",
+                    "2": "12",
+                    "3": "14",
+                    "4": "17",
+                    "5": "20"
                 }
             },
             "thumbnail": "heroes/Theo/ut/1.png",
@@ -174,15 +174,15 @@
         },
         "2": {
             "name": "God of Lightning's Necklace",
-            "description": "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of [For Jane] is increased by an additional (0).",
+            "description": "[God of Lightning] ATK Spd is increased by 250 for the duration of skill, and the activation chance of [For Jane] is increased by an additional {0}%.",
             "value": {
                 "0": {
-                    "0": "8%",
-                    "1": "9.6%",
-                    "2": "11.5%",
-                    "3": "13.8%",
-                    "4": "16.5%",
-                    "5": "20%"
+                    "0": "8",
+                    "1": "9.6",
+                    "2": "11.5",
+                    "3": "13.8",
+                    "4": "16.5",
+                    "5": "20"
                 }
             },
             "thumbnail": "heroes/Theo/ut/2.png",
@@ -190,15 +190,15 @@
         },
         "3": {
             "name": "Essence of Red Lightning",
-            "description": "[Lightning Explosion] Skill cooldown is reduced by 30% and upon attack, deals (0) of ATK as extra M.DMG.",
+            "description": "[Lightning Explosion] Skill cooldown is reduced by 30% and upon attack, deals {0}% of ATK as extra M.DMG.",
             "value": {
                 "0": {
-                    "0": "40%",
-                    "1": "48%",
-                    "2": "58%",
-                    "3": "70%",
-                    "4": "84%",
-                    "5": "100%"
+                    "0": "40",
+                    "1": "48",
+                    "2": "58",
+                    "3": "70",
+                    "4": "84",
+                    "5": "100"
                 }
             },
             "thumbnail": "heroes/Theo/ut/3.png",
@@ -206,15 +206,15 @@
         },
         "4": {
             "name": "Another Funeral Doll",
-            "description": "[For Jane] Increases activation chance by (0) and own ATK Spd by 350 for 30 sec at the beginning of every battle.",
+            "description": "[For Jane] Increases activation chance by {0}% and own ATK Spd by 350 for 30 sec at the beginning of every battle.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Theo/ut/4.png",

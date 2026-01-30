@@ -132,23 +132,23 @@
     },
     "uw": {
         "name": "Bladebound Faith, Ezaias",
-        "description": "Upon every Skill use, heals own HP equal to (0) of Max HP over 4 sec. Normal and Skill attacks increase All DMG the hit target takes by (1) for 8 sec.",
+        "description": "Upon every Skill use, heals own HP equal to {0}% of Max HP over 4 sec. Normal and Skill attacks increase All DMG the hit target takes by {1}% for 8 sec.",
         "value": {
             "0": {
-                "0": "4%",
-                "1": "4.8%",
-                "2": "5.6%",
-                "3": "6.8%",
-                "4": "8.4%",
-                "5": "10%"
+                "0": "4",
+                "1": "4.8",
+                "2": "5.6",
+                "3": "6.8",
+                "4": "8.4",
+                "5": "10"
             },
             "1": {
-                "0": "8%",
-                "1": "9.6%",
-                "2": "11.2%",
-                "3": "13.6%",
-                "4": "16.8%",
-                "5": "20%"
+                "0": "8",
+                "1": "9.6",
+                "2": "11.2",
+                "3": "13.6",
+                "4": "16.8",
+                "5": "20"
             }
         },
         "thumbnail": "heroes/Isaiah/uw.png",
@@ -157,7 +157,7 @@
     "uts": {
         "1": {
             "name": "Heretical Rosary",
-            "description": "[Light of Salvation] Increases the duration of Shield by (0) and Silence by 1 sec.",
+            "description": "[Light of Salvation] Increases the duration of Shield by {0} and Silence by 1 sec.",
             "value": {
                 "0": {
                     "0": "1.2",
@@ -173,15 +173,15 @@
         },
         "2": {
             "name": "Flame of Benevolence",
-            "description": "[Touch of the Goddess - Mercy] The target hit by [Touch of Mercy] takes (0) increased All DMG for 15 sec.\n[Touch of the Goddess - Embrace] [Touch of Embrace] additionally increases the target's ATK Spd by 300.",
+            "description": "[Touch of the Goddess - Mercy] The target hit by [Touch of Mercy] takes {0}% increased All DMG for 15 sec.\n[Touch of the Goddess - Embrace] [Touch of Embrace] additionally increases the target's ATK Spd by 300.",
             "value": {
                 "0": {
-                    "0": "8%",
-                    "1": "9.6%",
-                    "2": "11.2%",
-                    "3": "13.6%",
-                    "4": "16.8%",
-                    "5": "20%"
+                    "0": "8",
+                    "1": "9.6",
+                    "2": "11.2",
+                    "3": "13.6",
+                    "4": "16.8",
+                    "5": "20"
                 }
             },
             "thumbnail": "heroes/Isaiah/ut/2.png",
@@ -189,7 +189,7 @@
         },
         "3": {
             "name": "Sculpture of Chaos",
-            "description": "[Offering of Atonement] Increases the duration of Invincibility by 1 sec and the effect of preventing enemies from receiving positve effects by 1 sec. [Field of Atonement] additionally recovers allies' Mana by (0) and reduces enemies' Mana by (1) every 2 sec.",
+            "description": "[Offering of Atonement] Increases the duration of Invincibility by 1 sec and the effect of preventing enemies from receiving positve effects by 1 sec. [Field of Atonement] additionally recovers allies' Mana by {0} and reduces enemies' Mana by {1} every 2 sec.",
             "value": {
                 "0": {
                     "0": "160",
@@ -205,15 +205,15 @@
         },
         "4": {
             "name": "Picture Book About Laws of Chaos",
-            "description": "[Baptism of the Goddess] Increases the number of the ally with the highest ATK by 1 and [Baptism of the Goddess] effect additionally increases DMG dealt to Non-Hero enemies of the ally with the highest ATK by (0).",
+            "description": "[Baptism of the Goddess] Increases the number of the ally with the highest ATK by 1 and [Baptism of the Goddess] effect additionally increases DMG dealt to Non-Hero enemies of the ally with the highest ATK by {0}%.",
             "value": {
                 "0": {
-                    "0": "3%",
-                    "1": "4%",
-                    "2": "5%",
-                    "3": "6%",
-                    "4": "7%",
-                    "5": "8%"
+                    "0": "3",
+                    "1": "4",
+                    "2": "5",
+                    "3": "6",
+                    "4": "7",
+                    "5": "8"
                 }
             },
             "thumbnail": "heroes/Isaiah/ut/4.png",

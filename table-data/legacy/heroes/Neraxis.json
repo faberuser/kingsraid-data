@@ -125,7 +125,7 @@
     },
     "uw": {
         "name": "Roaring Dragonmaw, Acravita",
-        "description": "After landing (0) normal attacks, deals M.DMG equal to 100% of ATK to 2 random enemies, stuns them for 0.5 sec, and becomes Storm of Neraxis for 10 sec. For the duration of Storm of Neraxis, increases P.DEF of all allies by (1) of own P.DEF, M.DEF by (2) of own M.DEF and ATK by (3).",
+        "description": "After landing {0} normal attacks, deals M.DMG equal to 100% of ATK to 2 random enemies, stuns them for 0.5 sec, and becomes Storm of Neraxis for 10 sec. For the duration of Storm of Neraxis, increases P.DEF of all allies by {1}% of own P.DEF, M.DEF by {2}% of own M.DEF and ATK by {3}%.",
         "value": {
             "0": {
                 "0": "20",
@@ -136,28 +136,28 @@
                 "5": "15"
             },
             "1": {
-                "0": "4%",
-                "1": "4.8%",
-                "2": "5.7%",
-                "3": "6.9%",
-                "4": "8.3%",
-                "5": "10%"
+                "0": "4",
+                "1": "4.8",
+                "2": "5.7",
+                "3": "6.9",
+                "4": "8.3",
+                "5": "10"
             },
             "2": {
-                "0": "4%",
-                "1": "4.8%",
-                "2": "5.7%",
-                "3": "6.9%",
-                "4": "8.3%",
-                "5": "10%"
+                "0": "4",
+                "1": "4.8",
+                "2": "5.7",
+                "3": "6.9",
+                "4": "8.3",
+                "5": "10"
             },
             "3": {
-                "0": "10%",
-                "1": "12%",
-                "2": "14%",
-                "3": "17%",
-                "4": "21%",
-                "5": "25%"
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
             }
         },
         "thumbnail": "heroes/Neraxis/uw.png",
@@ -166,15 +166,15 @@
     "uts": {
         "1": {
             "name": "Cartridge of Black Lightning",
-            "description": "[Black Lightning Claw] Recovers Mana by 100 upon each hit, and increases own P.DEF and M.DEF by (0) for 10 sec.",
+            "description": "[Black Lightning Claw] Recovers Mana by 100 upon each hit, and increases own P.DEF and M.DEF by {0}% for 10 sec.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Neraxis/ut/1.png",
@@ -182,15 +182,15 @@
         },
         "2": {
             "name": "Memories of the Blue God Dragon",
-            "description": "[Obsidian Roar] Increases DEF Boost of allies by (0) and dispels positive effects from all enemies upon using Obsidian Roar.",
+            "description": "[Obsidian Roar] Increases DEF Boost of allies by {0}% and dispels positive effects from all enemies upon using Obsidian Roar.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Neraxis/ut/2.png",
@@ -198,7 +198,7 @@
         },
         "3": {
             "name": "Rage Vortex",
-            "description": "[Breath of Destruction] Increases Stun duration by 1 sec and reduces Cooldown of Breath of Destruction by (0) sec.",
+            "description": "[Breath of Destruction] Increases Stun duration by 1 sec and reduces Cooldown of Breath of Destruction by {0} sec.",
             "value": {
                 "0": {
                     "0": "3",
@@ -214,7 +214,7 @@
         },
         "4": {
             "name": "Ashen Nova",
-            "description": "[Black Dragon Hide] Every 10 sec, recovers 1 orb of Mana and increases All Block of all allies by (0) for 5 sec.",
+            "description": "[Black Dragon Hide] Every 10 sec, recovers 1 orb of Mana and increases All Block of all allies by {0} for 5 sec.",
             "value": {
                 "0": {
                     "0": "200",

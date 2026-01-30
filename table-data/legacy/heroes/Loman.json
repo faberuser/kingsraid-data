@@ -125,31 +125,31 @@
     },
     "uw": {
         "name": "Wave of Protection, Gaiamenes",
-        "description": "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing (0) of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by (1) for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by (2) for 10 seconds.",
+        "description": "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing {0}% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by {1}% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by {2}% for 10 seconds.",
         "value": {
             "0": {
-                "0": "200%",
-                "1": "240%",
-                "2": "290%",
-                "3": "350%",
-                "4": "420%",
-                "5": "500%"
+                "0": "200",
+                "1": "240",
+                "2": "290",
+                "3": "350",
+                "4": "420",
+                "5": "500"
             },
             "1": {
-                "0": "25%",
-                "1": "30%",
-                "2": "36%",
-                "3": "43%",
-                "4": "51%",
-                "5": "60%"
+                "0": "25",
+                "1": "30",
+                "2": "36",
+                "3": "43",
+                "4": "51",
+                "5": "60"
             },
             "2": {
-                "0": "10%",
-                "1": "12%",
-                "2": "14%",
-                "3": "17%",
-                "4": "21%",
-                "5": "25%"
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
             }
         },
         "thumbnail": "heroes/Loman/uw.png",
@@ -158,7 +158,7 @@
     "uts": {
         "1": {
             "name": "Basic Combat Techniques of Orvelian Knights",
-            "description": "[Cut Ground] For 10 sec, reduces the target's P.Block by 500 and CC Resist by (0).",
+            "description": "[Cut Ground] For 10 sec, reduces the target's P.Block by 500 and CC Resist by {0}.",
             "value": {
                 "0": {
                     "0": "100",
@@ -174,7 +174,7 @@
         },
         "2": {
             "name": "Wooden Doll Miniature",
-            "description": "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by (0).",
+            "description": "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by {0}.",
             "value": {
                 "0": {
                     "0": "400",
@@ -190,15 +190,15 @@
         },
         "3": {
             "name": "Sea of Invocation",
-            "description": "[Knight's Creed] Reduces Cooldown by 30%, and increases P.Weakness of the target by (0) for 10 sec.",
+            "description": "[Knight's Creed] Reduces Cooldown by 30%, and increases P.Weakness of the target by {0}% for 10 sec.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Loman/ut/3.png",
@@ -206,7 +206,7 @@
         },
         "4": {
             "name": "Father's Shield",
-            "description": "[The Last Gatekeeper] Increases own M.Block by (0). Upon block, the number of Endurance Stacks increases by 1.",
+            "description": "[The Last Gatekeeper] Increases own M.Block by {0}. Upon block, the number of Endurance Stacks increases by 1.",
             "value": {
                 "0": {
                     "0": "200",

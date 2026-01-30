@@ -125,15 +125,15 @@
     },
     "uw": {
         "name": "Cursed Claws, Baroro",
-        "description": "Upon Crittical Hit, increases P.DMG the target takes by (0) for 10 sec and reduce CC Resist by (1). If the target is a Boss, Naila deals (2) increased DMG. The DMG Boost effect against Bosses can be stacked up to max 10 times.",
+        "description": "Upon Crittical Hit, increases P.DMG the target takes by {0}% for 10 sec and reduce CC Resist by {1}. If the target is a Boss, Naila deals {2}% increased DMG. The DMG Boost effect against Bosses can be stacked up to max 10 times.",
         "value": {
             "0": {
-                "0": "20%",
-                "1": "24%",
-                "2": "29%",
-                "3": "35%",
-                "4": "42%",
-                "5": "50%"
+                "0": "20",
+                "1": "24",
+                "2": "29",
+                "3": "35",
+                "4": "42",
+                "5": "50"
             },
             "1": {
                 "0": "200",
@@ -144,12 +144,12 @@
                 "5": "500."
             },
             "2": {
-                "0": "2%",
-                "1": "2.4%",
-                "2": "2.9%",
-                "3": "3.5%",
-                "4": "4.2%",
-                "5": "5%"
+                "0": "2",
+                "1": "2.4",
+                "2": "2.9",
+                "3": "3.5",
+                "4": "4.2",
+                "5": "5"
             }
         },
         "thumbnail": "heroes/Naila/uw.png",
@@ -158,7 +158,7 @@
     "uts": {
         "1": {
             "name": "Soul of Gust",
-            "description": "[Fierce Winds] Increases DMG by 50%, and reduces Mana by (0) upon Critical Hit.",
+            "description": "[Fierce Winds] Increases DMG by 50%, and reduces Mana by {0} upon Critical Hit.",
             "value": {
                 "0": {
                     "0": "200",
@@ -174,15 +174,15 @@
         },
         "2": {
             "name": "Himmullis's Scarf",
-            "description": "[Wind Reading] All effects become irremovable and upon activation, recovers own HP equal to (0) of Max HP.",
+            "description": "[Wind Reading] All effects become irremovable and upon activation, recovers own HP equal to {0}% of Max HP.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Naila/ut/2.png",
@@ -190,15 +190,15 @@
         },
         "3": {
             "name": "Tempest Pride",
-            "description": "[Dive Bomb] Reduces Mana cost by 1 and increases DMG by (0).",
+            "description": "[Dive Bomb] Reduces Mana cost by 1 and increases DMG by {0}%.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Naila/ut/3.png",
@@ -206,15 +206,15 @@
         },
         "4": {
             "name": "Green Ribbon",
-            "description": "[Tornado Strike] Increases chance of dealing additional DMG by 10% and upon activation during Guild War, deals additional P.DMG equal to (0) of target's max HP.",
+            "description": "[Tornado Strike] Increases chance of dealing additional DMG by 10% and upon activation during Guild War, deals additional P.DMG equal to {0}% of target's max HP.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Naila/ut/4.png",

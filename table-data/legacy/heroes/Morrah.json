@@ -125,23 +125,23 @@
     },
     "uw": {
         "name": "Flame of Victory, Carprain",
-        "description": "Normal attacks have a 20% chance to reduce ATK of the target by (0) and cause the target to take (1) increased M.DMG for 10 sec. If the target has more than 100 stacks of Flame, M.DMG boost is doubled.",
+        "description": "Normal attacks have a 20% chance to reduce ATK of the target by {0}% and cause the target to take {1}% increased M.DMG for 10 sec. If the target has more than 100 stacks of Flame, M.DMG boost is doubled.",
         "value": {
             "0": {
-                "0": "10%",
-                "1": "12%",
-                "2": "14%",
-                "3": "17%",
-                "4": "21%",
-                "5": "25%"
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
             },
             "1": {
-                "0": "10%",
-                "1": "12%",
-                "2": "14%",
-                "3": "17%",
-                "4": "21%",
-                "5": "25%"
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
             }
         },
         "thumbnail": "heroes/Morrah/uw.png",
@@ -150,15 +150,15 @@
     "uts": {
         "1": {
             "name": "Hell's Eye",
-            "description": "[Burning Power] Increases DMG by (0) and Flame stacked upon enemies become irremovable.",
+            "description": "[Burning Power] Increases DMG by {0}% and Flame stacked upon enemies become irremovable.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Morrah/ut/1.png",
@@ -166,7 +166,7 @@
         },
         "2": {
             "name": "Hatchling Leather Gloves",
-            "description": "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by (0) and M.Crit resistance is increased by 250.",
+            "description": "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by {0} and M.Crit resistance is increased by 250.",
             "value": {
                 "0": {
                     "0": "100",
@@ -182,15 +182,15 @@
         },
         "3": {
             "name": "Hellish Sealing Stone",
-            "description": "[Lava Eruption] DMG is increased by (0) and target's M.DEF is decreased by 25% for 7 sec.",
+            "description": "[Lava Eruption] DMG is increased by {0}% and target's M.DEF is decreased by 25% for 7 sec.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Morrah/ut/3.png",
@@ -198,7 +198,7 @@
         },
         "4": {
             "name": "Jewel of Inferno",
-            "description": "[Fire Smash] Increases the number of Flame stacks by 3. Hit targets have their ATK Spd reduced by (0) for 5 sec.",
+            "description": "[Fire Smash] Increases the number of Flame stacks by 3. Hit targets have their ATK Spd reduced by {0} for 5 sec.",
             "value": {
                 "0": {
                     "0": "140",

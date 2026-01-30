@@ -125,7 +125,7 @@
     },
     "uw": {
         "name": "Green Winds, Notos",
-        "description": "Upon a Crit Hit, ATK Spd is increased by (0) for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra (1) P.DMG.",
+        "description": "Upon a Crit Hit, ATK Spd is increased by {0} for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra {1}% P.DMG.",
         "value": {
             "0": {
                 "0": "200",
@@ -136,12 +136,12 @@
                 "5": "500"
             },
             "1": {
-                "0": "100%",
-                "1": "120%",
-                "2": "140%",
-                "3": "170%",
-                "4": "210%",
-                "5": "250%"
+                "0": "100",
+                "1": "120",
+                "2": "140",
+                "3": "170",
+                "4": "210",
+                "5": "250"
             }
         },
         "thumbnail": "heroes/Selene/uw.png",
@@ -150,7 +150,7 @@
     "uts": {
         "1": {
             "name": "Sharpshooter's Gloves",
-            "description": "[Arrow Rain] Reduces Mana Cost by 1 and Cooldown by (0) sec.",
+            "description": "[Arrow Rain] Reduces Mana Cost by 1 and Cooldown by {0} sec.",
             "value": {
                 "0": {
                     "0": "1",
@@ -166,15 +166,15 @@
         },
         "2": {
             "name": "Wind Spirit Seal Stone",
-            "description": "[Rush] Increases DMG by (0) and has a 15% chance to summon 1 Rush Arrow upon a normal attack.",
+            "description": "[Rush] Increases DMG by {0}% and has a 15% chance to summon 1 Rush Arrow upon a normal attack.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Selene/ut/2.png",
@@ -182,15 +182,15 @@
         },
         "3": {
             "name": "Silver Arrow",
-            "description": "[Moonlight Flash] DMG is increased by (0) and target takes 20% additional P.DMG for 10 sec.",
+            "description": "[Moonlight Flash] DMG is increased by {0}% and target takes 20% additional P.DMG for 10 sec.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Selene/ut/3.png",
@@ -198,15 +198,15 @@
         },
         "4": {
             "name": "Circlet of Wind",
-            "description": "[Moonlight Arrow] Increases ATK Spd by 100 and each stack increases DMG to Non-Hero enemies by (0).",
+            "description": "[Moonlight Arrow] Increases ATK Spd by 100 and each stack increases DMG to Non-Hero enemies by {0}%.",
             "value": {
                 "0": {
-                    "0": "2%",
-                    "1": "2.4%",
-                    "2": "2.9%",
-                    "3": "3.5%",
-                    "4": "4.2%",
-                    "5": "5%"
+                    "0": "2",
+                    "1": "2.4",
+                    "2": "2.9",
+                    "3": "3.5",
+                    "4": "4.2",
+                    "5": "5"
                 }
             },
             "thumbnail": "heroes/Selene/ut/4.png",

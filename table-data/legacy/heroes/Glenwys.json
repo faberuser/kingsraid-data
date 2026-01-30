@@ -125,23 +125,23 @@
     },
     "uw": {
         "name": "The Counterattack, Maxithea",
-        "description": "Whenever a Skill is cast, increases ATK of all allies by (0) and Crit DMG by (1). This effect stacks up to 4 times, and all effects are doubled at max stack. This effect cannot be dispelled.",
+        "description": "Whenever a Skill is cast, increases ATK of all allies by {0}% and Crit DMG by {1}%. This effect stacks up to 4 times, and all effects are doubled at max stack. This effect cannot be dispelled.",
         "value": {
             "0": {
-                "0": "1%",
-                "1": "1.2%",
-                "2": "1.4%",
-                "3": "1.7%",
-                "4": "2%",
-                "5": "2.5%"
+                "0": "1",
+                "1": "1.2",
+                "2": "1.4",
+                "3": "1.7",
+                "4": "2",
+                "5": "2.5"
             },
             "1": {
-                "0": "2%",
-                "1": "2.4%",
-                "2": "2.9%",
-                "3": "3.5%",
-                "4": "4.2%",
-                "5": "5%"
+                "0": "2",
+                "1": "2.4",
+                "2": "2.9",
+                "3": "3.5",
+                "4": "4.2",
+                "5": "5"
             }
         },
         "thumbnail": "heroes/Glenwys/uw.png",
@@ -150,15 +150,15 @@
     "uts": {
         "1": {
             "name": "Alpha Leader Badge",
-            "description": "[That Is it] Increases DMG by 50% and reduces Cooldown by (0) on upon a Critical Hit.",
+            "description": "[That Is it] Increases DMG by 50% and reduces Cooldown by {0}% on upon a Critical Hit.",
             "value": {
                 "0": {
-                    "0": "1%",
-                    "1": "1.2%",
-                    "2": "1.4%",
-                    "3": "1.7%",
-                    "4": "2.1%",
-                    "5": "2.5%"
+                    "0": "1",
+                    "1": "1.2",
+                    "2": "1.4",
+                    "3": "1.7",
+                    "4": "2.1",
+                    "5": "2.5"
                 }
             },
             "thumbnail": "heroes/Glenwys/ut/1.png",
@@ -166,15 +166,15 @@
         },
         "2": {
             "name": "Praise of Dandelion",
-            "description": "[I Will Not Stay My Hand] Reduces Cooldown by 4.5 sec and enemy Heal Rate by (0).",
+            "description": "[I Will Not Stay My Hand] Reduces Cooldown by 4.5 sec and enemy Heal Rate by {0}%.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Glenwys/ut/2.png",
@@ -182,15 +182,15 @@
         },
         "3": {
             "name": "Ballas Ruby",
-            "description": "[Time for Counterattack] Increases the amount of ATK and DEF Boost by 50% and causes the hit target to take (0) increased P.DMG for 10 sec.",
+            "description": "[Time for Counterattack] Increases the amount of ATK and DEF Boost by 50% and causes the hit target to take {0}% increased P.DMG for 10 sec.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Glenwys/ut/3.png",
@@ -198,23 +198,23 @@
         },
         "4": {
             "name": "Golden Glory",
-            "description": "[Pride of Imperial Knights] Increases ATK Boost by 50%. At the beginning of each battle, increases Crit DMG of self and an ally with the highest ATK besides self by (0) for 20 sec, and increases DMG to Non-Hero enemies by (1).",
+            "description": "[Pride of Imperial Knights] Increases ATK Boost by 50%. At the beginning of each battle, increases Crit DMG of self and an ally with the highest ATK besides self by {0}% for 20 sec, and increases DMG to Non-Hero enemies by {1}%.",
             "value": {
                 "0": {
-                    "0": "30%",
-                    "1": "36%",
-                    "2": "42%",
-                    "3": "50%",
-                    "4": "63%",
-                    "5": "75%"
+                    "0": "30",
+                    "1": "36",
+                    "2": "42",
+                    "3": "50",
+                    "4": "63",
+                    "5": "75"
                 },
                 "1": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Glenwys/ut/4.png",

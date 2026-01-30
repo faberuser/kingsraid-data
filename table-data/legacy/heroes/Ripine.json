@@ -128,7 +128,7 @@
     },
     "uw": {
         "name": "Silver Lunar Wing, Clarapheon",
-        "description": "Increases Crit Chance by (0), and at the beginning of each battle, increases DMG dealt to enemies by (1) and DMG dealt to bosses by (2) for 120 sec. This effect is irremovable.",
+        "description": "Increases Crit Chance by {0}, and at the beginning of each battle, increases DMG dealt to enemies by {1}% and DMG dealt to bosses by {2}% for 120 sec. This effect is irremovable.",
         "value": {
             "0": {
                 "0": "200",
@@ -139,20 +139,20 @@
                 "5": "500"
             },
             "1": {
-                "0": "6%",
-                "1": "7%",
-                "2": "8%",
-                "3": "10%",
-                "4": "12%",
-                "5": "15%"
+                "0": "6",
+                "1": "7",
+                "2": "8",
+                "3": "10",
+                "4": "12",
+                "5": "15"
             },
             "2": {
-                "0": "6%",
-                "1": "7%",
-                "2": "8%",
-                "3": "10%",
-                "4": "12%",
-                "5": "15%"
+                "0": "6",
+                "1": "7",
+                "2": "8",
+                "3": "10",
+                "4": "12",
+                "5": "15"
             }
         },
         "thumbnail": "heroes/Ripine/uw.png",
@@ -161,15 +161,15 @@
     "uts": {
         "1": {
             "name": "Silver Moon Gust",
-            "description": "[Silver Moon Gust] Increases the duration of Stun by 2 sec and M.DMG the target takes by (0) for 10 sec.",
+            "description": "[Silver Moon Gust] Increases the duration of Stun by 2 sec and M.DMG the target takes by {0}% for 10 sec.",
             "value": {
                 "0": {
-                    "0": "12%",
-                    "1": "14%",
-                    "2": "17%",
-                    "3": "21%",
-                    "4": "25%",
-                    "5": "30%"
+                    "0": "12",
+                    "1": "14",
+                    "2": "17",
+                    "3": "21",
+                    "4": "25",
+                    "5": "30"
                 }
             },
             "thumbnail": "heroes/Ripine/ut/1.png",
@@ -177,7 +177,7 @@
         },
         "2": {
             "name": "Silver Moon Mark",
-            "description": "Dispels positive effects from the target and reduces M.Crit Resistance by (0) for 10 sec.",
+            "description": "Dispels positive effects from the target and reduces M.Crit Resistance by {0} for 10 sec.",
             "value": {
                 "0": {
                     "0": "200",
@@ -193,15 +193,15 @@
         },
         "3": {
             "name": "Silver Moon Bladestorm",
-            "description": "[Silver Moon Bladestorm] When there is 1 enemy, reduces Cooldown by 7 sec and increases DMG by (0).",
+            "description": "[Silver Moon Bladestorm] When there is 1 enemy, reduces Cooldown by 7 sec and increases DMG by {0}%.",
             "value": {
                 "0": {
-                    "0": "40%",
-                    "1": "48%",
-                    "2": "58%",
-                    "3": "70%",
-                    "4": "84%",
-                    "5": "100%"
+                    "0": "40",
+                    "1": "48",
+                    "2": "58",
+                    "3": "70",
+                    "4": "84",
+                    "5": "100"
                 }
             },
             "thumbnail": "heroes/Ripine/ut/3.png",
@@ -209,7 +209,7 @@
         },
         "4": {
             "name": "Ripine: Reminiscent Meal",
-            "description": "[Otherworldly Mana] Increases ATK Spd by 300, and at the beginning of each battle, inflicts (0) stack of [Otherwordly Curse] to all enemies.",
+            "description": "[Otherworldly Mana] Increases ATK Spd by 300, and at the beginning of each battle, inflicts {0} stack of [Otherwordly Curse] to all enemies.",
             "value": {
                 "0": {
                     "0": "8",

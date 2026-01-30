@@ -125,23 +125,23 @@
     },
     "uw": {
         "name": "Dragon's Ruins, Atein",
-        "description": "Upon receiving DMG, increases All DEF of all allies except self by (0) for 3 sec and stacks 1 Dragon Rage upon self. Per each stacked Dragon Rage, ATK and DEF are increased by (1). Can be stacked up to 100 times max.",
+        "description": "Upon receiving DMG, increases All DEF of all allies except self by {0}% for 3 sec and stacks 1 Dragon Rage upon self. Per each stacked Dragon Rage, ATK and DEF are increased by {1}%. Can be stacked up to 100 times max.",
         "value": {
             "0": {
-                "0": "10%",
-                "1": "12%",
-                "2": "14%",
-                "3": "17%",
-                "4": "21%",
-                "5": "25%"
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
             },
             "1": {
-                "0": "0.8%",
-                "1": "1%",
-                "2": "1.2%",
-                "3": "1.4%",
-                "4": "1.7%",
-                "5": "2%"
+                "0": "0.8",
+                "1": "1",
+                "2": "1.2",
+                "3": "1.4",
+                "4": "1.7",
+                "5": "2"
             }
         },
         "thumbnail": "heroes/Phillop/uw.png",
@@ -150,7 +150,7 @@
     "uts": {
         "1": {
             "name": "Mad Dragon Shield Decoration",
-            "description": "[Collision] Reduces the target's CC Resist by 250 and P.Block chance by (0) for 10 sec.",
+            "description": "[Collision] Reduces the target's CC Resist by 250 and P.Block chance by {0} for 10 sec.",
             "value": {
                 "0": {
                     "0": "200",
@@ -166,7 +166,7 @@
         },
         "2": {
             "name": "Dwarfish Capricorn Helmet",
-            "description": "[Headbutt] Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by (0) for 10 sec.",
+            "description": "[Headbutt] Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by {0} for 10 sec.",
             "value": {
                 "0": {
                     "0": "200",
@@ -182,15 +182,15 @@
         },
         "3": {
             "name": "Dwarven Ceremonial Hammer",
-            "description": "[Earth Incarnate] For the duration of the skill, ATK Spd and Crit Chance is increased by 250, and DEF boost is increased by (0).",
+            "description": "[Earth Incarnate] For the duration of the skill, ATK Spd and Crit Chance is increased by 250, and DEF boost is increased by {0}%.",
             "value": {
                 "0": {
                     "0": "20$",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Phillop/ut/3.png",
@@ -198,15 +198,15 @@
         },
         "4": {
             "name": "Hammer of Titan",
-            "description": "[Destroy Armor] Upon attack, reduces the target's ATK by 20% and each stack reduces its Heal Rate by (0).",
+            "description": "[Destroy Armor] Upon attack, reduces the target's ATK by 20% and each stack reduces its Heal Rate by {0}%.",
             "value": {
                 "0": {
-                    "0": "%",
-                    "1": "4.8%",
-                    "2": "5.8%",
-                    "3": "7%",
-                    "4": "8.4%",
-                    "5": "10%"
+                    "0": "",
+                    "1": "4.8",
+                    "2": "5.8",
+                    "3": "7",
+                    "4": "8.4",
+                    "5": "10"
                 }
             },
             "thumbnail": "heroes/Phillop/ut/4.png",

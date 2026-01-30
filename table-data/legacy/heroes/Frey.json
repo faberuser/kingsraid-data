@@ -125,23 +125,23 @@
     },
     "uw": {
         "name": "God's Authority, Rosmerta",
-        "description": "Every 8 sec, heals 4 allies with the lowest HP by (0) of own ATK, and increases Crit Chance by 300 and Crit DMG by (1) for the ally with the highest ATK for 8 sec.",
+        "description": "Every 8 sec, heals 4 allies with the lowest HP by {0}% of own ATK, and increases Crit Chance by 300 and Crit DMG by {1}% for the ally with the highest ATK for 8 sec.",
         "value": {
             "0": {
-                "0": "80%",
-                "1": "96%",
-                "2": "115%",
-                "3": "138%",
-                "4": "165%",
-                "5": "200%"
+                "0": "80",
+                "1": "96",
+                "2": "115",
+                "3": "138",
+                "4": "165",
+                "5": "200"
             },
             "1": {
-                "0": "20%",
-                "1": "24%",
-                "2": "29%",
-                "3": "35%",
-                "4": "42%",
-                "5": "50%"
+                "0": "20",
+                "1": "24",
+                "2": "29",
+                "3": "35",
+                "4": "42",
+                "5": "50"
             }
         },
         "thumbnail": "heroes/Frey/uw.png",
@@ -150,7 +150,7 @@
     "uts": {
         "1": {
             "name": "Angel's Egg",
-            "description": "[Miraculous Light] Increases Heal Rate by 50% and target becomes Immune to DMG for (0) sec.",
+            "description": "[Miraculous Light] Increases Heal Rate by 50% and target becomes Immune to DMG for {0} sec.",
             "value": {
                 "0": {
                     "0": "1",
@@ -166,7 +166,7 @@
         },
         "2": {
             "name": "Miraculous Medal",
-            "description": "[Blessings of Light] Increases shield amount by 50% and recovers (0) Mana every second for 4 sec.",
+            "description": "[Blessings of Light] Increases shield amount by 50% and recovers {0} Mana every second for 4 sec.",
             "value": {
                 "0": {
                     "0": "100",
@@ -182,7 +182,7 @@
         },
         "3": {
             "name": "Forgotten Arbiter's Feather",
-            "description": "[Heaven's Vengeance] Target takes 20% increased M.DMG for 10 sec, and Blind duration is increased by (0) sec.",
+            "description": "[Heaven's Vengeance] Target takes 20% increased M.DMG for 10 sec, and Blind duration is increased by {0} sec.",
             "value": {
                 "0": {
                     "0": "1",
@@ -198,15 +198,15 @@
         },
         "4": {
             "name": "Angelic Advent",
-            "description": "[Goddess Grace] Upon activation, dispels all negative effects from the target and increases the target's Heal Rate by (0) for the duration of skill.",
+            "description": "[Goddess Grace] Upon activation, dispels all negative effects from the target and increases the target's Heal Rate by {0}% for the duration of skill.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Frey/ut/4.png",

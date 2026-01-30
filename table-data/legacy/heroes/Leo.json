@@ -125,15 +125,15 @@
     },
     "uw": {
         "name": "Belisa, Phoenix Quill",
-        "description": "At the beginning of each battle, increases P.DEF and M.DEF by (0) ATK Spd by (1) for 15 sec, and adds an additional effect to the first skill used.\n[Rune of Healing] - Dispels CC inflicted on caster before the skill is cast.\n[Rune of Silence] - Increases Silence duration by 1 sec.",
+        "description": "At the beginning of each battle, increases P.DEF and M.DEF by {0}% ATK Spd by {1} for 15 sec, and adds an additional effect to the first skill used.\n[Rune of Healing] - Dispels CC inflicted on caster before the skill is cast.\n[Rune of Silence] - Increases Silence duration by 1 sec.",
         "value": {
             "0": {
-                "0": "20%",
-                "1": "24%",
-                "2": "29%",
-                "3": "35%",
-                "4": "42%",
-                "5": "50%"
+                "0": "20",
+                "1": "24",
+                "2": "29",
+                "3": "35",
+                "4": "42",
+                "5": "50"
             },
             "1": {
                 "0": "200",
@@ -150,15 +150,15 @@
     "uts": {
         "1": {
             "name": "Ancient Letter Encyclopedia - First Volume",
-            "description": "[Rune of Frailty] Becomes irremovable and increases DMG by (0).",
+            "description": "[Rune of Frailty] Becomes irremovable and increases DMG by {0}%.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Leo/ut/1.png",
@@ -166,7 +166,7 @@
         },
         "2": {
             "name": "Ink of Vitality",
-            "description": "[Rune of Healing] Increases Heal Rate by 50% and P.Crit Resistance of allies by (0) for 10 sec.",
+            "description": "[Rune of Healing] Increases Heal Rate by 50% and P.Crit Resistance of allies by {0} for 10 sec.",
             "value": {
                 "0": {
                     "0": "100",
@@ -182,7 +182,7 @@
         },
         "3": {
             "name": "Scroll of Memories",
-            "description": "[Rune of Silence] Target takes 15% increased DMG for 10 sec, and target's CC resistance is reduced by (0).",
+            "description": "[Rune of Silence] Target takes 15% increased DMG for 10 sec, and target's CC resistance is reduced by {0}.",
             "value": {
                 "0": {
                     "0": "100",
@@ -198,7 +198,7 @@
         },
         "4": {
             "name": "Golden Magnifier",
-            "description": "[Rune of Protection] Increases the number of targets by 1. Targets have their ATK Spd increased by (0) for the duration of skill.",
+            "description": "[Rune of Protection] Increases the number of targets by 1. Targets have their ATK Spd increased by {0} for the duration of skill.",
             "value": {
                 "0": {
                     "0": "200",

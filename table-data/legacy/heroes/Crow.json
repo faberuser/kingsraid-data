@@ -125,23 +125,23 @@
     },
     "uw": {
         "name": "Hellhound, Akistra",
-        "description": "The normal attack shoots an additional bullet that deals (0) of ATK as P.DMG. When the skill ends, 'Hellhound, Akistra' is activated, increasing ATK and Crit DMG by (1) for 20 sec. 'Hellhound, Akistra' is only activated once at 20 sec.",
+        "description": "The normal attack shoots an additional bullet that deals {0}% of ATK as P.DMG. When the skill ends, 'Hellhound, Akistra' is activated, increasing ATK and Crit DMG by {1}% for 20 sec. 'Hellhound, Akistra' is only activated once at 20 sec.",
         "value": {
             "0": {
-                "0": "50%",
-                "1": "60%",
-                "2": "70%",
-                "3": "85%",
-                "4": "100%",
-                "5": "125%"
+                "0": "50",
+                "1": "60",
+                "2": "70",
+                "3": "85",
+                "4": "100",
+                "5": "125"
             },
             "1": {
-                "0": "30%",
-                "1": "36%",
-                "2": "43%",
-                "3": "52%",
-                "4": "62%",
-                "5": "75%"
+                "0": "30",
+                "1": "36",
+                "2": "43",
+                "3": "52",
+                "4": "62",
+                "5": "75"
             }
         },
         "thumbnail": "heroes/Crow/uw.png",
@@ -150,7 +150,7 @@
     "uts": {
         "1": {
             "name": "Teeth-mark Bullet",
-            "description": "[Target will be Eliminated.] Reduces Cooldown by 3 sec, and upon every hit, reduces the target's Mana by (0).",
+            "description": "[Target will be Eliminated.] Reduces Cooldown by 3 sec, and upon every hit, reduces the target's Mana by {0}.",
             "value": {
                 "0": {
                     "0": "20",
@@ -166,15 +166,15 @@
         },
         "2": {
             "name": "Cold Barrage",
-            "description": "[Struggle is Meaningless] Reduces Mana Cost by 1 and has a (0) chance to freeze target for 3 sec upon every strike.",
+            "description": "[Struggle is Meaningless] Reduces Mana Cost by 1 and has a {0}% chance to freeze target for 3 sec upon every strike.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Crow/ut/2.png",
@@ -182,15 +182,15 @@
         },
         "3": {
             "name": "Pendant of Memories",
-            "description": "[Even Gods shall Die] Gains immunity to CC during skill activation and DMG is increased by (0).",
+            "description": "[Even Gods shall Die] Gains immunity to CC during skill activation and DMG is increased by {0}%.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Crow/ut/3.png",
@@ -198,15 +198,15 @@
         },
         "4": {
             "name": "Carousel Music Box",
-            "description": "[Hunting Preparation] Increases ATK boost by (0). Hunting Dog's Fang Mark becomes irremovable.",
+            "description": "[Hunting Preparation] Increases ATK boost by {0}%. Hunting Dog's Fang Mark becomes irremovable.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Crow/ut/4.png",

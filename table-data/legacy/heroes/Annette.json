@@ -125,7 +125,7 @@
     },
     "uw": {
         "name": "Crystallized Technomagic, Rascal",
-        "description": "Gains 1 stack of Charge every (0) sec, and recovers Mana by 1%. Charge stacks can also be gained during [Overcharge] state. Additionally, increases all allies' DMG dealt to Bosses by (1) and reduces DMG all allies take by (2) for the duration of [Overcharge]. This effect is multiplied by 2 for the ally with the highest ATK.",
+        "description": "Gains 1 stack of Charge every {0} sec, and recovers Mana by 1%. Charge stacks can also be gained during [Overcharge] state. Additionally, increases all allies' DMG dealt to Bosses by {1}% and reduces DMG all allies take by {2}% for the duration of [Overcharge]. This effect is multiplied by 2 for the ally with the highest ATK.",
         "value": {
             "0": {
                 "0": "1.5",
@@ -136,20 +136,20 @@
                 "5": "0.7"
             },
             "1": {
-                "0": "2%",
-                "1": "2.4%",
-                "2": "2.9%",
-                "3": "3.5%",
-                "4": "4.2%",
-                "5": "5%"
+                "0": "2",
+                "1": "2.4",
+                "2": "2.9",
+                "3": "3.5",
+                "4": "4.2",
+                "5": "5"
             },
             "2": {
-                "0": "2%",
-                "1": "2.4%",
-                "2": "2.9%",
-                "3": "3.5%",
-                "4": "4.2%",
-                "5": "5%"
+                "0": "2",
+                "1": "2.4",
+                "2": "2.9",
+                "3": "3.5",
+                "4": "4.2",
+                "5": "5"
             }
         },
         "thumbnail": "heroes/Annette/uw.png",
@@ -158,7 +158,7 @@
     "uts": {
         "1": {
             "name": "Triplex Condensing Lens",
-            "description": "[Ray of Annihilation] For 10 sec, reduces the target's Crit Chance by 250 and the target's Mana by (0).",
+            "description": "[Ray of Annihilation] For 10 sec, reduces the target's Crit Chance by 250 and the target's Mana by {0}.",
             "value": {
                 "0": {
                     "0": "400",
@@ -174,15 +174,15 @@
         },
         "2": {
             "name": "Script of Healing",
-            "description": "[Emergency Treatment] Reduces Mana Cost by 1 and increases heal rate by (0),",
+            "description": "[Emergency Treatment] Reduces Mana Cost by 1 and increases heal rate by {0}%,",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Annette/ut/2.png",
@@ -190,15 +190,15 @@
         },
         "3": {
             "name": "Code of Annihilation",
-            "description": "[Process of Elimination] DMG is increased by (0) and upon ATK, gains 2 stack of Charge. This stack can be gained while in Overcharge state.",
+            "description": "[Process of Elimination] DMG is increased by {0}% and upon ATK, gains 2 stack of Charge. This stack can be gained while in Overcharge state.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Annette/ut/3.png",
@@ -206,7 +206,7 @@
         },
         "4": {
             "name": "High Performance Battery",
-            "description": "[Charge] Gains (0) stacks of Charge at the beginning of every battle. While in Overcharge, Normal attacks increase Cooldown Reduction by 5%.",
+            "description": "[Charge] Gains {0} stacks of Charge at the beginning of every battle. While in Overcharge, Normal attacks increase Cooldown Reduction by 5%.",
             "value": {
                 "0": {
                     "0": "30",

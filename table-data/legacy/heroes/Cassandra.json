@@ -125,23 +125,23 @@
     },
     "uw": {
         "name": "Aurelian Whisper, Goldbreeze",
-        "description": "Skill hits increase the M.DMG that the target takes by (0) for 10 sec. Every 8 sec, heals the ally with the lowest HP by (1) of own ATK and dispels all negative effects from the ally.",
+        "description": "Skill hits increase the M.DMG that the target takes by {0}% for 10 sec. Every 8 sec, heals the ally with the lowest HP by {1}% of own ATK and dispels all negative effects from the ally.",
         "value": {
             "0": {
-                "0": "10%",
-                "1": "12%",
-                "2": "14%",
-                "3": "17%",
-                "4": "21%",
-                "5": "25%"
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
             },
             "1": {
-                "0": "200%",
-                "1": "240%",
-                "2": "290%",
-                "3": "350%",
-                "4": "420%",
-                "5": "500%"
+                "0": "200",
+                "1": "240",
+                "2": "290",
+                "3": "350",
+                "4": "420",
+                "5": "500"
             }
         },
         "thumbnail": "heroes/Cassandra/uw.png",
@@ -150,7 +150,7 @@
     "uts": {
         "1": {
             "name": "Feather Decoration of Crimson Bird",
-            "description": "[Softly~] Increases Heal Rate by 50% and the duration of Silence by (0) sec.",
+            "description": "[Softly~] Increases Heal Rate by 50% and the duration of Silence by {0} sec.",
             "value": {
                 "0": {
                     "0": "0.8",
@@ -166,15 +166,15 @@
         },
         "2": {
             "name": "Fancy Ornament",
-            "description": "[Fiercely!] Increases duration by 5 sec and additionally increases Crit DMG by (0).",
+            "description": "[Fiercely!] Increases duration by 5 sec and additionally increases Crit DMG by {0}%.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Cassandra/ut/2.png",
@@ -182,7 +182,7 @@
         },
         "3": {
             "name": "Golden Fragrance",
-            "description": "[Tempting Wave] Skill cooldown is reduced by 30% and Charm duration is increased by (0) sec.",
+            "description": "[Tempting Wave] Skill cooldown is reduced by 30% and Charm duration is increased by {0} sec.",
             "value": {
                 "0": {
                     "0": "1",
@@ -198,7 +198,7 @@
         },
         "4": {
             "name": "Reed Diffuser of Seduction",
-            "description": "[Gentle Touch] DEF boost becomes irremovable. All allies have their All Crit Resistance increased by (0) for 10 sec.",
+            "description": "[Gentle Touch] DEF boost becomes irremovable. All allies have their All Crit Resistance increased by {0} for 10 sec.",
             "value": {
                 "0": {
                     "0": "100",

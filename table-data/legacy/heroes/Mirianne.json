@@ -125,7 +125,7 @@
     },
     "uw": {
         "name": "Endless Acceleration, Riventina",
-        "description": "Increases ATK Spd by (0) and attacks on Locked On enemies, dealing (1) of ATK as extra M.DMG. Extra damage effect occurs once in 2 sec.",
+        "description": "Increases ATK Spd by {0} and attacks on Locked On enemies, dealing {1}% of ATK as extra M.DMG. Extra damage effect occurs once in 2 sec.",
         "value": {
             "0": {
                 "0": "200",
@@ -136,12 +136,12 @@
                 "5": "500"
             },
             "1": {
-                "0": "200%",
-                "1": "240%",
-                "2": "290%",
-                "3": "350%",
-                "4": "420%",
-                "5": "500%"
+                "0": "200",
+                "1": "240",
+                "2": "290",
+                "3": "350",
+                "4": "420",
+                "5": "500"
             }
         },
         "thumbnail": "heroes/Mirianne/uw.png",
@@ -150,15 +150,15 @@
     "uts": {
         "1": {
             "name": "Proof of Endeavor",
-            "description": "[Target Lock On] Increases DMG by (0) and reduces the target's M.Crit Resistance by 500 for 10 sec.",
+            "description": "[Target Lock On] Increases DMG by {0}% and reduces the target's M.Crit Resistance by 500 for 10 sec.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Mirianne/ut/1.png",
@@ -166,7 +166,7 @@
         },
         "2": {
             "name": "Gemini Ring of Instant Teleportation",
-            "description": "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers (0) Mana.",
+            "description": "[Restrain and Protect] Reduces Mana Cost by 1 and upon Crit hit recovers {0} Mana.",
             "value": {
                 "0": {
                     "0": "160",
@@ -182,15 +182,15 @@
         },
         "3": {
             "name": "Magic Powder of Lightning",
-            "description": "[Assassination] DMG is increased by 50% and upon Crit Hit increases own ATK by (0) for 10 sec.",
+            "description": "[Assassination] DMG is increased by 50% and upon Crit Hit increases own ATK by {0}% for 10 sec.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Mirianne/ut/3.png",
@@ -198,7 +198,7 @@
         },
         "4": {
             "name": "Birth of Miracle",
-            "description": "[Target Eliminated] Increases ATK boost by 50%. Every 5 sec, stuns enemies under Target Lock On for (0) sec.",
+            "description": "[Target Eliminated] Increases ATK boost by 50%. Every 5 sec, stuns enemies under Target Lock On for {0} sec.",
             "value": {
                 "0": {
                     "0": "1",

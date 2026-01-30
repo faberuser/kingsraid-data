@@ -125,7 +125,7 @@
     },
     "uw": {
         "name": "Adversary of the Goddess, Galicta",
-        "description": "Increases DEF Penetration by (0). Upon every Skill use, consumes 20% of own current HP but increases DMG dealt to enemies by (1) for 30 sec instead. The DMG Boost effect can be stacked up to max 5 times and is irremoveable.",
+        "description": "Increases DEF Penetration by {0}. Upon every Skill use, consumes 20% of own current HP but increases DMG dealt to enemies by {1}% for 30 sec instead. The DMG Boost effect can be stacked up to max 5 times and is irremoveable.",
         "value": {
             "0": {
                 "0": "200",
@@ -136,12 +136,12 @@
                 "5": "500"
             },
             "1": {
-                "0": "2%",
-                "1": "2.4%",
-                "2": "2.9%",
-                "3": "3.5%",
-                "4": "4.2%",
-                "5": "5%"
+                "0": "2",
+                "1": "2.4",
+                "2": "2.9",
+                "3": "3.5",
+                "4": "4.2",
+                "5": "5"
             }
         },
         "thumbnail": "heroes/Rebel Clause/uw.png",
@@ -150,15 +150,15 @@
     "uts": {
         "1": {
             "name": "Cloak of Despair",
-            "description": "[Determined Strike] Reduces Mana Cost by 1 and increases additional P.DMG by (0) if the target is a boss.",
+            "description": "[Determined Strike] Reduces Mana Cost by 1 and increases additional P.DMG by {0}% if the target is a boss.",
             "value": {
                 "0": {
-                    "0": "40%",
-                    "1": "48%",
-                    "2": "58%",
-                    "3": "70%",
-                    "4": "84%",
-                    "5": "100%"
+                    "0": "40",
+                    "1": "48",
+                    "2": "58",
+                    "3": "70",
+                    "4": "84",
+                    "5": "100"
                 }
             },
             "thumbnail": "heroes/Rebel Clause/ut/1.png",
@@ -166,15 +166,15 @@
         },
         "2": {
             "name": "Irreversible Hatred",
-            "description": "[Indomitable Will] Increases the duration of [Indomitable Will] by 5 sec, and increases ATK by (0) for the duration of Skill.",
+            "description": "[Indomitable Will] Increases the duration of [Indomitable Will] by 5 sec, and increases ATK by {0}% for the duration of Skill.",
             "value": {
                 "0": {
-                    "0": "12%",
-                    "1": "14%",
-                    "2": "17%",
-                    "3": "21%",
-                    "4": "25%",
-                    "5": "30%"
+                    "0": "12",
+                    "1": "14",
+                    "2": "17",
+                    "3": "21",
+                    "4": "25",
+                    "5": "30"
                 }
             },
             "thumbnail": "heroes/Rebel Clause/ut/2.png",
@@ -182,7 +182,7 @@
         },
         "3": {
             "name": "Old Mittens",
-            "description": "[Perish] Reduces Cooldown by (0) sec, and each hit inflicts Stun on the target for 1 sec.",
+            "description": "[Perish] Reduces Cooldown by {0} sec, and each hit inflicts Stun on the target for 1 sec.",
             "value": {
                 "0": {
                     "0": "2",
@@ -198,7 +198,7 @@
         },
         "4": {
             "name": "Everlasting Protection",
-            "description": "[Power of Galicta] Increases CC Resist by (0), and reduces the targets DEF Penetration by 200 for the duration of [Curse of Galicta].",
+            "description": "[Power of Galicta] Increases CC Resist by {0}, and reduces the targets DEF Penetration by 200 for the duration of [Curse of Galicta].",
             "value": {
                 "0": {
                     "0": "300",

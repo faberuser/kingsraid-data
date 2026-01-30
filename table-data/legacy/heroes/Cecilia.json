@@ -146,7 +146,7 @@
     },
     "uw": {
         "name": "Supersonic Tempest, Giganrix",
-        "description": "Increases ATK Spd by (0). Normal and Skill attacks grant a stack of Explosion on self and have a 3% chance of stunning the target for 4 sec. Upon gaining 100 Explosion stacks, Gigantrix explodes, increasing ATK Spd and All Dodge Chance by (1). This effect is irremovable.",
+        "description": "Increases ATK Spd by {0}. Normal and Skill attacks grant a stack of Explosion on self and have a 3% chance of stunning the target for 4 sec. Upon gaining 100 Explosion stacks, Gigantrix explodes, increasing ATK Spd and All Dodge Chance by {1}. This effect is irremovable.",
         "value": {
             "0": {
                 "0": "100",
@@ -171,15 +171,15 @@
     "uts": {
         "1": {
             "name": "First Step of Hero",
-            "description": "[Outta the Way!] Reduces Mana Cost by 1 and increases P.DMG the target takes by (0) for 10 sec.",
+            "description": "[Outta the Way!] Reduces Mana Cost by 1 and increases P.DMG the target takes by {0}% for 10 sec.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Cecilia/ut/1.png",
@@ -187,15 +187,15 @@
         },
         "2": {
             "name": "Childhood Memory",
-            "description": "[Infinite Potential] Dispels negative effects from self and increases DMG by (0).",
+            "description": "[Infinite Potential] Dispels negative effects from self and increases DMG by {0}%.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Cecilia/ut/2.png",
@@ -203,15 +203,15 @@
         },
         "3": {
             "name": "Moment of Respite",
-            "description": "[WA-TAAAAAH!!!] Increases own DMG to Boss by (0) per every Skill use. The effect can be stacked up to the max 10 times. Reduces Mana Cost of [Special Move, Meteor Kick!!!] by 1.",
+            "description": "[WA-TAAAAAH!!!] Increases own DMG to Boss by {0}% per every Skill use. The effect can be stacked up to the max 10 times. Reduces Mana Cost of [Special Move, Meteor Kick!!!] by 1.",
             "value": {
                 "0": {
-                    "0": "4%",
-                    "1": "4.8%",
-                    "2": "5.8%",
-                    "3": "7%",
-                    "4": "8.4%",
-                    "5": "10%"
+                    "0": "4",
+                    "1": "4.8",
+                    "2": "5.8",
+                    "3": "7",
+                    "4": "8.4",
+                    "5": "10"
                 }
             },
             "thumbnail": "heroes/Cecilia/ut/3.png",
@@ -219,15 +219,15 @@
         },
         "4": {
             "name": "Heart of Justice",
-            "description": "[Inborn Talent] At the beginning of each battle, deals (0) increased DMG to Non-Hero enemmies and takes 25% reduced DMG for 20 sec.",
+            "description": "[Inborn Talent] At the beginning of each battle, deals {0}% increased DMG to Non-Hero enemmies and takes 25% reduced DMG for 20 sec.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Cecilia/ut/4.png",

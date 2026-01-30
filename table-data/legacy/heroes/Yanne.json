@@ -125,23 +125,23 @@
     },
     "uw": {
         "name": "Dragonbane, Svelta",
-        "description": "Upon a Crit Hit, deals additional P.DMG equal to (0) of ATK and recovers 150 Mana. If the target is a Dragon, deals additional P.DMG equal to (1) of ATK and inflict Stun for 1.5 sec. A 0.5 sec Cooldown is applied to this effects.",
+        "description": "Upon a Crit Hit, deals additional P.DMG equal to {0}% of ATK and recovers 150 Mana. If the target is a Dragon, deals additional P.DMG equal to {1}% of ATK and inflict Stun for 1.5 sec. A 0.5 sec Cooldown is applied to this effects.",
         "value": {
             "0": {
-                "0": "50%",
-                "1": "60%",
-                "2": "72%",
-                "3": "86%",
-                "4": "103%",
-                "5": "125%"
+                "0": "50",
+                "1": "60",
+                "2": "72",
+                "3": "86",
+                "4": "103",
+                "5": "125"
             },
             "1": {
-                "0": "80%",
-                "1": "96%",
-                "2": "115%",
-                "3": "138%",
-                "4": "166%",
-                "5": "200%"
+                "0": "80",
+                "1": "96",
+                "2": "115",
+                "3": "138",
+                "4": "166",
+                "5": "200"
             }
         },
         "thumbnail": "heroes/Yanne/uw.png",
@@ -150,15 +150,15 @@
     "uts": {
         "1": {
             "name": "Talisman of Concentration",
-            "description": "[Focus Shot!] Gains immunity to CC while in use and increases P.DMG target receives by (0) for 10 sec.",
+            "description": "[Focus Shot!] Gains immunity to CC while in use and increases P.DMG target receives by {0}% for 10 sec.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Yanne/ut/1.png",
@@ -166,15 +166,15 @@
         },
         "2": {
             "name": "Giant Arrow of Sudden Death",
-            "description": "[Wipeout!] Increases DMG by (0) and reduces Cooldown by 12% upon a Crit Hit.",
+            "description": "[Wipeout!] Increases DMG by {0}% and reduces Cooldown by 12% upon a Crit Hit.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Yanne/ut/2.png",
@@ -182,15 +182,15 @@
         },
         "3": {
             "name": "Dragon Steak",
-            "description": "[No Holding Back!] Reduces Mana Cost by 1 and increases DMG dealt to Non-Hero enemies by (0) for the duration of skill.",
+            "description": "[No Holding Back!] Reduces Mana Cost by 1 and increases DMG dealt to Non-Hero enemies by {0}% for the duration of skill.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Yanne/ut/3.png",
@@ -198,15 +198,15 @@
         },
         "4": {
             "name": "Blazing Heart of Giant",
-            "description": "[Dragon Slayer] Reduces DMG that all allies take from Dragons by an additional 10% and increases DMG dealt to Dragons by (0).",
+            "description": "[Dragon Slayer] Reduces DMG that all allies take from Dragons by an additional 10% and increases DMG dealt to Dragons by {0}%.",
             "value": {
                 "0": {
-                    "0": "6%",
-                    "1": "7.2%",
-                    "2": "8.6%",
-                    "3": "10.4%",
-                    "4": "12.6%",
-                    "5": "15%"
+                    "0": "6",
+                    "1": "7.2",
+                    "2": "8.6",
+                    "3": "10.4",
+                    "4": "12.6",
+                    "5": "15"
                 }
             },
             "thumbnail": "heroes/Yanne/ut/4.png",

@@ -146,7 +146,7 @@
     },
     "uw": {
         "name": "Small Synthesized Darkness, Naav Gehen",
-        "description": "Whenever Evan uses a Skill, recovers own Mana by (0) reduces P.DMG all allies take by (1) for 5 sec, and increases P.DMG all enemies take by (2) for 5 sec.",
+        "description": "Whenever Evan uses a Skill, recovers own Mana by {0} reduces P.DMG all allies take by {1}% for 5 sec, and increases P.DMG all enemies take by {2}% for 5 sec.",
         "value": {
             "0": {
                 "0": "400",
@@ -157,20 +157,20 @@
                 "5": "1000"
             },
             "1": {
-                "0": "10%",
-                "1": "12%",
-                "2": "14%",
-                "3": "17%",
-                "4": "21%",
-                "5": "25%"
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
             },
             "2": {
-                "0": "10%",
-                "1": "12%",
-                "2": "14%",
-                "3": "17%",
-                "4": "21%",
-                "5": "25%"
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
             }
         },
         "thumbnail": "heroes/Evan/uw.png",
@@ -179,23 +179,23 @@
     "uts": {
         "1": {
             "name": "Rough Edged Rune Stone",
-            "description": "[Purification of Life] Increases Heal Rate by 50% and reduces P.DMG healed allies take by (0) for 15 sec.\n[Uproar of Naav Gehen] Increases DMG by 50% and reduces enemy's Heal Rate by (1) for 15 sec.",
+            "description": "[Purification of Life] Increases Heal Rate by 50% and reduces P.DMG healed allies take by {0}% for 15 sec.\n[Uproar of Naav Gehen] Increases DMG by 50% and reduces enemy's Heal Rate by {1}% for 15 sec.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 },
                 "1": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Evan/ut/1.png",
@@ -203,15 +203,15 @@
         },
         "2": {
             "name": "Evan's All-Purpose Bag",
-            "description": "[Magic Circle of Life] Reduces Mana Cost by 1 and increases ATK of allies within the range of the magic circle by (0).\n[Naav Gehen of Gluttony] Reduces Cooldown by 7 sec and reduces ATK Spd of enemies within the range of the magic circle by (1).",
+            "description": "[Magic Circle of Life] Reduces Mana Cost by 1 and increases ATK of allies within the range of the magic circle by {0}%.\n[Naav Gehen of Gluttony] Reduces Cooldown by 7 sec and reduces ATK Spd of enemies within the range of the magic circle by {1}.",
             "value": {
                 "0": {
-                    "0": "12%",
-                    "1": "14%",
-                    "2": "17%",
-                    "3": "21%",
-                    "4": "25%",
-                    "5": "30%"
+                    "0": "12",
+                    "1": "14",
+                    "2": "17",
+                    "3": "21",
+                    "4": "25",
+                    "5": "30"
                 },
                 "1": {
                     "0": "120",
@@ -227,15 +227,15 @@
         },
         "3": {
             "name": "Navigating Dowsing Pendulum",
-            "description": "[Origin of Life] Upon use, dispels negative effects from self and increases shield by (0).\n[Rampage of Naav Gehen] While using the Skill, Evan gains immunity to CC, and last hit reduces enemy's All Block Chance by (1) for 10 sec.",
+            "description": "[Origin of Life] Upon use, dispels negative effects from self and increases shield by {0}%.\n[Rampage of Naav Gehen] While using the Skill, Evan gains immunity to CC, and last hit reduces enemy's All Block Chance by {1} for 10 sec.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 },
                 "1": {
                     "0": "200",
@@ -251,15 +251,15 @@
         },
         "4": {
             "name": "Navv's First Flask",
-            "description": "[Alchemy of Green] Changes the duration of the P.DMG Reduction effect to 40 sec, and whenever Evan uses a Skill, increases P.DMG all enemies take by (0) for 7 sec.",
+            "description": "[Alchemy of Green] Changes the duration of the P.DMG Reduction effect to 40 sec, and whenever Evan uses a Skill, increases P.DMG all enemies take by {0}% for 7 sec.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Evan/ut/4.png",

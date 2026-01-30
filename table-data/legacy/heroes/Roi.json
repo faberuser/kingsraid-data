@@ -125,23 +125,23 @@
     },
     "uw": {
         "name": "Specter's Breath, Redeal",
-        "description": "Each auto attack has a (0) chance of inflicting 1 stack of [Mortal Wound]. Each stack of [Mortal Wound] deals additional DMG equal to (1) of ATK.",
+        "description": "Each auto attack has a {0}% chance of inflicting 1 stack of [Mortal Wound]. Each stack of [Mortal Wound] deals additional DMG equal to {1}% of ATK.",
         "value": {
             "0": {
-                "0": "20%",
-                "1": "24%",
-                "2": "29%",
-                "3": "35%",
-                "4": "42%",
-                "5": "50%"
+                "0": "20",
+                "1": "24",
+                "2": "29",
+                "3": "35",
+                "4": "42",
+                "5": "50"
             },
             "1": {
-                "0": "12%",
-                "1": "14%",
-                "2": "17%",
-                "3": "21%",
-                "4": "25%",
-                "5": "30%"
+                "0": "12",
+                "1": "14",
+                "2": "17",
+                "3": "21",
+                "4": "25",
+                "5": "30"
             }
         },
         "thumbnail": "heroes/Roi/uw.png",
@@ -150,7 +150,7 @@
     "uts": {
         "1": {
             "name": "Shadow Blade",
-            "description": "[No Mercy] Dispels all negative effects from self, and recovers Mana by (0) upon Critial hit.",
+            "description": "[No Mercy] Dispels all negative effects from self, and recovers Mana by {0} upon Critial hit.",
             "value": {
                 "0": {
                     "0": "200",
@@ -166,15 +166,15 @@
         },
         "2": {
             "name": "Soma's Hood",
-            "description": "[Curtain of Darkness] For the duration of Skill, recovers own Mana by 150 every sec and increases own DMG dealt against Bosses by (0).",
+            "description": "[Curtain of Darkness] For the duration of Skill, recovers own Mana by 150 every sec and increases own DMG dealt against Bosses by {0}%.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Roi/ut/2.png",
@@ -182,15 +182,15 @@
         },
         "3": {
             "name": "Cracked Mask",
-            "description": "[Blade Claw] Reduces Cooldown by 1 sec and increases DMG by (0).",
+            "description": "[Blade Claw] Reduces Cooldown by 1 sec and increases DMG by {0}%.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Roi/ut/3.png",
@@ -198,7 +198,7 @@
         },
         "4": {
             "name": "Specter's Ring",
-            "description": "[Hack] Increases DMG by 50%. Upon a Critical Hit, increases own ATK Spd by (0) for 5 sec.",
+            "description": "[Hack] Increases DMG by 50%. Upon a Critical Hit, increases own ATK Spd by {0} for 5 sec.",
             "value": {
                 "0": {
                     "0": "200",

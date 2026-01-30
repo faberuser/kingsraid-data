@@ -125,31 +125,31 @@
     },
     "uw": {
         "name": "Unchanging Mind, Erekura",
-        "description": "Deals M.DMG equal to (0) of ATK to nearby enemies and reduces their ATK by (1) every sec. Additionally, increases DMG dealt against Non-Hero enemies of the ally with the highest ATK excluding self by (2). The DMG Boost effect is irremovable. When the Passive Skill is activated, recovers 30% of Mana.",
+        "description": "Deals M.DMG equal to {0}% of ATK to nearby enemies and reduces their ATK by {1}% every sec. Additionally, increases DMG dealt against Non-Hero enemies of the ally with the highest ATK excluding self by {2}%. The DMG Boost effect is irremovable. When the Passive Skill is activated, recovers 30% of Mana.",
         "value": {
             "0": {
-                "0": "10%",
-                "1": "12%",
-                "2": "14%",
-                "3": "17%",
-                "4": "20%",
-                "5": "25%"
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "20",
+                "5": "25"
             },
             "1": {
-                "0": "14%",
-                "1": "17%",
-                "2": "20%",
-                "3": "24%",
-                "4": "29%",
-                "5": "35%"
+                "0": "14",
+                "1": "17",
+                "2": "20",
+                "3": "24",
+                "4": "29",
+                "5": "35"
             },
             "2": {
-                "0": "6%",
-                "1": "7%",
-                "2": "8%",
-                "3": "10%",
-                "4": "12%",
-                "5": "15%"
+                "0": "6",
+                "1": "7",
+                "2": "8",
+                "3": "10",
+                "4": "12",
+                "5": "15"
             }
         },
         "thumbnail": "heroes/Jane/uw.png",
@@ -158,7 +158,7 @@
     "uts": {
         "1": {
             "name": "Funeral Doll",
-            "description": "[Funeral Rites] For 10 sec, reduces the target's CC Resist by 250 and M.Block by (0).",
+            "description": "[Funeral Rites] For 10 sec, reduces the target's CC Resist by 250 and M.Block by {0}.",
             "value": {
                 "0": {
                     "0": "200",
@@ -174,15 +174,15 @@
         },
         "2": {
             "name": "Death-imbued Cushion",
-            "description": "[Mark of Death] Increases ATK by 5% and Crit DMG by (0) for 20 sec when the marked enemy dies. This effect stacks up to 8 times.",
+            "description": "[Mark of Death] Increases ATK by 5% and Crit DMG by {0}% for 20 sec when the marked enemy dies. This effect stacks up to 8 times.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Jane/ut/2.png",
@@ -190,15 +190,15 @@
         },
         "3": {
             "name": "Flowers of a Forgotten Dukedom",
-            "description": "[Day of Ruin] DMG is increased by (0) and with every DMG dealt, target's M.DEF is reduced by 5% for 5 sec. This effect can stack a max 10 times.",
+            "description": "[Day of Ruin] DMG is increased by {0}% and with every DMG dealt, target's M.DEF is reduced by 5% for 5 sec. This effect can stack a max 10 times.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Jane/ut/3.png",
@@ -206,15 +206,15 @@
         },
         "4": {
             "name": "First Friend Doll",
-            "description": "[Rest in Peace] Upon activation, dispels all negative effects from all allies and reduces All DMG dealt on self by (0) for 10 sec.",
+            "description": "[Rest in Peace] Upon activation, dispels all negative effects from all allies and reduces All DMG dealt on self by {0}% for 10 sec.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Jane/ut/4.png",

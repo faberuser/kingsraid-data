@@ -125,23 +125,23 @@
     },
     "uw": {
         "name": "Scarlet Ruler, Dominicia",
-        "description": "If HP is over 50%, ATK is increased by (0). If HP is under 50%, takes (1) reduced DMG.",
+        "description": "If HP is over 50%, ATK is increased by {0}%. If HP is under 50%, takes {1}% reduced DMG.",
         "value": {
             "0": {
-                "0": "20%",
-                "1": "24%",
-                "2": "29%",
-                "3": "35%",
-                "4": "42%",
-                "5": "50%"
+                "0": "20",
+                "1": "24",
+                "2": "29",
+                "3": "35",
+                "4": "42",
+                "5": "50"
             },
             "1": {
-                "0": "10%",
-                "1": "12%",
-                "2": "14%",
-                "3": "17%",
-                "4": "21%",
-                "5": "25%"
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
             }
         },
         "thumbnail": "heroes/Lewisia/uw.png",
@@ -150,7 +150,7 @@
     "uts": {
         "1": {
             "name": "Old Silver Cup",
-            "description": "[Blood Orb] Increases DMG by 50% and leaves (0) stacks of Blood Curse on the target.",
+            "description": "[Blood Orb] Increases DMG by 50% and leaves {0} stacks of Blood Curse on the target.",
             "value": {
                 "0": {
                     "0": "5",
@@ -166,15 +166,15 @@
         },
         "2": {
             "name": "Spell of Bloody Mist",
-            "description": "[Blood Zone] Increases DMG by (0) and the effect duration by 2 sec.",
+            "description": "[Blood Zone] Increases DMG by {0}% and the effect duration by 2 sec.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Lewisia/ut/2.png",
@@ -182,15 +182,15 @@
         },
         "3": {
             "name": "Blood of the Ancients",
-            "description": "[Blood Banquet] DMG is increased by (0) and upon Crit Hit, recovers 400 mana.",
+            "description": "[Blood Banquet] DMG is increased by {0}% and upon Crit Hit, recovers 400 mana.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Lewisia/ut/3.png",
@@ -198,7 +198,7 @@
         },
         "4": {
             "name": "Red Ring",
-            "description": "[Blood Dominator] Increases DMG of Blood Curse by 50%. Upon attacking enemies inflicted with 100 or more stacks of Blood Curse, increases own ATK by 1% for 10 sec. ATK boost can be stacked up to max (0) times.",
+            "description": "[Blood Dominator] Increases DMG of Blood Curse by 50%. Upon attacking enemies inflicted with 100 or more stacks of Blood Curse, increases own ATK by 1% for 10 sec. ATK boost can be stacked up to max {0} times.",
             "value": {
                 "0": {
                     "0": "10",

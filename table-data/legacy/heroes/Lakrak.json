@@ -125,23 +125,23 @@
     },
     "uw": {
         "name": "Lakrak MK-1",
-        "description": "Lakrak's chances of successful Experiment are increased by (0), and each successful experiment increases his ATK by (1), ATK Spd by (2) and damage against none-Heroes by (3). This effect can stack up to 4 times and is irremovable.",
+        "description": "Lakrak's chances of successful Experiment are increased by {0}%, and each successful experiment increases his ATK by {1}%, ATK Spd by {2} and damage against none-Heroes by {3}%. This effect can stack up to 4 times and is irremovable.",
         "value": {
             "0": {
-                "0": "20%",
-                "1": "24%",
-                "2": "29%",
-                "3": "35%",
-                "4": "42%",
-                "5": "50%"
+                "0": "20",
+                "1": "24",
+                "2": "29",
+                "3": "35",
+                "4": "42",
+                "5": "50"
             },
             "1": {
-                "0": "6%",
-                "1": "7.2%",
-                "2": "8.3%",
-                "3": "10.5%",
-                "4": "12.5%",
-                "5": "15%"
+                "0": "6",
+                "1": "7.2",
+                "2": "8.3",
+                "3": "10.5",
+                "4": "12.5",
+                "5": "15"
             },
             "2": {
                 "0": "60",
@@ -152,12 +152,12 @@
                 "5": "150"
             },
             "3": {
-                "0": "6%",
-                "1": "7.2%",
-                "2": "8.3%",
-                "3": "10.5%",
-                "4": "12.5%",
-                "5": "15%"
+                "0": "6",
+                "1": "7.2",
+                "2": "8.3",
+                "3": "10.5",
+                "4": "12.5",
+                "5": "15"
             }
         },
         "thumbnail": "heroes/Lakrak/uw.png",
@@ -166,7 +166,7 @@
     "uts": {
         "1": {
             "name": "Cudgel Bullet",
-            "description": "[Rapid Fire] Increases DMG by 50% and restores (0) mana on critical hit",
+            "description": "[Rapid Fire] Increases DMG by 50% and restores {0} mana on critical hit",
             "value": {
                 "0": {
                     "0": "200",
@@ -182,7 +182,7 @@
         },
         "2": {
             "name": "Special Gas Mask",
-            "description": "[Smoke Bomb] Reduces Cooldown by 30% and increases blind duration by (0) sec.",
+            "description": "[Smoke Bomb] Reduces Cooldown by 30% and increases blind duration by {0} sec.",
             "value": {
                 "0": {
                     "0": "1",
@@ -198,15 +198,15 @@
         },
         "3": {
             "name": "Goblincraft Special High-Density Gunpowder",
-            "description": "[Glue Bomb] Increases DMG by 50% and reduces Heal Rate of the hit target by (0) for 7 sec.",
+            "description": "[Glue Bomb] Increases DMG by 50% and reduces Heal Rate of the hit target by {0}% for 7 sec.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Lakrak/ut/3.png",
@@ -214,7 +214,7 @@
         },
         "4": {
             "name": "Bada Boom Cannonball",
-            "description": "[Load Cannon] Reduces Mana of hit enemies by (0). The first strike in a battle will activate [Load Cannon].",
+            "description": "[Load Cannon] Reduces Mana of hit enemies by {0}. The first strike in a battle will activate [Load Cannon].",
             "value": {
                 "0": {
                     "0": "400",

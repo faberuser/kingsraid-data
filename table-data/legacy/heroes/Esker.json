@@ -125,15 +125,15 @@
     },
     "uw": {
         "name": "Wanderer's Pleasure, Lu Estrona Dice",
-        "description": "Upon a Critical Skill Hit, increases M.DMG that target receives by (0) for 10 sec and recovers own Mana by (1).",
+        "description": "Upon a Critical Skill Hit, increases M.DMG that target receives by {0}% for 10 sec and recovers own Mana by {1}.",
         "value": {
             "0": {
-                "0": "20%",
-                "1": "24%",
-                "2": "29%",
-                "3": "35%",
-                "4": "42%",
-                "5": "50%"
+                "0": "20",
+                "1": "24",
+                "2": "29",
+                "3": "35",
+                "4": "42",
+                "5": "50"
             },
             "1": {
                 "0": "100",
@@ -150,15 +150,15 @@
     "uts": {
         "1": {
             "name": "Mumbo Jumbo Runic Cube",
-            "description": "[This is My Game] Increases DMG by (0) and the number of hits by 1.",
+            "description": "[This is My Game] Increases DMG by {0}% and the number of hits by 1.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Esker/ut/1.png",
@@ -166,7 +166,7 @@
         },
         "2": {
             "name": "Indispensable Chess Piece",
-            "description": "[My Turn] The effect of My Turn becomes irremovable and additionally grants (0) ATK Spd per stack to the ally with the highest attack.",
+            "description": "[My Turn] The effect of My Turn becomes irremovable and additionally grants {0} ATK Spd per stack to the ally with the highest attack.",
             "value": {
                 "0": {
                     "0": "30",
@@ -182,15 +182,15 @@
         },
         "3": {
             "name": "Old Fishing Rod",
-            "description": "[Shall I Try My Luck?] Reduces Mana Cost by 1 and increases M.DMG target receives by (0) for 10 sec.",
+            "description": "[Shall I Try My Luck?] Reduces Mana Cost by 1 and increases M.DMG target receives by {0}% for 10 sec.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Esker/ut/3.png",
@@ -198,7 +198,7 @@
         },
         "4": {
             "name": "Shady Chip",
-            "description": "[This Is Not a Trick] Increases ATK and DEF boost by 50%. ATK Spd of self is increased by (0) per stack.",
+            "description": "[This Is Not a Trick] Increases ATK and DEF boost by 50%. ATK Spd of self is increased by {0} per stack.",
             "value": {
                 "0": {
                     "0": "20",

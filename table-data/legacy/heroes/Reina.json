@@ -125,7 +125,7 @@
     },
     "uw": {
         "name": "Lightning Flash, Livatis",
-        "description": "Upon a Crit Hit, ATK Spd is increased by (0) and Crit DMG is increased by (1) for 15 sec. Can be stacked up to 5 times max.",
+        "description": "Upon a Crit Hit, ATK Spd is increased by {0} and Crit DMG is increased by {1}% for 15 sec. Can be stacked up to 5 times max.",
         "value": {
             "0": {
                 "0": "80",
@@ -136,12 +136,12 @@
                 "5": "200"
             },
             "1": {
-                "0": "20%",
-                "1": "24%",
-                "2": "29%",
-                "3": "35%",
-                "4": "42%",
-                "5": "50%"
+                "0": "20",
+                "1": "24",
+                "2": "29",
+                "3": "35",
+                "4": "42",
+                "5": "50"
             }
         },
         "thumbnail": "heroes/Reina/uw.png",
@@ -150,15 +150,15 @@
     "uts": {
         "1": {
             "name": "Wing of Lightning Flash",
-            "description": "[Float Like a Butterfly] Increases DMG by (0) and reduces the target's P.Block chance by 500 for 10 sec.",
+            "description": "[Float Like a Butterfly] Increases DMG by {0}% and reduces the target's P.Block chance by 500 for 10 sec.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Reina/ut/1.png",
@@ -166,7 +166,7 @@
         },
         "2": {
             "name": "Master's Ring",
-            "description": "[Sharp End] Increases ATK Boost by 50% and recovers additional (0) MP upon a Crit Hit for the skill's duration.",
+            "description": "[Sharp End] Increases ATK Boost by 50% and recovers additional {0} MP upon a Crit Hit for the skill's duration.",
             "value": {
                 "0": {
                     "0": "40",
@@ -182,15 +182,15 @@
         },
         "3": {
             "name": "Medal of Swiftness",
-            "description": "[Shooting Star] DMG is increased by (0) and upon Crit Hit, mana is recovered by 200.",
+            "description": "[Shooting Star] DMG is increased by {0}% and upon Crit Hit, mana is recovered by 200.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Reina/ut/3.png",
@@ -198,15 +198,15 @@
         },
         "4": {
             "name": "Amethyst Pin",
-            "description": "[Lucky Child] Increases the max number of stacks by 2, each stack increasing Crit DMG by (0).",
+            "description": "[Lucky Child] Increases the max number of stacks by 2, each stack increasing Crit DMG by {0}%.",
             "value": {
                 "0": {
-                    "0": "2%",
-                    "1": "2.4%",
-                    "2": "2.9%",
-                    "3": "3.5%",
-                    "4": "4.2%",
-                    "5": "5%"
+                    "0": "2",
+                    "1": "2.4",
+                    "2": "2.9",
+                    "3": "3.5",
+                    "4": "4.2",
+                    "5": "5"
                 }
             },
             "thumbnail": "heroes/Reina/ut/4.png",

@@ -125,15 +125,15 @@
     },
     "uw": {
         "name": "Anthem of a New Road, Matimaruma",
-        "description": "Upon using Skills 3 times, dispels negative effects from all allies and reduces All DMG they take by (0) for 10 sec.",
+        "description": "Upon using Skills 3 times, dispels negative effects from all allies and reduces All DMG they take by {0}% for 10 sec.",
         "value": {
             "0": {
-                "0": "10%",
-                "1": "12%",
-                "2": "14%",
-                "3": "17%",
-                "4": "21%",
-                "5": "25%"
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
             }
         },
         "thumbnail": "heroes/Rehartna/uw.png",
@@ -142,7 +142,7 @@
     "uts": {
         "1": {
             "name": "Classifield Resistance Document",
-            "description": "[Release! Ultrasonic Wave!] Rehartna becomes immune to CC while in use. Each hit reduces enemy's Mana by (0).",
+            "description": "[Release! Ultrasonic Wave!] Rehartna becomes immune to CC while in use. Each hit reduces enemy's Mana by {0}.",
             "value": {
                 "0": {
                     "0": "140",
@@ -158,7 +158,7 @@
         },
         "2": {
             "name": "Ultrasonic Wave Generator",
-            "description": "[Crystal Clear, Matimaruma!] Increases Crit Resistance of allies within range by (0) and recovers their Mana by 150 every sec.",
+            "description": "[Crystal Clear, Matimaruma!] Increases Crit Resistance of allies within range by {0} and recovers their Mana by 150 every sec.",
             "value": {
                 "0": {
                     "0": "100",
@@ -174,7 +174,7 @@
         },
         "3": {
             "name": "Medley Sheet",
-            "description": "[You've Never Seen a Weapon Like This!] Reduces Cooldown of all Skills by an additional (0) sec, and grants immunity to CC to the target for 5 sec.",
+            "description": "[You've Never Seen a Weapon Like This!] Reduces Cooldown of all Skills by an additional {0} sec, and grants immunity to CC to the target for 5 sec.",
             "value": {
                 "0": {
                     "0": "1",
@@ -190,15 +190,15 @@
         },
         "4": {
             "name": "Dragon Drawing",
-            "description": "[Battle March Melody] Max number of stacks increases to 6 times and each stack increases DMG dealt to Bosses by (0).",
+            "description": "[Battle March Melody] Max number of stacks increases to 6 times and each stack increases DMG dealt to Bosses by {0}%.",
             "value": {
                 "0": {
-                    "0": "3%",
-                    "1": "3.6%",
-                    "2": "4.3%",
-                    "3": "5.2%",
-                    "4": "6.2%",
-                    "5": "7.5%"
+                    "0": "3",
+                    "1": "3.6",
+                    "2": "4.3",
+                    "3": "5.2",
+                    "4": "6.2",
+                    "5": "7.5"
                 }
             },
             "thumbnail": "heroes/Rehartna/ut/4.png",

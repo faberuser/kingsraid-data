@@ -132,7 +132,7 @@
     },
     "uw": {
         "name": "Void Soul, Dunn Nemecia",
-        "description": "Upon using a skill, gains [Void Soul] for (0) sec and dodges all attacks. This effect activates once every 10 sec. Increases Crit DMG of the ally under Soul Link by (1).",
+        "description": "Upon using a skill, gains [Void Soul] for {0} sec and dodges all attacks. This effect activates once every 10 sec. Increases Crit DMG of the ally under Soul Link by {1}%.",
         "value": {
             "0": {
                 "0": "1",
@@ -143,12 +143,12 @@
                 "5": "2.5"
             },
             "1": {
-                "0": "30%",
-                "1": "36%",
-                "2": "42%",
-                "3": "51%",
-                "4": "63%",
-                "5": "75%"
+                "0": "30",
+                "1": "36",
+                "2": "42",
+                "3": "51",
+                "4": "63",
+                "5": "75"
             }
         },
         "thumbnail": "heroes/Lavril/uw.png",
@@ -157,15 +157,15 @@
     "uts": {
         "1": {
             "name": "Tarot Card of the Moon",
-            "description": "[G-go Away!] Increases DMG by 50% and reduces hit enemies' Heal Rate by (0).",
+            "description": "[G-go Away!] Increases DMG by 50% and reduces hit enemies' Heal Rate by {0}%.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Lavril/ut/1.png",
@@ -173,23 +173,23 @@
         },
         "2": {
             "name": "Fairy's Scent",
-            "description": "[Bear Up...!] Increases Heal Rate by 50% and Crit DMG by (0). [You Scare Me!] Increases DMG by 50% and reduces target's M.DEF by (1).",
+            "description": "[Bear Up...!] Increases Heal Rate by 50% and Crit DMG by {0}%. [You Scare Me!] Increases DMG by 50% and reduces target's M.DEF by {1}%.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 },
                 "1": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Lavril/ut/2.png",
@@ -197,15 +197,15 @@
         },
         "3": {
             "name": "Blessed Protection",
-            "description": "[Leave Me Alone...!] Increases the max stack of the effect by 2 and each hit increases M.DMG the target takes by (0).",
+            "description": "[Leave Me Alone...!] Increases the max stack of the effect by 2 and each hit increases M.DMG the target takes by {0}%.",
             "value": {
                 "0": {
-                    "0": "1%",
-                    "1": "1.2%",
-                    "2": "1.4%",
-                    "3": "1.7%",
-                    "4": "2.1%",
-                    "5": "2.5%"
+                    "0": "1",
+                    "1": "1.2",
+                    "2": "1.4",
+                    "3": "1.7",
+                    "4": "2.1",
+                    "5": "2.5"
                 }
             },
             "thumbnail": "heroes/Lavril/ut/3.png",
@@ -213,15 +213,15 @@
         },
         "4": {
             "name": "Tear of Soul",
-            "description": "[Together Forever...] Increases ATK boost by 50%. Allies under Soul Link have their Heal Rate increased by (0).",
+            "description": "[Together Forever...] Increases ATK boost by 50%. Allies under Soul Link have their Heal Rate increased by {0}%.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Lavril/ut/4.png",

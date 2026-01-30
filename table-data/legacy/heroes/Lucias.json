@@ -125,15 +125,15 @@
     },
     "uw": {
         "name": "Blessing of Light, Benedicia",
-        "description": "For 30 sec after the battle starts, allies take (0) reduced P.DMG while having their ATK Spd increased by (1) and DMG to Non-Hero enemies increased by (2).",
+        "description": "For 30 sec after the battle starts, allies take {0}% reduced P.DMG while having their ATK Spd increased by {1} and DMG to Non-Hero enemies increased by {2}%.",
         "value": {
             "0": {
-                "0": "10%",
-                "1": "12%",
-                "2": "14%",
-                "3": "17%",
-                "4": "21%",
-                "5": "25%"
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
             },
             "1": {
                 "0": "100",
@@ -144,12 +144,12 @@
                 "5": "250"
             },
             "2": {
-                "0": "8%",
-                "1": "10%",
-                "2": "12%",
-                "3": "14%",
-                "4": "17%",
-                "5": "20%"
+                "0": "8",
+                "1": "10",
+                "2": "12",
+                "3": "14",
+                "4": "17",
+                "5": "20"
             }
         },
         "thumbnail": "heroes/Lucias/uw.png",
@@ -158,15 +158,15 @@
     "uts": {
         "1": {
             "name": "Book of Blessings",
-            "description": "[Path of Blessings] Reduces Mana Cost by 1 and Cooldown by (0).",
+            "description": "[Path of Blessings] Reduces Mana Cost by 1 and Cooldown by {0}%.",
             "value": {
                 "0": {
-                    "0": "12%",
-                    "1": "12%",
-                    "2": "17%",
-                    "3": "21%",
-                    "4": "25%",
-                    "5": "30%"
+                    "0": "12",
+                    "1": "12",
+                    "2": "17",
+                    "3": "21",
+                    "4": "25",
+                    "5": "30"
                 }
             },
             "thumbnail": "heroes/Lucias/ut/1.png",
@@ -174,7 +174,7 @@
         },
         "2": {
             "name": "Dice of Remembrance",
-            "description": "[Zone of Faith] Reduces Mana Cost by 1, and reduces Mana of enemies within range by (0) per sec.",
+            "description": "[Zone of Faith] Reduces Mana Cost by 1, and reduces Mana of enemies within range by {0} per sec.",
             "value": {
                 "0": {
                     "0": "200",
@@ -190,15 +190,15 @@
         },
         "3": {
             "name": "Guidance of Morning Star",
-            "description": "[Stigmata] The effect of Stigmata cannot be dispelled by skill removing the positive effects. Reduces Cooldown by (0).",
+            "description": "[Stigmata] The effect of Stigmata cannot be dispelled by skill removing the positive effects. Reduces Cooldown by {0}%.",
             "value": {
                 "0": {
-                    "0": "12%",
-                    "1": "14%",
-                    "2": "17%",
-                    "3": "21%",
-                    "4": "25%",
-                    "5": "30%"
+                    "0": "12",
+                    "1": "14",
+                    "2": "17",
+                    "3": "21",
+                    "4": "25",
+                    "5": "30"
                 }
             },
             "thumbnail": "heroes/Lucias/ut/3.png",
@@ -206,15 +206,15 @@
         },
         "4": {
             "name": "Sword of Sacrifice",
-            "description": "[Holy Sacrifice] Increases DEF boost by 50%. Targets have their ATK increased by (0) for 5 sec.",
+            "description": "[Holy Sacrifice] Increases DEF boost by 50%. Targets have their ATK increased by {0}% for 5 sec.",
             "value": {
                 "0": {
-                    "0": "8%",
-                    "1": "10%",
-                    "2": "12%",
-                    "3": "14%",
-                    "4": "17%",
-                    "5": "20%"
+                    "0": "8",
+                    "1": "10",
+                    "2": "12",
+                    "3": "14",
+                    "4": "17",
+                    "5": "20"
                 }
             },
             "thumbnail": "heroes/Lucias/ut/4.png",

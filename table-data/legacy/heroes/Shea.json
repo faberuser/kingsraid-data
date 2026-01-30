@@ -125,7 +125,7 @@
     },
     "uw": {
         "name": "Charming Melody, Schnwanheite",
-        "description": "Increases CC Resist by (0). Upon gaining a stack of [Blissful Performance], reduces own Cooldown of all Skills by (1) and recovers own Mana by (2).",
+        "description": "Increases CC Resist by {0}. Upon gaining a stack of [Blissful Performance], reduces own Cooldown of all Skills by {1}% and recovers own Mana by {2}.",
         "value": {
             "0": {
                 "0": "300",
@@ -136,12 +136,12 @@
                 "5": "750"
             },
             "1": {
-                "0": "10%",
-                "1": "12%",
-                "2": "14%",
-                "3": "17%",
-                "4": "21%",
-                "5": "25%"
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
             },
             "2": {
                 "0": "400",
@@ -158,7 +158,7 @@
     "uts": {
         "1": {
             "name": "Flower of Life",
-            "description": "[Green Nature's Melody] Increases Heal Rate by 50%, and for 8 sec, increases the target's CC Resist by (0).",
+            "description": "[Green Nature's Melody] Increases Heal Rate by 50%, and for 8 sec, increases the target's CC Resist by {0}.",
             "value": {
                 "0": {
                     "0": "100",
@@ -174,7 +174,7 @@
         },
         "2": {
             "name": "Windy Flower",
-            "description": "[Blue Wind's Song] Increases ACC by 250 for 8 sec and recovers (0) MP every time an ally uses a skill.",
+            "description": "[Blue Wind's Song] Increases ACC by 250 for 8 sec and recovers {0} MP every time an ally uses a skill.",
             "value": {
                 "0": {
                     "0": "160",
@@ -190,15 +190,15 @@
         },
         "3": {
             "name": "Fairy's Crown",
-            "description": "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by (0) for the duration of skill.",
+            "description": "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by {0}% for the duration of skill.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Shea/ut/3.png",
@@ -206,7 +206,7 @@
         },
         "4": {
             "name": "Dream of Mira",
-            "description": "[Trance] Increases own ATK by 20% and ATK Spd by (0) for 5 sec.",
+            "description": "[Trance] Increases own ATK by 20% and ATK Spd by {0} for 5 sec.",
             "value": {
                 "0": {
                     "0": "200",

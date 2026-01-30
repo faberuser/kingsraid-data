@@ -125,23 +125,23 @@
     },
     "uw": {
         "name": "Ultimate Weapon, Leviathan",
-        "description": "Deals P.DMG equal to (0) of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes (1) more P.DMG for 10 seconds.",
+        "description": "Deals P.DMG equal to {0}% of ATK to the enemies inflicted by the Boooooom! skill at a 50% chance, and the target takes {1}% more P.DMG for 10 seconds.",
         "value": {
             "0": {
-                "0": "100%",
-                "1": "120%",
-                "2": "140%",
-                "3": "170%",
-                "4": "210%",
-                "5": "250%"
+                "0": "100",
+                "1": "120",
+                "2": "140",
+                "3": "170",
+                "4": "210",
+                "5": "250"
             },
             "1": {
-                "0": "20%",
-                "1": "24%",
-                "2": "29%",
-                "3": "35%",
-                "4": "42%",
-                "5": "50%"
+                "0": "20",
+                "1": "24",
+                "2": "29",
+                "3": "35",
+                "4": "42",
+                "5": "50"
             }
         },
         "thumbnail": "heroes/Miruru/uw.png",
@@ -150,7 +150,7 @@
     "uts": {
         "1": {
             "name": "Coin of the Deep",
-            "description": "[Baaaam!] Gains Immunity to CC for the skill's duration, and reduces the target's P.Crit Resistance by (0) for 10 sec.",
+            "description": "[Baaaam!] Gains Immunity to CC for the skill's duration, and reduces the target's P.Crit Resistance by {0} for 10 sec.",
             "value": {
                 "0": {
                     "0": "200",
@@ -166,15 +166,15 @@
         },
         "2": {
             "name": "Pirate King's Sextant",
-            "description": "[Roll Over] increases DMG by (0) on every use and recovers 120 MP upon a Crit Hit. This effect stacks up to 10 times.",
+            "description": "[Roll Over] increases DMG by {0}% on every use and recovers 120 MP upon a Crit Hit. This effect stacks up to 10 times.",
             "value": {
                 "0": {
-                    "0": "4%",
-                    "1": "4.8%",
-                    "2": "5.8%",
-                    "3": "7%",
-                    "4": "8.4%",
-                    "5": "10%"
+                    "0": "4",
+                    "1": "4.8",
+                    "2": "5.8",
+                    "3": "7",
+                    "4": "8.4",
+                    "5": "10"
                 }
             },
             "thumbnail": "heroes/Miruru/ut/2.png",
@@ -182,15 +182,15 @@
         },
         "3": {
             "name": "Miruru Cannonball",
-            "description": "[Miruru Pirates!] DMG is increased by 50%, and skill cooldown is reduced by (0).",
+            "description": "[Miruru Pirates!] DMG is increased by 50%, and skill cooldown is reduced by {0}%.",
             "value": {
                 "0": {
-                    "0": "12%",
-                    "1": "14%",
-                    "2": "17%",
-                    "3": "21%",
-                    "4": "25%",
-                    "5": "30%"
+                    "0": "12",
+                    "1": "14",
+                    "2": "17",
+                    "3": "21",
+                    "4": "25",
+                    "5": "30"
                 }
             },
             "thumbnail": "heroes/Miruru/ut/3.png",
@@ -198,7 +198,7 @@
         },
         "4": {
             "name": "Turtle Gunpowder Keg",
-            "description": "[Boooooom!] Increases DMG by 50%. Upon activation, increases ATK Spd by (0) for 3 sec.",
+            "description": "[Boooooom!] Increases DMG by 50%. Upon activation, increases ATK Spd by {0} for 3 sec.",
             "value": {
                 "0": {
                     "0": "200",

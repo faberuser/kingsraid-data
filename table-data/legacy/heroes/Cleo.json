@@ -125,7 +125,7 @@
     },
     "uw": {
         "name": "Primal Flame, Flenos",
-        "description": "Increases ATK Spd by (0). Skill hits deal additional M.DMG equal to (1) of ATK per stack of Ember inflicted on enemies.",
+        "description": "Increases ATK Spd by {0}. Skill hits deal additional M.DMG equal to {1}% of ATK per stack of Ember inflicted on enemies.",
         "value": {
             "0": {
                 "0": "200",
@@ -136,12 +136,12 @@
                 "5": "500"
             },
             "1": {
-                "0": "3%",
-                "1": "3.6%",
-                "2": "4.3%",
-                "3": "5.2%",
-                "4": "6.3%",
-                "5": "7.5%"
+                "0": "3",
+                "1": "3.6",
+                "2": "4.3",
+                "3": "5.2",
+                "4": "6.3",
+                "5": "7.5"
             }
         },
         "thumbnail": "heroes/Cleo/uw.png",
@@ -150,7 +150,7 @@
     "uts": {
         "1": {
             "name": "Phoenix Lantern",
-            "description": "[Fire Needle] Each hit reduces the target's Mana by (0). Upon every use, increases DMG by 10%. This effect can be stacked up to max 10 times.",
+            "description": "[Fire Needle] Each hit reduces the target's Mana by {0}. Upon every use, increases DMG by 10%. This effect can be stacked up to max 10 times.",
             "value": {
                 "0": {
                     "0": "100",
@@ -169,12 +169,12 @@
             "description": "[Fire Ball] Reduces Mana Cost by 1 and increases DMG by.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Cleo/ut/2.png",
@@ -182,15 +182,15 @@
         },
         "3": {
             "name": "Tome of Purgatory",
-            "description": "[Fire Rain] Increases DMG by (0). Upon Critical Hit on an enemy with 5 or more stacks of Ember, Cooldown will be reduced by 5%. Upon killing an enemy with this Skill, Cooldown will be reduced by an additional 20%.",
+            "description": "[Fire Rain] Increases DMG by {0}%. Upon Critical Hit on an enemy with 5 or more stacks of Ember, Cooldown will be reduced by 5%. Upon killing an enemy with this Skill, Cooldown will be reduced by an additional 20%.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Cleo/ut/3.png",
@@ -198,15 +198,15 @@
         },
         "4": {
             "name": "Introduction to Red Witch Spells",
-            "description": "[Flame Diffusion] Ember becomes irremovable and causes the target to take (0) increased M.DMG per stack.",
+            "description": "[Flame Diffusion] Ember becomes irremovable and causes the target to take {0}% increased M.DMG per stack.",
             "value": {
                 "0": {
-                    "0": "1%",
-                    "1": "1.2%",
-                    "2": "1.4%",
-                    "3": "1.7%",
-                    "4": "2.1%",
-                    "5": "2.5%"
+                    "0": "1",
+                    "1": "1.2",
+                    "2": "1.4",
+                    "3": "1.7",
+                    "4": "2.1",
+                    "5": "2.5"
                 }
             },
             "thumbnail": "heroes/Cleo/ut/4.png",

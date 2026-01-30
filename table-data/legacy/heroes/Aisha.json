@@ -125,15 +125,15 @@
     },
     "uw": {
         "name": "Noble Fate, Mahitra",
-        "description": "Increases own Crit DMG by (0) and DEF Penetration by (1). Upon dealing DMG to an enemy 500 times, all effects are increased by x2.",
+        "description": "Increases own Crit DMG by {0}% and DEF Penetration by {1}. Upon dealing DMG to an enemy 500 times, all effects are increased by x2.",
         "value": {
             "0": {
-                "0": "10%",
-                "1": "12%",
-                "2": "14%",
-                "3": "17%",
-                "4": "21%",
-                "5": "25%"
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
             },
             "1": {
                 "0": "100",
@@ -150,7 +150,7 @@
     "uts": {
         "1": {
             "name": "Flower of Purple",
-            "description": "[Mystic Barrage] Reduces Cooldown by (0) sec, and for 10 sec, increases M.DMG target receives by 25%.",
+            "description": "[Mystic Barrage] Reduces Cooldown by {0} sec, and for 10 sec, increases M.DMG target receives by 25%.",
             "value": {
                 "0": {
                     "0": "1",
@@ -166,7 +166,7 @@
         },
         "2": {
             "name": "Noble Hand Mirror",
-            "description": "[Destruction Ray] Increases DMG by 50% and recovers (0) MP immediately upon use.",
+            "description": "[Destruction Ray] Increases DMG by 50% and recovers {0} MP immediately upon use.",
             "value": {
                 "0": {
                     "0": "500",
@@ -182,7 +182,7 @@
         },
         "3": {
             "name": "Ring of Infinite Mana",
-            "description": "[Torrential Rainfall] DMG is increased by 50% and upon Crit Hit, recovers (0) mana.",
+            "description": "[Torrential Rainfall] DMG is increased by 50% and upon Crit Hit, recovers {0} mana.",
             "value": {
                 "0": {
                     "0": "30",
@@ -198,15 +198,15 @@
         },
         "4": {
             "name": "Eyes of Truth",
-            "description": "[Mystic Boost] Increases DMG by 50%. Upon activation, increases own Crit DMG by (0). This effect can be stacked up to max 20 times.",
+            "description": "[Mystic Boost] Increases DMG by 50%. Upon activation, increases own Crit DMG by {0}%. This effect can be stacked up to max 20 times.",
             "value": {
                 "0": {
-                    "0": "1%",
-                    "1": "1.2%",
-                    "2": "1.4%",
-                    "3": "1.7%",
-                    "4": "2.1%",
-                    "5": "2.5%"
+                    "0": "1",
+                    "1": "1.2",
+                    "2": "1.4",
+                    "3": "1.7",
+                    "4": "2.1",
+                    "5": "2.5"
                 }
             },
             "thumbnail": "heroes/Aisha/ut/4.png",

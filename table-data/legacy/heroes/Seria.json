@@ -132,31 +132,31 @@
     },
     "uw": {
         "name": "Executioner of Domains, Elsion",
-        "description": "Upon a Crit Skill Hit, deals additional M.DMG equal to (0) of ATK. Hit target's Heal Rate is reduced by (1) for 5 sec, and increases own Heal Rate by (2) for 20 sec. The Heal rate increasing effect can be stacked up to 5 times, and cannot be dispelled.",
+        "description": "Upon a Crit Skill Hit, deals additional M.DMG equal to {0}% of ATK. Hit target's Heal Rate is reduced by {1}% for 5 sec, and increases own Heal Rate by {2}% for 20 sec. The Heal rate increasing effect can be stacked up to 5 times, and cannot be dispelled.",
         "value": {
             "0": {
-                "0": "50%",
-                "1": "60%",
-                "2": "72%",
-                "3": "86%",
-                "4": "103%",
-                "5": "125%"
+                "0": "50",
+                "1": "60",
+                "2": "72",
+                "3": "86",
+                "4": "103",
+                "5": "125"
             },
             "1": {
-                "0": "24%",
-                "1": "29%",
-                "2": "35%",
-                "3": "42%",
-                "4": "50%",
-                "5": "60%"
+                "0": "24",
+                "1": "29",
+                "2": "35",
+                "3": "42",
+                "4": "50",
+                "5": "60"
             },
             "2": {
-                "0": "4%",
-                "1": "5%",
-                "2": "6%",
-                "3": "7%",
-                "4": "9%",
-                "5": "10%"
+                "0": "4",
+                "1": "5",
+                "2": "6",
+                "3": "7",
+                "4": "9",
+                "5": "10"
             }
         },
         "thumbnail": "heroes/Seria/uw.png",
@@ -165,7 +165,7 @@
     "uts": {
         "1": {
             "name": "Whetstone of Demon",
-            "description": "[[Mysterious Sword - Falling Petals] Increases DMG by 50%, and upon Critical Hit, recovers Mana by (0).\n[Mysterious Sword - Blossom] Increases DMG by 50%, and upon Critical Hit, reduces Cooldown of [Mysterious Sword - Falling Petals] by (1) sec.",
+            "description": "[[Mysterious Sword - Falling Petals] Increases DMG by 50%, and upon Critical Hit, recovers Mana by {0}.\n[Mysterious Sword - Blossom] Increases DMG by 50%, and upon Critical Hit, reduces Cooldown of [Mysterious Sword - Falling Petals] by {1} sec.",
             "value": {
                 "0": {
                     "0": "200",
@@ -189,7 +189,7 @@
         },
         "2": {
             "name": "Ring of Abyss",
-            "description": "[Blood Scattering Blade] Increases DMG by 50% and reduces M.Block of affected enemies by (0).",
+            "description": "[Blood Scattering Blade] Increases DMG by 50% and reduces M.Block of affected enemies by {0}.",
             "value": {
                 "0": {
                     "0": "200",
@@ -205,7 +205,7 @@
         },
         "3": {
             "name": "Enlightening Candlelight",
-            "description": "[Red Moon Blade] Gains immunity to CC for the duration of the skill. When the battle starts, increases DMG by 70% for (0) time.",
+            "description": "[Red Moon Blade] Gains immunity to CC for the duration of the skill. When the battle starts, increases DMG by 70% for {0} time.",
             "value": {
                 "0": {
                     "0": "5",
@@ -221,15 +221,15 @@
         },
         "4": {
             "name": "Demonic Eight Trigrams",
-            "description": "[Cold-Blooded Witch] Increases ATK boost by 50% and DMG Boost against Non-Hero enemies increases by an additional (0) per stack.",
+            "description": "[Cold-Blooded Witch] Increases ATK boost by 50% and DMG Boost against Non-Hero enemies increases by an additional {0}% per stack.",
             "value": {
                 "0": {
-                    "0": "0.6%",
-                    "1": "0.7%",
-                    "2": "0.8%",
-                    "3": "1%",
-                    "4": "1.2%",
-                    "5": "1.5%"
+                    "0": "0.6",
+                    "1": "0.7",
+                    "2": "0.8",
+                    "3": "1",
+                    "4": "1.2",
+                    "5": "1.5"
                 }
             },
             "thumbnail": "heroes/Seria/ut/4.png",

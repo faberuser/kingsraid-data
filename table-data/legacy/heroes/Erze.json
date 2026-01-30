@@ -125,7 +125,7 @@
     },
     "uw": {
         "name": "Essence of Greed, Perion",
-        "description": "Each skill hit increases ATK and ATK Spd by 0.5% for 30 sec. This effect stacks up to (0) times. The stacks will become irremovable.",
+        "description": "Each skill hit increases ATK and ATK Spd by 0.5% for 30 sec. This effect stacks up to {0} times. The stacks will become irremovable.",
         "value": {
             "0": {
                 "0": "80",
@@ -142,15 +142,15 @@
     "uts": {
         "1": {
             "name": "Fang of Thirst",
-            "description": "Reduces Mana Cost of [Sweet Blood] by 1 and increases P.DMG the hit enemy takes by (0). This effect can be stacked up to max 10 times.",
+            "description": "Reduces Mana Cost of [Sweet Blood] by 1 and increases P.DMG the hit enemy takes by {0}%. This effect can be stacked up to max 10 times.",
             "value": {
                 "0": {
-                    "0": "1%",
-                    "1": "1.2%",
-                    "2": "1.4%",
-                    "3": "1.7%",
-                    "4": "2.1%",
-                    "5": "2.5%"
+                    "0": "1",
+                    "1": "1.2",
+                    "2": "1.4",
+                    "3": "1.7",
+                    "4": "2.1",
+                    "5": "2.5"
                 }
             },
             "thumbnail": "heroes/Erze/ut/1.png",
@@ -158,7 +158,7 @@
         },
         "2": {
             "name": "Wine of Shivers",
-            "description": "Increases DMG of [Soaking Blood] by 50% and reduces Cooldown of [Soaking Blood] by (0) sec.",
+            "description": "Increases DMG of [Soaking Blood] by 50% and reduces Cooldown of [Soaking Blood] by {0} sec.",
             "value": {
                 "0": {
                     "0": "5",
@@ -174,15 +174,15 @@
         },
         "3": {
             "name": "Lipstick of Shame",
-            "description": "Increases DMG of [Blood Liberation] by (0) and gains immunity to CC for the duration of [Blood Liberation].",
+            "description": "Increases DMG of [Blood Liberation] by {0}% and gains immunity to CC for the duration of [Blood Liberation].",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Erze/ut/3.png",
@@ -190,15 +190,15 @@
         },
         "4": {
             "name": "Moonlight Piano",
-            "description": "Increases ATK boost and Max HP boost by (0). Life Drinker becomes irremovable.",
+            "description": "Increases ATK boost and Max HP boost by {0}%. Life Drinker becomes irremovable.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Erze/ut/4.png",

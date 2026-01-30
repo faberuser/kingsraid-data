@@ -132,7 +132,7 @@
     },
     "uw": {
         "name": "Chant of Tailwinds, Stosmos",
-        "description": "Increases the duration of [Adventure Guide] by (0) sec, and ATK of all allies by (1) while Estelle is in [Adventure Guide] state.",
+        "description": "Increases the duration of [Adventure Guide] by {0} sec, and ATK of all allies by {1}% while Estelle is in [Adventure Guide] state.",
         "value": {
             "0": {
                 "0": "1",
@@ -143,12 +143,12 @@
                 "5": "6"
             },
             "1": {
-                "0": "10%",
-                "1": "12%",
-                "2": "14%",
-                "3": "17%",
-                "4": "21%",
-                "5": "25%"
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "21",
+                "5": "25"
             }
         },
         "thumbnail": "heroes/Estelle/uw.png",
@@ -157,7 +157,7 @@
     "uts": {
         "1": {
             "name": "Smile Badge",
-            "description": "[Blow, Tailwind!!] Reduces Mana Cost by 1, and [Tailwind] additional increases All Dodge Chance of all allies by (0).\n[Blow, Headwind!!] Silences the hit targets for 3 sec, and [Headwind] additionally reduces the target's DMG dealt to Heroes by (1).",
+            "description": "[Blow, Tailwind!!] Reduces Mana Cost by 1, and [Tailwind] additional increases All Dodge Chance of all allies by {0}.\n[Blow, Headwind!!] Silences the hit targets for 3 sec, and [Headwind] additionally reduces the target's DMG dealt to Heroes by {1}%.",
             "value": {
                 "0": {
                     "0": "100",
@@ -168,12 +168,12 @@
                     "5": "250"
                 },
                 "1": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Estelle/ut/1.png",
@@ -181,15 +181,15 @@
         },
         "2": {
             "name": "Estelle's Trip Memoir VI",
-            "description": "[Here's a Wake-Up Call!!] Reduces Cooldown by 6 sec, and [Cheer] additionally increases DMG dealt to Bosses by (0).",
+            "description": "[Here's a Wake-Up Call!!] Reduces Cooldown by 6 sec, and [Cheer] additionally increases DMG dealt to Bosses by {0}%.",
             "value": {
                 "0": {
-                    "0": "6%",
-                    "1": "7.2%",
-                    "2": "8.6%",
-                    "3": "10.4%",
-                    "4": "12.5%",
-                    "5": "15%"
+                    "0": "6",
+                    "1": "7.2",
+                    "2": "8.6",
+                    "3": "10.4",
+                    "4": "12.5",
+                    "5": "15"
                 }
             },
             "thumbnail": "heroes/Estelle/ut/2.png",
@@ -197,15 +197,15 @@
         },
         "3": {
             "name": "Whistle of Hundred Tones.",
-            "description": "[It's Cheering Time!!] Increases Heal Rate by (0), and all effects become irremovable.",
+            "description": "[It's Cheering Time!!] Increases Heal Rate by {0}%, and all effects become irremovable.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Estelle/ut/3.png",
@@ -213,15 +213,15 @@
         },
         "4": {
             "name": "Second Homeland",
-            "description": "[I'm the Adventure Guide!!] [Adventure Guide] becomes irremovable. Normal attacks have a (0) chance of reducing the target's Mana by 400 for the duration of Skill. This effect is activated only once every 3 sec.",
+            "description": "[I'm the Adventure Guide!!] [Adventure Guide] becomes irremovable. Normal attacks have a {0}% chance of reducing the target's Mana by 400 for the duration of Skill. This effect is activated only once every 3 sec.",
             "value": {
                 "0": {
-                    "0": "20%",
-                    "1": "24%",
-                    "2": "29%",
-                    "3": "35%",
-                    "4": "42%",
-                    "5": "50%"
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
                 }
             },
             "thumbnail": "heroes/Estelle/ut/4.png",

@@ -125,23 +125,23 @@
     },
     "uw": {
         "name": "Light of Judgment, Theoria",
-        "description": "When an ally other than the caster takes DMG, there is a (0) chance that a shield is cast upon them to absorb DMG equal to (1) of ATK for 5 sec while granting immunity to CC. This effect does not trigger more than once in 5 sec.",
+        "description": "When an ally other than the caster takes DMG, there is a {0}% chance that a shield is cast upon them to absorb DMG equal to {1}% of ATK for 5 sec while granting immunity to CC. This effect does not trigger more than once in 5 sec.",
         "value": {
             "0": {
-                "0": "10%",
-                "1": "12%",
-                "2": "14%",
-                "3": "17%",
-                "4": "20%",
-                "5": "25%"
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "17",
+                "4": "20",
+                "5": "25"
             },
             "1": {
-                "0": "320%",
-                "1": "384%",
-                "2": "460%",
-                "3": "552%",
-                "4": "660%",
-                "5": "800%"
+                "0": "320",
+                "1": "384",
+                "2": "460",
+                "3": "552",
+                "4": "660",
+                "5": "800"
             }
         },
         "thumbnail": "heroes/Ricardo/uw.png",
@@ -150,15 +150,15 @@
     "uts": {
         "1": {
             "name": "Stole of Templar",
-            "description": "[Destruction] For 10 sec, reduces the target's ATK by 20% and increases P.DMG and M.DMG target receives by (0).",
+            "description": "[Destruction] For 10 sec, reduces the target's ATK by 20% and increases P.DMG and M.DMG target receives by {0}%.",
             "value": {
                 "0": {
-                    "0": "5%",
-                    "1": "6%",
-                    "2": "7%",
-                    "3": "8.5%",
-                    "4": "10.5%",
-                    "5": "12.5%"
+                    "0": "5",
+                    "1": "6",
+                    "2": "7",
+                    "3": "8.5",
+                    "4": "10.5",
+                    "5": "12.5"
                 }
             },
             "thumbnail": "heroes/Ricardo/ut/1.png",
@@ -166,15 +166,15 @@
         },
         "2": {
             "name": "Pride of Holy Warrior",
-            "description": "[Divine Protection] Gains Immunity to CC and increases M.Resistance by (0) for the duration of skill.",
+            "description": "[Divine Protection] Gains Immunity to CC and increases M.Resistance by {0}% for the duration of skill.",
             "value": {
                 "0": {
-                    "0": "10%",
-                    "1": "12%",
-                    "2": "14%",
-                    "3": "17%",
-                    "4": "21%",
-                    "5": "25%"
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             },
             "thumbnail": "heroes/Ricardo/ut/2.png",
@@ -182,7 +182,7 @@
         },
         "3": {
             "name": "Guardian Knight Insignia",
-            "description": "[Divine Judgement] dispels enemies' positive effects with a 75% chance, and reduces target's ATK Spd by (0) for 10 sec.",
+            "description": "[Divine Judgement] dispels enemies' positive effects with a 75% chance, and reduces target's ATK Spd by {0} for 10 sec.",
             "value": {
                 "0": {
                     "0": "100",
@@ -198,15 +198,15 @@
         },
         "4": {
             "name": "Mittens",
-            "description": "[Divine Blessing] Increases duration by 5 sec. Reduces M.DMG dealt to self by (0) per stack.",
+            "description": "[Divine Blessing] Increases duration by 5 sec. Reduces M.DMG dealt to self by {0}% per stack.",
             "value": {
                 "0": {
-                    "0": "1%",
-                    "1": "1.2%",
-                    "2": "1.4%",
-                    "3": "1.7%",
-                    "4": "2.1%",
-                    "5": "2.5%"
+                    "0": "1",
+                    "1": "1.2",
+                    "2": "1.4",
+                    "3": "1.7",
+                    "4": "2.1",
+                    "5": "2.5"
                 }
             },
             "thumbnail": "heroes/Ricardo/ut/4.png",
