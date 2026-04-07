@@ -1,0 +1,210 @@
+{
+    "profile": {
+        "name": "Priscilla",
+        "title": "Maid of Steel Priscilla",
+        "class": "Warrior",
+        "position": "Front-600",
+        "attack_range": "4400",
+        "damage_type": "Physical",
+        "gender": "Female",
+        "age": "27",
+        "height": "168",
+        "race": "Human",
+        "constellation": "Guardian Mertis",
+        "birth_of_month": "January 15th, Month of Protection",
+        "like": "Comrades in arms, her lady, cute outfits for her lady",
+        "dislike": "Untidiness, injustice",
+        "story": "A former officer of Orvelia's armed forces. After a failed attempt to reveal the corruption of military leaders, she was driven out from her position. Wanting to conceal their corruption, the military leaders constantly sent out assassins to eliminate her. The long and lonely fight was beginning to take its toll on her, physically and mentally. One day, the aristocratic Daphnel family of Orvel offered her protection in exchange for her service. She accepted, and has been working as a maid for Aisha, the one who has received the Title of Violet from the Tower of Sage. To this day, she faithfully carries out her duties as a maid bodyguard. However, she sends all her payments to an undisclosed recipient.",
+        "thumbnail": "heroes/Priscilla/ico.png"
+    },
+    "skills": {
+        "1": {
+            "name": "Vital Strike",
+            "cost": "2",
+            "cooldown": "8",
+            "description": "Deals [ffc800]625*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 306.5% of ATK[-] P.DMG to enemies in a frontal area and stuns them for [64ffff]600[-]sec. This attack is guaranteed to Crit.",
+            "thumbnail": "heroes/Priscilla/skills/1.png"
+        },
+        "2": {
+            "name": "Coordination",
+            "cost": "3",
+            "cooldown": "15",
+            "description": "Removes negative effects from self and [64ffff]3allies[-] with the highest ATK, and grants [fa96fa][Assault][-] for [64ffff]10000[-]sec.\n\n[fa96fa][Assault][-]: Increases ATK by 15% of Priscilla’s ATK + [64ff64]55*(0.7+(0.3*Skill Level*Awakening Coefficient))[-].",
+            "thumbnail": "heroes/Priscilla/skills/2.png"
+        },
+        "3": {
+            "name": "Turbulent Dance",
+            "cost": "4",
+            "cooldown": "20",
+            "description": "Deals [ffc800]789*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 499.8% of ATK[-] P.DMG to enemies in a circular area and pulls them toward self. If under [fa96fa][Assault][-], increases P.DMG taken by [ff6464]{3}[-]% for [64ffff]40[-]sec.",
+            "thumbnail": "heroes/Priscilla/skills/3.png"
+        },
+        "4": {
+            "name": "Weapon Mastery",
+            "cost": null,
+            "cooldown": null,
+            "description": "Increases ATK by [64ff64]192*(0.7+(0.3*Skill Level*Awakening Coefficient))[-] and DEF Penetration by [64ff64]160[-].",
+            "thumbnail": "heroes/Priscilla/skills/4.png"
+        }
+    },
+    "books": {
+        "1": {
+            "II": "DMG is increased by [64ff64]10[-] %.",
+            "III": "DMG is increased by [64ff64]15[-] %.",
+            "IV": "DMG is increased by [64ff64]25[-] %."
+        },
+        "2": {
+            "II": "ATK boost is increased by [64ff64]10[-] %.",
+            "III": "ATK boost is increased by [64ff64]15[-] %.",
+            "IV": "ATK boost is increased by [64ff64]25[-] %."
+        },
+        "3": {
+            "II": "DMG is increased by [64ff64]10[-] %.",
+            "III": "DMG is increased by [64ff64]15[-] %.",
+            "IV": "DMG is increased by [64ff64]25[-] %."
+        },
+        "4": {
+            "II": "ATK boost is increased by [64ff64]10[-] %.",
+            "III": "ATK boost is increased by [64ff64]15[-] %.",
+            "IV": "Crit DMG is increased by [64ff64]16[-] %."
+        }
+    },
+    "perks": {
+        "t3": {
+            "1": {
+                "light": {
+                    "effect": "Changes Stun duration to 1.8 sec.",
+                    "thumbnail": "heroes/Priscilla/perks/s1l.png"
+                },
+                "dark": {
+                    "effect": "The guaranteed Critical Hit effect is removed, but Critical DMG is increased by 150%.",
+                    "thumbnail": "heroes/Priscilla/perks/s1d.png"
+                }
+            },
+            "2": {
+                "light": {
+                    "effect": "Increases Mana Cost by 1000, but increases duration by 5 sec.",
+                    "thumbnail": "heroes/Priscilla/perks/s2l.png"
+                },
+                "dark": {
+                    "effect": "While in [fa96fa][Assault][-], on Normal Attack, increases the target’s DMG taken by 25% for 1 sec.",
+                    "thumbnail": "heroes/Priscilla/perks/s2d.png"
+                }
+            },
+            "3": {
+                "light": {
+                    "effect": "On a Critical Hit, cooldown is reduced by 10%.",
+                    "thumbnail": "heroes/Priscilla/perks/s3l.png"
+                },
+                "dark": {
+                    "effect": "When there is only 1 enemy, damage increases by 100%.",
+                    "thumbnail": "heroes/Priscilla/perks/s3d.png"
+                }
+            },
+            "4": {
+                "light": {
+                    "effect": "Attack increase amount is increased by 40%.",
+                    "thumbnail": "heroes/Priscilla/perks/s4l.png"
+                },
+                "dark": {
+                    "effect": "Crit Chance is increased by 250.",
+                    "thumbnail": "heroes/Priscilla/perks/s4d.png"
+                }
+            }
+        },
+        "t5": {
+            "light": {
+                "effect": "ATK, DEF, HP +15% / CC Resist +100",
+                "thumbnail": "heroes/Priscilla/perks/light.png"
+            },
+            "dark": {
+                "effect": "Increases all allies’ Attack by 3% of your Attack, and increases all allies’ Physical Defense by 3% of your Physical Defense.",
+                "thumbnail": "heroes/Priscilla/perks/dark.png"
+            }
+        }
+    },
+    "uw": {
+        "name": "Tumultuous Dance, Excilius",
+        "description": "Upon hitting enemies with a Skill, reduces the Cooldown of the used Skill by {0} sec per enemy hit, and increases ATK Spd by 2% for 5 sec. ATK Spd increase stacks up to 10 times.",
+        "thumbnail": "heroes/Priscilla/uw.png",
+        "story": "During her military career, Priscilla felled countless enemies with her halberd. Although the halberd fell into a state of disrepair following her retirement, it was later resurrected as Excilius. This upgrade was a part of the order sent to Annette to create Mahitra for Aisha. This razor-sharp and incredibly durable new weapon even has the magical power to draw its enemies in. Those who have seen Priscilla slaughtering her Demon foes using this halberd claim that it was like watching an unstoppable storm.",
+        "value": {
+            "0": {
+                "0": "1",
+                "1": "1.2",
+                "2": "1.4",
+                "3": "1.6",
+                "4": "1.8",
+                "5": "2"
+            }
+        }
+    },
+    "uts": {
+        "1": {
+            "name": "Weight of Fierce Attack",
+            "description": "[Vital Strike] Increases DMG by 50%, and for 10 sec, reduces the target's P.Block Chance by {0}.",
+            "thumbnail": "heroes/Priscilla/ut/1.png",
+            "story": "A weight attached to the bottom of Excilius's grip.\nIt provides Priscilla with better balance, allowing for more stable, precise attacks. When Annette enhanced her halberd into Excilius, she replaced its weight, too. Through Technomagical enhancement, the hardness of the weight was significantly increased with an upgrade that allows her to perform attacks with high precision.",
+            "value": {
+                "0": {
+                    "0": "150",
+                    "1": "180",
+                    "2": "210",
+                    "3": "240",
+                    "4": "270",
+                    "5": "300"
+                }
+            }
+        },
+        "2": {
+            "name": "Fancy Tea Set",
+            "description": "[Coordination] Increases ATK Boost by {0}% and reduces skill cooldown of the ally with the highest ATK by 20%.",
+            "thumbnail": "heroes/Priscilla/ut/2.png",
+            "story": "Aisha's favorite ceramic tea cups that Priscilla has ready at all times. \nLuxurious tea cups made from the best clay of the eastern continent across the sea. It's mostly used for tea time with Aisha, but it is also used when using Coordination with Priscilla.",
+            "value": {
+                "0": {
+                    "0": "25",
+                    "1": "30",
+                    "2": "35",
+                    "3": "40",
+                    "4": "45",
+                    "5": "50"
+                }
+            }
+        },
+        "3": {
+            "name": "Magical Stone of Gravity",
+            "description": "[Turbulent Dance] Increases DMG by {0}% and Stuns the target for 1.8 sec.",
+            "thumbnail": "heroes/Priscilla/ut/3.png",
+            "story": "The first magic tool made by a wizard of Violet. The first gift that Aisha gave. Aisha created this magic tool because she felt bad that Priscilla used up so much power when using Turbulent Dance. The Mana Stone of Gravity relieves the pressure from the body when using Turbulent Dance, and it increases its effect.",
+            "value": {
+                "0": {
+                    "0": "25",
+                    "1": "30",
+                    "2": "35",
+                    "3": "40",
+                    "4": "45",
+                    "5": "50"
+                }
+            }
+        },
+        "4": {
+            "name": "Beginning of Turbulence",
+            "description": "[Weapon Mastery] Increases ATK Boost by 50% and increases own P.DEF by {0}%.",
+            "thumbnail": "heroes/Priscilla/ut/4.png",
+            "story": "A halberd that Priscilla used for practice.\nThe storm of war started from this shabby old spear.\nShe would take it out occasionally to be reminded of her training days.\nThis is how she could always stay true to his way of life, protecting her Lady against all harms.",
+            "value": {
+                "0": {
+                    "0": "12",
+                    "1": "14.4",
+                    "2": "16.8",
+                    "3": "19.2",
+                    "4": "21.6",
+                    "5": "24"
+                }
+            }
+        }
+    },
+    "splashart": "heroes/Priscilla/sa.png",
+    "costumes": "heroes/Priscilla/cos"
+}

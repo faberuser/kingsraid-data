@@ -1,0 +1,218 @@
+{
+    "profile": {
+        "name": "Sonia",
+        "title": "The Blue Hurricane Sonia",
+        "class": "Knight",
+        "position": "Front-650",
+        "attack_range": "6300",
+        "damage_type": "Magical",
+        "gender": "Female",
+        "age": "16 (No growth since creation)",
+        "height": "152",
+        "race": "Homunculus",
+        "constellation": "Satua the Sage",
+        "birth_of_month": "February 23rd, Month of Wisdom",
+        "like": "Mirianne, and everyone at the orphanage",
+        "dislike": "Wizards, alchemists",
+        "story": "A combat homunculus created by a wizard in Orvel, who used the heart of Baikal the Lightning Beast as her core. After gaining self-awareness in the creation process, she fled the laboratory and spent the next few years at Ricardo's orphanage. She is capable of casting powerful lightning magic at will. As a combat homunculus, she boasts excellent physical abilities as well. Beneath her appearance as a young girl, she is a confused war machine searching for the meaning of her existence. The wizards of the Tower of Sage bestowed her the title of 'Blue' to indicate her mastery over chant-less spell casting. However, she distrusts wizards and has no desire to associate herself with the Tower.",
+        "thumbnail": "heroes/Sonia/ico.png"
+    },
+    "skills": {
+        "1": {
+            "name": "Lightning Strike!",
+            "cost": "2",
+            "cooldown": "8",
+            "description": "Detonates lightning in front, dealing [ffc800]333*(0.7+(0.3*Skill Level*Awakening Coefficient))+ 208.8% of ATK[-] M.DMG to enemies within range and creates [fa96fa][Electric Field][-] for [64ffff]4sec[-].\n\n[fa96fa][Electric Field][-]: Deals [ffc800]48*(0.7+(0.3*Skill Level*Awakening Coefficient))+ 30.2% of ATK[-] M.DMG every [64ffff]0.4sec[-], and each hit has a [64ffff]{3}[-]% chance to stun enemies for [64ffff]0.3[-]sec.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Sonia/skills/1.png"
+        },
+        "2": {
+            "name": "Power of Lightning!",
+            "cost": "3",
+            "cooldown": "10",
+            "description": "For [64ffff]15[-]sec, increases M.DEF by [ffc800]224*(0.7+(0.3*Skill Level*Awakening Coefficient))[[-] and ATK Spd by [64ff64]30[-]%. During the duration, on Normal Attack, has a [64ffff]30[-]% chance to deal [ffc800]0.3[-] additional M.DMG to [64ffff]2allies[-] and stun them for [64ffff]{7}[-]sec.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Sonia/skills/2.png"
+        },
+        "3": {
+            "name": "Electric Explosion!",
+            "cost": "3",
+            "cooldown": "20",
+            "description": "Attacks enemies in a circular area around self, dealing [ffc800]148*(0.7+(0.3*Skill Level*Awakening Coefficient))+ 92.8% of ATK[-] M.DMG [64ffff]{1}[-] time(s), then detonates lightning to deal [ffc800]222*(0.7+(0.3*Skill Level*Awakening Coefficient))+ 139.2% of ATK[-] M.DMG [64ffff]{2}[-] times and stun enemies for [64ffff]3[-]sec.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Sonia/skills/3.png"
+        },
+        "4": {
+            "name": "Shock",
+            "cost": null,
+            "cooldown": null,
+            "description": "On attack, infuses [fa96fa][Charge][-] into enemies not under [fa96fa][Shock][-], increasing M.DMG taken by [ff6464]1[-]% for [64ffff]10[-]sec. [fa96fa][Charge][-] stacks up to [64ffff]30[-] times. At 30 stacks, consumes all stacks to deal [ffc800]926*(0.7+(0.3*Skill Level*Awakening Coefficient))+ 580% of ATK[-] M.DMG and inflict [fa96fa][Shock][-] for [64ffff]5[-]sec.\n\n[fa96fa][Shock][-]: Increases duration of all received [fa96fa]Stun[-] effects by [64ffff]0.7[-]sec and increases M.DMG taken by [ff6464]40[-]%.",
+            "thumbnail": "heroes/Sonia/skills/4.png"
+        }
+    },
+    "books": {
+        "1": {
+            "II": "DMG is increased by [64ff64]10[-] %.",
+            "III": "DMG is increased by [64ff64]15[-] %.",
+            "IV": "DMG is increased by [64ff64]25[-] %."
+        },
+        "2": {
+            "II": "ATK and DEF boosts are increased by [64ff64]10[-] %.",
+            "III": "ATK and DEF boosts are increased by [64ff64]15[-] %.",
+            "IV": "ATK and DEF boosts are increased by [64ff64]25[-] %."
+        },
+        "3": {
+            "II": "DMG is increased by [64ff64]10[-] %.",
+            "III": "DMG is increased by [64ff64]15[-] %.",
+            "IV": "DMG is increased by [64ff64]25[-] %."
+        },
+        "4": {
+            "II": "DMG is increased by [64ff64]10[-] %.",
+            "III": "DMG is increased by [64ff64]15[-] %.",
+            "IV": "DMG is increased by [64ff64]25[-] %."
+        }
+    },
+    "perks": {
+        "t3": {
+            "1": {
+                "light": {
+                    "effect": "Mana cost increases by 1000, but DMG is increased by 80%.",
+                    "thumbnail": "heroes/Sonia/perks/s1l.png"
+                },
+                "dark": {
+                    "effect": "Stun chance is increased by 10%.",
+                    "thumbnail": "heroes/Sonia/perks/s1d.png"
+                }
+            },
+            "2": {
+                "light": {
+                    "effect": "DEF and ATK SPD increases are increased by 40%.",
+                    "thumbnail": "heroes/Sonia/perks/s2l.png"
+                },
+                "dark": {
+                    "effect": "Additional DMG is applied to up to 4 enemies.",
+                    "thumbnail": "heroes/Sonia/perks/s2d.png"
+                }
+            },
+            "3": {
+                "light": {
+                    "effect": "When there is only 1 enemy, DMG is increased by 100%.",
+                    "thumbnail": "heroes/Sonia/perks/s3l.png"
+                },
+                "dark": {
+                    "effect": "Stun duration is increased by 1.2 sec.",
+                    "thumbnail": "heroes/Sonia/perks/s3d.png"
+                }
+            },
+            "4": {
+                "light": {
+                    "effect": "[Shock] duration is increased by 1.5 sec.",
+                    "thumbnail": "heroes/Sonia/perks/s4l.png"
+                },
+                "dark": {
+                    "effect": "[Shock] is changed to a Physical DMG-related effect.",
+                    "thumbnail": "heroes/Sonia/perks/s4d.png"
+                }
+            }
+        },
+        "t5": {
+            "light": {
+                "effect": "ATK, DEF, HP +15% / ATK Spd +100",
+                "thumbnail": "heroes/Sonia/perks/light.png"
+            },
+            "dark": {
+                "effect": "Upon attack, with 15% chance deals extra M.DMG by 10% of Max HP and injects 1 extra stack of Electricity.",
+                "thumbnail": "heroes/Sonia/perks/dark.png"
+            }
+        }
+    },
+    "uw": {
+        "name": "Eye of the Storm, Yanadis",
+        "description": "[Shock] duration is changed to {0}.\nWhen attacking a target in [Shock] state with a Normal Attack, reduces cooldown by {1}% and deals additional Magic DMG equal to 100% of ATK.",
+        "thumbnail": "heroes/Sonia/uw.png",
+        "story": "A sphere of electricity created by Sonia based on the beast core that is now her own heart. She has shown great talent in making magic gear, and this is the first weapon she ever created. It's a bit lacking in stability, mostly due to the overwhelming electricity it contains. The powerful electrical storm created by this weapon is truly dangerous for any enemy. In fact, anyone besides Sonia who touches it would be instantly fried by the immense current that flows through it.",
+        "value": {
+            "0": {
+                "0": "7.5",
+                "1": "8",
+                "2": "8.5",
+                "3": "9",
+                "4": "9.5",
+                "5": "10"
+            },
+            "1": {
+                "0": "2",
+                "1": "2.4",
+                "2": "2.8",
+                "3": "3.2",
+                "4": "3.6",
+                "5": "4"
+            }
+        }
+    },
+    "uts": {
+        "1": {
+            "name": "Jewel of Amplification",
+            "description": "[Lightning Strike! ] Increases the duration of the electric field by 2 sec, and on each hit, increases own M.DEF by {0}% for 5 sec. This effect stacks up to 10 times.",
+            "thumbnail": "heroes/Sonia/ut/1.png",
+            "story": "A jewel that the Tower of Sage bestowed upon Sonia with the title of Blue. It has a special function of condensing and amplifying Sonia's lightning energy. The sages in the tower gave her the jewel, hoping that she would stay. However, she left the tower anyway, repulsed by the existence of wizards. She left the jewel in the tower, but at some point during her journey, she realized that it somehow ended up in her pocket.",
+            "value": {
+                "0": {
+                    "0": "1.5",
+                    "1": "1.8",
+                    "2": "2.1",
+                    "3": "2.4",
+                    "4": "2.7",
+                    "5": "3"
+                }
+            }
+        },
+        "2": {
+            "name": "Lightning Tent",
+            "description": "[Power of Lightning! ] Converts the M.DEF increase effect into an ATK increase effect, and on attack, increases ATK by {0}% for 5 sec.",
+            "thumbnail": "heroes/Sonia/ut/2.png",
+            "story": "A cloak that Mirianne made for Sonia by braving a danger. There was a time when Sonia's clothes would burn from the explosion of the electricity that ran through her body. Mirianne saw that and plucked out the ereth plant that is said to grow by being struck by lightning. She pulled out its thread and completed a cloak with it. Sonia saw Mirianne's blistered hands from the electricity, and she cried in silence for a long time. A piece of clothing just for Sonia that can't be found anywhere else.",
+            "value": {
+                "0": {
+                    "0": "4",
+                    "1": "4.8",
+                    "2": "5.6",
+                    "3": "3.4",
+                    "4": "7.2",
+                    "5": "8"
+                }
+            }
+        },
+        "3": {
+            "name": "Heart of Baikal",
+            "description": "[Electric Explosion!] Grants immunity to CC during casting, and on each hit, has a {0}% chance to apply 3 stacks of Charge. This effect also Stacks on enemies in Shock state.",
+            "thumbnail": "heroes/Sonia/ut/3.png",
+            "story": "Heart of Baikal, who is called a holy beast. He eats the elements of light and dark from the world, so his heart is full of thunder from the collision between the two elements. If someone unskilled were to touch it, he would be absorbed by its power. But Sonia, who is made up of the core of lightning, absorbed that power and obtained mana that is beyond imaginable.",
+            "value": {
+                "0": {
+                    "0": "50",
+                    "1": "60",
+                    "2": "70",
+                    "3": "80",
+                    "4": "90",
+                    "5": "100"
+                }
+            }
+        },
+        "4": {
+            "name": "Lightning Gloves",
+            "description": "[Shock] Increases Magic DMG taken by enemies in Shock state by 60%, and additionally reduces their M.DEF by {0}%.",
+            "thumbnail": "heroes/Sonia/ut/4.png",
+            "story": "An artifact crafted by Sonia herself that contains the enormous lightning energy generated from her heart.\nWhen the core of Baikal within her broke loose, Sonia's lightning energy would overflow and cause an inner explosion. \nShe could not release the power as it could hurt Mirianne. Out of concern, Mirianne suggested that she make an artifact that could control it.\nIt took Sonia a long time to make this pair of gloves durable enough to withstand her lightning energy.\nThe result exceeded her wildest expectations.\nWhat she made was an enormous reserve of energy, which enabled her to use and control the energy without having to worry about exhaustion.\nMoreover, the gloves would protect Mirianne from possible explosions, which made Sonia proud.",
+            "value": {
+                "0": {
+                    "0": "15",
+                    "1": "18",
+                    "2": "21",
+                    "3": "24",
+                    "4": "27",
+                    "5": "30"
+                }
+            }
+        }
+    },
+    "splashart": "heroes/Sonia/sa.png",
+    "costumes": "heroes/Sonia/cos"
+}

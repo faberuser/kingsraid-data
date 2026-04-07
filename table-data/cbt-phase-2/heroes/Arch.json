@@ -1,0 +1,218 @@
+{
+    "profile": {
+        "name": "Arch",
+        "title": "Arrow of Purity Arch",
+        "class": "Archer",
+        "position": "Back-200",
+        "attack_range": "3100",
+        "damage_type": "Magical",
+        "gender": "Male",
+        "age": "???",
+        "height": "193",
+        "race": "Angel",
+        "constellation": "Judgment Layan",
+        "birth_of_month": "September 17th, Month of Truth",
+        "like": "Peace and stability",
+        "dislike": "Demons",
+        "story": "An Angel warrior who descended from the Heavens to punish the Demons and stop the spread of chaos on earth. His delegated tasks include scouting, reconnaissance, and execution of any Demons found on earth. He has a strong sense of responsibility and is quick and decisive against any injustice. He truly loves Mankind and all the life forms that inhabit the earth. This is why he strives to prevent the Demons from defiling this world.",
+        "thumbnail": "heroes/Arch/ico.png"
+    },
+    "skills": {
+        "1": {
+            "name": "Celestial Arrow",
+            "cost": "2",
+            "cooldown": "6",
+            "description": "Deals [ffc800]310*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 196.3% of ATK[-] M.DMG to [64ffff][DAMAGE] enemy[-], [fa96fa]knocks them back[-], and engraves [fa96fa][Judgment Mark][-] for [64ffff]15sec[-].\n\n[fa96fa][Judgment Mark]:[-] M.DMG taken is increased by [ff6464]15%[-].",
+            "thumbnail": "heroes/Arch/skills/1.png"
+        },
+        "2": {
+            "name": "Purifying Blaze",
+            "cost": "4",
+            "cooldown": "14",
+            "description": "Deals [ffc800]146*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 92.6% of ATK[-] M.DMG [64ffff][DAMAGE] times[-] to enemies in a frontal line.\n\n[fa96fa][Judgment Mark]:[-] Deals [ffc800]219*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 138.8% of ATK[-] additional M.DMG [64ffff]{4} times[-], reduces Healing by [ff6464]{6}%[-] for [64ffff]{5}sec[-]. This additional damage gains [64ff64]{7}[-] extra DEF Penetration.",
+            "thumbnail": "heroes/Arch/skills/2.png"
+        },
+        "3": {
+            "name": "Arbiter",
+            "cost": "4",
+            "cooldown": "20",
+            "description": "Deals [ffc800]1235*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 782.7% of ATK[-] M.DMG to enemies in range and [fa96fa]silences[-] them for [64ffff]2sec[-]. Then, for [64ffff]5sec[-], all allies gain [fa96fa]Magic Damage Immunity[-].\n\n[fa96fa][Judgment Mark]:[-] M.DMG taken is increased by [ff6464]5%[-] for [64ffff]40sec[-].",
+            "thumbnail": "heroes/Arch/skills/3.png"
+        },
+        "4": {
+            "name": "The Last Judgment",
+            "cost": null,
+            "cooldown": null,
+            "description": "When using a skill, triggers an additional effect on enemies with [fa96fa][Judgment Mark][-]. Also, once per battle, when taking fatal damage, gains [fa96fa][Death Resistance][-], deals [ffc800]642*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 407.1% of ATK[-] M.DMG to enemies with [fa96fa][Judgment Mark][-], and [fa96fa]stuns[-] them for [64ffff][DAMAGE]sec[-]. Then, for [64ffff]{3}sec[-], grants all allies a shield that absorbs [ffc800]1566*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 687.3% of ATK[-] damage and increases Status Resistance by [64ff64]{5}[-].\n\n[fa96fa][Death Resistance]:[-] Ignores fatal damage, but consumes all Mana and increases the remaining cooldown of all skills by [64ffff]{6}%[-].\n[fa96fa][Judgment Mark]:[-] Every [64ffff]{7}sec[-], deals [ffc800]214*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 135.7% of ATK[-] M.DMG. This damage gains [64ff64]{9}[-] extra DEF Penetration. \n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Arch/skills/4.png"
+        }
+    },
+    "books": {
+        "1": {
+            "II": "Increases DMG by [64ff64]10%[-].",
+            "III": "Increases DMG by [64ff64]15%[-].",
+            "IV": "Increases DMG by [64ff64]25%[-]."
+        },
+        "2": {
+            "II": "Increases DMG by [64ff64]10%[-].",
+            "III": "Increases DMG by [64ff64]15%[-].",
+            "IV": "Increases DMG by [64ff64]25%[-]."
+        },
+        "3": {
+            "II": "DMG is increased by [64ff64]10[-] %.",
+            "III": "DMG is increased by [64ff64]15[-] %.",
+            "IV": "DMG is increased by [64ff64]25[-] %."
+        },
+        "4": {
+            "II": "DMG and Shield are increased by [64ff64]10[-] %.",
+            "III": "DMG and Shield are increased by [64ff64]15[-] %.",
+            "IV": "DMG and Shield are increased by [64ff64]25[-] %."
+        }
+    },
+    "perks": {
+        "t3": {
+            "1": {
+                "light": {
+                    "effect": "Mana cost is reduced by 1000.",
+                    "thumbnail": "heroes/Arch/perks/s1l.png"
+                },
+                "dark": {
+                    "effect": "On hit, reduces Mana by 500.",
+                    "thumbnail": "heroes/Arch/perks/s1d.png"
+                }
+            },
+            "2": {
+                "light": {
+                    "effect": "Heal Rate Reduction also applies to enemies without [Judgment Mark].",
+                    "thumbnail": "heroes/Arch/perks/s2l.png"
+                },
+                "dark": {
+                    "effect": "Gains immunity to CC while casting.",
+                    "thumbnail": "heroes/Arch/perks/s2d.png"
+                }
+            },
+            "3": {
+                "light": {
+                    "effect": "Mana cost is reduced by 1000.",
+                    "thumbnail": "heroes/Arch/perks/s3l.png"
+                },
+                "dark": {
+                    "effect": "DMG Boost also applies to enemies without [Judgment Mark], and the effect duration is increased by 5 sec.",
+                    "thumbnail": "heroes/Arch/perks/s3d.png"
+                }
+            },
+            "4": {
+                "light": {
+                    "effect": "After [Revival], for 20sec, Normal Attacks hit 2 enemies.",
+                    "thumbnail": "heroes/Arch/perks/s4l.png"
+                },
+                "dark": {
+                    "effect": "Effect occurs 3 sec faster.",
+                    "thumbnail": "heroes/Arch/perks/s4d.png"
+                }
+            }
+        },
+        "t5": {
+            "light": {
+                "effect": "ATK, DEF, HP +15% / Crit Chance +100",
+                "thumbnail": "heroes/Arch/perks/light.png"
+            },
+            "dark": {
+                "effect": "At the start of battle, gain immunity to Magic DMG for 5sec.",
+                "thumbnail": "heroes/Arch/perks/dark.png"
+            }
+        }
+    },
+    "uw": {
+        "name": "Clear Blue Sky, Sherrkyle",
+        "description": "Every 10 sec, applies [Judgment Mark] to a random enemy for {0} sec and deals M.DMG equal to {1}% of ATK. If the target is not a Hero, DEF Penetration is increased by 500.",
+        "thumbnail": "heroes/Arch/uw.png",
+        "story": "A powerful weapon of light that can take the form of a spear, a dagger, or a bow. One of the divine treasures of the Angels blessed by an archangel. It is said to be capable of incinerating evil. Due to its versatility, it has traditionally been given to the most talented scout. The number of Demons who perished under its light during the war is too high to count.",
+        "value": {
+            "0": {
+                "0": "7.5",
+                "1": "9",
+                "2": "10.5",
+                "3": "12",
+                "4": "13.5",
+                "5": "15"
+            },
+            "1": {
+                "0": "250",
+                "1": "300",
+                "2": "350",
+                "3": "400",
+                "4": "450",
+                "5": "500"
+            }
+        }
+    },
+    "uts": {
+        "1": {
+            "name": "Holy Golden Arrow",
+            "description": "[Celestial Arrow] Increases DMG by {0}% and the number of targets by 2.",
+            "thumbnail": "heroes/Arch/ut/1.png",
+            "story": "A golden arrow created by the divine power of Arch.\nIt summons and materializes the purest and holiest light from heaven, its power increasing according to the amount of divine power given to it. For the good of heart, it's merely a beautiful scene to watch, but if evil creatures are shot by it, they become mutilated and slammed into some non-material dimension.",
+            "value": {
+                "0": {
+                    "0": "25",
+                    "1": "30",
+                    "2": "35",
+                    "3": "40",
+                    "4": "45",
+                    "5": "50"
+                }
+            }
+        },
+        "2": {
+            "name": "Magic Square of Pursuit",
+            "description": "[Purifying Light] Reduces Mana Cost by 1000 and increases DMG by {0}%.",
+            "thumbnail": "heroes/Arch/ut/2.png",
+            "story": "The symbol of Fire Arbiter Army that fought a fierce battle against Ancient Demons. \nWhen using the Magic Square of Pursuit blessed by Lua, the Goddess of Light, Arch becomes a merciless arbiter.",
+            "value": {
+                "0": {
+                    "0": "25",
+                    "1": "30",
+                    "2": "35",
+                    "3": "40",
+                    "4": "45",
+                    "5": "50"
+                }
+            }
+        },
+        "3": {
+            "name": "Eye of Heaven",
+            "description": "[Arbiter] Increases DMG by {0}% and increases all allies’ ATK by 25% for the duration of M.Shield.",
+            "thumbnail": "heroes/Arch/ut/3.png",
+            "story": "Angel Arbiter Pilier's soul egg. Pilier was born from Lua's first flame, and is Arch's master. Pilier was the best Angel warrior and was the one to end the war against the Demons. But after using all of his power, he went back to being an Eye of Heaven, which is the soul egg form, and Arch is holding onto his master's soul.",
+            "value": {
+                "0": {
+                    "0": "25",
+                    "1": "30",
+                    "2": "35",
+                    "3": "40",
+                    "4": "45",
+                    "5": "50"
+                }
+            }
+        },
+        "4": {
+            "name": "Bell of Punishment",
+            "description": "[The Last Judgment] Upon taking fatal DMG, heals all allies for 15% of Max HP and silences all enemies for {0} sec.",
+            "thumbnail": "heroes/Arch/ut/4.png",
+            "story": "A heavenly bell that rings in the morning star.\nThe bell rings to warn the Angel warriors whenever the earth faces great trouble, letting them know that divine punishment will be needed .\nUpon hearing the bell, warriors realize that the time has come for them to slit the throats of the bringers of apocalypse under Lua's name.",
+            "value": {
+                "0": {
+                    "0": "1",
+                    "1": "1.2",
+                    "2": "1.4",
+                    "3": "1.6",
+                    "4": "1.8",
+                    "5": "2"
+                }
+            }
+        }
+    },
+    "splashart": "heroes/Arch/sa.png",
+    "costumes": "heroes/Arch/cos"
+}

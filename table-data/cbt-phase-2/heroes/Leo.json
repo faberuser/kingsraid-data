@@ -1,0 +1,218 @@
+{
+    "profile": {
+        "name": "Leo",
+        "title": "Eternal Scribe Leo",
+        "class": "Priest",
+        "position": "Back-100",
+        "attack_range": "2700",
+        "damage_type": "Physical",
+        "gender": "Male",
+        "age": "???",
+        "height": "144",
+        "race": "Gnome",
+        "constellation": "Lasiphil the Prophet",
+        "birth_of_month": "March 23rd, Month of Insight",
+        "like": "Reading, writing, recording",
+        "dislike": "Loneliness",
+        "story": "In the royal palace of Orvel, there exists a library that is said to be infinite in space. Leo is a Gnome who has been protecting this library for a very long time. Having memorized every book in the library, he is the most knowledgeable person in the entire palace, and many visit the library, seeking his wisdom. However, he still seems to have difficulty interacting with others.",
+        "thumbnail": "heroes/Leo/ico.png"
+    },
+    "skills": {
+        "1": {
+            "name": "Rune of Frailty",
+            "cost": "2",
+            "cooldown": "10",
+            "description": "Engraves a sigil on [64ffff]5[-] enemy, dealing [ffc800]864*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 547.3% of ATK[-] P.DMG and reducing P.DEF by [ff6464][DAMAGE]%[-] for [64ffff]5sec[-]. This skill gains an additional [64ff64]{5}[-] DEF Penetration, and DMG increases by up to [ffc800]200%[-] based on the target’s missing HP.",
+            "thumbnail": "heroes/Leo/skills/1.png"
+        },
+        "2": {
+            "name": "Rune of Healing",
+            "cost": "2",
+            "cooldown": "7",
+            "description": "Restores [ffc800]621*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 100.8% of ATK[-] HP to all allies, then additionally restores [ffc800]124*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 20.2% of ATK[-] HP every [64ffff]{3}sec[-] for [64ffff]{2}sec[-], and reduces P.DMG taken by [64ff64]{5}%[-].",
+            "thumbnail": "heroes/Leo/skills/2.png"
+        },
+        "3": {
+            "name": "Rune of Silence",
+            "cost": "1",
+            "cooldown": "40",
+            "description": "Deals [ffc800]690*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 450% of ATK[-] P.DMG to all enemies, removes positive effects, and [fa96fa]silences[-] them for [64ffff]1.8sec[-].",
+            "thumbnail": "heroes/Leo/skills/3.png"
+        },
+        "4": {
+            "name": "Rune of Protection",
+            "cost": null,
+            "cooldown": "12",
+            "description": "Every [64ffff]0sec[-], [fa96fa]negates[-] damage [64ffff]2 times[-] for the [64ffff]2[-] allies with the lowest current HP.",
+            "thumbnail": "heroes/Leo/skills/4.png"
+        }
+    },
+    "books": {
+        "1": {
+            "II": "DMG is increased by [64ff64]10[-] %.",
+            "III": "DMG is increased by [64ff64]15[-] %.",
+            "IV": "DMG is increased by [64ff64]25[-] %."
+        },
+        "2": {
+            "II": "Heal rate is increased by [64ff64]10[-] %.",
+            "III": "Heal rate is increased by [64ff64]15[-] %.",
+            "IV": "Heal rate is increased by [64ff64]25[-] %."
+        },
+        "3": {
+            "II": "Silence duration is increased by [64ff64]0.25[-] sec.",
+            "III": "Silence duration is increased by [64ff64]0.25[-] sec.",
+            "IV": "Silence duration is increased by [64ff64]0.5[-] sec."
+        },
+        "4": {
+            "II": "Heal rate is increased by [64ff64]10[-] %.",
+            "III": "Heal rate is increased by [64ff64]15[-] %.",
+            "IV": "Increases CC Resist by [64ff64]250[-] for the duration."
+        }
+    },
+    "perks": {
+        "t3": {
+            "1": {
+                "light": {
+                    "effect": "Cooldown is reduced by 2 sec.",
+                    "thumbnail": "heroes/Leo/perks/s1l.png"
+                },
+                "dark": {
+                    "effect": "Target number increased to 2.",
+                    "thumbnail": "heroes/Leo/perks/s1d.png"
+                }
+            },
+            "2": {
+                "light": {
+                    "effect": "Heal rate is increased by 40%.",
+                    "thumbnail": "heroes/Leo/perks/s2l.png"
+                },
+                "dark": {
+                    "effect": "Increase ally P.DEF for 25% for 10 sec after healing.",
+                    "thumbnail": "heroes/Leo/perks/s2d.png"
+                }
+            },
+            "3": {
+                "light": {
+                    "effect": "Mana cost is reduced by 1.",
+                    "thumbnail": "heroes/Leo/perks/s3l.png"
+                },
+                "dark": {
+                    "effect": "DMG is increased by 200% and the enemy target receives 20% more DMG from all sources for 10 sec. Mana cost is increased by 2.",
+                    "thumbnail": "heroes/Leo/perks/s3d.png"
+                }
+            },
+            "4": {
+                "light": {
+                    "effect": "Heal rate is increased by 40%.",
+                    "thumbnail": "heroes/Leo/perks/s4l.png"
+                },
+                "dark": {
+                    "effect": "After healing an ally, increase target P.DEF for 40% for a duration of 10 sec.",
+                    "thumbnail": "heroes/Leo/perks/s4d.png"
+                }
+            }
+        },
+        "t5": {
+            "light": {
+                "effect": "ATK, DEF, HP +15% / P. Block +200",
+                "thumbnail": "heroes/Leo/perks/light.png"
+            },
+            "dark": {
+                "effect": "Upon attacking, there is a 10% chance of dealing 120% of ATK as P.DMG to a random enemy, while also removing 300 mana and inflicting Silence for 1 sec.",
+                "thumbnail": "heroes/Leo/perks/dark.png"
+            }
+        }
+    },
+    "uw": {
+        "name": "Phoenix Quill, Belisa",
+        "description": "Every 20 seconds, for 10 seconds, All Defense is increased by {0}% and Attack Speed by {1}, and the first skill used gains an additional effect.\n[Seal of Weakening] – Gains 500 additional Defense Penetration.\n[Seal of Healing] – Clears all debuffs on yourself upon use.\n[Seal of Silence] – Silence duration is increased by 1 second.",
+        "thumbnail": "heroes/Leo/uw.png",
+        "story": "The phoenix is a holy beast that symbolizes eternal life. As elusive as the beast itself is, its feather is considered extremely rare as well. It is said that a quill crafted from a phoenix feather is a powerful magical tool in its own right. Runes drawn with this quill can serve as a powerful medium for Rune Magic.",
+        "value": {
+            "0": {
+                "0": "20",
+                "1": "24",
+                "2": "28",
+                "3": "32",
+                "4": "36",
+                "5": "40"
+            },
+            "1": {
+                "0": "20",
+                "1": "24",
+                "2": "28",
+                "3": "32",
+                "4": "36",
+                "5": "40"
+            }
+        }
+    },
+    "uts": {
+        "1": {
+            "name": "Ancient Letter Encyclopedia - First Volume",
+            "description": "[Rune of Frailty] Becomes irremovable and increases DMG by {0}%.",
+            "thumbnail": "heroes/Leo/ut/1.png",
+            "story": "Leo's favorite encyclopedia on the interpretation of ancient letters.\nIt's actually a 3-volume set, but the second and third volumes were burnt purposely by someone, leaving [First - Letters for curses and healing] as the only book left. Leo always feels upset, thinking that the secrets of the ancient letters could have been revealed if he had the other two books. Meanwhile, the book is locked and bears a mystical spell, making it impossible to read unless the book allows itself to be read.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            }
+        },
+        "2": {
+            "name": "Ink of Vitality",
+            "description": "[Rune of Healing] Increases Heal Rate by 50% and P.Crit Resistance of allies by {0} for 10 sec.",
+            "thumbnail": "heroes/Leo/ut/2.png",
+            "story": "Ink made by extracting young leaves from the World Tree. Only 10 droplets can be produced in a year.\nThe magic spells written with this ink grant great vitality to the body.\nIt's very precious and hard to obtain, so Leo doesn't use it unless it's for a special occasion.",
+            "value": {
+                "0": {
+                    "0": "100",
+                    "1": "120",
+                    "2": "140",
+                    "3": "170",
+                    "4": "210",
+                    "5": "250"
+                }
+            }
+        },
+        "3": {
+            "name": "Scroll of Memories",
+            "description": "[Rune of Silence] Increases DMG the target takes by 15% and reduces CC Resist by {0} for 10 sec.",
+            "thumbnail": "heroes/Leo/ut/3.png",
+            "story": "Ancient sorcery codex. A codex written by respected sorcerers that contains the principle behind magic that uses all of life and creation. It's written in an unknown language, so only part of it can be decoded. If the ancient text system is discovered, it might be possible to use spells without any cost whatsoever.",
+            "value": {
+                "0": {
+                    "0": "120",
+                    "1": "140",
+                    "2": "170",
+                    "3": "210",
+                    "4": "250",
+                    "5": "300"
+                }
+            }
+        },
+        "4": {
+            "name": "Golden Magnifier",
+            "description": "[Rune of Protection] Increases the number of targets by 1. Targets have their ATK Spd increased by {0} for the duration of skill.",
+            "thumbnail": "heroes/Leo/ut/4.png",
+            "story": "A magnifier made with gold passed down to the writers of history.\nIt is a token of recognition owned by the most truthful, unbiased writers of Orvel history.\nThere is no higher honor for a historian than to be awarded with the Golden Magnifier.",
+            "value": {
+                "0": {
+                    "0": "200",
+                    "1": "240",
+                    "2": "290",
+                    "3": "350",
+                    "4": "420",
+                    "5": "500"
+                }
+            }
+        }
+    },
+    "splashart": "heroes/Leo/sa.png",
+    "costumes": "heroes/Leo/cos"
+}

@@ -20,7 +20,7 @@
     "skills": {
         "1": {
             "name": "Fierce Winds",
-            "cost": "3",
+            "cost": "2",
             "cooldown": "8",
             "description": "Charges a total of 2 time(s). On the first attack, moves behind the enemy and deals [ffc800]922*(0.7+(0.3*Skill Level*Awakening Coefficient))+532.2% ATK[-] as Physical DMG, [fa96fa]knocking them down[-] for [64ffff]1sec[-]. On the second attack, moves behind the enemy with the highest ATK, dealing [ffc800]615*(0.7+(0.3*Skill Level*Awakening Coefficient))+344.1% ATK[-] as Physical DMG, [fa96fa]knocking them down[-] for [64ffff]1sec[-], and increasing Physical DMG taken by [ff6464]20%[-] for [64ffff]4sec[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
             "thumbnail": "heroes/Naila/skills/1.png"
@@ -29,7 +29,7 @@
             "name": "Wind Reading",
             "cost": "3",
             "cooldown": "14",
-            "description": "Removes your harmful effects and puts all allies into [fa96fa][Reading the Wind][-] state for [64ffff]7sec[-], increasing ATK by [64ff64]333*(0.7+(0.3*Skill Level*Awakening Coefficient))[-] and Physical Evasion Chance by [64ff64]300[-].\nWhen a target in [fa96fa][Reading the Wind][-] state successfully evades, all allies’ Critical DMG is increased by [64ff64]2%[-] for [64ffff]7sec[-]. This effect stacks up to [64ffff]10 times[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "description": "Removes all negative effects from self and grants all allies [fa96fa][Reading the Wind][-] for [64ffff]7sec[-], increasing ATK by [64ff64]302*(0.7+(0.3*Skill Level*Awakening Coefficient))[-] and Physical Evasion by [64ff64]300[-].\nIf a target under [fa96fa][Reading the Wind][-] successfully evades, all allies’ Crit DMG is increased by [64ff64]2%[-] for [64ffff]7sec[-]. This effect stacks up to [64ffff]10 times[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
             "thumbnail": "heroes/Naila/skills/2.png"
         },
         "3": {
@@ -49,24 +49,24 @@
     },
     "books": {
         "1": {
-            "II": "Increases DMG by [64ff64]10[-]%.",
-            "III": "Increases DMG by [64ff64]15[-]%.",
-            "IV": "Increases DMG by [64ff64]25[-]%."
+            "II": "Increases DMG by [64ff64]10%[-].",
+            "III": "Increases DMG by [64ff64]15%[-].",
+            "IV": "Increases DMG by [64ff64]25%[-]."
         },
         "2": {
-            "II": "Increases ATK Boost by [64ff64]10[-]%.",
-            "III": "Increases ATK Boost by [64ff64]15[-]%.",
-            "IV": "Increases ATK Boost by [64ff64]25[-]%."
+            "II": "Increases ATK Boost by [64ff64]10%[-].",
+            "III": "Increases ATK Boost by [64ff64]15%[-].",
+            "IV": "Increases ATK Boost by [64ff64]25%[-]."
         },
         "3": {
-            "II": "Increases DMG by [64ff64]10[-]%.",
-            "III": "Increases DMG by [64ff64]15[-]%.",
+            "II": "Increases DMG by [64ff64]10%[-].",
+            "III": "Increases DMG by [64ff64]15%[-].",
             "IV": "Stuns damaged enemies for 1 sec."
         },
         "4": {
-            "II": "Increases DMG by [64ff64]10[-]%.",
-            "III": "Increases DMG by [64ff64]15[-]%.",
-            "IV": "Increases DMG by [64ff64]25[-]%."
+            "II": "Increases DMG by [64ff64]10%[-].",
+            "III": "Increases DMG by [64ff64]15%[-].",
+            "IV": "Increases DMG by [64ff64]25%[-]."
         }
     },
     "perks": {
@@ -125,25 +125,25 @@
     },
     "uw": {
         "name": "Cursed Claws, Baroro",
-        "description": "On hit, increases the target’s Physical Damage taken by {0}% and reduces Status Ailment Resistance by {1} for 10 sec.\nIf the target is a boss, damage dealt to the boss is increased by {2}%, and this boss damage increase effect stacks up to 10 times.",
+        "description": "On hit, increases the target’s Physical Damage taken by {0}% and reduces Status Ailment Resistance by 100 for {1} sec.\nIf the target is a boss, damage dealt to the boss is increased by {2}%, and this boss damage increase effect stacks up to 10 times.",
         "thumbnail": "heroes/Naila/uw.png",
         "story": "A cursed pair of gauntlets crafted from the claws of the Mad Demon Baroro, which was defeated during the war. Several times the size of the average human hands, these gauntlets directly connect to the nerves of the wearer, allowing the wielder to control them effortlessly. Although they grant immense power, they also break into the mind of the wearer, slowing eating away at the soul. Only a true warrior of noble conviction, strong will and undying spirit may handle these cursed weapons. They are the perfect weapons for a warrior with a strong will that shines even in the darkness of the abyss.",
         "value": {
             "0": {
-                "0": "20",
-                "1": "24",
-                "2": "29",
-                "3": "35",
-                "4": "42",
-                "5": "50"
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "16",
+                "4": "18",
+                "5": "20"
             },
             "1": {
-                "0": "200",
-                "1": "240",
-                "2": "290",
-                "3": "350",
-                "4": "420",
-                "5": "500"
+                "0": "10",
+                "1": "12",
+                "2": "14",
+                "3": "16",
+                "4": "18",
+                "5": "20"
             },
             "2": {
                 "0": "20",
@@ -206,7 +206,7 @@
         },
         "4": {
             "name": "Green Ribbon",
-            "description": "[Tornado Strike] increases the chance of dealing additional DMG by 5%, and if the target is a Hero, deals additional P.DMG equal to {0}% of the target’s Max HP.",
+            "description": "[Tornado Strike] increases the chance of dealing additional DMG by 5%, and if the target is a Hero, deals additional P.DMG equal to {0}% of the target's Max HP.",
             "thumbnail": "heroes/Naila/ut/4.png",
             "story": "A ribbon that holds the grace of a Wind Elemental.\nSelene gave this green ribbon to Naila, who wanted high speed.\nIt contains a spell of Notos, the Wind Elemental, and it grants Naila rapid and powerful attacks.",
             "value": {

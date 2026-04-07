@@ -1,0 +1,218 @@
+{
+    "profile": {
+        "name": "Morrah",
+        "title": "Devil's Flame Morrah",
+        "class": "Knight",
+        "position": "Front-700",
+        "attack_range": "2300",
+        "damage_type": "Magical",
+        "gender": "Female",
+        "age": "???",
+        "height": "178",
+        "race": "Demon (Dark Dragon)",
+        "constellation": "Armil the Saint",
+        "birth_of_month": "April 9th, Month of Life",
+        "like": "Formidable enemies, worthy fights",
+        "dislike": "Dragons",
+        "story": "The former commander of the Dark Dragon Knights, she's the most gallant demon knight of the Demon Army. Currently, for some unknown reason, she is following the witch Maria and assisting her work. Many find it strange that the former champion of the Demon Army, who slaughtered countless enemies and even devoured dragons, now works for a mere witch as her servant. Nevertheless, she continues to faithfully serve her master.",
+        "thumbnail": "heroes/Morrah/ico.png"
+    },
+    "skills": {
+        "1": {
+            "name": "Burning Power",
+            "cost": "2",
+            "cooldown": "10",
+            "description": "Deals [ffc800]56*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 43.4% ATK[-] M.DMG [64ffff]3 times[-] to enemies within range, applies [fa96fa][Flame][-] [64ffff]1 stacks[-], and [fa96fa]knocks them down[-] for [64ffff]3sec[-].\nAfterward, for [64ffff]5sec[-], Normal Attacks deal [ffc800]34*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 26.1% ATK[-] M.DMG and apply [fa96fa][Flame][-] [64ffff]1 stacks[-]. DMG of this skill increases by [64ff64]2%[-] per [fa96fa][Flame][-] stack.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Morrah/skills/1.png"
+        },
+        "2": {
+            "name": "Hellfire",
+            "cost": "4",
+            "cooldown": "20",
+            "description": "For [64ffff]5sec[-], increases all allies’ M.DEF by [ffc800]280*(0.7+(0.3*Skill Level*Awakening Coefficient))[-] and M.Block Chance by [64ff64]400[-], and applies [fa96fa][Flame][-] [64ffff]1 times[-] to nearby enemies every [64ffff]1sec[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Morrah/skills/2.png"
+        },
+        "3": {
+            "name": "Lava Eruption",
+            "cost": "3",
+            "cooldown": "12",
+            "description": "Deals [ffc800]180*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 113.7% ATK[-] M.DMG [64ffff]3 times[-] to enemies within range and [fa96fa]knocks them down[-]. DMG increases by [64ff64]2%[-] per [fa96fa][Flame][-] stack.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Morrah/skills/3.png"
+        },
+        "4": {
+            "name": "Fire Smash",
+            "cost": null,
+            "cooldown": "1",
+            "description": "On Block, deals [ffc800]25*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 15.7% ATK[-] M.DMG to nearby enemies, applies [fa96fa][Flame][-] [64ffff]5 stacks[-], and increases own M.DEF by [64ff64]6%[-] for [64ffff]6sec[-]. This effect stacks up to [64ffff]5 times[-].\n\n[fa96fa][Flame][-]: Deals [ffc800]3% ATK[-] M.DMG every [64ffff]1sec[-] for [64ffff]20sec[-] and reduces Heal Rate by [ff6464]1%[-]. This effect stacks up to [64ffff]100 times[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+            "thumbnail": "heroes/Morrah/skills/4.png"
+        }
+    },
+    "books": {
+        "1": {
+            "II": "DMG is increased by [64ff64]10[-] %.",
+            "III": "DMG is increased by [64ff64]15[-] %.",
+            "IV": "DMG is increased by [64ff64]25[-] %."
+        },
+        "2": {
+            "II": "M.DEF boost is increased by [64ff64]10[-] %.",
+            "III": "M.DEF boost is increased by [64ff64]15[-] %.",
+            "IV": "M.Block Chance boost is increased by [64ff64]25[-] %."
+        },
+        "3": {
+            "II": "DMG is increased by [64ff64]10[-] %.",
+            "III": "DMG is increased by [64ff64]15[-] %.",
+            "IV": "DMG is increased by [64ff64]25[-] %."
+        },
+        "4": {
+            "II": "DMG is increased by [64ff64]10[-] %.",
+            "III": "DMG is increased by [64ff64]15[-] %.",
+            "IV": "DMG is increased by [64ff64]25[-] %."
+        }
+    },
+    "perks": {
+        "t3": {
+            "1": {
+                "light": {
+                    "effect": "Attack Speed is increased by 30% for 3 sec.",
+                    "thumbnail": "heroes/Morrah/perks/s1l.png"
+                },
+                "dark": {
+                    "effect": "For each enemy hit, cooldown is reduced by 10%.",
+                    "thumbnail": "heroes/Morrah/perks/s1d.png"
+                }
+            },
+            "2": {
+                "light": {
+                    "effect": "Magic Block Chance is additionally increased by 25%.",
+                    "thumbnail": "heroes/Morrah/perks/s2l.png"
+                },
+                "dark": {
+                    "effect": "During the duration, deals damage to nearby enemies equal to 40% of your Magic Defense.",
+                    "thumbnail": "heroes/Morrah/perks/s2d.png"
+                }
+            },
+            "3": {
+                "light": {
+                    "effect": "DMG is increased by 40%.",
+                    "thumbnail": "heroes/Morrah/perks/s3l.png"
+                },
+                "dark": {
+                    "effect": "Recovers HP equal to 40% of damage dealt.",
+                    "thumbnail": "heroes/Morrah/perks/s3d.png"
+                }
+            },
+            "4": {
+                "light": {
+                    "effect": "When you block, the maximum number of Magic Defense increase stacks is changed to 10.",
+                    "thumbnail": "heroes/Morrah/perks/s4l.png"
+                },
+                "dark": {
+                    "effect": "Targets with 100 or more [Flame] stacks take 40% increased Magic Damage.",
+                    "thumbnail": "heroes/Morrah/perks/s4d.png"
+                }
+            }
+        },
+        "t5": {
+            "light": {
+                "effect": "ATK, DEF, HP +15% / M. Block +200",
+                "thumbnail": "heroes/Morrah/perks/light.png"
+            },
+            "dark": {
+                "effect": "Upon attacking, deals additional DMG",
+                "thumbnail": "heroes/Morrah/perks/dark.png"
+            }
+        }
+    },
+    "uw": {
+        "name": "Flame of Victory, Carprain",
+        "description": "On Normal Attack, has a 20% chance to reduce the target’s ATK by {0}% and reduce Magic DEF by {1}% for 5 sec. If [Flame] has 100 or more stacks, the Magic DEF reduction is multiplied by 2.",
+        "thumbnail": "heroes/Morrah/uw.png",
+        "story": "In the heart of the Dragia Volcano, there exists a smithy. Hundreds of years ago, Temeraire, the ancient fire dragon, created a set of magically enchanted gear. Using lava infused with the power of the volcanic fire, he forged a shield and a sword capable of incinerating anything. During the war against Demons, Temeraire presented these to a human warrior. Unfortunately, the warrior is said to have been defeated by Morrah. No one has seen this legendary gear since then. That is, until Morrah reappeared on the front line.",
+        "value": {
+            "0": {
+                "0": "7",
+                "1": "8.4",
+                "2": "9.8",
+                "3": "11.2",
+                "4": "12.6",
+                "5": "14"
+            },
+            "1": {
+                "0": "7",
+                "1": "8.4",
+                "2": "9.8",
+                "3": "11.2",
+                "4": "12.6",
+                "5": "14"
+            }
+        }
+    },
+    "uts": {
+        "1": {
+            "name": "Hell's Eye",
+            "description": "[Burning Power] Increases DMG by {0}%, and Flame stacked upon enemies become irremovable.",
+            "thumbnail": "heroes/Morrah/ut/1.png",
+            "story": "The last eye of Belzebuna, a beast that feeds on the lava of hell.\nThe eye, the only one left out of 100, blazes with dark lunacy.\nThe beast smelt a sealing stone from Morrah, lost control, emerged from the lava, and dashed directly to her. Morrah, however, did not hesitate to stab its eyes with Carprain, and a completely different type of heat shriveled Belzebuna and absorbed its body. Looking at its entire body being crushed and the last eye wriggling on the ground, Morrah stuck it on her shield to mock the beast.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            }
+        },
+        "2": {
+            "name": "Hatchling Leather Gloves",
+            "description": "[Hellfire] Upon blocking target's M.ATK during the skill’s duration, DMG reduction is increased by {0} and M.Crit resistance is increased by 250.",
+            "thumbnail": "heroes/Morrah/ut/2.png",
+            "story": "Gloves made with a dark Hatchling's bones and skin. \nMorrah made it a hundred years ago by collecting the Hatchlings she killed when she went out to hunt dragons. \nIt's very durable to even withstand Morrah's flames, and even imbues a stronger power to let those flames blaze up even more.\nMorrah really likes these gloves.",
+            "value": {
+                "0": {
+                    "0": "100",
+                    "1": "120",
+                    "2": "140",
+                    "3": "170",
+                    "4": "210",
+                    "5": "250"
+                }
+            }
+        },
+        "3": {
+            "name": "Hellish Sealing Stone",
+            "description": "[Lava Eruption] Increases DMG by {0}%, and reduces the target's M.DEF by 25% for 7 sec.",
+            "thumbnail": "heroes/Morrah/ut/3.png",
+            "story": "A strange fragment that came from the Dimensional Rift. Inside the fragment, there's a flame that kills anything that is living. The energy from its dimension is condensed within it. It's absolutely needed to complete Maria's plan.",
+            "value": {
+                "0": {
+                    "0": "20",
+                    "1": "24",
+                    "2": "29",
+                    "3": "35",
+                    "4": "42",
+                    "5": "50"
+                }
+            }
+        },
+        "4": {
+            "name": "Jewel of Inferno",
+            "description": "[Fire Smash] Increases the number of Flame Stacks by 3. Hit targets have their ATK Spd reduced by {0} for 5 sec.",
+            "thumbnail": "heroes/Morrah/ut/4.png",
+            "story": "A jewel containing the essence of Temeraire's Fire.\nWhen Temeraire was defeated, Morrah forcibly drew the Jewel of Inferno, the essence of Fire Dragon, out of it to enhance her Fire Smash.",
+            "value": {
+                "0": {
+                    "0": "140",
+                    "1": "170",
+                    "2": "210",
+                    "3": "250",
+                    "4": "300",
+                    "5": "360"
+                }
+            }
+        }
+    },
+    "splashart": "heroes/Morrah/sa.png",
+    "costumes": "heroes/Morrah/cos"
+}
