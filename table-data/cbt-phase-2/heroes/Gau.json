@@ -182,18 +182,10 @@
         },
         "3": {
             "name": "Barbarian Mug",
-            "description": "[Vortex] increases DMG by {0}%, and its last hit increases the P.DMG the target takes by {3}% for {{1}} SeC.",
+            "description": "[Vortex] increases DMG by {0}%, and its last hit increases the P.DMG the target takes by {1}% for 10 sec.",
             "thumbnail": "heroes/Gau/ut/3.png",
             "story": "Mug of the Barbarian King who first settled down in the snowy mountains. When the first Barbarian King settled down in Windland, he swore to become the guardian of the snowy mountains and shared this mug with the holy beings of the mountains. The protect magic of the frost wolf imbued in the Barbarian Mug increases the ATK of Vortex and the effect of Freeze.",
             "value": {
-                "1": {
-                    "0": "2",
-                    "1": "2",
-                    "2": "2",
-                    "3": "12",
-                    "4": "2",
-                    "5": "2"
-                },
                 "0": {
                     "0": "8",
                     "1": "9.6",
@@ -201,6 +193,14 @@
                     "3": "12.8",
                     "4": "14.4",
                     "5": "16"
+                },
+                "1": {
+                    "0": "10",
+                    "1": "12",
+                    "2": "14",
+                    "3": "17",
+                    "4": "21",
+                    "5": "25"
                 }
             }
         },
