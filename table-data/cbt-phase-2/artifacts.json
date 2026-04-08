@@ -64,11 +64,9 @@
     },
     {
         "name": "The Ancient Scope",
-        "description": "When MP is at 100%, Crit Chance and ACC rise by {0} for {1} sec. Has a cooldown of {2} sec.",
+        "description": "When MP is at 100%, Crit Chance and ACC rise by {0} for 10 sec. Has a cooldown of 20 sec.",
         "value": {
-            "0": "400, 480, 570, 690, 830, 100",
-            "1": "10, 10, 10, 10, 10, 0",
-            "2": "20, 20, 20, 20, 20, 10"
+            "0": "400, 480, 570, 690, 830, 1000"
         },
         "thumbnail": "artifacts/The Ancient Scope.png",
         "story": "A scope created by an ancient technomagi. A useful tool that can zoom into a faraway object to a good level of detail.",
@@ -203,6 +201,163 @@
         },
         "thumbnail": "artifacts/Judgment of Light Bracelet.png",
         "story": "A blessed bracelet once created by the Holy Knights of the Church of Lua. It's an antique magic tool, and only a few like this remain today.",
+        "aliases": null
+    },
+    {
+        "name": "Earth Protection",
+        "description": "At the beginning of battle, gain CC immunity and a 50% boost to P. and M. DEF stats for {0} sec.",
+        "value": {
+            "0": "8, 10, 12, 14, 17, 20"
+        },
+        "thumbnail": "artifacts/Earth Protection.png",
+        "story": "A miniature version of one of the 'faces' of the Mountain Fortress. A keen intellect can be felt from this taciturn face.",
+        "aliases": null
+    },
+    {
+        "name": "Blessing of Earth",
+        "description": "When there is 1 enemy, ATK is boosted by {0}%.",
+        "value": {
+            "0": "40, 48, 58, 69, 83, 100"
+        },
+        "thumbnail": "artifacts/Blessing of Earth.png",
+        "story": "A miniature version of one of the 'faces' of the Mountain Fortress. The rage and bellicose nature of this angry face can be felt.",
+        "aliases": null
+    },
+    {
+        "name": "Earth Core",
+        "description": "ATK, HP and all DEF are increased by {0}%.",
+        "value": {
+            "0": "10, 12, 14, 17, 20, 25"
+        },
+        "thumbnail": "artifacts/Earth Core.png",
+        "story": "A miniature version of the core of the Mountain Fortress. As a source of infinite energy, it boosts the power of the owner.",
+        "aliases": null
+    },
+    {
+        "name": "Earth Storm",
+        "description": "When inflicted by CC, recovers {0} Mana and gains [Earth Storm] for 10 sec, increasing All DMG taken by nearby enemies by {1}% for 1 sec. When activated in the Arena, [Earth Storm] deals P.DMG equal to 3% of the target’s Max HP to nearby enemies for 1 sec. This effect cannot Crit, and [Earth Storm] has a cooldown of 20 sec.",
+        "value": {
+            "0": "600, 700, 800, 1000, 1200, 1500",
+            "1": "12, 14, 17, 21, 25, 30"
+        },
+        "thumbnail": "artifacts/Earth Storm.png",
+        "story": "A miniature version of one of the 'faces' of the Mountain Fortress. This lively and flamboyant face feels sentimental and looks beautiful.",
+        "aliases": null
+    },
+    {
+        "name": "Earth Fortress",
+        "description": "When there is 1 enemy, reduces the target's Heal Rate by {0}% and increases own DMG dealt to Bosses by {1}%. This effect does not stack with effects from other allies.",
+        "value": {
+            "0": "10, 12, 14, 17, 21, 25",
+            "1": "10, 12, 14, 17, 21, 25"
+        },
+        "thumbnail": "artifacts/Earth Fortress.png",
+        "story": "A miniaturized version of the 'shoulder' part of the Mountain Fortress. It is made by combining stone and wood using technomagic, harnessing natural yet artificial power of great strength.",
+        "aliases": null
+    },
+    {
+        "name": "Trident of the Deep",
+        "description": "Dealing DMG to enemies 100 times increases ATK by {0}% and Crit Chance by {1} for 15 sec. This effect cannot be dispelled.",
+        "value": {
+            "0": "30, 36, 44, 53, 63, 75",
+            "1": "200, 240, 290, 350, 420, 500"
+        },
+        "thumbnail": "artifacts/Trident of the Deep.png",
+        "story": "A mystical weapon designed after the trident of Protianus. It bears the power of water like a tsunami.",
+        "aliases": null
+    },
+    {
+        "name": "Spellbound Ring of the Deep",
+        "description": "Upon the start of a battle for {0} sec, limit 1 enemy's ATK Spd to 1000 and reduce ATK by {1}%.",
+        "value": {
+            "0": "8, 10, 12, 14, 17, 20",
+            "1": "20, 24, 29, 35, 42, 50"
+        },
+        "thumbnail": "artifacts/Spellbound Ring of the Deep.png",
+        "story": "A miniature version of the ring that Protianus was wearing. It is enchanted with a spell that curses and neutralizes foes.",
+        "aliases": null
+    },
+    {
+        "name": "Guardian Crystal of the Deep",
+        "description": "When there is 1 enemy, all DEF is increased by {0}%.",
+        "value": {
+            "0": "50, 60, 72, 86, 103, 125"
+        },
+        "thumbnail": "artifacts/Guardian Crystal of the Deep.png",
+        "story": "A blue gem that was once set on the crown of Protianus. A clear gem that represents protection.",
+        "aliases": null
+    },
+    {
+        "name": "Nail Ornament of the Deep",
+        "description": "At the beginning of each battle, fixes self's DEF to 0 and increases DMG dealt to bosses by {0}% for 200 sec. This effect is irremovable.",
+        "value": {
+            "0": "20, 24, 29, 35, 42, 50"
+        },
+        "thumbnail": "artifacts/Nail Ornament of the Deep.png",
+        "story": "A miniature version of the fingernail ornament that Protianus was wearing. A highly expensive magical artifact made from enchanted gold.",
+        "aliases": null
+    },
+    {
+        "name": "Belt Ornament of the Deep",
+        "description": "At the beginning of the first battle, and every 30 sec, reduces DMG all allies take from enemies by {0}% for 3 sec. This effect is irremovable and does not stack with effects from other allies. Each time the effect expires, dispels negative effects from all allies.",
+        "value": {
+            "0": "20, 24, 29, 35, 42, 50"
+        },
+        "thumbnail": "artifacts/Belt Ornament of the Deep.png",
+        "story": "A miniaturized version of the waist ornament of Protianus. One can feel the strong yet silent energy of the flow that resembles the current of the deep sea.",
+        "aliases": null
+    },
+    {
+        "name": "Abyssal Eye",
+        "description": "When taking damage, deals Magic Damage equal to {0}% of Attack to the attacker and reduces their Attack Speed by {1} for 1.5 seconds. When the Attack Speed reduction ends, petrifies them for {2} seconds. This effect can only trigger once every 30 seconds.",
+        "value": {
+            "0": "50, 60, 72, 86, 105, 125",
+            "1": "400, 480, 580, 700, 840, 1000",
+            "2": "2, 2.4, 2.9, 3.5, 4, 5"
+        },
+        "thumbnail": "artifacts/Abyssal Eye.png",
+        "story": "The Power source of Abyssal Goddess Xanadus. It looks like the its pupil moves, even though it's been severed from its body.",
+        "aliases": null
+    },
+    {
+        "name": "Abyssal Crown",
+        "description": "30 sec after the battle starts, increases ATK of the ally with the highest ATK by {0}%. This effect cannot be dispelled, and it does not stack with other effects for allies.",
+        "value": {
+            "0": "30, 36, 43, 52, 63, 75"
+        },
+        "thumbnail": "artifacts/Abyssal Crown.png",
+        "story": "Hair accessory of Abyssal Goddess Xanadus. The serpent-shaped crown gives off a deadly scent.",
+        "aliases": null
+    },
+    {
+        "name": "Abyssal Nail Ornament",
+        "description": "On attack, for 10 seconds, deals Defense-ignoring Physical Damage equal to {0}% of Attack every 0.5 seconds to the enemy. This effect can only trigger once every 20 seconds.",
+        "value": {
+            "0": "4, 4.8, 5.8, 7, 8.4, 10"
+        },
+        "thumbnail": "artifacts/Abyssal Nail Ornament.png",
+        "story": "Nail ornament of the Abyssal Goddess Xanadus. It is made from an alloy of unknown but special metals.",
+        "aliases": null
+    },
+    {
+        "name": "Heart of the Abyss",
+        "description": "At the beginning of every battle, increases ATK of the ally with the highest ATK by {0}% and reduces ATK of the enemy with the highest ATK by 15% for 100 sec. The ATK Boost effect can be stacked up to max 5 times, and all effects are irremovable.",
+        "value": {
+            "0": "8, 10, 12, 14, 17, 20"
+        },
+        "thumbnail": "artifacts/Heart of the Abyss.png",
+        "story": "The core of the power source that the Abyssal Goddess Xanadus summons. This mass of magical energy glows with a dazzling light, luring victims to their death.",
+        "aliases": null
+    },
+    {
+        "name": "Abyssal Breath",
+        "description": "Increases DMG dealt to Non-Hero enemies of 2 allies with the highest ATK excluding self by {0}% and heals HP of all allies equal to 2.5% of Max HP every {1} sec. When there is 1 enemy, increases Heal Rate by x2. This effect does not stack with effects from other allies.",
+        "value": {
+            "0": "5, 6, 7.2, 8.6, 10.4, 12.5",
+            "1": "10, 9, 8, 7, 6, 5"
+        },
+        "thumbnail": "artifacts/Abyssal Breath.png",
+        "story": "Arm decoration of the Abyssal Goddess Xanadus. It resembles the face of a golden dragon and emits an enigmatic power.",
         "aliases": null
     }
 ]
