@@ -22,28 +22,28 @@
             "name": "Blasting Ray",
             "cost": "2",
             "cooldown": "7",
-            "description": "Deals [ffc800]299*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 189.1% of ATK[-] M.DMG to enemies in a frontal line, reducing ATK by [ff6464]10%[-] for [64ffff]5sec[-] and increasing M.DMG taken by [ff6464]25%[-].\n\n[fa96fa][Overcharge][-]: Deals an additional [ffc800]299*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 189.1% of ATK[-] M.DMG, and additionally increases the ATK reduction by [ff6464]10%[-] and the M.DMG taken increase by [ff6464]25%[-].",
+            "description": "Deals [ffc800]299*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 189.1% of ATK[-] M.DMG to enemies in a frontal line, reducing ATK by [ff6464]10%[-] for [64ffff]5sec[-] and increasing M.DMG taken by [ff6464]25%[-].\n\n[fa96fa][Overcharge][-]: Deals an additional [ffc800]299*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 189.1% of ATK[-] M.DMG, and additionally increases the ATK reduction by [ff6464]10%[-] and the M.DMG taken increase by [ff6464]25%[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
             "thumbnail": "heroes/Annette/skills/1.png"
         },
         "2": {
             "name": "Emergency Treatment",
             "cost": "3",
             "cooldown": "12",
-            "description": "Removes all negative effects from all allies, restores [ffc800]124*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 20.1% of ATK[-] HP [64ffff]10[-] times, and increases Status Resistance by [64ff64]300[-].\n\n[fa96fa][Overcharge][-]: Additionally increases all allies’ Crit Chance by [64ff64]250[-], DMG dealt to non-Hero enemies by [64ff64]12%[-], and Status Resistance by [64ff64]300%[-].",
+            "description": "Removes all negative effects from all allies, restores [ffc800]124*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 20.1% of ATK[-] HP [64ffff]10[-] times, and increases Status Resistance by [64ff64]300[-].\n\n[fa96fa][Overcharge][-]: Additionally increases all allies’ Crit Chance by [64ff64]250[-], DMG dealt to non-Hero enemies by [64ff64]12%[-], and Status Resistance by [64ff64]300[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
             "thumbnail": "heroes/Annette/skills/2.png"
         },
         "3": {
             "name": "Process of Elimination",
             "cost": "4",
             "cooldown": "24",
-            "description": "Detonates an energy orb on a random enemy and nearby enemies, dealing [ffc800]139*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 87.7% of ATK[-] M.DMG.\n\n[fa96fa][Overcharge][-]: Deals an additional [ffc800]57.5% of ATK[-] M.DMG [64ffff]6[-] time(s), increases M.DMG taken by [ff6464]10%[-] for [64ffff]10sec[-], and stuns for [64ffff]3sec[-].",
+            "description": "Detonates an energy orb on a random enemy and nearby enemies, dealing [ffc800]139*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 87.7% of ATK[-] M.DMG.\n\n[fa96fa][Overcharge][-]: Deals an additional [ffc800]57.5% of ATK[-] M.DMG [64ffff]6[-] time(s), increases M.DMG taken by [ff6464]10%[-] for [64ffff]10sec[-], and stuns for [64ffff]3sec[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
             "thumbnail": "heroes/Annette/skills/3.png"
         },
         "4": {
             "name": "Charge",
             "cost": null,
             "cooldown": null,
-            "description": "Gains [64ff64]1[-] [fa96fa][Charge][-] every [64ffff]0.5sec[-], and gains [64ff64]10[-] [fa96fa][Charge][-] whenever [64ffff]1000[-] Mana is consumed.\nWhen [fa96fa][Charge][-] reaches [64ffff]100[-] stacks, enters [fa96fa][Overcharge][-] for [64ffff]15sec[-], empowering Skills.\n\n[fa96fa][Overcharge][-]: Increases ATK by [64ff64]210 + 5.0% of Annette’s ATK[-], and on Normal Attack, reduces cooldown of all Skills by [64ff64]5%[-]. This effect cannot be dispelled, and [fa96fa][Charge][-] cannot be gained while [fa96fa][Overcharge][-] is active.",
+            "description": "Gains [64ff64]1[-] [fa96fa][Charge][-] every [64ffff]0.5sec[-], and gains [64ff64]10[-] [fa96fa][Charge][-] whenever [64ffff]1000[-] Mana is consumed.\nWhen [fa96fa][Charge][-] reaches [64ffff]100[-] stacks, enters [fa96fa][Overcharge][-] for [64ffff]15sec[-], empowering Skills.\n\n[fa96fa][Overcharge][-]: Increases ATK by [64ff64]210*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 5% of Annette’s ATK[-], and on Normal Attack, reduces cooldown of all Skills by [64ff64]5%[-]. This effect cannot be dispelled, and [fa96fa][Charge][-] cannot be gained while [fa96fa][Overcharge][-] is active.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
             "thumbnail": "heroes/Annette/skills/4.png"
         }
     },
@@ -107,7 +107,7 @@
                     "thumbnail": "heroes/Annette/perks/s4l.png"
                 },
                 "dark": {
-                    "effect": "[Overcharge] duration is increased by 5sec, and on Normal Attack, the cooldown reduction effect of all skills is changed to 12.0%.",
+                    "effect": "[Overcharge] duration is increased by 5sec, and on Normal Attack, the cooldown reduction effect of all skills is changed to 12%.",
                     "thumbnail": "heroes/Annette/perks/s4d.png"
                 }
             }
@@ -118,14 +118,14 @@
                 "thumbnail": "heroes/Annette/perks/light.png"
             },
             "dark": {
-                "effect": "[Overcharge] During Overcharge, all allies’ Attack Speed increases by 200%, and Attack increases by 5.0% of Annette’s Attack.",
+                "effect": "[Overcharge] During Overcharge, all allies’ Attack Speed increases by 200%, and Attack increases by 5% of Annette’s Attack.",
                 "thumbnail": "heroes/Annette/perks/dark.png"
             }
         }
     },
     "uw": {
         "name": "Crystallized Technomagic, Rascal",
-        "description": "Every {0}sec, gains 1, Charge(s) and recovers 1% Mana. This Charge can be gained even while Overcharge is active. During [Overcharge], all allies’ damage dealt to bosses increases by {1}%, and damage taken is reduced by {2}%.",
+        "description": "Every {0}sec, gains 1, Charge(s) and recovers 1% Mana. This Charge can be gained even while Overcharge is active. During [Overcharge], all allies' damage dealt to bosses increases by {1}%, and damage taken is reduced by {2}%.",
         "thumbnail": "heroes/Annette/uw.png",
         "story": "The essence of technomagic, created based on Annette's theory. Five of the highest-ranking court wizards of Orvel have poured their energy into creating this magical being. It has its own will, making it capable of making independent decisions and acting on them. While it shares its mana with Annette, it can also utilize any other available mana nearby. As such, it is the first great milestone in Annette's effort to make magic available to all.",
         "value": {
@@ -158,7 +158,7 @@
     "uts": {
         "1": {
             "name": "Triplex Condensing Lens",
-            "description": "[Ray of Annihilation] For 10 sec, reduces the target’s Crit Chance by 150 and Mana by {0}.",
+            "description": "[Ray of Annihilation] For 10 sec, reduces the target's Crit Chance by 150 and Mana by {0}.",
             "thumbnail": "heroes/Annette/ut/1.png",
             "story": "A triplex condensing lens invented by Annette to let Rascal use Blasting Ray.\nThis special lens can be rotated to control its condensing rate and reflection angle, so that the shape of the photons fired can be easily manipulated.\nIf all layers are aligned, Rascal shoots a linear photonic laser, and when the layers are cross-linked, it diffuses the reflection of photonic energy to perform Process of Elimination.",
             "value": {
@@ -223,7 +223,7 @@
     },
     "sw": {
         "requirement": "Charges up over [64ff64]20[-] sec.",
-        "description": "Summons the soul of Crystallized Technomagic, Rascal for [64ffff]15sec[-], recovering [64ff64]225[-] Mana for all allies every sec, and enters the [fa96fa][Overcharge][-] state. During the duration, increases M.DMG all enemies take by [ff6464]6%[-], and against Bosses, the effect is changed to [ff6464]60.0%[-].",
+        "description": "Summons the soul of Crystallized Technomagic, Rascal for [64ffff]15sec[-], recovering [64ff64]225[-] Mana for all allies every sec, and enters the [fa96fa][Overcharge][-] state. During the duration, increases M.DMG all enemies take by [ff6464]6%[-], and against Bosses, the effect is changed to [ff6464]60%[-].",
         "cooldown": "25",
         "uses": "6",
         "thumbnail": "heroes/Annette/sw.png",

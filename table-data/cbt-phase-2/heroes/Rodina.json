@@ -29,21 +29,21 @@
             "name": "Target Aim",
             "cost": "1",
             "cooldown": "5",
-            "description": "Increases ATK by [64ff64]135*(0.7+(0.3*Skill Level*Awakening Coefficient))[-] and applies [fa96fa][Perfect Aim][-] to the target.\n\n[fa96fa][Perfect Aim][-]: DMG dealt by Rodina is increased by [64ff64]135%[-].",
+            "description": "For [64ffff]15sec[-], Increases ATK by [64ff64]135*(0.7+(0.3*Skill Level*Awakening Coefficient))[-] and applies [fa96fa][Perfect Aim][-] to the target.\n\n[fa96fa][Perfect Aim][-]: DMG dealt by Rodina is increased by [64ff64]50%[-].all skills prioritize enemies under [fa96fa][Perfect Aim][-]",
             "thumbnail": "heroes/Rodina/skills/2.png"
         },
         "3": {
             "name": "Focused Fire",
             "cost": "4",
             "cooldown": "13",
-            "description": "Fires at random enemies, dealing [ffc800]245*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 155% ATK[-] P.DMG [64ffff]10 times[-]. Each shot increases DMG by [64ff64]{3}%[-] and ATK Spd by [64ff64]{4}%[-].",
+            "description": "Fires at random enemies, dealing [ffc800]245*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 155% ATK[-] P.DMG [64ffff]10 times[-]. Each shot increases DMG by [64ff64]10%[-] and ATK Spd by [64ff64]10%[-].",
             "thumbnail": "heroes/Rodina/skills/3.png"
         },
         "4": {
             "name": "Rapid Shot",
             "cost": null,
             "cooldown": "10",
-            "description": "Deals [ffc800]354*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 224.4% ATK[-] P.DMG [64ffff]{3} times[-] every [64ffff]282982sec[-].",
+            "description": "Deals [ffc800]354*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 224.4% ATK[-] P.DMG [64ffff]2 times[-] every [64ffff]10sec[-].",
             "thumbnail": "heroes/Rodina/skills/4.png"
         }
     },
@@ -83,7 +83,7 @@
             },
             "2": {
                 "light": {
-                    "effect": "During the duration, ATK Spd is increased by 150%.",
+                    "effect": "During the duration, ATK Spd is increased by 15%.",
                     "thumbnail": "heroes/Rodina/perks/s2l.png"
                 },
                 "dark": {
@@ -118,7 +118,7 @@
                 "thumbnail": "heroes/Rodina/perks/light.png"
             },
             "dark": {
-                "effect": "Upon attacking, deals additional DMG",
+                "effect": "Increases ATK by 20% for 10 seconds and sets 3 random enemies as Rodina's target at the start of every battle.",
                 "thumbnail": "heroes/Rodina/perks/dark.png"
             }
         }
@@ -166,7 +166,7 @@
         },
         "2": {
             "name": "Crystal Support",
-            "description": "[Target Aim] When Rodina’s target dies, switches to a random enemy and increases own ATK by {0}% for 10 sec.",
+            "description": "[Target Aim] When Rodina's target dies, switches to a random enemy and increases own ATK by {0}% for 10 sec.",
             "thumbnail": "heroes/Rodina/ut/2.png",
             "story": "A sniper rifle support that Pavel made so that it would fit Rodina's small body.\nIt's made of crystals so it's very firm and sturdy. This support is enough to aim at any target.",
             "value": {

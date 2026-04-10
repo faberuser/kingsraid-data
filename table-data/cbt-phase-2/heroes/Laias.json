@@ -22,28 +22,28 @@
             "name": "Healing Droplets",
             "cost": "2",
             "cooldown": "8",
-            "description": "Restores [ffc800]621*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 100.8% of ATK[-] HP to all allies, increases Magic Block Chance by [64ff64]300[-] for [64ffff]4sec[-], and additionally restores [ffc800]155*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 25.2% of ATK[-] HP every [64ffff]1sec[-].\nIf the target’s HP is [64ffff]50%[-] or lower, healing is increased by [64ff64]50.0%[-].",
+            "description": "Restores [ffc800]621*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 100.8% of ATK[-] HP to all allies, increases Magic Block Chance by [64ff64]300[-] for [64ffff]4sec[-], and additionally restores [ffc800]155*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 25.2% of ATK[-] HP every [64ffff]1sec[-].\nIf the target’s HP is [64ffff]50%[-] or lower, healing is increased by [64ff64]50%[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
             "thumbnail": "heroes/Laias/skills/1.png"
         },
         "2": {
             "name": "Bubble Shield",
             "cost": "3",
             "cooldown": "15",
-            "description": "Grants a shield that absorbs [ffc800]795*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 129% of ATK[-] damage for [64ffff]15sec[-] to [64ffff]4 ally[-] with the lowest current HP. The shielded target takes [64ff64]15%[-] reduced damage from non-hero enemies.",
+            "description": "Grants a shield that absorbs [ffc800]795*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 129% of ATK[-] damage for [64ffff]15sec[-] to [64ffff]4 ally[-] with the lowest current HP. The shielded target takes [64ff64]15%[-] reduced damage from non-hero enemies.\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
             "thumbnail": "heroes/Laias/skills/2.png"
         },
         "3": {
             "name": "Festival of the Flow",
             "cost": "4",
             "cooldown": "24",
-            "description": "Deals [ffc800]618*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 385.9% of ATK[-] M.DMG to nearby enemies and [fa96fa]knocks them down[-] for [64ffff]1.8sec[-].\nThen, for [64ffff]12sec[-], increases Mana recovery per second of all allies except self by [64ff64]30%[-], and every [64ffff]4sec[-], a vortex erupts at a random enemy, dealing [ffc800]412*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 257.3% of ATK[-] M.DMG and [fa96fa]knocking them down[-] for [64ffff]1.2sec[-].",
+            "description": "Deals [ffc800]618*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 385.9% of ATK[-] M.DMG to nearby enemies and [fa96fa]knocks them down[-] for [64ffff]1.8sec[-].\nThen, for [64ffff]12sec[-], increases Mana recovery per second of all allies except self by [64ff64]30%[-], and every [64ffff]4sec[-], a vortex erupts at a random enemy, dealing [ffc800]412*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 257.3% of ATK[-] M.DMG and [fa96fa]knocking them down[-] for [64ffff]1.2sec[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
             "thumbnail": "heroes/Laias/skills/3.png"
         },
         "4": {
             "name": "Blessing of the Water Dragon",
             "cost": null,
             "cooldown": null,
-            "description": "All allies’ M.DEF increases by [64ff64]56*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 5% of Laias’s M.DEF[-], and Magic Crit Resistance increases by [64ff64]250[-].",
+            "description": "All allies’ M.DEF increases by [64ff64]56*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 5% of Laias’s M.DEF[-], and Magic Crit Resistance increases by [64ff64]250[-].\n\n[ffc800]Awakening Coefficient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
             "thumbnail": "heroes/Laias/skills/4.png"
         }
     },
@@ -125,7 +125,7 @@
     },
     "uw": {
         "name": "Flowing Circle, Eltoirre",
-        "description": "Increases all allies’ Healing by {0}% and their Magic Defense by 5% of Laias’s Attack. Additionally, every 5 seconds, heals the ally in the worst HP condition by {1}% of Laias’s Attack.",
+        "description": "Increases all allies' Healing by {0}% and their Magic Defense by 5% of Laias's Attack. Additionally, every 5 seconds, heals the ally in the worst HP condition by {1}% of Laias's Attack.",
         "thumbnail": "heroes/Laias/uw.png",
         "story": "An ankh crafted in the shape of a phoenix. It symbolizes the natural cycle of life. In the ancient days, the nomads of the desert worshipped the blue dragon of the oasis as their protector. In return, she blessed them with rain and gave life to their crops. To show their gratitude, the nomads offered her various treasures, including Lazulia, the gem of water. Although she had no particular interest in material wealth, she accepted their gratitude, and used the treasures to build a temple within the oasis. This ankh is the sacred symbol of the temple, and contains the mighty power of water.",
         "value": {
@@ -220,7 +220,7 @@
         "uses": "6",
         "thumbnail": "heroes/Laias/sw.png",
         "advancement": {
-            "1": "Increases the healed ally's M.DEF by 10% and M.Block by 200. This effect stacks up to 5.0 times.",
+            "1": "Increases the healed ally's M.DEF by 10% and M.Block by 200. This effect stacks up to 5 times.",
             "2": "For the duration of Skill, self becomes immune to All DMG and Cooldown of all active Skills is reduced by 1 sec every sec."
         },
         "story": "Laias, after the awakening from a 100-year slumber, she witnessed people suffering from invasion of the Demons that has begun again.\nThis sight reminded her of what she saw before her sleep: People were suffering, but all she could do was fall into a deep slumber.\nIt was the best Laias could do to prevent further suffering by stopping herself from turning into a Mad Dragon, but the decision remained as a tiny guilt to her.\nUpon the awakening, Laias actively moved around to help the desert and its people; however this time again, she could not save people from Demons.\nIn her agony, Laias thought of Eltoirre, the ankh she was grasping. Eltoirre holds the power of water, circulation, and life. Perhaps she thought, if I could draw more power from Eltoirre, I may be able to help more people.\nLaias immediately begun exploring the power within Eltoirre.\nThe moment when she realized that she had reached the bottom of Eltoirre’s power, an elegant phoenix of water appeared in front of Laias.\n\nThe true power of Eltoirre had been unleashed."

@@ -29,21 +29,21 @@
             "name": "Black Shackle",
             "cost": "3",
             "cooldown": "12",
-            "description": "Deals [ffc800][DAMAGE][-] Magic Damage to enemies within range and [fa96fa]roots[-] them for [64ffff]3.5 sec[-].",
+            "description": "Deals [ffc800]927*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 407.4% ATK[-] Magic Damage to enemies within range and [fa96fa]roots[-] them for [64ffff]3.5 sec[-].",
             "thumbnail": "heroes/Dimael/skills/2.png"
         },
         "3": {
             "name": "Shadow Wave",
             "cost": "4",
             "cooldown": "20",
-            "description": "Targets 1 enemy and deals [ffc800][DAMAGE][-] Magic Damage to enemies in a line, [fa96fa]blinding[-] them for [64ffff]3.5 sec[-].",
+            "description": "Targets 1 enemy and deals [ffc800]1093*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 479.3% ATK[-] Magic Damage to enemies in a line, [fa96fa]blinding[-] them for [64ffff]3.5 sec[-].",
             "thumbnail": "heroes/Dimael/skills/3.png"
         },
         "4": {
             "name": "Black Stain",
             "cost": null,
             "cooldown": null,
-            "description": "On hit, deals [ffc800][DAMAGE][-] additional Magic Damage to the target, and this skill gains an extra [64ff64]1000[-] Magic Defense Penetration.",
+            "description": "On hit, deals [ffc800]57*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 25% ATK[-] additional Magic Damage to the target, and this skill gains an extra [64ff64]1000[-] Magic Defense Penetration.",
             "thumbnail": "heroes/Dimael/skills/4.png"
         }
     },
@@ -220,7 +220,7 @@
         "uses": "7",
         "thumbnail": "heroes/Dimael/sw.png",
         "advancement": {
-            "1": "Changes M.DMG taken increase to {1}%.",
+            "1": "Changes M.DMG taken increase to 32%.",
             "2": "For the duration of Skill, increases own ATK by 40%."
         },
         "story": "Nerius had long feared the horrible memories that were engraved into Dimael’s heart.\nAfter he lost his friends, family, and everything, Dimael’s heart was like a wasteland unable to hold anything.\n\nDimael even refused to draw the power of the moon that Nerius radiated.\nPerhaps Dimael wished to deny his Dark Elven heritage.\n\nHowever, it all changed when the mark of oath showed itself once again on his hand. Seeing the mark of oath return, it reminded Dimael of that time when he and his comrades branded that mark under the dark moonlight. Dimael’s cold heart started beating vigorously.\n\nDimael changed.\n\nTo protect those precious to him,\nDimael swore to lead the Dark Elves into the world. As Dimael roared and let out a fierce cry, the great darkness his soul reflected converged with the power of the moon that flows within Dimael’s Dark Elven vein.\n\nNerius, embraced by the great eclipse of Dimael, kneeled and answered her legendary Dark Elven master’s call."
