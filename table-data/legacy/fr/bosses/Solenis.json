@@ -1,0 +1,76 @@
+{
+  "id": "Solenis",
+  "profile": {
+    "name": "Solenis",
+    "title": "Protectrice de Divinité",
+    "type": [
+      "Divine Punishment Raid"
+    ],
+    "race": "Golem sacré",
+    "damage_type": "Physical",
+    "recommended_heroes": "Isolet, Gremory, Valance",
+    "characteristics": "Réduisez les PM de Solenis avec des compétences qui en sont capables et réduisez la [Force de Technologie] de Solenis en lui infligeant gel ou de pétrification. Solonis se met aléatoirement dans des états spécifiques en utilisant la compétence Frappe punitive liée. Si ces états ne sont pas dissipés, les Héros reçoivent des DEG en continu, alors vous devez satisfaire rapidement les conditions requises pour les dissiper.",
+    "thumbnail": "bosses/Solenis.png",
+    "recommendedHeroNames": [
+      "Isolet",
+      "Gremory",
+      "Valance"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Frappe punitive",
+      "cost": null,
+      "cooldown": "29",
+      "description": "Inflige des DEG P à tous les ennemis et les étourdit pendant 5 sec, puis augmente le temps de recharge de toutes les compétences des cibles. Augmente le taux d'augmentation du temps de recharge proportionnellement à [Force de Technologie] de Solenis.\n* En cas d'Activation de Luciteron : Augmente les DEG. Après chaque coup porté, génère [Résonance du Châtiment divin] pendant 7 sec qui inflige des DEG P toutes les sec. Modifie également tous les coups portés pour qu'ils dissipent les effets de bouclier et d'invincibilité."
+    },
+    "2": {
+      "name": "Tir punitif",
+      "cost": null,
+      "cooldown": "33",
+      "description": "Tire des missiles sur tous les ennemis, ce qui inflige des DEG P et réduit les PM à chaque coup porté. Augmente la réduction des PM proportionnellement aux PM actuels de Solenis.\n* En cas d'Activation d'Altigma : Cumule une charge [Fardeau des Péchés] à chaque coup porté. Chaque charge de [Fardeau des Péchés] réduit la Vitesse d'ATQ de la cible de 30 et ne peut être dissipé. Modifie également tous les coups portés pour qu'ils dissipent les effets de bouclier et d'invincibilité."
+    },
+    "3": {
+      "name": "Frappe punitive liée",
+      "cost": null,
+      "cooldown": "45",
+      "description": "Solenis se met aléatoirement à l'état [Impétuosité] ou [Persévérance], infligeant des DEG P à tous les ennemis pendant la durée de l'état. Il n'est pas d'être dissipé sous une condition manière habituelle. Une fois l'état dissipé, Solenis devient incapable d'agir, ce qui augmente tous ses DEG reçus.\n[Impétuosité] : Modifie la couleur de Solenis en rouge. Cet état est dissipé si les héros utilisent des compétences  à 60 reprises ou plus.\n[Persévérance] : Modifie la couleur de Solenis en bleu. Cet état est dissipé si les PV de Solenise diminuent de plus de 10 % après.\n* En cas d'Activation de Luciteron :  [Impétuosité] Augmente le condition de dissipé - [Force de Technologie] doit aussi être réduite à zéro pour.\n* En cas d'Activation d'Altigma :  [Persévérance] Augmente le condition de dissipé - PM de Solenis doivent aussi être réduits à zéro pour."
+    },
+    "4": {
+      "name": "Dernière Tâche",
+      "cost": null,
+      "cooldown": null,
+      "description": "Si les PV de Solenis sont à 50%, se met à l'état [Fanatique] qui ne peut être dissipé. À l'état [Fanatique], augmente les DEG infligés par Solenis aux ennemis de 40%."
+    },
+    "5": {
+      "name": "Foudre punitive",
+      "cost": null,
+      "cooldown": null,
+      "description": "Inflige des DEG P à tous les ennemis tous les 60 coups reçus.\n* En cas d'Activation de Luciteron/d'Altigma : Augmente les DEG de 100%."
+    },
+    "6": {
+      "name": "Force de Technologie",
+      "cost": null,
+      "cooldown": null,
+      "description": "Solenis possède la [Force de Technologie], qui peut être réduite en lui infligeant gel ou de pétrification. Si les atteignent zéro, après quelque temps et restaure tous ses [Force de Technologie]. Il restaure en continu ses PM et tous les DEG reçus varient en fonction de ses PM actuels."
+    },
+    "7": {
+      "name": "Gardien de la Déesse",
+      "cost": null,
+      "cooldown": null,
+      "description": "Solenis n'est pas affecté par les effets concernant la Vitesse d'ATQ et la DEF, ainsi que ceux qui arrêtent la restauration des PM. Augmente sa résistance Crit de 500 et toutes ses attaques touchent ses cibles à coup sûr. De plus, les compétences de Solenis deviennent plus puissantes lorsque Luciteron ou/et Altigma sont activés."
+    },
+    "8": {
+      "name": "Activation de Luciteron",
+      "cost": null,
+      "cooldown": null,
+      "description": "Toutes les sec, inflige des DEG P et cumule 1 charges de [Feu de Rage] à tous les ennemis. Pour chaque charge de [Feu de Rage], réduit la Récupération des PV de la cible ennemie de 1% et augmente les DEG infligés par cette compétence de 10%. Plus les charges de [Feu de Rage] sont cumulées, plus leur effet s'amplifie.\n10 charges : Réduit considérablement la DEF de la cible.\n20 charges : Modifie les charges de [Feu de Rage] pour qu'elles ne puissent être dissipées.\nCes effets sont conférés lorsque Luciteron est activé."
+    },
+    "9": {
+      "name": "Activation d'Altigma",
+      "cost": null,
+      "cooldown": null,
+      "description": "Pendant 10 sec, génère [Rideau de Rupture] devant le lanceur. Pendant la durée de [Rideau de Rupture], augmente la Récupération des PV du lanceur de 50% et restaure les PV en continu.\nCes effets sont conférés lorsqu'Altigma est activé."
+    }
+  }
+}

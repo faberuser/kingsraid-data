@@ -1,0 +1,76 @@
+{
+  "id": "Solenis",
+  "profile": {
+    "name": "Solenis",
+    "title": "Holy Guardian of Goddess",
+    "type": [
+      "Divine Punishment Raid"
+    ],
+    "race": "Holy Golem",
+    "damage_type": "Physical",
+    "recommended_heroes": "Isolet, Gremory, Valance",
+    "characteristics": "Solenis has Mana and [Engineered Power] that have to be reduced by using skills with Mana Reduction, Freeze, and Petrification. It also uses [Endless Retribution] to randomly inflict a certain CC. Quickly dispel CC by meeting the dispelling condition. If you don't, you will take continuous DMG.",
+    "thumbnail": "bosses/Solenis.png",
+    "recommendedHeroNames": [
+      "Isolet",
+      "Gremory",
+      "Valance"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Singular Retribution",
+      "cost": null,
+      "cooldown": "29",
+      "description": "Deals P.DMG to all enemies and stuns them for 5 sec, increasing All Skill Cooldown of target. Increases the rate of Skill Cooldown delay proportional to [Engineered Power] of Solenis.\n*When Luciteron is in operation: Increases DMG dealt and casts [Echo of Divine Punishment] for 7 sec upon hit, dealing P.DMG every sec. All hits now remove shield and Invincibility effect."
+    },
+    "2": {
+      "name": "Bombardment of Retribution",
+      "cost": null,
+      "cooldown": "33",
+      "description": "Fires missiles to all enemies, dealing P.DMG to target on each hit and reducing their Mana. Increases Mana Reduction proportional to current Mana of Solenis.\n*When Altigma is in operation: Stacks [Weight of Sin] on each hit. [Weight of Sin] stacks reduce target’s ATK Spd by 30 and is irremovable. All hits now remove shield and Invincibility effect."
+    },
+    "3": {
+      "name": "Endless Retribution",
+      "cost": null,
+      "cooldown": "45",
+      "description": "Solenis randomly enters into [Hellflame] or [Perseverance] state, dealing P.DMG to all enemies during duration. Each state cannot be dispelled by normal means. If both [Hellflame] and [Perseverance] states are dispelled, Solenis will be incapacitated and will take increased All DMG.\n[Hellflame] State: Color of Solenis will turn red. Dispels when all Heroes use skills above 60 times.\n[Perseverance] State: Color of Solenis will turn blue, Dispels when HP of Solenis discreaed above 10%.\n*When Luciteron is in operation: [Hellflame] state dispels' condition adds - Reduce all of Solenis' [Engineered Power].\n*When Altigma is in operation: [Perseverance] state dispels' condition adds - Reaching Mana of Solenis 0."
+    },
+    "4": {
+      "name": "The Last Mission",
+      "cost": null,
+      "cooldown": null,
+      "description": "If Solenis reaches 50% HP, Solenis enters into an irremovable state of [Fanaticism]. While in [Fanaticism] state, Solenis deals 40% increased DMG to enemies."
+    },
+    "5": {
+      "name": "Lightning of Retribution",
+      "cost": null,
+      "cooldown": null,
+      "description": "Upon every 60 hits Solenis takes, Solenis deals P.DMG to all enemies.\n* When both Luciteron and Altigma are in operation: Increases DMG by 100%."
+    },
+    "6": {
+      "name": "Engineered Power",
+      "cost": null,
+      "cooldown": null,
+      "description": "Solenis bears [Engineered Power]. This power is reduced when Solenis is inflicted with Freeze or Petrification. If the [Engineered Power] is fully reduced, recovers all [Engineered Power] after certain time. Solenis constantly recovers Mana and takes reduced All DMG proportional to current Mana."
+    },
+    "7": {
+      "name": "Guardian of Goddess",
+      "cost": null,
+      "cooldown": null,
+      "description": "Solenis is not affected by ATK Spd, DEF, and Mana Recovery Prevention. All Crit Resistance of Solenis is increased by 500 and its attacks always hit. When Luciteron and Altigma are in operation, skills of Solenis will be enhanced."
+    },
+    "8": {
+      "name": "Operate Luciteron",
+      "cost": null,
+      "cooldown": null,
+      "description": "Deals P.DMG to all enemies every sec and inflicts 1 [Conflagration] stack. [Conflagration] stack reduces Heal Rate of the enemy target by 1% and increases DMG of this skill by 10%. Effect of [Conflagration] will be amplified per stack.\n10 stacks: greatly reduces DEF of target. \n20 stacks: [Conflagration] stack becomes irremovable.\nThis effect will activate upon operation of Luciteron."
+    },
+    "9": {
+      "name": "Operate Altigma",
+      "cost": null,
+      "cooldown": null,
+      "description": "Casts [Curtain of Isolation] to frontal range of self for 10 sec. During duration of [Curtain of Isolation], increases own heal rate by 50% and continuously heals HP.\nThis effect will activate upon operation of Altigma."
+    }
+  }
+}

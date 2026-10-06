@@ -1,0 +1,76 @@
+{
+  "id": "Solenis",
+  "profile": {
+    "name": "Solenis",
+    "title": "Heilige Nova, die die Göttin beschützt",
+    "type": [
+      "Divine Punishment Raid"
+    ],
+    "race": "Heiliger Golem",
+    "damage_type": "Physical",
+    "recommended_heroes": "Isolet, Gremory, Valance",
+    "characteristics": "Solenis besitzt MP und [Kraft der Technologie]. Diese musst du mit MP-Verringerungen, Frost-Skills und Versteinerung-Skills verringern. Bei Verwendung des Skills Stoß der Verurteilung, wird man zufällig in bestimmten Zustand versetzt. Da man kontinuerlich Schaden erhält, wenn man Zustände nicht entfernt, ist eine den Bedingungen entsprechende schnelle Entfernung nötig.",
+    "thumbnail": "bosses/Solenis.png",
+    "recommendedHeroNames": [
+      "Isolet",
+      "Gremory",
+      "Valance"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Schlag der Verurteilung",
+      "cost": null,
+      "cooldown": "29",
+      "description": "Allen Gegnern wird körp. Schaden zugefügt und sie werden 5 Sek. lang betäubt. Dabei wird Abklingzeit aller Skills des Ziels erhöht. Proportional zur [Kraft der Technologie] von Solenis steigt die Erhöhungsrate der Abklingzeiten\n* Bei Aktivierung von Luciteron: Schaden erhöht sich. Nach Treffer wird für 7 Sek. [Gotteszorn-Echo] erzeugt und jede Sek. wird körp. Schaden zugefügt. Außerdem werden Schilder und Unbesiegbarkeit-Effekte aller Treffer entfernt."
+    },
+    "2": {
+      "name": "Kanone der Verurteilung",
+      "cost": null,
+      "cooldown": "33",
+      "description": "Auf alle Gegnern wird eine Rakete abgeschossen. Dabei wird dem Ziel bei jedem Treffer körp. Schaden zugefügt und MP verringert. Abhängig von MP von Solenis wird die MP-Verringerung erhöht.\n* Bei Aktivierung von Altigma: Bei jedem Treffer wird [Last der Sünde] gestapelt. [Last der Sünde] - Stapel verringern ANG-GESCHW. des Ziels um 30 und können nicht entfernt werden. Außerdem werden Schilder und Unbesiegbarkeit-Effekte aller Treffer entfernt."
+    },
+    "3": {
+      "name": "Stoß der Verurteilung",
+      "cost": null,
+      "cooldown": "45",
+      "description": "Solenis wird zufällig in [Höllenfeuer] - oder [Beständigkeit} - Zustand versetzt und schlägt während der Wirkungsdauer auf alle Gegner ein und fügt körp. Schaden zu. Zustände können nicht auf einfache Weise entfernt werden. Wenn Zustände beide entfernt werden, wird Solenis neutralisiert und der erhaltene Schaden wird erhöht.\n[Höllenfeuer} - Zustand: Solenis Farbe ändert sich zu rot. Wird entfernt, wenn Helden eine Fertigkeit 60 Mal oder öfter verwenden.\n[Beständigkeit] - Zustand: Solenis Farbe ändert sich zu blau. Wird entfernt, wenn Solenices TP um mehr als 10 % reduziert werden.\n* Bei Aktivierung von Luciteron: [Höllenfeuer] Freigabebedingung erhöht sich - alles [Kraft der Technologie] von Solenis verringert wurde.\n* Bei Aktivierung von Altigma: [Beständigkeit] Freigabebedingung erhöht sich - Zustand MP von Solenis bei 0 liegt."
+    },
+    "4": {
+      "name": "Letzte Aufgabe",
+      "cost": null,
+      "cooldown": null,
+      "description": "Wenn TP von Solenis bei 50 % liegt, wird er in den nicht entfernbaren [Fanatismus] - Zustand versetzt. Im [Fanatismus] - Zustand erhöht sich der von Solenis an Gegner zugefügte Schaden um 40 %."
+    },
+    "5": {
+      "name": "Blitz der Verurteilung",
+      "cost": null,
+      "cooldown": null,
+      "description": "Jedes Mal, wenn Solenis 60-mal getroffen wird, wird allen Gegnern körp. Schaden zugefügt.\n* Bei Aktivierung von Luciteron und Altigma: Schaden erhöht sich um 100 %."
+    },
+    "6": {
+      "name": "Kraft der Technologie",
+      "cost": null,
+      "cooldown": null,
+      "description": "Solenis besitzt [Kraft der Technologie]. Wenn Solenis eingefroren oder versteinert wird, verringert sich diese Kraft. Werden bei alle kraft verringert. nach einiger Zeit [Kraft der Technologie] wird regeneriert. Dieser Effekt lässt sich max.Außerdem wird MP kontinuierlich regeneriert und Schaden wird proportional zu MP verringert."
+    },
+    "7": {
+      "name": "Wächter der Göttin",
+      "cost": null,
+      "cooldown": null,
+      "description": "Solenis wird nicht von Effekten beeinflusst, die ANG-GESCHW. oder VERT einschränken oder MP-Wiederherstellung verhindern. Erhöht alle Krit-Widerstand sich um 500 und seine Angriffe treffen immer. Außerdem verstärken sich Skills von Solenis, wenn Luciteron und Altigma aktiviert sind."
+    },
+    "8": {
+      "name": "Aktivierung von Luciteron",
+      "cost": null,
+      "cooldown": null,
+      "description": "Jede Sekunde wird allen Gegnern körp. Schaden zugefügt und 1 [Flamme] - Stapel wird hinzugefügt. [Flamme] - Stapel verringern Heilungsrate der Gegner um 1 % und Schaden des entsprechendes Skills wird um 10 % erhöht. Wenn [Flamme] gestapelt wird, erhöht sich der Effekt.\n10 Stapel: VERT des Ziels wird enorm verringert.\n20 Stapel: [Flamme] - Stapel sind nicht mehr entfernbar.\nDieser Effekt wird bei Aktivierung von Luciteron aktiviert."
+    },
+    "9": {
+      "name": "Aktivierung von Altigma",
+      "cost": null,
+      "cooldown": null,
+      "description": "[Schleier der Trennung] 10 Sek. lang vor dir in Reichweite erzeugt. Während [Schleier der Trennung] aktiviert ist, steigt eigene Heilungsrate um 50 % und TP wird kontinuierlich regeneriert.\nDieser Effekt wird bei Aktivierung von Altigma aktiviert."
+    }
+  }
+}
