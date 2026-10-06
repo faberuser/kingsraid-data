@@ -1,0 +1,280 @@
+{
+  "id": "Epis",
+  "profile": {
+    "name": "Epis",
+    "title": "Epis, Fascinante Démone",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "900",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "???",
+    "height": "164",
+    "race": "Démon",
+    "constellation": "Kandala le Conquérant",
+    "birth": {
+      "month": 8,
+      "day": 13,
+      "monthName": "Mois de la Vitalité"
+    },
+    "like": "Tout ce qui pique l'intérêt ou la curiosité",
+    "dislike": "Une atmosphère ennuyeuse",
+    "story": "Cette succube joyeuse et envoûtante vit en suivant ses caprices. Comme on peut s'y attendre, du fait de son héritage démoniaque, c'est une hédoniste qui ne fait que des choses amusantes et agréables. Même durant la guerre démoniaque, elle choisit de voyager seule plutôt que de se joindre à l'invasion. Elle trouvait que combattre au côté de Kyle était assez intéressant pour justifier de trahir les siens. Plus tard, lorsqu'elle rencontra Kasel, elle se joignit à son groupe avec plaisir en sachant qu'elle passerait des moments amusants. Lorsqu'elle tombe sur des hommes attirants, elle leur rend souvent visite dans leurs rêves.",
+    "thumbnail": "heroes/Epis/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Souffle absorbant",
+      "cost": "2",
+      "cooldown": "7",
+      "description": "Inflige 871*(0.7+(0.3*Skill Level*Awakening Coefficient))+500.2% ATK DEG M à un ennemi et récupère des PV égaux à 25% des DEG infligés. Augmente sa propre ATQ de 4% pendant 15 sec, jusqu'à 6 cumuls. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Epis/skills/1.png"
+    },
+    "2": {
+      "name": "Cauchemar",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Se déplace vers l'ennemi le plus éloigné à l'arrière et inflige 484*(0.7+(0.3*Skill Level*Awakening Coefficient))+278% ATK DEG M à la cible et aux ennemis proches. Augmente leurs DEG M subis de 20% et réduit leur résistance aux contrôles de 320 pendant 5 sec. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Epis/skills/2.png"
+    },
+    "3": {
+      "name": "Bal du Diable",
+      "cost": "4",
+      "cooldown": "13",
+      "description": "Inflige 458*(0.7+(0.3*Skill Level*Awakening Coefficient))+263.6% ATK DEG M 4 fois aux ennemis à portée. Pendant l'incantation, immunisée contre les contrôles et réduit tous ses DEG subis de 60%. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Epis/skills/3.png"
+    },
+    "4": {
+      "name": "Moisson",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lorsqu’un ennemi est tué, réduit la recharge de toutes les compétences de 30% et gagne 1 cumuls de [Récolte]. [Récolte] : augmente l’ATQ de 80*(0.7+(0.3*Skill Level*Awakening Coefficient)), jusqu’à 10 cumuls.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Epis/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Lors d'un coup critique, soigne le Héros pour [64ff64]25[-]% des DEG."
+    },
+    "4": {
+      "II": "Le taux de récupération de l'ATQ est augmenté de [64ff64]10[-]%.",
+      "III": "Le taux de récupération de l'ATQ est augmenté de [64ff64]15[-]%.",
+      "IV": "À chaque activation de [Moisson], restaure 1000 de sa propre Mana."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "S'il y a 1 ennemi, les DEG sont augmentés de 100%.",
+          "thumbnail": "heroes/Epis/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit le temps de recharge de 2 sec.",
+          "thumbnail": "heroes/Epis/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Les dégâts augmentent de 50 %.",
+          "thumbnail": "heroes/Epis/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Augmente le coût en Mana de 2000. Après une compétence, lance aussi [Souffle absorbant] si des ennemis se trouvent à proximité.",
+          "thumbnail": "heroes/Epis/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Les dégâts infligés diminuent de 30 %, mais le nombre de coups est doublé.",
+          "thumbnail": "heroes/Epis/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente le coût en Mana de 1000, mais déclenche [Récolte] une fois.",
+          "thumbnail": "heroes/Epis/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "La récupération de mana par seconde augmente de {1} % par cumul.",
+          "thumbnail": "heroes/Epis/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Réduit le temps de recharge d'1 sec supplémentaire par seconde lorsque les accumulations dépassent 6.",
+          "thumbnail": "heroes/Epis/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Epis/perks/light.png"
+      },
+      "dark": {
+        "effect": "Lorsqu'une compétence touche, augmente l'ATQ d'Epis de 4% et sa pénétration de DEF de 4%, jusqu'à 5 cumuls.",
+        "thumbnail": "heroes/Epis/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Guillotine fascinante",
+    "description": "Les attaques ont 25% de chances d'infliger des DEG M supplémentaires égaux à {0}% de l'ATQ et d'augmenter sa propre ATQ de {1}%. L'augmentation d'ATQ est cumulable jusqu'à 10 fois.",
+    "thumbnail": "heroes/Epis/uw.png",
+    "story": "Une faux mortelle adaptée à la personnalité de son porteur, Epis. Elle fauche l'âme de tous ceux qui s'approchent pour admirer sa beauté. Créée à partir du propre corps d'Epis, elle ressemble à une succube, offrant un plaisir extrême à ses victimes avant d'absorber leur énergie vitale. On dirait qu'Epis a voulu faire preuve d'un peu de bonté avec cette arme.",
+    "value": {
+      "0": {
+        "0": "80",
+        "1": "96",
+        "2": "115",
+        "3": "138",
+        "4": "165",
+        "5": "200"
+      },
+      "1": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.8",
+        "3": "3.2",
+        "4": "3.6",
+        "5": "4"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Les attaques ont 25% de chances d'infliger des DEG M supplémentaires égaux à 80% de l'ATQ et d'augmenter sa propre ATQ de 2%. L'augmentation d'ATQ est cumulable jusqu'à 10 fois.",
+      "1": "Les attaques ont 25% de chances d'infliger des DEG M supplémentaires égaux à 96% de l'ATQ et d'augmenter sa propre ATQ de 2.4%. L'augmentation d'ATQ est cumulable jusqu'à 10 fois.",
+      "2": "Les attaques ont 25% de chances d'infliger des DEG M supplémentaires égaux à 115% de l'ATQ et d'augmenter sa propre ATQ de 2.8%. L'augmentation d'ATQ est cumulable jusqu'à 10 fois.",
+      "3": "Les attaques ont 25% de chances d'infliger des DEG M supplémentaires égaux à 138% de l'ATQ et d'augmenter sa propre ATQ de 3.2%. L'augmentation d'ATQ est cumulable jusqu'à 10 fois.",
+      "4": "Les attaques ont 25% de chances d'infliger des DEG M supplémentaires égaux à 165% de l'ATQ et d'augmenter sa propre ATQ de 3.6%. L'augmentation d'ATQ est cumulable jusqu'à 10 fois.",
+      "5": "Les attaques ont 25% de chances d'infliger des DEG M supplémentaires égaux à 200% de l'ATQ et d'augmenter sa propre ATQ de 4%. L'augmentation d'ATQ est cumulable jusqu'à 10 fois."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Fée verte",
+      "description": "[Souffle absorbant] Augmente les DGT de {0} % et réinitialise son temps de recharge lorsqu'un ennemi est tué.",
+      "thumbnail": "heroes/Epis/ut/1.png",
+      "story": "La boisson alcoolisée favorite d'Epis.\nIssu de l'absinthe la plus forte, capable de provoquer des hallucinations, c'est l'alcool le plus tristement célèbre d'Orvel. La fée verte est consommée en secret par les artistes pour trouver l'inspiration ou pour remédier aux insomnies les plus tenaces. Pour Epis, c'est quasiment de l'eau.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Souffle absorbant] Augmente les DGT de 20 % et réinitialise son temps de recharge lorsqu'un ennemi est tué.",
+        "1": "[Souffle absorbant] Augmente les DGT de 24 % et réinitialise son temps de recharge lorsqu'un ennemi est tué.",
+        "2": "[Souffle absorbant] Augmente les DGT de 29 % et réinitialise son temps de recharge lorsqu'un ennemi est tué.",
+        "3": "[Souffle absorbant] Augmente les DGT de 35 % et réinitialise son temps de recharge lorsqu'un ennemi est tué.",
+        "4": "[Souffle absorbant] Augmente les DGT de 42 % et réinitialise son temps de recharge lorsqu'un ennemi est tué.",
+        "5": "[Souffle absorbant] Augmente les DGT de 50 % et réinitialise son temps de recharge lorsqu'un ennemi est tué."
+      }
+    },
+    "2": {
+      "name": "Boîte de succube",
+      "description": "[Cauchemar] Augmente les DEG de 50 % et étourdit l'ennemi affecté pendant {0} sec.",
+      "thumbnail": "heroes/Epis/ut/2.png",
+      "story": "Boîte renfermant les sables du sommeil de la reine des cauchemars. \nCette boîte provient du monde des démons et contient du sable magique qui provoque le sommeil. \nUne fois l’ennemi endormi, toute attaque à son encontre inflige des DEG M. par l’intermédiaire d’un cauchemar irrépressible.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Cauchemar] Augmente les DEG de 50 % et étourdit l'ennemi affecté pendant 2 sec.",
+        "1": "[Cauchemar] Augmente les DEG de 50 % et étourdit l'ennemi affecté pendant 2,4 sec.",
+        "2": "[Cauchemar] Augmente les DEG de 50 % et étourdit l'ennemi affecté pendant 2,9 sec.",
+        "3": "[Cauchemar] Augmente les DEG de 50 % et étourdit l'ennemi affecté pendant 3,5 sec.",
+        "4": "[Cauchemar] Augmente les DEG de 50 % et étourdit l'ennemi affecté pendant 4,2 sec.",
+        "5": "[Cauchemar] Augmente les DEG de 50 % et étourdit l'ennemi affecté pendant 5 sec."
+      }
+    },
+    "3": {
+      "name": "Soulier de séduction",
+      "description": "[Bal du Diable] Réduit le coût en PM de 1 et augmente les DEG infligés de {0}%.",
+      "thumbnail": "heroes/Epis/ut/3.png",
+      "story": "L’objet adoré d’Epis. Lorsqu’Epis arriva dans le monde humain, elle s’éprit de la culture humaine et assista à une mascarade. Une fille dansant en talons hauts attira son regard et elle passa un marché avec elle pour récupérer ces chaussures. Epis porte des talons de séductrice et se laisse emporter dans sa danse dangereuse pour ses ennemis.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Bal du Diable] Réduit le coût en PM de 1 et augmente les DEG infligés de 20%.",
+        "1": "[Bal du Diable] Réduit le coût en PM de 1 et augmente les DEG infligés de 24%.",
+        "2": "[Bal du Diable] Réduit le coût en PM de 1 et augmente les DEG infligés de 29%.",
+        "3": "[Bal du Diable] Réduit le coût en PM de 1 et augmente les DEG infligés de 35%.",
+        "4": "[Bal du Diable] Réduit le coût en PM de 1 et augmente les DEG infligés de 42%.",
+        "5": "[Bal du Diable] Réduit le coût en PM de 1 et augmente les DEG infligés de 50%."
+      }
+    },
+    "4": {
+      "name": "Souvenir onirique",
+      "description": "[Moisson] Augmente le boost d'ATQ de 50 %. Chaque ennemi vaincu augmente la Vitesse d'ATQ de {0} points. Cet effet peut se cumuler jusqu'à 10 fois.",
+      "thumbnail": "heroes/Epis/ut/4.png",
+      "story": "Un miroir magique reflétant les rêves absorbés par Epis.\nComme Epis se sert du miroir pour capturer les rêves les plus fascinants, il renferme à présent une multitude de secrets inavouables.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Moisson] Augmente le boost d'ATQ de 50 %. Chaque ennemi vaincu augmente la Vitesse d'ATQ de 20 points. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "1": "[Moisson] Augmente le boost d'ATQ de 50 %. Chaque ennemi vaincu augmente la Vitesse d'ATQ de 24 points. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "2": "[Moisson] Augmente le boost d'ATQ de 50 %. Chaque ennemi vaincu augmente la Vitesse d'ATQ de 29 points. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "3": "[Moisson] Augmente le boost d'ATQ de 50 %. Chaque ennemi vaincu augmente la Vitesse d'ATQ de 35 points. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "4": "[Moisson] Augmente le boost d'ATQ de 50 %. Chaque ennemi vaincu augmente la Vitesse d'ATQ de 42 points. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "5": "[Moisson] Augmente le boost d'ATQ de 50 %. Chaque ennemi vaincu augmente la Vitesse d'ATQ de 50 points. Cet effet peut se cumuler jusqu'à 10 fois."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant [64ff64]18[-] sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de [Guillotine fascinante] pendant 8 sec, augmentant sa propre ATQ de 40%. Pendant la durée, les attaques normales et de compétence ont 20% de chances d'infliger des DEG M égaux à 150% de l'ATQ. Cet effet gagne {4} de pénétration de DEF M et se déclenche avec 100% de chances lorsque [Souffle absorbant] touche.",
+    "cooldown": "18",
+    "uses": "6",
+    "thumbnail": "heroes/Epis/sw.png",
+    "advancement": {
+      "1": "Augmente les DEG infligés de 50%.",
+      "2": "Les chances d'activation passent à 40 %."
+    },
+    "story": "Guillotine, née d'Epis, grandissait en même temps que la force et la volonté de sa propriétaire qui devenaient plus fortes.\nEn passant par l'expérience de l'âme, Guillotine devint bien plus qu'un instrument, et se matérialisa sous la forme de deux faux. Ainsi, elle permettait à Epis de pouvoir s'emparer plus d'âme et de ressentir plus de plaisir.\nSe perdre en contemplation devant l'apparence fascinante de Guillotine signifie une mort douce et un plaisir infini."
+  },
+  "splashart": "heroes/Epis/sa.png",
+  "costumes": "heroes/Epis/cos",
+  "_localization": {
+    "locale": "fr",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

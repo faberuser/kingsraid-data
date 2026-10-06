@@ -1,0 +1,228 @@
+{
+  "id": "Glenwys",
+  "profile": {
+    "name": "Glenwys",
+    "title": "Glenwys, Bouclier de l'Empire",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "8700",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "20",
+    "height": "168",
+    "race": "Humain",
+    "constellation": "Graham le Grand Voleur",
+    "birth": {
+      "month": 5,
+      "day": 11,
+      "monthName": "Mois de l'Espoir"
+    },
+    "like": "L'entraînement, le sourire des citoyens de l'empire, l'ambiances animée et la tarte aux pommes",
+    "dislike": "La souffrance des citoyens, la haute société et les fêtes des nobles",
+    "story": "Si vous demandez aux citoyens de l'empire de choisir leur chevalier préféré, c'est le nom de Glenwys qui reviendra le plus souvent. Elle est vice-capitaine des Chevaliers gardiens de la capitale, le plus haut poste jamais occupé par un chevalier issu d'un milieu modeste.\nCombattante émérite, d'une profonde humilité doublée d'un grand sens des responsabilités, elle prend son rôle de chevalier extrêmement à cœur. Glenwys est incontestablement un symbole d'espoir pour tous les roturiers de l'empire, car elle a gagné son poste de vice-capitaine à la sueur de son front, et remporté les 3 tournois organisés par l'impératrice elle-même.\nVéritable incarnation de la méritocratie au sein de l'empire, elle force l'admiration de bien des gens.",
+    "thumbnail": "heroes/Glenwys/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Ce sera tout",
+      "cost": "2",
+      "cooldown": "9",
+      "description": "Inflige un total de ??? points de DEG P en 7 attaques aux ennemis à portée situés en face. Chaque attaque augmente les DEG P reçus de 4% pendant 10 sec. Cet effet peut se cumuler jusqu'à 7 fois.\nSi la cible n'est pas un Héros, inflige ??? points de DEG P supplémentaires.",
+      "thumbnail": "heroes/Glenwys/skills/1.png"
+    },
+    "2": {
+      "name": "Je ne resterai pas les bras croisés",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Inflige ??? points de DEG P en 10 attaques aux ennemis situés en cercle autour du lanceur et les étourdit pendant 1 sec.\nLa dernière attaque inflige ??? points de DEG P aux ennemis situés en face et les étourdit pendant 3 sec.",
+      "thumbnail": "heroes/Glenwys/skills/2.png"
+    },
+    "3": {
+      "name": "Que la riposte commence",
+      "cost": "4",
+      "cooldown": "17",
+      "description": "Fait appel à la force du Bouclier de l'empire pour infliger ??? points de DEG P aux ennemis situés dans un grand cercle autour du lanceur et les renverse pendant 3 sec. Dissipe les effets négatifs qui pèsent sur tous les alliés, augmente l'ATQ de ??? points pendant 20 sec et la DEF de ???.",
+      "thumbnail": "heroes/Glenwys/skills/3.png"
+    },
+    "4": {
+      "name": "Fierté des chevaliers de l'empire",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente l'ATQ de tous les alliés de ??? points ainsi que les DEG infligés aux ennemis non-Héros de 10% pendant 20 sec au début du combat, et réduit les DEG reçus de 10%.",
+      "thumbnail": "heroes/Glenwys/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "2": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "3": {
+      "II": "Augmente le boost d'ATQ et de DEF de 10%.",
+      "III": "Augmente le boost d'ATQ et de DEF de 15%.",
+      "IV": "Augmente le boost d'ATQ et de DEF de 25%."
+    },
+    "4": {
+      "II": "ATQ augmentée de 10%.",
+      "III": "ATQ augmentée de 15%.",
+      "IV": "ATQ augmentée de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Augmente le coût en PM de 1 et les DEG infligés aux ennemis non-Héros ignorent leur DEF.",
+          "thumbnail": "heroes/Glenwys/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit la Vitesse d'ATQ de la cible de 250 points pendant 10 sec.",
+          "thumbnail": "heroes/Glenwys/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Augmente les DEG P reçus par la cible de 25% pendant 10 sec.",
+          "thumbnail": "heroes/Glenwys/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Augmente la durée d'étourdissement de 0,5 sec.",
+          "thumbnail": "heroes/Glenwys/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Réduit la Résistance Crit P de la cible de 250 pendant 10 sec.",
+          "thumbnail": "heroes/Glenwys/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente le coût en PM de 1 et les augmentations d'ATQ et DEF de 100%.",
+          "thumbnail": "heroes/Glenwys/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Les DEG infligés aux ennemis non-Héros passent à 20%.",
+          "thumbnail": "heroes/Glenwys/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Les DEG reçus des ennemis non-Héros passent à 20%.",
+          "thumbnail": "heroes/Glenwys/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEF +10%",
+        "thumbnail": "heroes/Glenwys/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente l'ATQ de tous les alliés à hauteur de 8% du total de toutes les DEF du lanceur.",
+        "thumbnail": "heroes/Glenwys/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Maxithea, la Riposte fulgurante",
+    "description": "Lors de l'utilisation d'une compétence, augmente l'ATQ de tous les alliés de 1% et les DEG Crit de 2%. Cet effet peut se cumuler jusqu'à 4 fois, et il est alors doublé. Cet effet ne peut pas être dissipé.",
+    "value": {},
+    "thumbnail": "heroes/Glenwys/uw.png",
+    "story": "Une baïonnette et un bouclier issus de l'ingénierie mécanique de pointe de l'empire.\nLa baïonnette est un prototype réalisé par le département d'ingénierie mécanique de Magos Le'Flamme,\ndestiné à neutraliser plusieurs ennemis en corps-à-corps.\nLe bouclier est quant à lui conçu pour parer et contrer les frappes ennemies\ngrâce à son absorption phénoménale des coups.\nIl fut offert à Glenwys par la famille royale de l'empire\npour la récompenser de ses exploits après avoir rejoint les chevaliers.",
+    "descriptionByStar": {
+      "0": "Lors de l'utilisation d'une compétence, augmente l'ATQ de tous les alliés de 1% et les DEG Crit de 2%. Cet effet peut se cumuler jusqu'à 4 fois, et il est alors doublé. Cet effet ne peut pas être dissipé.",
+      "1": "Lors de l'utilisation d'une compétence, augmente l'ATQ de tous les alliés de 1,2% et les DEG Crit de 2,4%. Cet effet peut se cumuler jusqu'à 4 fois, et il est alors doublé. Cet effet ne peut pas être dissipé.",
+      "2": "Lors de l'utilisation d'une compétence, augmente l'ATQ de tous les alliés de 1,4% et les DEG Crit de 2,8%. Cet effet peut se cumuler jusqu'à 4 fois, et il est alors doublé. Cet effet ne peut pas être dissipé.",
+      "3": "Lors de l'utilisation d'une compétence, augmente l'ATQ de tous les alliés de 1,7% et les DEG Crit de 3,4%. Cet effet peut se cumuler jusqu'à 4 fois, et il est alors doublé. Cet effet ne peut pas être dissipé.",
+      "4": "Lors de l'utilisation d'une compétence, augmente l'ATQ de tous les alliés de 2% et les DEG Crit de 4,2%. Cet effet peut se cumuler jusqu'à 4 fois, et il est alors doublé. Cet effet ne peut pas être dissipé.",
+      "5": "Lors de l'utilisation d'une compétence, augmente l'ATQ de tous les alliés de 2,5% et les DEG Crit de 5%. Cet effet peut se cumuler jusqu'à 4 fois, et il est alors doublé. Cet effet ne peut pas être dissipé."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Badge de chef alpha",
+      "description": "[Ce sera tout] Augmente les DEG de 50 % et le temps de recharge de 1 % lorsque vous assénez un coup critique.",
+      "value": {},
+      "thumbnail": "heroes/Glenwys/ut/1.png",
+      "story": "Symbole des Chevaliers gardiens de la capitale.\nCe badge porté par leur chef suprême l'autorisé à garantir la sécurité de l'empire en imposant une justice expéditive. Élu à l'unanimité, le chef suprême doit être un chevalier aux techniques de combat inégalées et à la réputation irréprochable.",
+      "descriptionByStar": {
+        "0": "[Ce sera tout] Augmente les DEG de 50 % et le temps de recharge de 1 % lorsque vous assénez un coup critique.",
+        "1": "[Ce sera tout] Augmente les DEG de 50 % et le temps de recharge de 1,2 % lorsque vous assénez un coup critique.",
+        "2": "[Ce sera tout] Augmente les DEG de 50 % et le temps de recharge de 1,4 % lorsque vous assénez un coup critique.",
+        "3": "[Ce sera tout] Augmente les DEG de 50 % et le temps de recharge de 1,7 % lorsque vous assénez un coup critique.",
+        "4": "[Ce sera tout] Augmente les DEG de 50 % et le temps de recharge de 2 % lorsque vous assénez un coup critique.",
+        "5": "[Ce sera tout] Augmente les DEG de 50 % et le temps de recharge de 2,5 % lorsque vous assénez un coup critique."
+      }
+    },
+    "2": {
+      "name": "Pissenlit rayonnant",
+      "description": "[Je ne resterai pas les bras croisés] Réduit le temps de recharge de 4,5 sec et la récupération ennemie de 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Glenwys/ut/2.png",
+      "story": "Le tournoi coliséen annuel de l'empire donnait à tous les courageux combattants l'occasion de prouver leur valeur, quels que soient leur origine et rang social. Toutefois, le vainqueur était toujours un noble, un chevalier ou un soldat soutenu par des nobles. Tout le monde savait que les dés étaient pipés, mais personne n'osait rien dire.\nLorsque Glenwys, une roturière de 16 ans qui ne connaissait personne, remporta le tournoi il y a 4 ans, sa victoire redonna à la compétition ses lettres de noblesse. Ce jour-là, le public du Colisée lui fit une ovation tonitruante, car il vit enfin les aristocrates perdre ce qu'ils avaient cru toujours posséder. Glenwys devint la nouvelle coqueluche de l'empire et le peuple lui offrait des cadeaux\nqu'elle refusait systématiquement. Elle était gênée de l'attention qu'on lui portait, et elle avait compris que les puissants n'apprécieraient pas de voir les roturiers se rallier à elle.\nNéanmoins, elle ne put se résoudre à refuser le presse-papiers en pissenlit qu'une petite fille timide lui offrit, et ceci reste à ce jour le seul cadeau qu'elle accepta.",
+      "descriptionByStar": {
+        "0": "[Je ne resterai pas les bras croisés] Réduit le temps de recharge de 4,5 sec et la récupération ennemie de 20 %.",
+        "1": "[Je ne resterai pas les bras croisés] Réduit le temps de recharge de 4,5 sec et la récupération ennemie de 24 %.",
+        "2": "[Je ne resterai pas les bras croisés] Réduit le temps de recharge de 4,5 sec et la récupération ennemie de 28 %.",
+        "3": "[Je ne resterai pas les bras croisés] Réduit le temps de recharge de 4,5 sec et la récupération ennemie de 34 %.",
+        "4": "[Je ne resterai pas les bras croisés] Réduit le temps de recharge de 4,5 sec et la récupération ennemie de 42 %.",
+        "5": "[Je ne resterai pas les bras croisés] Réduit le temps de recharge de 4,5 sec et la récupération ennemie de 50 %."
+      }
+    },
+    "3": {
+      "name": "Rubis Ballas",
+      "description": "[Que la riposte commence] Augmente l'ATQ et la DEF de 50 % ainsi que les DEG P reçus par la cible de 10 % pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Glenwys/ut/3.png",
+      "story": "Dernier cadeau offert par un soutien anonyme.\nGlenwys fut la première roturière à remporter le tournoi, mais les frais à payer pour défendre son titre dans les tournois coliséens de l'empire étaient hors de portée d'une roturière. Certes, les citoyens l'aidèrent grâce à des dons, mais la participation finit par devenir trop chère pour qu'elle puisse continuer la compétition.\nÀ sa grande surprise, un soutien anonyme lui offrit son aide quand elle en avait le plus besoin, et elle put ainsi continuer à combattre.\nAprès avoir remporté 3 tournois consécutifs, elle reçut le rubis Ballas, joyau de chevalier, et ce fut le dernier geste de son soutien anonyme. Depuis lors, elle garde toujours ce porte-bonheur avec elle. Elle est certes reconnaissante, mais avant tout curieuse de savoir qui pouvait bien être son bienfaiteur.",
+      "descriptionByStar": {
+        "0": "[Que la riposte commence] Augmente l'ATQ et la DEF de 50 % ainsi que les DEG P reçus par la cible de 10 % pendant 10 sec.",
+        "1": "[Que la riposte commence] Augmente l'ATQ et la DEF de 50 % ainsi que les DEG P reçus par la cible de 12 % pendant 10 sec.",
+        "2": "[Que la riposte commence] Augmente l'ATQ et la DEF de 50 % ainsi que les DEG P reçus par la cible de 14 % pendant 10 sec.",
+        "3": "[Que la riposte commence] Augmente l'ATQ et la DEF de 50 % ainsi que les DEG P reçus par la cible de 17 % pendant 10 sec.",
+        "4": "[Que la riposte commence] Augmente l'ATQ et la DEF de 50 % ainsi que les DEG P reçus par la cible de 21 % pendant 10 sec.",
+        "5": "[Que la riposte commence] Augmente l'ATQ et la DEF de 50 % ainsi que les DEG P reçus par la cible de 25 % pendant 10 sec."
+      }
+    },
+    "4": {
+      "name": "Gloire dorée",
+      "description": "[Fierté des chevaliers de l'empire] Augmente le bonus d'ATQ de 50 %, les DEG Crit du lanceur et de l'allié à l'ATQ la plus élevée (à l'exception du lanceur) de 30 % pendant 20 sec au début du combat, et les DEG infligés aux ennemis non-héros de 10 %.",
+      "value": {},
+      "thumbnail": "heroes/Glenwys/ut/4.png",
+      "story": "Ce trophée en or fut remis à Glenwys pour avoir remporté 3 tournois coliséens de l'empire consécutifs.\nC'est le cadeau offert par l'impératrice au véritable héros du Colisée.\nLe troisième match du championnat fut le dernier auquel Glenwys participa.\nSon ultime adversaire fut un homme masqué qui avait vaincu tous ses opposants en quelques secondes. Glenwys commença à prendre peur lorsqu'elle le vit combattre en demi-finale,\nun combat qui, comme tous les autres, fut unilatéral.\nCet homme agitait ses deux épées rouges comme une tempête qui s'abattait sur Glenwys. Alors qu'elle parait ses attaques puissantes, elle attendait une opportunité. Lorsqu'il sembla enfin baisser sa garde, Glenwys lança une attaque déchaînée.\nÀ sa grande surprise, son adversaire l'esquiva simplement en reculant.\nL'explosion provoquée par l'attaque de Glenwys fendit le masque de l'homme mystérieux, ce qui révéla son beau visage. Elle remarqua qu'il souriait.\nConstatant que son attaque n'avait même pas égratigné son adversaire, Glenwys leva son bouclier, consternée,\nquand il jeta soudainement l'éponge.\nLorsque la poussière se dissipa, un autre masque recouvrait le visage de l'homme mystère.\nAbasourdie, Glenwys ne comprit pas ce qu'il s'était passé. Mais lorsque l'impératrice lui remit le trophée,\nelle aperçut l'homme derrière l'impératrice, à côté du capitaine de la garde royale, en train de l'applaudir chaleureusement.",
+      "descriptionByStar": {
+        "0": "[Fierté des chevaliers de l'empire] Augmente le bonus d'ATQ de 50 %, les DEG Crit du lanceur et de l'allié à l'ATQ la plus élevée (à l'exception du lanceur) de 30 % pendant 20 sec au début du combat, et les DEG infligés aux ennemis non-héros de 10 %.",
+        "1": "[Fierté des chevaliers de l'empire] Augmente le bonus d'ATQ de 50 %, les DEG Crit du lanceur et de l'allié à l'ATQ la plus élevée (à l'exception du lanceur) de 36 % pendant 20 sec au début du combat, et les DEG infligés aux ennemis non-héros de 12 %.",
+        "2": "[Fierté des chevaliers de l'empire] Augmente le bonus d'ATQ de 50 %, les DEG Crit du lanceur et de l'allié à l'ATQ la plus élevée (à l'exception du lanceur) de 42 % pendant 20 sec au début du combat, et les DEG infligés aux ennemis non-héros de 14 %.",
+        "3": "[Fierté des chevaliers de l'empire] Augmente le bonus d'ATQ de 50 %, les DEG Crit du lanceur et de l'allié à l'ATQ la plus élevée (à l'exception du lanceur) de 50 % pendant 20 sec au début du combat, et les DEG infligés aux ennemis non-héros de 17 %.",
+        "4": "[Fierté des chevaliers de l'empire] Augmente le bonus d'ATQ de 50 %, les DEG Crit du lanceur et de l'allié à l'ATQ la plus élevée (à l'exception du lanceur) de 63 % pendant 20 sec au début du combat, et les DEG infligés aux ennemis non-héros de 21 %.",
+        "5": "[Fierté des chevaliers de l'empire] Augmente le bonus d'ATQ de 50 %, les DEG Crit du lanceur et de l'allié à l'ATQ la plus élevée (à l'exception du lanceur) de 75 % pendant 20 sec au début du combat, et les DEG infligés aux ennemis non-héros de 25 %."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Se recharge toutes les sec et à chaque fois que les DEG sont infligés. Devient utilisable lorsqu'elle est rechargée 80 fois.",
+    "description": "Invoque l'âme de Maxithea, la Riposte fulgurante, ce qui restaure ??? PV de tous les alliés et augmente leur DEF de 50% pendant 10 sec. Ensuite, l'âme charge vers l'avant et inflige ??? DEG P aux ennemis à portée et les renverse pendant 5 sec.",
+    "cooldown": "20",
+    "uses": "6",
+    "thumbnail": "heroes/Glenwys/sw.png",
+    "advancement": {
+      "1": "Augmente la DEF de Glenwys de 50% et le taux d'ATQ de tous les alliés de 40%, pendant la durée de la compétence.",
+      "2": "Lors de son activation, dissipe les effets négatifs sur tous les alliés. Lorsque l'âme charge, dissipe tous les effets positifs sur les ennemis à portée et augmente les DEG P reçus par la cible de 25% pendant 10 sec."
+    },
+    "story": "Au début, Glenwys avait simplement voulu protéger les habitants du village.\nElle se demandait sans cesse si elle était réellement digne d'être adulée comme étant l'espoir des personnes de la classe populaire. Ce n'était par chance que ses talents avaient été reconnus.\nCette pensée la tourmenta continuellement, lorsqu'elle utilisait Maxithea, le bouclier protecteur que la cour royale lui avait octroyé.\nBien que la technologie principale de l'empire soit la technomagie, posséder une arme était un privilège accordé uniquement à ceux qui avaient de la richesse. Ce n'était pas le cas de Glenwys, qui avait dû se contenter de manier des épées usées. Une arme, une responsabilité, et une adulation imméritées. Voilà ce qu'elle pensait tout en utilisant Maxithea.\n\nEt c'était précisément la raison pour laquelle Maxithea avait choisi Glenwys. Maxithea, dont le lion bleu qui ornait le bouclier le plus solide de l'empire serait la représentation d'un esprit protecteur selon une légende, avait toujours attendu une personne qui se mettait sans cesse en épreuve, s'interrogeant sur lui-même.\nTous les nobles qui l'avaient utilisé jusqu'à présent étaient des privilégiés, qui n'avaient ni souci ni volonté de progresser.\n\nEt comme Maxithea avait attendu la personne capable de surmonter toutes angoisses et hésitations, telle une lame qu'on forgerait et tremperait inlassablement, il décida d'accorder à Glenwys une plus grande puissance et un avenir radieux, en échange de sa détermination."
+  },
+  "splashart": "heroes/Glenwys/sa.png",
+  "costumes": "heroes/Glenwys/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

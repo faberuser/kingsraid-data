@@ -1,0 +1,271 @@
+{
+  "id": "Isaiah",
+  "profile": {
+    "name": "Isaiah",
+    "title": "Isaiah, Prédicatrice chaotique",
+    "class": "Priest",
+    "position": "Middle-200",
+    "attack_range": "10200",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "???",
+    "height": "167",
+    "race": "Démon",
+    "constellation": "Satua la Sage",
+    "birth": {
+      "month": 2,
+      "day": 16,
+      "monthName": "Mois de la Sagesse"
+    },
+    "like": "Lea, la salvation, les actes de vertu, ses frères et sœurs",
+    "dislike": "Lua, les hérétiques",
+    "story": "Isaiah est l'une des cinq bribes dont la Déesse de la destruction s'est séparée. Nommée Prédicatrice chaotique par certains, craignée et vénérée en même temps par sa foi fanatique envers la Déesse ainsi que sa dévotion envers le cycle, peu survivent après l'avoir vue de près.\nIsaiah, plus croyante et loyale envers Lea que tous les autres Démons, a accepté avec joie son destin de mandataire de Lea, avant de mettre le pied dans le monde matériel peuplé par des brebis aveugles. Elle y accomplit son devoir avec entrain, sans se préoccuper de ses frères et sœurs qui négligent les leurs.\nFidèle à son rôle de bribe du chaos, puis ceux de Démon primitif et de servante de Lea, elle loue la Déesse pour ce qui lui a été accordé et se montre généreuse envers les autres. Il y a des personnes qui croient à tort qu'Isaiah est une nouvelle sainte encore mal connue et qui espèrent qu'elle pourra leur apporter le salut.\nÀ ces pauvres malheureux, elle accorde volontiers la salvation chaotique, sous forme de la mort que personne ne souhaite.",
+    "thumbnail": "heroes/Isaiah/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Lumière du Salut",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Dissipe les effets négatifs d'Isaiah. Ensuite, dissipe tous les effets négatifs des alliés situés dans une large zone environnante, leur confère un bouclier qui absorbe des DEG à hauteur de 7% des PV max d'Isaiah pendant 6 sec, et restaure les PV de ces alliés en dehors d'Isaiah à hauteur de 5% des PV max d'Isaiah + ??? PV. Pendant la durée du bouclier, restaure ??? PV toutes les sec et confère l'immunité aux Contrôles. Aux ennemis, inflige ??? DEG M et inflige aux cibles touchées Silence qui dure 3 sec.\nLors de l'utilisation de cette compétence, consomme 20% des PV actuels d'Isaiah et obtient une charge de [Péché] qui ne peut être dissipé.",
+      "thumbnail": "heroes/Isaiah/skills/1.png"
+    },
+    "2 (1)": {
+      "name": "Toucher de la Déesse – Miséricorde",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Se place derrière l'ennemi à l'ATQ la plus élevée et inflige ??? DEG M ainsi que [Toucher de Miséricorde] qui dure 15 sec. [Toucher de Miséricorde] réduit l'ATQ de la cible de 30% et la Vitesse d'ATQ de 300.\nLors de l'utilisation de cette compétence, consomme 15% des PV actuels d'Isaiah et obtient une charge de [Péché] qui ne peut être dissipé.",
+      "thumbnail": "heroes/Isaiah/skills/2 (1).png"
+    },
+    "2 (2)": {
+      "name": "Toucher de la Déesse – Pardon",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Se place derrière l'allié à l'ATQ la plus élevée et confère [Toucher de Pardon] qui dure 15 sec. [Toucher de Pardon] restaure ??? PV de la cible et augmente son ATQ à hauteur de 0.1% des PV max d'Isaiah.\nLors de l'utilisation de cette compétence, consomme 15% des PV actuels d'Isaiah et obtient une charge de [Péché] qui ne peut être dissipé.",
+      "thumbnail": "heroes/Isaiah/skills/2 (2).png"
+    },
+    "3": {
+      "name": "Offrande de Rédemption",
+      "cost": null,
+      "cooldown": null,
+      "description": "Dissipe tous les effets négatifs d'Isaiah, conférant Invincibilité aux alliés situés dans une large zone environnante pendant 3 sec et empêchant les ennemis dans cette zone de bénéficier d'effets positifs pendant 3 sec. Ensuite, génère [Zone de Rédemption] autour d'Isaiah qui dure 12 sec. Restaure les PV des alliés dans [Zone de Rédemption] de 1% des PV max d'Isaiah + ??? PV toutes les 2 sec et dissipe tous leurs effets négatifs. Aux ennemis, inflige ??? DEG M toutes les 2 sec et augmente les DEG reçus des cibles touchées de 20% pendant 8 sec.\nLors de l'utilisation de cette compétence, consomme 50% des PV actuels d'Isaiah.",
+      "thumbnail": "heroes/Isaiah/skills/3.png"
+    },
+    "4": {
+      "name": "Initiation",
+      "cost": null,
+      "cooldown": null,
+      "description": "Au début de la première bataille, réduit les DEG infligés aux ennemis par Isaiah de 50% et augmente ses DEG reçus de la part des ennemis de 25%. Augmente les DEG infligés aux ennemis par les alliés en dehors d'Isaiah de 10% et réduit leurs DEG reçus de la part des ennemis de 10%. Confère l'effet d'[Initiation] à l'allié à l'ATQ la plus élevée, en dehors d'Isaiah, ce qui augmente l'ATQ de 10% et la DEF de 10%.\nPasse à l'état de [Salvation] qui ne peut être dissipé lorsque 4 charges de [Péché] sont cumulées. À l'état de [Salvation], ne peut obtenir de charge de [Péché] et peut utiliser [Offrande de Rédemption].",
+      "thumbnail": "heroes/Isaiah/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés et la récupération des PV de 10%.",
+      "III": "Augmente les DEG infligés et la récupération des PV de 15%.",
+      "IV": "Augmente les DEG infligés et la récupération des PV de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés et la récupération des PV de 10%.",
+      "III": "Augmente les DEG infligés et la récupération des PV de 15%.",
+      "IV": "Augmente les DEG infligés et la récupération des PV de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés et la récupération des PV de 10%.",
+      "III": "Augmente les DEG infligés et la récupération des PV de 15%.",
+      "IV": "Augmente les DEG infligés et la récupération des PV de 25%."
+    },
+    "4": {
+      "II": "Augmente l'augmentation d'ATQ et de DEF de 5%.",
+      "III": "Augmente l'augmentation d'ATQ et de DEF de 5%.",
+      "IV": "Augmente l'augmentation d'ATQ et de DEF de 5%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Augmente la restauration des PV de 40%.",
+          "thumbnail": "heroes/Isaiah/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG reçus de la cible ennemie touchée de 20% pendant 12 sec.",
+          "thumbnail": "heroes/Isaiah/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1 de [Toucher de la Déesse – Pardon].",
+          "thumbnail": "heroes/Isaiah/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Dissipe tous les effets positifs de la cible ennemie de [Toucher de la Déesse - Miséricorde].",
+          "thumbnail": "heroes/Isaiah/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente les DEG infligés au boss par les alliés dans [Zone de Rédemption] de 10% pendant 8 sec, toutes les 2 sec.",
+          "thumbnail": "heroes/Isaiah/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente la Restauration des PV de 30% et les DEG infligés de 30% dans [Zone de Rédemption].",
+          "thumbnail": "heroes/Isaiah/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "[Initiation] Ajoute l'effet d'augmentation des DEG Crit de 50% à l'effet d'[Initiation] qui est conféré à l'allié à l'ATQ la plus élevée.",
+          "thumbnail": "heroes/Isaiah/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Obtient 1 charge de [Péché] au début de la première bataille.",
+          "thumbnail": "heroes/Isaiah/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / PV + 10%",
+        "thumbnail": "heroes/Isaiah/perks/light.png"
+      },
+      "dark": {
+        "effect": "Réduit tous les DEG reçus par Isaiah de 150 et sa Récupération des PV de 15%.",
+        "thumbnail": "heroes/Isaiah/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Ezaya, la Lame de la Foi",
+    "description": "Récupère un total de {0}% des PV max pendant 4 sec à chaque utilisation d'une compétence. Lors des attaques automatiques et de celles de compétence, augmente les DEG reçus par la cible touchée de {1}% pendant 8 sec.",
+    "value": {
+      "0": {
+        "0": "4",
+        "1": "4.8",
+        "2": "5.6",
+        "3": "6.8",
+        "4": "8.4",
+        "5": "10"
+      },
+      "1": {
+        "0": "8",
+        "1": "9.6",
+        "2": "11.2",
+        "3": "13.6",
+        "4": "16.8",
+        "5": "20"
+      }
+    },
+    "thumbnail": "heroes/Isaiah/uw.png",
+    "story": "Lorsqu'Isaiah se détacha de Lea, la première pensée qu'elle eut en acquérant une conscience indépendante était de répandre la parole du chaos sur la terre la plus désolée. Le monde matériel débordait de pauvres brebis égarées et nul n'était là pour accomplir la volonté divine. Ces misérables n'avaient personne, à part elle, la mandataire de Lea, pour leur apporter le salut.\nAnimée par cette certitude, elle prit l'apparence d'une personne tendre et bienveillante quand elle descendit dans le monde matériel. Contrairement à ses frères et sœurs, elle était la gentillesse et la générosité personnifiées.\nElle fabriqua elle-même l'arme qu'elle porterait partout où elle irait pour répandre la vérité. La foi envers Lea, le pouvoir reçu de la Déesse, l'illumination acquise à chaque pas effectué en prêchant... Ces éléments imprégnèrent la crosse et la lame, y insufflant un pouvoir sacré, jusqu'à ce qu'elle prennent la forme proche d'une relique.\nContenant un pouvoir aussi puissant que celui d'un trésor de l'église de Lua, mais répandant une aura sinistre et démoniaque, cette arme accompagne Isaiah pendant son long voyage.",
+    "descriptionByStar": {
+      "0": "Récupère un total de 4% des PV max pendant 4 sec à chaque utilisation d'une compétence. Lors des attaques automatiques et de celles de compétence, augmente les DEG reçus par la cible touchée de 8% pendant 8 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Chapelet hérétique",
+      "description": "[Lumière du Salut] Prolonge la durée du bouclier de {0} sec et celle de Silence de 1 sec.",
+      "value": {
+        "0": {
+          "0": "1.2",
+          "1": "1.4",
+          "2": "1.7",
+          "3": "2.1",
+          "4": "2.5",
+          "5": "3"
+        }
+      },
+      "thumbnail": "heroes/Isaiah/ut/1.png",
+      "story": "Le chapelet entrelacé de joyaux de couleur améthyste est un trésor sacré créé par les hommes du monde matériel afin de vénérer Lea, se considérant comme les enfants élus de cette Déesse.\nPlus tard, le chapelet tomba entre les mains d'Isaiah, la mandataire de Lea.\nLes objets que les fidèles de Lea utilisent dans leurs prières sont des copies de celui-ci, qui ressemble beaucoup à celui de l'église de Lua. Mais vu de près, il diffère par de nombreux détails et dans l'église de Lua, on indique un moyen aux croyants de les différencier, tout en leur conseillant de se méfier de l'hérésie.",
+      "descriptionByStar": {
+        "0": "[Lumière du Salut] Prolonge la durée du bouclier de 1.2 sec et celle de Silence de 1 sec."
+      }
+    },
+    "2": {
+      "name": "Flamme de Bienveillance",
+      "description": "[Toucher de la Déesse – Miséricorde] Augmente les DEG reçus par la cible touchée par [Toucher de Miséricorde] de {0}% pendant 15 sec.\n[Toucher de la Déesse – Pardon] Ajoute l'effet d'augmentation de Vitesse d'ATQ de 300 à la cible bénéficiant de [Toucher de Pardon].",
+      "value": {
+        "0": {
+          "0": "8",
+          "1": "9.6",
+          "2": "11.2",
+          "3": "13.6",
+          "4": "16.8",
+          "5": "20"
+        }
+      },
+      "thumbnail": "heroes/Isaiah/ut/2.png",
+      "story": "Lea octroya la flamme de calamité à Isaiah lorsqu'elle descendit dans le monde matériel.\nElle était comme les prémices de la destruction, qui pouvait s'embraser pour ravager le monde entier, dès que le moment serait venu de le faire.\nLa flamme bleue brûle silencieusement dans une coupe d'argent, attendant l'heure où elle pourrait libérer le monde de ses tourments par son feu purificateur.",
+      "descriptionByStar": {
+        "0": "[Toucher de la Déesse – Miséricorde] Augmente les DEG reçus par la cible touchée par [Toucher de Miséricorde] de 8% pendant 15 sec.\n[Toucher de la Déesse – Pardon] Ajoute l'effet d'augmentation de Vitesse d'ATQ de 300 à la cible bénéficiant de [Toucher de Pardon]."
+      }
+    },
+    "3": {
+      "name": "Statue du Chaos",
+      "description": "[Offrande de Rédemption] Augmente la durée d'Invincibilité de 1 sec et celle de l'effet qui empêche les ennemis de bénéficier d'effets positifs de 1 sec. À [Zone de rédemption], ajoute l'effet de restauration de {0} PM des alliés toutes les 2 sec et de réduction de {1} PM des ennemis.",
+      "value": {
+        "0": {
+          "0": "160",
+          "1": "190",
+          "2": "230",
+          "3": "280",
+          "4": "340",
+          "5": "400"
+        },
+        "1": {
+          "0": "160",
+          "1": "190",
+          "2": "230",
+          "3": "280",
+          "4": "340",
+          "5": "400"
+        }
+      },
+      "thumbnail": "heroes/Isaiah/ut/3.png",
+      "story": "Dans le monde matériel, il ne s'écoulait pas une seule journée sans qu'Isaiah n'adresse une prière à Lea.\nBien que la Déesse ne lui réponde pas, elle priait avec soin tous les jours, en narrant son impression sur le monde matériel, la peine ressentie envers les créatures ignorantes de Lua et sa résolution de les sauver au plus vite.\nAu cours de son voyage, elle aperçut des fidèles de Lua qui priaient tout comme elle, mais devant la statue de leur Déesse à eux.\nAh, si seulement il y avait aussi des statues de Mère, cela permettrait à plus de personnes de prendre connaissance de la parole du chaos. En pensant ainsi, elle commença à créer elle-même une statuette à l'apparence de Lea. Elle détruisit la première statue après l'avoir dédiée à Mère, offrit les suivantes à ses frères et sœurs et distribua les autres à ceux qui avaient accepté de servir Lea.",
+      "descriptionByStar": {
+        "0": "[Offrande de Rédemption] Augmente la durée d'Invincibilité de 1 sec et celle de l'effet qui empêche les ennemis de bénéficier d'effets positifs de 1 sec. À [Zone de rédemption], ajoute l'effet de restauration de 160 PM des alliés toutes les 2 sec et de réduction de 160 PM des ennemis."
+      }
+    },
+    "4": {
+      "name": "Cycle et Chaos en Images",
+      "description": "[Initiation] Augmente de 1 le nombre de cible alliée à l'ATQ la plus élevée. Ajoute à [Initiation] qui est conférée à ces alliés l'effet d'augmentation de {0}% des DEG infligés aux ennemis non-Héros.",
+      "value": {
+        "0": {
+          "0": "3",
+          "1": "4",
+          "2": "5",
+          "3": "6",
+          "4": "7",
+          "5": "8"
+        }
+      },
+      "thumbnail": "heroes/Isaiah/ut/4.png",
+      "story": "Isaiah vagabonde dans le monde matériel, s'occupant des enfants des villages rencontrés au fil du voyage, qui sont situés dans des lieux isolés où l'église de Lua est soit absente, soit peu présente.\nQuel qu'en soit le lieu, elle enseigne la foi de Lea aux garçons et filles qui vivent sur les terres désolées et abandonnées par les prêtres de Lua. Isaiah les aime et les apprécient tellement que chaque jour, elle leur fait gentiment la lecture pendant qu'ils sont assis en rond tout autour d'elle.\nElle pense que sauver ceux qui sont aveuglés par de la fausse croyance fait également partie de son devoir. En la voyant prendre soin des petits avec un sourire angélique, les villageois racontent que c'est une véritable sainte, qui sait se mettre au service des plus misérables.\nLe contenu de l'ouvrage qu'elle lit aux enfants est sinistre et grotesque, mais comporte des images colorées pour inciter les enfants à le lire continuellement, même après le départ d'Isaiah.\nIsaiah souhaite qu'ainsi, les enfant perviendront à comprendre que la mort est la seule voie vers la vérité.",
+      "descriptionByStar": {
+        "0": "[Initiation] Augmente de 1 le nombre de cible alliée à l'ATQ la plus élevée. Ajoute à [Initiation] qui est conférée à ces alliés l'effet d'augmentation de 3% des DEG infligés aux ennemis non-Héros."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 20 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme d'Ezaya, la Lame de la Foi, ce qui augmente les DEG infligés par tous les alliés de 10% pendant 8 sec et réduit les DEG reçus de 10%. Restaure toutes les sec les PV des cibles à hauteur de 2% des PV max d'Isaiah pendant la durée de l'invocation de l'âme.",
+    "cooldown": "20",
+    "uses": "4",
+    "thumbnail": "heroes/Isaiah/sw.png",
+    "advancement": {
+      "1": "Prolonge la durée de l'invocation de l'âme de 4 sec et réduit la condition d'utilisation de 4 sec.",
+      "2": "Augmente les DEG infligés de 3% et réduit les DEG reçus de 3% en supplément à chaque utilisation de l'Arme spirituelle."
+    },
+    "story": "Présenter la voie vers la vérité aux êtres du monde matériel n'était pas pénible à Isaiah, mais elle ne peut faire autrement que de prendre les armes lorsqu'elle rencontre des hérétiques qui l'empêchent de mener sa mission. Car châtier les hérétiques est aussi un devoir d'une mandataire de Déesse, tout comme libérer les hommes d'une foi illusoire. Alors, Isaiah prie pour ces pauvres brebis. Ah, Mère. Ces enfants ne sont pas des pêcheurs. Ils sont simplement aveuglés par la Déesse de l'ignorance et de l'avidité. Pourvu que je puisse les guider vers la bonne voie, vers la fin de ce cycle... La voix d'Isaiah murmurant ces mots est chargée à la fois de tendresse et de chagrin.\nÀ Isaiah qui prie de toute son âme par les paroles et la vérité de Lea, la bénédiction de la Déesse donne la force d'accorder la salvation. Emprunter le pouvoir divin la glorifie immensément, mais cela a un prix. Lorsqu'elle utilise le pouvoir de Lea, une douleur insupportable transperce son corps. Toutefois, elle ne peut s'arrêter, motivée par l'amour et le désir de sauver tout le monde, qu'ils soient hérétiques ou non. Chaque fois qu'elle empoigne son arme, murmurant des versets louant la vérité, sa volonté de sauver les hommes et de glorifier sa Déesse imprègne la lame, jusqu'à ce que l'épée devienne capable d'invoquer un livre contenant les révélations de Lea. C'est la foi et la résolution d'Isaiah qui se matérialise.\nJour après jour, des pages viendront s'ajouter dans ce livre, rempli de versets qui vénéreront la Déesse."
+  },
+  "splashart": "heroes/Isaiah/sa.png",
+  "costumes": "heroes/Isaiah/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

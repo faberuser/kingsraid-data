@@ -1,0 +1,253 @@
+{
+  "id": "Luna",
+  "profile": {
+    "name": "Luna",
+    "title": "Luna, Enfant du Clair de Lune",
+    "class": "Archer",
+    "position": "Back-300",
+    "attack_range": "2900",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "???",
+    "height": "110",
+    "race": "Hybride animal (Lapin)",
+    "constellation": "Kandala le Conquérant",
+    "birth": {
+      "month": 8,
+      "day": 8,
+      "monthName": "Mois de la Vitalité"
+    },
+    "like": "Les carottes, les grandes sœurs",
+    "dislike": "La faim",
+    "story": "Les Lulus, que l'on aperçoit rarement, sont considérés comme une race mythique d'hybrides animaux. Ils vivent dans des régions extrêmement froides et ont très peur d'entrer en contact avec le monde extérieur. Un jour, un enfant Lulu est né avec une personnalité totalement opposée à celle de sa race. Il s'agissait de Luna. Elle ne détestait pas pour autant les habitudes de son peuple et ne cherchait pas forcément à explorer le monde extérieur. Elle commença par cueillir des fleurs, puis ramasser des branches gelées pour faire une fronde. Ensuite, elle suivit l'odeur appétissante d'un fruit. Puis, sans même sans rendre compte, elle descendit de la montagne pour explorer un champ de carottes.",
+    "thumbnail": "heroes/Luna/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Pew !",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Tire un projectile qui rebondit 3 fois à partir de l'ennemi le plus proche et inflige ??? DEG M. Plus l'ennemi est éloigné, plus les dégâts augmentent.",
+      "thumbnail": "heroes/Luna/skills/1.png"
+    },
+    "2": {
+      "name": "Au-dessus !",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Inflige ??? DEG M aux ennemis les plus éloignés dans une petite zone et les étourdit pendant 3 sec. Plus l'ennemi est éloigné, plus les dégâts augmentent.",
+      "thumbnail": "heroes/Luna/skills/2.png"
+    },
+    "3": {
+      "name": "Brille Brille",
+      "cost": "1",
+      "cooldown": "15",
+      "description": "Inflige ??? DEG M aux ennemis ciblés dans la zone et réduit leurs chances de coup critique de 100% pendant 7 sec.",
+      "thumbnail": "heroes/Luna/skills/3.png"
+    },
+    "4": {
+      "name": "Je t'ai eu !",
+      "cost": null,
+      "cooldown": "23",
+      "description": "Lorsqu'elle subit un contrôle, dissipe ses effets négatifs et attaque l'ennemi le plus éloigné, infligeant ??? DEG M et le repoussant pendant 2 sec. Récupère ensuite 1 orbe de mana.",
+      "thumbnail": "heroes/Luna/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les dégâts de 10%.",
+      "III": "Augmente les dégâts de 15%.",
+      "IV": "Augmente les dégâts de 25%."
+    },
+    "2": {
+      "II": "Augmente les dégâts de 10%.",
+      "III": "Augmente les dégâts de 15%.",
+      "IV": "Augmente les dégâts de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente les dégâts de 10%.",
+      "III": "Augmente les dégâts de 15%.",
+      "IV": "Augmente les dégâts de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Confère l'immunité contre les Contrôles pendant la durée de la compétence.",
+          "thumbnail": "heroes/Luna/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Étourdit l'ennemi touché pendant 2 sec.",
+          "thumbnail": "heroes/Luna/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Augmente le coût en PM de 2 et attaque 3 fois un ennemi aléatoire.",
+          "thumbnail": "heroes/Luna/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Ignore le blocage ennemi.",
+          "thumbnail": "heroes/Luna/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Réduit la Précision des ennemis touchés de 150 pendant 7 sec.",
+          "thumbnail": "heroes/Luna/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente le coût en PM de 1 et projette au loin la cible.",
+          "thumbnail": "heroes/Luna/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Dissipe les effets positifs sur la cible.",
+          "thumbnail": "heroes/Luna/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Le nombre de cibles est maintenant de 2.",
+          "thumbnail": "heroes/Luna/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Luna/perks/light.png"
+      },
+      "dark": {
+        "effect": "Grâce à la bénédiction de la carotte, augmente les DEG infligés aux ennemis non-Héros de 30% et réduit les DEG reçus de 30%.",
+        "thumbnail": "heroes/Luna/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Jacinthe, la Fleur d'Éternité",
+    "description": "Augmente les DEG Crit de {0}%, les DEG des attaques automatiques de {1}% et la portée de {2}%.",
+    "value": {
+      "0": {
+        "0": "40",
+        "1": "48",
+        "2": "58",
+        "3": "70",
+        "4": "84",
+        "5": "100"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "2": {
+        "0": "6",
+        "1": "7.2",
+        "2": "8.6",
+        "3": "10.5",
+        "4": "12.5",
+        "5": "15"
+      }
+    },
+    "thumbnail": "heroes/Luna/uw.png",
+    "story": "Une fronde faite d'hyacinthe, un arbre argenté ne poussant que dans les régions extrêmement froides. On dit que les hyacinthes ont été bénies par la Reine de Glace et qu'elles peuvent donner des fruits rouge vif, même lorsqu'il fait glacial. Tenir une branche d'hyacinthe permet d'ignorer le froid. Ces arbres bénis ont également le pouvoir de déclencher des tempêtes de neige et de givre. Ces pouvoirs sont mieux utilisés avec une arme taillée dans un de ces arbres.",
+    "descriptionByStar": {
+      "0": "Augmente les DEG Crit de 40%, les DEG des attaques automatiques de 20% et la portée de 6%.",
+      "1": "Augmente les dégâts des attaques normales de 24% et la portée de 7,2%.",
+      "2": "Augmente les dégâts des attaques normales de 29% et la portée de 8,6%.",
+      "3": "Augmente les dégâts des attaques normales de 35% et la portée de 10,5%.",
+      "4": "Augmente les dégâts des attaques normales de 42% et la portée de 12,5%.",
+      "5": "Augmente les dégâts des attaques normales de 50% et la portée de 15%."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Cloche dorée de la chance",
+      "description": "[Pew !] Augmente les DEG de 20 % et restaure 200 PM à chaque coup critique.",
+      "value": {},
+      "thumbnail": "heroes/Luna/ut/1.png",
+      "story": "Cette cloche dorée porte bonheur.\nIl s'agit de la deuxième chose que Luna préfère au monde, après les carottes. Quand elle se déplace avec, elle se met à scintiller. Son tintement possède un pouvoir mystique qui attire la chance depuis son pays d'origine.",
+      "descriptionByStar": {
+        "0": "[Pew !] Augmente les DEG de 20 % et restaure 200 PM à chaque coup critique.",
+        "1": "[Pew !] Augmente les DEG de 24 % et restaure 200 PM à chaque coup critique.",
+        "2": "[Pew !] Augmente les DEG de 29 % et restaure 200 PM à chaque coup critique.",
+        "3": "[Pew !] Augmente les DEG de 35 % et restaure 200 PM à chaque coup critique.",
+        "4": "[Pew !] Augmente les DEG de 42 % et restaure 200 PM à chaque coup critique.",
+        "5": "[Pew !] Augmente les DEG de 50 % et restaure 200 PM à chaque coup critique."
+      }
+    },
+    "2": {
+      "name": "Carotte du clair de lune",
+      "description": "[Au-dessus !] Augmente les DEG de 20 % et réduit le temps de recharge de 10 % lorsque vous assénez un coup critique.",
+      "value": {},
+      "thumbnail": "heroes/Luna/ut/2.png",
+      "story": "Carotte ayant reçu mille fois la lumière du clair de lune. \nÊtre touché par cette carotte signifie que les ténèbres vous quittent entièrement et que vous pourrez dorénavant discerner le bien et le mal.",
+      "descriptionByStar": {
+        "0": "[Au-dessus !] Augmente les DEG de 20 % et réduit le temps de recharge de 10 % lorsque vous assénez un coup critique.",
+        "1": "[Au-dessus !] Augmente les DEG de 24 % et réduit le temps de recharge de 10 % lorsque vous assénez un coup critique.",
+        "2": "[Au-dessus !] Augmente les DEG de 29 % et réduit le temps de recharge de 10 % lorsque vous assénez un coup critique.",
+        "3": "[Au-dessus !] Augmente les DEG de 35 % et réduit le temps de recharge de 10 % lorsque vous assénez un coup critique.",
+        "4": "[Au-dessus !] Augmente les DEG de 42 % et réduit le temps de recharge de 10 % lorsque vous assénez un coup critique.",
+        "5": "[Au-dessus !] Augmente les DEG de 50 % et réduit le temps de recharge de 10 % lorsque vous assénez un coup critique."
+      }
+    },
+    "3": {
+      "name": "Fleur des neiges éternelles",
+      "description": "[Brille Brille] L'effet de Réduction de Crit ne peut plus être dissipé, et la durée de la compétence augmente de 2 sec.",
+      "value": {},
+      "thumbnail": "heroes/Luna/ut/3.png",
+      "story": "Une fleur de Champ enneigé légendaire qui pousse dans les terres perpétuellement gelées de la Montagne Enneigée Terre-Venteuse. On dit qu’elle permet à l’énergie du corps de son possesseur de circuler librement et magnifiquement. Cet objet permet à l’énergie pure de Luna de briller encore plus fort.",
+      "descriptionByStar": {
+        "0": "[Brille Brille] L'effet de Réduction de Crit ne peut plus être dissipé, et la durée de la compétence augmente de 2 sec.",
+        "1": "[Brille Brille] L'effet de Réduction de Crit ne peut plus être dissipé, et la durée de la compétence augmente de 2,4 sec.",
+        "2": "[Brille Brille] L'effet de Réduction de Crit ne peut plus être dissipé, et la durée de la compétence augmente de 2,9 sec.",
+        "3": "[Brille Brille] L'effet de Réduction de Crit ne peut plus être dissipé, et la durée de la compétence augmente de 3,5 sec.",
+        "4": "[Brille Brille] L'effet de Réduction de Crit ne peut plus être dissipé, et la durée de la compétence augmente de 4,2 sec.",
+        "5": "[Brille Brille] L'effet de Réduction de Crit ne peut plus être dissipé, et la durée de la compétence augmente de 5 sec."
+      }
+    },
+    "4": {
+      "name": "Gâteau à la carotte",
+      "description": "[Je t'ai eu !] Augmente de manière considérable la distance dont l'ennemi est repoussé et réduit le temps de recharge de 2 sec.",
+      "value": {},
+      "thumbnail": "heroes/Luna/ut/4.png",
+      "story": "Le gâteau à la carotte spécial de Juno.\nCe gâteau fut créé spécialement pour Luna, car sa famille de sa ville natale et les carottes qu'elle y mangeait lui manquent.\nIl a exactement le même goût que les gâteaux que Luna mangeait chez elle, et est donc naturellement devenu son nouveau péché mignon.",
+      "descriptionByStar": {
+        "0": "[Je t'ai eu !] Augmente de manière considérable la distance dont l'ennemi est repoussé et réduit le temps de recharge de 2 sec.",
+        "1": "[Je t'ai eu !] Augmente de manière considérable la distance dont l'ennemi est repoussé et réduit le temps de recharge de 2,4 sec.",
+        "2": "[Je t'ai eu !] Augmente de manière considérable la distance dont l'ennemi est repoussé et réduit le temps de recharge de 2,9 sec.",
+        "3": "[Je t'ai eu !] Augmente de manière considérable la distance dont l'ennemi est repoussé et réduit le temps de recharge de 3,5 sec.",
+        "4": "[Je t'ai eu !] Augmente de manière considérable la distance dont l'ennemi est repoussé et réduit le temps de recharge de 4,2 sec.",
+        "5": "[Je t'ai eu !] Augmente de manière considérable la distance dont l'ennemi est repoussé et réduit le temps de recharge de 5 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 17 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de Jacinthe, la Fleur d'Éternité, ce qui inflige ??? DEG M aux ennemis proches dans une zone circulaire et leur applique le Gel pendant 5 sec, avant de les projeter. Ensuite, l'âme de Jacinthe inflige ??? DEG M supplémentaires aux ennemis gelés et augmente les DEG Crit du Héros de 100% pendant 10 sec.",
+    "cooldown": "17",
+    "uses": "5",
+    "thumbnail": "heroes/Luna/sw.png",
+    "advancement": {
+      "1": "Augmente les DEG M reçus par la cible touchée de 40% pendant 10 sec.",
+      "2": "Pendant la durée de l'invocation, augmente le nombre des ennemis visés par les attaques automatiques à 3. Augmente également la portée des attaques de 30% et repousse la cible touchée."
+    },
+    "story": "La fleur ne se flétrissait pas. Que ce soit sous la pluie et le vent, que ce soit sous la neige, la fleur ne fanait pas. Pareille à l'innocence infinie de Luna, la fleur ne se déséchait pas, en marquant ainsi l'esprit de sa présence. Pour la petite fille frêle, la fleur repoussa le froid des montagnes enneigées et fit disparaître la tempête de neige violente. La fleur l'accompagna partout où elle se rendait. Lorsque la curiosité de la petite fille candide se porta sur elle, elle montra enfin sa véritable apparence.\n- Petite jeune fille, tu m'as enfin découverte."
+  },
+  "splashart": "heroes/Luna/sa.png",
+  "costumes": "heroes/Luna/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

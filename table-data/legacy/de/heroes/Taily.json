@@ -1,0 +1,256 @@
+{
+  "id": "Taily",
+  "profile": {
+    "name": "Taily",
+    "title": "Kommandantin der Tapferen Ritter Taily",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "7600",
+    "damage_type": "Physical",
+    "gender": "Weiblich",
+    "age": "11",
+    "height": "87",
+    "race": "Shuti",
+    "constellation": "Gisla, die Scharfschützin",
+    "birth": {
+      "month": 11,
+      "day": 13,
+      "monthName": "Monat des Glücks"
+    },
+    "like": "Spazieren, Komplimente, Vorwärts rollen, Snacks von andere, ungesundes Essen (Bes. ein Stück Koko)",
+    "dislike": "Knoblauch, Krakenbeine, Rivalen aus der beliebten Tierkreuzungen-Enzyklopädie",
+    "story": "Es gibt viele Tierkreuzungen auf der Welt, aber selbst unter diesen Tierkreuzungen wird die Herkunft des Shuti-Stammes als außergewöhnlich angesehen.\n\nEs wird erzählt, dass einst ein tapferer Hund einen Stein übernatürlicher Kraft benutzte, um eine Technik zu erschaffen, die es einem erlaubt, die Grenzen des physischen Körpers vorübergehend zu überschreiten. Diese Technik wurde an mehrere Nachfolger weitergegeben und sie versammelten sich zu einem Stamm, den sie Shuti nannten.\n\nDie Gründer des Shuti-Stammes heiligten dann umgehend den Stein, der alles auslöste, und nannten ihn \"Glücksstein\".\nSie schätzten den Stein in ihren Herzen und wann immer sie die Technik verwendeten, sangen sie und riefen den Namen Glücksstein.\nAber aus irgendeinem unbekannten Grund verschwand eines Tages der Glücksstein spurlos, und dies veranlasste den Shuti-Stamm, eine endlosen Suche nach dem Stein zu beginnen. Sogar jetzt führt der Shuti-Stamm einen nomadischen Lebensstil, indem er sich von einem Ort zum anderen bewegt, um den Stein zu finden.\nDie Wiederherstellung des Steins ist zum lang gehegten Wunsch des Shuti-Stammes geworden.\n\nDer Shuti-Stamm wurde kürzlich mit der Ankunft der jungen Taily gesegnet, einer tapferen Ritterkommandantin, die herangetreten ist, um ihren Stamm zu vertreten und ihren größten Wunsch zu erfüllen.\nTaily schwingt Prochika, das Symbol des Shuti-Stammes und mit dem stärksten Siegel in der Geschichte eingravierte Hammer. Mit Prochika und dem Siegel bewaffnet, stieg Taily auf, um der Held zu werden, der endlich den lang anhaltenden Wunsch des Stammes erfüllen wird.\n\nDie tapfere Taily trägt den Wunsch ihres Stammes auf ihren Schultern und macht sich auf die Suche nach dem Glücksstein, der sich irgendwo auf der Welt versteckt.\n\nEs sollte jedoch erwähnt werden, dass Tailys Reise oft von allen Arten von Tierkreuzungen unterbrochen wird, die ihre Reise sabotieren wollen, und Taily weicht deswegen häufig vom Hauptziel ab.",
+    "thumbnail": "heroes/Taily/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Boom! Vorsicht!",
+      "cost": "2",
+      "cooldown": "13",
+      "description": "Fügt den Gegnern an der Frontlinie ??? Körp. Schaden zu und betäubt sie 2 Sek. lang. Verringert 8 Sek. lang alle Blockchancen um 350. Danach fügt den Feinden in Reichweite ??? Körp. Schaden zu und wirft sie 3 Sek. lang zu Boden.",
+      "thumbnail": "heroes/Taily/skills/1.png"
+    },
+    "2": {
+      "name": "Schutz! Ist dat der Glücksstein?",
+      "cost": "3",
+      "cooldown": "22",
+      "description": "Entfernt alle eigenen negative Effekte und verringert den Schaden, der während des Sammeln der Energie zugefügt wird, um 50 %. Wenn die Energie vollständig gesammelt wurde, erhöht sich 10 Sek. lang die eigene Regenerationsrate um 25 % und alle VERT um ???. Wenn [Tapferkeitssiegel] mehr als 50-mal gestapelt wird, wird der erzeugte Effekt bei Verwendung dieses Skills auf alle Verbündete übertragen und alle [Tapferkeitssiegel]-Stapel verschwinden.",
+      "thumbnail": "heroes/Taily/skills/2.png"
+    },
+    "3": {
+      "name": "ANG! Kraft der Ritterkommandantin!",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Fügt den Gegnern an der eigenen Frontlinie 5-mal ??? Körp. Schaden zu und gewährt [Macht des Shuti-Stammes]-Stapel für sich selbst. Danach wird mit dieser Macht angegriffen und den Gegnern ??? Körp. Schaden zugefügt. Zusätzlich werden alle [Macht des Shuti-Stammes]-Stapel verbraucht, wobei 10 Sek. lang sich alle erhaltenen Schäden des Gegners um 30 % + [2 % pro Macht des Shuti-Stammes-Stapel] erhöhen und sie 3 Sek. lang betäubt werden. [Macht des Shuti-Stammes] kann max. 30-mal gestapelt werden.",
+      "thumbnail": "heroes/Taily/skills/3.png"
+    },
+    "4": {
+      "name": "Segen des Shuti-Stammes!",
+      "cost": null,
+      "cooldown": null,
+      "description": "Wenn die eigene TP-Rate über 30 % liegt, greift jede Sek. die Gegnern in Reichweite und fügt ihnen ??? Körp. Schaden zu. Mit jedem zugefügten Schaden wird ein unentfernbarer [Tapferkeitssiegel]-Stapel gewährt. Pro [Tapferkeitssiegel]-Stapel erhöhen sich alle VERT der Verbündeten um ??? und [Tapferkeitssiegel] kann max. 50-mal gestapelt werden. Wenn die TP-Rate unter 30 % liegt, erhöht sich alle eigenen Blockchancen um 700.",
+      "thumbnail": "heroes/Taily/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht den VERT-Boost um 10 %.",
+      "III": "Erhöht den VERT-Boost um 15 %.",
+      "IV": "Erhöht den VERT-Boost um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht den VERT-Boost um 10 %.",
+      "III": "Erhöht den VERT-Boost um 15 %.",
+      "IV": "Erhöht den VERT-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Der Effetk, bei dem alle VERT des Ziels verringert werden, wird nicht aufgehoben.",
+          "thumbnail": "heroes/Taily/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Verringert Manakosten um 1.",
+          "thumbnail": "heroes/Taily/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Ist immun gegen alle Schäden während die Energie gesammelt wird.",
+          "thumbnail": "heroes/Taily/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Verringert Manakosten um 1.",
+          "thumbnail": "heroes/Taily/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Wenn nur 1 Gegner da ist, wird [Macht des Shuti-Stammes] 3-mal gestapelt.",
+          "thumbnail": "heroes/Taily/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Massenkontroll-Immunität für die Dauer des Skills.",
+          "thumbnail": "heroes/Taily/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Verringert 3 Sek. lng den ANG des geschadeten Ziels um 20 %.",
+          "thumbnail": "heroes/Taily/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Wenn das gegnerische Ziel in der Arena getroffen wird, wird ihm zusätzl. Körp. Schaden in Höhe von 2 % der max. TP zugefügt. Dieser Effekt verursacht keinen Krit. Treffer. Stattdessen erhöht sich der Schaden abhängig von der VERT-Durchdringung.",
+          "thumbnail": "heroes/Taily/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/CC-WDST. +100",
+        "thumbnail": "heroes/Taily/perks/light.png"
+      },
+      "dark": {
+        "effect": "Beim ersten Kampfbeginn wird 5 Sek. lang die Mana um 100 MP verringert, aber es ist immun gegen alle Schäden.",
+        "thumbnail": "heroes/Taily/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Beständiger Stein, Prochika",
+    "description": "Die max. eigenen TP erhöhen sich um {0} % und wenn 50-mal geschadet wird, wird [Zorn des Shuti-Stammes]-Zustand erzeugt. Im [Zorn des Shuti-Stammes]-Zustand werden alle eigenen negativen Effekte sofort entfernt und 5 Sek. lang wird Massenkontroll-Immunität verursacht, wobei die VERT-Durchdringung um {1} erhöht wird. Dieser Effekt kann nicht entfernt werden und auch während der Wirkungsdauer von [Zorn des Shuti-Stammes] wird die Schadenskumulierung verhindert, auch wenn man getroffen wird.",
+    "value": {
+      "0": {
+        "0": "8",
+        "1": "10",
+        "2": "12",
+        "3": "14",
+        "4": "17",
+        "5": "20"
+      },
+      "1": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      }
+    },
+    "thumbnail": "heroes/Taily/uw.png",
+    "story": "Der Hammer des Shuti-Stammes, der dem tapfersten Ritter gegeben wird.\nDie Legende besagt, dass der Vorfahre an dem Tag, an dem er nach einer Reihe von harten Prüfungen die Wahrheit vom Glücksstein erfuhr, seinen Meditationsstein in Form seines eigenen Fußabdrucks geschnitzt hat, um an diesen historischen Tag zu erinnern.\n\nNachdem eine lange Zeit vergangen war, begannen seine Nachkommen, die rätselhafte Energie zu spüren, die vom Meditationssteins des Vorfahren ausgestrahlt wurde.\nDie Nachfahren erforschten den Stein lange und schafften es nach unzähligen Versuchen und Irrtümern, ihn in einen Hammer zu verwandeln.\n\nDie Forschung war ein großer Erfolg und die legendäre Waffe “Prochika” wurde geboren.\nWie die Nachkommen erwartet hatten, erwies sich der Hammer als äußerst kraftvoll und harmonierte perfekt mit der einzigartigen Technik des Shuti-Stammes.\n\nBald waren sie jedoch mit einer Frage konfrontiert:\nWer würde eine derart überwältigende Waffe einsetzen?\n\nNach vielen qualvollen Diskussionen versammelten sich die Mitglieder des Shuti-Stammes und veranstalteten einen Wettbewerb, um denjenigen zu finden, der es wert war, den Hammer zu führen.\nDies ist der Wettbewerb, bei dem die Ki-Anwärter gegeneinander antreten würden, um herauszufinden, wer das stärkste Siegel in Form eines Fußabdrucks in den Hammer eingravieren würde. Derjenige, der das stärkste Siegel hinterlassen hatte, wurde der Meister des Hammers.\nWenn das Siegel verschwindet, würde sich der Besitzer aus Gründen der Fairness zurückziehen und die Mitglieder des Shuti-Stammes würden sich wieder versammeln, um einen neuen Wettbewerb abzuhalten. Die junge Taily gewann den letzten Wettbewerb mit der Gravur des stärksten Füßabdruck-Siegels in der Geschichte und wurde der rechtmäßige Eigentümer von Prochika.\n\nNebenbei bemerkt, es gibt viele laufende Diskussionen über die Etymologie des Namens “Prochika”, aber es ist allgemein anerkannt, dass es das Wort war, mit dem die Shuti-Vorfahren ihre Momente der Erleuchtung beschrieben.",
+    "descriptionByStar": {
+      "0": "Die max. eigenen TP erhöhen sich um 8 % und wenn 50-mal geschadet wird, wird [Zorn des Shuti-Stammes]-Zustand erzeugt. Im [Zorn des Shuti-Stammes]-Zustand werden alle eigenen negativen Effekte sofort entfernt und 5 Sek. lang wird Massenkontroll-Immunität verursacht, wobei die VERT-Durchdringung um 200 erhöht wird. Dieser Effekt kann nicht entfernt werden und auch während der Wirkungsdauer von [Zorn des Shuti-Stammes] wird die Schadenskumulierung verhindert, auch wenn man getroffen wird."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Shuti-Stamm Werbeplakat",
+      "description": "[Boom! Vorsicht!] Block-Reduktionseffekt wird auf ein Effekt geändert, wobei Blockieren auf 0 gebracht wird. Nach Skillverwendung erhöht sich 10 Sek. lang der Krit. Schaden von 4 Verbündeten um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Taily/ut/1.png",
+      "story": "Die neue Ausgabe der Welt der Tierkreuzungen ist da! Um den Welpentag zu feiern, haben wir einen besonderen Gast vom Shuti-Stamm eingeladen!\nSie ist die Ritterkommandantin des Shuti-Stammes, die gerne die Ziele ihres Volkes teilen möchte! Sowohl das Team als auch unser Gast haben das Interview sehr genossen!\nWenn Ihr jemand seid, der schon immer neugierig auf den mutigen Shuti-Stamm war, dann ist diese Ausgabe etwas für Euch!\nIhr könnt diese Ausgabe für nur 1,000 Gold erhalten! Es ist ein Schnäppchen!",
+      "descriptionByStar": {
+        "0": "[Boom! Vorsicht!] Block-Reduktionseffekt wird auf ein Effekt geändert, wobei Blockieren auf 0 gebracht wird. Nach Skillverwendung erhöht sich 10 Sek. lang der Krit. Schaden von 4 Verbündeten um 20 %."
+      }
+    },
+    "2": {
+      "name": "Notfallsnacks",
+      "description": "[Schutz! Ist dat der Glücksstein?] Skill-Cooldown verringert sich um 6 Sek. und nach dem Sammeln der Energie werden eigene TP in Höhe von {0} % der max. TP regeneriert.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Taily/ut/2.png",
+      "story": "Ein sehr beliebter Snack im Shuti-Stamm, der für seinen herrlichen Geschmack bekannt ist. Die Mitglieder des Shuti-Stammes bewahren es auf und essen es nur, wenn sie ausgehungert sind.\nEs wird gesagt, dass eine bestimmte Person diese Snacks herstellt und sie an alle Shuti-Leute weitergibt, denen sie begegnet.\nDie Shuti-Leute würden sich in einer Reihe anstellen, den Snack entgegennehmen, ihn schnell in die Tasche einstecken und sich wieder anstellen, als wäre nichts passiert.",
+      "descriptionByStar": {
+        "0": "[Schutz! Ist dat der Glücksstein?] Skill-Cooldown verringert sich um 6 Sek. und nach dem Sammeln der Energie werden eigene TP in Höhe von 10 % der max. TP regeneriert."
+      }
+    },
+    "3": {
+      "name": "Unklares Schatzbuch",
+      "description": "[ANG! Kraft der Ritterkommandantin!] gewährt einen zusätzlichen Effekt, bei dem die Gegner während alle Treffer (außer dem letzten) 2 Sek. lang betäubt werden. Mit dem letzten Treffer wird der erhaltene gegn. Schaden pro [Macht des Shuti-Stammes]-Stapel um zusätz. {0} % erhöht.",
+      "value": {
+        "0": {
+          "0": "0.5",
+          "1": "0.6",
+          "2": "0.7",
+          "3": "0.8",
+          "4": "0.9",
+          "5": "1"
+        }
+      },
+      "thumbnail": "heroes/Taily/ut/3.png",
+      "story": "Ein Buch, das vom Shuti-Stamm als magisch angesehen wird und mehrere Koordinaten versteckter Schätze enthält.\nUrsprünglich wurde das Buch von Idrian an den Vorfahren des Shuti-Stammes übergeben, und der Shuti-Stamm hat es bis heute aufbewahrt.\nDer Shuti-Stamm konnte jedoch die im Buch vorhandenen unergründlichen Buchstaben nicht entziffern und konnte nur die Zeichnungen erkennen.\nDem Shuti-Stamm gelang es, einige Schätze zu finden, aber leider war keiner von ihnen der Glücksstein. Dennoch wurde bestätigt, dass die Schätze an den Orten der Koordinaten existieren.",
+      "descriptionByStar": {
+        "0": "[ANG! Kraft der Ritterkommandantin!] gewährt einen zusätzlichen Effekt, bei dem die Gegner während alle Treffer (außer dem letzten) 2 Sek. lang betäubt werden. Mit dem letzten Treffer wird der erhaltene gegn. Schaden pro [Macht des Shuti-Stammes]-Stapel um zusätz. 0.5 % erhöht."
+      }
+    },
+    "4": {
+      "name": "Bester Ritter Ehrenzeichen",
+      "description": "[Segen des Shuti-Stammes!] verringert die Heilungsrate des Gegners um {0} % und die VERT-Durchdringung um 10. Dieser Effekt kann max. 25-mal gestapelt und nicht mehr entfernt werden.",
+      "value": {
+        "0": {
+          "0": "0.5",
+          "1": "0.6",
+          "2": "0.7",
+          "3": "0.8",
+          "4": "0.9",
+          "5": "1"
+        }
+      },
+      "thumbnail": "heroes/Taily/ut/4.png",
+      "story": "Die Auszeichnung, die Taily an dem Tag verliehen wurde, als sie in die Ritterschaft aufgenommen wurde.\nTaily wurde speziell als Ritterkommandantin ernannt, nachdem sie den Wettbewerb gewonnen und der Träger von Prochika geworden war.\nMit der Auszeichnung, die immer herrlich auf ihrem Kopf leuchtet, marschiert sie weiter, um den Glücksstein zu finden.",
+      "descriptionByStar": {
+        "0": "[Segen des Shuti-Stammes!] verringert die Heilungsrate des Gegners um 0.5 % und die VERT-Durchdringung um 10. Dieser Effekt kann max. 25-mal gestapelt und nicht mehr entfernt werden."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 4-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Entfernt alle positiven Effekte der Frontfeinde und fügt ihnen ??? Körp. Schaden zu, wobei die Seele von Beständiger Stein, Prochika beschworen wird. Die Seele gewährt dem nächsten Skill einen zusätz. Effekt und verschwindet dann.\n[Boom! Vorsicht!] fügt Gegnern in der Nähe ??? Körp. Schaden zu und erhöht 8 Sek. lang den erhaltenen Schaden um 40 %.\n[Schutz! Ist dat der Glücksstein?] greift den Gegner 4-mal an, während es Energie sammelt, und stellt insgesamt 2 Mana-Kugel wieder auf. Danach wird 10 Sek. lang der ANG des Ziels um 50 % erhöht.\n[ANG! Kraft der Ritterkommandantin!] fügt den Gegnern an der Fontlinie ??? Körp- Schaden zu und verringert sofort die Mana-Kugel um 3. Feinden, die keine Helden sind, wird zusätz. ??? Körp. Schaden zugefügt.",
+    "cooldown": "18",
+    "uses": "6",
+    "thumbnail": "heroes/Taily/sw.png",
+    "advancement": {
+      "1": "Verwendungsbedingungen werden auf 3 geändert.",
+      "2": "Verringert den Cooldown um 5 Sek. und erhöht nach der Seelenbeschwörung 15 Sek. lang die eigene VERT-Durchdringung um 300."
+    },
+    "story": "Selbst nachdem sie die Macht über Prochika erlangt hatte, schwor Taily jeden Tag, dass sie sich nicht nur auf die Kraft verlassen wird, die der Vorfahr hinterlassen hat.\nSie schwor, aus eigener Kraft eine große Heldin zu werden.\n\nUm dies zu erreichen, verstärkte sie nicht nur ihre Bemühungen bei der Suche nach dem Glücksstein, sondern gab auch ihr Blut, Schweiß und Tränen als Trägerin von Prochika.\nDie geheime Technik aufrechterhalten, den Anstarr-Wettbewerb gewinnen, andere Tierkreuzungen beglückwünschen ...\nNichts war einfach, aber Taily gab nicht auf.\n\nLetztendlich erreichte Taily den höchsten Punkt, den sie mit ihrer Kraft erreichen konnte!\nTaily lud ihre Energie auf und schlug mit großer Wucht auf den Boden. In diesem Moment spürte Prochika Tailys Aura, die der seines ersten Meisters so ähnlich war.\n\nProchika, beeindruckt von Tailys Können, gab das strahlende blaue Licht ab.\nDas Licht, ein Fragment von Prochikas Erinnerung, bildete die Form des idealen Helden, von dem Taily immer geträumt hatte.\n\nDer Held mit überwältigender Präsenz, einschüchterndem Blick und überwältigender Macht!\n\n- Ich habe dein Blut, deinen Schweiß und deine Tränen gesehen und ich muss sagen, dass ich beeindruckt bin!\nDu bist wirklich diejenige, die mein Wille folgen wird! Hahaha!"
+  },
+  "splashart": "heroes/Taily/sa.png",
+  "costumes": "heroes/Taily/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "id": "Lucias",
+  "profile": {
+    "name": "Lucias",
+    "title": "Lucias, Saint de Bénédiction",
+    "class": "Priest",
+    "position": "Middle-100",
+    "attack_range": "5900",
+    "damage_type": "Physical",
+    "gender": "Homme",
+    "age": "24",
+    "height": "181",
+    "race": "Humain",
+    "constellation": "Graham le Grand Voleur",
+    "birth": {
+      "month": 5,
+      "day": 21,
+      "monthName": "Mois de l'Espoir"
+    },
+    "like": "Les plats à la pomme, la pêche, la prière, aider son prochain, les spectacles de magie",
+    "dislike": "Les personnes malpolies, les promesses non tenues, le mépris de la vie humaine.",
+    "story": "Avant d'être élevé au rang de Saint, Lucias faisait partie des Chevaliers sacrés de Lua.\nAux ordres de Ricardo, la légende vivante, il protégeait Orvel et ses environs contre les démons.\nÀ l'âge de 19 ans, son corps se mit à se couvrir de stigmates et suite à l'appel de Lua, ce Chevalier sacré devint Saint béni.\nSa mission consiste désormais à parcourir le monde et apporter la lumière de Lua à ceux qui souffrent.\nFidèle à sa tâche, il donne sa bénédiction aux quatre coins du globe.\nToutefois, depuis les cent dernières années, les ténèbres ont gagné du terrain, et cela l'a poussé à reprendre les armes.",
+    "thumbnail": "heroes/Lucias/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Voie des bénédictions",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Restaure ??? PV aux 4 alliés aux PV les plus bas et les DEG reçus par le lanceur sont réduits de 20% pendant 7 sec.",
+      "thumbnail": "heroes/Lucias/skills/1.png"
+    },
+    "2": {
+      "name": "Zone de foi",
+      "cost": "5",
+      "cooldown": "15",
+      "description": "Déploie une [Zone de foi] à l'emplacement du lanceur pendant 6 sec. Dans la [Zone de foi], l'ATQ des alliés augmente de ??? points et les effets négatifs qui pèsent sur eux sont dissipés en continu. Restaure chaque seconde ??? PV aux alliés. Inflige chaque seconde ??? points de DEG P aux ennemis situés dans la [Zone de foi] et les étourdit pendant 0.7 sec.",
+      "thumbnail": "heroes/Lucias/skills/2.png"
+    },
+    "3": {
+      "name": "Stigmates",
+      "cost": "3",
+      "cooldown": "25",
+      "description": "Augmente l'esquive physique de tous les alliés de 250 et leur ATQ de ??? pendant 15 sec. Ces effets disparaissent à sa mort. Pendant 15 sec, les attaques normales infligent ??? DEG P supplémentaires et augmentent les DEG P subis par la cible de 25% pendant 5 sec.",
+      "thumbnail": "heroes/Lucias/skills/3.png"
+    },
+    "4": {
+      "name": "Saint sacrifice",
+      "cost": null,
+      "cooldown": null,
+      "description": "Consomme 20% des PV actuels au moment du déclenchement de Voie des bénédictions et Zone de foi. Lorsque ces compétences sont utilisées pour soigner des alliés, la quantité de PV restaurés augmente de ??? et la cible bénéficie d'un boost de DEF de ??? points pendant 10 sec.",
+      "thumbnail": "heroes/Lucias/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les soins de 10%.",
+      "III": "Augmente les soins de 15%.",
+      "IV": "Augmente les soins de 25%."
+    },
+    "2": {
+      "II": "Augmente les soins et les DEG de 10%.",
+      "III": "Augmente les soins et les DEG de 15%.",
+      "IV": "Augmente les soins et les DEG de 25%."
+    },
+    "3": {
+      "II": "Les boosts d'ATQ et de DEG sont augmentés de 10%.",
+      "III": "Les boosts d'ATQ et de DEG sont augmentés de 15%.",
+      "IV": "Les boosts d'ATQ et de DEG sont augmentés de 25%."
+    },
+    "4": {
+      "II": "Augmente les soins de 10%.",
+      "III": "Augmente les soins de 15%.",
+      "IV": "Augmente les soins de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Modifie pour que l'effet cible tous les alliés.",
+          "thumbnail": "heroes/Lucias/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Restaure 500 PM de la cible.",
+          "thumbnail": "heroes/Lucias/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Restaure 200 PM des alliés à portée toutes les secondes.",
+          "thumbnail": "heroes/Lucias/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Dissipe en continu les effets positifs dont bénéficient les ennemis à portée.",
+          "thumbnail": "heroes/Lucias/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "[Stigmates] Réduit la précision de la cible, qui reçoit 150 points de DEG P supplémentaires pendant 5 sec.",
+          "thumbnail": "heroes/Lucias/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Confère l'immunité contre les contrôles pendant la durée de la compétence.",
+          "thumbnail": "heroes/Lucias/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Augmente les soins de 40%.",
+          "thumbnail": "heroes/Lucias/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Les PV ne sont plus consommés.",
+          "thumbnail": "heroes/Lucias/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Résist. Contrôles +100",
+        "thumbnail": "heroes/Lucias/perks/light.png"
+      },
+      "dark": {
+        "effect": "Après l'incantation d'une compétence active, augmente la récupération PM/sec de 300% pendant 3 sec.",
+        "thumbnail": "heroes/Lucias/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Benedicia, la Délicatesse de la Lumière",
+    "description": "Pendant 30 sec au début du combat, réduit les DEG P reçus par tous les alliés de {0}%. Augmente également leur Vitesse d'ATQ de {1} et les DEG infligés aux ennemis non-Héros de {2}%.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      },
+      "2": {
+        "0": "8",
+        "1": "10",
+        "2": "12",
+        "3": "14",
+        "4": "17",
+        "5": "20"
+      }
+    },
+    "thumbnail": "heroes/Lucias/uw.png",
+    "story": "Drapeau béni représentant le soleil, la lune et tout le ciel.\nIl renferme les enseignements et le pouvoir de Lua, la créatrice.\nLorsque Lucias agite ce drapeau, il répand le pouvoir de la lumière,\napaisant l'esprit de ses alliés en repoussant les ténèbres.\nCet objet saint fut remis à Lucias, autrefois porte-drapeau des Chevaliers sacrés de Lua.",
+    "descriptionByStar": {
+      "0": "Pendant 30 sec au début du combat, réduit les DEG P reçus par tous les alliés de 10%. Augmente également leur Vitesse d'ATQ de 100 et les DEG infligés aux ennemis non-Héros de 8%."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Livre des bénédictions",
+      "description": "[Voie des bénédictions] Réduit le coût en PM de 1 et le temps de recharge de 12 %.",
+      "value": {},
+      "thumbnail": "heroes/Lucias/ut/1.png",
+      "story": "Une bible de l'infini dans laquelle une famille de sages des bénédictions a consigné son travail.\nLe titre de « sage » étant transmis avec les souvenirs de son prédécesseur, il n'y a apparemment aucune raison pour qu'un sage ait besoin de consigner quoi que ce soit.\nToutefois, l'accumulation des souvenirs ayant tendance à prendre le pas sur l'identité du sage qui les reçoit, un tel ouvrage s'avère finalement nécessaire.",
+      "descriptionByStar": {
+        "0": "[Voie des bénédictions] Réduit le coût en PM de 1 et le temps de recharge de 12 %.",
+        "1": "[Voie des bénédictions] Réduit le coût en PM de 1 et le temps de recharge de 14 %.",
+        "2": "[Voie des bénédictions] Réduit le coût en PM de 1 et le temps de recharge de 17 %.",
+        "3": "[Voie des bénédictions] Réduit le coût en PM de 1 et le temps de recharge de 21 %.",
+        "4": "[Voie des bénédictions] Réduit le coût en PM de 1 et le temps de recharge de 25 %.",
+        "5": "[Voie des bénédictions] Réduit le coût en PM de 1 et le temps de recharge de 30 %."
+      }
+    },
+    "2": {
+      "name": "Dé du souvenir",
+      "description": "[Zone de foi] Réduit le coût en PM de 1 et le PM des ennemis à portée de 200 par sec.",
+      "value": {},
+      "thumbnail": "heroes/Lucias/ut/2.png",
+      "story": "Lorsqu'il était plus jeune, Lucias avait un ami très cher\nqui faisait partie d'une bande appelée Stardust. Ses mains étaient très adroites malgré son jeune âge,\net il s'en servait pour vider les poches des parieurs.\nMalheureusement, Stardust ne se rendait dans la ville de Lucias qu'une seule fois par an,\nce qui amena les deux amis à s'échanger quelque chose de précieux à leurs yeux pour entretenir leur amitié.\nCe dé pipé fut fabriqué par Esker, l'ami de Lucias.",
+      "descriptionByStar": {
+        "0": "[Zone de foi] Réduit le coût en PM de 1 et le PM des ennemis à portée de 200 par sec.",
+        "1": "[Zone de foi] Réduit le coût en PM de 1 et le PM des ennemis à portée de 240 par sec.",
+        "2": "[Zone de foi] Réduit le coût en PM de 1 et le PM des ennemis à portée de 290 par sec.",
+        "3": "[Zone de foi] Réduit le coût en PM de 1 et le PM des ennemis à portée de 350 par sec.",
+        "4": "[Zone de foi] Réduit le coût en PM de 1 et le PM des ennemis à portée de 420 par sec.",
+        "5": "[Zone de foi] Réduit le coût en PM de 1 et le PM des ennemis à portée de 500 par sec."
+      }
+    },
+    "3": {
+      "name": "Enseignements de l'étoile du Berger",
+      "description": "[Stigmates] L'effet de Stigmates ne peut pas être dissipé par une compétence qui retire les effets positifs. Réduit le temps de recharge de 12 %.",
+      "value": {},
+      "thumbnail": "heroes/Lucias/ut/3.png",
+      "story": "Le résultat de recherches concernant les stigmates du Saint béni.\nMême si Lucias possède les souvenirs des saints, ceux-ci ne savent pas tout.\nLes prêtres de Lua produisirent ce document après avoir étudié les secrets des stigmates,\nmais ils ne parvinrent pas à tout découvrir.",
+      "descriptionByStar": {
+        "0": "[Stigmates] L'effet de Stigmates ne peut pas être dissipé par une compétence qui retire les effets positifs. Réduit le temps de recharge de 12 %.",
+        "1": "[Stigmates] L'effet de Stigmates ne peut pas être dissipé par une compétence qui retire les effets positifs. Réduit le temps de recharge de 14 %.",
+        "2": "[Stigmates] L'effet de Stigmates ne peut pas être dissipé par une compétence qui retire les effets positifs. Réduit le temps de recharge de 17 %.",
+        "3": "[Stigmates] L'effet de Stigmates ne peut pas être dissipé par une compétence qui retire les effets positifs. Réduit le temps de recharge de 21 %.",
+        "4": "[Stigmates] L'effet de Stigmates ne peut pas être dissipé par une compétence qui retire les effets positifs. Réduit le temps de recharge de 25 %.",
+        "5": "[Stigmates] L'effet de Stigmates ne peut pas être dissipé par une compétence qui retire les effets positifs. Réduit le temps de recharge de 30 %."
+      }
+    },
+    "4": {
+      "name": "Épée du sacrifice",
+      "description": "[Saint sacrifice] Augmente le boost de DEF de 50 % et la ATQ des cibles de 8 % pendant 5 sec.",
+      "value": {},
+      "thumbnail": "heroes/Lucias/ut/4.png",
+      "story": "L'épée sacrée utilisée par Lucias lorsqu'il était un Chevalier sacré sous les ordres de Ricardo.\nLes grands prêtres de Lua la bénirent, lui insufflant une puissante énergie sacrée.\nLucias fut ensuite désigné Saint béni, et ses bénédictions sont d'ailleurs bien plus puissantes que celles de son épée.\n\nIl la porte toujours sur lui pour se rappeler l'époque où il était Chevalier sacré, mais ne la dégaine jamais.\nOn raconte qu'il pense qu'on ne le verrait plus comme un saint s'il brandissait une épée...",
+      "descriptionByStar": {
+        "0": "[Saint sacrifice] Augmente le boost de DEF de 50 % et la ATQ des cibles de 8 % pendant 5 sec.",
+        "1": "[Saint sacrifice] Augmente le boost de DEF de 50 % et la ATQ des cibles de 10 % pendant 5 sec.",
+        "2": "[Saint sacrifice] Augmente le boost de DEF de 50 % et la ATQ des cibles de 12 % pendant 5 sec.",
+        "3": "[Saint sacrifice] Augmente le boost de DEF de 50 % et la ATQ des cibles de 14 % pendant 5 sec.",
+        "4": "[Saint sacrifice] Augmente le boost de DEF de 50 % et la ATQ des cibles de 17 % pendant 5 sec.",
+        "5": "[Saint sacrifice] Augmente le boost de DEF de 50 % et la ATQ des cibles de 20 % pendant 5 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 4 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Benedicia, la Délicatesse de la Lumière, pendant 10 sec, ce qui augmente la récupération de PV de tous les alliés de 35%, et leur Vitesse d'ATQ de 350.",
+    "cooldown": "24",
+    "uses": "7",
+    "thumbnail": "heroes/Lucias/sw.png",
+    "advancement": {
+      "1": "Augmente l'ATQ de tous les alliés de 35% pendant la durée de la compétence.",
+      "2": "Toutes les 1 sec, réduit le temps de recharge de la compétence de 1 sec, pendant la durée de la compétence."
+    },
+    "story": "La vérité de la création était inscrite dans les cieux. L'influence de la déesse Lua s'étendait dans le monde entier. Et la vérité de la vie et du commencement y existait.\nBenedicia, le drapeau sacré, était l'incarnation du vouloir et de la volonté de la déesse, et exterminait tout ce qui s'opposait à elle. C'était une âme qui brillait d'une lueur sacrée, répandant les intentions divines jusque dans les contrées éloignées, et qui proclamait aux forces du mal l'avertissement de Lua.\nBenedicia, lumière de l'âme gracieuse et intense, qui contenait le souvenir et la foi de ceux qui étaient à la tête de l'ordre des chevaliers sacrés, prit l'apparence d'un chevalier résolu. Ce dernier était une mise en garde envers les personnes assez sottes pour s'opposer à la déesse."
+  },
+  "splashart": "heroes/Lucias/sa.png",
+  "costumes": "heroes/Lucias/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "id": "Chase",
+  "profile": {
+    "name": "Chase",
+    "title": "Chase, Type. 0",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "7300",
+    "damage_type": "Physical",
+    "gender": "Homme",
+    "age": "27",
+    "height": "196",
+    "race": "Humain",
+    "constellation": "Hexipolia le Vagabond",
+    "birth": {
+      "month": 12,
+      "day": 8,
+      "monthName": "Mois de la Patience"
+    },
+    "like": "Scarlet, Demia, Clause et son nom qui se fait appeler par ses compagnons",
+    "dislike": "Le souvenir du passé, son numéro de cobaye.",
+    "story": "Ce cobaye amnésique de type 0 vit le jour dans le cadre des expérimentations de l'empire visant à améliorer le genre humain. \nIl appartient au premier type du projet Chevaliers du mal, dont le seul but était de tuer, et sa mise au monde résulte d'un contrat secret conclu avec l'empire pour assassiner Scarlet, la seule héritière du trône.\nCependant, lors d'un combat contre Clause et Demia qui défendaient Scarlet, il devint incontrôlable, abandonna sa mission et prit la poudre d'escampette. Il ne réussit pas à la tuer et disparut, ce qui plaça les commanditaires de l'assassinat en bien mauvaise posture. En fin de compte, ils ont fait appel au Masque rieur, un autre groupe d'assassins, pour se débarrasser de lui. Entre temps, Scarlet lui avait déjà donné un nom, Chase, et le laissa vivre à ses côtés.",
+    "thumbnail": "heroes/Chase/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Je vais te pulvériser !",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Empêche la cible de bénéficier d'améliorations pendant 4 secondes et l'attaque, lui infligeant ??? points de DEG P et la repoussant. \nInflige ??? points de DEG P aux ennemis situés autour de la cible après 1 seconde et les étourdit pendant 4 secondes.",
+      "thumbnail": "heroes/Chase/skills/1.png"
+    },
+    "2": {
+      "name": "Dépassement de limite",
+      "cost": "3",
+      "cooldown": "10",
+      "description": "Active [Dépassement de limite]. À l'activation, consomme 10% des PV actuels pour dissiper tous ses effets négatifs et inflige ??? DEG P aux ennemis à portée. Pendant la durée de [Dépassement de limite], consomme 1.5% des PV actuels toutes les 1 sec, se confère une immunité aux contrôles et augmente les DEG Crit de 50% ainsi que la Vitesse d'ATQ de 500, et renforce l'attaque automatique. La consommation des PV, l'augmentation des DEG Crit et celle de la Vitesse d'ATQ s'amplifient avec le temps. Cet effet ne peut pas être dissipé et se désactive automatiquement lorsque les PV deviennent inférieurs ou égaux à 25%.",
+      "thumbnail": "heroes/Chase/skills/2.png"
+    },
+    "3": {
+      "name": "Brûle, lance de fureur !",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Charge la cible ennemie, lui inflige ??? DEG P et la renverse. Ensuite, fait exploser le sol de la zone à portée en attaquant à 4 reprises, ce qui inflige un total de ??? DEG P et étourdit pendant 5 sec. À chaque coup porté, récupère les PV à hauteur de 3% des PV max de Chase + 25% des DEG infligés.",
+      "thumbnail": "heroes/Chase/skills/3.png"
+    },
+    "4": {
+      "name": "N'oublie pas ça en enfer",
+      "cost": null,
+      "cooldown": null,
+      "description": "N'est pas affecté par le stat de Vol de vie, mais les PV max augmentent de 20%, le Crit de 100, la Précision des contrôles de 100 et la Précision de 100. Chaque fois que ses PV sont réduits de 1%, augmente les DEG Crit de 1% et la Vitesse d'ATQ de 4. En recevant des DEG mortels, ressuscite pendant 5 sec, augmente les DEG Crit de 40% et la Vitesse d'ATQ de 400, et se confère l'immunité aux contrôles pendant la durée de l'effet. La résurrection ne peut être activée qu'une seule fois par bataille, et une fois ressuscité, Chase ne peut pas utiliser de compétences.",
+      "thumbnail": "heroes/Chase/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente l'augmentation du Crit de 50.",
+      "III": "Augmente l'augmentation du Crit de 50.",
+      "IV": "Augmente l'augmentation du Crit de 50."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Chase/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "La cible touchée subit 25% de DEG P supplémentaires pendant 10 secondes.",
+          "thumbnail": "heroes/Chase/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Les ennemis touchés subissent Étourdissement pendant 2 sec.",
+          "thumbnail": "heroes/Chase/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Pendant la durée de la compétence, augmente la récupération des PV de 0.4% et réduit les DEG reçus de 0.4%, à chaque fois que les PV sont réduits de 1%.",
+          "thumbnail": "heroes/Chase/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente le coût en PM de 1 et la récupération des PV de 100%.",
+          "thumbnail": "heroes/Chase/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Utilise la compétence en dissipant son effet négatif.",
+          "thumbnail": "heroes/Chase/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "À l'activation de résurrection, l'ATQ augmente de 50%.",
+          "thumbnail": "heroes/Chase/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "À l'activation de résurrection, les ennemis alentour à portée sont renversés pendant 3 secondes.",
+          "thumbnail": "heroes/Chase/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Chase/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente les DEG infligés aux ennemis non-Héros de 1% toutes les 1 sec. Cet effet peut se cumuler jusqu'à 60 fois et ne peut être dissipé.",
+        "thumbnail": "heroes/Chase/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Monolithe, le Lancier de Sang",
+    "description": "Augmente les DEG Crit de 20%. Lors d'une attaque automatique, inflige des DEG P à hauteur de 30% de l'ATQ avec [Flamme monolithique] et récupère des PV à hauteur de 20% des DEG infligés. Lorsque [Dépassement de limite] est activé, l'effet de [Flamme monolithique] est doublé.",
+    "value": {},
+    "thumbnail": "heroes/Chase/uw.png",
+    "story": "Arme pour l'humain amélioré de type 0 créé dans les laboratoires de l'empire au terme de milliers de tentatives. \nDès son réveil, l'humain amélioré de type 0 détruisit tout sur son passage dans le but de découvrir une arme à la hauteur de sa puissance.\nEn fin de compte, il arracha la corne du monstre Cannibale, connu pour avoir avalé l'orgueil parmi les péchés capitaux. \nCette corne passa entre les mains des meilleurs forgerons de l'empire et devint le Monolithe lancier de sang.\nLes flammes du péché brûlent dans cette arme, et ce qu'elle transperce perd immédiatement tout espoir de guérison. \nManier cette arme lui procure suffisamment de satisfaction pour dissiper les regrets qu'il a d'avoir perdu la mémoire.",
+    "descriptionByStar": {
+      "0": "Augmente les DEG Crit de 20%. Lors d'une attaque automatique, inflige des DEG P à hauteur de 30% de l'ATQ avec [Flamme monolithique] et récupère des PV à hauteur de 20% des DEG infligés. Lorsque [Dépassement de limite] est activé, l'effet de [Flamme monolithique] est doublé.",
+      "1": "Augmente les DEG Crit de 24%. Lors d'une attaque automatique, inflige des DEG P à hauteur de 36% de l'ATQ avec [Flamme monolithique] et récupère des PV à hauteur de 20% des DEG infligés. Lorsque [Dépassement de limite] est activé, l'effet de [Flamme monolithique] est doublé.",
+      "2": "Augmente les DEG Crit de 28%. Lors d'une attaque automatique, inflige des DEG P à hauteur de 43% de l'ATQ avec [Flamme monolithique] et récupère des PV à hauteur de 20% des DEG infligés. Lorsque [Dépassement de limite] est activé, l'effet de [Flamme monolithique] est doublé.",
+      "3": "Augmente les DEG Crit de 34%. Lors d'une attaque automatique, inflige des DEG P à hauteur de 52% de l'ATQ avec [Flamme monolithique] et récupère des PV à hauteur de 20% des DEG infligés. Lorsque [Dépassement de limite] est activé, l'effet de [Flamme monolithique] est doublé.",
+      "4": "Augmente les DEG Crit de 42%. Lors d'une attaque automatique, inflige des DEG P à hauteur de 62% de l'ATQ avec [Flamme monolithique] et récupère des PV à hauteur de 20% des DEG infligés. Lorsque [Dépassement de limite] est activé, l'effet de [Flamme monolithique] est doublé.",
+      "5": "Augmente les DEG Crit de 50%. Lors d'une attaque automatique, inflige des DEG P à hauteur de 75% de l'ATQ avec [Flamme monolithique] et récupère des PV à hauteur de 20% des DEG infligés. Lorsque [Dépassement de limite] est activé, l'effet de [Flamme monolithique] est doublé."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Guide du péché",
+      "description": "[Je vais te pulvériser !] Confère l'immunité contre les contrôles pendant la durée de la compétence et restaure 200 PM à chaque coup réussi.",
+      "value": {},
+      "thumbnail": "heroes/Chase/ut/1.png",
+      "story": "Élaboré à partir du quatrième cœur de Cannibal, la Bête de l'arrogance, ce joyau est fixé à l'intérieur de Monolithe.\nLorsque Chase fonce sur ses ennemis, le cœur de Cannibal s'emballe. Au moment de l'impact, les flammes du péché qui brûlent à l'intérieur de Monolithe explosent.",
+      "descriptionByStar": {
+        "0": "[Je vais te pulvériser !] Confère l'immunité contre les contrôles pendant la durée de la compétence et restaure 200 PM à chaque coup réussi.",
+        "1": "[Je vais te pulvériser !] Confère l'immunité contre les contrôles pendant la durée de la compétence et restaure 240 PM à chaque coup réussi.",
+        "2": "[Je vais te pulvériser !] Confère l'immunité contre les contrôles pendant la durée de la compétence et restaure 290 PM à chaque coup réussi.",
+        "3": "[Je vais te pulvériser !] Confère l'immunité contre les contrôles pendant la durée de la compétence et restaure 350 PM à chaque coup réussi.",
+        "4": "[Je vais te pulvériser !] Confère l'immunité contre les contrôles pendant la durée de la compétence et restaure 420 PM à chaque coup réussi.",
+        "5": "[Je vais te pulvériser !] Confère l'immunité contre les contrôles pendant la durée de la compétence et restaure 500 PM à chaque coup réussi."
+      }
+    },
+    "2": {
+      "name": "Mouchoir de la loyauté",
+      "description": "[Dépassement de limite] Pendant la durée de la compétence, inflige des DEG P de 40 % de l'ATQ toutes les secondes aux ennemis proches et augmente la Récupération de 30 %.",
+      "value": {},
+      "thumbnail": "heroes/Chase/ut/2.png",
+      "story": "Cadeau que Scarlet offrit à Chase pour le consoler de ne pas avoir de nom.\n« Chase » est brodé dans un coin de ce mouchoir. \nIl dénote un peu avec son style, mais Chase le porte tout le temps. \nIl a perdu la mémoire et n'a pu découvrir son identité qu'à l'aide du code inscrit sur sa taille. Il n'a pu trouver de raison de vivre qu'après qu'on lui ait donné un nom. \nIl décida de mettre sa surpuissance au profit de ceux qui l'aident à se sentir vivant.",
+      "descriptionByStar": {
+        "0": "[Dépassement de limite] Pendant la durée de la compétence, inflige des DEG P de 40 % de l'ATQ toutes les secondes aux ennemis proches et augmente la Récupération de 30 %.",
+        "1": "[Dépassement de limite] Pendant la durée de la compétence, inflige des DEG P de 48 % de l'ATQ toutes les secondes aux ennemis proches et augmente la Récupération de 30 %.",
+        "2": "[Dépassement de limite] Pendant la durée de la compétence, inflige des DEG P de 58 % de l'ATQ toutes les secondes aux ennemis proches et augmente la Récupération de 30 %.",
+        "3": "[Dépassement de limite] Pendant la durée de la compétence, inflige des DEG P de 70 % de l'ATQ toutes les secondes aux ennemis proches et augmente la Récupération de 30 %.",
+        "4": "[Dépassement de limite] Pendant la durée de la compétence, inflige des DEG P de 84 % de l'ATQ toutes les secondes aux ennemis proches et augmente la Récupération de 30 %.",
+        "5": "[Dépassement de limite] Pendant la durée de la compétence, inflige des DEG P de 100 % de l'ATQ toutes les secondes aux ennemis proches et augmente la Récupération de 30 %."
+      }
+    },
+    "3": {
+      "name": "Épaulière implacable",
+      "description": "[Brûle, lance de fureur] Réduit le coût en PM de 1 et augmente les DEG infligés de 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Chase/ut/3.png",
+      "story": "Épaulière portée par Chase et fabriquée dans des minerais spéciaux difficiles à trouver sur le continent Orbis. \nElle a beau être légère, elle est résistante et même incassable. \nDemia réussit à se procurer cette épaulière pour l'offrir à Chase, étant donné que Scarlet s'était prise d'affection pour lui.\nBien qu'elle ne le montrât pas, la naïveté de Chase étonnait profondément Demia, car elle contrastait avec sa fascination pour le combat. \nElle l'observa pendant quelques jours, puis lui remit cette épaulière en lui tapant sur l'épaule avec désinvolture. Elle lui dit qu'il était certes important de se battre, mais plus encore de protéger son corps.",
+      "descriptionByStar": {
+        "0": "[Brûle, lance de fureur] Réduit le coût en PM de 1 et augmente les DEG infligés de 20 %.",
+        "1": "[Brûle, lance de fureur] Réduit le coût en PM de 1 et augmente les DEG infligés de 24 %.",
+        "2": "[Brûle, lance de fureur] Réduit le coût en PM de 1 et augmente les DEG infligés de 29 %.",
+        "3": "[Brûle, lance de fureur] Réduit le coût en PM de 1 et augmente les DEG infligés de 35 %.",
+        "4": "[Brûle, lance de fureur] Réduit le coût en PM de 1 et augmente les DEG infligés de 42 %.",
+        "5": "[Brûle, lance de fureur] Réduit le coût en PM de 1 et augmente les DEG infligés de 50 %."
+      }
+    },
+    "4": {
+      "name": "Capteur biométrique de Type 0",
+      "description": "[N'oublie pas ça en enfer] Augmente les DEG infligés aux cibles non-Héros de {0}% et réduit les DEG reçus de la part des ennemis non-Héros de 20%.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Chase/ut/4.png",
+      "story": "Un capteur de formes de vie installé à la taille de Chase.\nIl ressemble à une petite capsule ovale et est conçu pour être inséré dans le corps du cobaye.\nOn peut lire sur la capsule le nom de code du sujet, Type 0, et elle contient un étrange matériau rouge qui recueille des informations.\nCe capteur biométrique peut enregistrer toutes sortes d'informations liées aux recherches et aux expériences et géolocaliser le cobaye.\nSi quelqu'un tente de l'extirper par la force, il s'autodétruira, tuant ainsi le cobaye et détruisant toutes les données confidentielles.\nLorsque Chase l'arracha de son corps, il le brisa instantanément. Ce petit gadget gangrénait son âme depuis trop longtemps.\nPuis il fit un serment.\nIl se jura de faire payer les responsables de son calvaire, et jusqu'à ce que son seul nom instille la peur en eux.",
+      "descriptionByStar": {
+        "0": "[N'oublie pas ça en enfer] Augmente les DEG infligés aux cibles non-Héros de 10% et réduit les DEG reçus de la part des ennemis non-Héros de 20%.",
+        "1": "[N'oublie pas ça en enfer] Augmente la durée de résurrection de 1 sec et accorde l'immunité contre les contrôles pendant 1,5 sec lors d'une résurrection.",
+        "2": "[N'oublie pas ça en enfer] Augmente la durée de résurrection de 1 sec et accorde l'immunité contre les contrôles pendant 2 sec lors d'une résurrection.",
+        "3": "[N'oublie pas ça en enfer] Augmente la durée de résurrection de 1 sec et accorde l'immunité contre les contrôles pendant 2,5 sec lors d'une résurrection.",
+        "4": "[N'oublie pas ça en enfer] Augmente la durée de résurrection de 1 sec et accorde l'immunité contre les contrôles pendant 3 sec lors d'une résurrection.",
+        "5": "[N'oublie pas ça en enfer] Augmente la durée de résurrection de 1 sec et accorde l'immunité contre les contrôles pendant 3,5 sec lors d'une résurrection."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Vous devez infliger des DEG à 60 reprises pour recharger l'âme et l'utiliser.",
+    "description": "Invoque l'âme de Monolithe, le Lancier de Sang, ce qui inflige ??? DEG P aux ennemis proches et les renverse pendant 4 sec. Ensuite, restaure les PV du Héros à la hauteur de 40% de ses PV max. Augmente le taux d'ATQ de 30% et la récupération de PV de 30%, pendant 10 sec.",
+    "cooldown": "22",
+    "uses": "5",
+    "thumbnail": "heroes/Chase/sw.png",
+    "advancement": {
+      "1": "Modifie la durée de l'effet à 15 sec.",
+      "2": "Pendant la durée de l'invocation, augmente les DEG infligés par le Héros aux ennemis de 20%. Les attaques automatiques possèdent 10% de chance d'étourdir la cible pendant 1.5 sec."
+    },
+    "story": "Des voix, provenant de nulle part, faisaient ressentir à Chase, de l'angoisse au point de s'étreindre le cœur, et le poussaient à regarder le sol, ne sachant plus où diriger son regard. Chase savait que ces voix étaient en réalité la culpabilité et le regret nostalgique.\nChaque fois qu'il entendait ces voix incessantes, il essayait de les fuir, en se bouchant les oreilles, mais en vain. La souffrance provoquée par ces voix rongeait peu à peu Chase. Alors qu'il était sur le point de perdre la tête, la conscience de Cannibal, endormi à l'intérieur de Monolithe, lui adressa la parole.\nL'être lui chuchota que s'il laissait ses flammes l'envahir, il n'entendrait plus les voix.\nEffectivement, pendant que Chase utilisait Monolithe, il n'entendait plus les voix en question, ce qui l'amena à en devenir de plus en plus dépendant.\n\nEn voyant la dangerosité de ces flammes qui nuisaient même à son utilisateur, Scarlet réprimanda Chase. Ce dernier promit qu'il ferait des efforts, mais cette promesse était oubliée durant les batailles où il déployait les flammes sans retenue, approchant dangereusement de l'état de furie.\nScarlet finit par prier à Annette, la célèbre technomage du royaume, d'effectuer des recherches sur Monolithe et Chase. Cette dernière découvrit que Monolithe était devenu un récipient contenant l'âme de Cannibal, la bête de l'arrogance, et que son aura magique était en train d'influencer l'état mental de Chase.\nCannibal se nourrissait de l'angoisse de Chase et du sentiment de nostalgie envers les choses qu'il avait oubliées. Et la bête pourrait finir par s'accaparer entièrement de Chase qui l'avait humilié.\n\nNéanmoins, Chase garda l'espoir de parvenir à vaincre un jour la conscience de la bête, et ses amis l'encouragèrent."
+  },
+  "splashart": "heroes/Chase/sa.png",
+  "costumes": "heroes/Chase/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

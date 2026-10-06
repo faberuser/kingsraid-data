@@ -1,0 +1,230 @@
+{
+  "id": "Artemia",
+  "profile": {
+    "name": "Artemia",
+    "title": "Artemia, Impératrice de la Splendeur",
+    "class": "Wizard",
+    "position": "Back-500",
+    "attack_range": "6400",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "19",
+    "height": "165",
+    "race": "Humain",
+    "constellation": "Lasiphil la Prophétesse",
+    "birth": {
+      "month": 3,
+      "day": 22,
+      "monthName": "Mois de la Clairvoyance"
+    },
+    "like": "Les gâteaux sucrés, les yeux des chevaliers vertueux",
+    "dislike": "Les démons",
+    "story": "Penteonia est un royaume impénétrable. Même l'Armée Démoniaque ne put briser ses défenses il y a cent ans. Artemia, Impératrice de la Lumière, règne sur ce royaume. Depuis son enfance, elle s'est préparée à la responsabilité du trône qui l'attendait. Lorsqu'elle comprit enfin que la victoire de son royaume ne pouvait s'obtenir que par les sacrifices de son peuple, elle jura de ne jamais ignorer son devoir. Elle endosse la responsabilité et les pressions de sa charge royale avec courage. Penteonia a longtemps été un royaume égoïste, uniquement intéressé par sa propre sécurité. Désormais, avec Artemia comme dirigeant, tout va changer.",
+    "thumbnail": "heroes/Artemia/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Pilier de Lumière",
+      "cost": "2",
+      "cooldown": "7",
+      "description": "Place un Pilier de Lumière à l'emplacement de l'ennemi et inflige un total de ??? points de DEG M en 3 sec et réduit l'ATQ ennemie de 20% pendant 10 sec.",
+      "thumbnail": "heroes/Artemia/skills/1.png"
+    },
+    "2": {
+      "name": "Intensité Critique",
+      "cost": "3",
+      "cooldown": "14",
+      "description": "Inflige ??? DEG M aux ennemis en ligne droite. Cette attaque ajoute 100% de DEG Crit.",
+      "thumbnail": "heroes/Artemia/skills/2.png"
+    },
+    "3": {
+      "name": "Jugement de Lumière",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Attaque tous les ennemis à 3 reprises infligeant ??? DEG M au total et applique Étourdissement pendant 5 sec. Inflige ??? DEG M supplémentaires à chaque coup porté si la cible n'est pas un Héros. Réduit le temps de recharge de cette compétence de 30% chaque fois qu'un ennemi est tué avec cette compétence.",
+      "thumbnail": "heroes/Artemia/skills/3.png"
+    },
+    "4": {
+      "name": "Bénédiction de Lumière",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lors d'une attaque, possède 60% de chances d'infliger à la cible ennemie et à ceux qui l'entourent ??? DEG M. Cumule sur soi-même 1 charge de Bénédiction de Lumière. Bénédiction de Lumière peut se cumuler jusqu'à 10 fois. Chaque charge augmente l'ATQ de ???, les DEG infligés aux ennemis non-Héros de 7% et réduit les DEG reçus de la part des ennemis non-Héros de 3%.",
+      "thumbnail": "heroes/Artemia/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "DEG augmentés de 40%.",
+          "thumbnail": "heroes/Artemia/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Chaque coup a 25% de chances d'appliquer Étourdissement pendant 1 sec.",
+          "thumbnail": "heroes/Artemia/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Artemia/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Lorsque Bénédiction de Lumière atteint 10 charges, le Temps de Recharge est réduit de 50%.",
+          "thumbnail": "heroes/Artemia/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Temps de Recharge réduit de 3 sec.",
+          "thumbnail": "heroes/Artemia/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente le coût en PM de 1 et les DEG infligés de 100%.",
+          "thumbnail": "heroes/Artemia/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Augmente les DEG infligés à l'ennemi non-Héros de 2.5% supplémentaires.",
+          "thumbnail": "heroes/Artemia/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Modifie la réduction des DEG reçus de la part des ennemis non-Héros en réduction des DEG reçus de la part de tous les ennemis.",
+          "thumbnail": "heroes/Artemia/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Crit +100",
+        "thumbnail": "heroes/Artemia/perks/light.png"
+      },
+      "dark": {
+        "effect": "Lorsque les PV tombent sous les 50%, le Héros gagne une immunité à tous les DEG pendant 2 sec. Cet effet ne peut s'activer qu'une fois toutes les 30 sec.",
+        "thumbnail": "heroes/Artemia/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Brauxio, la Gloire rayonnante",
+    "description": "En utilisant une compétence 3 fois, génère un bouclier qui protège des DEG à hauteur de 200% de son ATQ et augmente son ATQ de 20%, pendant 10 sec. Confère une immunité aux Contrôles pendant toute la durée du bouclier.",
+    "value": {},
+    "thumbnail": "heroes/Artemia/uw.png",
+    "story": "Ce trésor sacré de Penteonia aurait, dit-on, été envoyé par les Célestes afin d'éradiquer les démons. Ce bâton léger réputé pour ne répondre qu'aux saints rayonnait d'une formidable intensité dans les mains de la jeune Artemia, comme pour rendre hommage à la future impératrice. Cette arme puise dans l'énergie de la lumière absolue, déchaînant l'ire des cieux sur ses ennemis tout en protégeant son porteur d'une lumière divine.",
+    "descriptionByStar": {
+      "0": "En utilisant une compétence 3 fois, génère un bouclier qui protège des DEG à hauteur de 200% de son ATQ et augmente son ATQ de 20%, pendant 10 sec. Confère une immunité aux Contrôles pendant toute la durée du bouclier.",
+      "1": "En utilisant une compétence 3 fois, génère un bouclier qui protège des DEG à hauteur de 240% de son ATQ et augmente son ATQ de 24%, pendant 10 sec. Confère une immunité aux Contrôles pendant toute la durée du bouclier.",
+      "2": "En utilisant une compétence 3 fois, génère un bouclier qui protège des DEG à hauteur de 290% de son ATQ et augmente son ATQ de 29%, pendant 10 sec. Confère une immunité aux Contrôles pendant toute la durée du bouclier.",
+      "3": "En utilisant une compétence 3 fois, génère un bouclier qui protège des DEG à hauteur de 350% de son ATQ et augmente son ATQ de 35%, pendant 10 sec. Confère une immunité aux Contrôles pendant toute la durée du bouclier.",
+      "4": "En utilisant une compétence 3 fois, génère un bouclier qui protège des DEG à hauteur de 420% de son ATQ et augmente son ATQ de 42%, pendant 10 sec. Confère une immunité aux Contrôles pendant toute la durée du bouclier.",
+      "5": "En utilisant une compétence 3 fois, génère un bouclier qui protège des DEG à hauteur de 500% de son ATQ et augmente son ATQ de 50%, pendant 10 sec. Confère une immunité aux Contrôles pendant toute la durée du bouclier."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Dignité de la reine",
+      "description": "[Pilier de lumière] Réduit le coût en PM de 1 et augmente les DEG M reçus par la cible de 10 % pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Artemia/ut/1.png",
+      "story": "Cette broche fut confectionnée par le meilleur forgeron du royaume de Penteonia en l'honneur de la plus belle des reines, ce qui lui vaut son nom. Sa fabrication n'a été possible que grâce aux compétences que les nains ont transmises au forgeron. Le joyau qu'elle arbore possède un pouvoir mystique : il peut concentrer l'énergie de lumière d'Artemia et la libérer d'un coup.",
+      "descriptionByStar": {
+        "0": "[Pilier de lumière] Réduit le coût en PM de 1 et augmente les DEG M reçus par la cible de 10 % pendant 10 sec.",
+        "1": "[Pilier de lumière] Réduit le coût en PM de 1 et augmente les DEG M reçus par la cible de 12 % pendant 10 sec.",
+        "2": "[Pilier de lumière] Réduit le coût en PM de 1 et augmente les DEG M reçus par la cible de 14 % pendant 10 sec.",
+        "3": "[Pilier de lumière] Réduit le coût en PM de 1 et augmente les DEG M reçus par la cible de 17 % pendant 10 sec.",
+        "4": "[Pilier de lumière] Réduit le coût en PM de 1 et augmente les DEG M reçus par la cible de 21 % pendant 10 sec.",
+        "5": "[Pilier de lumière] Réduit le coût en PM de 1 et augmente les DEG M reçus par la cible de 25 % pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Fierté de la reine",
+      "description": "[Intensité critique] Donne l'immunité aux contrôles et augmente les DEG de 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Artemia/ut/2.png",
+      "story": "Boucles d’oreille confectionnées à partir de kveril de lumière, un minéral rare qui ne semble exister qu’à Penteonia. Lorsqu’Artemia fut couronnée impératrice, elle les reçut en même temps que la couronne. Leur brillant ne s’estompe pas pendant la nuit. À vrai dire, elles semblent même luire davantage. Ces boucles d’oreille sont communément appelées les joyaux de principe et de brillance. \nEn brillant de mille feux à ses oreilles, ce bijou rehausse la dignité de la reine.",
+      "descriptionByStar": {
+        "0": "[Intensité critique] Donne l'immunité aux contrôles et augmente les DEG de 20 %.",
+        "1": "[Intensité critique] Donne l'immunité aux contrôles et augmente les DEG de 24 %.",
+        "2": "[Intensité critique] Donne l'immunité aux contrôles et augmente les DEG de 29 %.",
+        "3": "[Intensité critique] Donne l'immunité aux contrôles et augmente les DEG de 35 %.",
+        "4": "[Intensité critique] Donne l'immunité aux contrôles et augmente les DEG de 42 %.",
+        "5": "[Intensité critique] Donne l'immunité aux contrôles et augmente les DEG de 50 %."
+      }
+    },
+    "3": {
+      "name": "Couronne de brillance",
+      "description": "[Jugement de Lumière] Augmente les DEG infligés de 20% et récupère 700 PM si un ennemi est vaincu.",
+      "value": {},
+      "thumbnail": "heroes/Artemia/ut/3.png",
+      "story": "Une couronne héritée par le roi de Penteonia. Une partie a été brisée par un tyran précédent, mais elle a été réparée. Une nouvelle gemme rouge, appelée âme du Soleil a été incrustée au milieu de la couronne. Sa forme est si digne qu’on se sent obligé de s’agenouiller devant en signe de respect.",
+      "descriptionByStar": {
+        "0": "[Jugement de Lumière] Augmente les DEG infligés de 20% et récupère 700 PM si un ennemi est vaincu.",
+        "1": "[Jugement de Lumière] Augmente les DEG infligés de 24% et récupère 700 PM si un ennemi est vaincu.",
+        "2": "[Jugement de Lumière] Augmente les DEG infligés de 29% et récupère 700 PM si un ennemi est vaincu.",
+        "3": "[Jugement de Lumière] Augmente les DEG infligés de 35% et récupère 700 PM si un ennemi est vaincu.",
+        "4": "[Jugement de Lumière] Augmente les DEG infligés de 42% et récupère 700 PM si un ennemi est vaincu.",
+        "5": "[Jugement de Lumière] Augmente les DEG infligés de 50% et récupère 700 PM si un ennemi est vaincu."
+      }
+    },
+    "4": {
+      "name": "Miroir des bénédictions",
+      "description": "[Bénédiction de Lumière] Augmente les DEG de 50% et l'augmentation des DEG infligés aux ennemis non-Héros de 1% supplémentaire.",
+      "value": {},
+      "thumbnail": "heroes/Artemia/ut/4.png",
+      "story": "Un miroir mystique contenant les sorts d'anciens mages royaux, qui se transmet de génération en génération dans la famille royale de Penteonia.\nL'histoire nous dit que le premier roi le créa de ses propres mains pour assurer la pérennité de Penteonia.\nSeul le dirigeant du pays pouvait s'y regarder, et la personne qui se tient face au miroir reçoit la bénédiction de la lumière.\nC'est ainsi que les rois devenaient eux-mêmes un phare guidant leur peuple.",
+      "descriptionByStar": {
+        "0": "[Bénédiction de Lumière] Augmente les DEG de 50% et l'augmentation des DEG infligés aux ennemis non-Héros de 1% supplémentaire.",
+        "1": "[Bénédiction de Lumière] Augmente les DEG de 50% et l'augmentation des DEG infligés aux ennemis non-Héros de 1,2% supplémentaire.",
+        "2": "[Bénédiction de Lumière] Augmente les DEG de 50% et l'augmentation des DEG infligés aux ennemis non-Héros de 1,4% supplémentaire.",
+        "3": "[Bénédiction de Lumière] Augmente les DEG de 50% et l'augmentation des DEG infligés aux ennemis non-Héros de 1,7% supplémentaire.",
+        "4": "[Bénédiction de Lumière] Augmente les DEG de 50 % et passe le boost de DEG infligés aux ennemis non-héros à 2,1% supplémentaires.",
+        "5": "[Bénédiction de Lumière] Augmente les DEG de 50% et l'augmentation des DEG infligés aux ennemis non-Héros de 2,5% supplémentaires."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 20 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de Brauxio, la Gloire rayonnante, pendant 10 sec, ce qui augmente l'ATQ de tous les alliés de 40% et leur DEF de 40%. Réduit également les DEG reçus par les alliés de la part de l'ennemi de 30%.",
+    "cooldown": "21",
+    "uses": "6",
+    "thumbnail": "heroes/Artemia/sw.png",
+    "advancement": {
+      "1": "Pendant la durée de l'invocation, dissipe toutes les 2 sec l'effet négatif de tous les alliés et l'effet positif de tous les ennemis.",
+      "2": "Augmente ses DEG infligés à l'ennemi de 30% pendant la durée de l'invocation."
+    },
+    "story": "Chaque fois qu'Artemia usait de sa magie, elle réalisait qu'elle était l'élue. Quand le bâton la guidait dans le sort de la lumière, quand l'énergie provenant du bâton l'enlaçait d'une douce étreinte. Dans son enfance, elle avait pensé que tout cela était naturel, mais un jour, elle comprit qu'elle considérait le bâton comme un solide compagnon, et non comme une simple arme.\n'-Tant que je te tiendrai dans les mains, je serai la lumière éclatante qui éclairera le monde.'\nLorsqu'elle se fit cette promesse, elle ressentit une lumière rassurante derrière elle. Et elle comprit également que Brauxio tenu dans ses mains la considérait aussi précieusement qu'elle."
+  },
+  "splashart": "heroes/Artemia/sa.png",
+  "costumes": "heroes/Artemia/cos",
+  "aliases": [
+    "arte"
+  ],
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

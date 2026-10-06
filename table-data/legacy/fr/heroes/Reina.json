@@ -1,0 +1,228 @@
+{
+  "id": "Reina",
+  "profile": {
+    "name": "Reina",
+    "title": "Reina, l'Éclair",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "1800",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "17",
+    "height": "160",
+    "race": "Humain",
+    "constellation": "Gisla le Fin Tireur",
+    "birth": {
+      "month": 11,
+      "day": 30,
+      "monthName": "Mois de la Chance"
+    },
+    "like": "Les hommes attirants",
+    "dislike": "Les hommes ennuyeux",
+    "story": "Reina von Stein est la fille d'une noble famille de l'empire. Son esprit libre et sa personnalité enthousiaste donnent le sourire à tous ceux qui l'entourent. Elle préfère être libre en tant que mercenaire, plutôt que d'étouffer dans le carcan aristocratique. Après avoir travaillé comme mercenaire pendant longtemps, elle a oublié toute trace de son éducation noble. Même enfant, elle était douée pour le maniement des épées. Au fil des années, elle développa un talent pour la rapière, utilisant le style le plus adapté à son physique délicat. Récemment, elle a refusé un étrange contrat. Depuis, elle a l'impression que quelqu'un la suit et l'observe.",
+    "thumbnail": "heroes/Reina/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Vol du Papillon",
+      "cost": "1",
+      "cooldown": "3",
+      "description": "Transperce rapidement l'ennemi et inflige ??? DEG P. Un coup critique applique 1 cumul de Blessure et réinitialise le temps de recharge. Chaque cumul augmente les dégâts de [Vole comme un papillon] de 20%. Immunise contre tous les dégâts pendant la compétence.",
+      "thumbnail": "heroes/Reina/skills/1.png"
+    },
+    "2": {
+      "name": "Pointe Tranchante",
+      "cost": "2",
+      "cooldown": "20",
+      "description": "Dissipe ses effets négatifs et augmente son ATQ de ??? et ses chances de coup critique de 500 pendant 20 sec. Cet effet est indissipable.",
+      "thumbnail": "heroes/Reina/skills/2.png"
+    },
+    "3": {
+      "name": "Étoile Filante",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Inflige ??? DEG P à l'ennemi par une attaque continue. Le dernier coup le projette au loin.",
+      "thumbnail": "heroes/Reina/skills/3.png"
+    },
+    "4": {
+      "name": "Enfant Chanceux",
+      "cost": null,
+      "cooldown": null,
+      "description": "Un coup critique augmente l'ATQ de ??? pendant 10 sec. Cumulable jusqu'à 8 fois.",
+      "thumbnail": "heroes/Reina/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente l'augmentation d'ATQ de 10%.",
+      "III": "Augmente l'augmentation d'ATQ de 15%.",
+      "IV": "Augmente le Crit de 50%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente l'augmentation d'ATQ de 10%.",
+      "III": "Augmente l'augmentation d'ATQ de 15%.",
+      "IV": "La pénétration augmente de 250 points pendant la durée de la compétence."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Augmente le coût en PM de 1 et le nombre maximum de charges de Blessure à 10. Inflige des DEG supplémentaires (150% du taux d'ATQ) aux ennemis portant 10 charges de Blessure.",
+          "thumbnail": "heroes/Reina/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Le Temps de recharge est supprimé.",
+          "thumbnail": "heroes/Reina/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Reina/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Augmente le coût en PM de 1 et remplace l'augmentation de Crit en augmentation de 100% des DEG Crit. Inflige également 25% de DEG supplémentaires aux boss.",
+          "thumbnail": "heroes/Reina/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Chaque coup critique augmente de 10% les DEG de la dernière attaque.",
+          "thumbnail": "heroes/Reina/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Immunisé contre tous les types de DEG pendant l'utilisation de la compétence.",
+          "thumbnail": "heroes/Reina/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Pour chaque charge, les DEG sont augmentés de 4% pour les ennemis qui ne sont pas des Héros.",
+          "thumbnail": "heroes/Reina/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Si cumulé 5 fois ou plus, les DEG P et les DEG M subis sont réduits de 20%.",
+          "thumbnail": "heroes/Reina/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Reina/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente ses DEG Crit de 10% pendant 10 sec pendant l'utilisation de la compétence. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "thumbnail": "heroes/Reina/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Livatis, la Foudre",
+    "description": "Après un coup critique réussi, gagne pendant 15 sec, une amélioration de Vitesse d'ATQ +80 et DEG Crit +20%. Cumulable jusqu'à 5 fois.",
+    "value": {},
+    "thumbnail": "heroes/Reina/uw.png",
+    "story": "La lignée de la famille Stein remonte aux premiers jours de l'empire. Cependant, l'honneur de cette famille repose sur le talent de ses guerriers, pas de la noblesse de sa lignée. Aria Stein fut une maîtresse d'escrime légendaire. Tout le monde s'en souvient comme une des guerrières les plus réputées de l'empire. C'est elle qui fonda l'honneur de la famille Stein. Reina est sa descendante. L'épée d'Aria, Livatas, appartient actuellement à Reina. Aussi légère qu'une plume, mais assez solide pour résister à n'importe quel coup, cette épée aida Reina a gagner son surnom de « l'Éclair ».",
+    "descriptionByStar": {
+      "0": "Après un coup critique réussi, gagne pendant 15 sec, une amélioration de Vitesse d'ATQ +80 et DEG Crit +20%. Cumulable jusqu'à 5 fois.",
+      "1": "Après un coup critique réussi, gagne pendant 15 sec, une amélioration de Vitesse d'ATQ +90 et DEG Crit +24%. Cumulable jusqu'à 5 fois.",
+      "2": "Après un coup critique réussi, gagne pendant 15 sec, une amélioration de Vitesse d'ATQ +110 et DEG Crit +28%. Cumulable jusqu'à 5 fois.",
+      "3": "Après un coup critique réussi, gagne pendant 15 sec, une amélioration de Vitesse d'ATQ +130 et DEG Crit +34%. Cumulable jusqu'à 5 fois.",
+      "4": "Après un coup critique réussi, gagne pendant 15 sec, une amélioration de Vitesse d'ATQ +160 et DEG Crit +41%. Cumulable jusqu'à 5 fois.",
+      "5": "Après un coup critique réussi, gagne pendant 15 sec, une amélioration de Vitesse d'ATQ +200 et DEG Crit +50%. Cumulable jusqu'à 5 fois."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Aile d'éclair",
+      "description": "[Vol du papillon] Augmente les DEG de 20 % et réduit le Blocage P de la cible de 500 points pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Reina/ut/1.png",
+      "story": "Ces boucles d'oreille mystiques décuplent la vitesse de leur porteur.\nNyx les offrit à Reina, qui ne cessait de lui demander d'ouvrir des portails, car elle n'aimait pas voyager. Elle les porte au combat. Lorsqu'elle brandit son épée, elles lui donnent l'air d'un joli papillon butinant à la vitesse de l'éclair.",
+      "descriptionByStar": {
+        "0": "[Vol du papillon] Augmente les DEG de 20 % et réduit le Blocage P de la cible de 500 points pendant 10 sec.",
+        "1": "[Vol du papillon] Augmente les DEG de 24 % et réduit le Blocage P de la cible de 500 points pendant 10 sec.",
+        "2": "[Vol du papillon] Augmente les DEG de 29 % et réduit le Blocage P de la cible de 500 points pendant 10 sec.",
+        "3": "[Vol du papillon] Augmente les DEG de 35 % et réduit le Blocage P de la cible de 500 points pendant 10 sec.",
+        "4": "[Vol du papillon] Augmente les DEG de 42 % et réduit le Blocage P de la cible de 500 points pendant 10 sec.",
+        "5": "[Vol du papillon] Augmente les DEG de 50 % et réduit le Blocage P de la cible de 500 points pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Anneau de maître",
+      "description": "[Pointe tranchante] Augmente le boost d'ATQ de 50 % et récupère 40 PM de plus lors d'un coup critique réussi pendant la durée de la compétence.",
+      "value": {},
+      "thumbnail": "heroes/Reina/ut/2.png",
+      "story": "Anneau que Reina a reçu après avoir vaincu son maître. Il est si grand qu’elle le porte à son pouce. \nSon allure simple et inélégante dissimule le fait que l’esprit du combat se cache dans les lettres runiques dont il est orné.\nRien qu’à regarder l’anneau de son maître, Reina se dit qu’elle aura beaucoup de travail aujourd’hui.",
+      "descriptionByStar": {
+        "0": "[Pointe tranchante] Augmente le boost d'ATQ de 50 % et récupère 40 PM de plus lors d'un coup critique réussi pendant la durée de la compétence.",
+        "1": "[Pointe tranchante] Augmente le boost d'ATQ de 50 % et récupère 48 PM de plus lors d'un coup critique réussi pendant la durée de la compétence.",
+        "2": "[Pointe tranchante] Augmente le boost d'ATQ de 50 % et récupère 58 PM de plus lors d'un coup critique réussi pendant la durée de la compétence.",
+        "3": "[Pointe tranchante] Augmente le boost d'ATQ de 50 % et récupère 70 PM de plus lors d'un coup critique réussi pendant la durée de la compétence.",
+        "4": "[Pointe tranchante] Augmente le boost d'ATQ de 50 % et récupère 84 PM de plus lors d'un coup critique réussi pendant la durée de la compétence.",
+        "5": "[Pointe tranchante] Augmente le boost d'ATQ de 50 % et récupère 100 PM de plus lors d'un coup critique réussi pendant la durée de la compétence."
+      }
+    },
+    "3": {
+      "name": "Médaille de vitesse",
+      "description": "[Étoile Filante] Augmente les DEG infligés de 20% et chaque coup critique réussi rend 200 PM.",
+      "value": {},
+      "thumbnail": "heroes/Reina/ut/3.png",
+      "story": "Une médaille d’honneur donnée au mercenaire le plus rapide. On dit que c’est un souvenir d’Hersz, le guerrier le plus rapide du monde. Le porteur de cette médaille sent son corps devenir plus léger et capable de prédire les mouvements de l’adversaire.",
+      "descriptionByStar": {
+        "0": "[Étoile Filante] Augmente les DEG infligés de 20% et chaque coup critique réussi rend 200 PM.",
+        "1": "[Étoile Filante] Augmente les DEG infligés de 24% et chaque coup critique réussi rend 200 PM.",
+        "2": "[Étoile Filante] Augmente les DEG infligés de 29% et chaque coup critique réussi rend 200 PM.",
+        "3": "[Étoile Filante] Augmente les DEG infligés de 35% et chaque coup critique réussi rend 200 PM.",
+        "4": "[Étoile Filante] Augmente les DEG infligés de 42% et chaque coup critique réussi rend 200 PM.",
+        "5": "[Étoile Filante] Augmente les DEG infligés de 50% et chaque coup critique réussi rend 200 PM."
+      }
+    },
+    "4": {
+      "name": "Broche d'améthyste",
+      "description": "[Enfant chanceux] Augmente le nombre de charges maximal de 2, et chaque charge augmente les DEG Crit de 2 %.",
+      "value": {},
+      "thumbnail": "heroes/Reina/ut/4.png",
+      "story": "Une broche appartenant à la mère de Reina, chef réputée des mercenaires de l'empire.\nElle donna cette broche à sa fille lorsqu'elle partit seule pour le royaume d'Orvel, espérant que cela éloignerait le mauvais œil. Elle peut également servir d'arme si la situation l'exige.",
+      "descriptionByStar": {
+        "0": "[Enfant chanceux] Augmente le nombre de charges maximal de 2, et chaque charge augmente les DEG Crit de 2 %.",
+        "1": "[Enfant chanceux] Augmente le nombre de charges maximal de 2, et chaque charge augmente les DEG Crit de 2,4 %.",
+        "2": "[Enfant chanceux] Augmente le nombre de charges maximal de 2, et chaque charge augmente les DEG Crit de 2,9 %.",
+        "3": "[Enfant chanceux] Augmente le nombre de charges maximal de 2, et chaque charge augmente les DEG Crit de 3,5 %.",
+        "4": "[Enfant chanceux] Augmente le nombre de charges maximal de 2, et chaque charge augmente les DEG Crit de 4,2 %.",
+        "5": "[Enfant chanceux] Augmente le nombre de charges maximal de 2, et chaque charge augmente les DEG Crit de 5 %."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 10 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Livatis, la Foudre, ce qui augmente le taux d'ATQ du Héros de 60% pendant 12 sec. Augmente les DEG infligés par la compétence Vol du Papillon de 50% pendant la durée de l'invocation.",
+    "cooldown": "22",
+    "uses": "7",
+    "thumbnail": "heroes/Reina/sw.png",
+    "advancement": {
+      "1": "Augmente la Pénétration DEF de 500 pendant la durée de l'invocation.",
+      "2": "Augmente la durée de l'invocation de 5 sec et modifie l'augmentation des DEG infligés par la compétence Vol du Papillon à 100%."
+    },
+    "story": "Reina n'avait jamais apprécié entendre dire que son talent pour la rapière était dû à son arme. Ses compétences étaient le résultat d'efforts fournis durant de longues années et sa dextérité innée. Alors elle s'efforça consciemment de manier sa rapière d'une manière différente de ses ancêtres, et d'inventer des mouvements qui lui étaient propres. Son maître reconnut son obstination, mais la conseilla, s'inquiétant pour elle.\n'-Souviens-toi. Si tu oublies où tu as mis le pied, tu ne peux te poser sur le sol.'\nEt bien plus tard, Reina, qui s'entraînait à la rapière comme d'habitude, comprit soudain. Si elle se contentait de vouloir s'échapper de l'ombre d'Aria, elle ne pourrait jamais progresser dans son art. Sans comprendre les sentiments d'Aria tenant Livatis, ainsi que sa technique, Reina ne pourrait pas développer pleinement sa propre compétence. Dès qu'elle ait saisi cela, sa rapière devint tel un éclair. L'âme de l'expert en rapière contenue dans Livatis venait de renaître à l'intérieur de Reina."
+  },
+  "splashart": "heroes/Reina/sa.png",
+  "costumes": "heroes/Reina/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

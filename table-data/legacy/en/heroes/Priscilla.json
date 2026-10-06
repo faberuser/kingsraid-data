@@ -1,0 +1,228 @@
+{
+  "id": "Priscilla",
+  "profile": {
+    "name": "Priscilla",
+    "title": "Maid of Steel Priscilla",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "4400",
+    "damage_type": "Physical",
+    "gender": "Female",
+    "age": "27",
+    "height": "168",
+    "race": "Human",
+    "constellation": "Guardian Mertis",
+    "birth": {
+      "month": 1,
+      "day": 15,
+      "monthName": "Month of Protection"
+    },
+    "like": "Comrades in arms, her lady, cute outfits for her lady",
+    "dislike": "Untidiness, injustice",
+    "story": "A former officer of Orvelia's armed forces. After a failed attempt to reveal the corruption of military leaders, she was driven out from her position. Wanting to conceal their corruption, the military leaders constantly sent out assassins to eliminate her. The long and lonely fight was beginning to take its toll on her, physically and mentally. One day, the aristocratic Daphnel family of Orvel offered her protection in exchange for her service. She accepted, and has been working as a maid for Aisha, the one who has received the Title of Violet from the Tower of Sage. To this day, she faithfully carries out her duties as a maid bodyguard. However, she sends all her payments to an undisclosed recipient.",
+    "thumbnail": "heroes/Priscilla/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Vital Strike",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Deals ??? P.DMG to frontal enemies in range and stuns them for 1 sec. This attack always inflicts a Crit Hit.",
+      "thumbnail": "heroes/Priscilla/skills/1.png"
+    },
+    "2": {
+      "name": "Coordination",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "For 20 sec, places Priscilla and an ally with the highest ATK in 'Coordination' state, and dispels Negative Effects. Priscilla and the ally in Coordination State get an ATK boost equal to 15% of Priscilla's ATK + ???.",
+      "thumbnail": "heroes/Priscilla/skills/2.png"
+    },
+    "3": {
+      "name": "Turbulent Dance",
+      "cost": "3",
+      "cooldown": "22",
+      "description": "Deals ??? P.DMG to nearby enemies in a circular range and draws them towards herself. If activated while in the 'Coordination' state, hit enemies take 30 % extra P.DMG and M. DMG for 10 sec.",
+      "thumbnail": "heroes/Priscilla/skills/3.png"
+    },
+    "4": {
+      "name": "Weapon Mastery",
+      "cost": null,
+      "cooldown": null,
+      "description": "Own ATK is increased by ???, and Penetration is increased by 100.",
+      "thumbnail": "heroes/Priscilla/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DMG is increased by 10 %.",
+      "III": "DMG is increased by 15 %.",
+      "IV": "DMG is increased by 25 %."
+    },
+    "2": {
+      "II": "ATK boost is increased by 10 %.",
+      "III": "ATK boost is increased by 15 %.",
+      "IV": "ATK boost is increased by 25 %."
+    },
+    "3": {
+      "II": "DMG is increased by 10 %.",
+      "III": "DMG is increased by 15 %.",
+      "IV": "DMG is increased by 25 %."
+    },
+    "4": {
+      "II": "ATK boost is increased by 10 %.",
+      "III": "ATK boost is increased by 15 %.",
+      "IV": "Crit DMG is increased by 30 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Stun duration is increased by 2 sec.",
+          "thumbnail": "heroes/Priscilla/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "No longer Crits unconditionally, and Crit DMG is increased by 150%.",
+          "thumbnail": "heroes/Priscilla/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Crit DMG is increased by 80%.",
+          "thumbnail": "heroes/Priscilla/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "While in Co-Op state, auto attacks increase the target's received DMG from all sources by 30%.",
+          "thumbnail": "heroes/Priscilla/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Upon a Crit hit, cooldown is reduced by 10%.",
+          "thumbnail": "heroes/Priscilla/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "When there is only 1 enemy, DMG is increased by 100%.",
+          "thumbnail": "heroes/Priscilla/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "ATK boost is increased by 40%.",
+          "thumbnail": "heroes/Priscilla/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Crit Chance is increased by 250.",
+          "thumbnail": "heroes/Priscilla/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATK, DEF, HP +15% / CC Resist +100",
+        "thumbnail": "heroes/Priscilla/perks/light.png"
+      },
+      "dark": {
+        "effect": "Increase all allies' ATK and P.DEF by 3% of own ATK and P.DEF.",
+        "thumbnail": "heroes/Priscilla/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Tumultuous Dance, Excilius",
+    "description": "When attacking the enemy with 'Vital Strike' or 'Turbulent Dance', per every hit enemy, corresponding skill's cooldown is reduced by 1 sec and ATK Spd is increased by 50 for 5 sec. ATK Spd boost can be stacked up to 10 times max.",
+    "value": {},
+    "thumbnail": "heroes/Priscilla/uw.png",
+    "story": "During her military career, Priscilla felled countless enemies with her halberd. Although the halberd fell into a state of disrepair following her retirement, it was later resurrected as Excilius. This upgrade was a part of the order sent to Annette to create Mahitra for Aisha. This razor-sharp and incredibly durable new weapon even has the magical power to draw its enemies in. Those who have seen Priscilla slaughtering her Demon foes using this halberd claim that it was like watching an unstoppable storm.",
+    "descriptionByStar": {
+      "0": "When attacking the enemy with 'Vital Strike' or 'Turbulent Dance', per every hit enemy, corresponding skill's cooldown is reduced by 1 sec and ATK Spd is increased by 50 for 5 sec. ATK Spd boost can be stacked up to 10 times max.",
+      "1": "When attacking the enemy with 'Vital Strike' or 'Turbulent Dance', per every hit enemy, corresponding skill's cooldown is reduced by 1.2 sec and ATK Spd is increased by 50 for 5 sec. ATK Spd boost can be stacked up to 10 times max.",
+      "2": "When attacking the enemy with 'Vital Strike' or 'Turbulent Dance', per every hit enemy, corresponding skill's cooldown is reduced by 1.4 sec and ATK Spd is increased by 50 for 5 sec. ATK Spd boost can be stacked up to 10 times max.",
+      "3": "When attacking the enemy with 'Vital Strike' or 'Turbulent Dance', per every hit enemy, corresponding skill's cooldown is reduced by 1.7 sec and ATK Spd is increased by 50 for 5 sec. ATK Spd boost can be stacked up to 10 times max.",
+      "4": "When attacking the enemy with 'Vital Strike' or 'Turbulent Dance', per every hit enemy, corresponding skill's cooldown is reduced by 2 sec and ATK Spd is increased by 50 for 5 sec. ATK Spd boost can be stacked up to 10 times max.",
+      "5": "When attacking the enemy with 'Vital Strike' or 'Turbulent Dance', per every hit enemy, corresponding skill's cooldown is reduced by 2.5 sec and ATK Spd is increased by 50 for 5 sec. ATK Spd boost can be stacked up to 10 times max."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Weight of Fierce Attack",
+      "description": "[Vital Strike] Increases DMG by 50%, and for 10 sec, reduces the target's P.Block Chance by 200.",
+      "value": {},
+      "thumbnail": "heroes/Priscilla/ut/1.png",
+      "story": "A weight attached to the bottom of Excilius's grip.\nIt provides Priscilla with better balance, allowing for more stable, precise attacks. When Annette enhanced her halberd into Excilius, she replaced its weight, too. Through Technomagical enhancement, the hardness of the weight was significantly increased with an upgrade that allows her to perform attacks with high precision.",
+      "descriptionByStar": {
+        "0": "[Vital Strike] Increases DMG by 50%, and for 10 sec, reduces the target's P.Block Chance by 200.",
+        "1": "[Vital Strike] Increases DMG by 50%, and for 10 sec, reduces the target's P.Block Chance by 240.",
+        "2": "[Vital Strike] Increases DMG by 50%, and for 10 sec, reduces the target's P.Block Chance by 290.",
+        "3": "[Vital Strike] Increases DMG by 50%, and for 10 sec, reduces the target's P.Block Chance by 350.",
+        "4": "[Vital Strike] Increases DMG by 50%, and for 10 sec, reduces the target's P.Block Chance by 420.",
+        "5": "[Vital Strike] Increases DMG by 50%, and for 10 sec, reduces the target's P.Block Chance by 500."
+      }
+    },
+    "2": {
+      "name": "Fancy Tea Set",
+      "description": "[Coordination] Increases ATK Boost by 20% and reduces active Skills' Cooldown of the Hero with the highest ATK by 30%.",
+      "value": {},
+      "thumbnail": "heroes/Priscilla/ut/2.png",
+      "story": "Aisha's favorite ceramic tea cups that Priscilla has ready at all times. \nLuxurious tea cups made from the best clay of the eastern continent across the sea. It's mostly used for tea time with Aisha, but it is also used when using Coordination with Priscilla.",
+      "descriptionByStar": {
+        "0": "[Coordination] Increases ATK Boost by 20% and reduces active Skills' Cooldown of the Hero with the highest ATK by 30%.",
+        "1": "[Coordination] Increases ATK Boost by 24% and reduces active Skills' Cooldown of the Hero with the highest ATK by 30%.",
+        "2": "[Coordination] Increases ATK Boost by 29% and reduces active Skills' Cooldown of the Hero with the highest ATK by 30%.",
+        "3": "[Coordination] Increases ATK Boost by 35% and reduces active Skills' Cooldown of the Hero with the highest ATK by 30%.",
+        "4": "[Coordination] Increases ATK Boost by 42% and reduces active Skills' Cooldown of the Hero with the highest ATK by 30%.",
+        "5": "[Coordination] Increases ATK Boost by 50% and reduces active Skills' Cooldown of the Hero with the highest ATK by 30%."
+      }
+    },
+    "3": {
+      "name": "Magical Stone of Gravity",
+      "description": "[Turbulent Dance] DMG is increased by 20% and target is inflicted by Stun for 3 sec.",
+      "value": {},
+      "thumbnail": "heroes/Priscilla/ut/3.png",
+      "story": "The first magic tool made by a wizard of Violet. The first gift that Aisha gave. Aisha created this magic tool because she felt bad that Priscilla used up so much power when using Turbulent Dance. The Mana Stone of Gravity relieves the pressure from the body when using Turbulent Dance, and it increases its effect.",
+      "descriptionByStar": {
+        "0": "[Turbulent Dance] DMG is increased by 20% and target is inflicted by Stun for 3 sec.",
+        "1": "[Turbulent Dance] DMG is increased by 24% and target is inflicted by Stun for 3 sec.",
+        "2": "[Turbulent Dance] DMG is increased by 29% and target is inflicted by Stun for 3 sec.",
+        "3": "[Turbulent Dance] DMG is increased by 35% and target is inflicted by Stun for 3 sec.",
+        "4": "[Turbulent Dance] DMG is increased by 42% and target is inflicted by Stun for 3 sec.",
+        "5": "[Turbulent Dance] DMG is increased by 50% and target is inflicted by Stun for 3 sec."
+      }
+    },
+    "4": {
+      "name": "Beginning of Turbulence",
+      "description": "[Weapon Mastery] Increases ATK boost by 50% and All DEF for self by 10%.",
+      "value": {},
+      "thumbnail": "heroes/Priscilla/ut/4.png",
+      "story": "A halberd that Priscilla used for practice.\nThe storm of war started from this shabby old spear.\nShe would take it out occasionally to be reminded of her training days.\nThis is how she could always stay true to his way of life, protecting her Lady against all harms.",
+      "descriptionByStar": {
+        "0": "[Weapon Mastery] Increases ATK boost by 50% and All DEF for self by 10%.",
+        "1": "[Weapon Mastery] Increases ATK boost by 50% and All DEF for self by 12%.",
+        "2": "[Weapon Mastery] Increases ATK boost by 50% and All DEF for self by 14%.",
+        "3": "[Weapon Mastery] Increases ATK boost by 50% and All DEF for self by 17%.",
+        "4": "[Weapon Mastery] Increases ATK boost by 50% and All DEF for self by 21%.",
+        "5": "[Weapon Mastery] Increases ATK boost by 50% and All DEF for self by 25%."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Charges up over 19 sec.",
+    "description": "Summons the Soul of Tumultuous Dance, Excilius for 12 sec, increasing ATK of self and the ally with the highest ATK by 40%, and Crit DMG by 40%. Additionally grants immunity to CC effect to an ally with the highest ATK.",
+    "cooldown": "18",
+    "uses": "6",
+    "thumbnail": "heroes/Priscilla/sw.png",
+    "advancement": {
+      "1": "Reduces Skill Activation Requirements by 4 sec.",
+      "2": "For the duration of Skill, increases DMG dealt of the ally with the highest ATK by 30%."
+    },
+    "story": "Excilius remembers.\nThe iron-willed warrior with a strong soul who voluntarily marched forward.\nThe kind words of gratitude for service when its body crumbled.\n\nExcilius feels.\nThe shaking hands of the female warrior that it reunited with.\nThat feeling of iron will being imbued into it through her very fingertips.\n\nHer will has awakened me, and as the Tempest of Steel, I shall protect the warrior who fights to defend all so that her will shall not be bent."
+  },
+  "splashart": "heroes/Priscilla/sa.png",
+  "costumes": "heroes/Priscilla/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "en",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

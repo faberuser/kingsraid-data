@@ -1,0 +1,64 @@
+{
+  "id": "Event Protianus",
+  "profile": {
+    "name": "活動普羅提亞努斯",
+    "title": "不屈的魯蛇團長",
+    "type": [
+      "World Boss"
+    ],
+    "race": "精怪",
+    "damage_type": "Magical",
+    "recommended_heroes": "梅蒂安娜, 弗魯斯, 蕾娜",
+    "characteristics": "對不屈的魯蛇團長造成的傷害皆會變為1。不屈的魯蛇團長會造成敵方生命值一定比例的傷害。",
+    "thumbnail": "bosses/Protianus (Christmas).png",
+    "recommendedHeroNames": [
+      "Mediana",
+      "Fluss",
+      "Reina"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "致命海神戟",
+      "cost": null,
+      "cooldown": "18",
+      "description": "用海神戟攻擊範圍內的敵人，依敵人最大生命值造成一定比例的傷害，同時解除所有正面效果並使敵人暈眩4秒。"
+    },
+    "2": {
+      "name": "橫掃千軍",
+      "cost": null,
+      "cooldown": "24",
+      "description": "以海神戟掃擊前方，依敵人最大生命值造成一定比例的魔法傷害。受傷的敵人沉默5秒且命中率降低200，持續10秒。"
+    },
+    "3": {
+      "name": "水牢禁錮",
+      "cost": null,
+      "cooldown": "32",
+      "description": "擲出一顆水球，把一個敵人鎖進水之牢籠並依敵人最大生命值造成一定比例的魔法傷害。每5秒會隨機增加一個目標並將其鎖進水之牢籠中。"
+    },
+    "4": {
+      "name": "海嘯",
+      "cost": null,
+      "cooldown": "40",
+      "description": "對前方掀起50公尺高的海嘯，依敵人最大生命值造成一定比例的魔法傷害且有30%機率使他們陷入暈眩5秒。被擊中的敵人魔力每秒降低1000，持續10秒。這個效果無法被解除。"
+    },
+    "5": {
+      "name": "海神之皮",
+      "cost": null,
+      "cooldown": null,
+      "description": "滂靛納斯不受攻擊速度相關效果影響。當被滂靛納斯擊中時，依敵人最大生命值造成一定比例且持續5秒的魔法傷害。"
+    },
+    "6": {
+      "name": "水牢",
+      "cost": null,
+      "cooldown": null,
+      "description": "關在水牢的敵人無法移動或使用技能。如果在施放[水牢禁錮]後20秒，水之牢籠仍處於生效狀態，則被鎖上的目標會失去3000魔力，且所有技能的冷卻時間提高100%。水之牢籠只有當滂靛納斯受到350次物理攻擊時才會消失。"
+    }
+  },
+  "aliases": [
+    "EventProtianus",
+    "ChristmasProtianus",
+    "WB4",
+    "WB 4"
+  ]
+}

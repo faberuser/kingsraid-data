@@ -1,0 +1,53 @@
+{
+  "id": "Sekmaha",
+  "profile": {
+    "name": "Sekmaha",
+    "title": "Wächter des Flusses",
+    "type": [
+      "Temple of the God King"
+    ],
+    "race": "Golem",
+    "damage_type": "Magical",
+    "recommended_heroes": "Lilia, Kaulah, May",
+    "characteristics": "Der Skill von Sekmaha wird stärker, wenn es mit einem passenden Fluss kombiniert wird. Es wird dagegen geschwächt, wenn es mit einem nicht passenden Fluss kombiniert wird. Pass auf die Masskontroll-Leiste auf und kontrollieren des Fluss. Außerdem empfehlen wir dir deine MP immer hoch zu halten, da die neg. Effekte von [Wasserfall] und [Meer] gemäß den vorhandenen MP immer stärker werden.",
+    "thumbnail": "bosses/Sekmaha.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Symbol des Lebens",
+      "cost": null,
+      "cooldown": "12",
+      "description": "Entfernt alle pos. Effekte aller Gegner, regeneriert die eigenen TP, aktiviert [Flusskontrolle] und ändert den eigenen Fluss."
+    },
+    "2": {
+      "name": "Herrscher des Wasserfalls",
+      "cost": null,
+      "cooldown": "20",
+      "description": "Erzeugt einen riesigen Wassertropfen über dem Kopf des Ziels und lässt ihn dann fallen, um allen Gegnern Mag. Schaden zuzufügen und mit der Zeit zus. Mag. Schaden zuzufügen.\nWenn du dich im [Wasserfall] Zustand befindest, wird der Schaden-Reduktionseffekt verringert.\nBefindest du dich im [Meer] Zustand wird kurzzeitig dein erhaltener Schaden erhöht."
+    },
+    "3": {
+      "name": "Symbol des Meeres",
+      "cost": null,
+      "cooldown": "20",
+      "description": "Erzeugt einen gigantischen Fluss von Meeren, der alle positiven Effekten entfernt und Mag. Schaden verursacht.\nWenn du dich im [Meer] Zustand befindest, kannst du angreifen, indem du die Blockeffekte ignorierst, deine Feinde wegblast und ihre ANG-GESCHW. verringerst.\nBefindest du dich im [Wasserfall] Zustand wird kurzzeitig dein erhaltener Schaden erhöht."
+    },
+    "4": {
+      "name": "Flusskontrolle",
+      "cost": null,
+      "cooldown": null,
+      "description": "Wenn Sekmahas Massenkontroll-Leiste aufgebraucht ist, ändert sich der Fluss. Von Wasserfall- zu Meer-Zustand und umgekehrt.\n[Meer] – Alle Gegner können ihre TP nicht regenerieren und gemäß der übrigen Gegner-MP wird der Gegner mehr Schaden verursachen.\n[Wasserfall] – Die MP aller Gegner werden enorm verringert und gemäß der übrigen MP wird der erhaltene gegn. Schaden auch verringert."
+    },
+    "5": {
+      "name": "Wächter von Sekireinel",
+      "cost": null,
+      "cooldown": null,
+      "description": "Ein Wächter von Sekireinel wird stärker und seine VERT & ANG-GESCHW können nicht beeinflusst werden. Nach der 6. Kampf-Phase erzeugt Sekmaha zu einem bestimmten Zeitpunkt einen Tropfen-Schutzschild."
+    }
+  },
+  "aliases": [
+    "TrialoftheFlow",
+    "TrialofFlow",
+    "TrialFlow",
+    "Sekmaha"
+  ]
+}

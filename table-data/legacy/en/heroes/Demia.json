@@ -1,0 +1,228 @@
+{
+  "id": "Demia",
+  "profile": {
+    "name": "Demia",
+    "title": "Fortress of Steel Demia",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "2000",
+    "damage_type": "Physical",
+    "gender": "Female",
+    "age": "25",
+    "height": "184",
+    "race": "Human",
+    "constellation": "Guardian Mertis",
+    "birth": {
+      "month": 1,
+      "day": 30,
+      "monthName": "Month of Protection"
+    },
+    "like": "A righteous monarch to serve",
+    "dislike": "Weak-minded people who betray others",
+    "story": "Demia Si Ziltrion. The commander of the Guardian Knights of Orvelia. She is a mighty and dignified knight who wields a lance and a giant shield. It is said that penetrating her shield is next to impossible. As a knight commander, she cherishes her subordinates, and is prepared to perform any task in service of her land. Having felt the recent change of the atmosphere within the royal palace, she hopes to quickly appoint Clause as the next commander so that she may protect Scarlet from the aggression of the nobles.",
+    "thumbnail": "heroes/Demia/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Penetration",
+      "cost": "3",
+      "cooldown": "11",
+      "description": "Throws a spear at the furthest enemy, dealing ??? P.DMG and drawing the enemy in front of the hero. Then deals ??? P.DMG to enemies in range, stunning them for 3 sec.",
+      "thumbnail": "heroes/Demia/skills/1.png"
+    },
+    "2": {
+      "name": "Will to Win",
+      "cost": "2",
+      "cooldown": "15",
+      "description": "Upon blocking enemy attack for 15 sec, triggers a shockwave that deals ??? P.DMG to enemies in range, reducing their ATK by 20 %.",
+      "thumbnail": "heroes/Demia/skills/2.png"
+    },
+    "3": {
+      "name": "Steel Fortress",
+      "cost": "4",
+      "cooldown": "22",
+      "description": "Upon DMG block during casting, jump attack DMG is increased by 7%. Also, deals ??? P.DMG to enemy and inflicts stun. After casting, jumps and attacks the enemy, dealing ??? P.DMG and stunning them for 4 sec. Gains immunity to CC while the skill is in use.",
+      "thumbnail": "heroes/Demia/skills/3.png"
+    },
+    "4": {
+      "name": "Spearhead",
+      "cost": null,
+      "cooldown": null,
+      "description": "All allies' P.DEF is increased by ??? and P.Block Chance is increased by 250.",
+      "thumbnail": "heroes/Demia/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Increases DMG by 10%.",
+      "III": "Increases DMG by 15%.",
+      "IV": "Increases the duration of stun by 2 sec."
+    },
+    "2": {
+      "II": "Increases DMG by 10%.",
+      "III": "Increases DMG by 15%.",
+      "IV": "Increases ATK Reduction by 50%."
+    },
+    "3": {
+      "II": "Increases DMG by 10%.",
+      "III": "Increases DMG by 15%.",
+      "IV": "Increases DMG by 25%."
+    },
+    "4": {
+      "II": "Increases DEF Boost by 10%.",
+      "III": "Increases DEF Boost by 15%.",
+      "IV": "Increases DEF Boost by 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "In exchange for 1 additional Mana Cost, pull in 2 enemies.",
+          "thumbnail": "heroes/Demia/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "All pulled enemies take 25% increased DMG from all sources for 10 sec.",
+          "thumbnail": "heroes/Demia/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Mana cost is reduced by 1.",
+          "thumbnail": "heroes/Demia/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Ally P.DEF is boosted by 20% for 10 sec after activation.",
+          "thumbnail": "heroes/Demia/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Upon jumping into the air, charge at the target with the highest ATK.",
+          "thumbnail": "heroes/Demia/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "While casting, all allies take 20% reduced P.DMG.",
+          "thumbnail": "heroes/Demia/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "P.DEF is increased by 20% and P. Block is boosted by 50%.",
+          "thumbnail": "heroes/Demia/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Recovers HP equal to 40% of P.DEF upon blocking.",
+          "thumbnail": "heroes/Demia/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATK, DEF, HP +15% / P. Block +200",
+        "thumbnail": "heroes/Demia/perks/light.png"
+      },
+      "dark": {
+        "effect": "At the beginning of every battle, decrease the ATK of all enemies by 20% for 6 sec. This effect cannot be dispelled.",
+        "thumbnail": "heroes/Demia/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "The Blue Light, Arpheus",
+    "description": "Increases P.DEF of all allies by 4%. Blocking an enemy attack has a 10% chance to recover 3% Mana and reduce Cooldown of all skills by 1 sec.",
+    "value": {},
+    "thumbnail": "heroes/Demia/uw.png",
+    "story": "One day, a vein exuding powerful mana was discovered in the territory of Ziltrion. While investigating, Demia found a blue ore, the likes of which she had never seen before. Numerous wizards and alchemists studied this mysterious ore with the characteristics of both gem and metal, but no one could figure out its identity. Jin the blacksmith, however, had a different idea. As soon as he saw the ore, he offered Demia to craft powerful gears out of it, with a big smile on his face. With it, he forged a lance and a shield, glowing blue with mana and tougher than diamond.",
+    "descriptionByStar": {
+      "0": "Increases P.DEF of all allies by 4%. Blocking an enemy attack has a 10% chance to recover 3% Mana and reduce Cooldown of all skills by 1 sec.",
+      "1": "Increases P.DEF of all allies by 4.8%. Blocking an enemy attack has a 12% chance to recover 3.3% Mana and reduce Cooldown of all skills by 1 sec.",
+      "2": "Increases P.DEF of all allies by 5.8%. Blocking an enemy attack has a 14% chance to recover 3.6% Mana and reduce Cooldown of all skills by 1 sec.",
+      "3": "Increases P.DEF of all allies by 7%. Blocking an enemy attack has a 17% chance to recover 3.9% Mana and reduce Cooldown of all skills by 1 sec.",
+      "4": "Increases P.DEF of all allies by 8.4%. Blocking an enemy attack has a 21% chance to recover 4.2% Mana and reduce Cooldown of all skills by 1 sec.",
+      "5": "Increases P.DEF of all allies by 10%. Blocking an enemy attack has a 25% chance to recover 4.5% Mana and reduce Cooldown of all skills by 1 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Chest of Ziltrion",
+      "description": "[Penetration] Increases ACC by 750, and CC ACC by 300 for the duration of skill.",
+      "value": {},
+      "thumbnail": "heroes/Demia/ut/1.png",
+      "story": "An old Chest passed down among the Ziltrion family as an heirloom.\nA photo album of all the family members, from the first to the current generation, is safeguarded by a strong spell inside this chest to protect the family's bloodline. Demia's mother is worried about her daughter, who decided to be the shield of Orvelia. Whenever Demia marches to the battlefield, she prays to this chest for her daughter's safe return.",
+      "descriptionByStar": {
+        "0": "[Penetration] Increases ACC by 750, and CC ACC by 300 for the duration of skill.",
+        "1": "[Penetration] Increases ACC by 750, and CC ACC by 360 for the duration of skill.",
+        "2": "[Penetration] Increases ACC by 750, and CC ACC by 430 for the duration of skill.",
+        "3": "[Penetration] Increases ACC by 750, and CC ACC by 520 for the duration of skill.",
+        "4": "[Penetration] Increases ACC by 750, and CC ACC by 630 for the duration of skill.",
+        "5": "[Penetration] Increases ACC by 750, and CC ACC by 750 for the duration of skill."
+      }
+    },
+    "2": {
+      "name": "Shield of Resolution",
+      "description": "[Will to Win] Increases DMG by 50% and increases P.DMG the target takes by 10% for 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Demia/ut/2.png",
+      "story": "A wooden shield that Demia used as a child for practice. It's been used over a thousand times and is very worn out. \nDemia uses it to regain her composure when she feels like she has hit a limit.\nHer pride as a knight of Orvelia resurfaces when she sees this old, worn-out shield.",
+      "descriptionByStar": {
+        "0": "[Will to Win] Increases DMG by 50% and increases P.DMG the target takes by 10% for 10 sec.",
+        "1": "[Will to Win] Increases DMG by 50% and increases P.DMG the target takes by 12% for 10 sec.",
+        "2": "[Will to Win] Increases DMG by 50% and increases P.DMG the target takes by 14% for 10 sec.",
+        "3": "[Will to Win] Increases DMG by 50% and increases P.DMG the target takes by 17% for 10 sec.",
+        "4": "[Will to Win] Increases DMG by 50% and increases P.DMG the target takes by 21% for 10 sec.",
+        "5": "[Will to Win] Increases DMG by 50% and increases P.DMG the target takes by 25% for 10 sec."
+      }
+    },
+    "3": {
+      "name": "Aura of Protection",
+      "description": "[Steel Fortress] Reduces Mana Cost by 1 and increases the duration of Stun from the jump attack by 1 sec.",
+      "value": {},
+      "thumbnail": "heroes/Demia/ut/3.png",
+      "story": "A stone known to protect one's soul from being absorbed by evil. It only shines for a while at dawn, so it's hard to find. One day, when Demia was tired from battle, a comrade put this in her hands. Even though it's a comrade that she can't ever see again... Demia always takes this stone when going out to the battlefield. She does her best to uphold her vow to never let the sacrifices of her comrades be in vain.",
+      "descriptionByStar": {
+        "0": "[Steel Fortress] Reduces Mana Cost by 1 and increases the duration of Stun from the jump attack by 1 sec.",
+        "1": "[Steel Fortress] Reduces Mana Cost by 1 and increases the duration of Stun from the jump attack by 1.5 sec.",
+        "2": "[Steel Fortress] Reduces Mana Cost by 1 and increases the duration of Stun from the jump attack by 2 sec.",
+        "3": "[Steel Fortress] Reduces Mana Cost by 1 and increases the duration of Stun from the jump attack by 2.5 sec.",
+        "4": "[Steel Fortress] Reduces Mana Cost by 1 and increases the duration of Stun from the jump attack by 3 sec.",
+        "5": "[Steel Fortress] Reduces Mana Cost by 1 and increases the duration of Stun from the jump attack by 3.5 sec."
+      }
+    },
+    "4": {
+      "name": "Ring of Ziltrion",
+      "description": "[Spearhead] Increases DEF boost by 50%. All allies have their P.Crit Resistance increased by 100.",
+      "value": {},
+      "thumbnail": "heroes/Demia/ut/4.png",
+      "story": "A ring handed down to the leaders of the Ziltrion Family.\nIt is decorated with a big blue jewel which was bestowed to the Ziltrions by the royal family of Orvel.\nIt was passed down to the leaders as the symbol of the family's eternal loyalty, and these leaders became the vanguards of punishing traitors.",
+      "descriptionByStar": {
+        "0": "[Spearhead] Increases DEF boost by 50%. All allies have their P.Crit Resistance increased by 100.",
+        "1": "[Spearhead] Increases DEF boost by 50%. All allies have their P.Crit Resistance increased by 120.",
+        "2": "[Spearhead] Increases DEF boost by 50%. All allies have their P.Crit Resistance increased by 140.",
+        "3": "[Spearhead] Increases DEF boost by 50%. All allies have their P.Crit Resistance increased by 170.",
+        "4": "[Spearhead] Increases DEF boost by 50%. All allies have their P.Crit Resistance increased by 210.",
+        "5": "[Spearhead] Increases DEF boost by 50%. All allies have their P.Crit Resistance increased by 250."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Charges up upon using Skills 4 times.",
+    "description": "Summons the soul of The Blue Light, Arpheus, increasing all allies' P.Crit Resistance by ??? and P.Block by ??? for 10 sec. Afterward, places [Mana Source of Blue Light] around self for 10 sec. For the duration of [Mana Source of Blue Light], deals a total of ??? P.DMG to enemies within range over 9 times and reduces their Mana by 300. At the end of duration, creates an explosion that deals ??? P.DMG and silences enemies within range for 5 sec.",
+    "cooldown": "22",
+    "uses": "7",
+    "thumbnail": "heroes/Demia/sw.png",
+    "advancement": {
+      "1": "Allies within [Mana Source of Blue Light] have their ATK Spd increased by ??? and recover ??? Mana every sec.",
+      "2": "Continuously dispels positive effects from enemies within [Mana Source of Blue Light] and changes the duration of Silence to 8 sec."
+    },
+    "story": "The identity of the mysterious material that later became Demia’s lance and shield is none other than a fragment from the headstone of Arpheus, the Ancient Legendary Knight.\nLong ago, the first ancestors of the Ziltrion Family found traces of rituals intended to appease spirits, deep within their mine. Believing the place was a mysterious sacred place, they paid their utmost respect and sealed the entrance to the mine to prevent outsiders from entering the site.\nAfter countless geographical shifts, the Ritual Headstone fell into slumber deep within the mine for a long time, until Demia, the descendant of the Ziltrion Family, unearthed it.\n\nNone of the human wizards or alchemists could identify the property of this strange ore fragment, but Jin, the Dragon Blacksmith could sense the faint aura.\nOnly he could recognize the enigmatic soul contained within the stone.\n\n- So it chose her as its master.\n\nJin crafted a special lance and shield out of the ore as if he was destined to do so. \nThe weapon made only for Demia.\n\nShe took up her lance and shield and protected the kingdom of Orvelia ever since. It was when she fearlessly charged toward her enemy for her kingdom and her princess.\nThe Legendary Knight Arpheus appeared before Demia, emitting blue light.\n\n- I, Arpheus, shall stand and fight side-by-side with this great knight of the Ziltrion Family."
+  },
+  "splashart": "heroes/Demia/sa.png",
+  "costumes": "heroes/Demia/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "en",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

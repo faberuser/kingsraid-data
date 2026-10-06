@@ -1,0 +1,263 @@
+{
+  "id": "Riheet",
+  "profile": {
+    "name": "Riheet",
+    "title": "Glanz der Mondfinsternis Riheet",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "8800",
+    "damage_type": "Magical",
+    "gender": "Männlich",
+    "age": "???",
+    "height": "183",
+    "race": "Dunkelelfen",
+    "constellation": "Layan, der Richter",
+    "birth": {
+      "month": 9,
+      "day": 25,
+      "monthName": "Monat der Wahrheit"
+    },
+    "like": "Kleine Schwester, Black Edge Mitglieder, Kampfkunst und Schwertkampf Training",
+    "dislike": "Menschen (besonders Menschen in hoher Position), Dämonen",
+    "story": "Obwohl sehr ähnlich, sind sie doch Fremde der Dimension, die aus einer anderen Welt nach Orvel gekommen sind. Riheet und seine Schwester Ripine, die aus einer Welt stammen, in der Dunkelelfen von Menschen unterdrückt werden, waren nicht wenig verwirrt, als sie sich in Orvel, einer Welt, in der die Rassendiskriminierung sehr gering war, wiederfanden. Im Falle von Riheet, begann ein leichtes Gefühl von Wut und auch Bewunderung in ihm zu sprießen, als er sah, wie verschiedene Völker zusammenarbeiteten und lebten. In der ursprünglichen Welt waren Menschen Feinde der Dunkelelfen, aber hier in dieser Welt schien es keinen Hass unter ihnen zu geben ...",
+    "thumbnail": "heroes/Riheet/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Stigma der Mondfinsternis",
+      "cost": "2",
+      "cooldown": "7",
+      "description": "Greift Frontfeinde an, fügt ihnen ??? Mag. Schaden zu und wirft sie für 3 Sek. zu Boden, nachdem beim Ziel 3 Sek. lang [Stigma der Mondfinsternis] hinterlassen wurde. Fügt bei einem Treffer pro [Fluch aus dem Jenseits] Stapel zus. ??? Block-ignorierenden Mag. Schaden zu. Ziele, die von [Stigma der Mondfinsternis] betroffen sind, können während der Wirkungsdauer kein Mana regenerieren.",
+      "thumbnail": "heroes/Riheet/skills/1.png"
+    },
+    "2": {
+      "name": "Mal der Mondfinsternis",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Entfernt eigene Massenkontroll-Effekte, hinterlässt beim Gegner 15 Sek. lang [Mal der Mondfinsternis], das nicht entfernt werden kann, und fügt ihm ??? Mag. Schaden zu. Befindet sich ein Gegner unter [Mal des Silbermonds], greift das Ziel unter [Mal des Silbermonds] an und ändert es in [Mal des Vollmonds]. Ist das Ziel unter [Mal des Vollmonds], wird 10 Sek. lang der Skill [Vollmond Enthauptung] aktiviert.",
+      "thumbnail": "heroes/Riheet/skills/2.png"
+    },
+    "3": {
+      "name": "Schwertkunst der Mondfinsternis",
+      "cost": "3",
+      "cooldown": "23",
+      "description": "Greift Frontfeinde 10-mal an, fügt ihnen insgesamt ??? Mag. Schaden zu und betäubt sie 2 Sek. lang. Führt danach den letzten Schlag durch, fügt dabei ??? Mag. Schaden zu und fügt pro [Fluch aus dem Jenseits] Stapel zus. ??? Block-ignorierenden Mag. Schaden zu. Gewährt während der Skill-Aktivierung Massenkontroll-Immunität.",
+      "thumbnail": "heroes/Riheet/skills/3.png"
+    },
+    "4 (1)": {
+      "name": "Mana aus dem Jenseits",
+      "description": "Erhöht mit Mana aus dem Jenseits den eigenen verursachten Schaden an Gegnern um 35 % und stapelt pro Treffer beim Gegner 1-mal [Fluch aus dem Jenseits]. [Fluch aus dem Jenseits] kann bis zu 30-mal gestapelt werden.",
+      "thumbnail": "heroes/Riheet/skills/4 (1).png",
+      "cost": null,
+      "cooldown": null
+    },
+    "4 (2)": {
+      "name": "Vollmond Enthauptung",
+      "description": "Entfernt eigene Massenkontroll-Effekte,, greift den Gegner unter [Mal des Vollmonds] 2-mal an und fügt ihm ??? Mag. Schaden zu. Der letzte Treffer lässt [Mal des Vollmonds] explodieren und fügt ??? Block-ignorierenden Mag. Schaden zu. Ist das Ziel kein Held, wird zus. ??? Block-ignorierender Mag. Schaden zugefügt. Explodiert [Mal des Vollmonds] wird pro [Fluch aus dem Jenseits] Stapel zus. ??? Block-ignorierender Mag. Schaden zugefügt. Dieser Skill wird zusammen mit [Ripine] verwendet, wobei der Cooldown des Skills [Mal der Mondfinsternis] und der Cooldown von Ripines [Mal des Silbermonds] zurückgesetzt werden, wenn der Gegner beim Einsatz dieses Skills stirbt.",
+      "thumbnail": "heroes/Riheet/skills/4 (2).png",
+      "cost": null,
+      "cooldown": "1"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht den verursachten Schaden an Gegnern um zus. 5 %.",
+      "III": "Erhöht den verursachten Schaden an Gegnern um zus. 5 %.",
+      "IV": "Erhöht den verursachten Schaden an Gegnern um zus. 5 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht den Schaden um 40 %.",
+          "thumbnail": "heroes/Riheet/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "[Stigma der Mondfinsternis] kann nicht entfernt werden.",
+          "thumbnail": "heroes/Riheet/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Betäubt 5 Sek. lang das getroffene Ziel.",
+          "thumbnail": "heroes/Riheet/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht 10 Sek. lang den erhaltenen Mag. Schaden des getroffenen Ziels um 30 %.",
+          "thumbnail": "heroes/Riheet/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Wird immun gegen alle Schäden.",
+          "thumbnail": "heroes/Riheet/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Wirkungsdauer von Betäubungseffekt erhöht sich um 1 Sek.",
+          "thumbnail": "heroes/Riheet/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Stapelt pro Treffer zus. 1-mal [Fluch aus dem Jenseits], wenn es mehr als 3 Gegner gibt.",
+          "thumbnail": "heroes/Riheet/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Stapelt pro Treffer zus. 1-mal [Fluch aus dem Jenseits], wenn es 1 Gegner gibt.",
+          "thumbnail": "heroes/Riheet/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/ANG-GESCHW. +100",
+        "thumbnail": "heroes/Riheet/perks/light.png"
+      },
+      "dark": {
+        "effect": "Zu Beginn jedes Kampfes fallen die TP 7 Sek. lang nicht unter 10 %. Reduziert Schaden an Helden für 5 Sek. um 70 %, wenn die TP für die Dauer des Skills unter 15 % fallen. Alle Effekt können nicht entfernt werden.",
+        "thumbnail": "heroes/Riheet/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Flügel der Mondfinsternis, Noctipheus",
+    "description": "Erhöht den ANG um {0} % und erhöht bei jedem erfolgreichen Treffer 5 Sek. lang den erhaltenen Mag. Schaden des Ziels um {1} %.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      }
+    },
+    "thumbnail": "heroes/Riheet/uw.png",
+    "story": "Die Zwillingsschwert von Flügel des Silbermonds, Clarapheons. Es ist eines der Zwillingsschwerter, von denen überliefert ist, dass der Held, der sie eins schwang, in der Vergangenheit das Königreich der Dunkelelfen gerettet hat. Es wird gesagt, dass dieses Langschwert, das die Kraft des Schwarzmondes in sich trägt, auch die Kraft des reinen Mondes symbolisiert, die nicht beschmutzt ist, auch wenn es in Dunkelheit gehüllt ist. Der Legende nach wird das Schwert eines namenlosen Helden wieder auftauchen, wenn sich das Dunkelelfenreich in einer Krise befindet, und es wird gesagt, dass es der Wille der Dunkelelfen Königsfamilie ist, über ihren Besitzer zu entscheiden. Nach den Dämonenkrieg vor 100 Jahren dachten jedoch alle, dass die Dunkelelfen Königsfamilie ebenfalls zerfallen und niemals auftauchen würde, aber ...",
+    "descriptionByStar": {
+      "0": "Erhöht den ANG um 20 % und erhöht bei jedem erfolgreichen Treffer 5 Sek. lang den erhaltenen Mag. Schaden des Ziels um 20 %."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Talisman der Geschwister",
+      "description": "[Stigma der Mondfinsternis] entfernt positive Effekte des getroffenen Ziels und verringert zus. die Heilungsrate von [Stigma der Mondfinsternis] um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Riheet/ut/1.png",
+      "story": "Vor der Gründung von Black Edge gab Ripine Riheet ein Armband. Es ist ein gewöhnliches Armband aus zähem schwarzem Büffelleder und einem versilberten Metall, aber die darin enthaltenen Emotionen und Herzblut waren mehr wert als jeder andere Gold- und Silberschatz. Obwohl es alt und abgenutzt aussieht, trägt Riheet diesen Schatz immer noch bei sich.",
+      "descriptionByStar": {
+        "0": "[Stigma der Mondfinsternis] entfernt positive Effekte des getroffenen Ziels und verringert zus. die Heilungsrate von [Stigma der Mondfinsternis] um 20 %."
+      }
+    },
+    "2": {
+      "name": "Black Edge-Kapuze",
+      "description": "Erhöht bei Verwendung des Skills [Mal der Mondfinsternis] 10 Sek. lang den eigenen ANG um {0} % und verringert 10 Sek. lang die Mag. VERT des getroffenen Ziels um 30 %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Riheet/ut/2.png",
+      "story": "Eine Kapuze der Rekruten für die von Riheet aufgestellte Dunkelelfen-Kampfeinheit. Abhängig davon, ob es die Art der Mission erfordert, wird sie auch verwendet, um zu verbergen, dass sie Dunkelelfen sind. In erster Linie will die Black Edge die Dämonen besiegen ... aber das eigentliche Ziel der Organisation ist ein Geheimnis. Auf wen zeigt die Schwertspitze, die vor Rache an den Menschen brennt, insbesondere auf die Menschen der Oberschicht von Orvel? Natürlich ist die Rede von dem Orvel aus einer anderen Welt ...",
+      "descriptionByStar": {
+        "0": "Erhöht bei Verwendung des Skills [Mal der Mondfinsternis] 10 Sek. lang den eigenen ANG um 20 % und verringert 10 Sek. lang die Mag. VERT des getroffenen Ziels um 30 %."
+      }
+    },
+    "3": {
+      "name": "Alte Halskette",
+      "description": "[Schwertkunst der Mondfinsternis] erhöht den Schaden um {0} % und verringert den Cooldown um 30 %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Riheet/ut/3.png",
+      "story": "Eine Halskette, die von Riheets und Ripines Familie stammt. Es wird gesagt, dass diese Halskette mit einem hellen roten Juwel von einem entfernten Vorfahren von Riheet hergestellt wurde. Weder Riheet noch Ripine wissen, wofür der Anhänger gemacht wurde oder was seine Bedeutung ist, aber Riheet trägt ihn in Erinnerung an seine Eltern.",
+      "descriptionByStar": {
+        "0": "[Schwertkunst der Mondfinsternis] erhöht den Schaden um 20 % und verringert den Cooldown um 30 %."
+      }
+    },
+    "4": {
+      "name": "Riheet: Essen voller Erinnerungen",
+      "description": "[Mana aus dem Jenseits] erhöht die VERT-Durchdr. um 300 und immer wenn Riheet [Fluch aus dem Jenseits] stapelt, wird die erhaltene Mag. Schadenserhöhung pro [Mana aus dem Jenseits]-Stapel um {0} % gestapelt. Die erhaltene Mag. Schadenserhöhung kann bis zu 30-mal gestapelt werden.",
+      "value": {
+        "0": {
+          "0": "0.5",
+          "1": "0.6",
+          "2": "0.7",
+          "3": "0.8",
+          "4": "0.9",
+          "5": "1"
+        }
+      },
+      "thumbnail": "heroes/Riheet/ut/4.png",
+      "story": "Riheet und Ripine, die ihre Eltern verloren hatten, lebten seit ihrer Kindheit als Flüchtlinge. Zu dieser Zeit gab es nur wenige Gelegenheiten, an richtiges Essen zu gelangen, daher war es üblich, einfaches Brot oder Obst zu stehlen, um etwas zu essen zu haben. Eines Tages jedoch, bereiteten Riheet und Ripine eine einfache Mahlzeit mit Zutaten zu, die ihnen ein freundlicher und unvoreingenommener Händler gegeben hatte, und der gedeckte Tisch jenen Tages ist für beide zu einer unvergesslichen Erinnerung geworden. Riheet machte ein Sandwich, in dem er verschiedene Zutaten miteinander vermischte und so ein gesundes und ausgewogenes Essen zubereitete.",
+      "descriptionByStar": {
+        "0": "[Mana aus dem Jenseits] erhöht die VERT-Durchdr. um 300 und immer wenn Riheet [Fluch aus dem Jenseits] stapelt, wird die erhaltene Mag. Schadenserhöhung pro [Mana aus dem Jenseits]-Stapel um 0.5 % gestapelt. Die erhaltene Mag. Schadenserhöhung kann bis zu 30-mal gestapelt werden."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 20 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Flügel der Mondfinsternis, Noctipheus und fügt dem Ziel und Gegnern in seiner Nähe ??? Mag. Schaden zu. Stapelt beim getroffenen Ziel 30-mal [Fluch aus dem Jenseits]. Erhält danach einen Stapel [Macht der Mondfinsternis]. [Macht der Mondfinsternis] erhöht pro Stapel den zugefügten Schaden um 5 %, kann bis zu 3-mal gestapelt werden und kann nicht entfernt werden. Stapelt [Macht der Mondfinsternis] auch bei [Ripine], wenn [Ripine] sich unter den Verbündeten befindet.",
+    "cooldown": "20",
+    "uses": "6",
+    "thumbnail": "heroes/Riheet/sw.png",
+    "advancement": {
+      "1": "[Macht der Mondfinsternis] verringert zus. den erhaltenen Schaden um 5 %.",
+      "2": "[Macht der Mondfinsternis] kann bis zu 2-mal gestapelt werden."
+    },
+    "story": "Der Legende der Dunkelelfen nach, soll Flügel der Mondfinsternis, Noctipheus ein ausgezeichnetes Schwert sein, das die Kraft der Dunkelheit und die Kraft des Mondlichts miteinander vereint. Es wird gesagt, dass sich dieses Schwert, das von einem unbekannten Handwerker geschmiedet wurde, dem Willen der Königsfamilie nach den Held der Erlösung auswählt und ihm folgt, und wenn die Krise überwunden sei, würde es auch wieder verschwinden. Es heißt weiterhin, dass das dunkle schwarze Licht, das im Schwert eingeschlossen ist, der gerechte Zorn der Königsfamilie selbst sei, und es soll von einer solch imposanten Erscheinung sein, dass man am ganzen Körper erzittert.\n\nDer Grund, warum das Schwert des Schwarzmondes Riheet als seinen Meister gewählt hat, war offensichtlich. In seiner Seele existieren sowohl angestaute Wut und Rachsucht als auch Liebe und ein Verstand, der noch nicht der Sünde oder Schuld verfallen ist. Selbst nachdem die unmittelbare Krise gegen die Dunkelelfen überwunden war, hoffte Noctipheus, dass seine Kräfte richtig eingesetzt werden, weshalb er beschloss, bis zu dem Tag an dem Riheet in seine ursprüngliche Welt zurückkehrte, bei ihm zu bleiben."
+  },
+  "splashart": "heroes/Riheet/sa.png",
+  "costumes": "heroes/Riheet/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

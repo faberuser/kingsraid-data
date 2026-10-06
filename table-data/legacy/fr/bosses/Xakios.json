@@ -1,0 +1,51 @@
+{
+  "id": "Xakios",
+  "profile": {
+    "name": "Xakios",
+    "title": "Racine Maudite de l'Arbre-Monde",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "Élémentaire",
+    "damage_type": "Physical, Magical",
+    "recommended_heroes": "Gau, Rephy, Annette",
+    "characteristics": "[Frappe de la Bête Géante] inflige d'énormes DEG et renverse les ennemis. Les Héros capables de dissiper [Séisme géant] et ceux qui disposent de Résistances aux Contrôles sont favorisés pour ce niveau.",
+    "thumbnail": "bosses/Xakios.png",
+    "recommendedHeroNames": [
+      "Gau",
+      "Rephy",
+      "Annette"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Frappe de la Bête Géante",
+      "cost": null,
+      "cooldown": null,
+      "description": "Inflige des DEG P aux enemis de l'Avant. Les ennemis renversés subissent de plus lourds DEG P."
+    },
+    "2": {
+      "name": "Tremblement de Terre Géant",
+      "cost": null,
+      "cooldown": "13",
+      "description": "Frappe le sol à 3 reprises, infligeant des DEG P à tous les ennemis. Le dernier coup renverse tous les ennemis pendant 8 sec."
+    },
+    "3": {
+      "name": "Souffle Acide",
+      "cost": null,
+      "cooldown": "25",
+      "description": "Recueille de l'énergie et rejette un souffle acide qui inflige des DEG M à tous les ennemis et réduit leur DEF M."
+    },
+    "4": {
+      "name": "Purifier",
+      "cost": null,
+      "cooldown": null,
+      "description": "Retire les effets négatifs toutes les 30 sec et augmente la Vitesse d'ATQ."
+    }
+  },
+  "aliases": [
+    "Xakios",
+    "GR1",
+    "GR 1"
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "id": "Phillop",
+  "profile": {
+    "name": "Phillop",
+    "title": "Phillop, Roi des Nains",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "600",
+    "damage_type": "Physical",
+    "gender": "Homme",
+    "age": "328",
+    "height": "156",
+    "race": "Nain",
+    "constellation": "Kandala le Conquérant",
+    "birth": {
+      "month": 8,
+      "day": 5,
+      "monthName": "Mois de la Vitalité"
+    },
+    "like": "L'alcool, le bain de sable, la forge et le façonnage",
+    "dislike": "Les longues conférences, le trône royal, les démons (Surtout les draconics ténébreux)",
+    "story": "C'est le puissant et honnête roi des Nains. Il y a cent ans de cela, il combattit au côté du Guerrier de l'Épée Sacrée contre l'armée des démons. Tout le pays connaît ses exploits héroïques face à la légion du Dragon Noir, la principale division de l'armée des démons. En réalité, il n'occupe le trône que par obligation. Même s'il se plaint de ses devoirs royaux, il continue de travailler consciencieusement.",
+    "thumbnail": "heroes/Phillop/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Collision",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Inflige ??? DEG P à l'ennemi et le renverse pendant 3 sec. Réduit la DEF P de la cible touchée de 50% pendant 10 sec.",
+      "thumbnail": "heroes/Phillop/skills/1.png"
+    },
+    "2": {
+      "name": "Coup de Tête",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Fonce sur l'ennemi infligeant ??? DEG P et le repousse. Réduit également l'ATQ des ennemis touchés de 25% et leur Vitesse d'ATQ de 200 pendant 10 sec.",
+      "thumbnail": "heroes/Phillop/skills/2.png"
+    },
+    "3": {
+      "name": "Incarnation Terrestre",
+      "cost": "3",
+      "cooldown": "22",
+      "description": "Pendant 15 sec, augmente sa DEF de ???, sa réduction de DEG reçus de 250 et récupère 15% de ses PV, se conférant l'immunité aux Contrôles. Cet effet ne peut être dissipé.",
+      "thumbnail": "heroes/Phillop/skills/3.png"
+    },
+    "4": {
+      "name": "Destruction d'Armure",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lors d'une l'attaque, réduit la DEF P de l'ennemi de ??? pendant 15 sec. Cumulable jusqu'à 5 fois.",
+      "thumbnail": "heroes/Phillop/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente le taux d'augmentation de DEF de 10 %.",
+      "III": "Augmente le taux d'augmentation de DEF de 15 %.",
+      "IV": "Augmente le taux d'augmentation de DEF de 25 %."
+    },
+    "4": {
+      "II": "Augmente le taux de réduction de DEF de 10%.",
+      "III": "Augmente le taux de réduction de DEF de 15%.",
+      "IV": "Réduit les chances d'Esquive P de l'ennemi de 10% par application."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Phillop/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Temps de recharge réduit de 10% pour chaque ennemi touché.",
+          "thumbnail": "heroes/Phillop/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Inflige des points de DEG P supplémentaires équivalents à 10% des PV max.",
+          "thumbnail": "heroes/Phillop/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Effet Repousser changé en Étourdissement de 3 sec.",
+          "thumbnail": "heroes/Phillop/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Inflige 1% des PV max par sec aux ennemis proches.",
+          "thumbnail": "heroes/Phillop/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Effet changé en Étourdissement de 3 sec aux ennemis proches.",
+          "thumbnail": "heroes/Phillop/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Les ennemis ayant 5 charges subissent 1% de DEG P supplémentaire basés à chaque attaque sur les PV max.",
+          "thumbnail": "heroes/Phillop/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Retire tous les effets positifs et la cible reçoit 20% de DEG P supplémentaires pendant 20 sec. Temps de recharge: 20 sec.",
+          "thumbnail": "heroes/Phillop/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Blocage P +200",
+        "thumbnail": "heroes/Phillop/perks/light.png"
+      },
+      "dark": {
+        "effect": "Les attaques auto donnent 10% de chances d'appliquer Étourdissement pendant 2 sec à la cible et d'infliger des DEG supplémentaires à hauteur de 10% de PV du Héros.",
+        "thumbnail": "heroes/Phillop/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Atein, les Ruines du Dragon",
+    "description": "À chaque fois que le lanceur reçoit des DEG, augmente la DEF de tous les alliés en dehors de lui-même de 10% pendant 3sec et se confère 1 Rage du Dragon. Rage du Dragon peut se cumuler jusqu'à 100 fois. Pour chaque charge cumulée, augmente l'ATQ et la DEF du lanceur de 0,8% pendant 10 sec.",
+    "value": {},
+    "thumbnail": "heroes/Phillop/uw.png",
+    "story": "Les Dragons Noirs sont des démons créés pour tuer les dragons, les arbitres du monde. Durant la guerre, il y a un siècle, ils tuèrent et dévorèrent d'innombrables dragons. Quelques-uns des dragons survivants devinrent fous de colère et se transformèrent en Dragons Fous. Ce ne sont plus que des monstres géants, poussés par leurs instincts destructeurs. Phillop et ses Nains pourchassent ces Dragons Noirs et Dragons Fous depuis la Guerre Démoniaque, rassemblant leurs dépouilles pour forger des objets légendaires.",
+    "descriptionByStar": {
+      "0": "À chaque fois que le lanceur reçoit des DEG, augmente la DEF de tous les alliés en dehors de lui-même de 10% pendant 3sec et se confère 1 Rage du Dragon. Rage du Dragon peut se cumuler jusqu'à 100 fois. Pour chaque charge cumulée, augmente l'ATQ et la DEF du lanceur de 0,8% pendant 10 sec.",
+      "1": "À chaque fois que le lanceur reçoit des DEG, augmente la DEF de tous les alliés en dehors de lui-même de 12% pendant 3sec et se confère 1 Rage du Dragon. Rage du Dragon peut se cumuler jusqu'à 100 fois. Pour chaque charge cumulée, augmente l'ATQ et la DEF du lanceur de 1% pendant 10 sec.",
+      "2": "À chaque fois que le lanceur reçoit des DEG, augmente la DEF de tous les alliés en dehors de lui-même de 14% pendant 3sec et se confère 1 Rage du Dragon. Rage du Dragon peut se cumuler jusqu'à 100 fois. Pour chaque charge cumulée, augmente l'ATQ et la DEF du lanceur de 1,2% pendant 10 sec.",
+      "3": "À chaque fois que le lanceur reçoit des DEG, augmente la DEF de tous les alliés en dehors de lui-même de 17% pendant 3sec et se confère 1 Rage du Dragon. Rage du Dragon peut se cumuler jusqu'à 100 fois. Pour chaque charge cumulée, augmente l'ATQ et la DEF du lanceur de 1,4% pendant 10 sec.",
+      "4": "À chaque fois que le lanceur reçoit des DEG, augmente la DEF de tous les alliés en dehors de lui-même de 21% pendant 3sec et se confère 1 Rage du Dragon. Rage du Dragon peut se cumuler jusqu'à 100 fois. Pour chaque charge cumulée, augmente l'ATQ et la DEF du lanceur de 1,7% pendant 10 sec.",
+      "5": "À chaque fois que le lanceur reçoit des DEG, augmente la DEF de tous les alliés en dehors de lui-même de 25% pendant 3sec et se confère 1 Rage du Dragon. Rage du Dragon peut se cumuler jusqu'à 100 fois. Pour chaque charge cumulée, augmente l'ATQ et la DEF du lanceur de 2% pendant 10 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Armoiries du dragon fou",
+      "description": "[Collision] Réduit de 250 points la résistance aux contrôles de la cible et de 200 points son Blocage P pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Phillop/ut/1.png",
+      "story": "Des armoiries dorées à l'effigie d'un dragon fou.\nLes maîtres-artisans nains les offrirent au roi Phillop pour le remercier de sa lutte admirable contre les dragons fous. Phillop ne les plaça pas sur son bouclier, car il les trouvait trop sophistiquées pour le combat, mais il les conserva toujours avec lui, en signe de gratitude envers ces artisans au cœur d'or.",
+      "descriptionByStar": {
+        "0": "[Collision] Réduit de 250 points la résistance aux contrôles de la cible et de 200 points son Blocage P pendant 10 sec.",
+        "1": "[Collision] Réduit de 250 points la résistance aux contrôles de la cible et de 240 points son Blocage P pendant 10 sec.",
+        "2": "[Collision] Réduit de 250 points la résistance aux contrôles de la cible et de 290 points son Blocage P pendant 10 sec.",
+        "3": "[Collision] Réduit de 250 points la résistance aux contrôles de la cible et de 350 points son Blocage P pendant 10 sec.",
+        "4": "[Collision] Réduit de 250 points la résistance aux contrôles de la cible et de 420 points son Blocage P pendant 10 sec.",
+        "5": "[Collision] Réduit de 250 points la résistance aux contrôles de la cible et de 500 points son Blocage P pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Casque Capricorne nain",
+      "description": "[Coup de tête] Réduit le coût en PM de 1 et la résistance Crit P de l'ennemi affecté de 200 pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Phillop/ut/2.png",
+      "story": "Casque antique Capricorne de roi nain. \nIl a été fabriqué avec l’or des dragons récupéré après avoir vaincu Bokrug, le dragon noir cupide. La splendide corne dorée de ce casque est imprégnée de la magie du dragon noir et ralentira tout ennemi touché par Coup de Tête.",
+      "descriptionByStar": {
+        "0": "[Coup de tête] Réduit le coût en PM de 1 et la résistance Crit P de l'ennemi affecté de 200 pendant 10 sec.",
+        "1": "[Coup de tête] Réduit le coût en PM de 1 et la résistance Crit P de l'ennemi affecté de 240 pendant 10 sec.",
+        "2": "[Coup de tête] Réduit le coût en PM de 1 et la résistance Crit P de l'ennemi affecté de 290 pendant 10 sec.",
+        "3": "[Coup de tête] Réduit le coût en PM de 1 et la résistance Crit P de l'ennemi affecté de 350 pendant 10 sec.",
+        "4": "[Coup de tête] Réduit le coût en PM de 1 et la résistance Crit P de l'ennemi affecté de 420 pendant 10 sec.",
+        "5": "[Coup de tête] Réduit le coût en PM de 1 et la résistance Crit P de l'ennemi affecté de 500 pendant 10 sec."
+      }
+    },
+    "3": {
+      "name": "Marteau de cérémonie nain",
+      "description": "[Incarnation Terrestre] Pour la durée de la compétence, la Vitesse d'ATQ et le Crit sont augmentés de 250 et l'augmentation de DEF est augmentée de 20%.",
+      "value": {},
+      "thumbnail": "heroes/Phillop/ut/3.png",
+      "story": "Un marteau reçu en cadeau par le roi nain de la part de l’Élémental de terre. Le roi reçut ce cadeau pour avoir sauvé le royaume des gnomes des attaques du terrible Dragon de Terre Azi Dahaka. En utilisant Incarnation Terrestre, son marteau de cérémonie béni par l’esprit de la terre, il voit sa DEF augmentée et obtient l’immunité à la récupération de PV et Résist. Contrôles.",
+      "descriptionByStar": {
+        "0": "[Incarnation Terrestre] Pour la durée de la compétence, la Vitesse d'ATQ et le Crit sont augmentés de 250 et l'augmentation de DEF est augmentée de 20%.",
+        "1": "[Incarnation Terrestre] Pour la durée de la compétence, la Vitesse d'ATQ et le Crit sont augmentés de 250 et l'augmentation de DEF est augmentée de 24%.",
+        "2": "[Incarnation Terrestre] Pour la durée de la compétence, la Vitesse d'ATQ et le Crit sont augmentés de 250 et l'augmentation de DEF est augmentée de 29%.",
+        "3": "[Incarnation Terrestre] Pour la durée de la compétence, la Vitesse d'ATQ et le Crit sont augmentés de 250 et l'augmentation de DEF est augmentée de 35%.",
+        "4": "[Incarnation Terrestre] Pour la durée de la compétence, la Vitesse d'ATQ et le Crit sont augmentés de 250 et l'augmentation de DEF est augmentée de 42%.",
+        "5": "[Incarnation Terrestre] Pour la durée de la compétence, la Vitesse d'ATQ et le Crit sont augmentés de 250 et l'augmentation de DEF est augmentée de 50%."
+      }
+    },
+    "4": {
+      "name": "Marteau titanesque",
+      "description": "[Destruction d'armure] Réduit l'ATQ de la cible de 20 % lors de l'attaque et sa récupération de 4 % par charge.",
+      "value": {},
+      "thumbnail": "heroes/Phillop/ut/4.png",
+      "story": "Un marteau en titane, le métal légendaire forgé par les géants.\nSa puissance est telle qu'il peut venir à bout de n'importe quelle arme ou armure légendaire. Suite à la Guerre des démons, il n'en reste que 3 exemplaires connus en Orvelia.",
+      "descriptionByStar": {
+        "0": "[Destruction d'armure] Réduit l'ATQ de la cible de 20 % lors de l'attaque et sa récupération de 4 % par charge.",
+        "1": "[Destruction d'armure] Réduit l'ATQ de la cible de 20 % lors de l'attaque et sa récupération de 4,8 % par charge.",
+        "2": "[Destruction d'armure] Réduit l'ATQ de la cible de 20 % lors de l'attaque et sa récupération de 5,8 % par charge.",
+        "3": "[Destruction d'armure] Réduit l'ATQ de la cible de 20 % lors de l'attaque et sa récupération de 7 % par charge.",
+        "4": "[Destruction d'armure] Réduit l'ATQ de la cible de 20 % lors de l'attaque et sa récupération de 8,4 % par charge.",
+        "5": "[Destruction d'armure] Réduit l'ATQ de la cible de 20 % lors de l'attaque et sa récupération de 10 % par charge."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 23 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme d'Atein, les Ruines du Dragon pendant 10 sec, ce qui augmente la DEF du Héros de 60% et lors des attaques automatiques, inflige des DEG P supplémentaires à la hauteur de 1% de ses PV max pendant la durée de l'invocation. Renforce également ses compétences. \n[Collision] Inflige ??? DEG P supplémentaires à la cible et augmente les DEG P reçus par la cible de 20% pendant 10 sec.\n[Coup de Tête] Inflige des DEG P supplémentaires à la hauteur de 10% de ses PV max.\n[Incarnation Terrestre] Récupère 20% de ses PV max lors de son activation.",
+    "cooldown": "24",
+    "uses": "6",
+    "thumbnail": "heroes/Phillop/sw.png",
+    "advancement": {
+      "1": "Augmente la durée de l'invocation de l'âme de 5 sec.",
+      "2": "Pendant la durée de l'invocation, modifie les DEG P supplémentaires infligés proportionnellement aux PV max du Héros à 2% et augmente la réduction de la DEF P de 50%."
+    },
+    "story": "Phillop s'inquiétait de la puissance démoniaque qui grandissait à l'intérieur d'Atein au fil du temps.\nLes restes des draconics ténébreux ou des dragons fous, porteurs des âmes souillées, contenaient une grande quantité d'impuretés. Bien que l'équipement forgé à partir de ces restes soit extrêmement puissant, il comportait également le risque de dominer l'esprit de son propriétaire.\nPhillop avait utilisé diverses méthodes afin de maîtriser l'aura imprégnant Atein, mais ce n'était que des mesures provisoires.\n\nPendant des jours et des jours, il réfléchit sur le meilleur moyen qui l'aiderait à dompter cette puissance maléfique.\nEt il arriva à la conclusion qu'il n'existait rien de plus juste que les Nains, qui avaient vaincu d'innombrables draconics ténébreux et de dragons fous.\nIl broya donc la corne laissée par le premier roi des Nains et inséra la poudre obtenue dans Atein.\n\nLe résultat obtenu fut plus que satisfaisant.\nLes âmes remplies de rancœur, qui habitaient Atein, furent maîtrisées par l'aura du puissant roi des Nains, et elles se mirent à obéir à leur propriétaire.\nDésormais, Phillop n'avait plus rien à craindre, puisqu'il était en compagnie de celui qui avait été le plus vigoureux des Nains par le passé.\nChaque fois qu'il maniait Atein, l'autre roi des Nains se manifestait, déployant sa dignité royale dans un grand éclat de rire."
+  },
+  "splashart": "heroes/Phillop/sa.png",
+  "costumes": "heroes/Phillop/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

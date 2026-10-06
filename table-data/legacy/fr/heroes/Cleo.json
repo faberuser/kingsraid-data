@@ -1,0 +1,254 @@
+{
+  "id": "Cleo",
+  "profile": {
+    "name": "Cleo",
+    "title": "Cleo, Mage du Purgatoire",
+    "class": "Wizard",
+    "position": "Middle-200",
+    "attack_range": "300",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "17",
+    "height": "156",
+    "race": "Humain",
+    "constellation": "Kandala le Conquérant",
+    "birth": {
+      "month": 8,
+      "day": 1,
+      "monthName": "Mois de la Vitalité"
+    },
+    "like": "Le feu de camp, les oreillers (?)",
+    "dislike": "Les machines",
+    "story": "Les premiers souvenirs de Cleo remontent à la Tour du Sage. Orpheline élevée par Dominiks le Grand Sage, elle est à la fois une mage de génie et une fauteuse de troubles. Son incapacité à contrôler son propre pouvoir l'a souvent plongé dans le pétrin, notamment lorsqu'elle détruisit en partie la Tour Rouge, sa propre résidence. Cependant, elle s'est trouvée mise à l'écart de ses pairs, car le Grand Sage ne se fâchait jamais après elle. Cela a fait d'elle une fille égocentrique et irréfléchie. Néanmoins, au fond de son cœur, elle reste une petite fille bienveillante qui craint d'être rejetée par les autres.",
+    "thumbnail": "heroes/Cleo/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Pointe de Feu",
+      "cost": "2",
+      "cooldown": "5",
+      "description": "Attaque un ennemi aléatoire 5 fois, infligeant au total ??? DEG M et l'étourdissant pendant 1 sec à chaque coup. Contre une cible non héros, inflige ??? DEG M supplémentaires par cumul de Braise. Chaque coup critique restaure 100 mana.",
+      "thumbnail": "heroes/Cleo/skills/1.png"
+    },
+    "2": {
+      "name": "Boule de Feu",
+      "cost": "3",
+      "cooldown": "10",
+      "description": "Inflige ??? DEG M à la cible et aux ennemis proches et les étourdit pendant 2 sec. Contre une cible non héros, inflige ??? DEG M supplémentaires, plus ??? par cumul de Braise. Applique 12 cumuls de Braise aux cibles touchées.",
+      "thumbnail": "heroes/Cleo/skills/2.png"
+    },
+    "3": {
+      "name": "Pluie de Feu",
+      "cost": "4",
+      "cooldown": "15",
+      "description": "Attaque tous les ennemis 5 fois et inflige au total ??? DEG M. Cette attaque bénéficie de 150% de dégâts critiques supplémentaires. Contre les cibles non héros, inflige ??? DEG M supplémentaires par cumul de Braise.",
+      "thumbnail": "heroes/Cleo/skills/3.png"
+    },
+    "4": {
+      "name": "Diffusion de Flammes",
+      "cost": null,
+      "cooldown": null,
+      "description": "Chaque attaque applique un cumul de Braise à la cible. Les ennemis affectés subissent ??? DEG M continus sur 20 sec. Braise se cumule jusqu'à 12 fois. Toucher un ennemi au maximum de cumuls restaure 30 mana.",
+      "thumbnail": "heroes/Cleo/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Lorsque vous attaquez plus de 5 ennemis, les DEG de la compétence sont réduits de 50%, mais tous les ennemis sont alors pris pour cibles.",
+          "thumbnail": "heroes/Cleo/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "La cible change pour l'ennemi ayant l'ATQ la plus élevée.",
+          "thumbnail": "heroes/Cleo/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Les attaques portées contre un ennemi ayant reçu au moins 10 charges de Braises augmentent les DEG M qu'il subit de 40% pendant 10 sec.",
+          "thumbnail": "heroes/Cleo/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Réduit le temps de recharge de 10% pour chaque ennemi touché.",
+          "thumbnail": "heroes/Cleo/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente les DEG de 40%.",
+          "thumbnail": "heroes/Cleo/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 2 pendant 10 sec lorsqu'il y a plus de 5 ennemis. A 10 sec de recharge.",
+          "thumbnail": "heroes/Cleo/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Réduit la DEF M de la cible de 2.5% pour chaque charge de Braise.",
+          "thumbnail": "heroes/Cleo/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Toutes les 10 sec, étourdit les ennemis touchés par Braises pendant 2 sec. Les ennemis portant plus de 10 charges de Braises sont étourdis pendant 3 sec.",
+          "thumbnail": "heroes/Cleo/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Crit +100",
+        "thumbnail": "heroes/Cleo/perks/light.png"
+      },
+      "dark": {
+        "effect": "La cible portant plus de 10 Charges de Braises subit 30% de DEG M supplémentaires et inflige 2 Charges de Braises toutes les secondes à tous les Ennemis Non-Héros.",
+        "thumbnail": "heroes/Cleo/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Flenos, la Flamme primitive",
+    "description": "Augmente la Vitesse d'ATQ de {0}. Inflige des DEG M supplémentaires à hauteur de {1}% de l'ATQ pour chaque charge de Braise portée par la cible.",
+    "value": {
+      "0": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      },
+      "1": {
+        "0": "3",
+        "1": "3.6",
+        "2": "4.3",
+        "3": "5.2",
+        "4": "6.3",
+        "5": "7.5"
+      }
+    },
+    "thumbnail": "heroes/Cleo/uw.png",
+    "story": "L'essence de la Première Flamme du monde. Le seigneur des Élementaires de Feu offrit cette gemme magnifique à un Humain qui était entré en contact avec lui. Au fil du temps, elle finit entre les mains d'un archimage, qui l'inséra au sein de son bâton. Plus tard, l'archimage offrit le bâton à son précieux disciple.",
+    "descriptionByStar": {
+      "0": "Augmente la Vitesse d'ATQ de 200. Inflige des DEG M supplémentaires à hauteur de 3% de l'ATQ pour chaque charge de Braise portée par la cible.",
+      "1": "Chaque coup de compétence inflige des DEG M supplémentaires égaux à 3,6% de l'ATQ par charge de Braises qui pèse sur les ennemis.",
+      "2": "Chaque coup de compétence inflige des DEG M supplémentaires égaux à 4,3% de l'ATQ par charge de Braises qui pèse sur les ennemis.",
+      "3": "Chaque coup de compétence inflige des DEG M supplémentaires égaux à 5,2% de l'ATQ par charge de Braises qui pèse sur les ennemis.",
+      "4": "Chaque coup de compétence inflige des DEG M supplémentaires égaux à 6,3% de l'ATQ par charge de Braises qui pèse sur les ennemis.",
+      "5": "Chaque coup de compétence inflige des DEG M supplémentaires égaux à 7,5% de l'ATQ par charge de Braises qui pèse sur les ennemis."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Lanterne de phénix",
+      "description": "[Pointe de feu] Réduit {0} PM de la cible à chaque coup porté et augmente les DEG de 10% à chaque utilisation. Cet effet peut se cumuler jusqu'à 10 fois.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Cleo/ut/1.png",
+      "story": "Une lanterne magique provenant de la Tour du sage.\nLa première flamme de la Tour du sage, tirée du phénix qui jamais ne s'éteint, est enfermée à l'intérieur. Dominic en a toujours pris grand soin, car les phénix sont à présent menacés, mais Cleo, insouciante, s'en sert pour améliorer son sort Pointe de feu, malgré les mises en garde de son maître.",
+      "descriptionByStar": {
+        "0": "[Pointe de feu] Réduit 100 PM de la cible à chaque coup porté et augmente les DEG de 10% à chaque utilisation. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "1": "[Pointe de feu] Cible l'ennemi à l'ATQ la plus élevée et réduit ses PM de 120.",
+        "2": "[Pointe de feu] Cible l'ennemi à l'ATQ la plus élevée et réduit ses PM de 140.",
+        "3": "[Pointe de feu] Cible l'ennemi à l'ATQ la plus élevée et réduit ses PM de 170.",
+        "4": "[Pointe de feu] Cible l'ennemi à l'ATQ la plus élevée et réduit ses PM de 210.",
+        "5": "[Pointe de feu] Cible l'ennemi à l'ATQ la plus élevée et réduit ses PM de 250."
+      }
+    },
+    "2": {
+      "name": "Élixir de Flamel",
+      "description": "[Boule de feu] Réduit le coût en PM de 1 et augmente les DEG infligés de 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Cleo/ut/2.png",
+      "story": "Élixir obtenu par Flamel, l’alchimiste de feu, en condensant des essences de flamme.\nTous les mages du monde envient le feu de Flamel, qui brûle sans interruption. L’essence de flamme qu’il a obtenue grâce aux salamandres du volcan Dragia décuple les effets de Boule de Feu.",
+      "descriptionByStar": {
+        "0": "[Boule de feu] Réduit le coût en PM de 1 et augmente les DEG infligés de 20 %.",
+        "1": "[Boule de feu] Réduit le coût en PM de 1 et augmente les DEG infligés de 24 %.",
+        "2": "[Boule de feu] Réduit le coût en PM de 1 et augmente les DEG infligés de 29 %.",
+        "3": "[Boule de feu] Réduit le coût en PM de 1 et augmente les DEG infligés de 35 %.",
+        "4": "[Boule de feu] Réduit le coût en PM de 1 et augmente les DEG infligés de 42 %.",
+        "5": "[Boule de feu] Réduit le coût en PM de 1 et augmente les DEG infligés de 50 %."
+      }
+    },
+    "3": {
+      "name": "Parchemin d'enfer brûlant",
+      "description": "[Pluie de Feu] Augmente les DEG infligés de 20% et réduit le temps de recharge de la compétence de 5% lors d'un coup critique sur un ennemi portant plus de 5 Charges de Braises. De plus, réduit le temps de recharge de 20% supplémentaire lorsque vous éliminez un ennemi avec cette compétence.",
+      "value": {},
+      "thumbnail": "heroes/Cleo/ut/3.png",
+      "story": "Un parchemin rédigé par une mage de feu connue sous le nom de Déesse du Feu. Un parchemin laissé par la grande Archimage du Feu d’Orvelia, Vesta, lorsqu’elle était à la Tour des Sages. Il est très puissant, mais demande beaucoup de mana. Cleo prit le Parchemin d’enfer brûlant dans la Tour des Sages, alors que c’est un parchemin interdit. Elle l’utilise désormais pour améliorer sa Pluie de Feu.",
+      "descriptionByStar": {
+        "0": "[Pluie de Feu] Augmente les DEG infligés de 20% et réduit le temps de recharge de la compétence de 5% lors d'un coup critique sur un ennemi portant plus de 5 Charges de Braises. De plus, réduit le temps de recharge de 20% supplémentaire lorsque vous éliminez un ennemi avec cette compétence.",
+        "1": "[Pluie de Feu] Augmente les DEG infligés de 24% et réduit le temps de recharge de la compétence de 5% lors d'un coup critique sur un ennemi portant plus de 5 Charges de Braises. De plus, réduit le temps de recharge de 20% supplémentaire lorsque vous éliminez un ennemi avec cette compétence.",
+        "2": "[Pluie de Feu] Augmente les DEG infligés de 29% et réduit le temps de recharge de la compétence de 5% lors d'un coup critique sur un ennemi portant plus de 5 Charges de Braises. De plus, réduit le temps de recharge de 20% supplémentaire lorsque vous éliminez un ennemi avec cette compétence.",
+        "3": "[Pluie de Feu] Augmente les DEG infligés de 35% et réduit le temps de recharge de la compétence de 5% lors d'un coup critique sur un ennemi portant plus de 5 Charges de Braises. De plus, réduit le temps de recharge de 20% supplémentaire lorsque vous éliminez un ennemi avec cette compétence.",
+        "4": "[Pluie de Feu] Augmente les DEG infligés de 42% et réduit le temps de recharge de la compétence de 5% lors d'un coup critique sur un ennemi portant plus de 5 Charges de Braises. De plus, réduit le temps de recharge de 20% supplémentaire lorsque vous éliminez un ennemi avec cette compétence.",
+        "5": "[Pluie de Feu] Augmente les DEG infligés de 50% et réduit le temps de recharge de la compétence de 5% lors d'un coup critique sur un ennemi portant plus de 5 Charges de Braises. De plus, réduit le temps de recharge de 20% supplémentaire lorsque vous éliminez un ennemi avec cette compétence."
+      }
+    },
+    "4": {
+      "name": "Initiation aux sorts de sorcière rouge",
+      "description": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit 1 % de DEG M supplémentaire par charge.",
+      "value": {},
+      "thumbnail": "heroes/Cleo/ut/4.png",
+      "story": "Un grimoire détaillant comment utiliser la magie de feu pour la Sorcière Rouge.\nLa plupart des mages jugent ce livre tabou, car la puissance destructrice des sorts qu'il contient peut faire sombrer la personne qui s'en sert dans la folie. Cependant, cela ne l'empêche pas de circuler secrètement au sein de l'empire.",
+      "descriptionByStar": {
+        "0": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit 1 % de DEG M supplémentaire par charge.",
+        "1": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit 1,2 % de DEG M supplémentaires par charge.",
+        "2": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit 1,4 % de DEG M supplémentaires par charge.",
+        "3": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit 1,7 % de DEG M supplémentaires par charge.",
+        "4": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit 2,1 % de DEG M supplémentaires par charge.",
+        "5": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit 2,5 % de DEG M supplémentaire par charge."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 6 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Flenos, la Flamme primitive, ce qui inflige ??? DEG M à 5 ennemis. En infligeant des DEG aux ennemis avec cette compétence, la pénétration de DEF augmente de 25 pendant 60 sec. Cet effet est cumulable jusqu'à 20 fois maximum.",
+    "cooldown": "22",
+    "uses": "7",
+    "thumbnail": "heroes/Cleo/sw.png",
+    "advancement": {
+      "1": "Augmente les DEG infligés de 50%.",
+      "2": "Augmente les DEG de 50% et ajoute l'effet d'augmentation d'ATQ de 2.5% à chaque charge."
+    },
+    "story": "La flamme contenue dans Flenos était arrogante. Cleo pouvait lui résister grâce à sa résistance contre le feu, mais courrait le risque d'être blessée par cette flamme. Elle le savait, mais faisait semblant de l'ignorer. Car elle avait l'assurance de faire sienne cette flamme, mais également une infime crainte.\nPourtant, lorsque son arrogance buta contre le mur de la réalité, Cleo considéra avec humilité la flamme de son for intérieur. Elle voulait accepter pleinement cette flamme féroce dont elle avait usé de façon démesurée. À cet instant, Flenos se matérialisa devant elle. Comme pour signifier qu'elle était émerveillée par sa volonté, elle prit l'apparence d'un être qui lui était cher..."
+  },
+  "splashart": "heroes/Cleo/sa.png",
+  "costumes": "heroes/Cleo/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

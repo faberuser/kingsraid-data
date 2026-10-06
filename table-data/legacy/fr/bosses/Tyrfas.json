@@ -1,0 +1,66 @@
+{
+  "id": "Tyrfas",
+  "profile": {
+    "name": "Tyrfas",
+    "title": "Créature Céleste du Zéro Absolu",
+    "type": [
+      "Guild Conquest",
+      "Guild Raid"
+    ],
+    "race": "Bête",
+    "damage_type": "Magical",
+    "recommended_heroes": "Frey, Aisha, Kara",
+    "characteristics": "Lorsque Tyrfas utilise [Avalanche], infligez rapidement des DEG M pour annuler l'activation de sa compétence. Prenez garde à l'effet de Frissons qui vous empêche de récupérer des PV.",
+    "thumbnail": "bosses/Tyrfas.png",
+    "recommendedHeroNames": [
+      "Frey",
+      "Aisha",
+      "Kara"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Fouet gelé",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Inflige des points de DEG M aux ennemis en face situés à portée et les repousse au loin."
+    },
+    "2": {
+      "name": "Souffle glacé",
+      "cost": null,
+      "cooldown": "25",
+      "description": "Attaque 6 fois les ennemis en ligne droite, infligeant des DEG M, plus 30% de chances d'infliger une charge de Frissons. Si la cible a plus de 50 charges de Frissons, elle subit des DEG M supplémentaires."
+    },
+    "3": {
+      "name": "Explosion glaciale",
+      "cost": null,
+      "cooldown": "20",
+      "description": "Attaque 5 fois 3 ennemis aléatoires, infligeant des DEG M et infligeant une charge de Frissons aux ennemis ayant subi des dégâts."
+    },
+    "4": {
+      "name": "Avalanche",
+      "cost": null,
+      "cooldown": "30",
+      "description": "Attaque tous les ennemis en position stable, ce qui leur inflige des DEG M et des charges de Frissons. Les DEG de cette compétence augmentent avec le temps, mais son incantation s'interrompt si Tyrfas subit des DEG M plus de 50 fois, après quoi il sera renversé pendant un certain temps. Une fois renversé, Tyrfas reçoit des DEG P et DEG M beaucoup plus importants, et le nombre de coups de DEG M nécessaires pour interrompre Avalanche augmente."
+    },
+    "5": {
+      "name": "Vague de glace",
+      "cost": null,
+      "cooldown": null,
+      "description": "Toutes les secondes, attaque tous les ennemis et leur inflige des DEG M qui ont 30% de chances de leur infliger Frissons. Frissons réduit la DEF M et la récupération de la cible et peut se cumuler jusqu'à 200 fois. Frissons ne peut pas être dissipé."
+    },
+    "6": {
+      "name": "Coquille d'une bête mythique",
+      "cost": null,
+      "cooldown": null,
+      "description": "Tyrfas, Créature divine de la Terre, est immunisé contre les contrôles, et sa Vitesse d'ATQ ainsi que sa DEF ne sont pas sensibles aux effets. Les DEG qu'il inflige augmentent à chaque charge de Frissons qui pèse sur l'ennemi."
+    }
+  },
+  "aliases": [
+    "Tyrfas",
+    "GC1",
+    "GC 1",
+    "GR7",
+    "GR 7"
+  ]
+}

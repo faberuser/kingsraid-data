@@ -1,0 +1,245 @@
+{
+  "id": "Tanya",
+  "profile": {
+    "name": "Tanya",
+    "title": "Tanya, Lame silencieuse",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "3700",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "HERO_AGE_TANYA",
+    "height": "169",
+    "race": "Demi-elfe",
+    "constellation": "Mertis la Protectrice",
+    "birth": {
+      "month": 1,
+      "day": 8,
+      "monthName": "Mois de la Protection"
+    },
+    "like": "Roi",
+    "dislike": "Roi, les Masques-Rieurs, la lignée de Demi-Elfe",
+    "story": "Une assassin du Masque Rieur. Même si en tant que Demi-Elfe, elle a l'avantage physique sur Roi, elle n'a pas sa sagesse ni sa capacité à nouer des contacts avec les autres, des talents essentiels pour toute opération de grande ampleur. C'est pour cela qu'elle a développé un genre de complexe d'infériorité. En tant que « nettoyeuse » de l'organisation, elle avait pour tâche d'éliminer les traîtres. Lorsque Roi abandonna l'organisation, elle se lança à sa poursuite pour comprendre ses motivations, en lâchant toutes ses autres tâches. Nul ne sait ce qu'elle fera une fois qu'elle l'aura retrouvé.",
+    "thumbnail": "heroes/Tanya/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Cible Acquise",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Augmente les DEG P reçus par la cible à la DEF P la plus faible de 30% pendant 10 sec. Se déplace derrière la cible pour lui infliger ??? DEG P et la renverse pendant 2 sec. Lorsque cette compétence est utilisée à l'état de Furtivité, augmente les DEG Crit de 150% et désactive Furtivité. Si l'état de Furtivité n'est pas actif lors de l'utilisation de la compétence, active l'état de Furtivité pendant 10 sec.",
+      "thumbnail": "heroes/Tanya/skills/1.png"
+    },
+    "2": {
+      "name": "Tornade de Lames",
+      "cost": "2",
+      "cooldown": "14",
+      "description": "Attaque à 3 reprises les ennemis proches et inflige un total de ??? DEG P et applique 1 Saignement aux cibles touchées. Lorsque cette compétence est utilisée à l'état de Furtivité, la Récupération des PV des cibles touchées est réduite de 70% et Furtivité est désactivée. Si Furtivité n'est pas activée lors de l'utilisation de la compétence, active l'état de Furtivité pendant 10 sec.",
+      "thumbnail": "heroes/Tanya/skills/2.png"
+    },
+    "3": {
+      "name": "Chuchotement de la Mort",
+      "cost": "3",
+      "cooldown": "18",
+      "description": "Attaque aléatoirement les ennemis à 6 reprises et inflige un total de ??? DEG P. Lance également une attaque supplémentaire pour infliger ??? DEG P. Lorsque cette compétence est utilisée à l'état de Furtivité, dissipe l'effet positif sur l'ennemi et désactive Furtivité. Si Furtivité n'est pas activée lors de l'utilisation de la compétence, active l'état de Furtivité pendant 10 sec.",
+      "thumbnail": "heroes/Tanya/skills/3.png"
+    },
+    "4": {
+      "name": "Embuscade silencieuse",
+      "cost": null,
+      "cooldown": null,
+      "description": "En état de Furtivité, augmente le Crit de 300 et l'Esquive de 300. Inflige ??? DEG P supplémentaires à l'ennemi et le réduit au silence pendant 2 sec lorsqu'un coup critique est porté par la compétence. Si la cible n'est pas un Héros, inflige ??? DEG P supplémentaires ignorant la DEF et réduit la Vitesse d'ATQ de la cible de 200 pendant 10 sec.",
+      "thumbnail": "heroes/Tanya/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Réduit de 30% la récupération de la cible.",
+          "thumbnail": "heroes/Tanya/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Modifie la cible pour un prêtre et réduit la Résistance Crit P de la cible de 250 pendant 10 sec.",
+          "thumbnail": "heroes/Tanya/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "À chaque frappe infligée, réduit 300 PM de la cible touchée.",
+          "thumbnail": "heroes/Tanya/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Récupère 200 PM en infligeant un coup critique.",
+          "thumbnail": "heroes/Tanya/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente le coût en PM de 1 et les DEG infligés de 100%.",
+          "thumbnail": "heroes/Tanya/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Tanya/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Augmente de 100% les DEG supplémentaires infligés aux ennemis non-Héros.",
+          "thumbnail": "heroes/Tanya/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Augmente de 0,5 sec la durée de Silence.",
+          "thumbnail": "heroes/Tanya/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Tanya/perks/light.png"
+      },
+      "dark": {
+        "effect": "Chaque attaque automatique a 15% de chance de mettre le Héros en mode Furtivité pendant 10 secondes. Lorsque le Héros est en Furtivité, les DEG des attaques automatiques sont augmentés de 50%.",
+        "thumbnail": "heroes/Tanya/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Caethasis, le Démon de la Tranquillité",
+    "description": "Au début de chaque bataille, se met en état de Furtivité pendant 10 sec et esquive toutes les attaques pendant {0} sec. En état de Furtivité, augmente les DEG Crit de {1}% pendant 10 sec.",
+    "value": {
+      "0": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.9",
+        "3": "3.5",
+        "4": "4.2",
+        "5": "5"
+      },
+      "1": {
+        "0": "30",
+        "1": "36",
+        "2": "43",
+        "3": "52",
+        "4": "62",
+        "5": "75"
+      }
+    },
+    "thumbnail": "heroes/Tanya/uw.png",
+    "story": "La guerre démoniaque remonte à cent ans. Durant cette guerre, la plus grande menace que connut l'humanité fut incontestablement les officiers démoniaques supérieurs. Caethasis, le Démon de la Tranquillité, était le plus dangereux d'entre eux. Convoitant spécifiquement l'âme des utilisateurs de la magie, il massacra un nombre incalculable de mages et de prêtres. Caethasis finit par être vaincu par Kyle et son noyau scellé. Cependant, des années plus tard, le Masque Rieur entra en possession de son noyau, le hissant de nouveau au rang d'instrument de mort.",
+    "descriptionByStar": {
+      "0": "Au début de chaque bataille, se met en état de Furtivité pendant 10 sec et esquive toutes les attaques pendant 2 sec. En état de Furtivité, augmente les DEG Crit de 30% pendant 10 sec.",
+      "1": "Au début de chaque bataille, le Héros se met en mode Furtivité pendant 10 secondes. Lorsque le Héros est en Furtivité, les DEG Crit sont augmentés de 36% pendant 10 secondes.",
+      "2": "Au début de chaque bataille, le Héros se met en mode Furtivité pendant 10 secondes. Lorsque le Héros est en Furtivité, les DEG Crit sont augmentés de 43% pendant 10 secondes.",
+      "3": "Au début de chaque bataille, le Héros se met en mode Furtivité pendant 10 secondes. Lorsque le Héros est en Furtivité, les DEG Crit sont augmentés de 52% pendant 10 secondes.",
+      "4": "Au début de chaque bataille, le Héros se met en mode Furtivité pendant 10 secondes. Lorsque le Héros est en Furtivité, les DEG Crit sont augmentés de 62% pendant 10 secondes.",
+      "5": "Au début de chaque bataille, le Héros se met en mode Furtivité pendant 10 secondes. Lorsque le Héros est en Furtivité, les DEG Crit sont augmentés de 75% pendant 10 secondes."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Copie du manuel de discrétion",
+      "description": "[Cible acquise] Augmente les DEG de 50 % et restaure le PM de 400.",
+      "value": {},
+      "thumbnail": "heroes/Tanya/ut/1.png",
+      "story": "Le Masque rieur dispose d'un manuel secret de formation aux techniques furtives d'assassin.\nCe livre décrit les compétences furtives et leurs applications concrètes. Tanya y a ajouté ses propres conseils, ce qui rend ce manuel encore plus précieux.",
+      "descriptionByStar": {
+        "0": "[Cible acquise] Augmente les DEG de 50 % et restaure le PM de 400.",
+        "1": "[Cible acquise] Augmente les DEG de 50 % et restaure le PM de 480.",
+        "2": "[Cible acquise] Augmente les DEG de 50 % et restaure le PM de 580.",
+        "3": "[Cible acquise] Augmente les DEG de 50 % et restaure le PM de 700.",
+        "4": "[Cible acquise] Augmente les DEG de 50 % et restaure le PM de 840.",
+        "5": "[Cible acquise] Augmente les DEG de 50 % et restaure le PM de 1000."
+      }
+    },
+    "2": {
+      "name": "Ceinture Masque Rieur",
+      "description": "[Tornade de lames] Augmente les DEG de 20 % et réduit le temps de recharge de 8 % lorsque vous assénez un coup critique.",
+      "value": {},
+      "thumbnail": "heroes/Tanya/ut/2.png",
+      "story": "Cet outil multifonction sert aux membres du Masque rieur pour commettre leurs assassinats. \nIl est propre au Masque rieur, dont les membres sont connus pour leur vitesse et leur efficacité dans l'élimination de leurs cibles. \nOptimisé d'après le schéma d'attaque de son porteur, il permet d'améliorer la manipulation des armes de jet et renforce les attaques continues pendant Tornade de lames.",
+      "descriptionByStar": {
+        "0": "[Tornade de lames] Augmente les DEG de 20 % et réduit le temps de recharge de 8 % lorsque vous assénez un coup critique.",
+        "1": "[Tornade de lames] Augmente les DEG de 24 % et réduit le temps de recharge de 8 % lorsque vous assénez un coup critique.",
+        "2": "[Tornade de lames] Augmente les DEG de 29 % et réduit le temps de recharge de 8 % lorsque vous assénez un coup critique.",
+        "3": "[Tornade de lames] Augmente les DEG de 35 % et réduit le temps de recharge de 8 % lorsque vous assénez un coup critique.",
+        "4": "[Tornade de lames] Augmente les DEG de 42 % et réduit le temps de recharge de 8 % lorsque vous assénez un coup critique.",
+        "5": "[Tornade de lames] Augmente les DEG de 50 % et réduit le temps de recharge de 8 % lorsque vous assénez un coup critique."
+      }
+    },
+    "3": {
+      "name": "Dague de silence",
+      "description": "[Chuchotement de la Mort] Augmente les DEG de 20% et donne Furtivité. Si le mode Furtivité est déjà activé, l'ATQ est aussi augmentée de 20% pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Tanya/ut/3.png",
+      "story": "Une dague donnée à ceux qui complètent la première mission du Masque Rieur. La règle oblige les assassins à toujours porter la dague qui piste sa cible. \nLa dague que les assassins portent comme une amulette leur murmure constamment des propos sur la mort.",
+      "descriptionByStar": {
+        "0": "[Chuchotement de la Mort] Augmente les DEG de 20% et donne Furtivité. Si le mode Furtivité est déjà activé, l'ATQ est aussi augmentée de 20% pendant 10 sec.",
+        "1": "[Chuchotement de la Mort] Augmente les DEG de 24% et donne Furtivité. Si le mode Furtivité est déjà activé, l'ATQ est aussi augmentée de 20% pendant 10 sec.",
+        "2": "[Chuchotement de la Mort] Augmente les DEG de 29% et donne Furtivité. Si le mode Furtivité est déjà activé, l'ATQ est aussi augmentée de 20% pendant 10 sec.",
+        "3": "[Chuchotement de la Mort] Augmente les DEG de 35% et donne Furtivité. Si le mode Furtivité est déjà activé, l'ATQ est aussi augmentée de 20% pendant 10 sec.",
+        "4": "[Chuchotement de la Mort] Augmente les DEG de 42% et donne Furtivité. Si le mode Furtivité est déjà activé, l'ATQ est aussi augmentée de 20% pendant 10 sec.",
+        "5": "[Chuchotement de la Mort] Augmente les DEG de 50% et donne Furtivité. Si le mode Furtivité est déjà activé, l'ATQ est aussi augmentée de 20% pendant 10 sec."
+      }
+    },
+    "4": {
+      "name": "Aiguille silencieuse",
+      "description": "[Embuscade silencieuse] Restaure le 100 PM du lanceur et réduit celui de la cible de 200.",
+      "value": {},
+      "thumbnail": "heroes/Tanya/ut/4.png",
+      "story": "Une arme secrète que le chef des Masques rieurs créa pour Tanya.\nAprès avoir observé que Tanya enchaînait les succès, le chef décida qu'elle était la personne la plus à même d'effectuer les missions les plus périlleuses, et lui fit remettre cette arme secrète des Masques rieurs, « l'Aiguille silencieuse ».\nCréée à l'aide de biotechnologies avancées, elle canalise et déchaîne l'énergie qui circule à l'intérieur du corps, tuant instantanément l'ennemi.\nPlus important encore, elle permettra à Tanya de respecter son vœu de silence si la situation dégénère et que la mission est compromise.",
+      "descriptionByStar": {
+        "0": "[Embuscade silencieuse] Restaure le 100 PM du lanceur et réduit celui de la cible de 200.",
+        "1": "[Embuscade silencieuse] Restaure le 120 PM du lanceur et réduit celui de la cible de 200.",
+        "2": "[Embuscade silencieuse] Restaure le 140 PM du lanceur et réduit celui de la cible de 200.",
+        "3": "[Embuscade silencieuse] Restaure le 170 PM du lanceur et réduit celui de la cible de 200.",
+        "4": "[Embuscade silencieuse] Restaure le 210 PM du lanceur et réduit celui de la cible de 200.",
+        "5": "[Embuscade silencieuse] Restaure le 250 PM du lanceur et réduit celui de la cible de 200."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 18 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de Caethasis, le Démon de la Tranquillité, ce qui augmente le taux d'ATQ du Héros de 50% pendant 10 sec et toutes les 3 sec, attaque l'ennemi à la DEF P la plus basse à 4 reprises, pour lui infliger un total de ??? DEG P. Cette attaque réduit la DEF P de la cible touchée de 5%, pendant 5 sec, si les PV de la cible sont égaux ou supérieurs à 50%. Si les PV de la cible sont inférieurs à 50%, augmente les DEG infligés de 2 fois et génère sûrement un coup critique. L'effet de la réduction de la DEF P peut se cumuler jusqu'à 10 fois.",
+    "cooldown": "22",
+    "uses": "6",
+    "thumbnail": "heroes/Tanya/sw.png",
+    "advancement": {
+      "1": "La condition d'utilisation passe à 14 sec.",
+      "2": "Modifie l'effet de la réduction de la DEF P à 7% et l'augmentation des DEG infligés à 3.6 fois pour l'ennemi aux PV inférieurs à 50%."
+    },
+    "story": "Caethasis portait en lui toutes les âmes des mages et des prêtres qu'il avait absorbées de son vivant. L'âme de Caethasis dut faire face aux victimes qu'il avait avalées, et supporter incessamment leurs rancunes et leurs malédictions. Cependant, Caethasis les accepta et les tint prisonniers à l'intérieur de lui, même après sa mort. Pendant que l'épée passait par les mains d'innombrables propriétaires, Caethasis continua à lutter.\n'-Un jour, lorsque Tanya ressentit les rancœurs des âmes de ceux qu'elle avait tués, elle comprit qu'à l'intérieur de son épée, la même bataille se déroulait. Que ce soit elle ou son arme, étaient-elles destinées à combattre sans fin les morts ? Sans en connaître la réponse, Tanya, le cœur lourd, continuait de faire face au démon contenu dans son épée."
+  },
+  "splashart": "heroes/Tanya/sa.png",
+  "costumes": "heroes/Tanya/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

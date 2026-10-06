@@ -1,0 +1,57 @@
+{
+  "id": "Nordik",
+  "profile": {
+    "name": "노르딕",
+    "title": "에인션트 리치",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "언데드",
+    "damage_type": "Magical",
+    "recommended_heroes": "레이나, 로지나, 플루스",
+    "characteristics": "자신이 마법 피해를 입으면 대상에게 마법 데미지를 반사시키고 침묵시킵니다. 물리 공격 영웅을 활용하거나 상태 저항 스탯을 활용하여 대응해야 합니다.",
+    "thumbnail": "bosses/Nordik.png",
+    "recommendedHeroNames": [
+      "Reina",
+      "Rodina",
+      "Fluss"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "마력 방패",
+      "cost": null,
+      "cooldown": "20",
+      "description": "일정량의 피해를 막는 보호막을 생성합니다. 보호막 상태일 때 1초마다 적 전체의 마나를 흡수합니다.이 보호막은 마법에 피해를 입지 않습니다."
+    },
+    "2": {
+      "name": "암흑의 광선",
+      "cost": null,
+      "cooldown": "25",
+      "description": "전방 직선범위의 적에게 마법 피해를 여러 번 입히고 밀어냅니다."
+    },
+    "3": {
+      "name": "마력 폭풍",
+      "cost": null,
+      "cooldown": "45",
+      "description": "임의의 대상에게 마법 피해를 입히고 2초간 넘어뜨립니다."
+    },
+    "4": {
+      "name": "마법 파괴자",
+      "cost": null,
+      "cooldown": "1",
+      "description": "자신이 마법 피해를 입을때마다 공격한 대상에게 마법 피해를 주고 1초간 침묵시킵니다."
+    },
+    "5": {
+      "name": "정화",
+      "cost": null,
+      "cooldown": null,
+      "description": "30초마다 자신의 해로운 효과를 제거하고 공격속도를 증가시킵니다."
+    }
+  },
+  "aliases": [
+    "Nordik",
+    "GR2",
+    "GR 2"
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "id": "Loman",
+  "profile": {
+    "name": "Loman",
+    "title": "Torwächter des Vertrauens Loman",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "9300",
+    "damage_type": "Physical",
+    "gender": "Männlich",
+    "age": "24",
+    "height": "187",
+    "race": "Menschen",
+    "constellation": "Mertis, die Wächterin",
+    "birth": {
+      "month": 1,
+      "day": 12,
+      "monthName": "Monat des Schutzes"
+    },
+    "like": "Clause, Demia, Jelly, Holzschnitzerei",
+    "dislike": "Minze, Ginseng",
+    "story": "Würde jemand den Vertrauenswürdigsten unter den Wächterrittern wählen, wäre Loman bestimmt vorne dabei. Die Königsfamilie setzt so viel Vertrauen in Loman, dass sie ihn zum Torwächter der Orvel-Monarchie ernannt hat. Er ist für gewöhnlich freundlich und nett, jedoch kompromisslos, wenn jemand den König ohne königliche Erlaubnis besuchen möchte. Niemand, der seine Hellebarde von Scarlet zu Gesicht bekam, hat das je überlebt. Abseits seines Dienstes ist er ein sensibler Mann, der in seiner Freizeit Holzschnitzereien anfertigt.",
+    "thumbnail": "heroes/Loman/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Boden aufreißen",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Fügt Frontfeinden in Reichweite ??? Körp. Schaden zu, wirft sie für 4 Sek. zu Boden und erhöht die Körp. Schwäche der betroffenen Ziele 10 Sek. lang um 25 %.",
+      "thumbnail": "heroes/Loman/skills/1.png"
+    },
+    "2": {
+      "name": "Verschleiernder Glaube",
+      "cost": "3",
+      "cooldown": "23",
+      "description": "Entfernt negative Effekte von allen Verbündeten. Wirkt einen Schild auf alle Verbündeten, der ??? Schaden für 5 Sek. absorbiert, und verringert jeglichen Schaden an Verbündeten um 20 % für 10 Sek. Der Schild gewährt während seiner Dauer Massenkontroll-Immunität.",
+      "thumbnail": "heroes/Loman/skills/2.png"
+    },
+    "3": {
+      "name": "Glaube des Ritters",
+      "cost": "3",
+      "cooldown": "24",
+      "description": "Trifft Frontfeinde in Reichweite 3-mal. Die ersten 2 Treffer fügen ??? Körp. Schaden zu und betäuben Feinde für 1.5 Sek., während der letzte Treffer weiter entfernte Feinde 2-mal angreift und dabei insgesamt ??? Körp. Schaden zufügt. Der letzte Treffer betäubt Feinde für 5 Sek., hinterlässt das [Mal des Glaubens] auf Feinden und fügt ihnen für 15 Sek. Schaden zu. Ziele mit dem [Mal des Glaubens] erleiden ??? zusätzlichen Körp. Schaden von Verbündeten (außer der Wirkende). Ein zusätzlicher Schadenseffekt wird einmal pro 0.5 Sek. aktiviert.",
+      "thumbnail": "heroes/Loman/skills/3.png"
+    },
+    "4": {
+      "name": "Der letzte Torwächter",
+      "cost": null,
+      "cooldown": null,
+      "description": "Stapelt jede Sek. [Geduld]. [Geduld] lässt sich nicht entfernen und bei 20 Stapeln werden ??? Körp. Schaden zugefügt, VERT bei nahen Feinden ignoriert und ANG der betroffenen Feinde für 10 Sek. um 20 % verringert. Erfolgreiches Blockieren gewährt 1 zusätzlichen Stapel [Geduld]. Dieser Effekt wird einmal aller 0.2 Sek. aktiviert.",
+      "thumbnail": "heroes/Loman/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Blockt allen Schaden, während der Skill aktiv ist."
+    },
+    "2": {
+      "II": "Erhöht Schild um 10 %.",
+      "III": "Erhöht Schild um 15 %.",
+      "IV": "Erhöht Schild um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Reduziert Cooldown um 3 Sek.",
+          "thumbnail": "heroes/Loman/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Erhöht die Körp. Schwäche der betroffenen Ziele für 10 Sek. um 25 %.",
+          "thumbnail": "heroes/Loman/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert den Cooldown um 5 Sek.",
+          "thumbnail": "heroes/Loman/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Der Schild hält 5 Sek. länger an.",
+          "thumbnail": "heroes/Loman/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Ist nur noch 1 Feind auf dem Schlachtfeld, wird der Schaden um 100 % erhöht.",
+          "thumbnail": "heroes/Loman/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Massenkontroll-Immunität für die Dauer des Skills.",
+          "thumbnail": "heroes/Loman/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht die Anzahl der Geduld-Stapel jede Sek. um 1.",
+          "thumbnail": "heroes/Loman/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Verringert die ANG-GESCHW. des betroffenen Feindes 10 Sek. lang um 200.",
+          "thumbnail": "heroes/Loman/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATK, DEF, HP+15 % / Mag. Blockchance +200",
+        "thumbnail": "heroes/Loman/perks/light.png"
+      },
+      "dark": {
+        "effect": "Bei einer erfolgreichen Verteidigung gegen Mag. Schaden wird 5 Sek. lang Mag. Blockchance aller Verbündeter um 200 und die Mag. VERT um 10 % von Lomans Mag. VERT erhöht. Dieser Effekt wird alle 5 Sek. nur einmal ausgelöst.",
+        "thumbnail": "heroes/Loman/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Welle der Behütung, Gaiamenes",
+    "description": "Jeder Fähigkeitseinsatz erzeugt einen nicht entfernbaren Stapel Stolz von Orvelia. Bei 3 Stapeln fügt Segen von Orvelia Gegnern in einem großen Bereich physischen Schaden in Höhe von 200% des ANG zu und erhöht ihren erlittenen physischen Schaden für 20 Sek. um 25%. Außerdem steigt die eigene magische VTD für 10 Sek. um 10%.",
+    "value": {},
+    "thumbnail": "heroes/Loman/uw.png",
+    "story": "Die Hellebarde, die von einer antiken Wächterstatue gehalten wurde, die das Tor des Labyrinths bewachte, wurde vor Kurzem im unterirdischen Königslabyrinth gefunden. Die alte Statue hielt die Hellebarde fest in Händen, als ob sie ihre Entschlossenheit zeigen wollte, das Labyrinth vor Eindringlingen zu schützen. Loman, der mit der Ausgrabung des Labyrinths beauftragt war, spürte eine außergewöhnliche Energie von der Statue ausgehen und verneigte sich vor ihr. Genau in diesem Moment ließ die Statue die Waffe fallen und zerbrach in tausend Stücke. Die Hellebarde selbst schien unversehrt und war von einer mysteriösen Energie erfüllt.\n„Die Statue zerbrach plötzlich und ließ die Hellebarde fallen ...“\n, sagte Scarlet, als sie sich den Bericht ansah.\n„Ja.“\nScarlet richtete ihren Blick dann auf Loman.\n„Die unnachgiebige Aufrichtigkeit, einen Ort zu beschützen, bis der Körper zerfällt ... Ich kenne so einen Mann.“\n„Wie bitte?“\nEr schaute Scarlet fragend an, während sie ihm die Hellebarde lächelnd überreichte.",
+    "descriptionByStar": {
+      "0": "Jeder Fähigkeitseinsatz erzeugt einen nicht entfernbaren Stapel Stolz von Orvelia. Bei 3 Stapeln fügt Segen von Orvelia Gegnern in einem großen Bereich physischen Schaden in Höhe von 200% des ANG zu und erhöht ihren erlittenen physischen Schaden für 20 Sek. um 25%. Außerdem steigt die eigene magische VTD für 10 Sek. um 10%.",
+      "1": "Jeder Fähigkeitseinsatz erzeugt einen nicht entfernbaren Stapel Stolz von Orvelia. Bei 3 Stapeln fügt Segen von Orvelia Gegnern in einem großen Bereich physischen Schaden in Höhe von 240% des ANG zu und erhöht ihre physische Verwundbarkeit für 20 Sek. um 30%. Außerdem steigt die magische VTD für 10 Sek. um 12%.",
+      "2": "Jeder Fähigkeitseinsatz erzeugt einen nicht entfernbaren Stapel Stolz von Orvelia. Bei 3 Stapeln fügt Segen von Orvelia Gegnern in einem großen Bereich physischen Schaden in Höhe von 290% des ANG zu und erhöht ihre physische Verwundbarkeit für 20 Sek. um 36%. Außerdem steigt die magische VTD für 10 Sek. um 14%.",
+      "3": "Jeder Fähigkeitseinsatz erzeugt einen nicht entfernbaren Stapel Stolz von Orvelia. Bei 3 Stapeln fügt Segen von Orvelia Gegnern in einem großen Bereich physischen Schaden in Höhe von 350% des ANG zu und erhöht ihre physische Verwundbarkeit für 20 Sek. um 43%. Außerdem steigt die magische VTD für 10 Sek. um 17%.",
+      "4": "Jeder Fähigkeitseinsatz erzeugt einen nicht entfernbaren Stapel Stolz von Orvelia. Bei 3 Stapeln fügt Segen von Orvelia Gegnern in einem großen Bereich physischen Schaden in Höhe von 420% des ANG zu und erhöht ihre physische Verwundbarkeit für 20 Sek. um 51%. Außerdem steigt die magische VTD für 10 Sek. um 21%.",
+      "5": "Jeder Fähigkeitseinsatz erzeugt einen nicht entfernbaren Stapel Stolz von Orvelia. Bei 3 Stapeln fügt Segen von Orvelia Gegnern in einem großen Bereich physischen Schaden in Höhe von 500% des ANG zu und erhöht ihre physische Verwundbarkeit für 20 Sek. um 60%. Außerdem steigt die magische VTD für 10 Sek. um 25%."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Grundlegende Kampftechniken der Ritter von Orvelia",
+      "description": "[Boden aufreißen] verringert 10 Sek. lang das Körp. Blockchance des Ziels um 500 und seinen Massenkontroll-Widerstand um 100.",
+      "value": {},
+      "thumbnail": "heroes/Loman/ut/1.png",
+      "story": "Grundlegende Kampftechniken, die jeder Ritter Orvels im Zuge seiner Ausbildung lernt. Neben vielen anderen Techniken dient „Boden aufreißen“ als solide Grundlage für den Kampfstil eines Ritters. Sie gehört zu den ersten Techniken, die Ritter erlernen, doch der komplizierte Mechanismus sorgt für einen gewaltigen Machtunterschied zwischen einem Novizen und einem Meister. Loman hat es über tausend Mal durchgelesen, seit er zum Ritter geschlagen wurde, und er liest es auch heute noch, wenn er das Gefühl hat, dass er an einer seiner Techniken feilen muss.",
+      "descriptionByStar": {
+        "0": "[Boden aufreißen] verringert 10 Sek. lang das Körp. Blockchance des Ziels um 500 und seinen Massenkontroll-Widerstand um 100.",
+        "1": "[Boden aufreißen] verringert 10 Sek. lang das Körp. Blockchance des Ziels um 500 und seinen Massenkontroll-Widerstand um 120.",
+        "2": "[Boden aufreißen] verringert 10 Sek. lang das Körp. Blockchance des Ziels um 500 und seinen Massenkontroll-Widerstand um 140.",
+        "3": "[Boden aufreißen] verringert 10 Sek. lang das Körp. Blockchance des Ziels um 500 und seinen Massenkontroll-Widerstand um 170.",
+        "4": "[Boden aufreißen] verringert 10 Sek. lang das Körp. Blockchance des Ziels um 500 und seinen Massenkontroll-Widerstand um 210.",
+        "5": "[Boden aufreißen] verringert 10 Sek. lang das Körp. Blockchance des Ziels um 500 und seinen Massenkontroll-Widerstand um 250."
+      }
+    },
+    "2": {
+      "name": "Holzpuppenminiatur",
+      "description": "[Verschleiernder Glaube] verringert die Manakosten um 1 und stellt beim Ziel 400 Mana wieder her.",
+      "value": {},
+      "thumbnail": "heroes/Loman/ut/2.png",
+      "story": "Loman schnitzte kleine Figuren, so groß wie seine Hand, um bei Schwierigkeiten seine Gedanken zu ordnen. Wenn er die Kanten abrundete, wurde er ganz ruhig und erinnerte sich daran, wie es damals war, als er noch die Grundlagen erlernte. Anfangs war es nur ein Zeitvertreib, doch bald wurde es sein Hobby, eine Leidenschaft, die sein Zimmer mit hunderten Figuren füllte. Eines Tages begann Loman, seinen Freunden und seinen Männern Holzpuppen zu schenken. Damals waren Zauberpuppen, die das Herz vor dem Bösen schützen, sehr beliebt in Orvelia. Loman bat einen alten Schamanen, der traditionelle Heilkünste beherrschte, seine Holzpuppen mit einem Schutzzauber zu versehen, bevor er sie seinen Kollegen gab.",
+      "descriptionByStar": {
+        "0": "[Verschleiernder Glaube] verringert die Manakosten um 1 und stellt beim Ziel 400 Mana wieder her.",
+        "1": "[Verschleiernder Glaube] verringert die Manakosten um 1 und stellt beim Ziel 480 Mana wieder her.",
+        "2": "[Verschleiernder Glaube] verringert die Manakosten um 1 und stellt beim Ziel 580 Mana wieder her.",
+        "3": "[Verschleiernder Glaube] verringert die Manakosten um 1 und stellt beim Ziel 700 Mana wieder her.",
+        "4": "[Verschleiernder Glaube] verringert die Manakosten um 1 und stellt beim Ziel 840 Mana wieder her.",
+        "5": "[Verschleiernder Glaube] verringert die Manakosten um 1 und stellt beim Ziel 1.000 Mana wieder her."
+      }
+    },
+    "3": {
+      "name": "Meer der Anrufung",
+      "description": "[Glaube des Ritters] verringert den Cooldown um 30 % und erhöht den Körp. Schaden der Ziele für 10 Sek. um 10 %.",
+      "value": {},
+      "thumbnail": "heroes/Loman/ut/3.png",
+      "story": "Dieser besondere Anhänger ist ein Erbstück aus Lomans Familie, der ihr vom ersten König von Orvelia verliehen wurde, um sie für ihre Dienste zum Schutz der Monarchie zu ehren. Seine eigentliche Herkunft ist unbekannt, doch er soll von einer alten Zivilisation stammen und mit dem Geist eines Hüters des Orbis-Kontinents versehen sein. Auch die Besitzer dieses Gegenstands sind davon überzeugt. Wenn sie ihr Leben dafür riskieren, was ihnen wichtig ist, wenden sie sich an eine große Macht wie die Wellen des Meeres. Die Leute glauben nun, dass dieses blaue Juwel Geister anruft. Daher wird es Meer der Anrufung genannt. Loman erhielt es als Erbstück von seinem Vater, als er ins Schloss kam, und trägt es seither immer bei sich.",
+      "descriptionByStar": {
+        "0": "[Glaube des Ritters] verringert den Cooldown um 30 % und erhöht den Körp. Schaden der Ziele für 10 Sek. um 10 %.",
+        "1": "[Glaube des Ritters] verringert den Cooldown um 30 % und erhöht den Körp. Schaden der Ziele für 10 Sek. um 12 %.",
+        "2": "[Glaube des Ritters] verringert den Cooldown um 30 % und erhöht den Körp. Schaden der Ziele für 10 Sek. um 14 %.",
+        "3": "[Glaube des Ritters] verringert den Cooldown um 30 % und erhöht den Körp. Schaden der Ziele für 10 Sek. um 17 %.",
+        "4": "[Glaube des Ritters] verringert den Cooldown um 30 % und erhöht den Körp. Schaden der Ziele für 10 Sek. um 21 %.",
+        "5": "[Glaube des Ritters] verringert den Cooldown um 30 % und erhöht den Körp. Schaden der Ziele für 10 Sek. um 25 %."
+      }
+    },
+    "4": {
+      "name": "Schild des Vaters",
+      "description": "[Der letzte Torwächter] erhöht das eigene Mag. Blockchance um 200 und die Anzahl der durch erfolgreiche Blocks erlangten Geduld-Stapel um 1.",
+      "value": {},
+      "thumbnail": "heroes/Loman/ut/4.png",
+      "story": "Ein Schild, den Loman in der Vergangenheit benutzte. Für ihn ist er ein Schatz, den er von seinem Vater bekommen hatte, der der königlichen Familie als Torwächter diente.\nObwohl er den Schild schon lange nicht mehr benutzt hat, trägt er die Worte seines Vaters immer in seinem Herzen: „Sei der Schild, der Orvelia beschützt.“\nSolange Loman lebt, wird er niemals zulassen, dass ein Feind das Tor von Orvelia durchschreitet.",
+      "descriptionByStar": {
+        "0": "[Der letzte Torwächter] erhöht das eigene Mag. Blockchance um 200 und die Anzahl der durch erfolgreiche Blocks erlangten Geduld-Stapel um 1.",
+        "1": "[Der letzte Torwächter] erhöht das eigene Mag. Blockchance um 240 und die Anzahl der durch erfolgreiche Blocks erlangten Geduld-Stapel um 1.",
+        "2": "[Der letzte Torwächter] erhöht das eigene Mag. Blockchance um 290 und die Anzahl der durch erfolgreiche Blocks erlangten Geduld-Stapel um 1.",
+        "3": "[Der letzte Torwächter] erhöht das eigene Mag. Blockchance um 350 und die Anzahl der durch erfolgreiche Blocks erlangten Geduld-Stapel um 1.",
+        "4": "[Der letzte Torwächter] erhöht das eigene Mag. Blockchance um 420 und die Anzahl der durch erfolgreiche Blocks erlangten Geduld-Stapel um 1.",
+        "5": "[Der letzte Torwächter] erhöht das eigene Mag. Blockchance um 500 und die Anzahl der durch erfolgreiche Blocks erlangten Geduld-Stapel um 1."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 22 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Welle der Behütung, Gaiamenes und fügt den Gegnern an der Front ??? Körp. Schaden zu & betäubt sie 3 Sek. lang. Danach wird 10 Sek. lang der ANG aller Verbündeten um 30 % + 5 % des Loman-ANG und die Mag. VERT um 30 % erhöht. Aller 3 Sek. werden ??? MP aller Verbündeten regeneriert.",
+    "cooldown": "22",
+    "uses": "7",
+    "thumbnail": "heroes/Loman/sw.png",
+    "advancement": {
+      "1": "Aller 3 Sek. werden die TP von allen Verbündeten um 12 % der max. TP geheilt und die neg. Effekte entfernt.",
+      "2": "Verwendungsbedingungen werden um 6 Sek. verringert und pro Treffer wird 10 Sek. lang der erhaltene Körp. Schaden des getroffenen Gegners um 35 % erhöht."
+    },
+    "story": "Eines Tages, als Loman die Königl. Schatzkammer bewachte, versuchte ein massives Monster auszubrechen. Loman stand dem Monster allein gegenüber, und als das Königspalast davon hörte, schickte es die Soldaten sofort zur Königl. Schatzkammer. Als die Soldaten ankamen, sahen sie Loman, der darum kämpfte, das Biest abzuwehren. Die Soldaten stürmten auf das Tier zu, um Loman zu helfen, aber als die Soldaten das Tier umzingelten, tobte es weiter und schlachtete die Soldaten. Als Loman sah, dass seine Kameraden verletzt wurden, machte er sich selbst Vorwürfe, dass er nicht in der Lage war, das Biest aufzuhalten, und verspürte den starken Drang, sie zu retten. In diesem Moment, als sein Herz rein wie Wasser war und das große Vertrauen seiner Kameraden sich in Loman widerspiegelte, gab Gaiamenes seine wahre Kraft frei, um Loman zu helfen, seinen Willen zu erfüllen."
+  },
+  "splashart": "heroes/Loman/sa.png",
+  "costumes": "heroes/Loman/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

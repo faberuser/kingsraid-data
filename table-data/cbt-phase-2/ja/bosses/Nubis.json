@@ -1,0 +1,52 @@
+{
+  "id": "Nubis",
+  "profile": {
+    "name": "ヌビス",
+    "title": "拘束の女王",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "獣",
+    "damage_type": "Magical, Physical",
+    "recommended_heroes": "カウラ, エピス, ローレイン",
+    "characteristics": "[女王の子]により、召喚したサソリの数に応じてボスの防御力と攻撃力が大きく増加します。範囲攻撃が得意な魔法型の英雄が有利に戦えるでしょう。",
+    "thumbnail": "bosses/Nubis.png"
+  },
+  "skills": {
+    "1": {
+      "name": "砂漠の毒針",
+      "cost": null,
+      "cooldown": "12",
+      "description": "ランダムな対象に毒針を発射し、魔法ダメージと魔法持続ダメージを与え、サソリを4体召喚します。"
+    },
+    "2": {
+      "name": "毒気吸収",
+      "cost": null,
+      "cooldown": "20",
+      "description": "周りの毒気を吸収し、物理ダメージを受けるとそのダメージを反射し、5秒間、石化状態にさせます。また、吸収が終わると、周りに衝撃波を発散して魔法ダメージを与え、3秒間、転倒させます。"
+    },
+    "3": {
+      "name": "石化の毒液",
+      "cost": null,
+      "cooldown": "20",
+      "description": "最も遠くにいる敵と、その周りに持続的に毒液を注入し、魔法ダメージを与えます。毒液注入が終わると、対象とその周りを、5秒間石化状態にさせます。"
+    },
+    "4": {
+      "name": "女王の子",
+      "cost": null,
+      "cooldown": null,
+      "description": "生きているサソリの数に比例し、自分のすべての防御力と攻撃力を大きく増加させます。ヌビスは攻撃速度の影響を受けません。"
+    },
+    "5": {
+      "name": "浄化",
+      "cost": null,
+      "cooldown": null,
+      "description": "30秒ごとに、自分のデバフを取り除き、攻撃速度を増加させます。"
+    }
+  },
+  "aliases": [
+    "Nubis",
+    "GR3",
+    "GR 3"
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "id": "Ricardo",
+  "profile": {
+    "name": "Ricardo",
+    "title": "Luas Richter Ricardo",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "3600",
+    "damage_type": "Physical",
+    "gender": "Männlich",
+    "age": "71",
+    "height": "215",
+    "race": "Menschen",
+    "constellation": "Kandala, der Eroberer",
+    "birth": {
+      "month": 8,
+      "day": 23,
+      "monthName": "Monat der Lebenskraft"
+    },
+    "like": "Leute; Anderen helfen",
+    "dislike": "Dämonen vor allem jene, die Leute ohne Grund angreifen",
+    "story": "Ein Held, der zahllose Leben vor den Dämonen rettete und der gegenwärtige Kommandant der Heiligen Ritter der Kirche von Lua. Dieser tapfere und erfahrene Ritter jagt seit seiner Jugend überall in Orvelia nach Dämonen. Außerdem ist er der Direktor des Waisenhauses, in dem Kasel, Frey und Clause aufwuchsen. Er bildete in Orvelia zahlreiche Krieger aus und wird als deren spiritueller Anführer betrachtet. Er plant, aufgrund seines Alters von seiner Position abzutreten, doch die Stärke, über die er trotz seiner Jahre verfügt, führte bisher stets zu einer Ablehnung seiner Ruhestandsanfragen.",
+    "thumbnail": "heroes/Ricardo/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Vernichtung",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Fügt Feinden an der Front ??? Körp. Schaden zu und wirft sie für 3 Sek. zu Boden.",
+      "thumbnail": "heroes/Ricardo/skills/1.png"
+    },
+    "2": {
+      "name": "Göttlicher Schutz",
+      "cost": "1",
+      "cooldown": "30",
+      "description": "Fügt Gegnern in Reichw. ??? Körp. Schaden zu und betäubt sie 1 Sek. lang. Zusätzlich ist die eigene Mag. VERT für 10 Sek. um ??? erhöht und fängt 80 % des Mag. Schadens für andere Gruppenmitglieder ab.",
+      "thumbnail": "heroes/Ricardo/skills/2.png"
+    },
+    "3": {
+      "name": "Göttliches Urteil",
+      "cost": "4",
+      "cooldown": "23",
+      "description": "Greift Feinde 3 Mal frontal an. Die ersten 2 Attacken verursachen Feinden ??? Körp. Schaden und betäuben sie für je 4 Sek. Die letzte Attacke hat eine 20 % größere Reichw., fügt Feinden ??? Körp. Schaden zu und betäubt sie für 4 Sek. Jeder Angriff hat eine 50 % Chance, Positiveffekte der Feinde zu entfernen.",
+      "thumbnail": "heroes/Ricardo/skills/3.png"
+    },
+    "4": {
+      "name": "Göttlicher Segen",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht die Mag. VERT eines Verbündeten 5 Sek. lang um ???, wenn er Mag. Schaden erleidet. Kann bis zu 5-mal gestapelt werdenl. Ricardo ist von diesem Effekt nicht betroffen.",
+      "thumbnail": "heroes/Ricardo/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Massenkontroll-Immunität für die Dauer des Skills."
+    },
+    "2": {
+      "II": "Erhöht VERT-Boost um 10 %.",
+      "III": "Erhöht VERT-Boost um 15 %.",
+      "IV": "Regeneriert 1 % der eigenen TP pro Sek. für 10 Sek."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Blockt allen Schaden, während der Skill aktiv ist."
+    },
+    "4": {
+      "II": "Erhöht VERT-Boost um 10 %.",
+      "III": "Erhöht VERT-Boost um 15 %.",
+      "IV": "Dauer wird um 2 Sek. erhöht."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Ziel erleidet 25 % erhöhten Körp. Schaden für 10 Sek.",
+          "thumbnail": "heroes/Ricardo/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Fügt dem Ziel zusätzlich Körp. Schaden in Höhe von 200 % der eigenen Mag. VERT zu.",
+          "thumbnail": "heroes/Ricardo/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Für 1 extra Mana erhält Ricardo 30 % Schadenswiderstand für abgefangenen Schaden.",
+          "thumbnail": "heroes/Ricardo/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Dieser Skilleffekt kann nicht entfernt werden.",
+          "thumbnail": "heroes/Ricardo/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht Betäubungsdauer um 2 Sek.",
+          "thumbnail": "heroes/Ricardo/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Ricardo/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht Mag. VERT-Erhöhungsrate um 40 %.",
+          "thumbnail": "heroes/Ricardo/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erhöht max. Stapel-Limit auf 8.",
+          "thumbnail": "heroes/Ricardo/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Körp. Blockchance +200",
+        "thumbnail": "heroes/Ricardo/perks/light.png"
+      },
+      "dark": {
+        "effect": "Falls eigene TP unter 40 % fallen, können TP 6 Sek. nicht unter 10 % fallen und ANG aller Verbündeten ist um 50 % der eigenen Mag. VERT erhöht. Dieser Effekt kann alle 60 Sek. ausgelöst werden.",
+        "thumbnail": "heroes/Ricardo/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Licht des Gesetzes, Theoria",
+    "description": "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 10 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 320 % des ANG absorbiert und Massenkontroll-Immunität gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst.",
+    "value": {},
+    "thumbnail": "heroes/Ricardo/uw.png",
+    "story": "Als das Heilige Schwert Aea Kyle gewährt wurde, erschien es im Tempel von Lua, nördlich der Königsebenen. Als Kyle das Schwert vom Altar nahm, wurde eine mächtige Lichtwelle freigesetzt, die alles Naheliegende in heiligen Boden verwandelte. Alle Gegenstände im Tempel wurden dadurch zu Relikten. Teoria, die mittlere Säule des Tempels, bekam dabei die größte Menge heiliger Energie ab.",
+    "descriptionByStar": {
+      "0": "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 10 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 320 % des ANG absorbiert und Massenkontroll-Immunität gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst.",
+      "1": "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 12 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 384 % des ANG absorbiert und Massenkontroll-Immunität gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst.",
+      "2": "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 14 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 460 % des ANG absorbiert und Massenkontroll-Immunität gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst.",
+      "3": "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 17 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 552 % des ANG absorbiert und Massenkontroll-Immunität gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst.",
+      "4": "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 20 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 660 % des ANG absorbiert und Massenkontroll-Immunität gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst.",
+      "5": "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 25 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 800 % des ANG absorbiert und Massenkontroll-Immunität gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Stola des Templers",
+      "description": "[Vernichtung] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden und Mag. Schaden 10 Sek. lang um 5 %.",
+      "value": {},
+      "thumbnail": "heroes/Ricardo/ut/1.png",
+      "story": "Eine zeremonielle Stola die dem Großmeister der Heiligen Ritter verliehen wurde.\nRicardo stellte daraus eine Insignie für seine Rüstung her, um die Moral seiner Kameraden auf dem Schlachtfeld anzuspornen. Wenn die Stola mit jedem Schwung von Theoria durch die Luft wirbelt, werden die Herzen seiner Verbündeten von Mut erfüllt.",
+      "descriptionByStar": {
+        "0": "[Vernichtung] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden und Mag. Schaden 10 Sek. lang um 5 %.",
+        "1": "[Vernichtung] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden und Mag. Schaden 10 Sek. lang um 6 %.",
+        "2": "[Vernichtung] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden und Mag. Schaden 10 Sek. lang um 7 %.",
+        "3": "[Vernichtung] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden und Mag. Schaden 10 Sek. lang um 8,5 %.",
+        "4": "[Vernichtung] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden und Mag. Schaden 10 Sek. lang um 10,5 %.",
+        "5": "[Vernichtung] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden und Mag. Schaden 10 Sek. lang um 12,5 %."
+      }
+    },
+    "2": {
+      "name": "Stolz des Heiligen Kriegers",
+      "description": "[Göttlicher Schutz] gewährt Massenkontroll-Immunität und erhöht den Mag. Widerstand um 10 % während der Wirkungsdauer.",
+      "value": {},
+      "thumbnail": "heroes/Ricardo/ut/2.png",
+      "story": "Schild der Schlichter von Luas heiligen Rittern. \nRelikt, das denjenigen von Luas heiligen Rittern verliehen wird, die sich den Titel des Schlichters verdient haben. \nEin Relikt, das mit Luas Segen durchwirkt ist. Es beschützt diejenigen, die unter dem Schutz der Göttin stehen und bestraft Feinde ohne Gnade.",
+      "descriptionByStar": {
+        "0": "[Göttlicher Schutz] gewährt Massenkontroll-Immunität und erhöht den Mag. Widerstand um 10 % während der Wirkungsdauer.",
+        "1": "[Göttlicher Schutz] gewährt Massenkontroll-Immunität und erhöht den Mag. Widerstand um 12 % während der Wirkungsdauer.",
+        "2": "[Göttlicher Schutz] gewährt Massenkontroll-Immunität und erhöht den Mag. Widerstand um 14 % während der Wirkungsdauer.",
+        "3": "[Göttlicher Schutz] gewährt Massenkontroll-Immunität und erhöht den Mag. Widerstand um 17 % während der Wirkungsdauer.",
+        "4": "[Göttlicher Schutz] gewährt Massenkontroll-Immunität und erhöht den Mag. Widerstand um 21 % während der Wirkungsdauer.",
+        "5": "[Göttlicher Schutz] gewährt Massenkontroll-Immunität und erhöht den Mag. Widerstand um 25 % während der Wirkungsdauer."
+      }
+    },
+    "3": {
+      "name": "Eid des Heiligen Kriegers",
+      "description": "[Göttliches Urteil] hebt mit 75 %iger Chance positive Effekte von Feinden auf und verringert ANG-GESCHW. des Ziels 10 Sek. lang um 100.",
+      "value": {},
+      "thumbnail": "heroes/Ricardo/ut/3.png",
+      "story": "Das Siegel, welches Ricardo als Pfand des Heiligen Kriegers einsetzte. Wenn sie zum ersten Mal zum Heiligen Krieger ernannt werden, hinterlassen Ritter ihre Namen auf dem Eideszertifikat, zusammen mit ihrem Siegel. Ricardo schuf sein Siegel mit seiner Hingabe an die Kirche von Lua. \nEr trägt es immer noch bei sich, nach all der Zeit, die vergangen ist.",
+      "descriptionByStar": {
+        "0": "[Göttliches Urteil] hebt mit 75 %iger Chance positive Effekte von Feinden auf und verringert ANG-GESCHW. des Ziels 10 Sek. lang um 100.",
+        "1": "[Göttliches Urteil] hebt mit 75 %iger Chance positive Effekte von Feinden auf und verringert ANG-GESCHW. des Ziels 10 Sek. lang um 120.",
+        "2": "[Göttliches Urteil] hebt mit 75 %iger Chance positive Effekte von Feinden auf und verringert ANG-GESCHW. des Ziels 10 Sek. lang um 140.",
+        "3": "[Göttliches Urteil] hebt mit 75 %iger Chance positive Effekte von Feinden auf und verringert ANG-GESCHW. des Ziels 10 Sek. lang um 170.",
+        "4": "[Göttliches Urteil] hebt mit 75 %iger Chance positive Effekte von Feinden auf und verringert ANG-GESCHW. des Ziels 10 Sek. lang um 210.",
+        "5": "[Göttliches Urteil] hebt mit 75 %iger Chance positive Effekte von Feinden auf und verringert ANG-GESCHW. des Ziels 10 Sek. lang um 250."
+      }
+    },
+    "4": {
+      "name": "Anhänger der Güte",
+      "description": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um 1 %.",
+      "value": {},
+      "thumbnail": "heroes/Ricardo/ut/4.png",
+      "story": "Das Symbol des Waisenhauses von Ricardo, das aus einem kleinen Kreuz innerhalb eines größeren Kreuzes besteht.\nDieser Anhänger wurde zusammen mit dem Bau des Waisenhauses in der Hoffnung hergestellt, dass Ricardos Gebete auch die unausgesprochenen Wünsche der kleinsten Kinder beinhalten würden, die selbst noch nicht sprechen können.\nAußerdem hat die Hohepriesterin Iris diesen Anhänger in Luas Namen gesegnet und er soll heranwachsende Kinder vor Krankheiten schützen.",
+      "descriptionByStar": {
+        "0": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um 1 %.",
+        "1": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um 1,2 %.",
+        "2": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um 1,4 %.",
+        "3": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um 1,7 %.",
+        "4": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um 2,1 %.",
+        "5": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um 2,5 %."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Pro Sekunde und pro zugefügten Schaden wird sie geladen und bei 100 Ladungen kann es verwendet werden.",
+    "description": "Beschwört die Seele von Licht des Gesetzes Theoria für 15 Sek. und erhöht die eigene VERT um 50 %. Wenn Ricardo während der Wirkungsdauer Schaden erleidet, wird mit einer 10 % Chance dem Schaden zufügenden Gegnern ??? Körp. Schaden zugefügt und dieser wird für 2 Sek. betäubt.",
+    "cooldown": "25",
+    "uses": "5",
+    "thumbnail": "heroes/Ricardo/sw.png",
+    "advancement": {
+      "1": "Betäubungsdauer wird um 2 Sek. erhöht.",
+      "2": "Aktivierungschance erhöht sich um 10 % und die MP des Schaden zufügenden Gegners werden um 500 verringert."
+    },
+    "story": "Die starke Seele mit dem Glauben von Lua und der Bekenntnis von Ricardo.\nTheorias Seele, die mit dem Verstand geschaffen wurde, um all die Dinge zu schützen, an die er glaubt und die er liebt, ist in der Form eines heiligen Golems.\nWie Ricardos Verzweiflung nach langen Jahren und zahlreichen Kämpfen ist Theoria ein Symbol für den starken Willen, der niemals gebrochen werden wird.\nAls das Heilige Schwert Aea zum ersten Mal in einer Welt mit glühender Kraft erschien und das Land in der Nähe in heiligen Boden verwandelte,\n\nveränderte die Theoria, die die Seele geöffnet hatte, die Energie in der Nähe, tötete das Böse und führte das Licht.\nVor dem heiligen Licht dieser Seele werden alle schlechten Dinge ihre Kraft verlieren\nund die gereinigte Seele wird den ewigen Frieden im Licht von Lua finden.\n\n... Oder zumindest denkt die Hohepriesterin Iris so.\nFür Ricardo ist es die Macht, die ihn vom Ruhestand abhält."
+  },
+  "splashart": "heroes/Ricardo/sa.png",
+  "costumes": "heroes/Ricardo/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

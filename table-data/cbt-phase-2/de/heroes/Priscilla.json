@@ -1,0 +1,272 @@
+{
+  "id": "Priscilla",
+  "profile": {
+    "name": "Priscilla",
+    "title": "Zofe aus Stahl Priscilla",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "4400",
+    "damage_type": "Physical",
+    "gender": "Weiblich",
+    "age": "27",
+    "height": "168",
+    "race": "Menschen",
+    "constellation": "Mertis, die Wächterin",
+    "birth": {
+      "month": 1,
+      "day": 15,
+      "monthName": "Monat des Schutzes"
+    },
+    "like": "Waffenbrüder; ihre Dame; hübsche Kleidung für ihre Dame",
+    "dislike": "Unordentlichkeit; Ungerechtigkeit",
+    "story": "Eine frühere Offizierin der Streitkräfte von Orvelia. Nach einem fehlgeschlagenen Versuch, Korruption unter den militärischen Führern aufzudecken, wurde sie entlassen. Um ihre korrupten Machenschaften geheim halten zu können, schickten die Militärs immer wieder Auftragsmörder, um sie zu beseitigen. Ihr langer und einsamer Kampf forderte langsam psychischen und physischen Tribut. Eines Tages bot ihr die aristokratische Daphnel-Familie ihren Schutz im Gegenzug für ihre Dienste. Sie willigte ein und arbeitet seitdem als Aishas Magd im Turm der Weisen. Bis heute versieht sie hingebungsvoll ihren Dienst als Leibwächterin. Ihre gesamten Einkünfte schickt sie allerdings an einen unbekannten Empfänger.",
+    "thumbnail": "heroes/Priscilla/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Präziser Stoß",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Fügt Gegnern im vorderen Bereich 625*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 306.5% of ATK Körp. Schaden zu und betäubt sie für 0.6 Sek. Dieser Angriff ist garantiert kritisch.",
+      "thumbnail": "heroes/Priscilla/skills/1.png"
+    },
+    "2": {
+      "name": "Zangenangriff",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Entfernt negative Effekte von sich selbst und den 3 Verbündeten mit dem höchsten ANG und gewährt für 10 Sek. [Angriff]. [Angriff]: Erhöht den ANG um 15% von Priscillas ANG + 55*(0.7+(0.3*Skill Level*Awakening Coefficient)).",
+      "thumbnail": "heroes/Priscilla/skills/2.png"
+    },
+    "3": {
+      "name": "Wirbelnder Tanz",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Fügt Gegnern in einem kreisförmigen Bereich 789*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 499.8% of ATK Körp. Schaden zu und zieht sie zu sich. Unter [Angriff] erhöht sich ihr erlittener Körp. Schaden für 10 Sek. um 40%.",
+      "thumbnail": "heroes/Priscilla/skills/3.png"
+    },
+    "4": {
+      "name": "Waffenbeherrschung",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht den ANG um 192*(0.7+(0.3*Skill Level*Awakening Coefficient)) und die Verteidigungsdurchdringung um 160.",
+      "thumbnail": "heroes/Priscilla/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "2": {
+      "II": "Erhöht ANG-Boost um [64ff64]10[-] %.",
+      "III": "Erhöht ANG-Boost um [64ff64]15[-] %.",
+      "IV": "Erhöht ANG-Boost um [64ff64]25[-] %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "4": {
+      "II": "Erhöht ANG-Boost um [64ff64]10[-] %.",
+      "III": "Erhöht ANG-Boost um [64ff64]15[-] %.",
+      "IV": "Erhöht Krit. Schaden um [64ff64]16[-] %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Die Betäubungsdauer wird auf 1.8 Sek. gesetzt.",
+          "thumbnail": "heroes/Priscilla/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Die unbedingten Krit. Treffer werden entfernt. Krit. Schaden wird um 150 % erhöht.",
+          "thumbnail": "heroes/Priscilla/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Erhöht die Manakosten um 1000,, aber verlängert die Dauer um 5 Sek.",
+          "thumbnail": "heroes/Priscilla/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht während [Angriff] bei einem normalen Angriff den erlittenen Schaden des Ziels für 1 Sek. um 25%.",
+          "thumbnail": "heroes/Priscilla/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Jeder Krit. Treffer reduziert Cooldown um 10 %.",
+          "thumbnail": "heroes/Priscilla/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Erhöht Schaden um 100 %, wenn nur 1 Feind auf dem Schlachtfeld ist.",
+          "thumbnail": "heroes/Priscilla/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht ANG-Boost um 40 %.",
+          "thumbnail": "heroes/Priscilla/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erhöht Krit. Chance um 250.",
+          "thumbnail": "heroes/Priscilla/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/CC-WDST. +100",
+        "thumbnail": "heroes/Priscilla/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht den ANG aller Verbündeten um 3% des eigenen ANG und ihre Körp. VERT um 3% der eigenen Körp. VERT.",
+        "thumbnail": "heroes/Priscilla/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Wirbeltanz, Excilius",
+    "description": "Reduziert beim Treffen von Gegnern mit einer Fähigkeit deren Abklingzeit um {0} Sek. pro getroffenem Gegner und erhöht das Angriffstempo für 5 Sek. um 2%. Die Angriffstempo-Erhöhung ist bis zu 10-mal stapelbar.",
+    "thumbnail": "heroes/Priscilla/uw.png",
+    "story": "Während ihrer militärischen Karriere erschlug Priscilla zahllose Feinde mit ihrer Hellebarde. Obwohl die Hellebarde nach ihrem Ruhestandsantritt in einen reparaturbedürftigen Zustand verfiel, wurde sie später als Excilius wiedererweckt. Dieses Upgrade war Teil des Auftrags an Annette, die für Aisha Mahitra herstellen sollte. Diese rasiermesserscharfe und unglaublich robuste neue Waffe verfügt über die magische Kraft, ihre Feinde anzuziehen. Diejenigen, die Priscilla beim Kampf gegen ihre dämonischen Feinde gesehen hatten, sprachen darüber als handelte es sich dabei um einen unaufhaltsamen Sturm.",
+    "value": {
+      "0": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.6",
+        "4": "1.8",
+        "5": "2"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Reduziert beim Treffen von Gegnern mit einer Fähigkeit deren Abklingzeit um 1 Sek. pro getroffenem Gegner und erhöht das Angriffstempo für 5 Sek. um 2%. Die Angriffstempo-Erhöhung ist bis zu 10-mal stapelbar.",
+      "1": "Reduziert beim Treffen von Gegnern mit einer Fähigkeit deren Abklingzeit um 1.2 Sek. pro getroffenem Gegner und erhöht das Angriffstempo für 5 Sek. um 2%. Die Angriffstempo-Erhöhung ist bis zu 10-mal stapelbar.",
+      "2": "Reduziert beim Treffen von Gegnern mit einer Fähigkeit deren Abklingzeit um 1.4 Sek. pro getroffenem Gegner und erhöht das Angriffstempo für 5 Sek. um 2%. Die Angriffstempo-Erhöhung ist bis zu 10-mal stapelbar.",
+      "3": "Reduziert beim Treffen von Gegnern mit einer Fähigkeit deren Abklingzeit um 1.6 Sek. pro getroffenem Gegner und erhöht das Angriffstempo für 5 Sek. um 2%. Die Angriffstempo-Erhöhung ist bis zu 10-mal stapelbar.",
+      "4": "Reduziert beim Treffen von Gegnern mit einer Fähigkeit deren Abklingzeit um 1.8 Sek. pro getroffenem Gegner und erhöht das Angriffstempo für 5 Sek. um 2%. Die Angriffstempo-Erhöhung ist bis zu 10-mal stapelbar.",
+      "5": "Reduziert beim Treffen von Gegnern mit einer Fähigkeit deren Abklingzeit um 2 Sek. pro getroffenem Gegner und erhöht das Angriffstempo für 5 Sek. um 2%. Die Angriffstempo-Erhöhung ist bis zu 10-mal stapelbar."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Gewicht des wütenden Angriffs",
+      "description": "[Präziser Stoß] erhöht den Schaden um 50 % und verringert Körp. Blockchance des Ziels 10 Sek. lang um {0}.",
+      "thumbnail": "heroes/Priscilla/ut/1.png",
+      "story": "Ein Gewicht, das an der Unterseite von Excilius’ Griff angebracht ist.\nEs hilft Priscilla dabei, eine bessere Balance zu finden, um verlässlichere und präzisere Angriffe ausführen zu können. Als Annette ihre Hellebarde zu Excilius verstärkt hatte, ersetzte sie auch das Gewicht. Durch technomagische Verstärkung konnte der Härtegrade des Gewichts deutlich erhöht werden, sodass sie jetzt mit noch größerer Präzision zuschlagen kann.",
+      "value": {
+        "0": {
+          "0": "150",
+          "1": "180",
+          "2": "210",
+          "3": "240",
+          "4": "270",
+          "5": "300"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Präziser Stoß] erhöht den Schaden um 50 % und verringert Körp. Blockchance des Ziels 10 Sek. lang um 150.",
+        "1": "[Präziser Stoß] erhöht den Schaden um 50 % und verringert Körp. Blockchance des Ziels 10 Sek. lang um 180.",
+        "2": "[Präziser Stoß] erhöht den Schaden um 50 % und verringert Körp. Blockchance des Ziels 10 Sek. lang um 210.",
+        "3": "[Präziser Stoß] erhöht den Schaden um 50 % und verringert Körp. Blockchance des Ziels 10 Sek. lang um 240.",
+        "4": "[Präziser Stoß] erhöht den Schaden um 50 % und verringert Körp. Blockchance des Ziels 10 Sek. lang um 270.",
+        "5": "[Präziser Stoß] erhöht den Schaden um 50 % und verringert Körp. Blockchance des Ziels 10 Sek. lang um 300."
+      }
+    },
+    "2": {
+      "name": "Schickes Teeservice",
+      "description": "[Zangenangriff] verstärkt die ANG-Erhöhung um {0}% und reduziert die Abklingzeit der Fähigkeiten des Verbündeten mit dem höchsten ANG um 20%.",
+      "thumbnail": "heroes/Priscilla/ut/2.png",
+      "story": "Aishas Lieblings-Keramikteetassen, die Priscilla jederzeit bereithält. \nLuxuriöse Teetassen, die aus dem besten Ton des östlichen Kontinents jenseits des Meeres hergestellt wurden. Sie werden größtenteils zum Teetrinken mit Aisha benutzt, aber auch für den „Zangenangriff“ mit Priscilla.",
+      "value": {
+        "0": {
+          "0": "25",
+          "1": "30",
+          "2": "35",
+          "3": "40",
+          "4": "45",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Zangenangriff] verstärkt die ANG-Erhöhung um 25% und reduziert die Abklingzeit der Fähigkeiten des Verbündeten mit dem höchsten ANG um 20%.",
+        "1": "[Zangenangriff] erhöht den ANG-Boost um 20 % und verringert den Cooldown des Helden mit dem höchsten ANG um 30 %.",
+        "2": "[Zangenangriff] verstärkt die ANG-Erhöhung um 35% und reduziert die Abklingzeit der Fähigkeiten des Verbündeten mit dem höchsten ANG um 20%.",
+        "3": "[Zangenangriff] verstärkt die ANG-Erhöhung um 40% und reduziert die Abklingzeit der Fähigkeiten des Verbündeten mit dem höchsten ANG um 20%.",
+        "4": "[Zangenangriff] verstärkt die ANG-Erhöhung um 45% und reduziert die Abklingzeit der Fähigkeiten des Verbündeten mit dem höchsten ANG um 20%.",
+        "5": "[Zangenangriff] verstärkt die ANG-Erhöhung um 50% und reduziert die Abklingzeit der Fähigkeiten des Verbündeten mit dem höchsten ANG um 20%."
+      }
+    },
+    "3": {
+      "name": "Magischer Stein der Schwerkraft",
+      "description": "[Wirbelnder Tanz] Erhöht den Schaden um {0} % und betäubt das Ziel für 1.8 Sek.",
+      "thumbnail": "heroes/Priscilla/ut/3.png",
+      "story": "Das erste magische Werkzeug, das von einem lila Zauberer hergestellt wurde. Das erste Geschenk, das Aisha verlieh. Aisha schuf dieses magische Werkzeug, weil sie ein schlechtes Gewissen hatte, dass Priscilla bei ihrem „Wirbelnden Tanz“ so viel Kraft verbraucht. Der Manastein der Schwerkraft befreit den Körper beim Wirbelnden Tanz von der Schwerkraft und verstärkt dessen Effekt.",
+      "value": {
+        "0": {
+          "0": "25",
+          "1": "30",
+          "2": "35",
+          "3": "40",
+          "4": "45",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Wirbelnder Tanz] Erhöht den Schaden um 25 % und betäubt das Ziel für 1.8 Sek.",
+        "1": "[Wirbelnder Tanz] Erhöht den Schaden um 30 % und betäubt das Ziel für 1.8 Sek.",
+        "2": "[Wirbelnder Tanz] Erhöht den Schaden um 35 % und betäubt das Ziel für 1.8 Sek.",
+        "3": "[Wirbelnder Tanz] Erhöht den Schaden um 40 % und betäubt das Ziel für 1.8 Sek.",
+        "4": "[Wirbelnder Tanz] Erhöht den Schaden um 45 % und betäubt das Ziel für 1.8 Sek.",
+        "5": "[Wirbelnder Tanz] Erhöht den Schaden um 50 % und betäubt das Ziel für 1.8 Sek."
+      }
+    },
+    "4": {
+      "name": "Unruhebringer",
+      "description": "[Waffenbeherrschung] Erhöht den ANG-Bonus um 50 % und die eigene physische VTD um {0} %.",
+      "thumbnail": "heroes/Priscilla/ut/4.png",
+      "story": "Eine Hellebarde, die Priscilla zum Üben benutzte.\nDer Sturm des Krieges wurde mit diesem schäbigen, alten Speer entfesselt.\nPriscilla hat ihn hin und wieder herausgeholt, um sich ihre Ausbildung wieder ins Gedächtnis zu rufen.\nSo konnte sie ihrem Lebensstil immer treu bleiben und ihre Herrin vor allen Gefahren beschützen.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14.4",
+          "2": "16.8",
+          "3": "19.2",
+          "4": "21.6",
+          "5": "24"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Waffenbeherrschung] Erhöht den ANG-Bonus um 50 % und die eigene physische VTD um 12 %.",
+        "1": "[Waffenbeherrschung] Erhöht den ANG-Bonus um 50 % und die eigene physische VTD um 14.4 %.",
+        "2": "[Waffenbeherrschung] Erhöht den ANG-Bonus um 50 % und die eigene physische VTD um 16.8 %.",
+        "3": "[Waffenbeherrschung] Erhöht den ANG-Bonus um 50 % und die eigene physische VTD um 19.2 %.",
+        "4": "[Waffenbeherrschung] Erhöht den ANG-Bonus um 50 % und die eigene physische VTD um 21.6 %.",
+        "5": "[Waffenbeherrschung] Erhöht den ANG-Bonus um 50 % und die eigene physische VTD um 24 %."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für [64ff64]19[-] Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von [Wirbeltanz, Excilius] für 12 Sek. und erhöht den ANG von sich selbst und den 3 Verbündeten mit dem höchsten ANG um 20% sowie den Krit. Schaden um 32%. Die 3 Verbündeten mit dem höchsten ANG erhalten außerdem für 5 Sek. Immunität gegen Kontrolle.",
+    "cooldown": "18",
+    "uses": "6",
+    "thumbnail": "heroes/Priscilla/sw.png",
+    "advancement": {
+      "1": "Verwendungsbedingungen werden um 4 Sek. verringert.",
+      "2": "Erhöht während der Wirkungsdauer den Schaden der 3 Verbündeten mit dem höchsten ANG um 14%."
+    },
+    "story": "Excilius erinnert sich.\nEr erinnert sich an den Krieger mit einer starken Seele, der den eisernen Willen zeigt.\nDie Zeit, als sie sagte, dass er gute Arbeit geleistet hatte.\n\nExcilius fühlt es.\nIhre Hand, die gezittert hat, als sie wieder eine Kriegerin traf.\nDieser eiserne Wille, den er in den Fingerspitzen fühlte, ist in ihm aufgesogen worden.\n\nSie wird mich wecken, und ich werde sie, die alle beschützen will, wie einen eisernen Sturm beschützen."
+  },
+  "splashart": "heroes/Priscilla/sa.png",
+  "costumes": "heroes/Priscilla/cos",
+  "_localization": {
+    "locale": "de",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

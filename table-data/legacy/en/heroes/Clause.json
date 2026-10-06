@@ -1,0 +1,263 @@
+{
+  "id": "Clause",
+  "profile": {
+    "name": "Clause",
+    "title": "Knight of Iron Defense Clause",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "1500",
+    "damage_type": "Physical",
+    "gender": "Male",
+    "age": "20",
+    "height": "195",
+    "race": "Human",
+    "constellation": "Asiphia the Empress",
+    "birth": {
+      "month": 10,
+      "day": 22,
+      "monthName": "Month of Friendship"
+    },
+    "like": "His new family",
+    "dislike": "Causing harm to friends",
+    "story": "This upright and righteous man protects Orvel as one of its knights. Many people consider him a dependable defender of Orvel, but due to his lack of interest in wealth and success, his actual rank within the order has never been very high. He grew up together with Kasel and Frey in the same orphanage, and he loves his land as the home of those precious to him. He recently volunteered to join the expedition to investigate the King's Plains.",
+    "thumbnail": "heroes/Clause/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Cut Ground",
+      "cost": "2",
+      "cooldown": "9",
+      "description": "Leaps into the air and deals ??? P.DMG to enemies in range, stunning them for 5 sec.",
+      "thumbnail": "heroes/Clause/skills/1.png"
+    },
+    "2": {
+      "name": "Shield Strike",
+      "cost": "1",
+      "cooldown": "8",
+      "description": "Deals ??? P.DMG proportional to Clause's P.DEF to enemies in range and knocks them back. Hit enemies have their All DEF and ATK Spd reduced by 30% and 500 for 20 sec, respectively. When Clause successfully blocks an attack, reduces this Skill's Cooldown by 0.5 sec.",
+      "thumbnail": "heroes/Clause/skills/2.png"
+    },
+    "3": {
+      "name": "Guardian Shield",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Increases all allies' P.DEF by ???, P.Crit Resistance by 300, and reduces P.DMG they take by 25% for 20 sec.",
+      "thumbnail": "heroes/Clause/skills/3.png"
+    },
+    "4": {
+      "name": "Vow of Knights",
+      "cost": null,
+      "cooldown": "1",
+      "description": "Upon blocking, deals ??? P.DMG to frontal enemies, reducing ATK of hit targets by 20% for 8 sec and recovering own Mana by 300. When an ally excluding self takes DMG, increases all allies' P.DEF by 20% and P.Crit Resistance by 200 for 5 sec. This effect only activates once every 10 sec.",
+      "thumbnail": "heroes/Clause/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Increases DMG by 10%.",
+      "III": "Increases DMG by 15%.",
+      "IV": "Increases DMG by 25%."
+    },
+    "2": {
+      "II": "Increases DMG by 10%.",
+      "III": "Increases DMG by 15%.",
+      "IV": "Increases DMG by 25%."
+    },
+    "3": {
+      "II": "Increases DEF Boost by 10%.",
+      "III": "Increases DEF Boost by 15%.",
+      "IV": "Increases DEF Boost by 25%."
+    },
+    "4": {
+      "II": "Increases DMG by 10%.",
+      "III": "Increases DMG by 15%.",
+      "IV": "Increases DMG by 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Cooldown is reduced by 2 sec.",
+          "thumbnail": "heroes/Clause/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "In exchange for 1 additional Mana Cost, the skill has a 100% chance to draw the target in.",
+          "thumbnail": "heroes/Clause/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Increases All DMG the target takes by 25% for 10 sec.",
+          "thumbnail": "heroes/Clause/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Stuns the enemy for 1 sec.",
+          "thumbnail": "heroes/Clause/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "DEF boost is increased by 40 %.",
+          "thumbnail": "heroes/Clause/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Increases P.Block Chance by 250 for the duration.",
+          "thumbnail": "heroes/Clause/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Increases All DMG the hit target takes by 20% for 10 sec. A 10 sec Cooldown will be applied.",
+          "thumbnail": "heroes/Clause/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Reduce an additional 10% of ATK.",
+          "thumbnail": "heroes/Clause/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATK, DEF, HP +15% / P. Block +200",
+        "thumbnail": "heroes/Clause/perks/light.png"
+      },
+      "dark": {
+        "effect": "At the beginning of each battle, increases ATK of all allies by 15%. This effect can be stacked up to max 3 times and is irremovable.",
+        "thumbnail": "heroes/Clause/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "The Guardian, Exian",
+    "description": "After using own active Skill 3 times, increases all allies' P.DEF by {0}% and ATK by {1}% for 15 sec. The ATK Boost effect multiplies by 2 for the ally with the highest ATK.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
+    "thumbnail": "heroes/Clause/uw.png",
+    "story": "A sword and shield set engraved with various Runes and infused with ancient magic. These legendary items are said to have been created eons ago by an ancient dragon named Exian, using its own scales. As one of the royal treasures of Orvel, the sword is bestowed only to the knight of the most honorable principles. Its wielder shall serve as the defender of the kingdom and its people, and the protector of life.",
+    "descriptionByStar": {
+      "0": "After using own active Skill 3 times, increases all allies' P.DEF by 10% and ATK by 10% for 15 sec. The ATK Boost effect multiplies by 2 for the ally with the highest ATK.",
+      "1": "Upon casting an active skill 3 times, increases P.DEF and ATK for all allies by 12% for 10 sec. ATK boost is doubled for the ally with the highest ATK.",
+      "2": "Upon casting an active skill 3 times, increases P.DEF and ATK for all allies by 14% for 10 sec. ATK boost is doubled for the ally with the highest ATK.",
+      "3": "Upon casting an active skill 3 times, increases P.DEF and ATK for all allies by 17% for 10 sec. ATK boost is doubled for the ally with the highest ATK.",
+      "4": "Upon casting an active skill 3 times, increases P.DEF and ATK for all allies by 21% for 10 sec. ATK boost is doubled for the ally with the highest ATK.",
+      "5": "Upon casting an active skill 3 times, increases P.DEF and ATK for all allies by 25% for 10 sec. ATK boost is doubled for the ally with the highest ATK."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Cape of Justice",
+      "description": "[Cut Ground] Increases All DMG the target takes by {0}% for 10 sec and recovers own Mana by 400 per 1 hit enemy.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Clause/ut/1.png",
+      "story": "A ceremonial cape used on special occasions of Orvelia.\nEver since it was bestowed upon Clause on the day he was knighted, it reminds Clause of his early resolutions. Whenever he wants to quit, exhausted from all the battles, Clause would bring it out and contemplate on it. Young Kasel used to watch Clause do this and dream of becoming a knight.",
+      "descriptionByStar": {
+        "0": "[Cut Ground] Increases All DMG the target takes by 10% for 10 sec and recovers own Mana by 400 per 1 hit enemy.",
+        "1": "[Cut Ground] Increases P.DMG target receives by 12% for 10 sec, and recovers own Mana by 400 per every hit enemy.",
+        "2": "[Cut Ground] Increases P.DMG target receives by 14% for 10 sec, and recovers own Mana by 400 per every hit enemy.",
+        "3": "[Cut Ground] Increases P.DMG target receives by 17% for 10 sec, and recovers own Mana by 400 per every hit enemy.",
+        "4": "[Cut Ground] Increases P.DMG target receives by 21% for 10 sec, and recovers own Mana by 400 per every hit enemy.",
+        "5": "[Cut Ground] Increases P.DMG target receives by 25% for 10 sec, and recovers own Mana by 400 per every hit enemy."
+      }
+    },
+    "2": {
+      "name": "Firm Determination",
+      "description": "[Shield Strike] Reduces hit enemies' All Crit Resistance by 500 and Crit Chance by {0} for 10 sec.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Clause/ut/2.png",
+      "story": "Old wooden shield of the knight of the Iron Wall. \nIt's a precious shield that Clause used when he first started training. He has since engraved the names of his deceased comrades in order to remember his determination as a guardian knight. \nEach time he pushes away enemies with the shield, the knight's firm determination helps him tap into power beyond his limits.",
+      "descriptionByStar": {
+        "0": "[Shield Strike] Reduces hit enemies' All Crit Resistance by 500 and Crit Chance by 100 for 10 sec.",
+        "1": "[Shield Strike] Reduces P.Crit Resistance of the affected enemy by 500 and Crit Chance by 120 for 10 sec.",
+        "2": "[Shield Strike] Reduces P.Crit Resistance of the affected enemy by 500 and Crit Chance by 140 for 10 sec.",
+        "3": "[Shield Strike] Reduces P.Crit Resistance of the affected enemy by 500 and Crit Chance by 170 for 10 sec.",
+        "4": "[Shield Strike] Reduces P.Crit Resistance of the affected enemy by 500 and Crit Chance by 210 for 10 sec.",
+        "5": "[Shield Strike] Reduces P.Crit Resistance of the affected enemy by 500 and Crit Chance by 250 for 10 sec."
+      }
+    },
+    "3": {
+      "name": "Guardian Knight Insignia",
+      "description": "[Guardian Shield] Upon activation, dispels all negative effects from self and increases DEF Boost by 20%.",
+      "value": {},
+      "thumbnail": "heroes/Clause/ut/3.png",
+      "story": "Rune of the Orvel Guardian Knights. A Gold Lion Rune that is given to knights when they first join the Guardian Knights, along with the vow that they will give their lives to protect the kingdom. \nThe rune from the Guardian Knights bolsters a knight's iron will and loyalty, increasing the effectiveness of the Guardian Shield.",
+      "descriptionByStar": {
+        "0": "[Guardian Shield] Upon activation, dispels all negative effects from self and increases DEF Boost by 20%.",
+        "1": "[Guardian Shield] Upon activation, dispels all negative effects from self and increases DEF Boost by 24%.",
+        "2": "[Guardian Shield] Upon activation, dispels all negative effects from self and increases DEF Boost by 29%.",
+        "3": "[Guardian Shield] Upon activation, dispels all negative effects from self and increases DEF Boost by 35%.",
+        "4": "[Guardian Shield] Upon activation, dispels all negative effects from self and increases DEF Boost by 42%.",
+        "5": "[Guardian Shield] Upon activation, dispels all negative effects from self and increases DEF Boost by 50%."
+      }
+    },
+    "4": {
+      "name": "Mittens",
+      "description": "[Vow of Knights] Upon activation, heals HP by 2% of Max HP, and increases own P.DEF by 20% for 5 sec.",
+      "value": {},
+      "thumbnail": "heroes/Clause/ut/4.png",
+      "story": "A pair of gloves that Clause cherishes the most.\nYoung Kasel and Frey gave him these when Clause was ordained a knight during a particularly cold winter.\nAlthough it wasn't knitted perfectly, each of them knitted each piece with their initials engraved on it.",
+      "descriptionByStar": {
+        "0": "[Vow of Knights] Upon activation, heals HP by 2% of Max HP, and increases own P.DEF by 20% for 5 sec.",
+        "1": "[Vow of Knights] Upon activation, heals HP by 2% of Max HP, and increases own P.DEF by 24% for 5 sec.",
+        "2": "[Vow of Knights] Upon activation, heals HP by 2% of Max HP, and increases own P.DEF by 29% for 5 sec.",
+        "3": "[Vow of Knights] Upon activation, heals HP by 2% of Max HP, and increases own P.DEF by 35% for 5 sec.",
+        "4": "[Vow of Knights] Upon activation, heals HP by 2% of Max HP, and increases own P.DEF by 42% for 5 sec.",
+        "5": "[Vow of Knights] Upon activation, heals HP by 2% of Max HP, and increases own P.DEF by 50% for 5 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Charges up upon using Skills 5 times.",
+    "description": "Summons the soul of The Guardian, Exian, increasing P.DEF of all allies by 70% for 12 sec. For the duration of Skill, normal attacks inflict Stun on the target for 1 sec and reduce its All DEF by 7% for 5 sec. The DEF Reduction effect can be stacked up to max 5 times.",
+    "cooldown": "22",
+    "uses": "5",
+    "thumbnail": "heroes/Clause/sw.png",
+    "advancement": {
+      "1": "Upon activation, reduces P.DMG the ally with the highest ATK takes by 80% and increases that ally's ATK by 100% of Clause's P.DEF for 12 sec. This effect is irremovable.",
+      "2": "Upon activation, increases DMG the ally with the highest ATK deals by 15% for 12 sec. Clause's normal attacks increase All DMG the target takes by 20% for 5 sec."
+    },
+    "story": "Exian was always there with Clause. Exian saw how Clause swore to protect the ones precious to him, how he refused to be discouraged even facing loss, and how he cried in despair after losing his family. Exian has always regarded Clause's conviction and courage highly, and whenever Clause cried and directed his fury, Exian did the same. Ultimately, Exian resonated with Clause’s soul and unleashed its full power.\n'-Guardian knight, I shall guard you from now on, so that your conviction will never break!'\nExian’s power, awakened through ancient magic and ironclad will, shall accompany the unbreakable knight in his journey, even if the path is perilous and twisted..."
+  },
+  "splashart": "heroes/Clause/sa.png",
+  "costumes": "heroes/Clause/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "en",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

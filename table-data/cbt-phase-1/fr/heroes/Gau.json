@@ -1,0 +1,276 @@
+{
+  "id": "Gau",
+  "profile": {
+    "name": "Gau",
+    "title": "Gau, Barbare des Terres gelées",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "500",
+    "damage_type": "Physical",
+    "gender": "Homme",
+    "age": "33",
+    "height": "231",
+    "race": "Barbare",
+    "constellation": "Layan la Justiciére",
+    "birth": {
+      "month": 9,
+      "day": 23,
+      "monthName": "Mois de la Vérité"
+    },
+    "like": "Les enfants et les animaux",
+    "dislike": "Les personnes destructives et violentes",
+    "story": "Gau est un puissant guerrier du royaume barbare. Dès qu'il maniait ses deux haches, un bain de sang s'ensuivait. Sa férocité légendaire avait fait de lui un guerrier redouté. Cependant, il disparut soudainement pendant dix ans et, à son retour, il avait changé du tout au tout. Ses tendances violentes avaient disparu, même lorsque les autres le critiquaient. Au lieu de cela, il répond par des sourires et un rire jovial. C'est particulièrement surprenant de le voir sourire avec bonté aux enfants et aux animaux.",
+    "thumbnail": "heroes/Gau/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Fracasser",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Inflige 304*(0.7+(0.3*Skill Level*Awakening Coefficient))+192.2% ATK DEG P 2 fois aux ennemis à portée. Le premier coup les renverse pendant 1.5 sec. Cette compétence gagne 800 de pénétration de DEF. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Gau/skills/1.png"
+    },
+    "2": {
+      "name": "Rugissement de Bataille",
+      "cost": "3",
+      "cooldown": "16",
+      "description": "Dissipe les effets négatifs de tous les alliés et augmente leur ATQ de 252*(0.7+(0.3*Skill Level*Awakening Coefficient)), leur vitesse d’attaque de 10% et leur DEF P de 91*(0.7+(0.3*Skill Level*Awakening Coefficient)) pendant 8 sec.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Gau/skills/2.png"
+    },
+    "3": {
+      "name": "Vortex",
+      "cost": "2",
+      "cooldown": "20",
+      "description": "Charge vers l'avant et inflige 161*(0.7+(0.3*Skill Level*Awakening Coefficient))+80.9% ATK DEG P 12 fois aux ennemis proches. Immunisé contre les contrôles pendant l'incantation. Le dernier coup gèle les ennemis pendant 2 sec. Augmente également leurs DEG P subis de 16% pendant 10 sec. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Gau/skills/3.png"
+    },
+    "4": {
+      "name": "Accès de Rage",
+      "cost": null,
+      "cooldown": null,
+      "description": "Chaque seconde, augmente l’ATQ de 16*(0.7+(0.3*Skill Level*Awakening Coefficient)), la résistance aux contrôles de 10 et les DEG infligés aux ennemis non héros de 1%. Cet effet se cumule jusqu’à 20 fois.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Gau/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "2": {
+      "II": "Augmente l'augmentation d'ATQ et de DEF de [64ff64]10[-]%.",
+      "III": "Augmente l'augmentation d'ATQ et de DEF de [64ff64]15[-]%.",
+      "IV": "Augmente l'augmentation d'ATQ et de DEF de [64ff64]25[-]%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Pendant l'incantation, rassemble tous les ennemis à portée."
+    },
+    "4": {
+      "II": "Augmente l'augmentation d'ATQ de [64ff64]10[-]%.",
+      "III": "Augmente l'augmentation d'ATQ de [64ff64]15[-]%.",
+      "IV": "Augmente la Résistance aux CC de 30 par cumul."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Le coût en Mana est réduit de 1000.",
+          "thumbnail": "heroes/Gau/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Chaque utilisation augmente les DEG de 15%. Cumulable 10 fois.",
+          "thumbnail": "heroes/Gau/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Modifie tous les effets pour qu'ils ne puissent être dissipés.",
+          "thumbnail": "heroes/Gau/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Le bonus d'ATQ augmente de 50 %.",
+          "thumbnail": "heroes/Gau/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Réduit le temps de recharge de 3 sec.",
+          "thumbnail": "heroes/Gau/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Pendant l'incantation, vous devenez immunisé contre tous les dégâts.",
+          "thumbnail": "heroes/Gau/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Modifie tous les effets pour qu'ils ne puissent être dissipés.",
+          "thumbnail": "heroes/Gau/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Réduit la DEF du lanceur de 3% par charge cumulée et modifie les DEG infligés aux ennemis non Héros à 2.5%.",
+          "thumbnail": "heroes/Gau/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Blocage P +200",
+        "thumbnail": "heroes/Gau/perks/light.png"
+      },
+      "dark": {
+        "effect": "Récupère chaque seconde des PV égaux à 10% de l'ATQ. Pour chaque tranche de 1% de PV perdus, réduit tous les DEG subis de 0.5%.",
+        "thumbnail": "heroes/Gau/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Numinu, l'Oiseau sacré",
+    "description": "Augmente ses PV Max de {0}%. Lors d'une attaque automatique, a 15% de chances d'infliger des DEG P supplémentaires à hauteur de {1}% de son ATQ et de geler pendant 1 sec.",
+    "thumbnail": "heroes/Gau/uw.png",
+    "story": "On dit qu'une bête sacrée protège les barbares de la Montagne Enneigée Terre-Venteuse. Cette bête, capable de dissiper la puissance des ténèbres, est un phénix bleu composé de glace. Numinu a été créé sous la forme de cette bête. Son nom signifie « sacré ». Il a été conçu dans une glace qui ne fond jamais. Les barbares considèrent cette arme comme une relique sacrée et la donnent à leur meilleur guerrier. Celui qui la manie doit être leur plus fort de tous les barbares, au point d'être considéré comme leur roi.",
+    "value": {
+      "0": {
+        "0": "14",
+        "1": "16.8",
+        "2": "19.6",
+        "3": "22.4",
+        "4": "25.2",
+        "5": "28"
+      },
+      "1": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Augmente ses PV Max de 14%. Lors d'une attaque automatique, a 15% de chances d'infliger des DEG P supplémentaires à hauteur de 200% de son ATQ et de geler pendant 1 sec.",
+      "1": "Augmente ses PV Max de 16.8%. Lors d'une attaque automatique, a 15% de chances d'infliger des DEG P supplémentaires à hauteur de 240% de son ATQ et de geler pendant 1 sec.",
+      "2": "Augmente ses PV Max de 19.6%. Lors d'une attaque automatique, a 15% de chances d'infliger des DEG P supplémentaires à hauteur de 290% de son ATQ et de geler pendant 1 sec.",
+      "3": "Augmente ses PV Max de 22.4%. Lors d'une attaque automatique, a 15% de chances d'infliger des DEG P supplémentaires à hauteur de 350% de son ATQ et de geler pendant 1 sec.",
+      "4": "Augmente ses PV Max de 25.2%. Lors d'une attaque automatique, a 15% de chances d'infliger des DEG P supplémentaires à hauteur de 420% de son ATQ et de geler pendant 1 sec.",
+      "5": "Augmente ses PV Max de 28%. Lors d'une attaque automatique, a 15% de chances d'infliger des DEG P supplémentaires à hauteur de 500% de son ATQ et de geler pendant 1 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Casque du roi de givre",
+      "description": "[Fracasser] Réduit l'ATQ de la cible de 25 % et augmente ses DGT physiques subis de {0} % pendant 10 s.",
+      "thumbnail": "heroes/Gau/ut/1.png",
+      "story": "Un casque usé ayant appartenu au roi des géants de givre.\nIl fut porté par le roi des géants de givre, en proie aux ténèbres. Gau conserve ce casque brisé en mémoire de ce héros déchu, dans l'espoir que la tragédie de la Montagne Enneigée Terre-Venteuse ne se reproduise pas.",
+      "value": {
+        "0": {
+          "0": "15",
+          "1": "17",
+          "2": "19",
+          "3": "22",
+          "4": "26",
+          "5": "30"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Fracasser] Réduit l'ATQ de la cible de 25 % et augmente ses DGT physiques subis de 15 % pendant 10 s.",
+        "1": "[Fracasser] Réduit l'ATQ de la cible de 25 % et augmente ses DGT physiques subis de 17 % pendant 10 s.",
+        "2": "[Fracasser] Réduit l'ATQ de la cible de 25 % et augmente ses DGT physiques subis de 19 % pendant 10 s.",
+        "3": "[Fracasser] Réduit l'ATQ de la cible de 25 % et augmente ses DGT physiques subis de 22 % pendant 10 s.",
+        "4": "[Fracasser] Réduit l'ATQ de la cible de 25 % et augmente ses DGT physiques subis de 26 % pendant 10 s.",
+        "5": "[Fracasser] Réduit l'ATQ de la cible de 25 % et augmente ses DGT physiques subis de 30 % pendant 10 s."
+      }
+    },
+    "2": {
+      "name": "Corne de combattant",
+      "description": "[Rugissement de Bataille] Réduit le coût en PM de 1 et augmente les DEG Crit de la cible de {0}% pendant la durée de la compétence.",
+      "thumbnail": "heroes/Gau/ut/2.png",
+      "story": "Trompette fabriquée à partir d’une corne d’Orox, la bête gardienne de la montagne enneigée de Terre-Venteuse.\nOrox de la montagne enneigée accorde aux nobles guerriers une grande puissance ainsi que la capacité de discerner la vérité. \nUne fois qu’un guerrier a reçu la bénédiction d’Orox, il lui suffit de souffler dans cette trompette pour enflammer le moral de ses camarades et doter leur esprit d’une grande clarté.",
+      "value": {
+        "0": {
+          "0": "3",
+          "1": "3.6",
+          "2": "4.2",
+          "3": "4.8",
+          "4": "5.4",
+          "5": "6"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Rugissement de Bataille] Réduit le coût en PM de 1 et augmente les DEG Crit de la cible de 3% pendant la durée de la compétence.",
+        "1": "[Rugissement de Bataille] Réduit le coût en PM de 1 et augmente les DEG Crit de la cible de 3.6% pendant la durée de la compétence.",
+        "2": "[Rugissement de Bataille] Réduit le coût en PM de 1 et augmente les DEG Crit de la cible de 4.2% pendant la durée de la compétence.",
+        "3": "[Rugissement de Bataille] Réduit le coût en PM de 1 et augmente les DEG Crit de la cible de 4.8% pendant la durée de la compétence.",
+        "4": "[Rugissement de Bataille] Réduit le coût en PM de 1 et augmente les DEG Crit de la cible de 5.4% pendant la durée de la compétence.",
+        "5": "[Rugissement de Bataille] Réduit le coût en PM de 1 et augmente les DEG Crit de la cible de 6% pendant la durée de la compétence."
+      }
+    },
+    "3": {
+      "name": "Coupe barbare",
+      "description": "[Vortex] Augmente les DEG infligés de {0}% et au dernier coup, augmente les DEG reçus par la cible de {1}% pendant 10 sec.",
+      "thumbnail": "heroes/Gau/ut/3.png",
+      "story": "La coupe du roi barbare qui s’installa en premier dans les montagnes neigeuses. Lorsque le premier roi barbare s’installa à Terre-Venteuse, il jura de devenir le gardien des montagnes enneigées et partagea sa coupe avec les êtres sacrés des montagnes. La Coupe barbare est imprégnée de la magie protectrice du loup de givre, ce qui augmente l’ATQ de Vortex et l’effet de Gel.",
+      "value": {
+        "0": {
+          "0": "8",
+          "1": "9.6",
+          "2": "11.2",
+          "3": "12.8",
+          "4": "14.4",
+          "5": "16"
+        },
+        "2": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Vortex] Augmente les DEG infligés de 8% et au dernier coup, augmente les DEG reçus par la cible de {1}% pendant 10 sec.",
+        "1": "[Vortex] Augmente les DEG infligés de 9.6% et au dernier coup, augmente les DEG reçus par la cible de {1}% pendant 10 sec.",
+        "2": "[Vortex] Augmente les DEG infligés de 11.2% et au dernier coup, augmente les DEG reçus par la cible de {1}% pendant 10 sec.",
+        "3": "[Vortex] Augmente les DEG infligés de 12.8% et au dernier coup, augmente les DEG reçus par la cible de {1}% pendant 10 sec.",
+        "4": "[Vortex] Augmente les DEG infligés de 14.4% et au dernier coup, augmente les DEG reçus par la cible de {1}% pendant 10 sec.",
+        "5": "[Vortex] Augmente les DEG infligés de 16% et au dernier coup, augmente les DEG reçus par la cible de {1}% pendant 10 sec."
+      }
+    },
+    "4": {
+      "name": "Bracelet de perleneige",
+      "description": "[Accès de Rage] Modifie le nombre de charges maximal à 40 et augmente la Pénétration DEF du lanceur de {0} avec 30 charges cumulées.",
+      "thumbnail": "heroes/Gau/ut/4.png",
+      "story": "Un bracelet fait à partir d'une perleneige.\nLes enfants de l'orphelinat l'ont offert à Gau pour son anniversaire, pour tenter de le consoler de la perte de ses frères et sœurs barbares.\nLa perleneige est une fleur qui symbolise l'espoir et le réconfort.",
+      "value": {
+        "0": {
+          "0": "180",
+          "1": "216",
+          "2": "252",
+          "3": "288",
+          "4": "324",
+          "5": "360"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Accès de Rage] Modifie le nombre de charges maximal à 40 et augmente la Pénétration DEF du lanceur de 180 avec 30 charges cumulées.",
+        "1": "[Accès de Rage] Modifie le nombre de charges maximal à 40 et augmente la Pénétration DEF du lanceur de 216 avec 30 charges cumulées.",
+        "2": "[Accès de Rage] Modifie le nombre de charges maximal à 40 et augmente la Pénétration DEF du lanceur de 252 avec 30 charges cumulées.",
+        "3": "[Accès de Rage] Modifie le nombre de charges maximal à 40 et augmente la Pénétration DEF du lanceur de 288 avec 30 charges cumulées.",
+        "4": "[Accès de Rage] Modifie le nombre de charges maximal à 40 et augmente la Pénétration DEF du lanceur de 324 avec 30 charges cumulées.",
+        "5": "[Accès de Rage] Modifie le nombre de charges maximal à 40 et augmente la Pénétration DEF du lanceur de 360 avec 30 charges cumulées."
+      }
+    }
+  },
+  "splashart": "heroes/Gau/sa.png",
+  "costumes": "heroes/Gau/cos",
+  "_localization": {
+    "locale": "fr",
+    "version": "cbt-phase-1",
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "id": "Annette",
+  "profile": {
+    "name": "Annette",
+    "title": "Annette, Technomage royale",
+    "class": "Mechanic",
+    "position": "Middle-200",
+    "attack_range": "3400",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "17",
+    "height": "158",
+    "race": "Humain",
+    "constellation": "Armil le Vénéré",
+    "birth": {
+      "month": 4,
+      "day": 16,
+      "monthName": "Mois de la Vie"
+    },
+    "like": "La technomagie, les fonds de recherche",
+    "dislike": "Les personnes qui méprisent la technomagie",
+    "story": "Une technomage de génie du royaume d'Orvelia. Elle est très optimiste et se moque des échecs. Elle rêve d'inventer un appareil permettant à tout le monde de manier la magie. Elle dispose d'un assistant mécanique et magique à qui elle a donné la vie après des années de recherches. Depuis l'arrivée des démons, elle poursuit des recherches pour développer des armes permettant à tout le monde de lutter contre l'envahisseur.",
+    "thumbnail": "heroes/Annette/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Rayon Explosif",
+      "cost": "2",
+      "cooldown": "11",
+      "description": "Inflige ??? DEG M aux ennemis en ligne droite, réduit leur ATQ de 15% et augmente leurs DEG M subis de 25% pendant 10 sec. Sous [Surcharge], inflige ??? DEG M supplémentaires, réduit leur ATQ de 15% supplémentaires et augmente leurs DEG M subis de 25% supplémentaires.",
+      "thumbnail": "heroes/Annette/skills/1.png"
+    },
+    "2": {
+      "name": "Traitement d'Urgence",
+      "cost": "2",
+      "cooldown": "13",
+      "description": "Dissipe les effets négatifs de tous les alliés, leur restaure ??? PV sur 10 sec et augmente leur résistance au contrôle de 250. Sous [Surcharge], augmente aussi leurs chances de coup critique de 250 et leurs dégâts contre les ennemis non héros de 10%, et leur accorde une immunité au contrôle.",
+      "thumbnail": "heroes/Annette/skills/2.png"
+    },
+    "3": {
+      "name": "Processus d'Élimination",
+      "cost": "3",
+      "cooldown": "25",
+      "description": "Fait exploser un orbe d'énergie sur une cible aléatoire et les ennemis proches, infligeant au total ??? DEG M. Sous [Surcharge], inflige ??? DEG M, augmente les DEG M subis par les ennemis de 25% pendant 10 sec et les étourdit pendant 5 sec à l'explosion de l'orbe.",
+      "thumbnail": "heroes/Annette/skills/3.png"
+    },
+    "4": {
+      "name": "Charge",
+      "cost": null,
+      "cooldown": null,
+      "description": "Gagne 1 cumul(s) de [Charge] toutes les 0.5 sec et 10 cumuls par 1 orbe(s) de mana consommé(s). À 100 cumuls, entre en [Surcharge] pendant 15 sec : l'ATQ augmente de ??? + 5% de l'ATQ d'Annette et les attaques normales réduisent les temps de recharge de toutes les compétences de 10%. Tous ces effets sont indissipables. Aucun cumul de [Charge] ne peut être obtenu pendant [Surcharge].",
+      "thumbnail": "heroes/Annette/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Les DEG augmentent de 10%.",
+      "III": "Les DEG augmentent de 15%.",
+      "IV": "Lors d'une utilisation, le nombre de Charges gagnées est augmenté de 30%."
+    },
+    "2": {
+      "II": "Augmente les soins de 10% .",
+      "III": "Augmente les soins de 15% .",
+      "IV": "Lors de l'utilisation, la quantité de Charge gagnée est augmentée de 30%."
+    },
+    "3": {
+      "II": "Les DEG augmentent de 10%.",
+      "III": "Les DEG augmentent de 15%.",
+      "IV": "Lors de l'utilisation, la quantité de Charge gagnée est augmentée de 30%."
+    },
+    "4": {
+      "II": "Augmente l'augmentation d'ATQ de 10%.",
+      "III": "Augmente l'augmentation d'ATQ de 15%.",
+      "IV": "En Surcharge, la Vitesse d'ATQ augmente de 250."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "La cible reçoit 25% de DEG M supplémentaires pendant 10 sec.",
+          "thumbnail": "heroes/Annette/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Augmente de 40% le nombre de Charge.",
+          "thumbnail": "heroes/Annette/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Modifie pour que l'effet de restauration des PV ne puisse être dissipé.",
+          "thumbnail": "heroes/Annette/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Augmente de 40% le nombre de Charge.",
+          "thumbnail": "heroes/Annette/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Les DEG sont augmentés de 40%.",
+          "thumbnail": "heroes/Annette/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "La cible reçoit 25% de DEG M supplémentaires.",
+          "thumbnail": "heroes/Annette/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Applique l'effet d'augmentation d'ATQ à tous les alliés.",
+          "thumbnail": "heroes/Annette/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Augmente la durée de [Surcharge] de 5 sec et modifie la réduction de temps de recharge de toutes les compétences lors des attaques automatiques en 12%.",
+          "thumbnail": "heroes/Annette/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Vitesse d'ATQ +100",
+        "thumbnail": "heroes/Annette/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente la Vitesse d'ATQ de tous les alliés de 200 et leur ATQ à hauteur de 5% de l'ATQ d'Annette pendant la durée de [Surcharge].",
+        "thumbnail": "heroes/Annette/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Rascal, la Technomagie cristallisée",
+    "description": "Gagne 1 cumul(s) de Charge toutes les {0} sec et récupère 1% de mana, même pendant [Surcharge]. Pendant [Surcharge], augmente également les dégâts de tous les alliés contre les boss de {1}% et réduit leurs dégâts subis de {2}%. Cet effet est multiplié par 2 pour l'allié ayant l'ATQ la plus élevée.",
+    "value": {
+      "0": {
+        "0": "1.5",
+        "1": "1.4",
+        "2": "1.3",
+        "3": "1.1",
+        "4": "0.9",
+        "5": "0.7"
+      },
+      "1": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.9",
+        "3": "3.5",
+        "4": "4.2",
+        "5": "5"
+      },
+      "2": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.9",
+        "3": "3.5",
+        "4": "4.2",
+        "5": "5"
+      }
+    },
+    "thumbnail": "heroes/Annette/uw.png",
+    "story": "L'essence de la technomagie, créée à partir de la théorie d'Annette. Cinq des meilleurs mages de la cour d'Orvel ont concentré leur énergie pour fabriquer cet être magique. Doté d'une volonté propre, il est doué de libre arbitre et capable d'agir en fonction de ses décisions. Bien qu'il partage son mana avec Annette, il peut également puiser dans le mana environnant. Pour cette raison, il représente la première étape d'une démocratisation de la magie, conformément aux souhaits d'Annette.",
+    "descriptionByStar": {
+      "0": "Gagne 1 cumul(s) de Charge toutes les 1.5 sec et récupère 1% de mana, même pendant [Surcharge]. Pendant [Surcharge], augmente également les dégâts de tous les alliés contre les boss de 2% et réduit leurs dégâts subis de 2%. Cet effet est multiplié par 2 pour l'allié ayant l'ATQ la plus élevée.",
+      "1": "Toutes les 1,4 sec, gagne 1 charge Magique et récupère 1% de PM.",
+      "2": "Toutes les 1,3 sec, gagne 1 charge Magique et récupère 1% de PM.",
+      "3": "Toutes les 1,1 sec, gagne 1 charge Magique et récupère 1% de PM.",
+      "4": "Toutes les 0,9 sec, gagne 1 charge Magique et récupère 1% de PM.",
+      "5": "Toutes les 0,7 sec, gagne 1 charge Magique et récupère 1% de PM."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Lentille convergente à triple foyer",
+      "description": "[Rayon d'annihilation] Réduit le Crit de la cible de 250 et le PM de 400 pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Annette/ut/1.png",
+      "story": "La lentille convergente à triple foyer fut inventée par Annette pour permettre à Rascal d'utiliser Rayon explosif.\nCette lentille spéciale peut tourner pour ajuster sa convergence et son angle de réflexion, afin de manipuler aisément la forme des photons qu'elle émet.\nLorsque toutes ses couches sont alignées, Rascal tire un laser photonique linéaire. Lorsqu'elles sont entrecroisées, la dispersion de l'énergie photonique déclenche Processus d'élimination.",
+      "descriptionByStar": {
+        "0": "[Rayon d'annihilation] Réduit le Crit de la cible de 250 et le PM de 400 pendant 10 sec.",
+        "1": "[Rayon d'annihilation] Réduit le Crit de la cible de 250 et le PM de 480 pendant 10 sec.",
+        "2": "[Rayon d'annihilation] Réduit le Crit de la cible de 250 et le PM de 580 pendant 10 sec.",
+        "3": "[Rayon d'annihilation] Réduit le Crit de la cible de 250 et le PM de 700 pendant 10 sec.",
+        "4": "[Rayon d'annihilation] Réduit le Crit de la cible de 250 et le PM de 840 pendant 10 sec.",
+        "5": "[Rayon d'annihilation] Réduit le Crit de la cible de 250 et le PM de 1000 pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Script de soin",
+      "description": "[Traitement d'urgence] Réduit le coût en PM de 1 et augmente les soins de 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Annette/ut/2.png",
+      "story": "Script de soin en cas d’urgence.\nCe produit doit son origine à la société secrète de l’ingénierie magique, l’atelier de Babel du mois intitulé « La solution des batailles est en vous ! Scripts vainqueurs pour les batailles à scripts mécaniques ». \nÉlaborée par Annette, cette compétence peut soigner les alliés grâce à l’ingénierie, et ce sans le moindre pouvoir magique.",
+      "descriptionByStar": {
+        "0": "[Traitement d'urgence] Réduit le coût en PM de 1 et augmente les soins de 20 %.",
+        "1": "[Traitement d'urgence] Réduit le coût en PM de 1 et augmente les soins de 24 %.",
+        "2": "[Traitement d'urgence] Réduit le coût en PM de 1 et augmente les soins de 29 %.",
+        "3": "[Traitement d'urgence] Réduit le coût en PM de 1 et augmente les soins de 35 %.",
+        "4": "[Traitement d'urgence] Réduit le coût en PM de 1 et augmente les soins de 42 %.",
+        "5": "[Traitement d'urgence] Réduit le coût en PM de 1 et augmente les soins de 50 %."
+      }
+    },
+    "3": {
+      "name": "Code d'annihilation",
+      "description": "[Processus d'Élimination] Les DEG sont augmentés de 20% et chaque attaque donne 2 charges de Charge. Peut également être obtenu pendant Surcharge.",
+      "value": {},
+      "thumbnail": "heroes/Annette/ut/3.png",
+      "story": "Le code top secret de Babel, la société secrète d’ingénierie magique. De la magie pour les gens normaux ! La société secrète de technomagie, Babel, est une société anonyme rêvant de rendre la magie accessible à tous. Ils possèdent tous une technique technomagique de code secret et seuls peuvent l’utiliser ceux qui réussissent à le déchiffrer. Annette déchiffra le code secret en 4 minutes et l’utilise dans le processus d’annihilation.",
+      "descriptionByStar": {
+        "0": "[Processus d'Élimination] Les DEG sont augmentés de 20% et chaque attaque donne 2 charges de Charge. Peut également être obtenu pendant Surcharge.",
+        "1": "[Processus d'Élimination] Les DEG sont augmentés de 24% et chaque attaque donne 2 charges de Charge. Peut également être obtenu pendant Surcharge.",
+        "2": "[Processus d'Élimination] Les DEG sont augmentés de 29% et chaque attaque donne 2 charges de Charge. Peut également être obtenu pendant Surcharge.",
+        "3": "[Processus d'Élimination] Les DEG sont augmentés de 35% et chaque attaque donne 2 charges de Charge. Peut également être obtenu pendant Surcharge.",
+        "4": "[Processus d'Élimination] Les DEG sont augmentés de 42% et chaque attaque donne 2 charges de Charge. Peut également être obtenu pendant Surcharge.",
+        "5": "[Processus d'Élimination] Les DEG sont augmentés de 50% et chaque attaque donne 2 charges de Charge. Peut également être obtenu pendant Surcharge."
+      }
+    },
+    "4": {
+      "name": "Batterie haute performance",
+      "description": "[Charge] Inflige 30 charges de Charge au début de chaque combat. Pendant Surcharge, les attaques normales augmentent l'effet de réduction du temps de recharge de 5 % supplémentaires.",
+      "value": {},
+      "thumbnail": "heroes/Annette/ut/4.png",
+      "story": "Une batterie mise au point par Annette grâce à ses connaissances technomagiques, à l'aide d'un étrange matériau provenant d'un vestige d'une civilisation antique.\nElle fut initialement créée pour alimenter le générateur de secours de Rascal en cas d'urgence, mais elle était trop puissante et Rascal se retrouvait trop souvent en surcharge.\nAprès réflexion, Annette décida de l'utiliser pour le combat et modifia les composants de Rascal pour exploiter sa puissance.",
+      "descriptionByStar": {
+        "0": "[Charge] Inflige 30 charges de Charge au début de chaque combat. Pendant Surcharge, les attaques normales augmentent l'effet de réduction du temps de recharge de 5 % supplémentaires.",
+        "1": "[Charge] Inflige 36 charges de Charge au début de chaque combat. Pendant Surcharge, les attaques normales augmentent l'effet de réduction du temps de recharge de 5 % supplémentaires.",
+        "2": "[Charge] Inflige 43 charges de Charge au début de chaque combat. Pendant Surcharge, les attaques normales augmentent l'effet de réduction du temps de recharge de 5 % supplémentaires.",
+        "3": "[Charge] Inflige 52 charges de Charge au début de chaque combat. Pendant Surcharge, les attaques normales augmentent l'effet de réduction du temps de recharge de 5 % supplémentaires.",
+        "4": "[Charge] Inflige 63 charges de Charge au début de chaque combat. Pendant Surcharge, les attaques normales augmentent l'effet de réduction du temps de recharge de 5 % supplémentaires.",
+        "5": "[Charge] Inflige 75 charges de Charge au début de chaque combat. Pendant Surcharge, les attaques normales augmentent l'effet de réduction du temps de recharge de 5 % supplémentaires."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 20 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de Rascal, la Technomagie cristallisée, ce qui restaure 300 PM à tous les alliés toutes les sec pendant 15 sec. De plus, se met à l'état de [Surcharge] pendant la durée, ce qui augmente les DEG M reçus par tous les ennemis de 30%. Si la cible est un boss, modifie l'augmentation des DEG M reçus en 60%.",
+    "cooldown": "25",
+    "uses": "6",
+    "thumbnail": "heroes/Annette/sw.png",
+    "advancement": {
+      "1": "Augmente l'ATQ de tous les alliés de 30% et leur DEG Crit de 50% pendant la durée.",
+      "2": "Réduit la condition d'utilisation de 5 sec et le temps de recharge de toutes les compétences de tous les alliés de 0.5 sec toutes les sec."
+    },
+    "story": "Rascal était un golem technomagique, qui possédait une volonté propre. C'était également l'une des merveilles d'Orvel. \nNéanmoins, lorsqu'Annette réussit à créer un golem technomagique,\nles savants se lancèrent dans une discussion enflammée sur l'existence de Rascal.\nDiscussion se transforma en débat, débat en discorde, et discorde en conflit.\n\nCertains prétendirent que Rascal était une trahison envers les dieux, et qu'il fallait le faire disparaître immédiatement.\nD'autres affirmèrent que Rascal était une créature de miracle, et que c'était une invention qui sauverait l'avenir des hommes.\n\nAnnette n'était pas ravie de ces dissensions. Tout ce qu'elle souhaitait avec ses inventions, c'était d'aider, de protéger et de rendre heureux les hommes.\nMais elle n'avait pas non plus l'intention de faire disparaître Rascal. Ce dernier était son ami, son partenaire, et un extraordinaire adjoint.\nDe voir Rascal évoluer chaque jour était l'un des plaisirs de sa vie,\nalors il était hors de question qu'elle se sépare de lui ne serait-ce qu'un instant.\n\nEt Rascal observait également Annette, qui espérait tant de lui,\net persévérait pour devenir de plus en plus performant..."
+  },
+  "splashart": "heroes/Annette/sa.png",
+  "costumes": "heroes/Annette/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

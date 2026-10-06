@@ -1,0 +1,52 @@
+{
+  "id": "Maviel",
+  "profile": {
+    "name": "Maviel",
+    "title": "Berserker-Assassine",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "Dunkelelf",
+    "damage_type": "Physical",
+    "recommended_heroes": "Demia, Baudouin, Aisha",
+    "characteristics": "[Schattenschritt] ist ein besonderer Zustand, der das Ausweichen vor allen Angriffen bis zu 100 Mal ermöglicht. Nach Verbrauch wird dieser Skill für eine bestimmte Zeit deaktiviert. Helden mit einer hohen Trefferrate und ANG-Geschw. sind hierfür empfohlen.",
+    "thumbnail": "bosses/Maviel.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Schattenschnitt",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Bewegt sich schnell zu zufälligen Zielen und fügt 5-mal Körp. Schaden zu. Jeder Treffer verursacht 10 Sek. lang Blutung und verringert die Heilungsrate bis zum Ende des Kampfes. Diese Verringerung kann nicht aufgehoben werden."
+    },
+    "2": {
+      "name": "Wutausbruch",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Verfällt in Berserker-Rage und erhöht ANG, Krit.-Chance und ANG-GESCHW. 10 Sek. lang stark."
+    },
+    "3": {
+      "name": "Keine Gnade",
+      "cost": null,
+      "cooldown": "30",
+      "description": "Bewegt sich zum Feind mit der höchsten VERT und fügt ihm massiven Körp. Schaden zu."
+    },
+    "4": {
+      "name": "Schattenschritt",
+      "cost": null,
+      "cooldown": "40",
+      "description": "Weicht alle 40 Sek. eine gewisse Anzahl an allen Angriffen aus. Wird danach betäubt, wenn eine festgelegte Anzahl an allen Angriffen ausgewichen wurde. Wenn nicht im Schleichmodus, wird der erlittene Schaden erhöht und ANG-GESCHW. festgelegt."
+    },
+    "5": {
+      "name": "Reinigen",
+      "cost": null,
+      "cooldown": null,
+      "description": "Entfernt alle 30 Sek. alle eigenen Negativ-Effekte und erhöht die eigene ANG-GESCHW."
+    }
+  },
+  "aliases": [
+    "Maviel",
+    "GR5",
+    "GR 5"
+  ]
+}

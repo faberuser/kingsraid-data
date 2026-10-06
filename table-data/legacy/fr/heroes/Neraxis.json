@@ -1,0 +1,228 @@
+{
+  "id": "Neraxis",
+  "profile": {
+    "name": "Neraxis",
+    "title": "Neraxis, Arrogance de Jais",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "6100",
+    "damage_type": "Magical",
+    "gender": "Homme",
+    "age": "???",
+    "height": "161",
+    "race": "Dragon",
+    "constellation": "Asiphia l'Impératrice",
+    "birth": {
+      "month": 10,
+      "day": 28,
+      "monthName": "Mois de l'Amitié"
+    },
+    "like": "Laias",
+    "dislike": "Les démons, Cain, Lilia, et ceux qui se trouvent sur son passage.",
+    "story": "Les dragons noirs sont réputés pour leur sale caractère et leur arrogance.\nIl y a 100 ans, la Guerre des démons leur a porté un sacré coup.\nArmarta fut gagné par la folie, Ashen Nox les a dépouillés, et les draconics commencèrent à traquer les dragons.\nNeraxis fut l'un des rares survivants\net prépare sa revanche depuis lors.",
+    "thumbnail": "heroes/Neraxis/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Griffe de foudre noire",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Attire les ennemis devant la cible et leur inflige ??? points de DEG M.\nInflige également ??? points de DEG M autour de la cible au bout de 1 sec et étourdit les ennemis pendant 3 sec. Réduit la Vitesse d'ATQ des ennemis touchés de 300 points pendant 10 sec.",
+      "thumbnail": "heroes/Neraxis/skills/1.png"
+    },
+    "2": {
+      "name": "Rugissement d'obsidienne",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Augmente l'ATQ, la DEF P et la DEF M de tous les alliés de ??? points pendant 15 sec.\nInflige ??? points de DEG M à tous les ennemis et réduit leur ATQ de 30% pendant 15 sec.",
+      "thumbnail": "heroes/Neraxis/skills/2.png"
+    },
+    "3": {
+      "name": "Souffle de la destruction",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Inflige sur 6 coups un total de ??? points de DEG M aux ennemis situés dans une grande zone autour de la cible et réduit leur DEF M de 20% pendant 15 sec. Chaque coup étourdit l'ennemi pendant 1 sec.",
+      "thumbnail": "heroes/Neraxis/skills/3.png"
+    },
+    "4": {
+      "name": "Peau de dragon noir",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente la DEF P et la DEF M de ??? points et réduit les DEG P et DEG M subis de 15%.",
+      "thumbnail": "heroes/Neraxis/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "2": {
+      "II": "Augmente le boost d'ATQ et de DEF de 10%.",
+      "III": "Augmente le boost d'ATQ et de DEF de 15%.",
+      "IV": "Augmente le boost d'ATQ et de DEF de 25%."
+    },
+    "3": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "4": {
+      "II": "Augmente le boost de DEF de 10%.",
+      "III": "Augmente le boost de DEF de 15%.",
+      "IV": "Augmente le boost de DEF de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Augmente la durée d'Étourdissement de 2 sec.",
+          "thumbnail": "heroes/Neraxis/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG M subis par l'ennemi de 25% pendant 10 sec.",
+          "thumbnail": "heroes/Neraxis/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Augmente le coût en PM de 1 et les augmentations d'ATQ et de DEF de 100%.",
+          "thumbnail": "heroes/Neraxis/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Réduit la Vitesse d'ATQ de l'ennemi touché de 300 points pendant 15 sec.",
+          "thumbnail": "heroes/Neraxis/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Neraxis/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Bascule la réduction de DEF M à 30%.",
+          "thumbnail": "heroes/Neraxis/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "La Vitesse d'ATQ est augmentée de 300",
+          "thumbnail": "heroes/Neraxis/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Lorsque les PV chutent en dessous de 50%, l'effet des compétences augmente de 50%.",
+          "thumbnail": "heroes/Neraxis/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Résist. Contrôles +100",
+        "thumbnail": "heroes/Neraxis/perks/light.png"
+      },
+      "dark": {
+        "effect": "Au début de chaque bataille, augmente les DEG que tous les alliés (à l'exception de Neraxis) infligent aux ennemis non-Héros de 5% et réduit les DEG qu'ils reçoivent d'eux de 5%, pendant 60 sec. Cet effet peut se cumuler jusqu'à 3 fois et ne peut être dissipé.",
+        "thumbnail": "heroes/Neraxis/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Acravita, le Dragon rugissant",
+    "description": "Lorsque 20 attaques automatiques sont réussies, inflige à 2 ennemis aléatoires des DEG M supplémentaires à hauteur de 100% de l'ATQ et les étourdit pendant 0.5 sec. Ensuite, passe à l'état de Tempête de Neraxis pendant 10 sec. Pendant la durée de Tempête de Neraxis, augmente à tous les alliés la DEF P à hauteur de 4% de celle du lanceur, la DEF M à hauteur de 4% de celle du lanceur, et l'ATQ de 10%.",
+    "value": {},
+    "thumbnail": "heroes/Neraxis/uw.png",
+    "story": "Arme fabriquée à partir d'un métal d'un noir parfait appelé adamantite et forgée dans les flammes noires avec la foudre d'un dragon noir.\nElle renferme la rancune et la rage des dragons noirs massacrés lors de la Guerre des démons.\nNeraxis avait menacé les nains pour qu'ils forgent cette arme.\nIl l'a ensuite maudite et y a incrusté l'âme des dragons noirs, débordante de rancune.\nMis à part Neraxis, il suffit d'effleurer cette arme pour entendre les rugissements de rage des dragons vengeurs.",
+    "descriptionByStar": {
+      "0": "Lorsque 20 attaques automatiques sont réussies, inflige à 2 ennemis aléatoires des DEG M supplémentaires à hauteur de 100% de l'ATQ et les étourdit pendant 0.5 sec. Ensuite, passe à l'état de Tempête de Neraxis pendant 10 sec. Pendant la durée de Tempête de Neraxis, augmente à tous les alliés la DEF P à hauteur de 4% de celle du lanceur, la DEF M à hauteur de 4% de celle du lanceur, et l'ATQ de 10%.",
+      "1": "Lorsque 19 attaques automatiques sont réussies, inflige à 2 ennemis aléatoires des DEG M supplémentaires à hauteur de 100% de l'ATQ et les étourdit pendant 0.5 sec. Ensuite, passe à l'état de Tempête de Neraxis pendant 10 sec. Pendant la durée de Tempête de Neraxis, augmente à tous les alliés la DEF P à hauteur de 4.8% de celle du lanceur, la DEF M à hauteur de 4.8% de celle du lanceur, et l'ATQ de 12%.",
+      "2": "Lorsque 18 attaques automatiques sont réussies, inflige à 2 ennemis aléatoires des DEG M supplémentaires à hauteur de 100% de l'ATQ et les étourdit pendant 0.5 sec. Ensuite, passe à l'état de Tempête de Neraxis pendant 10 sec. Pendant la durée de Tempête de Neraxis, augmente à tous les alliés la DEF P à hauteur de 5.7% de celle du lanceur, la DEF M à hauteur de 5.7% de celle du lanceur, et l'ATQ de 14%.",
+      "3": "Lorsque 17 attaques automatiques sont réussies, inflige à 2 ennemis aléatoires des DEG M supplémentaires à hauteur de 100% de l'ATQ et les étourdit pendant 0.5 sec. Ensuite, passe à l'état de Tempête de Neraxis pendant 10 sec. Pendant la durée de Tempête de Neraxis, augmente à tous les alliés la DEF P à hauteur de 6.9% de celle du lanceur, la DEF M à hauteur de 6.9% de celle du lanceur, et l'ATQ de 17%.",
+      "4": "Lorsque 16 attaques automatiques sont réussies, inflige à 2 ennemis aléatoires des DEG M supplémentaires à hauteur de 100% de l'ATQ et les étourdit pendant 0.5 sec. Ensuite, passe à l'état de Tempête de Neraxis pendant 10 sec. Pendant la durée de Tempête de Neraxis, augmente à tous les alliés la DEF P à hauteur de 8.3% de celle du lanceur, la DEF M à hauteur de 8.3% de celle du lanceur, et l'ATQ de 21%.",
+      "5": "Lorsque 15 attaques automatiques sont réussies, inflige à 2 ennemis aléatoires des DEG M supplémentaires à hauteur de 100% de l'ATQ et les étourdit pendant 0.5 sec. Ensuite, passe à l'état de Tempête de Neraxis pendant 10 sec. Pendant la durée de Tempête de Neraxis, augmente à tous les alliés la DEF P à hauteur de 10% de celle du lanceur, la DEF M à hauteur de 10% de celle du lanceur, et l'ATQ de 25%."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Cartouche de foudre noire",
+      "description": "[Griffe de foudre noire] Restaure 100 PM à chaque coup réussi et augmente la DEF de 10 %, pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Neraxis/ut/1.png",
+      "story": "Cet amplificateur magique renferme de la foudre noire.\nElle fut confectionnée à partir des mêmes matériaux qu'Acravita.\nNeraxis contraignit les nains à fabriquer Acravita, mais tous les matériaux nécessaires ne furent pas utilisés. Lorsque les nains demandèrent à Neraxis s'ils pouvaient garder le reste en récompense de leur travail, il leur arracha les cheveux et leur dit de tout utiliser. En fin de compte, ils purent fabriquer une cartouche de foudre noire.",
+      "descriptionByStar": {
+        "0": "[Griffe de foudre noire] Restaure 100 PM à chaque coup réussi et augmente la DEF de 10 %, pendant 10 sec.",
+        "1": "[Griffe de foudre noire] Restaure 100 PM à chaque coup réussi et augmente la DEF de 12 %, pendant 10 sec.",
+        "2": "[Griffe de foudre noire] Restaure 100 PM à chaque coup réussi et augmente la DEF de 14 %, pendant 10 sec.",
+        "3": "[Griffe de foudre noire] Restaure 100 PM à chaque coup réussi et augmente la DEF de 17 %, pendant 10 sec.",
+        "4": "[Griffe de foudre noire] Restaure 100 PM à chaque coup réussi et augmente la DEF de 21 %, pendant 10 sec.",
+        "5": "[Griffe de foudre noire] Restaure 100 PM à chaque coup réussi et augmente la DEF de 25 %, pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Souvenirs du dieu-dragon bleu",
+      "description": "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 20 % et dissipe les effets positifs dont bénéficient tous les ennemis.",
+      "value": {},
+      "thumbnail": "heroes/Neraxis/ut/2.png",
+      "story": "Accessoire capillaire égaré par Laias pendant qu'elle purifiait les eaux souillées par les démons.\nNeraxis l'a trouvé et conservé, mais il ne sait pas encore s'il va le rendre ou non.\nLaias n'est pas près de retrouver son bien.",
+      "descriptionByStar": {
+        "0": "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 20 % et dissipe les effets positifs dont bénéficient tous les ennemis.",
+        "1": "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 24 % et dissipe les effets positifs dont bénéficient tous les ennemis.",
+        "2": "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 29 % et dissipe les effets positifs dont bénéficient tous les ennemis.",
+        "3": "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 35 % et dissipe les effets positifs dont bénéficient tous les ennemis.",
+        "4": "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 42 % et dissipe les effets positifs dont bénéficient tous les ennemis.",
+        "5": "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 50 % et dissipe les effets positifs dont bénéficient tous les ennemis."
+      }
+    },
+    "3": {
+      "name": "Vortex de rage",
+      "description": "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 3 sec le temps de recharge de Souffle de la destruction.",
+      "value": {},
+      "thumbnail": "heroes/Neraxis/ut/3.png",
+      "story": "Fabriqué à partir d'un de ses crocs, ce pieu renferme la rage ardente de Neraxis.\nLorsqu'il l'utilise pour attaquer ses ennemis, l'énergie qu'il contient, mêlée à la puissance de Neraxis, déferle sur les ennemis à une vitesse vertigineuse.\nIl est suffisamment puissant pour pénétrer tout ce qu'il rencontre et démembrer ceux qui s'en approchent.",
+      "descriptionByStar": {
+        "0": "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 3 sec le temps de recharge de Souffle de la destruction.",
+        "1": "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 4 sec le temps de recharge de Souffle de la destruction.",
+        "2": "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 5 sec le temps de recharge de Souffle de la destruction.",
+        "3": "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 6 sec le temps de recharge de Souffle de la destruction.",
+        "4": "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 7 sec le temps de recharge de Souffle de la destruction.",
+        "5": "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 8 sec le temps de recharge de Souffle de la destruction."
+      }
+    },
+    "4": {
+      "name": "Ashen Nova",
+      "description": "[Peau de dragon noir] Toutes les 10 sec, restaure 1 barre de PM et augmente le Blocage de 200 pendant 5 sec pour tous les alliés.",
+      "value": {},
+      "thumbnail": "heroes/Neraxis/ut/4.png",
+      "story": "Neraxis vola ce trésor dans le musée privé d'Armarta.\nIl souhaitait posséder une arme plus puissante qu'Acravita, et pensa au musée privé d'Armarta.\nIl se rendit à Ashen Peak, les ruines au sud du Rivage Arrovina, et s'introduisit dans la musée privé.\nEn sortant, il dut faire face à un Armarta hors de lui, mais le jeu en valait la chandelle, car il obtint tout ce qu'il désirait.\nParmi les plus grandes reliques se trouvait Ashen Nova, qui va de pair avec Ashen Nox.\nSon pouvoir est semblable à celui d'un cœur de dragon noir.",
+      "descriptionByStar": {
+        "0": "[Peau de dragon noir] Toutes les 10 sec, restaure 1 barre de PM et augmente le Blocage de 200 pendant 5 sec pour tous les alliés.",
+        "1": "[Peau de dragon noir] Toutes les 10 sec, restaure 1 barre de PM et augmente le Blocage de 240 pendant 5 sec pour tous les alliés.",
+        "2": "[Peau de dragon noir] Toutes les 10 sec, restaure 1 barre de PM et augmente le Blocage de 290 pendant 5 sec pour tous les alliés.",
+        "3": "[Peau de dragon noir] Toutes les 10 sec, restaure 1 barre de PM et augmente le Blocage de 350 pendant 5 sec pour tous les alliés.",
+        "4": "[Peau de dragon noir] Toutes les 10 sec, restaure 1 barre de PM et augmente le Blocage de 420 pendant 5 sec pour tous les alliés.",
+        "5": "[Peau de dragon noir] Toutes les 10 sec, restaure 1 barre de PM et augmente le Blocage de 500 pendant 5 sec pour tous les alliés."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Se recharge toutes les sec et à chaque fois que les DEG sont infligés. Devient utilisable lorsqu'elle est rechargée 80 fois.",
+    "description": "Invoque l'âme d'Acravita, le Dragon rugissant, ce inflige ??? DEG M (basés sur les DEF du Héros) aux ennemis à l'avant dans une large zone et les étourdit pendant 4 sec. De plus, réduit le taux d'ATQ de la cible de 35% pendant 10 sec.",
+    "cooldown": "18",
+    "uses": "5",
+    "thumbnail": "heroes/Neraxis/sw.png",
+    "advancement": {
+      "1": "Dissipe les effets positifs de l'ennemi à portée.",
+      "2": "Modifie la condition d'utilisation à 50 fois et augmente les DEG M reçus par les ennemis touchés de 25% pendant 10 sec."
+    },
+    "story": "Le dragon qui exerçait le rôle de l'arbitre du monde possédait généralement une force puissante.\nSi un tel dragon mourrait, son âme pouvait répandre une énergie d'une autre envergure que des âmes ordinaires.\nParmi ceux-ci, les âmes des dragons contenues dans Acravita étaient assez insolites. Les dragons noirs étant très orgueilleux, leurs âmes se remplirent de rancunes et de malédictions tenaces.\nPlus leur rage grandissait, plus Acravita exhalait de rancœur. Le temps s'écoula, et Acravita devint une arme que des êtres ordinaires ne pouvaient même pas s'en approcher. Les personnes proches de son propriétaire, Neraxis, se mirent à s'inquiéter de la sécurité de ce dernier. Cependant, Neraxis n'en fut point intimidé, et ordonna aux âmes contenues dans son arme de lui obéir, car Acravita lui appartenait.\nBien que jeune, Neraxis était également un dragon noir. Il était bien plus orgueilleux que quiconque. De plus, le précédent d'Armarta avait érodé quelque peu son orgueil. Pour obtenir la propriété totale de l'arme, les âmes des dragons noirs et Neraxis luttèrent férocement. Et Neraxis, bien préparé, finit par remporter la victoire.\nMaintenant, les âmes des dragons noirs, suivant la volonté de Neraxis, renforcent l'éclair et exterminent tous les ennemis à portée."
+  },
+  "splashart": "heroes/Neraxis/sa.png",
+  "costumes": "heroes/Neraxis/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

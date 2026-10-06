@@ -1,0 +1,46 @@
+{
+  "id": "Xakios",
+  "profile": {
+    "name": "サキオス",
+    "title": "呪われた世界樹の根",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "精霊",
+    "damage_type": "Physical, Magical",
+    "recommended_heroes": "ガウ, レピィ, アネット",
+    "characteristics": "[一撃]は、倒れた対象に大ダメージを与えます。[大地震]による倒れ状態を解除するスキルか、[状態異常耐性]を持った英雄が有利に戦えるでしょう。",
+    "thumbnail": "bosses/Xakios.png"
+  },
+  "skills": {
+    "1": {
+      "name": "一撃",
+      "cost": null,
+      "cooldown": null,
+      "description": "前方の対象を足で踏みつけて物理ダメージを与えます。対象が転倒状態の場合、より大きな物理ダメージを与えます。"
+    },
+    "2": {
+      "name": "大地震",
+      "cost": null,
+      "cooldown": "17",
+      "description": "地面を3回叩き、敵全体に物理ダメージを与えます。最後の打撃は敵全体を8秒間転倒させます。"
+    },
+    "3": {
+      "name": "酸性ブレス",
+      "cost": null,
+      "cooldown": "25",
+      "description": "気を集めて酸性ブレスを吐き、敵全体に魔法ダメージを与え、魔法防御力を減少させます。"
+    },
+    "4": {
+      "name": "浄化",
+      "cost": null,
+      "cooldown": null,
+      "description": "30秒ごとに、自分のデバフを取り除き、攻撃速度を増加させます。"
+    }
+  },
+  "aliases": [
+    "Xakios",
+    "GR1",
+    "GR 1"
+  ]
+}

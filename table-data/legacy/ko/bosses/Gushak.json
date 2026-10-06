@@ -1,0 +1,57 @@
+{
+  "id": "Gushak",
+  "profile": {
+    "name": "구샤크",
+    "title": "피의 제단의 족장",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "오크",
+    "damage_type": "Physical",
+    "recommended_heroes": "레오, 닉스, 타냐",
+    "characteristics": "피해를 입을 때마다 [오크의 분노]를 중첩하여 강해집니다. 최대 100회 중첩되며, 최대 중첩 시 폭주하여 스탯이 크게 상승합니다. [적 강화 효과] 해제를 통해 오크의 분노가 중첩되지 않도록 주의 해야 합니다.",
+    "thumbnail": "bosses/Gushak.png",
+    "recommendedHeroNames": [
+      "Leo",
+      "Nyx",
+      "Tanya"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "핏빛베기",
+      "cost": null,
+      "cooldown": "15",
+      "description": "무기를 바닥에 원형으로 크게 돌려 주변에 물리 피해를 입힌 후 올려쳐 2초간 넘어트립니다."
+    },
+    "2": {
+      "name": "광란의 칼춤",
+      "cost": null,
+      "cooldown": "25",
+      "description": "적을 3번 공격한 후 내려찍어 주변 적들에게 물리 피해를 주고 5초간 기절시킵니다."
+    },
+    "3": {
+      "name": "피의 일격",
+      "cost": null,
+      "cooldown": "45",
+      "description": "발로 땅을 찍어 주변의 적을 4초간 기절시키고, 검기를 모아 크게 휘둘러 주변 적들에게 큰 물리 피해를 줍니다."
+    },
+    "4": {
+      "name": "오크의 분노",
+      "cost": null,
+      "cooldown": null,
+      "description": "피해를 입을때 마다 오크의 분노 중첩이 1개 쌓입니다. 10초동안 유지되며 자신의 공격력과 방어력이 0.4%씩 증가합니다. 최대 100회 중첩 되며 100회 중첩 시 10초간 상태이상에 면역이 되고 능력치가 대폭 증가합니다."
+    },
+    "5": {
+      "name": "정화",
+      "cost": null,
+      "cooldown": null,
+      "description": "30초마다 자신의 해로운 효과를 제거하고 공격속도를 증가시킵니다."
+    }
+  },
+  "aliases": [
+    "Gushak",
+    "GR4",
+    "GR 4"
+  ]
+}

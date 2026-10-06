@@ -1,0 +1,57 @@
+{
+  "id": "Nubis",
+  "profile": {
+    "name": "Nubis",
+    "title": "Königin der Fesseln",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "Bestie",
+    "damage_type": "Magical, Physical",
+    "recommended_heroes": "Kaulah, Epis, Lorraine",
+    "characteristics": "[Kinder der Königin] erhöht ANG und VERT des Bosses stark für jeden beschworenen Diener. Magier-Helden mit Flächenzauber sind empfehlenswert.",
+    "thumbnail": "bosses/Nubis.png",
+    "recommendedHeroNames": [
+      "Kaulah",
+      "Epis",
+      "Lorraine"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Wüstenstachel",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Feuert einen Giftstachel auf einen zufälligen Feind und fügt ihm Mag. Schaden und Schaden über Zeit zu. Beschwört 4 Skorpione."
+    },
+    "2": {
+      "name": "Giftabsorbtion",
+      "cost": null,
+      "cooldown": "20",
+      "description": "Absorbiert Gift vom Umfeld. Nimmt der Held Körp. Schaden, wird ein Teil des Schadens auf den Angreifer zurückgeworfen und versteinert ihn für 5 Sek. Nachdem die Absorbtion endet, wird eine Schockwelle ausgelöst, die Mag. Schaden verursacht und Feinde in Reichw. für 3 Sek. zu Boden wirft."
+    },
+    "3": {
+      "name": "Versteinerungs-Gift",
+      "cost": null,
+      "cooldown": "20",
+      "description": "Injiziert den am weitesten entfernten Feind mit Gift und fügt ihm Mag. Schaden zu. Nach erfolgreicher Injektion wird das Ziel für 5 Sek. versteinert."
+    },
+    "4": {
+      "name": "Kinder der Königin",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht eigene ANG und VERT basierend auf der Anzahl der überlebenden Skorpione. Nubis ist immun gegenüber ANG-GESCHW. Effekten."
+    },
+    "5": {
+      "name": "Reinigung",
+      "cost": null,
+      "cooldown": null,
+      "description": "Entfernt alle 30 Sek. alle eigenen Negativ-Effekte und erhöht die eigene ANG-GESCHW."
+    }
+  },
+  "aliases": [
+    "Nubis",
+    "GR3",
+    "GR 3"
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "id": "Rodina",
+  "profile": {
+    "name": "Rodina",
+    "title": "Rodina, Sniper du Blizzard",
+    "class": "Mechanic",
+    "position": "Back-400",
+    "attack_range": "2200",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "15",
+    "height": "146",
+    "race": "Humain",
+    "constellation": "Hexipolia le Vagabond",
+    "birth": {
+      "month": 12,
+      "day": 14,
+      "monthName": "Mois de la Patience"
+    },
+    "like": "Les ours, les ours polaires, les grizzlis, les petits ours, les gros ours",
+    "dislike": "Les personnes qui n'ont aucun respect pour la vie",
+    "story": "La meilleure tireuse d'élite de l'empire est une amoureuse des ours. Elle les aime tellement qu'elle porte toujours des accessoires ressemblant à des oreilles d'ours sur son chapeau. Elle chasse parfois les tigres, mais jamais elle ne tirera sur un ours. Même si ses talents au tir sont plus adaptés à l'assassinat, elle a juré de ne jamais les utiliser pour des raisons injustes. Au contraire, elle met ses talents au service des autres. Elle vit actuellement avec Pavel dans la Montagne Enneigée Terre-Venteuse et lui sert de garde du corps délégué par l'empire.",
+    "thumbnail": "heroes/Rodina/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Tir Pénétrant",
+      "cost": "2",
+      "cooldown": "11",
+      "description": "Prend position et commence à charger. À la fin, inflige ??? DEG P aux ennemis en ligne droite. Les dégâts augmentent de 150% proportionnellement au temps total de charge. Au-delà du stade 3, renverse les ennemis.",
+      "thumbnail": "heroes/Rodina/skills/1.png"
+    },
+    "2": {
+      "name": "Visée",
+      "cost": "2",
+      "cooldown": "15",
+      "description": "La cible subit 50% de dégâts supplémentaires de ce héros. Augmente aussi sa propre ATQ de ???.",
+      "thumbnail": "heroes/Rodina/skills/2.png"
+    },
+    "3": {
+      "name": "Feu Focalisé",
+      "cost": "3",
+      "cooldown": "13",
+      "description": "Tire 10 coups au hasard, infligeant ??? dégâts par attaque. Chaque attaque augmente les dégâts de 10%.",
+      "thumbnail": "heroes/Rodina/skills/3.png"
+    },
+    "4": {
+      "name": "Tir Rapide",
+      "cost": null,
+      "cooldown": "10",
+      "description": "Inflige ??? point de DEG P en faisant 2 attaques consécutives à 1 ennemi toutes les 10 secondes.",
+      "thumbnail": "heroes/Rodina/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG Crit de 50%."
+    },
+    "2": {
+      "II": "Augmente l'augmentation d'ATQ de 10%.",
+      "III": "Augmente l'augmentation d'ATQ de 15%.",
+      "IV": "Augmente les DEG Crit de 50% pendant la durée de la compétence."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG Crit de 50%."
+    },
+    "4": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG Crit de 50%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Les DEG sont augmentés de 40%.",
+          "thumbnail": "heroes/Rodina/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Confère l'immunité contre les Contrôles pendant l'utilisation de la compétence.",
+          "thumbnail": "heroes/Rodina/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Vitesse d'ATQ augmentée de 250 pendant la durée.",
+          "thumbnail": "heroes/Rodina/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Rodina/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente le coût en PM de 1 et le nombre d'ennemi ciblé de 1.",
+          "thumbnail": "heroes/Rodina/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Ignore le blocage ennemi.",
+          "thumbnail": "heroes/Rodina/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "S'il n'y a qu'1 ennemi, les DEG sont augmentés de 100%.",
+          "thumbnail": "heroes/Rodina/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Les ennemis touchés subissent Étourdissement pendant 2 sec.",
+          "thumbnail": "heroes/Rodina/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Crit +100",
+        "thumbnail": "heroes/Rodina/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente l'ATQ de 20% pendant 10 secondes et définit 3 ennemis aléatoires comme cible de Rodina au début de chaque bataille.",
+        "thumbnail": "heroes/Rodina/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Fusil modifié Mod. 0 de Rodina",
+    "description": "Chaque attaque a 20% de chances d'infliger des DEG P supplémentaires à hauteur de 200% de l'ATQ et de repousser l'ennemi. La Précision est ensuite augmentée de 100 pendant 10 sec. Cumulable 3 fois.",
+    "value": {},
+    "thumbnail": "heroes/Rodina/uw.png",
+    "story": "L'essence même de la technologie impériale la plus sophistiquée. Ce fusil demande une précision surhumaine et ne peut être manié par une personne normale. Il a été magiquement enchanté pour permettre au tireur de voir à une portée incroyablement longue. Cependant, même le meilleur télescope du monde est inutile dans les mains de celui qui ne sait pas l'utiliser, c'est pourquoi les performances de ce fusil dépendent beaucoup du talent de son utilisateur. Rodina, qui a une superbe vision et un sang-froid parfait, est la propriétaire idéale de ce fusil. Elle l'a même personnalisé en le surnommant « Rodina Fusil Personnalisé ».",
+    "descriptionByStar": {
+      "0": "Chaque attaque a 20% de chances d'infliger des DEG P supplémentaires à hauteur de 200% de l'ATQ et de repousser l'ennemi. La Précision est ensuite augmentée de 100 pendant 10 sec. Cumulable 3 fois.",
+      "1": "Chaque attaque a 20% de chances d'infliger des DEG P supplémentaires à hauteur de 240% de l'ATQ et de repousser l'ennemi. La Précision est ensuite augmentée de 100 pendant 10 sec. Cumulable 3 fois.",
+      "2": "Chaque attaque a 20% de chances d'infliger des DEG P supplémentaires à hauteur de 288% de l'ATQ et de repousser l'ennemi. La Précision est ensuite augmentée de 100 pendant 10 sec. Cumulable 3 fois.",
+      "3": "Chaque attaque a 20% de chances d'infliger des DEG P supplémentaires à hauteur de 344% de l'ATQ et de repousser l'ennemi. La Précision est ensuite augmentée de 100 pendant 10 sec. Cumulable 3 fois.",
+      "4": "Chaque attaque a 20% de chances d'infliger des DEG P supplémentaires à hauteur de 414% de l'ATQ et de repousser l'ennemi. La Précision est ensuite augmentée de 100 pendant 10 sec. Cumulable 3 fois.",
+      "5": "Chaque attaque a 20% de chances d'infliger des DEG P supplémentaires à hauteur de 500% de l'ATQ et de repousser l'ennemi. La Précision est ensuite augmentée de 100 pendant 10 sec. Cumulable 3 fois."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Épaulière antichoc",
+      "description": "[Tir pénétrant] Réduit les DEG P et DEG M reçus de 40 % pendant la durée de la compétence et augmente l'ATQ de 10 % à chaque coup critique pendant 10 sec. L'augmentation de l'ATQ peut se cumuler jusqu'à 4 fois.",
+      "value": {},
+      "thumbnail": "heroes/Rodina/ut/1.png",
+      "story": "Fluss s'est procurée à grand-peine cette épaulière spéciale pour Rodina.\nConstituée de cuir de larve noire, elle est extrêmement résistante et solide. Rodina l'adore pour sa manière d'absorber le recul.",
+      "descriptionByStar": {
+        "0": "[Tir pénétrant] Réduit les DEG P et DEG M reçus de 40 % pendant la durée de la compétence et augmente l'ATQ de 10 % à chaque coup critique pendant 10 sec. L'augmentation de l'ATQ peut se cumuler jusqu'à 4 fois.",
+        "1": "[Tir pénétrant] Réduit les DEG P et DEG M reçus de 40 % pendant la durée de la compétence et augmente l'ATQ de 12 % à chaque coup critique pendant 10 sec. L'augmentation de l'ATQ peut se cumuler jusqu'à 4 fois.",
+        "2": "[Tir pénétrant] Réduit les DEG P et DEG M reçus de 40 % pendant la durée de la compétence et augmente l'ATQ de 14 % à chaque coup critique pendant 10 sec. L'augmentation de l'ATQ peut se cumuler jusqu'à 4 fois.",
+        "3": "[Tir pénétrant] Réduit les DEG P et DEG M reçus de 40 % pendant la durée de la compétence et augmente l'ATQ de 17 % à chaque coup critique pendant 10 sec. L'augmentation de l'ATQ peut se cumuler jusqu'à 4 fois.",
+        "4": "[Tir pénétrant] Réduit les DEG P et DEG M reçus de 40 % pendant la durée de la compétence et augmente l'ATQ de 21 % à chaque coup critique pendant 10 sec. L'augmentation de l'ATQ peut se cumuler jusqu'à 4 fois.",
+        "5": "[Tir pénétrant] Réduit les DEG P et DEG M reçus de 40 % pendant la durée de la compétence et augmente l'ATQ de 25 % à chaque coup critique pendant 10 sec. L'augmentation de l'ATQ peut se cumuler jusqu'à 4 fois."
+      }
+    },
+    "2": {
+      "name": "Soutien en cristal",
+      "description": "[Visée] Cible un ennemi aléatoire quand la cible de Rodina meurt, augmentant l'ATQ de 20 % pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Rodina/ut/2.png",
+      "story": "Fusil de précision fabriqué par Pavel pour correspondre à la taille de Rodina.\nFait de cristaux, il est solide et résistant. Ce soutien est capable de verrouiller n’importe quelle cible.",
+      "descriptionByStar": {
+        "0": "[Visée] Cible un ennemi aléatoire quand la cible de Rodina meurt, augmentant l'ATQ de 20 % pendant 10 sec.",
+        "1": "[Visée] Cible un ennemi aléatoire quand la cible de Rodina meurt, augmentant l'ATQ de 24 % pendant 10 sec.",
+        "2": "[Visée] Cible un ennemi aléatoire quand la cible de Rodina meurt, augmentant l'ATQ de 29 % pendant 10 sec.",
+        "3": "[Visée] Cible un ennemi aléatoire quand la cible de Rodina meurt, augmentant l'ATQ de 35 % pendant 10 sec.",
+        "4": "[Visée] Cible un ennemi aléatoire quand la cible de Rodina meurt, augmentant l'ATQ de 42 % pendant 10 sec.",
+        "5": "[Visée] Cible un ennemi aléatoire quand la cible de Rodina meurt, augmentant l'ATQ de 50 % pendant 10 sec."
+      }
+    },
+    "3": {
+      "name": "Déluge sur mesure VII",
+      "description": "[Feu focalisé] Augmente les dégâts de 20 % et inflige des dégâts ignorant la DEF de la cible avec les 2 derniers coups.",
+      "value": {},
+      "thumbnail": "heroes/Rodina/ut/3.png",
+      "story": "Un barrage commandé au forgeron légendaire de l’empire. Il contient de la poudre à canon fait à partir de l’œuf solide de pitta et de la mâchoire d’une tortue dragon. Il fut miniaturisé afin que Rodina l’utilise aisément, mais il a le pouvoir de tout détruire.",
+      "descriptionByStar": {
+        "0": "[Feu focalisé] Augmente les dégâts de 20 % et inflige des dégâts ignorant la DEF de la cible avec les 2 derniers coups.",
+        "1": "[Feu focalisé] Augmente les dégâts de 24 % et inflige des dégâts ignorant la DEF de la cible avec les 2 derniers coups.",
+        "2": "[Feu focalisé] Augmente les dégâts de 29 % et inflige des dégâts ignorant la DEF de la cible avec les 2 derniers coups.",
+        "3": "[Feu focalisé] Augmente les dégâts de 35 % et inflige des dégâts ignorant la DEF de la cible avec les 2 derniers coups.",
+        "4": "[Feu focalisé] Augmente les dégâts de 42 % et inflige des dégâts ignorant la DEF de la cible avec les 2 derniers coups.",
+        "5": "[Feu focalisé] Augmente les dégâts de 50 % et inflige des dégâts ignorant la DEF de la cible avec les 2 derniers coups."
+      }
+    },
+    "4": {
+      "name": "Encyclopédie des armes à feu",
+      "description": "[Tir consécutif] Passe le nombre de cibles à 2. Réduit la Résistance Crit P des ennemis touchés de 200 points pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Rodina/ut/4.png",
+      "story": "Un magazine pour les excités de la gâchette de l'empire.\nPublié régulièrement par Magos Le'Flamme, il contient diverses informations concernant les armes dernier cri.\nRodina est une fidèle lectrice et boit les paroles du magazine, car il est édité sous la supervision de la directrice générale Valance, adulée par Rodina.",
+      "descriptionByStar": {
+        "0": "[Tir consécutif] Passe le nombre de cibles à 2. Réduit la Résistance Crit P des ennemis touchés de 200 points pendant 10 sec.",
+        "1": "[Tir consécutif] Passe le nombre de cibles à 2. Réduit la Résistance Crit P des ennemis touchés de 240 points pendant 10 sec.",
+        "2": "[Tir consécutif] Passe le nombre de cibles à 2. Réduit la Résistance Crit P des ennemis touchés de 290 points pendant 10 sec.",
+        "3": "[Tir consécutif] Passe le nombre de cibles à 2. Réduit la Résistance Crit P des ennemis touchés de 350 points pendant 10 sec.",
+        "4": "[Tir consécutif] Passe le nombre de cibles à 2. Réduit la Résistance Crit P des ennemis touchés de 420 points pendant 10 sec.",
+        "5": "[Tir consécutif] Passe le nombre de cibles à 2. Réduit la Résistance Crit P des ennemis touchés de 500 points pendant 10 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 22 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de Fusil modifié Mod. 0 de Rodina, ce qui augmente les DEG Crit du Héros de 100% pendant 10 sec. Pendant la durée de l'invocation, inflige ??? DEG P ignorant la DEF aux ennemis touchés, toutes les 2 sec et les étourdit pendant 2 sec. Si la cible est un boss, augmente les DEG infligés et la durée de l'étourdissement de 2 fois.",
+    "cooldown": "22",
+    "uses": "6",
+    "thumbnail": "heroes/Rodina/sw.png",
+    "advancement": {
+      "1": "Augmente les DEG infligés de 50%.",
+      "2": "Augmente les DEG infligés de 50% et immunise le Héros contre les Contrôles pendant la durée de l'invocation."
+    },
+    "story": "Fusil Mod. 0, était le fusil le plus sensible parmi les armes à feu créées par l'empire.\nMais Rodina, qui avait prouvé ses aptitudes en maniant un tel fusil, était une tireuse d'élite hors pair. Cependant, même-elle ne parvenait pas à réussir tous ses tirs.\nCar la réussite du tir ne dépendait pas uniquement des talents de la tireuse et de la qualité de l'arme utilisée.\nCela demandait des conditions 'optimales', que ce soit le climat ou l'état physique de la tireuse. Beaucoup d'éléments étaient incontrôlables, et il fallait également de la chance.\nPourtant, Rodina n'abandonna pas, ne se résigna pas. Et elle décida qu'elle emploierait au maximum les éléments qu'elle était capable de maîtriser.\nDans les montagnes enneigées, la tireuse pouvait entraîner facilement la concentration. Car dans des conditions extrêmes telles que la chute de la neige ou le brouillard qui réduisaient la visibilité, il fallait une concentration intense pour toucher une cible mouvante. Après avoir fixé un but, Rodina continua à s'entraîner.\nPuis un jour, Rodina ressentit une sensation étrange. Son regard s'était brouillé à cause de la fatigue, mais malgré tout, elle parvenait à percevoir parfaitement la cible. En appuyant sur la gâchette instinctivement, Rodina vit nettement un nouveau point de mire, qui n'avait jamais existé jusque-là, apparaître dans sa visée.\nC'était un cadeau offert par son fusil, pour sa propriétaire qui s'était entraînée sévèrement."
+  },
+  "splashart": "heroes/Rodina/sa.png",
+  "costumes": "heroes/Rodina/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

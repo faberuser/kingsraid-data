@@ -1,0 +1,228 @@
+{
+  "id": "Selene",
+  "profile": {
+    "name": "Selene",
+    "title": "Wind-piercing Arrow Selene",
+    "class": "Archer",
+    "position": "Back-200",
+    "attack_range": "1000",
+    "damage_type": "Physical",
+    "gender": "Female",
+    "age": "???",
+    "height": "169",
+    "race": "Elf",
+    "constellation": "Notmun the Tuner",
+    "birth": {
+      "month": 7,
+      "day": 11,
+      "monthName": "Month of Harmony"
+    },
+    "like": "Those who work in harmony and take responsibilities",
+    "dislike": "Those who abandon their own beliefs Those who flee from danger",
+    "story": "This noble Elven princess admires the Holy Sword and its chosen warrior. She strives as much as she can to do what's right, and wants others to do the same. This is why she offers genuine criticism to anyone who strays from the path of righteousness, even if it's the Warrior of the Holy Sword. Unfortunately, her stout resolve is sometimes taken the wrong way by others. She often visits her younger sister Dosarta at her tower to keep her company.",
+    "thumbnail": "heroes/Selene/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Arrow Rain",
+      "cost": "3",
+      "cooldown": "8",
+      "description": "Shoots 12 arrows to random enemies and deals a total of ??? P.DMG.",
+      "thumbnail": "heroes/Selene/skills/1.png"
+    },
+    "2": {
+      "name": "Rush",
+      "cost": "1",
+      "cooldown": "6",
+      "description": "Upon attacking, summons 5 arrows that launch towards the enemy. Each arrow deals ??? P.DMG.",
+      "thumbnail": "heroes/Selene/skills/2.png"
+    },
+    "3": {
+      "name": "Moonlight Flash",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Fires an arrow in a straight line, dealing P.DMG to all enemies in range based on the target's remaining HP. Deals a maximum of ??? P.DMG and knocks down the target. Against Bosses, deals additional ??? P.DMG that ignores DEF.",
+      "thumbnail": "heroes/Selene/skills/3.png"
+    },
+    "4": {
+      "name": "Moonlight Arrow",
+      "cost": null,
+      "cooldown": "0.1",
+      "description": "Upon attacking, increases ATK by ??? and Crit Chance by 100 for 10 sec. This effect stacks up to 3 times.",
+      "thumbnail": "heroes/Selene/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Increases DMG by 10%.",
+      "III": "Increases DMG by 15%.",
+      "IV": "Increases DMG by 25%."
+    },
+    "2": {
+      "II": "Increases DMG by 10%.",
+      "III": "Increases DMG by 15%.",
+      "IV": "Increases DMG by 25%."
+    },
+    "3": {
+      "II": "Increases DMG by 10%.",
+      "III": "Increases DMG by 15%.",
+      "IV": "Increases DMG by 25%."
+    },
+    "4": {
+      "II": "Increases ATK Boost by 10%.",
+      "III": "Increases ATK Boost by 15%.",
+      "IV": "Each attack increases hero's Crit DMG by 10 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "DMG is increased by 40%.",
+          "thumbnail": "heroes/Selene/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Inflicts Stun on the hit enemy for 1 sec with a 50% chance.",
+          "thumbnail": "heroes/Selene/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Ignores DEF when there is only 1 enemy.",
+          "thumbnail": "heroes/Selene/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Reduces Mana Cost by 1.",
+          "thumbnail": "heroes/Selene/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Reduces Mana Cost by 1.",
+          "thumbnail": "heroes/Selene/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Ignores enemy Block.",
+          "thumbnail": "heroes/Selene/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Max stack number is changed to 5.",
+          "thumbnail": "heroes/Selene/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "At the beginning of each battle, increases ATK by 5%. This effect can be stacked up to max 10 times. Upon gaining 10 stacks, increases DMG dealt to bosses by 20%. This effect is irremovable.",
+          "thumbnail": "heroes/Selene/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATK, DEF, HP +15% / Crit DMG +20%",
+        "thumbnail": "heroes/Selene/perks/light.png"
+      },
+      "dark": {
+        "effect": "Reduces own Crit Chance by 300 and increases Crit DMG by 150%.",
+        "thumbnail": "heroes/Selene/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Green Winds, Notos",
+    "description": "Upon a Crit Hit, ATK Spd is increased by 200 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 100% P.DMG.",
+    "value": {},
+    "thumbnail": "heroes/Selene/uw.png",
+    "story": "A bow blessed with the breath of Sylphid, the Wind Elemental. Only a person of noble character may wield it. Created from the breath of the Elemental, the arrow pierces through the target when the bow is drawn. No matter where the target is hiding, the arrow never misses it with the guidance of the Wind Elemental. Ever since her childhood, Selene has shared special bonds with Elementals. Of all the Elementals, Sylphid was the closest. As a sign of their friendship, Sylphid enchanted Selene's bow.",
+    "descriptionByStar": {
+      "0": "Upon a Crit Hit, ATK Spd is increased by 200 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 100% P.DMG.",
+      "1": "Upon a Crit Hit, ATK Spd is increased by 240 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 120% P.DMG.",
+      "2": "Upon a Crit Hit, ATK Spd is increased by 280 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 140% P.DMG.",
+      "3": "Upon a Crit Hit, ATK Spd is increased by 340 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 170% P.DMG.",
+      "4": "Upon a Crit Hit, ATK Spd is increased by 410 for 10 sec, and for the duration of skill, each auto attack fires an arrow that deals extra 210% P.DMG.",
+      "5": "Upon a Crit Hit, ATK Spd is increased by 500 for 10 sec, and for the duration of skill, each auto attack fires an extra arrow that deals 250% P.DMG."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Sharpshooter's Gloves",
+      "description": "[Arrow Rain] Reduces Mana Cost by 1 and Cooldown by 1 sec.",
+      "value": {},
+      "thumbnail": "heroes/Selene/ut/1.png",
+      "story": "Gloves blessed by a Wind Elemental.\nDosarta gave the gloves to her sister, Selene, as a present in gratitude for her hard work in protecting the peace of Elves. They were made with cloth imbued with the magic of a Wind Elemental, Sylphid, on which Dosarta added some embroidery with moonlight thread.",
+      "descriptionByStar": {
+        "0": "[Arrow Rain] Reduces Mana Cost by 1 and Cooldown by 1 sec.",
+        "1": "[Arrow Rain] Reduces Mana Cost by 1 and Cooldown by 1.2 sec.",
+        "2": "[Arrow Rain] Reduces Mana Cost by 1 and Cooldown by 1.4 sec.",
+        "3": "[Arrow Rain] Reduces Mana Cost by 1 and Cooldown by 1.7 sec.",
+        "4": "[Arrow Rain] Reduces Mana Cost by 1 and Cooldown by 2.1 sec.",
+        "5": "[Arrow Rain] Reduces Mana Cost by 1 and Cooldown by 2.5 sec."
+      }
+    },
+    "2": {
+      "name": "Wind Spirit Seal Stone",
+      "description": "[Rush] Increases DMG by 20% and has a 15% chance to summon 1 Rush Arrow upon a normal attack.",
+      "value": {},
+      "thumbnail": "heroes/Selene/ut/2.png",
+      "story": "A stone in which a reckless wind bow elemental is sealed. \nThe elemental caused all kinds of trouble with its evil tricks, so it was sealed by the Fairy King. \nThe belligerent wind elemental infuses arrows with destructive wind, increasing its killing power by 5 times or more.",
+      "descriptionByStar": {
+        "0": "[Rush] Increases DMG by 20% and has a 15% chance to summon 1 Rush Arrow upon a normal attack.",
+        "1": "[Rush] Increases DMG by 24% and has a 15% chance to summon 1 Rush Arrow upon a normal attack.",
+        "2": "[Rush] Increases DMG by 29% and has a 15% chance to summon 1 Rush Arrow upon a normal attack.",
+        "3": "[Rush] Increases DMG by 35% and has a 15% chance to summon 1 Rush Arrow upon a normal attack.",
+        "4": "[Rush] Increases DMG by 42% and has a 15% chance to summon 1 Rush Arrow upon a normal attack.",
+        "5": "[Rush] Increases DMG by 50% and has a 15% chance to summon 1 Rush Arrow upon a normal attack."
+      }
+    },
+    "3": {
+      "name": "Silver Arrow",
+      "description": "[Moonlight Flash] Increases DMG by 20%, and P.DMG the target takes by 20% for 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Selene/ut/3.png",
+      "story": "Arrowhead imbued with the blessing of the Goddess of Hunting and the Moon. An ancient artifact that is passed down to the best Elven hunter. It is said that the Goddess of Hunting and the Moon cared for the Elves who protected the holy forest, and she lent her power to them through the artifact. The silver arrow imbued with the power of the Goddess of the Moon has a mysterious power that allows the user to defeat his enemy and boost DMG.",
+      "descriptionByStar": {
+        "0": "[Moonlight Flash] Increases DMG by 20%, and P.DMG the target takes by 20% for 10 sec.",
+        "1": "[Moonlight Flash] Increases DMG by 24%, and P.DMG the target takes by 20% for 10 sec.",
+        "2": "[Moonlight Flash] Increases DMG by 29%, and P.DMG the target takes by 20% for 10 sec.",
+        "3": "[Moonlight Flash] Increases DMG by 35%, and P.DMG the target takes by 20% for 10 sec.",
+        "4": "[Moonlight Flash] Increases DMG by 42%, and P.DMG the target takes by 20% for 10 sec.",
+        "5": "[Moonlight Flash] Increases DMG by 50%, and P.DMG the target takes by 20% for 10 sec."
+      }
+    },
+    "4": {
+      "name": "Circlet of Wind",
+      "description": "[Moonlight Arrow] Increases ATK Spd by 100 and each stack increases DMG to Non-Hero enemies by 2%.",
+      "value": {},
+      "thumbnail": "heroes/Selene/ut/4.png",
+      "story": "A circlet that holds the grace of Notos and Wind Elementals.\nThe Circlet of Wind is passed down through the generations to the best Elven archer, and Selene is its current owner.",
+      "descriptionByStar": {
+        "0": "[Moonlight Arrow] Increases ATK Spd by 100 and each stack increases DMG to Non-Hero enemies by 2%.",
+        "1": "[Moonlight Arrow] Increases ATK Spd by 100 and each stack increases DMG to Non-Hero enemies by 2.4%.",
+        "2": "[Moonlight Arrow] Increases ATK Spd by 100 and each stack increases DMG to Non-Hero enemies by 2.9%.",
+        "3": "[Moonlight Arrow] Increases ATK Spd by 100 and each stack increases DMG to Non-Hero enemies by 3.5%.",
+        "4": "[Moonlight Arrow] Increases ATK Spd by 100 and each stack increases DMG to Non-Hero enemies by 4.2%.",
+        "5": "[Moonlight Arrow] Increases ATK Spd by 100 and each stack increases DMG to Non-Hero enemies by 5%."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Charges up upon dealing DMG 60 times.",
+    "description": "Summons the soul of Green Winds, Notos for 13 sec, increasing own ATK by 50% and Crit DMG by 50%. For the duration of Skill, deals ??? P.DMG that ignores DEF on an enemy every 4 sec, knocks them back for 2 sec, and immediately reduces self's Cooldown of all active Skills by 1 sec.",
+    "cooldown": "20",
+    "uses": "8",
+    "thumbnail": "heroes/Selene/sw.png",
+    "advancement": {
+      "1": "Increases DMG by 50%, and every time the soul attacks an enemy, recovers own Mana by 1000.",
+      "2": "Increases DMG by 30% and reduces Skill Activation Requirements to 40 times."
+    },
+    "story": "Selene had great confidence in her skills. She believed that she would be able to draw all the strengths of wind dormant within her bow. However, Selene one day realized and was shocked that she was in fact, unable to draw the true power of the wind.\n’-What I’ve been doing was borrowing its strength. How pathetic! I have disappointed the elementals!’\nSince that day, Selene pulled her bowstring hundredth, thousandth time to truly feel the wind. Her hands bruised, and skins torn, but that did not stop her. Then one day, the moment when she was so focused that she forgot how to use the bow, Selene felt a gentle breeze embracing her.\n’-I knew you could do it.’\n-Selene’s friend, the one who first imbued its breath into the bow, put on a gentle, accommodating smile."
+  },
+  "splashart": "heroes/Selene/sa.png",
+  "costumes": "heroes/Selene/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "en",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "Otherworldly Shakmeh",
+  "profile": {
+    "name": "Jenseitige Dunkelheit Shakmeh",
+    "title": "Jenseitige Dunkelheit",
+    "type": [
+      "Shakmeh"
+    ],
+    "race": "Tidhar",
+    "damage_type": "Physical",
+    "recommended_heroes": "Kirze, Xerah, Lakrak",
+    "characteristics": "Jenseitige Dunkelheit Shakmeh muss mit 2 Gruppen angegriffen werden, wobei jede Gruppe sich nicht gegenseitig beeinflusst. Da musst du gut aufpassen! Außerdem werden nach Phase 3 und Phase 5 Shakmeh neue Skills hinzugefügt, sodass du eine gute Gegenstrategie entwickeln musst. Im Jenseitige Dunkelheit Shakmeh-Kampf können die Skills [Schutz der Oase] und [Wüstenzorn] verwendet werden. Vergiss nicht diese gut einzusetzen, da sie dir viel helfen werden!",
+    "thumbnail": "bosses/Otherworldly Darkness Shakmeh.png",
+    "recommendedHeroNames": [
+      "Kirze",
+      "Xerah",
+      "Lakrak"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Groll verzehrendes Schatten des Schwertes",
+      "cost": null,
+      "cooldown": "9",
+      "description": "Greift alle Gegner mit Schatten des Schwertes an, fügt Körp. Schaden zu und stellt Shakmehs MP wieder her. Je höher die aktuellen MP von Shakmeh sind, desto höher der Schaden. Je niedriger sie sind, desto mehr MP werden wiederhergestellt."
+    },
+    "2": {
+      "name": "Dunkelheit verzehrende Flut der Sünde",
+      "cost": null,
+      "cooldown": "20",
+      "description": "Beschwört ein Jenseitiges Schwert, um die Flut der Sünde auf den Weg des Schattens zu schicken, wobei Körp. Schaden und [Vergnügen der Sünde] zugefügt wird. Helden im [Vergnügen der Sünde]-Zustand können kein Leben rauben, ihre Heilungsrate verringert sich und sie erhalten kontinuierlichen Körp. Schaden, jedoch verursachen sie erhöhten Schaden. [Vergnügen der Sünde] wird dann entfernt, wenn die aktuellen TP des Ziels unter 25 % liegen."
+    },
+    "3": {
+      "name": "Verzweiflung verzehrender Sturm des Hasses",
+      "cost": null,
+      "cooldown": "20",
+      "description": "Beschwört einen Sturm des Hasses auf den Weg der Sonne, wobei 14 Körp. Schaden zugefügt wird und 10 Sek. lang die ANG-GESCHW. verringert wird, sodass im Sturm kein Leben geraubt werden kann. Dieser Skill fügt starken Schaden zu, je niedriger die ANG-GESCHW. ist."
+    },
+    "4": {
+      "name": "Leben verzehrende Beurteilung des Glanzes",
+      "cost": null,
+      "cooldown": "23",
+      "description": "Beurteilt die Gegner auf dem Weg des Schattens 6-mal aller 2 Sek., wobei die positiven Effekte entfernt werden, ihnen Körp. Schaden zugefügt wird und sie betäubt werden. Wenn das Ziel bereits betäubt ist, verringert es dauerhaft die Heilungsrate des Ziels und stellt Shakmehs MP wieder her. Je höher die aktuellen MP von Shakmeh sind, desto höher der Schaden. Je niedriger sie sind, desto mehr MP werden wiederhergestellt."
+    },
+    "5": {
+      "name": "Zorn verzehrende Beschleunigung des Obsidians",
+      "cost": null,
+      "cooldown": "23",
+      "description": "Greift die Gegner auf dem Weg der Sonne an, fügt ihnen Körp. Schaden zu und verringert den Schaden, den das Ziel hinzufügt, wobei 12 Sek. lang [Baum der Sünde] beschworen wird. Jede Sek. verringert [Baum der Sünde] den ANG der Gegner in seiner Nähe. Wird [Baum der Sünde] innerhalb von 12 Sek. zerstört, so wird auch Shakmehs [Verdorbene Macht] stark verringert. Wenn nach 12 Sek. [Baum der Sünde] am Leben ist, verursacht Shakmeh eine Beschleunigung des Obsidians, um die Gegner auf dem Weg der Sonne sofort zu töten."
+    },
+    "6": {
+      "name": "Rache des Ungekrönten",
+      "cost": null,
+      "cooldown": null,
+      "description": "Wenn Shakmehs TP auf 66 % und 33 % fallen, beschwört er das Schwert der Rache, um positive Effekte von allen Gegnern zu entfernen und ihnen Körp. Schaden zuzufügen. Wenn die verdorbene Macht mehr als 50% beträgt, werden alle Gegner vernichtet."
+    },
+    "7": {
+      "name": "Sünde verzehrendes Gefäß",
+      "cost": null,
+      "cooldown": null,
+      "description": "Shakmeh erhält keine ANG-GESCHW.- und VERT-Reduktionseffekte. Weiterhin kann er seine Mana schnell wiederherstellen, sodass alle Blockchancen sich erhöhen, je höher seine Mana ist. Wenn Shakmehs MP 0 erreichen, kann er zwar für 7 Sek. seine Mana nicht wiederherstellen und alle erhaltenen Schäden erhöhen sich, aber dafür erhält er einen unauflösbaren Schild. Nach 7 Sek. stellt enorm viel Mana wieder her."
+    },
+    "8": {
+      "name": "Fall des verzehrenden Abgrunds",
+      "cost": null,
+      "cooldown": null,
+      "description": "Shakmeh nutzt die Kraft des Abgrunds, wobei seine Angriffe immer treffen und ungeachtet der VERT des Ziels Schaden zugefügt wird, aber seine Verteidigung ist sehr niedrig.\nIn Phase 3 oder höher kann Shakmeh seinen Skill [Rache des Ungekrönten] verwenden, und in Phase 5 oder höher kann er seinen Skill [Zorn verzehrende Beschleunigung des Obsidians] verwenden."
+    },
+    "9": {
+      "name": "Verdorbene Macht der Jenseitigen Dunkelheit Shakmeh",
+      "cost": null,
+      "cooldown": null,
+      "description": "Jenseitige Dunkelheit Shakmeh besitzt verdorbene Macht, sodass diese Macht verringert wird, wenn Shakmeh unter Massenkontrolle steht. Wenn die verdorbene Macht vollständig verbraucht wird, erhöht sich zwar der erhaltene Schaden von Shakmeh, jedoch wird die verdorbene Macht vollsändig zurückgewonnen, wenn der Skill [Rache des Ungekrönten] verwendet wird."
+    },
+    "10": {
+      "name": "Weg der Sonne/Weg des Schattens",
+      "cost": null,
+      "cooldown": null,
+      "description": "Im Kampf gegen Shakmeh müssen die Nahkampfhelden den [Weg der Sonne] und die Fernkampfhelden den [Weg des Schattens] betreten. Helden, die sich auf verschiedenen Wege befinden, können keinen Einfluss auf den entgegengesetzten Weg haben."
+    },
+    "11": {
+      "name": "Schutz der Oase",
+      "cost": null,
+      "cooldown": "5",
+      "description": "Verringert 9 Sek. lang den erhaltenen Schaden von den Helden auf dem Weg der Sonne, erhöht ihren ANG und vermeidet negative Effekte, wobei jede Sek. die TP entsprechend der max. TP wiedergerstellt werden. Nach 10 Sek. wird es aufgeladen und kann wiederverwendet werden."
+    },
+    "12": {
+      "name": "Wüstenzorn",
+      "cost": null,
+      "cooldown": "5",
+      "description": "Greift Shakmeh an und verringert stark die MP und die [Verdorbene Macht]. Danach wird der Schild zerstört. Nach 12 Sek. wird es aufgeladen und kann wiederverwendet werden. Nach 12 Sek. wird es zusätzlich aufgeladen, wobei zusätzlich alle Efekte verstärkt werden können."
+    }
+  },
+  "aliases": [
+    "OtherworldlyShakmeh",
+    "DarknessShakmeh",
+    "BigShakmeh",
+    "HugeShakmeh",
+    "AdultShakmeh"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "Delta",
+  "profile": {
+    "name": "Delta",
+    "title": "Prédateur MK-XX",
+    "type": [
+      "Technomagic Enchantment Raid"
+    ],
+    "race": "Golem",
+    "damage_type": "Physical",
+    "recommended_heroes": "Gau, Cecilia, Mediana",
+    "characteristics": "ARCDIM X Delta inflige constamment des charges de Saignement, alors employez des compétences qui dissipe des effets négatifs. Dans certaines circonstances, il augmente considérablement son Esquive P à moins de subir un certain nombre de coups, alors maîtrisez-le en utilisant des effets en rapport avec la Précision.\nARCDIM X Delta bénéficie d'une Résistance Crit très élevée, alors prenez garde.",
+    "thumbnail": "bosses/Delta.png",
+    "recommendedHeroNames": [
+      "Gau",
+      "Cecilia",
+      "Mediana"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Lame de Scie",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Inflige 8 fois des DEG P aux ennemis situés à l'arrière et cumule une charge de Saignement à chaque coup porté. La cible sous l'effet de Saignement reçoit de graves DEG P toutes les sec. Peut cumuler jusqu'à 100 charges."
+    },
+    "2": {
+      "name": "Lame tournoyante",
+      "cost": null,
+      "cooldown": "32",
+      "description": "Attaque les ennemis proches situés dans une zone circulaire, infligeant des DEG P. Pendant la durée, augmente considérablement l'Esquive du lanceur. L'attaque devient de plus en plus puissante et dure jusqu'à ce que le boss soit touché par un certain nombre de coups, ce qui met fin à l'attaque, le mettant dans un état d'affaiblissement. Dans cet état, les DEG qu'il reçoit augmentent considérablement. L'attaque est également interrompue lorsqu'aucun ennemi n'est touché pendant un certain temps.\nLe nombre de coups requis et l'augmentation d'Esquive augmentent en fonction du niveau.\n(Nombre de coup requis au niveau 1 : 120)\n(Augmentation d'Esquive au niveau 1 : 500)"
+    },
+    "3": {
+      "name": "Vagues meurtrières",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lorsque les PV d'ARCDIM X Delta atteignent 66% de ses PV max, il se met à l'état de [Vagues meurtrières] qui ne peut être dissipé. Dans l'état de [Vagues meurtrières], ses attaques automatiques sont renforcées, touchant les ennemis dans une zone plus large et infligeant des DEG plus élevés."
+    },
+    "4": {
+      "name": "Explosion de Plasma",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lorsque les PV d'ARCDIM X Delta atteignent 33% de ses PV max, il se met à l'état d'[Explosion de Plasma] qui ne peut être dissipé. Dans l'état d'[Explosion de Plasma], son ATQ ainsi que sa Vitesse d'ATQ augmentent considérablement et il devient de plus en plus puissant au fil du temps."
+    },
+    "5": {
+      "name": "Défense adaptative Delta au Méthadium",
+      "cost": null,
+      "cooldown": null,
+      "description": "ARCDIM X Delta ne peut être affecté par les effets concernant la Vitesse d'ATQ et la réduction de DEF. Il est également immunisé contre l'augmentation des DEG reçus et sa Résistance Crit est très élevée. De plus, toutes les attaques d'ARCDIM X Delta ignorent l'effet de réduction des DEG de la cible et sa Résistance Crit augmente en fonction du niveau.\n(Résistance Crit au niveau 1 : 300)"
+    }
+  },
+  "aliases": null
+}

@@ -1,0 +1,268 @@
+{
+  "id": "Clause",
+  "profile": {
+    "name": "Clause",
+    "title": "Clause, Chevalier Protecteur Mur-de-Fer",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "1500",
+    "damage_type": "Physical",
+    "gender": "Homme",
+    "age": "20",
+    "height": "195",
+    "race": "Humain",
+    "constellation": "Asiphia l'Impératrice",
+    "birth": {
+      "month": 10,
+      "day": 22,
+      "monthName": "Mois de l'Amitié"
+    },
+    "like": "Sa nouvelle famille",
+    "dislike": "Faire du mal à ses chers amis",
+    "story": "Cet homme sage et vertueux protège Orvel en tant que chevalier. Beaucoup de gens le considèrent comme un fidèle défenseur d'Orvel, mais du fait de son manque d'intérêt pour la fortune et le succès, il n'a jamais accédé à un rang élevé au sein de l'ordre. Il a grandi auprès de Kasel et Frey dans le même orphelinat, et il aime les terres qui abritent ceux qui lui sont proches. Il s'est récemment porté volontaire pour l'expédition d'enquête dans les Plaines du Roi.",
+    "thumbnail": "heroes/Clause/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Sol déchiré",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Bondit et inflige 258*(0.7+(0.3*Skill Level*Awakening Coefficient))+198% ATK de dégâts physiques aux ennemis à portée, les étourdissant pendant 2 s.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Clause/skills/1.png"
+    },
+    "2": {
+      "name": "Coup de Bouclier",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Inflige 1405*(0.7+(0.3*Skill Level*Awakening Coefficient))+100% Physical DEF de DGT physiques aux ennemis à portée, les repousse et réduit leur ATQ de 25 % et leur vitesse d'attaque de 20 % pendant 4 s.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Clause/skills/2.png"
+    },
+    "3": {
+      "name": "Bouclier du Gardien",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Pendant 14 s, augmente la défense physique de tous les alliés de 98*(0.7+(0.3*Skill Level*Awakening Coefficient)) et leurs chances de blocage physique de 150, et réduit leurs dégâts physiques subis de 10 %.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Clause/skills/3.png"
+    },
+    "4": {
+      "name": "Serment des Chevaliers",
+      "cost": null,
+      "cooldown": "4",
+      "description": "Lors d'un blocage, inflige 48*(0.7+(0.3*Skill Level*Awakening Coefficient))+36.7% ATK de DGT physiques devant soi, réduit l'ATQ de la cible de 3.5 % pendant 6 s et augmente sa propre DÉF physique de 9 %. Ces effets se cumulent jusqu'à 4 fois.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Clause/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "3": {
+      "II": "Augmente l'augmentation de DEF P de [64ff64]10[-] %. ",
+      "III": "Augmente l'augmentation de DEF P de [64ff64]15[-] %. ",
+      "IV": "Augmente l'augmentation de DEF P de [64ff64]25[-] %. "
+    },
+    "4": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Réduit le temps de recharge de 2 sec.",
+          "thumbnail": "heroes/Clause/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Le coût en mana augmente de 2000, mais attire les ennemis proches vers la cible.",
+          "thumbnail": "heroes/Clause/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Lors d'un blocage, le temps de recharge diminue de 0.5 s.",
+          "thumbnail": "heroes/Clause/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Applique Étourdissement pendant 1 sec.",
+          "thumbnail": "heroes/Clause/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Le bonus de défense physique augmente de 50 %.",
+          "thumbnail": "heroes/Clause/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente le Blocage P de 100 pendant la durée de la compétence.",
+          "thumbnail": "heroes/Clause/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Lors d'un blocage, la réduction de l'attaque et l'augmentation de la défense physique sont modifiées pour se cumuler jusqu'à 6 fois.",
+          "thumbnail": "heroes/Clause/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Réduit le temps de recharge de 2 sec.",
+          "thumbnail": "heroes/Clause/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Blocage P +200",
+        "thumbnail": "heroes/Clause/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente l'ATQ de tous les alliés de 10% au début de chaque bataille. Cet effet peut se cumuler jusqu'à 3 fois et ne peut être dissipé.",
+        "thumbnail": "heroes/Clause/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Exian, le Gardien",
+    "description": "Toutes les 3 compétences utilisées, augmente la défense physique de tous les alliés de {0} % et leur attaque de {1} % pendant 15 s. Le bonus de défense physique s'applique à 2 fois sa valeur aux 4 alliés ayant la défense physique la plus faible.",
+    "thumbnail": "heroes/Clause/uw.png",
+    "story": "Une épée et un bouclier gravés de diverses runes et imprégnés d'ancienne magie. Ces objets légendaires ont été créés il y a une éternité par un ancien Dragon nommé Exian, à l'aide de ses propres écailles. L'épée est un des trésors royaux d'Orvel, accordée uniquement au chevalier le plus honorable. Son porteur doit servir en tant que défenseur du royaume et de son peuple, protecteur de la vie.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "16",
+        "4": "18",
+        "5": "20"
+      },
+      "1": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.8",
+        "3": "3.2",
+        "4": "3.6",
+        "5": "4"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Toutes les 3 compétences utilisées, augmente la défense physique de tous les alliés de 10 % et leur attaque de 2 % pendant 15 s. Le bonus de défense physique s'applique à 2 fois sa valeur aux 4 alliés ayant la défense physique la plus faible.",
+      "1": "Toutes les 3 compétences utilisées, augmente la défense physique de tous les alliés de 12 % et leur attaque de 2.4 % pendant 15 s. Le bonus de défense physique s'applique à 2 fois sa valeur aux 4 alliés ayant la défense physique la plus faible.",
+      "2": "Toutes les 3 compétences utilisées, augmente la défense physique de tous les alliés de 14 % et leur attaque de 2.8 % pendant 15 s. Le bonus de défense physique s'applique à 2 fois sa valeur aux 4 alliés ayant la défense physique la plus faible.",
+      "3": "Toutes les 3 compétences utilisées, augmente la défense physique de tous les alliés de 16 % et leur attaque de 3.2 % pendant 15 s. Le bonus de défense physique s'applique à 2 fois sa valeur aux 4 alliés ayant la défense physique la plus faible.",
+      "4": "Toutes les 3 compétences utilisées, augmente la défense physique de tous les alliés de 18 % et leur attaque de 3.6 % pendant 15 s. Le bonus de défense physique s'applique à 2 fois sa valeur aux 4 alliés ayant la défense physique la plus faible.",
+      "5": "Toutes les 3 compétences utilisées, augmente la défense physique de tous les alliés de 20 % et leur attaque de 4 % pendant 15 s. Le bonus de défense physique s'applique à 2 fois sa valeur aux 4 alliés ayant la défense physique la plus faible."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Cape de justice",
+      "description": "[Sol déchiré] Réduit le temps de recharge de {0} % par ennemi touché et prolonge l'étourdissement de 1 s.",
+      "thumbnail": "heroes/Clause/ut/1.png",
+      "story": "Cette cape de cérémonie est portée à Orvelia dans les grandes occasions.\nDepuis qu'elle a été remise à Clause le jour de son adoubement, elle lui rappelle ses vœux de chevalier. À chaque fois qu'il envisage de tout arrêter, épuisé par les batailles, Clause sort sa cape et la contemple. Dans sa jeunesse, Kasel avait pour habitude d'observer Clause procéder à ce rituel en rêvant d'être chevalier un jour.",
+      "value": {
+        "0": {
+          "0": "5",
+          "1": "6",
+          "2": "7",
+          "3": "8",
+          "4": "9",
+          "5": "10"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Sol déchiré] Réduit le temps de recharge de 5 % par ennemi touché et prolonge l'étourdissement de 1 s.",
+        "1": "[Sol déchiré] Réduit le temps de recharge de 6 % par ennemi touché et prolonge l'étourdissement de 1 s.",
+        "2": "[Sol déchiré] Réduit le temps de recharge de 7 % par ennemi touché et prolonge l'étourdissement de 1 s.",
+        "3": "[Sol déchiré] Réduit le temps de recharge de 8 % par ennemi touché et prolonge l'étourdissement de 1 s.",
+        "4": "[Sol déchiré] Réduit le temps de recharge de 9 % par ennemi touché et prolonge l'étourdissement de 1 s.",
+        "5": "[Sol déchiré] Réduit le temps de recharge de 10 % par ennemi touché et prolonge l'étourdissement de 1 s."
+      }
+    },
+    "2": {
+      "name": "Détermination inébranlable",
+      "description": "[Coup de Bouclier] Réduit la Résistance Crit de l'ennemi touché de 25 et sa Crit de 210, pendant 4 sec.",
+      "thumbnail": "heroes/Clause/ut/2.png",
+      "story": "Vieux bouclier en bois appartenant au chevalier du Mur de Fer. \nIl est néanmoins précieux, car il s’agit du premier bouclier que Clause a manié au début de son entraînement. Il y a gravé le nom de ses camarades tombés au combat pour renforcer sa détermination de Chevalier Gardien. \nÀ chaque fois qu’il repousse un ennemi avec ce bouclier, sa détermination inébranlable l’aide à dépasser ses limites.",
+      "value": {
+        "0": {
+          "0": "210",
+          "1": "252",
+          "2": "294",
+          "3": "336",
+          "4": "378",
+          "5": "420"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Coup de Bouclier] Réduit la Résistance Crit de l'ennemi touché de 25 et sa Crit de 210, pendant 4 sec.",
+        "1": "[Coup de Bouclier] Réduit la Résistance Crit de l'ennemi touché de 25 et sa Crit de 210, pendant 4 sec.",
+        "2": "[Coup de Bouclier] Réduit la Résistance Crit de l'ennemi touché de 25 et sa Crit de 210, pendant 4 sec.",
+        "3": "[Coup de Bouclier] Réduit la Résistance Crit de l'ennemi touché de 25 et sa Crit de 210, pendant 4 sec.",
+        "4": "[Coup de Bouclier] Réduit la Résistance Crit de l'ennemi touché de 25 et sa Crit de 210, pendant 4 sec.",
+        "5": "[Coup de Bouclier] Réduit la Résistance Crit de l'ennemi touché de 25 et sa Crit de 210, pendant 4 sec."
+      }
+    },
+    "3": {
+      "name": "Rune des chevaliers",
+      "description": "[Bouclier du Gardien] Prolonge la durée de l'effet de 4.5 s et augmente le bonus de DÉF de {0} %.",
+      "thumbnail": "heroes/Clause/ut/3.png",
+      "story": "Rune des Chevaliers Gardiens d’Orvel. Une rune de Lion d’or donnée aux chevaliers lorsqu’ils rejoignent les Chevaliers Gardiens, lorsqu’ils font le vœu de donner leur vie pour protéger le royaume. \nLa rune des Chevaliers Gardiens améliore la volonté d’acier du chevalier et augmente l’efficacité de Bouclier du Gardien.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Bouclier du Gardien] Prolonge la durée de l'effet de 4.5 s et augmente le bonus de DÉF de 20 %.",
+        "1": "[Bouclier du Gardien] Prolonge la durée de l'effet de 4.5 s et augmente le bonus de DÉF de 24 %.",
+        "2": "[Bouclier du Gardien] Prolonge la durée de l'effet de 4.5 s et augmente le bonus de DÉF de 29 %.",
+        "3": "[Bouclier du Gardien] Prolonge la durée de l'effet de 4.5 s et augmente le bonus de DÉF de 35 %.",
+        "4": "[Bouclier du Gardien] Prolonge la durée de l'effet de 4.5 s et augmente le bonus de DÉF de 42 %.",
+        "5": "[Bouclier du Gardien] Prolonge la durée de l'effet de 4.5 s et augmente le bonus de DÉF de 50 %."
+      }
+    },
+    "4": {
+      "name": "Moufles",
+      "description": "[Serment des Chevaliers] Restaure {0} % des PV max et prolonge l'effet de sa propre DÉF physique de 3 s.",
+      "thumbnail": "heroes/Clause/ut/4.png",
+      "story": "Une paire de gants à laquelle Clause tient par-dessus tout.\nLes jeunes Kasel et Frey les lui ont donnés lorsque Clause fut adoubé chevalier au cours d'un hiver particulièrement rigoureux.\nLes deux compères lui ont cousu un gant chacun en y inscrivant leurs initiales.",
+      "value": {
+        "0": {
+          "0": "3",
+          "1": "3.6",
+          "2": "4.2",
+          "3": "4.8",
+          "4": "5.4",
+          "5": "6"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Serment des Chevaliers] Restaure 3 % des PV max et prolonge l'effet de sa propre DÉF physique de 3 s.",
+        "1": "[Serment des Chevaliers] Restaure 3.6 % des PV max et prolonge l'effet de sa propre DÉF physique de 3 s.",
+        "2": "[Serment des Chevaliers] Restaure 4.2 % des PV max et prolonge l'effet de sa propre DÉF physique de 3 s.",
+        "3": "[Serment des Chevaliers] Restaure 4.8 % des PV max et prolonge l'effet de sa propre DÉF physique de 3 s.",
+        "4": "[Serment des Chevaliers] Restaure 5.4 % des PV max et prolonge l'effet de sa propre DÉF physique de 3 s.",
+        "5": "[Serment des Chevaliers] Restaure 6 % des PV max et prolonge l'effet de sa propre DÉF physique de 3 s."
+      }
+    }
+  },
+  "splashart": "heroes/Clause/sa.png",
+  "costumes": "heroes/Clause/cos",
+  "_localization": {
+    "locale": "fr",
+    "version": "cbt-phase-1",
+    "englishFallbackFields": []
+  }
+}

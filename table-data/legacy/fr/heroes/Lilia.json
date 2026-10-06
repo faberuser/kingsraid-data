@@ -1,0 +1,228 @@
+{
+  "id": "Lilia",
+  "profile": {
+    "name": "Lilia",
+    "title": "Lilia, Fille de la Tempête et de la Mer",
+    "class": "Wizard",
+    "position": "Back-400",
+    "attack_range": "5700",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "???",
+    "height": "120",
+    "race": "Dragon",
+    "constellation": "Layan la Justiciére",
+    "birth": {
+      "month": 9,
+      "day": 14,
+      "monthName": "Mois de la Vérité"
+    },
+    "like": "Laias, les boissons sucrées et le peuple du désert",
+    "dislike": "Les hommes qui tournent autour de sa grande sœur (Neraxis, Cain)",
+    "story": "Dieu-dragon de l'oasis et sœur de Laias, la prêtresse de l'eau. Elle n'est encore qu'un jeune dragon bleu débordant d'amour pour sa grande sœur. \nIl y a cent ans, lorsque Laias tomba dans un profond sommeil après avoir épuisé toutes ses forces au combat, Lilia dut défendre l'Autel des flots toute seule.\nCe n'est que lorsqu'elle entendit les prières désespérées des enfants du désert qu'elle réveilla la prêtresse de l'eau pour les protéger. \nContrairement à sa sœur, douce et attentionnée, elle se montre stricte, et sa manière de contrôler la force de l'eau est aussi plus agressive. \nElle pense devoir protéger sa magnifique sœur contre les hommes, qu'elle trouve indignes et impudiques.",
+    "thumbnail": "heroes/Lilia/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Tempête marine",
+      "cost": "3",
+      "cooldown": "8",
+      "description": "Active Tempête marine pendant 8 sec sur une cible choisie au hasard ainsi que sur les ennemis à sa portée et inflige ??? points de DEG P toutes les 0,5 sec. Si la cible est vaincue, Tempête marine s'active sur une autre cible choisie au hasard pendant la durée restante.",
+      "thumbnail": "heroes/Lilia/skills/1.png"
+    },
+    "2": {
+      "name": "Oasis éternelle",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Après l'activation, déclenche Oasis éternelle pendant 15 sec.\nPendant le statut d'Oasis éternelle, augmente la récupération PM/sec de 150% et l'ATQ de ???. De plus, augmente la DEF de ???.",
+      "thumbnail": "heroes/Lilia/skills/2.png"
+    },
+    "3": {
+      "name": "Cascade céleste",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Lance 15 fois des gouttes d'eau sur des ennemis aléatoires et leur inflige un total de ??? DEG P. Ensuite, lance 5 fois de grosses gouttes d'eau afin d'infliger ??? DEG P à la cible et aux ennemis à portée.\nLes ennemis touchés par les grosses gouttes d'eau sont étourdis pendant 2 sec. À chaque goutte d'eau lancée, consomme 25 PM et le coût en PM augmente de 13.\nLa compétence s'arrête lorsque les PM atteignent 0.",
+      "thumbnail": "heroes/Lilia/skills/3.png"
+    },
+    "4": {
+      "name": "Purification marine",
+      "cost": null,
+      "cooldown": null,
+      "description": "Fixe la Récupération PM/attaque, mais augmente l'ATQ de ???, le Crit de 300, et la Récupération PM/sec de 120.\nAugmente l'ATQ de 1% pour chaque 6 points de récupération PM/sec.",
+      "thumbnail": "heroes/Lilia/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "2": {
+      "II": "Les augmentations de récupération PM et d'ATQ augmentent de 10%.",
+      "III": "Les augmentations de récupération PM et d'ATQ augmentent de 15%.",
+      "IV": "Les augmentations de récupération PM et d'ATQ augmentent de 25%."
+    },
+    "3": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "4": {
+      "II": "Le taux d'augmentation d'Attaque augmente de 10%.",
+      "III": "Le taux d'augmentation d'Attaque augmente de 15%.",
+      "IV": "Le taux d'augmentation d'Attaque augmente de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "La Vitesse d'ATQ de la cible touchée diminue de 250 points pendant 10 sec.",
+          "thumbnail": "heroes/Lilia/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Chaque utilisation augmente les DEG de 20%. Cumulable 15 fois.",
+          "thumbnail": "heroes/Lilia/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Augmente le coût en PM de 1 et relance le même effet sur l'allié, sauf le lanceur, à l'ATQ la plus élevée.",
+          "thumbnail": "heroes/Lilia/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "La durée de la compétence est réduite de 5 sec et tous les effets augmentent de 100%.",
+          "thumbnail": "heroes/Lilia/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Confère l'immunité contre les Contrôles pendant l'utilisation de la compétence.",
+          "thumbnail": "heroes/Lilia/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente de 100% le coût et l'augmentation de PM consommés à chaque tir de goutte d'eau. À chaque tir de goutte d'eau, a 50% de chances de tirer une goutte d'eau supplémentaire.",
+          "thumbnail": "heroes/Lilia/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Restaure 1 000 PM au début de chaque combat.",
+          "thumbnail": "heroes/Lilia/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Inflige 15% de DEG supplémentaires aux boss.",
+          "thumbnail": "heroes/Lilia/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Lilia/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente l'ATQ de 15% par 1 barre de PM rechargée.",
+        "thumbnail": "heroes/Lilia/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Cielamaha, la Source infinie",
+    "description": "Récupère 50 PM toutes les secondes et pour chaque attaque automatique infligée, confère 80% de chances d'infliger 20% d'ATQ sous forme de DEG P",
+    "value": {},
+    "thumbnail": "heroes/Lilia/uw.png",
+    "story": "Une source dont l'eau jaillit éternellement. \nCette jarre fut fabriquée par le premier dragon bleu, maître des mers et des océans.\nElle réagit à l'imagination de son porteur. \nPour une jeune fille sensible et imaginative comme Lilia, cette jarre n'est pas seulement un trésor, c'est une arme.",
+    "descriptionByStar": {
+      "0": "Récupère 50 PM toutes les secondes et pour chaque attaque automatique infligée, confère 80% de chances d'infliger 20% d'ATQ sous forme de DEG P",
+      "1": "Récupère 60 PM toutes les secondes et pour chaque attaque automatique infligée, confère 80% de chances d'infliger 24% d'ATQ sous forme de DEG P",
+      "2": "Récupère 70 PM toutes les secondes et pour chaque attaque automatique infligée, confère 80% de chances d'infliger 28% d'ATQ sous forme de DEG P",
+      "3": "Récupère 85 PM toutes les secondes et pour chaque attaque automatique infligée, confère 80% de chances d'infliger 34% d'ATQ sous forme de DEG P",
+      "4": "Récupère 105 PM toutes les secondes et pour chaque attaque automatique infligée, confère 80% de chances d'infliger 42% d'ATQ sous forme de DEG P",
+      "5": "Récupère 125 PM toutes les secondes et pour chaque attaque automatique infligée, confère 80% de chances d'infliger 50% d'ATQ sous forme de DEG P"
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Murmure de la mer",
+      "description": "[Tempête marine] Réduit le temps de recharge de 2,5 sec et augmente les DEG P reçus par les ennemis touchés de 10 %.",
+      "value": {},
+      "thumbnail": "heroes/Lilia/ut/1.png",
+      "story": "Une épingle à cheveux en pierres précieuses et en corail de la mer de l'Éternité, qui fut offerte à Lilia par Laias.\nElle ressemble à une simple épingle d'enfant, mais les pierres de la mer de l'Éternité qu'elle arbore renferment l'énergie des dragons d'eau, ce qui amplifie la Tempête marine de Lilia.",
+      "descriptionByStar": {
+        "0": "[Tempête marine] Réduit le temps de recharge de 2,5 sec et augmente les DEG P reçus par les ennemis touchés de 10 %.",
+        "1": "[Tempête marine] Réduit le temps de recharge de 2,5 sec et augmente les DEG P reçus par les ennemis touchés de 12 %.",
+        "2": "[Tempête marine] Réduit le temps de recharge de 2,5 sec et augmente les DEG P reçus par les ennemis touchés de 14 %.",
+        "3": "[Tempête marine] Réduit le temps de recharge de 2,5 sec et augmente les DEG P reçus par les ennemis touchés de 17 %.",
+        "4": "[Tempête marine] Réduit le temps de recharge de 2,5 sec et augmente les DEG P reçus par les ennemis touchés de 21 %.",
+        "5": "[Tempête marine] Réduit le temps de recharge de 2,5 sec et augmente les DEG P reçus par les ennemis touchés de 25 %."
+      }
+    },
+    "2": {
+      "name": "Cœur des flots",
+      "description": "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 20 % pendant la durée de la compétence.",
+      "value": {},
+      "thumbnail": "heroes/Lilia/ut/2.png",
+      "story": "Ce collier en or, serti d'une gemme de protection, fut fabriqué par Laias pour Lilia. \nIl irradie de l'énergie des élémentaires d'eau qu'il contient. \nIl symbolise l'amour de Laias pour sa petite sœur.",
+      "descriptionByStar": {
+        "0": "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 20 % pendant la durée de la compétence.",
+        "1": "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 24 % pendant la durée de la compétence.",
+        "2": "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 29 % pendant la durée de la compétence.",
+        "3": "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 35 % pendant la durée de la compétence.",
+        "4": "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 42 % pendant la durée de la compétence.",
+        "5": "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 50 % pendant la durée de la compétence."
+      }
+    },
+    "3": {
+      "name": "Marmite sans fond d'élémentaires",
+      "description": "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 2% pendant 7 sec.",
+      "value": {},
+      "thumbnail": "heroes/Lilia/ut/3.png",
+      "story": "Cette marmite fut forgée par les vieux amis cactus de Lilia pour son anniversaire. \nElle produit sans discontinuer l'eau la plus pure qui soit. \nCependant, lorsqu'une certaine quantité d'eau a été utilisée, plus rien ne coule. Cette caractéristique a été imaginée par les cactus pour empêcher Lilia de perdre le contrôle de l'eau, au moins jusqu'à ce qu'elle se fasse la main.",
+      "descriptionByStar": {
+        "0": "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 2% pendant 7 sec.",
+        "1": "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 2,4% pendant 7 sec.",
+        "2": "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 2,8% pendant 7 sec.",
+        "3": "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 3,4% pendant 7 sec.",
+        "4": "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 4,2% pendant 7 sec.",
+        "5": "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 5% pendant 7 sec."
+      }
+    },
+    "4": {
+      "name": "Clé de pureté",
+      "description": "[Purification marine] Toutes les 10 sec, augmente les DEG Crit de 80 % et la récupération PM/sec de 30 % pendant 5 sec.",
+      "value": {},
+      "thumbnail": "heroes/Lilia/ut/4.png",
+      "story": "Une clé sacrée trouvée au cœur d'une oasis.\nAlors que la tribu pratiquait un rituel de purification du mal pour le premier dragon d'eau, un étrange coffre fit surface au centre de l'oasis.\nPersonne ne réussit à l'ouvrir jusqu'à l'arrivée de Lilia, convoquée par ses homologues tribaux.\nLe coffre se mit à trembler quand Lilia s'en approcha et s'ouvrit de lui-même en irradiant une lumière intense.\nUne clé se trouvait à l'intérieur.\nDès qu'elle posa les yeux dessus, Lilia sut que ce n'était pas une clé ordinaire et qu'elle avait été protégée jusqu'à ce jour.\nOn ne sait toujours pas ce qu'elle ouvre, mais une chose est sûre : cette clé optimise les pouvoirs de purification de Lilia.",
+      "descriptionByStar": {
+        "0": "[Purification marine] Toutes les 10 sec, augmente les DEG Crit de 80 % et la récupération PM/sec de 30 % pendant 5 sec.",
+        "1": "[Purification marine] Toutes les 10 sec, augmente les DEG Crit de 80 % et la récupération PM/sec de 36 % pendant 5 sec.",
+        "2": "[Purification marine] Toutes les 10 sec, augmente les DEG Crit de 80 % et la récupération PM/sec de 43 % pendant 5 sec.",
+        "3": "[Purification marine] Toutes les 10 sec, augmente les DEG Crit de 80 % et la récupération PM/sec de 52 % pendant 5 sec.",
+        "4": "[Purification marine] Toutes les 10 sec, augmente les DEG Crit de 80 % et la récupération PM/sec de 63 % pendant 5 sec.",
+        "5": "[Purification marine] Toutes les 10 sec, augmente les DEG Crit de 80 % et la récupération PM/sec de 75 % pendant 5 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Vous devez infliger des DEG à 70 reprises pour recharger l'âme et l'utiliser.",
+    "description": "Invoque l'âme de Cielamaha, la Source infinie, pendant 12 sec, ce qui augmente les DEG infligés à son ennemi de 20%. A également 10% de chances d'infliger ??? DEG P supplémentaires lors de l'attaque automatique et celle de compétence.",
+    "cooldown": "22",
+    "uses": "6",
+    "thumbnail": "heroes/Lilia/sw.png",
+    "advancement": {
+      "1": "Restaure les PM au maximum pendant la durée de la compétence.",
+      "2": "Augmente les DEG infligés de 100%."
+    },
+    "story": "Le dragon bleu de la première génération. Le premier dragon, et également celui qui avait maîtrisé toutes les eaux du monde. Et la jarre qui fut l'héritage de ce dragon. Cielamaha était le trésor le plus chéri par Lilia, mais également l'arme la plus puissante qui puisse être imaginée. Lilia n'avait jamais rencontré en personne le dragon de la première génération. Elle se contentait de l'imaginer, en regardant Cielamaha. Un jour, Lilia eut cette pensée : 'pourquoi le premier dragon a-t-il fabriqué Cielamaha ?' C'était une question simple, mais elle suffit à exacerber l'imagination de Lilia. La rêverie du jeune dragon se répandit comme une rivière qui s'écoule, pour atteindre un lieu inimaginable. Cela réveilla l'élémentaire d'eau qui avait accompagné le premier dragon, et qui était endormie à l'intérieur de Cielamaha. L'élémentaire réveillée se douta que la jeune Lilia puisse avoir le potentiel digne de Cielamaha, mais en la voyant manier l'eau avec souplesse malgré les épreuves successives, admit qu'elle pourrait avoir du pouvoir latent. Maintenant, sous la protection de l'élémentaire, Lilia est capable de faire appel à une puissante tempête marine, qu'aucun dragon bleu n'est parvenu à provoquer jusque-là."
+  },
+  "splashart": "heroes/Lilia/sa.png",
+  "costumes": "heroes/Lilia/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

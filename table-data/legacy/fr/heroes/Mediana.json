@@ -1,0 +1,248 @@
+{
+  "id": "Mediana",
+  "profile": {
+    "name": "Mediana",
+    "title": "Mediana, Docteur dangereuse",
+    "class": "Priest",
+    "position": "Back-100",
+    "attack_range": "4100",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "21",
+    "height": "170",
+    "race": "Humain",
+    "constellation": "Armil le Vénéré",
+    "birth": {
+      "month": 4,
+      "day": 7,
+      "monthName": "Mois de la Vie"
+    },
+    "like": "La science médicale, les sujets d'expérience",
+    "dislike": "La magie guérisseuse",
+    "story": "Pratiquante des arts médicaux développés lorsque les prêtres étaient peu nombreux, elle hérita des talents naturels de son père, mais sa soif de connaissance se révéla néfaste lorsqu'elle se mit à étudier les poisons. En conséquence, elle fut chassée de la société médicale, mais elle garda le même enthousiasme pour ses recherches. Cependant, son respect pour la vie humaine l'empêcha de mettre en pratique ses découvertes sur les poisons. Avec l'apparition des démons, elle fut ravie de trouver des sujets de test rares et précieux.",
+    "thumbnail": "heroes/Mediana/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Salve de Guérison",
+      "cost": "2",
+      "cooldown": "15",
+      "description": "Soigne tous les alliés pour ??? PV et les immunise contre le prochain coup de DEG reçu.",
+      "thumbnail": "heroes/Mediana/skills/1.png"
+    },
+    "2": {
+      "name": "Canon à Eau Spécial",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Un canon à eau tire en ligne droite, soignant les alliés à portée pour ??? PV toutes les 0,5 sec, tout en infligeant ??? points de DEG P à l'ennemi.",
+      "thumbnail": "heroes/Mediana/skills/2.png"
+    },
+    "3": {
+      "name": "Potion Revigorante",
+      "cost": "4",
+      "cooldown": "23",
+      "description": "Injecte une potion de renforcement à l'allié à l'ATQ la plus élevée, augmentant son ATQ de 20% de celle de Mediana + ??? et empêchant ses PV de descendre sous 5%.",
+      "thumbnail": "heroes/Mediana/skills/3.png"
+    },
+    "4": {
+      "name": "Poison Spécial de Mediana",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente l'ATQ de tous les alliés de ??? et la Résistance Crit P de 200. De plus, lors de l'attaque, injecte à l'ennemi le Poison Spécial qui inflige un total de ??? DEG P en continue pendant 5 sec, tout en réduisant sa Résistance Crit P de 200. Mediana n'est pas choisie comme le Héros à l'ATQ la plus élevée lorsqu'il existe plus de 2 alliés, avec elle incluse.",
+      "thumbnail": "heroes/Mediana/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les soins de 10%.",
+      "III": "Augmente les soins de 15%.",
+      "IV": "Augmente les soins de 25%."
+    },
+    "2": {
+      "II": "Augmente les soins et les DEG de 10%.",
+      "III": "Augmente les soins et les DEG de 15%.",
+      "IV": "Augmente les soins et les DEG de 25%."
+    },
+    "3": {
+      "II": "Augmentation de l'ATQ boostée de 10%.",
+      "III": "Augmentation de l'ATQ boostée de 15%.",
+      "IV": "Augmentation de l'ATQ boostée de 25%."
+    },
+    "4": {
+      "II": "Augmentation de l'ATQ boostée de 10%.",
+      "III": "Augmentation de l'ATQ boostée de 15%.",
+      "IV": "Augmente le Blocage P de tous les alliés de 150."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Augmente l'ATQ des alliés soignés de 10% pendant 10 sec.",
+          "thumbnail": "heroes/Mediana/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Mediana/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Augmente les soins et les DEG de 40%.",
+          "thumbnail": "heroes/Mediana/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Confère l'immunité contre les Contrôles pendant l'utilisation de la compétence.",
+          "thumbnail": "heroes/Mediana/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Modifie pour que l'effet cible 2 personnes.",
+          "thumbnail": "heroes/Mediana/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente le Crit de 400.",
+          "thumbnail": "heroes/Mediana/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Augmente les DEG infligés par le lanceur à l'ennemi de 20%, et modifie l'effet pour que le lanceur puisse être choisi comme l'allié à l'ATQ la plus élevée.",
+          "thumbnail": "heroes/Mediana/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Les DEG P sont augmentés de 20% sur la cible.",
+          "thumbnail": "heroes/Mediana/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Résist. Contrôles +100",
+        "thumbnail": "heroes/Mediana/perks/light.png"
+      },
+      "dark": {
+        "effect": "Subir des DEG augmente l'ATQ des alliés de 2%. Cumulable 20 fois.",
+        "thumbnail": "heroes/Mediana/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Phistonia, la Menace miséricordieuse",
+    "description": "Augmente les DEG du Poison Spécial de {0}% et les DEG P reçus par la cible touchée par le Poison Spécial de {1}% pendant 3 sec. Inflige également à la cible des DEG P supplémentaires à hauteur de {2}% de l'ATQ de Mediana, lorsqu'un allié en-dehors de Mediana l'attaque. L'effet de DEG P supplémentaires est activé 1 fois par sec.",
+    "value": {
+      "0": {
+        "0": "40",
+        "1": "48",
+        "2": "57",
+        "3": "69",
+        "4": "83",
+        "5": "100"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "2": {
+        "0": "30",
+        "1": "36",
+        "2": "43",
+        "3": "52",
+        "4": "62",
+        "5": "75"
+      }
+    },
+    "thumbnail": "heroes/Mediana/uw.png",
+    "story": "L'histoire remonte à l'époque où les expériences sur le poison de Mediana étaient encore inconnues de ses pairs. Un jour, un confrère remarqua l'énorme seringue qu'elle avait conçue. Impressionné par sa taille, il lui demanda :\n« Regardez-moi la taille de cet engin ! Ne devriez-vous pas lui donner un nom ? »\nÀ cela, Mediana répondit nonchalamment :\n« Oh, vous n'avez qu'à l'appeler… Piston. »",
+    "descriptionByStar": {
+      "0": "Augmente les DEG du Poison Spécial de 40% et les DEG P reçus par la cible touchée par le Poison Spécial de 10% pendant 3 sec. Inflige également à la cible des DEG P supplémentaires à hauteur de 30% de l'ATQ de Mediana, lorsqu'un allié en-dehors de Mediana l'attaque. L'effet de DEG P supplémentaires est activé 1 fois par sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Seringues étonnamment saines",
+      "description": "[Salve de guérison] Accélère les soins de 50 % et augmente les DEG Crit de la cible de 20 % pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Mediana/ut/1.png",
+      "story": "Il s'agit de la collection de seringues spéciales de Mediana. Leur contenu, à base de substances inconnues, brille d'une aura mystique.\nCes remèdes ont été élaborés à partir de recettes populaires apprises aux quatre coins du continent. Mediana insiste sur le fait que tout excès de médicaments peut conduire à des résultats imprévisibles.",
+      "descriptionByStar": {
+        "0": "[Salve de guérison] Accélère les soins de 50 % et augmente les DEG Crit de la cible de 20 % pendant 10 sec.",
+        "1": "[Salve de guérison] Accélère les soins de 50 % et augmente les DEG Crit de la cible de 24 % pendant 10 sec.",
+        "2": "[Salve de guérison] Accélère les soins de 50 % et augmente les DEG Crit de la cible de 29 % pendant 10 sec.",
+        "3": "[Salve de guérison] Accélère les soins de 50 % et augmente les DEG Crit de la cible de 35 % pendant 10 sec.",
+        "4": "[Salve de guérison] Accélère les soins de 50 % et augmente les DEG Crit de la cible de 42 % pendant 10 sec.",
+        "5": "[Salve de guérison] Accélère les soins de 50 % et augmente les DEG Crit de la cible de 50 % pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Potion spéciale de réaction double",
+      "description": "[Canon à eau spécial] Augmente la résistance de 30 % et réduit le temps de recharge de 12 %.",
+      "value": {},
+      "thumbnail": "heroes/Mediana/ut/2.png",
+      "story": "Potion spéciale produisant deux types d’effet.\nMediana se demandait s’il était possible d’asséner des attaques tout en récupérant de la santé. Elle se rendit à la bibliothèque et lut un vieux livre poussiéreux intitulé « Les limons font d’excellents canons ». \nMediana ne le lut que pour s’amuser, mais elle trouva un moyen d’appliquer le principe des canons à son piston. C’est alors qu’elle mit au point la potion spéciale de réaction double et put optimiser la récupération et l’attaque en utilisant Canon à Eau Spécial. Aujourd’hui encore, Mediana remercie l’auteur de ce livre de l’avoir tant inspirée.",
+      "descriptionByStar": {
+        "0": "[Canon à eau spécial] Augmente la résistance de 30 % et réduit le temps de recharge de 12 %.",
+        "1": "[Canon à eau spécial] Augmente la résistance de 30 % et réduit le temps de recharge de 14 %.",
+        "2": "[Canon à eau spécial] Augmente la résistance de 30 % et réduit le temps de recharge de 17 %.",
+        "3": "[Canon à eau spécial] Augmente la résistance de 30 % et réduit le temps de recharge de 21 %.",
+        "4": "[Canon à eau spécial] Augmente la résistance de 30 % et réduit le temps de recharge de 25 %.",
+        "5": "[Canon à eau spécial] Augmente la résistance de 30 % et réduit le temps de recharge de 30 %."
+      }
+    },
+    "3": {
+      "name": "Potion de mystère",
+      "description": "[Potion Revigorante] Dissipe les effets négatifs sur la cible et lui donne une immunité aux Contrôles pendant 2 sec.",
+      "value": {},
+      "thumbnail": "heroes/Mediana/ut/3.png",
+      "story": "Une potion spéciale contenant les enseignements d’un maître. Le chirurgien de génie et expert en anatomie, le docteur Aldini, est le maître de Mediana. Le docteur Aldini avait rapidement reconnu son talent et lui avait enseigné d’admirables connaissances médicales qui n’auraient pu être découvertes par l’Église de Lua. La potion non identifiable créée avec la recette spéciale de son maître augmente les effets de la Potion Revigorante.",
+      "descriptionByStar": {
+        "0": "[Potion Revigorante] Dissipe les effets négatifs sur la cible et lui donne une immunité aux Contrôles pendant 2 sec.",
+        "1": "[Potion Revigorante] Dissipe les effets négatifs sur la cible et lui donne une immunité aux Contrôles pendant 3 sec.",
+        "2": "[Potion Revigorante] Dissipe les effets négatifs sur la cible et lui donne une immunité aux Contrôles pendant 4 sec.",
+        "3": "[Potion Revigorante] Dissipe les effets négatifs sur la cible et lui donne une immunité aux Contrôles pendant 5 sec.",
+        "4": "[Potion Revigorante] Dissipe les effets négatifs sur la cible et lui donne une immunité aux Contrôles pendant 6 sec.",
+        "5": "[Potion Revigorante] Dissipe les effets négatifs sur la cible et lui donne une immunité aux Contrôles pendant 7 sec."
+      }
+    },
+    "4": {
+      "name": "Vieux rapport médical",
+      "description": "[Poison spécial de Mediana] Augmente le boost d'ATQ de 50 % et réduit les DEG P subis par tous les alliés de 4 %.",
+      "value": {},
+      "thumbnail": "heroes/Mediana/ut/4.png",
+      "story": "Un étrange rapport médical donné par le docteur Aldini à son étudiante Mediana.\nPendant longtemps, il avait conservé ses notes d'autopsies qu'il avait pratiquées, et il les donna à Mediana dans l'espoir que l'art traditionnel de la médecine perdure à travers elle.\nMeriana était aux anges et les a lues et relues. C'est grâce à ce rapport qu'elle put mettre au point son Poison spécial de Mediana.",
+      "descriptionByStar": {
+        "0": "[Poison spécial de Mediana] Augmente le boost d'ATQ de 50 % et réduit les DEG P subis par tous les alliés de 4 %.",
+        "1": "[Poison spécial de Mediana] Augmente le boost d'ATQ de 50 % et réduit les DEG P subis par tous les alliés de 4,8 %.",
+        "2": "[Poison spécial de Mediana] Augmente le boost d'ATQ de 50 % et réduit les DEG P subis par tous les alliés de 5,8 %.",
+        "3": "[Poison spécial de Mediana] Augmente le boost d'ATQ de 50 % et réduit les DEG P subis par tous les alliés de 7 %.",
+        "4": "[Poison spécial de Mediana] Augmente le boost d'ATQ de 50 % et réduit les DEG P subis par tous les alliés de 8,4 %.",
+        "5": "[Poison spécial de Mediana] Augmente le boost d'ATQ de 50 % et réduit les DEG P subis par tous les alliés de 10 %."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 25 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de Phistonia, la Menace miséricordieuse, ce qui augmente le taux d'ATQ de l'allié à l'ATQ la plus élevée de 20% du taux d'ATQ de Mediana, pendant 10 sec. Ensuite, restaure les PV de l'allié ciblé et de Mediana de ??? au total pendant 10 sec.",
+    "cooldown": "25",
+    "uses": "4",
+    "thumbnail": "heroes/Mediana/sw.png",
+    "advancement": {
+      "1": "Pendant la durée de l'invocation, restaure les PM de Mediana et de l'allié ciblé de 400 toutes les 1 sec.",
+      "2": "Augmente le taux d'augmentation d'ATQ de 50%."
+    },
+    "story": "Phistonia, une seringue énorme utilisée par Mediana, avait contenu divers échantillons et anticorps pour de multiples expériences.\nSurtout, il avait été rempli du sang des démons, des dragons et même des monstres, et les débris de leurs puissances se mirent à tourbillonner petit à petit, à l'intérieur. Mediana, pourtant inhabituée à ce genre de force intangible, perçut le changement.\nNégliger un symptôme ne faisait qu'aggraver la maladie. Mediana décida de soigner cette 'maladie', avant que Phistonia ne devienne 'autre chose' qu'un instrument médical.\nDigne du titre de génie, elle réagit rapidement.\nL'échantillon provenant d'un draconic ténébreux, et celui obtenu de XXX, et même celui de XX, très difficile à se procurer...\nLe sérum aux anticorps obtenus des êtres qu'il était interdit de nommer brillait d'une lueur indicible.\n\nÀ l'instant même où elle mit le sérum à l'intérieur de Phistonia...\nLes forces qui y tourbillonnaient explosèrent, avant d'être neutralisées. Puis une puissance purifiée les remplaça.\nUne conscience ayant hérité la volonté de Mediana, dont l'unique but était d'effectuer les expériences et les recherches, était enfin éveillée."
+  },
+  "splashart": "heroes/Mediana/sa.png",
+  "costumes": "heroes/Mediana/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

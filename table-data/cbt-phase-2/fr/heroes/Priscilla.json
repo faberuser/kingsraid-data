@@ -1,0 +1,272 @@
+{
+  "id": "Priscilla",
+  "profile": {
+    "name": "Priscilla",
+    "title": "Prescilla, Servante d'Acier",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "4400",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "27",
+    "height": "168",
+    "race": "Humain",
+    "constellation": "Mertis la Protectrice",
+    "birth": {
+      "month": 1,
+      "day": 15,
+      "monthName": "Mois de la Protection"
+    },
+    "like": "La fraternité d'armes, sa dame, de beaux costumes pour sa dame",
+    "dislike": "Le désordre, l'injustice",
+    "story": "Un ancien officier des forces armées d'Orvelia. Après avoir échoué à dévoiler la corruption des chefs militaires, elle fut dégradée. Pour mieux cacher leurs magouilles, les chefs militaires envoient constamment des assassins pour l'éliminer. Son combat interminable et solitaire commençait à lui peser, physiquement comme mentalement. Un jour, la famille aristocratique Daphnel lui proposa sa protection en échange de ses services. Elle accepta et travaille depuis comme servante d'Aisha dans la Tour des Sages. Depuis ce jour, elle mène son travail fidèlement et envoie tous ses salaires à un destinataire inconnu.",
+    "thumbnail": "heroes/Priscilla/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Frappe Vitale",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Inflige 625*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 306.5% of ATK DEG P aux ennemis dans la zone frontale et les étourdit pendant 0.6 sec. Cette attaque est toujours critique.",
+      "thumbnail": "heroes/Priscilla/skills/1.png"
+    },
+    "2": {
+      "name": "Coordination",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Dissipe les effets négatifs sur soi et sur les 3 alliés à l’ATQ la plus élevée, puis accorde [Assaut] pendant 10 sec. [Assaut] : augmente l’ATQ de 15% de l’ATQ de Priscilla + 55*(0.7+(0.3*Skill Level*Awakening Coefficient)).",
+      "thumbnail": "heroes/Priscilla/skills/2.png"
+    },
+    "3": {
+      "name": "Danse Tournoyante",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Inflige 789*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 499.8% of ATK DEG P aux ennemis dans une zone circulaire et les attire vers soi. Sous [Assaut], augmente leurs DEG P subis de 40% pendant 10 sec.",
+      "thumbnail": "heroes/Priscilla/skills/3.png"
+    },
+    "4": {
+      "name": "Maîtrise des Armes",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente l’ATQ de 192*(0.7+(0.3*Skill Level*Awakening Coefficient)) et la pénétration de DEF de 160.",
+      "thumbnail": "heroes/Priscilla/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DEG augmentés de [64ff64]10[-]%.",
+      "III": "DEG augmentés de [64ff64]15[-]%.",
+      "IV": "DEG augmentés de [64ff64]25[-]%."
+    },
+    "2": {
+      "II": "ATQ augmentée de [64ff64]10[-]%.",
+      "III": "ATQ augmentée de [64ff64]15[-]%.",
+      "IV": "ATQ augmentée de [64ff64]25[-]%."
+    },
+    "3": {
+      "II": "DEG augmentés de [64ff64]10[-]%.",
+      "III": "DEG augmentés de [64ff64]15[-]%.",
+      "IV": "DEG augmentés de [64ff64]25[-]%."
+    },
+    "4": {
+      "II": "Le taux d'augmentation d'ATQ est augmenté de [64ff64]10[-]%.",
+      "III": "Le taux d'augmentation d'ATQ est augmenté de [64ff64]15[-]%.",
+      "IV": "DEG Crit augmentés de [64ff64]16[-]%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "La durée de l'étourdissement passe à 1.8 s.",
+          "thumbnail": "heroes/Priscilla/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Le Crit n'est plus assuré mais les DEG Crit sont augmentés de 150%.",
+          "thumbnail": "heroes/Priscilla/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Augmente le coût en mana de 1000,, mais prolonge la durée de 5 s.",
+          "thumbnail": "heroes/Priscilla/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Pendant [Assaut], les attaques normales augmentent les DEG subis par la cible de 25% pendant 1 sec.",
+          "thumbnail": "heroes/Priscilla/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Chaque coup critique réduit le temps de recharge de 10%.",
+          "thumbnail": "heroes/Priscilla/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Lorsqu'il n'y a que 1 ennemi, les dégâts augmentent de 100 %.",
+          "thumbnail": "heroes/Priscilla/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Augmente l'augmentation d'ATQ de 40%.",
+          "thumbnail": "heroes/Priscilla/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Augmente le Crit de 250.",
+          "thumbnail": "heroes/Priscilla/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Résist. Contrôles +100",
+        "thumbnail": "heroes/Priscilla/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente l'ATQ de tous les alliés de 3% de sa propre ATQ et leur DEF P de 3% de sa propre DEF P.",
+        "thumbnail": "heroes/Priscilla/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Excilius, la Danse tumultueuse",
+    "description": "Lorsqu'une compétence touche des ennemis, réduit son temps de recharge de {0} sec par ennemi touché et augmente la vitesse d'attaque de 2% pendant 5 sec. L'augmentation de vitesse d'attaque est cumulable jusqu'à 10 fois.",
+    "thumbnail": "heroes/Priscilla/uw.png",
+    "story": "Durant sa carrière militaire, Priscilla terrassa d'innombrables ennemis à l'aide de sa hallebarde. Si l'arme a été négligée une fois sa propriétaire à la retraite, elle fut par la suite ressuscitée sous le nom d'Exilius. Cette amélioration survint à l'occasion d'une commande reçue par Annette visant à créer Mahitra pour Aisha. Cette nouvelle arme tranchante comme une lame de rasoir et incroyablement résistante possède même le pouvoir d'attirer ses ennemis. Ceux qui ont eu l'occasion de voir Priscilla en action affirment qu'ils ont eu l'impression de regarder une irrésistible tempête se déchaîner.",
+    "value": {
+      "0": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.6",
+        "4": "1.8",
+        "5": "2"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Lorsqu'une compétence touche des ennemis, réduit son temps de recharge de 1 sec par ennemi touché et augmente la vitesse d'attaque de 2% pendant 5 sec. L'augmentation de vitesse d'attaque est cumulable jusqu'à 10 fois.",
+      "1": "Lorsqu'une compétence touche des ennemis, réduit son temps de recharge de 1.2 sec par ennemi touché et augmente la vitesse d'attaque de 2% pendant 5 sec. L'augmentation de vitesse d'attaque est cumulable jusqu'à 10 fois.",
+      "2": "Lorsqu'une compétence touche des ennemis, réduit son temps de recharge de 1.4 sec par ennemi touché et augmente la vitesse d'attaque de 2% pendant 5 sec. L'augmentation de vitesse d'attaque est cumulable jusqu'à 10 fois.",
+      "3": "Lorsqu'une compétence touche des ennemis, réduit son temps de recharge de 1.6 sec par ennemi touché et augmente la vitesse d'attaque de 2% pendant 5 sec. L'augmentation de vitesse d'attaque est cumulable jusqu'à 10 fois.",
+      "4": "Lorsqu'une compétence touche des ennemis, réduit son temps de recharge de 1.8 sec par ennemi touché et augmente la vitesse d'attaque de 2% pendant 5 sec. L'augmentation de vitesse d'attaque est cumulable jusqu'à 10 fois.",
+      "5": "Lorsqu'une compétence touche des ennemis, réduit son temps de recharge de 2 sec par ennemi touché et augmente la vitesse d'attaque de 2% pendant 5 sec. L'augmentation de vitesse d'attaque est cumulable jusqu'à 10 fois."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Contrepoids d'attaque féroce",
+      "description": "[Frappe vitale] Augmente les DEG de 50 % et réduit le Blocage P de la cible de {0} points pendant 10 sec.",
+      "thumbnail": "heroes/Priscilla/ut/1.png",
+      "story": "Ce contrepoids est fixé à la poignée d'Exilius.\nIl améliore l'équilibre de Priscilla, ce qui lui permet d'asséner des attaques plus stables et précises. Lorsqu'Annette changea sa hallebarde en Exilius, elle remplaça également son contrepoids, considérablement durci grâce à une amélioration technomagique, ce qui lui permet d'exécuter des attaques d'une précision inégalée.",
+      "value": {
+        "0": {
+          "0": "150",
+          "1": "180",
+          "2": "210",
+          "3": "240",
+          "4": "270",
+          "5": "300"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Frappe vitale] Augmente les DEG de 50 % et réduit le Blocage P de la cible de 150 points pendant 10 sec.",
+        "1": "[Frappe vitale] Augmente les DEG de 50 % et réduit le Blocage P de la cible de 180 points pendant 10 sec.",
+        "2": "[Frappe vitale] Augmente les DEG de 50 % et réduit le Blocage P de la cible de 210 points pendant 10 sec.",
+        "3": "[Frappe vitale] Augmente les DEG de 50 % et réduit le Blocage P de la cible de 240 points pendant 10 sec.",
+        "4": "[Frappe vitale] Augmente les DEG de 50 % et réduit le Blocage P de la cible de 270 points pendant 10 sec.",
+        "5": "[Frappe vitale] Augmente les DEG de 50 % et réduit le Blocage P de la cible de 300 points pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Service à thé raffiné",
+      "description": "[Coordination] renforce l'augmentation d'ATQ de {0}% et réduit les temps de recharge des compétences de l'allié à l'ATQ la plus élevée de 20%.",
+      "thumbnail": "heroes/Priscilla/ut/2.png",
+      "story": "Tasses de thé en céramique d’Aisha que Priscilla sort en toute occasion. \nCes tasses de thé de luxe ont été fabriquées dans la meilleure argile du continent oriental par-delà l’océan. Elles servent principalement à prendre le thé avec Aisha, mais aussi à accomplir Coordination avec Priscilla.",
+      "value": {
+        "0": {
+          "0": "25",
+          "1": "30",
+          "2": "35",
+          "3": "40",
+          "4": "45",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Coordination] renforce l'augmentation d'ATQ de 25% et réduit les temps de recharge des compétences de l'allié à l'ATQ la plus élevée de 20%.",
+        "1": "[Coordination] Augmente le boost d'ATQ de 20% et réduit le temps de recharge du héros avec l'ATQ la plus élevée de 30%.",
+        "2": "[Coordination] renforce l'augmentation d'ATQ de 35% et réduit les temps de recharge des compétences de l'allié à l'ATQ la plus élevée de 20%.",
+        "3": "[Coordination] renforce l'augmentation d'ATQ de 40% et réduit les temps de recharge des compétences de l'allié à l'ATQ la plus élevée de 20%.",
+        "4": "[Coordination] renforce l'augmentation d'ATQ de 45% et réduit les temps de recharge des compétences de l'allié à l'ATQ la plus élevée de 20%.",
+        "5": "[Coordination] renforce l'augmentation d'ATQ de 50% et réduit les temps de recharge des compétences de l'allié à l'ATQ la plus élevée de 20%."
+      }
+    },
+    "3": {
+      "name": "Pierre magique de gravité",
+      "description": "[Danse Tournoyante] Augmente les DGT de {0} % et étourdit la cible pendant 1.8 s.",
+      "thumbnail": "heroes/Priscilla/ut/3.png",
+      "story": "Le premier outil magique fabriqué par le Mage de Violet. Le premier cadeau reçu par Aisha gave. Aisha créa cet outil magique, car elle trouvait triste que Priscilla utilise tant de magie pour sa Danse Tournoyante. La Pierre Mana de Gravité soulage la pression du corps lors de l’utilisation de la Danse Tournoyante et augmente ses effets.",
+      "value": {
+        "0": {
+          "0": "25",
+          "1": "30",
+          "2": "35",
+          "3": "40",
+          "4": "45",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Danse Tournoyante] Augmente les DGT de 25 % et étourdit la cible pendant 1.8 s.",
+        "1": "[Danse Tournoyante] Augmente les DGT de 30 % et étourdit la cible pendant 1.8 s.",
+        "2": "[Danse Tournoyante] Augmente les DGT de 35 % et étourdit la cible pendant 1.8 s.",
+        "3": "[Danse Tournoyante] Augmente les DGT de 40 % et étourdit la cible pendant 1.8 s.",
+        "4": "[Danse Tournoyante] Augmente les DGT de 45 % et étourdit la cible pendant 1.8 s.",
+        "5": "[Danse Tournoyante] Augmente les DGT de 50 % et étourdit la cible pendant 1.8 s."
+      }
+    },
+    "4": {
+      "name": "Début du tumulte",
+      "description": "[Maîtrise des Armes] Augmente le bonus d'ATQ de 50 % et sa propre DÉF physique de {0} %.",
+      "thumbnail": "heroes/Priscilla/ut/4.png",
+      "story": "Une hallebarde dont Priscilla se sert pour s'entraîner.\nCette vieille lance émoussée a connu les tout débuts de la guerre.\nElle la prend parfois avec elle pour se remémorer l'époque de sa formation.\nC'est ainsi qu'elle est toujours restée fidèle à ses principes, protégeant sa dame de tous les dangers.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14.4",
+          "2": "16.8",
+          "3": "19.2",
+          "4": "21.6",
+          "5": "24"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Maîtrise des Armes] Augmente le bonus d'ATQ de 50 % et sa propre DÉF physique de 12 %.",
+        "1": "[Maîtrise des Armes] Augmente le bonus d'ATQ de 50 % et sa propre DÉF physique de 14.4 %.",
+        "2": "[Maîtrise des Armes] Augmente le bonus d'ATQ de 50 % et sa propre DÉF physique de 16.8 %.",
+        "3": "[Maîtrise des Armes] Augmente le bonus d'ATQ de 50 % et sa propre DÉF physique de 19.2 %.",
+        "4": "[Maîtrise des Armes] Augmente le bonus d'ATQ de 50 % et sa propre DÉF physique de 21.6 %.",
+        "5": "[Maîtrise des Armes] Augmente le bonus d'ATQ de 50 % et sa propre DÉF physique de 24 %."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant [64ff64]19[-] sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de [Excilius, la Danse tumultueuse] pendant 12 sec, augmentant l'ATQ du lanceur et des 3 alliés à l'ATQ la plus élevée de 20%, et les DEG Crit de 32%. Les 3 alliés à l'ATQ la plus élevée gagnent aussi l'immunité aux contrôles pendant 5 sec.",
+    "cooldown": "18",
+    "uses": "6",
+    "thumbnail": "heroes/Priscilla/sw.png",
+    "advancement": {
+      "1": "Réduit la condition d'utilisation de 4 sec.",
+      "2": "Pendant la durée de l'effet, augmente les DEG infligés par les 3 alliés à l'ATQ la plus élevée de 14%."
+    },
+    "story": "Excilius s'en rappelait encore.\nElle se souvenait de la guerrière à l'âme inébranlable, qui avait montré une volonté de fer en la brandissant.\nElle se souvenait aussi du mot de remerciement qu'elle lui avait adressé lorsqu'elle avait été abîmée.\n\nExcilius pouvait sentir.\nElle pouvait sentir la main de la guerrière trembler en la retrouvant.\nEIle sentait également du bout de ses doigts la volonté de fer se répandre en elle.\n\nPuisque sa volonté l'avait réveillée, pour que sa résolution de protéger tout le monde n'ait pas à faillir, elle l'assisterait d'un tourbillon de fer."
+  },
+  "splashart": "heroes/Priscilla/sa.png",
+  "costumes": "heroes/Priscilla/cos",
+  "_localization": {
+    "locale": "fr",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

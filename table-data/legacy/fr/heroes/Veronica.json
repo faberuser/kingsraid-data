@@ -1,0 +1,228 @@
+{
+  "id": "Veronica",
+  "profile": {
+    "name": "Veronica",
+    "title": "Veronica, Œil de la Clairvoyance",
+    "class": "Wizard",
+    "position": "Back-500",
+    "attack_range": "9200",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "22",
+    "height": "165",
+    "race": "Humain",
+    "constellation": "Lasiphil la Prophétesse",
+    "birth": {
+      "month": 3,
+      "day": 10,
+      "monthName": "Mois de la Clairvoyance"
+    },
+    "like": "Des personnes intelligentes, les résultats rapides, les documents propres",
+    "dislike": "Les chambres mal rangées, les travails inefficaces",
+    "story": "Une érudite de génie de la Tour des Sages, qui se souvient de tout ce qu'elle voit. Après avoir développé ses propres théories et systèmes de magie runique, elle s'ennuya rapidement et passa à un autre sujet. Elle fut rapidement élue au poste de secrétaire royale des Finances. Malheureusement, de nombreux hommes politiques refusèrent qu'une femme du peuple devienne leur supérieure. Après une campagne de mensonges et de rumeurs, Veronica décida finalement de quitter le palais d'elle-même. Cependant, elle ne prit pas cela comme une défaite et partit conquérir une autre voie. Elle se rendit à l'Alliance de la Guilde d'Orvel, où elle savait que seuls ses talents seraient pris en compte. Comme elle s'y attendait, sa perception incroyable et ses talents d'analyse la rendirent indispensable à de nombreuses guildes.",
+    "thumbnail": "heroes/Veronica/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Ça va piquer un peu !",
+      "cost": "2",
+      "cooldown": "9",
+      "description": "Inflige ??? points de DEG M à la cible et aux ennemis à portée et les étourdit pendant 2 s.",
+      "thumbnail": "heroes/Veronica/skills/1.png"
+    },
+    "2": {
+      "name": "Je vais vous aider.",
+      "cost": "4",
+      "cooldown": "25",
+      "description": "Accorde une Rune à tous les alliés pour augmenter leur ATQ de ??? et tous les DEG infligés aux boss de 15% pendant 12 sec.",
+      "thumbnail": "heroes/Veronica/skills/2.png"
+    },
+    "3": {
+      "name": "Hors de ma vue !",
+      "cost": "4",
+      "cooldown": "25",
+      "description": "Attaque 2 fois la cible et les ennemis dans une large zone environnante pour leur infliger ??? points de DEG M et les renverser pendant 5 secondes. Les ennemis touchés subissent 30% de DEG M en plus pendant 10 secondes.",
+      "thumbnail": "heroes/Veronica/skills/3.png"
+    },
+    "4": {
+      "name": "Savoir de la Directrice financière",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente l'ATQ de tous les alliés de ??? et accorde une charge d'Expérience lors de l'utilisation d'une compétence. Une fois 3 Expériences cumulées, accorde Savoir de la Directrice financière et augmente les DEG Crit de 30% et les effets de toutes les compétences de 10%. L'effet de Savoir de la Directrice financière est cumulable 5 fois et est inamovible.",
+      "thumbnail": "heroes/Veronica/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "L'augmentation d'ATQ augmente de 10%.",
+      "III": "L'augmentation d'ATQ augmente de 15%.",
+      "IV": "L'augmentation d'ATQ augmente de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "L'augmentation d'ATQ augmente de 10%.",
+      "III": "L'augmentation d'ATQ augmente de 15%.",
+      "IV": "L'augmentation d'ATQ augmente de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Augmente les DEG de 100% lorsqu'il y a 1 ennemi.",
+          "thumbnail": "heroes/Veronica/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Le nombre de cibles passe à 2.",
+          "thumbnail": "heroes/Veronica/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Après le début de la première bataille, modifie l'augmentation des DEG infligés au boss à 25%. Cet effet est limité à 3 utilisations de la compétence.",
+          "thumbnail": "heroes/Veronica/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Réduit le temps de recharge de 5 s.",
+          "thumbnail": "heroes/Veronica/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente le coût en PM de 1 et les DEG infligés de 100%.",
+          "thumbnail": "heroes/Veronica/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "La cible reçoit davantage de DEG M et DEG P.",
+          "thumbnail": "heroes/Veronica/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Récupère 2 barres de PM lors de l'activation.",
+          "thumbnail": "heroes/Veronica/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Augmente l'ATQ des alliés soignés de 50% pendant 10 sec.",
+          "thumbnail": "heroes/Veronica/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Crit +100",
+        "thumbnail": "heroes/Veronica/perks/light.png"
+      },
+      "dark": {
+        "effect": "Réduit le temps de recharge de toutes les compétences du lanceur de 15% toutes les 20 sec.",
+        "thumbnail": "heroes/Veronica/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Accordio, le Jalonneur infini",
+    "description": "Change le nombre de charges max de Savoir de la Directrice financière à 9 et accorde une charge supplémentaire d'Expérience toutes les 14 sec.",
+    "value": {},
+    "thumbnail": "heroes/Veronica/uw.png",
+    "story": "Son autorisation est nécessaire pour traiter des objets importants au sein de l’alliance de guildes. Objet de bureau extrêmement précieux aux yeux de la fondatrice de l’alliance de guildes. Une plume et un dossier réunis ensemble. La plume est incrustée d’une boule de mana, ce qui fait qu’elle consomme du mana plutôt que de l’encre. Elle doit de plus écrire sur du parchemin magique, insensible aux plumes classiques. Tout ce qui est ainsi écrit ne peut plus être effacé sans le mana de l’auteur. Aussi, le parchemin magique est infini et comporte une fonction de recherche pour repérer ce qui a été écrit précédemment. Voilà qui rend Veronica bien plus efficace. Bien sûr, tout ceci est utile pour le travail. Pour le reste...",
+    "descriptionByStar": {
+      "0": "Change le nombre de charges max de Savoir de la Directrice financière à 9 et accorde une charge supplémentaire d'Expérience toutes les 14 sec.",
+      "1": "Change le nombre de charges max de Savoir de la Directrice financière à 10 et accorde une charge supplémentaire d'Expérience toutes les 13 sec.",
+      "2": "Change le nombre de charges max de Savoir de la Directrice financière à 11 et accorde une charge supplémentaire d'Expérience toutes les 12 sec.",
+      "3": "Change le nombre de charges max de Savoir de la Directrice financière à 12 et accorde une charge supplémentaire d'Expérience toutes les 11 sec.",
+      "4": "Change le nombre de charges max de Savoir de la Directrice financière à 13 et accorde une charge supplémentaire d'Expérience toutes les 10 sec.",
+      "5": "Change le nombre de charges max de Savoir de la Directrice financière à 15 et accorde une charge supplémentaire d'Expérience toutes les 9 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Code de conduite de la guilde",
+      "description": "[Ça va faire un peu mal!] Augmente les DEG de 50 % et les DEG infligés aux boss de 2 % pendant 30 sec à chaque coup critique. Cet effet peut se cumuler jusqu'à 10 fois.",
+      "value": {},
+      "thumbnail": "heroes/Veronica/ut/1.png",
+      "story": "Ce manuel détaille la conduite à tenir pour les membres d'une guilde.\nTrois fois plus épais qu'un livre ordinaire, il est le fruit de la nature extrêmement méticuleuse de Veronica. Il faudrait presque une vie entière pour le lire en entier.",
+      "descriptionByStar": {
+        "0": "[Ça va faire un peu mal!] Augmente les DEG de 50 % et les DEG infligés aux boss de 2 % pendant 30 sec à chaque coup critique. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "1": "[Ça va faire un peu mal!] Augmente les DEG de 50 % et les DEG infligés aux boss de 2,4 % pendant 30 sec à chaque coup critique. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "2": "[Ça va faire un peu mal!] Augmente les DEG de 50 % et les DEG infligés aux boss de 2,9 % pendant 30 sec à chaque coup critique. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "3": "[Ça va faire un peu mal!] Augmente les DEG de 50 % et les DEG infligés aux boss de 3,5 % pendant 30 sec à chaque coup critique. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "4": "[Ça va faire un peu mal!] Augmente les DEG de 50 % et les DEG infligés aux boss de 4,2 % pendant 30 sec à chaque coup critique. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "5": "[Ça va faire un peu mal!] Augmente les DEG de 50 % et les DEG infligés aux boss de 5 % pendant 30 sec à chaque coup critique. Cet effet peut se cumuler jusqu'à 10 fois."
+      }
+    },
+    "2": {
+      "name": "Pointe de stylo de volonté inébranlable",
+      "description": "[Laissez-moi vous aider] Réduit le coût en PM de 1 et augmente la durée de la compétence de 1,6 sec.",
+      "value": {},
+      "thumbnail": "heroes/Veronica/ut/2.png",
+      "story": "Pointe de stylo que Veronica garde toujours sur elle. Elle l’a trempée dans la source des Promesses pendant 100 jours, tout comme Jin le forgeron lui avait conseillé. Grâce à la magie, ce qui a été écrit avec ce stylo devient rouge lorsque les choses ne se sont pas déroulées correctement. D’après Veronica, cela l’aide énormément pour gérer son inventaire.",
+      "descriptionByStar": {
+        "0": "[Laissez-moi vous aider] Réduit le coût en PM de 1 et augmente la durée de la compétence de 1,6 sec.",
+        "1": "[Laissez-moi vous aider] Réduit le coût en PM de 1 et augmente la durée de la compétence de 1,9 sec.",
+        "2": "[Laissez-moi vous aider] Réduit le coût en PM de 1 et augmente la durée de la compétence de 2,3 sec.",
+        "3": "[Laissez-moi vous aider] Réduit le coût en PM de 1 et augmente la durée de la compétence de 2,7 sec.",
+        "4": "[Laissez-moi vous aider] Réduit le coût en PM de 1 et augmente la durée de la compétence de 3,3 sec.",
+        "5": "[Laissez-moi vous aider] Réduit le coût en PM de 1 et augmente la durée de la compétence de 4 sec."
+      }
+    },
+    "3": {
+      "name": "Sceau de l'Officier de la guilde",
+      "description": "[Hors de ma vue!] Les DEG sont augmentés de 20% et pour chaque ennemi touché, le Temps de Recharge est réduit de 10%.",
+      "value": {},
+      "thumbnail": "heroes/Veronica/ut/3.png",
+      "story": "Sceau remis au meilleur manager de guilde d’Orvel. Toutes les affaires de guilde nécessitent ce sceau pour être abouties. La méticuleuse Veronica ne tamponne aucun document tant qu’il n’est pas parfait, c’est dire si cet objet reflète le professionnalisme de Veronica.",
+      "descriptionByStar": {
+        "0": "[Hors de ma vue!] Les DEG sont augmentés de 20% et pour chaque ennemi touché, le Temps de Recharge est réduit de 10%.",
+        "1": "[Hors de ma vue!] Les DEG sont augmentés de 24% et pour chaque ennemi touché, le Temps de Recharge est réduit de 10%.",
+        "2": "[Hors de ma vue!] Les DEG sont augmentés de 29% et pour chaque ennemi touché, le Temps de Recharge est réduit de 10%.",
+        "3": "[Hors de ma vue!] Les DEG sont augmentés de 35% et pour chaque ennemi touché, le Temps de Recharge est réduit de 10%.",
+        "4": "[Hors de ma vue!] Les DEG sont augmentés de 42% et pour chaque ennemi touché, le Temps de Recharge est réduit de 10%.",
+        "5": "[Hors de ma vue!] Les DEG sont augmentés de 50% et pour chaque ennemi touché, le Temps de Recharge est réduit de 10%."
+      }
+    },
+    "4": {
+      "name": "Bilan budgétaire de guilde",
+      "description": "[Savoir de la Directrice financière] Augmente le boost d'ATQ de 50 % et les DEG Crit de tous les alliés de 20 % pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Veronica/ut/4.png",
+      "story": "Une compilation de rapports budgétaires de guilde que Veronica dresse chaque mois et chaque année. Véritable experte, elle gère ces documents comme personne.\nLa réaction instinctive de tout être normalement constitué voyant une telle montagne de documents s'entasser sera de quitter la pièce à reculons.\nCette pile de documents est la preuve que Veronica est une gestionnaire hors pair.",
+      "descriptionByStar": {
+        "0": "[Savoir de la Directrice financière] Augmente le boost d'ATQ de 50 % et les DEG Crit de tous les alliés de 20 % pendant 10 sec.",
+        "1": "[Savoir de la Directrice financière] Augmente le boost d'ATQ de 50 % et les DEG Crit de tous les alliés de 24 % pendant 10 sec.",
+        "2": "[Savoir de la Directrice financière] Augmente le boost d'ATQ de 50 % et les DEG Crit de tous les alliés de 29 % pendant 10 sec.",
+        "3": "[Savoir de la Directrice financière] Augmente le boost d'ATQ de 50 % et les DEG Crit de tous les alliés de 35 % pendant 10 sec.",
+        "4": "[Savoir de la Directrice financière] Augmente le boost d'ATQ de 50 % et les DEG Crit de tous les alliés de 42 % pendant 10 sec.",
+        "5": "[Savoir de la Directrice financière] Augmente le boost d'ATQ de 50 % et les DEG Crit de tous les alliés de 50 % pendant 10 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 5 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme d'Accordio, le Jalonneur infini, ce qui permet d'obtenir immédiatement 2 charges de Savoir de la Directrice financière. Augmente les DEG Crit de l'allié à l'ATQ la plus élevée de 50% et ses DEG infligés aux boss de 20%, pendant 10 sec.",
+    "cooldown": "21",
+    "uses": "6",
+    "thumbnail": "heroes/Veronica/sw.png",
+    "advancement": {
+      "1": "Augmente la durée de l'invocation de 4 sec.",
+      "2": "Augmente l'effet reçu par l'allié à l'ATQ la plus élevée de 100%."
+    },
+    "story": "Accordio, une fourniture de burreau de Veronica, était le meilleur des instruments magiques. Mais Veronica souhaitait faire bien plus que ce qu'elle avait exécuté jusqu'à maintenant.\nAlors elle se mit à faire des expériences afin de renforcer les capacités d'Accordio, avec pour but d'effectuer plus de travail qu'elle faisait actuellement. Après qu'elle ait quitté la Tour des Sages, cela faisait un certain temps qu'elle n'avait pas touché aux études et à la magie, mais ses talents innés lui permirent de progresser dans ces expériences sans la moindre anicroche.\nQuand ses études atteignirent le summum, Accordio, comme émerveillé par son esprit bravant tout défi, finit par s'éveiller en un être possédant une apparence et une personnalité."
+  },
+  "splashart": "heroes/Veronica/sa.png",
+  "costumes": "heroes/Veronica/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

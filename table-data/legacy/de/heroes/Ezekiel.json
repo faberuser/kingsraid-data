@@ -1,0 +1,253 @@
+{
+  "id": "Ezekiel",
+  "profile": {
+    "name": "Ezekiel",
+    "title": "Verfluchtes Blut Ezekiel",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "3800",
+    "damage_type": "Magical",
+    "gender": "Männlich",
+    "age": "HERO_AGE_EZEKIEL",
+    "height": "195",
+    "race": "Dämonen (Mischling)",
+    "constellation": "Mira, die Bardin",
+    "birth": {
+      "month": 6,
+      "day": 6,
+      "monthName": "Monat der Liebe"
+    },
+    "like": "Karamelpudding; gesüßten Saft",
+    "dislike": "Schwächlinge, die sich stark geben; Idioten, die denken, dass sie alles wüssten",
+    "story": "Der Sohn von Lucikiel ist ein mächtiger Dämonenoffizier, der das Fürstentum Gray zu Fall brachte. Er ist bedacht und vorsichtig und in Wirklichkeit halb Mensch. Im Kampf übermannt ihn sein Dämonenblut, wodurch er arrogant und gewalttätig wird. Sein Vater, dem er niemals begegnete, vererbte ihm seine Macht. Er ist stolz darauf und versucht nicht, sie zu verstecken. Weil er nur zum Teil ein Dämon ist, durchlebt lediglich einer seiner Arme die Verwandlung. Doch bereits dieser Arm enthält immense Macht und es ist nicht leicht für ihn, ihn ganzheitlich zu kontrollieren. Wenn er die Kontrolle über den Arm verliert, ist man gut beraten, sich unmittelbar und so weit wie möglich von ihm zu entfernen.",
+    "thumbnail": "heroes/Ezekiel/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Zerstörerischer Instinkt",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Streift Feinde mit einem kreisfärmigen Angriff und verursacht ??? Mag. Schaden. Ein Schlag auf den Untergrund verursacht ??? Mag. Schaden und wirft die Gegner für 3 Sek. zu Boden.\n[Zorn] - Verbraucht zum Aktivieren 15 % der aktuellen TP. Effektreichweite ist erhöht und der Angriff zieht Feinde heran.",
+      "thumbnail": "heroes/Ezekiel/skills/1.png"
+    },
+    "2": {
+      "name": "Aufkommende Verzweiflung",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Springt auf den Feind mit dem höchsten ANG und verursacht ??? Mag. Schaden an allen Gegnern in Reichweite, was ihre ANG-GESCHW. um 300 verringert. \n[Zorn] - Verbraucht zum Aktivieren 10 % der aktuellen TP. Effektreichweite ist erhöht, das Ziel wird für 3 Sek. betäubt und die eigene ANG-GESCHW. für 10 Sek. um 300 erhöht.",
+      "thumbnail": "heroes/Ezekiel/skills/2.png"
+    },
+    "3": {
+      "name": "Verheerender Schlag",
+      "cost": "2",
+      "cooldown": "7",
+      "description": "Sammelt Energie und greift damit den Gegner an, verursacht dadurch ??? Mag. Schaden und betäubt 3 Sek. lang. Dieser Schaden ignoriert die Schaden-Reduktionseffekte des Ziels.\n\n[Zorn] - Verbraucht zum Aktivieren 20 % der aktuellen TP. Greift Gegner in Reichweite an und verdreifacht den Schaden.",
+      "thumbnail": "heroes/Ezekiel/skills/3.png"
+    },
+    "4": {
+      "name": "Verfluchtes Blut",
+      "cost": null,
+      "cooldown": null,
+      "description": "Ezekiel erhält am Ende des Skills 1 Stapel 'Verfluchtes Blut'. Bei 3 Stapeln wird Verfluchtes Blut verbraucht, um alle Skill-Cooldowns zurückzusetzen und ??? Mag. Schaden an nahestehenden Gegner zu verursachen. Sie werden für 3 Sek. zu Boden geworfen, während für 10 Sek. Zorn aktiviert wird, der nicht entfernt werden kann. Im Zornzustand wird ein beserkerartiger Kampfmodus ausgeführt, bei dem keine Kontrolle übernommen werden kann. ANG ist hierbei um ??? erhöht, normaler Schaden ist verdoppelt und alle aktiven Skilleffekte verstärkt. Verfluchtes Blut kann im Zornzustand nicht erlangt werden, Ausnahme bietet das Töten eines Feindes.",
+      "thumbnail": "heroes/Ezekiel/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht den Schaden um 40%.",
+          "thumbnail": "heroes/Ezekiel/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Nach der Aktivierung erhöht sich 10 Sek. lang der ANG um 40 %.",
+          "thumbnail": "heroes/Ezekiel/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Die Manakosten werden um 1 reduziert.",
+          "thumbnail": "heroes/Ezekiel/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Bei Aktivierung im Zornzustand wird die VERT des Ziels ignoriert.",
+          "thumbnail": "heroes/Ezekiel/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Massenkontroll-Immunität für die Dauer des Skills.",
+          "thumbnail": "heroes/Ezekiel/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Wenn nur 1 Gegner vorhanden ist, erhöht sich der Schaden um 100%.",
+          "thumbnail": "heroes/Ezekiel/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Im Zornzustand erhöht sich die erhaltene Heilung um 50%.",
+          "thumbnail": "heroes/Ezekiel/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Für jeden Stapel [Verfluchtes Blut] wird der erlittene Schaden um 12% reduziert.",
+          "thumbnail": "heroes/Ezekiel/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/ANG-GESCHW. +100",
+        "thumbnail": "heroes/Ezekiel/perks/light.png"
+      },
+      "dark": {
+        "effect": "Im Zornzustand verursachen normale Angriffe Schaden, der die VERT ignoriert.",
+        "thumbnail": "heroes/Ezekiel/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Verzweiflungswärter Barbatos",
+    "description": "Die Wirkungsdauer von Zornzustand erhöht sich um {0} Sek. und im Zornzustand erhöht sich der Krit. Schaden um {1} % und der Massenkontroll-Widerstand um {2}.",
+    "value": {
+      "0": {
+        "0": "2",
+        "1": "3",
+        "2": "4",
+        "3": "5",
+        "4": "6",
+        "5": "7"
+      },
+      "1": {
+        "0": "80",
+        "1": "90",
+        "2": "100",
+        "3": "110",
+        "4": "120",
+        "5": "130"
+      },
+      "2": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      }
+    },
+    "thumbnail": "heroes/Ezekiel/uw.png",
+    "story": "Ezekiels Vater war einer der hochrangigsten Dämonen. Obwohl dieser dessen Gesicht oder Namen niemals kannte, ist ihm die gewaltige Macht seiner dämonischen Herkunft bekannt. Das Dämonenblut, das in seinen Adern fließt, gab ihm eine zweite Persönlichkeit. Wenn sein menschliches Blut sich durchsetzt, ist Ezekiel ein junger Mann mit einwandfreiem Charakter. Zu anderen Zeiten ist er ein unglaublich mächtiger und arroganter Dämon, wie sein Vater. Verzweiflungswärter Barbatos manifestiert sich, wenn Ezekiels Dämonenblut seine volle Macht entfaltet. In Gestalt eines seiner Arme ist diese Waffe stark genug, um durch Dimensionen zu schneiden und den Raum selbst zu durchtrennen. Dies ist die körperliche Wiedergabe der Macht seines Vaters.",
+    "descriptionByStar": {
+      "0": "Die Wirkungsdauer von Zornzustand erhöht sich um 2 Sek. und im Zornzustand erhöht sich der Krit. Schaden um 80 % und der Massenkontroll-Widerstand um 200.",
+      "1": "Zornzustand ist 3 Sek. länger und bei Aktivierung des Zornzustandes ist der Krit. Schaden um 90 % erhöht.",
+      "2": "Zornzustand ist 4 Sek. länger und bei Aktivierung des Zornzustandes ist der Krit. Schaden um 100 % erhöht.",
+      "3": "Zornzustand ist 5 Sek. länger und bei Aktivierung des Zornzustandes ist der Krit. Schaden um 110 % erhöht.",
+      "4": "Zornzustand ist 6 Sek. länger und bei Aktivierung des Zornzustandes ist der Krit. Schaden um 120 % erhöht.",
+      "5": "Zornzustand ist 7 Sek. länger und bei Aktivierung des Zornzustandes ist der Krit. Schaden um 130 % erhöht."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Ledergürtel der wilden Bestie",
+      "description": "[Zerstörerischer Instinkt] heilt die eigenen TP beim Einsatz um 15 % der max. TP und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 15 %.",
+      "value": {},
+      "thumbnail": "heroes/Ezekiel/ut/1.png",
+      "story": "Als Ezekiel einen engen Halsreif aus Mantikor-Leder herstellte, fertigte er dazu einen passenden doppellagigen Ledergürtel an. Das Leder hat eine einzigartige Wirkung und vermag es, dämonische Energie zu speichern und Wahnsinn auszulösen. Dieser Gürtel versetzt alle Feinde im Umkreis in Angst und Schrecken, wenn Ezekiel seine dämonische Kraft entfesselt. Willensschwache Ziele werden bewegungsunfähig gemacht.",
+      "descriptionByStar": {
+        "0": "[Zerstörerischer Instinkt] heilt die eigenen TP beim Einsatz um 15 % der max. TP und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 15 %.",
+        "1": "[Zerstörerischer Instinkt] heilt die eigenen TP beim Einsatz um 15 % der max. TP und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 12 %.",
+        "2": "[Zerstörerischer Instinkt] heilt die eigenen TP beim Einsatz um 15 % der max. TP und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 14 %.",
+        "3": "[Zerstörerischer Instinkt] heilt die eigenen TP beim Einsatz um 15 % der max. TP und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 17 %.",
+        "4": "[Zerstörerischer Instinkt] heilt die eigenen TP beim Einsatz um 15 % der max. TP und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 21 %.",
+        "5": "[Zerstörerischer Instinkt] heilt die eigenen TP beim Einsatz um 15 % der max. TP und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %."
+      }
+    },
+    "2": {
+      "name": "Halsband der wilden Bestie",
+      "description": "[Aufkommende Verzweiflung] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht die ANG-GESCHW. 10 Sek. lang um 100.",
+      "value": {},
+      "thumbnail": "heroes/Ezekiel/ut/2.png",
+      "story": "Halsband, das aus dem Leder einer mächtigen Bestie gefertigt wurde.\nEine Trophäe, die an den Mantikor erinnert, den Ezekiel nach einem harten Kampf gegen die Dämonen jagte, als er noch jung war. \nEzekiel erinnert sich jedes Mal an die Freude, den Mantikor zu töten, wenn er das Halsband der wilden Bestie berührt, kurz bevor er sich auf den nächsten Feind vor sich stürzt.",
+      "descriptionByStar": {
+        "0": "[Aufkommende Verzweiflung] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht die ANG-GESCHW. 10 Sek. lang um 100.",
+        "1": "[Aufkommende Verzweiflung] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht die ANG-GESCHW. 10 Sek. lang um 120.",
+        "2": "[Aufkommende Verzweiflung] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht die ANG-GESCHW. 10 Sek. lang um 140.",
+        "3": "[Aufkommende Verzweiflung] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht die ANG-GESCHW. 10 Sek. lang um 170.",
+        "4": "[Aufkommende Verzweiflung] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht die ANG-GESCHW. 10 Sek. lang um 210.",
+        "5": "[Aufkommende Verzweiflung] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht die ANG-GESCHW. 10 Sek. lang um 250."
+      }
+    },
+    "3": {
+      "name": "Siegelband",
+      "description": "[Verheerender Schlag] erhöht den Schaden um 20 % und erhält 1 zus. Verfluchtes Blut nach Nutzung des Skills.",
+      "value": {},
+      "thumbnail": "heroes/Ezekiel/ut/3.png",
+      "story": "Ein Band, welches das Mana eines unbekannten Priesters enthält. Der junge Ezekiel lief früher regelmäßig Amok. Wenn jemand seine Mutter beleidigte, ließ er zu, dass sein kochendes Dämonenblut die Führung übernahm. Sobald er wieder zu Sinnen kam, starrte er auf seinen verletzten Arm und seine entsetzte Mutter. Als er schon älter war, beseitigte Ezekiel einmal gerade Dämonen, als er in einen Streit mit einem größeren Priester Luas geriet. Er verlor wie sonst auch die Beherrschung und als er erwachte, war er allein und erstaunt über das Band an seinem verfluchten Arm. Als er versuchte, es abzunehmen, merkte er, dass die Magie des Priesters nicht so einfach abzuschütteln war. Danach lief er jedoch nicht mehr Amok und verlor das Bewusstsein. Er konnte außerdem sein Mana besser kontrollieren, weshalb das Band jetzt zu seinen größten Schätzen zählt.",
+      "descriptionByStar": {
+        "0": "[Verheerender Schlag] erhöht den Schaden um 20 % und erhält 1 zus. Verfluchtes Blut nach Nutzung des Skills.",
+        "1": "[Verheerender Schlag] erhöht den Schaden um 24 % und erhält 1 zus. Verfluchtes Blut nach Nutzung des Skills.",
+        "2": "[Verheerender Schlag] erhöht den Schaden um 29 % und erhält 1 zus. Verfluchtes Blut nach Nutzung des Skills.",
+        "3": "[Verheerender Schlag] erhöht den Schaden um 35 % und erhält 1 zus. Verfluchtes Blut nach Nutzung des Skills.",
+        "4": "[Verheerender Schlag] erhöht den Schaden um 42 % und erhält 1 zus. Verfluchtes Blut nach Nutzung des Skills.",
+        "5": "[Verheerender Schlag] erhöht den Schaden um 50 % und erhält 1 zus. Verfluchtes Blut nach Nutzung des Skills."
+      }
+    },
+    "4": {
+      "name": "Skulptur des Blutes",
+      "description": "[Verfluchtes Blut] Skill ermöglicht es, dass du zum Kampfbeginn 2x Verfluchtes Blut erhältst und erhöht dem Bossmonster zugefügten Schaden um 20 %, wenn du dich im Zornzustand befindest.",
+      "value": {},
+      "thumbnail": "heroes/Ezekiel/ut/4.png",
+      "story": "In Ezekiels Jugend tauchten auf seinem rechten Arm immer wieder Energiewellen auf, die an seinen Armen und Händen Wunden und Narben hinterließen.\nWenn sich sein Arm wieder beruhigt hatte und das Blut auf den Boden tropfte, konzentrierte sich Ezekiel darauf, um sich auch selbst zu beruhigen.\nAnschließend wartete er, bis seine Arme nicht mehr bluteten, hob einen Stein auf, der mit seinem blauen Blut getränkt war, und fing an, daraus eine kleine Skulptur zu schnitzen, die wie seine rechte Hand aussah.",
+      "descriptionByStar": {
+        "0": "[Verfluchtes Blut] Skill ermöglicht es, dass du zum Kampfbeginn 2x Verfluchtes Blut erhältst und erhöht dem Bossmonster zugefügten Schaden um 20 %, wenn du dich im Zornzustand befindest.",
+        "1": "[Verfluchtes Blut] Skill ermöglicht es, dass du zum Kampfbeginn 2x Verfluchtes Blut erhältst und erhöht dem Bossmonster zugefügten Schaden um 24 %, wenn du dich im Zornzustand befindest.",
+        "2": "[Verfluchtes Blut] Skill ermöglicht es, dass du zum Kampfbeginn 2x Verfluchtes Blut erhältst und erhöht dem Bossmonster zugefügten Schaden um 29 %, wenn du dich im Zornzustand befindest.",
+        "3": "[Verfluchtes Blut] Skill ermöglicht es, dass du zum Kampfbeginn 2x Verfluchtes Blut erhältst und erhöht dem Bossmonster zugefügten Schaden um 35 %, wenn du dich im Zornzustand befindest.",
+        "4": "[Verfluchtes Blut] Skill ermöglicht es, dass du zum Kampfbeginn 2x Verfluchtes Blut erhältst und erhöht dem Bossmonster zugefügten Schaden um 42 %, wenn du dich im Zornzustand befindest.",
+        "5": "[Verfluchtes Blut] Skill ermöglicht es, dass du zum Kampfbeginn 2x Verfluchtes Blut erhältst und erhöht dem Bossmonster zugefügten Schaden um 50 %, wenn du dich im Zornzustand befindest."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 6-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört 12 Sek. lang die Seele von Verzweiflungswärter Barbatos und greift nahen Feinden in ringförmiger Reichweite an, wobei ??? Mag. Schaden zugefügt und der eigene ANG um 50 % erhöht wird. Wenn du dich während der Wirkungsdauer im Zornzustand befindest, ist Kontrolle möglich und bei Skill-Verwendung können die TP nicht mehr benutzt werden. Mit dem Ende dieses Skills erhältst du 1x Verfluchtes Blut. Bei Verwendung dieses Skills kann Verfluchtes Blut auch im Zornzustand erhalten werden.",
+    "cooldown": "18",
+    "uses": "6",
+    "thumbnail": "heroes/Ezekiel/sw.png",
+    "advancement": {
+      "1": "Du erhältst zusätzlich 1x Verfluchtes Blut.",
+      "2": "Erhöht den eigenen verursachten Schaden an Feinden um 30 % während der Wirkungsdauer."
+    },
+    "story": "Ezekiel hat seine Waffenkraft nie richtig eingesetzt. Sein menschlicher Nebencharakter kann die Macht nicht vollständig kontrollieren und der dämonische Nebencharakter brauchte keine weitere Macht. Doch während einer langen Reise fand Ezekiel etwas, das er beschützen möchte. Das Problem ist, ‚zu schützen‘ braucht mehr Kraft als ‚zu töten‘. Aber wie kann ich stärker sein? Er ist kein Mensch, also hat der menschliche Weg eine Grenze. Aber er ist auch kein Dämon, also kann er den Dämonen-Weg nicht benutzen. Ezekiel, der wegen der Macht besorgt ist, die sich nicht wie beabsichtigt bewegt, diskutiert über seine Möglichkeiten. Es ist der Weg, der die Macht, die er von seinem Vater erhielt, völlig frei macht. Egal um welche Kraft es sich handelt, wenn man sie nicht versteht, kann man sie nicht steuern. Es ist ein vernünftiges Argument, und er hat es von einer vertrauenswürdigen Person gehört. Probieren wir es also aus. Die Macht des Dämons, die er freigesetzt hat, war mächtig. Der Ort, an dem die Nägel vorbeigegangen sind, hat sich geteilt. Die tiefe Dämonenenergie ist herausgekommen, als er näher kam. Es kam ihm bekannt vor, obwohl es das erste Mal war. In diesem Moment wurde Ezekiel klar, was er tat. Es dauerte nicht lange zu verstehen, was diese Kraft ist. Seitdem konnte Ezekiel die Macht von Barbatos direkt sehen."
+  },
+  "splashart": "heroes/Ezekiel/sa.png",
+  "costumes": "heroes/Ezekiel/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

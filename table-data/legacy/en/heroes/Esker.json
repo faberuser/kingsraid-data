@@ -1,0 +1,228 @@
+{
+  "id": "Esker",
+  "profile": {
+    "name": "Esker",
+    "title": "The Illusion Gambler Esker",
+    "class": "Wizard",
+    "position": "Back-500",
+    "attack_range": "6900",
+    "damage_type": "Magical",
+    "gender": "Male",
+    "age": "23",
+    "height": "184",
+    "race": "Human",
+    "constellation": "Hexipolia the Wanderer",
+    "birth": {
+      "month": 12,
+      "day": 26,
+      "monthName": "Month of Patience"
+    },
+    "like": "Mumbo Jumbo Runic Cube, Piano Concerto No. 7 of Hayedden, Silver Catfish Filet spiced with 4 drops of lemon juice.",
+    "dislike": "Fishing, earthworms, con artists, everything that's spicy.",
+    "story": "Born with the spirit of a wandering artist, Esker was a star magician of the Stardust, a wandering theater troupe, until he was framed by Prime Minister El Moriham of Orvelia and disappeared.\nJust when everyone started forgetting about him, he came out to the world as one of the most dangerous gamblers in the secret gambling world.\n\n'The Illusion Gambler.'\nThat was what his challengers called him, trembling in fear.\nThe gamblers that played with him all described him in a similar manner.\nAs soon as they faced Esker's unique laughter, his soft voice, and his empty eyes, they all felt nauseated by the suspicion that the man in the front was reading their every move.",
+    "thumbnail": "heroes/Esker/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "This Is My Game",
+      "cost": "2",
+      "cooldown": "14",
+      "description": "Attacks a random enemy 3 times, dealing ??? M.DMG and stunning it for 3 sec. If the 3 attacks land on the same enemy, deals additional ??? M.DMG that ignores DEF.",
+      "thumbnail": "heroes/Esker/skills/1.png"
+    },
+    "2": {
+      "name": "My Turn",
+      "cost": "2",
+      "cooldown": "18",
+      "description": "Rolls the dice and increases ATK and Crit DMG of 2 random allies by ??? and 7% respectively for 60 sec. This effect can be stacked up to max 10 times, and the number of targets increases by 1 per 1 pip on the rolled dice.",
+      "thumbnail": "heroes/Esker/skills/2.png"
+    },
+    "3": {
+      "name": "Shall I Try My Luck?",
+      "cost": "4",
+      "cooldown": "22",
+      "description": "Attacks all enemies and deals ??? M.DMG, permanently reducing Cooldown of this skill by 2 sec or increasing its DMG by 30%, each with a 50% chance. This effect can be stacked up to max 10 times.",
+      "thumbnail": "heroes/Esker/skills/3.png"
+    },
+    "4": {
+      "name": "This Is Not a Trick",
+      "cost": null,
+      "cooldown": null,
+      "description": "Every 10 sec, increases own ATK by ??? and DEF by ???. This effect can be stacked up to max 10 times.",
+      "thumbnail": "heroes/Esker/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DMG is increased by 10 %.",
+      "III": "DMG is increased by 15 %.",
+      "IV": "DMG is increased by 25 %."
+    },
+    "2": {
+      "II": "ATK boost is increased by 10 %.",
+      "III": "ATK boost is increased by 15 %.",
+      "IV": "ATK boost is increased by 25 %."
+    },
+    "3": {
+      "II": "DMG is increased by 10 %.",
+      "III": "DMG is increased by 15 %.",
+      "IV": "DMG is increased by 25 %."
+    },
+    "4": {
+      "II": "Increases ATK Boost and DEF Boost by 10%.",
+      "III": "Increases ATK Boost and DEF Boost by 15%.",
+      "IV": "Increases ATK Boost and DEF Boost by 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Increases DMG by 100% when there is only 1 enemy left.",
+          "thumbnail": "heroes/Esker/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Reduces ATK Spd of the enemy by 200 for 10 sec.",
+          "thumbnail": "heroes/Esker/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Increases Mana Cost by 1, but rolls 6 every time.",
+          "thumbnail": "heroes/Esker/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Reduces Mana Cost by 1.",
+          "thumbnail": "heroes/Esker/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "DMG increase effect will activate after the Cooldown Reduction effect activates at max stack first.",
+          "thumbnail": "heroes/Esker/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Changes the target to 4 enemies, but reduces Cooldown by 50% upon killing an enemy.",
+          "thumbnail": "heroes/Esker/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Increases the max number of stacks by 3.",
+          "thumbnail": "heroes/Esker/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Increases DMG against Non-Hero enemies by 3% per stack.",
+          "thumbnail": "heroes/Esker/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATK, DEF, HP +15% / ATK Spd +100",
+        "thumbnail": "heroes/Esker/perks/light.png"
+      },
+      "dark": {
+        "effect": "Every 10 sec, gain up to 6 stacks of Blessing of the Dice. Reduces Cooldown of active skills by 5% per 1 Blessing of the Dice gained.",
+        "thumbnail": "heroes/Esker/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Wanderer's Pleasure, Lu Etrona Dice",
+    "description": "Upon a Critical Skill Hit, increases M.DMG that target receives by 20% for 10 sec and recovers own Mana by 100.",
+    "value": {},
+    "thumbnail": "heroes/Esker/uw.png",
+    "story": "A pair dice once used by Hexipolia, the Wandering Illusion Clown.\nHe was a renowned mage and artist in ancient times who traveled all across the continent to give joy to people and help them forget their troubles.\nHis performance was a solace and hope to people living in confusing times, and they loved him to the extent that they made the Moon of Hexipolia after he passed away in honor of his noble spirit.\nHowever, the mentally demanding nature of Hexipolia's craft slowly gnawed into his soul, making him suffer from loneliness and depression.\nHe wanted to give up on his natural gift, but the shadow cast upon people was just too deep; he knew too well what his performances meant to his audience.\nIt was his destiny to amuse people.\n\nLu Etrona Dice is what he made to amuse himself during his painful journey of entertainment.\nHe condensed his Mana into the dice and gave it the power to form a dimensional illusion.\nWhen rolled, the dice opened up an imaginary world where Hexipolia could find some peace.\n\nThe dice was passed down to the descendants of his life-long pursuit for clowning, but it disappeared when the ancient civilization collapsed.\n\nAnd now, the dice is in the hands of a man called the Illusion Gambler.\nBeing used in a completely different way, against its maker's intentions...\n\nIt is said that the dice appeared in Esker's hands with blinding lights when he desperately wanted to escape this world.",
+    "descriptionByStar": {
+      "0": "Upon a Critical Skill Hit, increases M.DMG that target receives by 20% for 10 sec and recovers own Mana by 100.",
+      "1": "Upon a Critical Skill Hit, increases M.DMG that target receives by 24% for 10 sec and recovers own Mana by 120.",
+      "2": "Upon a Critical Skill Hit, increases M.DMG that target receives by 29% for 10 sec and recovers own Mana by 140.",
+      "3": "Upon a Critical Skill Hit, increases M.DMG that target receives by 35% for 10 sec and recovers own Mana by 170.",
+      "4": "Upon a Critical Skill Hit, increases M.DMG that target receives by 42% for 10 sec and recovers own Mana by 210.",
+      "5": "Upon a Critical Skill Hit, increases M.DMG that target receives by 50% for 10 sec and recovers own Mana by 250."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Mumbo Jumbo Runic Cube",
+      "description": "[This Is My Game] Increases DMG by 20% and the number of hits by 1.",
+      "value": {},
+      "thumbnail": "heroes/Esker/ut/1.png",
+      "story": "A toy cube that Esker used to play with Ophelia when she was feeling down.\nThe Cube lets out a gleaming light when the Runic letters are put together,\nand starts playing a beautiful melody when completely solved.\n\nOphelia would often feel depressed that she didn't know what the man of her destiny she met in her dreams looked like.\nIn such cases, Esker would, just as he did to calm his sister down, take this cube out and let her watch him solve the cube.",
+      "descriptionByStar": {
+        "0": "[This Is My Game] Increases DMG by 20% and the number of hits by 1.",
+        "1": "[This Is My Game] Increases DMG by 24% and the number of hits by 1.",
+        "2": "[This Is My Game] Increases DMG by 29% and the number of hits by 1.",
+        "3": "[This Is My Game] Increases DMG by 35% and the number of hits by 1.",
+        "4": "[This Is My Game] Increases DMG by 42% and the number of hits by 1.",
+        "5": "[This Is My Game] Increases DMG by 50% and the number of hits by 1."
+      }
+    },
+    "2": {
+      "name": "Indispensable Chess Piece",
+      "description": "[My Turn] The effect of My Turn becomes irremovable, and additionally grants 30 ATK Spd per stack to the ally with the highest ATK.",
+      "value": {},
+      "thumbnail": "heroes/Esker/ut/2.png",
+      "story": "A chess piece that belonged to Esker's performance partner in Stardust.\nWhen the magic show was over, the duo would play chess and talk about their performance earlier. \nThe day that the 'incident' happened and Esker decided to leave the troupe, no one but his partner knew what he had in mind.\nHanding this chess piece in Esker's hands, he told Esker not to forget Stardust and to come back when he could.",
+      "descriptionByStar": {
+        "0": "[My Turn] The effect of My Turn becomes irremovable, and additionally grants 30 ATK Spd per stack to the ally with the highest ATK.",
+        "1": "[My Turn] The effect of My Turn becomes irremovable, and additionally grants 36 ATK Spd per stack to the ally with the highest ATK.",
+        "2": "[My Turn] The effect of My Turn becomes irremovable, and additionally grants 43 ATK Spd per stack to the ally with the highest ATK.",
+        "3": "[My Turn] The effect of My Turn becomes irremovable, and additionally grants 52 ATK Spd per stack to the ally with the highest ATK.",
+        "4": "[My Turn] The effect of My Turn becomes irremovable, and additionally grants 63 ATK Spd per stack to the ally with the highest ATK.",
+        "5": "[My Turn] The effect of My Turn becomes irremovable, and additionally grants 75 ATK Spd per stack to the ally with the highest ATK."
+      }
+    },
+    "3": {
+      "name": "Old Fishing Rod",
+      "description": "[Shall I Try My Luck?] Reduces Mana Cost by 1 and increases M.DMG target receives by 10% for 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Esker/ut/3.png",
+      "story": "A fishing rod for kids that Esker's childhood friend gave him as a present.\nThere was an annoying boy living in a town that Stardust would visit during annual tours.\nThe boy, Lucias, would read the boring bible to Esker and frighten him with stag beetles.\nEsker hated him for always smiling like an idiot at first, but they soon became close friends.\n\nWhen Stardust came to visit Lucias's town on another tour, the two exchanged a token of friendship, and this fishing rod was what Lucias gave Esker.\nSince then, Esker had to go fishing with Lucias every time he would come to the town.",
+      "descriptionByStar": {
+        "0": "[Shall I Try My Luck?] Reduces Mana Cost by 1 and increases M.DMG target receives by 10% for 10 sec.",
+        "1": "[Shall I Try My Luck?] Reduces Mana Cost by 1 and increases M.DMG target receives by 12% for 10 sec.",
+        "2": "[Shall I Try My Luck?] Reduces Mana Cost by 1 and increases M.DMG target receives by 14% for 10 sec.",
+        "3": "[Shall I Try My Luck?] Reduces Mana Cost by 1 and increases M.DMG target receives by 17% for 10 sec.",
+        "4": "[Shall I Try My Luck?] Reduces Mana Cost by 1 and increases M.DMG target receives by 21% for 10 sec.",
+        "5": "[Shall I Try My Luck?] Reduces Mana Cost by 1 and increases M.DMG target receives by 25% for 10 sec."
+      }
+    },
+    "4": {
+      "name": "Shady Chip",
+      "description": "[This Is Not a Trick] Increases ATK and DEF boost by 50%. ATK Spd of self is increased by 20 per stack.",
+      "value": {},
+      "thumbnail": "heroes/Esker/ut/4.png",
+      "story": "A strange gambling chip used in black market gambling houses.\nThis is the most valuable chip of them all, and only the best adventurer in the secret gambling house could own it.\nIt looks like a regular golden gambling chip, but it holds life forces of countless souls due to the spell of Dark Wizards cast on it.",
+      "descriptionByStar": {
+        "0": "[This Is Not a Trick] Increases ATK and DEF boost by 50%. ATK Spd of self is increased by 20 per stack.",
+        "1": "[This Is Not a Trick] Increases ATK and DEF boost by 50%. ATK Spd of self is increased by 24 per stack.",
+        "2": "[This Is Not a Trick] Increases ATK and DEF boost by 50%. ATK Spd of self is increased by 29 per stack.",
+        "3": "[This Is Not a Trick] Increases ATK and DEF boost by 50%. ATK Spd of self is increased by 35 per stack.",
+        "4": "[This Is Not a Trick] Increases ATK and DEF boost by 50%. ATK Spd of self is increased by 42 per stack.",
+        "5": "[This Is Not a Trick] Increases ATK and DEF boost by 50%. ATK Spd of self is increased by 50 per stack."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Charges up upon using Skills 6 times.",
+    "description": "Summons the soul of Wanderer's Pleasure, Lu Etrona Dice, and rolls the dice. Depending on the number of the dice's dots, immediately reduces Cooldown of Esker's next Soul Weapon use by 10% and increases ATK of all allies by 12% for 60 sec. The ATK Boost effect can be stacked up to max 5 times.",
+    "cooldown": "18",
+    "uses": "7",
+    "thumbnail": "heroes/Esker/sw.png",
+    "advancement": {
+      "1": "Changes the max number of stacks to 7 times.",
+      "2": "Increases DEF Penetration of all allies by 50 per every stack."
+    },
+    "story": "A pair of dice that appeared one day with a brilliant light and sheltered itself inside Esker's grasp.\nEsker cast the dice onto the gambling table.\n\nThe moment the dice parted his hand, it would create a dimension of fantasy taking whatever shape its master wanted.\nThe dice held bewitching magic that enchanted Esker's opponent into believing what's not real is real.\nLies, created to confuse his opponents.\n\nBut this power came with a cost.\n\nTo create a world that was not supposed to exist, the pair of dice required an enormous amount of Esker's willpower.\nThe price of opening the grand illusion was to have horrible nightmares that consumed Esker every night.\n\nIt was a night that was so horrible that Esker could barely distinguish reality from his nightmares.\nJust when Esker was about to give up on everything because of the pain, he painfully reminisced Stardust.\nHis favorite place of all.\n\nThe dice escaped Esker's grasp and rolled away slowly as it opened a dimension never seen before.\nEsker heard someone's footsteps across the area he created.\n\n- Finally. It's the first time you made my dice do what they were supposed to do.\n\nA smiling face could be seen faintly.\n\n- You, who are born to be a wanderer, you may use this dice as you please. I will not intervene at any moment.\n- But know this: I will always watch you from this illusion so that you do not walk the lonely road by yourself.\n\nHexipolia the Wanderer, the ancient one, the creator of the dice… Revealed its true form to Esker."
+  },
+  "splashart": "heroes/Esker/sa.png",
+  "costumes": "heroes/Esker/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "en",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

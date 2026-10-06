@@ -1,0 +1,228 @@
+{
+  "id": "Fluss",
+  "profile": {
+    "name": "Fluss",
+    "title": "Fluss, Lame Virevoltante",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "2800",
+    "damage_type": "Physical",
+    "gender": "Homme",
+    "age": "23",
+    "height": "185",
+    "race": "Humain",
+    "constellation": "Mira la Ménestrelle",
+    "birth": {
+      "month": 6,
+      "day": 7,
+      "monthName": "Mois de l'Amour"
+    },
+    "like": "Vos yeux",
+    "dislike": "Ceux qui ne comprennent rien à la romance",
+    "story": "En tant que fils du commandant des Chevaliers Impériaux, il a reçu un entraînement rigoureux depuis sa tendre enfance afin de devenir un combattant hors pair. Personne ne conteste son titre d'épéiste le plus rapide de tout le palais impérial. Il a prouvé son talent à maintes reprises en tuant des chevaliers ennemis sur le champ de bataille. Il a rapidement progressé dans les rangs pour devenir vice-capitaine de la Garde impériale et tout le monde l'admire. Même s'il est conscient de son apparence magnifique, il a horreur de se faire aborder uniquement pour sa beauté. Il considère que la beauté intérieure est plus importante. Cependant, il fait parfois preuve de vanité.",
+    "thumbnail": "heroes/Fluss/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Lame-Tempête",
+      "cost": "2",
+      "cooldown": "6",
+      "description": "Attaque 3 fois la cible et les ennemis près d'elle, ce qui leur inflige un total de ??? points de DEG P Si la cible n'est pas un Héros, inflige un total de ??? points de DEG P supplémentaires pendant 5 sec.",
+      "thumbnail": "heroes/Fluss/skills/1.png"
+    },
+    "2": {
+      "name": "Flashstep",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Se déplace vers l'ennemi à l'ATQ la plus élevée pour dissiper l'effet positif, avant de lui infliger Silence pendant 2 sec tout en lui appliquant une marque pendant 10 sec. Ensuite, attaque prioritairement la cible marquée et inflige ??? DEG supplémentaires à chaque attaque.\nRéinitialise le temps de recharge de cette compétence et récupère 2000 PM si la cible marquée est vaincue.",
+      "thumbnail": "heroes/Fluss/skills/2.png"
+    },
+    "3": {
+      "name": "Pétales Sanglants",
+      "cost": "2",
+      "cooldown": "20",
+      "description": "Inflige un total de ??? points de DEG P à un ennemi en 16 coups et supprime la cible pendant l'incantation. Les DEG ignorent les effets de blocage de la cible.",
+      "thumbnail": "heroes/Fluss/skills/3.png"
+    },
+    "4": {
+      "name": "Coupe-Sort",
+      "cost": null,
+      "cooldown": "10",
+      "description": "Augmente sa DEF M de ???. Si le lanceur subit des DEG M, inflige ??? DEG P à la cible attaquante et réduit l'ATQ de 30% pendant 5 sec. Esquive toutes les attaques M pendant 3 sec. Cet effet ne peut être activé qu'une seule fois toutes les 10 sec.",
+      "thumbnail": "heroes/Fluss/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les dégâts de 10%.",
+      "III": "Augmente les dégâts de 15%.",
+      "IV": "Augmente les dégâts de 25%."
+    },
+    "2": {
+      "II": "Augmente les dégâts de 10%.",
+      "III": "Augmente les dégâts de 15%.",
+      "IV": "Augmente les dégâts de 25%."
+    },
+    "3": {
+      "II": "Augmente les dégâts de 10%.",
+      "III": "Augmente les dégâts de 15%.",
+      "IV": "Augmente les dégâts de 25%."
+    },
+    "4": {
+      "II": "Augmente les dégâts de 10%.",
+      "III": "Augmente les dégâts de 15%.",
+      "IV": "Augmente les dégâts de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Ignore la DEF lorsqu'il n'y a qu'un seul ennemi.",
+          "thumbnail": "heroes/Fluss/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Chaque coup critique réduit le temps de recharge de 6%.",
+          "thumbnail": "heroes/Fluss/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Augmente les DEG P reçus par l'ennemi marqué de 25%.",
+          "thumbnail": "heroes/Fluss/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Empêche la cible de récupérer des PM pendant 2 sec, et modifie la cible en mage s'il en existe un parmi les ennemis.",
+          "thumbnail": "heroes/Fluss/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Chaque coup critique augmente les DEG du dernier coup de 10%.",
+          "thumbnail": "heroes/Fluss/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Pendant le Temps de recharge, les DEG des attaques automatiques sont augmentés de 50%.",
+          "thumbnail": "heroes/Fluss/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Récupère 1000 PM lorsque le lanceur subit des DEG M, et augmente l'ATQ de 20% pendant 10 sec. Cet effet ne peut être activé qu'une seule fois toutes les 10 sec.",
+          "thumbnail": "heroes/Fluss/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Augmente la DEF M à hauteur de 5% de l'ATQ du lanceur.",
+          "thumbnail": "heroes/Fluss/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Esquive M +100",
+        "thumbnail": "heroes/Fluss/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente de 35% les DEG infligés par les attaques automatiques et inflige des DEG supplémentaires à hauteur de 100% de l'ATQ en infligeant des attaques automatiques aux mages.",
+        "thumbnail": "heroes/Fluss/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Veralta, les Épées jumelles de Fureur",
+    "description": "Augmente l'ATQ de 12% et la Vitesse d'ATQ de 120 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé.",
+    "value": {},
+    "thumbnail": "heroes/Fluss/uw.png",
+    "story": "Une paire d'armes enchantées offerte au grand-père de Fluss, un chevalier du Grand-Duché de Gray, et passée de père en fils. Ces armes augmentent peu à peu les capacités physiques de leur porteur et lui permettent de dépasser les limites humaines en gagnant une vitesse et des pouvoirs surhumains. Comme l'effet est graduel, le corps ne subit pas de stress soudain. Les pièces s‘appellent Sang et Rose, en l'honneur des effluves de sang et de pétales qui apparaissent chaque fois que Fluss manie ces épées jumelles. Nul autre guerrier n'a pu les utiliser à leur plein potentiel.",
+    "descriptionByStar": {
+      "0": "Augmente l'ATQ de 12% et la Vitesse d'ATQ de 120 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé.",
+      "1": "Augmente l'ATQ de 14% et la Vitesse d'ATQ de 140 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé.",
+      "2": "Augmente l'ATQ de 17% et la Vitesse d'ATQ de 170 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé.",
+      "3": "Augmente l'ATQ de 20% et la Vitesse d'ATQ de 200 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé.",
+      "4": "Augmente l'ATQ de 25% et la Vitesse d'ATQ de 250 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé.",
+      "5": "Augmente l'ATQ de 30% et la Vitesse d'ATQ de 300 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Ceinture de l'Œil du cyclone",
+      "description": "[Lame-tempête] Réduit le coût en PM de 1 et augmente les DEG de 4 %. Cet effet peut se cumuler jusqu'à 10 fois.",
+      "value": {},
+      "thumbnail": "heroes/Fluss/ut/1.png",
+      "story": "Cette ceinture fut offerte à Fluss par son père lorsqu'il fut nommé vice-grand maître des chevaliers.\nElle renferme le sort Œil du cyclone, qui réduit au silence son porteur et ceux qui l'entourent.\n- Si vous entendez le bruit de son épée, vous ne tarderez pas à voir les pétales voler sous vos yeux.",
+      "descriptionByStar": {
+        "0": "[Lame-tempête] Réduit le coût en PM de 1 et augmente les DEG de 4 %. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "1": "[Lame-tempête] Réduit le coût en PM de 1 et augmente les DEG de 4,8 %. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "2": "[Lame-tempête] Réduit le coût en PM de 1 et augmente les DEG de 5,8 %. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "3": "[Lame-tempête] Réduit le coût en PM de 1 et augmente les DEG de 7 %. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "4": "[Lame-tempête] Réduit le coût en PM de 1 et augmente les DEG de 8,4 %. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "5": "[Lame-tempête] Réduit le coût en PM de 1 et augmente les DEG de 10 %. Cet effet peut se cumuler jusqu'à 10 fois."
+      }
+    },
+    "2": {
+      "name": "Parfum tentant",
+      "description": "[Pas de l'éclair] Rend la marque inamovible et augmente l'ATQ de 20 % pendant 10 sec une fois l'ennemi marqué tué.",
+      "value": {},
+      "thumbnail": "heroes/Fluss/ut/2.png",
+      "story": "Parfum contenant les premières roses Vivienne de l’année. Les roses Vivienne sont aussi belles que mortelles.\nIl suffit de sentir leur arôme pour être victime d’hallucinations et rester bouche bée pendant que l’adversaire assène ses coups.",
+      "descriptionByStar": {
+        "0": "[Pas de l'éclair] Rend la marque inamovible et augmente l'ATQ de 20 % pendant 10 sec une fois l'ennemi marqué tué.",
+        "1": "[Pas de l'éclair] Rend la marque inamovible et augmente l'ATQ de 24 % pendant 10 sec une fois l'ennemi marqué tué.",
+        "2": "[Pas de l'éclair] Rend la marque inamovible et augmente l'ATQ de 29 % pendant 10 sec une fois l'ennemi marqué tué.",
+        "3": "[Pas de l'éclair] Rend la marque inamovible et augmente l'ATQ de 35 % pendant 10 sec une fois l'ennemi marqué tué.",
+        "4": "[Pas de l'éclair] Rend la marque inamovible et augmente l'ATQ de 42 % pendant 10 sec une fois l'ennemi marqué tué.",
+        "5": "[Pas de l'éclair] Rend la marque inamovible et augmente l'ATQ de 50 % pendant 10 sec une fois l'ennemi marqué tué."
+      }
+    },
+    "3": {
+      "name": "Rose d'immortalité",
+      "description": "[Pétales Sanglants] Les DEG sont augmentés de 20% et toutes les ATQ M sont esquivées pendant la durée de la compétence.",
+      "value": {},
+      "thumbnail": "heroes/Fluss/ut/3.png",
+      "story": "Une rose qui ne fane jamais, même lorsqu’elle est cueillie. C’est une fleur que Fluss adore, car elle lui rappelle les devoirs du Chevalier, qui est la base de la volonté de fer lui permettant d’être confiantau combat.",
+      "descriptionByStar": {
+        "0": "[Pétales Sanglants] Les DEG sont augmentés de 20% et toutes les ATQ M sont esquivées pendant la durée de la compétence.",
+        "1": "[Pétales Sanglants] Les DEG sont augmentés de 24% et toutes les ATQ M sont esquivées pendant la durée de la compétence.",
+        "2": "[Pétales Sanglants] Les DEG sont augmentés de 29% et toutes les ATQ M sont esquivées pendant la durée de la compétence.",
+        "3": "[Pétales Sanglants] Les DEG sont augmentés de 35% et toutes les ATQ M sont esquivées pendant la durée de la compétence.",
+        "4": "[Pétales Sanglants] Les DEG sont augmentés de 42% et toutes les ATQ M sont esquivées pendant la durée de la compétence.",
+        "5": "[Pétales Sanglants] Les DEG sont augmentés de 50% et toutes les ATQ M sont esquivées pendant la durée de la compétence."
+      }
+    },
+    "4": {
+      "name": "Lettre confidentielle scellée",
+      "description": "[Coupe-sort] Augmente la Vitesse d'ATQ du lanceur de 200 points pendant 4 sec. L'effet d'esquive de [Coupe-sort] dure 1 seconde de plus.",
+      "value": {},
+      "thumbnail": "heroes/Fluss/ut/4.png",
+      "story": "Une lettre confidentielle portant un sceau orné du loup de l'empire.\nFluss, qui a reçu cette lettre scellée de la main de l'impératrice, la garde précieusement dans la poche de son manteau jusqu'à sa remise à la princesse la plus éminente d'Orvel.",
+      "descriptionByStar": {
+        "0": "[Coupe-sort] Augmente la Vitesse d'ATQ du lanceur de 200 points pendant 4 sec. L'effet d'esquive de [Coupe-sort] dure 1 seconde de plus.",
+        "1": "[Coupe-sort] Augmente la Vitesse d'ATQ du lanceur de 240 points pendant 4 sec. L'effet d'esquive de [Coupe-sort] dure 1 seconde de plus.",
+        "2": "[Coupe-sort] Augmente la Vitesse d'ATQ du lanceur de 290 points pendant 4 sec. L'effet d'esquive de [Coupe-sort] dure 1 seconde de plus.",
+        "3": "[Coupe-sort] Augmente la Vitesse d'ATQ du lanceur de 350 points pendant 4 sec. L'effet d'esquive de [Coupe-sort] dure 1 seconde de plus.",
+        "4": "[Coupe-sort] Augmente la Vitesse d'ATQ du lanceur de 420 points pendant 4 sec. L'effet d'esquive de [Coupe-sort] dure 1 seconde de plus.",
+        "5": "[Coupe-sort] Augmente la Vitesse d'ATQ du lanceur de 500 points pendant 4 sec. L'effet d'esquive de [Coupe-sort] dure 1 seconde de plus."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Vous devez infliger des DEG à 70 reprises pour recharger l'âme et l'utiliser.",
+    "description": "Invoque l'âme de Veralta, les Épées jumelles de Fureur pendant 10 sec, ce qui augmente les DEG infligés par les attaques automatiques de 50% pendant l'invocation et renforce les compétences utilisées par le Héros.\n[Lame-Tempête] Attaque la cible et ses alentours à 3 reprises pour infliger un total de ??? DEG P supplémentaires et réduit la récupération de PV de la cible touchée de 30% pendant 5 sec.\n[Pas de l'Éclair] Augmente les DEG Crit du Héros de 100% pendant 10 sec.\n[Pétales Sanglants] Attaque un ennemi à 16 reprises pour lui infliger un total de ??? DEG P supplémentaires.\nL'effet de marque de la compétence [Pas de l'Éclair] ne s'applique pas sur les DEG infligés par cette compétence.",
+    "cooldown": "24",
+    "uses": "6",
+    "thumbnail": "heroes/Fluss/sw.png",
+    "advancement": {
+      "1": "Modifie la durée de l'invocation de l'Arme spirituelle à 15 sec.",
+      "2": "Pendant la durée de l'invocation, une attaque possède 100% de chance de réduire le temps de recharge de toutes les compétences du Héros de 2%."
+    },
+    "story": "Pendant longtemps, Veralta ne fut qu'un instrument prêtant sa force aux hommes. Il savait qu'il avait été fabriqué dans le but de renforcer la puissance de son utilisateur, alors il accorda ses pouvoirs à ceux qui le souhaitaient.\nCertains furent incapables d'employer le pouvoir ainsi obtenu, d'autres en furent énivrés au point de le déployer à tort et à travers. Le temps s'écoula, et il passa de main en main. Veralta se contenta de prêter sa puissance à tous ses propriétaires. Après tout, il n'était qu'un simple instrument.\nMais cette fois-ci, ce fut différent. Une sensation familière, une nostalgie ressentie il y a longtemps. Le jeune homme à la longue chevelure ne se contenta pas de la puissance qu'il lui accordait, et s'entraîna sans cesse afin d'atteindre un niveau plus élevé. Plus le jeune homme devenait puissant, plus il pouvait lui prêter de pouvoir.\nVeralta ressentit une satisfaction qu'il n'avait jamais connue jusqu'ici. La satisfaction se transforma en désir de lui accorder plus de force. Finalement, le but du jeune homme devint celui de Veralta. Et à cet instant, Veralta s'éveilla à sa nouvelle apparence et se montra devant son propriétaire."
+  },
+  "splashart": "heroes/Fluss/sa.png",
+  "costumes": "heroes/Fluss/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

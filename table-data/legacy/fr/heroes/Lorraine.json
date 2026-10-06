@@ -1,0 +1,288 @@
+{
+  "id": "Lorraine",
+  "profile": {
+    "name": "Lorraine",
+    "title": "Lorraine, Grande Savante d'Elidora",
+    "class": "Wizard",
+    "position": "Middle-200",
+    "attack_range": "1300",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "???",
+    "height": "168",
+    "race": "Elfe",
+    "constellation": "Graham le Grand Voleur",
+    "birth": {
+      "month": 5,
+      "day": 25,
+      "monthName": "Mois de l'Espoir"
+    },
+    "like": "La forêt tranquille, les belles chansons",
+    "dislike": "Tout ce qui fait du mal à la nature",
+    "story": "La Grande Sage Elidora est la plus sage de tous les druides. En tant qu'héroïne ayant combattu l'invasion démoniaque cent ans plus tôt, elle est souvent considérée comme la personne la plus sage de tout le Continent Orbis. Elle a formé et entraîné d'innombrables Elfes et possède une intelligence et des pouvoirs à la hauteur de son âge. On raconte que même le roi d'Elidora et ses enfants furent ses étudiants. Comme elle a récemment senti une étrange perturbation dans la Forêt Elidora, elle prépare l'arrivée du porteur de l'Épée Sacrée.",
+    "thumbnail": "heroes/Lorraine/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Forêt de Ronces",
+      "cost": "2",
+      "cooldown": "7",
+      "description": "Attaque un ennemi aléatoire et les ennemis proches 3 fois, inflige au total ??? DEG M et les étourdit pendant 3 sec.",
+      "thumbnail": "heroes/Lorraine/skills/1.png"
+    },
+    "2": {
+      "name": "Graine de Belladone",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Crée une graine de belladone autour de la cible pendant 10 sec. Toutes les 2 sec, elle inflige ??? DEG M aux ennemis proches, augmente les DEG M subis de 30% et réduit les soins reçus de 30% pendant 5 sec.",
+      "thumbnail": "heroes/Lorraine/skills/2.png"
+    },
+    "3": {
+      "name": "Fureur de la Forêt",
+      "cost": "3",
+      "cooldown": "18",
+      "description": "Attaque 6 fois les ennemis dans une vaste zone devant soi, inflige au total ??? DEG M et les renverse pendant 3 sec.",
+      "thumbnail": "heroes/Lorraine/skills/3.png"
+    },
+    "4": {
+      "name": "Empoisonnement",
+      "cost": null,
+      "cooldown": null,
+      "description": "Les attaques normales et de compétence empoisonnent la cible, infligeant au total ??? DEG M continus sur 20 sec et réduisant ses soins reçus de 5%. Le poison se cumule jusqu'à 5 fois.",
+      "thumbnail": "heroes/Lorraine/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Réduit 250 PM de la cible touchée. Réduit 500 PM si la cible est un boss.",
+          "thumbnail": "heroes/Lorraine/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Récupère 250 PM lors d'un coup critique réussi.",
+          "thumbnail": "heroes/Lorraine/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Augmente les DEG infligés de 40%.",
+          "thumbnail": "heroes/Lorraine/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Augmente la durée des Contrôles des ennemis touchés de 30% pendant 5 sec.",
+          "thumbnail": "heroes/Lorraine/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente le coût en PM de 1 et les DEG infligés de 100%.",
+          "thumbnail": "heroes/Lorraine/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente le coût en PM de 1 et dissipe l'effet positif des ennemis à portée.",
+          "thumbnail": "heroes/Lorraine/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Réduit l'ATQ de la cible de 5% par charge d'Empoisonnement cumulée.",
+          "thumbnail": "heroes/Lorraine/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG infligés par Empoisonnement de 3 fois si la cible est un boss.",
+          "thumbnail": "heroes/Lorraine/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Crit +100",
+        "thumbnail": "heroes/Lorraine/perks/light.png"
+      },
+      "dark": {
+        "effect": "Au début de chaque bataille, réduit immédiatement le temps de recharge de toutes ses compétences de 30%, et augmente les DEG infligés aux ennemis non-Héros de 20% pendant 90 sec. L'effet d'augmentation de DEG peut se cumuler jusqu'à 5 fois et ne peut être dissipé.",
+        "thumbnail": "heroes/Lorraine/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Roburu, la Volonté de l'Arbre-Monde",
+    "description": "Inflige aux ennemis à l'état d'Empoisonnement des DEG M à hauteur de {0}% de l'ATQ, toutes les 7 sec. Réduit également leur DEF M de {1}% et augmente les DEG M reçus par la cible de {2}% pendant 10 sec.",
+    "value": {
+      "0": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "2": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
+    "thumbnail": "heroes/Lorraine/uw.png",
+    "story": "La légende raconte qu'une fois tous les cent ans, l'Arbre-Monde accorde l'une de ses branches à un élu. La branche octroie la vie éternelle à son propriétaire, ainsi que d'immenses pouvoirs et connaissances. En fusionnant la branche avec la Pierre de la Forêt, un trésor elfique, Lorraine créa ce bâton. Elle peut désormais faire appel aux forces de la nature et rester connectée à l'Arbre-Monde partout où elle va.",
+    "descriptionByStar": {
+      "0": "Inflige aux ennemis à l'état d'Empoisonnement des DEG M à hauteur de 100% de l'ATQ, toutes les 7 sec. Réduit également leur DEF M de 10% et augmente les DEG M reçus par la cible de 10% pendant 10 sec.",
+      "1": "Toutes les 7 sec, inflige des DEG M équivalents à 48% de l'ATQ aux ennemis affectés par l'Empoisonnement, et réduit la DEF M de 12%. Chaque charge d'Empoisonnement augmente ces DEG de 20%.",
+      "2": "Toutes les 7 sec, inflige des DEG M équivalents à 57% de l'ATQ aux ennemis affectés par l'Empoisonnement, et réduit la DEF M de 14%. Chaque charge d'Empoisonnement augmente ces DEG de 20%.",
+      "3": "Toutes les 7 sec, inflige des DEG M équivalents à 69% de l'ATQ aux ennemis affectés par l'Empoisonnement, et réduit la DEF M de 17%. Chaque charge d'Empoisonnement augmente ces DEG de 20%.",
+      "4": "Toutes les 7 sec, inflige des DEG M équivalents à 83% de l'ATQ aux ennemis affectés par l'Empoisonnement, et réduit la DEF M de 20%. Chaque charge d'Empoisonnement augmente ces DEG de 20%.",
+      "5": "Toutes les 7 sec, inflige des DEG M équivalents à 100% de l'ATQ aux ennemis affectés par l'Empoisonnement, et réduit la DEF M de 25%. Chaque charge d'Empoisonnement augmente ces DEG de 20%."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Livre de la vie",
+      "description": "[Forêt de Ronces] Augmente les DEG de 50% et réduit le temps de recharge de {0} sec.",
+      "value": {
+        "0": {
+          "0": "1.2",
+          "1": "1.4",
+          "2": "1.7",
+          "3": "2.1",
+          "4": "2.5",
+          "5": "3"
+        }
+      },
+      "thumbnail": "heroes/Lorraine/ut/1.png",
+      "story": "Ce livre magique renferme toute la connaissance sur la vie de la forêt.\nIl est transmis parmi les gardiens de l'Arbre-Monde depuis des temps immémoriaux. Après avoir été longtemps confié aux mains des sages d'Elidora, c'est désormais Lorraine qui en est la gardienne.",
+      "descriptionByStar": {
+        "0": "[Forêt de Ronces] Augmente les DEG de 50% et réduit le temps de recharge de 1.2 sec.",
+        "1": "[Forêt de ronces] Réduit le coût en PM de 1 point et le temps de recharge de 1 sec.",
+        "2": "[Forêt de ronces] Réduit le coût en PM de 1 point et le temps de recharge de 1,2 sec.",
+        "3": "[Forêt de ronces] Réduit le coût en PM de 1 point et le temps de recharge de 1,4 sec.",
+        "4": "[Forêt de ronces] Réduit le coût en PM de 1 point et le temps de recharge de 1,7 sec.",
+        "5": "[Forêt de ronces] Réduit le coût en PM de 1 point et le temps de recharge de 2 sec."
+      }
+    },
+    "2": {
+      "name": "Belladone mortelle",
+      "description": "[Graine de Belladone] Réduit le coût en PM de 1 et réduit {0} PM de l'ennemi touché. Récupère {1} PM du lanceur.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        },
+        "1": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Lorraine/ut/2.png",
+      "story": "Belladone, aussi belle que toxique.\nSeul le Grand Sage peut manipuler cette dangereuse plante. Mélangée à des vignes, la belladone empoisonne les ennemis et anéantit leurs défenses contre les attaques magiques.",
+      "descriptionByStar": {
+        "0": "[Graine de Belladone] Réduit le coût en PM de 1 et réduit 200 PM de l'ennemi touché. Récupère 100 PM du lanceur.",
+        "1": "[Enchevêtrement] Réduit le coût en PM de 1 et draine 240 PM à l'ennemi affecté.",
+        "2": "[Enchevêtrement] Réduit le coût en PM de 1 et draine 290 PM à l'ennemi affecté.",
+        "3": "[Enchevêtrement] Réduit le coût en PM de 1 et draine 350 PM à l'ennemi affecté.",
+        "4": "[Enchevêtrement] Réduit le coût en PM de 1 et draine 420 PM à l'ennemi affecté.",
+        "5": "[Enchevêtrement] Réduit le coût en PM de 1 et draine 500 PM à l'ennemi affecté."
+      }
+    },
+    "3": {
+      "name": "Racine de l'Arbre-Monde",
+      "description": "[Fureur de la Forêt] Les DEG sont augmentés de 20%. Le temps de recharge est réduit de 4% lors d'un coup critique asséné sur un ennemi portant plus de 5 charges d'Empoisonnement.",
+      "value": {},
+      "thumbnail": "heroes/Lorraine/ut/3.png",
+      "story": "La preuve de l’unité entre les Druides et l’Arbre-Monde. Les grands sages d’Elidora ont toujours maintenu un lien puissant avec l’Arbre-Monde. Ses racines sont la preuve de ce lien puissant avec les druides. Elles attaquent les ennemis avec des DEG surnaturels à chaque fois que les druides font appel à la Fureur de la Forêt pour prouver la furie et la colère de la nature.",
+      "descriptionByStar": {
+        "0": "[Fureur de la Forêt] Les DEG sont augmentés de 20%. Le temps de recharge est réduit de 4% lors d'un coup critique asséné sur un ennemi portant plus de 5 charges d'Empoisonnement.",
+        "1": "[Fureur de la Forêt] Les DEG sont augmentés de 24%. Le temps de recharge est réduit de 4% lors d'un coup critique asséné sur un ennemi portant plus de 5 charges d'Empoisonnement.",
+        "2": "[Fureur de la Forêt] Les DEG sont augmentés de 29%. Le temps de recharge est réduit de 4% lors d'un coup critique asséné sur un ennemi portant plus de 5 charges d'Empoisonnement.",
+        "3": "[Fureur de la Forêt] Les DEG sont augmentés de 35%. Le temps de recharge est réduit de 4% lors d'un coup critique asséné sur un ennemi portant plus de 5 charges d'Empoisonnement.",
+        "4": "[Fureur de la Forêt] Les DEG sont augmentés de 42%. Le temps de recharge est réduit de 4% lors d'un coup critique asséné sur un ennemi portant plus de 5 charges d'Empoisonnement.",
+        "5": "[Fureur de la Forêt] Les DEG sont augmentés de 50%. Le temps de recharge est réduit de 4% lors d'un coup critique asséné sur un ennemi portant plus de 5 charges d'Empoisonnement."
+      }
+    },
+    "4": {
+      "name": "Terrarium de circulation",
+      "description": "[Poison] Le poison devient indissipable et augmente les DEG M subis par la cible de {0}% pendant sa durée.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Lorraine/ut/4.png",
+      "story": "Un terrarium crée à partir d'une branche cassée de l'Arbre Monde.\nLes branches cassées de l'Arbre Monde sont censées porter malheur. C'est pourquoi, en temps normal, elles sont purifiées puis jetées.\nCependant, Lorraine a eu une révélation et a décidé d'en faire un petit terrarium.",
+      "descriptionByStar": {
+        "0": "[Poison] Le poison devient indissipable et augmente les DEG M subis par la cible de 10% pendant sa durée.",
+        "1": "[Lamefeuille] Augmente les chances d'activation de 20 %. Les cibles subissent 12 % de DEG M supplémentaires pendant 10 sec.",
+        "2": "[Lamefeuille] Augmente les chances d'activation de 20 %. Les cibles subissent 14 % de DEG M supplémentaires pendant 10 sec.",
+        "3": "[Lamefeuille] Augmente les chances d'activation de 20 %. Les cibles subissent 17 % de DEG M supplémentaires pendant 10 sec.",
+        "4": "[Lamefeuille] Augmente les chances d'activation de 20 %. Les cibles subissent 21 % de DEG M supplémentaires pendant 10 sec.",
+        "5": "[Lamefeuille] Augmente les chances d'activation de 20 %. Les cibles subissent 25 % de DEG M supplémentaires pendant 10 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 17 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de Roburu, la Volonté de l'Arbre-Monde pendant 10 sec, ce qui inflige ??? DEG M à un ennemi aléatoire toutes les 2 sec. Augmente les DEG M reçus par la cible de 30% pendant 10 sec et l'entrave pendant 2 sec. Récupère 500 PM du Héros toutes les 2 sec et réduit le temps de recharge de toutes ses compétences de 1 sec.",
+    "cooldown": "21",
+    "uses": "7",
+    "thumbnail": "heroes/Lorraine/sw.png",
+    "advancement": {
+      "1": "Augmente son taux d'ATQ de 50% pendant la durée de l'invocation de l'âme.",
+      "2": "Pendant la durée de l'invocation de l'âme, augmente la durée des Contrôles sur tous les ennemis de 30% et réduit leurs DEF M de 25%."
+    },
+    "story": "Roburu, la branche de l'Arbre-Monde, possédait une puissante vigueur héritée de son origine.\nCette force vitale infinie amplifiait la magie de Lorraine, et accordait la caractéristique du 'bâton croissant' à Roburu lui-même. Passant de longs moments en compagnie de Lorraine, la branche de l'Arbre-Monde observait en silence cette dernière. Ses angoisses en tant que druidesse, en tant que professeur de la famille royale, en tant que compagnon de l'ancien Héros et conseillère du Héros actuel.\nAvec tous les soucis qui accompagnaient les étapes de ses choix, ainsi que les conséquences qui en découlaient. Après de longs moments passés, vint enfin l'heure du choix, et la branche de l'Arbre-Monde admit que Lorraine était sa propriétaire idéale. Ainsi, il venait de choisir de croître pas seulement en tant que nouvel Arbre-Monde, mais aussi en tant que bâton qui accompagnerait Lorraine.\nRoburu se mit à exercer la puissance innée en tant qu'Arbre-Monde, afin de protéger la forêt et de devenir une arme digne de Lorraine."
+  },
+  "splashart": "heroes/Lorraine/sa.png",
+  "costumes": "heroes/Lorraine/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

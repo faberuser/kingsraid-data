@@ -1,0 +1,260 @@
+{
+  "id": "Maria",
+  "profile": {
+    "name": "Maria",
+    "title": "Maria, Sorcière déchue",
+    "class": "Wizard",
+    "position": "Middle-200",
+    "attack_range": "1100",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "125 ans (Physiquement fixé à 25 ans)",
+    "height": "168",
+    "race": "Humain",
+    "constellation": "Notmun l'Accordeur",
+    "birth": {
+      "month": 7,
+      "day": 19,
+      "monthName": "Mois de l'Harmonie"
+    },
+    "like": "Corrompre les croyants de Lua",
+    "dislike": "Lua et son Église",
+    "story": "Bien qu'elle ait été une Sainte Guerrière de Lua, elle finit par sombrer dans la corruption. Désormais, cette sorcière cynique, qui commande aux corbeaux, se terre dans les ténèbres et maudit son ancienne déesse. À une époque, elle était amie avec Kyle et l'héroïne de son peuple. Cependant, lorsque Kyle disparut, elle fit de même. Elle finit par revenir, mais elle était devenue une sorcière déchue, menaçant l'humanité à l'avant-garde de l'Armée Démoniaque. Ces derniers temps, elle semble manigancer quelque chose pour son propre compte et pas celui des démons.",
+    "thumbnail": "heroes/Maria/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Tempête du Corbeau",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Inflige 446*(0.7+(0.3*Skill Level*Awakening Coefficient))+186.1% ATK DEG M 3 fois aux ennemis devant le lanceur, les repousse et réduit leur vitesse d'attaque de 15% et leur DEF M de 10% pendant 4 sec. Chaque coup inflige 446*(0.7+(0.3*Skill Level*Awakening Coefficient))+186.1% ATK DEG M supplémentaires aux ennemis non héros. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Maria/skills/1.png"
+    },
+    "2": {
+      "name": "Griffe de Restriction",
+      "cost": "2",
+      "cooldown": "13",
+      "description": "Inflige 608*(0.7+(0.3*Skill Level*Awakening Coefficient))+253.4% ATK DEG M à 2 ennemis et les entrave pendant 2 sec. Les ennemis touchés subissent des DEG M continus égaux à 18% de l'ATQ toutes les 0.5 sec pendant 6 sec et 20% de DEG M supplémentaires. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Maria/skills/2.png"
+    },
+    "3": {
+      "name": "Zone Ténébreuse",
+      "cost": "4",
+      "cooldown": "25",
+      "description": "Attire les ennemis à portée vers le centre et inflige 338*(0.7+(0.3*Skill Level*Awakening Coefficient))+140.8% ATK DEG M 5 fois. Le dernier coup les étourdit pendant 1 sec et inflige 338*(0.7+(0.3*Skill Level*Awakening Coefficient))+140.8% ATK DEG M supplémentaires aux ennemis non héros. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Maria/skills/3.png"
+    },
+    "4": {
+      "name": "Vent Noir",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente le Crit de [64ff64]150[-]. À chaque fois que le lanceur inflige des DEG, confère à la cible [fa96fa][Malédiction de Lea][-] pendant [64ffff]10[-] sec. Réduit le Crit de [ff6464]100[-] et l'ATQ de [ff6464]10[-]% de la cible touchée par [fa96fa][Malédiction de Lea][-] pendant la durée de l'effet.",
+      "thumbnail": "heroes/Maria/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "4": {
+      "II": "Augmente l'augmentation de Crit de [64ff64]50[-].",
+      "III": "Augmente l'augmentation de Crit de [64ff64]75[-].",
+      "IV": "Augmente l'augmentation de Crit de [64ff64]125[-]."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Augmente le coût en mana de 1000, mais augmente les dégâts de 100 %.",
+          "thumbnail": "heroes/Maria/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Contraint la cible pendant 1 seconde.",
+          "thumbnail": "heroes/Maria/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Le coût en mana augmente de 2000, mais la compétence cible désormais tous les ennemis.",
+          "thumbnail": "heroes/Maria/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "La durée de l'immobilisation augmente de 2 s.",
+          "thumbnail": "heroes/Maria/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente les DEG M subis par la cible de 15% pendant 10 sec.",
+          "thumbnail": "heroes/Maria/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente le coût en Mana de 1000 et augmente les DEG de 100 %.",
+          "thumbnail": "heroes/Maria/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Pour chaque ennemi affecté par [Malédiction de Léa], augmente sa propre ATQ de 10%. Cumulable jusqu'à 5 fois et indissipable.",
+          "thumbnail": "heroes/Maria/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Réduit la résistance aux critiques magiques de la cible de 20% pendant 10 sec.",
+          "thumbnail": "heroes/Maria/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Crit +100",
+        "thumbnail": "heroes/Maria/perks/light.png"
+      },
+      "dark": {
+        "effect": "Lors de coup critique réussi, réduit la Résistance aux Contrôles de la cible de 200 pendant 10 sec, et la recharge de toutes les compétences, sauf celle en cours d'utilisation, est réduite de 2%.",
+        "thumbnail": "heroes/Maria/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Cocytus, le Messager de Lea",
+    "description": "Un coup critique réduit le taux de récupération de PV de la cible de 35% pendant 10 sec et augmente ses propres DEG Crit de {0}%. L’augmentation de DEG Crit est cumulable jusqu’à 20 fois.",
+    "thumbnail": "heroes/Maria/uw.png",
+    "story": "Un corbeau mystérieux voyageant entre les dimensions. Son intelligence et sa sagacité ne sont pas celles d'un oiseau ordinaire. En réalité, c'est un monstre plein d'énergie ténébreuse, comme les démons. On dit d'ailleurs que cette bête est aussi puissante qu'un démon de haut rang. Certains disent qu'il survole parfois le champ de bataille en parlant des langues humaines. L'identité de cette créature reste nimbée de mystère.",
+    "value": {
+      "0": {
+        "0": "3",
+        "1": "3.6",
+        "2": "4.2",
+        "3": "4.8",
+        "4": "5.4",
+        "5": "6"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Un coup critique réduit le taux de récupération de PV de la cible de 35% pendant 10 sec et augmente ses propres DEG Crit de 3%. L’augmentation de DEG Crit est cumulable jusqu’à 20 fois.",
+      "1": "Un coup critique réduit le taux de récupération de PV de la cible de 35% pendant 10 sec et augmente ses propres DEG Crit de 3.6%. L’augmentation de DEG Crit est cumulable jusqu’à 20 fois.",
+      "2": "Un coup critique réduit le taux de récupération de PV de la cible de 35% pendant 10 sec et augmente ses propres DEG Crit de 4.2%. L’augmentation de DEG Crit est cumulable jusqu’à 20 fois.",
+      "3": "Un coup critique réduit le taux de récupération de PV de la cible de 35% pendant 10 sec et augmente ses propres DEG Crit de 4.8%. L’augmentation de DEG Crit est cumulable jusqu’à 20 fois.",
+      "4": "Un coup critique réduit le taux de récupération de PV de la cible de 35% pendant 10 sec et augmente ses propres DEG Crit de 5.4%. L’augmentation de DEG Crit est cumulable jusqu’à 20 fois.",
+      "5": "Un coup critique réduit le taux de récupération de PV de la cible de 35% pendant 10 sec et augmente ses propres DEG Crit de 6%. L’augmentation de DEG Crit est cumulable jusqu’à 20 fois."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Danse tournoyante",
+      "description": "[Tempête du corbeau] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit les PM de la cible de {0}.",
+      "thumbnail": "heroes/Maria/ut/1.png",
+      "story": "Un miroir magique capable d'invoquer Aerial, un élémentaire de tempête.\nFabriqué en obsidienne du Pandémonium, il renferme Aerial, un élémentaire de tempête endormi. À chaque fois que Tempête du corbeau est déclenchée, Aerial sort de son sommeil et décuple son effet grâce à sa danse ravageuse.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Tempête du corbeau] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit les PM de la cible de 100.",
+        "1": "[Tempête du corbeau] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit les PM de la cible de 120.",
+        "2": "[Tempête du corbeau] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit les PM de la cible de 140.",
+        "3": "[Tempête du corbeau] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit les PM de la cible de 170.",
+        "4": "[Tempête du corbeau] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit les PM de la cible de 210.",
+        "5": "[Tempête du corbeau] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit les PM de la cible de 250."
+      }
+    },
+    "2": {
+      "name": "Sabaton d’esprit",
+      "description": "[Griffe de Restriction] Augmente les DEG de 50 % et augmente la Resist M Faible de la cible de {0} % pendant 10 sec.",
+      "thumbnail": "heroes/Maria/ut/2.png",
+      "story": "Armure de griffes offerte par Maria au messager de Lea. \nCette armure fabriquée en or raffiné renferme une malédiction d’entrave qui n’offre aucun répit à celui qui en est victime. Les ennemis touchés par ce sabaton de messager seront sans défense face aux attaques magiques et subiront de lourds dégâts.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Griffe de Restriction] Augmente les DEG de 50 % et augmente la Resist M Faible de la cible de 10 % pendant 10 sec.",
+        "1": "[Griffe de Restriction] Augmente les DEG de 50 % et augmente la Resist M Faible de la cible de 12 % pendant 10 sec.",
+        "2": "[Griffe de Restriction] Augmente les DEG de 50 % et augmente la Resist M Faible de la cible de 14 % pendant 10 sec.",
+        "3": "[Griffe de Restriction] Augmente les DEG de 50 % et augmente la Resist M Faible de la cible de 17 % pendant 10 sec.",
+        "4": "[Griffe de Restriction] Augmente les DEG de 50 % et augmente la Resist M Faible de la cible de 21 % pendant 10 sec.",
+        "5": "[Griffe de Restriction] Augmente les DEG de 50 % et augmente la Resist M Faible de la cible de 25 % pendant 10 sec."
+      }
+    },
+    "3": {
+      "name": "Pendentif de l'ombre",
+      "description": "[Zone Ténébreuse] Les DEG sont augmentés de {0}% et la dernière attaque réduit la DEF de la cible de 30% pendant 7 sec.",
+      "thumbnail": "heroes/Maria/ut/3.png",
+      "story": "Cendres d’un messager gris annonçant la fin de tout. Ce sont les cendres d’un corbeau qui est venu à l’Église de Lua juste avant l’effondrement du Grand-Duché de Gray il y a une centaine d’années de cela. Tout le monde ignora ce mauvais présage et seule la prêtresse Maria s’occupa de l’oiseau jusqu’à ses derniers jours. Même après sa mort, il a aidé Maria à développer ses connaissances des ténèbres en lui infusant de l’énergie sombre.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Zone Ténébreuse] Les DEG sont augmentés de 20% et la dernière attaque réduit la DEF de la cible de 30% pendant 7 sec.",
+        "1": "[Zone Ténébreuse] Les DEG sont augmentés de 24% et la dernière attaque réduit la DEF de la cible de 30% pendant 7 sec.",
+        "2": "[Zone Ténébreuse] Les DEG sont augmentés de 29% et la dernière attaque réduit la DEF de la cible de 30% pendant 7 sec.",
+        "3": "[Zone Ténébreuse] Les DEG sont augmentés de 35% et la dernière attaque réduit la DEF de la cible de 30% pendant 7 sec.",
+        "4": "[Zone Ténébreuse] Les DEG sont augmentés de 42% et la dernière attaque réduit la DEF de la cible de 30% pendant 7 sec.",
+        "5": "[Zone Ténébreuse] Les DEG sont augmentés de 50% et la dernière attaque réduit la DEF de la cible de 30% pendant 7 sec."
+      }
+    },
+    "4": {
+      "name": "Lettre des abysses",
+      "description": "[Vent noir] Attaque les ennemis touchés par Malédiction de Lea toutes les 10 sec, ce qui leur inflige des DEG M à hauteur de 200% de l'ATQ. Augmente l'ATQ du lanceur de {0}% pendant 20 sec par ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois.",
+      "thumbnail": "heroes/Maria/ut/4.png",
+      "story": "Une lettre d'avis provenant du messager de Lea.\nCette lettre rédigée par l'Essence de l'ombre contient un avertissement ainsi que les conditions du contrat passé entre Maria et les ténèbres.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Vent noir] Attaque les ennemis touchés par Vent noir toutes les 10 sec, ce qui leur inflige des DEG M à hauteur de 200 % de l'ATQ. Augmente l'ATQ du lanceur de 2 % pendant 20 sec par ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "1": "[Vent noir] Attaque les ennemis touchés par Malédiction de Lea toutes les 10 sec, ce qui leur inflige des DEG M à hauteur de 200% de l'ATQ. Augmente l'ATQ du lanceur de 2,4% pendant 20 sec par ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "2": "[Vent noir] Attaque les ennemis touchés par Malédiction de Lea toutes les 10 sec, ce qui leur inflige des DEG M à hauteur de 200% de l'ATQ. Augmente l'ATQ du lanceur de 2,9% pendant 20 sec par ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "3": "[Vent noir] Attaque les ennemis touchés par Malédiction de Lea toutes les 10 sec, ce qui leur inflige des DEG M à hauteur de 200% de l'ATQ. Augmente l'ATQ du lanceur de 3,5% pendant 20 sec par ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "4": "[Vent noir] Attaque les ennemis touchés par Malédiction de Lea toutes les 10 sec, ce qui leur inflige des DEG M à hauteur de 200% de l'ATQ. Augmente l'ATQ du lanceur de 4,2% pendant 20 sec par ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "5": "[Vent noir] Attaque les ennemis touchés par Malédiction de Lea toutes les 10 sec, ce qui leur inflige des DEG M à hauteur de 200% de l'ATQ. Augmente l'ATQ du lanceur de 5% pendant 20 sec par ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois."
+      }
+    }
+  },
+  "splashart": "heroes/Maria/sa.png",
+  "costumes": "heroes/Maria/cos",
+  "_localization": {
+    "locale": "fr",
+    "version": "cbt-phase-1",
+    "englishFallbackFields": []
+  }
+}

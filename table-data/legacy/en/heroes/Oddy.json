@@ -1,0 +1,228 @@
+{
+  "id": "Oddy",
+  "profile": {
+    "name": "Oddy",
+    "title": "Clocksmith of Eternal Life Oddy",
+    "class": "Mechanic",
+    "position": "Middle-200",
+    "attack_range": "4200",
+    "damage_type": "Magical",
+    "gender": "Male",
+    "age": "???",
+    "height": "125",
+    "race": "Redpur (Formerly human)",
+    "constellation": "Asiphia the Empress",
+    "birth": {
+      "month": 10,
+      "day": 4,
+      "monthName": "Month of Friendship"
+    },
+    "like": "Clocks",
+    "dislike": "Poachers",
+    "story": "He was a mechanic of the royal palace of Orvelia in the distant past. However, he was cursed by the mythical creature Redpur and turned into a Redpur himself. Ever since the transformation, he has been living for so long that he forgot his own age. When he was Human, he invented the first portable watch, but no one in Orvelia saw its true value. To give his invention the recognition it deserved, he set out to the empire. On his way, he was cursed by a group of Redpurs who mistook him for a poacher. The curse also affected his watch, giving it a magical power to control the time flow within a living body. Oddy's own time stopped as well.",
+    "thumbnail": "heroes/Oddy/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Time Fracture",
+      "cost": "2",
+      "cooldown": "7",
+      "description": "Deals ??? M.DMG to enemies in a straight line, and inflicts Petrify for 3 sec.",
+      "thumbnail": "heroes/Oddy/skills/1.png"
+    },
+    "2": {
+      "name": "Time Fragments",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Attacks random enemies 6 times, dealing a total of ??? M.DMG. With 50% chance, 'Time Fragments' cooldown resets and consumes no mana for the next single activation.",
+      "thumbnail": "heroes/Oddy/skills/2.png"
+    },
+    "3": {
+      "name": "Time Distortion",
+      "cost": "4",
+      "cooldown": "35",
+      "description": "Deals ??? M.DMG to all enemies and increases all allies' ATK Spd by 250 for 15 sec. All allies' skill cooldown is reduced by 50%. 'Time Distortion' is not affected by skill cooldown reduction.",
+      "thumbnail": "heroes/Oddy/skills/3.png"
+    },
+    "4": {
+      "name": "Clock Magic",
+      "cost": null,
+      "cooldown": null,
+      "description": "Upon using the skill, next 2 attacks deal ??? additional M.DMG with a 30% chance to petrify the target for 3 sec. This effect activates every 1 sec.",
+      "thumbnail": "heroes/Oddy/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DMG is increased by 10 %.",
+      "III": "DMG is increased by 15 %.",
+      "IV": "Crit Chance is increased by 250."
+    },
+    "2": {
+      "II": "DMG is increased by 10 %.",
+      "III": "DMG is increased by 15 %.",
+      "IV": "Crit Chance is increased by 250."
+    },
+    "3": {
+      "II": "DMG is increased by 10 %.",
+      "III": "DMG is increased by 15 %.",
+      "IV": "Crit Chance is increased by 250."
+    },
+    "4": {
+      "II": "DMG is increased by 10 %.",
+      "III": "DMG is increased by 15 %.",
+      "IV": "Crit Chance is increased by 250."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "DMG is increased by 40%.",
+          "thumbnail": "heroes/Oddy/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Cooldown is reduced by 1.5 sec.",
+          "thumbnail": "heroes/Oddy/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Target changes to 2 random enemies.",
+          "thumbnail": "heroes/Oddy/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "While in cooldown, auto-attacks will reduce the cooldown of 'Time Fragments' by 1 sec.",
+          "thumbnail": "heroes/Oddy/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Increases Mana Cost by 2 and fully recovers Mana for all allies.",
+          "thumbnail": "heroes/Oddy/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "When there are 5 or more enemies, increases DMG by 100%. Hit Enemies take extra 50% DMG for 10 sec.",
+          "thumbnail": "heroes/Oddy/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Changes the instances of gaining extra DMG from using the skill to 3 times.",
+          "thumbnail": "heroes/Oddy/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Changes the chance to Petrify to 40%.",
+          "thumbnail": "heroes/Oddy/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATK, DEF, HP +15% / ATK Spd +100",
+        "thumbnail": "heroes/Oddy/perks/light.png"
+      },
+      "dark": {
+        "effect": "Every 10 sec, any skills on cooldown for 4 random allies have their cooldowns reduced by 1 sec.",
+        "thumbnail": "heroes/Oddy/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Moonshade Countdown, Tempodiana",
+    "description": "Upon using Time Distortion, All allies' skill cooldown is reduced by extra 2 sec, and ATK is increased by 14% for 10 sec.",
+    "value": {},
+    "thumbnail": "heroes/Oddy/uw.png",
+    "story": "After Oddy's watch was zapped with the Redpur curse and gained the power to control time over a living being, he used the infinite time he gained to research its possible applications. When he finally created a watch containing the essence of time magic after so many trials, Oddy found out that the secret of Redpur magic originated from moonlight and the shadow it creates. He named his masterpiece 'Tempodiana,' and gave it the nickname 'Moonshade Countdown.'",
+    "descriptionByStar": {
+      "0": "Upon using Time Distortion, All allies' skill cooldown is reduced by extra 2 sec, and ATK is increased by 14% for 10 sec.",
+      "1": "Upon using Time Distortion, All allies' skill cooldown is reduced by extra 3 sec, and ATK is increased by 17% for 10 sec.",
+      "2": "Upon using Time Distortion, All allies' skill cooldown is reduced by extra 4 sec, and ATK is increased by 21% for 10 sec.",
+      "3": "Upon using Time Distortion, All allies' skill cooldown is reduced by extra 5 sec, and ATK is increased by 25% for 10 sec.",
+      "4": "Upon using Time Distortion, All allies' skill cooldown is reduced by extra 6 sec, and ATK is increased by 30% for 10 sec.",
+      "5": "Upon using Time Distortion, All allies' skill cooldown is reduced by extra 7 sec, and ATK is increased by 35% for 10 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Exquisite Orbment",
+      "description": "[Time Fracture] Gains immunity to CC for the skill's duration, and reduces the target's Mana by 400.",
+      "value": {},
+      "thumbnail": "heroes/Oddy/ut/1.png",
+      "story": "A device that adjusts the cracks of time.\nTime manipulation can create cracks in time, and strong energy gathers inside them. Those incapable of controlling the cracks can get stuck and forced to spend eternity in them. However, Oddy, a veteran time sorcerer, crafted this exquisite orb to tweak the cracks of time and used the energy to maximize the performance of Tempodiana.",
+      "descriptionByStar": {
+        "0": "[Time Fracture] Gains immunity to CC for the skill's duration, and reduces the target's Mana by 400.",
+        "1": "[Time Fracture] Gains immunity to CC for the skill's duration, and reduces the target's Mana by 480.",
+        "2": "[Time Fracture] Gains immunity to CC for the skill's duration, and reduces the target's Mana by 580.",
+        "3": "[Time Fracture] Gains immunity to CC for the skill's duration, and reduces the target's Mana by 700.",
+        "4": "[Time Fracture] Gains immunity to CC for the skill's duration, and reduces the target's Mana by 840.",
+        "5": "[Time Fracture] Gains immunity to CC for the skill's duration, and reduces the target's Mana by 1000."
+      }
+    },
+    "2": {
+      "name": "Fragment Collection",
+      "description": "[Time Fragments] Has a 25% chance to reset Cooldown and increases DMG by 20%.",
+      "value": {},
+      "thumbnail": "heroes/Oddy/ut/2.png",
+      "story": "Time Fragments that fell from the shadows of the moon.\nSometimes, Time Fragments fall from another dimension from the effect of the shadow of the moon that appears when using time magic. \nThe Time Fragments are small, but when gathered, they become a giant Fragment Collection of records, which give ceaseless inspiration to the caster.",
+      "descriptionByStar": {
+        "0": "[Time Fragments] Has a 25% chance to reset Cooldown and increases DMG by 20%.",
+        "1": "[Time Fragments] Has a 25% chance to reset Cooldown and increases DMG by 24%.",
+        "2": "[Time Fragments] Has a 25% chance to reset Cooldown and increases DMG by 29%.",
+        "3": "[Time Fragments] Has a 25% chance to reset Cooldown and increases DMG by 35%.",
+        "4": "[Time Fragments] Has a 25% chance to reset Cooldown and increases DMG by 42%.",
+        "5": "[Time Fragments] Has a 25% chance to reset Cooldown and increases DMG by 50%."
+      }
+    },
+    "3": {
+      "name": "Threads of Time",
+      "description": "[Time Distortion] DMG is increased by 20% and all allies' negative effects are dispelled.",
+      "value": {},
+      "thumbnail": "heroes/Oddy/ut/3.png",
+      "story": "Fur of the Red Fur chief hung in the shadow of the moon. It is said that the mythical creature, the Red Fur Chief, uses the shadow of the moon during full moon to go through dimensions and dance. The Red Fur Chief dances until the shadow of the moon disappears, and it is said that his tail sometimes gets stuck in the pathway. The fur of the colorful mythical creature gets stuck in the rift of time and space and stops time temporarily. Oddy uses the fur from the traces of the shadows of the moon to make a skein and uses it effectively for Time Distortion.",
+      "descriptionByStar": {
+        "0": "[Time Distortion] DMG is increased by 20% and all allies' negative effects are dispelled.",
+        "1": "[Time Distortion] DMG is increased by 24% and all allies' negative effects are dispelled.",
+        "2": "[Time Distortion] DMG is increased by 29% and all allies' negative effects are dispelled.",
+        "3": "[Time Distortion] DMG is increased by 35% and all allies' negative effects are dispelled.",
+        "4": "[Time Distortion] DMG is increased by 42% and all allies' negative effects are dispelled.",
+        "5": "[Time Distortion] DMG is increased by 50% and all allies' negative effects are dispelled."
+      }
+    },
+    "4": {
+      "name": "Time Manipulating Clockwork",
+      "description": "[Clock Magic] Increases DMG by 50%. Hit enemies take 10% increased M.DMG for 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Oddy/ut/4.png",
+      "story": "A clockwork device that Oddy made to control the flow of time.\nOddy spent countless days researching and developing the perfect clockwork, but to no avail.\nThe design was perfect, but he did not have the right catalyst container for his powerful Clock Magic.\nNo metal on earth would endure the heat for a single tick of the clock.\nWhen he was agonizing over his plan, he remembered something: there was a space stone that Nyx gave him for display.\nHe ground it to make a clockwork out of it, and the result was perfect.",
+      "descriptionByStar": {
+        "0": "[Clock Magic] Increases DMG by 50%. Hit enemies take 10% increased M.DMG for 10 sec.",
+        "1": "[Clock Magic] Increases DMG by 50%. Hit enemies take 12% increased M.DMG for 10 sec.",
+        "2": "[Clock Magic] Increases DMG by 50%. Hit enemies take 14% increased M.DMG for 10 sec.",
+        "3": "[Clock Magic] Increases DMG by 50%. Hit enemies take 17% increased M.DMG for 10 sec.",
+        "4": "[Clock Magic] Increases DMG by 50%. Hit enemies take 21% increased M.DMG for 10 sec.",
+        "5": "[Clock Magic] Increases DMG by 50%. Hit enemies take 25% increased M.DMG for 10 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Charges up over 23 sec.",
+    "description": "Summons the soul of Moonshade Countdown, Tempodiana, increasing Crit DMG of the ally with the highest ATK by 80% for 15 sec, and reducing Cooldown of all active Skills by 1 sec every sec.",
+    "cooldown": "25",
+    "uses": "7",
+    "thumbnail": "heroes/Oddy/sw.png",
+    "advancement": {
+      "1": "For the duration of Skill, increases the target's DEF Penetration by 350.",
+      "2": "Changes the number of targets to 3."
+    },
+    "story": "Since Tempodiana was based on the magic of Redpur, it had a power that attracted other Redpurs.\nTherefore, it was a daily routine for Oddy to stop the other Redpurs from playing with his watch. It was just like any other day when Oddy tried to stop them from playing with his watch.\n- Why you! That isn't a toy!\nBut to the Redpurs, Oddy's scolding was part of the fun.\nWhen Oddy was examining his watch after finally retrieving it from the Redpurs by desperately chasing them,\nTempodiana started to float into the air with a shining light.\n- What in the-! What is happening!\nIn front of a dazzled Oddy, a Redpur appeared, all settled within the clockwork of the watch.\n\n- Koo?\n\nThe mysterious Redpur turned toward Oddy and smiled, looking happy to see him.\nThe mysterious magic of the Redpur awakened the spirit of the moonlight and shadow within Tempodiana.\nAlthough why it took the form of a Redpur was unknown, regardless, Oddy smiled at it.\n\n- What a discovery! Now, this is going to be worth studying!"
+  },
+  "splashart": "heroes/Oddy/sa.png",
+  "costumes": "heroes/Oddy/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "en",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

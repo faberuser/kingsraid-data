@@ -1,0 +1,52 @@
+{
+  "id": "Maviel",
+  "profile": {
+    "name": "マビエル",
+    "title": "狂気のアサシン",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "ダークエルフ",
+    "damage_type": "Physical",
+    "recommended_heroes": "デミア, ボードワン, アイシャ",
+    "characteristics": "[影隠れ]は、すべての攻撃を回避する特殊な状態で、合計100回の攻撃を回避すると姿を現わします。ヒット数と攻撃速度に優れた英雄が有利に戦えるでしょう。",
+    "thumbnail": "bosses/Maviel.png"
+  },
+  "skills": {
+    "1": {
+      "name": "影斬り",
+      "cost": null,
+      "cooldown": "15",
+      "description": "ランダムな対象の元に素早く移動し、5回の物理ダメージを与えます。さらに、ダメージを与えるたび、10秒間、出血状態にさせ、永遠に持続されて解除不可能な回復力減少状態にさせます。"
+    },
+    "2": {
+      "name": "狂気爆発",
+      "cost": null,
+      "cooldown": "15",
+      "description": "狂気が極まり、攻撃力とクリティカル率、攻撃速度を10秒間増加させます。"
+    },
+    "3": {
+      "name": "無慈悲",
+      "cost": null,
+      "cooldown": "30",
+      "description": "防御力最も高い敵の元へ移動し、大きな物理ダメージを与えます。"
+    },
+    "4": {
+      "name": "影隠れ",
+      "cost": null,
+      "cooldown": "40",
+      "description": "40秒ごとに、一定回数の攻撃をすべて回避します。一定回数をすべて回避すると、気絶状態になります。隠密状態でない場合、被ダメージが増加し、攻撃速度が固定されます。"
+    },
+    "5": {
+      "name": "浄化",
+      "cost": null,
+      "cooldown": null,
+      "description": "30秒ごとに、自分のデバフを取り除き、攻撃速度を増加させます。"
+    }
+  },
+  "aliases": [
+    "Maviel",
+    "GR5",
+    "GR 5"
+  ]
+}

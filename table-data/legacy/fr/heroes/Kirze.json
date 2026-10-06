@@ -1,0 +1,255 @@
+{
+  "id": "Kirze",
+  "profile": {
+    "name": "Kirze",
+    "title": "Kirze, Chat au Cristal écarlate",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "7100",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "16",
+    "height": "162",
+    "race": "Hybride animal (Chat)",
+    "constellation": "Armil le Vénéré",
+    "birth": {
+      "month": 4,
+      "day": 29,
+      "monthName": "Mois de la Vie"
+    },
+    "like": "La peluche, la fraîcheur du bord de fleuve, les petits animaux, le sourire des enfants innocents",
+    "dislike": "Les démons, les insectes affreux, les personnes qui houspillent les autres",
+    "story": "Héros Premier Prix de la Compétition de Concept-Style de Héros Global Mochi00 (JPN)\nIl y a quelques années, beaucoup de villes dans les différentes régions du Continent d'Orbis subirent les attaques de l'Armée des Morts-Vivants de Malduk.\nLes enfants, nés albinos, possédaient de puissantes forces magiques aux caractéristiques particulières.\nLes subordonnés de Malduk les enlevèrent,\net injectèrent, dans leurs corps, les cristaux arcaniques écarlates, une puissante source d'énergie qui présente de très bonne synergie avec les Démons.\nEt cela, dans le but de transformer ces enfants en des mines vivantes, condamnés à produire en continu, des cristaux arcaniques écarlates, pendant toutes leurs vies.\n\nSuite à des expériences inhumaines et pénibles, un à un, les enfants perdirent la vie.\nLe corps des albinos, incompatibles aux cristaux arcaniques écarlates, se transforma en statue en pierre avant de réduire en poussière.\nLe reste des enfants, témoin de ces atrocités, trembla de terreur, mais engloutis par leurs propres impuissances, ils se resignèrent et attendirent la mort.\n\nToutefois, l'expérience fut couronnée de succès. Le corps de Kirze résonna avec tous les cristaux arcaniques écarlates des environs, et les absorba tous.\nPar conséquent, avec d'énormes quantités de puissance magique contenues dans son corps,\nelle obtint un pouvoir particulier qui lui permit de contrôler à son aise, tous les cristaux arcaniques écarlates.\n\nÀ l'aide de cette force, Kirze vainquit les subordonnés de Malduk, et avec le reste des enfants, s'évada du laboratoire de Démon.\n\nDepuis, avec son pouvoir, elle se mit à chasser les démons errants, afin de prévenir d'autres victimes comme elle...",
+    "thumbnail": "heroes/Kirze/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Tranche-le, Lame de Jugement !",
+      "cost": "2",
+      "cooldown": "9",
+      "description": "Inflige au total ??? DEG M en 7 attaques aux ennemis dans une zone circulaire autour de soi. Attaque ensuite les ennemis devant soi, inflige ??? DEG M et les renverse pendant 3 sec.",
+      "thumbnail": "heroes/Kirze/skills/1.png"
+    },
+    "2": {
+      "name": "Répands-toi, Brouillard Cristallisé !",
+      "cost": "3",
+      "cooldown": "17",
+      "description": "Libère la puissance des cristaux arcaniques, inflige ??? DEG M à tous les ennemis et les étourdit pendant 2 sec. Active [Éveil des cristaux arcaniques] pendant 15 sec : augmente la vitesse d'attaque de tous les alliés de 300 et émet toutes les 2 sec une onde de choc infligeant ??? DEG M aux ennemis proches et les étourdissant pendant 1 sec.",
+      "thumbnail": "heroes/Kirze/skills/2.png"
+    },
+    "3": {
+      "name": "Épanouis-toi, Fleur Écarlate !",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Invoque des cristaux arcaniques infligeant ??? DEG M aux ennemis en ligne droite devant soi. Peu après, une explosion inflige ??? DEG M supplémentaires et applique [Malédiction des cristaux arcaniques] pendant 5 sec, réduisant la vitesse d'attaque de 200. Attaquer les ennemis maudits cumule [Énergie des cristaux arcaniques]. La malédiction explose après 5 sec et inflige ??? DEG M plus ??? par cumul d'énergie.",
+      "thumbnail": "heroes/Kirze/skills/3.png"
+    },
+    "4": {
+      "name": "Vos méfaits prennent fin, ici !",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente sa propre ATQ de ??? et ses chances de coup critique de 200, et prolonge de 30% la durée des contrôles infligés aux boss par tous les alliés.",
+      "thumbnail": "heroes/Kirze/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente le taux d'augmentation d'ATQ de 10%.",
+      "III": "Augmente le taux d'augmentation d'ATQ de 15%.",
+      "IV": "Augmente le taux d'augmentation d'ATQ de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Réduit le Temps de Recharge de 3% pour chaque ennemi touché.",
+          "thumbnail": "heroes/Kirze/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG infligés de 100% lorsqu'il n'y a qu'un seul ennemi.",
+          "thumbnail": "heroes/Kirze/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Kirze/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG infligés aux ennemis non-Héros de 20% lorsque le Héros est en mode [Cristal Arcanique Éveillé].",
+          "thumbnail": "heroes/Kirze/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente la Réduction de Vitesse d'ATQ de 300.",
+          "thumbnail": "heroes/Kirze/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Applique 2 charges d'Énergie de Cristal Arcanique.",
+          "thumbnail": "heroes/Kirze/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Au début de chaque bataille, inflige 25% de DEG supplémentaires aux ennemis non-Héros pendant 20 sec.",
+          "thumbnail": "heroes/Kirze/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG infligés aux Boss de 15%.",
+          "thumbnail": "heroes/Kirze/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Vitesse d'ATQ +100",
+        "thumbnail": "heroes/Kirze/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente les DEG Crit de 40% et la Pénétration DEF de 150. Cet effet augmente 2 fois après que Kirze ait attaqué l'ennemi à 100 reprises.",
+        "thumbnail": "heroes/Kirze/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Elicipira, la Lame de Supplice",
+    "description": "Amplifie les cristaux arcaniques et augmente fortement la portée d'[Éclos, fleur écarlate !]. Les attaques normales et de compétence ont 4% de chances d'infliger des DEG M supplémentaires égaux à {0}% de l'ATQ. Ces dégâts sont multipliés par 2 contre les boss.",
+    "value": {
+      "0": {
+        "0": "500",
+        "1": "600",
+        "2": "720",
+        "3": "860",
+        "4": "1000",
+        "5": "1250"
+      }
+    },
+    "thumbnail": "heroes/Kirze/uw.png",
+    "story": "Ciseaux gigantesques fabriqués par les cristaux arcaniques écarlates qui constituent le corps de Kirze.\nIls ont comme modèle, les ciseaux antiques que sa mère utilisait par le passé.\nC'est une arme pratique, pouvant être maniée comme un espadon, ou en séparant sa lame en deux, employée comme deux épées jumelles\n\nLes ciseaux sont imprégnés de la prière de la jeune fille qui souhaite prévenir la souffrance des autres victimes de Démon.\nCette arme répond aux émotions de sa maîtresse pour déployer une plus grande puissance.",
+    "descriptionByStar": {
+      "0": "Amplifie les cristaux arcaniques et augmente fortement la portée d'[Éclos, fleur écarlate !]. Les attaques normales et de compétence ont 4% de chances d'infliger des DEG M supplémentaires égaux à 500% de l'ATQ. Ces dégâts sont multipliés par 2 contre les boss.",
+      "1": "Amplifie les cristaux arcaniques et augmente fortement la portée d'[Éclos, fleur écarlate !]. Les attaques normales et de compétence ont 4% de chances d'infliger des DEG M supplémentaires égaux à 600% de l'ATQ. Ces dégâts sont doublés contre les boss.",
+      "2": "Amplifie les cristaux arcaniques et augmente fortement la portée d'[Éclos, fleur écarlate !]. Les attaques normales et de compétence ont 4% de chances d'infliger des DEG M supplémentaires égaux à 720% de l'ATQ. Ces dégâts sont doublés contre les boss.",
+      "3": "Amplifie les cristaux arcaniques et augmente fortement la portée d'[Éclos, fleur écarlate !]. Les attaques normales et de compétence ont 4% de chances d'infliger des DEG M supplémentaires égaux à 860% de l'ATQ. Ces dégâts sont doublés contre les boss.",
+      "4": "Amplifie les cristaux arcaniques et augmente fortement la portée d'[Éclos, fleur écarlate !]. Les attaques normales et de compétence ont 4% de chances d'infliger des DEG M supplémentaires égaux à 1000% de l'ATQ. Ces dégâts sont doublés contre les boss.",
+      "5": "Amplifie les cristaux arcaniques et augmente fortement la portée d'[Éclos, fleur écarlate !]. Les attaques normales et de compétence ont 4% de chances d'infliger des DEG M supplémentaires égaux à 1250% de l'ATQ. Ces dégâts sont doublés contre les boss."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Lotus de Cristal Écarlate",
+      "description": "[Tranche-le, Lame de Jugement !] Augmente les DEG infligés de 20% et réduit le coût en PM de 1.",
+      "value": {},
+      "thumbnail": "heroes/Kirze/ut/1.png",
+      "story": "De temps en temps, des fragments de cristaux bourgeonnent du corps de Kirze et se détachent.\nÉtant donné que ces fragments, autrefois, formaient une partie de son corps, les ignorer n'était pas une option pour Kirze,\ndonc elle les ramassait et les gardait tous avec elle.\nCependant, avec le temps, sans se rendre compte, les fragments commencèrent à déborder de son sac, mais elle ne sut où s'en servir.\nUn jour, elle visita la boutique de May à Orvel, et elle vit de magnifiques décorations en verre.\n\nKirze les trouva admirables et dans le souhait que ses fragments puissent être utilisés dans le même usage,\nelle offrit à May tous les fragments de cristaux arcaniques écarlates qu'elle avait gardés.\n\nPour la remercier, May lui offrit en retour, sa première œuvre accomplie avec les fragments.\nCet ornement de Lotus écarlate fut son cadeau.",
+      "descriptionByStar": {
+        "0": "[Tranche-le, Lame de Jugement !] Augmente les DEG infligés de 20% et réduit le coût en PM de 1.",
+        "1": "[Tranche-le, Lame de Jugement !] Augmente les DEG infligés de 24% et réduit le coût en PM de 1.",
+        "2": "[Tranche-le, Lame de Jugement !] Augmente les DEG infligés de 29% et réduit le coût en PM de 1.",
+        "3": "[Tranche-le, Lame de Jugement !] Augmente les DEG infligés de 35% et réduit le coût en PM de 1.",
+        "4": "[Tranche-le, Lame de Jugement !] Augmente les DEG infligés de 42% et réduit le coût en PM de 1.",
+        "5": "[Tranche-le, Lame de Jugement !] Augmente les DEG infligés de 50% et réduit le coût en PM de 1."
+      }
+    },
+    "2": {
+      "name": "Traces de Passe-Temps",
+      "description": "[Répands-toi, Brouillard Cristallisé !] Augmente de manière supplémentaire la Vitesse d'ATQ de {0} et la Pénétration DEF de tous les alliés de 250 pendant la durée de la compétence.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Kirze/ut/2.png",
+      "story": "Depuis son enfance, Kirze a toujours montré de l'affection envers les poupées,\nmais compte tenu de la situation économique de la famille, ses préférées furent celles en chiffon, fabriquées par sa mère.\nEn effet, avant l'enlèvement, Kirze put apprendre de sa mère, la couture et l'artisanat de poupées.\n\nAujourd'hui, Kirze n'est plus une enfant mais la poupée reste encore son jouet préféré; toutefois elle en fabrique non seulement pour sa propre collection, mais aussi pour d'autres enfants.\nEn particulier, pour des enfants qui ont perdu leurs parents à cause des attaques de Démon errant...",
+      "descriptionByStar": {
+        "0": "[Répands-toi, Brouillard Cristallisé !] Augmente de manière supplémentaire la Vitesse d'ATQ de 100 et la Pénétration DEF de tous les alliés de 250 pendant la durée de la compétence.",
+        "1": "Augmente la Vitesse d'ATQ de [Répands-toi, Brouillard Cristallisé !] de 120 et la durée de [Cristal Arcanique Éveillé] de 7 sec.",
+        "2": "Augmente la Vitesse d'ATQ de [Répands-toi, Brouillard Cristallisé !] de 140 et la durée de [Cristal Arcanique Éveillé] de 7 sec.",
+        "3": "Augmente la Vitesse d'ATQ de [Répands-toi, Brouillard Cristallisé !] de 170 et la durée de [Cristal Arcanique Éveillé] de 7 sec.",
+        "4": "Augmente la Vitesse d'ATQ de [Répands-toi, Brouillard Cristallisé !] de 210 et la durée de [Cristal Arcanique Éveillé] de 7 sec.",
+        "5": "Augmente la Vitesse d'ATQ de [Répands-toi, Brouillard Cristallisé !] de 250 et la durée de [Cristal Arcanique Éveillé] de 7 sec."
+      }
+    },
+    "3": {
+      "name": "Souvenir de l'Évasion",
+      "description": "[Éclos, fleur écarlate !] Réduit le temps de recharge de 30%. Gagner un cumul d'[Énergie des cristaux arcaniques] a 40% de chances d'en donner 3 supplémentaires.",
+      "value": {},
+      "thumbnail": "heroes/Kirze/ut/3.png",
+      "story": "Autrefois, lorsque Kirze fut enlevée par les Démons pour ensuite subir les expériences immondes dans le seul but de transformer son corps en cristal arcanique écarlate -\nLorsque son corps résonna pour la première fois avec les cristaux arcaniques écarlates et qu'elle put obtenir le pouvoir - \nElle fabriqua, de manière précipitée, sa toute première arme pour son évasion.\nC'est une paire de dagues, avec sa fabrication à peine terminée, sur le point de se briser.\n\nCette paire de dagues fut justement la salvation de Kirze et des autres enfants kidnappés, les sauvant des pires expériences.\nKirze ne pourra jamais se défaire de ces deux dagues qui détiennent ses souvenirs les plus importants.",
+      "descriptionByStar": {
+        "0": "[Éclos, fleur écarlate !] Réduit le temps de recharge de 30%. Gagner un cumul d'[Énergie des cristaux arcaniques] a 40% de chances d'en donner 3 supplémentaires.",
+        "1": "[Éclos, fleur écarlate !] Réduit le temps de recharge de 30%. Gagner un cumul d'[Énergie des cristaux arcaniques] a 48% de chances d'en donner 3 supplémentaires.",
+        "2": "[Éclos, fleur écarlate !] Réduit le temps de recharge de 30%. Gagner un cumul d'[Énergie des cristaux arcaniques] a 58% de chances d'en donner 3 supplémentaires.",
+        "3": "[Éclos, fleur écarlate !] Réduit le temps de recharge de 30%. Gagner un cumul d'[Énergie des cristaux arcaniques] a 70% de chances d'en donner 3 supplémentaires.",
+        "4": "[Éclos, fleur écarlate !] Réduit le temps de recharge de 30%. Gagner un cumul d'[Énergie des cristaux arcaniques] a 84% de chances d'en donner 3 supplémentaires.",
+        "5": "[Éclos, fleur écarlate !] Réduit le temps de recharge de 30%. Gagner un cumul d'[Énergie des cristaux arcaniques] a 100% de chances d'en donner 3 supplémentaires."
+      }
+    },
+    "4": {
+      "name": "Temps de Tranquillité",
+      "description": "[Vos méfaits prennent fin, ici !] De manière supplémentaire, augmente le Crit de 250 et augmente l'augmentation de la durée de Contrôles de {0}%.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Kirze/ut/4.png",
+      "story": "Kirze se sert de ces outils de couture pour son passe-temps.\nIls lui sont indispensables pour son artisanat de poupée.\nRécemment, elle rencontra son bonheur, grâce aux fils et aux cotons de types exceptionnels qu'elle put obtenir, avec lesquels elle put fabriquer de meilleures poupées.\n\nPar ailleurs, les ciseaux qu'elle utilise pour son artisanat sont les miniatures de son arme.",
+      "descriptionByStar": {
+        "0": "[Vos méfaits prennent fin, ici !] De manière supplémentaire, augmente le Crit de 250 et augmente l'augmentation de la durée de Contrôles de 10%.",
+        "1": "Augmente le Crit de [Vos méfaits prennent fin, ici !] de 250 points supplémentaires et modifie l'augmentation de la Durée de Contrôles appliqués aux Boss à 32%.",
+        "2": "Augmente le Crit de [Vos méfaits prennent fin, ici !] de 250 points supplémentaires et modifie l'augmentation de la Durée de Contrôles appliqués aux Boss à 34%.",
+        "3": "Augmente le Crit de [Vos méfaits prennent fin, ici !] de 250 points supplémentaires et modifie l'augmentation de la Durée de Contrôles appliqués aux Boss à 37%.",
+        "4": "Augmente le Crit de [Vos méfaits prennent fin, ici !] de 250 points supplémentaires et modifie l'augmentation de la Durée de Contrôles appliqués aux Boss à 41%.",
+        "5": "Augmente le Crit de [Vos méfaits prennent fin, ici !] de 250 points supplémentaires et modifie l'augmentation de la Durée de Contrôles appliqués aux Boss à 45%."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Vous devez infliger des DEG à 60 reprises pour recharger l'âme et l'utiliser.",
+    "description": "Invoque l'âme d'Elicipira, la Lame de Supplice, ce qui modifie la probabilité d'activation des DEG M supplémentaires infligés par Elicipira, à 10%, et réduit tous les DEG reçus de 40%, pendant 10 sec.",
+    "cooldown": "25",
+    "uses": "7",
+    "thumbnail": "heroes/Kirze/sw.png",
+    "advancement": {
+      "1": "Augmente le taux d'ATQ de 50% pendant la durée de l'invocation.",
+      "2": "Augmente la durée de l'effet de 5 sec et modifie la condition d'activation d'Elicipira, la Lame de Supplice, à 15%."
+    },
+    "story": "L'endroit où le cristal arcanique apparut pour la première fois, fut la frontière entre le monde matériel et celui des démons. \nCe cristal, dont le but de fabrication restait inconnu, serait formé d'un mélange de l'énergie du monde matériel et celle du monde des démons... \nSelon les rumeurs, il existerait un énorme cristal à cette frontière, et que ce serait le premier cristal arcanique de toute l'histoire. \nDe nombreux mages noirs auraient tenté de s'emparer de sa puissance, mais personne n'y serait parvenu...\n\nKirze, qui avait éveillé la puissance de son âme, libéra la force du cristal arcanique, source de ses pouvoirs, et la mit à l'intérieur de son arme.\nLa puissance d'Elicipira, utilisant la force du premier cristal arcanique, était supérieure à toute autre puissance qu'elle avait connue jusqu'à présent.\nMais cela commença à lui faire peur.\n\nChaque fois qu'elle maniait cette puissance, elle avait l'impression que son cœur changeait peu à peu en cristal rouge,\ncomme si elle perdait son humanité.."
+  },
+  "splashart": "heroes/Kirze/sa.png",
+  "costumes": "heroes/Kirze/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

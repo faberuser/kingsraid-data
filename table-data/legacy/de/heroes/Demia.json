@@ -1,0 +1,228 @@
+{
+  "id": "Demia",
+  "profile": {
+    "name": "Demia",
+    "title": "Stählerne Festung Demia",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "2000",
+    "damage_type": "Physical",
+    "gender": "Weiblich",
+    "age": "25",
+    "height": "184",
+    "race": "Menschen",
+    "constellation": "Mertis, die Wächterin",
+    "birth": {
+      "month": 1,
+      "day": 30,
+      "monthName": "Monat des Schutzes"
+    },
+    "like": "Einem gerechten Monarchen zu dienen",
+    "dislike": "Kleingeistige Leute, die andere betrügen",
+    "story": "Demia Si Ziltrion. Die Kommandantin der Ritterwache von Orvel. Sie ist eine mächtige und ehrwürdige Ritterin, die eine Lanze und einen riesigen Schild führt. Es heißt, es wäre nahezu unmöglich, ihren Schild zu durchbrechen. Als Ritterkommandantin hat sie ein großes Herz für ihre Untergebenen und ist bereit, jede nötige Pflicht im Dienste ihres Landes zu erfüllen. Da sie die jüngste Veränderung der Stimmung innerhalb des königlichen Palasts bermerkt hat, hofft sie, Clause so bald wie möglich als neuen Kommandanten ernennen zu können, um Scarlet vor dem Zorn der Adeligen beschützen zu können.",
+    "thumbnail": "heroes/Demia/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Durdringung",
+      "cost": "3",
+      "cooldown": "11",
+      "description": "Wirft einen Speer auf den entferntesten Gegner, verursacht ??? physischen Schaden und zieht ihn vor sich. Fügt danach Gegnern in Reichweite ??? physischen Schaden zu und betäubt sie für 3 Sek.",
+      "thumbnail": "heroes/Demia/skills/1.png"
+    },
+    "2": {
+      "name": "Siegeswille",
+      "cost": "2",
+      "cooldown": "15",
+      "description": "Löst für 15 Sek. beim Blocken eine Schockwelle aus, die Gegnern in Reichweite ??? physischen Schaden zufügt und ihren ANG um 20% senkt.",
+      "thumbnail": "heroes/Demia/skills/2.png"
+    },
+    "3": {
+      "name": "Stählerne Festung",
+      "cost": "4",
+      "cooldown": "22",
+      "description": "Beim Blocken während des Wirkens steigt der Schaden des Sprungangriffs um 7%. Außerdem erleidet der Gegner ??? physischen Schaden und wird betäubt. Nach dem Wirken springt sie zum Gegner, verursacht ??? physischen Schaden und betäubt ihn für 4 Sek. Während der Fähigkeit besteht Immunität gegen Kontrolleffekte.",
+      "thumbnail": "heroes/Demia/skills/3.png"
+    },
+    "4": {
+      "name": "Speerspitze",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht die physische VTD aller Verbündeten um ??? und ihre physische Blockchance um 250.",
+      "thumbnail": "heroes/Demia/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Betäubungsdauer um 2 Sek."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Feind-ANG-Verringerung erhöht um 50 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht VERT-Boost um 10 %.",
+      "III": "Erhöht VERT-Boost um 15 %.",
+      "IV": "Erhöht VERT-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Zieht für 1 extra Mana 2 Feinde zu sich heran.",
+          "thumbnail": "heroes/Demia/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Alle herangezogenen Feinde erleiden 25 % erhöhten Schaden für 10 Sek.",
+          "thumbnail": "heroes/Demia/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Demia/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht bei Aktivierung die Körp. VERT des Verbündeten um 20 % für 10 Sek.",
+          "thumbnail": "heroes/Demia/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Greift nach einem Sprung in die Luft, den Gegner mit dem höchsten ANG an.",
+          "thumbnail": "heroes/Demia/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Alle Verbündeten erleiden beim wirken 20 % weniger Körp. Schaden.",
+          "thumbnail": "heroes/Demia/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht Körp. VERT um 20 % und Körp. Blockchance um 50 %.",
+          "thumbnail": "heroes/Demia/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Heilt beim erfolgreichen Block die eigene TP um 40 % der Körp. VERT.",
+          "thumbnail": "heroes/Demia/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Körp. Blockchance +200",
+        "thumbnail": "heroes/Demia/perks/light.png"
+      },
+      "dark": {
+        "effect": "Verringert den ANG der Gegner am Anfang jedes Kampfes für 6 Sek. um 20 %. Effekt kann nicht aufgehoben werden.",
+        "thumbnail": "heroes/Demia/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Blaues Licht, Arpheus",
+    "description": "Erhöht die Körp. VERT von allen Verbündeten um 4 %. Wenn ein feindlicher Angriff geblockt wird, besteht eine Chance von 10 %, 3 % Mana zu regenerieren und den Cooldown von allen Skills um 1. Sek. zu verringern.",
+    "value": {},
+    "thumbnail": "heroes/Demia/uw.png",
+    "story": "Eines Tages wurde im Territorium von Ziltrion eine Ader mächtigen Manas entdeckt. Als Demia diese untersuchte, fand sie ein blaues Erz, das sie noch nie zuvor gesehen hatte. Zahlreiche Zauberer und Alchemisten studierten dieses geheimnisvolle Erz, das zugleich Edelstein und Metall war, doch niemand vermochte, ihre Zusammensetzung zu ergründen. Jin, der Schmied, hatte allerdings eine andere Idee. Als er das Erz erblickte, bot er Demia mit einem breiten Grinsen an, daraus mächtige Ausrüstung zu schmieden. Tatsächlich schmiedete er daraus eine Lanze und einen Schild, beide mit dem blauen Schimmern des Manas und härter als ein Diamant.",
+    "descriptionByStar": {
+      "0": "Erhöht die Körp. VERT von allen Verbündeten um 4 %. Wenn ein feindlicher Angriff geblockt wird, besteht eine Chance von 10 %, 3 % Mana zu regenerieren und den Cooldown von allen Skills um 1. Sek. zu verringern.",
+      "1": "Erhöht die Körp. VERT von allen Verbündeten um 4,8 %. Wenn ein feindlicher Angriff geblockt wird, besteht eine Chance von 12 %, 3,3 % Mana zu regenerieren und den Cooldown von allen Skills um 1. Sek. zu verringern.",
+      "2": "Erhöht die Körp. VERT von allen Verbündeten um 5,8 %. Wenn ein feindlicher Angriff geblockt wird, besteht eine Chance von 14 %, 3,6 % Mana zu regenerieren und den Cooldown von allen Skills um 1. Sek. zu verringern.",
+      "3": "Erhöht die Körp. VERT von allen Verbündeten um 7 %. Wenn ein feindlicher Angriff geblockt wird, besteht eine Chance von 17 %, 3,9 % Mana zu regenerieren und den Cooldown von allen Skills um 1. Sek. zu verringern.",
+      "4": "Erhöht die Körp. VERT von allen Verbündeten um 8,4 %. Wenn ein feindlicher Angriff geblockt wird, besteht eine Chance von 21 %, 4,2 % Mana zu regenerieren und den Cooldown von allen Skills um 1. Sek. zu verringern.",
+      "5": "Erhöht die Körp. VERT von allen Verbündeten um 10 %. Wenn ein feindlicher Angriff geblockt wird, besteht eine Chance von 25 %, 4,5 % Mana zu regenerieren und den Cooldown von allen Skills um 1. Sek. zu verringern."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Kiste von Ziltrion",
+      "description": "[Durchdringung] erhöht PRÄZ um 750 und Massenkontrolle-PRÄZ für die Dauer des Skills um 300.",
+      "value": {},
+      "thumbnail": "heroes/Demia/ut/1.png",
+      "story": "Eine alte Kiste, die von einer Generation der Familie Ziltrion an die nächste weitergegeben wird.\nEin Fotoalbum mit allen Familienmitgliedern von der ersten Generation bis zur jetzigen wird von einem mächtigen Zauber im Inneren der Kiste beschützt. Demias Mutter macht sich sorgen um ihre Tochter, die sich dazu entschlossen hat, das Schild von Orvelia zu sein. Wann immer Demia in die Schlacht marschiert, betet sie zu der Truhe und bittet um die sichere Rückkehr ihrer Tochter.",
+      "descriptionByStar": {
+        "0": "[Durchdringung] erhöht PRÄZ um 750 und Massenkontrolle-PRÄZ für die Dauer des Skills um 300.",
+        "1": "[Durchdringung] erhöht PRÄZ um 750 und Massenkontrolle-PRÄZ für die Dauer des Skills um 360.",
+        "2": "[Durchdringung] erhöht PRÄZ um 750 und Massenkontrolle-PRÄZ für die Dauer des Skills um 430.",
+        "3": "[Durchdringung] erhöht PRÄZ um 750 und Massenkontrolle-PRÄZ für die Dauer des Skills um 520.",
+        "4": "[Durchdringung] erhöht PRÄZ um 750 und Massenkontrolle-PRÄZ für die Dauer des Skills um 630.",
+        "5": "[Durchdringung] erhöht PRÄZ um 750 und Massenkontrolle-PRÄZ für die Dauer des Skills um 750."
+      }
+    },
+    "2": {
+      "name": "Schild der Entschlossenheit",
+      "description": "[Siegeswille] erhöht den Schaden um 50 % und die Körp. Schaden des Ziels 10 Sek. lang um 10 %.",
+      "value": {},
+      "thumbnail": "heroes/Demia/ut/2.png",
+      "story": "Ein hölzerner Schild, mit dem Demia als Kind übte. Er wurde schon über tausend Mal benutzt und ist sehr abgewetzt. \nDemia setzt ihn ein, um ihre Beherrschung wiederzuerlangen, wenn sie spürt, dass sie an ihre Grenzen stößt.\nIhr Stolz als Ritterin von Orvelia kommt wieder hoch, wenn sie diesen alten, abgenutzten Schild sieht.",
+      "descriptionByStar": {
+        "0": "[Siegeswille] erhöht den Schaden um 50 % und die Körp. Schaden des Ziels 10 Sek. lang um 10 %.",
+        "1": "[Siegeswille] erhöht den Schaden um 50 % und die Körp. Schaden des Ziels 12 Sek. lang um 10 %.",
+        "2": "[Siegeswille] erhöht den Schaden um 50 % und die Körp. Schaden des Ziels 14 Sek. lang um 10 %.",
+        "3": "[Siegeswille] erhöht den Schaden um 50 % und die Körp. Schaden des Ziels 17 Sek. lang um 10 %.",
+        "4": "[Siegeswille] erhöht den Schaden um 50 % und die Körp. Schaden des Ziels 21 Sek. lang um 10 %.",
+        "5": "[Siegeswille] erhöht den Schaden um 50 % und die Körp. Schaden des Ziels 25 Sek. lang um 10 %."
+      }
+    },
+    "3": {
+      "name": "Energie des Schutzes",
+      "description": "[Stählerne Festung] verringert die Manakosten um 1 und erhöht Betäubungsdauer des Sprungangriffs um 1 Sek.",
+      "value": {},
+      "thumbnail": "heroes/Demia/ut/3.png",
+      "story": "Ein Stein, der die Seele davor bewahrt, vom Bösen übernommen zu werden. Er leuchtet nur für kurze Zeit im Morgengrauen, ist also schwer zu finden. Eines Tages, als Demia müde vom Kampf war, legte ihr ein Gefährte dies in die Hände. Auch wenn es ein Gefährte ist, den sie nie wieder sehen kann, ... nimmt Demia diesen Stein immer mit, wenn sie in die Schlacht zieht. Sie tut ihr Bestes, um ihren Schwur aufrechtzuerhalten, die Opfer ihrer Gefährten nicht umsonst werden zu lassen.",
+      "descriptionByStar": {
+        "0": "[Stählerne Festung] verringert die Manakosten um 1 und erhöht Betäubungsdauer des Sprungangriffs um 1 Sek.",
+        "1": "[Stählerne Festung] verringert die Manakosten um 1 und erhöht Betäubungsdauer des Sprungangriffs um 1,5 Sek.",
+        "2": "[Stählerne Festung] verringert die Manakosten um 1 und erhöht Betäubungsdauer des Sprungangriffs um 2 Sek.",
+        "3": "[Stählerne Festung] verringert die Manakosten um 1 und erhöht Betäubungsdauer des Sprungangriffs um 2,5 Sek.",
+        "4": "[Stählerne Festung] verringert die Manakosten um 1 und erhöht Betäubungsdauer des Sprungangriffs um 3 Sek.",
+        "5": "[Stählerne Festung] verringert die Manakosten um 1 und erhöht Betäubungsdauer des Sprungangriffs um 3,5 Sek."
+      }
+    },
+    "4": {
+      "name": "Ring von Ziltrion",
+      "description": "[Speerspitze] erhöht den VERT-Boost um 50 %. Der Körp. Krit. Widerstand von allen Verbündeten wird um 100 erhöht.",
+      "value": {},
+      "thumbnail": "heroes/Demia/ut/4.png",
+      "story": "Ein Ring, der den Oberhäuptern der Ziltrion-Familie überreicht wird.\nEr ist mit einem blauen Juwel verziert, der den Ziltrions von der königlichen Familie von Orvel geschenkt wurde.\nDer Ring ist für die Anführer das Symbol der ewigen Loyalität der Familie und diese Anführer gehörten zu den ersten Bestrafern der Verräter.",
+      "descriptionByStar": {
+        "0": "[Speerspitze] erhöht den VERT-Boost um 50 %. Der Körp. Krit. Widerstand von allen Verbündeten wird um 100 erhöht.",
+        "1": "[Speerspitze] erhöht den VERT-Boost um 50 %. Der Körp. Krit. Widerstand von allen Verbündeten wird um 120 erhöht.",
+        "2": "[Speerspitze] erhöht den VERT-Boost um 50 %. Der Körp. Krit. Widerstand von allen Verbündeten wird um 140 erhöht.",
+        "3": "[Speerspitze] erhöht den VERT-Boost um 50 %. Der Körp. Krit. Widerstand von allen Verbündeten wird um 170 erhöht.",
+        "4": "[Speerspitze] erhöht den VERT-Boost um 50 %. Der Körp. Krit. Widerstand von allen Verbündeten wird um 210 erhöht.",
+        "5": "[Speerspitze] erhöht den VERT-Boost um 50 %. Der Körp. Krit. Widerstand von allen Verbündeten wird um 250 erhöht."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 4-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört die Seele von Blaues Licht, Arpheus und erhöht 10 Sek. lang den Körp. Krit. Widerstand aller Verbündeten um ??? und die Körp. Blockchance um ???. Dabei wird 10 Sek. lang im eigenen Umkreis eine [Manaquelle des Blauen Lichts] erzeugt. Während der Wirkungsdauer der [Manaquelle des Blauen Lichts] wird den Gegnern in Reichweite 9-mal insgesamt ??? Körp. Schaden zugefügt und deren MP um 300 verringert. Nach dem Ablaufen der Wirkungsdauer wird es explodieren, wobei ??? Körp. Schaden zugefügt wird und die Gegner im Umkreis 5 Sek. lang zum Schweigen gebracht werden.",
+    "cooldown": "22",
+    "uses": "7",
+    "thumbnail": "heroes/Demia/sw.png",
+    "advancement": {
+      "1": "Die ANG-GESCHW von Verbündeten in der Nähe der [Manaquelle des Blauen Lichts] erhöht sich um ??? und pro Sek. werden ??? MP regeneriert.",
+      "2": "Die positiven Effekte von Gegnern in der Nähe der [Manaquelle des Blauen Lichts] werden dauerhaft entfernt und die Schweigedauer wird auf 8 Sek. geändert."
+    },
+    "story": "Das verdächtige Rubinenerz, der zur Lanze und zum Schild von Demia wurde, war nichts anderes als ein Stück des Gedenkstein des alten legendären Ritters Arpheus.\nVor langer Zeit fanden die ersten Vorfahren der Ziltrion-Familie in ihrem tief gelegenen Erzgang Spuren von Ritualen, die die Geister besänftigen sollten. So seltsam es auch war, sie betrachteten es als heilig und zollten höchsten Respekt. Am Ende versiegelten sie den Eingang zu diesem heiligen Ort, um zu verhindern, dass Außenstehende den Ort betreten.\nDer rituale Gedenkstein schlummerte lange Zeit im tiefsten Teil des Erzganges und schaffte es irgendwie, unzählige geografische Verschiebungen zu überstehen. Bis an dem Tag, an dem Demia, der Nachfahre der Ziltrion-Familie, es entdeckte.\n\nWeder ein menschlicher Zauberer noch ein Alchemist konnten die Bestandteile dieses bizarren Steinstücks herausfinden. Nur der Schmied Jin, der ein Drache ist, erkannte die rätselhafte Seele im Stein.\n\n- Das Steinstück hat sie als seinen Meister ausgewählt.\n\nJin, der genau wusste, was er zu tun hat, fertigte eine spezielle Lanze und einen Schild an.\nEine Waffe nur für sie.\n\nSeitdem hat Demia Orvelia mit dieser Lanze und dem Schild verteidigt, um der Nation willen.\nIn dem Moment, als Demia für die Prinzessin ihr Leben riskierte, zeigte der legendäre Ritter Arpheus, der von ihrer Tapferkeit gesegnet wurde, seine wahre Gestalt und strahlte ein blaues Licht aus.\n\n- Ich, Arpheus, schwöre heute, dass ich mit diesem starken Ziltrion-Ritter zusammen kämpfen werde."
+  },
+  "splashart": "heroes/Demia/sa.png",
+  "costumes": "heroes/Demia/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "id": "Ripine",
+  "profile": {
+    "name": "Ripine",
+    "title": "Schwertkämpferin des Silbermonds Ripine",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "8900",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "???",
+    "height": "163",
+    "race": "Dunkelelfen",
+    "constellation": "Layan, der Richter",
+    "birth": {
+      "month": 9,
+      "day": 30,
+      "monthName": "Monat der Wahrheit"
+    },
+    "like": "Großer Bruder, Black Edge Mitglieder, Bücher und Schreiben",
+    "dislike": "Menschen (besonders Menschen in hoher Position), Dämonen",
+    "story": "Obwohl sehr ähnlich, sind sie doch Fremde der Dimension, die aus einer anderen Welt nach Orvel gekommen sind. Riheet und seine Schwester Ripine, die aus einer Welt stammen, in der Dunkelelfen von Menschen unterdrückt werden, waren nicht wenig verwirrt, als sie sich in Orvel, einer Welt, in der die Rassendiskriminierung sehr gering war, wiederfanden. Im Falle von Ripine, sieht sie, wie verschiedene Völker zusammenarbeiteten und lebten und erkennt, dass es ideal wäre, wenn die Welt, in der sie ursprünglich lebte, auch so werden könnte ... Sie wollte unbedingt in ihre ursprüngliche Welt zurückkehren, da sie gesehen hatte, wie viel es noch in der Welt, aus der sie kommt, zu tun gibt.",
+    "thumbnail": "heroes/Ripine/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Wind des Silbermonds",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Fügt dem Gegner 4-mal insgesamt ??? Mag. Schaden zu. Greift ihn zusätzlich an, fügt ihm dabei ??? Mag. Schaden zu und betäubt ihn für 2 Sek. Fügt mit dem letzten Treffer pro [Fluch aus dem Jenseits] Stapel zus. ??? VERT-ignorierenden Mag. Schaden zu.",
+      "thumbnail": "heroes/Ripine/skills/1.png"
+    },
+    "2": {
+      "name": "Mal des Silbermonds",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Entfernt eigene Massenkontroll-Effekte, bewegt sich zum am weitesten entfernten Gegner, hinterlässt [Mal des Silbermonds], das 15 Sek. lang nicht entfernt werden kann, und fügt ihm ??? Mag. Schaden zu. Befindet sich ein Gegner unter [Mal der Mondfinsternis], greift das Ziel unter [Mal der Mondfinsternis] an und ändert es in [Mal des Vollmonds]. Ist das Ziel unter [Mal des Vollmonds], wird 10 Sek. lang der Skill [Vollmond Enthauptung] aktiviert. Ripine greift zuerst das Ziel unter [Mal des Silbermonds] oder [Mal des Vollmonds] an.",
+      "thumbnail": "heroes/Ripine/skills/2.png"
+    },
+    "3": {
+      "name": "Schwerttanz des Silbermonds",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Greift den Gegner 5-mal an, fügt ihm insgesamt ??? Mag. Schaden zu, greift ihn zus. an und fügt ihm ??? Mag. Schaden zu. Fügt mit dem letzten Treffer pro [Fluch aus dem Jenseits] Stapel zus. ??? VERT-ignorierenden Mag. Schaden zu.",
+      "thumbnail": "heroes/Ripine/skills/3.png"
+    },
+    "4 (1)": {
+      "name": "Mana aus dem Jenseits",
+      "description": "Erhöht mit Mana aus dem Jenseits den eigenen verursachten Schaden an Gegnern um 35 % und stapelt beim Gegner pro Treffer 1-mal [Fluch aus dem Jenseits]. [Fluch aus dem Jenseits] kann bis zu 30-mal gestapelt werden.",
+      "thumbnail": "heroes/Ripine/skills/4 (1).png",
+      "cost": null,
+      "cooldown": null
+    },
+    "4 (2)": {
+      "name": "Vollmond Enthauptung",
+      "description": "Entfernt eigene Massenkontroll-Effekte, greift den Gegner unter [Mal des Vollmonds] 2-mal an und fügt ihm ??? Mag. Schaden zu. Der letzte Treffer lässt [Mal des Vollmonds] explodieren und fügt ??? VERT-ignorierenden Mag. Schaden zu. Ist das Ziel kein Held, wird zus. ??? VERT-ignorierender Mag. Schaden zugefügt. Explodiert [Mal des Vollmonds], wird pro [Fluch aus dem Jenseits] Stapel zus. ??? VERT-ignorierender Mag. Schaden zugefügt. Dieser Skill wird zusammen mit [Riheet] verwendet, wobei der Cooldown des Skills [Mal des Silbermonds] und der Cooldown von Riheets [Mal der Mondfinsternis] zurückgesetzt werden, wenn der Gegner beim Einsatz dieses Skills stirbt.",
+      "thumbnail": "heroes/Ripine/skills/4 (2).png",
+      "cost": null,
+      "cooldown": "1"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht den verursachten Schaden an Gegnern um zus. 5 %.",
+      "III": "Erhöht den verursachten Schaden an Gegnern um zus. 5 %.",
+      "IV": "Erhöht den verursachten Schaden an Gegnern um zus. 5 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Letzter Treffer verringert die MP des Ziels um 2000.",
+          "thumbnail": "heroes/Ripine/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Verringert Cooldown um 3 Sek.",
+          "thumbnail": "heroes/Ripine/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Das Ziel wird auf den Gegner mit dem höchsten ANG geändert.",
+          "thumbnail": "heroes/Ripine/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht 10 Sek. lang den erhaltenen Mag. Schaden des getroffenen Ziels um 30 %.",
+          "thumbnail": "heroes/Ripine/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Betäubt pro Treffer 1 Sek. lang das Ziel.",
+          "thumbnail": "heroes/Ripine/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Erhöht den Schaden um 40 %.",
+          "thumbnail": "heroes/Ripine/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Mit jedem Treffer verringert sich 10 Sek. lang die ANG-GESCHW. des Ziels um jeweils 30. Dieser Effekt ist bis zu 10-mal stapelbar.",
+          "thumbnail": "heroes/Ripine/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Stapelt pro Treffer zus. 1 [Fluch aus dem Jenseits], wenn es nur einen Gegner gibt.",
+          "thumbnail": "heroes/Ripine/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Chance +100",
+        "thumbnail": "heroes/Ripine/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht mit jedem Kampfbeginn dem Bossmonster zugefügten Schaden um 15 %. Kann bis zu 5-mal gestapelt werden.",
+        "thumbnail": "heroes/Ripine/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Flügel des Silbermonds, Clarapheon",
+    "description": "Erhöht die Krit. Chance um {0} und erhöht 120 Sek. lang dem Gegner zugefügten Schaden um {1} % und dem Bossmonster zugefügten Schaden um {2} %. Dieser Effekt kann nicht entfernt werden.",
+    "value": {
+      "0": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      },
+      "1": {
+        "0": "6",
+        "1": "7",
+        "2": "8",
+        "3": "10",
+        "4": "12",
+        "5": "15"
+      },
+      "2": {
+        "0": "6",
+        "1": "7",
+        "2": "8",
+        "3": "10",
+        "4": "12",
+        "5": "15"
+      }
+    },
+    "thumbnail": "heroes/Ripine/uw.png",
+    "story": "Die Zwillingsschwert von Flügel der Mondfinsternis, Noctipheus. Es ist eines der Zwillingsschwerter, von denen überliefert ist, dass der Held, der sie eins schwang, in der Vergangenheit das Königreich der Dunkelelfen gerettet hat. Es wird gesagt, dass dieses Langschwert, das die Kraft des Silbermondes in sich trägt, unter allen Schätzen derjenige ist, den man als die Essenz der Mondlichtmagie bezeichnet, die für die Dunkelelfen einzigartig ist. Der Legende nach wird das Schwert eines namenlosen Helden wieder auftauchen, wenn sich das Dunkelelfenreich in einer Krise befindet, und es wird gesagt, dass es der Wille der Dunkelelfen Königsfamilie ist, über ihren Besitzer zu entscheiden. Nach den Dämonenkrieg vor 100 Jahren dachten jedoch alle, dass die Dunkelelfen Königsfamilie ebenfalls zerfallen und niemals auftauchen würde, aber ...",
+    "descriptionByStar": {
+      "0": "Erhöht die Krit. Chance um 200 und erhöht 120 Sek. lang dem Gegner zugefügten Schaden um 6 % und dem Bossmonster zugefügten Schaden um 6 %. Dieser Effekt kann nicht entfernt werden."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Kreuzung der Wahl",
+      "description": "[Wind des Silbermonds] Betäubungsdauer erhöht sich um 2 Sek. und der erhaltene Mag. Schaden des Ziel erhöht sich 10 Sek. lang um {0} %.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
+      "thumbnail": "heroes/Ripine/ut/1.png",
+      "story": "Ripine liebt Bücher schon seitdem sie ein Kind war. Sie konnte auch recht gut Texte schreiben, weshalb sie, als Riheet zum ersten Mal viel Geld hatte, von ihm einen teuren Stift als Geschenk bekam. Hätte sie einst vielleicht den Weg des Schwertes aufgegeben und einen anderen Weg gewählt, dann wäre das Schreiben ... aber letztendlich gab sie den Weg des Schwertes nicht auf und schreibt gelegentlich in ihrer Freizeit. Die Dinge, die man nur schwer in Worte fassen kann, die eigenen Erfahrungen und was man gelernt hatte, schrieb sie nieder, um sie anderen Menschen besser vermitteln zu können.",
+      "descriptionByStar": {
+        "0": "[Wind des Silbermonds] Betäubungsdauer erhöht sich um 2 Sek. und der erhaltene Mag. Schaden des Ziel erhöht sich 10 Sek. lang um 12 %."
+      }
+    },
+    "2": {
+      "name": "Kleines Glück",
+      "description": "[Mal des Silbermonds] entfernt positive Effekte des Ziels und verringert 10 Sek. lang den Mag. Krit. Widerstand um {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
+      "thumbnail": "heroes/Ripine/ut/2.png",
+      "story": "Eine Blume, die Riheets und Ripines Eltern einst sehr mochten. Ihre Mutter mochte besonders gerne diese Hyazinthen und wenn sie blühte, war das ganze Haus immer mit ihnen geschmückt. Nach dem Tod ihrer Eltern, kaufte Ripine immer einen neuen Blumentopf und dekorierte damit ihr Zuhause. Mit dem Ziel, sich an ihre Eltern zu erinnern, entschlossen, nie zu vergessen, was an jenem Tag passiert ist ...",
+      "descriptionByStar": {
+        "0": "[Mal des Silbermonds] entfernt positive Effekte des Ziels und verringert 10 Sek. lang den Mag. Krit. Widerstand um 200."
+      }
+    },
+    "3": {
+      "name": "Märchenbuch voller Erinnerungen",
+      "description": "[Schwerttanz des Silbermonds] Cooldown verringert sich um 6 Sek. und der Schaden erhöht sich um {0} %, wenn es nur einen Gegner gibt.",
+      "value": {
+        "0": {
+          "0": "40",
+          "1": "48",
+          "2": "58",
+          "3": "70",
+          "4": "84",
+          "5": "100"
+        }
+      },
+      "thumbnail": "heroes/Ripine/ut/3.png",
+      "story": "Ein Märchenbuch, das Ripine als Kind gerne und oft las. Als sie ein Kind und zugleich Flüchtling war, hatte sie es verloren ... aber als Erwachsene besuchte sie gelegentlich einen alten Buchladen und fand dort ein Buch, das mit ihrem Märchenbuch identisch war, welches sie in der Vergangenheit gelesen hatte, weshalb sie es der Erinnerungen wegen kaufte. Auch danach trug sie das Buch weiter bei sich und las es ab und zu wieder. Ihre Begleiter fragen sie manchmal, warum sie so ein altes Buch bei sich hat und ob es nicht besser wäre, es wegzuwerfen, aber daran denkt sie nicht einmal ...",
+      "descriptionByStar": {
+        "0": "[Schwerttanz des Silbermonds] Cooldown verringert sich um 6 Sek. und der Schaden erhöht sich um 40 %, wenn es nur einen Gegner gibt."
+      }
+    },
+    "4": {
+      "name": "Ripine: Essen voller Erinnerungen",
+      "description": "[Mana aus dem Jenseits] erhöht ANG-GESCHW. um 300 und stapelt pro Kampfbeginn bei allen Gegnern {0}-mal [Fluch aus dem Jenseits].",
+      "value": {
+        "0": {
+          "0": "8",
+          "1": "10",
+          "2": "12",
+          "3": "14",
+          "4": "17",
+          "5": "20"
+        }
+      },
+      "thumbnail": "heroes/Ripine/ut/4.png",
+      "story": "Riheet und Ripine, die ihre Eltern verloren hatten, lebten seit ihrer Kindheit als Flüchtlinge. Zu dieser Zeit gab es nur wenige Gelegenheiten, an richtiges Essen zu gelangen, daher war es üblich, einfaches Brot oder Obst zu stehlen, um etwas zu essen zu haben. Eines Tages jedoch, bereiteten Riheet und Ripine eine einfache Mahlzeit mit Zutaten zu, die ihnen ein freundlicher und unvoreingenommener Händler gegeben hatte, und der gedeckte Tisch jenen Tages ist für beide zu einer unvergesslichen Erinnerung geworden. Ripine hatte einen fetten Lachs gegrillt und dazu eine saure Zitronen-Knoblauch-Sauce gemacht, um den Hunger zu stillen.",
+      "descriptionByStar": {
+        "0": "[Mana aus dem Jenseits] erhöht ANG-GESCHW. um 300 und stapelt pro Kampfbeginn bei allen Gegnern 8-mal [Fluch aus dem Jenseits]."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 20 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört 8 Sek. lang die Seele von Flügel des Silbermonds, Clarapheon und erhöht während der Wirkungsdauer den eigenen ANG um 30 %. Erschafft dann einn Schild, der 8 Sek. lang ??? Schaden absorbiert und den Krit. Schaden um 50 % erhöht. Gewährt [Riheet] den gleichen Schild, wenn [Riheet] sich unter den Verbündeten befindet.",
+    "cooldown": "20",
+    "uses": "6",
+    "thumbnail": "heroes/Ripine/sw.png",
+    "advancement": {
+      "1": "Ändert die Seelen-Wirkungsdauer und Schild-Wirkungsdauer auf 12 Sek.",
+      "2": "Ändert ANG-Boost auf 50 % und Krit. Schaden-Boost auf 100 %. Schild kann nicht entfernt werden."
+    },
+    "story": "Der Legende der Dunkelelfen nach, soll Flügel des Silbermonds, Clarapheon durch das Sammeln von reinem Mondlicht über Hunderte von Jahren Kraft angesammelt haben. Es wird gesagt, dass sich dieses Schwert, das von einem unbekannten Handwerker geschmiedet wurde, dem Willen der Königsfamilie nach den Held der Erlösung auswählt und ihm folgt, und wenn die Krise überwunden sei, würde es auch wieder verschwinden. Es heißt weiterhin, dass das weiß-silberne Licht, das im Schwert eingeschlossen ist, die Liebe und Nächstenliebe der Königsfamilie selbst ist, und es soll von einer solchen Schönheit sein, dass man ihm gänzlich verfalle.\n\nRipine selbst konnte sich nicht den Grund erklären, warum ein solch großartiges Schwert sie zu seinen Meister gewählt hatte. Die Bedeutung ihrer Existenz und das Potential im Inneren ihrer Seele hat das Schwert des Silbermonds vollständig ergriffen. Selbst nachdem die unmittelbare Krise gegen die Dunkelelfen überwunden war, beschloss Clarapheon, bis zu dem Tag an dem Ripine in ihre ursprüngliche Welt zurückkehrte, bei ihr zu bleiben. Um den Schmerz der Wunden ihrer Vergangenheit und der Zukunft, die wie ein dorniger Weg vor ihr lag, wenigstens ein bisschen zu lindern ..."
+  },
+  "splashart": "heroes/Ripine/sa.png",
+  "costumes": "heroes/Ripine/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

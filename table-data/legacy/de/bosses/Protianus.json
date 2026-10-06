@@ -1,0 +1,69 @@
+{
+  "id": "Protianus",
+  "profile": {
+    "name": "Protianus",
+    "title": "Herrscher des Versunkenen Königreichs",
+    "type": [
+      "World Boss"
+    ],
+    "race": "Elementar",
+    "damage_type": "Magical",
+    "recommended_heroes": "Fluss, Mitra, Laias",
+    "characteristics": "Befreie alle Verbündeten aus Protanius [Wassergefängnis], indem du dem Boss P. Schaden zufügst. Wenn das [Wassergefängnis] nicht zerstört wird, verliert ihr wertvolle Schadenskapazitäten.",
+    "thumbnail": "bosses/Protianus.png",
+    "recommendedHeroNames": [
+      "Fluss",
+      "Mitra",
+      "Laias"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Tödlicher Dreizack",
+      "cost": null,
+      "cooldown": "30",
+      "description": "Greift Feinde im Zentrum der Front an und hebt positive Effekte von Gegnern in Reichweite auf. Verringert ihre Krit. Chance für 18 Sek. um 300. Effekt kann nicht aufgehoben werden."
+    },
+    "2": {
+      "name": "Wisch & Weg",
+      "cost": null,
+      "cooldown": "22",
+      "description": "Wischt mit den Gegnern den Boden auf, verursacht Mag. Schaden und verstummt getroffene Gegner für 5 Sek., während ihre PRÄZ für 10 Sek. um 200 reduziert ist."
+    },
+    "3": {
+      "name": "Wassergefängnis Lockdown",
+      "cost": null,
+      "cooldown": "35",
+      "description": "Spritze Mag. Schaden verursachende Wassertropfen auf den Gegner und sperre ihn in ein Wassergefängnis. Zusätzlich wird ein weiterer, zufälliger Gegner alle 3 Sek. in ein Wassergefängnis gesperrt."
+    },
+    "4": {
+      "name": "Tsunami",
+      "cost": null,
+      "cooldown": "40",
+      "description": "Dieser Tsunami räumt frontal 50 m weit auf und trifft Gegner mit Mag. Schaden, basierend auf aktuellen HP des Ziels und 100 % Chance 3 Sek. lang zu betäuben. Reduziert zusätzlich 10 Sek. lang Mana um 300 Mana pro Sek. und verringert ANG um 20 %. Zusätzlicher Effekt kann nicht aufgehoben werden."
+    },
+    "5": {
+      "name": "Ertrunkene Seelen",
+      "cost": null,
+      "cooldown": null,
+      "description": "Beschwört alle 20 Sek. 3 Geister. VERT erhöht sich um 25 % pro Geist."
+    },
+    "6": {
+      "name": "Protanius-Haut",
+      "cost": null,
+      "cooldown": null,
+      "description": "Protanius ist vor ANG-GESCHW. beeinflussenden Effekten geschützt. Verwundbarer durch P. Schaden und erleidet mehr Schaden, nachdem er zu Boden geworfen wurde. Wenn Protanius einen Gegner verletzt, erleidet dieser alle 5 Sek. Mag. Schaden."
+    },
+    "7": {
+      "name": "Wassergefängnis",
+      "cost": null,
+      "cooldown": null,
+      "description": "Gegner, die im Wassergefängnis eingesperrt sind, verringern den zugefügten Schaden enorm und verringern jede Sek. die MP. 10 Sek. nach Benutzung von [Einschließendes Wassergefängnis] verliert der Eingesperrte 1.000 Mana und alle Skill-Cooldowns erhöhen sich um 70 %. Das Wassergefängnis wird aufgehoben, wenn Protianus 75 Mal Körp. Schaden erhalten hat."
+    }
+  },
+  "aliases": [
+    "Protianus",
+    "WB2",
+    "WB 2"
+  ]
+}

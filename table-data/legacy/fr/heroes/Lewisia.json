@@ -1,0 +1,228 @@
+{
+  "id": "Lewisia",
+  "profile": {
+    "name": "Lewisia",
+    "title": "Lewisia, Sang Royal vermillon",
+    "class": "Wizard",
+    "position": "Back-400",
+    "attack_range": "3200",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "???",
+    "height": "172",
+    "race": "Vampire",
+    "constellation": "Satua la Sage",
+    "birth": {
+      "month": 2,
+      "day": 22,
+      "monthName": "Mois de la Sagesse"
+    },
+    "like": "Un voyage tranquille et paisible",
+    "dislike": "La guerre et les troubles",
+    "story": "Une princesse vampire ayant rejoint Kyle dans sa guerre contre les démons, il y a cent ans. C'est une vampire au sang pur, âgée de plus de cinq siècles. On la considère souvent comme la reine des vampires et elle est presque immortelle. Elle a dépensé énormément de pouvoir durant la Guerre Démoniaque et a été forcée d'adopter une apparence enfantine. Après la guerre, elle a rejoint la société des humains et elle a regardé le monde changer pendant cent ans tout en récupérant lentement ses forces. Lorsque les démons sont réapparus et que l'Épée Sacrée s'est réveillée, Lewisia a senti des changements soudains d'énergie. Peu après, elle est partie à l'aventure pour observer le nouveau guerrier élu.",
+    "thumbnail": "heroes/Lewisia/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Orbe de Sang",
+      "cost": "1",
+      "cooldown": "8",
+      "description": "Inflige ??? DEG M à l'ennemi ciblé et augmente les DEG M reçues par la cible de 25% pendant 10 sec. Pour chaque charge de Malédiction Sanguine, augmente les DEG de 1%.\nConsomme également 10% des PV actuels lors de l'utilisation de cette compétence.",
+      "thumbnail": "heroes/Lewisia/skills/1.png"
+    },
+    "2": {
+      "name": "Zone Sanglante",
+      "cost": "3",
+      "cooldown": "17",
+      "description": "Inflige ??? DEG M à l'ennemi ciblé et crée une Zone Sanglante autour de lui qui dure 10 sec. Les ennemis à l'intérieur de Zone Sanglante reçoivent ??? DEG M toutes les 0,5 sec, et la DEF M est réduite de 30%. Pour chaque charge de Malédiction Sanguine, augmente les DEG de 1%.\nConsomme également 20% des PV actuels lors de l'utilisation de cette compétence.",
+      "thumbnail": "heroes/Lewisia/skills/2.png"
+    },
+    "3": {
+      "name": "Festin de Sang",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Attaque les ennemis en ligne droite à 3 reprises, inflige un total de ??? DEG M et applique Étourdissement pendant 3 sec. Pour chaque charge de Malédiction Sanguine, augmente les DEG de 1%.\nConsomme également 10% des PV actuels lors de l'utilisation de cette compétence.",
+      "thumbnail": "heroes/Lewisia/skills/3.png"
+    },
+    "4": {
+      "name": "Dominateur Sanguinaire",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lorsque ses PV sont supérieurs ou égaux à 50%, augmente l'ATQ de ??? et la Pénétration DEF de 250. L'attaque applique Malédiction sanguine à la cible, ce qui lui inflige un total de ??? DEG M en continu pendant 20 sec et restaure 10% des DEG infligés par Malédiction sanguine en PV. Malédiction sanguine est cumulable jusqu'à 60 fois et ne peut pas être dissipée.",
+      "thumbnail": "heroes/Lewisia/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "2": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "3": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "4": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Augmente le coût en PM de 1 et les DEG infligés de 100%.",
+          "thumbnail": "heroes/Lewisia/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "La cible reçoit 25% de DEG M supplémentaires pendant 10 sec.",
+          "thumbnail": "heroes/Lewisia/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Les DEG sont augmentés de 40%.",
+          "thumbnail": "heroes/Lewisia/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Le Temps de recharge est réduit de 3 sec.",
+          "thumbnail": "heroes/Lewisia/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "En attaquant l'ennemi avec plus de 60 charges de Malédiction Sanguine, réduit le temps de recharge de toutes les compétences de 5%.",
+          "thumbnail": "heroes/Lewisia/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Lewisia/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Augmente le nombre de charges maximal de Malédiction Sanguine à 120.",
+          "thumbnail": "heroes/Lewisia/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Les soins sur tous les alliés sont augmentés de 20% et les soins de tous les ennemis sont réduits de 20%.",
+          "thumbnail": "heroes/Lewisia/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Crit +100",
+        "thumbnail": "heroes/Lewisia/perks/light.png"
+      },
+      "dark": {
+        "effect": "La consommation de PV de toutes les compétences est augmentée de 50% mais les Temps de Recharge sont réduits de 20%.",
+        "thumbnail": "heroes/Lewisia/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Dominic, le Dirigeant écarlate",
+    "description": "Si les PV sont au-dessus de 50%, l'ATQ est augmentée de 20%. Si les PV sont sous les 50%, les DEG reçus sont réduits de 10%.",
+    "value": {},
+    "thumbnail": "heroes/Lewisia/uw.png",
+    "story": "Un bâton de sang passé d'une membre à l'autre d'une famille de seigneurs vampires au fil des générations. Sa couleur pourpre symbolise l'autorité, la sagesse et le pouvoir absolu du seigneur vampire. Dans les profondeurs des Plaines Galia se trouvent les terres sacrées des vampires. Ce bâton légendaire y repose, prêt à apparaître à l'appel d'un maître digne de lui.",
+    "descriptionByStar": {
+      "0": "Si les PV sont au-dessus de 50%, l'ATQ est augmentée de 20%. Si les PV sont sous les 50%, les DEG reçus sont réduits de 10%.",
+      "1": "Si les PV sont au-dessus de 50%, l'ATQ est augmentée de 24%. Si les PV sont sous les 50%, les DEG reçus sont réduits de 12%.",
+      "2": "Si les PV sont au-dessus de 50%, l'ATQ est augmentée de 29%. Si les PV sont sous les 50%, les DEG reçus sont réduits de 14%.",
+      "3": "Si les PV sont au-dessus de 50%, l'ATQ est augmentée de 35%. Si les PV sont sous les 50%, les DEG reçus sont réduits de 17%.",
+      "4": "Si les PV sont au-dessus de 50%, l'ATQ est augmentée de 42%. Si les PV sont sous les 50%, les DEG reçus sont réduits de 21%.",
+      "5": "Si les PV sont au-dessus de 50%, l'ATQ est augmentée de 50%. Si les PV sont sous les 50%, les DEG reçus sont réduits de 25%."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Vieille coupe d'argent",
+      "description": "[Orbe de sang] Augmente les DEG de 50 % et inflige à la cible 5 charges de Malédiction sanguine.",
+      "value": {},
+      "thumbnail": "heroes/Lewisia/ut/1.png",
+      "story": "Cette vieille coupe d'argent a appartenu à la première reine vampire.\nElle la remplissait avec le sang de celui qu'elle aimait le plus au monde, et symbolise sa peine abyssale et ses plaisirs déments. Cette coupe est un élément central des rituels des vampires, et ceux qui les accomplissent reçoivent des Orbes de sang plus sombres et plus beaux.",
+      "descriptionByStar": {
+        "0": "[Orbe de sang] Augmente les DEG de 50 % et inflige à la cible 5 charges de Malédiction sanguine.",
+        "1": "[Orbe de sang] Augmente les DEG de 50 % et inflige à la cible 6 charges de Malédiction sanguine.",
+        "2": "[Orbe de sang] Augmente les DEG de 50 % et inflige à la cible 7 charges de Malédiction sanguine.",
+        "3": "[Orbe de sang] Augmente les DEG de 50 % et inflige à la cible 8 charges de Malédiction sanguine.",
+        "4": "[Orbe de sang] Augmente les DEG de 50 % et inflige à la cible 9 charges de Malédiction sanguine.",
+        "5": "[Orbe de sang] Augmente les DEG de 50 % et inflige à la cible 10 charges de Malédiction sanguine."
+      }
+    },
+    "2": {
+      "name": "Sort de brume sanglante",
+      "description": "[Zone sanglante] Augmente les DEG de 20 % et la durée de l'effet de 2 sec.",
+      "value": {},
+      "thumbnail": "heroes/Lewisia/ut/2.png",
+      "story": "Outil magique du successeur par le sang.\nLes sorts de la famille de seigneurs vampires ont été transmis de génération en génération. \nLe successeur de Lewisia est le vampire Sir Lusben, et le sort de brume sanglante est d’ailleurs un cadeau de sa part. \nLewisia déteste tout ce qui lui rappelle l’idée de succession, mais elle apprécie tout de même de voir Zone Sanglante soulager sa fatigue, c’est pourquoi elle se sert allègrement de cet outil.",
+      "descriptionByStar": {
+        "0": "[Zone sanglante] Augmente les DEG de 20 % et la durée de l'effet de 2 sec.",
+        "1": "[Zone sanglante] Augmente les DEG de 24 % et la durée de l'effet de 2 sec.",
+        "2": "[Zone sanglante] Augmente les DEG de 29 % et la durée de l'effet de 2 sec.",
+        "3": "[Zone sanglante] Augmente les DEG de 35 % et la durée de l'effet de 2 sec.",
+        "4": "[Zone sanglante] Augmente les DEG de 42 % et la durée de l'effet de 2 sec.",
+        "5": "[Zone sanglante] Augmente les DEG de 50 % et la durée de l'effet de 2 sec."
+      }
+    },
+    "3": {
+      "name": "Sang ancestral",
+      "description": "[Festin de Sang] Augmente les DEG infligés de 20% et chaque coup critique réussi rend 400 PM.",
+      "value": {},
+      "thumbnail": "heroes/Lewisia/ut/3.png",
+      "story": "Le sang d’une ancienne reine vampire. Plus la vampire a le sang pur, plus la mana est forte dans son sang. Le plus puissant est celui d’une ancienne reine vampire. Les vampires qui boivent son sang ont une vie et de la mana illimités. C’est un type de sang très addictif, il faut être prudent quand on l’utilise.",
+      "descriptionByStar": {
+        "0": "[Festin de Sang] Augmente les DEG infligés de 20% et chaque coup critique réussi rend 400 PM.",
+        "1": "[Festin de Sang] Augmente les DEG infligés de 24% et chaque coup critique réussi rend 400 PM.",
+        "2": "[Festin de Sang] Augmente les DEG infligés de 29% et chaque coup critique réussi rend 400 PM.",
+        "3": "[Festin de Sang] Augmente les DEG infligés de 35% et chaque coup critique réussi rend 400 PM.",
+        "4": "[Festin de Sang] Augmente les DEG infligés de 42% et chaque coup critique réussi rend 400 PM.",
+        "5": "[Festin de Sang] Augmente les DEG infligés de 50% et chaque coup critique réussi rend 400 PM."
+      }
+    },
+    "4": {
+      "name": "Anneau rouge",
+      "description": "[Territoire du Sang] Augmente les DEG infligés par Malédiction sanguine de 50 %. Lorsque vous attaquez un ennemi portant 60 charges ou plus de Malédiction sanguine, augmente l'ATQ du lanceur de 1 % pendant 10 sec. Cette augmentation d'ATQ peut se cumuler jusqu'à 10 fois.",
+      "value": {},
+      "thumbnail": "heroes/Lewisia/ut/4.png",
+      "story": "Un anneau que la société secrète des vampires des plaines Galluah présentait à la Dirigeante écarlate en signe d'allégeance.\nDepuis, les vampires témoignent leur respect en embrassant l'anneau.\nÀ la naissance de Lewisia, la précédente Dirigeante lui transmit l'anneau, annonçant qu'elle lui succéderait.\nLewisia était cependant loin de se douter que cette proclamation était en fait le début du calvaire qu'elle devrait endurer avant de devenir la nouvelle Dirigeante.",
+      "descriptionByStar": {
+        "0": "[Territoire du Sang] Augmente les DEG infligés par Malédiction sanguine de 50 %. Lorsque vous attaquez un ennemi portant 60 charges ou plus de Malédiction sanguine, augmente l'ATQ du lanceur de 1 % pendant 10 sec. Cette augmentation d'ATQ peut se cumuler jusqu'à 10 fois.",
+        "1": "[Territoire du Sang] Augmente les DEG infligés par Malédiction sanguine de 50 %. Lorsque vous attaquez un ennemi portant 60 charges de Malédiction sanguine ou plus, augmente l'ATQ du lanceur de 1 % pendant 10 sec. Cette augmentation d'ATQ peut se cumuler jusqu'à 12 fois.",
+        "2": "[Territoire du Sang] Augmente les DEG infligés par Malédiction sanguine de 50 %. Lorsque vous attaquez un ennemi portant 60 charges de Malédiction sanguine ou plus, augmente l'ATQ du lanceur de 1 % pendant 10 sec. Cette augmentation d'ATQ peut se cumuler jusqu'à 14 fois.",
+        "3": "[Territoire du Sang] Augmente les DEG infligés par Malédiction sanguine de 50 %. Lorsque vous attaquez un ennemi portant 60 charges de Malédiction sanguine ou plus, augmente l'ATQ du lanceur de 1 % pendant 10 sec. Cette augmentation d'ATQ peut se cumuler jusqu'à 17 fois.",
+        "4": "[Territoire du Sang] Augmente les DEG infligés par Malédiction sanguine de 50 %. Lorsque vous attaquez un ennemi portant 60 charges de Malédiction sanguine ou plus, augmente l'ATQ du lanceur de 1 % pendant 10 sec. Cette augmentation d'ATQ peut se cumuler jusqu'à 20 fois.",
+        "5": "[Territoire du Sang] Augmente les DEG infligés par Malédiction sanguine de 50 %. Lorsque vous attaquez un ennemi portant portant 60 charges de Malédiction sanguine ou plus, augmente l'ATQ du lanceur de 1 % pendant 10 sec. Cette augmentation d'ATQ peut se cumuler jusqu'à 25 fois."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Vous devez infliger des DEG à 60 reprises pour recharger l'âme et l'utiliser.",
+    "description": "Invoque l'âme de Dominic, le Dirigeant écarlate, ce qui augmente le taux d'ATQ de Lewisia de 40% et les DEG M reçus par la cible ennemie de 20%, pendant 12 sec. Ensuite, inflige à la cible ennemie à 10 reprises ??? DEG M au total et restaure les PV de tous les alliés à la hauteur de 5% des DEG infligés. Ensuite, inflige ??? DEG M après 10 sec, et ??? DEG M supplémentaires à un boss.",
+    "cooldown": "23",
+    "uses": "7",
+    "thumbnail": "heroes/Lewisia/sw.png",
+    "advancement": {
+      "1": "Réduit le temps de recharge de 8 sec.",
+      "2": "Augmente les DEG infligés de 70% et modifie l'augmentation du taux d'ATQ à 60%."
+    },
+    "story": "Dominic contient les sangs des précédents seigneurs vampires, ainsi que leurs forces et leurs sagesses.\nJusqu'à présent, Lewisia n'avait usé que les pouvoirs innés en tant que princesse au sang pur, et avait utilisé Dominic que comme un simple bâton, pouvant être invoqué à tout instant.\nPuis un jour, elle se mit à déployer la puissance de Dominic en tant que dirigeante, et à l'instant d'après, tout ce qui l'environnait prit un teint de sang.\nComme si l'arme avait attendu cette décision..."
+  },
+  "splashart": "heroes/Lewisia/sa.png",
+  "costumes": "heroes/Lewisia/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

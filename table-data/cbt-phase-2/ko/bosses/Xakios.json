@@ -1,0 +1,46 @@
+{
+  "id": "Xakios",
+  "profile": {
+    "name": "쟈키오스",
+    "title": "저주받은 세계수의 뿌리",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "정령",
+    "damage_type": "Physical, Magical",
+    "recommended_heroes": "가우, 레피, 아네트",
+    "characteristics": "[거수의일격]은 넘어진 대상에게 매우 큰 피해를 입힙니다. [대지진]의 넘어짐 상태를 해제하거나 아군을 [상태 이상]으로부터 보호해주는 스킬을 통해 효과적으로 대응해야 합니다.",
+    "thumbnail": "bosses/Xakios.png"
+  },
+  "skills": {
+    "1": {
+      "name": "거수의 일격",
+      "cost": null,
+      "cooldown": null,
+      "description": "전방 대상에 발로 내리찍어 물리 피해를 입히고 넘어진 상태면 매우 큰 물리 피해를 입힙니다."
+    },
+    "2": {
+      "name": "대지진",
+      "cost": null,
+      "cooldown": "17",
+      "description": "대지를 3회 내려쳐 적 전체에게 물리 피해를 입힙니다. 마지막 타격은 모든 적을 8초간 넘어뜨립니다."
+    },
+    "3": {
+      "name": "산성브레스",
+      "cost": null,
+      "cooldown": "25",
+      "description": "기를 모아 산성브레스를 발사하여 적 전체에게 마법 피해를 입히고 마법 방어력을 감소시킵니다."
+    },
+    "4": {
+      "name": "정화",
+      "cost": null,
+      "cooldown": null,
+      "description": "30초마다 자신의 해로운 효과를 제거하고 공격속도를 증가시킵니다."
+    }
+  },
+  "aliases": [
+    "Xakios",
+    "GR1",
+    "GR 1"
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "id": "Hanus",
+  "profile": {
+    "name": "Hanus",
+    "title": "Hanus, Instructrice d'Arme à Feu",
+    "class": "Mechanic",
+    "position": "Back-400",
+    "attack_range": "9700",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "13",
+    "height": "128",
+    "race": "Humain",
+    "constellation": "Satua la Sage",
+    "birth": {
+      "month": 2,
+      "day": 5,
+      "monthName": "Mois de la Sagesse"
+    },
+    "like": "L'assemblage d'arme à feu, Mini-Hanus, les biscuits aux œufs, la fléchette",
+    "dislike": "La paresse, l'intervention oiseuse dans ses tactiques, la crevette, le vinaigre",
+    "story": "Cette fillette, appelée à l'armée de l'Alliance de Guildes à ses 13 ans, a été surnommée la petite géante du champ de bataille.\n\nÀ cause de son père qui était le Chef de Guilde des Armes, les jouets de son enfance étaient des sabres et des armes à feu abandonnés, et cela permit à la fillette de découvrir un talent inné dans le domaine de la manipulation des armes.\nDécidant qu'une intelligence aussi prodigieuse ne devait être ignorée, l'Alliance de Guildes parvint à convaincre son père réticent de leur permettre de recruter et former Hanus dans leur troupe.\nComme escompté, elle prouva qu'elle était un génie sur les champs de guerre.\nLes nouvelles armes qu'elle conçut étaient d'une extravagance ébouriffante, au point de renverser le cours des batailles, et les tactiques qu'elle dressait étaient sans égal, ce qui fit d'elle le meilleur arsenal vivant de l'Alliance.\n\nPar-dessus tout, Hanus elle-même s'égayait de cette vie où elle pouvait utiliser ses armes nouvellement inventées.\nCependant, à cause de ses talents, Hanus fut contrainte de participer à de nombreuses batailles et de porter de lourdes responsabilités, si bien qu'elle finit par se blesser au cours d'une opération. Son père qui, depuis le début, désapprouvait la participation de sa fille à l'armée, protesta fermement à l'Alliance de Guildes, et réclama sa démobilisation.\n\nNéanmoins, aucun parent ne peut fléchir la volonté de son enfant, dit-on ; suite à de longues heures de persuasion, Hanus, ne voulant en aucun cas quitter l'armée, obtint la permission de son père de garder son poste en tant qu'instructrice.\n\nÀ présent, bien qu'elle apprécie cette vie qui consiste à enseigner ses tactiques aux nouvelles recrues, elle n'abandonne pas l'espoir de retourner un jour sur le champ de bataille.\nAu sein du centre de commandement, Hanus attend tranquillement le jour de son retour avec ses fidèles compagnons d'armes qu'elle a instruits.",
+    "thumbnail": "heroes/Hanus/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Je vous ai percé à jour !",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Lance une grenade puis tire avec la mitraillette, infligeant ??? DEG P à la cible et aux ennemis à portée, et obtient 40 Balles. Augmente les DEG P reçus par les ennemis touchés de 25% pendant 10 sec et leur inflige Aveuglement pendant 4 sec.",
+      "thumbnail": "heroes/Hanus/skills/1.png"
+    },
+    "2": {
+      "name": "Je vais vous cribler de balles !",
+      "cost": "3",
+      "cooldown": "14",
+      "description": "Tire avec sa mitraillette sur les ennemis dans une vaste zone à l'avant à 10 reprises, infligeant ??? DEG P en total. Ensuite, si le lanceur possède des Balles, tire 2 par coup et ce jusqu'à les consommer toutes. Pendant ce temps, augmente les DEG reçus par le lanceur de 25%. Augmente les DEG infligés par cette compétence de 8% tous les 1 coups. Cette augmentation des DEG infligés peut se cumuler jusqu'à 50 fois. Une fois l'utilisation de cette compétence terminée, retire toutes les sec 1 augmentations ainsi cumulées.",
+      "thumbnail": "heroes/Hanus/skills/2.png"
+    },
+    "3": {
+      "name": "Cachez-vous dans un trou à rat !",
+      "cost": "4",
+      "cooldown": "27",
+      "description": "Tire au mortier dans une vaste zone éloignée à l'avant pour infliger ??? DEG P puis obtient 80 Balles. Étourdit les ennemis touchés pendant 5 sec. Cette compétence ignore le Blocage de la cible.",
+      "thumbnail": "heroes/Hanus/skills/3.png"
+    },
+    "4": {
+      "name": "Je vais vous dompter !",
+      "cost": null,
+      "cooldown": "999.999",
+      "description": "Augmente l'ATQ de Hanus de 1% et sa Pénétration DEF de 20 à chaque obtention de Balles. Balles peuvent se cumuler jusqu'à 300 fois et l'augmentation d'ATQ et celle de Pénétration DEF peuvent se cumuler jusqu'à 15 fois. Hanus ne peut être affectée par les effets concernant la Vitesse d'ATQ, et augmente l'ATQ de tous les alliés de ??? + 5% de l'ATQ de Hanus.\nCes effets sont multipliés par 2 lors des batailles de Guilde.\n[Batailles de Guilde] – Raid de Guilde, Conquête de Guilde, Guerre des Guildes",
+      "thumbnail": "heroes/Hanus/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente l'augmentation d'ATQ de 10%.",
+      "III": "Augmente l'augmentation d'ATQ de 15%.",
+      "IV": "Augmente l'augmentation d'ATQ de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Dissipe tous les effets positifs de la cible.",
+          "thumbnail": "heroes/Hanus/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Dans les batailles de Guilde, se confère l'immunité aux Contrôles pendant la durée d'utilisation.",
+          "thumbnail": "heroes/Hanus/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Modifie pour consommer 3 Balles, mais augmente les DEG Crit de Hanus de 150% pendant la durée du tir continuel.",
+          "thumbnail": "heroes/Hanus/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Dissipe l'effet d'augmentation des DEG infligés par l'ennemi.",
+          "thumbnail": "heroes/Hanus/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Ignore l'effet de réduction des DEG reçus de la cible lorsque la compétence est utilisée pendant la Guerre des Guildes.",
+          "thumbnail": "heroes/Hanus/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Réduit le temps de recharge de 7 sec.",
+          "thumbnail": "heroes/Hanus/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Réduit les DEG reçus de tous les alliés de 30% pendant 6 sec au début de bataille de Guerre de Guilde.",
+          "thumbnail": "heroes/Hanus/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Récupère 30 balles toutes les 10 sec.",
+          "thumbnail": "heroes/Hanus/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Hanus/perks/light.png"
+      },
+      "dark": {
+        "effect": "Au début de la bataille dans la Guerre des Guildes, réduit les PM de tous les ennemis de 500 et augmente leurs DEG reçus de 15% pendant 5 sec.",
+        "thumbnail": "heroes/Hanus/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "HN-0, la Malice infiniment futile",
+    "description": "Augmente les DEG Crit de Hanus de {0}%. Lance [Malice Infiniment Futile, HN-Missile autoguidé] toutes les {1} sec, infligeant à une cible ennemie aléatoire des DEG P à hauteur de {2}% de son ATQ et lui appliquant l'un des effets suivants pendant 3 sec : Étourdissement, Gel, Pétrification, Renversement, Réduction de la Vitesse d'ATQ de 250. Augmente les DEG infligés au boss par Hanus de {3}%. Cette augmentation de DEG infligés au boss peut se cumuler jusqu'à 12 fois et ne peut être dissipée.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "20",
+        "1": "17",
+        "2": "14",
+        "3": "12",
+        "4": "10",
+        "5": "8"
+      },
+      "2": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      },
+      "3": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.7",
+        "4": "2.1",
+        "5": "2.5"
+      }
+    },
+    "thumbnail": "heroes/Hanus/uw.png",
+    "story": "Hanus, à bout de nerfs, rassembla tout son savoir technologique pour inventer cette arme à feu mystérieuse.\nElle l’utilise généralement sur les ennemis qui l’ont mise en colère.\n\nNommée Hanus-Type 0, avec ses projectiles spéciaux, cette arme consternante décompose les ennemis touchés et tire régulièrement des balles autoguidées, ce qui ne laisse aucune chance à l'ennemi de s'échapper.\nSeuls le fameux directeur du centre de recherche Magos Le'Flamme et le technomage de génie d'Orvel seraient en mesure d'inventer une telle arme.\n\nLa raison de cette invention est hilarante...\n\nHanus qui, auparavant, étant populaire, se fit ridiculiser par le chef du marché noir pendant une opération de trafic illicite, qui lui lança en s'échappant : « le terrain de jeux est par là, alors vas-y si tu veux jouer à la guéguerre ».\nBouillant de colère, elle combattit de son mieux mais la troupe de gardes était si nombreuse qu'elle fut obligée de battre en retraite sans pouvoir le capturer.\n\nElle grinça les dents pendant plusieurs jours du fait de n'avoir pas réussi à capturer le plaisantin, et lorsque l'occasion du nettoyage se présenta à nouveau, elle débarqua en brandissant cette singulière arme à feu.\n\nCe jour, l'opération du nettoyage prit fin par un seul coup de feu...\nAvec la voix de la jeune fille qui disait qu'elle était prête à commencer une malice futile sur son terrain de jeux.",
+    "descriptionByStar": {
+      "0": "Augmente les DEG Crit de Hanus de 20%. Lance [Malice Infiniment Futile, HN-Missile autoguidé] toutes les 20 sec, infligeant à une cible ennemie aléatoire des DEG P à hauteur de 200% de son ATQ et lui appliquant l'un des effets suivants pendant 3 sec : Étourdissement, Gel, Pétrification, Renversement, Réduction de la Vitesse d'ATQ de 250. Augmente les DEG infligés au boss par Hanus de 1%. Cette augmentation de DEG infligés au boss peut se cumuler jusqu'à 12 fois et ne peut être dissipée.",
+      "1": "Augmente les DEG Crit de Hanus de 24%, et lance [Malice Infiniment Futile, Missile autoguidé-HN] toutes les 17 sec. Ce missile inflige à une cible aléatoire des DEG P de 240% de son taux d'ATQ et lui applique l'un des effets suivants, pendant 3 sec : Étourdissement, Gel, Pétrification, Renversement, Réduction de la Vitesse d'ATQ de 250.",
+      "2": "Augmente les DEG Crit de Hanus de 29%, et lance [Malice Infiniment Futile, Missile autoguidé-HN] toutes les 14 sec. Ce missile inflige à une cible aléatoire des DEG P de 290% de son taux d'ATQ et lui applique l'un des effets suivants, pendant 3 sec : Étourdissement, Gel, Pétrification, Renversement, Réduction de la Vitesse d'ATQ de 250.",
+      "3": "Augmente les DEG Crit de Hanus de 35%, et lance [Malice Infiniment Futile, Missile autoguidé-HN] toutes les 12 sec. Ce missile inflige à une cible aléatoire des DEG P de 350% de son taux d'ATQ et lui applique l'un des effets suivants, pendant 3 sec : Étourdissement, Gel, Pétrification, Renversement, Réduction de la Vitesse d'ATQ de 250.",
+      "4": "Augmente les DEG Crit de Hanus de 42%, et lance [Malice Infiniment Futile, Missile autoguidé-HN] toutes les 10 sec. Ce missile inflige à une cible aléatoire des DEG P de 420% de son taux d'ATQ et lui applique l'un des effets suivants, pendant 3 sec : Étourdissement, Gel, Pétrification, Renversement, Réduction de la Vitesse d'ATQ de 250.",
+      "5": "Augmente les DEG Crit de Hanus de 50%, et lance [Malice Infiniment Futile, Missile autoguidé-HN] toutes les 8 sec. Ce missile inflige à une cible aléatoire des DEG P de 500% de son taux d'ATQ et lui applique l'un des effets suivants, pendant 3 sec : Étourdissement, Gel, Pétrification, Renversement, Réduction de la Vitesse d'ATQ de 250."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Béret Avachi",
+      "description": "[Je vous ai percé à jour !] Réduit le coût en PM de 1 et augmente la durée de l'Aveuglement de 0,8 sec.",
+      "value": {},
+      "thumbnail": "heroes/Hanus/ut/1.png",
+      "story": "Le béret de la première amie qui a accepté Hanus comme compagnon sur le champ de guerre.\nMalgré le fait qu'elle fut recrutée à l'armée grâce à son talent inné, le début de son enrôlement fut rempli de mépris et de railleries dus à son jeune âge.\nSeule une unique personne avait reconnu ses talents, et la reconnaissance de cette dernière fut suivie par celle de nombreuses personnes, qui se mirent à la considérer comme leur égale, si ce n'était plus.\nElle a toujours été pour Hanus une amie précieuse et remarquable.\n\nMais leur amitié eut à peine le temps de s'approfondir que Hanus fut mutée, et elles durent se dire au revoir.\nEn la voyant pleurer pour la première fois de leur rencontre, son amie, en souriant, lui tendit le béret porté sur le champ de guerre, pour symboliser leur amitié et leur respect mutuel.\nAvec la promesse de se revoir là où elles ont souffert ensemble...",
+      "descriptionByStar": {
+        "0": "[Je vous ai percé à jour !] Réduit le coût en PM de 1 et augmente la durée de l'Aveuglement de 0,8 sec.",
+        "1": "[Je vous ai percé à jour !] Réduit le coût en PM de 1 et augmente la durée de l'Aveuglement de 1 sec.",
+        "2": "[Je vous ai percé à jour !] Réduit le coût en PM de 1 et augmente la durée de l'Aveuglement de 1,2 sec.",
+        "3": "[Je vous ai percé à jour !] Réduit le coût en PM de 1 et augmente la durée de l'Aveuglement de 1,4 sec.",
+        "4": "[Je vous ai percé à jour !] Réduit le coût en PM de 1 et augmente la durée de l'Aveuglement de 1,7 sec.",
+        "5": "[Je vous ai percé à jour !] Réduit le coût en PM de 1 et augmente la durée de l'Aveuglement de 2 sec."
+      }
+    },
+    "2": {
+      "name": "Déclenchement de Malice",
+      "description": "[Je vais vous cribler de balles !] Obtient 20 Balles et lorsque Hanus tire à la mitraillette en consommant des Balles, augmente l'ATQ de Hanus de {0}%. Cet effet peut se cumuler jusqu'à 50 fois.",
+      "value": {
+        "0": {
+          "0": "1.6",
+          "1": "2",
+          "2": "2.4",
+          "3": "2.8",
+          "4": "3.4",
+          "5": "4"
+        }
+      },
+      "thumbnail": "heroes/Hanus/ut/2.png",
+      "story": "Cette arme à feu, qui permit de révéler son prodigieux talent, est sa première invention.\nUn jour, alors qu'elle jouait avec des armes, elle se souvint brusquement de l'immense arme à feu conservée dans la chambre de son père.\nD'après lui, cette arme ne pouvait servir au combat, à cause de son poids excessif qui égalait sa puissance de feu.\nOr, aux yeux de Hanus, l'arme pouvait être améliorée, alors après avoir réfléchi, elle la prit secrètement avec elle.\nQuelques jours plus tard, cette arme à feu fut transformée en une mini-arme à feu ajustée à sa taille.\n\nSon père la punit sévèrement pour avoir touché à ses affaires, mais fut abasourdi en voyant l'arme améliorée.\nEn dépit du fait que le poids de l'arme était extrêmement réduit, sa puissance de feu était conservée. Il comprit alors que le talent de sa fille n'avait rien de commun.\n\nLe plus surprenant dans tout ceci était que Hanus n'avait encore que 5 ans.",
+      "descriptionByStar": {
+        "0": "[Je vais vous cribler de balles !] Obtient 20 Balles et lorsque Hanus tire à la mitraillette en consommant des Balles, augmente l'ATQ de Hanus de 1.6%. Cet effet peut se cumuler jusqu'à 50 fois.",
+        "1": "[Je vais vous cribler de balles !] Récupère 20 balles et pour chaque tir de mitraillette, tout en dépensant des balles, augmente le taux d'ATQ de Hanus de 2%. Cet effet peut se cumuler jusqu'à 100 fois.",
+        "2": "[Je vais vous cribler de balles !] Récupère 20 balles et pour chaque tir de mitraillette, tout en dépensant des balles, augmente le taux d'ATQ de Hanus de 2.4%. Cet effet peut se cumuler jusqu'à 100 fois.",
+        "3": "[Je vais vous cribler de balles !] Récupère 20 balles et pour chaque tir de mitraillette, tout en dépensant des balles, augmente le taux d'ATQ de Hanus de 2.8%. Cet effet peut se cumuler jusqu'à 100 fois.",
+        "4": "[Je vais vous cribler de balles !] Récupère 20 balles et pour chaque tir de mitraillette, tout en dépensant des balles, augmente le taux d'ATQ de Hanus de 3.4%. Cet effet peut se cumuler jusqu'à 100 fois.",
+        "5": "[Je vais vous cribler de balles !] Récupère 20 balles et pour chaque tir de mitraillette, tout en dépensant des balles, augmente le taux d'ATQ de Hanus de 4%. Cet effet peut se cumuler jusqu'à 100 fois."
+      }
+    },
+    "3": {
+      "name": "Mini-Hanus",
+      "description": "[Cachez-vous dans un trou à rat !] Immunise Hanus aux Contrôles pendant la durée de la compétence et réduit le taux de Récupération de la cible touchée de 20%, pendant 5 sec.",
+      "value": {},
+      "thumbnail": "heroes/Hanus/ut/3.png",
+      "story": "La peluche préférée et la plus chérie de Hanus, en édition limitée.\nEn réalité, elle a été fabriquée dans l'atelier de poupée le plus ancien d'Orvelia, et son modèle est un animal légendaire qui n'existe pas dans le monde.\nCe produit fait fureur chez les enfants, mais les éditions limitées sont toujours destinées à Hanus.\n\nElle l'habille avec des costumes de haute qualité et lui fait porter ses meilleures mini-armes à feu, assemblées en main propre.\nN'empêche que plus elle la pare, plus la peluche ressemble à Hanus, d'où le nom de Mini-Hanus donné à la peluche par son entourage.\n\nDe temps à autre, ses amis lui demandent le nom de sa peluche, mais Hanus refuse de le leur révéler, en disant qu'elle seule a le droit de le connaître.",
+      "descriptionByStar": {
+        "0": "[Cachez-vous dans un trou à rat !] Immunise Hanus aux Contrôles pendant la durée de la compétence et réduit le taux de Récupération de la cible touchée de 20%, pendant 5 sec.",
+        "1": "[Cachez-vous dans un trou à rat !] Immunise Hanus aux Contrôles pendant la durée de la compétence et réduit le taux de Récupération de la cible touchée de 24%, pendant 5 sec.",
+        "2": "[Cachez-vous dans un trou à rat !] Immunise Hanus aux Contrôles pendant la durée de la compétence et réduit le taux de Récupération de la cible touchée de 29%, pendant 5 sec.",
+        "3": "[Cachez-vous dans un trou à rat !] Immunise Hanus aux Contrôles pendant la durée de la compétence et réduit le taux de Récupération de la cible touchée de 35%, pendant 5 sec.",
+        "4": "[Cachez-vous dans un trou à rat !] Immunise Hanus aux Contrôles pendant la durée de la compétence et réduit le taux de Récupération de la cible touchée de 42%, pendant 5 sec.",
+        "5": "[Cachez-vous dans un trou à rat !] Immunise Hanus aux Contrôles pendant la durée de la compétence et réduit le taux de Récupération de la cible touchée de 50%, pendant 5 sec."
+      }
+    },
+    "4": {
+      "name": "Médaille Militaire",
+      "description": "[Je vais vous dompter !] Au début de bataille de Guerre des Guildes, réduit le coût en PM de 1 barre de toutes les compétences du lanceur et pendant 10 sec, augmente l'ATQ de tous les alliés de {0}% et leur DEG Crit de {1}%.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        },
+        "1": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Hanus/ut/4.png",
+      "story": "La médaille reçue pour de nombreux exploits accomplis, après que Hanus ait rejoint l'Alliance des Guildes.\nFin stratège, elle a apporté de nombreuses contributions sur le champ de bataille, et l'armée lui a attribué la médaille en guise de reconnaissance.\n\nCela étant une impossibilité si on considère son jeune âge et la durée de son engagement, le mécontentement de la troupe qui ignorait qui elle était, ou ceux qui la jalousaient, ne connaissait pas de bornes. Cependant, ils ne disaient plus rien après avoir vu Hanus au moins une fois en pleine guerre.\nDepuis qu'elle est mutée au poste d'instructrice à cause de son père, elle regarde cet objet en se promettant de retourner un jour sur le champ de bataille.",
+      "descriptionByStar": {
+        "0": "[Je vais vous dompter !] Au début de bataille de Guerre des Guildes, réduit le coût en PM de 1 barre de toutes les compétences du lanceur et pendant 10 sec, augmente l'ATQ de tous les alliés de 10% et leur DEG Crit de 20%.",
+        "1": "[Je vais vous dompter !] Au début de la bataille dans la Guerre des Guildes, à la première utilisation de la compétence, réduit le coût en PM de 1 barre pour toutes les compétences. Augmente le taux d'ATQ de 12% et DEG Crit de 24% de tous les alliés pendant 10 sec.",
+        "2": "[Je vais vous dompter !] Au début de la bataille dans la Guerre des Guildes, à la première utilisation de la compétence, réduit le coût en PM de 1 barre pour toutes les compétences. Augmente le taux d'ATQ de 14% et DEG Crit de 29% de tous les alliés pendant 10 sec.",
+        "3": "[Je vais vous dompter !] Au début de la bataille dans la Guerre des Guildes, à la première utilisation de la compétence, réduit le coût en PM de 1 barre pour toutes les compétences. Augmente le taux d'ATQ de 17% et DEG Crit de 35% de tous les alliés pendant 10 sec.",
+        "4": "[Je vais vous dompter !] Au début de la bataille dans la Guerre des Guildes, à la première utilisation de la compétence, réduit le coût en PM de 1 barre pour toutes les compétences. Augmente le taux d'ATQ de 21% et DEG Crit de 42% de tous les alliés pendant 10 sec.",
+        "5": "[Je vais vous dompter !] Au début de la bataille dans la Guerre des Guildes, à la première utilisation de la compétence, réduit le coût en PM de 1 barre pour toutes les compétences. Augmente le taux d'ATQ de 25% et DEG Crit de 50% de tous les alliés pendant 10 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 21 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de HN-0, la Malice infiniment futile, ce qui augmente les DEG Crit de 30% pendant 60 sec. Ensuite, exécute Ordre d'Attaque à 3 reprises toutes les 3 sec, ce qui inflige ??? DEG P aux ennemis situés à l'avant en ligne droite et les étourdit pendant 2 sec. L'augmentation des DEG Crit peut se cumuler jusqu'à 7 fois. Si l'invocation est activée aux batailles de Guilde, ajoute les effets suivants.\n[Conquête de Guilde] - Lors de l'activation d'Ordre d'Attaque, augmente les DEG P reçus par les ennemis de 30% pendant 5 sec.\n[Guerre des Guildes] - Réduit la condition d'utilisation à ??? sec. \n[Raid de Guilde] - Lors de l'activation d'Ordre d'Attaque, obtient 50 Balles.",
+    "cooldown": "21",
+    "uses": "7",
+    "thumbnail": "heroes/Hanus/sw.png",
+    "advancement": {
+      "1": "Augmente les DEG de 100% et ajoute l'effet d'augmentation de l'ATQ de 6% à chaque charge cumulée.",
+      "2": "Augmente les DEG infligés de 3% supplémentaires pour chaque charge cumulée."
+    },
+    "story": "HN-0, le chef-d'œuvre de Hanus qu'elle a créé en déployant tous ses talents. Le jouet par excellence, pouvant uniquement être manié par cette dernière.\n\nDans une bataille, elle et HN-0 ne font qu'un.\nHanus maniait avec prudence cette arme qui n'existait qu'en un seul exemplaire, et la considérait comme une amie très chère. Elle étudiait sans cesse afin de parfaire l'arme et de la remodeler avec de meilleurs composants.\nComme elle était un génie dans ce domaine, ce n'était qu'une question de temps avant que HN-0 n'acquière des capacités hors norme.\nHN-0, émue par l'incessante attention de sa propriétaire, se mit à refléter une conscience particulière, comme si elle était vivante.\n\nPuis un jour, elle prit l'apparence que Hanus appréciait le plus et apparut devant elle.\n- Je te remercie, chère amie. Tu es la meilleure des partenaires."
+  },
+  "splashart": "heroes/Hanus/sa.png",
+  "costumes": "heroes/Hanus/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

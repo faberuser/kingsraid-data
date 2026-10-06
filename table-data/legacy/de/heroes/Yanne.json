@@ -1,0 +1,272 @@
+{
+  "id": "Yanne",
+  "profile": {
+    "name": "Yanne",
+    "title": "Drachenschächterin Yanne",
+    "class": "Archer",
+    "position": "Back-300",
+    "attack_range": "4500",
+    "damage_type": "Physical",
+    "gender": "Weiblich",
+    "age": "21",
+    "height": "185",
+    "race": "Barbaren",
+    "constellation": "Mira, die Bardin",
+    "birth": {
+      "month": 6,
+      "day": 30,
+      "monthName": "Monat der Liebe"
+    },
+    "like": "Köstliche Mahlzeiten; Kochen; Monsterjagd",
+    "dislike": "Monster, die nicht körperlich besiegt werden können",
+    "story": "Eine Barbarenkriegerin, spezialisiert auf den Umgang mit bedrohlichen Monstern. Dank einer körperlichen Eigenheit ist ihre Muskelkraft um ein Vielfaches stärker als die eines normalen Barbarenkriegers. Sie führt ihren Großbogen, der größer ist als sie selbst, mit solcher Leichtigkeit, dass die Leute sie als wandelnde Belagerungswaffe bezeichnen. Sie ist eine gutherzige und hilfsbereite Frau, doch im Kampf offenbart sich ihre barbarische Aggressivität. Einst metzelte sie einen wahnsinnigen Drachen namens Svelta, was ihr den Spitznamen 'Drachenschlächterin' einbrachte.",
+    "thumbnail": "heroes/Yanne/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Fokussierter Schuss!",
+      "cost": "2",
+      "cooldown": "9",
+      "description": "Nimmt Haltung an, fokussiert sich und fügt Feinden in einer geraden Linie ??? Körp. Schaden zu und erhöht 10 Sek. lang den erhaltenen Körp. Schaden des Ziels um 25 %. Ist das Ziel ein Drache, wird er 5 Sek. lang betäubt. Eine längere Fokussierungsdauer erhöht den Schaden und die Betäubungsdauer um bis zu 100 %. Bei max. Fokussierung wird sicher ein kritischer Treffer verursacht.",
+      "thumbnail": "heroes/Yanne/skills/1.png"
+    },
+    "2": {
+      "name": "Auslöschung!",
+      "cost": "3",
+      "cooldown": "10",
+      "description": "Greift das Ziel und Gegner in seiner Nähe an, verursacht ??? Körp. Schaden und betäubt sie für 2 Sek. Ist das Ziel ein Drache, wird ??? zusätzlicher VERT-ignorierender Körp. Schaden verursacht.",
+      "thumbnail": "heroes/Yanne/skills/2.png"
+    },
+    "3": {
+      "name": "Keine Gnade!",
+      "cost": "4",
+      "cooldown": "25",
+      "description": "Entfernt alle negativen Effekte auf sich selbst, erhöht 30 Sek. lang den ANG um ???, die VERT-Durchdr. um 500 und die ANG-GESCHW. um 250 und verringert alle erhaltenen Schäden um 25 %. Während der Wirkungsdauer verbrauchen Normal-ANG 3 % MP und fügt Gegnern in einer geraden Linie Schaden zu. Drachen erleiden ??? zus. VERT-ignorierenden Körp. Schaden. Dieser Effekt kann nicht entfernt werden.",
+      "thumbnail": "heroes/Yanne/skills/3.png"
+    },
+    "4": {
+      "name": "Drachenjäger",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht eigenen ANG um ??? und max. TP um 30 %. Der Normal-ANG-Schaden ignoriert die Block-Effekte des Gegners. Erhöht den eigenen Schaden gegen Drachen um 100 % und verringert den Schaden, den Verbündete von Drachen erhalten, um 20 %.",
+      "thumbnail": "heroes/Yanne/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    },
+    "4": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht Schaden um 40 %.",
+          "thumbnail": "heroes/Yanne/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Ist das Ziel ein Drache, wird zus. VERT-ignorierender Körp. Schaden in Höhe von 300 % des ANG zugefügt.",
+          "thumbnail": "heroes/Yanne/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Ist nur noch 1 Feind auf dem Schlachtfeld, wird der Schaden um 100 % erhöht.",
+          "thumbnail": "heroes/Yanne/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Verringert 10 Sek. lang den Körp. Krit. Widerstand des getroffenen Ziels um 500.",
+          "thumbnail": "heroes/Yanne/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht die beim Normal-ANG verbrauchten MP um 100 % und dem Drachen zugefügten zus. VERT-ignorierenden Körp. Schaden um 50 %.",
+          "thumbnail": "heroes/Yanne/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Verringert die eigene erhaltene Massenkontroll-Dauer um 50 % während der Wirkungsdauer.",
+          "thumbnail": "heroes/Yanne/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Ändert den Effekt zur Verringerung des Schadens, den Verbündete von Drachen erhalten, auf 30 %.",
+          "thumbnail": "heroes/Yanne/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Anstatt den Schaden, den Verbündete von Drachen erhalten, zu verringern, wird der eigenen Schaden gegen Drachen auf 130 % erhöht.",
+          "thumbnail": "heroes/Yanne/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Schaden +20 %",
+        "thumbnail": "heroes/Yanne/perks/light.png"
+      },
+      "dark": {
+        "effect": "Wenn ein Normal-ANG 10-mal trifft, werden positive Effekte des Ziels entfernt und zus. Körp. Schaden in Höhe von 500 % des ANG zugefügt.",
+        "thumbnail": "heroes/Yanne/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Drachenfluch, Svelta",
+    "description": "Verursacht bei einem Krit. Treffer zus. Körp. Schaden in Höhe von {0} % des ANG und regeneriert 150 MP. Ist das Ziel ein Drache, wird {1} % zus. Körp. Schaden zugefügt und er wird 1.5 Sek. lang betäubt. Dieser Effekt hat einen 0.5 Sek. Cooldown.",
+    "value": {
+      "0": {
+        "0": "50",
+        "1": "60",
+        "2": "72",
+        "3": "86",
+        "4": "103",
+        "5": "125"
+      },
+      "1": {
+        "0": "80",
+        "1": "96",
+        "2": "115",
+        "3": "138",
+        "4": "166",
+        "5": "200"
+      }
+    },
+    "thumbnail": "heroes/Yanne/uw.png",
+    "story": "Eine verzauberte Waffe, hergestellt aus Knochen, Sehnen und Haut des Wahnsinnigen Drachen Svelta. Dieser monströse Großbogen, der die Belagerungswaffentechnologie der Dunkelelfen und Zwerge vereint, ist zu schwer, um von einem Menschen aufgehoben oder gezogen zu werden. Nur Leute mit riesiger Muskelkraft wie Yanne können überhaupt daran denken, diesen unvorstellbaren Bogen handzuhaben. Die Seele des Wahnsinnigen Drachen schlummert immer noch in diesem Bogen. Seine grausame Energie steckt in jedem abgefeuerten Pfeil, wodurch sie die Kraft haben, selbst die mächtigste Mauer zu durchschlagen.",
+    "descriptionByStar": {
+      "0": "Verursacht bei einem Krit. Treffer zus. Körp. Schaden in Höhe von 50 % des ANG und regeneriert 150 MP. Ist das Ziel ein Drache, wird 80 % zus. Körp. Schaden zugefügt und er wird 1.5 Sek. lang betäubt. Dieser Effekt hat einen 0.5 Sek. Cooldown.",
+      "1": "12 %ige Chance, bei einem Krit. Treffer zusätzlichen Körp. Schaden zu verursachen (240 % der ANG) und 5 % Mana zu erholen. Ist das Ziel ein Drache, wird er 1,5 Sek. lang betäubt.",
+      "2": "14 %ige Chance, bei einem Krit. Treffer zusätzlichen Körp. Schaden zu verursachen (290 % der ANG) und 5 % Mana zu erholen. Ist das Ziel ein Drache, wird er 1,5 Sek. lang betäubt.",
+      "3": "17 %ige Chance, bei einem Krit. Treffer zusätzlichen Körp. Schaden zu verursachen (350 % der ANG) und 5 % Mana zu erholen. Ist das Ziel ein Drache, wird er 1,5 Sek. lang betäubt.",
+      "4": "21 %ige Chance, bei einem Krit. Treffer zusätzlichen Körp. Schaden zu verursachen (420 % der ANG) und 5 % Mana zu erholen. Ist das Ziel ein Drache, wird er 1,5 Sek. lang betäubt.",
+      "5": "25 %ige Chance, bei einem Krit. Treffer zusätzlichen Körp. Schaden zu verursachen (500 %  der ANG) und 5 % Mana zu erholen. Ist das Ziel ein Drache, wird er 1,5 Sek. lang betäubt."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Talisman der Konzentration",
+      "description": "[Fokussierter Schuss!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht 10 Sek. lang den erhaltenen Körp. Schaden des Ziels um {0} %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Yanne/ut/1.png",
+      "story": "Ein Armreif, den Yanne von den Stadtbewohnern erhalten hat, nachdem sie Svelta erschlagen hatte.\nEr wurde aus dem Leder eines Roten Drachen hergestellt und erlaubt es dem Träger Yang-Energie zu sammeln, um ein hohes Maß an Konzentration zu erreichen. Wenn Yanne ihr Ziel anvisiert, hilft es ihr dabei, einen einzigen tödlichen Schuss abzufeuern.",
+      "descriptionByStar": {
+        "0": "[Fokussierter Schuss!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht 10 Sek. lang den erhaltenen Körp. Schaden des Ziels um 10 %.",
+        "1": "[Fokussierter Schuss!] erhöht die ANG-GESCHW. für die Dauer des Skills um 800 und den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 12 %.",
+        "2": "[Fokussierter Schuss!] erhöht die ANG-GESCHW. für die Dauer des Skills um 800 und den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 14 %.",
+        "3": "[Fokussierter Schuss!] erhöht die ANG-GESCHW. für die Dauer des Skills um 800 und den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 17 %.",
+        "4": "[Fokussierter Schuss!] erhöht die ANG-GESCHW. für die Dauer des Skills um 800 und den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 21 %.",
+        "5": "[Fokussierter Schuss!] erhöht die ANG-GESCHW. für die Dauer des Skills um 800 und den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 25 %."
+      }
+    },
+    "2": {
+      "name": "Riesiger Pfeil des plötzlichen Todes",
+      "description": "[Auslöschung!] erhöht den Schaden um 20 % und verringert den Cooldown um 12 % bei einem Krit. Treffer.",
+      "value": {},
+      "thumbnail": "heroes/Yanne/ut/2.png",
+      "story": "Ein Pfeil, der aus dem Rückgrat des Verrückten Drachen Svelta hergestellt wurde und der mächtige magische Kanonen speit. Er gehört zu Yannes Beute. Die Pfeilspitze besitzt das brennende Rote Auge des Verrückten Drachen und ist immer noch mit seinem Wahnsinn getränkt, immer bereit, den Feind zu verbrennen.",
+      "descriptionByStar": {
+        "0": "[Auslöschung!] erhöht den Schaden um 20 % und verringert den Cooldown um 12 % bei einem Krit. Treffer.",
+        "1": "[Auslöschung!] erhöht den Schaden um 24 % und verringert den Cooldown um 12 % bei einem Krit. Treffer.",
+        "2": "[Auslöschung!] erhöht den Schaden um 29 % und verringert den Cooldown um 12 % bei einem Krit. Treffer.",
+        "3": "[Auslöschung!] erhöht den Schaden um 35 % und verringert den Cooldown um 12 % bei einem Krit. Treffer.",
+        "4": "[Auslöschung!] erhöht den Schaden um 42 % und verringert den Cooldown um 12 % bei einem Krit. Treffer.",
+        "5": "[Auslöschung!] erhöht den Schaden um 50 % und verringert den Cooldown um 12 % bei einem Krit. Treffer."
+      }
+    },
+    "3": {
+      "name": "Drachen-Steak",
+      "description": "[Keine Gnade!] verringert die Manakosten um 1 und erhöht den Schaden gegen Gegner, die keine Helden sind, während der Wirkungsdauer um {0} %.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
+      "thumbnail": "heroes/Yanne/ut/3.png",
+      "story": "T-Bone-Steak, das gleichzeitig wie ein Rumpsteak und ein Filetsteak eines Drachen schmeckt. Der Geschmack ist wirklich köstlich. Die heilige Energie des Drachen wird in den Körper aufgenommen und erhöht Yannes Ausdauer im Kampf auf das Maximum.",
+      "descriptionByStar": {
+        "0": "[Keine Gnade!] verringert die Manakosten um 1 und erhöht den Schaden gegen Gegner, die keine Helden sind, während der Wirkungsdauer um 12 %.",
+        "1": "[Keine Gnade!] verringert die Manakosten um 1 und erhöht den Schaden gegenüber Drachen um 12 %, solange der Skill andauert.",
+        "2": "[Keine Gnade!] verringert die Manakosten um 1 und erhöht den Schaden gegenüber Drachen um 14 %, solange der Skill andauert.",
+        "3": "[Keine Gnade!] verringert die Manakosten um 1 und erhöht den Schaden gegenüber Drachen um 17 %, solange der Skill andauert.",
+        "4": "[Keine Gnade!] verringert die Manakosten um 1 und erhöht den Schaden gegenüber Drachen um 21 %, solange der Skill andauert.",
+        "5": "[Keine Gnade!] verringert die Manakosten um 1 und erhöht den Schaden gegenüber Drachen um 25 %, solange der Skill andauert."
+      }
+    },
+    "4": {
+      "name": "Das lodernde Herz des Riesen",
+      "description": "[Drachenjäger] verringert den Schaden, den Verbündete von Drachen erhalten, um zus. 10 % und erhöht den Drachen zugefügten Schaden um {0} %.",
+      "value": {
+        "0": {
+          "0": "6",
+          "1": "7.2",
+          "2": "8.6",
+          "3": "10.4",
+          "4": "12.6",
+          "5": "15"
+        }
+      },
+      "thumbnail": "heroes/Yanne/ut/4.png",
+      "story": "Als Yanne damit beauftragt wurde, die Riesen zu töten, traf sie auf deren Anführer, den Feuerriesen, und kämpfte drei Tage und drei Nächte gegen ihn, bis sie ihn schließlich besiegen konnte.\nAls sie das Herz des Feuerriesen durchbohrte, entdeckte sie trotz der lodernden Flammen einen faustgroßen Stein.\nAls sie den Stein an sich nahm, erloschen die Flammen. Seit diesem Tag versprühen Yannes Pfeile Flammenenergie.",
+      "descriptionByStar": {
+        "0": "[Drachenjäger] verringert den Schaden, den Verbündete von Drachen erhalten, um zus. 10 % und erhöht den Drachen zugefügten Schaden um 6 %.",
+        "1": "[Drachenschlächter] erhöht den ANG-Boost um 50 %. Alle Verbündeten verursachen um 4,8 % mehr Schaden an Drachen.",
+        "2": "[Drachenschlächter] erhöht den ANG-Boost um 50 %. Alle Verbündeten verursachen um 5,8 % mehr Schaden an Drachen.",
+        "3": "[Drachenschlächter] erhöht den ANG-Boost um 50 %. Alle Verbündeten verursachen um 7 % mehr Schaden an Drachen.",
+        "4": "[Drachenschlächter] erhöht den ANG-Boost um 50 %. Alle Verbündeten verursachen um 8,4 % mehr Schaden an Drachen.",
+        "5": "[Drachenschlächter] erhöht den ANG-Boost um 50 %. Alle Verbündeten verursachen um 10 % mehr Schaden an Drachen."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 18 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört 20 Sek. lang die Seele von Drachenfluch, Svelta, erhöht die eigene ANG-GESCHW. um 300 und die der Verbündeten um 300, und regeneriert 400 eigene MP/Sek. Erhöht den erhaltenen Schaden aller Gegner um 20 % während der Wirkungsdauer und wenn es sich bei dem Ziel um einen Drachen handelt, wird der Schaden-Boost auf 60 % geändert.",
+    "cooldown": "20",
+    "uses": "7",
+    "thumbnail": "heroes/Yanne/sw.png",
+    "advancement": {
+      "1": "Erhöht eigenen ANG um 50 % während der Wirkungsdauer.",
+      "2": "Der Schaden des Normal-ANG ignoriert die VERT des Gegners während der Wirkungsdauer."
+    },
+    "story": "Die Seele des Wahnsinnigen Drachen Svelta kann nicht in Frieden ruhen.\nSein Zorn und sein Groll ließen Großbogen von Yanne zurück und schrien, um alles zu zerstören, was er sieht.\nAber die Zeit verging und die Seele von Svelta in den Händen von Yanne, konnte den Zorn kontrollieren, der seine eigene Einstellung zerstörte.\n\nVielleicht liegt es daran, dass das Monster, das Yanne gefangen hat,\ndie Seele von Draconics berührt hat.\nDer Groll des Wahnsinnigen Drachen Svelta lernte, das Objekt des Zorns zu verstehen.\nNicht jede Kreatur auf der Welt ist Gegenstand von Wut.\nDämonen und Draconics, Monster und Verdorbene. Sie sind das Objekt, das es zerstören muss.\n\nSo wurde der Groll von Svelta still und schwang mit der Seele von Yanne mit und ging denselben Weg mit der Drachenschlächterin, die das Blut eines Drachen hat."
+  },
+  "splashart": "heroes/Yanne/sa.png",
+  "costumes": "heroes/Yanne/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

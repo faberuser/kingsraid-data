@@ -1,0 +1,244 @@
+{
+  "id": "Lavril",
+  "profile": {
+    "name": "Lavril",
+    "title": "Lavril, Adorable Esprit maléfique",
+    "class": "Priest",
+    "position": "Back-100",
+    "attack_range": "5400",
+    "damage_type": "Magical",
+    "gender": "Féminin (Mais le lapin est un mâle)",
+    "age": "???",
+    "height": "131",
+    "race": "Fantôme",
+    "constellation": "Graham le Grand Voleur",
+    "birth": {
+      "month": 5,
+      "day": 30,
+      "monthName": "Mois de l'Espoir"
+    },
+    "like": "Les amis potentiels, les animaux et les villages animés",
+    "dislike": "Les personnes effrayantes, la malveillance, être considérée comme un monstre",
+    "story": "Fantôme hors du commun.\nUn observateur superficiel verra le fantôme d'une jeune femme ordinaire, mais son identité spectrale est multiple. En réalité, elle combine d'innombrables âmes.\nDotée d'une énergie spectrale phénoménale, elle serait assez puissante pour faire trembler les âmes et lancer des malédictions à volonté...\n\nSi elle était un fantôme ordinaire.\n\nCertains soutiennent qu'elle est issue de la réunion de jeunes âmes qui ont péri lors de la Guerre des démons il y a cent ans. En effet, les âmes des enfants sont trop pures et innocentes pour éprouver la moindre rancœur.\nLavril, qui est le fruit de cette réunion, vint au monde avec une grande bienveillance.\nIl ne faudrait toutefois pas oublier sa nature :\nun amalgame d'enfants fantômes.\nUn enfant est comme une page vierge : il deviendra ce qu'il choisira de devenir.\nSans supervision, elle pourrait représenter une menace considérable pour le monde entier.",
+    "thumbnail": "heroes/Lavril/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "A-allez-vous-en !",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Inflige ??? DEG M à l'ennemi et pendant 10 sec, augmente les DEG M reçus par la cible de 25% et réduit sa Résistance Crit de 300. Met la cible touchée à l'état d''Ectoplasme de Lavril' pendant 5 sec, ce qui lui inflige ??? DEG M toutes les 0.5 sec. À chaque fois que cette compétence inflige des DEG à l'ennemi, restaure les PV de tous les alliés à hauteur de 5% des DEG infligés. Lorsque la cible est éliminée, réinitialise le temps de recharge de cette compétence et restaure 1 barres de PM de Lavril.",
+      "thumbnail": "heroes/Lavril/skills/1.png"
+    },
+    "2 (1)": {
+      "name": "Tiens bon !",
+      "cost": "4",
+      "cooldown": "24",
+      "description": "Restaure ??? PV de l'allié à l'ATQ la plus élevée et ??? PV supplémentaires toutes les 1 sec pendant 15 sec. Augmente l'ATQ de la cible alliée de 20% et ses DEG Crit à hauteur de 50% + 15% des DEG Crit de Lavril pendant 15 sec. [Vous me faites peur !] devient disponible dans 5 sec après l'utilisation de cette compétence.",
+      "thumbnail": "heroes/Lavril/skills/2 (1).png"
+    },
+    "2 (2)": {
+      "name": "Vous me faites peur !",
+      "cost": "1",
+      "cooldown": null,
+      "description": "Inflige ???DEG M à l'ennemi et réduit sa Vitesse d'ATQ de 250 pendant 15 sec, tout en augmentant les DEG M qu'il subit de 25%.",
+      "thumbnail": "heroes/Lavril/skills/2 (2).png"
+    },
+    "3": {
+      "name": "Laissez-moi tranquille !",
+      "cost": "4",
+      "cooldown": "25",
+      "description": "Génère une Tornade spectrale dans une vaste zone à l'avant qui inflige ??? DEG M toutes les 0.5 sec pendant 6 sec. À chaque coup porté, réduit l'ATQ des ennemis touchés de 4.5% pendant 5 sec et augmente leurs DEG M reçus de 4.5%. Cet effet peut se cumuler jusqu'à 10 fois.",
+      "thumbnail": "heroes/Lavril/skills/3.png"
+    },
+    "4": {
+      "name": "Ensemble pour toujours...",
+      "cost": null,
+      "cooldown": "999.999",
+      "description": "Au début de la première bataille, établit un Lien psychique avec l'allié à l'ATQ la plus élevée.\nCet effet ne peut être dissipé.\nAugmente l'ATQ de ???, la Pénétration DEF de 300, la DEF de 15% et les DEG infligés à l'ennemi non-Héros de 8% de l'allié lié par Lien psychique, et lui restaure 150 PM toutes les sec.",
+      "thumbnail": "heroes/Lavril/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG et les soins de 10%.",
+      "III": "Augmente les DEG et les soins de 15%.",
+      "IV": "Augmente les DEG et les soins de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Le Taux d'augmentation de l'ATQ est augmenté de 10%.",
+      "III": "Le Taux d'augmentation de l'ATQ est augmenté de 15%.",
+      "IV": "Le Taux d'augmentation de l'ATQ est augmenté de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Modifie le taux de réduction de la Résistance Crit en 500.",
+          "thumbnail": "heroes/Lavril/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Augmente la Restauration des PV de 100% lorsqu'il n'y a qu'1 seul ennemi.",
+          "thumbnail": "heroes/Lavril/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "[Tiens bon !] empêche les PV de la cible de descendre en dessous de 5% pendant la durée de la compétence.\n[Vous me faites peur !] dissipe les effets positifs dont bénéficiait la cible.",
+          "thumbnail": "heroes/Lavril/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "[Tiens bon !] - Augmente le nombre de cible de la compétence de 1.\n[Vous me faites peur !] - Augmente le nombre de cible de la compétence de 1.",
+          "thumbnail": "heroes/Lavril/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Réduit le temps de recharge de 30%.",
+          "thumbnail": "heroes/Lavril/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Lavril/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Modifie l'augmentation des DEG infligés aux ennemis non-Héros de 12% pour l'allié lié par Lien psychique.",
+          "thumbnail": "heroes/Lavril/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Réduit les DEG reçus de 20% pour Lavril et l'allié lié par Lien psychique.",
+          "thumbnail": "heroes/Lavril/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Lavril/perks/light.png"
+      },
+      "dark": {
+        "effect": "Chaque coup reçu augmente de 3% l'ATQ de l'allié connecté par le Lien psychique. Cet effet peut se cumuler jusqu'à 20 fois.",
+        "thumbnail": "heroes/Lavril/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Dunn Nemecia, l'Âme du Néant",
+    "description": "Chaque compétence déclenchée lance [Âme du néant] pendant 1 sec et permet d'esquiver toutes les attaques. Cet effet s'active toutes les 10 sec. Augmente de 30% les DEG Crit de l'allié connecté par le Lien psychique.",
+    "value": {},
+    "thumbnail": "heroes/Lavril/uw.png",
+    "story": "Autre entité spectrale qui fut séparée de Lavril.\nContrairement à cette dernière, Dunn Nemecia est un amalgame d'âmes négatives et agressives.\nPar chance, ce fantôme aussi effrayant qu'adorable dissimule la plupart du temps son côté maléfique, et n'utilise ses pouvoirs que lorsque son hôte en a besoin ou lorsqu'il se sent menacé.\n\nToutefois, cet étrange fantôme n'est pas amical ou inoffensif.\n\nLes tours qu'il joue sont généralement de méchantes farces, comme disposer des jouets pointus autour d'une personne endormie, renverser un plat tout juste sorti du four, faire tomber les passants, mais...\nCes « tours » pourraient être bien plus graves s'ils n'étaient pas sous le contrôle de Lavril.",
+    "descriptionByStar": {
+      "0": "Chaque compétence déclenchée lance [Âme du néant] pendant 1 sec et permet d'esquiver toutes les attaques. Cet effet s'active toutes les 10 sec. Augmente de 30% les DEG Crit de l'allié connecté par le Lien psychique.",
+      "1": "Chaque compétence déclenchée lance [Âme du néant] pendant 1,2 sec et permet d'esquiver toutes les attaques. Cet effet s'active toutes les 10 sec. Augmente de 36% les DEG Crit de l'allié connecté par le Lien psychique.",
+      "2": "Chaque compétence déclenchée lance [Âme du néant] pendant 1,4 sec et permet d'esquiver toutes les attaques. Cet effet s'active toutes les 10 sec. Augmente de 42% les DEG Crit de l'allié connecté par le Lien psychique.",
+      "3": "Chaque compétence déclenchée lance [Âme du néant] pendant 1,7 sec et permet d'esquiver toutes les attaques. Cet effet s'active toutes les 10 sec. Augmente de 51% les DEG Crit de l'allié connecté par le Lien psychique.",
+      "4": "Chaque compétence déclenchée lance [Âme du néant] pendant 2,1 sec et permet d'esquiver toutes les attaques. Cet effet s'active toutes les 10 sec. Augmente de 63% les DEG Crit de l'allié connecté par le Lien psychique.",
+      "5": "Chaque compétence déclenchée lance [Âme du néant] pendant 2,5 sec et permet d'esquiver toutes les attaques. Cet effet s'active toutes les 10 sec. Augmente de 75% les DEG Crit de l'allié connecté par le Lien psychique."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Carte de tarot de la lune",
+      "description": "[A-allez-vous-en !] augmente les DEG de 50 % et réduit la récupération des ennemis touchés de 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Lavril/ut/1.png",
+      "story": "Par une nuit bien avancée, Lavril découvrit la tente d'une diseuse de bonne aventure.\nD'étranges créatures voletaient autour d'elle, gênant sa progression.\nLa diseuse de bonne aventure sentit sa présence et l'accueillit.\n\n- Bienvenue chez la diseuse de bonne aventure de Stardust. Que souhaites-tu savoir ?\n\nEn la voyant sourire, Lavril ouvrit timidement la bouche.\n\n- N-nous voulons... nous faire un ami.\nUn ami qui n'est pas comme nous... Un ami qui respire, qu'on peut toucher... O-où peut-on trouver un tel ami ?\n\nLa diseuse de bonne aventure lui tendit une carte en souriant.\n\nOn pouvait y voir la lune et une puissante créature à sa surface.\nPrise d'une peur instinctive, Lavril voulut écarter la carte,\nmais elle sentit que la créature acceptait son contact, comme pour apaiser ses angoisses.\n\nCe sentiment étrange déconcerta Lavril, mais elle se sentit ensuite vite à l'aise.\nLa diseuse de bonne aventure posa ses mains sur celles de Lavril.\n\n- Ce que tu cherches n'est pas bien loin.\nNe sommes-nous pas déjà bonnes amies ?\n\nElle se mit à déplacer ses cartes une par une, sans lâcher les mains de Lavril.\nLes cartes parlaient en silence à la diseuse de bonne aventure, comme si elles voulaient désespérément exaucer le souhait de Lavril.\n\nUne fois les cartes toutes disposées, la diseuse de bonne aventure se mit à parler en souriant.\n\n- Ces jeunes hommes et femmes semblent beaucoup t'apprécier.\nIls me disent que tu vas rencontrer un tas de personnes qui te seront chères.\nTu rencontreras bientôt les amis que tu espérais.",
+      "descriptionByStar": {
+        "0": "[A-allez-vous-en !] augmente les DEG de 50 % et réduit la récupération des ennemis touchés de 20 %.",
+        "1": "[A-allez-vous-en !] augmente les DEG de 50 % et réduit la récupération des ennemis touchés de 24 %.",
+        "2": "[A-allez-vous-en !] augmente les DEG de 50 % et réduit la récupération des ennemis touchés de 29 %.",
+        "3": "[A-allez-vous-en !] augmente les DEG de 50 % et réduit la récupération des ennemis touchés de 35 %.",
+        "4": "[A-allez-vous-en !] augmente les DEG de 50 % et réduit la récupération des ennemis touchés de 42 %.",
+        "5": "[A-allez-vous-en !] augmente les DEG de 50 % et réduit la récupération des ennemis touchés de 50 %."
+      }
+    },
+    "2": {
+      "name": "Parfum de fée",
+      "description": "[Tiens bon !] augmente les soins de 50 % et les DEG Crit de 20 %.\n[Vous me faites peur !] augmente les DEG de 50 % et réduit la DEF M de la cible de 10 %.",
+      "value": {},
+      "thumbnail": "heroes/Lavril/ut/2.png",
+      "story": "Par une belle journée ensoleillée, Lavril se promenait timidement autour d'un village.\nElle voulait y entrer et s'y faire des amis, mais le fait d'avoir été chassée par les prêtres de Lua la faisait hésiter.\n\nC'est alors qu'elle entendit chanter joyeusement près des parterres de fleurs juste à côté du village.\nCurieuse, elle se dirigea lentement vers cette voix.\nElle y trouva une jeune femme en train de chanter et de jouer de la harpe parmi les fleurs écloses, et les enfants, les fées et même les animaux dansaient sur sa mélodie.\n\nHypnotisée par cette scène, elle s'approcha des parterres sans même s'en rendre compte.\nÀ l'instant où elle posa le pied sur les parterres, les fées et les animaux se mirent à crier et se cachèrent, et les enfants se mirent à pleurer.\nIls étaient sensibles à l'énergie de Lavril et se sentirent menacés par sa présence.\n\nCependant, la jeune femme ne réagit pas ainsi.\nElle apaisa les créatures, cueillit des fleurs et les offrit à Lavril.\n\nAvec ce bouquet en main, Lavril se sentit acceptée et afficha un large sourire.\nAprès avoir compris qu'elle ne leur ferait aucun mal, les animaux, les fées et les enfants l'accueillirent dans la joie.",
+      "descriptionByStar": {
+        "0": "[Tiens bon !] augmente les soins de 50 % et les DEG Crit de 20 %.\n[Vous me faites peur !] augmente les DEG de 50 % et réduit la DEF M de la cible de 10 %.",
+        "1": "[Tiens bon !] augmente les soins de 50 % et les DEG Crit de 24 %.\n[Vous me faites peur !] augmente les DEG de 50 % et réduit la DEF M de la cible de 12 %.",
+        "2": "[Tiens bon !] augmente les soins de 50 % et les DEG Crit de 29 %.\n[Vous me faites peur !] augmente les DEG de 50 % et réduit la DEF M de la cible de 14 %.",
+        "3": "[Tiens bon !] augmente les soins de 50 % et les DEG Crit de 35 %.\n[Vous me faites peur !] augmente les DEG de 50 % et réduit la DEF M de la cible de 17 %.",
+        "4": "[Tiens bon !] augmente les soins de 50 % et les DEG Crit de 42 %.\n[Vous me faites peur !] augmente les DEG de 50 % et réduit la DEF M de la cible de 21 %.",
+        "5": "[Tiens bon !] augmente les soins de 50 % et les DEG Crit de 50 %.\n[Vous me faites peur !] augmente les DEG de 50 % et réduit la DEF M de la cible de 25 %."
+      }
+    },
+    "3": {
+      "name": "Protection bénie",
+      "description": "[Laissez-moi tranquille !] Augmente le nombre de charges max de 2 et les DEG M reçus par coup porté de {0}%.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
+      "thumbnail": "heroes/Lavril/ut/3.png",
+      "story": "Lorsque Lavril vint au monde, elle fut d'abord considérée comme un fantôme effrayant. Maintes rumeurs circulèrent sur son compte.\nL'Église de Lua demanda aux grands prêtres disponibles de se charger d'elle.\nParmi eux, Lucias le Saint béni et Baudouin la tête brûlée répondirent à l'appel.\n\nLorsqu'ils apprirent l'existence de Lavril, ils se précipitèrent à sa rencontre.\nDès qu'ils la virent, ils comprirent qu'elle n'était pas un fantôme ordinaire, mais une accumulation d'enfants fantômes.\n\nIls réalisèrent rapidement qu'elle ne présentait aucun danger.\nMais l'Église avait parlé. Les fantômes devaient être exorcisés, et en tant que prêtres, ils avaient pour mission de la purifier et de la guider vers sa dernière demeure.\n\nLucias ne l'entendit pas de cette oreille.\nLavril était une âme pure et ne méritait pas d'être exorcisée. Il voulait l'accompagner dans l'au-delà le moment voulu, sans intervention artificielle.\n\nLucias sortit son mouchoir, essuya les larmes de Lavril, et lui montra le chemin vers la lumière et les préceptes de Lua.\nCe mouchoir lui rappelle toujours Lucias, la lumière qui la guide dans les moments de doute.",
+      "descriptionByStar": {
+        "0": "[Laissez-moi tranquille !] Augmente le nombre de charges max de 2 et les DEG M reçus par coup porté de 1%.",
+        "1": "[Laissez-moi tranquille !] augmente la durée de la compétence de 1 sec et les DEG M subis par la cible de 1,2 % à chaque coup porté.",
+        "2": "[Laissez-moi tranquille !] augmente la durée de la compétence de 1 sec et les DEG M subis par la cible de 1,4 % à chaque coup porté.",
+        "3": "[Laissez-moi tranquille !] augmente la durée de la compétence de 1 sec et les DEG M subis par la cible de 1,7 % à chaque coup porté.",
+        "4": "[Laissez-moi tranquille !] augmente la durée de la compétence de 1 sec et les DEG M subis par la cible de 2,1 % à chaque coup porté.",
+        "5": "[Laissez-moi tranquille !] augmente la durée de la compétence de 1 sec et les DEG M subis par la cible de 2,5 % à chaque coup porté."
+      }
+    },
+    "4": {
+      "name": "Larme d'âme",
+      "description": "[Ensemble pour toujours…] Augmente le boost d'ATQ de 50 % et la récupération des alliés connectés par le Lien psychique de 10 %.",
+      "value": {},
+      "thumbnail": "heroes/Lavril/ut/4.png",
+      "story": "Les esprits maléfiques sont l'expression de la rancœur pure, mus par les émotions négatives telles que la haine et la rage, et incapables de se contrôler. Ils sont si jaloux de la vie qu'ils s'acharnent à transformer les vivants en esprits maléfiques comme eux. Cependant, Lavril est constituée de l'innocence des enfants. Elle est donc une exception et ne peut pas être qualifiée d'esprit maléfique.\n\nSon existence même est ironique. Même entourée d'innombrables âmes, elle reste hantée par la solitude. Lors de son éveil, elle ne savait ni qui ni ce qu'elle était. Seules la douleur et la souffrance animaient son corps, et son but restait à découvrir. Le chagrin des jeunes âmes ayant connu un trépas poignant commença à former des larmes, et la puissance gigantesque des âmes appelait d'autres esprits maléfiques. On raconte que le jour où elle naquit, le ciel s'était entièrement assombri.\n\nSes cris déchirants interpellèrent Rephy Guide spirituel. Il la trouva grâce à l'aide d'Oddy et de Nyx, qui apprirent la détresse de Lavril auprès d'autres âmes.\n\nRephy lui offrit de nombreux cadeaux pour qu'elle cesse de pleurer, et cet objet fut ce qui retenait le plus son attention. Il s'agit d'une pierre précieuse abandonnée par les esprits maléfiques vengeurs après qu'ils furent bannis. La relique d'une âme sans entrave enfin libérée du mal. Cette pierre précieuse réussit à calmer le chagrin abyssal de Lavril.",
+      "descriptionByStar": {
+        "0": "[Ensemble pour toujours…] Augmente le boost d'ATQ de 50 % et la récupération des alliés connectés par le Lien psychique de 10 %.",
+        "1": "[Ensemble pour toujours…] Augmente le boost d'ATQ de 50 % et la récupération des alliés connectés par le Lien psychique de 12 %.",
+        "2": "[Ensemble pour toujours…] Augmente le boost d'ATQ de 50 % et la récupération des alliés connectés par le Lien psychique de 14 %.",
+        "3": "[Ensemble pour toujours…] Augmente le boost d'ATQ de 50 % et la récupération des alliés connectés par le Lien psychique de 17 %.",
+        "4": "[Ensemble pour toujours…] Augmente le boost d'ATQ de 50 % et la récupération des alliés connectés par le Lien psychique de 21 %.",
+        "5": "[Ensemble pour toujours…] Augmente le boost d'ATQ de 50 % et la récupération des alliés connectés par le Lien psychique de 25 %."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 22 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de Dunn Nemecia, l'Âme du Néant, ce qui inflige à tous les ennemis ??? DEG M et leur applique 'Malice de l'Âme'. Augmente les DEG M reçus par l'ennemi à l'état de 'Malice de l'Âme' de 8% et réduit sa récupération de PV de 8%, pendant 10 sec. Ensuite, pendant 10 sec, inflige ??? DEG M à tous les ennemis à chaque utilisation de compétence et leur applique 'Malice de l'Âme'. L'effet de 'Malice de l'Âme' peut se cumuler jusqu'à 3 fois.",
+    "cooldown": "20",
+    "uses": "5",
+    "thumbnail": "heroes/Lavril/sw.png",
+    "advancement": {
+      "1": "Modifie le nombre maximum de l'état de Malice de l'Âme cumulable à 4 fois.",
+      "2": "Augmente l'effet de Malice de l'Âme de 50%."
+    },
+    "story": "Lavril ne s'interroge pas sur ce qu'elle est.\n\nLa raison est qu'elle n'est pas pleinement consciente du fait qu'elle fait partie des ténèbres, mais aussi qu'elle est une enfant solitaire ayant besoin d'amis autour d'elle.\nComparé à Lavril, Dunn Nemecia est incontestablement conscient. Conscient du fait que pour la seule raison qu'il soit une créature de ténèbres, il peut être pourchassé par les chasseurs de ténèbres, ou se faire dévorer par d'autres ténèbres plus puissantes.\nL'être de ténèbres d'une noble lignée, rencontré par hasard, leur proposa deux voies à suivre.\nPuisqu'au début, ils étaient une créature du nom de Lavril, ils pouvaient s'unifier pour ne laisser que Lavril. Ou ils pouvaient aussi admettre qu'ils étaient deux individus distincts, bien que ce soit une tâche ambiguë, et s'entraider afin de survivre, gardant la confiance sur leurs possibilités.\nDevant ce choix qui déterminaient leurs survies, Lavril et Dunn Nemecia décidèrent d'admettre leur individualité, ne souhaitant la disparition de l'autre.\n\n'Nous' nous protégerons et serons ensemble pour l'éternité, bien que nous serons des êtres différents l'un de l'autre. Les petits êtres de ténèbres se sourirent et se tinrent la main."
+  },
+  "splashart": "heroes/Lavril/sa.png",
+  "costumes": "heroes/Lavril/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

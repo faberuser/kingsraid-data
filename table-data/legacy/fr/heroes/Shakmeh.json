@@ -1,0 +1,264 @@
+{
+  "id": "Shakmeh",
+  "profile": {
+    "name": "Shakmeh",
+    "title": "Shakmeh, Ombre du Soleil",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "8000",
+    "damage_type": "Physical",
+    "gender": "Homme",
+    "age": "21",
+    "height": "193",
+    "race": "Tidhar",
+    "constellation": "Asiphia l'Impératrice",
+    "birth": {
+      "month": 10,
+      "day": 30,
+      "monthName": "Mois de l'Amitié"
+    },
+    "like": "Ce qui lui apporte de la force, tout ce qui est puissant",
+    "dislike": "Désert Aegina, tout ce qui est faible",
+    "story": "Le second prince de l'antique royaume de Sekireinel, qui a choisi les Ténèbres dissonantes, abandonnant le désert. Alors qu'il faisait répandre la menace sur tout le royaume, il a été vaincu par le nouveau héritier du désert. Toutefois, en tant que réceptacle de Tidhar, il a survécu sous forme de fragment des ténèbres, avant de recevoir une nouvelle existence. Il est difficile de savoir s'il est le véritable Shakmeh ou s'il n'est que l'un parmi les Tidhar des Ténèbres dissonantes, mais l'obsession qu'il porte à son frère Cain est restée intact, comme si ce sentiment était l'essence de son identité. Durant toute sa vie précédente, il ne faisait que se dissimuler derrière les émotions les plus sombres qu'il éprouvait. Maintenant qu'il vit de nouveau, il souhaite mettre la main sur un pouvoir des ténèbres encore plus puissant, afin de se surpasser, de surpasser Cain et de devenir ainsi capable d'annihiler tout le désert Aegina. Il sait parfaitement ce que choisir cette voie signifie. Cependant, rien ne le fera hésiter; quelles qu'en soient les conséquences, il marchera dans les ténèbres, droit vers ce but.",
+    "thumbnail": "heroes/Shakmeh/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Vent de la Haine",
+      "cost": "2",
+      "cooldown": "13",
+      "description": "Attaque l'ennemi à portée en ligne droite à 5 reprises pour infliger un total de ??? DEG P. Récupère 100 PM à chaque coup porté.",
+      "thumbnail": "heroes/Shakmeh/skills/1.png"
+    },
+    "2": {
+      "name": "Portail de la Rancœur",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Génère le [Portail de la Rancœur] devant lui pendant 7 sec, infligeant aux ennemis à portée un total de  ??? DEG P. À chaque coup porté, cumule une charge de [Rancœur] qui dure pendant 15 sec. [Rancœur] peut se cumuler jusqu'à 5 fois, et chaque charge réduit la récupération des PV de la cible de 4%. Multiplie par 2 la réduction de la récupération des PV si la cible est un ennemi non-Héros.",
+      "thumbnail": "heroes/Shakmeh/skills/2.png"
+    },
+    "3": {
+      "name": "Avènement du Désespoir",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Dissipe son effet négatif et consomme toutes les charges d'[Esprit noir] pour augmenter pendant 15 sec l'ATQ de tous les alliés de 10% + 0.5% par charge d'[Esprit noir]. Ensuite, inflige ??? DEG P supplémentaires à tous les ennemis, les étourdit pendant 3 sec, et augmente les DEG P reçus par la cible pendant 15 sec de 20% + 1% par charge d'[Esprit noir]. Augmente les DEG de cette compétence de 10% par charge d'[Esprit noir], et multiplie par 2 l'augmentation des DEG par charge si la cible est un ennemi non-Héros.",
+      "thumbnail": "heroes/Shakmeh/skills/3.png"
+    },
+    "4": {
+      "name": "Réceptacle de l'Esprit noir",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente les PV max de 20%. Chaque fois que Shakmeh inflige des DEG à l'ennemi avec une compétence, inflige des DEG P supplémentaires à hauteur de 1% de ses PV max, restaure les PV de tous les alliés à hauteur de 0.1% de ses PV max et augmente leur DEF M de ??? pendant 15 sec, puis cumule sur lui-même une charge d'[Esprit noir] qui dure pendant 30 sec. [Esprit noir] peut se cumuler jusqu'à 30 fois et ne peut être dissipé. L'effet d'augmentation de DEF M peut se cumuler jusqu'à 30 fois.",
+      "thumbnail": "heroes/Shakmeh/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente les PV max de 5% supplémentaires.",
+      "III": "Augmente les PV max de 5% supplémentaires.",
+      "IV": "Augmente les PV max de 5% supplémentaires."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Augmente les DEG P reçus par la cible touchée de 25% pendant 10 sec.",
+          "thumbnail": "heroes/Shakmeh/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Dissipe l'effet positif de la cible.",
+          "thumbnail": "heroes/Shakmeh/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit le temps de recharge de 6 sec.",
+          "thumbnail": "heroes/Shakmeh/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Pendant la durée de [Portail de la Rancœur], étourdit la cible pendant 1 sec à chaque coup porté.",
+          "thumbnail": "heroes/Shakmeh/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente les DEG infligés de 40%.",
+          "thumbnail": "heroes/Shakmeh/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Dissipe l'effet négatif de tous les alliés.",
+          "thumbnail": "heroes/Shakmeh/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Modifie à 1.5% le taux des DEG supplémentaires infligés proportionnellement à la santé max.",
+          "thumbnail": "heroes/Shakmeh/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Lorsqu'il y a 1 ennemi, modifie à 1% le taux de restauration des PV proportionnel à la santé max.",
+          "thumbnail": "heroes/Shakmeh/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / PV +10%",
+        "thumbnail": "heroes/Shakmeh/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente l'ATQ de 1 alliés à l'ATQ la plus élevée à hauteur de 0.1% des PV max du lanceur, et reçoit 20% de tous les DEG reçus par la cible à sa place. Cet effet ne peut être dissipé, et réduit les DEG reçus à la place de la cible alliée de 50%. L'effet d'augmentation de l'ATQ est réduit de moitié à l'Arène.",
+        "thumbnail": "heroes/Shakmeh/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Leifende, les Ténèbres grandissantes",
+    "description": "Chaque fois que le lanceur inflige des DEG à l'ennemi avec les attaques automatiques, récupère des PV à hauteur de 0.5% de ses PV max et se confère une charge de [Bête diabolique] qui ne peut être dissipée. [Bête diabolique] peut se cumuler jusqu'à 10 fois, et lorsque le nombre de charges cumulées atteint le maximum, augmente les DEG P reçus par tous les ennemis de {0}% pendant 15 sec, et consomme toutes les charges pour se mettre pendant 15 sec à l'état de [Bête ténébreuse] qui ne peut être dissipé, ce qui augmente la Vitesse d'ATQ de {1} et la récupération des PV de {2}%. À l'état de [Bête ténébreuse], ne cumule pas de charges de [Bête diabolique], et applique les effets d'augmentation de la Vitesse d'ATQ et de la récupération des PV que bénéficie Shakmeh à tous les alliés à un taux de 50%.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "120",
+        "1": "140",
+        "2": "170",
+        "3": "210",
+        "4": "250",
+        "5": "300"
+      },
+      "2": {
+        "0": "12",
+        "1": "14",
+        "2": "17",
+        "3": "21",
+        "4": "25",
+        "5": "30"
+      }
+    },
+    "thumbnail": "heroes/Shakmeh/uw.png",
+    "story": "Dans l'antique Sekireinel, il y avait pour coutume d'offrir les cimeterres aux honorables guerriers chargés de veiller sur les frontières du désert. Lorsque le jour vint où Shakmeh reçut la mission de protéger les frontières du royaume, Cain ordonna de les forger et les lui octroya. Dans l'espoir que cela aiderait son frère à rester sur le droit chemin, Cain fit orner ces armes avec une décoration en forme de chacal, qui représentait un dieu protecteur auquel les guerriers du désert adressaient leurs prières. Mais lorsque Shakmeh succomba aux ténèbres, une aura funeste imprégna les lames. Dans le passé, lorsque Cain et Shakmeh s'étaient affrontés dans Sekireinel, Shakmeh s'était battu avec ces cimeterres, ce qui avait grandement attristé son grand frère.\nQuand il combattit de nouveau contre Cain en tant qu'Ombre d'Aegina, les lame des cimeterres se brisèrent au moment où Shakmeh fut défait. Quand il ressuscita en tant que Tidhar, les ténèbres qui souillaient les lames permirent à l'arme de reprendre sa forme originelle.",
+    "descriptionByStar": {
+      "0": "Chaque fois que le lanceur inflige des DEG à l'ennemi avec les attaques automatiques, récupère des PV à hauteur de 0.5% de ses PV max et se confère une charge de [Bête diabolique] qui ne peut être dissipée. [Bête diabolique] peut se cumuler jusqu'à 10 fois, et lorsque le nombre de charges cumulées atteint le maximum, augmente les DEG P reçus par tous les ennemis de 20% pendant 15 sec, et consomme toutes les charges pour se mettre pendant 15 sec à l'état de [Bête ténébreuse] qui ne peut être dissipé, ce qui augmente la Vitesse d'ATQ de 120 et la récupération des PV de 12%. À l'état de [Bête ténébreuse], ne cumule pas de charges de [Bête diabolique], et applique les effets d'augmentation de la Vitesse d'ATQ et de la récupération des PV que bénéficie Shakmeh à tous les alliés à un taux de 50%."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Cadeau de la Messagère",
+      "description": "[Vent de la Haine] Réduit le coût en PM de 1, et le Blocage de la cible de {0} pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
+      "thumbnail": "heroes/Shakmeh/ut/1.png",
+      "story": "Un pendentif gravé d'un motif mystérieux. Xerah l'avait offert à Shakmeh lorsqu'il étudiait à l'étranger. À l'époque, Shakmeh s'intéressait aux différents savoirs qu'il ne pouvait acquérir à Sekireinel, dans l'espoir que cela pourrait être utile à son grand frère Cain. Apprendre une à une de nouvelles sciences lui servait de réconfort alors qu'il était si loin de chez lui. Ainsi, mener des études pour satisfaire sa curiosité était devenu un de ses loisirs préférés. Et lorsque Xerah offrit ce pendentif à Shakmeh, toujours assoiffé pour plus de connaissance, elle lui avait, en vérité, présenté le potentiel de se souiller par les ténèbres : ce pendentif était l'instrument qui donnait accès aux ténèbres, ainsi qu'àux moyens les plus efficaces de les utiliser. Étant le prince du désert, Shakmeh remercia Xerah avec dignité, mais il ne savait pas que ses yeux pétillaient comme ceux d'un enfant curieux de découvrir son nouveau jouet.",
+      "descriptionByStar": {
+        "0": "[Vent de la Haine] Réduit le coût en PM de 1, et le Blocage de la cible de 200 pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Fragment des Ténèbres",
+      "description": "[Portail de la Rancœur] Modifie le nombre max de charges cumulables de [Rancœur] à {0} et ajoute l'effet d'augmentation de DEG P reçus de 3% par charge cumulée.",
+      "value": {
+        "0": {
+          "0": "6",
+          "1": "7",
+          "2": "8",
+          "3": "9",
+          "4": "10",
+          "5": "12"
+        }
+      },
+      "thumbnail": "heroes/Shakmeh/ut/2.png",
+      "story": "Un fragment gravé d'un étrange motif. À l'époque où Xerah tentait de souiller Shakmeh avec les ténèbres, elle lui avait offert cet objet afin que cela lui serve d'intermédiaire pour entrer en contact avec les ténèbres de Tidhar. Le motif est en fait une matérialisation du sortilège de Tidhar. Mais afin qu'il ne paraisse pas insolite aux yeux de Shakmeh, Xerah fit subir un traitement au fragment, ce qui lui a donné sa forme actuelle. Les ténèbres de Tidhar contenues à l'intérieur sont maintenant passées dans le corps de Shakmeh, réduisant le fragment à l'état de coquille vide. Toutefois, le sortilège gravé dessus a la capacité de stabiliser et de maintenir la puissance de Shakmeh. Shakmeh s'en sert alors pour collecter et concentrer le pouvoir des ténèbres.",
+      "descriptionByStar": {
+        "0": "[Portail de la Rancœur] Modifie le nombre max de charges cumulables de [Rancœur] à 6 et ajoute l'effet d'augmentation de DEG P reçus de 3% par charge cumulée."
+      }
+    },
+    "3": {
+      "name": "Histoire de la Famille royale",
+      "description": "[Avènement du Désespoir] Augmente les DEG de {0}% et ignore la DEF de la cible.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Shakmeh/ut/3.png",
+      "story": "Un dessin représentant une famille royale de Sekireinel.\nLe jeune garçon, qui avait dû se rendre à l'étranger afin d'y étudier, regardait tous les jours le dessin afin de se réconforter. Car sur l'image, il souriait toujours en compagnie de sa famille, bien qu'en réalité il était loin d'eux. Il ne cessait de le contempler à chaque fois qu'il était tourmenté, ou qu'il avait le mal de pays, ou encore qu'il était heureux... pensant qu'il pourrait rire de nouveau avec sa famille, lorsqu'il rentrerait chez lui, une fois devenu adulte. Toutefois, rien ne se déroula selon les espérances du jeune garçon, qui finit par grandir. Sa vie était devenue une véritable tragédie, lui faisant perdre l'habitude de contempler le portrait de sa famille. Ses sentiments d'autrefois, enfouis quelque part dans sa mémoire, se transformèrent en obscurité, dont il devait se débarrasser avec les autres bribes de son passé.",
+      "descriptionByStar": {
+        "0": "[Avènement du Désespoir] Augmente les DEG de 20% et ignore la DEF de la cible."
+      }
+    },
+    "4": {
+      "name": "Sceau brisé",
+      "description": "[Réceptacle de l'Esprit noir] Augmente la résistence aux contrôles de {0} et modifie l'augmentation de la DEF M en celle de la DEF.",
+      "value": {
+        "0": {
+          "0": "300",
+          "1": "360",
+          "2": "430",
+          "3": "520",
+          "4": "630",
+          "5": "750"
+        }
+      },
+      "thumbnail": "heroes/Shakmeh/ut/4.png",
+      "story": "Une épée d'apparat d'une splendide couleur dorée. D'après certains, elle aurait été fabriquée à partir d'une étoile tombée du ciel et serait capable de chasser les ténèbres, tout en attirant la bonne fortune. Cette arme fut offerte à Cain par Shakmeh, mais ironiquement, elle fut utilisée comme catalyseur pour sceller Shakmeh lorsqu'il se déchaîna pour la première fois dans l'antique royaume de Sekireinel. L'arme fut également le premier objet que Shakmeh aperçut lorsqu'il fut descellé. Il n'y avait alors rien de surprenant à ce qu'il ressente de la colère et de la déception envers son grand frère qui avait utilisé son propre cadeau pour lui nuire. Se sentant trahi, Shakmeh ramassa avant de partir l'arme brisée par l'impact du descellement, avec la ferme résolution d'annihiler tout ce qui était cher à Cain.",
+      "descriptionByStar": {
+        "0": "[Réceptacle de l'Esprit noir] Augmente la résistence aux contrôles de 300 et modifie l'augmentation de la DEF M en celle de la DEF."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 20 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de Leifende, les Ténèbres grandissantes, pendant 10 sec, ce qui inflige toutes les 3 sec à l'ennemi à portée en face des DEG P à hauteur de 5% de PV max du lanceur et augmente pendant 5 sec les DEG P reçus par la cible de 30% à chaque coup porté. Pendant la durée de l'invocation de l'âme, augmente de 10% les DEG infligés à l'ennemi par le lanceur et par l'allié à l'ATQ la plus élevée en dehors du lanceur.",
+    "cooldown": "16",
+    "uses": "6",
+    "thumbnail": "heroes/Shakmeh/sw.png",
+    "advancement": {
+      "1": "Pendant la durée de l'invocation de l'âme, récupère 400 PM toutes les sec.",
+      "2": "Modifie la condition d'activation à 15 sec et l'augmentation des DEG infligés à l'ennemi à 20%."
+    },
+    "story": "Plus Shakmeh employait le pouvoir ténébreux, plus les ténèbres s'accumulaient dans ses cimeterres. Les ténèbres originaires de cette terre ainsi que celles distordues par la dissonance s'entremêlèrent pour imprégner les armes. Cet aspect lui permit de puiser encore et encore plus de puissance, lui donnant une force digne d'un messager de la mort. C'est ainsi qu'il arriva à mettre la main sur un pouvoir aux limites inconnues, comme il l'avait tant souhaité. Pourtant, il était loin de s'en satisfaire : il voulait également effacer les sentiments qui s'intensifiaient dans son esprit. Le respect qu'il avait éprouvé envers Cain, l'amour qu'il avait porté pour le désert, la confiance qu'il avait accordé à son amie... Toutes ces émotions n'étaient que les vestiges des souvenirs des êtres qu'il avait aimés de tout son cœur, avant de se faire trahir et abandonner par eux. Et il voulait se libérer de ces souvenirs qui le tourmentaient, afin d'aller de l'avant. Car pour Shakmeh, les sentiments comme l'amour ou la confiance n'étaient que comme des chaînes qui l'entraveraient et qui finiraient par l'affaiblir s'il ne s'y échappait pas. Ainsi, tous ses actes et tous ses désirs avaient pour seul objectif d'effacer son passé. Et Shakmeh ne cessa d'absorber de la puissance, intensifiant de plus en plus les ténèbres des cimeterres, pour atteindre ce but. En fin de compte, les ténèbres contenues dans les armes furent suffisamment abondantes pour pouvoir se matérialiser en un être conscient. Cet être devint le fidèle serviteur de Shakmeh, reflétant la résolution de son maître d'aller de l'avant sans se préoccuper du passé. Pourtant, son apparence ressemble au dieu qui avait délaissé son propre frère dans Sekireinel aux temps lointains."
+  },
+  "splashart": "heroes/Shakmeh/sa.png",
+  "costumes": "heroes/Shakmeh/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

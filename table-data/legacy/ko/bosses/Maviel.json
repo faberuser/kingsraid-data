@@ -1,0 +1,57 @@
+{
+  "id": "Maviel",
+  "profile": {
+    "name": "마비엘",
+    "title": "광기의 암살자",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "다크엘프",
+    "damage_type": "Physical",
+    "recommended_heroes": "데미아, 보두앵, 아이샤",
+    "characteristics": "[그림자은신]은 모든 공격을 회피하는 특수한 상태로, 총 100회 회피를 하면 모습을 드러냅니다. 타격 횟수가 많고 높은 공격 속도를 보유한 영웅을 활용하여 효과적으로 대응해야 합니다.",
+    "thumbnail": "bosses/Maviel.png",
+    "recommendedHeroNames": [
+      "Demia",
+      "Baudouin",
+      "Aisha"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "그림자 베기",
+      "cost": null,
+      "cooldown": "15",
+      "description": "임의의 대상에게 빠르게 이동하여 5번의 물리 피해를 입히고 각 피해마다 10초간 출혈 상태와 영원히 지속되고 해제할 수 없는 회복력 감소 상태로 만듭니다."
+    },
+    "2": {
+      "name": "광기 폭발",
+      "cost": null,
+      "cooldown": "15",
+      "description": "광기에 빠져들어 공격력과 치명 확률과 공격 속도를 10초간 증가 시킵니다."
+    },
+    "3": {
+      "name": "무자비",
+      "cost": null,
+      "cooldown": "30",
+      "description": "방어력이 가장 높은 적에게 이동하여 물리 피해를 크게 입힙니다."
+    },
+    "4": {
+      "name": "그림자 은신",
+      "cost": null,
+      "cooldown": "40",
+      "description": "40초 마다 일정 횟수의 모든 공격을 회피하며 정해진 횟수를 모두 회피하면 기절 상태에 빠지게 됩니다. 은신 상태가 아닌 경우 받는 피해가 증가하며 공격 속도가 고정됩니다."
+    },
+    "5": {
+      "name": "정화",
+      "cost": null,
+      "cooldown": null,
+      "description": "30초마다 자신의 해로운 효과를 제거하고 공격속도를 증가시킵니다."
+    }
+  },
+  "aliases": [
+    "Maviel",
+    "GR5",
+    "GR 5"
+  ]
+}

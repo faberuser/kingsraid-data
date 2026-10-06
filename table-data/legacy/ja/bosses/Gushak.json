@@ -1,0 +1,57 @@
+{
+  "id": "Gushak",
+  "profile": {
+    "name": "グシャク",
+    "title": "血の祭壇の長",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "オーク",
+    "damage_type": "Physical",
+    "recommended_heroes": "レオ, ニクス, ターニャ",
+    "characteristics": "ボスはダメージを受けるごとに[オークの怒り]のスタックがたまります。スタックが100に到達すると爆走状態となってステータスが激増します。[敵の強化効果]を解除できる英雄が有利に戦えるでしょう。",
+    "thumbnail": "bosses/Gushak.png",
+    "recommendedHeroNames": [
+      "Leo",
+      "Nyx",
+      "Tanya"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "赤斬り",
+      "cost": null,
+      "cooldown": "15",
+      "description": "武器を下向き状態で円型に振り回し、周りに物理ダメージを与えてからさらに叩き上げ、2秒間、転倒させます。"
+    },
+    "2": {
+      "name": "剣舞狂い",
+      "cost": null,
+      "cooldown": "25",
+      "description": "敵を3回攻撃してから打ち下ろし、周りの敵に物理ダメージを与え、5秒間、気絶させます。"
+    },
+    "3": {
+      "name": "血の一撃",
+      "cost": null,
+      "cooldown": "45",
+      "description": "地を大きく踏み鳴らし、周りの敵を4秒間気絶させます。また、剣気を発し、周りの敵に大きな物理ダメージを与えます。"
+    },
+    "4": {
+      "name": "オークの怒り",
+      "cost": null,
+      "cooldown": null,
+      "description": "被ダメージ時、オークの怒りが1スタック重複されます。10秒間持続され、自分の攻撃力と防御力が0.4%増加します。最大100スタックまで重複され、100スタック重複されると、10秒間、すべての状態異常を無効化し、能力値が大幅に増加します。"
+    },
+    "5": {
+      "name": "浄化",
+      "cost": null,
+      "cooldown": null,
+      "description": "30秒ごとに、自分のデバフを取り除き、攻撃速度を増加させます。"
+    }
+  },
+  "aliases": [
+    "Gushak",
+    "GR4",
+    "GR 4"
+  ]
+}

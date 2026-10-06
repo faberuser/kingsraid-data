@@ -1,0 +1,52 @@
+{
+  "id": "Manticore",
+  "profile": {
+    "name": "蝎尾狮",
+    "title": "浑沌魔兽",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "野兽",
+    "damage_type": "Physical",
+    "recommended_heroes": "凯瑟, 克劳斯, 米特拉",
+    "characteristics": "[剧毒]会召唤蝎子在短时间内对英雄造成巨大伤害，如果英雄撑不住，阵型会被摧毁必须多多利用[控场]来避免因[猛击]而对英雄造成的巨大物理伤害",
+    "thumbnail": "bosses/Manticore.png"
+  },
+  "skills": {
+    "1": {
+      "name": "闇黑火焰",
+      "cost": null,
+      "cooldown": "17",
+      "description": "从羊头吐出闇黑火焰造成7次物理伤害。生命值力低于50%的敌人将被石化5秒。"
+    },
+    "2": {
+      "name": "灭世火焰",
+      "cost": null,
+      "cooldown": "17",
+      "description": "从狮头吐出闇黑火焰造成7次物理伤害。每次攻击时将消除敌人的强化效果。"
+    },
+    "3": {
+      "name": "蝎尾狮剧毒",
+      "cost": null,
+      "cooldown": "22",
+      "description": "对敌人射出剧毒，5秒内每隔0.5秒造成目前生命值33%的伤害，同时召唤3只蝎子。"
+    },
+    "4": {
+      "name": "死亡猛袭",
+      "cost": null,
+      "cooldown": "45",
+      "description": "蝎尾狮在前脚聚积强劲的力量，对前方大范围内敌人造成物理伤害，并击倒他们4秒。"
+    },
+    "5": {
+      "name": "净化",
+      "cost": null,
+      "cooldown": null,
+      "description": "每30秒解除自身的负面效果，并提升攻击速度。"
+    }
+  },
+  "aliases": [
+    "Manticore",
+    "GR6",
+    "GR 6"
+  ]
+}

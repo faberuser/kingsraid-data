@@ -1,0 +1,59 @@
+{
+  "id": "Imet",
+  "profile": {
+    "name": "Imet",
+    "title": "Bravoure du Désert",
+    "type": [
+      "Temple of the God King"
+    ],
+    "race": "Golem",
+    "damage_type": "Physical",
+    "recommended_heroes": "Gau, Nicky, Bernheim",
+    "characteristics": "Vous devez protéger l'allié à la DEF P la plus basse lorsqu'Imet utilise la compétence [Exécution immédiate]. Il utilise cette compétence après avoir emprisonné les Héros dans la Prison de Sable. De plus, lorsqu'Imet réussit le Blocage pendant qu'il utilise le Maniement de l'Épée protecteur du Désert, son taux d'ATQ augmente de manière continue. Prenez-y garde.",
+    "thumbnail": "bosses/Imet.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Boomerang du Gardien",
+      "cost": null,
+      "cooldown": "18",
+      "description": "Claque le sol avec le pied pour augmenter les DEG infligés à tous les Héros et les renverse. Ensuite, lance son arme pour les repousser au loin et leur inflige des DEG."
+    },
+    "2": {
+      "name": "Prison de Sable",
+      "cost": null,
+      "cooldown": "28",
+      "description": "Enferme tous les Héros dans la Prison de Sable, à l'exception du Héros à la DEF P la plus basse. La Prison de Sable ne peut être résistée et les Héros à l'intérieur de la Prison de Sable ne peuvent agir. Ensuite, utilise la compétence [Exécution immédiate]."
+    },
+    "3": {
+      "name": "Maniement de l'Épée protecteur du Désert",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Inflige des DEG en continu en tournant son arme vers l'avant. Pendant ce temps, la probabilité de Blocage d'Imet augmente considérablement, et dissipe en continu les effets négatifs. Le taux d'ATQ d'Imet augmente à chaque fois qu'il réussit le Blocage."
+    },
+    "4": {
+      "name": "Bénédiction du Dieu-Roi",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lorsque la jauge d'Étourdissement d'Imet est réduite à zéro, Dieu-Roi offre sa bénédiction et soigne les PV des Héros."
+    },
+    "5": {
+      "name": "Exécution immédiate",
+      "cost": null,
+      "cooldown": null,
+      "description": "Inflige de puissants DEG au Héros à l'extérieur de la Prison de Sable. Cet effet ne peut être esquivé et ignore l'effet Blocage. Si Imet réussit à abattre le Héros avec cette compétence, il dissipe la Prison de Sable de l'ennemi à la DEF P la plus basse et réutilise l'Exécution immédiate. Si Imet échoue à tuer le Héros, il est neutralisé et reçoit des DEG supplémentaires."
+    },
+    "6": {
+      "name": "Gardien de Sekireinel",
+      "cost": null,
+      "cooldown": null,
+      "description": "Le Gardien de Sekireinel, doté d'une grande force, est immunisé contre les effets négatifs qui réduisent la DEF et la Vitesse d'ATQ. Durant la bataille au niveau supérieur à 6, les DEG infligés par Imet appliquent des DEG supplémentaires en continu et diminuent la récupération des PV."
+    }
+  },
+  "aliases": [
+    "TrialoftheEarth",
+    "TrialofEarth",
+    "TrialEarth",
+    "Imet"
+  ]
+}

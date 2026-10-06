@@ -1,0 +1,242 @@
+{
+  "id": "Laudia",
+  "profile": {
+    "name": "Laudia",
+    "title": "Laudia, Danseuse de l'Oasis",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "5800",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "22",
+    "height": "169",
+    "race": "Humain",
+    "constellation": "Asiphia l'Impératrice",
+    "birth": {
+      "month": 10,
+      "day": 11,
+      "monthName": "Mois de l'Amitié"
+    },
+    "like": "Laias, Lilia et le peuple du désert",
+    "dislike": "Voir les personnes souffrir",
+    "story": "Les Trovatias sont une tribu nomade du désert Aegina. Ils perpétuent la tradition et la religion de l'antique royaume du désert. \nLaudia, la fille du chef de cette tribu, sert Laias, la prêtresse de l'eau. Elle veille également sur la tribu au nom de son vieux père. \nLorsqu'elle appela à l'aide, Laias et sa sœur Lilia sortirent de leur profond sommeil. Elles l'ont conduite, elle et sa tribu, à l'abri dans l'autel. \nDepuis lors, Laudia pourfend les démons aux côtés de Zafir, le chef des guerriers du désert de la tribu Mauhata.",
+    "thumbnail": "heroes/Laudia/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Murmure des sables",
+      "cost": "2",
+      "cooldown": "11",
+      "description": "Attaque l'ennemi ciblé et inflige ??? DEG M aux ennemis à portée, réduisant de 500 points leurs chances de blocage et de 500 points leur Résistance Crit pendant 8 sec. De plus, ces ennemis subissent ??? points de DEG M et sont étourdis pendant 3 sec.",
+      "thumbnail": "heroes/Laudia/skills/1.png"
+    },
+    "2 (1)": {
+      "name": "Flots enchanteurs",
+      "cost": "2",
+      "cooldown": "20",
+      "description": "Augmente l'ATQ du lanceur de ??? et les DEG Crit de 70% pendant 10 sec. Vous avancez ensuite un peu vers l'avant en infligeant ??? points de DEG M aux ennemis à portée de ce déplacement. Si cette compétence est utilisée dans l'arène, vous les charmez pendant 5 sec. Peut déclencher une fois [Embuscade engageante] dans les 5 sec qui suivent l'activation.",
+      "thumbnail": "heroes/Laudia/skills/2 (1).png"
+    },
+    "2 (2)": {
+      "name": "Embuscade engageante",
+      "cost": "2",
+      "cooldown": null,
+      "description": "Attaque 3 fois l'ennemi ciblé et lui inflige un total de ??? points de DEG M Inflige également ??? points de DEG M aux boss et aux ennemis sous le charme, et ce malgré la DEF de la cible.",
+      "thumbnail": "heroes/Laudia/skills/2 (2).png"
+    },
+    "3 (1)": {
+      "name": "Danse du désert",
+      "cost": "2",
+      "cooldown": "20",
+      "description": "Attaque 30 fois les ennemis à portée et inflige un total de ??? points de DEG M Lance également Lames d'Arlaq 30 fois sur des ennemis choisis au hasard et leur inflige un total de ??? points de DEG M ??? points de DEG supplémentaires s'accumulent à chaque fois que les lames touchent le même ennemi. [Accélération aveuglante] peut être déclenchée une fois pendant cette compétence et Lames d'Arlaq vise en priorité les cibles sous le charme.",
+      "thumbnail": "heroes/Laudia/skills/3 (1).png"
+    },
+    "3 (2)": {
+      "name": "Accélération aveuglante",
+      "cost": "1",
+      "cooldown": null,
+      "description": "Confère l'immunité contre les contrôles pendant 3 sec et augmente la Vitesse d'ATQ de 800 points.",
+      "thumbnail": "heroes/Laudia/skills/3 (2).png"
+    },
+    "4": {
+      "name": "Bénédiction de l'oasis",
+      "cost": null,
+      "cooldown": null,
+      "description": "Réduit de 30% la durée des contrôles affectant le lanceur. À chaque compétence utilisée, déclenche [Bénédiction de l'oasis] pendant 20 sec, ce qui augmente la Pénétration DEF de 30 points et la DEF de ???. [Bénédiction de l'oasis] peut se cumuler 10 fois au maximum et ne peut pas être dissipée.",
+      "thumbnail": "heroes/Laudia/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Les boosts d'ATQ et de DEG sont augmentés de 10%.",
+      "III": "Les boosts d'ATQ et de DEG sont augmentés de 15%.",
+      "IV": "Les boosts d'ATQ et de DEG sont augmentés de 25%."
+    },
+    "3": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "4": {
+      "II": "Les boosts de Pénétration DEF et de DEF augmentent de 10%.",
+      "III": "Les boosts de Pénétration DEF et de DEF augmentent de 15%.",
+      "IV": "Les boosts de Pénétration DEF et de DEF augmentent de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Laudia/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "La cible reçoit 25% de DEG M supplémentaires pendant 10 sec.",
+          "thumbnail": "heroes/Laudia/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Récupère 2 PM à la fin du déplacement. Les PM ainsi gagnés sont réduits pendant 10 sec.",
+          "thumbnail": "heroes/Laudia/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Embuscade engageante peut être déclenchée deux fois dans les 10 sec qui suivent l'activation de Flots enchanteurs.",
+          "thumbnail": "heroes/Laudia/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "À chaque coup porté, récupère 30 PM.",
+          "thumbnail": "heroes/Laudia/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente coût en PM est augmenté de 1 et les DEG sont augmentés de 100%.",
+          "thumbnail": "heroes/Laudia/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Applique 2 charges de Bénédiction de l'oasis.",
+          "thumbnail": "heroes/Laudia/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Les DEG reçus des ennemis (autres que les Héros) sont réduits de 2% par charge.",
+          "thumbnail": "heroes/Laudia/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Vitesse d'ATQ +100",
+        "thumbnail": "heroes/Laudia/perks/light.png"
+      },
+      "dark": {
+        "effect": "Au début de chaque combat, confère l'immunité contre les contrôles pendant 7 sec, et augmente la précision et la précision des contrôles de 300 points pendant 10 sec.",
+        "thumbnail": "heroes/Laudia/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Arlaq, le Murmure de Sable",
+    "description": "[Bénédiction de l'oasis] peut être cumulée 14 fois au maximum et lors d'une attaque auto, le temps de recharge de toutes les compétences a 10% de chances d'être réduit de 4%.",
+    "value": {},
+    "thumbnail": "heroes/Laudia/uw.png",
+    "story": "Ce trésor rarissime symbolise une passion aussi ardente que les flammes du désert. \nOn raconte qu'une paire de ces armes magnifiques serait conservée dans le musée privé de l'ancien dieu-roi. \nLorsqu'on les manie, leur son enjôleur rappelle une douce brise d'été. \nCette illusion est aussi tentante que mortelle, à la manière d'un mirage dans le désert...",
+    "descriptionByStar": {
+      "0": "[Bénédiction de l'oasis] peut être cumulée 14 fois au maximum et lors d'une attaque auto, le temps de recharge de toutes les compétences a 10% de chances d'être réduit de 4%.",
+      "1": "Bénédiction de l'oasis peut être cumulée 15 fois au maximum et lors d'une attaque auto, le temps de recharge de toutes les compétences a 10% de chances d'être réduit de 4,8%.",
+      "2": "Bénédiction de l'oasis peut être cumulée 16 fois au maximum et lors d'une attaque auto, le temps de recharge de toutes les compétences a 10% de chances d'être réduit de 5,8%.",
+      "3": "Bénédiction de l'oasis peut être cumulée 17 fois au maximum et lors d'une attaque auto, le temps de recharge de toutes les compétences a 10% de chances d'être réduit de 7%.",
+      "4": "Bénédiction de l'oasis peut être cumulée 18 fois au maximum et lors d'une attaque auto, le temps de recharge de toutes les compétences a 10% de chances d'être réduit de 8,4%.",
+      "5": "Bénédiction de l'oasis peut être cumulée 20 fois au maximum et lors d'une attaque auto, le temps de recharge de toutes les compétences a 10% de chances d'être réduit de 10%."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Bracelet de cheville de l'oasis",
+      "description": "[Murmure des sables] Rend l'effet inamovible et restaure 140 PM à chaque coup critique infligé.",
+      "value": {},
+      "thumbnail": "heroes/Laudia/ut/1.png",
+      "story": "Ce bracelet de cheville de la tribu Trovatia est utilisé lors de la danse d'invocation du dieu-dragon dans l'Autel des flots. Seul celui qui a été choisi par le grand désert et a résisté à l'épreuve de la tempête de sable est digne de le porter. Son propriétaire actuel est Laudia, qui dirige la tribu Trovatia. Le bracelet ne manifeste son vrai pouvoir qu'après avoir été baigné pendant des jours dans une oasis sacrée qui ne se révèle qu'aux yeux de l'élu.",
+      "descriptionByStar": {
+        "0": "[Murmure des sables] Rend l'effet inamovible et restaure 140 PM à chaque coup critique infligé.",
+        "1": "[Murmure des sables] Rend l'effet inamovible et restaure 170 PM à chaque coup critique infligé.",
+        "2": "[Murmure des sables] Rend l'effet inamovible et restaure 210 PM à chaque coup critique infligé.",
+        "3": "[Murmure des sables] Rend l'effet inamovible et restaure 250 PM à chaque coup critique infligé.",
+        "4": "[Murmure des sables] Rend l'effet inamovible et restaure 300 PM à chaque coup critique infligé.",
+        "5": "[Murmure des sables] Rend l'effet inamovible et restaure 360 PM à chaque coup critique infligé."
+      }
+    },
+    "2": {
+      "name": "Refuge sacré de Trovatia",
+      "description": "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 160 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en PM d'[Embuscade engageante] est réduit de 1.",
+      "value": {},
+      "thumbnail": "heroes/Laudia/ut/2.png",
+      "story": "Ce coffre contient les reliques nécessaires au rituel du dragon de l'eau. \nIl est orné de lapis-lazuli azur, une gemme qui symbolise la complétude. \nLe père de Laudia tient à ce trésor comme à la prunelle de ses yeux ; il n'est transmis qu'aux rares élus capables de diriger la tribu Trovatia.",
+      "descriptionByStar": {
+        "0": "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 160 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en PM d'[Embuscade engageante] est réduit de 1.",
+        "1": "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 190 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en PM d'[Embuscade engageante] est réduit de 1.",
+        "2": "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 230 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en PM d'[Embuscade engageante] est réduit de 1.",
+        "3": "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 270 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en PM d'[Embuscade engageante] est réduit de 1.",
+        "4": "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 330 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en PM d'[Embuscade engageante] est réduit de 1.",
+        "5": "[Flots enchanteurs] Après le déplacement, vous absorbez les DEG à hauteur de 400 % de l'ATQ pendant 3 sec, puis générez un bouclier qui vous confère l'immunité contre les contrôles. Le coût en PM d'[Embuscade engageante] est réduit de 1."
+      }
+    },
+    "3": {
+      "name": "Voile de charme",
+      "description": "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 100 points tant que la compétence est active.",
+      "value": {},
+      "thumbnail": "heroes/Laudia/ut/3.png",
+      "story": "Ce voile mythique n'est remis qu'à la meilleure danseuse du continent. \nLorsque l'on danse avec, les spectateurs sont comme hypnotisés. \nLaudia s'en sert pour envoûter ses ennemis et parvenir à ses fins lors de ses danses.",
+      "descriptionByStar": {
+        "0": "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 100 points tant que la compétence est active.",
+        "1": "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 120 points tant que la compétence est active.",
+        "2": "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 140 points tant que la compétence est active.",
+        "3": "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 170 points tant que la compétence est active.",
+        "4": "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 210 points tant que la compétence est active.",
+        "5": "[Danse du désert] Le temps de recharge de la compétence est réduit de 30 % et la Pénétration DEF est augmentée de 250 points tant que la compétence est active."
+      }
+    },
+    "4": {
+      "name": "Boucles d'oreilles du dieu-dragon",
+      "description": "[Bénédiction de l'oasis] Augmente le boost de DEF de 50 % et la Vitesse d'ATQ de 100 points pendant 5 sec.",
+      "value": {},
+      "thumbnail": "heroes/Laudia/ut/4.png",
+      "story": "Des boucles d'oreilles confiées à Laudia par le dieu-dragon Laias. Le dernier jour du rituel du dieu-dragon accompli par Laudia à l'Autel des flots, Laias ouvrit enfin les yeux.\nDes orbes d'eau brillant d'une intense lumière bleue apparurent ensuite autour de Laudia.\nLes orbes atterrirent dans les mains de Laudia, se changeant en une paire de sublimes boucles d'oreilles.\nElles étaient bénies par l'oasis et offertes par Laias à Laudia en remerciement des efforts considérables fournis par cette dernière pour la ramener à la vie.",
+      "descriptionByStar": {
+        "0": "[Bénédiction de l'oasis] Augmente le boost de DEF de 50 % et la Vitesse d'ATQ de 100 points pendant 5 sec.",
+        "1": "[Bénédiction de l'oasis] Augmente le boost de DEF de 50 % et la Vitesse d'ATQ de 120 points pendant 5 sec.",
+        "2": "[Bénédiction de l'oasis] Augmente le boost de DEF de 50 % et la Vitesse d'ATQ de 140 points pendant 5 sec.",
+        "3": "[Bénédiction de l'oasis] Augmente le boost de DEF de 50 % et la Vitesse d'ATQ de 170 points pendant 5 sec.",
+        "4": "[Bénédiction de l'oasis] Augmente le boost de DEF de 50 % et la Vitesse d'ATQ de 210 points pendant 5 sec.",
+        "5": "[Bénédiction de l'oasis] Augmente le boost de DEF de 50 % et la Vitesse d'ATQ de 250 points pendant 5 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 21 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de Arlaq, le Murmure de Sable, pendant 6 sec, ce qui restaure 500 PM et réduit la Vitesse d'ATQ des ennemis proches dans une zone circulaire de 120. L'effet de réduction de la Vitesse d'ATQ est cumulable jusqu'à 5 charges. Les DEG M reçus par l'ennemi avec 5 charges cumulés augmentent de 50% pendant 7 sec. La cible est également pétrifiée.",
+    "cooldown": "22",
+    "uses": "6",
+    "thumbnail": "heroes/Laudia/sw.png",
+    "advancement": {
+      "1": "Augmente le taux d'ATQ de 40% pendant la durée de la compétence.",
+      "2": "Dissipe les effets positifs des ennemis à portée, toutes les sec, et inflige ??? DEG M."
+    },
+    "story": "Arlaq aurait dû obtenir la puissance en tant qu'Arme spirituelle grâce à Cain... Et lorsque Laudia reçut Arlaq libéré en tant qu'Arme spirituelle, Laudia a nettement ressenti un parfum éthéré, la secouant du tréfond du cœur. Mais après la fin de la succession d'événements, Arlaq n'émit plus jamais le même parfum. Pour en connaître la raison, Laudia effectua quelques expériences, et comprit que pour retrouver le même parfum, il fallait éveiller totalement Arlaq. Au bout d'un entraînement sévère, Laudia accueillit un moment spécial. Pendant qu'elle dansait éperdument, comme attirée par le vent de sable et oubliant toute autre chose, un parfum exquis se mit à répandre de ses deux mains. Après la fin de la danse, Laudia sut qu'elle avait atteint le domaine de la danse suprême. C'était la naissance de la meilleure danseuse de toute l'histoire du désert, et Arlaq, la reconnaissant comme telle, libéra la puissance maximum pour être à la hauteur de sa propriétaire. Désormais, Arlaq ne répandait plus un parfum séducteur, mais un parfum voluptueux qui fascinait la cible et lui faisait perdre conscience. Avec la danse de Laudia, le parfum empêchait à quiconque de s'opposer à elle, rendant confus le regard et l'odorat de la cible."
+  },
+  "splashart": "heroes/Laudia/sa.png",
+  "costumes": "heroes/Laudia/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

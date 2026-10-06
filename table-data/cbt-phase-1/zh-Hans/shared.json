@@ -1,0 +1,1385 @@
+{
+  "classes": {
+    "Archer": {
+      "perks": {
+        "t2": {
+          "Precision Shot": "攻击力提高15%，命中率提高120。",
+          "Eagle Eye": "全体友军防御穿透提高60，命中率提高60。若其他友军拥有相同特性，仅额外提高30防御穿透和30命中率。",
+          "Mortal Wound": "暴击时，使敌人恢复量降低24%，持续10秒，并每秒造成攻击力20%的持续物理伤害。不与其他友军的相同效果叠加。",
+          "Opportune Strike": "暴击率提高185，暴击伤害提高24%。",
+          "Concentration": "每5秒，自身暴击伤害提高3%。最多叠加24层，且无法移除。"
+        }
+      },
+      "perkNames": {
+        "Precision Shot": "精准射击",
+        "Eagle Eye": "鹰眼",
+        "Mortal Wound": "致死伤口",
+        "Opportune Strike": "强运袭击",
+        "Concentration": "专注"
+      }
+    },
+    "Assassin": {
+      "perks": {
+        "t2": {
+          "Target Weakness": "攻击力提高15%，防御穿透提高120。",
+          "Swift and Nimble": "每秒所有闪避提高50，最多叠加10层。成功闪避后重置。",
+          "Tactical Foresight": "所有闪避提高80，受到的伤害降低8%。",
+          "Opportune Strike": "暴击率提高185，暴击伤害提高24%。",
+          "Vital Detection": "攻击时，使目标受到的所有伤害提高8%，攻击速度降低8%，持续10秒。每3秒触发一次。"
+        }
+      },
+      "perkNames": {
+        "Target Weakness": "见缝插针",
+        "Swift and Nimble": "迅捷",
+        "Tactical Foresight": "料敌机先",
+        "Opportune Strike": "强运袭击",
+        "Vital Detection": "感知弱点"
+      }
+    },
+    "General": {
+      "perks": {
+        "t1": {
+          "ATK Up": "攻击力提高18%。",
+          "HP Up": "生命值提高18%。",
+          "DEF Up": "所有防御提高18%。",
+          "Crit Resist Up": "暴击抵抗提高150。",
+          "Monster Hunting": "对非英雄敌人造成的伤害提高6.5%，受到的伤害降低6.5%。"
+        }
+      },
+      "perkNames": {
+        "ATK Up": "攻击力提高",
+        "HP Up": "生命值提高",
+        "DEF Up": "防御力提高",
+        "Crit Resist Up": "暴击抵抗力提高",
+        "Monster Hunting": "狩猎怪物"
+      }
+    },
+    "Knight": {
+      "perks": {
+        "t2": {
+          "Experienced Fighter": "被攻击目标受到的伤害提高16%。不与其他友军的相同效果叠加。",
+          "Excellent Strategy": "全体友军控制命中提高100。若其他友军拥有相同特性，控制命中仅额外提高50。",
+          "Battle Cry": "全体友军最大生命值提高10%。若其他友军拥有相同特性，最大生命值仅额外提高5%。",
+          "Shield of Protection": "所有格挡提高150，控制抵抗提高150。",
+          "Swift Move": "攻击速度提高12%，命中率提高120。"
+        }
+      },
+      "perkNames": {
+        "Experienced Fighter": "老练战士",
+        "Excellent Strategy": "高明策略",
+        "Battle Cry": "战吼",
+        "Shield of Protection": "防护之盾",
+        "Swift Move": "快速行动"
+      }
+    },
+    "Mechanic": {
+      "perks": {
+        "t2": {
+          "Target Weakness": "攻击力提高15%，防御穿透提高120。",
+          "Ready Cannons": "每有一名敌人，每秒魔力恢复量提高10.8%。",
+          "Pressure Point": "自身暴击率提高350。",
+          "Special Bullet": "被攻击目标的攻击力降低10%，暴击率降低100。不与其他友军的效果叠加。",
+          "Amplified Gunpowder": "全体友军暴击伤害提高12%。若其他友军拥有相同特性，仅额外提高4%。"
+        }
+      },
+      "perkNames": {
+        "Target Weakness": "见缝插针",
+        "Ready Cannons": "上膛火炮",
+        "Pressure Point": "靶心",
+        "Special Bullet": "特制弹药",
+        "Amplified Gunpowder": "强化火药"
+      }
+    },
+    "Priest": {
+      "perks": {
+        "t2": {
+          "Vengeful Curse": "当被敌人击中时，攻击者的伤害降低70%，持续3秒。此效果在40秒内只能作用一次，无法被解除。",
+          "Goddess Blessing": "全体友军暴击率提高90。若其他友军拥有相同特性，仅额外提高45。",
+          "Inner Peace": "全体友军每秒恢复1%生命值，控制抵抗提高60。若其他友军拥有相同特性，仅额外获得每秒0.5%生命恢复和30控制抵抗。",
+          "Blessing of Mana": "每秒魔力恢复量提高30%。",
+          "Swiftness": "全体友军攻击速度提高60。若其他友军拥有相同特性，仅额外提高30。"
+        }
+      },
+      "perkNames": {
+        "Vengeful Curse": "复仇诅咒",
+        "Goddess Blessing": "女神祝福",
+        "Inner Peace": "心灵祥和",
+        "Blessing of Mana": "魔力祝福",
+        "Swiftness": "神速化"
+      }
+    },
+    "Warrior": {
+      "perks": {
+        "t2": {
+          "Opportune Strike": "暴击率提高185，暴击伤害提高24%。",
+          "Warlike": "每有一名敌人，攻击力提高6%，控制抵抗提高30。最多叠加5层。",
+          "Offensive Guard": "攻击力提高物理防御的25%，受到的物理伤害降低15%。",
+          "Tactical Foresight": "所有闪避提高80，受到的伤害降低8%。",
+          "Blood Wrath": "吸血提高60，攻击速度提高12%。"
+        }
+      },
+      "perkNames": {
+        "Opportune Strike": "强运袭击",
+        "Warlike": "好战",
+        "Offensive Guard": "激进守备",
+        "Tactical Foresight": "料敌机先",
+        "Blood Wrath": "血性狂怒"
+      }
+    },
+    "Wizard": {
+      "perks": {
+        "t2": {
+          "Deception": "如造成伤害，下一次所受到的3次伤害则会无效。此效果每40秒可启动一次。",
+          "Moral Rise": "全体友军攻击力提高7%。若其他友军拥有相同特性，攻击力仅额外提高3.5%。",
+          "Blessing of Mana": "每秒魔力恢复量提高30%。",
+          "Circuit Burst": "受到的伤害提高15%，但攻击力提高35%，命中率提高150。",
+          "Destruction": "暴击率提高185，防御穿透提高120。"
+        }
+      },
+      "perkNames": {
+        "Deception": "迷惑",
+        "Moral Rise": "提振士气",
+        "Blessing of Mana": "魔力祝福",
+        "Circuit Burst": "魔流爆冲",
+        "Destruction": "破坏"
+      }
+    }
+  },
+  "artifacts": [
+    {
+      "id": "Burning Brazier of Elf",
+      "name": "燃烧的精灵火炉",
+      "description": "攻击敌人时有{0}%机率回复1魔力。",
+      "value": {
+        "0": "10, 12, 14, 17, 20, 25"
+      },
+      "thumbnail": "artifacts/Burning Brazier of Elf.png",
+      "story": "上古精灵族称颂大自然而制作的神秘火炉，是可以无止尽生产魔力且达到神秘境界的魔法结晶体。",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "攻击敌人时有10%机率回复1魔力。",
+        "1": "攻击敌人时有12%机率回复1魔力。",
+        "2": "攻击敌人时有14%机率回复1魔力。",
+        "3": "攻击敌人时有17%机率回复1魔力。",
+        "4": "攻击敌人时有20%机率回复1魔力。",
+        "5": "攻击敌人时有25%机率回复1魔力。"
+      }
+    },
+    {
+      "id": "Drinking Horn of Ancient Cow",
+      "name": "千年牛的角杯",
+      "description": "一般攻击时，有10%几率于10秒内攻击力增加{0}%，攻击速度增加{1}。",
+      "value": {
+        "0": "10, 12, 14, 17, 20, 25",
+        "1": "100, 120, 140, 170, 200, 250"
+      },
+      "thumbnail": "artifacts/Drinking Horn of Ancient Cow.png",
+      "story": "利用在天空奔驰神圣牛的角当作素材制成的杯子，是蕴含丰饶之力的魔法角杯。",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "一般攻击时，有10%几率于10秒内攻击力增加10%，攻击速度增加100。",
+        "1": "一般攻击时，有10%几率于10秒内攻击力增加12%，攻击速度增加120。",
+        "2": "一般攻击时，有10%几率于10秒内攻击力增加14%，攻击速度增加140。",
+        "3": "一般攻击时，有10%几率于10秒内攻击力增加17%，攻击速度增加170。",
+        "4": "一般攻击时，有10%几率于10秒内攻击力增加20%，攻击速度增加200。",
+        "5": "一般攻击时，有10%几率于10秒内攻击力增加25%，攻击速度增加250。"
+      }
+    },
+    {
+      "id": "Dice of Magical Letters",
+      "name": "魔法文字骰子",
+      "description": "攻击敌人时，有3%机率造成{0}%的魔法伤害。",
+      "value": {
+        "0": "400, 480, 575, 690, 830, 1000"
+      },
+      "thumbnail": "artifacts/Dice of Magical Letters.png",
+      "story": "上古人算命时使用的骰子，每一面都刻印有未知的奇妙文字。",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "攻击敌人时，有3%机率造成400%的魔法伤害。",
+        "1": "攻击敌人时，有3%机率造成480%的魔法伤害。",
+        "2": "攻击敌人时，有3%机率造成575%的魔法伤害。",
+        "3": "攻击敌人时，有3%机率造成690%的魔法伤害。",
+        "4": "攻击敌人时，有3%机率造成830%的魔法伤害。",
+        "5": "攻击敌人时，有3%机率造成1000%的魔法伤害。"
+      }
+    },
+    {
+      "id": "Golden Cat Statue",
+      "name": "黄金猫雕像",
+      "description": "每次开始战斗时，于15秒内攻击速度增加{0}。",
+      "value": {
+        "0": "400, 480, 570, 690, 830, 1000"
+      },
+      "thumbnail": "artifacts/Golden Cat Statue.png",
+      "story": "模仿招来福气的黄金猫所制成的神秘黄金像，有时候看起来就像是猫咪招手一样。",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "每次开始战斗时，于15秒内攻击速度增加400。",
+        "1": "每次开始战斗时，于15秒内攻击速度增加480。",
+        "2": "每次开始战斗时，于15秒内攻击速度增加570。",
+        "3": "每次开始战斗时，于15秒内攻击速度增加690。",
+        "4": "每次开始战斗时，于15秒内攻击速度增加830。",
+        "5": "每次开始战斗时，于15秒内攻击速度增加1000。"
+      }
+    },
+    {
+      "id": "Pocket Watch of Ancient Civilization",
+      "name": "上古文明的怀表",
+      "description": "每10秒降低所有冷却时间{0}秒且提高攻击速度{1}，持续5秒。",
+      "value": {
+        "0": "1, 1.2, 1.4, 1.7, 2, 2.5",
+        "1": "80, 96, 115, 138, 165, 200"
+      },
+      "thumbnail": "artifacts/Pocket Watch of Ancient Civilization.png",
+      "story": "为了窥视命运而稍微提前时间的怀表，过度使用可能会造成危险。",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "每10秒降低所有冷却时间1秒且提高攻击速度80，持续5秒。",
+        "1": "每10秒降低所有冷却时间1.2秒且提高攻击速度96，持续5秒。",
+        "2": "每10秒降低所有冷却时间1.4秒且提高攻击速度115，持续5秒。",
+        "3": "每10秒降低所有冷却时间1.7秒且提高攻击速度138，持续5秒。",
+        "4": "每10秒降低所有冷却时间2秒且提高攻击速度165，持续5秒。",
+        "5": "每10秒降低所有冷却时间2.5秒且提高攻击速度200，持续5秒。"
+      }
+    },
+    {
+      "id": "Primer for the Heroes",
+      "name": "英雄入门书",
+      "description": "生命值低于20%时，攻击力将会增加{0}%，并且攻击速度和所有伤害减少量增加{1}。",
+      "value": {
+        "0": "30, 36, 43, 51, 62, 75",
+        "1": "300, 360, 430, 510, 620, 750"
+      },
+      "thumbnail": "artifacts/Primer for the Heroes.png",
+      "story": "记载过去英雄编年史与故事且想成为英雄的入门书，内容都使用上古文字。",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "生命值低于20%时，攻击力将会增加30%，并且攻击速度和所有伤害减少量增加300。",
+        "1": "生命值低于20%时，攻击力将会增加36%，并且攻击速度和所有伤害减少量增加360。",
+        "2": "生命值低于20%时，攻击力将会增加43%，并且攻击速度和所有伤害减少量增加430。",
+        "3": "生命值低于20%时，攻击力将会增加51%，并且攻击速度和所有伤害减少量增加510。",
+        "4": "生命值低于20%时，攻击力将会增加62%，并且攻击速度和所有伤害减少量增加620。",
+        "5": "生命值低于20%时，攻击力将会增加75%，并且攻击速度和所有伤害减少量增加750。"
+      }
+    },
+    {
+      "id": "The Ancient Scope",
+      "name": "古代望远镜",
+      "description": "当魔力100%时，暴击机率与命中率提高{0}，持续10秒。冷却时间20秒。",
+      "value": {
+        "0": "400, 480, 570, 690, 830, 1000"
+      },
+      "thumbnail": "artifacts/The Ancient Scope.png",
+      "story": "上古工程法师制作的望远镜，能协助详细看清楚远距离物品的工具。",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "当魔力100%时，暴击机率与命中率提高400，持续10秒。冷却时间20秒。",
+        "1": "当魔力100%时，暴击机率与命中率提高480，持续10秒。冷却时间20秒。",
+        "2": "当魔力100%时，暴击机率与命中率提高570，持续10秒。冷却时间20秒。",
+        "3": "当魔力100%时，暴击机率与命中率提高690，持续10秒。冷却时间20秒。",
+        "4": "当魔力100%时，暴击机率与命中率提高830，持续10秒。冷却时间20秒。",
+        "5": "当魔力100%时，暴击机率与命中率提高1000，持续10秒。冷却时间20秒。"
+      }
+    },
+    {
+      "id": "Roaring Tiger Statue",
+      "name": "咆哮的老虎雕像",
+      "description": "当英雄生命值低于35%，对周围敌人造成相当于100%攻击的伤害并击倒他们。目标敌人攻击降低{0}%且攻击速度降低{1}，持续10秒。冷却时间30秒。",
+      "value": {
+        "0": "14, 16, 20, 24, 29, 35",
+        "1": "140, 160, 200, 240, 290, 350"
+      },
+      "thumbnail": "artifacts/Roaring Tiger Statue.png",
+      "story": "模仿咆哮的老虎所制成的奇妙黄金像，只要符合条件，老虎就会苏醒让周围的一切因为恐惧而颤抖。",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "当英雄生命值低于35%，对周围敌人造成相当于100%攻击的伤害并击倒他们。目标敌人攻击降低14%且攻击速度降低140，持续10秒。冷却时间30秒。",
+        "1": "当英雄生命值低于35%，对周围敌人造成相当于100%攻击的伤害并击倒他们。目标敌人攻击降低16%且攻击速度降低160，持续10秒。冷却时间30秒。",
+        "2": "当英雄生命值低于35%，对周围敌人造成相当于100%攻击的伤害并击倒他们。目标敌人攻击降低20%且攻击速度降低200，持续10秒。冷却时间30秒。",
+        "3": "当英雄生命值低于35%，对周围敌人造成相当于100%攻击的伤害并击倒他们。目标敌人攻击降低24%且攻击速度降低240，持续10秒。冷却时间30秒。",
+        "4": "当英雄生命值低于35%，对周围敌人造成相当于100%攻击的伤害并击倒他们。目标敌人攻击降低29%且攻击速度降低290，持续10秒。冷却时间30秒。",
+        "5": "当英雄生命值低于35%，对周围敌人造成相当于100%攻击的伤害并击倒他们。目标敌人攻击降低35%且攻击速度降低350，持续10秒。冷却时间30秒。"
+      }
+    },
+    {
+      "id": "Golden Apple of a Goddess",
+      "name": "女神的金苹果",
+      "description": "当生命值低于25%，回复最大生命值的{0}%且解除所有负面效果。只会作用1次。",
+      "value": {
+        "0": "30, 36, 43, 51, 62, 75"
+      },
+      "thumbnail": "artifacts/Golden Apple of a Goddess.png",
+      "story": "据说是女神赐予的圣物之一，无论受到多么重的伤势皆能帮助回复的秘药。",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "当生命值低于25%，回复最大生命值的30%且解除所有负面效果。只会作用1次。",
+        "1": "当生命值低于25%，回复最大生命值的36%且解除所有负面效果。只会作用1次。",
+        "2": "当生命值低于25%，回复最大生命值的43%且解除所有负面效果。只会作用1次。",
+        "3": "当生命值低于25%，回复最大生命值的51%且解除所有负面效果。只会作用1次。",
+        "4": "当生命值低于25%，回复最大生命值的62%且解除所有负面效果。只会作用1次。",
+        "5": "当生命值低于25%，回复最大生命值的75%且解除所有负面效果。只会作用1次。"
+      }
+    },
+    {
+      "id": "Golden Mask of Ancient King",
+      "name": "上古王之金面具",
+      "description": "当受到攻击时，有5%的机率对所有伤害免疫{0}秒。冷却时间5秒。",
+      "value": {
+        "0": "3, 3.5, 4, 5, 6, 7.5"
+      },
+      "thumbnail": "artifacts/Golden Mask of Ancient King.png",
+      "story": "沙漠的新王曾使用过的黄金面具，因为施有绝对权能的魔法，所以会保护主人。",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "当受到攻击时，有5%的机率对所有伤害免疫3秒。冷却时间5秒。",
+        "1": "当受到攻击时，有5%的机率对所有伤害免疫3.5秒。冷却时间5秒。",
+        "2": "当受到攻击时，有5%的机率对所有伤害免疫4秒。冷却时间5秒。",
+        "3": "当受到攻击时，有5%的机率对所有伤害免疫5秒。冷却时间5秒。",
+        "4": "当受到攻击时，有5%的机率对所有伤害免疫6秒。冷却时间5秒。",
+        "5": "当受到攻击时，有5%的机率对所有伤害免疫7.5秒。冷却时间5秒。"
+      }
+    },
+    {
+      "id": "Madame's Bronze Mirrors",
+      "name": "贵夫人的青铜镜",
+      "description": "自身的魔法格挡率增加{0}，受到的魔法伤害减少量增加{1}。",
+      "value": {
+        "0": "300, 330, 360, 400, 440, 500",
+        "1": "100, 110, 120, 140, 160, 200"
+      },
+      "thumbnail": "artifacts/Madame's Bronze Mirrors.png",
+      "story": "古魔导王国的青铜镜，看起来像是某个天才魔法师送给妻子的礼物，刻印有保护爱人所设置的符石。",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "自身的魔法格挡率增加300，受到的魔法伤害减少量增加100。",
+        "1": "自身的魔法格挡率增加330，受到的魔法伤害减少量增加110。",
+        "2": "自身的魔法格挡率增加360，受到的魔法伤害减少量增加120。",
+        "3": "自身的魔法格挡率增加400，受到的魔法伤害减少量增加140。",
+        "4": "自身的魔法格挡率增加440，受到的魔法伤害减少量增加160。",
+        "5": "自身的魔法格挡率增加500，受到的魔法伤害减少量增加200。"
+      }
+    },
+    {
+      "id": "Sealed Chain of Ancient God",
+      "name": "上古神之封印锁链",
+      "description": "每{0}秒使随机一名敌人陷入沉默状态{1}秒，并解除其正面效果。",
+      "value": {
+        "0": "20, 19, 18, 17, 16, 15",
+        "1": "3, 3.5, 4, 4.5, 5, 6"
+      },
+      "thumbnail": "artifacts/Sealed Chain of Ancient God.png",
+      "story": "相传是沙漠的新王使唤自己的奴隶时使用的锁链，被绑住后就无法进行反抗。",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "每20秒使随机一名敌人陷入沉默状态3秒，并解除其正面效果。",
+        "1": "每19秒使随机一名敌人陷入沉默状态3.5秒，并解除其正面效果。",
+        "2": "每18秒使随机一名敌人陷入沉默状态4秒，并解除其正面效果。",
+        "3": "每17秒使随机一名敌人陷入沉默状态4.5秒，并解除其正面效果。",
+        "4": "每16秒使随机一名敌人陷入沉默状态5秒，并解除其正面效果。",
+        "5": "每15秒使随机一名敌人陷入沉默状态6秒，并解除其正面效果。"
+      }
+    },
+    {
+      "id": "Mask of Goblin",
+      "name": "哥布林面具",
+      "description": "对哥布林的攻击提高{0}%，且对哥布林的伤害抵抗提高{1}%",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
+      "thumbnail": "artifacts/Mask of Goblin.png",
+      "story": "模仿哥布林脸孔制作的面具，总觉得有些可爱。",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "对哥布林的攻击提高40%，且对哥布林的伤害抵抗提高20%",
+        "1": "对哥布林的攻击提高48%，且对哥布林的伤害抵抗提高24%",
+        "2": "对哥布林的攻击提高57%，且对哥布林的伤害抵抗提高28%",
+        "3": "对哥布林的攻击提高69%，且对哥布林的伤害抵抗提高34%",
+        "4": "对哥布林的攻击提高83%，且对哥布林的伤害抵抗提高41%",
+        "5": "对哥布林的攻击提高100%，且对哥布林的伤害抵抗提高50%"
+      }
+    },
+    {
+      "id": "Mask of Harpy",
+      "name": "鹰身人族面具",
+      "description": "对鹰身人的攻击提高{0}%，且对鹰身人的伤害抵抗提高{1}%",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
+      "thumbnail": "artifacts/Mask of Harpy.png",
+      "story": "模仿鹰身人族脸孔制作的面具，听得见尖锐的风声。",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "对鹰身人的攻击提高40%，且对鹰身人的伤害抵抗提高20%",
+        "1": "对鹰身人的攻击提高48%，且对鹰身人的伤害抵抗提高24%",
+        "2": "对鹰身人的攻击提高57%，且对鹰身人的伤害抵抗提高28%",
+        "3": "对鹰身人的攻击提高69%，且对鹰身人的伤害抵抗提高34%",
+        "4": "对鹰身人的攻击提高83%，且对鹰身人的伤害抵抗提高41%",
+        "5": "对鹰身人的攻击提高100%，且对鹰身人的伤害抵抗提高50%"
+      }
+    },
+    {
+      "id": "Mask of Orc",
+      "name": "兽人族面具",
+      "description": "对兽人的攻击提高{0}%，且对兽人的伤害抵抗提高{1}%",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
+      "thumbnail": "artifacts/Mask of Orc.png",
+      "story": "模仿兽人族脸孔制作的面具，弥漫一股战意。",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "对兽人的攻击提高40%，且对兽人的伤害抵抗提高20%",
+        "1": "对兽人的攻击提高48%，且对兽人的伤害抵抗提高24%",
+        "2": "对兽人的攻击提高57%，且对兽人的伤害抵抗提高28%",
+        "3": "对兽人的攻击提高69%，且对兽人的伤害抵抗提高34%",
+        "4": "对兽人的攻击提高83%，且对兽人的伤害抵抗提高41%",
+        "5": "对兽人的攻击提高100%，且对兽人的伤害抵抗提高50%"
+      }
+    },
+    {
+      "id": "Undead Mask",
+      "name": "不死族面具",
+      "description": "对不死族造成的伤害提升{0}%，所受伤害减少{1}%。",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
+      "thumbnail": "artifacts/Undead Mask.png",
+      "story": "模仿骷髅脸孔制作的面具，散发一股死亡的味道。",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "对不死族造成的伤害提升40%，所受伤害减少20%。",
+        "1": "对不死族造成的伤害提升48%，所受伤害减少24%。",
+        "2": "对不死族造成的伤害提升57%，所受伤害减少28%。",
+        "3": "对不死族造成的伤害提升69%，所受伤害减少34%。",
+        "4": "对不死族造成的伤害提升83%，所受伤害减少41%。",
+        "5": "对不死族造成的伤害提升100%，所受伤害减少50%。"
+      }
+    },
+    {
+      "id": "Soul Spring Water",
+      "name": "灵魂之泉",
+      "description": "每场战斗开始时，回复{0}%生命值与{1}%魔力。",
+      "value": {
+        "0": "24, 28, 34, 42, 50, 60",
+        "1": "12, 14, 17, 21, 25, 30"
+      },
+      "thumbnail": "artifacts/Soul Spring Water.png",
+      "story": "据说每一百年能在灵魂之泉收集到一滴，非常珍贵与有效的灵药。",
+      "aliases": [
+        "ssw"
+      ],
+      "descriptionByStar": {
+        "0": "每场战斗开始时，回复24%生命值与12%魔力。",
+        "1": "每场战斗开始时，回复28%生命值与14%魔力。",
+        "2": "每场战斗开始时，回复34%生命值与17%魔力。",
+        "3": "每场战斗开始时，回复42%生命值与21%魔力。",
+        "4": "每场战斗开始时，回复50%生命值与25%魔力。",
+        "5": "每场战斗开始时，回复60%生命值与30%魔力。"
+      }
+    },
+    {
+      "id": "Talismans of Resistance",
+      "name": "抵抗的咒术符",
+      "description": "解除所有的负面效果，并在解除后的{0}秒内获得状态异常免疫效果。此技能需要{1}秒的冷却时间。",
+      "value": {
+        "0": "1, 1.5, 2, 2.5, 3, 3.5",
+        "1": "20, 19, 18, 17, 16, 15"
+      },
+      "thumbnail": "artifacts/Talismans of Resistance.png",
+      "story": "能驱离恶鬼的异国符咒，使用后过一段时间就会失去效果。",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "解除所有的负面效果，并在解除后的1秒内获得状态异常免疫效果。此技能需要20秒的冷却时间。",
+        "1": "解除所有的负面效果，并在解除后的1.5秒内获得状态异常免疫效果。此技能需要19秒的冷却时间。",
+        "2": "解除所有的负面效果，并在解除后的2秒内获得状态异常免疫效果。此技能需要18秒的冷却时间。",
+        "3": "解除所有的负面效果，并在解除后的2.5秒内获得状态异常免疫效果。此技能需要17秒的冷却时间。",
+        "4": "解除所有的负面效果，并在解除后的3秒内获得状态异常免疫效果。此技能需要16秒的冷却时间。",
+        "5": "解除所有的负面效果，并在解除后的3.5秒内获得状态异常免疫效果。此技能需要15秒的冷却时间。"
+      }
+    },
+    {
+      "id": "Judgment of Light Bracelet",
+      "name": "光之审判者手环",
+      "description": "命中率与状态异常命中率将增加{0}。",
+      "value": {
+        "0": "300, 360, 430, 520, 630, 750"
+      },
+      "thumbnail": "artifacts/Judgment of Light Bracelet.png",
+      "story": "露亚教圣骑士团以前制作的祝福手环，据说是仅存无几的悠久魔法器具。",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "命中率与状态异常命中率将增加300。",
+        "1": "命中率与状态异常命中率将增加360。",
+        "2": "命中率与状态异常命中率将增加430。",
+        "3": "命中率与状态异常命中率将增加520。",
+        "4": "命中率与状态异常命中率将增加630。",
+        "5": "命中率与状态异常命中率将增加750。"
+      }
+    }
+  ],
+  "runes": [
+    {
+      "id": "Rune of Agility: Ancient",
+      "name": "敏捷符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalDodgeChance": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Agitation: Ancient",
+      "name": "激昂符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "AddMpOnAttackR": "9.4%"
+      }
+    },
+    {
+      "id": "Rune of Denial: Ancient",
+      "name": "抗拒符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "MagicalBlockPower": "12.8%"
+      }
+    },
+    {
+      "id": "Rune of Exclusion: Ancient",
+      "name": "封锁的符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "MagicalBlockChance": "21.3%"
+      }
+    },
+    {
+      "id": "Rune of Fierce Attack: Ancient",
+      "name": "猛攻符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "AddPhysicalAttackR": "12.8%",
+        "AddMagicalAttackR": "12.8%"
+      }
+    },
+    {
+      "id": "Rune of Flexibility: Ancient",
+      "name": "灵活符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "MagicalDodgeChance": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Frenzy: Ancient",
+      "name": "狂暴符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalCriticalPower": "21.3%",
+        "MagicalCriticalPower": "21.3%"
+      }
+    },
+    {
+      "id": "Rune of Iron Wall: Ancient",
+      "name": "铁壁符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalBlockPower": "12.8%"
+      }
+    },
+    {
+      "id": "Rune of Patience: Ancient",
+      "name": "忍耐符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "AddPhysicalDefenseR": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Potential: Ancient",
+      "name": "潜力符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "AddMpOnDamageR": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Precision: Ancient",
+      "name": "精密符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalHitChance": "11.1%",
+        "MagicalHitChance": "11.1%"
+      }
+    },
+    {
+      "id": "Rune of Protection: Ancient",
+      "name": "庇护符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "AddMagicalDefenseR": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Resistance: Ancient",
+      "name": "抵抗符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "AntiCcChance": "11.1%"
+      }
+    },
+    {
+      "id": "Rune of Sharpness: Ancient",
+      "name": "锐利符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalPiercePower": "11.1%",
+        "MagicalPiercePower": "11.1%"
+      }
+    },
+    {
+      "id": "Rune of Stamina: Ancient",
+      "name": "体力符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "AddMaxHpR": "12.8%"
+      }
+    },
+    {
+      "id": "Rune of Steel: Ancient",
+      "name": "钢铁符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalBlockChance": "21.3%"
+      }
+    },
+    {
+      "id": "Rune of Thirst: Ancient",
+      "name": "枯竭符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "HpStealPower": "5.1%"
+      }
+    },
+    {
+      "id": "Rune of Toughness: Ancient",
+      "name": "强韧符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalToughness": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Willpower: Ancient",
+      "name": "精神力符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "MagicalToughness": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of the Heartless: Ancient",
+      "name": "冷酷符石: 上古",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalCriticalChance": "16.2%",
+        "MagicalCriticalChance": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Agility: Heroic",
+      "name": "敏捷符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalDodgeChance": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Agitation: Heroic",
+      "name": "激昂符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "AddMpOnAttackR": "7.7%"
+      }
+    },
+    {
+      "id": "Rune of Denial: Heroic",
+      "name": "抗拒符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "MagicalBlockPower": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Exclusion: Heroic",
+      "name": "封锁的符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "MagicalBlockChance": "17.5%"
+      }
+    },
+    {
+      "id": "Rune of Fierce Attack: Heroic",
+      "name": "猛攻符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "AddPhysicalAttackR": "10.5%",
+        "AddMagicalAttackR": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Flexibility: Heroic",
+      "name": "灵活符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "MagicalDodgeChance": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Frenzy: Heroic",
+      "name": "狂暴符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalCriticalPower": "17.5%",
+        "MagicalCriticalPower": "17.5%"
+      }
+    },
+    {
+      "id": "Rune of Iron Wall: Heroic",
+      "name": "铁壁符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalBlockPower": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Patience: Heroic",
+      "name": "忍耐符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "AddPhysicalDefenseR": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Potential: Heroic",
+      "name": "潜力符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "AddMpOnDamageR": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Precision: Heroic",
+      "name": "精密符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalHitChance": "9.1%",
+        "MagicalHitChance": "9.1%"
+      }
+    },
+    {
+      "id": "Rune of Protection: Heroic",
+      "name": "庇护符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "AddMagicalDefenseR": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Resistance: Heroic",
+      "name": "抵抗的符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "AntiCcChance": "9.1%"
+      }
+    },
+    {
+      "id": "Rune of Sharpness: Heroic",
+      "name": "锐利符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalPiercePower": "9.1%",
+        "MagicalPiercePower": "9.1%"
+      }
+    },
+    {
+      "id": "Rune of Stamina: Heroic",
+      "name": "体力符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "AddMaxHpR": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Steel: Heroic",
+      "name": "钢铁符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalBlockChance": "17.5%"
+      }
+    },
+    {
+      "id": "Rune of Swiftness: Heroic",
+      "name": "神速符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "AttackSpeed": "9.1%"
+      }
+    },
+    {
+      "id": "Rune of Thirst: Heroic",
+      "name": "枯竭符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "HpStealPower": "4.2%"
+      }
+    },
+    {
+      "id": "Rune of Toughness: Heroic",
+      "name": "强韧符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalToughness": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Willpower: Heroic",
+      "name": "精神力符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "MagicalToughness": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of the Heartless: Heroic",
+      "name": "冷酷符石: 英雄",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalCriticalChance": "13.3%",
+        "MagicalCriticalChance": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Agility: Rare",
+      "name": "敏捷符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalDodgeChance": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Denial: Rare",
+      "name": "抗拒符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "MagicalBlockPower": "8.3%"
+      }
+    },
+    {
+      "id": "Rune of Exclusion: Rare",
+      "name": "封锁的符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "MagicalBlockChance": "13.8%"
+      }
+    },
+    {
+      "id": "Rune of Fierce Attack: Rare",
+      "name": "猛攻符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "AddPhysicalAttackR": "8.3%",
+        "AddMagicalAttackR": "8.3%"
+      }
+    },
+    {
+      "id": "Rune of Flexibility: Rare",
+      "name": "灵活符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "MagicalDodgeChance": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Frenzy: Rare",
+      "name": "狂暴符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalCriticalPower": "13.8%",
+        "MagicalCriticalPower": "13.8%"
+      }
+    },
+    {
+      "id": "Rune of Iron Wall: Rare",
+      "name": "铁壁符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalBlockPower": "8.3%"
+      }
+    },
+    {
+      "id": "Rune of Patience: Rare",
+      "name": "忍耐符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "AddPhysicalDefenseR": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Potential: Rare",
+      "name": "潜力符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "AddMpOnDamageR": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Precision: Rare",
+      "name": "精密符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalHitChance": "7.2%",
+        "MagicalHitChance": "7.2%"
+      }
+    },
+    {
+      "id": "Rune of Protection: Rare",
+      "name": "庇护符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "AddMagicalDefenseR": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Resistance: Rare",
+      "name": "抵抗的符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "AntiCcChance": "7.2%"
+      }
+    },
+    {
+      "id": "Rune of Sharpness: Rare",
+      "name": "锐利符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalPiercePower": "7.2%",
+        "MagicalPiercePower": "7.2%"
+      }
+    },
+    {
+      "id": "Rune of Stamina: Rare",
+      "name": "体力符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "AddMaxHpR": "8.3%"
+      }
+    },
+    {
+      "id": "Rune of Steel: Rare",
+      "name": "钢铁符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalBlockChance": "13.8%"
+      }
+    },
+    {
+      "id": "Rune of Swiftness: Rare",
+      "name": "神速符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "AttackSpeed": "7.2%"
+      }
+    },
+    {
+      "id": "Rune of Thirst: Rare",
+      "name": "枯竭符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "HpStealPower": "3.3%"
+      }
+    },
+    {
+      "id": "Rune of Toughness: Rare",
+      "name": "强韧符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalToughness": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Willpower: Rare",
+      "name": "精神力符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "MagicalToughness": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of the Agitation: Rare",
+      "name": "激昂符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "AddMpOnAttackR": "6.1%"
+      }
+    },
+    {
+      "id": "Rune of the Heartless: Rare",
+      "name": "冷酷符石: 稀有",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalCriticalChance": "10.5%",
+        "MagicalCriticalChance": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Agility: Uncommon",
+      "name": "敏捷符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalDodgeChance": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Agitation: Uncommon",
+      "name": "激昂符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "AddMpOnAttackR": "4.4%"
+      }
+    },
+    {
+      "id": "Rune of Denial: Uncommon",
+      "name": "抗拒符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "MagicalBlockPower": "6.0%"
+      }
+    },
+    {
+      "id": "Rune of Exclusion: Uncommon",
+      "name": "封锁的符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "MagicalBlockChance": "10.0%"
+      }
+    },
+    {
+      "id": "Rune of Fierce Attack: Uncommon",
+      "name": "猛攻符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "AddPhysicalAttackR": "6.0%",
+        "AddMagicalAttackR": "6.0%"
+      }
+    },
+    {
+      "id": "Rune of Flexibility: Uncommon",
+      "name": "灵活符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "MagicalDodgeChance": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Frenzy: Uncommon",
+      "name": "狂暴符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalCriticalPower": "10.0%",
+        "MagicalCriticalPower": "10.0%"
+      }
+    },
+    {
+      "id": "Rune of Iron Wall: Uncommon",
+      "name": "铁壁符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalBlockPower": "6.0%"
+      }
+    },
+    {
+      "id": "Rune of Patience: Uncommon",
+      "name": "忍耐符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "AddPhysicalDefenseR": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Potential: Uncommon",
+      "name": "潜力符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "AddMpOnDamageR": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Precision: Uncommon",
+      "name": "精密符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalHitChance": "5.2%",
+        "MagicalHitChance": "5.2%"
+      }
+    },
+    {
+      "id": "Rune of Protection: Uncommon",
+      "name": "庇护符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "AddMagicalDefenseR": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Resistance: Uncommon",
+      "name": "抵抗的符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "AntiCcChance": "5.2%"
+      }
+    },
+    {
+      "id": "Rune of Sharpness: Uncommon",
+      "name": "锐利符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalPiercePower": "5.2%",
+        "MagicalPiercePower": "5.2%"
+      }
+    },
+    {
+      "id": "Rune of Stamina: Uncommon",
+      "name": "体力符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "AddMaxHpR": "6.0%"
+      }
+    },
+    {
+      "id": "Rune of Steel: Uncommon",
+      "name": "钢铁符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalBlockChance": "10.0%"
+      }
+    },
+    {
+      "id": "Rune of Swiftness: Uncommon",
+      "name": "神速符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "AttackSpeed": "5.2%"
+      }
+    },
+    {
+      "id": "Rune of Thirst: Uncommon",
+      "name": "枯竭符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "HpStealPower": "2.4%"
+      }
+    },
+    {
+      "id": "Rune of Toughness: Uncommon",
+      "name": "强韧符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalToughness": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Willpower: Uncommon",
+      "name": "精神力符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "MagicalToughness": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of the Heartless: Uncommon",
+      "name": "冷酷符石: 高级",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalCriticalChance": "7.6%",
+        "MagicalCriticalChance": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Agility: Common",
+      "name": "敏捷符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "PhysicalDodgeChance": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of Agitation: Common",
+      "name": "激昂符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "AddMpOnAttackR": "2.8%"
+      }
+    },
+    {
+      "id": "Rune of Denial: Common",
+      "name": "抗拒符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "MagicalBlockPower": "3.8%"
+      }
+    },
+    {
+      "id": "Rune of Exclusion: Common",
+      "name": "封锁的符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "MagicalBlockChance": "6.3%"
+      }
+    },
+    {
+      "id": "Rune of Fierce Attack: Common",
+      "name": "猛攻符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "AddPhysicalAttackR": "3.8%",
+        "AddMagicalAttackR": "3.8%"
+      }
+    },
+    {
+      "id": "Rune of Flexibility: Common",
+      "name": "灵活符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "MagicalDodgeChance": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of Frenzy: Common",
+      "name": "狂暴符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "PhysicalCriticalPower": "6.3%",
+        "MagicalCriticalPower": "6.3%"
+      }
+    },
+    {
+      "id": "Rune of Iron Wall: Common",
+      "name": "铁壁符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "PhysicalBlockPower": "3.8%"
+      }
+    },
+    {
+      "id": "Rune of Patience: Common",
+      "name": "忍耐符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "AddPhysicalDefenseR": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of Potential: Common",
+      "name": "潜力符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "AddMpOnDamageR": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of Precision: Common",
+      "name": "精密符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "PhysicalHitChance": "3.3%",
+        "MagicalHitChance": "3.3%"
+      }
+    },
+    {
+      "id": "Rune of Protection: Common",
+      "name": "庇护符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "AddMagicalDefenseR": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of Resistance: Common",
+      "name": "抵抗的符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "AntiCcChance": "3.3%"
+      }
+    },
+    {
+      "id": "Rune of Sharpness: Common",
+      "name": "锐利符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "PhysicalPiercePower": "3.3%",
+        "MagicalPiercePower": "3.3%"
+      }
+    },
+    {
+      "id": "Rune of Stamina: Common",
+      "name": "体力符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "AddMaxHpR": "3.8%"
+      }
+    },
+    {
+      "id": "Rune of Steel: Common",
+      "name": "钢铁符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "PhysicalBlockChance": "6.3%"
+      }
+    },
+    {
+      "id": "Rune of Swiftness: Common",
+      "name": "神速符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "AttackSpeed": "3.3%"
+      }
+    },
+    {
+      "id": "Rune of Thirst: Common",
+      "name": "枯竭符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "HpStealPower": "1.5%"
+      }
+    },
+    {
+      "id": "Rune of Toughness: Common",
+      "name": "强韧符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "PhysicalToughness": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of Willpower: Common",
+      "name": "精神力符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "MagicalToughness": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of the Heartless: Common",
+      "name": "冷酷符石: 一般",
+      "grade": "Common",
+      "stats": {
+        "PhysicalCriticalChance": "4.8%",
+        "MagicalCriticalChance": "4.8%"
+      }
+    }
+  ],
+  "bosses": {}
+}

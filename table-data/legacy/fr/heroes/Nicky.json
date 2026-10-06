@@ -1,0 +1,278 @@
+{
+  "id": "Nicky",
+  "profile": {
+    "name": "Nicky",
+    "title": "Nicky, Garde en Chef cruelle",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "9500",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "24",
+    "height": "183",
+    "race": "Humain",
+    "constellation": "Mira la Ménestrelle",
+    "birth": {
+      "month": 6,
+      "day": 23,
+      "monthName": "Mois de l'Amour"
+    },
+    "like": "La simplicité et la discipline",
+    "dislike": "Les perturbateurs indisciplinés",
+    "story": "Garde en chef de la Prison d'Orvel.\nElle fut autrefois une guerrière dans l'arène d'Orvel, et la rivale de Gladi. Lorsque celui-ci se détourna de l'arène pour se faire commerçant, Nicky décida de trouver un autre travail.\nExcellente dresseuse de monstres, elle postula pour devenir garde en chef de la prison, un emploi aussi dangereux que bien payé.\nLes détenus refusent généralement de céder à la peur qu'elle inspire, mais il leur arrive de perdre la raison et de s'agiter.\nÀ chaque fois qu'un tel incident se produit, sa masse fait couler le sang et la peur paralyse à nouveau les détenus.",
+    "thumbnail": "heroes/Nicky/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Masse de réinsertion",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Inflige ??? DEG P à la cible ainsi qu'aux ennemis à portée et les étourdit pendant 1 sec. Met les cibles touchées à l'état de Désarmement pendant 7 sec, ce qui modifie leur Blocage P pour 0. Cet effet ne peut pas être dissipé.",
+      "thumbnail": "heroes/Nicky/skills/1.png"
+    },
+    "2": {
+      "name": "Bourrasque impitoyable",
+      "cost": "3",
+      "cooldown": "14",
+      "description": "Frappe 7 fois les ennemis à portée dans une zone circulaire. À chaque coup porté, inflige aux cibles des DEG P à hauteur de 1% des PV max de Nicky + ??? DEG P, les étourdit pendant 1.5 sec et réduit leur DEF P de 30% pendant 5 sec. Augmente les DEG infligés par cette compétence de 100% aux ennemis non-Héros, et pendant 5 sec, les DEG P que ceux-ci reçoivent de 50%.",
+      "thumbnail": "heroes/Nicky/skills/2.png"
+    },
+    "3": {
+      "name": "Exécution finale",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Se place en position et se concentre, puis attaque les ennemis en face dans une large zone infligeant ??? DEG P. Dissipe tous les effets positifs des cibles, les repousse et les renverse pendant 6 sec. Inflige ??? DEG P supplémentaires aux ennemis non-héros. Applique une augmentation de Précision et de Précision des Contrôles de 500 à cette compétence.",
+      "thumbnail": "heroes/Nicky/skills/3.png"
+    },
+    "4": {
+      "name": "Instinct massacreur",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente l'ATQ de ??? et le Crit de 300. Active Folie cruelle lorsque les PV sont à 50% des PV max ou moins. À l'activation de Folie cruelle, dissipe tous les effets négatifs du lanceur, et pendant 8 sec, augmente l'ATQ de ??? et la Vitesse d'ATQ de 500, réduit les DEG reçus de 50%, puis confère l'immunité aux Contrôles. Cet effet ne s'active qu'une seule fois par bataille et ne peut être dissipé.",
+      "thumbnail": "heroes/Nicky/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente l'augmentation d'ATQ de 10%.",
+      "III": "Augmente l'augmentation d'ATQ de 15%.",
+      "IV": "Augmente l'augmentation d'ATQ de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Augmente la durée de Désarmement de 3 sec.",
+          "thumbnail": "heroes/Nicky/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 1 barre.",
+          "thumbnail": "heroes/Nicky/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Dissipe tous les effets positifs des ennemis à chaque coup porté.",
+          "thumbnail": "heroes/Nicky/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Réduit la Récupération des PV de la cible de 5% pendant 10 sec à chaque coup porté. Cet effet peut se cumuler jusqu'à 7 fois.",
+          "thumbnail": "heroes/Nicky/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1 barre.",
+          "thumbnail": "heroes/Nicky/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente le coût en PM de 1 barre et les DEG infligés de 100%.",
+          "thumbnail": "heroes/Nicky/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Augmente la durée de 'Folie cruelle' de 5 sec.",
+          "thumbnail": "heroes/Nicky/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Récupère 3 barres de PM lorsque l'effet 'Folie cruelle' est activé.",
+          "thumbnail": "heroes/Nicky/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Vitesse d'ATQ +100",
+        "thumbnail": "heroes/Nicky/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente la Résistance aux Contrôles de 500 et réduit la durée des Contrôles subis de 50%.",
+        "thumbnail": "heroes/Nicky/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Hartnon, la Masse de Réinsertion",
+    "description": "À chaque utilisation de compétence, pendant 5 sec, augmente les DEG P reçus par les cibles de {0}% et réduit leur PM de {1} toutes les sec, avant de se conférer une charge de [Sadisme]. [Sadisme] peut être conféré avec un intervalle de 2 sec et peut se cumuler jusqu'à 5 fois. Lorsque les charges sont cumulées au max, les consommes toutes pour infliger à tous les ennemis l'effet de [Masochisme] qui, pendant 5 sec, réduit leur Résistance aux Contrôles de {2} et augmente la durée des Contrôles qu'ils subissent de {3}%. Les effets de [Sadisme] et [Masochisme] ne peuvent être dissipés. Lors de l'attaque avec une compétence à l'Arène, inflige des DEG P supplémentaires à hauteur de {4}% des PV max de chaque cible.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "80",
+        "1": "100",
+        "2": "120",
+        "3": "140",
+        "4": "170",
+        "5": "200"
+      },
+      "2": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      },
+      "3": {
+        "0": "10",
+        "1": "13",
+        "2": "16",
+        "3": "20",
+        "4": "25",
+        "5": "30"
+      },
+      "4": {
+        "0": "0.8",
+        "1": "1",
+        "2": "1.2",
+        "3": "1.4",
+        "4": "1.7",
+        "5": "2"
+      }
+    },
+    "thumbnail": "heroes/Nicky/uw.png",
+    "story": "La masse utilisée par la garde en chef pour contenir les détenus.\nLes monstres indisciplinés incarcérés la surnomment la Masse de réinsertion.\nElle est transmise de génération en génération parmi les gardes en chef de la Prison d'Orvelia, mais peu après l'avoir reçue, Nicky en brisa un morceau, tant elle l'avait utilisée pour frapper les prisonniers.\n\n- ... ... ...\n\nElle fixait sa masse brisée avant de poser les yeux sur les prisonniers, quand son regard s'arrêta sur Hartnon, la créature de l'enfer, dont le corps était recouvert de cornes.\nSon visage afficha un sourire cruel.\n\n- Toi ! T'as beau être une ordure, t'as un bel œil !\n\nL'œil de la bête passa entre les mains de Jin le forgeron et devint la nouvelle masse de Nicky.\nElle était idéale.\nLes cornes de la masse profèrent une malédiction insoutenable, tandis que la rancune gravée dans l'iris du monstre garantit une douleur au-delà du corps.\nLes détenus surnomment cette masse « Hartnon », en l'honneur de la bête sacrifiée pour fabriquer l'arme.\nNicky ressent un plaisir incommensurable à chaque fois qu'elle inculque les bonnes manières aux détenus à l'aide de sa masse.",
+    "descriptionByStar": {
+      "0": "À chaque utilisation de compétence, pendant 5 sec, augmente les DEG P reçus par les cibles de 20% et réduit leur PM de 80 toutes les sec, avant de se conférer une charge de [Sadisme]. [Sadisme] peut être conféré avec un intervalle de 2 sec et peut se cumuler jusqu'à 5 fois. Lorsque les charges sont cumulées au max, les consommes toutes pour infliger à tous les ennemis l'effet de [Masochisme] qui, pendant 5 sec, réduit leur Résistance aux Contrôles de 200 et augmente la durée des Contrôles qu'ils subissent de 10%. Les effets de [Sadisme] et [Masochisme] ne peuvent être dissipés. Lors de l'attaque avec une compétence à l'Arène, inflige des DEG P supplémentaires à hauteur de 0.8% des PV max de chaque cible.",
+      "1": "À chaque utilisation de compétence, augmente les DEG P reçus par la cible de 20% et réduit ses PM de 80 toutes les sec, pendant 5 sec.",
+      "2": "À chaque utilisation de compétence, augmente les DEG P reçus par la cible de 24% et réduit ses PM de 100 toutes les sec, pendant 5 sec.",
+      "3": "À chaque utilisation de compétence, augmente les DEG P reçus par la cible de 29% et réduit ses PM de 120 toutes les sec, pendant 5 sec.",
+      "4": "Les coups de compétence augmentent de 42% les DEG P reçus par la cible pendant 5 sec et réduisent les PM de 170 toutes les sec.",
+      "5": "Les coups de compétence augmentent de 50% les DEG P reçus par la cible pendant 5 sec et réduisent les PM de 200 toutes les sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Bottes spéciales de la Prison",
+      "description": "[Masse de réinsertion] Réduit la DEF P de l'ennemi touché de 25 % pendant 10 sec et ajoute à Désarmement l'effet de réduction de la Récupération des PV de 30 %.",
+      "value": {},
+      "thumbnail": "heroes/Nicky/ut/1.png",
+      "story": "Cette paire de bottes fut fabriquée avec le cuir des monstres qui pullulent dans la Prison.\nAu cours du premier jour de Nicky en tant que chef des gardes, elle constata avec effroi que des monstres saccageaient les lieux. Ceux-ci s'apprêtaient à se jeter sur elle. Elle leur brisa le crâne à grands coups de masse en arborant un sourire glacial. Ensuite, elle les dépeça et confectionna des bottes avec leur cuir.\nDepuis lors, aucun détenu de la prison n'a osé lui chercher des noises.",
+      "descriptionByStar": {
+        "0": "[Masse de réinsertion] Réduit la DEF P de l'ennemi touché de 25 % pendant 10 sec et ajoute à Désarmement l'effet de réduction de la Récupération des PV de 30 %.",
+        "1": "[Masse de réinsertion] Réduit la DEF P de l'ennemi touché de 25 % pendant 10 sec et ajoute à Désarmement l'effet de réduction de la Récupération des PV de 36 %.",
+        "2": "[Masse de réinsertion] Réduit la DEF P de l'ennemi touché de 25 % pendant 10 sec et ajoute à Désarmement l'effet de réduction de la Récupération des PV de 43 %.",
+        "3": "[Masse de réinsertion] Réduit la DEF P de l'ennemi touché de 25 % pendant 10 sec et ajoute à Désarmement l'effet de réduction de la Récupération des PV de 52 %.",
+        "4": "[Masse de réinsertion] Réduit la DEF P de l'ennemi touché de 25 % pendant 10 sec et ajoute à Désarmement l'effet de réduction de la Récupération des PV de 62 %.",
+        "5": "[Masse de réinsertion] Réduit la DEF P de l'ennemi touché de 25 % pendant 10 sec et ajoute à Désarmement l'effet de réduction de la Récupération des PV de 75 %."
+      }
+    },
+    "2": {
+      "name": "Pendentif du Dieu de la guerre",
+      "description": "[Bourrasque impitoyable] Augmente les DEG de 50 % et réduit le temps de recharge de 1,6 % à chaque ennemi touché.",
+      "value": {},
+      "thumbnail": "heroes/Nicky/ut/2.png",
+      "story": "Un pendentif obtenu après avoir affronté Gladi, l'ennemi juré de Nicky.\nLe Dieu de la guerre du continent Orbis insuffla sa puissance dans ce pendentif en cas de catastrophe future.\nLe joyau renferme une flamme qui luit telle l'âme d'un combattant.\nLorsqu'il fut mis aux enchères, Gladi et Nicky se battirent des jours durant pour l'obtenir, mais aucun ne fut victorieux.\nCe qui se produisit ensuite était-il une intervention malicieuse de la déesse ? Lorsque le combat prit un tournant sanglant, le vent se mit à apporter des odeurs de l'herbe-aux-chats . Gladi, attiré par ce doux parfum, abandonna le combat et se précipita dehors.\nNicky gagna donc le pendentif.",
+      "descriptionByStar": {
+        "0": "[Bourrasque impitoyable] Augmente les DEG de 50 % et réduit le temps de recharge de 1,6 % à chaque ennemi touché.",
+        "1": "[Bourrasque impitoyable] Augmente les DEG de 50 % et réduit le temps de recharge de 1,9 % à chaque ennemi touché.",
+        "2": "[Bourrasque impitoyable] Augmente les DEG de 50 % et réduit le temps de recharge de 2,3 % à chaque ennemi touché.",
+        "3": "[Bourrasque impitoyable] Augmente les DEG de 50 % et réduit le temps de recharge de 2,7 % à chaque ennemi touché.",
+        "4": "[Bourrasque impitoyable] Augmente les DEG de 50 % et réduit le temps de recharge de 3,3 % à chaque ennemi touché.",
+        "5": "[Bourrasque impitoyable] Augmente les DEG de 50 % et réduit le temps de recharge de 4 % à chaque ennemi touché."
+      }
+    },
+    "3": {
+      "name": "Ceste aux crânes impitoyables",
+      "description": "[Exécution finale] Réduit le temps de recharge de 30 % et augmente les DEG infligés aux boss de 4 % à chaque utilisation. Cet effet peut se cumuler jusqu'à 10 fois.",
+      "value": {},
+      "thumbnail": "heroes/Nicky/ut/3.png",
+      "story": "Un ceste étrange acheté à Cassandra lorsqu'elle était en visite à Orvelia.\nElle aperçut Nicky à la taverne, en train de se plaindre de l'indiscipline de ses prisonniers, et lui vendit cet objet.\nD'après Cassandra, les crânes qu'il présente sont issus d'os de grands mages, et celui qui a les yeux rouges peut infliger des hallucinations et une douleur éternelle à ses ennemis.\nNicky s'en sert, ainsi que de sa masse, pour punir les criminels.",
+      "descriptionByStar": {
+        "0": "[Exécution finale] Réduit le temps de recharge de 30 % et augmente les DEG infligés aux boss de 4 % à chaque utilisation. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "1": "[Exécution finale] Réduit le temps de recharge de 30 % et augmente les DEG infligés aux boss de 4,8 % à chaque utilisation. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "2": "[Exécution finale] Réduit le temps de recharge de 30 % et augmente les DEG infligés aux boss de 5,8 % à chaque utilisation. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "3": "[Exécution finale] Réduit le temps de recharge de 30 % et augmente les DEG infligés aux boss de 7 % à chaque utilisation. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "4": "[Exécution finale] Réduit le temps de recharge de 30 % et augmente les DEG infligés aux boss de 8,4 % à chaque utilisation. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "5": "[Exécution finale] Réduit le temps de recharge de 30 % et augmente les DEG infligés aux boss de 10 % à chaque utilisation. Cet effet peut se cumuler jusqu'à 10 fois."
+      }
+    },
+    "4": {
+      "name": "Manucure sinistre",
+      "description": "[Instinct massacreur] À l'activation de [Folie cruelle], réduit immédiatement le temps de recharge de toutes les compétences de {0}% et augmente la Récupération des PV de 50% pendant la durée de l'effet.",
+      "value": {
+        "0": {
+          "0": "30",
+          "1": "36",
+          "2": "43",
+          "3": "52",
+          "4": "63",
+          "5": "75"
+        }
+      },
+      "thumbnail": "heroes/Nicky/ut/4.png",
+      "story": "Une manucure noire portée par Nicky le jour du tri des déchets à la Prison.\nNicky a toujours détesté retrouver des taches de sang sur ses ongles après avoir « sorti les poubelles ».\nDes sangs de différentes couleurs provenant de différentes créatures, et des ongles ruinés une fois le sale boulot effectué.\nUn jour, alors qu'elle déversait une série de jurons en constatant l'état de ses ongles, elle aperçut une femme avec des ongles de toutes les couleurs, ce qui lui donna une idée.\nPuisqu'elle n'aimait pas que ses ongles finissent tachés, elle n'avait qu'à leur appliquer une couleur sombre au préalable !\nElle sélectionna les monstres au sang le plus sombre et se concocta un flacon de vernis spécial. Désormais, elle l'applique sur ses ongles chaque jour du tri des déchets.\nLorsqu'elle arpente la Prison avec ses ongles noirs, tous les prisonniers craignent pour leur vie.",
+      "descriptionByStar": {
+        "0": "[Instinct massacreur] À l'activation de [Folie cruelle], réduit immédiatement le temps de recharge de toutes les compétences de 30% et augmente la Récupération des PV de 50% pendant la durée de l'effet.",
+        "1": "[Instinct massacreur] Rend Folie cruelle inamovible. Réduit immédiatement le temps de recharge de toutes les compétences de 24 %.",
+        "2": "[Instinct massacreur] Rend Folie cruelle inamovible. Réduit immédiatement le temps de recharge de toutes les compétences de 29 %.",
+        "3": "[Instinct massacreur] Rend Folie cruelle inamovible. Réduit immédiatement le temps de recharge de toutes les compétences de 35 %.",
+        "4": "[Instinct massacreur] Rend Folie cruelle inamovible. Réduit immédiatement le temps de recharge de toutes les compétences de 42 %.",
+        "5": "[Instinct massacreur] Rend Folie cruelle inamovible. Réduit immédiatement le temps de recharge de toutes les compétences de 50 %."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 5 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Hartnon, la Masse de Réinsertion, infligeant ??? DEG P aux ennemis à portée. Ensuite, pendant 10 sec, inflige aux cibles lors des attaques automatiques et celles des compétences [Rancune de Hartnon] qui ne peut être dissipé, ce qui augmente les DEG P reçus des cibles de 2% pendant 10 sec et réduit leur ATQ de 2%. 10 sec après, attaque tous les ennemis pour leur infliger ??? DEG P et les étourdit pendant 5 sec. [Rancune de Hartnon] peut se cumuler jusqu'à 15 fois. Si la cible est un boss, multiplie tous les effets par 2.",
+    "cooldown": "20",
+    "uses": "6",
+    "thumbnail": "heroes/Nicky/sw.png",
+    "advancement": {
+      "1": "Modifie la condition d'activation pour 4 fois et l'effet d'augmentation des DEG P reçus par les cibles pour 3%.",
+      "2": "Active l'effet de [Folie cruelle] pendant 8 sec lors de l'invocation. 10 sec après, dissipe tous les effets positifs de tous les ennemis."
+    },
+    "story": "La routine journalière de Hartnon consistait à déchaîner sa haine contre Nicky.\nIl était hors de question d'aider la personne qui lui avait arraché les yeux et l'avait massacré sans pitié.\nAprès qu'il fut transformé en masse, il manifestait continuellement sa rage, lançait des malédictions sans relâche et s'efforçait de faire souffrir Nicky.\nIl était si violent que les prisonniers trouvaient Hartnon plus dérangeant que Nicky.\n\nÉtrangement, cette dernière restait silencieuse, le laissant déverser sa colère.\nUn jour, Hartnon, ne comprenant pas son attitude, finit par lui adresser la parole.\n\n- Pourquoi ne réagis-tu pas, malgré mon comportement ?\n\n- Si c'est ce dont tu as besoin pour te défouler, fais comme bon te semble.\n- Je t'ai choisi, alors quoi que tu fasses, je te respecterai en tant que compagnon.\n- Mais tu ferais mieux de coopérer quand j'entreprends de nettoyer les déchets qui peuplent la prison.\n\nNicky continua à laisser Hartnon à expulser sa rage, et il se mit à la considérer autrement.\nAu lieu de la prendre pour une simple folle, il s'intéressait à elle en tant que combattante qui réinsérait ses adversaires.\n\nEn fin de compte, il accepta son destin et décida de venir en aide à Nicky.\n\n- Certes, je n'ai plus le choix, à présent. Puisqu'il en est ainsi, je t'accepte, partenaire."
+  },
+  "splashart": "heroes/Nicky/sa.png",
+  "costumes": "heroes/Nicky/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "id": "Pansirone",
+  "profile": {
+    "name": "Pansirone",
+    "title": "Pansirone, Flamme de Folie",
+    "class": "Mechanic",
+    "position": "Middle-100",
+    "attack_range": "7200",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "19",
+    "height": "167",
+    "race": "Humain",
+    "constellation": "Kandala le Conquérant",
+    "birth": {
+      "month": 8,
+      "day": 1,
+      "monthName": "Mois de la Vitalité"
+    },
+    "like": "Tersia, des chips craquantes (goût chocolat), escouade de fou rire en aigre-doux (humour d'un autre monde, édition spéciale)",
+    "dislike": "Incident ennuyeux, médicament en poudre",
+    "story": "Une jeune fille qui faisait partie de l'unité du Chien.\nElle ne montre aucune pitié envers ses ennemis, même quand ils se sont rendus. Elle souffre d'une folie qui la pousse à enflammer tout ce qui existe.\nSeul Crow est capable de maîtriser sa folie.\nAprès la dissolution de l'unité du Chien, elle a été réaffectée en tant qu'officier de la division mécanique et effectue diverses missions en différents sites archéologiques.\nElle est célèbre pour être désobéissante aux ordres de ses supérieurs et pour refuser de suivre les règles imposées par l'armée, ce qui fait d'elle une source d'ennuis pour de nombreux soldats. Elle est donc considérée comme une bombe pouvant exploser n'importe quand, ayant besoin d'être surveillée en permanence.\nElle se montre extrêmement sensible sur son passé, mais heureusement, les membres de l'unité du Chien ne l'interroge jamais dessus.",
+    "thumbnail": "heroes/Pansirone/ico.png"
+  },
+  "skills": {
+    "1 (1)": {
+      "name": "Un cadeau pour toi !",
+      "cost": "2",
+      "cooldown": "22",
+      "description": "Inflige ??? DEG P à la cible et aux ennemis dans une large zone environnante et leur applique 'Flamme perpétuelle'. Les ennemis touchés par 'Flamme perpétuelle' reçoivent un total de ??? DEG P pendant 10 sec et leur récupération de PV est réduite de 25%.\nDans les 10 sec après l'utilisation de la compétence, [Voilà, MEURS !] devient disponible.",
+      "thumbnail": "heroes/Pansirone/skills/1 (1).png"
+    },
+    "1 (2)": {
+      "name": "Voilà, MEURS !",
+      "cost": "2",
+      "cooldown": null,
+      "description": "Attaque les ennemis en face dans une large zone à 7 reprises pour infliger ??? DEG P par coup porté et ??? DEG P supplémentaires à une cible non-Héros. Inflige des DEG P augmentés de ??? par coup porté aux ennemis touchés par 'Flamme perpétuelle'.",
+      "thumbnail": "heroes/Pansirone/skills/1 (2).png"
+    },
+    "2": {
+      "name": "Ah ! Grisant ! Excitant !!",
+      "cost": "2",
+      "cooldown": "20",
+      "description": "Attaque les ennemis à portée à 12 reprises pour leur infliger un total de ??? DEG P. Augmente son taux d'ATQ de ??? et sa Pénétration DEF de 500, pendant 15 sec.",
+      "thumbnail": "heroes/Pansirone/skills/2.png"
+    },
+    "3": {
+      "name": "Ne t'enfuis pas !",
+      "cost": "3",
+      "cooldown": "21",
+      "description": "Attaque un ennemi aléatoire à 10 reprises pour lui infliger un total de ??? DEG P et augmente les DEG infligés de ??? chaque fois que le même ennemi est touché.",
+      "thumbnail": "heroes/Pansirone/skills/3.png"
+    },
+    "4": {
+      "name": "Joie sadique",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente le taux d'ATQ de ??? et les DEG infligés à un ennemi non-Héros de 30%. Lors de chaque attaque à l'ennemi touché par 'Flamme perpétuelle', la durée de 'Flamme perpétuelle' est renouvelée.",
+      "thumbnail": "heroes/Pansirone/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10 %.",
+      "III": "Augmente les DEG infligés de 15 %.",
+      "IV": "Augmente les DEG infligés de 25 %."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10 %.",
+      "III": "Augmente les DEG infligés de 15 %.",
+      "IV": "Augmente les DEG infligés de 25 %."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10 %.",
+      "III": "Augmente les DEG infligés de 15 %.",
+      "IV": "Augmente les DEG infligés de 25 %."
+    },
+    "4": {
+      "II": "Augmente le taux d'augmentation d'ATQ de 10 %.",
+      "III": "Augmente le taux d'augmentation d'ATQ de 15 %.",
+      "IV": "Augmente le taux d'augmentation d'ATQ de 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "[Un cadeau pour toi !] Augmente les DEG P reçus par l'ennemi touché de 25% pendant 10 sec.",
+          "thumbnail": "heroes/Pansirone/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "[Voilà, MEURS !] Confère une immunité contre les Contrôles pendant la durée de la compétence.",
+          "thumbnail": "heroes/Pansirone/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Pansirone/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Lors de l'activation de la compétence, ses PV ne peuvent pas descendre en dessous de 10% pendant 5 sec.",
+          "thumbnail": "heroes/Pansirone/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Étourdit l'ennemi touché pendant 2 sec.",
+          "thumbnail": "heroes/Pansirone/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente le coût en mana de 2 et fixe le nombre de cibles à 3.",
+          "thumbnail": "heroes/Pansirone/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Flamme perpétuelle ne peut plus être dissipée.",
+          "thumbnail": "heroes/Pansirone/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Récupère 70 PM en attaquant l'ennemi touché par Flamme perpétuelle.",
+          "thumbnail": "heroes/Pansirone/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Pansirone/perks/light.png"
+      },
+      "dark": {
+        "effect": "Après le début de la bataille, pendant 200 sec, augmente toutes les 10 sec le taux d'ATQ de 5% pendant 15 sec. Cet effet peut se cumuler jusqu'à 20 fois.",
+        "thumbnail": "heroes/Pansirone/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Tersia, la Canicule fracassante",
+    "description": "Chaque attaque à l'ennemi touché par Flamme perpétuelle, augmente son taux d'ATQ et sa DEF de {0}%, et les DEG infligés par Flamme perpétuelle de {1}%. Cet effet peut se cumuler jusqu'à 20 fois.",
+    "value": {
+      "0": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.7",
+        "4": "2.1",
+        "5": "2.5"
+      },
+      "1": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.7",
+        "4": "2.1",
+        "5": "2.5"
+      }
+    },
+    "thumbnail": "heroes/Pansirone/uw.png",
+    "story": "Arme nouvellement reçue de l'armée quand Pansirone fut affectée à l'unité du Chien.\nNe pouvant se contenter d'un lance-flammes ordinaire, elle le transforma en doublant la contenance du réservoir du carburant et en lui installant un système de jet personnalisé.\nMais éprouvant un désir ardent de brûler toutes choses visibles, Pansirone continua à le transformer de manière excessive. Et lorsque la transformation fut achevée, Valance ne put retenir un soupir de désapprobation en l'apercevant.\nValance l'emporta, et un certain temps s'écoula avant qu’elle ne revienne. L'arme était devenue un bijou des techniques de Magos Le'Flamme, capable de produire une chaleur intense, au point de pouvoir tout consumer.\nMais son apparence ne plut guère à Pansirone, qui la décora selon ses goûts et lui donna le nom de son amie, Tersia.",
+    "descriptionByStar": {
+      "0": "Chaque attaque à l'ennemi touché par Flamme perpétuelle, augmente son taux d'ATQ et sa DEF de 1%, et les DEG infligés par Flamme perpétuelle de 1%. Cet effet peut se cumuler jusqu'à 20 fois."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Tableau de peinture mystérieux",
+      "description": "[Un cadeau pour toi !] Réduit le coût en PM de 1.\n[Voilà, MEURS !] Augmente les DEG infligés de {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Pansirone/ut/1.png",
+      "story": "Tableau de peinture que Pansirone a obtenu en menaçant les artistes peintres des rues.\nSelon ses dires, les flammes du tableau représentent la colère de son amie mystérieuse, qui reste toujours à ses côtés.\nMais même en le regardant de près, ce n'est qu'une représentation de quelque chose en feu.\nLe jour où le tableau a été achevé, Pansirone, toute joyeuse, l'a montré en le présentant comme son amie. Ce qu'ont pensé les membres de l'unité du Chien, on ne saurait le dire...\nMais puisqu'ils l'interrogent de temps à autre sur les nouvelles de l'amie en question, ils ont sûrement dû décider de la croire sur parole.",
+      "descriptionByStar": {
+        "0": "[Un cadeau pour toi !] Réduit le coût en PM de 1.\n[Voilà, MEURS !] Augmente les DEG infligés de 20%."
+      }
+    },
+    "2": {
+      "name": "Réservoir de Carburant spécial",
+      "description": "[Ah ! Grisant ! Excitant !!] Lors de l'utilisation de la compétence, dissipe les effets négatifs sur le Héros et l'immunise contre les Contrôles pendant {0} sec.",
+      "value": {
+        "0": {
+          "0": "4",
+          "1": "4.8",
+          "2": "5.8",
+          "3": "7",
+          "4": "8.4",
+          "5": "10"
+        }
+      },
+      "thumbnail": "heroes/Pansirone/ut/2.png",
+      "story": "Réservoir de carburant fabriqué spécialement par Valance, afin de produire des flammes plus puissantes.\nLe liquide contenu à l'intérieur du réservoir possède un parfum qui plaît à Tersia et la met de bonne humeur, lui faisant émettre des flammes plus intenses qu'à l'accoutumée.\nMais ce liquide ne peut être obtenu que sur des monstres spécifiques vivant à la périphérie de l'empire, et il est acide au point d'être corrosif pour les métaux. Finalement, Valance a dû induire le réservoir d'un revêtement spécial, capable de préserver le métal contre l'acidité du liquide.\nSeulement, puisqu'il est dangereux de conserver du liquide aussi volatil et instable en grande quantité, Valence décida de fabriquer un réservoir dont la taille ne fait qu'un tiers des autres réservoirs, mais qui ne perd rien du côté de la performance.",
+      "descriptionByStar": {
+        "0": "[Ah ! Grisant ! Excitant !!] Lors de l'utilisation de la compétence, dissipe les effets négatifs sur le Héros et l'immunise contre les Contrôles pendant 4 sec."
+      }
+    },
+    "3": {
+      "name": "Cottage de l'Élémentaire",
+      "description": "[Ne t'enfuis pas !] Augmente les DEG infligés de 50% et à chaque coup porté, augmente les DEG Crit de {0}% pendant 10 sec. Cet effet peut se cumuler jusqu'à 20 fois.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
+      "thumbnail": "heroes/Pansirone/ut/3.png",
+      "story": "Objet qui sert de lieu de repos à Tersia, l'élémentaire du feu qui reste aux côtés de Pansirone. Il a été fabriqué avec du fer revêtu d'une couche antifeu, afin qu'il ne s'enflamme pas lorsque Tersia se trouve à l'intérieur.\nPansirone souhaiterait montrer son amie qui se repose dans la volière, mais malheureusement, les personnes originaires de l'empire, n'étant pas capables de voir les élémentaires, n'y aperçoivent qu'une cage vide.",
+      "descriptionByStar": {
+        "0": "[Ne t'enfuis pas !] Augmente les DEG infligés de 50% et à chaque coup porté, augmente les DEG Crit de 2% pendant 10 sec. Cet effet peut se cumuler jusqu'à 20 fois."
+      }
+    },
+    "4": {
+      "name": "Certificat de Nomination du Chef de l'unité du Chien",
+      "description": "[Joie sadique] Augmente les DEG Crit de 50% et réduit le temps de recharge de toutes les compétences du Héros de {0} sec.",
+      "value": {
+        "0": {
+          "0": "3",
+          "1": "3.6",
+          "2": "4.3",
+          "3": "5.2",
+          "4": "6.2",
+          "5": "7.5"
+        }
+      },
+      "thumbnail": "heroes/Pansirone/ut/4.png",
+      "story": "Certificat de nomination que Pansirone s'est attribuée elle-même, après son affectation à l'unité du Chien.\nElle l'a confectionné avec la couverture de certificat utilisée à l'empire, qu'elle a volée.\n\n- Je me nomme en tant que chef de la section 2 de l'unité du Chien ! Je suis le chef, sans discussion ! - Pansirone -",
+      "descriptionByStar": {
+        "0": "[Joie sadique] Augmente les DEG Crit de 50% et réduit le temps de recharge de toutes les compétences du Héros de 3 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Vous devez infliger des DEG à 85 reprises pour recharger l'âme et l'utiliser.",
+    "description": "Invoque l'âme de Tersia, la Canicule fracassante, ce qui augmente la Vitesse d'ATQ de Pansirone de 500 pendant 8 sec, et attaque les ennemis situés à l'avant dans une large zone à 3 reprises, pour leur infliger un total de ??? DEG P. Au dernier coup porté, installe 'Caprice de Tersia' à l'avant dans une large zone, pendant 8 sec, ce qui inflige ??? DEG P toutes les 1 sec et augmente les DEG P reçus par les ennemis de 25%. Modifie l'augmentation des DEG P supplémentaires à 35% pour une cible touchée par Flamme perpétuelle.",
+    "cooldown": "18",
+    "uses": "5",
+    "thumbnail": "heroes/Pansirone/sw.png",
+    "advancement": {
+      "1": "Augmente les DEG infligés de 100%.",
+      "2": "Augmente l'effet d'augmentation de la Vitesse d'ATQ et la durée de 'Caprice de Tersia' de 4 sec."
+    },
+    "story": "Bien que Pansirone soit entrée dans l'unité du Chien, il existait toujours une chose qui pouvait l'ébranler.\n\nC'était l'angoisse de 'se retrouver seule de nouveau'.\nCette appréhension était le déclencheur qui lui faisait remémorer son terrible passé.\n\nMême si Tersia ne laissait rien paraître, elle connaissait parfaitement Pansirone.\nEt Tersia savait qu'elle se démenait pour s'échapper du cauchemar de son passé.\n\nTersia s'inquiétait toujours de son amie.\nCependant, tout ce que Tersia pouvait faire pour elle, c'était de lui transmettre de la chaleur, afin que son cœur ne soit pas transformé en bloc de glace.\n\nQuand Pansirone était tourmentée, Tersia restait auprès d'elle.\nQuoi qu'elle puisse penser, ou quoi qu'elle puisse ressentir, Tersia restait à ses côtés.\nTersia souhaitait que sa présence lui soit réconfortante.\n\nSes sentiments auraient-ils fini par lui être transmis ?\nUn jour, Pansirone lui posa une question qui la réjouit.\n\n- Hé, Tersia. Ne serais-tu pas bien plus brûlante que d'habitude ?\n- C'est parce que j'ai eu l'impression que tu avais froid. Il ne faudrait pas que tu attrapes un rhume.\n\nUn sourire apparut alors sur ses lèvres.\n- Quand tu es avec moi, j'ai moins froid.\n\nTersia ne manifestait pas souvent sa présence, d'habitude. Mais sur ces paroles, elle sourit et s'enflamma de plus belle.\n\n- Si tu sens de nouveau le froid te saisir, n'oublie pas que je suis à tes côtés.\nJe suis prête à brûler autant que tu veux."
+  },
+  "splashart": "heroes/Pansirone/sa.png",
+  "costumes": "heroes/Pansirone/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

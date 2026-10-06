@@ -1,0 +1,228 @@
+{
+  "id": "Nyx",
+  "profile": {
+    "name": "Nyx",
+    "title": "Dimensionsschneider Nyx",
+    "class": "Wizard",
+    "position": "Back-400",
+    "attack_range": "3300",
+    "damage_type": "Physical",
+    "gender": "Männlich",
+    "age": "36",
+    "height": "186",
+    "race": "Menschen",
+    "constellation": "Layan, der Richter",
+    "birth": {
+      "month": 9,
+      "day": 3,
+      "monthName": "Monat der Wahrheit"
+    },
+    "like": "Interdimensionale Reisen; magische Experimente",
+    "dislike": "Leute, die nicht auf Andere hören",
+    "story": "Ein geheimnisvoller, Dimensionen überschreitender Zauberer mit klar erkennbarer Heterochromie. Das immerwährende Lächeln auf seinem Gesicht signalisiert die Weisheit von jemandem, der durch das gesamte Universum sieht. Er zeigt großes Interesse an Leuten mit speziellen Fähigkeiten und schätzt es, diese zu testen. Seine Fähigkeit, sich durch den Raum teleportieren zu können, scheint ihn vom Reich der Sterblichen zu entkoppeln und er vermag es sogar, durch Dimensionen zu reisen. Seine wirkliche Motivation ist unbekannt, doch es scheint sicher, dass er immer danach trachtet, anderen zu helfen.",
+    "thumbnail": "heroes/Nyx/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Dimensionsklinge",
+      "cost": "1",
+      "cooldown": "10",
+      "description": "Fügt Zielen ??? Körp. Schaden zu. Jeder getroffene Feind wird mit einem Klingen-Stapel versehen. Je mehr Feinde mit Klingen versehen sind, desto mehr Ziele können angegriffen werden. Jede Klinge ist 20 Sek. lang aktiv, und jedes Ziel kann bis zu 5 Klingen kumulieren.",
+      "thumbnail": "heroes/Nyx/skills/1.png"
+    },
+    "2": {
+      "name": "Dimensions-Zerstücklungbeil",
+      "cost": "3",
+      "cooldown": "14",
+      "description": "Fügt Feinden ??? Körp. Schaden zu und entfernt positive Effekte. Getroffene Feinde nehmen ??? Körp. Schaden über 10 Sek. und werden für 3 Sek. zu Boden geworfen. Die Anzahl der Ziele ist gleich 1 + Anz. des Klingen-Stapels.",
+      "thumbnail": "heroes/Nyx/skills/2.png"
+    },
+    "3": {
+      "name": "Klingen der Unendlichkeit",
+      "cost": "4",
+      "cooldown": "25",
+      "description": "Fügt Feinden an der Front ??? Körp. Schaden zu. Der letzte Angriff fügt einem Feind ??? Körp. Schaden zu und wirft ihn für 3 Sek. zu Boden. Die Anzahl der Feinde, die vom letzten Angriff getroffen werden, steigt mit der Anzahl des Klingen-Stapels.",
+      "thumbnail": "heroes/Nyx/skills/3.png"
+    },
+    "4": {
+      "name": "Verborgene Klinge",
+      "cost": null,
+      "cooldown": null,
+      "description": "Jeder normale Angriff feuert eine zusätzliche Klinge für ??? physischen Schaden ab und gewährt mit 10% Wahrscheinlichkeit 1 Klingenstapel. Pro Stapel steigt die Zielanzahl und Nyx' ANG um 10%.",
+      "thumbnail": "heroes/Nyx/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Sind mehr als 5 Feinde anwesend, wird der Cooldown von 20 Sek. zurückgesetzt und der Schaden um 250 % erhöht. Hat einen Cooldown von 20 Sek.",
+          "thumbnail": "heroes/Nyx/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Erhöht das Klingen-Stapel-Limit um 1.",
+          "thumbnail": "heroes/Nyx/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Nyx/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Ziel erleidet 25 % erhöhten Körp. Schaden für 10 Sek.",
+          "thumbnail": "heroes/Nyx/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Reduziert Cooldown um 5 Sek.",
+          "thumbnail": "heroes/Nyx/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Bei 5 oder mehr Klingen-Stapeln wird der Schaden um 70 % erhöht.",
+          "thumbnail": "heroes/Nyx/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht pro Gegner den Schaden um 15 %.",
+          "thumbnail": "heroes/Nyx/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "10 % Chance, feindliche positive Effekte zu entfernen.",
+          "thumbnail": "heroes/Nyx/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Schaden +20 %",
+        "thumbnail": "heroes/Nyx/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht mit jedem Kampfbeginn den Schaden an Feinden, die keine Helden sind, um 7 %. Dieser Effekt kann nicht entfernt werden und kann bis zu 5-mal gestapelt werden.",
+        "thumbnail": "heroes/Nyx/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Dimensionsschlüssel, Magnus Fille",
+    "description": "Normal-Angriffe durchdringen Feinde in einer geraden Linie und erhöhen den Schaden um 30 %. Mit jedem Klingen-Stapel wird der Schaden zusätzlich um 4 % erhöht.",
+    "value": {},
+    "thumbnail": "heroes/Nyx/uw.png",
+    "story": "Es existiert ein universelles Band, das unterschiedliche Dimensionen verbindet. Dieses Schwert ist der Schlüssel zur Trennung und Wiederverbindung dieses Bandes. Es wird dem Richter der Dimensionen verliehen, der geschworen hatte, die Balance des Universums zu beschützen. Es kann unbegrenzt vervielfältigt werden, doch gewährt seine Macht nur dem Auserwählten.",
+    "descriptionByStar": {
+      "0": "Normal-Angriffe durchdringen Feinde in einer geraden Linie und erhöhen den Schaden um 30 %. Mit jedem Klingen-Stapel wird der Schaden zusätzlich um 4 % erhöht.",
+      "1": "Normal-Angriffe durchdringen Feinde in einer geraden Linie und erhöhen den Schaden um 36 %. Mit jedem Klingen-Stapel wird der Schaden zusätzlich um 4,8 % erhöht.",
+      "2": "Normal-Angriffe durchdringen Feinde in einer geraden Linie und erhöhen den Schaden um 43 %. Mit jedem Klingen-Stapel wird der Schaden zusätzlich um 5,7 % erhöht.",
+      "3": "Normal-Angriffe durchdringen Feinde in einer geraden Linie und erhöhen den Schaden um 52 %. Mit jedem Klingen-Stapel wird der Schaden zusätzlich um 6,9 % erhöht.",
+      "4": "Normal-Angriffe durchdringen Feinde in einer geraden Linie und erhöhen den Schaden um 62 %. Mit jedem Klingen-Stapel wird der Schaden zusätzlich um 8,3 % erhöht.",
+      "5": "Normal-Angriffe durchdringen Feinde in einer geraden Linie und erhöhen den Schaden um 75 %. Mit jedem Klingen-Stapel wird der Schaden zusätzlich um 10 % erhöht."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Magischer Dimensionskreis",
+      "description": "[Dimensionsklinge] erhöht die Anzahl an Zielen um 1 und verringert Körp. Blockchance des Ziels 10 Sek. lang um 200.",
+      "value": {},
+      "thumbnail": "heroes/Nyx/ut/1.png",
+      "story": "Ein magischer Kreis, der das Reisen durch die Galaxis ermöglicht.\nNyx’ Dimensionsreisen beginnen und enden mit diesem Kreis. Da die Regeln der galaktischen Reise und die Abfolge von Licht und Dunkelheit von raumzeitlichen Gegebenheiten abhängig sind, können jene, die nicht über das nötige Wissen über Dimensionen verfügen, diesen Kreis nicht benutzen. Nyx kann mithilfe dieses magischen Kreises alles und jeden beschwören.",
+      "descriptionByStar": {
+        "0": "[Dimensionsklinge] erhöht die Anzahl an Zielen um 1 und verringert Körp. Blockchance des Ziels 10 Sek. lang um 200.",
+        "1": "[Dimensionsklinge] erhöht die Anzahl an Zielen um 1 und verringert Körp. Blockchance des Ziels 10 Sek. lang um 240.",
+        "2": "[Dimensionsklinge] erhöht die Anzahl an Zielen um 1 und verringert Körp. Blockchance des Ziels 10 Sek. lang um 290.",
+        "3": "[Dimensionsklinge] erhöht die Anzahl an Zielen um 1 und verringert Körp. Blockchance des Ziels 10 Sek. lang um 350.",
+        "4": "[Dimensionsklinge] erhöht die Anzahl an Zielen um 1 und verringert Körp. Blockchance des Ziels 10 Sek. lang um 420.",
+        "5": "[Dimensionsklinge] erhöht die Anzahl an Zielen um 1 und verringert Körp. Blockchance des Ziels 10 Sek. lang um 500."
+      }
+    },
+    "2": {
+      "name": "Schwert des Flussschneidens",
+      "description": "[Dimensions-Zerstücklungbeil] erhöht den Schaden um 50 % und erhöht 8 Sek. lang für jeden getroffenen Gegner den Krit. Schaden des Wirkers um 10 %. Dieser Effekt kann bis zu 5-mal gestapelt werden.",
+      "value": {},
+      "thumbnail": "heroes/Nyx/ut/2.png",
+      "story": "Ein legendäres Schwert, das Äonen überdauert hat.\nEin legendäres Schwer, das mit dem Licht der Sonne und den schmelzenden Seelen der gequälten erschaffen wurde.\nEs ist einer der benötigen Gegenstände für das Dimensionsschwert, da es stabil genug ist, um Dimensionsreisen zu überstehen und sehr scharf geschliffen werden kann.",
+      "descriptionByStar": {
+        "0": "[Dimensions-Zerstücklungbeil] erhöht den Schaden um 50 % und erhöht 8 Sek. lang für jeden getroffenen Gegner den Krit. Schaden des Wirkers um 10 %. Dieser Effekt kann bis zu 5-mal gestapelt werden.",
+        "1": "[Dimensions-Zerstücklungbeil] erhöht den Schaden um 50 % und erhöht 8 Sek. lang für jeden getroffenen Gegner den Krit. Schaden des Wirkers um 12 %. Dieser Effekt kann bis zu 5-mal gestapelt werden.",
+        "2": "[Dimensions-Zerstücklungbeil] erhöht den Schaden um 50 % und erhöht 8 Sek. lang für jeden getroffenen Gegner den Krit. Schaden des Wirkers um 14 %. Dieser Effekt kann bis zu 5-mal gestapelt werden.",
+        "3": "[Dimensions-Zerstücklungbeil] erhöht den Schaden um 50 % und erhöht 8 Sek. lang für jeden getroffenen Gegner den Krit. Schaden des Wirkers um 17 %. Dieser Effekt kann bis zu 5-mal gestapelt werden.",
+        "4": "[Dimensions-Zerstücklungbeil] erhöht den Schaden um 50 % und erhöht 8 Sek. lang für jeden getroffenen Gegner den Krit. Schaden des Wirkers um 21 %. Dieser Effekt kann bis zu 5-mal gestapelt werden.",
+        "5": "[Dimensions-Zerstücklungbeil] erhöht den Schaden um 50 % und erhöht 8 Sek. lang für jeden getroffenen Gegner den Krit. Schaden des Wirkers um 25 %. Dieser Effekt kann bis zu 5-mal gestapelt werden."
+      }
+    },
+    "3": {
+      "name": "Dimensionsstein",
+      "description": "[Klingen der Unendlichkeit] verringert die Manakosten um 1 und erhöht den Schaden um 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Nyx/ut/3.png",
+      "story": "Ein Gegenstand, der von Zauberern benötigt werden, die Dimensionen durchqueren. Der Dimensionsstein ist ein magischer Stein, der bei denen beliebt ist, die durch Dimensionen wandeln und er enthält unbegrenzte Energie. Die Macht, die man von ihm erhalten kann hängt allerdings von den Fähigkeiten des Nutzers ab. Nur hochrangige Zauberer können ihn effektiv einsetzen.",
+      "descriptionByStar": {
+        "0": "[Klingen der Unendlichkeit] verringert die Manakosten um 1 und erhöht den Schaden um 20 %.",
+        "1": "[Klingen der Unendlichkeit] verringert die Manakosten um 1 und erhöht den Schaden um 24 %.",
+        "2": "[Klingen der Unendlichkeit] verringert die Manakosten um 1 und erhöht den Schaden um 29 %.",
+        "3": "[Klingen der Unendlichkeit] verringert die Manakosten um 1 und erhöht den Schaden um 35 %.",
+        "4": "[Klingen der Unendlichkeit] verringert die Manakosten um 1 und erhöht den Schaden um 42 %.",
+        "5": "[Klingen der Unendlichkeit] verringert die Manakosten um 1 und erhöht den Schaden um 50 %."
+      }
+    },
+    "4": {
+      "name": "Feder der Galaxie",
+      "description": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um 1 %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden.",
+      "value": {},
+      "thumbnail": "heroes/Nyx/ut/4.png",
+      "story": "Ein Anhänger, den Nyx benutzt hat, um die Koordinaten vieler magischer Ansichten aufzuzeichnen, die er auf seiner Reise durch den unendlichen Raum entdeckt hat.\nDer Anhänger ist mit Galaxien in Dimensionen verbunden und das Juwel darauf passt seine Farbe an die Farbe der Galaxie an, die gerade mit dem Anhänger verbunden ist. Wenn man den Anhänger ansieht, erkennt man, dass sich die Galaxie langsam bewegt.\nDas Juwel auf dem Anhänger verändert seine Farbe basierend auf den Koordinaten der Dimension.",
+      "descriptionByStar": {
+        "0": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um 1 %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden.",
+        "1": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um 1,2 %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden.",
+        "2": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um 1,4 %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden.",
+        "3": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um 1,7 %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden.",
+        "4": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um 2,1 %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden.",
+        "5": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um 2,5 %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn du 70-mal Schaden erleidest, wird dies aufgeladen und kann verwendet werden.",
+    "description": "Beschwört 10 Sek. lang die Seele von Dimensionsschlüssel, Magnus Fille und stellt 3 Mana-Kugel wieder her. Während der Wirkungsdauer wird der eigene Krit. Schaden um 150 % erhöht.",
+    "cooldown": "24",
+    "uses": "6",
+    "thumbnail": "heroes/Nyx/sw.png",
+    "advancement": {
+      "1": "Verwendungsbedingungen werden um 50 verringert.",
+      "2": "Die Wirkungsdauer erhöht sich um 4 Sek. und verleiht eigene Massenkontroll-Immunität während der Wirkungsdauer."
+    },
+    "story": "Ultramundane, die als Welt des Schwertes bezeichnet wird. Nyx ist der Weise und Führer dieser Welt.\nEr ist von allen Menschen in seiner Welt geliebt und führt die Welt in die richtige Richtung.\nAber die Krise des Endes ist auch in seine Welt gekommen. Der Himmel ist mit Feuer bedeckt und der Boden ist rissig und eine Klippe.\nNyx quälte sich, war frustriert und litt unter dem Schutz seiner Welt.\nEs folgten viele Opfer und er musste sich von seinen Liebsten verabschieden.\n\nNyx, der alles gab, nahm das beste Schwert unter den ewigen Schwertern der Welt.\nEr befreite sein Seelenschwert und besiegte die Katastrophe und rettete die Welt.\nAber die Welt zwang ihn zu einem letzten und schlimmsten Opfer.\n\nAlles von ihm wird als Preis für die Macht genommen, die die Welt retten kann.\nEr hat sich niemandem auf dieser Welt zugewandt.\nIn der Welt, der Geschichte und den Erinnerungen aller Menschen wurde er ausgelöscht.\nUnd er lebte als Wanderer, der zwischen den Dimensionen wanderte.\n\nAuf seinen Wanderungen erinnert er sich jedes Mal an seine Vergangenheit, wenn er den Schlüssel der wirklichen Dimension sieht.\n\nDie Welt des Schwertes, zu der er nicht zurückkann ...\nDie schöne und verletzende Heimatstadt."
+  },
+  "splashart": "heroes/Nyx/sa.png",
+  "costumes": "heroes/Nyx/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

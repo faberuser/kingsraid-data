@@ -1,0 +1,377 @@
+[
+  {
+    "id": "Burning Brazier of Elf",
+    "name": "Brennendes Kohlebecken der Elfen",
+    "description": "{0} % Chance, bei einem Angriff 1 Mana-Kugel zu regenerieren.",
+    "value": {
+      "0": "10, 12, 14, 17, 20, 25"
+    },
+    "thumbnail": "artifacts/Burning Brazier of Elf.png",
+    "story": "Ein geheimnisvolles Becken, hergestellt von antiken Elfen, um Mutter Natur zu huldigen. Es ist der Inbegriff ihrer Magie und kann eine unendliche Menge Mana produzieren.",
+    "aliases": null,
+    "descriptionByStar": {
+      "0": "10 % Chance, bei einem Angriff 1 Mana-Kugel zu regenerieren.",
+      "1": "12 % Chance, bei einem Angriff 1 Mana-Kugel zu regenerieren.",
+      "2": "14 % Chance, bei einem Angriff 1 Mana-Kugel zu regenerieren.",
+      "3": "17 % Chance, bei einem Angriff 1 Mana-Kugel zu regenerieren.",
+      "4": "20 % Chance, bei einem Angriff 1 Mana-Kugel zu regenerieren.",
+      "5": "25 % Chance, bei einem Angriff 1 Mana-Kugel zu regenerieren."
+    }
+  },
+  {
+    "id": "Drinking Horn of Ancient Cow",
+    "name": "Trinkhorn der uralten Kuh",
+    "description": "10 % Chance, bei einem Normal Angriff den ANG um {0} % und ANG-GESCHW. um {1} für 10 Sek. zu erhöhen.",
+    "value": {
+      "0": "10, 12, 14, 17, 20, 25",
+      "1": "100, 120, 140, 170, 200, 250"
+    },
+    "thumbnail": "artifacts/Drinking Horn of Ancient Cow.png",
+    "story": "Ein Glas, das aus dem Horn eines heiligen Stieres hergestellt wurde, der den Himmel durchstreift. Ein magisches Trinkhorn, dass den Inbegriff des Reichtums verkörpert.",
+    "aliases": null,
+    "descriptionByStar": {
+      "0": "10 % Chance, bei einem Normal Angriff den ANG um 10 % und ANG-GESCHW. um 100 für 10 Sek. zu erhöhen.",
+      "1": "10 % Chance, bei einem Normal Angriff den ANG um 12 % und ANG-GESCHW. um 120 für 10 Sek. zu erhöhen.",
+      "2": "10 % Chance, bei einem Normal Angriff den ANG um 14 % und ANG-GESCHW. um 140 für 10 Sek. zu erhöhen.",
+      "3": "10 % Chance, bei einem Normal Angriff den ANG um 17 % und ANG-GESCHW. um 170 für 10 Sek. zu erhöhen.",
+      "4": "10 % Chance, bei einem Normal Angriff den ANG um 20 % und ANG-GESCHW. um 200 für 10 Sek. zu erhöhen.",
+      "5": "10 % Chance, bei einem Normal Angriff den ANG um 25 % und ANG-GESCHW. um 250 für 10 Sek. zu erhöhen."
+    }
+  },
+  {
+    "id": "Dice of Magical Letters",
+    "name": "Magische Würfel",
+    "description": "3 % Chance, bei einem Angriff zusätzlich {0} % Mag. Schaden zuzufügen.",
+    "value": {
+      "0": "400, 480, 575, 690, 830, 1000"
+    },
+    "thumbnail": "artifacts/Dice of Magical Letters.png",
+    "story": "Ein Formwerkzeug, das in einer antiken Zivilisation zur Weissagung verwendet wurde. Jede Seite ist mit geheimnisvollen, unlesbaren Buchstaben graviert.",
+    "aliases": null,
+    "descriptionByStar": {
+      "0": "3 % Chance, bei einem Angriff zusätzlich 400 % Mag. Schaden zuzufügen.",
+      "1": "3 % Chance, bei einem Angriff zusätzlich 480 % Mag. Schaden zuzufügen.",
+      "2": "3 % Chance, bei einem Angriff zusätzlich 575 % Mag. Schaden zuzufügen.",
+      "3": "3 % Chance, bei einem Angriff zusätzlich 690 % Mag. Schaden zuzufügen.",
+      "4": "3 % Chance, bei einem Angriff zusätzlich 830 % Mag. Schaden zuzufügen.",
+      "5": "3 % Chance, bei einem Angriff zusätzlich 1000 % Mag. Schaden zuzufügen."
+    }
+  },
+  {
+    "id": "Golden Cat Statue",
+    "name": "Goldene Katzenstatue",
+    "description": "Erhöht die ANG-GESCHW. um {0} zu jedem Kampfbeginn für 15 Sek.",
+    "value": {
+      "0": "400, 480, 570, 690, 830, 1000"
+    },
+    "thumbnail": "artifacts/Golden Cat Statue.png",
+    "story": "Eine seltsame goldene Statue in Gestalt einer goldenen Katze, dem Symbol des Glücks. Manchmal sieht es so aus, als würde die Katze mit der Pfote winken.",
+    "aliases": null,
+    "descriptionByStar": {
+      "0": "Erhöht die ANG-GESCHW. um 400 zu jedem Kampfbeginn für 15 Sek.",
+      "1": "Erhöht die ANG-GESCHW. um 480 zu jedem Kampfbeginn für 15 Sek.",
+      "2": "Erhöht die ANG-GESCHW. um 570 zu jedem Kampfbeginn für 15 Sek.",
+      "3": "Erhöht die ANG-GESCHW. um 690 zu jedem Kampfbeginn für 15 Sek.",
+      "4": "Erhöht die ANG-GESCHW. um 830 zu jedem Kampfbeginn für 15 Sek.",
+      "5": "Erhöht die ANG-GESCHW. um 1000 zu jedem Kampfbeginn für 15 Sek."
+    }
+  },
+  {
+    "id": "Pocket Watch of Ancient Civilization",
+    "name": "Antike Taschenuhr",
+    "description": "Reduziert alle 10 Sek. alle Cooldowns um {0} Sek. und erhöht ANG-GESCHW. für 5 Sek. um {1}.",
+    "value": {
+      "0": "1, 1.2, 1.4, 1.7, 2, 2.5",
+      "1": "80, 96, 115, 138, 165, 200"
+    },
+    "thumbnail": "artifacts/Pocket Watch of Ancient Civilization.png",
+    "story": "Eine Taschenuhr, die die Zeit vorspulen kann, um einen kurzen Blick auf jemandes Schicksal zu erlauben. Übermäßiger Gebrauch kann sich allerdings als gefährlich herausstellen.",
+    "aliases": null,
+    "descriptionByStar": {
+      "0": "Reduziert alle 10 Sek. alle Cooldowns um 1 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 80.",
+      "1": "Reduziert alle 10 Sek. alle Cooldowns um 1,2 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 96.",
+      "2": "Reduziert alle 10 Sek. alle Cooldowns um 1,4 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 115.",
+      "3": "Reduziert alle 10 Sek. alle Cooldowns um 1,7 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 138.",
+      "4": "Reduziert alle 10 Sek. alle Cooldowns um 2 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 165.",
+      "5": "Reduziert alle 10 Sek. alle Cooldowns um 2,5 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 200."
+    }
+  },
+  {
+    "id": "Primer for the Heroes",
+    "name": "Elementarbuch für Helden",
+    "description": "Fallen die TP unter 20 %, erhöht sich ANG um {0} %. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um {1}.",
+    "value": {
+      "0": "30, 36, 43, 51, 62, 75",
+      "1": "300, 360, 430, 510, 620, 750"
+    },
+    "thumbnail": "artifacts/Primer for the Heroes.png",
+    "story": "Dieses Lehrbuch, in dem die Geschichten alter Helden gesammelt sind, ist für neue Helden wie eine Bibel. Es ist in antiker Schrift verfasst.",
+    "aliases": null,
+    "descriptionByStar": {
+      "0": "Fallen die TP unter 20 %, erhöht sich ANG um 30 %. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um 300.",
+      "1": "Fallen die TP unter 20 %, erhöht sich ANG um 36 %. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um 360.",
+      "2": "Fallen die TP unter 20 %, erhöht sich ANG um 43 %. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um 430.",
+      "3": "Fallen die TP unter 20 %, erhöht sich ANG um 51 %. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um 510.",
+      "4": "Fallen die TP unter 20 %, erhöht sich ANG um 62 %. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um 620.",
+      "5": "Fallen die TP unter 20 %, erhöht sich ANG um 75%. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um 750."
+    }
+  },
+  {
+    "id": "The Ancient Scope",
+    "name": "Antikes Fernglas",
+    "description": "Bei 100% MP steigen Krit.-Chance und Präzision 10 Sek. lang um {0}. Abklingzeit: 20 Sek.",
+    "value": {
+      "0": "400, 480, 570, 690, 830, 1000"
+    },
+    "thumbnail": "artifacts/The Ancient Scope.png",
+    "story": "Ein Zielfernrohr, das von einem antiken Technomagier erschaffen wurde. Ein nützliches Werkzeug, mit dem selbst weit entfernte Objekte detailgenau begutachtet werden können.",
+    "aliases": null,
+    "descriptionByStar": {
+      "0": "Bei 100% MP steigen Krit.-Chance und Präzision 10 Sek. lang um 400. Abklingzeit: 20 Sek.",
+      "1": "Bei 100% MP steigen Krit.-Chance und Präzision 10 Sek. lang um 480. Abklingzeit: 20 Sek.",
+      "2": "Bei 100% MP steigen Krit.-Chance und Präzision 10 Sek. lang um 570. Abklingzeit: 20 Sek.",
+      "3": "Bei 100% MP steigen Krit.-Chance und Präzision 10 Sek. lang um 690. Abklingzeit: 20 Sek.",
+      "4": "Bei 100% MP steigen Krit.-Chance und Präzision 10 Sek. lang um 830. Abklingzeit: 20 Sek.",
+      "5": "Bei 100% MP steigen Krit.-Chance und Präzision 10 Sek. lang um 1000. Abklingzeit: 20 Sek."
+    }
+  },
+  {
+    "id": "Roaring Tiger Statue",
+    "name": "Brüllende Tigerstatue",
+    "description": "Wenn die LP auf 35% oder darunter fallen, erleiden Gegner in der Nähe Körp. Schaden in Höhe von 100% des ANG und werden niedergeschlagen. Ihr ANG sinkt 10 Sek. lang um {0}% und ihr ANG-Tempo um {1}. Abklingzeit: 30 Sek.",
+    "value": {
+      "0": "14, 16, 20, 24, 29, 35",
+      "1": "140, 160, 200, 240, 290, 350"
+    },
+    "thumbnail": "artifacts/Roaring Tiger Statue.png",
+    "story": "Eine unheimliche Goldstatue in Gestalt eines brüllenden Tigers. Bei bestimmten Bedingungen erwacht der Tiger zum Leben und sorgt in seiner Nähe für Angst und Schrecken.",
+    "aliases": null,
+    "descriptionByStar": {
+      "0": "Wenn die LP auf 35% oder darunter fallen, erleiden Gegner in der Nähe Körp. Schaden in Höhe von 100% des ANG und werden niedergeschlagen. Ihr ANG sinkt 10 Sek. lang um 14% und ihr ANG-Tempo um 140. Abklingzeit: 30 Sek.",
+      "1": "Wenn die LP auf 35% oder darunter fallen, erleiden Gegner in der Nähe Körp. Schaden in Höhe von 100% des ANG und werden niedergeschlagen. Ihr ANG sinkt 10 Sek. lang um 16% und ihr ANG-Tempo um 160. Abklingzeit: 30 Sek.",
+      "2": "Wenn die LP auf 35% oder darunter fallen, erleiden Gegner in der Nähe Körp. Schaden in Höhe von 100% des ANG und werden niedergeschlagen. Ihr ANG sinkt 10 Sek. lang um 20% und ihr ANG-Tempo um 200. Abklingzeit: 30 Sek.",
+      "3": "Wenn die LP auf 35% oder darunter fallen, erleiden Gegner in der Nähe Körp. Schaden in Höhe von 100% des ANG und werden niedergeschlagen. Ihr ANG sinkt 10 Sek. lang um 24% und ihr ANG-Tempo um 240. Abklingzeit: 30 Sek.",
+      "4": "Wenn die LP auf 35% oder darunter fallen, erleiden Gegner in der Nähe Körp. Schaden in Höhe von 100% des ANG und werden niedergeschlagen. Ihr ANG sinkt 10 Sek. lang um 29% und ihr ANG-Tempo um 290. Abklingzeit: 30 Sek.",
+      "5": "Wenn die LP auf 35% oder darunter fallen, erleiden Gegner in der Nähe Körp. Schaden in Höhe von 100% des ANG und werden niedergeschlagen. Ihr ANG sinkt 10 Sek. lang um 35% und ihr ANG-Tempo um 350. Abklingzeit: 30 Sek."
+    }
+  },
+  {
+    "id": "Golden Apple of a Goddess",
+    "name": "Goldener Apfel der Göttin",
+    "description": "Wenn die LP des Helden unter 25% fallen, stellt {0}% der max. LP wieder her und entfernt alle negativen Effekte. Wird nur 1-mal aktiviert.",
+    "value": {
+      "0": "30, 36, 43, 51, 62, 75"
+    },
+    "thumbnail": "artifacts/Golden Apple of a Goddess.png",
+    "story": "Es heißt, dies wäre einer der von der Göttin verliehenen Relikte. Ein wundertätiges Heilmittel, mit dem angeblich jede Verletzung geheilt werden kann.",
+    "aliases": null,
+    "descriptionByStar": {
+      "0": "Wenn die LP des Helden unter 25% fallen, stellt 30% der max. LP wieder her und entfernt alle negativen Effekte. Wird nur 1-mal aktiviert.",
+      "1": "Wenn die LP des Helden unter 25% fallen, stellt 36% der max. LP wieder her und entfernt alle negativen Effekte. Wird nur 1-mal aktiviert.",
+      "2": "Wenn die LP des Helden unter 25% fallen, stellt 43% der max. LP wieder her und entfernt alle negativen Effekte. Wird nur 1-mal aktiviert.",
+      "3": "Wenn die LP des Helden unter 25% fallen, stellt 51% der max. LP wieder her und entfernt alle negativen Effekte. Wird nur 1-mal aktiviert.",
+      "4": "Wenn die LP des Helden unter 25% fallen, stellt 62% der max. LP wieder her und entfernt alle negativen Effekte. Wird nur 1-mal aktiviert.",
+      "5": "Wenn die LP des Helden unter 25% fallen, stellt 75% der max. LP wieder her und entfernt alle negativen Effekte. Wird nur 1-mal aktiviert."
+    }
+  },
+  {
+    "id": "Golden Mask of Ancient King",
+    "name": "Goldene Maske eines antiken Königs",
+    "description": "Bei erlittenem Schaden besteht eine Chance von 5%, {0} Sek. lang gegen jeglichen Schaden immun zu werden. Abklingzeit: 5 Sek.",
+    "value": {
+      "0": "3, 3.5, 4, 5, 6, 7.5"
+    },
+    "thumbnail": "artifacts/Golden Mask of Ancient King.png",
+    "story": "Eine goldene Maske, die einst vom Gottkönig der Wüste getragen wurde. Sie ist mit dem Zauber der absoluten Autorität verwunschen, um ihren Träger zu schützen.",
+    "aliases": null,
+    "descriptionByStar": {
+      "0": "Bei erlittenem Schaden besteht eine Chance von 5%, 3 Sek. lang gegen jeglichen Schaden immun zu werden. Abklingzeit: 5 Sek.",
+      "1": "Bei erlittenem Schaden besteht eine Chance von 5%, 3.5 Sek. lang gegen jeglichen Schaden immun zu werden. Abklingzeit: 5 Sek.",
+      "2": "Bei erlittenem Schaden besteht eine Chance von 5%, 4 Sek. lang gegen jeglichen Schaden immun zu werden. Abklingzeit: 5 Sek.",
+      "3": "Bei erlittenem Schaden besteht eine Chance von 5%, 5 Sek. lang gegen jeglichen Schaden immun zu werden. Abklingzeit: 5 Sek.",
+      "4": "Bei erlittenem Schaden besteht eine Chance von 5%, 6 Sek. lang gegen jeglichen Schaden immun zu werden. Abklingzeit: 5 Sek.",
+      "5": "Bei erlittenem Schaden besteht eine Chance von 5%, 7.5 Sek. lang gegen jeglichen Schaden immun zu werden. Abklingzeit: 5 Sek."
+    }
+  },
+  {
+    "id": "Madame's Bronze Mirrors",
+    "name": "Bronzespiegel einer Dame",
+    "description": "Erhöht Mag. Blockchance um {0} und verringert erlittenen Mag. Schaden um {1}.",
+    "value": {
+      "0": "300, 330, 360, 400, 440, 500",
+      "1": "100, 110, 120, 140, 160, 200"
+    },
+    "thumbnail": "artifacts/Madame's Bronze Mirrors.png",
+    "story": "Ein Bronzespiegel aus dem antiken, Technomagischen Königreich, der ein Geschenk eines versierten Zauberers an seine Frau war. Er trägt eine Runeninschrift zum Schutz einer geliebten Person.",
+    "aliases": null,
+    "descriptionByStar": {
+      "0": "Erhöht Mag. Blockchance um 300 und verringert erlittenen Mag. Schaden um 100.",
+      "1": "Erhöht Mag. Blockchance um 330 und verringert erlittenen Mag. Schaden um 110.",
+      "2": "Erhöht Mag. Blockchance um 360 und verringert erlittenen Mag. Schaden um 120.",
+      "3": "Erhöht Mag. Blockchance um 400 und verringert erlittenen Mag. Schaden um 140.",
+      "4": "Erhöht Mag. Blockchance um 440 und verringert erlittenen Mag. Schaden um 160.",
+      "5": "Erhöht Mag. Blockchance um 500 und verringert erlittenen Mag. Schaden um 200."
+    }
+  },
+  {
+    "id": "Sealed Chain of Ancient God",
+    "name": "Versiegelungskette eines Urgottes",
+    "description": "Bringt alle {0} Sek. einen zufälligen Feind {1} Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
+    "value": {
+      "0": "20, 19, 18, 17, 16, 15",
+      "1": "3, 3.5, 4, 4.5, 5, 6"
+    },
+    "thumbnail": "artifacts/Sealed Chain of Ancient God.png",
+    "story": "Eine Kette, die der Gottkönig der Wüste angeblich dazu verwendete, seine Sklaven zu fesseln. Jene, die von ihr zurückgehalten werden, können nicht widerstehen.",
+    "aliases": null,
+    "descriptionByStar": {
+      "0": "Bringt alle 20 Sek. einen zufälligen Feind 3 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
+      "1": "Bringt alle 19 Sek. einen zufälligen Feind 3.5 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
+      "2": "Bringt alle 18 Sek. einen zufälligen Feind 4 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
+      "3": "Bringt alle 17 Sek. einen zufälligen Feind 4.5 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
+      "4": "Bringt alle 16 Sek. einen zufälligen Feind 5 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
+      "5": "Bringt alle 15 Sek. einen zufälligen Feind 6 Sek. lang zum Schweigen und entfernt alle positiven Effekte."
+    }
+  },
+  {
+    "id": "Mask of Goblin",
+    "name": "Goblinmaske",
+    "description": "Erhöht Schaden gegen Goblins um {0} %, während der erhaltene Schaden um {1} % verringert wird.",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
+    "thumbnail": "artifacts/Mask of Goblin.png",
+    "story": "Eine Maske, die dem Gesicht eines Goblins nachempfunden ist. Eigentlich ganz hübsch.",
+    "aliases": null,
+    "descriptionByStar": {
+      "0": "Erhöht Schaden gegen Goblins um 40 %, während der erhaltene Schaden um 20 % verringert wird.",
+      "1": "Erhöht Schaden gegen Goblins um 48 %, während der erhaltene Schaden um 24 % verringert wird.",
+      "2": "Erhöht Schaden gegen Goblins um 57 %, während der erhaltene Schaden um 28 % verringert wird.",
+      "3": "Erhöht Schaden gegen Goblins um 69 %, während der erhaltene Schaden um 34 % verringert wird.",
+      "4": "Erhöht Schaden gegen Goblins um 83 %, während der erhaltene Schaden um 41 % verringert wird.",
+      "5": "Erhöht Schaden gegen Goblins um 100 %, während der erhaltene Schaden um 50 % verringert wird."
+    }
+  },
+  {
+    "id": "Mask of Harpy",
+    "name": "Harpienmaske",
+    "description": "Erhöht Schaden gegen Harpien um {0} %, während der erhaltene Schaden um {1} % verringert wird.",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
+    "thumbnail": "artifacts/Mask of Harpy.png",
+    "story": "Eine Maske, die dem Gesicht einer Harpie nachempfunden ist. Das Rauschen des Windes kann man förmlich hören.",
+    "aliases": null,
+    "descriptionByStar": {
+      "0": "Erhöht Schaden gegen Harpien um 40 %, während der erhaltene Schaden um 20 % verringert wird.",
+      "1": "Erhöht Schaden gegen Harpien um 48 %, während der erhaltene Schaden um 24 % verringert wird.",
+      "2": "Erhöht Schaden gegen Harpien um 57 %, während der erhaltene Schaden um 28 % verringert wird.",
+      "3": "Erhöht Schaden gegen Harpien um 69 %, während der erhaltene Schaden um 34 % verringert wird.",
+      "4": "Erhöht Schaden gegen Harpien um 83 %, während der erhaltene Schaden um 41 % verringert wird.",
+      "5": "Erhöht Schaden gegen Harpien um 100 %, während der erhaltene Schaden um 50 % verringert wird."
+    }
+  },
+  {
+    "id": "Mask of Orc",
+    "name": "Orkmaske",
+    "description": "Erhöht Schaden gegen Orks um {0} %, während der erhaltene Schaden um {1} % verringert wird.",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
+    "thumbnail": "artifacts/Mask of Orc.png",
+    "story": "Eine Maske, die dem Gesicht eines Orks nachempfunden ist. Sie erweckt animalische Kampflust.",
+    "aliases": null,
+    "descriptionByStar": {
+      "0": "Erhöht Schaden gegen Orks um 40 %, während der erhaltene Schaden um 20 % verringert wird.",
+      "1": "Erhöht Schaden gegen Orks um 48 %, während der erhaltene Schaden um 24 % verringert wird.",
+      "2": "Erhöht Schaden gegen Orks um 57 %, während der erhaltene Schaden um 28 % verringert wird.",
+      "3": "Erhöht Schaden gegen Orks um 69 %, während der erhaltene Schaden um 34 % verringert wird.",
+      "4": "Erhöht Schaden gegen Orks um 83 %, während der erhaltene Schaden um 41 % verringert wird.",
+      "5": "Erhöht Schaden gegen Orks um 100 %, während der erhaltene Schaden um 50 % verringert wird."
+    }
+  },
+  {
+    "id": "Undead Mask",
+    "name": "Maske der Untoten",
+    "description": "Erhöht Schaden gegen Untote um {0} %, während der erhaltene Schaden um {1} % verringert wird.",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
+    "thumbnail": "artifacts/Undead Mask.png",
+    "story": "Eine Maske, die dem Gesicht eines Skeletts nachempfunden ist. Sie riecht nach Tod.",
+    "aliases": null,
+    "descriptionByStar": {
+      "0": "Erhöht Schaden gegen Untote um 40 %, während der erhaltene Schaden um 20 % verringert wird.",
+      "1": "Erhöht Schaden gegen Untote um 48 %, während der erhaltene Schaden um 24 % verringert wird.",
+      "2": "Erhöht Schaden gegen Untote um 57 %, während der erhaltene Schaden um 28 % verringert wird.",
+      "3": "Erhöht Schaden gegen Untote um 69 %, während der erhaltene Schaden um 34 % verringert wird.",
+      "4": "Erhöht Schaden gegen Untote um 83 %, während der erhaltene Schaden um 41 % verringert wird.",
+      "5": "Erhöht Schaden gegen Untote um 100 %, während der erhaltene Schaden um 50 % verringert wird."
+    }
+  },
+  {
+    "id": "Soul Spring Water",
+    "name": "Seelenquellwasser",
+    "description": "Regeneriert zum Kampfbeginn {0} % TP und {1} % Mana.",
+    "value": {
+      "0": "24, 28, 34, 42, 50, 60",
+      "1": "12, 14, 17, 21, 25, 30"
+    },
+    "thumbnail": "artifacts/Soul Spring Water.png",
+    "story": "Es heißt, dass davon nur ein Tropfen in hundert Jahren aus der Seelenquelle läuft. Ein sehr seltenes und wirkungsvolles Wundermittel.",
+    "aliases": [
+      "ssw"
+    ],
+    "descriptionByStar": {
+      "0": "Regeneriert zum Kampfbeginn 24 % TP und 12 % Mana.",
+      "1": "Regeneriert zum Kampfbeginn 28 % TP und 14 % Mana.",
+      "2": "Regeneriert zum Kampfbeginn 34 % TP und 17 % Mana.",
+      "3": "Regeneriert zum Kampfbeginn 42 % TP und 21 % Mana.",
+      "4": "Regeneriert zum Kampfbeginn 50 % TP und 25 % Mana.",
+      "5": "Regeneriert zum Kampfbeginn 60 % TP und 30 % Mana."
+    }
+  },
+  {
+    "id": "Talismans of Resistance",
+    "name": "Talisman des Widerstands",
+    "description": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für {0} Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt {1} Sek.",
+    "value": {
+      "0": "1, 1.5, 2, 2.5, 3, 3.5",
+      "1": "20, 19, 18, 17, 16, 15"
+    },
+    "thumbnail": "artifacts/Talismans of Resistance.png",
+    "story": "Eine Reihe alter, exotischer Talismane, die schädliche Geister vertreiben. Hat man sie eine Weile in Gebrauch gehabt, werden sie wirkungslos.",
+    "aliases": null,
+    "descriptionByStar": {
+      "0": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 1 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 20 Sek.",
+      "1": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 1,5 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 19 Sek.",
+      "2": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 2 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 18 Sek.",
+      "3": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 2,5 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 17 Sek.",
+      "4": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 3 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 16 Sek.",
+      "5": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 3,5 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 15 Sek."
+    }
+  },
+  {
+    "id": "Judgment of Light Bracelet",
+    "name": "Armreif des Lichturteils",
+    "description": "Erhöht PRÄZ und Schwächung PRÄZ um {0}",
+    "value": {
+      "0": "300, 360, 430, 520, 630, 750"
+    },
+    "thumbnail": "artifacts/Judgment of Light Bracelet.png",
+    "story": "Ein gesegneter Armreif, erschaffen von den Heiligen Rittern der Kirche von Lua. Er ist ein antikes, magisches Werkzeug und es gibt heute nur noch einige wenige davon.",
+    "aliases": null,
+    "descriptionByStar": {
+      "0": "Erhöht PRÄZ und Schwächung PRÄZ um 300.",
+      "1": "Erhöht PRÄZ und Schwächung PRÄZ um 360",
+      "2": "Erhöht PRÄZ und Schwächung PRÄZ um 430.",
+      "3": "Erhöht PRÄZ und Schwächung PRÄZ um 520.",
+      "4": "Erhöht PRÄZ und Schwächung PRÄZ um 630.",
+      "5": "Erhöht PRÄZ und Schwächung PRÄZ um 750."
+    }
+  }
+]

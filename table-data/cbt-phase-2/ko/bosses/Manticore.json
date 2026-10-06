@@ -1,0 +1,52 @@
+{
+  "id": "Manticore",
+  "profile": {
+    "name": "만티코어",
+    "title": "혼돈의 마수",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "야수",
+    "damage_type": "Physical",
+    "recommended_heroes": "카셀, 클라우스, 미트라",
+    "characteristics": "[맹독]은 전방 영웅에게 순식간에 큰 피해를 입히며 전갈을 소환하며 영웅이 버텨주지 않으면 진형이 무너집니다. [맹습]은 모든 영웅에게 큰 물리 피해를 입히기에 [상태 이상] 을 활용하여 멈추어야 합니다.",
+    "thumbnail": "bosses/Manticore.png"
+  },
+  "skills": {
+    "1": {
+      "name": "암흑의 불길",
+      "cost": null,
+      "cooldown": "17",
+      "description": "양의 머리에서 암흑의 불길을 뿜어내 물리 피해를 7회 입힙니다. 체력이 50% 이하 적은 5초간 석화상태가 됩니다."
+    },
+    "2": {
+      "name": "소멸의 불길",
+      "cost": null,
+      "cooldown": "17",
+      "description": "사자의 머리에서 화염의 불길을 뿜으며 물리 피해를 7회 입힙니다. 매 공격시 적의 강화 효과를 제거합니다."
+    },
+    "3": {
+      "name": "만티코어의 맹독",
+      "cost": null,
+      "cooldown": "22",
+      "description": "적에게 강력한 독을 던져 5초간 0.5초당 현재 체력의 33%의 피해를 입히고 전갈을 3마리 소환합니다."
+    },
+    "4": {
+      "name": "죽음의 맹습",
+      "cost": null,
+      "cooldown": "45",
+      "description": "만티코어가 앞발에 강력한 기운을 모아 전방 넓은 범위의 적에게 큰 물리 피해를 입히고 4초간 넘어뜨립니다."
+    },
+    "5": {
+      "name": "정화",
+      "cost": null,
+      "cooldown": null,
+      "description": "30초마다 자신의 해로운 효과를 제거하고 공격속도를 증가시킵니다."
+    }
+  },
+  "aliases": [
+    "Manticore",
+    "GR6",
+    "GR 6"
+  ]
+}

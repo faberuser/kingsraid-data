@@ -1,0 +1,271 @@
+{
+  "id": "Xerah",
+  "profile": {
+    "name": "Xerah",
+    "title": "Bote des Blutmondes Xerah",
+    "class": "Wizard",
+    "position": "Middle-200",
+    "attack_range": "7700",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "HERO_AGE_XERAH",
+    "height": "165",
+    "race": "??? (Menschenähnlich)",
+    "constellation": "Armil, der Ehrwürdige",
+    "birth": {
+      "month": 4,
+      "day": 19,
+      "monthName": "Monat des Lebens"
+    },
+    "like": "Dunkelheit, Mond, Puppenspiel, Geschichtsbuch (ein sehr altes), Menschen mit negativen Emotionen",
+    "dislike": "Engel, Dämonen, Menschen, Tiere, Pflanzen, im Grunde alles auf dieser Welt und unschuldige kindliche Wesen.",
+    "story": "Ein Mädchen, das die Tidhar geschaffen haben, um der Welt unauffällig ihren Willen aufzuzwingen.\nSie verheimlicht ihre Identität, verbirgt sich im Schatten und handelt unter normalen Menschen.\nIhr Hauptzweck ist es, die Macht der Dunkelheit für ihre Ankunf zu sammeln und ein Gefäß zu finden, um sie einzudämmen.\nSie fand ein ideales Gefäß in dem alten Königreich Sekireinel, aber die Helden aus Sekireinel und ein gewisses mächtiges Wesen vereitelten ihre Pläne.\nAber Xerah war weder frustriert noch enttäuscht.\nDenn je länger es dauerte ... \ndesto mehr wird sie es genießen, diese Welt zu zerstören.",
+    "thumbnail": "heroes/Xerah/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Kugelkörper der Dunkelheit",
+      "cost": "2",
+      "cooldown": "5",
+      "description": "Wirft 6 Kugelkörper der Dunkelheit und fügt einem zufälligen Ziel und nahen Gegnern in ringförmiger Reichweite insgesamt ??? Mag. Schaden zu.\nWenn sich Xerah im [Dunkelheit-Erweckung]-Zustand befindet, erhöht sich der Schaden von [Kugelkörper der Dunkelheit] um das 2-fache und der Cooldown verringert sich um 100 %.\n[Siegel der Erpressung Phase 1 Effekt] zerstört den gegn. Schild.",
+      "thumbnail": "heroes/Xerah/skills/1.png"
+    },
+    "2 (1)": {
+      "name": "Siegel der Erpressung",
+      "cost": "3",
+      "cooldown": "17",
+      "description": "Entfernt eigene negative Effekte und erzeugt Siegel der Erpressung auf sich selbst, das dauerhaft andauert. Wenn Siegel der Erpressung bereits im Besitz ist, so wird die Phase von Siegel der Erpressung erhöht.\n[Siegel der Erpressung] fügt aller 5 Sek. einem zufälligen Gegner ??? Mag. Schaden zu.\nPhase 1: Fügt dem [Kugelkörper der Dunkelheit]-Skill einen zusätzlichen Effekt.\nPhase 2: Das Aktivierungsintervall für Effekte ändert sich auf 4 Sek. und dem [Blutmond]-Skill wird ein zusätzlicher Effekt hinzugefügt.\nPhase 3: Das Aktivierungsintervall für Effekte ändert sich auf 3 Sek. und der [Siegel der Erpressung]-Skill ändert sich in [Segen des Siegels].",
+      "thumbnail": "heroes/Xerah/skills/2 (1).png"
+    },
+    "2 (2)": {
+      "name": "Segen des Siegels",
+      "cost": "2",
+      "cooldown": "17",
+      "description": "Wenn das Siegel Phase 3 erreicht hat, wird es aktiviert.\nBei Verwendung werden alle eigenen negativen Effekte aufgelöst und dem Verbündeten mit den niedrigsten TP wird die Macht der Siegel der Erpressung verleiht. Stellt sofort 1 Mana-Kugel des Verbündeten wieder her und regeneriert 5 Sek. lang insgesamt ??? TP. Wird immun gegen Massenkontrolle.",
+      "thumbnail": "heroes/Xerah/skills/2 (2).png"
+    },
+    "3": {
+      "name": "Blutmond",
+      "cost": "4",
+      "cooldown": "25",
+      "description": "Erstellt 10 Sek. lang einen [Blutmond] und erhöht während der Wirkungsdauer den ANG aller Verbündete um ??? und verringert den erhaltenen Schaden um 20 %. Fügt allen Gegnern insgesamt ??? Mag. Schaden zu und verringert die Heilungsrate um 50 %.\n[Siegel der Erpressung Phase 2 Effekt] erhöht den erhaltenen Effekt aller Verbündete um das 2-fache.",
+      "thumbnail": "heroes/Xerah/skills/3.png"
+    },
+    "4": {
+      "name": "Dunkelheit-Erweckung",
+      "cost": null,
+      "cooldown": null,
+      "description": "Wenn man sich bei Verwendung des Skills nicht im Dunkelheit-Erweckung-Zustand befindet, erhält man ein nicht-entfernbares [Dunkelheit]-Stapel.\nWenn [Dunkelheit] 4x gestapelt wird, benutzt Xerah den Stapel, um für 10 Sek. im nicht-entfernbarem [Dunkelheit-Erweckung]-Zustand zu geraten. Dabei wird der Lebensraub um 200 erhöht und der Schaden von Feinden, die keine Helden sind, wird um 50 % erhöht. Wenn sich Xerah im [Dunkelheit-Erweckung]-Zustand befindet, fügt sie tödlichen Schaden zu und wenn der [Dunkelheit-Erweckung]-Zustand entfernt wird, werden alle eigenen MP verwendet und 30 % regeneriert. Danach kann 10 Sek. lang kein Dunkelheit-Stapel erhalten werden.",
+      "thumbnail": "heroes/Xerah/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Die TP-Regeneration erhöht sich um 10 %.",
+      "III": "Die TP-Regeneration erhöht sich um 15 %.",
+      "IV": "Die TP-Regeneration erhöht sich um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Bei Verwendung werden 1 Mana-Kugel wiederhergestellt.",
+          "thumbnail": "heroes/Xerah/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Erhöht Manakosten um 1 und das Ziel wird auf ein Gegner mit dem höchsten ANG geändert.",
+          "thumbnail": "heroes/Xerah/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Während [Siegel der Erpressung/Segen des Siegels] verwendet wird, gewährt es Schaden-Immunität.",
+          "thumbnail": "heroes/Xerah/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "[Segen des Siegels] verringert den erhaltenen Schaden der Verbündeten während der Effekt-Wirkungsdauer um 20 %.",
+          "thumbnail": "heroes/Xerah/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht Manakosten um 1 und entfernt bei Verwendung alle eigene negativen Effekte. Während der Wirkungsdauer werden die negativen Effekte aller Verbündeten kontinuierlich entfernt.",
+          "thumbnail": "heroes/Xerah/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Erhöht den erhaltenen ANG des Gegners während der Wirkungsdauer um 30 %.",
+          "thumbnail": "heroes/Xerah/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Im [Dunkelheit-Erweckung]-Zustand ändert sich der Schaden-Boost gegen Feinde, die keine Helden sind, auf 100 %.",
+          "thumbnail": "heroes/Xerah/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Mit jedem Kampfbeginn wird [Dunkelheit-Erweckung]-Zustand erreicht und 40 Sek. lang kann kein [Dunkelheit]-Stapel erhalten werden.",
+          "thumbnail": "heroes/Xerah/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Chance +100",
+        "thumbnail": "heroes/Xerah/perks/light.png"
+      },
+      "dark": {
+        "effect": "Immer wenn einem Gegner mit Normalangriff und Skillangriff Schaden zugefügt wird, erhöht sich der erhalten Mag. Schaden des Ziels 10 Sek. lang um 2 % und die Heilungsrate verringert sich um 2 %. Dieser Effekt kann max. 10-mal gestapelt werden.",
+        "thumbnail": "heroes/Xerah/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Siegel der Erpressung, Kaliosk",
+    "description": "Krit. Schaden erhöht sich um {0} % und immer wenn mit [Siegel der Erpressung] Schaden zugefügt wird, verringern sich die MP um {1} und es werden {2} eigene MP regeneriert.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "500",
+        "1": "600",
+        "2": "700",
+        "3": "800",
+        "4": "900",
+        "5": "1000"
+      },
+      "2": {
+        "0": "500",
+        "1": "600",
+        "2": "700",
+        "3": "800",
+        "4": "900",
+        "5": "1000"
+      }
+    },
+    "thumbnail": "heroes/Xerah/uw.png",
+    "story": "Eine Pendelkette, die von den Tidhar aus der Macht der Dunkelheit geschmiedet wurde, um Xerahs Aktivitäten zu unterstützen.\nDie Kraft der Dunkelheit pulsiert im Pendel und die Ketten bewegt sich, als ob sie leben würde.\nIn dem Moment, in dem ein Ziel von diesem Pendel angegriffen wird, haben sie das Gefühl, dass der Angriff ihren Körper und ihre Seele untergräbt.\nIm Verlauf des Kampfes wird ihre Seele verdorren und sie fühlen sich, als wären sie in den Grund eines Abgrunds gefallen.\nDieses Werkzeug ist eine nützliche Waffe im Kampf, hat aber auch eine andere wichtige Rolle.\nEs verleiht Xerah, einem künstlichen Wesen, den Grund für ihre Existenz durch die Erpressung anderer.\nAuf diese Weise kann Xerah ihre Existenz verschleiern und von anderen als jemand akzeptiert werden, der ursprünglich auf dieser Welt existierte.",
+    "descriptionByStar": {
+      "0": "Krit. Schaden erhöht sich um 20 % und immer wenn mit [Siegel der Erpressung] Schaden zugefügt wird, verringern sich die MP um 500 und es werden 500 eigene MP regeneriert."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Perle der Sterne",
+      "description": "[Kugelkörper der Dunkelheit] erhöht den Schaden um {0} % und betäubt 1 Sek. lang den getroffenen Gegner.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Xerah/ut/1.png",
+      "story": "Eine mysteriöse Kugel mit der Galaxie und den Sternen im Inneren.\nNiemand weiß genau, was sich darin befindet oder wohin sie führt, aber die mächtige Energie in der Kugel legt nahe, dass die Kugel kein gewöhnliches magisches Gerät ist.\nXerah kommuniziert mit den Tidhar über diese Kugel, berichtet über ihre Fortschritte oder erhält ihre Missionen.\nSie benutzt es auch als Teil ihrer Verkleidung als Wahrsagerin und gibt vor, in die Zukunft von Passantenpaare zu schauen.",
+      "descriptionByStar": {
+        "0": "[Kugelkörper der Dunkelheit] erhöht den Schaden um 20 % und betäubt 1 Sek. lang den getroffenen Gegner."
+      }
+    },
+    "2": {
+      "name": "Blutmond-Amulett",
+      "description": "[Siegel der Erpressung] verringert den Cooldown um 7 Sek.\n[Segen des Siegels] verändert die Anzahl der Ziele auf 4 und erhöht die Effekt-Wirkungsdauer um {0} Sek.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
+      "thumbnail": "heroes/Xerah/ut/2.png",
+      "story": "Ein Amulett mit einem Edelstein, der dem Blutmond ähnelt.\nWährend es wie ein schönes Accessoire aussieht, ist es tatsächlich ein Werkzeug und Medium, das die Macht der Dunkelheit erhöht.\nDie durch das Amulett verstärkte Macht der Dunkelheit kann die Dunkelheit absorbieren und stark genug werden, um das Eklipse-Phänomen auszulösen.\nSobald die Eklipse ausgelöst wird, erntet sie die enorme Macht der Dunkelheit, die durch die Eklipse erzeugt wurde, für das Amulett.\nDurch diese Prozesse hält Xerahs Amulett jetzt massive Dunkelheitsenergie. Nur Xerah und ihre Schöpfer wissen, wo und wie diese Macht eingesetzt wird.",
+      "descriptionByStar": {
+        "0": "[Siegel der Erpressung] verringert den Cooldown um 7 Sek.\n[Segen des Siegels] verändert die Anzahl der Ziele auf 4 und erhöht die Effekt-Wirkungsdauer um 2 Sek."
+      }
+    },
+    "3": {
+      "name": "Marionette",
+      "description": "[Blutmond] stellt während der Wirkungsdauer jede Sek. jeweils {0} Mana wieder her und ändert die Heilungsrate-Verringerung des getroffenen Ziels auf 80 %.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Xerah/ut/3.png",
+      "story": "Eine Puppe, die Xerah von Shakmeh erhalten hatte als sie ihm im Ausland half und sein Vertrauen zu gewinnen versuchte.\nShakmeh und Xerah besuchten die Stadt an ihrem freien Tag, als sie auf ein Puppenspiel stießen.\nAmüsiert über die Tatsache, dass Xerah sich für ein Puppenspiel interessierte, als ihr jede andere extravagante Show gleichgültig war,\nschenkte Shakmeh Xerah eine der Marionetten, die bei der Show verwendet wurden, als Geburtstagsgeschenk.\nShakmeh dachte wahrscheinlich, dass Xerah das Puppenspiel wirklich mochte, aber ... \nXerah konnte nur ein etwas bittersüßes Lächeln über sein Geschenk bringen.",
+      "descriptionByStar": {
+        "0": "[Blutmond] stellt während der Wirkungsdauer jede Sek. jeweils 100 Mana wieder her und ändert die Heilungsrate-Verringerung des getroffenen Ziels auf 80 %."
+      }
+    },
+    "4": {
+      "name": "Porträt eines unbekannten Mädchens",
+      "description": "[Dunkelheit-Erweckung]-Zustandsdauer erhöht sich um {0} Sek. und die Dauer, in der [Dunkelheit]-Stapel beim Erhalt von tödlichem Schaden nicht erhalten werden können, wird auf 5 Sek. geändert.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
+      "thumbnail": "heroes/Xerah/ut/4.png",
+      "story": "Als Xerah für ihre Mission die Akademie besuchte, musste sie im Rahmen ihrer Wahlfächer ein Selbstporträt zeichnen.\nXerah, die sehr talentiert war und Leinwänder ohne Probleme malte,\nschien weder ihr Gesicht noch ihren Gesichtsausdruck zeichnen zu wollen.\nDer Unterricht war vorbei und ein Porträt mit einem gesichtslosen Mädchen stand vor Xerah.",
+      "descriptionByStar": {
+        "0": "[Dunkelheit-Erweckung]-Zustandsdauer erhöht sich um 2 Sek. und die Dauer, in der [Dunkelheit]-Stapel beim Erhalt von tödlichem Schaden nicht erhalten werden können, wird auf 5 Sek. geändert."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 5-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört 10 Sek. lang die Seele von Siegel der Erpressung, Kaliosk, wobei dem Gegner mit dem höchsten ANG ??? Mag. Schaden zugefügt wird. Während der Seelen-Wirkungsdauer verringert sich der gegn. ANG um 20 %, das Mana wird aller 250 Sek. gesenkt und der eigene ANG um 30 % erhöht.",
+    "cooldown": "22",
+    "uses": "6",
+    "thumbnail": "heroes/Xerah/sw.png",
+    "advancement": {
+      "1": "Verwendungsbedingungen werden auf 4 geändert und ANG-Verringerung und -Boost werden auf jeweils 30 % und 50 % geändert.",
+      "2": "Bei sofortiger Verwendung wird für 10 Sek. Dunkelheit-Erweckung-Zustand erreicht."
+    },
+    "story": "Xerah war nur eine Vogelscheuche. Nur eine Vogelscheuche, die geschaffen wurde, um die Vögel zu vertreiben.\nSie konnte nur zuschauen, zuschauen und wieder zuschauen. Sie beobachtete die Welt, als unzählige Generationen auftauchten, gediehen, ablehnten und verschwanden.\nNach sehr langer Zeit fühlte sie nur noch Leere in ihrem Herzen.\nEs war nur natürlich, da sie zunächst keine Bedeutung hatte.\n\nIhre einzige Lebensfreude war es, die Vögel über sich schweben zu sehen. Die Vögel, die frei durch den weiten Himmel fliegen würden, ohne an irgendetwas gebunden zu sein.\nAls einer der kleinen Vögel beiläufig auf ihrer Schulter saß, lächelte Xerah vor sich hin.\n\nEs folgte ein Hilfeschrei, der eher einem tiefen Schrei ähnelte, und mit ihm fiel der zerstörte Vogel auf den Boden.\nIn ihrem Herzen, das voller Dunkelheit war, war nun kein Platz für andere Gefühle.\nSie verstärkte ihre Lust, die immer noch vor grausamer Freude verweilte, und lächelte.\n\n- Wenn ich es nicht haben kann ... kann es niemand."
+  },
+  "splashart": "heroes/Xerah/sa.png",
+  "costumes": "heroes/Xerah/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

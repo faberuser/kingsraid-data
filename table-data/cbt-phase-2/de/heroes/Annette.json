@@ -1,0 +1,288 @@
+{
+  "id": "Annette",
+  "profile": {
+    "name": "Annette",
+    "title": "Königliche Technomagierin Annette",
+    "class": "Mechanic",
+    "position": "Middle-200",
+    "attack_range": "3400",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "17",
+    "height": "158",
+    "race": "Menschen",
+    "constellation": "Armil, der Ehrwürdige",
+    "birth": {
+      "month": 4,
+      "day": 16,
+      "monthName": "Monat des Lebens"
+    },
+    "like": "Technomagie; Forschungsgelder",
+    "dislike": "Leute, die die Technomagie belächeln",
+    "story": "Eine geniale Technomagierin aus dem Königreich von Orvelia. Sie ist stets optimistisch und Fehlschläge scheinen sie nicht zu stören. Sie träumt davon, ein Gerät zu erfinden, das jedem für einen Tag magische Kräfte verleiht. Sie besitzt einen magischen Assistenten, den sie nach Jahren der Forschung zum Leben erweckte. Nachdem die Dämonen auf die Erde gekommen waren, konzentrierte sie ihre Forschung auf die Entwicklung von Waffen, die jedem den Kampf gegen die Eindringlinge ermöglichen sollten.",
+    "thumbnail": "heroes/Annette/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Zerstörungsstrahl",
+      "cost": "2",
+      "cooldown": "7",
+      "description": "Fügt Gegnern in einer Linie vor dem Wirker 299*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 189.1% of ATK Magieschaden zu, reduziert ihren ANG für 5 Sek. um 10% und erhöht ihren erlittenen Magieschaden um 25%. [Überladung]: Verursacht 299*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 189.1% of ATK zusätzlichen Magieschaden und verstärkt die ANG-Reduktion um 10% sowie die Erhöhung des erlittenen Magieschadens um 25%.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Annette/skills/1.png"
+    },
+    "2": {
+      "name": "Notbehandlung",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Entfernt alle negativen Effekte von allen Verbündeten, heilt 10-mal 124*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 20.1% of ATK LP und erhöht ihren Statuswiderstand um 300. [Überladung]: Erhöht zusätzlich die Krit.-Chance aller Verbündeten um 250, ihren Schaden an Gegnern, die keine Helden sind, um 12% und ihren Statuswiderstand um 300.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Annette/skills/2.png"
+    },
+    "3": {
+      "name": "Elimierungsprozess",
+      "cost": "4",
+      "cooldown": "24",
+      "description": "Lässt eine Energiekugel auf einem zufälligen Gegner und Gegnern in der Nähe explodieren und verursacht 139*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 87.7% of ATK Magieschaden. [Überladung]: Verursacht 6-mal zusätzlichen Magieschaden in Höhe von 57.5% des ANG, erhöht erlittenen Magieschaden für 10 Sek. um 10% und betäubt für 3 Sek.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Annette/skills/3.png"
+    },
+    "4": {
+      "name": "Aufladen",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhält alle 0.5 Sek. 1 [Ladung]-Stapel und beim Verbrauch von 1000 MP weitere 10 Stapel. Bei 100 Stapeln wird [Überladung] für 15 Sek. aktiviert und verstärkt Fertigkeiten. [Überladung]: Erhöht den ANG um 210*(0.7+(0.3*Fertigkeitsstufe*Erweckungskoeffizient)) + 5% von Annettes ANG; normale Angriffe reduzieren die Abklingzeit aller Fertigkeiten um 5%. Dieser Effekt kann nicht entfernt werden. Während [Überladung] kann keine [Ladung] erhalten werden.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Annette/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht die Auflademenge um 30 % bei Benutzung."
+    },
+    "2": {
+      "II": "Erhöht Heilungsrate um [64ff64]10[-] %.",
+      "III": "Erhöht Heilungsrate um [64ff64]15[-] %.",
+      "IV": "Erhöht die Auflademenge um 30 % bei Benutzung."
+    },
+    "3": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht die Auflademenge um 30 % bei Benutzung."
+    },
+    "4": {
+      "II": "Erhöht ANG-Boost um [64ff64]10[-] %. ",
+      "III": "Erhöht ANG-Boost um [64ff64]15[-] %. ",
+      "IV": "Erhöht die ANG-GESCHW. um [64ff64]250[-], wenn überladen."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht Schaden um 100 %, wenn nur 1 Feind auf dem Schlachtfeld ist.",
+          "thumbnail": "heroes/Annette/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Erhöht bei Verwendung die erhaltene Ladungsmenge um 40%.",
+          "thumbnail": "heroes/Annette/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Heilungseffekt kann nicht entfernt werden.",
+          "thumbnail": "heroes/Annette/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Bei Benutzung wird die Auflademenge um 40 % erhöht.",
+          "thumbnail": "heroes/Annette/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht Schaden um 50 %.",
+          "thumbnail": "heroes/Annette/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Bei Benutzung wird die Auflademenge um 40 % erhöht.",
+          "thumbnail": "heroes/Annette/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Verstärkt die ANG-Erhöhung von [Überladung] um 100%.",
+          "thumbnail": "heroes/Annette/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erhöht die Wirkungsdauer von [Überladung] um 5 Sek. und ändert den Effekt zur Verringerung aller Skill-Cooldowns beim Normal-ANG auf 12 %.",
+          "thumbnail": "heroes/Annette/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/ANG-GESCHW. +100",
+        "thumbnail": "heroes/Annette/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht die ANG-GESCHW. aller Verbündeten um 200 und den ANG um 5 % von Annettes ANG während der Wirkungsdauer von [Überladung].",
+        "thumbnail": "heroes/Annette/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Kristallisierter Technomagier, Rascal",
+    "description": "Erhält alle {0} Sek. 1 Stapel [Ladung] und regeneriert 1% MP. Diese Ladung kann auch während [Überladung] erhalten werden. Während [Überladung] verursachen alle Verbündeten {1}% mehr Schaden an Bossen und erleiden {2}% weniger Schaden.",
+    "thumbnail": "heroes/Annette/uw.png",
+    "story": "Der Inbegriff der Technomagie, erschaffen auf der Basis von Annettes Theorien. Fünf der höchstrangigen Hofzauberer von Orvel ließen ihre Energie in die Schöpfung dieses magischen Lebewesens fließen. Es hat seinen eigenen Willen und kann unabhängige Entscheidungen treffen sowie entsprechend handeln. Es teilt sein Mana mit Annette und kann außerdem jedes in der Nähe verfügbare Mana nutzen. Seine Schaffung ist der erste Meilenstein in Annettes Bemühungen, Magie für jedermann zugänglich zu machen.",
+    "value": {
+      "0": {
+        "0": "2",
+        "1": "1.8",
+        "2": "1.6",
+        "3": "1.4",
+        "4": "1.2",
+        "5": "1"
+      },
+      "1": {
+        "0": "7",
+        "1": "8.4",
+        "2": "9.8",
+        "3": "11.2",
+        "4": "12.6",
+        "5": "14"
+      },
+      "2": {
+        "0": "7",
+        "1": "8.4",
+        "2": "9.8",
+        "3": "11.2",
+        "4": "12.6",
+        "5": "14"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Erhält alle 2 Sek. 1 Stapel [Ladung] und regeneriert 1% MP. Diese Ladung kann auch während [Überladung] erhalten werden. Während [Überladung] verursachen alle Verbündeten 7% mehr Schaden an Bossen und erleiden 7% weniger Schaden.",
+      "1": "Erhält alle 1.8 Sek. 1 Stapel [Ladung] und regeneriert 1% MP. Diese Ladung kann auch während [Überladung] erhalten werden. Während [Überladung] verursachen alle Verbündeten 8.4% mehr Schaden an Bossen und erleiden 8.4% weniger Schaden.",
+      "2": "Erhält alle 1.6 Sek. 1 Stapel [Ladung] und regeneriert 1% MP. Diese Ladung kann auch während [Überladung] erhalten werden. Während [Überladung] verursachen alle Verbündeten 9.8% mehr Schaden an Bossen und erleiden 9.8% weniger Schaden.",
+      "3": "Erhält alle 1.4 Sek. 1 Stapel [Ladung] und regeneriert 1% MP. Diese Ladung kann auch während [Überladung] erhalten werden. Während [Überladung] verursachen alle Verbündeten 11.2% mehr Schaden an Bossen und erleiden 11.2% weniger Schaden.",
+      "4": "Erhält alle 1.2 Sek. 1 Stapel [Ladung] und regeneriert 1% MP. Diese Ladung kann auch während [Überladung] erhalten werden. Während [Überladung] verursachen alle Verbündeten 12.6% mehr Schaden an Bossen und erleiden 12.6% weniger Schaden.",
+      "5": "Erhält alle 1 Sek. 1 Stapel [Ladung] und regeneriert 1% MP. Diese Ladung kann auch während [Überladung] erhalten werden. Während [Überladung] verursachen alle Verbündeten 14% mehr Schaden an Bossen und erleiden 14% weniger Schaden."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Dreifache Kondensorlinse",
+      "description": "[Zerstörungsstrahl] reduziert die Krit.-Chance des Ziels für 10 Sek. um 150 und seine MP um {0}.",
+      "thumbnail": "heroes/Annette/ut/1.png",
+      "story": "Eine dreifache Kondensorlinse, die Annette erfunden hat, um Rascal den Einsatz von Zerstörungsstrahl zu ermöglichen.\nDiese Speziallinse kann gedreht werden, um die Kondensationsrate und den Reflexionswinkel einzustellen. Dadurch kann die Form der abgefeuerten Photonen einfach verändert werden.\nWenn alle Schichten ausgerichtet sind, wird der Laser geradlinig abgefeuert. Sind die Schichten jedoch quervernetzt, wird die Reflexion aus Photonenenergie zerstreut, um einen Eliminierungsprozess auszuführen.",
+      "value": {
+        "0": {
+          "0": "500",
+          "1": "600",
+          "2": "700",
+          "3": "800",
+          "4": "900",
+          "5": "1000"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Zerstörungsstrahl] reduziert die Krit.-Chance des Ziels für 10 Sek. um 150 und seine MP um 500.",
+        "1": "[Zerstörungsstrahl] reduziert die Krit.-Chance des Ziels für 10 Sek. um 150 und seine MP um 600.",
+        "2": "[Zerstörungsstrahl] reduziert die Krit.-Chance des Ziels für 10 Sek. um 150 und seine MP um 700.",
+        "3": "[Zerstörungsstrahl] reduziert die Krit.-Chance des Ziels für 10 Sek. um 150 und seine MP um 800.",
+        "4": "[Zerstörungsstrahl] reduziert die Krit.-Chance des Ziels für 10 Sek. um 150 und seine MP um 900.",
+        "5": "[Zerstörungsstrahl] reduziert die Krit.-Chance des Ziels für 10 Sek. um 150 und seine MP um 1000."
+      }
+    },
+    "2": {
+      "name": "Manuskript der Heilung",
+      "description": "[Notbehandlung] verringert die Manakosten um 1000 und erhöht die Heilungsrate um {0} %.",
+      "thumbnail": "heroes/Annette/ut/2.png",
+      "story": "Ein Heilmanuskript für Notfälle.\nEs wurde von Babel, der Geheimgesellschaft des magischen Ingenieurwesens angefertigt in deren monatlichem Workshop „Kämpfe sind Selbstzweck! Siegversprechende Skripte in mechanischen Skriptkämpfen.“ \nEs wurde von Annette angefertigt und ist eine Fähigkeit, die Verbündete nur mithilfe von Ingenieurwesen heilt, ohne jede Art von heilender Magie.",
+      "value": {
+        "0": {
+          "0": "25",
+          "1": "30",
+          "2": "35",
+          "3": "40",
+          "4": "45",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Notbehandlung] verringert die Manakosten um 1000 und erhöht die Heilungsrate um 25 %.",
+        "1": "[Notbehandlung] verringert die Manakosten um 1000 und erhöht die Heilungsrate um 30 %.",
+        "2": "[Notbehandlung] verringert die Manakosten um 1000 und erhöht die Heilungsrate um 35 %.",
+        "3": "[Notbehandlung] verringert die Manakosten um 1000 und erhöht die Heilungsrate um 40 %.",
+        "4": "[Notbehandlung] verringert die Manakosten um 1000 und erhöht die Heilungsrate um 45 %.",
+        "5": "[Notbehandlung] verringert die Manakosten um 1000 und erhöht die Heilungsrate um 50 %."
+      }
+    },
+    "3": {
+      "name": "Zerstörungskodex",
+      "description": "[Elimierungsprozess] erhöht den Schaden um {0}% und gewährt bei einem Angriff 2 zusätzliche Stapel [Ladung]. Diese Stapel können auch während [Überladung] erhalten werden.",
+      "thumbnail": "heroes/Annette/ut/3.png",
+      "story": "Der streng geheime Code von Babel, der Geheimgesellschaft des magischen Ingenieurwesens. Magie für normale Menschen! Babel, die Geheimgesellschaft der Technomagi ist eine anonyme Gesellschaft, die davon, träumt, Magie für jeden nutzbar zu machen. Jeder von ihnen besitzt eine technomagische Technik als geheimen Code und sie gestatten es nur denjenigen, ihn zu benutzen, die ihn entziffern können. Annette konnte einen streng geheimen Code in 4 Minuten knacken und benutzt ihn zur Zerstörung.",
+      "value": {
+        "0": {
+          "0": "25",
+          "1": "30",
+          "2": "35",
+          "3": "40",
+          "4": "45",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Elimierungsprozess] erhöht den Schaden um 25 % und erhält beim ANG 2 Ladungen. Die Ladungen können auch während der Überladung erhalten werden.",
+        "1": "[Elimierungsprozess] erhöht den Schaden um 30 % und erhält beim ANG 2 Ladungen. Die Ladungen können auch während der Überladung erhalten werden.",
+        "2": "[Elimierungsprozess] erhöht den Schaden um 35 % und erhält beim ANG 2 Ladungen. Die Ladungen können auch während der Überladung erhalten werden.",
+        "3": "[Elimierungsprozess] erhöht den Schaden um 40 % und erhält beim ANG 2 Ladungen. Die Ladungen können auch während der Überladung erhalten werden.",
+        "4": "[Elimierungsprozess] erhöht den Schaden um 45 % und erhält beim ANG 2 Ladungen. Die Ladungen können auch während der Überladung erhalten werden.",
+        "5": "[Elimierungsprozess] erhöht den Schaden um 50 % und erhält beim ANG 2 Ladungen. Die Ladungen können auch während der Überladung erhalten werden."
+      }
+    },
+    "4": {
+      "name": "Hochleistungsbatterie",
+      "description": "[Ladung] gewährt zu Kampfbeginn {0} Ladungsstapel und verstärkt während [Überladung] die Abklingzeitreduzierung durch normale Angriffe um 10%.",
+      "thumbnail": "heroes/Annette/ut/4.png",
+      "story": "Eine Batterie, die Annette mit ihrem technomagischen Wissen aus einem seltsamen Material aus einem Fossil einer antiken Zivilisation entwickelt hat.\nDie Batterie sollte ursprünglich dazu dienen, Rascal in Notfällen mit Strom zu versorgen, sie war jedoch zu stark und hat Rascal zu häufig überladen.\nDaher entschied sich Annette, sie im Kampf einzusetzen und so anzupassen, dass Rascal ihre Kraft nutzen kann.",
+      "value": {
+        "0": {
+          "0": "40",
+          "1": "48",
+          "2": "56",
+          "3": "64",
+          "4": "72",
+          "5": "80"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Ladung] gewährt zu Kampfbeginn 40 Ladungsstapel und verstärkt während [Überladung] die Abklingzeitreduzierung durch normale Angriffe um 10%.",
+        "1": "[Ladung] gewährt zu Kampfbeginn 48 Ladungsstapel und verstärkt während [Überladung] die Abklingzeitreduzierung durch normale Angriffe um 10%.",
+        "2": "[Ladung] gewährt zu Kampfbeginn 56 Ladungsstapel und verstärkt während [Überladung] die Abklingzeitreduzierung durch normale Angriffe um 10%.",
+        "3": "[Ladung] gewährt zu Kampfbeginn 64 Ladungsstapel und verstärkt während [Überladung] die Abklingzeitreduzierung durch normale Angriffe um 10%.",
+        "4": "[Ladung] gewährt zu Kampfbeginn 72 Ladungsstapel und verstärkt während [Überladung] die Abklingzeitreduzierung durch normale Angriffe um 10%.",
+        "5": "[Ladung] gewährt zu Kampfbeginn 80 Ladungsstapel und verstärkt während [Überladung] die Abklingzeitreduzierung durch normale Angriffe um 10%."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für [64ff64]20[-] Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Kristallisierter Technomagier, Rascal und regeneriert [64ffff]15[-] Sek. lang jede Sek. [64ff64]225[-] MP aller Verbündeten. Betritt der Wirker den [fa96fa][Überladung][-] Zustand wird während der Wirkungsdauer der Mag. Schaden aller Gegner um [ff6464]6[-] % erhöht. Handelt es sich bei dem Ziel um ein Boss, so wird der Schaden-Boost auf [ff6464]60[-] % geändert.",
+    "cooldown": "25",
+    "uses": "6",
+    "thumbnail": "heroes/Annette/sw.png",
+    "advancement": {
+      "1": "Erhöht während der Wirkungsdauer den ANG aller Verbündeten um 11%.",
+      "2": "Reduziert jede Sekunde die Abklingzeit aller Fähigkeiten aller Verbündeten um 0.125 Sek."
+    },
+    "story": "Rascal ist das unabhängige technomagische Wesen mit seinem eigenen Willen und eines der Geheimnisse in Orvel. \nDoch als es Annette gelingt, eine technomagische Kreatur zu erschaffen, \nhaben die Wissenschaftler angefangen über Rascal zu diskutieren.\nAus der Diskussion wurde ein Debatte und aus der Debatte ein Streit und schließlich eskalierte es in einem Konflikt.\n\nEinige Leute sagten, Rascal sei Verrat an Gott, und wir müssen ihn loswerden.\nAber die anderen meinten, dass Rascal ein Wunder und die große Entdeckung sei, die die Zukunft der Menschen retten wird.\n\nAnnette mochte diesen Streit nicht. Sie wollte die Erfindung schützen, die den Menschen helfen und sie glücklich machen wird.\nAber sie wollte Rascal überhaupt nicht loswerden. Rascal ist die Assistentin, Partnerin und Freundin von ihr.\nRascals Fortschritt zu sehen, ist ihre Freude und ihr Lebensglück.\nSie kann sich niemals von Rascal trennen.\n\nUnd Rascal upgradet sich, als er beobachtet wie Annette ihn beschützt und sich um ihn Sorgen macht ..."
+  },
+  "splashart": "heroes/Annette/sa.png",
+  "costumes": "heroes/Annette/cos",
+  "_localization": {
+    "locale": "de",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

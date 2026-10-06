@@ -1,0 +1,245 @@
+{
+  "id": "Aisha",
+  "profile": {
+    "name": "Aisha",
+    "title": "Aisha, Petite Princesse violette",
+    "class": "Wizard",
+    "position": "Back-200",
+    "attack_range": "2600",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "16",
+    "height": "155",
+    "race": "Humain",
+    "constellation": "Gisla le Fin Tireur",
+    "birth": {
+      "month": 11,
+      "day": 1,
+      "monthName": "Mois de la Chance"
+    },
+    "like": "L'heure du thé avec Priscilla",
+    "dislike": "Les personnes grossières",
+    "story": "La fille d'une noble famille d'Orvel. En tant que magicienne la plus talentueuse de la Tour du Sage, elle a reçu le titre de « Violette » en reconnaissance de ses talents magiques. Elle fut élevée à la Tour des Sages depuis son enfance à la demande de ses parents, mais elle conserve sa dignité d'aristocrate. Lorsqu'elle était enfant, elle ne comprenait pas pourquoi ses parents l'avaient envoyée là, mais elle comprend désormais leur raisonnement. Elle est maintenant de retour chez elle, où la servante qui s'occupe d'elle est aussi proche d'elle qu'une membre de sa famille.",
+    "thumbnail": "heroes/Aisha/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Déluge Mystique",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Inflige ??? DEG M aux ennemis dans une zone restreinte. Chaque coup critique réduit le temps de recharge de 1 sec.",
+      "thumbnail": "heroes/Aisha/skills/1.png"
+    },
+    "2": {
+      "name": "Rayon de Destruction",
+      "cost": "2",
+      "cooldown": "13",
+      "description": "Inflige ??? DEG M aux ennemis, en ligne droite, toutes les 0,5 sec. Après 5 sec, consomme 3% de PM toutes les 0,5 sec, augmentant les DEG de 100%. Dure 10 sec.",
+      "thumbnail": "heroes/Aisha/skills/2.png"
+    },
+    "3": {
+      "name": "Pluie Torrentielle",
+      "cost": "3",
+      "cooldown": "17",
+      "description": "Inflige ??? points de DEG M à des ennemis aléatoires pendant 3 sec et réduit la DEF M de l'ennemi de 5%. Cette réduction est cumulable 5 fois.",
+      "thumbnail": "heroes/Aisha/skills/3.png"
+    },
+    "4": {
+      "name": "Boost Mystique",
+      "cost": null,
+      "cooldown": null,
+      "description": "Un coup critique inflige ??? DEG M supplémentaires à l'ennemi.",
+      "thumbnail": "heroes/Aisha/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "S'il y a 1 ennemi, les DEG sont augmentés de 100%.",
+          "thumbnail": "heroes/Aisha/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Récupère 300 PM en infligeant un coup critique.",
+          "thumbnail": "heroes/Aisha/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Augmente le coût en PM de 1 et confère l'immunité contre les Contrôles pendant l'utilisation de la compétence.",
+          "thumbnail": "heroes/Aisha/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Double le coût en PM de Rayon amélioré et passe l'augmentation des DEG infligés de 100% à 200%.",
+          "thumbnail": "heroes/Aisha/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Inflige des DEG de zone.",
+          "thumbnail": "heroes/Aisha/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "La réduction de la DEF M se cumule maintenant jusqu'à 10 fois.",
+          "thumbnail": "heroes/Aisha/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Les DEG sont augmentés de 40%.",
+          "thumbnail": "heroes/Aisha/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Ignore le blocage ennemi.",
+          "thumbnail": "heroes/Aisha/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Crit +100",
+        "thumbnail": "heroes/Aisha/perks/light.png"
+      },
+      "dark": {
+        "effect": "Lors de l'utilisation de la compétence, augmente la récupération PM/sec de 10% et les DEG Crit de 7%. Cet effet peut se cumuler jusqu'à 20 fois, et ne peut pas être dissipé.",
+        "thumbnail": "heroes/Aisha/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Mahitra, le Destin noble",
+    "description": "Augmente les DEG Crit du lanceur de {0}% et la Pénétration DEF de {1}. Multiplie ces effets par 2 s'il inflige des DEG aux ennemis 500 fois.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      }
+    },
+    "thumbnail": "heroes/Aisha/uw.png",
+    "story": "Dans la Tour des Sages, le titre de Violet indique la plus haute des capacités de mana. Le mana apparemment infini d'Aisha était trop important pour les outils habituels. C'est pour cela que la famille Daphnel acheta toutes les pierres de mana qu'elle put trouver afin de les amener à Annette, la meilleure technomage du château d'Orvel. Annette accepta avec joie ce nouveau projet. Elle créa peu de temps après Mahitra, une magnifique ombrelle idéale pour une mage de noble lignée.",
+    "descriptionByStar": {
+      "0": "Augmente les DEG Crit du lanceur de 10% et la Pénétration DEF de 100. Multiplie ces effets par 2 s'il inflige des DEG aux ennemis 500 fois.",
+      "1": "Lors d'une attaque, 35% de chance d'infliger des DEG supplémentaires (48% de l'ATQ).",
+      "2": "Lors d'une attaque, 35% de chance d'infliger des DEG supplémentaires (57% de l'ATQ).",
+      "3": "Lors d'une attaque, 35% de chance d'infliger des DEG supplémentaires (69% de l'ATQ).",
+      "4": "Lors d'une attaque, 35% de chance d'infliger des DEG supplémentaires (83% de l'ATQ).",
+      "5": "Lors d'une attaque, 35% de chance d'infliger des DEG supplémentaires (100% de l'ATQ)."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Fleur de Violet",
+      "description": "[Barrage mystique] Réduit le temps de recharge de 1 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Aisha/ut/1.png",
+      "story": "Cette fleur est l'un des objets que la Tour du sage qualifie de « Violets ». Elle est assortie à l'Anneau de mana.\nLe Violet est associé à une abondance de mana et en effet, la fleur de Violet est ornée d'une sphère de cristal qui décuple le mana d'Aisha et le fait exploser. Sa puissance est si grande que Priscilla fit promettre à Aisha de ne l'utiliser qu'en cas d'absolue nécessité.",
+      "descriptionByStar": {
+        "0": "[Barrage mystique] Réduit le temps de recharge de 1 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec.",
+        "1": "[Barrage mystique] Réduit le temps de recharge de 1,2 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec.",
+        "2": "[Barrage mystique] Réduit le temps de recharge de 1,4 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec.",
+        "3": "[Barrage mystique] Réduit le temps de recharge de 1,7 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec.",
+        "4": "[Barrage mystique] Réduit le temps de recharge de 2,1 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec.",
+        "5": "[Barrage mystique] Réduit le temps de recharge de 2,5 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Miroir à main noble",
+      "description": "[Rayon destructeur] Augmente les DEG infligés de 50 % et récupère 500 PM immédiatement à l'utilisation.",
+      "value": {},
+      "thumbnail": "heroes/Aisha/ut/2.png",
+      "story": "Trésor sacré transmis de génération en génération à la famille Daphnel. Il s’agit d’un outil ancestral de chaman servant à conserver le mana.\nAprès qu’Aisha a inclus la gemme violette noble avec son mana, son pouvoir s’est révélé. Ce miroir brille désormais de mille feux.",
+      "descriptionByStar": {
+        "0": "[Rayon destructeur] Augmente les DEG infligés de 50 % et récupère 500 PM immédiatement à l'utilisation.",
+        "1": "[Rayon destructeur] Augmente les DEG infligés de 50 % et récupère 600 PM immédiatement à l'utilisation.",
+        "2": "[Rayon destructeur] Augmente les DEG infligés de 50 % et récupère 720 PM immédiatement à l'utilisation.",
+        "3": "[Rayon destructeur] Augmente les DEG infligés de 50 % et récupère 860 PM immédiatement à l'utilisation.",
+        "4": "[Rayon destructeur] Augmente les DEG infligés de 50 % et récupère 1 040 PM immédiatement à l'utilisation.",
+        "5": "[Rayon destructeur] Augmente les DEG infligés de 50 % et récupère 1 250 PM immédiatement à l'utilisation."
+      }
+    },
+    "3": {
+      "name": "Anneau de magie infinie",
+      "description": "[Pluie Torrentielle] Augmente les DEG infligés de 50% et chaque coup critique réussi rend 30 PM.",
+      "value": {},
+      "thumbnail": "heroes/Aisha/ut/3.png",
+      "story": "Un anneau offert avec le titre de Violet à la Tour des Sages. C’est une relique de la sorcière Eucaletus, qui vivait dans le Marais de la Sagesse. Le pouvoir qu’elle affiche dépend des talents de son porteur. Pour certains, ce peut être une source illimitée de mana. C’est idéal pour Aisha, qui utilise de puissants canons magiques.",
+      "descriptionByStar": {
+        "0": "[Pluie Torrentielle] Augmente les DEG infligés de 50% et chaque coup critique réussi rend 30 PM.",
+        "1": "[Pluie Torrentielle] Augmente les DEG infligés de 50% et chaque coup critique réussi rend 36 PM.",
+        "2": "[Pluie Torrentielle] Augmente les DEG infligés de 50% et chaque coup critique réussi rend 43 PM.",
+        "3": "[Pluie Torrentielle] Augmente les DEG infligés de 50% et chaque coup critique réussi rend 52 PM.",
+        "4": "[Pluie Torrentielle] Augmente les DEG infligés de 50% et chaque coup critique réussi rend 62 PM.",
+        "5": "[Pluie Torrentielle] Augmente les DEG infligés de 50% et chaque coup critique réussi rend 75 PM."
+      }
+    },
+    "4": {
+      "name": "Yeux de la vérité",
+      "description": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de 1 %. Cet effet peut se cumuler jusqu'à 20 fois.",
+      "value": {},
+      "thumbnail": "heroes/Aisha/ut/4.png",
+      "story": "Un mystérieux pendentif trouvé dans des ruines antiques.\nIl fut découvert dans le tombeau de quelqu'un que l'on appelait « dieu de la Sagesse et du Savoir ancestral ».\nFascinée par sa teinte violette, Aisha l'acheta dans un magasin d'une petite ruelle.\nQuand elle découvrit qu'il renforçait ses pouvoirs mystiques, elle l'appela les Yeux de la vérité, et le porte très souvent depuis.",
+      "descriptionByStar": {
+        "0": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de 1 %. Cet effet peut se cumuler jusqu'à 20 fois.",
+        "1": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de 1,2 %. Cet effet peut se cumuler jusqu'à 20 fois.",
+        "2": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de 1,4 %. Cet effet peut se cumuler jusqu'à 20 fois.",
+        "3": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de 1,7 %. Cet effet peut se cumuler jusqu'à 20 fois.",
+        "4": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de 2,1 %. Cet effet peut se cumuler jusqu'à 20 fois.",
+        "5": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de 2,5 %. Cet effet peut se cumuler jusqu'à 20 fois."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Vous devez infliger des DEG à 120 reprises pour recharger l'âme et l'utiliser.",
+    "description": "Invoque l'âme de Mahitra, le Destin noble pendant 8 sec. Pendant la durée de l'invocation, augmente les DEG Crit de 50% et inflige aux ennemis ??? DEG toutes les 0.5 sec. Augmente également les DEG M reçus par les ennemis de 25% pendant 5 sec.",
+    "cooldown": "22",
+    "uses": "7",
+    "thumbnail": "heroes/Aisha/sw.png",
+    "advancement": {
+      "1": "Pendant la durée de la compétence, restaure entièrement les PM.",
+      "2": "Augmente la durée de la compétence de 4 sec et confère l'immunité aux Contrôles pendant la durée de la compétence."
+    },
+    "story": "Mahitra, fabriqué à partir d'une énorme quantité de pierres de mana, n'eut aucun mal à supporter la puissance magique d'Aisha, portant le titre de 'Violet'.\n\nEn tant que demoiselle de la famille Daphnel, la maison la plus influente du royaume d'Orvel, Aisha au noble destin employa Mahitra afin de protéger les plus faibles, l'honneur de sa famille et de effectuer le devoir de l'archimage.\n\nPuis un jour, elle découvrit un phénomène intéressant. À chaque fois qu'elle utilisait ses pouvoirs à travers Mahitra, ce dernier réagissait comme s'il était vivant, en modifiant le cours de la puissance magique, afin d'obtenir un résultat optimal.\n\nEn discutant avec Annette, la technomage créatrice de Mahitra, Aisha comprit que sa propre volonté ainsi que sa puissance magique étaient imprégnées dans Mahitra, le transformant en un être similaire à une créature technomagique. Elle décida donc d'étudier cela de près."
+  },
+  "splashart": "heroes/Aisha/sa.png",
+  "costumes": "heroes/Aisha/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

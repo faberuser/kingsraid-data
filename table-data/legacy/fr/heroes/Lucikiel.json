@@ -1,0 +1,281 @@
+{
+  "id": "Lucikiel",
+  "profile": {
+    "name": "Lucikiel",
+    "title": "Lucikiel, Destruction incarnée",
+    "class": "Wizard",
+    "position": "Front-600",
+    "attack_range": "10000",
+    "damage_type": "Magical",
+    "gender": "Homme",
+    "age": "???",
+    "height": "196",
+    "race": "Démon",
+    "constellation": "Gisla le Fin Tireur",
+    "birth": {
+      "month": 11,
+      "day": 16,
+      "monthName": "Mois de la Chance"
+    },
+    "like": "Un adversaire à sa hauteur, un champ de bataille où il peut se déchaîner, de la crème brûlée",
+    "dislike": "Ceux qui ne savent pas mesurer leurs propres forces, être entraîné dans des affaires ennuyeuses, être dérangé en plein combat",
+    "story": "L'un des 5 Démons primitifs, ayant hérité de la puissance de Lea. Le pouvoir que Lucikiel a reçu est celui de la 'Destruction', ce qui fait de lui le plus puissant des Démons primitifs. Cependant, le 'Pouvoir de Destruction' accorde bien plus qu'une simple supériorité dans les batailles, pour la simple raison que son influence ne se limite pas à ce qui peut être vu ou touché : une de ses utilités est de permettre de 'détruire' la frontière entre le monde matériel et celui des ténèbres, créant un passage temporaire. Lucikiel en a souvent profité pour voyager entre ces deux mondes, avant même que les Démons ne commencent à envahir le monde matériel. Il l'avait visité afin de l'observer de près, bien qu'il n'y avait rien qui puisse éveiller sa curiosité. Mais maintenant que certains habitants du monde matériel ont attisé l'intérêt du Démon primitif, on peut s'attendre à ce que ses actes futurs en soient influencés.",
+    "thumbnail": "heroes/Lucikiel/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Morts successives",
+      "cost": "2",
+      "cooldown": "13",
+      "description": "Attaque la cible ennemie et les ennemis à portée de la cible à 3 reprises pour infliger un total de ??? DEG M et laisser [Ombre de la Mort]. [Ombre de la Mort] inflige ??? DEG M et réduit la récupération des PV de la cible de 30% pendant 10 sec.",
+      "thumbnail": "heroes/Lucikiel/skills/1.png"
+    },
+    "2 (1)": {
+      "name": "Vague de Cataclysme",
+      "cost": "3",
+      "cooldown": "13",
+      "description": "Attaque les ennemis à portée situés à l'avant à 2 reprises. À la première attaque, inflige ??? DEG M et étourdit pendant 3 sec. À la seconde attaque, inflige ??? DEG M et attire vers lui les cibles touchées. Modifie la compétence en [Raz de Marée de Cataclysme] après son utilisation.",
+      "thumbnail": "heroes/Lucikiel/skills/2 (1).png"
+    },
+    "2 (2)": {
+      "name": "Raz de Marée de Cataclysme",
+      "cost": "3",
+      "cooldown": "13",
+      "description": "Attaque les ennemis à large portée situés à l'avant à 2 reprises. À la première attaque, inflige ??? DEG M et étourdit pendant 5 sec. À la seconde attaque, inflige ??? DEG M et attire vers lui les cibles touchées. Modifie la compétence en [Vague de Cataclysme] après son utilisation.",
+      "thumbnail": "heroes/Lucikiel/skills/2 (2).png"
+    },
+    "3": {
+      "name": "Temps de Destruction",
+      "cost": "4",
+      "cooldown": "23",
+      "description": "Attaque les ennemis à portée à 9 reprises pour leur infliger un total de ??? DEG M et les attire vers lui. Au dernier coup porté, inflige ??? DEG M, renverse les cibles touchées pendant 5 sec et laisse [Calvaire de Cataclysme] qui dure 10 sec. Inflige ??? DEG M supplémentaires aux cibles touchées par [Calvaire de Cataclysme], à chaque fois que l'attaque automatique et celle de compétence de Lucikiel infligent des DEG.",
+      "thumbnail": "heroes/Lucikiel/skills/3.png"
+    },
+    "4": {
+      "name": "Armure de la Déesse démoniaque",
+      "cost": null,
+      "cooldown": null,
+      "description": "Réduit les DEG reçus de 25% et la durée des Contrôles de 50%. À chaque utilisation d'une compétence, génère le [Pouvoir de la Déesse démoniaque] pour absorber ??? DEG pendant 6 sec. Confère l'immunité aux Contrôles pendant la durée du [Pouvoir de la Déesse démoniaque].",
+      "thumbnail": "heroes/Lucikiel/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente le taux du bouclier de 10%.",
+      "III": "Augmente le taux du bouclier de 15%.",
+      "IV": "Augmente le taux du bouclier de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Modifie [Ombre de la Mort] pour qu'elle ne puisse plus être dissipée.",
+          "thumbnail": "heroes/Lucikiel/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Ajoute à [Ombre de la Mort] l'effet d'augmentation de DEG M reçus de 25%.",
+          "thumbnail": "heroes/Lucikiel/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Lucikiel/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Modifie la compétence en [Raz de Marée de Cataclysme] au début de la première bataille.",
+          "thumbnail": "heroes/Lucikiel/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Réduit le temps de recharge de 7 sec.",
+          "thumbnail": "heroes/Lucikiel/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Chaque fois que des DEG sont infligés, réduit les PM de la cible touchée de 200.",
+          "thumbnail": "heroes/Lucikiel/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Génère le [Pouvoir de la Déesse démoniaque] au début de chaque bataille.",
+          "thumbnail": "heroes/Lucikiel/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Réduit les DEG reçus de 15% supplémentaires.",
+          "thumbnail": "heroes/Lucikiel/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Crit +100",
+        "thumbnail": "heroes/Lucikiel/perks/light.png"
+      },
+      "dark": {
+        "effect": "Toutes les 6 sec, augmente les DEG infligés à l'ennemi de 5%. Cet effet peut se cumuler jusqu'à 10 fois et ne peut être dissipé.",
+        "thumbnail": "heroes/Lucikiel/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Barbatos Maximos, l'Ultime Destruction",
+    "description": "En attaquant l'ennemi à 10 reprises, cumule sur lui-même [Cataclysme incarné]. À chaque [Cataclysme incarné] cumulé, augmente l'ATQ de {0}% et la Vitesse d'ATQ de {1}. Cet effet peut se cumuler jusqu'à 10 fois et ne peut être dissipé. En cumulant [Cataclysme incarné] 10 fois, à chaque fois que l'attaque automatique et celle de compétence infligent des DEG à la cible, inflige des DEG M supplémentaires ignorant la DEF à hauteur de {2}% de l'ATQ.",
+    "value": {
+      "0": {
+        "0": "4",
+        "1": "4.8",
+        "2": "5.8",
+        "3": "7",
+        "4": "8.4",
+        "5": "10"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "2": {
+        "0": "30",
+        "1": "36",
+        "2": "43",
+        "3": "52",
+        "4": "63",
+        "5": "75"
+      }
+    },
+    "thumbnail": "heroes/Lucikiel/uw.png",
+    "story": "Faisant partie des cinq Démons primitifs, Lucikiel est le mandataire de destruction, capable de dévaster le monde selon la volonté de Lea. Il utilise dans les combats le pouvoir accordé par la Déesse, ce qui lui a valu le titre du Démon le plus puissant. Pour le moment, cet immense désir pour la destruction est parfaitement sous le contrôle de Lucikiel, qui peut l'employer quand il le souhaite. Contrairement au Barbatos incomplet et limité que son fils a hérité de lui, cette arme est la matérialisation de la totalité du pouvoir de destruction de Lucikiel. Elle est puissante, sans aucune limite dans le déploiement de sa puissance.",
+    "descriptionByStar": {
+      "0": "En attaquant l'ennemi à 10 reprises, cumule sur lui-même [Cataclysme incarné]. À chaque [Cataclysme incarné] cumulé, augmente l'ATQ de 4% et la Vitesse d'ATQ de 20. Cet effet peut se cumuler jusqu'à 10 fois et ne peut être dissipé. En cumulant [Cataclysme incarné] 10 fois, à chaque fois que l'attaque automatique et celle de compétence infligent des DEG à la cible, inflige des DEG M supplémentaires ignorant la DEF à hauteur de 30% de l'ATQ."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Emblème de l'Anéantissement",
+      "description": "[Morts successives] Réduit le temps de recharge de 3 sec et ajoute à [Ombre de la Mort] l'effet d'augmentation des DEG M reçus de {0}%.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
+      "thumbnail": "heroes/Lucikiel/ut/1.png",
+      "story": "La loi du plus fort régit le monde des ténèbres, décidant de tout ce qui se passe en ces lieux. C'est pourquoi les Démons aspirent tous à plus de puissance, toujours et sans répit. Dans ce cas, comment prouver qu'on est le plus fort ? Le moyen le plus simple est de défier le Démon le plus puissant et de le vaincre. Pendant des siècles, tous les Démons qui se croyaient suffisamment forts ont donc provoqué Lucikiel en duel. Et ils ont été défaits, tous, sans exception. Ayant plus qu'assez de ces défis sans intérêts, Lucikiel s'est mis à porter sur son costume cet emblème qui symbolise son autorité en tant que Démon primitif. Rien qu'en apercevant cet objet qui représente la 'Destruction', les Démons inférieurs ressentent envers Lucikiel de la vénération mêlée à de la terreur.",
+      "descriptionByStar": {
+        "0": "[Morts successives] Réduit le temps de recharge de 3 sec et ajoute à [Ombre de la Mort] l'effet d'augmentation des DEG M reçus de 12%."
+      }
+    },
+    "2": {
+      "name": "Bandeau de Cuir noir bleuté",
+      "description": "[Vague de Cataclysme] Dissipe l'effet positif de la cible et pendant l'utilisation de la compétence, augmente la Précision des contrôles de {0}.\n[Raz de Marée de Cataclysme] Dissipe l'effet positif de la cible et pendant l'utilisation de la compétence, augmente la Précision des contrôles de {1}.",
+      "value": {
+        "0": {
+          "0": "300",
+          "1": "360",
+          "2": "430",
+          "3": "520",
+          "4": "630",
+          "5": "750"
+        },
+        "1": {
+          "0": "400",
+          "1": "480",
+          "2": "580",
+          "3": "700",
+          "4": "840",
+          "5": "1000"
+        }
+      },
+      "thumbnail": "heroes/Lucikiel/ut/2.png",
+      "story": "Le jour où la Porte dimensionnelle fut ouverte, provoquant la chute du Grand-Duché de Gray, d'innombrables combattants tombèrent face à Lucikiel, bien qu'ils aient combattu jusqu'à leurs dernières forces. Le grand-duché fut anéanti avec une rapidité navrante, comme l'avait prévu Lucikiel. Il avait vécu ce genre de bataille un nombre incalculable de fois. L'endroit différait, mais le résultat restait le même. Tentant d'oublier l'ennui mortel que lui inspirait cette guerre, il s'engagea dans le dernier combat, afin de parfaire sa tâche. Puis un chevalier humain lui infligea une blessure tout aussi profonde qu'inattendue. Depuis, Lucikiel garde toujours en mémoire ce combat et la cicatrice que cela a laissé sur son bras, en conservant sur lui ce bandeau fait de cuir noir d'une bête démoniaque. Utilisé pour panser la plaie, l'objet a été bleui par le sang versé de Lucikiel.",
+      "descriptionByStar": {
+        "0": "[Vague de Cataclysme] Dissipe l'effet positif de la cible et pendant l'utilisation de la compétence, augmente la Précision des contrôles de 300.\n[Raz de Marée de Cataclysme] Dissipe l'effet positif de la cible et pendant l'utilisation de la compétence, augmente la Précision des contrôles de 400."
+      }
+    },
+    "3": {
+      "name": "Corne d'un Démon",
+      "description": "[Temps de Destruction] Modifie les DEG infligés par [Calvaire de Cataclysme] en DEG ignorant la DEF et augmente les DEG de [Calvaire de Cataclysme] de {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Lucikiel/ut/3.png",
+      "story": "Dans les temps reculés, un Démon audacieux tenta de s'emparer du pouvoir de 'Destruction' de Lucikiel. Bien d'autres avant lui avaient convoité la puissance de Lucikiel, mais il fut le premier à passer à l'acte. Étant un Démon supérieur, il crut qu'il était d'une force comparable à Lucikiel. Et comme il disposait d'une puissance assez considérable, les autres Démons supposèrent que le duel entre ces deux êtres seraient assez acharnés. Bien entendu, le combat échappa à toutes ces prévisions et Lucikiel écrasa facilement cet adversaire présomptueux. Il trancha ensuite la corne du Démon vaincu et la conserva, afin d'en faire un exemple.",
+      "descriptionByStar": {
+        "0": "[Temps de Destruction] Modifie les DEG infligés par [Calvaire de Cataclysme] en DEG ignorant la DEF et augmente les DEG de [Calvaire de Cataclysme] de 20%."
+      }
+    },
+    "4": {
+      "name": "Boucles de Cristaux de Sang bleu",
+      "description": "[Armure de la Déesse démoniaque] Modifie pour que le [Pouvoir de la Déesse démoniaque] ne puisse pas être dissipé et augmente le taux du bouclier de {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Lucikiel/ut/4.png",
+      "story": "Des boucles d'oreilles créées à partir du sang de Lucikiel cristallisé. En constituant le corps que Lucikiel utiliserait dans le monde matériel, son sang devint l'élément contenant la plus grande partie de son énergie démoniaque. En le condensant, il pouvait servir de réceptacle au pouvoir de Lucikiel, en partie du moins. Comme cela pouvait devenir une source d'ennuis, Lucikiel se retenait d'en créer, ou d'en donner à autrui. Toutefois, il lui était arrivé dans le passé d'offrir plusieurs cristaux de sang bleu à une humaine qui lui était très proche. Avec ceux-ci, la femme fabriqua un collier qu'elle garda, mais aussi des boucles d'oreille qu'elle donna à Lucikiel en guise de remerciement.",
+      "descriptionByStar": {
+        "0": "[Armure de la Déesse démoniaque] Modifie pour que le [Pouvoir de la Déesse démoniaque] ne puisse pas être dissipé et augmente le taux du bouclier de 20%."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 3 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Entre en résonance avec l'âme de Barbatos Maximos, l'Ultime Destruction, générant le [Pouvoir de la Déesse démoniaque], et inflige aux ennemis à portée ??? DEG M et les étourdit pendant 4 sec. Ensuite, l'âme de Barbatos Maximos, l'Ultime Destruction est maintenue pendant 10 sec. Pendant la durée de l'âme, ne peut utiliser aucune compétence, mais augmente la Vitesse d'ATQ de 400, et réduit les DEG reçus de 30%. Multiplie les DEG des attaques automatiques par 2, les modifie en DEG ignorant la DEF, infligeant aux ennemis à portée de la cible des DEG à hauteur de 50% de ceux infligés à la cible. S'il élimine un ennemi pendant la durée de l'invocation de l'âme, génère le [Pouvoir de la Déesse démoniaque].",
+    "cooldown": "18",
+    "uses": "6",
+    "thumbnail": "heroes/Lucikiel/sw.png",
+    "advancement": {
+      "1": "Dissipe son effet négatif avant d'utiliser l'Arme spirituelle et dissipe l'effet positif des cibles touchées par les DEG de la première résonance.",
+      "2": "Augmente la durée de l'âme de 5 sec et réduit le temps de recharge de l'âme de 5 sec. Confère l'immunité aux Contrôles pendant la durée de l'âme."
+    },
+    "story": "Lucikiel usa de son pouvoir de destruction dans d'innombrables batailles, ce qui eut pour conséquence de donner à cette force une caractéristique originale : celle de refléter la volonté de celui qui l'employait. Résultat, non seulement elle acquit une forme physique, mais atteignit un stade d'évolution transcendant. L'arme ainsi formée hérita le tempérament de Lucikiel, ce qui lui permit d'accumuler plus de puissance de destruction à chaque ennemi éliminé."
+  },
+  "splashart": "heroes/Lucikiel/sa.png",
+  "costumes": "heroes/Lucikiel/cos",
+  "aliases": [
+    "papakiel"
+  ],
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "id": "Oddy",
+  "profile": {
+    "name": "Oddy",
+    "title": "Oddy, Horloger de la Vie éternelle",
+    "class": "Mechanic",
+    "position": "Middle-200",
+    "attack_range": "4200",
+    "damage_type": "Magical",
+    "gender": "Homme",
+    "age": "???",
+    "height": "125",
+    "race": "Redpur (Anciennement humain)",
+    "constellation": "Asiphia l'Impératrice",
+    "birth": {
+      "month": 10,
+      "day": 4,
+      "monthName": "Mois de l'Amitié"
+    },
+    "like": "Les horloges",
+    "dislike": "Les braconniers",
+    "story": "Il travaillait comme mécanicien au palais royal d'Orvelia il y a bien longtemps. Cependant, il fut maudit par un Redpur, une créature mythique, et se transforma lui-même en Redpur. Depuis sa transformation, il a vécu si longtemps qu'il ne se souvient plus de son âge. Lorsqu'il était humain, il inventa la première montre portable, mais personne à Orvelia ne reconnut son talent. Pour faire connaître son invention, il partit rejoindre l'empire. Sur la route, il fut maudit par un groupe de Redpurs l'ayant confondu avec un braconnier. La malédiction affecta également sa montre, en lui accordant un pouvoir magique permettant de contrôler le flux du temps dans un corps vivant. Quant à Oddy, le temps s'est arrêté pour lui.",
+    "thumbnail": "heroes/Oddy/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Fracture Temporelle",
+      "cost": "2",
+      "cooldown": "7",
+      "description": "Touche les ennemis en ligne droite pour ??? points de DEG M et les Pétrifie.",
+      "thumbnail": "heroes/Oddy/skills/1.png"
+    },
+    "2": {
+      "name": "Fragments du Temps",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Attaque 6 ennemis aléatoires, infligeant un total de ??? DEG M. 'Fragments du Temps' a 50% de chances de réinitialiser son temps de recharge et de ne pas consommer de PM lors de sa prochaine utilisation.",
+      "thumbnail": "heroes/Oddy/skills/2.png"
+    },
+    "3": {
+      "name": "Distorsion Temporelle",
+      "cost": "4",
+      "cooldown": "35",
+      "description": "Inflige ??? points de DEG M à tous les ennemis et augmente la Vitesse d'ATQ des alliés de 250 pendant 15 sec. Toutes les compétences des alliés en recharge voient leur Temps de Recharge réduit de 50%. Distorsion temporelle n'est pas affectée par des effets qui peuvent modifier le temps de recharge.",
+      "thumbnail": "heroes/Oddy/skills/3.png"
+    },
+    "4": {
+      "name": "Horloge Magique",
+      "cost": null,
+      "cooldown": null,
+      "description": "Après utilisation de cette compétence, les 2 prochaines attaques infligent ??? points de DEG M supplémentaires, avec 30% de chances de pétrifier la cible pendant 3 sec. Cet effet ne s'active qu'une fois toutes les 1 sec.",
+      "thumbnail": "heroes/Oddy/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente le Crit de 250."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente le Crit de 250."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente le Crit de 250."
+    },
+    "4": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente le Crit de 250."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "DEG augmentés de 40%.",
+          "thumbnail": "heroes/Oddy/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Temps de Recharge réduit de 1,5 sec.",
+          "thumbnail": "heroes/Oddy/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "2 ennemis choisis au hasard sont pris pour cible.",
+          "thumbnail": "heroes/Oddy/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Pendant le Temps de Recharge, les attaques auto réduisent le Temps de Recharge de 'Fragments du Temps' de 1 sec.",
+          "thumbnail": "heroes/Oddy/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente le coût en PM de 2 et restaure entièrement les PM de tous les alliés.",
+          "thumbnail": "heroes/Oddy/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Lorsqu'au moins 5 ennemis sont présents, les DEG augmentent de 100%. Les ennemis touchés subissent 50% de DEG supplémentaires pendant 10 sec.",
+          "thumbnail": "heroes/Oddy/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Les DEG supplémentaires accordés par la compétence sont multipliés par 3.",
+          "thumbnail": "heroes/Oddy/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Les chances de pétrifier passent à 40%.",
+          "thumbnail": "heroes/Oddy/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Vitesse d'ATQ +100",
+        "thumbnail": "heroes/Oddy/perks/light.png"
+      },
+      "dark": {
+        "effect": "Toutes les 10 sec, toutes les compétences en recharge de 4 alliés aléatoires voient leur Temps de Recharge réduit de 1 sec.",
+        "thumbnail": "heroes/Oddy/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Tempodiana, le Compte à Rebours d'Ombrelune",
+    "description": "Utiliser Distorsion Temporelle réduit les Temps de Recharge de tous les alliés de 2 sec, et leur ATQ est boostée de 14% pendant 10 sec.",
+    "value": {},
+    "thumbnail": "heroes/Oddy/uw.png",
+    "story": "Une fois sa montre frappée par la malédiction des Redpur et dotée du pouvoir de contrôler le temps pour les êtres vivants, Oddy mit à profit le temps infini dont il bénéficiait pour chercher des applications possibles à son pouvoir. Après maints efforts, il finit par créer une montre contenant l'essence de la magie temporelle et découvrit que la magie des Redpur tirait son origine du rayonnement lunaire et des zones d'ombre qu'il génère. Il baptisa son chef-d'œuvre « Tempodiana » et le surnomma « Compte à Rebours d'Ombrelune ».",
+    "descriptionByStar": {
+      "0": "Utiliser Distorsion Temporelle réduit les Temps de Recharge de tous les alliés de 2 sec, et leur ATQ est boostée de 14% pendant 10 sec.",
+      "1": "Utiliser Distorsion Temporelle réduit les Temps de Recharge de tous les alliés de 3 sec, et leur ATQ est boostée de 17% pendant 10 sec.",
+      "2": "Utiliser Distorsion Temporelle réduit les Temps de Recharge de tous les alliés de 4 sec, et leur ATQ est boostée de 21% pendant 10 sec.",
+      "3": "Utiliser Distorsion Temporelle réduit les Temps de Recharge de tous les alliés de 5 sec, et leur ATQ est boostée de 25% pendant 10 sec.",
+      "4": "Utiliser Distorsion Temporelle réduit les Temps de Recharge de tous les alliés de 6 sec, et leur ATQ est boostée de 30% pendant 10 sec.",
+      "5": "Utiliser Distorsion Temporelle réduit les Temps de Recharge de tous les alliés de 7 sec, et leur ATQ est boostée de 35% pendant 10 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Orbe raffiné",
+      "description": "[Fracture temporelle] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit le PM de la cible de 400.",
+      "value": {},
+      "thumbnail": "heroes/Oddy/ut/1.png",
+      "story": "Ce dispositif est capable d'ajuster les failles temporelles.\nLa manipulation du temps provoque parfois l'apparition de failles temporelles dans lesquelles s'accumule une énergie colossale. Ceux qui ne les maîtrisent pas risquent de se retrouvent coincés à l'intérieur pour l'éternité. Oddy, mage du temps chevronné, confectionna cet orbe raffiné pour agir sur les failles temporelles, canalisant leur énergie pour décupler l'efficacité de Tempodiana.",
+      "descriptionByStar": {
+        "0": "[Fracture temporelle] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit le PM de la cible de 400.",
+        "1": "[Fracture temporelle] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit le PM de la cible de 480.",
+        "2": "[Fracture temporelle] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit le PM de la cible de 580.",
+        "3": "[Fracture temporelle] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit le PM de la cible de 700.",
+        "4": "[Fracture temporelle] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit le PM de la cible de 840.",
+        "5": "[Fracture temporelle] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit le PM de la cible de 1000."
+      }
+    },
+    "2": {
+      "name": "Collection de fragments",
+      "description": "[Fragments du temps] A 25 % de chances de réinitialiser le temps de recharge et augmente les DEG de 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Oddy/ut/2.png",
+      "story": "Fragments du Temps tombés de la face cachée de la lune.\nParfois, il arrive que des fragments du temps tombent d’une autre dimension sous l’effet de la face cachée de la lune, révélée par la magie temporelle. \nLes fragments du temps ont beau être petits, lorsqu’ils sont rassemblés, ils forment une collection gigantesque qui donne au lanceur une inspiration sans limites.",
+      "descriptionByStar": {
+        "0": "[Fragments du temps] A 25 % de chances de réinitialiser le temps de recharge et augmente les DEG de 20 %.",
+        "1": "[Fragments du temps] A 25 % de chances de réinitialiser le temps de recharge et augmente les DEG de 24 %.",
+        "2": "[Fragments du temps] A 25 % de chances de réinitialiser le temps de recharge et augmente les DEG de 29 %.",
+        "3": "[Fragments du temps] A 25 % de chances de réinitialiser le temps de recharge et augmente les DEG de 35 %.",
+        "4": "[Fragments du temps] A 25 % de chances de réinitialiser le temps de recharge et augmente les DEG de 42 %.",
+        "5": "[Fragments du temps] A 25 % de chances de réinitialiser le temps de recharge et augmente les DEG de 50 %."
+      }
+    },
+    "3": {
+      "name": "Fils du temps",
+      "description": "[Distorsion Temporelle] Les DEG sont augmentés de 20% et tous les effets négatifs sont dissipés sur les alliés.",
+      "value": {},
+      "thumbnail": "heroes/Oddy/ut/3.png",
+      "story": "La fourrure du Chef à Fourrure Rouge qui est suspendue à la lueur de la lune. On raconte que la créature mythique, le Chef à Fourrure Rouge, utilise l’ombre de la pleine lune pour traverser les dimensions en dansant. Le Chef à Fourrure Rouge danse jusqu’à disparition de l’ombre de la lune et on dit que sa queue reste parfois coincée dans le passage. La fourrure de la créature mythique reste bloquée dans le flux de l’espace-temps, ce qui arrête temporairement le temps. Oddy utilise la fourrure avec les traces de l’ombre de la lune pour créer une peau et l’utiliser avec efficacité lors de la Distorsion Temporelle.",
+      "descriptionByStar": {
+        "0": "[Distorsion Temporelle] Les DEG sont augmentés de 20% et tous les effets négatifs sont dissipés sur les alliés.",
+        "1": "[Distorsion Temporelle] Les DEG sont augmentés de 24% et tous les effets négatifs sont dissipés sur les alliés.",
+        "2": "[Distorsion Temporelle] Les DEG sont augmentés de 29% et tous les effets négatifs sont dissipés sur les alliés.",
+        "3": "[Distorsion Temporelle] Les DEG sont augmentés de 35% et tous les effets négatifs sont dissipés sur les alliés.",
+        "4": "[Distorsion Temporelle] Les DEG sont augmentés de 42% et tous les effets négatifs sont dissipés sur les alliés.",
+        "5": "[Distorsion Temporelle] Les DEG sont augmentés de 50% et tous les effets négatifs sont dissipés sur les alliés."
+      }
+    },
+    "4": {
+      "name": "Mécanisme de manipulation temporelle",
+      "description": "[Horloge magique] Augmente les DEG de 50 %. Les ennemis touchés subissent 10 % DEG M supplémentaires pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Oddy/ut/4.png",
+      "story": "Un appareil crée par Oddy pour contrôler le cours du temps.\nOddy passa un temps fou à rechercher et développer le mécanisme parfait, mais en vain.\nLa conception était impeccable, mais il ne possédait pas le bon réceptacle catalytique pour sa puissante Horloge magique.\nUn seul tic-tac de cette horloge ferait fondre n'importe quel métal en ce monde.\nAlors qu'il se creusait la tête, quelque chose lui revint : Nyx lui avait offert une pierre spatiale décorative.\nIl la tailla pour en faire un mécanisme, et le résultat fut parfait.",
+      "descriptionByStar": {
+        "0": "[Horloge magique] Augmente les DEG de 50 %. Les ennemis touchés subissent 10 % DEG M supplémentaires pendant 10 sec.",
+        "1": "[Horloge magique] Augmente les DEG de 50 %. Les ennemis touchés subissent 12 % DEG M supplémentaires pendant 10 sec.",
+        "2": "[Horloge magique] Augmente les DEG de 50 %. Les ennemis touchés subissent 14 % DEG M supplémentaires pendant 10 sec.",
+        "3": "[Horloge magique] Augmente les DEG de 50 %. Les ennemis touchés subissent 17 % DEG M supplémentaires pendant 10 sec.",
+        "4": "[Horloge magique] Augmente les DEG de 50 %. Les ennemis touchés subissent 21 % DEG M supplémentaires pendant 10 sec.",
+        "5": "[Horloge magique] Augmente les DEG de 50 %. Les ennemis touchés subissent 25 % DEG M supplémentaires pendant 10 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 23 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de Tempodiana, le Compte à Rebours d'Ombrelune, ce qui augmente les DEG Crit de l'allié à l'ATQ la plus élevée de 80%, pendant 15 sec. De plus, toutes les secondes, réduit le temps de recharge de toutes ses compétences de 1 sec.",
+    "cooldown": "25",
+    "uses": "7",
+    "thumbnail": "heroes/Oddy/sw.png",
+    "advancement": {
+      "1": "Augmente la Pénétration DEF de la cible de 350 pendant la durée de l'invocation.",
+      "2": "L'effet de la compétence s'étend maintenant sur 3 personnes."
+    },
+    "story": "Tempodiana avait été conçu à base de la magie de Redpur, alors il possédait la capacité d'attirer les Redpurs.\nC'est pourquoi la routine d'Oddy consistait à empêcher les Redpurs de s'amuser avec la montre comme jouet.\n-Allons donc ! Ce n'est pas un jouet !\nMais pour les Redpurs, les réprimandes d'Oddy étaient également une source d'amusement.\nAprès les avoir désespérément poursuivis, il finit par recouvrir sa montre. Alors qu'il était en train de l'examiner afin de voir si elle n'était pas abîmée...\nAvec une vive lumière, Tempodiana se mit à flotter dans l'air.\n-Oulà ! Qu'est-ce qui se passe, enfin ?\nDevant Oddy stupéfait, apparut un Redpur parmi les rouages du mécanisme.\n\n-Kkkuu ?\n\nLe Redpur inconnu tourna la tête vers Oddy et lui sourit, comme s'il était enchanté de le rencontrer.\nLa magie mystérieuse de Redpur venait d'éveiller l'âme du rayon d'Ombrelune.\nPourquoi l'âme avait-elle pris l'apparence d'un Redpur, cela il l'ignorait... Mais Oddy sourit en le regardant.\n\n-C'est une découverte sensationnelle ! Cela mérite que je l'étudie de près !"
+  },
+  "splashart": "heroes/Oddy/sa.png",
+  "costumes": "heroes/Oddy/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

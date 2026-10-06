@@ -1,0 +1,58 @@
+{
+  "id": "Mountain Fortress",
+  "profile": {
+    "name": "Gebirgsfestung",
+    "title": "Vermächtnis des antiken Technomagischen Königreichs",
+    "type": [
+      "World Boss"
+    ],
+    "race": "Golem",
+    "damage_type": "Physical",
+    "recommended_heroes": "Frey, Luna, Jane",
+    "characteristics": "Der [Vert.Modus] aktiviert eine [Lawine], die massiven Schaden anrichtet. Der Zerstörungsstrahl fügt auch Verbündeten großen Schaden zu und wirft sie zurück. Ein hoher Widerstand gegenüber Massenkontrollen ist wichtig.",
+    "thumbnail": "bosses/Mountain Fortress.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Ziel auslöschen",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Schießt 6 Mal Laserstrahlen auf ein Ziel und fügt ihm massiven Schaden zu. Jeder Treffer reduziert alle VERT des Ziels um 10 % für 10 Sek. Diese Angriffe haben eine hohe Krit. Chance."
+    },
+    "2": {
+      "name": "Defensivmodus",
+      "cost": null,
+      "cooldown": "24",
+      "description": "Erhöht alle VERT um ein großes Maß für 15 Sek. und aktiviert [Lawine] für 15 Sek. Während der Wirkungsdauer ist es einfacher, durch Mag. Schaden den Kern freizulegen."
+    },
+    "3": {
+      "name": "Erdschlag",
+      "cost": null,
+      "cooldown": "26",
+      "description": "Schlägt auf den Boden, fügt allen Feinden Körp. Schaden zu und wirft sie für 5 Sek. zu Boden."
+    },
+    "4": {
+      "name": "Zerstörungsstrahl",
+      "cost": null,
+      "cooldown": "40",
+      "description": "Feuert einen Strahl, der alle Feinde in einer gerade Linie trifft und Körp. Schaden verursacht. Feinde, die zu weit zurückgeworfen werden, werden für 5 Sek. betäubt."
+    },
+    "5": {
+      "name": "Lawine",
+      "cost": null,
+      "cooldown": null,
+      "description": "Sammelt alle 3 Sek. 1 Lawine-Stapel. Bei 5 Stapeln werden 5 zufällige Feinde 3 Mal angegriffen. Die Ziele erleiden massiven Körp. Schaden und werden für 5 Sek. betäubt."
+    },
+    "6": {
+      "name": "Steinhaut",
+      "cost": null,
+      "cooldown": null,
+      "description": "Die gigantische Gebirgsfestung ist immun gegenüber ANG-GESCHW.-Effekte, und die ANG steigt mit der Zeit. Von Zeit zu Zeit wirft sie Felsen auf die Feinde und betäubt sie."
+    }
+  },
+  "aliases": [
+    "MountainFortress",
+    "WB1",
+    "WB 1"
+  ]
+}

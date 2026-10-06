@@ -1,0 +1,246 @@
+{
+  "id": "Shamilla",
+  "profile": {
+    "name": "Shamilla",
+    "title": "Shamilla, Porteuse de Malédictions",
+    "class": "Archer",
+    "position": "Back-300",
+    "attack_range": "5300",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "???",
+    "height": "165",
+    "race": "Démon",
+    "constellation": "Mira la Ménestrelle",
+    "birth": {
+      "month": 6,
+      "day": 2,
+      "monthName": "Mois de l'Amour"
+    },
+    "like": "Les situations inattendues, les personnes qui se battent contre la marche de l'univers",
+    "dislike": "Les histoires ennuyeuses, et celles qui sont trop évidentes",
+    "story": "Puissante démone autrefois au service d'Angmund, le Seigneur des ténèbres, elle peut concentrer toutes les malédictions du monde. Cependant, son véritable dessein n'est pas de ramener le Seigneur des ténèbres d'entre les morts ni de dominer le monde. Tous les événements qui se produisent dans le monde sont une gigantesque pièce, et elle aime à penser qu'elle en est le public. Ses actes sont semblables aux corrections qu'apporterait un dramaturge à son scénario. Elle tire les ficelles en coulisse et se régale à l'avance de voir son œuvre prendre vie.",
+    "thumbnail": "heroes/Shamilla/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Malédiction de pétrification",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Attaque 2 ennemis pour infliger ??? DEG M, ainsi que la Malédiction de pétrification qui dure 3 sec et qui ne peut être dissipée. Réduit de 200 la Vitesse d'ATQ de l'ennemi portant la Malédiction de pétrification dont l'effet s'intensifie au fil du temps jusqu'à 600% max. Pétrifie la cible pendant 3 sec à la fin de la Malédiction de pétrification.",
+      "thumbnail": "heroes/Shamilla/skills/1.png"
+    },
+    "2": {
+      "name": "Malédiction du temps",
+      "cost": "2",
+      "cooldown": "18",
+      "description": "Attaque la cible ennemie pour dissiper ses effets positifs. Ensuite, lui inflige ??? DEG M, et la Malédiction du temps pendant 10 sec, ce qui prolonge instantanément le temps de recharge de toutes les compétences de 1.5 sec. Ensuite, prolonge de 1 sec le temps de recharge de toutes les compétences de l'ennemi affecté par Malédiction du temps toutes les 3 sec.",
+      "thumbnail": "heroes/Shamilla/skills/2.png"
+    },
+    "3": {
+      "name": "Malédiction de douleur",
+      "cost": "3",
+      "cooldown": "9",
+      "description": "Attaque un ennemi en lui infligeant ??? points de DEG M et en le renversant. Inflige également Malédiction de douleur pendant 8 secondes, ce qui applique un total de ??? points de DEG M sur la durée.",
+      "thumbnail": "heroes/Shamilla/skills/3.png"
+    },
+    "4": {
+      "name": "Porteuse de malédictions",
+      "cost": null,
+      "cooldown": null,
+      "description": "Au début de chaque bataille et à chaque ennemi éliminé par le lanceur, se confère Porteuse de malédictions pendant 10 sec, générant un bouclier qui peut absorber ??? DEG et qui ne peut être dissipé. Pendant la durée du bouclier, augmente la Précision des Contrôles de 400 et se confère l'immunité aux contrôles. À l'activation d'une compétence, consomme les charges de Porteuse de malédictions pour attaquer 4 ennemis avec cette compétence.",
+      "thumbnail": "heroes/Shamilla/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "2": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "3": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "4": {
+      "II": "Augmente les PV Bouclier de  10 %.",
+      "III": "Augmente les PV Bouclier de  15 %.",
+      "IV": "Augmente les PV Bouclier de  25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Temps de Recharge réduit de 3 sec.",
+          "thumbnail": "heroes/Shamilla/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit 1000 PM de la cible touchée.",
+          "thumbnail": "heroes/Shamilla/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Shamilla/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Modifie la cible pour l'ennemi à l'ATQ la plus élevée.",
+          "thumbnail": "heroes/Shamilla/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "La cible reçoit 25% de DEG M supplémentaires pendant 10 sec.",
+          "thumbnail": "heroes/Shamilla/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "DEG augmentés de 40%.",
+          "thumbnail": "heroes/Shamilla/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Réduit les DEG reçus de 30% quand il n'y a aucune charge de Porteuse de malédictions.",
+          "thumbnail": "heroes/Shamilla/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Augmente le taux de bouclier de 100% en modifiant Porteuse de malédictions pour qu'elle puisse être dissipée.",
+          "thumbnail": "heroes/Shamilla/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Vitesse d'ATQ +100",
+        "thumbnail": "heroes/Shamilla/perks/light.png"
+      },
+      "dark": {
+        "effect": "Tous les effets de malédiction sont augmentés.\nLa durée de pétrification de [Malédiction de pétrification] augmente de 2 s.\nLa durée de malédiction de [Malédiction du temps] augmente de 3 s.\nLes dégâts sur la durée de malédiction de [Malédiction de douleur] augmentent de 50%.",
+        "thumbnail": "heroes/Shamilla/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Apoliox, les Ailes de la Corruption",
+    "description": "Obtient Porteuse de malédictions toutes les 20 sec et augmente l'ATQ de 20% pendant 10 sec.",
+    "value": {},
+    "thumbnail": "heroes/Shamilla/uw.png",
+    "story": "Les malédictions sont issues des sentiments négatifs tels que la haine, la jalousie et la rancœur. Shamilla s'en régale. Ses puissantes ailes qui ont poussé au cours de la guerre des démons en absorbant les malédictions d'innombrables victimes terrifient les bonnes gens. Il suffit d'en toucher les plumes pour être frappé de multiples malédictions et sombrer dans un tourbillon d'émotions. Au fond de ce gouffre, un rire aussi tentateur qu'enjôleur résonne à l'infini. C'est le rire d'un démon qui se gausse des sentiments humains.",
+    "descriptionByStar": {
+      "0": "Obtient Porteuse de malédictions toutes les 20 sec et augmente l'ATQ de 20% pendant 10 sec.",
+      "1": "Obtient Porteuse de malédictions toutes les 18 sec et augmente l'ATQ de 24% pendant 10 sec.",
+      "2": "Obtient Porteuse de malédictions toutes les 16 sec et augmente l'ATQ de 29% pendant 10 sec.",
+      "3": "Obtient Porteuse de malédictions toutes les 14 sec et augmente l'ATQ de 35% pendant 10 sec.",
+      "4": "Obtient Porteuse de malédictions toutes les 12 sec et augmente l'ATQ de 42% pendant 10 sec.",
+      "5": "Obtient Porteuse de malédictions toutes les 10 sec et augmente l'ATQ de 50% pendant 10 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Délivrance de malédictions",
+      "description": "[Malédiction de pétrification] Augmente le nombre de cibles de 1 et réduit l'Esquive M de la cible de 120 points pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Shamilla/ut/1.png",
+      "story": "Ce joyau libère les malédictions qui règnent dans le cœur de Shamilla.\nCelle-ci l'utilise parfois pour se purger des malédictions, rien que pour voir une histoire palpitante se dérouler comme elle l'avait prévue. La malédiction qu'elle libère le plus souvent est la pétrification, pour être certaine que les bons protagonistes soient en place sur sa scène.",
+      "descriptionByStar": {
+        "0": "[Malédiction de pétrification] Augmente le nombre de cibles de 1 et réduit l'Esquive M de la cible de 120 points pendant 10 sec.",
+        "1": "[Malédiction de pétrification] Augmente le nombre de cibles de 1 et réduit l'Esquive M de la cible de 140 points pendant 10 sec.",
+        "2": "[Malédiction de pétrification] Augmente le nombre de cibles de 1 et réduit l'Esquive M de la cible de 170 points pendant 10 sec.",
+        "3": "[Malédiction de pétrification] Augmente le nombre de cibles de 1 et réduit l'Esquive M de la cible de 210 points pendant 10 sec.",
+        "4": "[Malédiction de pétrification] Augmente le nombre de cibles de 1 et réduit l'Esquive M de la cible de 250 points pendant 10 sec.",
+        "5": "[Malédiction de pétrification] Augmente le nombre de cibles de 1 et réduit l'Esquive M de la cible de 300 points pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Cœur de démon antique",
+      "description": "[Malédiction du temps] Augmente le temps de recharge de 0,7 sec et réduit la DEF M de la cible de 10 % pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Shamilla/ut/2.png",
+      "story": "Bijou inhabituel qui exhale les plaintes amères de démons antiques.\nCet objet maudit est imprégné des âmes de démons depuis longtemps oubliés.\nElles tentent de s'enfuir sans cesse, mais Shamilla ne les laisse pas faire.\nSon âme ayant accueilli toutes les malédictions du monde,\nelle est un abysse aussi sombre que profond.",
+      "descriptionByStar": {
+        "0": "[Malédiction du temps] Augmente le temps de recharge de 0,7 sec et réduit la DEF M de la cible de 10 % pendant 10 sec.",
+        "1": "[Malédiction du temps] Augmente le temps de recharge de 0,7 sec et réduit la DEF M de la cible de 12 % pendant 10 sec.",
+        "2": "[Malédiction du temps] Augmente le temps de recharge de 0,7 sec et réduit la DEF M de la cible de 14 % pendant 10 sec.",
+        "3": "[Malédiction du temps] Augmente le temps de recharge de 0,7 sec et réduit la DEF M de la cible de 17 % pendant 10 sec.",
+        "4": "[Malédiction du temps] Augmente le temps de recharge de 0,7 sec et réduit la DEF M de la cible de 21 % pendant 10 sec.",
+        "5": "[Malédiction du temps] Augmente le temps de recharge de 0,7 sec et réduit la DEF M de la cible de 25 % pendant 10 sec."
+      }
+    },
+    "3": {
+      "name": "Bocal de malédictions",
+      "description": "[Malédiction de douleur] Augmente les DEG de {0}% et modifie pour que l'effet des DEG en continu ne puisse être dissipé.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Shamilla/ut/3.png",
+      "story": "Shamilla a reçu la malédiction de contenir toutes les malédictions du monde,\nmais elle peut aussi être vue comme celle qui les canalise.\nSi elle venait à mourir, tout le mal qu'elle retient en elle serait libéré.\nCe bocal a été fabriqué par Shamilla pour recueillir toutes les malédictions qu'elle a évacuées.",
+      "descriptionByStar": {
+        "0": "[Malédiction de douleur] Augmente les DEG de 20% et modifie pour que l'effet des DEG en continu ne puisse être dissipé.",
+        "1": "[Malédiction de douleur] Augmente les DEG de 24% et gagne une charge de Porteuse de malédictions lorsqu'un ennemi est tué.",
+        "2": "[Malédiction de douleur] Augmente les DEG de 29% et gagne une charge de Porteuse de malédictions lorsqu'un ennemi est tué.",
+        "3": "[Malédiction de douleur] Augmente les DEG de 35% et gagne une charge de Porteuse de malédictions lorsqu'un ennemi est tué.",
+        "4": "[Malédiction de douleur] Augmente les DEG de 42% et gagne une charge de Porteuse de malédictions lorsqu'un ennemi est tué.",
+        "5": "[Malédiction de douleur] Augmente les DEG de 50% et gagne une charge de Porteuse de malédictions lorsqu'un ennemi est tué."
+      }
+    },
+    "4": {
+      "name": "Malédiction primordiale",
+      "description": "[Porteuse de malédictions] À l'obtention d'une charge de Porteuse de malédictions, réduit le temps de recharge de toutes les compétences du lanceur de {0}%, et augmente la DEF de 50% pendant 5 sec. L'effet d'augmentation de DEF ne peut être dissipé.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
+      "thumbnail": "heroes/Shamilla/ut/4.png",
+      "story": "La source originelle de toutes les malédictions.\nElle émergea lorsque naquit la haine, et que le mal se révéla aux yeux du monde.\nElle se trouve au plus profond de Shamilla, la Porteuse de malédictions, et devient de plus en plus sinistre à mesure que d'autres malédictions se créent.",
+      "descriptionByStar": {
+        "0": "[Porteuse de malédictions] À l'obtention d'une charge de Porteuse de malédictions, réduit le temps de recharge de toutes les compétences du lanceur de 12%, et augmente la DEF de 50% pendant 5 sec. L'effet d'augmentation de DEF ne peut être dissipé.",
+        "1": "[Porteuse de malédictions] Lorsqu'elle est acquise, réduit le temps de recharge de toutes les compétences de 14 % et augmente toutes DEF de 50 % pendant 5 sec.",
+        "2": "[Porteuse de malédictions] Lorsqu'elle est acquise, réduit le temps de recharge de toutes les compétences de 17 % et augmente toutes DEF de 50 % pendant 5 sec.",
+        "3": "[Porteuse de malédictions] Lorsqu'elle est acquise, réduit le temps de recharge de toutes les compétences de 21 % et augmente toutes DEF de 50 % pendant 5 sec.",
+        "4": "[Porteuse de malédictions] Lorsqu'elle est acquise, réduit le temps de recharge de toutes les compétences de 25 % et augmente toutes DEF de 50 % pendant 5 sec.",
+        "5": "[Porteuse de malédictions] Lorsqu'elle est acquise, réduit le temps de recharge de toutes les compétences de 30 % et augmente toutes DEF de 50 % pendant 5 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 18 sec avant de devenir utilisable.",
+    "description": "Dissipe tous ses effets négatifs et invoque l'âme d'Apoliox, les Ailes de la Corruption pour infliger Malédiction d'Apoliox à tous les ennemis et obtenir Porteuse de malédictions. Malédiction d'Apoliox réduit la DEF M de l'ennemi de 50% et la Récupération des PV de 50%, pendant 10 sec.",
+    "cooldown": "18",
+    "uses": "6",
+    "thumbnail": "heroes/Shamilla/sw.png",
+    "advancement": {
+      "1": "Diminue la condition d'utilisation de 5 sec et récupère 2000 PM.",
+      "2": "Modifie pour que Malédiction d'Apoliox ne puisse être dissipée et réduit 300 PM des ennemis touchés par Malédiction d'Apoliox toutes les sec."
+    },
+    "story": "Shamilla s'arracha les ailes, et se fondit parmi la société des humains afin de vivre parmi eux. \nParfois, elle se faisait passer pour une noble, parfois elle se complaisait dans des milieux populaires. \nElle manipula les humains environnants afin de gérer leurs comportements selon ses désirs, corrigeant ainsi le scénario du monde. \nEt elle se nourrit de la rancœur, de la haine et de l'affliction que les humains ressentaient dans les conflits provoqués par ses actes. \n\nCependant, Shamilla s'ennuyait.\nBien qu'elle manoeuvrait le scénario du monde à sa guise, parfois elle espérait que se produise un événement non prévu dans ses manigances.\nElle souhaitait ressentir des émotions nouvelles.\nElle voulait faire l'expérience d'une malédiction mystérieuse, qui n'avait jamais existé en ce monde.\n\nEt elle se fit une réflexion.\nS'il existait un être différent d'elle, mais qui poursuivrait un but similaire au sien,\nne parviendrait-elle pas plus rapidement à ses fins ?\nN'assisterait-elle pas à un dénouement inhabituel ?\n\nDonc, Shamilla insuffla une partie de son âme à l'intérieur de ses propres ailes..."
+  },
+  "splashart": "heroes/Shamilla/sa.png",
+  "costumes": "heroes/Shamilla/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "id": "Juno",
+  "profile": {
+    "name": "Juno",
+    "title": "Köchin der Helden Juno",
+    "class": "Priest",
+    "position": "Middle-100",
+    "attack_range": "9400",
+    "damage_type": "Physical",
+    "gender": "Weiblich",
+    "age": "20",
+    "height": "166",
+    "race": "Menschen",
+    "constellation": "Gisla, die Scharfschützin",
+    "birth": {
+      "month": 11,
+      "day": 2,
+      "monthName": "Monat des Glücks"
+    },
+    "like": "Essen, Kochen, Leute, die ihre Mahlzeit schätzen",
+    "dislike": "Leute, die ihre Kochkünste verschmähen",
+    "story": "Sie ist eine gewöhnliche junge Dame aus der Stadt, aber ihre kulinarischen Fähigkeiten gehören zum Besten, was Orvel zu bieten hat.\nVon den einfachen und gesunden Speisen des gewöhnlichen Volkes bis zu den luxuriösen Delikatessen der Adligen gibt es kein Gericht, dass sie nicht zubereiten kann.\nEinmal bekam sie ein Angebot für die Stelle der königlichen Köchin, die sie aber ablehnte und stattdessen ein Gasthaus eröffnete, damit jeder ihre Speisen genießen konnte.\nIhr Gasthaus wurde bald eine der berühmtesten Attraktionen von Orvel und wurde von zahllosen Abenteurern besucht.\nMittlerweile ist ihr Gasthaus als „Helden-Schenke“ bekannt und sie mag ihr Leben unter den „Helden“.",
+    "thumbnail": "heroes/Juno/ico.png"
+  },
+  "skills": {
+    "1 (1)": {
+      "name": "Bestes Gericht",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Entfernt negative Effekte von allen Verbündeten, heilt 7 Sek. lang insgesamt ??? TP und erhöht VERT um ???.\nWenn [Ausgezeichnete Zutat] mehr als 2x gestapelt wird, kann dieser Effekt verwendet werden, um den VERT-Boost zu verdoppeln.",
+      "thumbnail": "heroes/Juno/skills/1 (1).png"
+    },
+    "1 (2)": {
+      "name": "Junos scharfe Spezialität",
+      "cost": "2",
+      "cooldown": "11",
+      "description": "Entfernt positive Effekte von allen Feinden, richtet 10 Sek. lang bis zu ??? Körp. Schaden an und erhöht die Menge erlittenen Körp. Schadens bei Feinden um 20 %.\nWenn [Ausgezeichnete Zutat] mehr als 2x gestapelt wird, kann dieser Effekt verwendet werden, um den erhaltenen Körp. Schaden-Boost zu verdoppeln.",
+      "thumbnail": "heroes/Juno/skills/1 (2).png"
+    },
+    "2 (1)": {
+      "name": "Power-up",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Wirkt einen Schild auf den Verbündeten mit den niedrigsten TP, der ??? Schaden absorbiert und Massenkontroll-Immunität sowie eine Mana-Kugel verleiht.\nWenn [Ausgezeichnete Zutat] mehr als 2x gestapelt wird, kann dieser Effekt verwendet werden, um die MP-Regenerationsrate zu verdoppeln.",
+      "thumbnail": "heroes/Juno/skills/2 (1).png"
+    },
+    "2 (2)": {
+      "name": "Bedien dich und dann verschwinde!",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Greift das Ziel und Feinde in der Nähe an, fügt ??? Körp. Schaden zu und verringert deren MP um 1 Manakugel. Wenn das Ziel kein Held ist, wird zusätzlich ??? VERT-ignorierender Körp. Schaden zugefügt.\nWenn [Ausgezeichnete Zutat] mehr als 2x gestapelt wird, kann dieser Effekt verwendet werden, um die MP-Reduzierung zu verdoppeln.",
+      "thumbnail": "heroes/Juno/skills/2 (2).png"
+    },
+    "3": {
+      "name": "Köchin aus der Hölle",
+      "cost": "1",
+      "cooldown": "6",
+      "description": "Entfernt alle negativen Effekte von sich selbst, heilt ??? TP und verwandelt sich in eine Köchin aus der Hölle. [Bestes Gericht] und [Power-up] werden durch [Junos scharfe Spezialität] und [Bedien dich und dann verschwinde!] ersetzt. Erhält einen Stapel [Ausgezeichnete Zutat], der nicht entfernt werden kann. Wird die Fähigkeit erneut eingesetzt: Verwandelt sich in eine Himmlische Köchin.",
+      "thumbnail": "heroes/Juno/skills/3.png"
+    },
+    "4": {
+      "name": "Wir haben geöffnet!",
+      "cost": null,
+      "cooldown": null,
+      "description": "Als Himmlische Köchin: Erhöht VERT aller Verbündeten um ??? und ihre Heilungsrate um 15 %.\nAls Köchin aus der Hölle: Verringert VERT aller Feinde um 10 % und ihre Heilungsrate um 20 %.",
+      "thumbnail": "heroes/Juno/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Heilungsrate und Schaden um 10 %",
+      "III": "Erhöht Heilungsrate und Schaden um 15 %",
+      "IV": "Erhöht Heilungsrate und Schaden um 25 %"
+    },
+    "2": {
+      "II": "Erhöht Schild und Schaden um 10 %",
+      "III": "Erhöht Schild und Schaden um 15 %",
+      "IV": "Erhöht Schild und Schaden um 25 %"
+    },
+    "3": {
+      "II": "Erhöht Heilungsrate um 10 %.",
+      "III": "Erhöht Heilungsrate um 15 %.",
+      "IV": "Erhöht Heilungsrate um 25 %."
+    },
+    "4": {
+      "II": "Erhöht VERT-Erhöhungsrate um 10 %.",
+      "III": "Erhöht VERT-Erhöhungsrate um 15 %.",
+      "IV": "Erhöht VERT-Erhöhungsrate um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "[Bestes Gericht] erhöht ANG des Ziels während der Wirkungsdauer um 15 %.\n\n[Junos scharfe Spezialität] Ziel nimmt 10 Sek. lang 25 % erhöhten Körp. Schaden.",
+          "thumbnail": "heroes/Juno/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "[Bestes Gericht] erhöht die Krit. Chance des Ziels während der Wirkungsdauer um 150.\n\n[Junos scharfe Spezialität] verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Juno/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "[Power-up] erhöht Manakosten um 1, wirkt aber Schilde auf 2 Ziele.\n\n[Bedien dich und dann verschwinde!] verringert ANG-GESCHW. des getroffenen Feindes 10 Sek. lang um 200.",
+          "thumbnail": "heroes/Juno/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "[Power-up] verringert Manakosten um 1.\n\n[Bedien dich und dann verschwinde!] erhöht Cooldown der aktiven Fähigkeiten beim getroffenen Feind um 2 Sek.",
+          "thumbnail": "heroes/Juno/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht Heilungsrate um 100 %.",
+          "thumbnail": "heroes/Juno/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Regeneriert bei Benutzung 1 Mana-Kugel.",
+          "thumbnail": "heroes/Juno/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht die Krit. Chance aller Verbündeten um 200.",
+          "thumbnail": "heroes/Juno/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "[Köchin aus der Hölle] verringert VERT-Durchdr. aller Feinde um 200.",
+          "thumbnail": "heroes/Juno/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Körp. Blockchance +200",
+        "thumbnail": "heroes/Juno/perks/light.png"
+      },
+      "dark": {
+        "effect": "Zu Beginn jedes Kampfes werden 2x [Ausgezeichnete Zutat] gestapelt und aller 10 Sek. wird die MP-Regeneration um 200 % erhöht.",
+        "thumbnail": "heroes/Juno/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Hundert-Aromen-Bankett, Tempora Fyrr",
+    "description": "Aller 10 Sek. wird [Ausgezeichnete Zutat] gestapelt und eine Mana-Kugel regeneriert.",
+    "value": {},
+    "thumbnail": "heroes/Juno/uw.png",
+    "story": "Ein magischer Topf, der vor langer Zeit von einem legendären Koch benutzt worden sein soll. Er besteht aus einem magischen Metall, das selbst Schmied Jin noch nie gesehen hat. Der Topf verstärkt den Geschmack und das Aroma des Essens und maximiert die natürliche Qualität der Zutaten. Obwohl er solch ein seltener Schatz ist, wird er von seiner Besitzerin Juno nur selten benutzt. Juno ist sehr stolz auf ihre Kochkünste, daher wird angenommen, dass sie sich nicht auf solche magischen Artefakte verlassen will.\nDarum ist der wertvollste Schatz der kulinarischen Welt mittlerweile nur eine Dekoration in Junos Gasthaus. Wenn aber irgendwann der Tag kommt, an dem sie ihn benutzt, wird die Welt eine völlig neue Stufe der Kochkunst erleben.",
+    "descriptionByStar": {
+      "0": "Aller 10 Sek. wird [Ausgezeichnete Zutat] gestapelt und eine Mana-Kugel regeneriert.",
+      "1": "Aller 9 Sek. wird [Ausgezeichnete Zutat] gestapelt und eine Mana-Kugel regeneriert.",
+      "2": "Aller 8 Sek. wird [Ausgezeichnete Zutat] gestapelt und eine Mana-Kugel regeneriert.",
+      "3": "Aller 7Sek. wird [Ausgezeichnete Zutat] gestapelt und eine Mana-Kugell regeneriert.",
+      "4": "Aller 6Sek. wird [Ausgezeichnete Zutat] gestapelt und eine Mana-Kugel regeneriert.",
+      "5": "Aller 5 Sek. wird [Ausgezeichnete Zutat] gestapelt und eine Mana-Kugel regeneriert."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Bunte Kelle",
+      "description": "[Bestes Gericht] erhöht die Heilungsrate um 20 % und gewährt nach dem Einsatz 1 Zähler [Ausgezeichnete Zutaten].\n[Junos scharfe Spezialität] erhöht den Schaden um 20 % und verringert die Krit. Chance des Ziels 10 Sek. lang um 250.",
+      "value": {},
+      "thumbnail": "heroes/Juno/ut/1.png",
+      "story": "Eine Kelle, die in den Regenbogenfarben erstrahlt.\nEines Tages spazierte Juno die Hauptstraße von Orvelia entlang, als sie plötzlich eine seltsame Kelle fand, die Gildenhändler Kumuro verloren hatte. Sie wollte sie zurückbringen, aber Kumuro lächelte nur und verschwand, aber nicht ohne vorher zu erwähnen, dass die Kelle in die Hände ihrer rechtmäßigen Besitzerin gefallen war. Für Juno, die eine begeisterte Sammlerin von Kochutensilien ist, war das ein großartiges Geschenk. Die Kelle hebt sich nicht nur wegen der Farben von anderen Kellen ab, sie ist ein Vermächtnis einer antiken Zivilisation. Leider hat Juno noch nicht herausgefunden, dass jede Mahlzeit, die mit der Kelle zubereitet wird, doppelt so gut schmeckt.",
+      "descriptionByStar": {
+        "0": "[Bestes Gericht] erhöht die Heilungsrate um 20 % und gewährt nach dem Einsatz 1 Zähler [Ausgezeichnete Zutaten].\n[Junos scharfe Spezialität] erhöht den Schaden um 20 % und verringert die Krit. Chance des Ziels 10 Sek. lang um 250.",
+        "1": "[Bestes Gericht] erhöht die Heilungsrate um 24 % und gewährt nach dem Einsatz 1 Zähler [Ausgezeichnete Zutaten].\n[Junos scharfe Spezialität] erhöht den Schaden um 24 % und verringert die Krit. Chance des Ziels 10 Sek. lang um 250.",
+        "2": "[Bestes Gericht] erhöht die Heilungsrate um 29 % und gewährt nach dem Einsatz 1 Zähler [Ausgezeichnete Zutaten].\n[Junos scharfe Spezialität] erhöht den Schaden um 29 % und verringert die Krit. Chance des Ziels 10 Sek. lang um 250.",
+        "3": "[Bestes Gericht] erhöht die Heilungsrate um 35 % und gewährt nach dem Einsatz 1 Zähler [Ausgezeichnete Zutaten].\n[Junos scharfe Spezialität] erhöht den Schaden um 35 % und verringert die Krit. Chance des Ziels 10 Sek. lang um 250.",
+        "4": "[Bestes Gericht] erhöht die Heilungsrate um 42 % und gewährt nach dem Einsatz 1 Zähler [Ausgezeichnete Zutaten].\n[Junos scharfe Spezialität] erhöht den Schaden um 42 % und verringert die Krit. Chance des Ziels 10 Sek. lang um 250.",
+        "5": "[Bestes Gericht] erhöht die Heilungsrate um 50 % und gewährt nach dem Einsatz 1 Zähler [Ausgezeichnete Zutaten].\n[Junos scharfe Spezialität] erhöht den Schaden um 50 % und verringert die Krit. Chance des Ziels 10 Sek. lang um 250."
+      }
+    },
+    "2": {
+      "name": "Der Krug des Glücks",
+      "description": "[Power-up] erhöht die MP-Regeneration um 50 % und verringert den Cooldown der aktiven Fähigkeiten des Ziels um 12 %.\n\n[Bedien dich und dann verschwinde!] erhöht MP-Verringerung um 50 % und betäubt das Ziel 1 Sek. lang.",
+      "value": {},
+      "thumbnail": "heroes/Juno/ut/2.png",
+      "story": "Ein Krug, den Juno zu einem Wucherpreis von einem verdächtigen Händler kaufte, als sie noch jung und naiv war. Der Händler sagte ihr, dass der Krug einfaches Wasser in magische Brühe verwandeln könne. Er machte den Vorgang mit geschickten Händen vor und sie fiel darauf herein.\nWas er jedoch nicht wusste, war, dass der Krug mithilfe von Junos großartigen Kochkünsten tatsächlich ein Krug des Glücks werden sollte. Zusammen mit Junos verbesserten Kochkünsten und Junos Spezialgewürz, einer verbesserten Version des magischen Brühpulvers, das der Händler eingesetzt hatte, ist der Krug mittlerweile eines der wichtigsten Küchenwerkzeuge in Junos Gasthaus und kann Gerichte der Spitzenklasse herstellen.",
+      "descriptionByStar": {
+        "0": "[Power-up] erhöht die MP-Regeneration um 50 % und verringert den Cooldown der aktiven Fähigkeiten des Ziels um 12 %.\n\n[Bedien dich und dann verschwinde!] erhöht MP-Verringerung um 50 % und betäubt das Ziel 1 Sek. lang.",
+        "1": "[Power-up] erhöht die MP-Regeneration um 50 % und verringert den Cooldown der aktiven Fähigkeiten des Ziels um 14 %.\n\n[Bedien dich und dann verschwinde!] erhöht MP-Verringerung um 50 % und betäubt das Ziel 1,2 Sek. lang.",
+        "2": "[Power-up] Erhöht die MP-Regeneration um 50 % und verringert den Cooldown der aktiven Fähigkeiten des Ziels um 17 %.\n\n[Bedien dich und dann verschwinde!] Erhöht MP-Verringerung um 50 % und betäubt das Ziel 1,4 Sekunden lang.",
+        "3": "[Power-up] erhöht die MP-Regeneration um 50 % und verringert den Cooldown der aktiven Fähigkeiten des Ziels um 21 %.\n\n[Bedien dich und dann verschwinde!] erhöht MP-Verringerung um 50 % und betäubt das Ziel 1,7 Sek. lang.",
+        "4": "[Power-up] erhöht die MP-Regeneration um 50 % und verringert den Cooldown der aktiven Fähigkeiten des Ziels um 25 %.\n\n[Bedien dich und dann verschwinde!] erhöht MP-Verringerung um 50 % und betäubt das Ziel 2,1 Sek. lang.",
+        "5": "[Power-up] erhöht die MP-Regeneration um 50 % und verringert den Cooldown der aktiven Fähigkeiten des Ziels um 30 %.\n\n[Bedien dich und dann verschwinde!] erhöht MP-Verringerung um 50 % und betäubt das Ziel 2,5 Sek. lang."
+      }
+    },
+    "3": {
+      "name": "Verdächtiges Gewürzset",
+      "description": "[Köchin aus der Hölle] wirkt Heilungseffekte auf alle Verbündeten und verringert Skill-Cooldown um 1 Sek.",
+      "value": {},
+      "thumbnail": "heroes/Juno/ut/3.png",
+      "story": "- Hier ist deine Bestellung: Junos Spezialität!\nNiemand nimmt das Banner vor ihrem Gasthaus ernst, auf dem steht „Hervorragender Geschmack! Qualität garantiert!“, bis sie das Essen in den Mund nehmen. Es gibt kaum Worte, die Junos Kochkunst gerecht werden. Als man sie fragte, was ihr Geheimnis sei, lächelte sie nur und antwortete:\n- Es ist Junos Spezialgewürz!",
+      "descriptionByStar": {
+        "0": "[Köchin aus der Hölle] wirkt Heilungseffekte auf alle Verbündeten und verringert Skill-Cooldown um 1 Sek.",
+        "1": "[Köchin aus der Hölle] wirkt Heilungseffekte auf alle Verbündeten und verringert Skill-Cooldown um 1,2 Sek.",
+        "2": "[Köchin aus der Hölle] wirkt Heilungseffekte auf alle Verbündeten und verringert Skill-Cooldown um 1,4 Sek.",
+        "3": "[Köchin aus der Hölle] wirkt Heilungseffekte auf alle Verbündeten und verringert Skill-Cooldown um 1,7 Sek.",
+        "4": "[Köchin aus der Hölle] wirkt Heilungseffekte auf alle Verbündeten und verringert Skill-Cooldown um 2,1 Sek.",
+        "5": "[Köchin aus der Hölle] wirkt Heilungseffekte auf alle Verbündeten und verringert Skill-Cooldown um 2,5 Sek."
+      }
+    },
+    "4": {
+      "name": "Schürze der Ehre",
+      "description": "[Wir haben geöffnet!] erhöht den VERT-Boost um 50 %. Bei aktivem [Köchin aus der Hölle]-Status wird die ANG-GESCHW. aller Feinde um 100 verringert.",
+      "value": {},
+      "thumbnail": "heroes/Juno/ut/4.png",
+      "story": "Eine Schürze, die Juno für den Sieg bei der Kontinentalen Kochmeisterschaft verliehen bekam.\nHierbei handelt es sich um die ehrwürdige Belohnung, die dem besten Koch Orvelias von der legendären Köchin Amelia verliehen wird.\nJuno trägt diese Schürze jeden Morgen, bevor sie ihr Restaurant eröffnet, mit Stolz.",
+      "descriptionByStar": {
+        "0": "[Wir haben geöffnet!] erhöht den VERT-Boost um 50 %. Bei aktivem [Köchin aus der Hölle]-Status wird die ANG-GESCHW. aller Feinde um 100 verringert.",
+        "1": "[Wir haben geöffnet!] erhöht den VERT-Boost um 50 %. Bei aktivem [Köchin aus der Hölle]-Status wird die ANG-GESCHW. aller Feinde um 120 verringert.",
+        "2": "[Wir haben geöffnet!] erhöht den VERT-Boost um 50 %. Bei aktivem [Köchin aus der Hölle]-Status wird die ANG-GESCHW. aller Feinde um 140 verringert.",
+        "3": "[Wir haben geöffnet!] erhöht den VERT-Boost um 50 %. Bei aktivem [Köchin aus der Hölle]-Status wird die ANG-GESCHW. aller Feinde um 170 verringert.",
+        "4": "[Wir haben geöffnet!] erhöht den VERT-Boost um 50 %. Bei aktivem [Köchin aus der Hölle]-Status wird die ANG-GESCHW. aller Feinde um 210 verringert.",
+        "5": "[Wir haben geöffnet!] erhöht den VERT-Boost um 50 %. Bei aktivem [Köchin aus der Hölle]-Status wird die ANG-GESCHW. aller Feinde um 250 verringert."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 7-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört die Seele von Hundert-Aromen-Bankett, Tempora Fyrr für 10 Sek. und je nach eigenem Zustand wird ein zusätzlicher Effekt hinzugefügt.\nAls [Himmlische Köchin] werden die VERT aller Verbündeten um 50 % + 3 % des Juno-ANG erhöht. \nAls [Köchin aus der Hölle] wird der ANG aller Verbündeten um 30 % + 3 % des Juno-ANG erhöht. Wenn [Ausgezeichnete Zutat] mehr als 2x gestapelt wird, werden bei Skill-Verwendung 2x davon aufgebraucht, um alle Effekte um 50 % zu erhöhen und zu aktivieren.",
+    "cooldown": "22",
+    "uses": "5",
+    "thumbnail": "heroes/Juno/sw.png",
+    "advancement": {
+      "1": "Verwendungsbedingungen werden um 5 verringert.",
+      "2": "Als [Himmlische Köchin] wird der erhaltene Gesamtschaden aller Verbündeten um 20 % verringert.\nAls [Köchin aus der Hölle] wird der erhaltene Gesamtschaden aller Gegner um 15 % erhöht. Ausgezeichnete Zutat Stapel-Effekt wird auf diese Effekte angewendet."
+    },
+    "story": "Juno behandelt Tempora Fyrr, das legendäre Kochgerät, als Schmuckstück, damit sie sich nicht darauf verlässt. Aber sie wusste nicht, dass dieser Topf ihr eigenes Ego hat. Jeder, der die Tempora Fyrr gefunden hat, ist zu erstklassige Köchin geworden, aber sie endeten schlecht, weil sie sich auf das Instrument verlassen haben. Also wollte Tempora Fyrr eine echte Besitzerin, die sich auf nichts verlässt. Daher war sie berührt von der Einstellung Junos, die immer wieder versucht und trainiert, besser zu kochen und vor ihr stärker zu wirken. Auch wenn sie sich immer noch nicht auf etwas verlassen möchte, wird Tempora Fyrr ihr Wissen über alle früheren Lebensmittel vermitteln und versuchen, sie zu einer erstklassigen Köchin zu machen."
+  },
+  "splashart": "heroes/Juno/sa.png",
+  "costumes": "heroes/Juno/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

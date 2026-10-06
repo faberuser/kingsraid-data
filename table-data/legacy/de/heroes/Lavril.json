@@ -1,0 +1,244 @@
+{
+  "id": "Lavril",
+  "profile": {
+    "name": "Lavril",
+    "title": "Niedlicher Böser Geist Lavril",
+    "class": "Priest",
+    "position": "Back-100",
+    "attack_range": "5400",
+    "damage_type": "Magical",
+    "gender": "Weiblich (Der Hase ist ein Männchen.)",
+    "age": "???",
+    "height": "131",
+    "race": "Geist",
+    "constellation": "Graham, der Dieb",
+    "birth": {
+      "month": 5,
+      "day": 30,
+      "monthName": "Monat der Hoffnung"
+    },
+    "like": "Leute, die potenzielle Freunde sein könnten, Tiere und lebhafte Dörfer.",
+    "dislike": "Unheimliche Leute, die Freaks oder Monster sein könnten",
+    "story": "Ein sehr eigenwilliger Geist.\nAlle, die sie zu Gesicht bekommen, halten sie wahrscheinlich für einen gewöhnlichen Geist eines Mädchens, doch sie ist kein singuläres Geisterwesen, sondern eine Verschmelzung zahlloser Seelen.\nIhre überbordenden Geisterkräfte sind mächtig genug, um Seelen erzittern zu lassen und Flüche nach freiem Willen gegen Feinde zu wirken.\n\n... Wie ein normaler Geist eben.\n\nManche behaupten, dass sie aus der Verschmelzung junger Seelen geboren wäre, die im Dämonenkrieg vor 100 Jahren gestorben sind – Kinderseelen, die, genau wie im Leben zuvor, zu rein und unschuldig sind, um Flüche auf sich zu tragen.\nDa Lavril aus ihnen entstammt, ist ihr Verstand milde und gütig.\nDoch die Natur ihres Seins darf nicht vergessen werden:\nSie ist eine Verschmelzung von Kinderseelen.\nEin Kind ist wie ein Stück weißes Papier – was darauf gezeichnet wird, bestimmt den Charakter des Kindes.\nOhne entsprechende Führung stellt sie eine große Bedrohung für die Welt dar.",
+    "thumbnail": "heroes/Lavril/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "G-Geh weg!",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Verursacht ??? Mag. Schaden am Ziel, erhöht 10 Sek. lang den erhaltenen Mag. Schaden des Ziels um 25 % und verringert alle Krit. Widerstände um 300. Getroffene Ziele erleiden 5 Sek. lang Lavrils Ektoplasma und erleiden alle 0.5 Sek. ??? Mag. Schaden. Jedes Mal, wenn ein Gegner durch diesen Skill Schaden erleidet, werden die TP aller Verbündeten um 5 % des verursachten Schadens geheilt. Setzt den Cooldown dieses Skills zurück und regerniert 1 eigene MP-Kugel, wenn das Ziel stirbt.",
+      "thumbnail": "heroes/Lavril/skills/1.png"
+    },
+    "2 (1)": {
+      "name": "Kopf hoch ...!",
+      "cost": "4",
+      "cooldown": "24",
+      "description": "Heilt die TP des Verbündeten mit dem höchsten ANG um ??? und zusätzlich 15 Sek. lang alle 1 Sek. um ??? TP. Erhöht 15 Sek. lang den ANG des Ziels um 20 % und den Krit. Schaden um 50 % + 15 % von Lavrils Krit. Schaden.[Du machst mir Angst ...!] ist im Anschluss an das Wirken dieses Skills 5 Sek. lang verfügbar.",
+      "thumbnail": "heroes/Lavril/skills/2 (1).png"
+    },
+    "2 (2)": {
+      "name": "Du machst mir Angst ...!",
+      "cost": "1",
+      "cooldown": null,
+      "description": "Verursacht ??? Mag. Schaden an einem Feind, verringert dessen ANG-GESCHW. 15 Sek. lang um 250 und erhöht dessen erlittenen Mag. Schaden um 25 %.",
+      "thumbnail": "heroes/Lavril/skills/2 (2).png"
+    },
+    "3": {
+      "name": "Lass mich in Ruhe ...!",
+      "cost": "4",
+      "cooldown": "25",
+      "description": "Beschwört vor sich in großer Reichweite einen Geistertornado, der 6 Sek. lang alle 0.5 Sek. ??? Mag. Schaden verursacht. Jeder Treffer verringert 5 Sek. lang den ANG der Ziele um 4.5 % und erhöht den von ihnen erlittenen Mag. Schaden um 4.5 %. Dieser Effekt kann bis zu10-mal gestapelt werden.",
+      "thumbnail": "heroes/Lavril/skills/3.png"
+    },
+    "4": {
+      "name": "Für immer vereint ...",
+      "cost": null,
+      "cooldown": "999.999",
+      "description": "Stellt zu Beginn des ersten Kampfes eine Seelenverbindung mit dem Verbündeten mit dem höchsten ANG her.\nDieser Effekt kann nicht entfernt werden.\nWährend die Seelenverbindung mit dem Verbündeten aufrecht ist, wird/werden der ANG um ???, die VERT-Durchdringung um 300, alle VERT um 15 % erhöht und der Schaden gegen Feinde, die keine Helden sind, wird um 8 % erhöht, wobei pro Sek. je 150 MP wiederhergestellt werden.",
+      "thumbnail": "heroes/Lavril/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Heilungsrate und Schaden um 10 %.",
+      "III": "Erhöht Heilungsrate und Schaden um 15 %.",
+      "IV": "Erhöht Heilungsrate und Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Ändert Alle Krit. Widerstand-Verringerungswert auf 500.",
+          "thumbnail": "heroes/Lavril/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Erhöht die Heilung um 100 %, wenn 1 Gegner da ist.",
+          "thumbnail": "heroes/Lavril/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "[Kopf hoch ...!] verhindert, dass die TP des Ziels während der Wirkungsdauer unter 5 % fallen.\n[Du machst mir Angst ...!] entfernt positive Effekte vom Ziel.",
+          "thumbnail": "heroes/Lavril/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht die Anzahl der [Kopf hoch ...!] - Ziele auf 1.\nErhöht die Anzahl der [Du machst mir Angst ...!] - Ziele auf 1.",
+          "thumbnail": "heroes/Lavril/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Verringert den Cooldown um 30 %.",
+          "thumbnail": "heroes/Lavril/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Lavril/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Ändert den Schaden-Boost, den Gegner, die keine Helden sind, von Lavril und dem Verbündeten in der Seelenverbindung erleiden auf 12 %.",
+          "thumbnail": "heroes/Lavril/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Verringert den erhaltenen Schaden von Lavril und des Verbündeten in der Seelenverbindung um 20 %.",
+          "thumbnail": "heroes/Lavril/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Schaden +20 %",
+        "thumbnail": "heroes/Lavril/perks/light.png"
+      },
+      "dark": {
+        "effect": "Bei einem erlittenen Treffer wird der ANG des durch Seelenverbindung verbundenen Verbündeten um 3 % erhöht. Dieser Effekt kann bis zu 20-mal gestapelt werden.",
+        "thumbnail": "heroes/Lavril/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Leerenseele, Dunn Nemecia",
+    "description": "Erlangt nach Anwendung eines Skills 1 Sek. lang [Leerenseele] und wehrt alle Angriffe ab. Dieser Effekt wird alle 10 Sek. einmal aktiviert. Erhöht den Krit. Schaden von Lavril und des Verbündeten in der Seelenverbindung um 30 %.",
+    "value": {},
+    "thumbnail": "heroes/Lavril/uw.png",
+    "story": "Ein anderes Geisterwesen, das von Lavril getrennt wurde.\nIm Gegensatz zur gütigen Lavril ist Dunn Nemecia die Verschmelzung der negativen und aggressiven Seelen, die in ihrem Inneren wohnten.\nGlücklicherweise versteckt dieser niedliche und doch unheimliche Geist seine böse Seite die meiste Zeit über und benutzt seine Kräfte nur dann, wenn sein Wirt sie benötigt oder er eine Bedrohung wittert.\n\nMan muss stets bedenken, dass dieser seltsame Geist kein freundliches, harmloses Wesen ist.\n\nDie Listen, die er anwendet, sind überwiegend von boshafter Natur: Er umgibt Schlafende mit spitzen, harten Gegenständen, wirft Frischgekochtes zu Boden und stellt Vorbeigehenden ein Bein, doch ...\nEr ist noch zu wesentlich schlimmeren Taten fähig, wenn er nicht von Lavril kontrolliert werden würde.",
+    "descriptionByStar": {
+      "0": "Erlangt nach Anwendung eines Skills 1 Sek. lang [Leerenseele] und wehrt alle Angriffe ab. Dieser Effekt wird alle 10 Sek. einmal aktiviert. Erhöht den Krit. Schaden von Lavril und des Verbündeten in der Seelenverbindung um 30 %.",
+      "1": "Erlangt nach Anwendung eines Skills 1,2 Sek. lang [Leerenseele] und wehrt alle Angriffe ab. Dieser Effekt wird alle 10 Sek. einmal aktiviert. Erhöht den Krit. Schaden von Lavril und des Verbündeten in der Seelenverbindung um 36 %.",
+      "2": "Erlangt nach Anwendung eines Skills 1,4 Sek. lang [Leerenseele] und wehrt alle Angriffe ab. Dieser Effekt wird alle 10 Sek. einmal aktiviert. Erhöht den Krit. Schaden von Lavril und des Verbündeten in der Seelenverbindung um 42 %.",
+      "3": "Erlangt nach Anwendung eines Skills 1,7 Sek. lang [Leerenseele] und wehrt alle Angriffe ab. Dieser Effekt wird alle 10 Sek. einmal aktiviert. Erhöht den Krit. Schaden von Lavril und des Verbündeten in der Seelenverbindung um 51 %.",
+      "4": "Erlangt nach Anwendung eines Skills 2,1 Sek. lang [Leerenseele] und wehrt alle Angriffe ab. Dieser Effekt wird alle 10 Sek. einmal aktiviert. Erhöht den Krit. Schaden von Lavril und des Verbündeten in der Seelenverbindung um 63 %.",
+      "5": "Erlangt nach Anwendung eines Skills 2,5 Sek. lang [Leerenseele] und wehrt alle Angriffe ab. Dieser Effekt wird alle 10 Sek. einmal aktiviert. Erhöht den Krit. Schaden von Lavril und des Verbündeten in der Seelenverbindung um 75 %."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Tarotkarte des Mondes",
+      "description": "[G-Geh weg!] erhöht den Schaden um 50 % und verringert die Heilungsrate getroffener Feinde um 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Lavril/ut/1.png",
+      "story": "Es war spät in der Nacht, als Lavril das Zelt einer fahrenden Wahrsagerin entdeckte.\nSeltsame Kreaturen flogen um sie herum und schufen so eine merkwürdige Atmosphäre, die es Lavril schwer machte, sich ihr zu nähern.\nDie Wahrsagerin fühlte ihre Anwesenheit und hieß sie willkommen.\n\nWillkommen im Zelt der Stardust-Wahrsagerin. Was möchtest du wissen?\n\nLavril sah die lächelnde Wahrsagerin ängstlich an und öffnete ihren Mund.\n\n- W-wir ... wir wollen einen Freund haben.\nEin Freund, der anders ist als wir ... Ein Freund, der atmet, den wir berühren können ... W-Wo können wir einen solchen Freund treffen ...?\n\nDie Wahrsagerin überreichte ihr lächelnd eine Karte.\n\nAuf einer Karte mit einem eingravierten Mond befand sich die Abbildung einer mächtigen Kreatur.\nLavril wollte die Karte instinktiv ablegen,\ndoch dann fühlte sie, wie die Kreatur ihre Berührung akzeptierte und anscheinend ihre Angst verlor.\n\nEs war ein wahrlich seltsames Gefühl und Lavril machte ein erstauntes Gesicht, doch bald fühlte sie sich wieder beruhigt.\nDann legte die Wahrsagerin ihre Hände auf jene Lavrils.\n\n- Du musst nicht weit in die Zukunft sehen.\nSind wir nicht bereits gute Freunde?\n\nNachdem sie ihren Satz beendet hatte, begann die Wahrsagerin, Karten zu verschieben, eine nach der anderen. Währenddessen hielt sie immer noch Lavrils Hände.\nDie Karten sprachen im Stillen zur Wahrsagerin, als würden sie Lavrils verzweifelten Wunsch wahr werden lassen wollen.\n\nBald waren alle Karten ausgelegt und die Wahrsagerin begann lächelnd zu sprechen.\n\n- Diese Jungen und Mädchen scheinen dich sehr zu mögen.\nSie sagen mir, dass du viele Leute treffen wirst, die dir viel bedeuten werden.\nBald wirst du die Freunde treffen, die du dir gewünscht hast.",
+      "descriptionByStar": {
+        "0": "[G-Geh weg!] erhöht den Schaden um 50 % und verringert die Heilungsrate getroffener Feinde um 20 %.",
+        "1": "[G-Geh weg!] erhöht den Schaden um 50 % und verringert die Heilungsrate getroffener Feinde um 24 %.",
+        "2": "[G-Geh weg!] erhöht den Schaden um 50 % und verringert die Heilungsrate getroffener Feinde um 29 %.",
+        "3": "[G-Geh weg!] erhöht den Schaden um 50 % und verringert die Heilungsrate getroffener Feinde um 35 %.",
+        "4": "[G-Geh weg!] erhöht den Schaden um 50 % und verringert die Heilungsrate getroffener Feinde um 42 %.",
+        "5": "[G-Geh weg!] erhöht den Schaden um 50 % und verringert die Heilungsrate getroffener Feinde um 50 %."
+      }
+    },
+    "2": {
+      "name": "Feenduft",
+      "description": "[Kopf hoch ...!] erhöht die Heilungsrate um 50 % und den Krit. Schaden um 20 %.\n[Du machst mir Angst ...!] erhöht den Schaden um 50 % und verringert die Mag. VERT des Ziels um 10 %.",
+      "value": {},
+      "thumbnail": "heroes/Lavril/ut/2.png",
+      "story": "Eines sonnigen Tages wandelte Lavril scheu um ein Dorf herum.\nSie wollte hineingehen und sich mit den Leuten anfreunden, doch die allzu präsenten Erinnerungen an die Vertreibung durch die Priester von Lua hielten sie davon ab.\n\nDoch dann hörte sie einen fröhlichen Gesang aus den Blumenbeeten außerhalb des Dorfes.\nNeugierig begab sie sich vorsichtig in die Richtung, aus der sie das Singen vernahm.\nEin Mädchen sang und spielte die Harfe inmitten blühender Blumen und Kinder, Tiere und sogar Feen tanzten zu ihrem Lied.\n\nVon der Szene fasziniert ging sie los und stand selbst im Blumenbeet, ehe sie sichs versah.\nIm selben Moment begannen Feen und Tiere zu kreischen und versteckten sich, während die Kinder in Tränen ausbrachen.\nSie reagierten äußerst sensibel auf Energie und fühlten sich durch Lavrils Anwesenheit bedroht.\n\nDas Mädchen jedoch reagierte ganz anders:\nSie beruhigte die Kreaturen, pflückte ein paar Blumen aus dem umliegenden Beet und schenkte sie Lavril.\n\nMit den Blumen in der Hand begann Lavril vor Glückseligkeit zu lächeln, voll der Freude, endlich akzeptiert zu werden.\nTiere, Feen und Kinder erkannten daraufhin, dass Lavril ihnen kein Leid zufügen würde, und begrüßten sie nun fröhlich.",
+      "descriptionByStar": {
+        "0": "[Kopf hoch ...!] erhöht die Heilungsrate um 50 % und den Krit. Schaden um 20 %.\n[Du machst mir Angst ...!] erhöht den Schaden um 50 % und verringert die Mag. VERT des Ziels um 10 %.",
+        "1": "[Kopf hoch ...!] erhöht die Heilungsrate um 50 % und den Krit. Schaden um 24 %.\n[Du machst mir Angst ...!] erhöht den Schaden um 50 % und verringert die Mag. VERT des Ziels um 12 %.",
+        "2": "[Kopf hoch ...!] erhöht die Heilungsrate um 50 % und den Krit. Schaden um 29 %.\n[Du machst mir Angst ...!] erhöht den Schaden um 50 % und verringert Mag. VERT des Ziels um 14 %.",
+        "3": "[Kopf hoch ...!] erhöht die Heilungsrate um 50 % und den Krit. Schaden um 35 %.\n[Du machst mir Angst ...!] erhöht den Schaden um 50 % und verringert die Mag. VERT des Ziels um 17 %.",
+        "4": "[Kopf hoch ...!] erhöht die Heilungsrate um 50 % und den Krit. Schaden um 42 %.\n[Du machst mir Angst ...!] erhöht den Schaden um 50 % und verringert die Mag. VERT des Ziels um 21 %.",
+        "5": "[Kopf hoch ...!] erhöht die Heilungsrate um 50 % und den Krit. Schaden um 50 %.\n[Du machst mir Angst ...!] erhöht den Schaden um 50 % und verringert die Mag. VERT des Ziels um 25 %."
+      }
+    },
+    "3": {
+      "name": "Gesegneter Schutz",
+      "description": "[Lass mich in Ruhe ...!] Stapelanzahl wird um 2 erhöht und der erhaltene Mag. Schaden pro Treffer wird um {0} % erhöht.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
+      "thumbnail": "heroes/Lavril/ut/3.png",
+      "story": "Als Lavril ins Leben trat, hielten die Leute sie für einen unheimlichen Geist und verbreiteten Gerüchte über sie.\nDie Kirche von Lua rief ihre Hohepriester herbei, um sich um sie zu kümmern.\nDer Heilige des Segens Lucias und der Eigenbrötler Baudouin gehörten zu jenen, die den Ruf erhörten.\n\nNachdem sie von Lavril erfuhren hatten, suchten sie sie auf, um sie zur Rede zu stellen.\nAls sie sie gefunden hatten, erkannten sie, dass sie nicht bloß ein gewöhnlicher Geist, sondern eine Verschmelzung von Kinderseelen war.\n\nEs dauerte aber nicht lange und sie erkannten, dass sie keine Bedrohung darstellen würde.\nDoch die Kirche hatte gesprochen: Geister müssten exorziert werden und sie als Priester waren dazu bestimmt, sie zu läutern und dorthin zu geleiten, wo sie hingehörte.\n\nLucias aber hatte andere Pläne:\nLavril war eine reine Seele, die keinen Exorzismus verdiente. Er wollte ihr zu gegebener Zeit das Fortschreiten in das nächste Reich ermöglichen und wies ihr den Pfad zum Licht und den Lehren Luas.\n\nLucias nahm sein Taschentuch heraus, wischte die Tränen aus Lavrils Gesicht und zeigte ihr den Weg zum Licht und die Lehren von Lua.\nDieses Taschentuch erinnert sie an Lucias. Es ist das Licht, das sie führt, wenn sie in Schwierigkeiten steckt.",
+      "descriptionByStar": {
+        "0": "[Lass mich in Ruhe ...!] Stapelanzahl wird um 2 erhöht und der erhaltene Mag. Schaden pro Treffer wird um 1 % erhöht.",
+        "1": "[Lass mich in Ruhe ...!] Skill-Dauer wird um 1 Sek. erhöht und jeder Treffer erhöht den Mag. Schaden beim Ziel um 1,2 %.",
+        "2": "[Lass mich in Ruhe ...!] Skill-Dauer wird um 1 Sek. erhöht und jeder Treffer erhöht den Mag. Schaden beim Ziel um 1,4 %.",
+        "3": "[Lass mich in Ruhe ...!] Skill-Dauer wird um 1 Sek. erhöht und jeder Treffer erhöht den Mag. Schaden beim Ziel um 1,7 %.",
+        "4": "[Lass mich in Ruhe ...!] Skill-Dauer wird um 1 Sek. erhöht und jeder Treffer erhöht den Mag. Schaden beim Ziel um 2,1 %.",
+        "5": "[Lass mich in Ruhe ...!] Skill-Dauer wird um 1 Sek. erhöht und jeder Treffer erhöht den Mag. Schaden beim Ziel um 2,5 %."
+      }
+    },
+    "4": {
+      "name": "Träne der Seele",
+      "description": "[Für immer vereint ...] erhöht den ANG-Boost um 50 %. Bei Verbündeten mit Seelenverbindung erhöht sich die Heilungsrate um 10 %.",
+      "value": {},
+      "thumbnail": "heroes/Lavril/ut/4.png",
+      "story": "Böse Geister sind Verkörperungen der Ablehnung und können sich aufgrund ihrer überwältigenden Instinkte, die von negativen Emotionen wie Zorn und Hass bestimmt werden, nicht kontrollieren. Sie sind eifersüchtig auf die Lebenden und zeigen offene Aggressionen gegen sie, um sie zu neuen bösen Geistern wie sie selbst zu machen. Lavril besteht allerdings aus der jugendlichen Unschuld eines Kindes. Eine Ausnahmeerscheinung, zu rein, um sie einen bösen Geist zu nennen.\n\nEs ist ein seltsames Wesen, dessen Existenz ironisch erscheint, verfolgt von Einsamkeit, obwohl es von zahllosen Seelen umgeben ist. Als sie in diesem Land erwachte, wusste sie nicht, wer oder was sie war. Ihr Körper wurde von Schmerzen und Leid beherrscht und sie sah in ihrem Dasein keinen Sinn. Der Schmerz der jungen Seelen, die ein schmerzvolles Ende fanden, hat sich zu Tränen geformt und die explosiven Kräfte der anderen Seelen haben weitere böse Geister beschworen. Man sagt, der Himmel habe sich komplett verdunkelt, als Lavril geboren wurde.\n\nDer Erste, der am Ursprungsort ihrer schrecklichen Schreie eintraf, war Rephy, der Führer der Seelen. Nachdem er von anderen Seelen von Lavrils Misere erfahren hatte, konnte er sie mithilfe von Oddy und Nyx aufspüren.\n\nUm ihre Tränen zu stoppen, bat Rephy ihr eine Vielzahl an Geschenken an, doch eines hat sie besonders beeindruckt: Eine Art wertvoller Edelstein, der von rachsüchtigen bösen Geistern zurückgelassen wird, wenn sie gebannt werden. Die letzte Spur einer entfesselten Seele, die endlich vom Bösen befreit wurde. Dieser Edelstein soll Lavrils tief sitzenden Schmerz gelindert haben.",
+      "descriptionByStar": {
+        "0": "[Für immer vereint ...] erhöht den ANG-Boost um 50 %. Bei Verbündeten mit Seelenverbindung erhöht sich die Heilungsrate um 10 %.",
+        "1": "[Für immer vereint ...] erhöht den ANG-Boost um 50 %. Bei Verbündeten mit Seelenverbindung erhöht sich die Heilungsrate um 12 %.",
+        "2": "[Für immer vereint ...] erhöht den ANG-Boost um 50 %. Bei Verbündeten mit Seelenverbindung erhöht sich die Heilungsrate um 14 %.",
+        "3": "[Für immer vereint ...] erhöht den ANG-Boost um 50 %. Bei Verbündeten mit Seelenverbindung erhöht sich die Heilungsrate um 17 %.",
+        "4": "[Für immer vereint ...] erhöht den ANG-Boost um 50 %. Bei Verbündeten mit Seelenverbindung erhöht sich die Heilungsrate um 21 %.",
+        "5": "[Für immer vereint ...] erhöht den ANG-Boost um 50 %. Bei Verbündeten mit Seelenverbindung erhöht sich die Heilungsrate um 25 %."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 22 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Leerenseele, Dunn Nemecia und fügt allen Gegnern ??? Mag. Schaden zu und stellt sie unter Seelisches Unheil. Der erhaltene Mag. Schaden der Gegner die unter Seelisches Unheil stehen, wird 10 Sek. lang um 8 % erhöht und die Heilungsrate um 8 % verringert. Danach wird 10 Sek. lang mit jeder Skill-Verwendung den Gegnern ??? Mag. Schaden zugefügt und sie werden unter Seelisches Unheil gestellt. Der Seelisches Unheil-Effekt kann max. 3-mal gestapelt werden.",
+    "cooldown": "20",
+    "uses": "5",
+    "thumbnail": "heroes/Lavril/sw.png",
+    "advancement": {
+      "1": "Die max. Seelisches Unheil-Stapelungen werden auf 4 geändert.",
+      "2": "Der Seelisches Unheil-Effekt wird um 50 % erhöht."
+    },
+    "story": "Lavril denkt nicht über ihre Existenz nach.\n\nEin Grund ist wahrscheinlich, dass sie sich nur schwach mit der Identität der Dunkelheit in Verbindung bringen kann. Aber auch, dass Lavril nur ein Kind ist, das Einsamkeit hasst und hauptsächlich daran denkt, Freunde zu finden, anstatt über die Existenz nachzudenken.\nIm Vergleich zu Lavril sind sich Dunn Nemecia ihrer Situation viel bewusster, in der sie gejagt werden können, nur weil sie aus der Dunkelheit geboren oder von der stärkeren Dunkelheit verschlungen wurden.\nEines Tages begegneten sie einer Dunkelheit edler Herkunft, die ihnen anbot, zwischen zwei Wegen zu wählen.\nDer erste Weg bestand darin, zwei getrennte Gruppen, die ursprünglich nur einer Gruppe namens Lavril gehörten, neu zu kombinieren. Der andere Weg bestand darin, die Existenz des anderen anzuerkennen, das gegenseitige Vertrauen zu stärken und zusammenzuarbeiten, um zu überleben. Sie mussten eine irreversible Entscheidung treffen, um zu überleben, und am Ende entschieden Lavril und Dunn Nemecia, dass sie nicht wollen, dass einer von ihnen verschwindet, und beschlossen, die Existenz des anderen anzuerkennen.\n\n\"Wir mögen unterschiedlich sein, aber wir werden uns umeinander kümmern und für immer zusammen bleiben.\" Die beiden Dunkelheiten lächelten und gaben sich die Hand."
+  },
+  "splashart": "heroes/Lavril/sa.png",
+  "costumes": "heroes/Lavril/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

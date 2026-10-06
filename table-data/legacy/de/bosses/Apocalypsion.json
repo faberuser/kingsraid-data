@@ -1,0 +1,73 @@
+{
+  "id": "Apocalypsion",
+  "profile": {
+    "name": "Apokalypse",
+    "title": "Katastrophale Zerstörung",
+    "type": [
+      "Divine Punishment Raid"
+    ],
+    "race": "Drache",
+    "damage_type": "Magical",
+    "recommended_heroes": "Yanne, Laias, Isaiah",
+    "characteristics": "Der Skill [Führung in den Abgrund] von Apokalypse fügt Zielen mit [Abgrundfluch] großen Schaden zu, daher musst du den [Abgrundfluch] entfernen, bevor du angreifst. Erleidet Apokalypse tödlichen Schaden, wird außerdem [Macht des Hasses] aktiviert und Meteore werden beschworen, um alle Feinde zu vernichten. Verwende also Massenkontroll-Skills, um die [Macht des Hasses] zu entfernen und Apokalypses Skills zu blockieren. Alle Angriffe von Apokalypse haben eine hohe Krit. Chance, also pass auf.",
+    "thumbnail": "bosses/Apocalypsion.png",
+    "recommendedHeroNames": [
+      "Yanne",
+      "Laias",
+      "Isaiah"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Klingenprägung",
+      "cost": null,
+      "cooldown": "22",
+      "description": "Greift Frontgegner in Reichweite 3-mal an und fügt ihnen Mag. Schaden zu. Lässt dann die Klingen explodieren, um Mag. Schaden zu verursachen und sie zu betäuben. Stellt die TP von Apokalypse proportional zur Anzahl der von diesem Skill getroffenen Feinde wieder und erhöht den Schaden mit jeder Aktivierung des Skills."
+    },
+    "2": {
+      "name": "Bebende Erde",
+      "cost": null,
+      "cooldown": "25",
+      "description": "Fügt Gegnern an der Frontlinie Mag. Schaden zu und zerstört ihre Schilde, wobei jeder Treffer die MP des Ziels um 1000 verringert und sie für 2 Sek. betäubt werden. Verursacht größeren Schaden, wenn das Ziel von Massenkontrolle betroffen ist."
+    },
+    "3": {
+      "name": "Führung in den Abgrund",
+      "cost": null,
+      "cooldown": "33",
+      "description": "Fügt allen Feinden Mag. Schaden zu, betäubt sie 5 Sek. lang und versetzt sie unter [Abgrundfluch]. Dann erhält Apokalypse 35 [Urteil]-Stapel und sammelt 8 Sek. lang ihre Energie. Fügt nach der Energiesammlung allen Feinden Mag. Schaden zu und wirft sie 7 Sek. lang zu Boden. Befindet sich das getroffene Ziel unter [Abgrundfluch], so zerstört sie den Schild des Ziels und zieht ihn darauf zu sich, wodurch großer Schaden verursacht wird. Die Anzahl der [Urteil]-Stapel werden jedes Mal verringert, wenn Apokalypse einen Krit. Treffer erleidet. Werden bei der Energiesammlung alle [Urteil]-Stapel verringert, wird der [Abgrundfluch] entfernt. Erhöht alle Krit. Widerstände von Apokalypse um 500 und alle Ausweichchancen um 400, während dieser Skill aktiviert wird."
+    },
+    "4": {
+      "name": "Ende der Zerstörung",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erreichen Apokalypses TP 1 %, wird [Macht des Hasses] aktiviert und beschwört 8 Sek. lang kleine Meteore, die Mag. Schaden verursachen. Wird [Macht des Hasses] von Apokalypse in 8 Sek. nicht entfernt, beschwört sie riesige Meteore und vernichtet alle Gegner. [Macht des Hasses] kann durch Massenkontroll-Skills entfernt werden."
+    },
+    "5": {
+      "name": "Zorn der Kaiserin",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht alle 50 Sek. die Phase von [Zorn der Kaiserin]. Der Effekt jeder Phase wird stapelbar angewendet.\nPhase 1: Apokalypse heilt jede Sek. die TP um 2.5 % der eigenen max. TP und erhöht die Körp. und Mag. Stärkung um ???.\nPhase 2: Erhöht den von Apokalypse an Feinden zugefügten Schaden um 25 % und Apokalypse wird nicht mehr von Schaden-Boost beeinflusst.\nPhase 3: Ändert alle von Apokalypse zugefügten Schäden in VERT-ignorierenden Schaden."
+    },
+    "6": {
+      "name": "Kaiserliches Publikum",
+      "cost": null,
+      "cooldown": null,
+      "description": "Befinden sich bei Normal-ANG keine Gegner in Reichweite von Apokalypse, entfernt sie alle positiven Effekte von 1 Feind(en) und zieht ihn/sie zu sich."
+    },
+    "7": {
+      "name": "Makelloser Körper",
+      "cost": null,
+      "cooldown": null,
+      "description": "Apokalypse wird von ANG-GESCHW.-, VERT- und ANG-Effekten nicht beeinflusst. Erhöht die Krit. Chance um 400 und ihre Angriffe treffen immer."
+    },
+    "8": {
+      "name": "Richtung Hölle",
+      "cost": null,
+      "cooldown": null,
+      "description": "Verursacht alle 15 Sek. Mag. Schaden bei 1 Gegner(n) mit der höchsten Mag. VERT und entfernt ihn/sie 8 Sek. lang aus dem Kampf, wobei er/sie mit einem [Höllenfluch] verseht wird/werden. [Höllenfluch] kann bis zu 10-mal gestapelt werden und kann nicht entfernt werden, wobei pro Stapel die MP-Regeneration um 100 und die ANG-GESCHW. um 100 verringert werden."
+    }
+  },
+  "aliases": [
+    "lady booba mommy dragon"
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "id": "Demia",
+  "profile": {
+    "name": "Demia",
+    "title": "Demia, Forteresse d'Acier",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "2000",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "25",
+    "height": "184",
+    "race": "Humain",
+    "constellation": "Mertis la Protectrice",
+    "birth": {
+      "month": 1,
+      "day": 30,
+      "monthName": "Mois de la Protection"
+    },
+    "like": "Un monarque vertueux à servir",
+    "dislike": "Les personnes sans volonté qui trahissent les autres",
+    "story": "Demia Si Ziltrion. Le commandant des Chevaliers Gardiens d'Orvel. C'est un chevalier puissant et digne maniant la lance et un bouclier géant. On dit qu'il est presque impossible de pénétrer son bouclier. En tant que commandant des chevaliers, elle prend soin de ses subordonnées et elle est prête à effectuer n'importe quelle tâche pour son pays. Vu le changement d'atmosphère dans le palais royal, elle espère pouvoir nommer rapidement Clause en tant que commandant afin qu'elle puisse protéger Scarlet de l'agression des nobles.",
+    "thumbnail": "heroes/Demia/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Pénétration",
+      "cost": "3",
+      "cooldown": "10",
+      "description": "Projette une lance sur l'ennemi le plus éloigné, inflige [ffc800]157*(1+0.3Skill Level)+121.2% of Attack Power[-] points de DEG P et traine l'ennemi devant le Héros. Inflige ensuite [ffc800]105(1+0.3Skill Level)+80.8% of Attack Power[-] points de DEG P aux ennemis à portée et applique Étourdissement pendant 3 sec.",
+      "thumbnail": "heroes/Demia/skills/1.png"
+    },
+    "2": {
+      "name": "Volonté Gagneuse",
+      "cost": "2",
+      "cooldown": "14",
+      "description": "Pendant 7 s, ses propres chances de blocage physique augmentent de 200. Lors d'un blocage, inflige 95(1+0.3Skill Level)+72.6% of Attack Power de dégâts physiques aux ennemis proches et réduit leur attaque de 25 %.",
+      "thumbnail": "heroes/Demia/skills/2.png"
+    },
+    "3": {
+      "name": "Forteresse d'Acier",
+      "cost": "4",
+      "cooldown": "22",
+      "description": "Pendant 8 s, les dégâts physiques subis par tous les alliés diminuent de 20 %, et prépare un saut pendant 5 s. Lors d'un blocage pendant la préparation, les dégâts de l'attaque sautée augmentent de 7 %, inflige 126(1+0.3Skill Level)+96.8% of Attack Power de dégâts physiques à l'attaquant et l'étourdit pendant 0.4 s. À la fin de l'incantation, saute sur l'ennemi, inflige 465(1+0.3Skill Level)+357.5% of Attack Power de dégâts physiques et l'étourdit pendant 2.5 s. Immunisé contre les altérations d'état pendant la préparation du saut.",
+      "thumbnail": "heroes/Demia/skills/3.png"
+    },
+    "4": {
+      "name": "Fer de Lance",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente la défense physique de tous les alliés de 30(1+0.3Skill Level) et leurs chances de blocage physique de 250.",
+      "thumbnail": "heroes/Demia/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente la durée d'Étourdissement pendant [64ff64]1.2[-] sec."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "La réduction de l'ATQ ennemie augmente de [ff6464]50[-]%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "4": {
+      "II": "Augmente la DEF de [64ff64]10[-]%.",
+      "III": "Augmente la DEF de [64ff64]15[-]%.",
+      "IV": "Augmente la DEF de [64ff64]25[-]%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Le coût en mana augmente de 1000, mais attire 2 ennemis.",
+          "thumbnail": "heroes/Demia/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit la défense physique des ennemis attirés de 30 % pendant 5 s.",
+          "thumbnail": "heroes/Demia/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Augmente le coût en Mana de 1000 et réduit le temps de recharge de 4 sec.",
+          "thumbnail": "heroes/Demia/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "À l'incantation, augmente la défense physique de tous les alliés de 24 % pendant 7 s.",
+          "thumbnail": "heroes/Demia/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Sauter dans les airs charge la cible ayant l'ATQ la plus élevée.",
+          "thumbnail": "heroes/Demia/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente le coût en Mana de 1000 et réduit le temps de recharge de 6 sec.",
+          "thumbnail": "heroes/Demia/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Le bonus de défense physique augmente de 30 % et les chances de blocage physique de 75.",
+          "thumbnail": "heroes/Demia/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Augmente le Blocage P de 250 pendant la durée de la compétence.",
+          "thumbnail": "heroes/Demia/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Blocage P +200",
+        "thumbnail": "heroes/Demia/perks/light.png"
+      },
+      "dark": {
+        "effect": "Au début de chaque combat, réduit l'attaque de tous les ennemis de 25 % pendant 6 s. Cet effet ne peut pas être dissipé.",
+        "thumbnail": "heroes/Demia/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Arpheus de la Lumière bleue",
+    "description": "Augmente la défense physique de tous les alliés de {0} %. Lors d'un blocage, a {1} % de chances de restaurer {2} de son propre mana et de réduire le temps de recharge de toutes ses compétences de 1 s.",
+    "value": {
+      "0": {
+        "0": "8",
+        "1": "9",
+        "2": "10",
+        "3": "11",
+        "4": "13",
+        "5": "15"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "2": {
+        "0": "180",
+        "1": "198",
+        "2": "216",
+        "3": "234",
+        "4": "252",
+        "5": "270"
+      }
+    },
+    "thumbnail": "heroes/Demia/uw.png",
+    "story": "Un jour, une veine de mana puissante fut découverte dans le territoire de Ziltrion. En enquêtant là-dessus, Demia découvrit un minerai bleu qu'elle n'avait encore jamais vu. De nombreux mages et alchimistes étudièrent ce minerai étrange présentant des caractéristiques des gemmes et du métal, sans pouvoir l'identifier clairement. Jin le forgeron eut une idée différente : dès qu'il vit le minerai, il proposa joyeusement à Demia de fabriquer de puissants équipements avec. Il forgea une lance et un bouclier, luisant de mana bleu et plus solide que le diamant.",
+    "descriptionByStar": {
+      "0": "Augmente la défense physique de tous les alliés de 8 %. Lors d'un blocage, a 10 % de chances de restaurer 180 de son propre mana et de réduire le temps de recharge de toutes ses compétences de 1 s.",
+      "1": "Augmente la défense physique de tous les alliés de 9 %. Lors d'un blocage, a 12 % de chances de restaurer 198 de son propre mana et de réduire le temps de recharge de toutes ses compétences de 1 s.",
+      "2": "Augmente la défense physique de tous les alliés de 10 %. Lors d'un blocage, a 14 % de chances de restaurer 216 de son propre mana et de réduire le temps de recharge de toutes ses compétences de 1 s.",
+      "3": "Augmente la défense physique de tous les alliés de 11 %. Lors d'un blocage, a 17 % de chances de restaurer 234 de son propre mana et de réduire le temps de recharge de toutes ses compétences de 1 s.",
+      "4": "Augmente la défense physique de tous les alliés de 13 %. Lors d'un blocage, a 21 % de chances de restaurer 252 de son propre mana et de réduire le temps de recharge de toutes ses compétences de 1 s.",
+      "5": "Augmente la défense physique de tous les alliés de 15 %. Lors d'un blocage, a 25 % de chances de restaurer 270 de son propre mana et de réduire le temps de recharge de toutes ses compétences de 1 s."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Coffre des Ziltrion",
+      "description": "[Pénétration] Augmente la précision de 750 points et la précision des contrôles de {0} points pendant la durée de la compétence.",
+      "value": {
+        "0": {
+          "0": "300",
+          "1": "360",
+          "2": "430",
+          "3": "520",
+          "4": "630",
+          "5": "750"
+        }
+      },
+      "thumbnail": "heroes/Demia/ut/1.png",
+      "story": "Un vieux coffre qui fait partie des biens de famille des Ziltrion.\nIl renferme un album contenant des photos de tous les membres de la famille, de la première génération à nos jours. Grâce à un puissant sortilège, il protège la lignée. La mère de Demia s'inquiète à propos de sa fille, car elle a entrepris de servir de bouclier pour Orvelia. À chaque fois que Demia foule le champ de bataille, sa mère prie devant ce coffre pour que sa fille revienne saine et sauve.",
+      "descriptionByStar": {
+        "0": "[Pénétration] Augmente la précision de 750 points et la précision des contrôles de 300 points pendant la durée de la compétence.",
+        "1": "[Pénétration] Augmente la précision de 750 points et la précision des contrôles de 360 points pendant la durée de la compétence.",
+        "2": "[Pénétration] Augmente la précision de 750 points et la précision des contrôles de 430 points pendant la durée de la compétence.",
+        "3": "[Pénétration] Augmente la précision de 750 points et la précision des contrôles de 520 points pendant la durée de la compétence.",
+        "4": "[Pénétration] Augmente la précision de 750 points et la précision des contrôles de 630 points pendant la durée de la compétence.",
+        "5": "[Pénétration] Augmente la précision de 750 points et la précision des contrôles de 750 points pendant la durée de la compétence."
+      }
+    },
+    "2": {
+      "name": "Bouclier de résolution",
+      "description": "[Volonté Gagneuse] Augmente les chances de blocage physique de 100 et les DGT physiques subis par la cible de {0} % pendant 5 s.",
+      "value": {
+        "0": {
+          "0": "15",
+          "1": "17",
+          "2": "19",
+          "3": "22",
+          "4": "26",
+          "5": "30"
+        }
+      },
+      "thumbnail": "heroes/Demia/ut/2.png",
+      "story": "Bouclier en bois que Demia utilisait pour s’entraîner pendant son enfance. Il a été ainsi manié des milliers de fois, d’où son usure avancée. \nDemia s’en sert encore aujourd’hui pour retrouver son sang-froid lorsqu’elle pense avoir franchi une limite.\nSa fierté de chevalier d’Orvelia réapparaît lorsqu’elle contemple ce vieux bouclier usé.",
+      "descriptionByStar": {
+        "0": "[Volonté Gagneuse] Augmente les chances de blocage physique de 100 et les DGT physiques subis par la cible de 15 % pendant 5 s.",
+        "1": "[Volonté Gagneuse] Augmente les chances de blocage physique de 100 et les DGT physiques subis par la cible de 17 % pendant 5 s.",
+        "2": "[Volonté Gagneuse] Augmente les chances de blocage physique de 100 et les DGT physiques subis par la cible de 19 % pendant 5 s.",
+        "3": "[Volonté Gagneuse] Augmente les chances de blocage physique de 100 et les DGT physiques subis par la cible de 22 % pendant 5 s.",
+        "4": "[Volonté Gagneuse] Augmente les chances de blocage physique de 100 et les DGT physiques subis par la cible de 26 % pendant 5 s.",
+        "5": "[Volonté Gagneuse] Augmente les chances de blocage physique de 100 et les DGT physiques subis par la cible de 30 % pendant 5 s."
+      }
+    },
+    "3": {
+      "name": "Énergie de protection",
+      "description": "[Forteresse d'Acier] Augmente le bonus de DGT lors d'un blocage de 50 % et prolonge l'étourdissement de l'attaque sautée de {0} s.",
+      "value": {
+        "0": {
+          "0": "0.6",
+          "1": "0.8",
+          "2": "1.1",
+          "3": "1.4",
+          "4": "1.7",
+          "5": "2.1"
+        }
+      },
+      "thumbnail": "heroes/Demia/ut/3.png",
+      "story": "Une pierre censée protéger l’âme contre son absorption par le mal. Elle ne brille qu’un instant à l’aube, elle est donc dure à trouver. Un jour, quand Demia fut fatiguée par le combat, un camarade lui mit dans les mains. Hélas, elle ne revit jamais ce camarade... Demia emporte toujours la pierre lorsqu’elle part sur un champ de bataille. Elle fait de son mieux pour respecter son vœu et que le sacrifice de son camarade ne soit pas vain.",
+      "descriptionByStar": {
+        "0": "[Forteresse d'Acier] Augmente le bonus de DGT lors d'un blocage de 50 % et prolonge l'étourdissement de l'attaque sautée de 0.6 s.",
+        "1": "[Forteresse d'Acier] Augmente le bonus de DGT lors d'un blocage de 50 % et prolonge l'étourdissement de l'attaque sautée de 0.8 s.",
+        "2": "[Forteresse d'Acier] Augmente le bonus de DGT lors d'un blocage de 50 % et prolonge l'étourdissement de l'attaque sautée de 1.1 s.",
+        "3": "[Forteresse d'Acier] Augmente le bonus de DGT lors d'un blocage de 50 % et prolonge l'étourdissement de l'attaque sautée de 1.4 s.",
+        "4": "[Forteresse d'Acier] Augmente le bonus de DGT lors d'un blocage de 50 % et prolonge l'étourdissement de l'attaque sautée de 1.7 s.",
+        "5": "[Forteresse d'Acier] Augmente le bonus de DGT lors d'un blocage de 50 % et prolonge l'étourdissement de l'attaque sautée de 2.1 s."
+      }
+    },
+    "4": {
+      "name": "Anneau des Ziltrion",
+      "description": "[Fer de Lance] Lors d'un blocage, récupère chaque seconde un montant égal à 40 % de la DÉF physique et augmente le bonus de DÉF physique de {0} % pendant 5 s. Le bonus de DÉF physique se cumule jusqu'à 5 fois.",
+      "value": {
+        "0": {
+          "0": "5",
+          "1": "7",
+          "2": "9",
+          "3": "11",
+          "4": "13",
+          "5": "15"
+        }
+      },
+      "thumbnail": "heroes/Demia/ut/4.png",
+      "story": "Un anneau donné aux chefs de la famille Ziltrion.\nIl est orné d'une imposante gemme bleue offerte aux Ziltrion par la famille royale d'Orvel.\nSymbole de la loyauté indéfectible de la famille, il se transmet à ses chefs, qui sont toujours en première ligne pour combattre les traîtres.",
+      "descriptionByStar": {
+        "0": "[Fer de Lance] Lors d'un blocage, récupère chaque seconde un montant égal à 40 % de la DÉF physique et augmente le bonus de DÉF physique de 5 % pendant 5 s. Le bonus de DÉF physique se cumule jusqu'à 5 fois.",
+        "1": "[Fer de Lance] Lors d'un blocage, récupère chaque seconde un montant égal à 40 % de la DÉF physique et augmente le bonus de DÉF physique de 7 % pendant 5 s. Le bonus de DÉF physique se cumule jusqu'à 5 fois.",
+        "2": "[Fer de Lance] Lors d'un blocage, récupère chaque seconde un montant égal à 40 % de la DÉF physique et augmente le bonus de DÉF physique de 9 % pendant 5 s. Le bonus de DÉF physique se cumule jusqu'à 5 fois.",
+        "3": "[Fer de Lance] Lors d'un blocage, récupère chaque seconde un montant égal à 40 % de la DÉF physique et augmente le bonus de DÉF physique de 11 % pendant 5 s. Le bonus de DÉF physique se cumule jusqu'à 5 fois.",
+        "4": "[Fer de Lance] Lors d'un blocage, récupère chaque seconde un montant égal à 40 % de la DÉF physique et augmente le bonus de DÉF physique de 13 % pendant 5 s. Le bonus de DÉF physique se cumule jusqu'à 5 fois.",
+        "5": "[Fer de Lance] Lors d'un blocage, récupère chaque seconde un montant égal à 40 % de la DÉF physique et augmente le bonus de DÉF physique de 15 % pendant 5 s. Le bonus de DÉF physique se cumule jusqu'à 5 fois."
+      }
+    }
+  },
+  "splashart": "heroes/Demia/sa.png",
+  "costumes": "heroes/Demia/cos",
+  "_localization": {
+    "locale": "fr",
+    "version": "ccbt",
+    "englishFallbackFields": []
+  }
+}

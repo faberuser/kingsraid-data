@@ -1,0 +1,228 @@
+{
+  "id": "Veronica",
+  "profile": {
+    "name": "Veronica",
+    "title": "Das Auge der Einsicht Veronica",
+    "class": "Wizard",
+    "position": "Back-500",
+    "attack_range": "9200",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "22",
+    "height": "165",
+    "race": "Menschen",
+    "constellation": "Lasiphil, die Prophetin",
+    "birth": {
+      "month": 3,
+      "day": 10,
+      "monthName": "Monat der Einsicht"
+    },
+    "like": "Intelligente Leute; schnelle Ergebnisse; saubere Dokumente",
+    "dislike": "Unordentliche Zimmer; ineffizientes Arbeiten",
+    "story": "Ein geniale Gelehrte aus dem Turm der Weisen, die sich an alles Gesehene zu erinnern vermag. Nachdem sie ihre eigenen Theorien und Systeme der Runenmagie entwickelt hatte, wurde ihr schnell langweilig und sie begann, ein neues Gebiet zu ergründen. Bald wurde sie zur höchsten königlichen Finanzsekretärin ernannt. Unglücklicherweise weigerten sich viele Politiker, jemanden aus dem einfachen Volk als ihre Vorgesetzte zu akzeptieren. Nach unzähligen Lügen und falschen Gerüchten entschied sich Veronica, den Palast aus freien Stücken zu verlassen. Doch sie ließ sich davon nicht unterkriegen und beschritt schon bald neue Wege. Sie begab sich zur Gildenallianz von Orvel, wo man sie ausschließlich nach ihren Fähigkeiten beurteilte. Wie erwartet wurde sie aufgrund ihrer unglaublichen Wahrnehmung und ihrer analytischen Gabe zu einer unverzichtbaren Agentin zahlloser Gilden.",
+    "thumbnail": "heroes/Veronica/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Das wird jetzt ein wenig wehtun!",
+      "cost": "2",
+      "cooldown": "9",
+      "description": "Verursacht ??? Mag. Schaden an feindlichen und im Umkreis befindlichen Einheiten innerhalb der Reichweite und betäubt sie für 2 Sek.",
+      "thumbnail": "heroes/Veronica/skills/1.png"
+    },
+    "2": {
+      "name": "Ich werde dir helfen!",
+      "cost": "4",
+      "cooldown": "25",
+      "description": "Verleiht allen Verbündeten eine Rune, durch die 12 Sek. lang ihr ANG um ??? erhöht und jeder Schaden an Bossen um 15 % erhöht wird.",
+      "thumbnail": "heroes/Veronica/skills/2.png"
+    },
+    "3": {
+      "name": "Geh mir aus den Augen!",
+      "cost": "4",
+      "cooldown": "25",
+      "description": "Verursacht am Ziel und an Feinden in einem großen Umgebungsbereich 2-mal ??? Mag. Schaden, wirft sie für 5 Sek. zu Boden. Getroffene Feinde nehmen für 10 Sek. 30 % mehr Mag. Schaden.",
+      "thumbnail": "heroes/Veronica/skills/3.png"
+    },
+    "4": {
+      "name": "Wissen des Hauptgeldgebers",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht den ANG aller Verbündeten um ??? und erhält bei Anwendung eines Skills einen Erfahrungs-Stapel. Erhält Wissen des Hauptgeldgebers, steigert eigenen Krit. Schaden um 30 % und die Effekte sämtlicher aktiven Skills um 10 %, sobald 3 Erfahrungs-Stapel gestapelt wurden. Der Effekt von Wissen des Hauptgeldgebers ist bis zu 5-mal stapelbar und kann nicht entfernt werden.",
+      "thumbnail": "heroes/Veronica/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht Schaden um 100 %, wenn ein Feind zugegen ist.",
+          "thumbnail": "heroes/Veronica/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Ändert Anzahl der Ziele zu 2.",
+          "thumbnail": "heroes/Veronica/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Skill zu Kampfbeginn 3x verwenden und den Bossmonster Schaden-Boost auf 25 % ändern.",
+          "thumbnail": "heroes/Veronica/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Reduziert Cooldown um 5 Sek.",
+          "thumbnail": "heroes/Veronica/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht Manakosten um 1 und Schaden um 100 %.",
+          "thumbnail": "heroes/Veronica/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Ziel erleidet während der Wirkungsdauer mehr Mag. Schaden und P.Schaden.",
+          "thumbnail": "heroes/Veronica/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Stellt Aktivierung 2 eigene Mana-Kugel wieder her.",
+          "thumbnail": "heroes/Veronica/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erhöht den ANG des Beschwörers bei Aktivierung 10 Sek. lang um 50 %.",
+          "thumbnail": "heroes/Veronica/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Chance +100",
+        "thumbnail": "heroes/Veronica/perks/light.png"
+      },
+      "dark": {
+        "effect": "Reduziert den Cooldown aller aktiven Skills des Beschwörers alle 20 Sek. um 15 %.",
+        "thumbnail": "heroes/Veronica/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Unendlicher Aufzeichner, Accordio",
+    "description": "Ändert das Stapel-Maximum für Wissen des Hauptgeldgebers zu 9 und erhält alle 14 Sek. einen zusätzlichen Erfahrungs-Stapel.",
+    "value": {},
+    "thumbnail": "heroes/Veronica/uw.png",
+    "story": "Ihre Erlaubnis wird benötigt, um wichtige Gegenstände in der Gildenallianz zu verarbeiten. Ein Bürogegenstand, der vom Gründer der Gildenallianz hoch geschätzt wird. Ein Set, bestehend aus einer Schreibfeder und einem Aktenordner. Die Feder besitzt eine Manakugel, benötigt als Mana anstelle von Tinte, und man muss damit auf magischem Pergament schreiben, auf dem mit einer normalen Feder nicht geschrieben werden kann. Die vom Schreiber geschriebenen Buchstaben Können nicht ohne das Mana des Schreibers gelöscht werden. Außerdem kann unbegrenzt viel Text auf das magische Pergament geschrieben werden und es besitzt eine Funktion, nach bereits Geschriebenem zu suchen. Es macht Veronicas Arbeit so viel effektiver. Natürlich ist es nützlich für die Arbeit, aber außerhalb der Arbeit ...",
+    "descriptionByStar": {
+      "0": "Ändert das Stapel-Maximum für Wissen des Hauptgeldgebers zu 9 und erhält alle 14 Sek. einen zusätzlichen Erfahrungs-Stapel.",
+      "1": "Ändert das Stapel-Maximum für Wissen des Hauptgeldgebers zu 10 und erhält alle 13 Sek. einen zusätzlichen Erfahrungs-Stapel.",
+      "2": "Ändert das Stapel-Maximum für Wissen des Hauptgeldgebers zu 11 und erhält alle 12 Sek. einen zusätzlichen Erfahrungs-Stapel.",
+      "3": "Ändert das Stapel-Maximum für Wissen des Hauptgeldgebers zu 12 und erhält alle 11 Sek. einen zusätzlichen Erfahrungs-Stapel.",
+      "4": "Ändert das Stapel-Maximum für Wissen des Hauptgeldgebers zu 13 und erhält alle 10 Sek. einen zusätzlichen Erfahrungs-Stapel.",
+      "5": "Ändert das Stapel-Maximum für Wissen des Hauptgeldgebers zu 15 und erhält alle 9 Sek. einen zusätzlichen Erfahrungs-Stapel."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Verhaltenskodex der Gilde",
+      "description": "[Das wird jetzt ein wenig wehtun!] erhöht 30 Sek. lang nach einem Krit. Treffer den Schaden um 50 % und den Schaden gegen Bosse um 2 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+      "value": {},
+      "thumbnail": "heroes/Veronica/ut/1.png",
+      "story": "Ein Handbuch, in dem die Verhaltensregeln für Mitglieder der Gilde niedergeschrieben sind.\nEs ist dreimal so dick wie ein normales Buch und der Beweis für Veronicas akribische Arbeit. Es würde ewig dauern, das Buch zur Gänze zu lesen.",
+      "descriptionByStar": {
+        "0": "[Das wird jetzt ein wenig wehtun!] erhöht 30 Sek. lang nach einem Krit. Treffer den Schaden um 50 % und den Schaden gegen Bosse um 2 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "1": "[Das wird jetzt ein wenig wehtun!] erhöht 30 Sek. lang nach einem Krit. Treffer den Schaden um 50 % und den Schaden gegen Bosse um 2,4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "2": "[Das wird jetzt ein wenig wehtun!] erhöht 30 Sek. lang nach einem Krit. Treffer den Schaden um 50 % und den Schaden gegen Bosse um 2,9 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "3": "[Das wird jetzt ein wenig wehtun!] erhöht 30 Sek. lang nach einem Krit. Treffer den Schaden um 50 % und den Schaden gegen Bosse um 3,5 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "4": "[Das wird jetzt ein wenig wehtun!] erhöht 30 Sek. lang nach einem Krit. Treffer den Schaden um 50 % und den Schaden gegen Bosse um 4,2 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "5": "[Das wird jetzt ein wenig wehtun!] erhöht 30 Sek. lang nach einem Krit. Treffer den Schaden um 50 % und den Schaden gegen Bosse um 5 %. Dieser Effekt kann bis zu 10-mal gestapelt werden."
+      }
+    },
+    "2": {
+      "name": "Stiftspitze des festen Willens",
+      "description": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um 1,6 Sek.",
+      "value": {},
+      "thumbnail": "heroes/Veronica/ut/2.png",
+      "story": "Stiftspitze, die Veronica immer bei sich trägt. Sie hat sie 100 Tage lang in der Quelle des Versprechens eingelegt, wie der Schmied Jin es ihr empfahl. Mit der Kraft der Magie färben sich die mit diesem Stift geschriebenen Buchstaben rot, wenn die Handlungen nicht entsprechend ausgeführt werden. Veronica sagt, es sei hilfreich beim Verwalten von Vorräten.",
+      "descriptionByStar": {
+        "0": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um 1,6 Sek.",
+        "1": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um 1,9 Sek.",
+        "2": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um 2,3 Sek.",
+        "3": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um 2,7 Sek.",
+        "4": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um 3,3 Sek.",
+        "5": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um 4 Sek."
+      }
+    },
+    "3": {
+      "name": "Siegel des Gilden-Verwalters",
+      "description": "[Geh mir aus den Augen!] erhöht den Schaden um 20 % und für jeden getroffenen Gegner wird der Cooldown um 10 % verringert.",
+      "value": {},
+      "thumbnail": "heroes/Veronica/ut/3.png",
+      "story": "Ein Siegel, das dem besten Gilden-Verwalter von Orvel verliehen wurde. Keine Gildenangelegenheit kann ohne dieses Siegel geregelt werden. Die pedantische Veronica stempelt kein Dokument, wenn es nicht perfekt ist. Ein Gegenstand, der Veronicas professionellen Stolz verkörpert.",
+      "descriptionByStar": {
+        "0": "[Geh mir aus den Augen!] erhöht den Schaden um 20 % und für jeden getroffenen Gegner wird der Cooldown um 10 % verringert.",
+        "1": "[Geh mir aus den Augen!] erhöht den Schaden um 24 % und für jeden getroffenen Gegner wird der Cooldown um 10 % verringert.",
+        "2": "[Geh mir aus den Augen!] erhöht den Schaden um 29 % und für jeden getroffenen Gegner wird der Cooldown um 10 % verringert.",
+        "3": "[Geh mir aus den Augen!] erhöht den Schaden um 35 % und für jeden getroffenen Gegner wird der Cooldown um 10 % verringert.",
+        "4": "[Geh mir aus den Augen!] erhöht den Schaden um 42 % und für jeden getroffenen Gegner wird der Cooldown um 10 % verringert.",
+        "5": "[Geh mir aus den Augen!] erhöht den Schaden um 50 % und für jeden getroffenen Gegner wird der Cooldown um 10 % verringert."
+      }
+    },
+    "4": {
+      "name": "Gildenkontobericht",
+      "description": "[Wissen des Hauptgeldgebers] erhöht den ANG-Boost um 50 %. Nach dem Erlangen von dieses Skill wird der Krit. Schaden aller Verbündeten für 10 Sek. um 20 % erhöht.",
+      "value": {},
+      "thumbnail": "heroes/Veronica/ut/4.png",
+      "story": "Eine Sammlung an Gildenkontoberichten, die Veronica monatlich und jährlich verfasst. Niemand führt so genau Buch wie sie.\nJene, die die schiere Anzahl an Dokumente zu Gesicht bekamen, verließen instinktiv den Raum.\nDieser Haufen aus Dokumenten ist der Beweis dafür, dass es keinen besseren Bankier als Veronica gibt.",
+      "descriptionByStar": {
+        "0": "[Wissen des Hauptgeldgebers] erhöht den ANG-Boost um 50 %. Nach dem Erlangen von dieses Skill wird der Krit. Schaden aller Verbündeten für 10 Sek. um 20 % erhöht.",
+        "1": "[Wissen des Hauptgeldgebers] erhöht den ANG-Boost um 50 %. Nach dem Erlangen von dieses Skill wird der Krit. Schaden aller Verbündeten für 10 Sek. um 24 % erhöht.",
+        "2": "[Wissen des Hauptgeldgebers] erhöht den ANG-Boost um 50 %. Nach dem Erlangen von dieses Skill wird der Krit. Schaden aller Verbündeten für 10 Sek. um 29 % erhöht.",
+        "3": "[Wissen des Hauptgeldgebers] erhöht den ANG-Boost um 50 %. Nach dem Erlangen von dieses Skill wird der Krit. Schaden aller Verbündeten für 10 Sek. um 35 % erhöht.",
+        "4": "[Wissen des Hauptgeldgebers] erhöht den ANG-Boost um 50 %. Nach dem Erlangen von dieses Skill wird der Krit. Schaden aller Verbündeten für 10 Sek. um 42 % erhöht.",
+        "5": "[Wissen des Hauptgeldgebers] erhöht den ANG-Boost um 50 %. Nach dem Erlangen von dieses Skill wird der Krit. Schaden aller Verbündeten für 10 Sek. um 50 % erhöht."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 5-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört die Seele von Unendlicher Aufzeichner, Accordio und erhält sofort 2x Wissen des Hauptgeldgebers. Außerdem wird 10 Sek. lang der Krit. Schaden des Verbündeten mit dem höchsten ANG um 50 % und dem Boss zugefügter Schaden um 20 % erhöht.",
+    "cooldown": "21",
+    "uses": "6",
+    "thumbnail": "heroes/Veronica/sw.png",
+    "advancement": {
+      "1": "Wirkungsdauer wird um 4 Sek. erhöht.",
+      "2": "Der erhaltene Effekt des Verbündeten mit dem höchsten ANG wird um 100 % erhöht."
+    },
+    "story": "Accordio, das Bürogegenstand von Veronica, ist das beste magische Instrument, aber sie möchte, dass es mehr Zwecke als jetzt erfüllt. Also machte sie ein Experiment, um die Funktion von Accordio zu erhöhen. Nachdem sie den Turm der Weisen verlassen hatte, studierte sie keine Magie mehr, aber ihr großes Talent führte das Experiment reibungslos an. Schließlich erreichte ihre Forschung den Höhepunkt, Accordio erwachte als Gestalt, die den endlosen Herausforderungsgeist von ihr bewunderte."
+  },
+  "splashart": "heroes/Veronica/sa.png",
+  "costumes": "heroes/Veronica/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

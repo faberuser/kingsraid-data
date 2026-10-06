@@ -1,0 +1,280 @@
+{
+  "id": "Baudouin",
+  "profile": {
+    "name": "Baudouin",
+    "title": "Heiliges Rauhbein Baudouin",
+    "class": "Priest",
+    "position": "Middle-100",
+    "attack_range": "2400",
+    "damage_type": "Magical",
+    "gender": "Männlich",
+    "age": "28",
+    "height": "190",
+    "race": "Menschen",
+    "constellation": "Layan, der Richter",
+    "birth": {
+      "month": 9,
+      "day": 12,
+      "monthName": "Monat der Wahrheit"
+    },
+    "like": "Lua",
+    "dislike": "Lua",
+    "story": "Baudouin ist der ungewöhnlichste Priester der Kirche von Lua und ist, kurz gesagt, ein Eigenbrötler. Seit seiner Kindheit war er stets ein schwarzes Schaf in der Kirche von Lua, die Wert auf Frömmigkeit legt. Er trat der Kirche mithilfe des Hohepriesters Berman bei, doch das religiöse Leben war äußerst schlecht für ihn geeignet. Und doch entschied er sich eines Tages dazu, sein früheres, abartiges Leben zu beenden und begab sich auf den Pfad des Hohepriestertums.",
+    "thumbnail": "heroes/Baudouin/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Heilige Nova",
+      "cost": "2",
+      "cooldown": "6",
+      "description": "Heilt den Verbündeten mit den niedrigsten aktuellen LP und nahe Verbündete um 3478*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 564.5% ATK LP, fügt Gegnern in der Nähe 328*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 205.3% ATK Magieschaden zu und reduziert ihr Angriffstempo für 10 Sek. um 25%.",
+      "thumbnail": "heroes/Baudouin/skills/1.png"
+    },
+    "2": {
+      "name": "Speer des Lichts",
+      "cost": "2",
+      "cooldown": "15",
+      "description": "Fügt einem Gegner 713*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 453.2% ATK Magieschaden zu, stößt ihn zurück, hält ihn für 6 Sek. fest und erhöht seinen erlittenen Magieschaden für 6 Sek. um 25%.",
+      "thumbnail": "heroes/Baudouin/skills/2.png"
+    },
+    "3": {
+      "name": "Heiliger Schutz",
+      "cost": "1",
+      "cooldown": "40",
+      "description": "Gewährt allen Verbündeten für 7 Sek. Unbesiegbarkeit und stellt alle 1 Sek. 394*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 64% ATK LP wieder her.",
+      "thumbnail": "heroes/Baudouin/skills/3.png"
+    },
+    "4": {
+      "name": "Gottes Training",
+      "cost": null,
+      "cooldown": null,
+      "description": "Hat bei einem Treffer eine Chance von 20%, dem Ziel 368*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 231.2% ATK Magieschaden zuzufügen und es für 0.9 Sek. zu betäuben.",
+      "thumbnail": "heroes/Baudouin/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Heilungsrate und Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Heilungsrate und Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Heilungsrate und Schaden um [64ff64]25[-] %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "3": {
+      "II": "Erhöht Heilungsrate um [64ff64]10[-] %.",
+      "III": "Erhöht Heilungsrate um [64ff64]15[-] %.",
+      "IV": "Erhöht ANG-GESCHW. um [64ff64]250[-] % für die Wirkungsdauer."
+    },
+    "4": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht Schaden und Heilungsrate um 40 %.",
+          "thumbnail": "heroes/Baudouin/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Betäubt getroffene Feinde für 1 Sek.",
+          "thumbnail": "heroes/Baudouin/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Erhöht Schaden um 100 %, wenn nur 1 Feind auf dem Schlachtfeld ist.",
+          "thumbnail": "heroes/Baudouin/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Die MP-Kosten steigen um 1000, aber die Anzahl der Ziele steigt um 3.",
+          "thumbnail": "heroes/Baudouin/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1000.",
+          "thumbnail": "heroes/Baudouin/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Die MP-Kosten steigen um 3000 und die Unverwundbarkeit wird um 3 Sek. verkürzt, aber der ANG aller Verbündeten steigt für 10 Sek. um 50% und die Abklingzeit sinkt um 15 Sek.",
+          "thumbnail": "heroes/Baudouin/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht Aktivierungschance um 10 %.",
+          "thumbnail": "heroes/Baudouin/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erhöht die maximale Anzahl der ANG-Erhöhungsstapel um 5.",
+          "thumbnail": "heroes/Baudouin/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATK, DEF, HP+15 % / Mag. Blockchance +200",
+        "thumbnail": "heroes/Baudouin/perks/light.png"
+      },
+      "dark": {
+        "effect": "Beim Angriff mit Heiliger Nova oder Speer des Lichts wird 100 % der ANG als zusätzlicher Mag. Schaden verursacht. Reduziert den Cooldown des benutzten Skills um 20 %.",
+        "thumbnail": "heroes/Baudouin/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Alt und Neu, Genesis",
+    "description": "Erhöht die eigene Aktivierungsgeschwindigkeit von Fähigkeiten. Jede verwendete Fähigkeit erhöht den ANG aller Verbündeten um {0}% und ihre Magie-VERT um {1}%. Bis zu 7-mal stapelbar.",
+    "thumbnail": "heroes/Baudouin/uw.png",
+    "story": "Selbst unter den Relikten der Hohepriester der Kirche von Lua ist das Buch der Götter besonders. Glaubt man der Legende schrieb Lua dieses Buch, das über die Jahre von den Großpriestern der Kirche bewahrt wurde, selbst. Iris, der gegenwärtige Großpriester vertraute das Buch seinem Stiefvater Berman an, nachdem er wegen Baudouin eine Offenbarung hatte. Später erhielt Baudouin das Buch, als er zum Hohepriester wurde. Es heißt, dass diese göttliche Reliquie seinen Besitzer mit unendlicher heiliger Energie versorgt und ihn ermächtigt, das wahre Potential aller Gläubigen zu erschließen.",
+    "value": {
+      "0": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.8",
+        "3": "3.2",
+        "4": "3.6",
+        "5": "4"
+      },
+      "1": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.8",
+        "3": "3.2",
+        "4": "3.6",
+        "5": "4"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Erhöht die eigene Aktivierungsgeschwindigkeit von Fähigkeiten. Jede verwendete Fähigkeit erhöht den ANG aller Verbündeten um 2% und ihre Magie-VERT um 2%. Bis zu 7-mal stapelbar.",
+      "1": "Erhöht die eigene Aktivierungsgeschwindigkeit von Fähigkeiten. Jede verwendete Fähigkeit erhöht den ANG aller Verbündeten um 2.4% und ihre Magie-VERT um 2.4%. Bis zu 7-mal stapelbar.",
+      "2": "Erhöht die eigene Aktivierungsgeschwindigkeit von Fähigkeiten. Jede verwendete Fähigkeit erhöht den ANG aller Verbündeten um 2.8% und ihre Magie-VERT um 2.8%. Bis zu 7-mal stapelbar.",
+      "3": "Erhöht die eigene Aktivierungsgeschwindigkeit von Fähigkeiten. Jede verwendete Fähigkeit erhöht den ANG aller Verbündeten um 3.2% und ihre Magie-VERT um 3.2%. Bis zu 7-mal stapelbar.",
+      "4": "Erhöht die eigene Aktivierungsgeschwindigkeit von Fähigkeiten. Jede verwendete Fähigkeit erhöht den ANG aller Verbündeten um 3.6% und ihre Magie-VERT um 3.6%. Bis zu 7-mal stapelbar.",
+      "5": "Erhöht die eigene Aktivierungsgeschwindigkeit von Fähigkeiten. Jede verwendete Fähigkeit erhöht den ANG aller Verbündeten um 4% und ihre Magie-VERT um 4%. Bis zu 7-mal stapelbar."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Alter heiliger Gral",
+      "description": "[Heilige Nova] verringert die Manakosten um 1 und erhöht die Heilungsrate um {0} %.",
+      "thumbnail": "heroes/Baudouin/ut/1.png",
+      "story": "Ein hölzerner Grad, auf dem Göttin Luas Gesicht eingraviert ist.\nAls die Menschen zum ersten Mal von Luas Existenz erfahren haben, haben sie ihr zu Ehren diesen Gral hergestellt. Als die Zivilisation auf dem Orbis-Kontinent untergegangen ist, wurde der Gral vergraben und nur noch in alten Aufzeichnungen erwähnt. Doch als Baudouin eines Tages Reue für seine Sünden zeigte und das heilige Buch als Wahrheit annahm, erschien dieser alte heilige Gral vor ihm, der so hell wie die Sonne glänzt.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Heilige Nova] verringert die Manakosten um 1 und erhöht die Heilungsrate um 20 %.",
+        "1": "[Heilige Nova] verringert die Manakosten um 1 und erhöht die Heilungsrate um 24 %.",
+        "2": "[Heilige Nova] verringert die Manakosten um 1 und erhöht die Heilungsrate um 29 %.",
+        "3": "[Heilige Nova] verringert die Manakosten um 1 und erhöht die Heilungsrate um 35 %.",
+        "4": "[Heilige Nova] verringert die Manakosten um 1 und erhöht die Heilungsrate um 42 %.",
+        "5": "[Heilige Nova] verringert die Manakosten um 1 und erhöht die Heilungsrate um 50 %."
+      }
+    },
+    "2": {
+      "name": "Letztes Kapitel der Bibel",
+      "description": "[Speer des Lichts] gewährt während der Fähigkeit Immunität gegen Kontrolleffekte und erhöht den erlittenen Magieschaden des Ziels für 10 Sek. um {0}%.",
+      "thumbnail": "heroes/Baudouin/ut/2.png",
+      "story": "Das letzte Kapitel der Legende, das zu furchtbar und angsteinflößend war, um es in die Bibel aufzunehmen. \nEs spricht vom heiligen Licht, das den dunkelsten Feind der Welt tötet.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Speer des Lichts] gewährt während der Fähigkeit Immunität gegen Kontrolleffekte und erhöht den erlittenen Magieschaden des Ziels für 10 Sek. um 10%.",
+        "1": "[Speer des Lichts] gewährt während der Fähigkeit Immunität gegen Kontrolleffekte und erhöht den erlittenen Magieschaden des Ziels für 10 Sek. um 12%.",
+        "2": "[Speer des Lichts] gewährt während der Fähigkeit Immunität gegen Kontrolleffekte und erhöht den erlittenen Magieschaden des Ziels für 10 Sek. um 14%.",
+        "3": "[Speer des Lichts] gewährt während der Fähigkeit Immunität gegen Kontrolleffekte und erhöht den erlittenen Magieschaden des Ziels für 10 Sek. um 17%.",
+        "4": "[Speer des Lichts] gewährt während der Fähigkeit Immunität gegen Kontrolleffekte und erhöht den erlittenen Magieschaden des Ziels für 10 Sek. um 21%.",
+        "5": "[Speer des Lichts] gewährt während der Fähigkeit Immunität gegen Kontrolleffekte und erhöht den erlittenen Magieschaden des Ziels für 10 Sek. um 25%."
+      }
+    },
+    "3": {
+      "name": "Alter Rosenkranz",
+      "description": "[Heiliger Schutz] erhöht ANG um 25 % und stellt {0} Mana pro Sek. wieder her während der Wirkungsdauer.",
+      "thumbnail": "heroes/Baudouin/ut/3.png",
+      "story": "Der Rosenkranz, den die heilige Priesterin Evelyn der Kirche von Lua bis zu ihrem Tod bei sich trug. Es ist, als könne man Luas Stimme aus dem Rosenkranz hören, die dafür betet, dass die Welt nicht zusammenbricht. Die unbestreitbare heilige Energie umfängt den Körper und maximiert Baudouins Kraft.",
+      "value": {
+        "0": {
+          "0": "120",
+          "1": "140",
+          "2": "170",
+          "3": "200",
+          "4": "250",
+          "5": "300"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Heiliger Schutz] erhöht ANG um 25 % und stellt 120 Mana pro Sek. wieder her während der Wirkungsdauer.",
+        "1": "[Heiliger Schutz] erhöht ANG um 25 % und stellt 140 Mana pro Sek. wieder her während der Wirkungsdauer.",
+        "2": "[Heiliger Schutz] erhöht ANG um 25 % und stellt 170 Mana pro Sek. wieder her während der Wirkungsdauer.",
+        "3": "[Heiliger Schutz] erhöht ANG um 25 % und stellt 200 Mana pro Sek. wieder her während der Wirkungsdauer.",
+        "4": "[Heiliger Schutz] erhöht ANG um 25 % und stellt 250 Mana pro Sek. wieder her während der Wirkungsdauer.",
+        "5": "[Heiliger Schutz] erhöht ANG um 25 % und stellt 300 Mana pro Sek. wieder her während der Wirkungsdauer."
+      }
+    },
+    "4": {
+      "name": "Versengtes Tagebuch",
+      "description": "[Göttertraining] erhöht die Betäubungsdauer um {0} Sek. Getroffene Feinde erleiden für 5 Sek. um 25 % erhöhten Mag. Schaden.",
+      "thumbnail": "heroes/Baudouin/ut/4.png",
+      "story": "Das letzte Tagebuch eines großen Lehrers.\nEs enthält Priester Bermans Behandlungsmethoden für die Schwarze Pest sowie eine Zusammenfassung seines eigenen Kampfes gegen die Krankheit.\nBaudouin konnte das Tagebuch retten, als die ehemaligen Besitztümer des Lehrers nach dessen Tod verbrannt wurden. Anschließend schrieb er es mit Leo zusammen ab und nannte es Bermans Tagebuch. Es war eine große Hilfe beim Kampf gegen die Schwarze Pest.\nBaudouin hat das Original als Erinnerung an den Willen seines Lehrers behalten.",
+      "value": {
+        "0": {
+          "0": "0.5",
+          "1": "0.6",
+          "2": "0.7",
+          "3": "0.8",
+          "4": "0.9",
+          "5": "1"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Göttertraining] erhöht die Betäubungsdauer um 0,5 Sek. Getroffene Feinde erleiden für 5 Sek. um 25 % erhöhten Mag. Schaden.",
+        "1": "[Göttertraining] erhöht die Betäubungsdauer um 0,6 Sek. Getroffene Feinde erleiden für 5 Sek. um 25 % erhöhten Mag. Schaden.",
+        "2": "[Göttertraining] erhöht die Betäubungsdauer um 0,7 Sek. Getroffene Feinde erleiden für 5 Sek. um 25 % erhöhten Mag. Schaden.",
+        "3": "[Göttertraining] erhöht die Betäubungsdauer um 0,8 Sek. Getroffene Feinde erleiden für 5 Sek. um 25 % erhöhten Mag. Schaden.",
+        "4": "[Göttertraining] erhöht die Betäubungsdauer um 0,9 Sek. Getroffene Feinde erleiden für 5 Sek. um 25 % erhöhten Mag. Schaden.",
+        "5": "[Göttertraining] erhöht die Betäubungsdauer um 1 Sek. Getroffene Feinde erleiden für 5 Sek. um 25 % erhöhten Mag. Schaden."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill [64ff64]5[-]-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört die Seele von [Alt und Neu, Genesis] für 10 Sek. und erhöht die Zielzahl normaler Angriffe auf 2. Heilt alle 2 Sek. alle Verbündeten um 400% des ANG und entfernt ihre negativen Effekte.",
+    "cooldown": "22",
+    "uses": "5",
+    "thumbnail": "heroes/Baudouin/sw.png",
+    "advancement": {
+      "1": "Seelenwaffen-Verwendungsbedingungen werden auf 4 geändert.",
+      "2": "Während der Wirkungsdauer wird der erhaltene Schaden aller Verbündeten um 30 % verringert und die Heilungsrate um 50 % erhöht."
+    },
+    "story": "- Himmel, dieses Buch ist langweilig.\nSagte Baudouin, als er das Buch schloss. Er bereitete sich darauf vor, seinen Kopf auf das Buch zu legen. In diesem Moment gab das Buch ein starkes, schimmerndes Licht ab und Baudouin war sofort sehr überrascht. Das leuchtende Buch blätterte die Seiten schnell um. Schließlich hörte das Umdrehen auf und aus dem scheinenden Licht erschien ein alter Mann, den Baudouin noch nie zuvor gesehen hatte. Baudouin beobachtete das ganze Ereignis mit einem geistesabwesendem Gesicht. \n- Du da! Ich kann nicht mehr nur zuschauen! Ich hatte große Hoffnungen für dich! Du bist mit solch einer großen heiligen Kraft gesegnet worden! Ich hatte Pläne für ... \n- Ähm, wer seid Ihr denn ...?\n – Was!? Du weißt nicht einmal, welches Buch du gelesen hast?! Dieses Buch, das dir Kraft gab?! Ich bin Genesis, die wahre eigene Erscheinung dieses Buches, das du von deinem Pflegevater geerbt hast!"
+  },
+  "splashart": "heroes/Baudouin/sa.png",
+  "costumes": "heroes/Baudouin/cos",
+  "_localization": {
+    "locale": "de",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

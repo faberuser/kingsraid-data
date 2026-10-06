@@ -1,0 +1,276 @@
+{
+  "id": "Luna",
+  "profile": {
+    "name": "Luna",
+    "title": "Kind des Mondlichts Luna",
+    "class": "Archer",
+    "position": "Back-300",
+    "attack_range": "2900",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "???",
+    "height": "110",
+    "race": "Tierkreuzungen (Hase)",
+    "constellation": "Kandala, der Eroberer",
+    "birth": {
+      "month": 8,
+      "day": 8,
+      "monthName": "Monat der Lebenskraft"
+    },
+    "like": "Karotten; Freunde",
+    "dislike": "Hunger",
+    "story": "Lulus sind ein Volk seltener Tierkreuzungen, die äußerst selten sind und oftmals als mythisch angesehen werden. Sie leben in einer extrem kalten Region und haben Angst vor dem Kontakt mit der Außenwelt. Eines Tages wurde ein Lulu-Kind mit einer für sein Volk völlig untypischen Persönlichkeit geboren. Dieses Kind ist Luna. Sie war keines unglücklich über das Verhalten ihres Volkes und hatte auch keine große Absicht, die Außenwelt zu erkunden. Sie wollte einfach nur Blumen pflücken. Dann ging sie etwas weiter, um einige gefrorene Zweige für ihre Schleuder zu klauben. Und schließlich folgte sie dem Geruch einer süßen, roten Frucht. Und ehe sie sich’s versah, war sie draußen und lief in Richtung eines Karottenfelds fernab des Berges.",
+    "thumbnail": "heroes/Luna/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Pew!",
+      "cost": "1",
+      "cooldown": "8",
+      "description": "Löst einen Angriff aus, der vom nächsten Gegner aus 4-mal abprallt und jedem getroffenen Gegner 684*(1+0.3Skill Level)+300% of Attack Power Magieschaden zufügt. Je weiter der Gegner entfernt ist, desto höher der Schaden, bis zu 100%.",
+      "thumbnail": "heroes/Luna/skills/1.png"
+    },
+    "2": {
+      "name": "Achtung, oben!",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Fügt einem zufälligen Gegner und Gegnern in dessen Nähe 2-mal 792(1+0.3Skill Level)+347.5% of Attack Power Magieschaden zu und betäubt sie für 1.8 Sek. Je weiter der Gegner entfernt ist, desto höher der Schaden, bis zu 200%.",
+      "thumbnail": "heroes/Luna/skills/2.png"
+    },
+    "3": {
+      "name": "Funkel Funkel",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Fügt Gegnern in Reichweite 6-mal 342(1+0.3Skill Level)+150% of Attack Power Magieschaden zu, stößt sie für 1.8 Sek. zurück und reduziert ihre Krit.-Chance für 7 Sek. um 100%. Je weiter der Gegner entfernt ist, desto höher der Schaden, bis zu 150%.",
+      "thumbnail": "heroes/Luna/skills/3.png"
+    },
+    "4": {
+      "name": "Hab dich!",
+      "cost": null,
+      "cooldown": "12",
+      "description": "Greift den am weitesten entfernten Gegner an, verursacht 799(1+0.3*Skill Level)+350% of Attack Power Magieschaden, stößt ihn für 1.2 Sek. zurück und erhöht seinen erlittenen Magieschaden für 6 Sek. um 20%. Je weiter der Gegner entfernt ist, desto höher der Schaden, bis zu 200%.",
+      "thumbnail": "heroes/Luna/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Massenkontroll-Immunität während der Wirkungsdauer.",
+          "thumbnail": "heroes/Luna/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Betäubt getroffene Gegner für 1.2 Sek.",
+          "thumbnail": "heroes/Luna/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Die Manakosten steigen um 2000, aber die Trefferzahl steigt um 2.",
+          "thumbnail": "heroes/Luna/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Die Manakosten steigen um 1000, aber der entfernteste Gegner wird zum Ziel.",
+          "thumbnail": "heroes/Luna/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Senkt die Genauigkeit getroffener Gegner für 7 Sek. um 200.",
+          "thumbnail": "heroes/Luna/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Erhöht Schaden um 100 %, wenn nur 1 Feind auf dem Schlachtfeld ist.",
+          "thumbnail": "heroes/Luna/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Entfernt positive Effekte des Feindes.",
+          "thumbnail": "heroes/Luna/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Ändert Anzahl der Ziele zu 2.",
+          "thumbnail": "heroes/Luna/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Schaden +20 %",
+        "thumbnail": "heroes/Luna/perks/light.png"
+      },
+      "dark": {
+        "effect": "Aktiviert den Karottensegen, erhöht den verursachten Schaden gegenüber Feinde, die keine Helden sind, um 30 % und verringert den erhaltenen Schaden um 30 %.",
+        "thumbnail": "heroes/Luna/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Blume der Ewigkeit, Hyacinth",
+    "description": "Erhöht Krit. Schaden um {0} %, Schaden durch normale Angriffe um {1} % und Reichweite um {2} %.",
+    "value": {
+      "0": {
+        "0": "40",
+        "1": "48",
+        "2": "58",
+        "3": "70",
+        "4": "84",
+        "5": "100"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "2": {
+        "0": "12",
+        "1": "14.4",
+        "2": "17.2",
+        "3": "21",
+        "4": "25",
+        "5": "30"
+      }
+    },
+    "thumbnail": "heroes/Luna/uw.png",
+    "story": "Eine Schleuder, die aus einer Hyazinthe hergestellt wurde. Dieser silbrige Baum wächst nur in sehr kalten Regionen. Es heißt, Hyazinthen hätten den Segen der Eiskönigin erhalten und wären in der Lage, selbst bei extremer Kälte leuchtend-rote Beeren zu tragen. Allein die Berührung eines Hyazinthenzweiges ermöglicht es einer Person, die Kälte um sie herum zu vergessen. Diese gesegneten Bäume haben außerdem die Macht, Schneestürme und Frost herbeizurufen. Selbstverständlich können diese Kräfte am besten genutzt werden, wenn man die Bäume zum Schnitzen von Waffen verwendet.",
+    "descriptionByStar": {
+      "0": "Erhöht Krit. Schaden um 40 %, Schaden durch normale Angriffe um 20 % und Reichweite um 12 %.",
+      "1": "Erhöht Krit. Schaden um 48 %, Schaden durch normale Angriffe um 24 % und Reichweite um 14.4 %.",
+      "2": "Erhöht Krit. Schaden um 58 %, Schaden durch normale Angriffe um 29 % und Reichweite um 17.2 %.",
+      "3": "Erhöht Krit. Schaden um 70 %, Schaden durch normale Angriffe um 35 % und Reichweite um 21 %.",
+      "4": "Erhöht Krit. Schaden um 84 %, Schaden durch normale Angriffe um 42 % und Reichweite um 25 %.",
+      "5": "Erhöht Krit. Schaden um 100 %, Schaden durch normale Angriffe um 50 % und Reichweite um 30 %."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Goldene Glocke des Glücks",
+      "description": "[Pew!] erhöht den Schaden um {0} % und stellt bei einem Krit. Treffer 200 Mana wieder her.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Luna/ut/1.png",
+      "story": "Eine goldene Glocke, die Glück bringt.\nLuna liebt diese Glocke und sie glitzert hell, wenn sie umherwandert. Nur Karotten bedeuten ihr noch mehr. Der Klang der goldenen Glocke hat eine mystische Kraft, mit der sie das Glück ihrer Heimat beschwören kann.",
+      "descriptionByStar": {
+        "0": "[Pew!] erhöht den Schaden um 20 % und stellt bei einem Krit. Treffer 200 Mana wieder her.",
+        "1": "[Pew!] erhöht den Schaden um 24 % und stellt bei einem Krit. Treffer 200 Mana wieder her.",
+        "2": "[Pew!] erhöht den Schaden um 29 % und stellt bei einem Krit. Treffer 200 Mana wieder her.",
+        "3": "[Pew!] erhöht den Schaden um 35 % und stellt bei einem Krit. Treffer 200 Mana wieder her.",
+        "4": "[Pew!] erhöht den Schaden um 42 % und stellt bei einem Krit. Treffer 200 Mana wieder her.",
+        "5": "[Pew!] erhöht den Schaden um 50 % und stellt bei einem Krit. Treffer 200 Mana wieder her."
+      }
+    },
+    "2": {
+      "name": "Mondlicht-Karotte",
+      "description": "[Achtung, oben!] erhöht den Schaden um {0} % und verringert den Cooldown um 10 % bei einem Krit. Treffer.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Luna/ut/2.png",
+      "story": "Eine Karotte, die gewachsen ist, indem sie tausendmal Mondlicht erhielt. \nWird jemand von der Karotte getroffen, wird alles Böse aus ihm entfernt und er ist in der Lage, Gut und Böse zu unterscheiden.",
+      "descriptionByStar": {
+        "0": "[Achtung, oben!] erhöht den Schaden um 20 % und verringert den Cooldown um 10 % bei einem Krit. Treffer.",
+        "1": "[Achtung, oben!] erhöht den Schaden um 24 % und verringert den Cooldown um 10 % bei einem Krit. Treffer.",
+        "2": "[Achtung, oben!] erhöht den Schaden um 29 % und verringert den Cooldown um 10 % bei einem Krit. Treffer.",
+        "3": "[Achtung, oben!] erhöht den Schaden um 35 % und verringert den Cooldown um 10 % bei einem Krit. Treffer.",
+        "4": "[Achtung, oben!] erhöht den Schaden um 42 % und verringert den Cooldown um 10 % bei einem Krit. Treffer.",
+        "5": "[Achtung, oben!] erhöht den Schaden um 50 % und verringert den Cooldown um 10 % bei einem Krit. Treffer."
+      }
+    },
+    "3": {
+      "name": "Niemals schmelzende Schneeblume",
+      "description": "[Funkel Funkel] Krit. Chance-Reduktionseffekt kann nicht entfernt werden und die Skill-Dauer wird um {0} Sek. erhöht.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
+      "thumbnail": "heroes/Luna/ut/3.png",
+      "story": "Eine legendäre Blume der Schneefelder, die im niemals schmelzenden Land des Windland-Schneegebirges blüht. Es heißt, dass sie die Energie im Körper ihres Meisters klar und schön fließen lässt. Ein Gegenstand, der Lunas reine Energie noch heller scheinen lässt.",
+      "descriptionByStar": {
+        "0": "[Funkel Funkel] Krit. Chance-Reduktionseffekt kann nicht entfernt werden und die Skill-Dauer wird um 2 Sek. erhöht.",
+        "1": "[Funkel Funkel] Krit. Chance-Reduktionseffekt kann nicht entfernt werden und die Skill-Dauer wird um 2,4 Sek. erhöht.",
+        "2": "[Funkel Funkel] Krit. Chance-Reduktionseffekt kann nicht entfernt werden und die Skill-Dauer wird um 2,9 Sek. erhöht.",
+        "3": "[Funkel Funkel] Krit. Chance-Reduktionseffekt kann nicht entfernt werden und die Skill-Dauer wird um 3,5 Sek. erhöht.",
+        "4": "[Funkel Funkel] Krit. Chance-Reduktionseffekt kann nicht entfernt werden und die Skill-Dauer wird um 4,2 Sek. erhöht.",
+        "5": "[Funkel Funkel] Krit. Chance-Reduktionseffekt kann nicht entfernt werden und die Skill-Dauer wird um 5 Sek. erhöht."
+      }
+    },
+    "4": {
+      "name": "Karottenkuchen",
+      "description": "[Hab dich!] reduziert die Abklingzeit um {0} Sek. und entfernt eigene negative Effekte, wenn ein Kontrolleffekt eintritt. Nur alle 20 Sek. aktivierbar.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
+      "thumbnail": "heroes/Luna/ut/4.png",
+      "story": "Junos spezieller Karottenkuchen.\nDieser spezielle Karottenkuchen wurde für Luna gebacken, die ihre Familie in ihrer Heimat und die Karotten, die sie immer gegessen hat, vermisst.\nDa der Kuchen gleich schmeckt wie die Karotten, die Luna immer zu Hause gegessen hat, ist er zu ihrer neuen Seelennahrung geworden.",
+      "descriptionByStar": {
+        "0": "[Hab dich!] reduziert die Abklingzeit um 2 Sek. und entfernt eigene negative Effekte, wenn ein Kontrolleffekt eintritt. Nur alle 20 Sek. aktivierbar.",
+        "1": "[Hab dich!] reduziert die Abklingzeit um 2.4 Sek. und entfernt eigene negative Effekte, wenn ein Kontrolleffekt eintritt. Nur alle 20 Sek. aktivierbar.",
+        "2": "[Hab dich!] reduziert die Abklingzeit um 2.9 Sek. und entfernt eigene negative Effekte, wenn ein Kontrolleffekt eintritt. Nur alle 20 Sek. aktivierbar.",
+        "3": "[Hab dich!] reduziert die Abklingzeit um 3.5 Sek. und entfernt eigene negative Effekte, wenn ein Kontrolleffekt eintritt. Nur alle 20 Sek. aktivierbar.",
+        "4": "[Hab dich!] reduziert die Abklingzeit um 4.2 Sek. und entfernt eigene negative Effekte, wenn ein Kontrolleffekt eintritt. Nur alle 20 Sek. aktivierbar.",
+        "5": "[Hab dich!] reduziert die Abklingzeit um 5 Sek. und entfernt eigene negative Effekte, wenn ein Kontrolleffekt eintritt. Nur alle 20 Sek. aktivierbar."
+      }
+    }
+  },
+  "splashart": "heroes/Luna/sa.png",
+  "costumes": "heroes/Luna/cos",
+  "_localization": {
+    "locale": "de",
+    "version": "ccbt",
+    "englishFallbackFields": []
+  }
+}

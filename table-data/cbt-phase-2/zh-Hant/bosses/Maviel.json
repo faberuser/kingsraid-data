@@ -1,0 +1,52 @@
+{
+  "id": "Maviel",
+  "profile": {
+    "name": "馬彼耶爾",
+    "title": "瘋狂刺客",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "黑暗精靈",
+    "damage_type": "Physical",
+    "recommended_heroes": "黛彌兒, 巴杜因, 愛紗",
+    "characteristics": "[闇影隱形]會以一種特殊的狀態迴避所有攻擊，當累計迴避達100次時將現出原形。必須運用打擊次數多且攻擊速度快的英雄來進行有效應對。",
+    "thumbnail": "bosses/Maviel.png"
+  },
+  "skills": {
+    "1": {
+      "name": "影之斬擊",
+      "cost": null,
+      "cooldown": "15",
+      "description": "快速向任意目標移動，造成5次物理傷害。每次攻擊都會造成10秒的出血狀態與永久持續、無法被解除的回復力降低。"
+    },
+    "2": {
+      "name": "狂怒暴發",
+      "cost": null,
+      "cooldown": "15",
+      "description": "陷入狂怒狀態，10秒內提升攻擊力、暴擊機率及攻擊速度。"
+    },
+    "3": {
+      "name": "兇殘",
+      "cost": null,
+      "cooldown": "30",
+      "description": "向生命值最低的敵人移動造成大量物理傷害。"
+    },
+    "4": {
+      "name": "影之隱匿",
+      "cost": null,
+      "cooldown": "40",
+      "description": "每隔40秒將迴避一定次數的所有攻擊，迴避固定次數的攻擊後將陷入暈眩狀態。非隱身狀態時，受到的傷害將增加，並且攻擊速度固定。"
+    },
+    "5": {
+      "name": "淨化",
+      "cost": null,
+      "cooldown": null,
+      "description": "每30秒解除自身的負面效果，並提升攻擊速度。"
+    }
+  },
+  "aliases": [
+    "Maviel",
+    "GR5",
+    "GR 5"
+  ]
+}

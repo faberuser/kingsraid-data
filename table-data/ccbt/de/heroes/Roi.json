@@ -1,0 +1,268 @@
+{
+  "id": "Roi",
+  "profile": {
+    "name": "Roi",
+    "title": "Schnelle Mörderklinge Roi",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "400",
+    "damage_type": "Physical",
+    "gender": "Männlich",
+    "age": "20",
+    "height": "179",
+    "race": "Menschen",
+    "constellation": "Armil, der Ehrwürdige",
+    "birth": {
+      "month": 4,
+      "day": 1,
+      "monthName": "Monat des Lebens"
+    },
+    "like": "Derzeitiges Selbst",
+    "dislike": "Vergangenes Selbst",
+    "story": "Er ist Cleos Leibwächter und beschützt sie auf Dominics Geheiß. Früher war er Teil einer Gruppe von Assassinen, doch er riskierte aus unbekannten Gründen sein Leben und wurde abtrünnig. Wegen seiner Assassinenvergangenheit hat er nicht viel Respekt für andere übrig, doch die Härte des Lebens hat aus ihm einen erfahrenen Mann mit einem scharfen Verstand gemacht, der sich derer annimmt, die ihn gerecht behandeln.",
+    "thumbnail": "heroes/Roi/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Gnadenlos",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Fügt einem zufälligen Gegner 3-mal 243*(1+0.3*Skill Level)+140% ATK Körp. Schaden zu, wendet 1 Stapel [Schwere Wunde] an und erhöht seinen erlittenen Körp. Schaden für 4 Sek. um 30%.",
+      "thumbnail": "heroes/Roi/skills/1.png"
+    },
+    "2": {
+      "name": "Vorhang d. Dunkelheit",
+      "cost": "2",
+      "cooldown": "14",
+      "description": "Erhöht für 7 Sek. den ANG aller Verbündeten um 393*(1+0.3*Skill Level) und ihr Körp. Ausweichen um 300. Gewährt sich selbst für 7 Sek. [Todeshauch]: Erhöht Angriffstempo um 30% und Schaden an Gegnern um 25% und weicht allen physischen Angriffen aus.",
+      "thumbnail": "heroes/Roi/skills/2.png"
+    },
+    "3": {
+      "name": "Kingenkralle",
+      "cost": "3",
+      "cooldown": "3",
+      "description": "Bewegt sich hinter den Gegner und verursacht 799*(1+0.3*Skill Level)+459.4% ATK Körp. Schaden. Verbraucht alle [Schwere Wunde]-Stapel und verursacht pro 1 verbrauchten Stapeln zusätzlichen Körp. Schaden in Höhe von 137.8% des ANG. Kritische Treffer fügen 1 [Blutung]-Stapel hinzu und setzen die Abklingzeit von [Kingenkralle] zurück. [Blutung]: Verursacht für 15 Sek. alle 1 Sek. Körp. Schaden über Zeit in Höhe von 5% des ANG, bis zu 20 Stapeln.",
+      "thumbnail": "heroes/Roi/skills/3.png"
+    },
+    "4": {
+      "name": "Zerstücklung",
+      "cost": null,
+      "cooldown": "10",
+      "description": "Erhöht die Krit.-Chance um 300. Alle 10 Sek. verursacht ein kritischer normaler Angriff 6-mal 96*(1+0.3*Skill Level)+54.9% ATK Körp. Schaden. Jeder Treffer hat eine Chance von 50%, 1 [Schwere Wunde]-Stapel hinzuzufügen. [Schwere Wunde]: Verursacht für 15 Sek. alle 1 Sek. Körp. Schaden über Zeit in Höhe von 15% des ANG, bis zu 5 Stapeln.",
+      "thumbnail": "heroes/Roi/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "2": {
+      "II": "Erhöht ANG-Boost um [64ff64]10[-] %.",
+      "III": "Erhöht ANG-Boost um [64ff64]15[-] %.",
+      "IV": "Erhöht ANG-Boost um [64ff64]25[-] %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Ändert das Ziel zum Gegner mit den niedrigsten TP.",
+          "thumbnail": "heroes/Roi/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Ändert die Trefferanzahl auf 5-mal.",
+          "thumbnail": "heroes/Roi/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Entfernt eigene negative Effekte, ehe der Skill gewirkt wird.",
+          "thumbnail": "heroes/Roi/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Der Schaden normaler Angriffe steigt während der Dauer um 115 %.",
+          "thumbnail": "heroes/Roi/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Die Manakosten steigen um 1000, aber der Schaden steigt um 100 %.",
+          "thumbnail": "heroes/Roi/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Ändert das Ziel zum Gegner mit den niedrigsten TP.",
+          "thumbnail": "heroes/Roi/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Die Wahrscheinlichkeit, mit [Zerstücklung] Stapel von [Tödliche Wunde] anzuwenden, wird auf 100% geändert.",
+          "thumbnail": "heroes/Roi/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Jeder Treffer verringert die MP des Ziels um 150.",
+          "thumbnail": "heroes/Roi/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Schaden +20 %",
+        "thumbnail": "heroes/Roi/perks/light.png"
+      },
+      "dark": {
+        "effect": "Kritische Treffer erhöhen das Angriffstempo für 5 Sek. um 300% und den Krit. Schaden um 60%. Dieser Effekt kann nur alle 5 Sek. ausgelöst werden.",
+        "thumbnail": "heroes/Roi/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Atem des Phantoms, Redeal",
+    "description": "{0} % Chance, mit Normal- und Zerstücklung-ANG 1x-mal [Tödliche Wunde] zu stapeln. Pro [Tödliche Wunde] Stapel wird zus. Schaden in Höhe von {1} % des ANG zugefügt.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "12",
+        "1": "14",
+        "2": "17",
+        "3": "21",
+        "4": "25",
+        "5": "30"
+      }
+    },
+    "thumbnail": "heroes/Roi/uw.png",
+    "story": "Die Gruppe von Assassinen, bekannt als die Lachende Maske, beherrschten lange Zeit die Unterwelt Orvels. Nur der beste Assassine der Lachenden Maske hat die Erlaubnis, dieses schreckliche Dolchpaar zu führen. Es heißt, dass die durch die Dolche verursachten Wunden niemals verheilen und dass ihre Opfer unvermeidlich verbluten. Der Legende zufolge wurden die Dolche aus der Sense des Todes gefertigt.",
+    "descriptionByStar": {
+      "0": "20 % Chance, mit Normal- und Zerstücklung-ANG 1x-mal [Tödliche Wunde] zu stapeln. Pro [Tödliche Wunde] Stapel wird zus. Schaden in Höhe von 12 % des ANG zugefügt.",
+      "1": "24 % Chance, mit Normal- und Zerstücklung-ANG 1x-mal [Tödliche Wunde] zu stapeln. Pro [Tödliche Wunde] Stapel wird zus. Schaden in Höhe von 14 % des ANG zugefügt.",
+      "2": "29 % Chance, mit Normal- und Zerstücklung-ANG 1x-mal [Tödliche Wunde] zu stapeln. Pro [Tödliche Wunde] Stapel wird zus. Schaden in Höhe von 17 % des ANG zugefügt.",
+      "3": "35 % Chance, mit Normal- und Zerstücklung-ANG 1x-mal [Tödliche Wunde] zu stapeln. Pro [Tödliche Wunde] Stapel wird zus. Schaden in Höhe von 21 % des ANG zugefügt.",
+      "4": "42 % Chance, mit Normal- und Zerstücklung-ANG 1x-mal [Tödliche Wunde] zu stapeln. Pro [Tödliche Wunde] Stapel wird zus. Schaden in Höhe von 25 % des ANG zugefügt.",
+      "5": "50 % Chance, mit Normal- und Zerstücklung-ANG 1x-mal [Tödliche Wunde] zu stapeln. Pro [Tödliche Wunde] Stapel wird zus. Schaden in Höhe von 30 % des ANG zugefügt."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Schattenklinge",
+      "description": "[Keine Gnade]entfernt alle eigenen negativen Effekte auf und stellt bei einem Krit. Treffer {0} Mana wieder her.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
+      "thumbnail": "heroes/Roi/ut/1.png",
+      "story": "Eine Baghnakh, die wie die Klaue einer Bestie aussieht.\nEs handelt sich dabei um eine versteckt Waffe aus Damaszenerstahl, die von vielen Assassinen aus dem Osten eingesetzt wurde, um den Effekt der Schattenklinge zu verbessern. Die Schattenklinge wurde mit Hitze und Blut bearbeitet und mit einem Fluch belegt, der sie nach Blut dürsten lässt. Abgesehen von erfahrenen Assassinen halten sich die meisten Menschen von dieser Klinge fern.",
+      "descriptionByStar": {
+        "0": "[Keine Gnade]entfernt alle eigenen negativen Effekte auf und stellt bei einem Krit. Treffer 200 Mana wieder her.",
+        "1": "[Keine Gnade]entfernt alle eigenen negativen Effekte auf und stellt bei einem Krit. Treffer 240 Mana wieder her.",
+        "2": "[Keine Gnade]entfernt alle eigenen negativen Effekte auf und stellt bei einem Krit. Treffer 290 Mana wieder her.",
+        "3": "[Keine Gnade]entfernt alle eigenen negativen Effekte auf und stellt bei einem Krit. Treffer 350 Mana wieder her.",
+        "4": "[Keine Gnade]entfernt alle eigenen negativen Effekte auf und stellt bei einem Krit. Treffer 420 Mana wieder her.",
+        "5": "[Keine Gnade]entfernt alle eigenen negativen Effekte auf und stellt bei einem Krit. Treffer 500 Mana wieder her."
+      }
+    },
+    "2": {
+      "name": "Somas Kappe",
+      "description": "[Vorhang d. Dunkelheit] Verlängert die Dauer um 3 Sek. und erhöht den Schaden gegen Bosse um {0} %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Roi/ut/2.png",
+      "story": "Eine gefährliche Kappe, die nach den geheimen Methoden der Lachenden Maske hergestellt wurde. \nSie wurde mit dem legendären Soma geschaffen, das endlose Ausdauer verleihen soll, zusammen mit dem Geheimnis der Lachenden Maske. \nSomas Kappe verbessert die Moral eines Assassinen innerhalb des dunklen Vorhangs, was dessen ANG erhöht und verleiht Geschicklichkeit, wodurch sich K. Ausw. erhöht.",
+      "descriptionByStar": {
+        "0": "[Vorhang d. Dunkelheit] Verlängert die Dauer um 3 Sek. und erhöht den Schaden gegen Bosse um 10 %.",
+        "1": "[Vorhang d. Dunkelheit] Verlängert die Dauer um 3 Sek. und erhöht den Schaden gegen Bosse um 12 %.",
+        "2": "[Vorhang d. Dunkelheit] Verlängert die Dauer um 3 Sek. und erhöht den Schaden gegen Bosse um 14 %.",
+        "3": "[Vorhang d. Dunkelheit] Verlängert die Dauer um 3 Sek. und erhöht den Schaden gegen Bosse um 17 %.",
+        "4": "[Vorhang d. Dunkelheit] Verlängert die Dauer um 3 Sek. und erhöht den Schaden gegen Bosse um 21 %.",
+        "5": "[Vorhang d. Dunkelheit] Verlängert die Dauer um 3 Sek. und erhöht den Schaden gegen Bosse um 25 %."
+      }
+    },
+    "3": {
+      "name": "Gerissene Maske",
+      "description": "[Klingenkralle] verringert den Cooldown um 1 Sek. und erhöht des Schaden um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Roi/ut/3.png",
+      "story": "Die Maske, die von Roi zerstört wurde, als er die Assassinen der Lachenden Maske verließ. Assassinen zielen gnadenlos auf die Schwachstellen ihrer Feinde und tragen Masken, um ihre Emotionen zu verbergen, wenn sie ihre Ziele ausschalten. Roi stellt sich der gespaltenen Maske und greift seine Feinde von hinten an und tötet sie mit seinen Kingenkrallen, um seine Freunde zu beschützen.",
+      "descriptionByStar": {
+        "0": "[Klingenkralle] verringert den Cooldown um 1 Sek. und erhöht des Schaden um 20 %.",
+        "1": "[Klingenkralle] verringert den Cooldown um 1 Sek. und erhöht des Schaden um 24 %.",
+        "2": "[Klingenkralle] verringert den Cooldown um 1 Sek. und erhöht des Schaden um 29 %.",
+        "3": "[Klingenkralle] verringert den Cooldown um 1 Sek. und erhöht des Schaden um 35 %.",
+        "4": "[Klingenkralle] verringert den Cooldown um 1 Sek. und erhöht des Schaden um 42 %.",
+        "5": "[Klingenkralle] verringert den Cooldown um 1 Sek. und erhöht des Schaden um 50 %."
+      }
+    },
+    "4": {
+      "name": "Gespensterring",
+      "description": "[Zerstücklung] erhöht den Schaden um {0}% und fügt dem Ziel bei einem kritischen Treffer 1 Stapel [Blutung] zu.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Roi/ut/4.png",
+      "story": "Ein Ring, der an den Tag erinnern soll, an dem Roi seinen neuen Skill perfektioniert hat.\nRoi war sehr stolz, weil er sich eigene Skills aneignen konnte, die er Hacken nannte, ohne dabei auf die Techniken der Lachenden Masken zurückgreifen zu müssen.\nAuf dem Ring ist ein Bild des Geistes Redeal eingraviert. Es ist ein Beweis dafür, dass Roi seine Vergangenheit hinter sich gelassen hat, und es soll ihn gleichzeitig an seine Fehler erinnern.",
+      "descriptionByStar": {
+        "0": "[Zerstücklung] erhöht den Schaden um 20% und fügt dem Ziel bei einem kritischen Treffer 1 Stapel [Blutung] zu.",
+        "1": "[Zerstücklung] erhöht den Schaden um 24% und fügt dem Ziel bei einem kritischen Treffer 1 Stapel [Blutung] zu.",
+        "2": "[Zerstücklung] erhöht den Schaden um 29% und fügt dem Ziel bei einem kritischen Treffer 1 Stapel [Blutung] zu.",
+        "3": "[Zerstücklung] erhöht den Schaden um 35% und fügt dem Ziel bei einem kritischen Treffer 1 Stapel [Blutung] zu.",
+        "4": "[Zerstücklung] erhöht den Schaden um 42% und fügt dem Ziel bei einem kritischen Treffer 1 Stapel [Blutung] zu.",
+        "5": "[Zerstücklung] erhöht den Schaden um 50% und fügt dem Ziel bei einem kritischen Treffer 1 Stapel [Blutung] zu."
+      }
+    }
+  },
+  "splashart": "heroes/Roi/sa.png",
+  "costumes": "heroes/Roi/cos",
+  "_localization": {
+    "locale": "de",
+    "version": "ccbt",
+    "englishFallbackFields": []
+  }
+}

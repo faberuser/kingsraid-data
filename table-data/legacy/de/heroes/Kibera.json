@@ -1,0 +1,311 @@
+{
+  "id": "Kibera",
+  "profile": {
+    "name": "Kibera",
+    "title": "Gierige Klinge Kibera",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "7400",
+    "damage_type": "Magical",
+    "gender": "Männlich",
+    "age": "27",
+    "height": "186",
+    "race": "Menschen",
+    "constellation": "Graham, der Dieb",
+    "birth": {
+      "month": 5,
+      "day": 5,
+      "monthName": "Monat der Hoffnung"
+    },
+    "like": "Dämonenschwert, Idiot, der sich leicht täuschen lässt, gute Aussicht",
+    "dislike": "Insekten, bitteres Essen, Weissagung und Prophezeiung",
+    "story": "Ein Schwertmeister, der ständig guter Laune ist und aus dem Osten stammt.\nObwohl er aus dem Osten kommt, ist im Gegensatz zu seiner attraktiven Erscheinung sein Geschmack sehr normal. So mag er billiges Essen und ist ein erfahrener Schwertkämpfer, der von Dämonenschwerter krankhaft besessen ist.\nJeder mit gesundem Menschenverstand versucht, sich von Dämonenschwertern fernzuhalten, da man Angst vor dem Fluch und der Tragödie hat, die die \"böse Kraft\" in diesen Schwertern mit sich bringen kann, aber Kibera ist das egal. Im Gegenteil er freut sich über jedes Dämonenschwert, das er finden kann.\nSeine Augen strahlen voller Gier, wenn er ein Dämonenschwert findet, das er unbedingt haben möchte. Es ist als, ob seine Augen sagen würden: “Ich werde mir dieses Schwert unbedingt holen!” Für Kibera gibt es kein Gut oder Böse, keinen Nutzen oder Verlust und kein Leben oder Tod, wenn es um Dämonenschwerter geht. Diese furchtbare Besessenheit gegenüber Dämonenschwerter hat es geschafft die Menschen von Kibera fernzuhalten.\n\nAm Ende weiß niemand wirklich, was Kibera dazu treibt, Dämonenschwerter zu sammeln. Ist es Machtgier oder nur die Lust zum Sammeln?",
+    "thumbnail": "heroes/Kibera/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Huhu! Pass auf, sonst töte ich dich!",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Greift einen Gegner 11-mal an und fügt ihm insgesamt ??? Mag. Schaden zu. Danach wird 4 Sek. lang ein [Dunkelheitswirbel] erzeugt, wobei das Ziel und Feinde in der Nähe 8-mal angegriffen werden und ihnen insgesamt ??? Mag. Schaden zugefügt.\nWird Schwert der Tiefnacht, [Nachthimmel] ausgewählt, so erhöht sich der Schaden eigener Normal-ANG um 50 %. Mit jedem Normal-ANG verringert dich das Cooldown dieses Skills um 0.5 Sek.",
+      "thumbnail": "heroes/Kibera/skills/1.png"
+    },
+    "2 (1)": {
+      "name": "Keke! Lass uns noch eine Weile spielen!",
+      "cost": "2",
+      "cooldown": "15",
+      "description": "Nachdem alle eigenen negativen Effekte entfernt wurden, wird 5 Sek. lang [Schattenherrschaft] erzeugt. In dem [Schattenherrschaft] Zustand wird der ANG um ??? erhöht und dafür gesorgt, dass die TP nicht unter 10 % fallen. Danach kann innerhalb von 5 Sek. der [Haha! Das wird ein leichtes Spiel!] Skill erneut verwendet werden.\nWird Schwert des Tiefschattens, [Dunkelschatten] ausgewählt, so verringern sich die Manakosten dieses Skills um 1.",
+      "thumbnail": "heroes/Kibera/skills/2 (1).png"
+    },
+    "2 (2)": {
+      "name": "Haha! Das wird ein leichtes Spiel!",
+      "cost": null,
+      "cooldown": null,
+      "description": "Bewegt den Gegner mit dem höchsten ANG nach hinten, wobei der Gegner unter [Dunkelheitsverderbung] gesetzt und 10 Sek. lang die ANG-GESCHW um 400 verringert wird. Alle eigenen ANG werden zuerst auf die verdorbenen Ziele gerichtet.\nWird Schwert des Tiefschattens, [Dunkelschatten] ausgewählt, so werden die pos. Effekte des Gegners im Dunkelheitsverderbungs-Zustand entfernt und aller 1 Sek. verringern sich die MP um 250.",
+      "thumbnail": "heroes/Kibera/skills/2 (2).png"
+    },
+    "3": {
+      "name": "Dann lass uns das zu Ende bringen!!",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Steck das Schwert des zerstörenden Lichts, Veil in die Erde, um eine Schockwelle zu erzeugen, und dabei nahen Feinden in ringförmiger Reichweite ??? Mag. Schaden zuzufügen und sie für 5 Sek. zu betäuben. Danach wird 10 Sek. lang aller 2 Sek. auf einem zufälligen Feind ein [Dunkelheitsblitz] erzeugt, wobei dem Feind ??? Mag. Schaden zugefügt und er 0.5 Sek. lang betäubt wird.\nWird Schwert des zerstörenden Lichts, [Veil] ausgewählt, so erhöhen sich die Manakosten aller aktiven Skills um 1 Kugel und ein VERT-ignorierender Effekt wird hinzugefügt. Dabei wird den Gegnern, die durch [Dunkelheitsblitz] geschädigt wurden, 5 Sek. lang ein 50 % Heilungsrate-Reduzierungseffekt zusätzlich erzeugt.",
+      "thumbnail": "heroes/Kibera/skills/3.png"
+    },
+    "4": {
+      "name": "Drei-Schwerter-Stil",
+      "cost": null,
+      "cooldown": null,
+      "description": "Kibera kann beim Ersten Angriff ein Dämonenschwert aussuchen. Er ist zwar immun gegen Massenkontrolle, bis er ein Schwert ausgewählt hat, jedoch kann er seine MP nicht regenerieren. Wählt er eines der Schwerter, so werden die Skilleffekte und Werte des Schwertes verbessert.\nDie ANG-GESCHW von Schwert der Tiefnacht, [Nachthimmel] erhöht sich um ??? und der Effekt des [Huhu! Pass auf, sonst töte ich dich!] Skills wird verstärkt.\nDie VERT von Schwert des Tiefschattens, [Dunkelschatten] erhöht sich um ??? und der Effekt des [Keke! Lass uns noch eine Weile spielen!] Skills wird verstärkt.\nDer ANG von Schwert des zerstörenden Lichts, [Veil] erhöht sich um ??? und der Effekt des [Dann lass uns das zu Ende bringen!!] Skills wird verstärkt.",
+      "thumbnail": "heroes/Kibera/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht ANG- und VERT-Boost um 10 %.",
+      "III": "Erhöht ANG- und VERT-Boost um 15 %.",
+      "IV": "Erhöht ANG- und VERT-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Kibera/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Bei Verwendung wird immun gegen Massenkontrolle.",
+          "thumbnail": "heroes/Kibera/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Bei Verwendung von [Haha! Das wird ein leichtes Spiel!] werden alle Gegner 2 Sek. lang zum Schweigen gebracht.",
+          "thumbnail": "heroes/Kibera/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Wenn 3 Verbündete übrig sind, wird Schattenherrschaft auf alle Verbündete angewendet.",
+          "thumbnail": "heroes/Kibera/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Die Schockwelle entfernt alle pos. Effekte der Feinde in der Nähe.",
+          "thumbnail": "heroes/Kibera/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Die Manakosten erhöhen sich um 1 und der Schaden um 100 %.",
+          "thumbnail": "heroes/Kibera/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Der eigene ANG erhöht sich um 20 % und mit Beginn des Ersten Kampfes wird automatisch [Schwert der Tiefnacht, Nachthimmel] ausgewählt.",
+          "thumbnail": "heroes/Kibera/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Jede Sek. werden 150 eigene MP regeneriert und mit Beginn des Ersten Kampfes wird automatisch [Schwert des zerstörenden Lichts, Veil] ausgewählt.",
+          "thumbnail": "heroes/Kibera/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Schaden +20 %",
+        "thumbnail": "heroes/Kibera/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht aller 20 Sek. 15 Sek. lang den Mag. Schaden aller Gegner um 30 %.",
+        "thumbnail": "heroes/Kibera/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Schwerter der Tiefnacht, Nachthimmel & Dunkelschatten & Veil",
+    "description": "Der zu erhaltene Effekt orientiert sich an der Auswahl zwischen den drei Schwerter der Tiefnacht, Nachthimmel & Dunkelschatten & Veil.\n[Schwert der Tiefnacht, Nachthimmel] erhöht die ANG-GESCHW um {0}, die PRÄZ um {1} und den Schaden des Normal-ANG um {2} %.\n[Schwert des Tiefschattens, Dunkelschatten] regeneriert jede Sek. {3} MP.\n[Schwert des zerstörenden Lichts, Veil] erhöht aller 10 Sek. den eigenen ANG um {4} % und den Krit. Schaden um {5} %. Dieser Effekt kann bis zu 3-mal gestapelt werden und kann nicht entfernt werden.",
+    "value": {
+      "0": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      },
+      "1": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      },
+      "2": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "3": {
+        "0": "80",
+        "1": "96",
+        "2": "115",
+        "3": "138",
+        "4": "165",
+        "5": "200"
+      },
+      "4": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "5": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
+    "thumbnail": "heroes/Kibera/uw.png",
+    "story": "Kibera besitzt, getreu seinem berüchtigten Titel als Schwertsammler, viele Dämonenschwerter. Unter diesen Schwertern hat er drei besondere Vorlieben: Dunkelschatten, Nachthimmel und Veil, die er immer bei sich trägt.\n\nDas Dämonenschwert Dunkelschatten ist ein östliches Dämonenschwert, das Kibera trug bevor er ins Kaiserreich kam. Dunkelschatten trägt die Legende eines Dämons, der den östlichen Kontinent seit der Antike terrorisiert hat, noch vor der Invasion der Dämonen. Vor langer Zeit gab es 8 Menschen und Dämonen, die sich zusammengeschlossen hatten, um diesen Dämon zu besiegen, der den Menschen viel Schaden zufügte und andere Dämonen aß. Nach einem heftigen Kampf, der 3 Tage und Nächte dauerte, wurde der Dämon in zwei Schwerter versiegelt. Eines wurde Dunkelschatten genannt und der andere Strahlender Schatten.\nDie Familie Yuan war es, die vor langer Zeit das Bündnis von Dämonen und Menschen anführte, und sie erfüllten ihre Pflicht, die zwei Dämonenschwerter zu bewachen, indem sie diese Aufgabe zweier Erben anvertrauten. Diese Pflicht wurde über Generationen an die Familie Yuan weitergeleitet, bis ein Vorfall vor 10 Jahren dies änderte. Damals sind die zwei Dämonenschwerter während einer Zeremonie der zwei jüngsten Geschwister und gleichzeitig Wunderkinder der Familie Yuan geflohen. Ein schreckliches Massaker während der Zeremonie kostete das Leben vieler Yuan-Familienmitglieder und die beiden Geschwister verschwanden an dem Tag ohne jegliche Spuren ... Bald verbreiteten sich auf dem ganzen Kontinent böse Gerüchte, dass die Geschwister von den Dämonenschwerter besessen seien.\nDer Familienoberhaupt der Familie Yuan tat alles in seiner Macht, um die Dämonenschwerter zu finden. Nach mehreren Jahren ... tauchte das Dämonenschwert Dunkelschatten bei Kibera auf.\n\nDämonenschwert Nachthimmel ist eine Waffe, die das Yin-Mana des vom Mond gesegneten Großdämons nutzt. Im Osten ist Nachthimmel berühmt für seine Verbindung mit dem “Herr der Yuho-Gebirge”, einem Großdämon, der die Dämonen der Yuho-Gebirge kontrolliert.\nDer “Herr der Yuho-Gebirge” ist ein ehemaliger Meister von Kibera, der mit dem Dämonenschwert Nachthimmel verschwand. Später stellte sich heraus, dass das Dämonenschwert im Besitz von Idrian war, der Berater des Vespia-Kaiserreichs. Nachthimmel wurde Kibera als Belohnung für die Erfüllung der Vereinbarung angeboten. Kibera hatte zwar keine Ahnung, wie viel der Berater des Kaisers wusste, aber er konnte die Gelegenheit nicht entgehen lassen, ein mächtiges Dämonenschwert zu erhalten. Kibera akzeptierte Idrians Vorschlag, der Jagdhundeinheit beizutreten.\n\nDämonenschwert Veil ist eine Waffe, die das Yang-Mana nutzt, indem sie Energie aus dem Edelstein bezieht, der das Sonnenlicht absorbiert.\nEs ist ein Schwert, das von dem Dämonenkommandanten benutzt wurde, gegen den Kibera kämpfte, als er unter Befehle von Fluss eine Mission zur Aufklärung der Dämonengebieten durchführte. Der Dämonenkommandant war ein hochrangiger Dämon, der nach größerer Macht hungerte. Er zielte auf Veil, das Dämonenschwert mit einer Macht größer als er sich vorstellen konnte. Letztendlich hat Veil den Geist des Dämons verdorben. Der Dämon bezahlte einen hohen Preis für seine blinde Gier. Der Dämonenkommandant wurde zur Marionette des Dämonenschwertes und begann sinnlos, die Ruinen zu zerstören. Der Rest der Jagdhundeinheit musste ihre Kräfte zusammen tun, um schließlich den Dämon zu töten.\nKibera verlangte, dass er das Dämonenschwert Veil als “rechtmäßige Belohnung” für seine Bemühungen erhält. Mitra, Pansirone und Crow interessierten sich nicht für das Dämonenschwert, das einen hochrangigen Dämon besessen hatte, und so wurde Veil schließlich zu Kiberas Sammlung von Dämonenschwerter hinzugefügt.",
+    "descriptionByStar": {
+      "0": "Der zu erhaltene Effekt orientiert sich an der Auswahl zwischen den drei Schwerter der Tiefnacht, Nachthimmel & Dunkelschatten & Veil.\n[Schwert der Tiefnacht, Nachthimmel] erhöht die ANG-GESCHW um 200, die PRÄZ um 200 und den Schaden des Normal-ANG um 20 %.\n[Schwert des Tiefschattens, Dunkelschatten] regeneriert jede Sek. 80 MP.\n[Schwert des zerstörenden Lichts, Veil] erhöht aller 10 Sek. den eigenen ANG um 10 % und den Krit. Schaden um 10 %. Dieser Effekt kann bis zu 3-mal gestapelt werden und kann nicht entfernt werden."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Unbenutzte Pfeife",
+      "description": "[Huhu! Pass auf, sonst töte ich dich!] Skill-Schaden erhöht sich um 50 %. Beim Normal-ANG und mit jedem [Huhu! Pass auf, sonst töte ich dich!]-Treffer wird der eigene Krit. Schaden um {0} % erhöht. Dieser Effekt kann bis zu 100-mal gestapelt werden.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
+      "thumbnail": "heroes/Kibera/ut/1.png",
+      "story": "Eine Tabakpfeife im orientalischen Stil. Ihr starker Rost weist auf dessen Alter hin.\nSeltsamerweise ist es der Besitzer Kibera, der das Rauchen hasst ...\nViele fragen sich, wer der ursprüngliche Besitzer der Pfeife ist.\nAuch wenn es stark verrostet ist, ist es voll funktionsfähig.\nVielleicht hat Kibera es doch recht gut gepflegt.\nViele haben gefragt, ob Kibera jemals die Pfeife benutzt habe, und jedes Mal, wenn er das hörte, zeigte sein Gesicht nur Sehnsucht.\nDabei würde er sagen, dass er es nicht persönlich benutzt hat, sondern, dass der Rauch aus der Pfeife die Form eines Fuchsfeuers hat und schön ist.",
+      "descriptionByStar": {
+        "0": "[Huhu! Pass auf, sonst töte ich dich!] Skill-Schaden erhöht sich um 50 %. Beim Normal-ANG und mit jedem [Huhu! Pass auf, sonst töte ich dich!]-Treffer wird der eigene Krit. Schaden um 1 % erhöht. Dieser Effekt kann bis zu 100-mal gestapelt werden."
+      }
+    },
+    "2": {
+      "name": "Edelsteinschmuck",
+      "description": "[Keke! Lass uns noch eine Weile spielen!] Skill-Manakosten verringern sich um 1.\n[Haha! Das wird ein leichtes Spiel!] lässt einem nach Bewegung {0} Sek. lang immun gegen Massenkontrolle werden.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
+      "thumbnail": "heroes/Kibera/ut/2.png",
+      "story": "Ein Schmuckstück mit eingravierter Schriftzeichen der östlichen Sprache.\nDie eingravierten Buchstaben bilden angeblich einen östlichen Namen, aber Kibera hat noch niemandem verraten, wie man es liest.\nMitra und Pansirone erfuhren, nachdem sie Kibera mehrmals nach seinem Zweck gefragt hatten, dass es sich um ein Identifikations-Token handelt und dass es mit einer speziellen schamanische Magie verzaubert wurde, die Kibera von etwas schützt, das anderen unbekannt ist.\nSie fragten auch, ob es Kibera oder jemand anderem gehört.\n\nKibera lächelte nur und antwortete mit “vielleicht”.\nVerärgert über Kiberas vage Antwort gingen Mitra und Pansirone weg, nachdem sie heftig anfingen zu fluchen ...\nVielleicht wollte Kibera einfach nur nicht erzählen, was in der Vergangenheit passiert ist.",
+      "descriptionByStar": {
+        "0": "[Keke! Lass uns noch eine Weile spielen!] Skill-Manakosten verringern sich um 1.\n[Haha! Das wird ein leichtes Spiel!] lässt einem nach Bewegung 2 Sek. lang immun gegen Massenkontrolle werden."
+      }
+    },
+    "3": {
+      "name": "Spezialmanaöl",
+      "description": "[Dann lass uns das zu Ende bringen!!] erhöht den Skill-Schaden um {0} % und gewährt Massenkontroll-Immunität für die Dauer des Skills.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Kibera/ut/3.png",
+      "story": "Im Gegensatz zu gewöhnlichen Schwertern, wenn jemand sagt, dass das Dämonenschwert rostet, bedeutet dies, dass die verfluchte Energie, wie zum Beispiel der Groll derjenigen, die von diesem Schwert getötet wurden, oder die Mana-Verschwendung, sich im Schwert ansammeln.\nDiese eigenartigen Überreste können natürlich nicht mit herkömmlichen Mitteln entfernt werden. Egal wie gut sich der Besitzer um das Dämonenschwert kümmert, seine Klinge wird irgendwann glanzlos und steif und seine Kraft tritt aus.\nAls jemand, der sich intensiv um seine Schwerter kümmert, suchte Kibera weiterhin nach einer speziellen Wartungstechnik. Seine Suche war erfolgreich, als er die Gerüchte hörte, dass Valance von Magos Le'Flamme ein experimentelles Spezialmanaöl erschuf.\nKibera besuchte Valance sofort und nervte sie für eine Woche lang, bis sie anbot, ihm das Magos Le'Flamme Spezialmanaöl im Gegenzug für bestimmte gefährliche Aufgaben zu geben.",
+      "descriptionByStar": {
+        "0": "[Dann lass uns das zu Ende bringen!!] erhöht den Skill-Schaden um 20 % und gewährt Massenkontroll-Immunität für die Dauer des Skills."
+      }
+    },
+    "4": {
+      "name": "Verfluchte Schriftrolle",
+      "description": "[Drei-Schwerter-Stil] gewährleistet allen Verbündeten ein Effekt je nach der Auswahl des Schwertes.\nSchwert der Tiefnacht, [Nachthimmel] erhöht 30 Sek. lang die ANG-GESCHW um {0}.\nSchwert des Tiefschattens, [Dunkelschatten] verringert 30 Sek. lang den erhaltenen Schaden aller Verbündeten um {1} %.\nSchwert des zerstörenden Lichts, [Veil] erhöht 30 Sek. lang den ANG aller Verbündeten um {2} %.\nAlle Effekte haben eine 2-fachere Wirkung, wenn weniger als 3 Verbündete vorhanden sind.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        },
+        "1": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        },
+        "2": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Kibera/ut/4.png",
+      "story": "Es geht das Gerücht um, dass sich das Bild in der verfluchten Schriftrolle ständig ändert. Einige sahen Hafendorf-Ruinen, einige wiederum sahen ein Paradies mitten im Wald, andere sahen den Schlund eines schwarzen Tigers und wurden von diesem Tiger aufgefressen.\nDie verfluchte Schriftrolle ist durch viele Hände gegangen, bis sie Kibera erreichte. Die Schriftrolle war eigentlich Kiberas erstes Geisterbeschwörungsziel, aber Kibera fand es gut, dass sich der Hintergrund des Bildes änderte, und beschloss, es seiner Sammlung hinzuzufügen.\nAls Kibera seine Familie verließ, gehörte die Schriftrolle zu den Gegenständen in der Sammlung, die Kibera nicht mitnahm. Er fand es später auf den Dämonen-Nachtmarkt, als er noch im Osten war.\nIn diesem Moment spürte Kibera einen Schicksalsschlag, der ihn und die Schriftrolle anzog. Er leerte die Tasche seines Meisters und wurde wieder Herr der verfluchten Schriftrolle.",
+      "descriptionByStar": {
+        "0": "[Drei-Schwerter-Stil] gewährleistet allen Verbündeten ein Effekt je nach der Auswahl des Schwertes.\nSchwert der Tiefnacht, [Nachthimmel] erhöht 30 Sek. lang die ANG-GESCHW um 100.\nSchwert des Tiefschattens, [Dunkelschatten] verringert 30 Sek. lang den erhaltenen Schaden aller Verbündeten um 10 %.\nSchwert des zerstörenden Lichts, [Veil] erhöht 30 Sek. lang den ANG aller Verbündeten um 10 %.\nAlle Effekte haben eine 2-fachere Wirkung, wenn weniger als 3 Verbündete vorhanden sind."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 24 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Schwerter der Tiefnacht, Nachthimmel & Dunkelschatten & Veil und schlägt die Feinde an der eigenen Front nieder. Dabei wird den Gegner in großer Reichweite ??? Mag. Schaden zugefügt, sie werden 3 Sek. lang betäubt und die MP um 2000 verringert. Danach wird 10 Sek. lang der eigene ANG um 30 % erhöht und aller 3 Sek. wird auf 1 zufällige(n) Gegner 4-mal geschlagen und ihnen/ihm insgesamt ??? Mag. Schaden zugefügt, wobei Kiberas Schwertauswahl entsprechend zus. Effekte aktiviert werden.\nSchwert der Tiefnacht, [Nachthimmel] erhöht 10 Sek. lang den erhaltenen gegn. Schaden um 30 %.\nSchwert des Tiefschattens, [Dunkelschatten] verringert 10 Sek. lang den ANG des geschädigten Gegners um 40 %.\nSchwert des zerstörenden Lichts, [Veil] ignoriert den gegn. Schaden.",
+    "cooldown": "15",
+    "uses": "7",
+    "thumbnail": "heroes/Kibera/sw.png",
+    "advancement": {
+      "1": "Verwendungsbedingungen werden um 2 Sek. verringert und der Schaden um 50 % erhöht.",
+      "2": "Verwendungsbedingungen werden zus. um 4 Sek. verringert und die pos. Effekte des Gegenrs werden entfernt."
+    },
+    "story": "Die Hälfte der Dämonen, die in Dunkelschatten geschlafen haben, wollten ihren Besitzer langsam verschlingen.\nDunkelschatten versuchte ein Teil von Kibera zu werden, der zwischen Mensch und Dämon steht, um schließlich Kibera in einem Dämon zu verwandeln. Sein Plan ging gut voran, bis der Meister der Yuho-Gebirge erschien.\nWeißer Himmel, der Großdämon, der als “Herr der Yuho-Gebirge” bekannt war, hatte Mitleid mit Kibera, der ziellos umherirrte, nachdem er seine Familie verlassen hatte, und nahm ihn auf.\nNachdem er Kibera zu seinem Lehrling machte, brachte Weißer Himmel Kibera bei, wie man die Macht von Dunkelschatten unterdrückt. Dies war der passende Zeitpunkt, da der Plan von Dunkelschatten, Kibera zu seinem Gefangenen zu machen und sich zu befreien, scheiterte.\n\nKibera selbst hat aus seiner Erfahrung gelernt und geschworen, dass er Dunkelschatten nicht erlauben wird, ihn zu verschlingen. Daraufhin beschloss er, alle Dämonenschwerter im Kaiserreich zu sammeln, die er finden konnte, und die Kraft dieser Schwerter zu nutzen. Leider stimmte die einzigartige Kraft, das jedes Dämonenschwert besaß, nicht gut miteinander überein, und die Kraft wurde allmählich schwächer. Kibera verbrachte eine lange Zeit damit, gedankenlos Dämonenschwerter zu suchen.\nKiberas Machtgleichgewicht sank schnell in Richtung Yin, nachdem er das Dämonenschwert Nachthimmel als Belohnung für einen Auftrag erhalten hatte. Kiberas Energie führte ihn immer näher an die Dämonenseite. Obwohl der Berater des Kaiserreichs, der ihm Nachthimmel gab, bemerkte, wie ernst die Situation ist, lächelte er Kibera sanft und vage zu und sagte voraus, dass das nächste Dämonenschwert, das er bald erwerben werde, ihm immens helfen werde. Kibera hatte die Prophezeiung des Beraters nicht ernst genommen und holte sich weiterhin Dämonenschwerter. Kibera hatte jemanden, mit dem er sich wieder vereinen musste, er hatte eine Antwort zu hören und vor allem ... er konnte nicht zulassen, dass Dunkelschatten ihn zu einem gedankenlosen Dämon machte.\n\nEines Tages, während einer Expedition zu den Ruinen, fand Kibera endlich das Dämonenschwert, das er so sehnsüchtig suchte. Er griff nach dem Schwert, das ihn rief, so schnell wie der Blitz.\nDann erinnerte er sich an die Prophezeiung und erhielt seine Antwort. Die riesige Quelle mit der Yang-Macht, die sich in dem Dämonenschwert Veil befand, ging überein mit der Yin-Macht des Nachthimmels und stellten schließlich eine große Harmonie dar.\n\nDiese Harmonie wurde dann zu Kiberas Stärke. Kibera nutzte diese Kraft, die er aus der Harmonie vieler Dämonenschwerter gewonnen hatte, mit Nachthimmel und Veil im Mittelpunkt, um die wahre Macht von Dunkelschatten zu schöpfen. Es gab auch Kibera große Kräfte."
+  },
+  "splashart": "heroes/Kibera/sa.png",
+  "costumes": "heroes/Kibera/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

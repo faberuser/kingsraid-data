@@ -1,0 +1,69 @@
+{
+  "id": "Protianus",
+  "profile": {
+    "name": "Protianus",
+    "title": "Souverain du Royaume Englouti",
+    "type": [
+      "World Boss"
+    ],
+    "race": "Élémentaire",
+    "damage_type": "Magical",
+    "recommended_heroes": "Fluss, Mitra, Laias",
+    "characteristics": "Vous devez secourir les alliés capturés par [Prison d'Eau] de Protianus en lui infligeant des DEG P. Si vous ne dissipez pas [Prison d'Eau], tout le groupe perdra beaucoup de ses capacités à faire des DEG.",
+    "thumbnail": "bosses/Protianus.png",
+    "recommendedHeroNames": [
+      "Fluss",
+      "Mitra",
+      "Laias"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Trident Mortel",
+      "cost": null,
+      "cooldown": "30",
+      "description": "Attaque frontalement les ennemis centraux à portée et dissipe leurs effets positifs, réduisant également leur Crit de 300 pendant 18 sec. Cet effet ne peut pas être dissipé."
+    },
+    "2": {
+      "name": "Balayage",
+      "cost": null,
+      "cooldown": "22",
+      "description": "Balaie la zone de devant avec le Trident et inflige des DEG M. Les ennemis touchés sont réduits au silence pendant 5 sec et voient leur Précision réduite de 200 pendant 10 sec."
+    },
+    "3": {
+      "name": "Prison d'Eau : Confinement",
+      "cost": null,
+      "cooldown": "35",
+      "description": "Projette des gouttes d'eau sur un seul ennemi, inflige des DEG M et l'enferme dans une Prison d'Eau. Enferme également une autre cible aléatoire toutes les 3 sec."
+    },
+    "4": {
+      "name": "Raz de Marée",
+      "cost": null,
+      "cooldown": "40",
+      "description": "Lève un Tsunami sur 50M vers le front, infligeant des DEG M en fonction des PV actuels de la cible et applique Étourdissement pendant 3 sec avec 100% de chances. De plus, pendant 10 sec, réduit 300 PM toutes les sec et l'ATQ de 20%. Les effets supplémentaires ne peuvent être dissipés."
+    },
+    "5": {
+      "name": "Âmes Noyées",
+      "cost": null,
+      "cooldown": null,
+      "description": "Invoque 3 Fantômes toutes les 20 sec, ce qui augmente la propre DEF du Héros de 25% pour chaque Fantôme."
+    },
+    "6": {
+      "name": "Peau de Protianus",
+      "cost": null,
+      "cooldown": null,
+      "description": "Protianus n'est pas affecté par les effets de Vitesse d'ATQ. Protianus subit également plus de DEG après avoir été renversé, mais il est bien plus impacté par les DEG P. Quand Protianus touche un ennemi, celui-ci subit des DEG M constants pendant 5 sec."
+    },
+    "7": {
+      "name": "Prison d'Eau",
+      "cost": null,
+      "cooldown": null,
+      "description": "Les DEG infligés par les ennemis enfermés dans la Prison d'Eau sont considérablement réduits et leurs PM sont réduits toutes les sec. Si la cible est toujours enfermée dans la Prison d'Eau 10 sec après l'activation de [Prison d'Eau : Confinement], elle perd 1 000 PM et le temps de recharge de toutes ses compétences augmente de 70%. La Prison d'Eau est dissipée lorsque Protianus subit des DEG P 75 fois."
+    }
+  },
+  "aliases": [
+    "Protianus",
+    "WB2",
+    "WB 2"
+  ]
+}

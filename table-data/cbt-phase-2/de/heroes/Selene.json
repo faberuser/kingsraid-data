@@ -1,0 +1,280 @@
+{
+  "id": "Selene",
+  "profile": {
+    "name": "Selene",
+    "title": "Windreißer-Pfeil Selene",
+    "class": "Archer",
+    "position": "Back-200",
+    "attack_range": "1000",
+    "damage_type": "Physical",
+    "gender": "Weiblich",
+    "age": "???",
+    "height": "169",
+    "race": "Elfen",
+    "constellation": "Notmun, der Stimmer",
+    "birth": {
+      "month": 7,
+      "day": 11,
+      "monthName": "Monat der Harmonie"
+    },
+    "like": "Jene, die in Harmonie arbeiten und Verantwortung übernehmen",
+    "dislike": "Jene, die sich von ihrem Glauben abwenden; Jene, die vor der Gefahr fliehen",
+    "story": "Diese adelige Elfenprinzessin bewundert das Heilige Schwert und dessen erwählten Krieger. Sie strebt mit aller Kraft danach, das Rechte zu tun und erwartet dies auch von Anderen. Aus diesem Grund übt sie überzeugt Kritik an jenen, die vom Pfad der Rechtschaffenheit abkommen, selbst, wenn es sich dabei um den Krieger des Heiligen Schwertes handelt. Unglücklicherweise wird ihre tapfere Entschlossenheit manchmal missverstanden. Sie besucht oft ihre jüngere Schwester Dosarta in ihrem Turm, um ihr Gesellschaft zu leisten.",
+    "thumbnail": "heroes/Selene/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Pfeilregen",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Fügt einem zufälligen Gegner 12-mal 128*(0.7+(0.3*Skill Level*Awakening Coefficient))+80.4% ATK Körp. Schaden zu. Erweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Selene/skills/1.png"
+    },
+    "2": {
+      "name": "Ansturm",
+      "cost": "2",
+      "cooldown": "6",
+      "description": "Beschwört 5 zielsuchende Pfeile. Verbraucht bei einem Angriff 1 Pfeil, um dem Gegner 230*(0.7+(0.3*Skill Level*Awakening Coefficient))+144.8% ATK zusätzlichen Körp. Schaden zuzufügen.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Selene/skills/2.png"
+    },
+    "3": {
+      "name": "Mondlicht-Blitz",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Fügt Gegnern in einer geraden Linie 1198*(0.7+(0.3*Skill Level*Awakening Coefficient))+759.8% ATK Körp. Schaden zu und wirft sie für 3 Sek. nieder. Dieser Schaden steigt abhängig von den verlorenen LP des Ziels um bis zu 100%. Fügt Bossen 685*(0.7+(0.3*Skill Level*Awakening Coefficient))+434.2% ATK zusätzlichen Körp. Schaden mit 500 zusätzlicher Körp. Verteidigungsdurchdringung zu.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Selene/skills/3.png"
+    },
+    "4": {
+      "name": "Mondlicht-Pfeil",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht nach einer Fertigkeit oder einem normalen Angriff für 7 Sek. den ANG um 24*(0.7+(0.3*Skill Level*Awakening Coefficient)) und die Krit.-Chance um 80. [Mondlichtpfeil] ist bis zu 6-mal stapelbar. Bei maximalen Stapeln sind während der Dauer keine weiteren möglich, aber normale Angriffe feuern 3 zusätzliche Pfeile ab, die jeweils Körp. Schaden in Höhe von 95.3% des ANG verursachen.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Selene/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "4": {
+      "II": "Erhöht ANG-Boost um [64ff64]10[-] %.",
+      "III": "Erhöht ANG-Boost um [64ff64]15[-] %.",
+      "IV": "Jede Attacke erhöht die Krit. Schaden d. Helden um [64ff64]10[-] %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Der Schaden steigt um 50 %.",
+          "thumbnail": "heroes/Selene/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "50 % Chance, den getroffene Gegner 0.5 Sek. lang zu betäuben.",
+          "thumbnail": "heroes/Selene/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Beschwört 2 zusätzliche Pfeile.",
+          "thumbnail": "heroes/Selene/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Verringert die Manakosten um 1000.",
+          "thumbnail": "heroes/Selene/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Der Schaden steigt um 50 %.",
+          "thumbnail": "heroes/Selene/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Ignoriert feindliche Blockeffekte.",
+          "thumbnail": "heroes/Selene/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Max. Kumulation wurde auf 5 geändert.",
+          "thumbnail": "heroes/Selene/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erhöht pro Stapel den Schaden an Bossen um 5%.",
+          "thumbnail": "heroes/Selene/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Schaden +20 %",
+        "thumbnail": "heroes/Selene/perks/light.png"
+      },
+      "dark": {
+        "effect": "Reduziert eigene Krit. Chance um 300 und erhöht Krit. Schaden um 70 %.",
+        "thumbnail": "heroes/Selene/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Grünwind, Notos",
+    "description": "Kritische Treffer erhöhen das Angriffstempo für 10 Sek. um {0}%. Währenddessen feuern normale Angriffe einen zusätzlichen Pfeil ab, der dem Ziel {1}% zusätzlichen Körp. Schaden zufügt. Dieser Zusatzschaden kann alle 0.5 Sek. ausgelöst werden.",
+    "thumbnail": "heroes/Selene/uw.png",
+    "story": "Ein Bogen, gesegnet mit dem Atem Sylphid, des Wind-Elementars. Nur eine Person mit edlem Charakter vermag ihn zu führen. Wird er gezogen, spannt er sich selbst mit einem tödlichen, magischen Pfeil, der aus dem Atem des Elementars gefertigt ist. Vom Wind-Elementar geleitet verfehlt dieser Bogen niemals sein Ziel, egal wo es sich versteckt. Selene hat seit der Kindheit eine besondere Verbindung zu Elementaren. Zu Sylph hatte sie eine besonders intensive Beziehung und als Zeichen ihrer Freundschaft verzauberte diese dafür ihren Bogen.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "16",
+        "4": "18",
+        "5": "20"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "160",
+        "4": "180",
+        "5": "200"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Kritische Treffer erhöhen das Angriffstempo für 10 Sek. um 10%. Währenddessen feuern normale Angriffe einen zusätzlichen Pfeil ab, der dem Ziel 100% zusätzlichen Körp. Schaden zufügt. Dieser Zusatzschaden kann alle 0.5 Sek. ausgelöst werden.",
+      "1": "Kritische Treffer erhöhen das Angriffstempo für 10 Sek. um 12%. Währenddessen feuern normale Angriffe einen zusätzlichen Pfeil ab, der dem Ziel 120% zusätzlichen Körp. Schaden zufügt. Dieser Zusatzschaden kann alle 0.5 Sek. ausgelöst werden.",
+      "2": "Kritische Treffer erhöhen das Angriffstempo für 10 Sek. um 14%. Währenddessen feuern normale Angriffe einen zusätzlichen Pfeil ab, der dem Ziel 140% zusätzlichen Körp. Schaden zufügt. Dieser Zusatzschaden kann alle 0.5 Sek. ausgelöst werden.",
+      "3": "Kritische Treffer erhöhen das Angriffstempo für 10 Sek. um 16%. Währenddessen feuern normale Angriffe einen zusätzlichen Pfeil ab, der dem Ziel 160% zusätzlichen Körp. Schaden zufügt. Dieser Zusatzschaden kann alle 0.5 Sek. ausgelöst werden.",
+      "4": "Kritische Treffer erhöhen das Angriffstempo für 10 Sek. um 18%. Währenddessen feuern normale Angriffe einen zusätzlichen Pfeil ab, der dem Ziel 180% zusätzlichen Körp. Schaden zufügt. Dieser Zusatzschaden kann alle 0.5 Sek. ausgelöst werden.",
+      "5": "Kritische Treffer erhöhen das Angriffstempo für 10 Sek. um 20%. Währenddessen feuern normale Angriffe einen zusätzlichen Pfeil ab, der dem Ziel 200% zusätzlichen Körp. Schaden zufügt. Dieser Zusatzschaden kann alle 0.5 Sek. ausgelöst werden."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Handschuhe des Scharfschützen",
+      "description": "[Pfeilregen] verringert die Manakosten um 1 und den Cooldown um {0} Sek.",
+      "thumbnail": "heroes/Selene/ut/1.png",
+      "story": "Die Handschuhe wurden von einem Wind-Elementar gesegnet.\nDosarta schenkte diese Handschuhe ihrer Schwester Selene als Dank dafür, dass sie den Frieden der Elfen gewahrt hat. Sie wurden aus Stoff hergestellt, der mit der Magie des Wind-Elementars Sylphid verstärkt wurde. Anschließend bestickte Dosarta sie mit Mondlichtfaden.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Pfeilregen] verringert die Manakosten um 1 und den Cooldown um 1 Sek.",
+        "1": "[Pfeilregen] verringert die Manakosten um 1 und den Cooldown um 1,2 Sek.",
+        "2": "[Pfeilregen] verringert die Manakosten um 1 und den Cooldown um 1,4 Sek.",
+        "3": "[Pfeilregen] verringert die Manakosten um 1 und den Cooldown um 1,7 Sek.",
+        "4": "[Pfeilregen] verringert die Manakosten um 1 und den Cooldown um 2,1 Sek.",
+        "5": "[Pfeilregen] verringert die Manakosten um 1 und den Cooldown um 2,5 Sek."
+      }
+    },
+    "2": {
+      "name": "Windgeist-Siegelstein",
+      "description": "[Ansturm] erhöht den Schaden um {0} % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören.",
+      "thumbnail": "heroes/Selene/ut/2.png",
+      "story": "Ein Stein, in dem ein rücksichtsloser Windbogengeist eingeschlossen ist. \nDas Elementar richtete mit seinen bösen Streichen allerhand Ärger an, weshalb es vom Feenkönig eingeschlossen wurde. \nDas angriffslustige Windelementar durchwirkt Pfeile mit zerstörerischem Wund und erhöht so ihre Zerstörungskraft mindestens um das Fünffache.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Ansturm] erhöht den Schaden um 20 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören.",
+        "1": "[Ansturm] erhöht den Schaden um 24 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören.",
+        "2": "[Ansturm] erhöht den Schaden um 29 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören.",
+        "3": "[Ansturm] erhöht den Schaden um 35 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören.",
+        "4": "[Ansturm] erhöht den Schaden um 42 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören.",
+        "5": "[Ansturm] erhöht den Schaden um 50 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören."
+      }
+    },
+    "3": {
+      "name": "Silberpfeil",
+      "description": "[Mondlicht-Blitz] erhöht den Schaden um {0} % und das Ziel erleidet 10 Sek. lang 20 % zus. Körp. Schaden.",
+      "thumbnail": "heroes/Selene/ut/3.png",
+      "story": "Eine Pfeilspitze, die vom Segen der Göttin der Jagd und des Mondes durchwirkt ist. Ein uraltes Artefakt, das dem besten Elfenjäger vererbt wird. Es heißt, dass sich die Göttin der Jagd und des Mondes um die Elfen kümmerte, die den heiligen Wald beschützten und sie verlieh ihnen durch dieses Artefakt ihre Macht. Der silberne Pfeil mit der Macht der Mondgöttin besitzt eine mysteriöse Kraft, die es dem Träger erlaubt, seinen Feind zu besiegen und den Schaden zu erhöhen.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Mondlicht-Blitz] erhöht den Schaden um 20 % und das Ziel erleidet 10 Sek. lang 20 % zus. Körp. Schaden.",
+        "1": "[Mondlicht-Blitz] erhöht denSchaden um 24 % und das Ziel erleidet 10 Sek. lang 20 % zus. Körp. Schaden.",
+        "2": "[Mondlicht-Blitz] erhöht den Schaden um 29 % und das Ziel erleidet 10 Sek. lang 20 % zus. Körp. Schaden.",
+        "3": "[Mondlicht-Blitz] erhöht den Schaden um 35 % und das Ziel erleidet 10 Sek. lang 20 % zus. Körp. Schaden.",
+        "4": "[Mondlicht-Blitz] erhöht den Schaden um 42 % und das Ziel erleidet 10 Sek. lang 20 % zus. Körp. Schaden.",
+        "5": "[Mondlicht-Blitz] erhöht den Schaden um 50 % und das Ziel erleidet 10 Sek. lang 20 % zus. Körp. Schaden."
+      }
+    },
+    "4": {
+      "name": "Diadem des Windes",
+      "description": "[Mondlicht-Pfeil] erhöht den Schaden normaler Angriffe um 50% und den Schaden an Gegnern, die keine Helden sind, pro Stapel um {0}%.",
+      "thumbnail": "heroes/Selene/ut/4.png",
+      "story": "Ein Diadem, dem die Anmut von Notos und den Wind-Elementaren innewohnt.\nDas Diadem des Windes wird von Generation zu Generation an den besten Elfenbogenschützen weitergegeben. Aktuell gehört es Selene.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Mondlicht-Pfeil] erhöht den Schaden normaler Angriffe um 50% und den Schaden an Gegnern, die keine Helden sind, pro Stapel um 2%.",
+        "1": "[Mondlicht-Pfeil] erhöht den Schaden normaler Angriffe um 50% und den Schaden an Gegnern, die keine Helden sind, pro Stapel um 2.4%.",
+        "2": "[Mondlicht-Pfeil] erhöht den Schaden normaler Angriffe um 50% und den Schaden an Gegnern, die keine Helden sind, pro Stapel um 2.9%.",
+        "3": "[Mondlicht-Pfeil] erhöht den Schaden normaler Angriffe um 50% und den Schaden an Gegnern, die keine Helden sind, pro Stapel um 3.5%.",
+        "4": "[Mondlicht-Pfeil] erhöht den Schaden normaler Angriffe um 50% und den Schaden an Gegnern, die keine Helden sind, pro Stapel um 4.2%.",
+        "5": "[Mondlicht-Pfeil] erhöht den Schaden normaler Angriffe um 50% und den Schaden an Gegnern, die keine Helden sind, pro Stapel um 5%."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn du [64ff64]60[-]-mal Schaden erleidest, wird dies aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von [Grünwind, Notos] für 13 Sek. und erhöht den eigenen ANG um 45%. Fügt währenddessen alle 4 Sek. einem Gegner verteidigungsignorierenden Körp. Schaden in Höhe von 250% des ANG zu, stößt ihn für 1 Sek. zurück und reduziert sofort die Abklingzeit aller eigenen Fertigkeiten um 1 Sek.",
+    "cooldown": "20",
+    "uses": "8",
+    "thumbnail": "heroes/Selene/sw.png",
+    "advancement": {
+      "1": "Erhöht den Schaden um 50 %.",
+      "2": "Erhöht den Schaden um 25 % und ändert die Verwendungsbedingungen auf 45."
+    },
+    "story": "Selene ist stolz auf ihre Fähigkeit. Sie dachte, dass sie die Kraft des Windes, der im Bug schläft, voll ausnutzen kann. Doch eines Tages war Selene schockiert, als sie merkte, dass sie den Wind nicht aushalten kann.\n-Ich habe mir nur die Kraft geliehen. Es ist erbärmlich ...! Ich kann mich den Elementaren stellen!\nDanach hat Selene sehr oft mit dem Bogen trainiert. Sie hat nie aufgehört, auch wenn sie sich stark verletzte ... Im Moment hat sie sich zu oft wiederholt und vergessen, dass sie auf den Pfeil schießt. Selene spürte, dass der freundliche Wind sie bedeckte.\n-Ich wusste, dass du es schaffen könntest.\n- Der Freund, der zum ersten Mal einen Atemzug machte, lächelte."
+  },
+  "splashart": "heroes/Selene/sa.png",
+  "costumes": "heroes/Selene/cos",
+  "_localization": {
+    "locale": "de",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

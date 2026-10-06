@@ -1,0 +1,280 @@
+{
+  "id": "Leo",
+  "profile": {
+    "name": "Leo",
+    "title": "Ewiger Schreiber Leo",
+    "class": "Priest",
+    "position": "Back-100",
+    "attack_range": "2700",
+    "damage_type": "Physical",
+    "gender": "Männlich",
+    "age": "???",
+    "height": "144",
+    "race": "Gnome",
+    "constellation": "Lasiphil, die Prophetin",
+    "birth": {
+      "month": 3,
+      "day": 23,
+      "monthName": "Monat der Einsicht"
+    },
+    "like": "Lesen; Schreiben; Dokumentieren",
+    "dislike": "Einsamkeit",
+    "story": "Im königlichen Palast von Orvel existiert eine Bibliothek, von der man behauptet, sie wäre unendlich groß. Leo ist ein Gnom, der diese Bibliothek seit einer Ewigkeit schützt. Weil er jedes Buch der Bibliothek auswendig beherrscht, ist er die weiseste Person des gesamten Palastes. Viele besuchen die Bibliothek, um von seiner Weisheit zu profitieren. Doch, so scheint es, hat er immer noch Schwierigkeiten im Umgang mit anderen Leuten.",
+    "thumbnail": "heroes/Leo/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Rune der Schwäche",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Graviert ein Siegel auf 2 Gegner, verursacht 864*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 547.3% of ATK Körp. Schaden und reduziert seine Körp. VERT für 5 Sek. um 20%. Diese Fertigkeit erhält 500 zusätzliche Verteidigungsdurchdringung. Ihr Schaden steigt abhängig von den fehlenden LP des Ziels um bis zu 200%.",
+      "thumbnail": "heroes/Leo/skills/1.png"
+    },
+    "2": {
+      "name": "Rune der Heilung",
+      "cost": "2",
+      "cooldown": "7",
+      "description": "Stellt bei allen Verbündeten 621*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 100.8% of ATK LP wieder her, heilt anschließend für 4 Sek. alle 0.8 Sek. zusätzlich 124*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 20.2% of ATK LP und reduziert ihren erlittenen Körp. Schaden um 30%.",
+      "thumbnail": "heroes/Leo/skills/2.png"
+    },
+    "3": {
+      "name": "Rune des Schweigens",
+      "cost": "1",
+      "cooldown": "40",
+      "description": "Fügt allen Gegnern 690*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 450% of ATK Körp. Schaden zu, entfernt ihre positiven Effekte und lässt sie für 1.8 Sek. verstummen.",
+      "thumbnail": "heroes/Leo/skills/3.png"
+    },
+    "4": {
+      "name": "Rune des Schutzes",
+      "cost": null,
+      "cooldown": "12",
+      "description": "Verhindert alle 12 Sek. 2 Schadensinstanzen bei den 2 Verbündeten mit den niedrigsten aktuellen LP.",
+      "thumbnail": "heroes/Leo/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "2": {
+      "II": "Erhöht Heilungsrate um [64ff64]10[-] %.",
+      "III": "Erhöht Heilungsrate um [64ff64]15[-] %.",
+      "IV": "Erhöht Heilungsrate um [64ff64]25[-] %."
+    },
+    "3": {
+      "II": "Erhöht Schweigedauer um [64ff64]0.25[-] Sek.",
+      "III": "Erhöht Schweigedauer um [64ff64]0.25[-] Sek.",
+      "IV": "Erhöht Schweigedauer um [64ff64]0.5[-] Sek."
+    },
+    "4": {
+      "II": "Erhöht Heilungsrate um [64ff64]10[-] %.",
+      "III": "Erhöht Heilungsrate um [64ff64]15[-] %.",
+      "IV": "Erhöht Debuff-Resistenz um [64ff64]250[-] während der Wirkungsdauer."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Reduziert Cooldown um 2 Sek.",
+          "thumbnail": "heroes/Leo/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Erhöht Anzahl der Ziele auf 2.",
+          "thumbnail": "heroes/Leo/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Erhöht die Heilungsmenge um 40%.",
+          "thumbnail": "heroes/Leo/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht nach der Heilung die physische VERT der Verbündeten für 10 Sek. um 25%.",
+          "thumbnail": "heroes/Leo/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Leo/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Erhöht den Schaden um 200% und den gesamten erlittenen Schaden des gegnerischen Ziels für 10 Sek. um 20%. Erhöht die MP-Kosten um 2.",
+          "thumbnail": "heroes/Leo/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht Heilungsrate um 40 %.",
+          "thumbnail": "heroes/Leo/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Wird ein Verbündeter geheilt, erhöht sich seine Körp. VERT 10 Sek. lang um 40 %.",
+          "thumbnail": "heroes/Leo/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Körp. Blockchance +200",
+        "thumbnail": "heroes/Leo/perks/light.png"
+      },
+      "dark": {
+        "effect": "10 % Chance, bei einem Angriff einem zufälligen Feind 120 % der ANG als Körp. Schaden zuzufügen. Zerstört zudem 300 Mana und verursacht Stille für 1 Sek.",
+        "thumbnail": "heroes/Leo/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Phoenixfeder, Belisa",
+    "description": "Erhöht alle 20 Sek. für 10 Sek. alle Verteidigungswerte um {0}% und das Angriffstempo um {1}%. Die erste eingesetzte Fertigkeit erhält einen Zusatzeffekt. [Rune der Schwäche]: Erhält 500 zusätzliche Verteidigungsdurchdringung. [Rune der Heilung]: Entfernt beim Einsatz eigene negative Effekte. [Rune des Schweigens]: Verlängert die Dauer des Schweigens.",
+    "thumbnail": "heroes/Leo/uw.png",
+    "story": "Der Phönix ist eine heilige Kreatur, die das ewige Leben symbolisiert. Genauso wie das Tier selbst sind auch dessen Federn extrem selten. Es heißt, dass ein Federkiel, der aus einer Phönixfeder hergestellt wurde, selbst ein mächtiges magisches Werkzeug sei. Runen, die mit dieser Feder geschrieben werden, sind ein mächtiges Mittel für Runenmagie.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "28",
+        "3": "32",
+        "4": "36",
+        "5": "40"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "28",
+        "3": "32",
+        "4": "36",
+        "5": "40"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Erhöht alle 20 Sek. für 10 Sek. alle Verteidigungswerte um 20% und das Angriffstempo um 20%. Die erste eingesetzte Fertigkeit erhält einen Zusatzeffekt. [Rune der Schwäche]: Erhält 500 zusätzliche Verteidigungsdurchdringung. [Rune der Heilung]: Entfernt beim Einsatz eigene negative Effekte. [Rune des Schweigens]: Verlängert die Dauer des Schweigens.",
+      "1": "Erhöht alle 20 Sek. für 10 Sek. alle Verteidigungswerte um 24% und das Angriffstempo um 24%. Die erste eingesetzte Fertigkeit erhält einen Zusatzeffekt. [Rune der Schwäche]: Erhält 500 zusätzliche Verteidigungsdurchdringung. [Rune der Heilung]: Entfernt beim Einsatz eigene negative Effekte. [Rune des Schweigens]: Verlängert die Dauer des Schweigens.",
+      "2": "Erhöht alle 20 Sek. für 10 Sek. alle Verteidigungswerte um 28% und das Angriffstempo um 28%. Die erste eingesetzte Fertigkeit erhält einen Zusatzeffekt. [Rune der Schwäche]: Erhält 500 zusätzliche Verteidigungsdurchdringung. [Rune der Heilung]: Entfernt beim Einsatz eigene negative Effekte. [Rune des Schweigens]: Verlängert die Dauer des Schweigens.",
+      "3": "Erhöht alle 20 Sek. für 10 Sek. alle Verteidigungswerte um 32% und das Angriffstempo um 32%. Die erste eingesetzte Fertigkeit erhält einen Zusatzeffekt. [Rune der Schwäche]: Erhält 500 zusätzliche Verteidigungsdurchdringung. [Rune der Heilung]: Entfernt beim Einsatz eigene negative Effekte. [Rune des Schweigens]: Verlängert die Dauer des Schweigens.",
+      "4": "Erhöht alle 20 Sek. für 10 Sek. alle Verteidigungswerte um 36% und das Angriffstempo um 36%. Die erste eingesetzte Fertigkeit erhält einen Zusatzeffekt. [Rune der Schwäche]: Erhält 500 zusätzliche Verteidigungsdurchdringung. [Rune der Heilung]: Entfernt beim Einsatz eigene negative Effekte. [Rune des Schweigens]: Verlängert die Dauer des Schweigens.",
+      "5": "Erhöht alle 20 Sek. für 10 Sek. alle Verteidigungswerte um 40% und das Angriffstempo um 40%. Die erste eingesetzte Fertigkeit erhält einen Zusatzeffekt. [Rune der Schwäche]: Erhält 500 zusätzliche Verteidigungsdurchdringung. [Rune der Heilung]: Entfernt beim Einsatz eigene negative Effekte. [Rune des Schweigens]: Verlängert die Dauer des Schweigens."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Antike Buchstabenenzyklopädie – Erster Band",
+      "description": "[Rune der Schwäche] kann nicht entfernt werden und erhöht den Schaden um {0} %.",
+      "thumbnail": "heroes/Leo/ut/1.png",
+      "story": "Leos Lieblingsenzyklopädie. Sie dient der Interpretation antiker Buchstaben.\nDie Enzyklopädie besteht aus drei Bänden, wobei der zweite und dritte Band absichtlich von jemandem verbrannt wurde. Es blieb nur [Band I – Buchstaben für Flüche und Heilzauber] zurück. Leo wird immer wütend, wenn er daran denkt, welche antiken Geheimnisse er mithilfe der anderen zwei Bände entschlüsseln hätte können. In der Zwischenzeit wurde der Band weggesperrt und mit einem mystischen Zauber belegt, der verhindert, dass man ihn lesen kann, außer er selbst gestattet es einem.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Rune der Schwäche] kann nicht entfernt werden und erhöht den Schaden um 20 %.",
+        "1": "[Rune der Schwäche] kann nicht entfernt werden und erhöht den Schaden um 24 %.",
+        "2": "[Rune der Schwäche] kann nicht entfernt werden und erhöht den Schaden um 29 %.",
+        "3": "[Rune der Schwäche] kann nicht entfernt werden und erhöht den Schaden um 35 %.",
+        "4": "[Rune der Schwäche] kann nicht entfernt werden und erhöht den Schaden um 42 %.",
+        "5": "[Rune der Schwäche] kann nicht entfernt werden und erhöht den Schaden um 50 %."
+      }
+    },
+    "2": {
+      "name": "Tinte der Lebenskraft",
+      "description": "[Rune der Heilung] erhöht die Heilungsrate um 50 % und den Körp. Krit. Widerstand der Verbündeten 10 Sek. lang um {0}.",
+      "thumbnail": "heroes/Leo/ut/2.png",
+      "story": "Tinte, die aus jungen Blättern des Weltenbaums extrahiert wurde. Nur 10 Tropfen können im Jahr produziert werden.\nDie Zaubersprüche, die mit dieser Tinte niedergeschrieben werden, verleihen dem Körper große Lebenskraft.\nSie ist sehr kostbar und schwer zu bekommen, weshalb Leo sie nur zu wirklich besonderen Anlässen benutzt.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Rune der Heilung] erhöht die Heilungsrate um 50 % und den Körp. Krit. Widerstand der Verbündeten 10 Sek. lang um 100.",
+        "1": "[Rune der Heilung] erhöht die Heilungsrate um 50 % und den Körp. Krit. Widerstand der Verbündeten 10 Sek. lang um 120.",
+        "2": "[Rune der Heilung] erhöht die Heilungsrate um 50 % und den Körp. Krit. Widerstand der Verbündeten 10 Sek. lang um 140.",
+        "3": "[Rune der Heilung] erhöht die Heilungsrate um 50 % und den Körp. Krit. Widerstand der Verbündeten 10 Sek. lang um 170.",
+        "4": "[Rune der Heilung] erhöht die Heilungsrate um 50 % und den Körp. Krit. Widerstand der Verbündeten 10 Sek. lang um 210.",
+        "5": "[Rune der Heilung] erhöht die Heilungsrate um 50 % und den Körp. Krit. Widerstand der Verbündeten 10 Sek. lang um 250."
+      }
+    },
+    "3": {
+      "name": "Schriftrolle der Erinnerung",
+      "description": "[Rune des Schweigens] Ziel nimmt 10 Sek. lang um 15 % erhöhten Schaden und Massenkontroll-Widerstand des Ziels ist um {0} verringert.",
+      "thumbnail": "heroes/Leo/ut/3.png",
+      "story": "Uralter Zauberkodex. Ein Kodex, der von angesehenen Zauberern geschrieben wurde und die Prinzipien hinter einer Magie beinhaltet, die alles Leben und die ganze Schöpfung nutzt. Er ist in einer unbekannten Sprache verfasst, also kann nur ein Teil davon entziffert werden. Wenn das uralte Textsystem entschlüsselt würde, wäre es vielleicht möglich, Zauber ohne jegliche Kosten einzusetzen.",
+      "value": {
+        "0": {
+          "0": "120",
+          "1": "140",
+          "2": "170",
+          "3": "210",
+          "4": "250",
+          "5": "300"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Rune des Schweigens] Ziel nimmt 10 Sek. lang um 15 % erhöhten Schaden und Massenkontroll-Widerstand des Ziels ist um 120 verringert.",
+        "1": "[Rune des Schweigens] Ziel nimmt 10 Sek. lang um 15 % erhöhten Schaden und Massenkontroll-Widerstand des Ziels ist um 140 verringert.",
+        "2": "[Rune des Schweigens] Ziel nimmt 10 Sek. lang um 15 % erhöhten Schaden und Massenkontroll-Widerstand des Ziels ist um 170 verringert.",
+        "3": "[Rune des Schweigens] Ziel nimmt 10 Sek. lang um 15 % erhöhten Schaden und Massenkontroll-Widerstand des Ziels ist um 210 verringert.",
+        "4": "[Rune des Schweigens] Ziel nimmt 10 Sek. lang um 15 % erhöhten Schaden und Massenkontroll-Widerstand des Ziels ist um 250 verringert.",
+        "5": "[Rune des Schweigens] Ziel nimmt 10 Sek. lang um 15 % erhöhten Schaden und Massenkontroll-Widerstand des Ziels ist um 300 verringert."
+      }
+    },
+    "4": {
+      "name": "Goldene Lupe",
+      "description": "[Rune des Schutzes] erhöht die Anzahl an Zielen um 1. Die ANG-GESCHW. von Zielen wird während der Wirkungsdauer um {0} erhöht.",
+      "thumbnail": "heroes/Leo/ut/4.png",
+      "story": "Eine Luoe aus Gold, die den Geschichtsschreibern gegeben wird.\nSie ist ein Zeichen der Anerkennung und wird nur wahrheitsgetreuen und unvoreingenommenen Geschichtsschreibern von Orvel verliehen.\nEs gibt keine größere Ehre für einen Historiker, als die Goldene Lupe zu erhalten.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Rune des Schutzes] erhöht die Anzahl an Zielen um 1. Die ANG-GESCHW. von Zielen wird während der Wirkungsdauer um 200 erhöht.",
+        "1": "[Rune des Schutzes] erhöht die Anzahl an Zielen um 1. Die ANG-GESCHW. von Zielen wird während der Wirkungsdauer um 240 erhöht.",
+        "2": "[Rune des Schutzes] erhöht die Anzahl an Zielen um 1. Die ANG-GESCHW. von Zielen wird während der Wirkungsdauer um 290 erhöht.",
+        "3": "[Rune des Schutzes] erhöht die Anzahl an Zielen um 1. Die ANG-GESCHW. von Zielen wird während der Wirkungsdauer um 350 erhöht.",
+        "4": "[Rune des Schutzes] erhöht die Anzahl an Zielen um 1. Die ANG-GESCHW. von Zielen wird während der Wirkungsdauer um 420 erhöht.",
+        "5": "[Rune des Schutzes] erhöht die Anzahl an Zielen um 1. Die ANG-GESCHW. von Zielen wird während der Wirkungsdauer um 500 erhöht."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill [64ff64]5[-]-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört die Seele von Phoenixfeder, Belisa. Gewährt den 4 Verbündeten mit dem höchsten ANG für 10 Sek. einen Schild, der Schaden in Höhe von 500% des ANG absorbiert, sowie Immunität gegen Kontrolleffekte. Erhöht ihren Schaden an Gegnern für 10 Sek. um 20%. Entfernt anschließend positive Effekte von Gegnern in gerader Linie vor dem Helden und verursacht Körp. Schaden in Höhe von 600% des ANG.",
+    "cooldown": "23",
+    "uses": "5",
+    "thumbnail": "heroes/Leo/sw.png",
+    "advancement": {
+      "1": "Verwendungsbedingungen werden auf 3 Skill-Verwendung(en) geändert.",
+      "2": "Geschädigte Gegner können 4 Sek. lang keine positiven Effekte erhalten."
+    },
+    "story": "Der Phönix, Symbol der Ewigkeit und Göttliche Bestie der Flamme, ist genug, um den ewigen Willen von Leo zum Ausdruck zu bringen. Viele Zauberer beneiden ihn um diese Weisheit, weil er fließend alte Schriften lesen kann. Aber Leo gibt sich viel Mühe, um die ungelösten Schriften zu entzifern und die Geschichte und Wahrheit in ihnen zu erkennen. Leo hört nie auf zu recherchieren, um herauszufinden, welche Bedeutung und welchen Zweck alte Schriften hatten, und sein Pflichtgefühl, eine alte Geschichte aufzuzeichnen, weckt die Seele seiner Lieblingsfeder. Belisa, die als Phoenix erwacht ist, hat ihre eigenen Erinnerungen an die Vergangenheit geteilt, die ewig gelebt hat, und wird die Antwort über die Bedeutung und Geschichte antiker Schriften geben, die Leo wissen möchte."
+  },
+  "splashart": "heroes/Leo/sa.png",
+  "costumes": "heroes/Leo/cos",
+  "_localization": {
+    "locale": "de",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

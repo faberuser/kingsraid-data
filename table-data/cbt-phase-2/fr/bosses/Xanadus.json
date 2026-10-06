@@ -1,0 +1,64 @@
+{
+  "id": "Xanadus",
+  "profile": {
+    "name": "Xanadus",
+    "title": "Déesse abyssale",
+    "type": [
+      "World Boss"
+    ],
+    "race": "Élémentaire",
+    "damage_type": "Magical, Physical",
+    "recommended_heroes": "Seria, Chrisha, Crow, Priscilla",
+    "characteristics": "Elle était autrefois une déesse des Enfers oubliée par l'histoire. Doté du pouvoir des ténèbres abyssales, cet être ancien est devenu un boss mondial.",
+    "thumbnail": "bosses/Xanadus.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Invitation abyssale",
+      "cost": null,
+      "cooldown": "18",
+      "description": "Charme 1 ennemi et inflige des DEG M à la cible, la tenant à l'écart de la bataille pendant 8 sec. Les cibles ainsi mises à l'écart ne peuvent ni agir ni être visées. Réduit de manière permanente les DEG de l'ennemi touché."
+    },
+    "2": {
+      "name": "Rideau de l'ombre",
+      "cost": null,
+      "cooldown": "21",
+      "description": "Crée un Rideau de l'ombre en avant pendant 10 sec, infligeant des DEG M à tous les ennemis toutes les 0,5 sec et réduisant leur ATQ de 50% pendant 20 sec."
+    },
+    "3": {
+      "name": "Lame ailée",
+      "cost": null,
+      "cooldown": "26",
+      "description": "Abat d'immenses ailes sur le sol, repoussant tous les ennemis et leur infligeant des DEG P."
+    },
+    "4": {
+      "name": "Cauchemar abyssal",
+      "cost": null,
+      "cooldown": null,
+      "description": "Inflige des DEG M à tous les ennemis et soigne vos propres PV toutes les 0,5 sec pendant 10 sec. Chaque soin réduit les dégâts subis de façon permanente.\nSous l'effet de [Cauchemar abyssal], les DEG subis sont significativement accrus lorsqu'[Œil des abysses] est exposé."
+    },
+    "5": {
+      "name": "Résistance d'espèce antique",
+      "cost": null,
+      "cooldown": null,
+      "description": "La Vitesse d'ATQ et la DEF de Xanadus sont immuables et la Résistance Crit est de 300.\nLance [Cauchemar abyssal] lorsque des compétences ont été utilisées 3 fois.\nUne partie des DEG infligés à [Pierre maudite des abysses] et à [Pierre d'âme des abysses] est transférée à Xanadus."
+    },
+    "6": {
+      "name": "Déesse d'obsidienne",
+      "cost": null,
+      "cooldown": null,
+      "description": "[Pierre maudite des abysses] et [Pierre d'âme des abysses] de Xanadus ne peuvent subir que 1 DEG à la fois jusqu'à ce que le bouclier cède.\nLe bouclier sera retiré durant [Cauchemar abyssal] et ne sera relancé qu'une fois [Cauchemar abyssal] terminé."
+    },
+    "7": {
+      "name": "Noyau des abysses",
+      "cost": null,
+      "cooldown": null,
+      "description": "[Pierre d'âme des abysses] augmente l'ATQ de Xanadus de 50% pendant 10 sec toutes les 30 sec.\n[Pierre maudite des abysses] réduit l'ATQ des 2 ennemis les plus éloignés de 30% toutes les 20 sec. Cet effet ne peut pas être dissipé."
+    }
+  },
+  "aliases": [
+    "Xanadus",
+    "WB3",
+    "WB 3"
+  ]
+}

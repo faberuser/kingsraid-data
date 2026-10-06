@@ -1,0 +1,228 @@
+{
+  "id": "Cassandra",
+  "profile": {
+    "name": "Cassandra",
+    "title": "Cassandra, Séductrice de Vent",
+    "class": "Priest",
+    "position": "Back-100",
+    "attack_range": "3900",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "27",
+    "height": "171",
+    "race": "Humain",
+    "constellation": "Lasiphil la Prophétesse",
+    "birth": {
+      "month": 3,
+      "day": 28,
+      "monthName": "Mois de la Clairvoyance"
+    },
+    "like": "Le vin rouge, les noix, les éventails colorés",
+    "dislike": "Les méchants clients, les cheveux gras, la puanteur",
+    "story": "Propriétaire de « la Barre d'Or », la plus grande et la plus luxueuse taverne de Vespia. Sous son apparence tape-à-l'œil, c'est un lieu de réunion discret pour l'élite sociale, où de nombreuses informations secrètes sont régulièrement échangées. Grâce à son charme naturel et ses talents de conversation, elle peut facilement détendre les gens et gagner leur confiance. Sa véritable identité est celle d'une marchande d'armes et d'informations secrètes.",
+    "thumbnail": "heroes/Cassandra/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Tranquillement",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Soigne tous les alliés de ??? PV et inlige ??? points de DEG M à tous les ennemis. Les ennemis touchés sont réduits au silence pendant 2 sec.",
+      "thumbnail": "heroes/Cassandra/skills/1.png"
+    },
+    "2": {
+      "name": "Férocement!",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Augmente l'ATQ des alliés de ??? pendant 15 sec et augmente le Crit de 700.",
+      "thumbnail": "heroes/Cassandra/skills/2.png"
+    },
+    "3": {
+      "name": "Vague Tentatrice",
+      "cost": "4",
+      "cooldown": "22",
+      "description": "Inflige ??? points de DEG M à l'ennemi ayant l'ATQ la plus élevée. Applique Charme sur l'ennemi pendant 7 sec lorsque la compétence est utilisée en Arène. Inflige 25% de DEG M supplémentaires lorsque utilisée en-dehors de l'Arène, Les ennemis charmés attaquent leurs propres alliés avec des attaques auto et ne peuvent pas utiliser de compétences.",
+      "thumbnail": "heroes/Cassandra/skills/3.png"
+    },
+    "4": {
+      "name": "Douceur",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lors du début de chaque bataille, réduit le coût en PM de la première compétence utilisée de 2 barres. Augmente également la DEF de tous les alliés de ??? pendant 5 sec.",
+      "thumbnail": "heroes/Cassandra/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les soins et les DEG de 10%.",
+      "III": "Augmente les soins et les DEG de 15%.",
+      "IV": "Durée du Silence augmentée de 0.5 sec."
+    },
+    "2": {
+      "II": "Augmentation de l'ATQ boostée de 10%.",
+      "III": "Augmentation de l'ATQ boostée de 15%.",
+      "IV": "Augmentation de l'ATQ boostée de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Durée du Charme augmentée de 1 sec."
+    },
+    "4": {
+      "II": "Augmentation de la DEF boostée de 10%.",
+      "III": "Augmentation de la DEF boostée de 15%.",
+      "IV": "Augmentation de la DEF boostée de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "La Vitesse d'ATQ des alliés soignés est augmentée de 200 pendant 10 sec.",
+          "thumbnail": "heroes/Cassandra/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit 200 PM de l'ennemi touché toutes les secondes, pendant 5 secondes.",
+          "thumbnail": "heroes/Cassandra/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Boost d'ATQ augmenté de 40%.",
+          "thumbnail": "heroes/Cassandra/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Cassandra/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "La cible reçoit 25% de DEG M supplémentaires pendant 10 sec.",
+          "thumbnail": "heroes/Cassandra/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Cassandra/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Les DEG sur les alliés sont réduits de 20% pendant 5 sec.",
+          "thumbnail": "heroes/Cassandra/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "La durée d'augmentation de la DEF est augmentée de 5 sec.",
+          "thumbnail": "heroes/Cassandra/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Vitesse d'ATQ +100",
+        "thumbnail": "heroes/Cassandra/perks/light.png"
+      },
+      "dark": {
+        "effect": "Au début de chaque bataille, un allié aléatoire est immunisé aux DEG pendant 3 sec.",
+        "thumbnail": "heroes/Cassandra/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Murmure doré, le Chuchotement auréolé",
+    "description": "Chaque coup de compétence augmente les DEG M subis par une cible de 10% pendant 10 sec. Soigne les PV de l'allié ayant le moins de PV de 200% de son ATQ et retire tous les effets négatifs sur l'allié toutes les 8 sec.",
+    "value": {},
+    "thumbnail": "heroes/Cassandra/uw.png",
+    "story": "Cassandra travaille d'arrache-pied en tant que marchande d'armes. Un jour, un article volé entré en sa possession attira immédiatement son attention : un somptueux éventail serti de pierres précieuses et d'ornements en or. D'après la rumeur, chaque femme à qui l'éventail aurait appartenu aurait connu un destin tragique. L'objet prétendument maudit aurait ainsi circulé sur le marché noir. Dès qu'elle l'eut acheté, Cassandra chercha à connaître son origine. Cet éventail baptisé Murmure Doré fut conçu pour servir d'arme furtive. On devine donc aisément quel genre de malheur a pu arriver aux ingénues à qui il a appartenu.",
+    "descriptionByStar": {
+      "0": "Chaque coup de compétence augmente les DEG M subis par une cible de 10% pendant 10 sec. Soigne les PV de l'allié ayant le moins de PV de 200% de son ATQ et retire tous les effets négatifs sur l'allié toutes les 8 sec.",
+      "1": "Chaque coup de compétence augmente les DEG M subis par une cible de 12% pendant 10 sec. Soigne les PV de l'allié ayant le moins de PV de 240% de son ATQ et retire tous les effets négatifs sur l'allié toutes les 8 sec.",
+      "2": "Chaque coup de compétence augmente les DEG M subis par une cible de 14% pendant 10 sec. Soigne les PV de l'allié ayant le moins de PV de 290% de son ATQ et retire tous les effets négatifs sur l'allié toutes les 8 sec.",
+      "3": "Chaque coup de compétence augmente les DEG M subis par une cible de 17% pendant 10 sec. Soigne les PV de l'allié ayant le moins de PV de 350% de son ATQ et retire tous les effets négatifs sur l'allié toutes les 8 sec.",
+      "4": "Chaque coup de compétence augmente les DEG M subis par une cible de 21% pendant 10 sec. Soigne les PV de l'allié ayant le moins de PV de 420% de son ATQ et retire tous les effets négatifs sur l'allié toutes les 8 sec.",
+      "5": "Chaque coup de compétence augmente les DEG M subis par une cible de 25% pendant 10 sec. Soigne les PV de l'allié ayant le moins de PV de 500% de son ATQ et retire tous les effets négatifs sur l'allié toutes les 8 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Décoration en plume d'oiseau écarlate",
+      "description": "[Tranquillement~] Accélère les soins de 50 % et augmente la durée de Silence de 0,8 sec.",
+      "value": {},
+      "thumbnail": "heroes/Cassandra/ut/1.png",
+      "story": "Cet ornement a été confectionné à partir d'une plume d'oiseau écarlate, une créature aussi magnifique que maléfique.\nCette plume dégage habituellement une énergie sombre, mais à la lumière, elle illumine tout ce qui l'entoure d'un halo rouge. Sa couleur étant trop lumineuse et splendide pour les esprits faibles, ils sont engloutis par les hallucinations qu'elle provoque.",
+      "descriptionByStar": {
+        "0": "[Tranquillement~] Accélère les soins de 50 % et augmente la durée de Silence de 0,8 sec.",
+        "1": "[Tranquillement~] Accélère les soins de 50 % et augmente la durée de Silence de 1 sec.",
+        "2": "[Tranquillement~] Accélère les soins de 50 % et augmente la durée de Silence de 1,2 sec.",
+        "3": "[Tranquillement~] Accélère les soins de 50 % et augmente la durée de Silence de 1,4 sec.",
+        "4": "[Tranquillement~] Accélère les soins de 50 % et augmente la durée de Silence de 1,7 sec.",
+        "5": "[Tranquillement~] Accélère les soins de 50 % et augmente la durée de Silence de 2 sec."
+      }
+    },
+    "2": {
+      "name": "Décoration sophistiquée",
+      "description": "[Férocement !] Augmente la durée de 5 sec et augmente en plus les DEG Crit de 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Cassandra/ut/2.png",
+      "story": "Accessoire de luxe confectionné par le meilleur joailler du continent.\nCette décoration édition limitée a été élaborée par Larik le joailler. Toute la haute société du continent Orbis rêverait d’avoir la même. \nSes bijoux sont au sommet de l’art, et l’on raconte qu’ils peuvent soigner et donner du courage. \nIl n’existe que 3 décorations sophistiquées édition limitée, et l’une d’entre elles semble appartenir au maître de la Barre d’Or.",
+      "descriptionByStar": {
+        "0": "[Férocement !] Augmente la durée de 5 sec et augmente en plus les DEG Crit de 20 %.",
+        "1": "[Férocement !] Augmente la durée de 5 sec et augmente en plus les DEG Crit de 24 %.",
+        "2": "[Férocement !] Augmente la durée de 5 sec et augmente en plus les DEG Crit de 29 %.",
+        "3": "[Férocement !] Augmente la durée de 5 sec et augmente en plus les DEG Crit de 35 %.",
+        "4": "[Férocement !] Augmente la durée de 5 sec et augmente en plus les DEG Crit de 42 %.",
+        "5": "[Férocement !] Augmente la durée de 5 sec et augmente en plus les DEG Crit de 50 %."
+      }
+    },
+    "3": {
+      "name": "Fragrance d'or",
+      "description": "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 1 sec.",
+      "value": {},
+      "thumbnail": "heroes/Cassandra/ut/3.png",
+      "story": "Un pendentif de flammes et d’or légendaire. Le légendaire Roi d’Or créa ce collier pour attirer l’attention de la Déesse de l’Amour et de la Beauté. \nSa senteur dorée crée une Vague Tentatrice qui force les gens à se joindre au porteur, qui est aimé de tous.",
+      "descriptionByStar": {
+        "0": "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 1 sec.",
+        "1": "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 1,5 sec.",
+        "2": "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 2 sec.",
+        "3": "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 2,5 sec.",
+        "4": "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 3 sec.",
+        "5": "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 3,5 sec."
+      }
+    },
+    "4": {
+      "name": "Diffuseur de parfum de séduction",
+      "description": "[Douceur] Rend le boost de DEF inamovible. La Résistance Crit de tous les alliés augmente de 100 points pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Cassandra/ut/4.png",
+      "story": "Un diffuseur de parfum acheté par Cassandra dans l'Est, chez un marchand clandestin.\nUne forte odeur d'azalée s'en dégage.\nLe liquide à l'intérieur contient une substance spéciale qui agite les esprits, et les personnes qui la respirent suffisamment longtemps confessent leurs secrets les plus inavouables.\nÀ moins d'avoir un besoin vital d'une information, Cassandra n'utilise pas ce diffuseur, car il serait pratiquement impossible de racheter du liquide.",
+      "descriptionByStar": {
+        "0": "[Douceur] Rend le boost de DEF inamovible. La Résistance Crit de tous les alliés augmente de 100 points pendant 10 sec.",
+        "1": "[Douceur] Rend le boost de DEF inamovible. La Résistance Crit de tous les alliés augmente de 120 points pendant 10 sec.",
+        "2": "[Douceur] Rend le boost de DEF inamovible. La Résistance Crit de tous les alliés augmente de 140 points pendant 10 sec.",
+        "3": "[Douceur] Rend le boost de DEF inamovible. La Résistance Crit de tous les alliés augmente de 170 points pendant 10 sec.",
+        "4": "[Douceur] Rend le boost de DEF inamovible. La Résistance Crit de tous les alliés augmente de 210 points pendant 10 sec.",
+        "5": "[Douceur] Rend le boost de DEF inamovible. La Résistance Crit de tous les alliés augmente de 250 points pendant 10 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 4 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Murmure doré, le Chuchotement auréolé pendant 10 sec, ce qui augmente la Vitesse d'ATQ de tous les alliés de 300. Inflige ??? DEG M à tous les ennemis et augmente les DEG M reçus de 25% pendant 10 sec. Dans les arènes, l'invocation applique Charme à tous les ennemis pendant 5 sec.",
+    "cooldown": "23",
+    "uses": "4",
+    "thumbnail": "heroes/Cassandra/sw.png",
+    "advancement": {
+      "1": "La condition d'utilisation passe à 3 fois.",
+      "2": "Lors de son activation, restaure 2000 PM de tous les alliés et augmente leurs DEG Crit de 80% pendant la durée de l'invocation."
+    },
+    "story": "Murmure doré, l'éventail cachant la lame dans sa beauté, passait de main en main des dames nobles, et était utilisé afin de régler le désir, l'envie et la jalousie de ces dernières.\nÀ cause de cela, cet éventail s'imprégna du sang de beaucoup de personnes, et fut considéré comme maudit, portant malheur à son utilisateur.\n\nMais après que Cassandra l'eut acheté chez un receleur, le destin de l'éventail maudit se mit à changer.\nCassandra était une beauté fatale, tout comme l'éventail, et maniait ce dernier sans vanité, sans le désir de se faire remarquer.\nElle l'utilisait parfois avec finesse, parfois avec hardiesse, ou encore avec sagacité. Certains qui se retrouvaient face à son éventail devenaient prisonniers de son charme, d'autres devenaient des clients fidèles, ou s'aplatissaient devant elle.\n\nEn fin de compte, Murmure doré reconnut Cassandra et se montra devant elle.\nElle avait l'apparence d'une magnifique dame aux yeux masqués... qui n'avait rien d'une arme fatale ayant nui à un grand nombre de personnes.\n\nCependant, Cassandra savait.\nElle savait que plus une rose était belle, plus elle comportait des épines mortelles."
+  },
+  "splashart": "heroes/Cassandra/sa.png",
+  "costumes": "heroes/Cassandra/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

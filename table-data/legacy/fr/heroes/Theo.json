@@ -1,0 +1,228 @@
+{
+  "id": "Theo",
+  "profile": {
+    "name": "Theo",
+    "title": "Theo, Chevalier dévoué",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "4000",
+    "damage_type": "Magical",
+    "gender": "Homme",
+    "age": "123",
+    "height": "194",
+    "race": "Humain",
+    "constellation": "Armil le Vénéré",
+    "birth": {
+      "month": 4,
+      "day": 15,
+      "monthName": "Mois de la Vie"
+    },
+    "like": "Ma dame, Jane",
+    "dislike": "Les démons et leurs officiers",
+    "story": "Un chevalier ayant servi le Grand-Duché de Gray il y a cent ans et un grand admirateur de Jane Gray. Theo fut le premier chevalier du grand-duché et le porteur de Legios, l'Éclair. Durant la bataille de Duchy contre l'Armée des Ténèbres, Forteresse de la Montagne se déchaîna lorsque son sceau fut rompu. Répondant à l'ordre de Jane, Theo partit contenir le danger. En son absence, de puissants officiers démons attaquèrent le palais. Theo revint les combattre malgré ses blessures graves, mais il fut incapable de les vaincre seul. Lorsque la bataille fut terminée, il prit le corps de la princesse dans ses bras et pleura dans les ruines du palais. C'est alors qu'une entité mystérieuse lui offrit une chance de défendre sa princesse pour l'éternité. Lorsqu'il accepta, il plongea dans un profond sommeil.",
+    "thumbnail": "heroes/Theo/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Crash Final",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Attaque l'ennemi à 16 reprises, infligeant un total de ??? DEG M. Chaque coup critique augmente les DEG Crit de 3% pendant 10 sec et a 30% de chances d'infliger ??? DEG M supplémentaires tout en appliquant l'Étourdissement pendant 0,3 sec. L'effet des DEG Crit est cumulable 30 fois.",
+      "thumbnail": "heroes/Theo/skills/1.png"
+    },
+    "2": {
+      "name": "Dieu de la Foudre",
+      "cost": "2",
+      "cooldown": "20",
+      "description": "Active l'état 'Dieu de la Foudre'. Projette une lance de foudre à l'ennemi, ce qui inflige ??? DEG M, et le repousse. Augmente les DEG M reçus par la cible touchée de 50% pendant 10 sec. En état de 'Dieu de la Foudre', augmente les chances d'activation de la compétence 'Pour Jane' de 40% et l'ATQ de ??? pendant 15 sec.",
+      "thumbnail": "heroes/Theo/skills/2.png"
+    },
+    "3": {
+      "name": "Explosion de Foudre",
+      "cost": "3",
+      "cooldown": "22",
+      "description": "Saute vers l'avant sur un ennemi, frappant avec une lance vers le sol. Touche la cible à 5 reprises et inflige un total de ??? points de DEG M à la cible et aux ennemis proches. Applique également Étourdissement pendant 3 sec.",
+      "thumbnail": "heroes/Theo/skills/3.png"
+    },
+    "4": {
+      "name": "Pour Jane",
+      "cost": null,
+      "cooldown": null,
+      "description": "Chaque attaque normale a 20% de chances d'infliger ??? DEG M et d'étourdir pendant 0.7 sec.",
+      "thumbnail": "heroes/Theo/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Les boosts d'ATQ et de DEG sont augmentés de 10%.",
+      "III": "Les boosts d'ATQ et de DEG sont augmentés de 15%.",
+      "IV": "Les boosts d'ATQ et de DEG sont augmentés de 25%."
+    },
+    "3": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "4": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "S'il y a 1 ennemi, les DEG sont augmentés de 100%.",
+          "thumbnail": "heroes/Theo/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Le temps de recharge est réduit de 2 sec.",
+          "thumbnail": "heroes/Theo/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Theo/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Augmente l'augmentation de l'ATQ de 100% à l'état de Dieu de la Foudre.",
+          "thumbnail": "heroes/Theo/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "DEG augmentés de 40%.",
+          "thumbnail": "heroes/Theo/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Durée Étourdissement augmentée de 1 sec.",
+          "thumbnail": "heroes/Theo/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "DEG augmentés de 40%.",
+          "thumbnail": "heroes/Theo/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Durée Étourdissement augmentée de 0,2 sec.",
+          "thumbnail": "heroes/Theo/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Crit +100",
+        "thumbnail": "heroes/Theo/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente l'ATQ de 50% pendant 15 sec lorsque les PM sont au maximum. Cet effet n'est activé qu'1 fois toutes les 20 secondes.",
+        "thumbnail": "heroes/Theo/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Legios, l'Éclair",
+    "description": "Lors de l'utilisation de compétence et de l'attaque automatique, cumule 'Éclat de Foudre' sur lui-même. Lorsque 50 charges sont cumulées, active 'Legios, l'Éclair', ce qui augmente la Vitesse d'ATQ de 300, les DEG Crit de 100% et la Pénétration DEF de 300, pendant 15 sec. Pendant que 'Legios, l'Éclair' est activé, ne cumule pas d''Éclat de Foudre'. Cet effet ne peut pas être dissipé.",
+    "value": {},
+    "thumbnail": "heroes/Theo/uw.png",
+    "story": "Une lance dont on dit qu'elle aurait été forgée à partir d'un éclair. Un courant électrique parcourt constamment cette lance impressionnante, aussi grande qu'un homme adulte. Forger une lance à partir d'un éclair ne fut pas une mince affaire. Mais après tout, Jin n'avait rien d'un forgeron ordinaire. Il fit fondre une énorme pierre de mana imprégnée de sang de dragon rouge et s'en servit pour emprisonner l'éclair avant de le façonner. Hormis le maître qu'elle s'est choisi, nul ne peut toucher cette arme. Lorsque ses deux pièces sont assemblées, elle libère un intense flux d'énergie évoquant le rugissement d'un dragon.",
+    "descriptionByStar": {
+      "0": "Lors de l'utilisation de compétence et de l'attaque automatique, cumule 'Éclat de Foudre' sur lui-même. Lorsque 50 charges sont cumulées, active 'Legios, l'Éclair', ce qui augmente la Vitesse d'ATQ de 300, les DEG Crit de 100% et la Pénétration DEF de 300, pendant 15 sec. Pendant que 'Legios, l'Éclair' est activé, ne cumule pas d''Éclat de Foudre'. Cet effet ne peut pas être dissipé.",
+      "1": "Lors de l'utilisation de compétence et de l'attaque automatique, cumule 'Éclat de Foudre' sur lui-même. Lorsque 50 charges sont cumulées, active 'Legios, l'Éclair', ce qui augmente la Vitesse d'ATQ de 360, les DEG Crit de 120% et la Pénétration DEF de 360, pendant 15 sec. Pendant que 'Legios, l'Éclair' est activé, ne cumule pas d''Éclat de Foudre'. Cet effet ne peut pas être dissipé.",
+      "2": "Lors de l'utilisation de compétence et de l'attaque automatique, cumule 'Éclat de Foudre' sur lui-même. Lorsque 50 charges sont cumulées, active 'Legios, l'Éclair', ce qui augmente la Vitesse d'ATQ de 430, les DEG Crit de 144% et la Pénétration DEF de 430, pendant 15 sec. Pendant que 'Legios, l'Éclair' est activé, ne cumule pas d''Éclat de Foudre'. Cet effet ne peut pas être dissipé.",
+      "3": "Lors de l'utilisation de compétence et de l'attaque automatique, cumule 'Éclat de Foudre' sur lui-même. Lorsque 50 charges sont cumulées, active 'Legios, l'Éclair', ce qui augmente la Vitesse d'ATQ de 520, les DEG Crit de 173% et la Pénétration DEF de 520, pendant 15 sec. Pendant que 'Legios, l'Éclair' est activé, ne cumule pas d''Éclat de Foudre'. Cet effet ne peut pas être dissipé.",
+      "4": "Lors de l'utilisation de compétence et de l'attaque automatique, cumule 'Éclat de Foudre' sur lui-même. Lorsque 50 charges sont cumulées, active 'Legios, l'Éclair', ce qui augmente la Vitesse d'ATQ de 620, les DEG Crit de 208% et la Pénétration DEF de 620, pendant 15 sec. Pendant que 'Legios, l'Éclair' est activé, ne cumule pas d''Éclat de Foudre'. Cet effet ne peut pas être dissipé.",
+      "5": "Lors de l'utilisation de compétence et de l'attaque automatique, cumule 'Éclat de Foudre' sur lui-même. Lorsque 50 charges sont cumulées, active 'Legios, l'Éclair', ce qui augmente la Vitesse d'ATQ de 750, les DEG Crit de 250% et la Pénétration DEF de 750, pendant 15 sec. Pendant que 'Legios, l'Éclair' est activé, ne cumule pas d''Éclat de Foudre'. Cet effet ne peut pas être dissipé."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Décoration en fourrure de zibeline",
+      "description": "[Crash final] Dissipe tous les effets négatifs qui pèsent sur le lanceur et accorde à chaque coup 8 % de chances de dissiper tous les effets positifs dont bénéficie la cible.",
+      "value": {},
+      "thumbnail": "heroes/Theo/ut/1.png",
+      "story": "Cet ornement en fourrure de Sereblos, la zibeline divine, fonctionne comme un talisman.\nLes signaux électriques de Legios peuvent certes pousser le corps à ses limites, mais le processus est épuisant. La fourrure chatoyante de zibeline aide Theo en absorbant le contrecoup. Elle conduit des signaux électriques de Legios dans tout son corps, tout en protégeant ses veines grâce à son énergie sacrée, lui permettant ainsi de préserver son corps lorsqu'il se bat.",
+      "descriptionByStar": {
+        "0": "[Crash final] Dissipe tous les effets négatifs qui pèsent sur le lanceur et accorde à chaque coup 8 % de chances de dissiper tous les effets positifs dont bénéficie la cible.",
+        "1": "[Crash final] Dissipe tous les effets négatifs qui pèsent sur le lanceur et accorde à chaque coup 10 % de chances de dissiper tous les effets positifs dont bénéficie la cible.",
+        "2": "[Crash final] Dissipe tous les effets négatifs qui pèsent sur le lanceur et accorde à chaque coup 12 % de chances de dissiper tous les effets positifs dont bénéficie la cible.",
+        "3": "[Crash final] Dissipe tous les effets négatifs qui pèsent sur le lanceur et accorde à chaque coup 14 % de chances de dissiper tous les effets positifs dont bénéficie la cible.",
+        "4": "[Crash final] Dissipe tous les effets négatifs qui pèsent sur le lanceur et accorde à chaque coup 17 % de chances de dissiper tous les effets positifs dont bénéficie la cible.",
+        "5": "[Crash final] Dissipe tous les effets négatifs qui pèsent sur le lanceur et accorde à chaque coup 20 % de chances de dissiper tous les effets positifs dont bénéficie la cible."
+      }
+    },
+    "2": {
+      "name": "Collier du Dieu de la Foudre",
+      "description": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 8% supplémentaires.",
+      "value": {},
+      "thumbnail": "heroes/Theo/ut/2.png",
+      "story": "Aussi appelé foudre du ciel, Legios n’en est pas moins une créature céleste.\nLa puissance de Legios était si grande que le Grand-Duché de Gray ne put la contenir lorsqu’il décida d’en faire une arme. \nAinsi, la plus grande partie fut placée dans la lance de foudre et le reste à différents endroits. \nC’est ainsi que le collier du Dieu de la Foudre en reçut une partie. L’on raconte que son porteur peut communier avec la lance de foudre et ainsi se rapprocher de la puissance de Legios.",
+      "descriptionByStar": {
+        "0": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 8% supplémentaires.",
+        "1": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 9,6% supplémentaires.",
+        "2": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 11,5% supplémentaires.",
+        "3": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 13,8% supplémentaires.",
+        "4": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 16,5% supplémentaires.",
+        "5": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 20% supplémentaires."
+      }
+    },
+    "3": {
+      "name": "Essence de foudre rouge",
+      "description": "[Explosion de Foudre] Le Temps de Rechange de la compétence est réduit de 30% et chaque attaque inflige des DEG M supplémentaires à hauteur de 40% de l'ATQ.",
+      "value": {},
+      "thumbnail": "heroes/Theo/ut/3.png",
+      "story": "Un héritage du Grand-Duché de Gray déchu. Un trésor que le mage respecté du palais grand-ducal donna au premier chevalier Theo, qui avait reçu Legios, l’Éclair. \nL’Essence de Foudre qui a l’énergie de l’Explosion de Foudre en maximise les effets.",
+      "descriptionByStar": {
+        "0": "[Explosion de Foudre] Le Temps de Rechange de la compétence est réduit de 30% et chaque attaque inflige des DEG M supplémentaires à hauteur de 40% de l'ATQ.",
+        "1": "[Explosion de Foudre] Le Temps de Rechange de la compétence est réduit de 30% et chaque attaque inflige des DEG M supplémentaires à hauteur de 48% de l'ATQ.",
+        "2": "[Explosion de Foudre] Le Temps de Rechange de la compétence est réduit de 30% et chaque attaque inflige des DEG M supplémentaires à hauteur de 58% de l'ATQ.",
+        "3": "[Explosion de Foudre] Le Temps de Rechange de la compétence est réduit de 30% et chaque attaque inflige des DEG M supplémentaires à hauteur de 70% de l'ATQ.",
+        "4": "[Explosion de Foudre] Le Temps de Rechange de la compétence est réduit de 30% et chaque attaque inflige des DEG M supplémentaires à hauteur de 84% de l'ATQ.",
+        "5": "[Explosion de Foudre] Le Temps de Rechange de la compétence est réduit de 30% et chaque attaque inflige des DEG M supplémentaires à hauteur de 100% de l'ATQ."
+      }
+    },
+    "4": {
+      "name": "Autre poupée funéraire",
+      "description": "[Pour Jane] Augmente les chances d'activation de 20 % et la Vitesse d'ATQ du lanceur de 350 points pendant 30 sec au début de chaque combat.",
+      "value": {},
+      "thumbnail": "heroes/Theo/ut/4.png",
+      "story": "Une poupée funéraire que Theo demanda à May de confectionner.\nIl plaça cette poupée qui est son portrait craché dans le tombeau où reposait jadis l'amour de sa vie.\nAinsi, il sera à ses côtés, même lorsque le temps aura raison de lui et le renverra sous terre.",
+      "descriptionByStar": {
+        "0": "[Pour Jane] Augmente les chances d'activation de 20 % et la Vitesse d'ATQ du lanceur de 350 points pendant 30 sec au début de chaque combat.",
+        "1": "[Pour Jane] Augmente les chances d'activation de 24 % et la Vitesse d'ATQ du lanceur de 350 points pendant 30 sec au début de chaque combat.",
+        "2": "[Pour Jane] Augmente les chances d'activation de 29 % et la Vitesse d'ATQ du lanceur de 350 points pendant 30 sec au début de chaque combat.",
+        "3": "[Pour Jane] Augmente les chances d'activation de 35 % et la Vitesse d'ATQ du lanceur de 350 points pendant 30 sec au début de chaque combat.",
+        "4": "[Pour Jane] Augmente les chances d'activation de 42 % et la Vitesse d'ATQ du lanceur de 350 points pendant 30 sec au début de chaque combat.",
+        "5": "[Pour Jane] Augmente les chances d'activation de 50 % et la Vitesse d'ATQ du lanceur de 350 points pendant 30 sec au début de chaque combat."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Vous devez infliger des DEG à 100 reprises pour recharger l'âme et l'utiliser.",
+    "description": "Invoque l'âme de Legios, l'Éclair, ce qui inflige ??? DEG M aux ennemis à portée, et ce à 4 reprises. Ces attaques étourdissent les ennemis pendant 0.5 sec. Ensuite, augmente le taux d'ATQ de 30% pendant 10 sec, et active 'Courroux de Legios' toutes les secondes; ce qui inflige ??? DEG M à un ennemi aléatoire et ceux à proximité. Les ennemis touchés sont étourdis pendant 1 sec.",
+    "cooldown": "25",
+    "uses": "6",
+    "thumbnail": "heroes/Theo/sw.png",
+    "advancement": {
+      "1": "Augmente les DEG M reçus par la cible touchée par le Courroux de Legios de 30%, pendant 5 sec.",
+      "2": "L'effet de 'Legios l'Éclair' est activé lorsque la compétence est activée."
+    },
+    "story": "L'âme de Legios, qui autrefois faisait partie du Transcendant de l'Éclair, fut enfermée dans une lance par un forgeron nain et perdit peu à peu sa puissance.\nAttendant une personne digne d'être l'héritier du transcendant, que Legios avait choisi comme son propriétaire, il s'endormit pour de longues périodes, jusqu'à ce qu'il ressente fortement l'âme de Theo. Lorsque Legios s'éveilla, Theo perçut l'immense être qui habitait dans ses deux lances, et tenta de s'accorder avec l'onde qu'il émettait, mais plus Legios retrouvait sa puissance, plus le corps de Theo en pâtissait.\nL'âme de Theo déstabilisée par l'onde de Legios qui changeait selon les flux et reflux des émotions, retrouva peu à peu sa stabilité à travers les retrouvailles avec sa dame perdue d'il y a 100 ans. L'âme de Legios et celle de Theo qui petit à petit se mirent sur la même longueur d'onde renaquirent en une apparence qui mériterait d'être appelée le nouvel avènement du transcendant."
+  },
+  "splashart": "heroes/Theo/sa.png",
+  "costumes": "heroes/Theo/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "id": "Jane",
+  "profile": {
+    "name": "Jane",
+    "title": "Alabasterhaut Jane",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "2500",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "118",
+    "height": "150",
+    "race": "Untote",
+    "constellation": "Armil, der Ehrwürdige",
+    "birth": {
+      "month": 4,
+      "day": 17,
+      "monthName": "Monat des Lebens"
+    },
+    "like": "Ich erinnere mich nicht genau ... Mein ...",
+    "dislike": "Große Knochen ...",
+    "story": "Einst war sie die Prinzessin des gefallenen Fürstentums Gray. Das Fürstentum Gray beschützte zahllose Geheimnisse, darunter die Ruinen und Technologien einer antiken Zivilisation, ehe sie während des Dämonenkrieges von den Dämoneninvasoren von der Landkarte entfernt wurde. Auch Jane verlor ihr Leben bei dem Versuch, diese Geheimnisse zu beschützen. Später wurde sie von Malduk, einem hochrangigen Offizier und Strategen der Dunklen Macht als Untote zurück auf die Welt gebracht. Durch eine seltsame, dunkle Magie erhielt sie ein neues Bewusstsein. Nun begibt sie sich auf eine Reise, um ihr früheres Selbst und ihre verlorenen Gedanken wiederzufinden.",
+    "thumbnail": "heroes/Jane/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Begräbnisliturgie",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Fügt Gegnern in Reichweite ??? Magieschaden zu und betäubt sie für 5 Sek.",
+      "thumbnail": "heroes/Jane/skills/1.png"
+    },
+    "2": {
+      "name": "Mal des Todes",
+      "cost": "1",
+      "cooldown": "6",
+      "description": "Markiert alle Gegner für 30 Sek. und verursacht ??? anhaltenden Magieschaden. Markierte Gegner erleiden 25% mehr Magieschaden. Dieser Effekt steigt bei jedem Einsatz um 20%, ist bis zu 5-mal stapelbar und nicht entfernbar.",
+      "thumbnail": "heroes/Jane/skills/2.png"
+    },
+    "3": {
+      "name": "Tag des Ruins",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Fügt allen Gegnern für 15 Sek. jede Sekunde ??? Magieschaden zu, heilt eigene LP in Höhe von 100% des Schadens und betäubt getroffene Ziele mit 10% Wahrscheinlichkeit für 1 Sek. Während der Fähigkeit besteht Immunität gegen Kontrolleffekte. Gegen markierte Ziele steigt der Magieschaden um ???.",
+      "thumbnail": "heroes/Jane/skills/3.png"
+    },
+    "4": {
+      "name": "Ruhe in Frieden",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht die magische VTD aller Verbündeten um ???. Bei tödlichem Schaden zieht sich Jane für 5 Sek. in einen Sarg zurück und heilt ??? LP + 6% ihrer max. LP. Im Sarg wird sie nicht vom Angriffstempo beeinflusst, ignoriert sämtlichen Schaden und fügt Gegnern in der Nähe jede Sekunde Magieschaden in Höhe von 5% ihrer max. LP zu.",
+      "thumbnail": "heroes/Jane/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erholt sich um 1 % MP."
+    },
+    "4": {
+      "II": "Erhöht Heilungsrate um 10 %.",
+      "III": "Erhöht Heilungsrate um 15 %.",
+      "IV": "Erhöht Heilungsrate um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Ziel erleidet 10 Sek. lang 25 % extra Mag. Schaden.",
+          "thumbnail": "heroes/Jane/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Für 1 extra Mana erhält der Skill eine 100 % Chance, Feinde zu sich heranzuziehen.",
+          "thumbnail": "heroes/Jane/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert die Wirkungsdauer um 10 Sek. und erhöht Schaden um 250 %.",
+          "thumbnail": "heroes/Jane/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Wenn negative Effekte aufgehoben werden, bleibt das eingravierte Mal bestehen.",
+          "thumbnail": "heroes/Jane/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht Schaden um 40 %.",
+          "thumbnail": "heroes/Jane/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Entfernt bei Verwendung die neg. Effekte aller Verbündete.",
+          "thumbnail": "heroes/Jane/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Entfernt bei Aktivierung die pos. Effekte aller Gegner.",
+          "thumbnail": "heroes/Jane/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Betäubt bei Aktivierung alle Feinde für 2 Sek.",
+          "thumbnail": "heroes/Jane/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Mag. Blockchance +200",
+        "thumbnail": "heroes/Jane/perks/light.png"
+      },
+      "dark": {
+        "effect": "Jeder Treffer von Janes Angriffen erhöht ihre ANG und Erholungsrate um je 1 % (Stapel-Limit: 50).",
+        "thumbnail": "heroes/Jane/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Unveränderliche Seele, Erekura",
+    "description": "Fügt Gegnern in der Nähe jede Sekunde Magieschaden in Höhe von {0}% des ANG zu und senkt ihren ANG um {1}%. Erhöht außerdem den Schaden gegen Nichthelden des anderen Verbündeten mit dem höchsten ANG um {2}%. Dieser Schadensbonus ist nicht entfernbar. Bei Aktivierung der passiven Fähigkeit werden 30% Mana regeneriert.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "20",
+        "5": "25"
+      },
+      "1": {
+        "0": "14",
+        "1": "17",
+        "2": "20",
+        "3": "24",
+        "4": "29",
+        "5": "35"
+      },
+      "2": {
+        "0": "6",
+        "1": "7",
+        "2": "8",
+        "3": "10",
+        "4": "12",
+        "5": "15"
+      }
+    },
+    "thumbnail": "heroes/Jane/uw.png",
+    "story": "Als Malduks Magie Jane als Untote wiederauferstehen ließ, sollte sie eigentlich nichts fühlen können. Doch sie fühlte sich warm und behaglich, denn eine sonderbare Energie umgab ihren toten Körper, die sie eigentlich nicht spüren hätte dürfen. Als Malduk sie mitnahm, gab sie sich instinktiv der warmen Ausstrahlung hin. Später, als sie durch geheimnisvolle Magie wieder das Bewusstsein erlangte, untersuchte sie zuallererst ihren Sarg, der eine tragische und doch warme Liebe ausstrahlte. In ihm fand sie eine sorgsam eingravierte Botschaft: „In beständiger Liebe für dich.“",
+    "descriptionByStar": {
+      "0": "Fügt Gegnern in der Nähe jede Sekunde Magieschaden in Höhe von 10% des ANG zu und senkt ihren ANG um 14%. Erhöht außerdem den Schaden gegen Nichthelden des anderen Verbündeten mit dem höchsten ANG um 6%. Dieser Schadensbonus ist nicht entfernbar. Bei Aktivierung der passiven Fähigkeit werden 30% Mana regeneriert.",
+      "1": "Verursacht jede Sek. 12 % des ANG als Mag. Schaden an umstehenden Gegnern und reduziert ihren ANG um 17 %. Stellt 30 % Mana wieder her, wenn der Passivskill aktiviert ist.",
+      "2": "Verursacht jede Sek. 14 % des ANG als Mag. Schaden an umstehenden Gegnern und reduziert ihren ANG um 20 %. Stellt 30 % Mana wieder her, wenn der Passivskill aktiviert ist.",
+      "3": "Verursacht jede Sek. 17 % des ANG als Mag. Schaden an umstehenden Gegnern und reduziert ihren ANG um 24 %. Stellt 30 % Mana wieder her, wenn der Passivskill aktiviert ist.",
+      "4": "Verursacht jede Sek. 20 % des ANG als Mag. Schaden an umstehenden Gegnern und reduziert ihren ANG um 29 %. Stellt 30 % Mana wieder her, wenn der Passivskill aktiviert ist.",
+      "5": "Verursacht jede Sek. 25 % des ANG als Mag. Schaden an umstehenden Gegnern und reduziert ihren ANG um 35 %. Stellt 30 % Mana wieder her, wenn der Passivskill aktiviert ist."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Begräbnispuppe",
+      "description": "[Begräbnisriten] Senkt für 10 Sek. den Kontrollwiderstand des Ziels um 250 und seine magische Blockchance um 200.",
+      "value": {},
+      "thumbnail": "heroes/Jane/ut/1.png",
+      "story": "Eine Puppe, die im Fürstentum Gray bei Begräbniszeremonien verwendet wurde.\nÜblicherweise wird die Puppe dem Verstorbenen nachempfunden und vor dem Grabstein platziert. Nach dem Untergang des Fürstentums und Janes Tod legten die Leute diese Puppe neben ihre Leiche.",
+      "descriptionByStar": {
+        "0": "[Begräbnisriten] Senkt für 10 Sek. den Kontrollwiderstand des Ziels um 250 und seine magische Blockchance um 200.",
+        "1": "[Begräbnisriten] Senkt für 10 Sek. den Kontrollwiderstand des Ziels um 250 und seine magische Blockchance um 240.",
+        "2": "[Begräbnisriten] Senkt für 10 Sek. den Kontrollwiderstand des Ziels um 250 und seine magische Blockchance um 290.",
+        "3": "[Begräbnisriten] Senkt für 10 Sek. den Kontrollwiderstand des Ziels um 250 und seine magische Blockchance um 350.",
+        "4": "[Begräbnisriten] Senkt für 10 Sek. den Kontrollwiderstand des Ziels um 250 und seine magische Blockchance um 420.",
+        "5": "[Begräbnisriten] Senkt für 10 Sek. den Kontrollwiderstand des Ziels um 250 und seine magische Blockchance um 500."
+      }
+    },
+    "2": {
+      "name": "Vom Tod durchwirktes Kissen",
+      "description": "[Todesmal] Stirbt ein markierter Gegner, steigen ANG um 5% und Krit.-Schaden um 10% für 20 Sek. Bis zu 8-mal stapelbar.",
+      "value": {},
+      "thumbnail": "heroes/Jane/ut/2.png",
+      "story": "Das Kissen, das Jane zum Einschlafen in ihrem Sarg benutzt. Es enthält die Geister, die mit ihr im Sarg einschliefen. \nSie verleihen Jane ständig die Leere des Todes.",
+      "descriptionByStar": {
+        "0": "[Todesmal] Stirbt ein markierter Gegner, steigen ANG um 5% und Krit.-Schaden um 10% für 20 Sek. Bis zu 8-mal stapelbar.",
+        "1": "[Todesmal] Stirbt ein markierter Gegner, steigen ANG um 5% und Krit.-Schaden um 12% für 20 Sek. Bis zu 8-mal stapelbar.",
+        "2": "[Todesmal] Stirbt ein markierter Gegner, steigen ANG um 5% und Krit.-Schaden um 14% für 20 Sek. Bis zu 8-mal stapelbar.",
+        "3": "[Todesmal] Stirbt ein markierter Gegner, steigen ANG um 5% und Krit.-Schaden um 17% für 20 Sek. Bis zu 8-mal stapelbar.",
+        "4": "[Todesmal] Stirbt ein markierter Gegner, steigen ANG um 5% und Krit.-Schaden um 21% für 20 Sek. Bis zu 8-mal stapelbar.",
+        "5": "[Todesmal] Stirbt ein markierter Gegner, steigen ANG um 5% und Krit.-Schaden um 25% für 20 Sek. Bis zu 8-mal stapelbar."
+      }
+    },
+    "3": {
+      "name": "Blume des Vergessenen Fürstentums",
+      "description": "[Tag des Untergangs] Erhöht den Schaden um 20%. Verursachter Schaden senkt die magische VTD des Ziels für 5 Sek. um 5%. Bis zu 10-mal stapelbar.",
+      "value": {},
+      "thumbnail": "heroes/Jane/ut/3.png",
+      "story": "Eine Blume des Fürstentums, die heute nirgends mehr zu finden ist. Sie ist auch als die „Blume der Grenzen“ bekannt, die Leben und Tod miteinander verbindet und sich von Zerstörung nährt. Eine schmerzhaft schöne Blume. Wenn man sie jemandem schenkt, kann man den letzten Moment dieser Person in einem Traum wahrnehmen.",
+      "descriptionByStar": {
+        "0": "[Tag des Untergangs] Erhöht den Schaden um 20%. Verursachter Schaden senkt die magische VTD des Ziels für 5 Sek. um 5%. Bis zu 10-mal stapelbar.",
+        "1": "[Tag des Untergangs] Erhöht den Schaden um 24%. Verursachter Schaden senkt die magische VTD des Ziels für 5 Sek. um 5%. Bis zu 10-mal stapelbar.",
+        "2": "[Tag des Untergangs] Erhöht den Schaden um 29%. Verursachter Schaden senkt die magische VTD des Ziels für 5 Sek. um 5%. Bis zu 10-mal stapelbar.",
+        "3": "[Tag des Untergangs] Erhöht den Schaden um 35%. Verursachter Schaden senkt die magische VTD des Ziels für 5 Sek. um 5%. Bis zu 10-mal stapelbar.",
+        "4": "[Tag des Untergangs] Erhöht den Schaden um 42%. Verursachter Schaden senkt die magische VTD des Ziels für 5 Sek. um 5%. Bis zu 10-mal stapelbar.",
+        "5": "[Tag des Untergangs] Erhöht den Schaden um 50%. Verursachter Schaden senkt die magische VTD des Ziels für 5 Sek. um 5%. Bis zu 10-mal stapelbar."
+      }
+    },
+    "4": {
+      "name": "Erster-Freund-Puppe",
+      "description": "[Ruhe in Frieden] entfernt bei Aktivierung alle negativen Effekte von Verbündeten und verringert den gesamten verursachten Schaden für 10 Sek. um 10 %.",
+      "value": {},
+      "thumbnail": "heroes/Jane/ut/4.png",
+      "story": "Eine Puppe, die wie Rephy, Janes erstem Freund, aussieht.\nJane blieb vor einem Laden, in dem Gift verkauft wurde, regungslos stehen.\nAls Epis bemerkte, wie Jane die limitierte Auflage der Rephy-Puppe in der Auslage des Ladens ansah, beschloss sie, sie ihr zu kaufen.\nDa die Puppe nur gegen Mileage erhältlich war, war Epis den Tränen nahe, weil sie ihr ganzes Taschengeld dafür ausgeben musste. Doch Janes Lächeln war es wahrscheinlich wert.",
+      "descriptionByStar": {
+        "0": "[Ruhe in Frieden] entfernt bei Aktivierung alle negativen Effekte von Verbündeten und verringert den gesamten verursachten Schaden für 10 Sek. um 10 %.",
+        "1": "[Ruhe in Frieden] entfernt bei Aktivierung alle negativen Effekte von Verbündeten und verringert den gesamten verursachten Schaden für 10 Sek. um 12 %.",
+        "2": "[Ruhe in Frieden] entfernt bei Aktivierung alle negativen Effekte von Verbündeten und verringert den gesamten verursachten Schaden für 10 Sek. um 14 %.",
+        "3": "[Ruhe in Frieden] entfernt bei Aktivierung alle negativen Effekte von Verbündeten und verringert den gesamten verursachten Schaden für 10 Sek. um 17 %.",
+        "4": "[Ruhe in Frieden] entfernt bei Aktivierung alle negativen Effekte von Verbündeten und verringert den gesamten verursachten Schaden für 10 Sek. um 21 %.",
+        "5": "[Ruhe in Frieden] entfernt bei Aktivierung alle negativen Effekte von Verbündeten und verringert den gesamten verursachten Schaden für 10 Sek. um 25 %."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Pro Sekunde und pro zugefügten Schaden wird sie geladen und bei 80 Ladungen kann es verwendet werden.",
+    "description": "Beschwört 10 Sek. lang die Seele von Unveränderliche Seele Erekura, erhöht die eigene Heilungsrate um 50 % und erhöht aller 0.5 Sek. den erhaltenen Mag. Schaden aller Gegner 5 Sek. lang um 10 %. Dieser Effekt ist bis zu 5-mal stapelbar. Nach 10 Sek. wird die Stapelung auf den Gegner verbraucht und pro Stapelung ??? Mag. Schaden zugefügt.",
+    "cooldown": "20",
+    "uses": "6",
+    "thumbnail": "heroes/Jane/sw.png",
+    "advancement": {
+      "1": "Aufrufbedingung wird um 60 verringert.",
+      "2": "Pro Stapelung wird der erhaltene Mag. Schaden-Erhöhungswert des Gegners auf 20 % geändert."
+    },
+    "story": "Der immerwährende Sinn für die liebenswerte und kostbare Jane und die Sehnsucht von Jane, eine Person zu treffen, die sie vermisst, war ein Samen, der in Erekura gepflanzt wurde und sich immer mehr verhedderte, als sie den verlorenen Verstand zurückerhielt und zu einem Dornbaum wurde, der sie schützt.\nDie Seele von Erekura hat die Blütenknospe nacheinander aufgeblüht, als Janes Geist tiefer wurde. Die schlafende Blume, die gewartet hat, hat geblüht, als Jane diese Person wieder traf, und der Pollen dieser Blume bildete einen scharlachroten Hügel, der mit Blumen verschwundenen Fürstentums bedeckt ist."
+  },
+  "splashart": "heroes/Jane/sa.png",
+  "costumes": "heroes/Jane/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "Xanadus",
+  "profile": {
+    "name": "Xanadus",
+    "title": "Göttin des Abgrunds",
+    "type": [
+      "World Boss"
+    ],
+    "race": "Elementar",
+    "damage_type": "Magical, Physical",
+    "recommended_heroes": "Seria, Chrisha, Crow, Priscilla",
+    "characteristics": "Sie war einst eine Göttin der Unterwelt, die in Vergessenheit geriet. Durch die Macht der abgründigen Dunkelheit wurde dieses uralte Wesen zu einem Weltboss.",
+    "thumbnail": "bosses/Xanadus.png",
+    "recommendedHeroNames": [
+      "Seria",
+      "Chrisha",
+      "Crow",
+      "Priscilla"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Einladung in den Abgrund",
+      "cost": null,
+      "cooldown": "18",
+      "description": "Bezaubert 1 Feind, fügt dem Ziel Mag. Schaden zu und zwingt es für 8 Sek. zum Rückzug. Zurückgezogene Ziele können keine Aktionen ausführen oder angegriffen werden. Der Schaden des getroffenen Feindes wird dauerhaft verringert."
+    },
+    "2": {
+      "name": "Vorhang der Dunkelheit",
+      "cost": null,
+      "cooldown": "21",
+      "description": "Bewirkt für 10 Sek. einen Vorhang der Dunkelheit an der Front, der allen Feinden alle 0,5 Sek. Mag. Schaden zufügt und ihren ANG 20 Sek. lang um 50 % reduziert."
+    },
+    "3": {
+      "name": "Flügel der Klinge",
+      "cost": null,
+      "cooldown": "26",
+      "description": "Führt Bodenangriffe mit großen Flügeln aus, fügt allen Feinden Körp. Schaden zu und schleudert sie fort."
+    },
+    "4": {
+      "name": "Albtraum des Abgrunds",
+      "cost": null,
+      "cooldown": null,
+      "description": "Fügt allen Feinden Mag. Schaden zu und heilt für 10 Sek. die eigenen TP alle 0,5 Sek. Reduziert dauerhaft erhaltenen Schaden mit jeder Heilung.\nErleidet im Zustand [Alptraum des Abgrunds] erhöhten Schaden, wenn das [Auge des Abgrunds] offenliegt."
+    },
+    "5": {
+      "name": "Widerstand der uralten Spezies",
+      "cost": null,
+      "cooldown": null,
+      "description": "Die ANG-GESCHW. und VERT von Xanadus werden festgelegt. Krit. Widerstand liegt bei 300.\nFührt nach 3 ausgeführten Skills [Albtraum des Abgrunds] aus.\nWird dem [Fluchstein des Abgrunds] und dem [Seelenstein des Abgrunds] Schaden zugefügt, wird ein Teil des Schadens auf Xanadus übertragen."
+    },
+    "6": {
+      "name": "Obsidian-Göttin",
+      "cost": null,
+      "cooldown": null,
+      "description": "Bis der Schild zerstört ist, erleiden der [Fluchstein des Abgrunds] und der [Seelenstein des Abgrunds] von Xanadus jeweils nur 1 Schaden durch alle Angriffe.\nDer Schild wird für die Dauer von [Albtraum des Abgrunds] entfernt und danach wiederhergestellt."
+    },
+    "7": {
+      "name": "Kern des Abgrunds",
+      "cost": null,
+      "cooldown": null,
+      "description": "[Seelenstein des Abgrunds] erhöht alle 30 Sek. den ANG von Xanadus für die Dauer von 10 Sek. um 50 %.\n[Fluchstein des Abgrunds] reduziert alle 20 Sek. den ANG von den 2 am weitesten entfernten Feinden um 30 %. Dieser Effekt kann nicht aufgehoben werden."
+    }
+  },
+  "aliases": [
+    "Xanadus",
+    "WB3",
+    "WB 3"
+  ]
+}

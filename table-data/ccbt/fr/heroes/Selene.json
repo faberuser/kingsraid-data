@@ -1,0 +1,268 @@
+{
+  "id": "Selene",
+  "profile": {
+    "name": "Selene",
+    "title": "Selene, Flèche Perce-Vent",
+    "class": "Archer",
+    "position": "Back-200",
+    "attack_range": "1000",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "???",
+    "height": "169",
+    "race": "Elfe",
+    "constellation": "Notmun l'Accordeur",
+    "birth": {
+      "month": 7,
+      "day": 11,
+      "monthName": "Mois de l'Harmonie"
+    },
+    "like": "Ceux qui travaillent en harmonie et prennent des responsabilités",
+    "dislike": "Ceux qui abandonnent leurs convictions. Ceux qui fuient le danger immédiat",
+    "story": "Cette noble princesse elfique admire l'Épée Sacrée et son guerrier élu. Elle fait de son mieux pour faire le bien et veut que les autres fassent de même. C'est pour cela qu'elle n'hésite pas à critiquer ceux qui s'éloignent de la voie de la vertu, même s'il s'agit du Guerrier de l'Épée Sacrée. Malheureusement, les gens se méprennent souvent sur sa volonté d'acier. Elle rend souvent visite à sa jeune sœur Dosarta pour lui tenir compagnie dans sa tour.",
+    "thumbnail": "heroes/Selene/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Pluie de Flèches",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Tire 12 flèches aléatoirement et inflige [ffc800]161(1+0.3Skill Level)+70.7% of Attack Power[-] DEG P à l'ennemi.",
+      "thumbnail": "heroes/Selene/skills/1.png"
+    },
+    "2": {
+      "name": "Ruée",
+      "cost": "1",
+      "cooldown": "6",
+      "description": "Invoque 5 flèches guidées qui suivent les ennemis. Une attaque consomme 1 flèche pour infliger 351(1+0.3Skill Level)+154.3% of Attack Power DEG P supplémentaires à l’ennemi.",
+      "thumbnail": "heroes/Selene/skills/2.png"
+    },
+    "3": {
+      "name": "Flash Clair de Lune",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Inflige jusqu’à 1530(1+0.3Skill Level)+671% of Attack Power DEG P aux ennemis en ligne selon leurs PV restants et les renverse. Cette compétence gagne 500 de pénétration de DEF P et inflige 765(1+0.3Skill Level)+335.5% of Attack Power DEG P supplémentaires aux boss.",
+      "thumbnail": "heroes/Selene/skills/3.png"
+    },
+    "4": {
+      "name": "Flèche Clair de Lune",
+      "cost": null,
+      "cooldown": null,
+      "description": "Après une compétence ou une attaque normale, augmente l’ATQ de 24(1+0.3Skill Level) et les chances de coup critique de 100 pendant 5 sec. [Flèche de lune] se cumule jusqu’à 6 fois. Au maximum, aucun cumul supplémentaire pendant la durée, mais les attaques normales tirent 3 flèches supplémentaires infligeant chacune des DEG P égaux à 143% de l’ATQ.",
+      "thumbnail": "heroes/Selene/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "4": {
+      "II": "Augmente l'augmentation d'ATQ de [64ff64]10[-]%.",
+      "III": "Augmente l'augmentation d'ATQ de [64ff64]15[-]%.",
+      "IV": "Chaque attaque augmente les DEG Crit du héros de 10%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Les DEG sont augmentés de 40%.",
+          "thumbnail": "heroes/Selene/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "A 50% de chances d'étourdir l'ennemi touché pendant 0.6 sec.",
+          "thumbnail": "heroes/Selene/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Invoque 2 flèches supplémentaires.",
+          "thumbnail": "heroes/Selene/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 1000.",
+          "thumbnail": "heroes/Selene/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente les DEG de 40 %.",
+          "thumbnail": "heroes/Selene/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Ignore le blocage ennemi.",
+          "thumbnail": "heroes/Selene/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Augmente la Vitesse d'ATQ de 8 % par cumul.",
+          "thumbnail": "heroes/Selene/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Augmente l'ATQ de 10% au début de chaque bataille. Cet effet peut se cumuler jusqu'à 10 fois. Augmente les DEG infligés contre les Boss de 20% à partir de 10 charges cumulées. Cet effet ne peut être dissipé.",
+          "thumbnail": "heroes/Selene/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Selene/perks/light.png"
+      },
+      "dark": {
+        "effect": "Réduit le Crit de 300 mais augmente les DEG Crit de 150%.",
+        "thumbnail": "heroes/Selene/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Notos, le Vent vert",
+    "description": "Augmente la Vitesse d'ATQ de {0} % pendant 10 sec après un coup critique ; pendant ce temps, chaque attaque automatique tire une flèche infligeant {1} % de DEG P bonus. Cet effet de dégât bonus ne peut se déclencher qu'une fois toutes les 0.5 sec.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      }
+    },
+    "thumbnail": "heroes/Selene/uw.png",
+    "story": "Un arc béni par le souffle de Sylphid, l'Élémental de Vent. Seule une personne au caractère noble peut la manier. Une fois encoché, l'arc tire une flèche magique mortelle faite de souffle élémentaire. Guidée par l'Élémental de Vent, elle ne manque jamais sa cible, peu importe où elle se cache. Selene a des liens spéciaux avec les Élémentaux depuis son enfance. Elle fut particulièrement proche de Sylphid, qui enchanta son arc en signe d'amitié.",
+    "descriptionByStar": {
+      "0": "Augmente la Vitesse d'ATQ de 20 % pendant 10 sec après un coup critique ; pendant ce temps, chaque attaque automatique tire une flèche infligeant 100 % de DEG P bonus. Cet effet de dégât bonus ne peut se déclencher qu'une fois toutes les 0,5 sec.",
+      "1": "Augmente la Vitesse d'ATQ de 24 % pendant 10 sec après un coup critique ; pendant ce temps, chaque attaque automatique tire une flèche infligeant 120 % de DEG P bonus. Cet effet de dégât bonus ne peut se déclencher qu'une fois toutes les 0,5 sec.",
+      "2": "Augmente la Vitesse d'ATQ de 29 % pendant 10 sec après un coup critique ; pendant ce temps, chaque attaque automatique tire une flèche infligeant 140 % de DEG P bonus. Cet effet de dégât bonus ne peut se déclencher qu'une fois toutes les 0.5 sec.",
+      "3": "Augmente la Vitesse d'ATQ de 35 % pendant 10 sec après un coup critique ; pendant ce temps, chaque attaque automatique tire une flèche infligeant 170 % de DEG P bonus. Cet effet de dégât bonus ne peut se déclencher qu'une fois toutes les 0.5 sec.",
+      "4": "Augmente la Vitesse d'ATQ de 42 % pendant 10 sec après un coup critique ; pendant ce temps, chaque attaque automatique tire une flèche infligeant 210 % de DEG P bonus. Cet effet de dégât bonus ne peut se déclencher qu'une fois toutes les 0.5 sec.",
+      "5": "Augmente la Vitesse d'ATQ de 50 % pendant 10 sec après un coup critique ; pendant ce temps, chaque attaque automatique tire une flèche infligeant 250 % de DEG P bonus. Cet effet de dégât bonus ne peut se déclencher qu'une fois toutes les 0,5 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Gants de tireur d'élite",
+      "description": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de {0} sec.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
+      "thumbnail": "heroes/Selene/ut/1.png",
+      "story": "Ces gants ont été bénis par un élémentaire de vent.\nDosarta les offrit à sa sœur Selene pour la remercier d'avoir maintenu la paix parmi les elfes. Le tissu dont ils sont faits est imprégné de la magie de Sylphid, un élémental de vent, et orné de broderies réalisées en fil de clair de lune par Dosarta.",
+      "descriptionByStar": {
+        "0": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 1 sec.",
+        "1": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 1,2 sec.",
+        "2": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 1,4 sec.",
+        "3": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 1,7 sec.",
+        "4": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 2,1 sec.",
+        "5": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 2,5 sec."
+      }
+    },
+    "2": {
+      "name": "Pierre de sceau de l’esprit du vent",
+      "description": "[Ruée] Augmente les DEG de {0} % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Selene/ut/2.png",
+      "story": "Cette pierre est la prison d'un élémentaire aventureux de l'arc de vent. \nIl a causé tellement d'ennuis qu'il a été scellé dans cette pierre par le roi des fées. \nIl imprègne les flèches d'un vent destructeur, ce qui multiplie leur force par 5, au minimum.",
+      "descriptionByStar": {
+        "0": "[Ruée] Augmente les DEG de 20 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale.",
+        "1": "[Ruée] Augmente les DEG de 24 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale.",
+        "2": "[Ruée] Augmente les DEG de 29 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale.",
+        "3": "[Ruée] Augmente les DEG de 35 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale.",
+        "4": "[Ruée] Augmente les DEG de 42 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale.",
+        "5": "[Ruée] Augmente les DEG de 50 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale."
+      }
+    },
+    "3": {
+      "name": "Flèche d'argent",
+      "description": "[Flash Clair de Lune] Les DEG sont augmentés de {0}% et la cible reçoit 20% de DEG P supplémentaires pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Selene/ut/3.png",
+      "story": "Une pointe de flèche imprégnée de la bénédiction de la Déesse de la chasse et de la lune. Une ancienne relique dont hérite le meilleur chasseur elfique. On dit que la Déesse de la chasse et de la lune s’occupait des Elfes protégeant la forêt sacrée et qu’elle leur accorda du pouvoir via la relique. La flèche d’argent imprégnée du pouvoir de la Déesse de la lune dispose d’un pouvoir mystérieux permettant à l’utilisateur de vaincre son ennemi et améliorer ses DEG.",
+      "descriptionByStar": {
+        "0": "[Flash Clair de Lune] Les DEG sont augmentés de 20% et la cible reçoit 20% de DEG P supplémentaires pendant 10 sec.",
+        "1": "[Flash Clair de Lune] Les DEG sont augmentés de 24% et la cible reçoit 20% de DEG P supplémentaires pendant 10 sec.",
+        "2": "[Flash Clair de Lune] Les DEG sont augmentés de 29% et la cible reçoit 20% de DEG P supplémentaires pendant 10 sec.",
+        "3": "[Flash Clair de Lune] Les DEG sont augmentés de 35% et la cible reçoit 20% de DEG P supplémentaires pendant 10 sec.",
+        "4": "[Flash Clair de Lune] Les DEG sont augmentés de 42% et la cible reçoit 20% de DEG P supplémentaires pendant 10 sec.",
+        "5": "[Flash Clair de Lune] Les DEG sont augmentés de 50% et la cible reçoit 20% de DEG P supplémentaires pendant 10 sec."
+      }
+    },
+    "4": {
+      "name": "Diadème du vent",
+      "description": "[Flèche Clair de Lune] augmente les DEG des attaques normales de 50% et les DEG infligés aux ennemis non-héros de {0}% par cumul.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
+      "thumbnail": "heroes/Selene/ut/4.png",
+      "story": "Un diadème qui contient la grâce de Notos et des élémentaux de vent.\nLe Diadème du vent se transmet de génération en génération au meilleur archer des elfes. Son propriétaire actuel est Selene.",
+      "descriptionByStar": {
+        "0": "[Flèche Clair de Lune] augmente les DEG des attaques normales de 50% et les DEG infligés aux ennemis non-héros de 2% par cumul.",
+        "1": "[Flèche Clair de Lune] augmente les DEG des attaques normales de 50% et les DEG infligés aux ennemis non-héros de 2.4% par cumul.",
+        "2": "[Flèche Clair de Lune] augmente les DEG des attaques normales de 50% et les DEG infligés aux ennemis non-héros de 2.9% par cumul.",
+        "3": "[Flèche Clair de Lune] augmente les DEG des attaques normales de 50% et les DEG infligés aux ennemis non-héros de 3.5% par cumul.",
+        "4": "[Flèche Clair de Lune] augmente les DEG des attaques normales de 50% et les DEG infligés aux ennemis non-héros de 4.2% par cumul.",
+        "5": "[Flèche Clair de Lune] augmente les DEG des attaques normales de 50% et les DEG infligés aux ennemis non-héros de 5% par cumul."
+      }
+    }
+  },
+  "splashart": "heroes/Selene/sa.png",
+  "costumes": "heroes/Selene/cos",
+  "_localization": {
+    "locale": "fr",
+    "version": "ccbt",
+    "englishFallbackFields": []
+  }
+}

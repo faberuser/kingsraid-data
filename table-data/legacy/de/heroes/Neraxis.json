@@ -1,0 +1,228 @@
+{
+  "id": "Neraxis",
+  "profile": {
+    "name": "Neraxis",
+    "title": "Obsidian-Arroganz Neraxis",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "6100",
+    "damage_type": "Magical",
+    "gender": "Männlich",
+    "age": "???",
+    "height": "161",
+    "race": "Drachen",
+    "constellation": "Asiphia, die Herrscherin",
+    "birth": {
+      "month": 10,
+      "day": 28,
+      "monthName": "Monat der Freundschaft"
+    },
+    "like": "Laias",
+    "dislike": "Dämonen, Cain, Lilia und alles, was sich ihm in den Weg stellt.",
+    "story": "Schwarzdrachen sind dafür bekannt, die arrogantesten und übellaunigsten aller Drachen zu sein.\nSie litten stark unter dem Dämonenkrieg vor 100 Jahren.\nArmarta verfiel dem Wahnsinn, Ashen Nox raubte sie aus und die Draconics fingen an, Jagd auf Drachen zu machen.\nNeraxis war einer der wenigen Schwarzdrachen, der diesen Tag überlebte,\nund plant seither seine Rache.",
+    "thumbnail": "heroes/Neraxis/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Schwarze Blitzklaue",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Zieht Feinde zum Ziel und verursacht ??? Mag. Schaden.\nVerursacht nach 1 Sek. ??? Mag. Schaden um das Ziel und betäubt die Feinde für 3 Sek. Verringert die ANG-GESCHW. getroffener Feinde für 10 Sek. um 300.",
+      "thumbnail": "heroes/Neraxis/skills/1.png"
+    },
+    "2": {
+      "name": "Obsidian-Brüllen",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Erhöht ANG, alle VERT aller Verbündeter für 15 Sek. um ???.\nVerursacht an allen Feinden ??? Mag. Schaden und verringert ihren ANG für 15 Sek. um 30 %.",
+      "thumbnail": "heroes/Neraxis/skills/2.png"
+    },
+    "3": {
+      "name": "Atem der Zerstörung",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Verursacht 6-mal insgesamt ??? Mag. Schaden an Feinden in einem großen Bereich rund um das Ziel und verringert ihre Mag. VERT für 15 Sek. um 20 %. Jeder Treffer betäubt den Fein für 1 Sek.",
+      "thumbnail": "heroes/Neraxis/skills/3.png"
+    },
+    "4": {
+      "name": "Schwarzdrachenhaut",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht alle VERT um ??? und erleidet um 15 % weniger Körp. Schaden und Mag. Schaden.",
+      "thumbnail": "heroes/Neraxis/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht den ANG-Boost und VERT-Boost um 10 %.",
+      "III": "Erhöht den ANG-Boost und VERT-Boost um 15 %.",
+      "IV": "Erhöht den ANG-Boost und VERT-Boost um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht den VERT-Boost um 10 %.",
+      "III": "Erhöht den VERT-Boost um 15 %.",
+      "IV": "Erhöht den VERT-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht die Betäubungsdauer um 2 Sek.",
+          "thumbnail": "heroes/Neraxis/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Erhöht den Mag. Schaden, den der getroffene Feind erleidet, für 10 Sek. um 25 %.",
+          "thumbnail": "heroes/Neraxis/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Erhöht die Manakosten um 1 sowie den ANG und den VERT-Boost um 100 %.",
+          "thumbnail": "heroes/Neraxis/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Verringert die ANG-GESCHW. des getroffenen Feindes für 15 Sek. um 300.",
+          "thumbnail": "heroes/Neraxis/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Neraxis/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Verändert die Mag. VERT-Reduktion auf 30 %.",
+          "thumbnail": "heroes/Neraxis/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "ANG-GESCHW. wird um 300 erhöht.",
+          "thumbnail": "heroes/Neraxis/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Wenn die TP unter 50 % fallen, werden die Skilleffekte um 50 % erhöht.",
+          "thumbnail": "heroes/Neraxis/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/CC-WDST. +100",
+        "thumbnail": "heroes/Neraxis/perks/light.png"
+      },
+      "dark": {
+        "effect": "Verringert zu Beginn jedes Kampfes 60 Sek. lang den Schaden, den Feinde, die keine Helden sind, an allen Verbündeten außer Neraxis verursachen, um 5 % und verringert den erhaltenen Schaden um 5 %. Dieser Effekt kann bis zu 3-mal gestapelt werden und kann nicht entfernt werden.",
+        "thumbnail": "heroes/Neraxis/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Tosender Drachenschlund, Acravita",
+    "description": "Verursacht an 2 zufälligen Feinden nach 20 normalen Angriffen Mag. Schaden in Höhe von 100% des ANG, betäubt sie für 0.5 Sek. und erhält für 10 Sek. „Sturm von Neraxis“. Erhöht während der Wirkungsdauer von „Sturm von Neraxis“ die Körp. VERT aller Verbündeten um 4% der Körp. VERT des Wirkers sowie die Mag. VERT um 4% der Mag. VERT des Wirkers. Erhöht auch den ANG um 10%.",
+    "value": {},
+    "thumbnail": "heroes/Neraxis/uw.png",
+    "story": "Eine magische Waffe, die aus dem pechschwarzen Metall namens Adamantit gefertigt und mit der dunklen Flamme und dem Blitz eines Schwarzdrachen temperiert wurde.\nIhr wohnen der Groll und die Wut der Schwarzdrachen inne, die während des Dämonenkriegs getötet wurden.\nNeraxis zwang die Zwerge, diese spezielle Waffe für ihn zu schmieden.\nDann verfluchte und verzauberte er sie mit den grollerfüllten Seelen der Schwarzdrachen.\nJeder, der diese Waffe abgesehen von Neraxis berührt, bekommt die wütenden Schreie rachsüchtiger Drachen zu hören.",
+    "descriptionByStar": {
+      "0": "Verursacht an 2 zufälligen Feinden nach 20 normalen Angriffen Mag. Schaden in Höhe von 100% des ANG, betäubt sie für 0.5 Sek. und erhält für 10 Sek. „Sturm von Neraxis“. Erhöht während der Wirkungsdauer von „Sturm von Neraxis“ die Körp. VERT aller Verbündeten um 4% der Körp. VERT des Wirkers sowie die Mag. VERT um 4% der Mag. VERT des Wirkers. Erhöht auch den ANG um 10%.",
+      "1": "Verursacht an 2 zufälligen Feinden nach 19 normalen Angriffen Mag. Schaden in Höhe von 100% des ANG, betäubt sie für 0.5 Sek. und erhält für 10 Sek. „Sturm von Neraxis“. Erhöht während der Wirkungsdauer von „Sturm von Neraxis“ die Körp. VERT aller Verbündeten um 4.8% der Körp. VERT des Wirkers sowie die Mag. VERT um 4.8% der Mag. VERT des Wirkers. Erhöht auch den ANG um 12%.",
+      "2": "Verursacht an 2 zufälligen Feinden nach 18 normalen Angriffen Mag. Schaden in Höhe von 100% des ANG, betäubt sie für 0.5 Sek. und erhält für 10 Sek. „Sturm von Neraxis“. Erhöht während der Wirkungsdauer von „Sturm von Neraxis“ die Körp. VERT aller Verbündeten um 5.7% der Körp. VERT des Wirkers sowie die Mag. VERT um 5.7% der Mag. VERT des Wirkers. Erhöht auch den ANG um 14%.",
+      "3": "Verursacht an 2 zufälligen Feinden nach 17 normalen Angriffen Mag. Schaden in Höhe von 100% des ANG, betäubt sie für 0.5 Sek. und erhält für 10 Sek. „Sturm von Neraxis“. Erhöht während der Wirkungsdauer von „Sturm von Neraxis“ die Körp. VERT aller Verbündeten um 6.9% der Körp. VERT des Wirkers sowie die Mag. VERT um 6.9% der Mag. VERT des Wirkers. Erhöht auch den ANG um 17%.",
+      "4": "Verursacht an 2 zufälligen Feinden nach 16 normalen Angriffen Mag. Schaden in Höhe von 100% des ANG, betäubt sie für 0.5 Sek. und erhält für 10 Sek. „Sturm von Neraxis“. Erhöht während der Wirkungsdauer von „Sturm von Neraxis“ die Körp. VERT aller Verbündeten um 8.3% der Körp. VERT des Wirkers sowie die Mag. VERT um 8.3% der Mag. VERT des Wirkers. Erhöht auch den ANG um 21%.",
+      "5": "Verursacht an 2 zufälligen Feinden nach 15 normalen Angriffen Mag. Schaden in Höhe von 100% des ANG, betäubt sie für 0.5 Sek. und erhält für 10 Sek. „Sturm von Neraxis“. Erhöht während der Wirkungsdauer von „Sturm von Neraxis“ die Körp. VERT aller Verbündeten um 10% der Körp. VERT des Wirkers sowie die Mag. VERT um 10% der Mag. VERT des Wirkers. Erhöht auch den ANG um 25%."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Patrone der Schwarzen Blitze",
+      "description": "[Schwarze Blitzklaue] stellt bei jedem Treffer 100 Mana wieder her und erhöht alle eigenen VERT. 10 Sek. lang um 10 %.",
+      "value": {},
+      "thumbnail": "heroes/Neraxis/ut/1.png",
+      "story": "Ein magischer Verstärker, der Schwarze Blitze beinhaltet.\nEr wurde aus denselben Materialien gefertigt, die bei der Herstellung von Acravita verwendet wurden.\nDie Zwerge wurden von Neraxis dazu gezwungen, Acravita herzustellen. Als die Zwerge Neraxis fragten, ob sie die übrig gebliebenen Materialien als Belohnung für die Herstellung von Acravita behalten dürften, zog er sie an den Haaren und befahl ihnen, alle Materialien zu verwenden. Daraus entstand eine Patrone mit Schwarzen Blitzen.",
+      "descriptionByStar": {
+        "0": "[Schwarze Blitzklaue] stellt bei jedem Treffer 100 Mana wieder her und erhöht alle eigenen VERT. 10 Sek. lang um 10 %.",
+        "1": "[Schwarze Blitzklaue] stellt bei jedem Treffer 100 Mana wieder her und erhöht alle eigenen VERT. 10 Sek. lang um 12 %.",
+        "2": "[Schwarze Blitzklaue] stellt bei jedem Treffer 100 Mana wieder her und erhöht alle eigenen VERT. 10 Sek. lang um 14 %.",
+        "3": "[Schwarze Blitzklaue] stellt bei jedem Treffer 100 Mana wieder her und erhöht alle eigenen VERT. 10 Sek. lang um 17 %.",
+        "4": "[Schwarze Blitzklaue] stellt bei jedem Treffer 100 Mana wieder her und erhöht alle eigenen VERT. 10 Sek. lang um 21 %.",
+        "5": "[Schwarze Blitzklaue] stellt bei jedem Treffer 100 Mana wieder her und erhöht alle eigenen VERT. 10 Sek. lang um 25 %."
+      }
+    },
+    "2": {
+      "name": "Erinnerungen des blauen Gottdrachens",
+      "description": "[Obsidian-Brüllen] erhöht bei der Verwendung den VERT-Boost von Verbündeten um 20 % und hebt die positiven Effekte von allen Feinden auf.",
+      "value": {},
+      "thumbnail": "heroes/Neraxis/ut/2.png",
+      "story": "Ein Haarschmuck, den Laias fallen ließ, während sie die von den Dämonen verdorbenen Gewässer läuterte.\nNeraxis fand und behielt ihn, aber er hat immer noch nicht entschieden, ob er ihn ihr zurückgeben wird.\nLaias wird ihren verlorenen Haarschmuck wohl nicht allzu schnell zurückbekommen.",
+      "descriptionByStar": {
+        "0": "[Obsidian-Brüllen] erhöht bei der Verwendung den VERT-Boost von Verbündeten um 20 % und hebt die positiven Effekte von allen Feinden auf.",
+        "1": "[Obsidian-Brüllen] erhöht bei der Verwendung den VERT-Boost von Verbündeten um 24 % und hebt die positiven Effekte von allen Feinden auf.",
+        "2": "[Obsidian-Brüllen] erhöht bei der Verwendung den VERT-Boost von Verbündeten um 29 % und hebt die positiven Effekte von allen Feinden auf.",
+        "3": "[Obsidian-Brüllen] erhöht bei der Verwendung den VERT-Boost von Verbündeten um 35 % und hebt die positiven Effekte von allen Feinden auf.",
+        "4": "[Obsidian-Brüllen] erhöht bei der Verwendung den VERT-Boost von Verbündeten um 42 % und hebt die positiven Effekte von allen Feinden auf.",
+        "5": "[Obsidian-Brüllen] erhöht bei der Verwendung den VERT-Boost von Verbündeten um 50 % und hebt die positiven Effekte von allen Feinden auf."
+      }
+    },
+    "3": {
+      "name": "Wutwirbel",
+      "description": "[Atem der Zerstörung] erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 3 Sek.",
+      "value": {},
+      "thumbnail": "heroes/Neraxis/ut/3.png",
+      "story": "Dieser Pfahl wurde aus Neraxis’ Fangzahn gefertigt und enthält seine glühende Wut.\nWenn Neraxis mit dem Pfahl angreift, rast die große Energie, die mit Neraxis’ Kräften verwoben ist, mit entsetzlicher Geschwindigkeit auf den Feind zu.\nSie ist stark genug, um alles und jeden zu durchdringen und die Gliedmaßen jener abzutrennen, die sich zu nahe an sie heranwagen.",
+      "descriptionByStar": {
+        "0": "[Atem der Zerstörung] erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 3 Sek.",
+        "1": "[Atem der Zerstörung] erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 4 Sek.",
+        "2": "[Atem der Zerstörung] erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 5 Sek.",
+        "3": "[Atem der Zerstörung] erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 6 Sek.",
+        "4": "[Atem der Zerstörung] erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 7 Sek.",
+        "5": "[Atem der Zerstörung] erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 8 Sek."
+      }
+    },
+    "4": {
+      "name": "Ashen Nova",
+      "description": "[Schwarzdrachenhaut] stellt alle 10 Sek. 1 Mana-Kugel wieder her, während sich bei allen Verbündeten die Blockchance für 5 Sek. um 200 erhöht.",
+      "value": {},
+      "thumbnail": "heroes/Neraxis/ut/4.png",
+      "story": "Neraxis hat diesen Schatz aus dem Repositorium von Armarta gestohlen.\nEr wollte eine stärkere Waffe als Acravita haben und dachte dabei an Armartas Repositorium.\nEr ging nach Ashen Peak, den Ruinen südlich der Arrovina-Küste, und schlich sich in das Repositorium.\nAuf dem Weg nach draußen musste er sich zwar dem verrückten Armarta stellen, es war die Sache jedoch wert, da er alles bekommen hatte, was er jemals wollte.\nSo konnte er auch „Ashen Nova“ in seinen Besitz bringen, die mit „Ashen Nox“ ein Paar bildet.\nIhre Macht ist mit der des Herzens des Schwarzen Drachen vergleichbar.",
+      "descriptionByStar": {
+        "0": "[Schwarzdrachenhaut] stellt alle 10 Sek. 1 Mana-Kugel wieder her, während sich bei allen Verbündeten die Blockchance für 5 Sek. um 200 erhöht.",
+        "1": "[Schwarzdrachenhaut] stellt alle 10 Sek. 1 Mana-Kugel wieder her, während sich bei allen Verbündeten die Blockchance für 5 Sek. um 240 erhöht.",
+        "2": "[Schwarzdrachenhaut] stellt alle 10 Sek. 1 Mana-Kugel wieder her, während sich bei allen Verbündeten die Blockchance für 5 Sek. um 290 erhöht.",
+        "3": "[Schwarzdrachenhaut] stellt alle 10 Sek. 1 Mana-Kugel wieder her, während sich bei allen Verbündeten die Blockchance für 5 Sek. um 350 erhöht.",
+        "4": "[Schwarzdrachenhaut] stellt alle 10 Sek. 1 Mana-Kugel wieder her, während sich bei allen Verbündeten die Blockchance für 5 Sek. um 420 erhöht.",
+        "5": "[Schwarzdrachenhaut] stellt alle 10 Sek. 1 Mana-Kugel wieder her, während sich bei allen Verbündeten die Blockchance für 5 Sek. um 500 erhöht."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Pro Sekunde und pro zugefügten Schaden wird sie geladen und bei 80 Ladungen kann es verwendet werden.",
+    "description": "Beschwört die Seele von Tosender Drachenschlund, Acravita und fügt den Gegnern an der Front basierend auf die eigenen VERT ??? Mag. Schaden zu. Zusätzlich werden die Gegner 4 Sek. lang betäubt und für 10 Sek. wird der gegn. ANG um 35 % verringert.",
+    "cooldown": "18",
+    "uses": "5",
+    "thumbnail": "heroes/Neraxis/sw.png",
+    "advancement": {
+      "1": "Positive Effekte aller Gegner in Reichweite werden entfernt.",
+      "2": "Verwendungsbedingungen werden auf 50 geändert und 10 Sek. lang wird der erhaltene Mag. Schaden getroffener Gegner um 25 % erhöht."
+    },
+    "story": "Der Drache, der die Rolle als Stimmer der Welt spielt, hat normalerweise eine mächtige Kraft. Wenn dieser Drache stirbt und zu einer Seele wird, hat er eine stärkere Macht als die der normalen Seelen. Unter ihnen gibt es auch Wesen, die Drachenseelen in Acravita verinnerlicht haben. Er hielt den starken Groll und Fluch der Seelen der Schwarzdrachen in sich. Je stärker der Zorn der rachsüchtigen Geister wird, desto größer wird der Groll in Acravita. Mit der Zeit wurde es zu einer beängstigenden Waffe, und die Leute um ihn herum machten sich Sorgen um Neraxis. Aber Neraxis war es egal und sagte den rachsüchtigen Geistern, sie sollten sich vor ihn knien, weil Acravita seine ist. Er ist jung, aber immer noch ein Schwarzdrache. Sein Ego ist höher als jeder andere. Und dank des guten Beispiels von Armata lernte er, seine Arroganz zu mildern. Die Konfrontation zwischen dem jungen Schwarzdrachen und den rachsüchtigen Geistern des Schwarzdrachen über die Führung der Waffe war intensiv. Aber Neraxis, der sich gut vorbereitet hat, hat gewonnen. Jetzt verstärken die rachsüchtigen Geister der Schwarzdrachen den Donner und töten die Feinde als Anreiz für Neraxis."
+  },
+  "splashart": "heroes/Neraxis/sa.png",
+  "costumes": "heroes/Neraxis/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

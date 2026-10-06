@@ -1,0 +1,270 @@
+{
+  "id": "May",
+  "profile": {
+    "name": "May",
+    "title": "Das Mädchen, was von Reichtümern träumt May",
+    "class": "Priest",
+    "position": "Middle-100",
+    "attack_range": "9000",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "15",
+    "height": "146",
+    "race": "Menschen",
+    "constellation": "Gisla, die Scharfschützin",
+    "birth": {
+      "month": 11,
+      "day": 7,
+      "monthName": "Monat des Glücks"
+    },
+    "like": "Gold",
+    "dislike": "Finanzielles Defizit",
+    "story": "Ein Mädchen, das ihren eigenen Gemischtwarenladen in Schloss Orvel betreibt. Sie ist äußerst sympathisch und behandelt ihr Gegenüber stets mit Heiterkeit und Eifer. May träumt davon, eines Tages die reichste Händlerin in Orvel zu werden und jagt und sammelt ihre Handelsware üblicherweise selbst. Weil der Arbeitsaufwand für das Beschaffen ihrer Güter hoch ist, sind ihre Preise nicht gerade niedrig, weshalb sie von den Leuten oftmals kritisiert wird. Momentan bereitet sie sich auf eine Reise in die Aegina-Wüste vor, denn sie hatte gehört, dass dort jemand kürzlich einen Schatz entdeckt hätte.",
+    "thumbnail": "heroes/May/ico.png"
+  },
+  "skills": {
+    "1 (1)": {
+      "name": "Nimm alles!",
+      "cost": "1",
+      "cooldown": "8",
+      "description": "Erhöht für 120 Sek. den ANG aller Verbündeten um 0.5% von Mays ANG + ???, stellt 500 Mana wieder her und gewährt zusätzlich entweder 70 Abwehrdurchdringung oder 100 Angriffstempo. Der ANG-Bonus wird für den Verbündeten mit dem höchsten ANG außer May mit 3 multipliziert. Alle Effekte außer Manaregeneration sind bis zu 8-mal stapelbar. Nach mindestens 20 Einsätzen wird die Fähigkeit zu [Nur das Allerbeste!!].",
+      "thumbnail": "heroes/May/skills/1 (1).png"
+    },
+    "1 (2)": {
+      "name": "Nur das Beste vom Besten!!",
+      "cost": "1",
+      "cooldown": "8",
+      "description": "Aktiviert erneut alle Effekte und restauriert 500 MP, wobei zusätzlich der Schaden gegen Feinde, die keine Helden sind, um 2 % erhöht wird. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+      "thumbnail": "heroes/May/skills/1 (2).png"
+    },
+    "2": {
+      "name": "Kopf hoch!",
+      "cost": "2",
+      "cooldown": "11",
+      "description": "Heilt alle Verbündete um ??? TP und heilt sie 10 Sek. lang um 1 % der max. TP des Ziels. 30 % Chance auf 2-fache Heilung. Erhöht 10 Sek. lang den Massenkontroll-Widerstand aller Verbündeten um 250.",
+      "thumbnail": "heroes/May/skills/2.png"
+    },
+    "3": {
+      "name": "Nicht zum Verkauf!",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Greift ein zufälliges Ziel und nahestehende Feinde 3 Mal an, verursacht dabei ??? Mag. Schaden und betäubt sie für 4 Sek. 10 % Chance auf 2-fache Effekt-Reichweite, Schaden und Betäubungsdauer. Verwendet nach Aktivierung [Nimm das!].",
+      "thumbnail": "heroes/May/skills/3.png"
+    },
+    "4": {
+      "name": "Nimm das!",
+      "cost": null,
+      "cooldown": null,
+      "description": "Fügt alle 15 Sek. 5 zufälligen Feinden ??? Mag. Schaden zu und erhöht 10 Sek. lang den erlittenen Mag. Schaden um 25 %, wobei zufällig eines dieser Effekte zusätzlich verursacht wird: 1. 10 Sek. lang ??? kontinuierlichen Mag. Schaden, 2. 2 Sek. lang Betäubung, 3. 5 Sek. lang Einfrieren.",
+      "thumbnail": "heroes/May/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Heilungsrate um 10 %.",
+      "III": "Erhöht Heilungsrate um 15 %.",
+      "IV": "Erhöht Heilungsrate um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Keiner der Effekte kann durch Skills zum Entfernen von Effekten aufgehoben werden.",
+          "thumbnail": "heroes/May/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Der Effekt des Skills [Nur das Beste vom Besten!!] zur Erhöhung des Schadens gegen Feinde, die keine Helden sind, kann nun bis zu 15-mal gestapelt werden.",
+          "thumbnail": "heroes/May/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Erhöht die Wirkungsdauer der TP-Regeneration um 3 Sek.",
+          "thumbnail": "heroes/May/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Stellt bei Aktivierung der 2-fachen Heilung 1 Mana-Kugel wieder her.",
+          "thumbnail": "heroes/May/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/May/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Fokussiert alle Angriffe auf einen einzelnen Feind.",
+          "thumbnail": "heroes/May/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Wird alle 12 Sek. aktiviert.",
+          "thumbnail": "heroes/May/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erhöht den erlittenen Mag. Schaden-Boost um 3 %, immer wenn [Nimm alles!] aktiviert wird. Dieser Effekt kann bis zu 10-mal gestapelt werden und kann nicht entfernt werden.",
+          "thumbnail": "heroes/May/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/CC-WDST. +100",
+        "thumbnail": "heroes/May/perks/light.png"
+      },
+      "dark": {
+        "effect": "Jeder normale Angriff hat eine 30 % Chance, den Verbündeten mit der niedrigsten TP um 3 % ihrer TP zu heilen. Gibt ihnen ebenfalls 5 % Mana zurück.",
+        "thumbnail": "heroes/May/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Aromakiste, Etelia",
+    "description": "Verringert alle eigenen Skill-Cooldowns um {0} Sek. und erhöht ANG-GESCHW.-Boost und VERT-Durchdr.-Boost von [Nimm alles!] um {1}.",
+    "value": {
+      "0": {
+        "0": "1.4",
+        "1": "1.7",
+        "2": "2.1",
+        "3": "2.5",
+        "4": "3",
+        "5": "3.6"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      }
+    },
+    "thumbnail": "heroes/May/uw.png",
+    "story": "Ein seltsamer Korb, den May immer dann trug, wenn sie auf der Suche nach neuen Materialien ist. Dieser geheimnisvolle Korb hat unendliches Fassungsvermögen und alles, was damit befördert wird, verliert sein Gewicht. Mit seiner Hilfe kann May auf einer einzigen Reise eine riesige Anzahl an Gegenständen transportieren. Auf den ersten Blick sieht er aus wie ein Picknickkorb. Doch Gerüchten zufolge belädt sie ihn mit fragwürdigen Dingen, wenn sie auf die Jagd geht ... So sagt man jedenfalls.",
+    "descriptionByStar": {
+      "0": "Verringert alle eigenen Skill-Cooldowns um 1.4 Sek. und erhöht ANG-GESCHW.-Boost und VERT-Durchdr.-Boost von [Nimm alles!] um 20.",
+      "1": "Senkt alle Skill-Cooldowns um 1,7 Sek. und erhöht ANG-GESCHW.-Boost und VERT-Durchdr.-Boost von [Nimm alles!] um 24.",
+      "2": "Senkt alle Skill-Cooldowns um 2,1 Sek. und erhöht ANG-GESCHW.-Boost und VERT-Durchdr.-Boost von [Nimm alles!] um 29.",
+      "3": "Senkt alle Skill-Cooldowns um 2,5 Sek. und erhöht ANG-GESCHW.-Boost und VERT-Durchdr.-Boost von [Nimm alles!] um 35.",
+      "4": "Senkt alle Skill-Cooldowns um 3 Sek. und erhöht ANG-GESCHW.-Boost und VERT-Durchdr.-Boost von [Nimm alles!] um 42.",
+      "5": "Senkt alle Skill-Cooldowns um 3,6 Sek. und erhöht ANG-GESCHW.-Boost und VERT-Durchdr.-Boost von [Nimm alles!] um 50."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Set mit gesunden Tränken",
+      "description": "[Nimm alles!/Nur das Beste vom Besten!!] verringert die Manakosten um 1 und erhöht die Mag. VERT des Ziels 20 Sek. lang um {0} %. Dieser Effekt kann bis zu 8-mal gestapelt werden.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
+      "thumbnail": "heroes/May/ut/1.png",
+      "story": "Vier Tränke mit verschiedenen Farben und Effekten. Sie erhöhen Willenskraft, Konzentration, Mana und Lebenskraft. May garantiert, dass dieses besondere Set mit Tränken eine unglaublich verjüngende Wirkung hat. Die Zutaten sind nach wie vor ein Geheimnis, aber vielleicht ist das auch besser so.",
+      "descriptionByStar": {
+        "0": "[Nimm alles!/Nur das Beste vom Besten!!] verringert die Manakosten um 1 und erhöht die Mag. VERT des Ziels 20 Sek. lang um 2 %. Dieser Effekt kann bis zu 8-mal gestapelt werden.",
+        "1": "[Nimm alles!] verringert die Manakosten um 1 und erhöht die Mag. VERT des Ziels 20 Sek. lang um 2,4 %. Dieser Effekt kann bis zu 8-mal gestapelt werden.",
+        "2": "[Nimm alles!] verringert die Manakosten um 1 und erhöht die Mag. VERT des Ziels 20 Sek. lang um 2,9 %. Dieser Effekt kann bis zu 8-mal gestapelt werden.",
+        "3": "[Nimm alles!] verringert die Manakosten um 1 und erhöht die Mag. VERT des Ziels 20 Sek. lang um 3,4 %. Dieser Effekt kann bis zu 8-mal gestapelt werden.",
+        "4": "[Nimm alles!] verringert die Manakosten um 1 und erhöht die Mag. VERT des Ziels 20 Sek. lang um 4,2 %. Dieser Effekt kann bis zu 8-mal gestapelt werden.",
+        "5": "[Nimm alles!] verringert die Manakosten um 1 und erhöht die Mag. VERT des Ziels 20 Sek. Lang um 5 %. Dieser Effekt kann bis zu 8-mal gestapelt werden."
+      }
+    },
+    "2": {
+      "name": "Süßes Kuchenstück",
+      "description": "[Kopf hoch!] erhöht die Heilungsrate um 50 % und erhöht 10 Sek. lang die Krit. Chance aller Verbündeten um {0}.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/May/ut/2.png",
+      "story": "Spezieller von Juno gebackener Kuchen. Er riecht sehr süß. \nMay liebt ihn als Imbiss. Niemand weiß, warum sie niemandem sagt, was sie als Zutaten verwendet hat.",
+      "descriptionByStar": {
+        "0": "[Kopf hoch!] erhöht die Heilungsrate um 50 % und erhöht 10 Sek. lang die Krit. Chance aller Verbündeten um 100.",
+        "1": "[Kopf hoch!] erhöht die Heilungsrate um 24 % und die Chance auf eine doppelte Heilungsrate um zus. 20 %.",
+        "2": "[Kopf hoch!] erhöht die Heilungsrate um 29 % und die Chance auf eine doppelte Heilungsrate um zus. 20 %.",
+        "3": "[Kopf hoch!] erhöht die Heilungsrate um 35 % und die Chance auf eine doppelte Heilungsrate um zus. 20 %.",
+        "4": "[Kopf hoch!] erhöht die Heilungsrate um 42 % und die Chance auf eine doppelte Heilungsrate um zus. 20 %.",
+        "5": "[Kopf hoch!] erhöht die Heilungsrate um 50 % und die Chance auf eine doppelte Heilungsrate um zus. 20 %."
+      }
+    },
+    "3": {
+      "name": "Kristallkugel unbekannter Herkunft",
+      "description": "[Nicht zum Verkauf!] erhöht den Schaden um 20 % und greift den Gegener 1-mal mehr an.",
+      "value": {},
+      "thumbnail": "heroes/May/ut/3.png",
+      "story": "In den Tagen der antiken Zivilisation stahl jemand die Zauber der Weisen und fasste deren Macht in eine einzelne Kristallkugel ein. Es scheint ein Plan gewesen zu sein, der mächtigste Schamane seiner Zeit zu werden. Es gibt jedoch keine historischen Aufzeichnungen über diese Kristallkugel und sie wurde weit weg vom Dorf gefunden, nahe dem Fluss Eden. Verschiedene elementare Zauber sind an einem Ort gebündelt, was die Kugel gefährlich macht; man weiß nie, auf welche Weise ihre Macht losgelassen wird.",
+      "descriptionByStar": {
+        "0": "[Nicht zum Verkauf!] erhöht den Schaden um 20 % und greift den Gegener 1-mal mehr an.",
+        "1": "[Nicht zum Verkauf!] erhöht den Schaden um 24 % und greift den Gegener 1-mal mehr an.",
+        "2": "[Nicht zum Verkauf!] erhöht den Schaden um 29 % und greift den Gegener 1-mal mehr an.",
+        "3": "[Nicht zum Verkauf!] erhöht den Schaden um 35 % und greift den Gegener 1-mal mehr an.",
+        "4": "[Nicht zum Verkauf!] erhöht den Schaden um 42 % und greift den Gegener 1-mal mehr an.",
+        "5": "[Nicht zum Verkauf!] erhöht den Schaden um 50 % und greift den Gegener 1-mal mehr an."
+      }
+    },
+    "4": {
+      "name": "Gefährliches Snack-Set",
+      "description": "[Nimm das!] visiert alle Feinde an. Bei allen Verbündeten werden bei Aktivierung 200 Mana wiederhergestellt.",
+      "value": {},
+      "thumbnail": "heroes/May/ut/4.png",
+      "story": "Ein extrem seltenes, limitiertes Snack-Set, das May im „Unglaublichen Magischen Spielzeugladen“ in Orvelia gekauft hat.\nHierbei handelt es sich um das Meisterwerk des Ladenbesitzers, das nur ein einziges Mal verkauft wurde.\nIm Gegensatz zur Warnung auf der Dose („Warnung! Auf keinen Fall essen!“) sehen die Snacks darin wirklich lecker aus.\nDas Set wurde jedoch für „extrem böse Scherze“ entwickelt und explodiert, wenn es geworfen wird. Seine Zerstörungskraft steht im Verhältnis zur Menge des Manas der Person, die es wirft.\nNach der Explosion verwandelt sich das Pulver wieder in Snacks, die anschließend in die Dose zurückkehren.\nMay hat die schöne, aber gefährliche und seltsame Snackdose mit pochendem Herzen in ihrem Karren verstaut.",
+      "descriptionByStar": {
+        "0": "[Nimm das!] visiert alle Feinde an. Bei allen Verbündeten werden bei Aktivierung 200 Mana wiederhergestellt.",
+        "1": "[Nimm das!] visiert alle Feinde an. Bei allen Verbündeten werden bei Aktivierung 240 Mana wiederhergestellt.",
+        "2": "[Nimm das!] visiert alle Feinde an. Bei allen Verbündeten werden bei Aktivierung 290 Mana wiederhergestellt.",
+        "3": "[Nimm das!] visiert alle Feinde an. Bei allen Verbündeten werden bei Aktivierung 350 Mana wiederhergestellt.",
+        "4": "[Nimm das!] visiert alle Feinde an. Bei allen Verbündeten werden bei Aktivierung 420 Mana wiederhergestellt.",
+        "5": "[Nimm das!] visiert alle Feinde an. Bei allen Verbündeten werden bei Aktivierung 500 Mana wiederhergestellt."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 15 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Aromakiste, Etelia und regeneriert 10 Sek. lang insgesamt ??? TP aller Verbündeten und erhöht alle 3 Sek. den ANG des Verbündeten mit dem höchsten ANG außer May 120 Sek. lang um 4 %. Der ANG-Boost kann bis zu 20-mal gestapelt werden und bei Aktivierung wird dieser mit einer 30 % Chance auf einmal 2-mal gestapelt.",
+    "cooldown": "20",
+    "uses": "5",
+    "thumbnail": "heroes/May/sw.png",
+    "advancement": {
+      "1": "Erhöht die Heilungsrate um 100 % und ändert die Chance auf einmalige 2-mal Stapelung auf 50 %.",
+      "2": "Erhöht den Schaden, den der Verbündete mit dem höchsten ANG dem Bossmonster zufügt, pro ANG-Boost Stapel um 1 %."
+    },
+    "story": "In der alten Zivilisation hat der Weise eine Menge Experimente durchgeführt, um ein Medium zu erfinden, das sich endlos einsetzen lässt. Das Forschungsergebnis war der künstliche Elementar Etelia. Sie hat die Form eines eleganten Schmetterlings, der mit den normalen Dingen und der enormen Menge an Informationen, Wissen und Geschichtsaufzeichnungen in Kontakt gebracht werden kann. Aber es gab ein unerwartetes Ergebnis, sodass sie eine Emotion hatte, die Neugier. Danach kopierte Etelia die Zaubertechnik des Weisen, um ihren Wunsch zu erfüllen, und experimentierte mit normalen Menschen. Die Weisen erkannten die Gefahr von Etelia und versiegelte sie in dem kleinen Korb und hielten sie in der dunklen Höhle. Doch nach langer Zeit ging Etelia in die Hände eines sympathischen Mädchens, das den Gemischtwarenladen in Orvel betreibt. Dieses Mädchen May, das sich sehr um ihren Traum bemüht, hat die Neugier von Etelia geweckt, und sie hat ihr Siegel gebrochen und ist als ihre eigene Erscheinung aufgetreten. Etelia sagt zu diesem unschuldigen und freundlichen Mädchen: ‚Ich werde dir helfen, deinen Traum zu verwirklichen, also lass mich etwas Mysteriöses erleben.‘ May willigte ein und sagte, dass sie als Freunde viele Dinge erleben werden. Also hielt Etelia ihre Hand mit einem Gesicht voller Glück."
+  },
+  "splashart": "heroes/May/sa.png",
+  "costumes": "heroes/May/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

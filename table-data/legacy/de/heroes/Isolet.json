@@ -1,0 +1,256 @@
+{
+  "id": "Isolet",
+  "profile": {
+    "name": "Isolet",
+    "title": "Grauer Wunsch Isolet",
+    "class": "Wizard",
+    "position": "Back-200",
+    "attack_range": "8200",
+    "damage_type": "Physical",
+    "gender": "Weiblich",
+    "age": "22",
+    "height": "167",
+    "race": "Menschen",
+    "constellation": "Layan, der Richter",
+    "birth": {
+      "month": 9,
+      "day": 9,
+      "monthName": "Monat der Wahrheit"
+    },
+    "like": "Mutige, Verantwortungsbewusste, Schwarztee",
+    "dislike": "Unwissende, Machtlose",
+    "story": "Eine Hexe aus Pandora.\n\nDie Schattenseite des Kaiserreiches, kleine Opfer für das größere Wohl zu bringen, hinterließ große Narben bei Isolet, die beiden Seiten des Kaiserreiches direkt gegenüberstand und dadurch in tiefen Zweifel gestürzt ist. Mit dem enormen Wissen der Hexen, den geheimen Wahrheiten der Welt und der mächtigen Kraft, die sie durch Pandora erhalten hat, steht Isolet in erste Reihe am Schafott, um über die Heuchler zu richten, welche die Schwachen mit großem und tiefem Verlust in ihrem Herzen erwürgen.\nIsolets Stärke in der Elementarmagie wird durch die von Pandora bereitgestellte Maschine weiter verstärkt. Sie ist auch eine der wenigen, die tun und lassen kann, was sie will, da sie eine große Menge an Mana für das Herz der von Pandora hergestellten Robotern bereitstellen kann. Ihre Stärke und ihr Wissen sind sehr wichtig und können weder vom Kaiserreich, noch von Pandora aufgegeben werden.\nIhre Augen erstrahlen Warmherzigkeit, sobald sie sich an die Hexenvereinigung erinnert, die wie eine Familie für sie war. Gleichzeitig zeugen aber die roten Spuren, die sie als Henkerin von Pandora hinterlassen hat, von ihrer Kälte.",
+    "thumbnail": "heroes/Isolet/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Flammenschlucker – Caienne",
+      "cost": "2",
+      "cooldown": "7",
+      "description": "Greift Frontfeinde an, fügt ihnen ??? Körp. Schaden zu und setzt sie unter [Brand]. Verringert 7 Sek. lang die Heilungsrate der Gegner im [Brand] Zustand um 25 %.",
+      "thumbnail": "heroes/Isolet/skills/1.png"
+    },
+    "2": {
+      "name": "Absoluter Nullpunkt – Devion",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Greift Frontfeinde insgesamt 5-mal an und fügt ihnen insgesamt ??? Körp. Schaden zu. Friert bei jedem Treffer 3 Sek. lang das Ziel ein. Fügt dem Gegner im [Brand] Zustand mit jedem Treffer Schaden zu, erzeugt eine [Explosionsreaktion] und fügt ihnen zusätzlich ??? VERT ignorierenden Schaden zu.",
+      "thumbnail": "heroes/Isolet/skills/2.png"
+    },
+    "3": {
+      "name": "Tobender Sturm – Icarus",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Greift 10 Sek. lang Frontfeinde insgesamt 20 an. Fügt ihnen mit jedem Treffer ??? Körp. Schaden zu und verringert 10 Sek. lang den ANG des Ziels um 15 %. Wechselt zu [Flammensturm], wenn dem Gegner im [Brand] Zustand Schaden zugefügt wird. Fügt ihm pro Treffer ??? Körp. Schaden zu und gewährt 60 Sek. lang pro Treffer ein Heilungsrate-Verringerungseffekt um 1.5 %. Dieser Effekt kann bis zu 30-mal gestapelt werden.",
+      "thumbnail": "heroes/Isolet/skills/3.png"
+    },
+    "4": {
+      "name": "Technomagie-Essenz",
+      "cost": null,
+      "cooldown": null,
+      "description": "Isolet legt die ANG-GESCHW. auf 1000 fest und wird nicht von Skill-Cooldown Verringerung-Effekte beeinflusst. Stattdessen erhöht sie den Krit. Schaden um 100 % und regeneriert bei jede Aktivierung der Skills 1500 MP.\nErzeugt eine [Explosionsreaktion] und erhöht den eigenen ANG um 4 %. Dieser Effekt kann bis zu 15-mal gestapelt werden und kann nicht entfernt werden.\nErzeugt ein [Flammensturm] und verringert den erhaltenen Mag. Schaden aller Verbündete um 7 %. Dieser Effekt kann bis zu 3-mal gestapelt werden und kann nicht entfernt werden.",
+      "thumbnail": "heroes/Isolet/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht eigenen Krit. Schaden um zus. 10 %.",
+      "III": "Erhöht eigenen Krit. Schaden um zus. 15 %.",
+      "IV": "Erhöht eigenen Krit. Schaden um zus. 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Gewährt einen erhaltenen Körp. Schaden-Boost im [Brand] Zustand um 25 %.",
+          "thumbnail": "heroes/Isolet/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Erhöht die [Brand] Zustand-Wirkungsdauer um 5 Sek.",
+          "thumbnail": "heroes/Isolet/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert die gegn. MP pro Treffer um 200.",
+          "thumbnail": "heroes/Isolet/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht den Schaden von [Explosionsreaktion] um 60 %, anstatt den Gefriereffekt zu entfernen.",
+          "thumbnail": "heroes/Isolet/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Isolet/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Ändert Heilungsrate-Verringerungseffekt von [Flammensturm] auf 2.5 %.",
+          "thumbnail": "heroes/Isolet/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Wird [Explosionsreaktion] erzeugt, wird ein Schaden-Boost an Feinde, die keine Helden sind, um 1 % gewährt.",
+          "thumbnail": "heroes/Isolet/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Wird [Flammensturm] erzeugt, wird ein Heilungsrate-Boost um 10 % gewährt.",
+          "thumbnail": "heroes/Isolet/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Chance +100",
+        "thumbnail": "heroes/Isolet/perks/light.png"
+      },
+      "dark": {
+        "effect": "Bei 1 Feind(en) erhöht sich dem Bossmonster zugefügter eigener Schaden um 50 %.\nBei mehr als 6 Verbündeten erhöht sich dem Bossmonster zugefügter Schaden aller Verbündete außer des Wirkers um 5 %.",
+        "thumbnail": "heroes/Isolet/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Bezwinger der Dunkelheit, Del Terravion",
+    "description": "Erhöht alle 10 Sek. den erhaltenen Körp. Schaden des Gegners mit dem höchsten ANG 12 Sek. lang um {0} % und erhöht den eigenen verursachten Schaden an Feinden um {1} %. Der Effekt zur Erhöhung des Schadens gegen Feinde kann bis zu 6-mal gestapelt werden und kann nicht entfernt werden.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.9",
+        "3": "3.5",
+        "4": "4.2",
+        "5": "5"
+      }
+    },
+    "thumbnail": "heroes/Isolet/uw.png",
+    "story": "Hexen haben ihre eigenen Methoden das Schicksal vorauszusagen. Die Pilgerfahrt zum Schicksal war ein heiliges Ritual der Hexen und es war ihre heilige Pflicht, den Weg zu erhellen. Einige Hexen waren sehr stolz auf ihre noble Mission, während andere ihre Pflicht aufs höchste meideten, da sie fürchteten von unerwünschten Strömungen mitgerissen zu werden.\nDa Isolet außerordentlich verantwortungsbewusst war, gehörte sie der Seite an, die sich der noblen Mission verschrieben hatte. Sie wird als herausragendes Talent angesehen, da sie sich enormes Wissen angeeignet hat, welches von der Hexenvereinigung verwahrt wurde. Daher wurde ihr auch Del Terravion, ein Stab geformt aus dem Herzen eines Drachen, ein Relikt der Hexenvereinigung, vermacht.\nDel Terravion stammt von einem Drachen, dem Boten der Göttin, der wie Engel sein ganzes Leben im Himmel verbracht hat und sogar von einigen Hexen als Wächter der Astrologie, die das Schicksal aufzeigt, verehrt wird.\nDaher war es eine große Ehre für Isolet Del Terravion vermacht zu bekommen, besonders weil das Vorhersagen des Schicksals mittels Astrologie eine ihrer Stärken als Hexe ist. Als sie dann den Stab zum aller ersten Mal berührte, beschloss sie, eine Hexe zu werden, die den Sternen keine Schande bringen und den richtigen Weg beschreiten wird.",
+    "descriptionByStar": {
+      "0": "Erhöht alle 10 Sek. den erhaltenen Körp. Schaden des Gegners mit dem höchsten ANG 12 Sek. lang um 10 % und erhöht den eigenen verursachten Schaden an Feinden um 2 %. Der Effekt zur Erhöhung des Schadens gegen Feinde kann bis zu 6-mal gestapelt werden und kann nicht entfernt werden."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Hexenvereinigung Zertifikat",
+      "description": "[Flammenschlucker – Caienne] entfernt postitive Effekte von Feinde in Reichweite und verringert die Heilungsrate bei [Brand] um zus. {0} %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Isolet/ut/1.png",
+      "story": "Ein Zertifikat, welches Hexen einen offiziell als Mitglied der Hexenvereinigung ausweist.\nHexen haben eine Art Berufung, die sich in einer Vielzahl von Aktivitäten zeigt, darunter auch die Schicksalsströme voraussagen, anderen Menschen den Weg zu erleuchten oder ihnen mit besonderen Weisheiten zu helfen, die bereits seit Generationen weitergegeben wurden. Die Hexenvereinigung ist eine Organisation, die neue Talente, die solche Hexenfähigkeiten aufweisen, fördert, offiziell aktive Hexen administriert und erhabene Rituale durchführt, welche jene Hexen für besonders wichtig erachten. Hexen unterbinden illegale Aktivitäten derer, die sich als Hexen ausgeben, selbst aber keine offiziell anerkannte Hexen sind. Sobald sie jedoch die formelle Qualifikation erreicht haben, wird jeder einzelnen Hexe relativ freie Hand gelassen in ihren Aktivitäten, es sei denn, sie überschreiten dabei gewisse ethische Grenzen.\nAuch Isolet, die als Henkerin von Pandora viel Blut fließen lassen hat, wird ihre Qualifikation nicht entzogen, da sie gewissenhaft ihre Aufgaben als Hexe wahrnimmt.",
+      "descriptionByStar": {
+        "0": "[Flammenschlucker – Caienne] entfernt postitive Effekte von Feinde in Reichweite und verringert die Heilungsrate bei [Brand] um zus. 10 %."
+      }
+    },
+    "2": {
+      "name": "Karte der Ruhe: Serenity",
+      "description": "[Absoluter Nullpunkt – Devion] erhöht den Schaden um {0} % und der zus. Schaden infolge von [Explosionsreaktion] ignoriert feindliche Blockeffekte.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Isolet/ut/2.png",
+      "story": "Wenn Ophelia sie ansah, schien Isolet immer eine schwere Last in sich zu tragen. Sie ist unnahbarer und respektierter als jede andere, aber wenn man genau hinschaut, scheint sie sich kaum auf den Beinen halten zu können.\nOphelia konnte Isolet, eine Hexe erfahrener als jede andere, nicht direkt fragen, da sie nicht wusste, um wen sie sich sorgte, aber jedes Mal, wenn sie Isolet ansah, empfand sie innere Unruhe. Ophelia hoffte, dass wenn Isolets Geist von ihrerseits unbekannten Ängsten und Wunden der Vergangenheit geplagt wird und ihr deshalb keine Ruhe gewährte, seinen Seelenfrieden finden würde. Egal wie streng und furchterregend Isolet erscheint, Ophelia gegenüber ist ihre Hexenmeisterin sehr warmherzig.\nMit Barmherzigkeit beschloss Ophelia, sich Macht ihrer Kartenfreunde zu bedienen. Sie schenkte Isolet die Schlafkarte Serenity, die die Form eines blauen Schmetterlings hat, und betet dafür, dass sie ihr auch in ihren Träumen ein wenig Erleichterung verschafft.",
+      "descriptionByStar": {
+        "0": "[Absoluter Nullpunkt – Devion] erhöht den Schaden um 20 % und der zus. Schaden infolge von [Explosionsreaktion] ignoriert feindliche Blockeffekte."
+      }
+    },
+    "3": {
+      "name": "Wunscharmband",
+      "description": "[Tobender Sturm – Icarus] verringert die ANG-GESCHW. von Feinde in Reichweite um 300 während der Wirkungsdauer und erhöht 5 Sek. lang den erhaltenen Körp. Schaden von Zielen, die durch [Flammensturm] getroffen wurden, um {0} %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Isolet/ut/3.png",
+      "story": "Ein Fadenarmband, welches Isolet von ihrem zuverlässigsten und engstem Freund geschenkt bekommen hatte, der jetzt nicht mehr unter ihnen weilt.\nInspiriert durch seinen Eifer, Pegareth, das Artefakt des Kaiserreiches, zu verteidigen, sammelte Isolet all ihr Wissen, um ihn bestmöglichst dabei zu unterstützen. Sie glaubte daran, dass es ihre Aufgabe sei, ihm zu helfen, zum Schicksal zu führen und das Artefakt gemeinsam zu beschützen. Um ihr seinen Dank auszusprechen, da sie stets ein Leitstern an seiner Seite war, fertigte er ihr dieses Armband mit einem Amulett an, welches den Traum beschützen soll, den er zuvor auf der Reise nur als Gerücht gehört hatte, und dem Träger Seelenfrieden bringt. Damit sie, die die schwere Bürde der Wahrheit zu tragen hat, die Kraft findet, wieder aufzustehen, wann immer sie vor Erschöpfung zusammenbrechen würde. Damit sie den Willen behält.\nJedoch hatte das Amulett einen anderen Effekt als er ursprünglich beabsichtigt hatte. Dieses Geschenk der Gutherzigkeit wurde zu einem Keil, der sie jenen Tag nicht vergessen lässt, an dem sie ihn vom Kaiserreich brutal zugerichtet fand und ihren wichtigsten Begleiter verloren hatte.",
+      "descriptionByStar": {
+        "0": "[Tobender Sturm – Icarus] verringert die ANG-GESCHW. von Feinde in Reichweite um 300 während der Wirkungsdauer und erhöht 5 Sek. lang den erhaltenen Körp. Schaden von Zielen, die durch [Flammensturm] getroffen wurden, um 10 %."
+      }
+    },
+    "4": {
+      "name": "Astrologiekompass",
+      "description": "[Technomagie-Essenz] erhöht die max. Stapelungen von [Explosionsreaktion] um 5 und die max. Stapelungen von [Flammensturm] um 1. Krit. Schaden erhöht sich um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Isolet/ut/4.png",
+      "story": "Ein Kompass in der Form des Nachthimmels.\nDa Sonne, Mond und Sterne in den Kompass eingraviert sind, ist er ein beliebtes Hilfsmittel bei der Vorhersage des Schicksals mittels Astrologie.\nEr war ein Geschenk von Rose, damit Isolet, die ihren wertvollen Begleiter verloren hatte, wieder auf den richtigen Weg gelangt, Normalerweise zeigt die Nadel des Kompass in Richtung des Schicksals, doch es obliegt der Hexe, die Zeichen richtig zu deuten und wie es sich in jedem Moment entfalten wird. Einst hatte Isolet keine Verwendung für solche Werkzeuge, da sie nicht erwartet hatte, ihren Weg einmal zu verlieren.\nAls sie ihn das erste mal von Rose bekommen hatte, zeigte die Nadel direkt auf Rose, als wolle sie sagen, dass Rose ein Meilenstein und der letzte Zufluchtsort für Isolet wäre. Seit dem Tod vom Rose, dreht sich jedoch die Nadel ständig im Kreis, ohne in eine bestimmte Richtung zu zeigen.",
+      "descriptionByStar": {
+        "0": "[Technomagie-Essenz] erhöht die max. Stapelungen von [Explosionsreaktion] um 5 und die max. Stapelungen von [Flammensturm] um 1. Krit. Schaden erhöht sich um 20 %."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 4-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört die Seele von Bezwinger der Dunkelheit, Del Terravion und fügt allen Gegnern ??? Körp. Schaden zu. Fängt das getroffene Ziel in einer Raumbarriere ein, sodass er 8 Sek. lang keine positive Effekte erhalten kann, und erhöht den erhaltenen Körp. Schaden um 25 %. Danach wird die Seelenwaffen-Wirkung 12 Sek. lang aufrechterhalten und Isolets ANG erhöht sich um 30 %.",
+    "cooldown": "20",
+    "uses": "5",
+    "thumbnail": "heroes/Isolet/sw.png",
+    "advancement": {
+      "1": "Erhöht die Wirkungsdauer der Raumbarriere um 4 Sek.",
+      "2": "Erhöht den Schaden von Isolet gegen Feinde, die keine Helden sind, um 35 % während der Seelen-Wirkungsdauer."
+    },
+    "story": "Menschen, die einen Verlust erlitten haben, fällt es schwer, in das alte Leben zurückzukehren. Das Fundament, das einst die Überzeugungen und Gedanken stützte, ist nicht mehr das gleiche wie zuvor, weshalb Stück für Stück ein Teil dessen, was den Menschen ausmacht, abgetragen wird. Auch Isolet hat sich durch den Verlust verändert.\nAuf den ersten Blick fällt nichts besonderes ins Auge, aber sie hat sich verändert. Es war nicht so, dass sie eine gebrochene Persönlichkeit gehabt hätte und bösartige Dinge tat, also blieb alles beim Alten. Sie war immer noch die Isolet, die nach dem Guten und der Gerechtigkeit strebte. Aber diejenigen, die sie gut kannten, konnten die Veränderung spüren. Die Veränderung kam zusammen mit Del Terravion,\nSie wurde Mitglied von Pandora, die dem Kaiserreich feindlich gesinnt sind, und fügte Del Terravion mit Hilfe von Pandoras technomagischen Technologie ein zusätzlichen Kraftverstärker hinzu. Sie musste stark sein, um ihr Versprechen, nie wieder so machtlos zu sein, einhalten zu können. Egal wie viel mehr Blut, Flüche oder Hass auch noch folgen würden.\nDer technomagische Kraftverstärker verschlang das Herz von Del Terravion mit Sonnenlicht und entfernte die Spuren der himmelblauen Farbe. Jedes Mal, wenn an dem Stab weiter gearbeitet wurde, konnte man die schmerzerfüllten Schreie von Del Terravion hören. Isolet hörte die Schreie, jedes einzige Mal, wenn sie vor der Werkstatt Pandoras Wache hielt. Sie ist die einzige, die die ohrenbetäubenden Schreie hören konnte und für sie klangen sie wie Schreie ihres Begleiters, der jede Nacht aufs Neue in ihren Albträumen stirbt. Für sie war es ein Prozess der Selbstbestrafung, da klar war, dass sie nur verlieren konnte.\nDel Terrivon, das Relikt der Hexen, erhielt durch die technomagische Technologie, die jegliche Magie in den Schatten stellt, eine unvergleichliche Macht. Der Drache im Inneren des Stabes, der einst den Himmel mit seinen riesigen Schwingen durchflog, verlor gänzlich seine Ehre als Wächter und wurde zu einer leeren Hülle, gefesselt an einen trostlosen Mechanismus. Isolet gab ihm den Namen Gigantes."
+  },
+  "splashart": "heroes/Isolet/sa.png",
+  "costumes": "heroes/Isolet/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

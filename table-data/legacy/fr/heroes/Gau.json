@@ -1,0 +1,272 @@
+{
+  "id": "Gau",
+  "profile": {
+    "name": "Gau",
+    "title": "Gau, Barbare des Terres gelées",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "500",
+    "damage_type": "Physical",
+    "gender": "Homme",
+    "age": "33",
+    "height": "231",
+    "race": "Barbare",
+    "constellation": "Layan la Justiciére",
+    "birth": {
+      "month": 9,
+      "day": 23,
+      "monthName": "Mois de la Vérité"
+    },
+    "like": "Les enfants et les animaux",
+    "dislike": "Les personnes destructives et violentes",
+    "story": "Gau est un puissant guerrier du royaume barbare. Dès qu'il maniait ses deux haches, un bain de sang s'ensuivait. Sa férocité légendaire avait fait de lui un guerrier redouté. Cependant, il disparut soudainement pendant dix ans et, à son retour, il avait changé du tout au tout. Ses tendances violentes avaient disparu, même lorsque les autres le critiquaient. Au lieu de cela, il répond par des sourires et un rire jovial. C'est particulièrement surprenant de le voir sourire avec bonté aux enfants et aux animaux.",
+    "thumbnail": "heroes/Gau/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Fracasser",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Attaque les ennemis à portée 2 fois, infligeant ??? DEG P. Le premier coup les renverse pendant 3 sec et réduit leur pénétration de DEF de 250 pendant 10 sec.",
+      "thumbnail": "heroes/Gau/skills/1.png"
+    },
+    "2": {
+      "name": "Rugissement de Bataille",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Dissipe les effets négatifs de tous les alliés et augmente leur ATQ de ???, leur vitesse d'attaque de 300 et leur DEF P de ??? pendant 15 sec.",
+      "thumbnail": "heroes/Gau/skills/2.png"
+    },
+    "3": {
+      "name": "Vortex",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Charge en avant et attaque 12 fois les ennemis dans une zone circulaire autour de soi, infligeant ??? DEG P et les attirant pendant l'incantation. Immunité au contrôle pendant la compétence ; le dernier coup gèle les ennemis pendant 4 sec.",
+      "thumbnail": "heroes/Gau/skills/3.png"
+    },
+    "4": {
+      "name": "Accès de Rage",
+      "cost": null,
+      "cooldown": null,
+      "description": "Chaque seconde, augmente son ATQ de ???, sa résistance au contrôle de 30 et ses dégâts contre les ennemis non héros de 1.5%. Se cumule jusqu'à 20 fois. À partir de 20 cumuls, les dégâts des attaques normales augmentent de 100%.",
+      "thumbnail": "heroes/Gau/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les taux d'augmentation d'ATQ et de DEF de 10%.",
+      "III": "Augmente les taux d'augmentation d'ATQ et de DEF de 15%.",
+      "IV": "Augmente les taux d'augmentation d'ATQ et de DEF de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente l'augmentation d'ATQ de 10%.",
+      "III": "Augmente l'augmentation d'ATQ de 15%.",
+      "IV": "Augmente l'augmentation d'ATQ de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Gau/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Chaque utilisation augmente les DEG de 15%. Cumulable 10 fois.",
+          "thumbnail": "heroes/Gau/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Modifie tous les effets pour qu'ils ne puissent être dissipés.",
+          "thumbnail": "heroes/Gau/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Un bonus de 200 à la Vitesse d'ATQ est ajouté à l'effet.",
+          "thumbnail": "heroes/Gau/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Temps de recharge réduit de 3 sec.",
+          "thumbnail": "heroes/Gau/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Immunise contre tous les types de DEG.",
+          "thumbnail": "heroes/Gau/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Modifie tous les effets pour qu'ils ne puissent être dissipés.",
+          "thumbnail": "heroes/Gau/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Réduit la DEF du lanceur de 3% par charge cumulée et modifie les DEG infligés aux ennemis non Héros à 2.5%.",
+          "thumbnail": "heroes/Gau/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Blocage P +200",
+        "thumbnail": "heroes/Gau/perks/light.png"
+      },
+      "dark": {
+        "effect": "Soigne les PV pour 10% de l'ATQ chaque seconde et pour chaque 1% de PV perdu, les DEG reçus sont réduits de 0,6%.",
+        "thumbnail": "heroes/Gau/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Numinu, l'Oiseau sacré",
+    "description": "Augmente ses PV Max de {0}%. Lors d'une attaque automatique, a 15% de chances d'infliger des DEG P supplémentaires à hauteur de {1}% de son ATQ et de geler pendant 2 sec.",
+    "value": {
+      "0": {
+        "0": "12",
+        "1": "14",
+        "2": "17",
+        "3": "21",
+        "4": "25",
+        "5": "30"
+      },
+      "1": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      }
+    },
+    "thumbnail": "heroes/Gau/uw.png",
+    "story": "On dit qu'une bête sacrée protège les barbares de la Montagne Enneigée Terre-Venteuse. Cette bête, capable de dissiper la puissance des ténèbres, est un phénix bleu composé de glace. Numinu a été créé sous la forme de cette bête. Son nom signifie « sacré ». Il a été conçu dans une glace qui ne fond jamais. Les barbares considèrent cette arme comme une relique sacrée et la donnent à leur meilleur guerrier. Celui qui la manie doit être leur plus fort de tous les barbares, au point d'être considéré comme leur roi.",
+    "descriptionByStar": {
+      "0": "Augmente ses PV Max de 12%. Lors d'une attaque automatique, a 15% de chances d'infliger des DEG P supplémentaires à hauteur de 200% de son ATQ et de geler pendant 2 sec.",
+      "1": "Pour chaque 1% de PV perdus, l'ATQ augmente de 1% et la Vitesse d'ATQ augmente de 10.",
+      "2": "Pour chaque 1% de PV perdus, l'ATQ augmente de 1,2% et la Vitesse d'ATQ augmente de 12.",
+      "3": "Pour chaque 1% de PV perdus, l'ATQ augmente de 1,4% et la Vitesse d'ATQ augmente de 14.",
+      "4": "Pour chaque 1% de PV perdus, l'ATQ augmente de 1,7% et la Vitesse d'ATQ augmente de 17.",
+      "5": "Pour chaque 1% de PV perdus, l'ATQ augmente de 2% et la Vitesse d'ATQ augmente de 20."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Casque du roi de givre",
+      "description": "[Fracas] Réduit l'ATQ de la cible de 20% et augmente ses DEG P subis de 10% pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Gau/ut/1.png",
+      "story": "Un casque usé ayant appartenu au roi des géants de givre.\nIl fut porté par le roi des géants de givre, en proie aux ténèbres. Gau conserve ce casque brisé en mémoire de ce héros déchu, dans l'espoir que la tragédie de la Montagne Enneigée Terre-Venteuse ne se reproduise pas.",
+      "descriptionByStar": {
+        "0": "[Fracas] Réduit l'ATQ de la cible de 20% et augmente ses DEG P subis de 10% pendant 10 sec.",
+        "1": "[Fracas] Réduit l'ATQ de la cible de 20% et augmente ses DEG P subis de 12% pendant 10 sec.",
+        "2": "[Fracas] Réduit l'ATQ de la cible de 20% et augmente ses DEG P subis de 14% pendant 10 sec.",
+        "3": "[Fracas] Réduit l'ATQ de la cible de 20% et augmente ses DEG P subis de 17% pendant 10 sec.",
+        "4": "[Fracas] Réduit l'ATQ de la cible de 20% et augmente ses DEG P subis de 21% pendant 10 sec.",
+        "5": "[Fracas] Réduit l'ATQ de la cible de 20% et augmente ses DEG P subis de 25% pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Corne de combattant",
+      "description": "[Rugissement de Bataille] Réduit le coût en PM de 1 et augmente les DEG Crit de la cible de {0}% pendant la durée de la compétence.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Gau/ut/2.png",
+      "story": "Trompette fabriquée à partir d’une corne d’Orox, la bête gardienne de la montagne enneigée de Terre-Venteuse.\nOrox de la montagne enneigée accorde aux nobles guerriers une grande puissance ainsi que la capacité de discerner la vérité. \nUne fois qu’un guerrier a reçu la bénédiction d’Orox, il lui suffit de souffler dans cette trompette pour enflammer le moral de ses camarades et doter leur esprit d’une grande clarté.",
+      "descriptionByStar": {
+        "0": "[Rugissement de Bataille] Réduit le coût en PM de 1 et augmente les DEG Crit de la cible de 20% pendant la durée de la compétence.",
+        "1": "[Rugissement de bataille] Réduit le coût en PM de 1 et augmente le boost d'ATQ de 24 %.",
+        "2": "[Rugissement de bataille] Réduit le coût en PM de 1 point et augmente le boost d'ATQ de 29 %.",
+        "3": "[Rugissement de bataille] Réduit le coût en PM de 1 point et augmente le boost d'ATQ de 35 %.",
+        "4": "[Rugissement de bataille] Réduit le coût en PM de 1 point et augmente le boost d'ATQ de 42 %.",
+        "5": "[Rugissement de bataille] Réduit le coût en PM de 1 point et augmente le boost d'ATQ de 50 %."
+      }
+    },
+    "3": {
+      "name": "Coupe barbare",
+      "description": "[Vortex] Augmente les dégâts de 50%. Le dernier coup augmente tous les dégâts subis par la cible de {0}% pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "8",
+          "1": "10",
+          "2": "12",
+          "3": "14",
+          "4": "17",
+          "5": "20"
+        }
+      },
+      "thumbnail": "heroes/Gau/ut/3.png",
+      "story": "La coupe du roi barbare qui s’installa en premier dans les montagnes neigeuses. Lorsque le premier roi barbare s’installa à Terre-Venteuse, il jura de devenir le gardien des montagnes enneigées et partagea sa coupe avec les êtres sacrés des montagnes. La Coupe barbare est imprégnée de la magie protectrice du loup de givre, ce qui augmente l’ATQ de Vortex et l’effet de Gel.",
+      "descriptionByStar": {
+        "0": "[Vortex] Augmente les dégâts de 50%. Le dernier coup augmente tous les dégâts subis par la cible de 8% pendant 10 sec.",
+        "1": "[Vortex] Augmente les dégâts de 50%. Le dernier coup augmente tous les dégâts subis par la cible de 12% pendant 10 sec.",
+        "2": "[Vortex] Augmente les dégâts de 50%. Le dernier coup augmente tous les dégâts subis par la cible de 14% pendant 10 sec.",
+        "3": "[Vortex] Augmente les dégâts de 50%. Le dernier coup augmente tous les dégâts subis par la cible de 17% pendant 10 sec.",
+        "4": "[Vortex] Augmente les dégâts de 50%. Le dernier coup augmente tous les dégâts subis par la cible de 21% pendant 10 sec.",
+        "5": "[Vortex] Augmente les dégâts de 50%. Le dernier coup augmente tous les dégâts subis par la cible de 25% pendant 10 sec."
+      }
+    },
+    "4": {
+      "name": "Bracelet de perleneige",
+      "description": "[Accès de Rage] Modifie le nombre de charges maximal à 30 et augmente la Pénétration DEF du lanceur de {0} avec 30 charges cumulées.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Gau/ut/4.png",
+      "story": "Un bracelet fait à partir d'une perleneige.\nLes enfants de l'orphelinat l'ont offert à Gau pour son anniversaire, pour tenter de le consoler de la perte de ses frères et sœurs barbares.\nLa perleneige est une fleur qui symbolise l'espoir et le réconfort.",
+      "descriptionByStar": {
+        "0": "[Accès de Rage] Modifie le nombre de charges maximal à 30 et augmente la Pénétration DEF du lanceur de 100 avec 30 charges cumulées.",
+        "1": "[Accès de Rage] Augmente le nombre de charges maximal de Braises de 2, et chaque charge augmente la Pénétration DEF de 10 points.",
+        "2": "[Accès de Rage] Augmente le nombre de charges maximal de Braises de 3, et chaque charge augmente la Pénétration DEF de 10 points.",
+        "3": "[Accès de Rage] Augmente le nombre de charges maximal de Braises de 4, et chaque charge augmente la Pénétration DEF de 10 points.",
+        "4": "[Accès de Rage] Augmente le nombre de charges maximal de Braises de 5, et chaque charge augmente la Pénétration DEF de 10 points.",
+        "5": "[Accès de Rage] Augmente le nombre de charges maximal de Braises de 6, et chaque charge augmente la Pénétration DEF de 10 points."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 4 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Numinu, l'Oiseau sacré, ce qui augmente le taux d'ATQ du Héros de 60% pendant 8 sec. Lors de l'activation, invoque à l'avant Tempête de Numinu pendant 8 sec, pour infliger aux ennemis à portée ??? DEG P toutes les 0.5 sec et réduit la Vitesse d'ATQ de la cible de 100 pendant 5 sec. L'effet de la réduction de la Vitesse d'ATQ peut se cumuler jusqu'à 10 fois. Augmente les DEG P reçus par l'ennemi avec 10 effets cumulés, de 30% et lui applique l'effet Gel, pendant 5 sec.",
+    "cooldown": "22",
+    "uses": "6",
+    "thumbnail": "heroes/Gau/sw.png",
+    "advancement": {
+      "1": "Augmente la durée de l'invocation de l'âme et de Tempête de Numinu de 4 sec.",
+      "2": "Modifie l'augmentation des DEG P reçus à 50% et dissipe les effets positifs sur l'ennemi à chaque coup porté."
+    },
+    "story": "Bien que Gau possédât Numinu, que seul le plus puissant des guerriers Barbares pouvait manier,\nil n'osa pas l'employer pour de bon.\nNuminu, un trésor sacré des Barbares, était effectivement un équipement béni, capable de repousser les ténèbres.\nPuisque Gau avait quitté le royaume Barbare, abandonnant les siens, il ne pouvait sans honte utiliser Numinu devant son peuple.\nIl se contentait donc d'apporter en silence son aide à la reconstruction du royaume, afin d'expier ses actes passés.\nCependant, son dévouement finit par porter ses fruits.\nLes Barbares furent émus par la droiture de Gau et se mit à le considérer comme leur chef.\nNuminu, qui avait tout observé depuis le début, s'envola avant de se révéler devant son propriétaire.\nCe fut à cet instant que Gau connut une nouvelle naissance en tant que le véritable roi des Barbares."
+  },
+  "splashart": "heroes/Gau/sa.png",
+  "costumes": "heroes/Gau/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

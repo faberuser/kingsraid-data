@@ -1,0 +1,263 @@
+{
+  "id": "Pansirone",
+  "profile": {
+    "name": "Pansirone",
+    "title": "Feuerwerk des Wahnsinns Pansirone",
+    "class": "Mechanic",
+    "position": "Middle-100",
+    "attack_range": "7200",
+    "damage_type": "Physical",
+    "gender": "Weiblich",
+    "age": "19",
+    "height": "167",
+    "race": "Menschen",
+    "constellation": "Kandala, der Eroberer",
+    "birth": {
+      "month": 8,
+      "day": 1,
+      "monthName": "Monat der Lebenskraft"
+    },
+    "like": "Tersia, knusprige Kartoffelchips (Schokoladengeschmack), Süßes und blutdürstiges Kommando (Nicht von dieser Welt Humor-Edition, Sammlerausgabe)",
+    "dislike": "Lästige Arbeit, Medizinpulver",
+    "story": "Ein Mädchen, das früher bei der Jagdhundeinheit gearbeitet hat.\nSie erfreute sich daran, ihre Feinde gnadenlos anzugreifen und alles um sich herum verbrennen zu wollen.\nDieses Wahnsinn scheint zurzeit nur von Crow kontrolliert werden zu können.\nNach der Auflösung der Jagdhundeinheit kehrte sie als Offizierin der Maschinendivision zurück und wandert durch den vielen Ruinen.\nBekannt dafür, dass sie nicht den Anweisungen ihrer Vorgesetzten oder dem Armeesystem folgt, ist sie selbst eine mühsame Person, die die Soldaten ihrer Abteilung ständig quält. Daher weiß man nie, wann sie als nächstes vor Wut platzen wird.\nSie spricht nicht gerne über ihrer Vergangenheit, aber zum Glück fragten die Jagdhundeinheit-Mitglieder nie danach.",
+    "thumbnail": "heroes/Pansirone/ico.png"
+  },
+  "skills": {
+    "1 (1)": {
+      "name": "Hier, ein Geschenk!",
+      "cost": "2",
+      "cooldown": "22",
+      "description": "Verursacht Feinden in großer Reichweite ??? Körp. Schaden und stellt sie unter Unlöschbare Flamme. Den Feinden in dem Unlöschbare Flamme Zustand wird 10 Sek. lang insgesamt ??? Körp. Schaden zugefügt und ihre Heilungsrate wird um 25 % verringert.\nNach der Verwendung dieses Skills kann innerhalb von 10 Sek. der [Jetzt, stirb endlich!] Skill verwendet werden.",
+      "thumbnail": "heroes/Pansirone/skills/1 (1).png"
+    },
+    "1 (2)": {
+      "name": "Jetzt, stirb endlich!",
+      "cost": "2",
+      "cooldown": null,
+      "description": "Die frontal stehende Gegner in großer Reichweite werden 7-mal angegriffen und pro Treffer wird ihnen ??? Körp. Schaden zugefügt. Den Gegnern, die keine Helden sind, wird zus. ??? Körp. Schaden zugefügt. Den Gegnern im Unlöschbare Flamme Zustand wird pro Treffer ein erhöhter ??? Körp. Schaden zugefügt.",
+      "thumbnail": "heroes/Pansirone/skills/1 (2).png"
+    },
+    "2": {
+      "name": "Ah! Aufregend! So aufregend!",
+      "cost": "2",
+      "cooldown": "20",
+      "description": "Schlägt 12-mal auf die Gegner in Reichweite zu, fügt ihnen ??? Körp. Schaden zu und erhöht 15 Sek. lang den eigenen ANG um ??? und die VERT-Durchdr. um 500.",
+      "thumbnail": "heroes/Pansirone/skills/2.png"
+    },
+    "3": {
+      "name": "Lauf ja nicht weg!",
+      "cost": "3",
+      "cooldown": "21",
+      "description": "Greift zufällige Gegner 10-mal an und fügt ihnen insgesamt ??? Körp. Schaden zu. Jedes Mal, wenn der gleiche Gegner getroffen wird, erhöht sich der Schaden um ???.",
+      "thumbnail": "heroes/Pansirone/skills/3.png"
+    },
+    "4": {
+      "name": "Grausame Fröhlichkeit",
+      "cost": null,
+      "cooldown": null,
+      "description": "Der ANG wird um ??? erhöht und der Schaden an Gegnern, die keine Helden sind, erhöht sich um 30 %. Jedes Mal, wenn ein Feind im Unlöschbare Flamme Zustand angegriffen wird, wird Unlöschbare Flamme erneut entzündet.",
+      "thumbnail": "heroes/Pansirone/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "[Hier, ein Geschenk!] erhöht 10 Sek. lang den erhaltenen Körp. Schaden des getroffenen Gegners um 25 %.",
+          "thumbnail": "heroes/Pansirone/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "[Jetzt, stirb endlich!] aktiviert Massenkontroll-Immunität während es verwendet wird.",
+          "thumbnail": "heroes/Pansirone/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Pansirone/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Bei Aktivierung fallen die TP 5 Sek. lang nicht unter 10 %.",
+          "thumbnail": "heroes/Pansirone/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Der getroffene Gegner wird für 2 Sek. betäubt.",
+          "thumbnail": "heroes/Pansirone/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Erhöht die Manakosten um 2 und ändert die Zielanzahl auf 3.",
+          "thumbnail": "heroes/Pansirone/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Die Unlöschbare Flamme kann nicht aufgehoben werden.",
+          "thumbnail": "heroes/Pansirone/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Jedes Mal, wenn der Gegner im Unlöschbare Flamme Zustand angegriffen wird, werden 70 MP regeneriert.",
+          "thumbnail": "heroes/Pansirone/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Schaden +20 %",
+        "thumbnail": "heroes/Pansirone/perks/light.png"
+      },
+      "dark": {
+        "effect": "Nach dem Kampf wird 200 Sek. lang aller 10 Sek. der ANG für 15 Sek. um 5 % erhöht. Dieser Effekt ist max. 20-mal stapelbar.",
+        "thumbnail": "heroes/Pansirone/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Hitzegetöse, Tersia",
+    "description": "Jedes Mal wenn ein Feind im Unlöschbare Flamme Zustand angegriffen wird, erhöht sich der eigene ANG und die VERT um je {0} %. Zusätzlich wird dabei der durch Unlöschbare Flamme erzeugte Schaden um {1} % erhöht. Dieser Effekt ist max. 20-mal stapelbar.",
+    "value": {
+      "0": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.7",
+        "4": "2.1",
+        "5": "2.5"
+      },
+      "1": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.7",
+        "4": "2.1",
+        "5": "2.5"
+      }
+    },
+    "thumbnail": "heroes/Pansirone/uw.png",
+    "story": "Eine Waffe, die Pansirone von der Kaiserlichen Armee bekommen hat, als sie der Jagdhundeinheit zugeteilt wurde.\nPansirone war jedoch mit dem Flammenwerfer nicht zufrieden, weshalb sie die Waffe umgebaut hatte. Diese wurde mit einem Kraftstofftank, der doppelt sie viel Kapazität lagern kann, und mit einer Spezial-Dampfstrahlpumpe, die endlose Flammen feuern kann, ausgestattet.\nTrotzdem war Pansirone immer noch nicht zufrieden, da sie alles in großer Reichweite verbrennen wollte. Daraufhin hat sie die Waffe erneut modifiziert. Als Valance die neue Waffe von Pansirone sah, musste sie den Kopf schütteln.\nValance konnte dies nicht länger mitansehen, weshalb sie die Waffe von Pansirone mitnahm und nach einiger Zeit mit einer upgegradeten Version zurückkehrte. Sie hat die Technologie von Magos Le'Flamme genutzt und eine neue Waffe erschaffen, die in der Lage ist sehr heiße Flammen auszustrahlen.\nDa das Erscheinungsbild der Waffe Pansirone nicht gefiel, hat sie es schön geschmückt und es nach ihrer Freundin Tersia genannt.",
+    "descriptionByStar": {
+      "0": "Jedes Mal wenn ein Feind im Unlöschbare Flamme Zustand angegriffen wird, erhöht sich der eigene ANG und die VERT um je 1 %. Zusätzlich wird dabei der durch Unlöschbare Flamme erzeugte Schaden um 1 % erhöht. Dieser Effekt ist max. 20-mal stapelbar."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Bilderrahmen mit unbekanntem Bild",
+      "description": "[Hier, ein Geschenk!] verringert die Manakosten um 1.\n[Jetzt, stirb endlich!] erhöht den Schaden um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Pansirone/ut/1.png",
+      "story": "Ein Gemälde von Pansirone, das sie zum Teil gemalt hat, um die Straßenmahler einzuschüchtern.\nIhr zufolge ist die Flamme in diesem Gemälde die zornige Gestalt ihrer mysteriösen Freundin, die immer an ihrer Seite ist.\nFür die anderen Leuten ist es jedoch nur ein Bild von etwas Brennendem.\nWas wohl die Jagdhundeinheit-Mitglieder am Tag der Fertigstellung dieses Gemäldes von ihr hielten, als sie ihre Freundin ihnen aufregend vorstellte?\nDa sie ab und zu nach ihrer Freundin fragten, nimmt man an, dass sie Pansirone wohl geglaubt haben.",
+      "descriptionByStar": {
+        "0": "[Hier, ein Geschenk!] verringert die Manakosten um 1.\n[Jetzt, stirb endlich!] erhöht den Schaden um 20 %."
+      }
+    },
+    "2": {
+      "name": "Spezial-Kraftstofftank",
+      "description": "[Ah! Aufregend! So aufregend!] Skill-Verwendung entfernt alle eigenen negativen Effekte und bei Aktivierung dieses Skills wird {0} Sek. lang Massenkontroll-Immunität gewährt.",
+      "value": {
+        "0": {
+          "0": "4",
+          "1": "4.8",
+          "2": "5.8",
+          "3": "7",
+          "4": "8.4",
+          "5": "10"
+        }
+      },
+      "thumbnail": "heroes/Pansirone/ut/2.png",
+      "story": "Ein spezieller Kraftstofftank, der von Valance für ein stärkeres Feuer entwickelt wurde.\nDie Flüssigkeit im Tank ist das wichtigste Element, da es Tersias Lieblingsduft ist und sie dazu bringt stärkere Flammen auszustrahlen als gewöhnlich.\nDas Problem ist, dass diese Flüssigkeit nur von bestimmten Monstern am Rande des Kaiserreichs gewonnen werden kann und starke saure Eigenschaften aufweist, die Metalle korrodiert. Schließlich waren spezielle Beschichtungsarbeiten erforderlich, um den Eigenschaften der Flüssigkeit standzuhalten. Diese Aufgabe konnte nur von Valance übernommen werden.\nDa es sich um eine starke Flüssigkeit handelt, die sehr schnell verderben kann, war es unmöglich, eine große Menge gleichzeitig zu lagern. Daraufhin wurde ein Kraftstofftank entwickelt, der etwas ein Drittel kleiner und effizienter als herkömmliche Kraftstofftanks war.",
+      "descriptionByStar": {
+        "0": "[Ah! Aufregend! So aufregend!] Skill-Verwendung entfernt alle eigenen negativen Effekte und bei Aktivierung dieses Skills wird 4 Sek. lang Massenkontroll-Immunität gewährt."
+      }
+    },
+    "3": {
+      "name": "Versteck des Elementars",
+      "description": "[Lauf ja nicht weg!] erhöht den Schaden um 50 % und immer, wenn dem Gegner Schaden zugefügt wird, erhöht sich der Krit. Schaden 10 Sek. lang um {0} %. Dieser Effekt ist max. 20-mal stapelbar.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
+      "thumbnail": "heroes/Pansirone/ut/3.png",
+      "story": "Der Ort an dem Flammenelementar Tersia, die Pansirone begleitet, sich ausruht. Es besteht aus Eisen mit einer Wärmedämmschicht, die auch dann nicht heiß werden, wenn sich Tersia darin befindet.\nPansirone wollte ihre kleine Freundin, die sich im Käfig ausruht, allen Leuten zeigen, aber leider konnten die Leute aus dem Kaiserreich das Elementar nicht sehen. Für sie war nur ein leerer Käfig zu sehen.",
+      "descriptionByStar": {
+        "0": "[Lauf ja nicht weg!] erhöht den Schaden um 50 % und immer, wenn dem Gegner Schaden zugefügt wird, erhöht sich der Krit. Schaden 10 Sek. lang um 2 %. Dieser Effekt ist max. 20-mal stapelbar."
+      }
+    },
+    "4": {
+      "name": "Jagdhund-Truppführer Ernennungsschreiben",
+      "description": "[Grausame Fröhlichkeit] erhöht den Krit. Schaden um 50 % und der Cooldown aller eigenen aktiven Skills wird um {0} Sek. verringert.",
+      "value": {
+        "0": {
+          "0": "3",
+          "1": "3.6",
+          "2": "4.3",
+          "3": "5.2",
+          "4": "6.2",
+          "5": "7.5"
+        }
+      },
+      "thumbnail": "heroes/Pansirone/ut/4.png",
+      "story": "Ein Ernennungsschreiben, das Pansirone sich selbst gegeben hatte, nachdem sie der Jagdhundeinheit zugewiesen wurde.\nSie hat dafür den Umschlag des im Kaiserreichs verwendeten Ernennungsschreibens gestohlen.\n\n- Ich ernenne mich zum Zweiten Truppführer der Jagdhundeinheit! Ich bin ein Truppführer! - Pansirone -",
+      "descriptionByStar": {
+        "0": "[Grausame Fröhlichkeit] erhöht den Krit. Schaden um 50 % und der Cooldown aller eigenen aktiven Skills wird um 3 Sek. verringert."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn du 85-mal Schaden erleidest, wird dies aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Hitzegetöse, Tersia und nachdem 8 Sek. lang der Pansirone-ANG um 500 erhöht wird, werden die Gegner in weiter Reichweite 3-mal angegriffen und ihnen insgesamt ??? Körp. Schaden zugefügt. Beim letzten Treffer wird in weiter Reichweite 8 Sek. lang Tersias Streich erzeugt und aller 1 Sek. wird ??? Körp. Schaden zugefügt und der erhaltene Körp. Schaden um 25 % erhöht. Wenn sich der Gegner im Unlöschbare Flamme-Zustand befindet wird der Körp. Schwächung-Effekt auf 35 % geändert.",
+    "cooldown": "18",
+    "uses": "5",
+    "thumbnail": "heroes/Pansirone/sw.png",
+    "advancement": {
+      "1": "Erhöht den Schaden um 100 %.",
+      "2": "ANG-GESCHW Erhöhungs-Effekt und die Wirkungsdauer von Tersias Streich werden um 4 Sek. erhöht."
+    },
+    "story": "Selbst nachdem Pansirone der Jagdhundeinheit beigetreten ist, gab es immer noch etwas, das sie durcheinander brachte.\n\nEs war die Angst wieder alleine zu sein.\nDiese Angst, die mit ihrer Vergangenheit zu tun hatte und sie immer daran erinnerte, ließ ihr Schauer über den Rücken laufen.\n\nNatürlich ließ sie sich nichts davon anmerken, aber Tersia kannte sie zu gut.\nSie wusste, dass sie wie verrückt kämpfte, um den Albträumen der Vergangenheit zu entkommen.\n\nSie machte sich Sorgen um sie.\nAber das Einzige, was Tersia tun konnte, war es ihr Herz warm zu halten, damit sie nicht einfriert.\n\nWann immer Pansirone gelitten hatte, war Tersia immer an ihrer Seite.\nWas immer sie dachte oder fühlte, Tersia war immer bei ihr.\n\nTersia dachte, dass wenn sie bei Pansirone ist, sie ein wenig Trost findet.\n\nOb Pansirone davon gewusste hatte ...\n\nEines Tages fragte Pansirone etwas, was Tersia sehr glücklich machte.\n\n- Oh, Tersia, du fühlst dich heute aber sehr viel wärmer an!\n- Aber nur, weil dir kalt zu sein scheint. Erkälte dich bitte nicht.\n\nDaraufhin lächelte sie nur.\n- Mit dir, Tersia, an meiner Seite, ist es nicht so kalt.\n\nUnd schon zeigte Tersia ihre wahre Gestalt und lächelte Pansirone an.\n\n- Wenn es dir wieder kalt sein sollte, denk immer daran, dass ich bei dir bin.\nFür dich werde ich ewig brennen."
+  },
+  "splashart": "heroes/Pansirone/sa.png",
+  "costumes": "heroes/Pansirone/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

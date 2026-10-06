@@ -1,0 +1,228 @@
+{
+  "id": "Rodina",
+  "profile": {
+    "name": "Rodina",
+    "title": "Schneesturm-Scharfschützin Rodina",
+    "class": "Mechanic",
+    "position": "Back-400",
+    "attack_range": "2200",
+    "damage_type": "Physical",
+    "gender": "Weiblich",
+    "age": "15",
+    "height": "146",
+    "race": "Menschen",
+    "constellation": "Hexipolia, der Wanderer",
+    "birth": {
+      "month": 12,
+      "day": 14,
+      "monthName": "Monat der Geduld"
+    },
+    "like": "Bären; Eisbären; Grizzlybären; kleine Bären; große Bären",
+    "dislike": "Jene, die das Leben nicht wertschätzen",
+    "story": "Die beste Scharfschützin des Kaiserreichs und eine große Bärenliebhaberin. Sie mag sie so sehr, dass sie stets Bärenohren nachempfundene Accessoires auf ihrem Hut trägt. Gelegentlich jagt sie Tiger, doch einen Bären würde sie niemals schießen. Obwohl ihre Schießkunst perfekt für Attentate geeignet wäre, schwor sie, diese niemals unrechtmäßig einzusetzen. Stattdessen nützt sie sie, um Andere zu beschützen. Momentan lebt sie mit Pavel im Windland-Schneegebirge, als seine persönliche, vom Kaiserreich bestellte Wache.",
+    "thumbnail": "heroes/Rodina/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Durchdringender Schuss",
+      "cost": "2",
+      "cooldown": "11",
+      "description": "Nimmt bei Aktivierung Haltung ein und beginnt aufzuladen. Danach erleiden Gegner in einer geraden Linie ??? physischen Schaden. Der Schaden steigt entsprechend der gesamten Ladezeit um 150%. Wird Ladestufe 3 überschritten, werden Gegner zu Boden geworfen.",
+      "thumbnail": "heroes/Rodina/skills/1.png"
+    },
+    "2": {
+      "name": "Ziel Anvisieren",
+      "cost": "2",
+      "cooldown": "15",
+      "description": "Das Ziel erleidet 50% mehr Schaden von diesem Helden. Erhöht außerdem den eigenen ANG um ???.",
+      "thumbnail": "heroes/Rodina/skills/2.png"
+    },
+    "3": {
+      "name": "Fokus-Feuer",
+      "cost": "3",
+      "cooldown": "13",
+      "description": "Feuert 10 zufällige Schüsse ab. Verursacht ??? Schaden pro Angriff; mit jedem Angriff steigt der Schaden um 10%.",
+      "thumbnail": "heroes/Rodina/skills/3.png"
+    },
+    "4": {
+      "name": "Schnellfeuer",
+      "cost": null,
+      "cooldown": "10",
+      "description": "Alle 10 s greift ein Feind 2 aufeinanderfolgende Treffer an und fügt ??? körp. Schaden zu.",
+      "thumbnail": "heroes/Rodina/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Krit. Schaden um 50 %."
+    },
+    "2": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht Krit. Schaden um 50 % während der Wirkungsdauer."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Krit. Schaden um 50 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Krit. Schaden um 50 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht Schaden um 40 %.",
+          "thumbnail": "heroes/Rodina/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Massenkontroll-Immunität für die Dauer des Skills.",
+          "thumbnail": "heroes/Rodina/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Erhöht ANG-GESCHW. um 250 während der Wirkungsdauer.",
+          "thumbnail": "heroes/Rodina/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Rodina/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht die Manakosten um 1 sowie die Zielanzahl um 1.",
+          "thumbnail": "heroes/Rodina/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Ignoriert feindliche Blockeffekte.",
+          "thumbnail": "heroes/Rodina/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Wenn nur 1 Gegner vorhanden ist, erhöht sich der Schaden um 100%.",
+          "thumbnail": "heroes/Rodina/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Betäubt getroffene Feinde für 2 Sek.",
+          "thumbnail": "heroes/Rodina/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Chance +100",
+        "thumbnail": "heroes/Rodina/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht ANG 10 Sek. lang um 20 % und legt am Anfang jedes Kampfes 3 zufällige Feinde als Rodinas Ziele fest.",
+        "thumbnail": "heroes/Rodina/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Rodina Spezial Gewehr Mod.0",
+    "description": "20 %ige Chance, bei einem Angriff zusätzlichen Körp. Schaden (200 % d. ANG) zuzufügen und den Feind zurückzuwerfen. Anschließend ist PRÄZ für 10 Sek. um 100 erhöht. Dieser Effekt kann sich max. 3 Mal kumulieren.",
+    "value": {},
+    "thumbnail": "heroes/Rodina/uw.png",
+    "story": "Der Inbegriff hochentwickelter kaiserlicher Technologie. Dieses Gewehr benötigt übermenschliche Präzision und kann nicht von einer normalen Person genutzt werden. Es wurde verzaubert, um dem Schützen eine Sicht über schier unmögliche Distanzen zu gewähren. Doch selbst das größte Zielfernrohr ist nutzlos, wenn es von jemandem benutzt wird, der nicht damit zielen kann. Die Leistung des Gewehrs hängt also stark von den Fähigkeiten seiner Benutzer ab. Rodina, allerdings, ist mit ihrer enormen Sehkraft und ihrer Genauigkeit eine angemessene Besitzerin des Gewehrs. Sie ging noch einen Schritt weiter, passte es nach ihren Vorstellungen an und nannte es „Rodina Spezial“.",
+    "descriptionByStar": {
+      "0": "20 %ige Chance, bei einem Angriff zusätzlichen Körp. Schaden (200 % d. ANG) zuzufügen und den Feind zurückzuwerfen. Anschließend ist PRÄZ für 10 Sek. um 100 erhöht. Dieser Effekt kann sich max. 3 Mal kumulieren.",
+      "1": "20 %ige Chance, bei einem Angriff zusätzlichen Körp. Schaden (240 % d. ANG) zuzufügen und den Feind zurückzuwerfen. Anschließend ist PRÄZ für 10 Sek. um 100 erhöht. Dieser Effekt kann sich max. 3 Mal kumulieren.",
+      "2": "20 %ige Chance, bei einem Angriff zusätzlichen Körp. Schaden (288 % d. ANG) zuzufügen und den Feind zurückzuwerfen. Anschließend ist PRÄZ für 10 Sek. um 100 erhöht. Dieser Effekt kann sich max. 3 Mal kumulieren.",
+      "3": "20 %ige Chance, bei einem Angriff zusätzlichen Körp. Schaden (344 % d. ANG) zuzufügen und den Feind zurückzuwerfen. Anschließend ist PRÄZ für 10 Sek. um 100 erhöht. Dieser Effekt kann sich max. 3 Mal kumulieren.",
+      "4": "20 %ige Chance, bei einem Angriff zusätzlichen Körp. Schaden (414 % d. ANG) zuzufügen und den Feind zurückzuwerfen. Anschließend ist PRÄZ für 10 Sek. um 100 erhöht. Dieser Effekt kann sich max. 3 Mal kumulieren.",
+      "5": "20 %ige Chance, bei einem Angriff zusätzlichen Körp. Schaden (500 % d. ANG) zuzufügen und den Feind zurückzuwerfen. Anschließend ist PRÄZ für 10 Sek. um 100 erhöht. Dieser Effekt kann sich max. 3 Mal kumulieren."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Stoßdämpfender Spezialschutz",
+      "description": "[Durchdringender Schuss] erleidet um 40 % verringerten Körp. Schaden und Mag. Schaden für die Dauer des Skills und erhöht den ANG bei einem kritischen Treffer 10 Sek. lang um 10 %. Die ANG-Erhöhung kann bis zu 4-mal gestapelt werden.",
+      "value": {},
+      "thumbnail": "heroes/Rodina/ut/1.png",
+      "story": "Ein spezieller Schulterschutz, den Fluss nur schwer für die zierliche Rodina finden konnte.\nEr wurde aus dem Leder schwarzer Larven hergestellt und ist sehr hart und widerstandsfähig. Er gehört zu Rodinas Lieblingsgegenständen, da er ideal dafür geeignet ist, den Rückstoß abzufangen.",
+      "descriptionByStar": {
+        "0": "[Durchdringender Schuss] erleidet um 40 % verringerten Körp. Schaden und Mag. Schaden für die Dauer des Skills und erhöht den ANG bei einem kritischen Treffer 10 Sek. lang um 10 %. Die ANG-Erhöhung kann bis zu 4-mal gestapelt werden.",
+        "1": "[Durchdringender Schuss] erleidet um 40 % verringerten Körp. Schaden und Mag. Schaden für die Dauer des Skills und erhöht den ANG bei einem kritischen Treffer 10 Sek. lang um 12 %. Die ANG-Erhöhung kann bis zu 4-mal gestapelt werden.",
+        "2": "[Durchdringender Schuss] erleidet um 40 % verringerten Körp. Schaden und Mag. Schaden für die Dauer des Skills und erhöht den ANG bei einem kritischen Treffer 10 Sek. lang um 14 %. Die ANG-Erhöhung kann bis zu 4-mal gestapelt werden.",
+        "3": "[Durchdringender Schuss] erleidet um 40 % verringerten Körp. Schaden und Mag. Schaden für die Dauer des Skills und erhöht den ANG bei einem kritischen Treffer 10 Sek. lang um 17 %. Die ANG-Erhöhung kann bis zu 4-mal gestapelt werden.",
+        "4": "[Durchdringender Schuss] erleidet um 40 % verringerten Körp. Schaden und Mag. Schaden für die Dauer des Skills und erhöht den ANG bei einem kritischen Treffer 10 Sek. lang um 21 %. Die ANG-Erhöhung kann bis zu 4-mal gestapelt werden.",
+        "5": "[Durchdringender Schuss] erleidet um 40 % verringerten Körp. Schaden und Mag. Schaden für die Dauer des Skills und erhöht den ANG bei einem kritischen Treffer 10 Sek. lang um 25 %. Die ANG-Erhöhung kann bis zu 4-mal gestapelt werden."
+      }
+    },
+    "2": {
+      "name": "Kristallene Unterstützung",
+      "description": "[Ziel Anvisieren] wechselt auf einen zufälligen Feind, wenn Rodinas Ziel stirbt. Erhöht den ANG 10 Sek. lang um 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Rodina/ut/2.png",
+      "story": "Ein Scharfschützengewehr, das von Pavel so angefertigt wurde, dass es zu Rodinas kleinem Körper passt.\nEs ist aus Kristallen hergestellt, ist also sehr hart und stabil. So ist es in der Lage, auf jedes Ziel zu schießen.",
+      "descriptionByStar": {
+        "0": "[Ziel Anvisieren] wechselt auf einen zufälligen Feind, wenn Rodinas Ziel stirbt. Erhöht den ANG 10 Sek. lang um 20 %.",
+        "1": "[Ziel Anvisieren] wechselt auf einen zufälligen Feind, wenn Rodinas Ziel stirbt. Erhöht den ANG 10 Sek. lang um 24 %.",
+        "2": "[Ziel Anvisieren] wechselt auf einen zufälligen Feind, wenn Rodinas Ziel stirbt. Erhöht den ANG 10 Sek. lang um 29 %.",
+        "3": "[Ziel Anvisieren] wechselt auf einen zufälligen Feind, wenn Rodinas Ziel stirbt. Erhöht den ANG 10 Sek. lang um 35 %.",
+        "4": "[Ziel Anvisieren] wechselt auf einen zufälligen Feind, wenn Rodinas Ziel stirbt. Erhöht den ANG 10 Sek. lang um 42 %.",
+        "5": "[Ziel Anvisieren] wechselt auf einen zufälligen Feind, wenn Rodinas Ziel stirbt. Erhöht den ANG 10 Sek. lang um 50 %."
+      }
+    },
+    "3": {
+      "name": "Spezielles Sperrfeuer VII",
+      "description": "[Fokus-Feuer] erhöht den Schaden um 20 % und fügt mit den letzten 2 Schüssen ungeachtet der VERT des Ziels Schaden zu.",
+      "value": {},
+      "thumbnail": "heroes/Rodina/ut/3.png",
+      "story": "Ein Sperrfeuer, für das der legendäre Schmied des Kaiserreiches beauftragt wurde. Es enthält Schießpulver aus dem robusten Ei eines Pitta und dem Kieferknochen einer Drachenschildkröte. Es wurde klein gefertigt, so dass Rodina es leicht benutzen kann, aber sie besitzt die Kraft, alles zu zerstören.",
+      "descriptionByStar": {
+        "0": "[Fokus-Feuer] erhöht den Schaden um 20 % und fügt mit den letzten 2 Schüssen ungeachtet der VERT des Ziels Schaden zu.",
+        "1": "[Fokus-Feuer] erhöht den Schaden um 24 % und fügt mit den letzten 2 Schüssen ungeachtet der VERT des Ziels Schaden zu.",
+        "2": "[Fokus-Feuer] erhöht den Schaden um 29 % und fügt mit den letzten 2 Schüssen ungeachtet der VERT des Ziels Schaden zu.",
+        "3": "[Fokus-Feuer] erhöht den Schaden um 35 % und fügt mit den letzten 2 Schüssen ungeachtet der VERT des Ziels Schaden zu.",
+        "4": "[Fokus-Feuer] erhöht den Schaden um 42 % und fügt mit den letzten 2 Schüssen ungeachtet der VERT des Ziels Schaden zu.",
+        "5": "[Fokus-Feuer] erhöht den Schaden um 50 % und fügt mit den letzten 2 Schüssen ungeachtet der VERT des Ziels Schaden zu."
+      }
+    },
+    "4": {
+      "name": "Gewehr-Enzyklopädie",
+      "description": "[Dauerfeuer] ändert die Anzahl an Zielen auf 2. Der Körp. Krit. Widerstand von getroffenen Feinden wird für 10 Sek. um 200 verringert.",
+      "value": {},
+      "thumbnail": "heroes/Rodina/ut/4.png",
+      "story": "Ein Magazin für Schusswaffenfanatiker im Kaiserreich.\nEs wird regelmäßig von Magos Le'Flamme herausgegeben und enthält verschiedenste Informationen über die neusten Gewehre und Waffen.\nRodina besitzt jede Ausgabe und zweifelt niemals an den Inhalten des Magazins, da es von der Leiterin Valance herausgegeben wird, in die er verliebt ist.",
+      "descriptionByStar": {
+        "0": "[Dauerfeuer] ändert die Anzahl an Zielen auf 2. Der Körp. Krit. Widerstand von getroffenen Feinden wird für 10 Sek. um 200 verringert.",
+        "1": "[Dauerfeuer] ändert die Anzahl an Zielen auf 2. Der Körp. Krit. Widerstand von getroffenen Feinden wird für 10 Sek. um 240 verringert.",
+        "2": "[Dauerfeuer] ändert die Anzahl an Zielen auf 2. Der Körp. Krit. Widerstand von getroffenen Feinden wird für 10 Sek. um 290 verringert.",
+        "3": "[Dauerfeuer] ändert die Anzahl an Zielen auf 2. Der Körp. Krit. Widerstand von getroffenen Feinden wird für 10 Sek. um 350 verringert.",
+        "4": "[Dauerfeuer] ändert die Anzahl an Zielen auf 2. Der Körp. Krit. Widerstand von getroffenen Feinden wird für 10 Sek. um 420 verringert.",
+        "5": "[Dauerfeuer] ändert die Anzahl an Zielen auf 2. Der Körp. Krit. Widerstand von getroffenen Feinden wird für 10 Sek. um 500 verringert."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 22 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Rodina Spezial Gewehr Mod.0 und erhöht 10 Sek. lang den eigenen Krit. Schaden um 100 %. Während der Wirkungsdauer wird aller 2 Sek. dem Gegner ??? VERT-ignorierender Körp. Schaden zugefügt und der getroffenen Gegner wird 2 Sek. lang betäubt. Wenn es sich bei dem Ziel um ein Bossmonster handelt, wird der Schaden und die Betäubungsdauer um das 2-Fache erhöht.",
+    "cooldown": "22",
+    "uses": "6",
+    "thumbnail": "heroes/Rodina/sw.png",
+    "advancement": {
+      "1": "Erhöht den Schaden um 50 %.",
+      "2": "Schaden erhöht sich um 50 % und während der Wirkungsdauer wird dir Massenkontroll-Immunität gewährt."
+    },
+    "story": "Das zarteste Gewehr, Mod.0. im Kaiserreich. Rodina handhabte dieses Gewehr perfekt und bewies ihre Fähigkeit als beste Scharfschützein. Aber auch sie kann nicht bei jedem Schuss Erfolg haben. Denn Schießen ist nichts, was gelingen würde, wenn ein guter Scharfschütze eine gute Waffe hätte. Der Erfolg des Schießens hängt von der natürlichen und körperlichen Verfassung ab. Es gibt viele Dinge, die nicht kontrolliert werden können und auch Glück brauchen. Aber Rodina hat nie aufgegeben. Sie entschloss sich zu trainieren, um Dinge zu kontrollieren, die sie kontrollieren kann. Am Schneeberg kann der Scharfschütze die Konzentration üben. Beim Schnee und Nebel kann der Mensch nicht klar sehen und der Versuch, auf das sich bewegende Ding zu schießen, erfordert eine extreme Konzentration von den Scharfschützen. Rodina, die ihren Zweck sieht, hat sich ständig weitergebildet. Eines Tages fühlte sich Rodina komisch. Bei all der Müdigkeit konnte sie das Ziel klar sehen. Als sie instinktiv abdrückte, sah sie. Es gab einen Zielpunkt vor dem Ziel, den sie noch nie gesehen hat. Es war das Gewehrgeschenk für den Besitzer, dem das harte Training gelingt."
+  },
+  "splashart": "heroes/Rodina/sa.png",
+  "costumes": "heroes/Rodina/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

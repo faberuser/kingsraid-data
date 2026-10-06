@@ -1,0 +1,248 @@
+{
+  "id": "Mediana",
+  "profile": {
+    "name": "Mediana",
+    "title": "Gefährlicher Doktor Mediana",
+    "class": "Priest",
+    "position": "Back-100",
+    "attack_range": "4100",
+    "damage_type": "Physical",
+    "gender": "Weiblich",
+    "age": "21",
+    "height": "170",
+    "race": "Menschen",
+    "constellation": "Armil, der Ehrwürdige",
+    "birth": {
+      "month": 4,
+      "day": 7,
+      "monthName": "Monat des Lebens"
+    },
+    "like": "Medizinische Wissenschaft; Testpersonen",
+    "dislike": "Heilende Magie",
+    "story": "Eine Kundige der Heilkünste, die sich entfalten konnte, als die Vorräte der Priester gering waren. Sie erbte ihr medizinisches Talent von ihrem Vater, doch als sie in ihrem Wissensdurst mit der Erforschung von Giften begann, überschritt sie eine rote Linie. In der Folge wurde sie aus der medizinischen Gesellschaft ausgeschlossen, doch ihr Tatendrang blieb uneingeschränkt groß. Ihr Grundrespekt für alles Lebendige hinderte sie allerdings daran, experimentelle Ergebnisse für ihre Giftforschung zu erzielen. Als die Dämonen kamen, war sie voll der Freude, endlich seltene und wertvolle Versuchspersonen gefunden zu haben.",
+    "thumbnail": "heroes/Mediana/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Heilsalbe",
+      "cost": "2",
+      "cooldown": "15",
+      "description": "Heilt alle Verbündeten um ??? und macht sie immun gegen die nächste schadensverursachende Attacke.",
+      "thumbnail": "heroes/Mediana/skills/1.png"
+    },
+    "2": {
+      "name": "Spezial-Wasserkanone",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Feuert eine Wasserkanone geradeaus, die Verbündete in Reichweite alle 0,5 Sek. für ??? und verursacht gleichzeitig ??? Körp. Schaden am Gegner.",
+      "thumbnail": "heroes/Mediana/skills/2.png"
+    },
+    "3": {
+      "name": "Stärkungsarznei",
+      "cost": "4",
+      "cooldown": "23",
+      "description": "Injiziert dem Verbündeten mit dem höchsten ANG einen Stärkungstrank. Erhöht dessen ANG um 20% von Medianas ANG + ??? und verhindert, dass seine LP unter 5% fallen.",
+      "thumbnail": "heroes/Mediana/skills/3.png"
+    },
+    "4": {
+      "name": "Medianas Spezialgift",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht die ANG aller Verbündeten um ??? und den Körp. Krit. Widerstand um 200. Injeziert dem Gegner beim Angriff ein Spezialgift, was für 5 Sek. konstant Körp. Schaden in Höhe von ??? verursacht und seinen Körp. Krit. Widerstand um 200 reduziert. Mediana wird nicht als der Verbündete mit dem höchsten ANG festgelegt, wenn zwei oder mehr Verbündete da sind.",
+      "thumbnail": "heroes/Mediana/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Heilungsrate um 10 %.",
+      "III": "Erhöht Heilungsrate um 15 %.",
+      "IV": "Erhöht Heilungsrate um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Heilungsrate und Schaden um 10 %.",
+      "III": "Erhöht Heilungsrate und Schaden um 15 %.",
+      "IV": "Erhöht Heilungsrate und Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    },
+    "4": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht Körp. Blockchance aller Verbündeten um 150."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Verstärkt ANG eines geheilten Verbündeten für 10 Sek. um 10 %.",
+          "thumbnail": "heroes/Mediana/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Mediana/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Erhöht Heilungsrate und Schaden um 40 %.",
+          "thumbnail": "heroes/Mediana/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Massenkontroll-Immunität für die Dauer des Skills.",
+          "thumbnail": "heroes/Mediana/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Effekt-Gegneranzahl wird auf 2 Gegner geändert.",
+          "thumbnail": "heroes/Mediana/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Erhöht Krit. Chance um 400.",
+          "thumbnail": "heroes/Mediana/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht den eigenen verursachten Schaden an Feinden um 20 % und es wird geändert, dass er als Verbündete mit dem höchsten ANG festgelegt werden kann.",
+          "thumbnail": "heroes/Mediana/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Ziel nimmt 20 % extra Körp. Schaden.",
+          "thumbnail": "heroes/Mediana/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/CC-WDST. +100",
+        "thumbnail": "heroes/Mediana/perks/light.png"
+      },
+      "dark": {
+        "effect": "Verbündete erhalten 2 % ANG, wenn Schaden erlitten wird. Effekt kann sich 20 Mal kumulieren.",
+        "thumbnail": "heroes/Mediana/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Gnadenschlag, Phistonia",
+    "description": "Erhöht den Spezialgift-Schaden um {0} % und der Körp. Schaden des Ziels mit Spezialgift wird 3 Sek. lang um {1} % erhöht. Das Ziel erleidet zusätzlich Körp. Schaden in Höhe von {2} % von Medianas ANG, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche Körp. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
+    "value": {
+      "0": {
+        "0": "40",
+        "1": "48",
+        "2": "57",
+        "3": "69",
+        "4": "83",
+        "5": "100"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "2": {
+        "0": "30",
+        "1": "36",
+        "2": "43",
+        "3": "52",
+        "4": "62",
+        "5": "75"
+      }
+    },
+    "thumbnail": "heroes/Mediana/uw.png",
+    "story": "Die Geschichte begann, als Medianas Giftexperimente noch im Geheimen erfolgten. Eines Tages bemerkte ein befreundeter Arzt die riesige Spritze, die sie hergestellt hatte. Von dessen schierer Größe beeindruckt, fragte er sie:\n„Sieh dir die Größe dieses Dings an. Solltest du ihr nicht wenigstens einen Namen geben?“\nDarauf antwortete Mediana locker:\n„Oh ... Nenn sie einfach ... Piston.“",
+    "descriptionByStar": {
+      "0": "Erhöht den Spezialgift-Schaden um 40 % und der Körp. Schaden des Ziels mit Spezialgift wird 3 Sek. lang um 10 % erhöht. Das Ziel erleidet zusätzlich Körp. Schaden in Höhe von 30 % von Medianas ANG, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche Körp. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Merkwürdig gesunde Injektion",
+      "description": "[Heilsalbe] erhöht die Heilungsrate um 50 % und den Krit. Schaden des Ziels 10 Sek. lang um 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Mediana/ut/1.png",
+      "story": "Eine Sammlung von Medianas speziell gesunden Injektionen. Alle Flüssigkeiten bestehen aus unbekannten Substanzen und glitzern mystisch.\nMediana hat sie aus verschiedensten Hausmitteln von überall her hergestellt. Mediana besteht darauf, dass sie nur zu Heilzwecken verwendet werden, denn Missbrauch kann extreme Wirkungen zur Folge haben.",
+      "descriptionByStar": {
+        "0": "[Heilsalbe] erhöht die Heilungsrate um 50 % und den Krit. Schaden des Ziels 10 Sek. lang um 20 %.",
+        "1": "[Heilsalbe] erhöht die Heilungsrate um 50 % und den Krit. Schaden des Ziels 10 Sek. lang um 24 %.",
+        "2": "[Heilsalbe] erhöht die Heilungsrate um 50 % und den Krit. Schaden des Ziels 10 Sek. lang um 29 %.",
+        "3": "[Heilsalbe] erhöht die Heilungsrate um 50 % und den Krit. Schaden des Ziels 10 Sek. lang um 35 %.",
+        "4": "[Heilsalbe] erhöht die Heilungsrate um 50 % und den Krit. Schaden des Ziels 10 Sek. lang um 42 %.",
+        "5": "[Heilsalbe] erhöht die Heilungsrate um 50 % und den Krit. Schaden des Ziels 10 Sek. lang um 50 %."
+      }
+    },
+    "2": {
+      "name": "Spezialtrank der doppelten Reaktion",
+      "description": "[Spezial-Wasserkanone] erhöht den Widerstand um 30 % und verringert den Cooldown um 12 %.",
+      "value": {},
+      "thumbnail": "heroes/Mediana/ut/2.png",
+      "story": "Ein spezieller Trank, der zwei Arten von Wirkungen hat.\nMediana fragte sich, ob es einen Weg gäbe, sich gleichzeitig um Angriff und Heilung zu kümmern. Sie ging in die Bibliothek und las ein staubiges Buch namens „Schleime können auch Kanonen bauen“. \nMediana las es nur spaßeshalber, aber sie fand einen Weg, das Prinzip der Kanonen in ihren „Kolben“ einzubauen. Sie war so in der Lage, den Spezialtrank der doppelten Reaktion zu erfinden und damit sowohl Angriff als auch Heilung zu maximieren, wenn sie mit ihrer Spezial-Wasserkanone angreift. Mediana ist dem Autor des Buches, der ihr die Inspiration lieferte, immer noch dankbar.",
+      "descriptionByStar": {
+        "0": "[Spezial-Wasserkanone] erhöht den Widerstand um 30 % und verringert den Cooldown um 12 %.",
+        "1": "[Spezial-Wasserkanone] erhöht den Widerstand um 30 % und verringert den Cooldown um 14 %.",
+        "2": "[Spezial-Wasserkanone] erhöht den Widerstand um 30 % und verringert den Cooldown um 17 %.",
+        "3": "[Spezial-Wasserkanone] erhöht den Widerstand um 30 % und verringert den Cooldown um 21 %.",
+        "4": "[Spezial-Wasserkanone] erhöht den Widerstand um 30 % und verringert den Cooldown um 25 %.",
+        "5": "[Spezial-Wasserkanone] erhöht den Widerstand um 30 % und verringert den Cooldown um 30 %."
+      }
+    },
+    "3": {
+      "name": "Geheimnisvoller Trank",
+      "description": "[Stärkungsarznei] hebt negative Effekte auf und gewährt dem Ziel 2 Sek. lang Immunität gegen Massenkontrolle.",
+      "value": {},
+      "thumbnail": "heroes/Mediana/ut/3.png",
+      "story": "Ein besonderer Trank, der die Lehren eines Meisters enthält. Der geniale Chirurg und Anatomieexperte Doktor Aldini ist der Meister von Mediana. Doktor Aldini erkannte ihr Talent schon früh und lehrte sie außergewöhnliches medizinisches Wissen, das die Kirche von Lua sich nicht vorstellen könnte. Der unidentifizierbare Trank, der nach dem Spezialrezept ihres Meisters hergestellt wurde, erhöht den Effekt von „Stärkungsarznei“.",
+      "descriptionByStar": {
+        "0": "[Stärkungsarznei] hebt negative Effekte auf und gewährt dem Ziel 2 Sek. lang Immunität gegen Massenkontrolle.",
+        "1": "[Stärkungsarznei] hebt negative Effekte auf und gewährt dem Ziel 3 Sek. lang Immunität gegen Massenkontrolle.",
+        "2": "[Stärkungsarznei] hebt negative Effekte auf und gewährt dem Ziel 4 Sek. lang Immunität gegen Massenkontrolle.",
+        "3": "[Stärkungsarznei] hebt negative Effekte auf und gewährt dem Ziel 5 Sek. lang Immunität gegen Massenkontrolle.",
+        "4": "[Stärkungsarznei] hebt negative Effekte auf und gewährt dem Ziel 6 Sek. lang Immunität gegen Massenkontrolle.",
+        "5": "[Stärkungsarznei] hebt negative Effekte auf und gewährt dem Ziel 7 Sek. lang Immunität gegen Massenkontrolle."
+      }
+    },
+    "4": {
+      "name": "Alter medizinischer Bericht",
+      "description": "[Medianas Spezialgift] erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 4 % verringerten Körp. Schaden.",
+      "value": {},
+      "thumbnail": "heroes/Mediana/ut/4.png",
+      "story": "Ein seltsamer medizinischer Testbericht, den Doktor Aldini seiner Schülerin Mediana gab.\nEr hat sich während seiner Autopsien Notizen gemacht und die Aufzeichnungen an Mediana weitergegeben, in der Hoffnung, dass die traditionelle Medizin in ihr weiterleben würde.\nSie hat den Bericht unzählige Male gelesen und konnte dank ihm Medianas Spezialgift herstellen.",
+      "descriptionByStar": {
+        "0": "[Medianas Spezialgift] erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 4 % verringerten Körp. Schaden.",
+        "1": "[Medianas Spezialgift] erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 4,8 % verringerten Körp. Schaden.",
+        "2": "[Medianas Spezialgift] erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 5,8 % verringerten Körp. Schaden.",
+        "3": "[Medianas Spezialgift] erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 7 % verringerten Körp. Schaden.",
+        "4": "[Medianas Spezialgift] erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 8,4 % verringerten Körp. Schaden.",
+        "5": "[Medianas Spezialgift] erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 10 % verringerten Körp. Schaden."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 25 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Gnadenschlag, Phistonia und erhöht 10 Sek. lang den ANG des Verbündeten mit dem höchsten ANG um 20 % des Mediana-ANG. Regeneriert 10 Sek. lang insgesamt ??? TP von Mediana und des Ziels.",
+    "cooldown": "25",
+    "uses": "4",
+    "thumbnail": "heroes/Mediana/sw.png",
+    "advancement": {
+      "1": "Regeneriert aller 1 Sek. 400 TP von Mediana und des Ziels während der Wirkungsdauer.",
+      "2": "Erhöht ANG-Boost um 50 %."
+    },
+    "story": "Phistonia, Medianas einzigartige Riesenspritze, enthielt im Laufe der Zeit viele verschiedene Proben und Antikörper für Experimente. Da Phistonia einst das Blut von Dämonen, Drachen und sogar dämonischen Tieren enthielt, bildeten die Kraftreste dieser Flüssigkeiten einen Machtstrudel in Phistonia. Es kam zu dem Punkt, an dem sogar Mediana, die nur begrenzte Kenntnisse über die jenseitige Macht hatte, das Gefühl hatte, dass etwas mit ihrer Spritze nicht stimmte.\nDie Krankheit musste behandelt werden. Daher hat Mediana beschlossen, diese „Krankheit“ zu „behandeln“, bevor Phistonia zu etwas wird, das nicht für medizinische Zwecke geeignet ist.\nMediana war schnell und präzise und erfüllte ihren Titel als Genie.\nSie extrahierte Proben aus einem Draconic, XXX und XX, das sie so schwer zusammengetan hatte ...\nUnd als sie sie schließlich zu einem Antikörper kombinierte ... Es leuchtete hell.\n\nMediana drückte den Antikörper in Phistonia, und in diesem Moment ... explodierte der Strudel der Macht, und nach einem Prozess der Selbstverdünnung wurde eine Macht in der reinsten Form geboren.\nEs ist eine Seele erwacht, die Medianas Willen zum Experimentieren und Forschen erfüllt."
+  },
+  "splashart": "heroes/Mediana/sa.png",
+  "costumes": "heroes/Mediana/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

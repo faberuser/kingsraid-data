@@ -1,0 +1,52 @@
+{
+  "id": "Nubis",
+  "profile": {
+    "name": "纽琵司",
+    "title": "囚禁女王",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "野兽",
+    "damage_type": "Magical, Physical",
+    "recommended_heroes": "卡尔洛, 爱比丝, 罗兰",
+    "characteristics": "每当用[女王的儿女]召唤出蝎子时，会大幅增加boss自己的攻击力与防御力多多利用具有魔法伤害属性的英雄可以有更好的效果",
+    "thumbnail": "bosses/Nubis.png"
+  },
+  "skills": {
+    "1": {
+      "name": "沙漠毒针",
+      "cost": null,
+      "cooldown": "12",
+      "description": "对任意对象发射毒针造成魔法伤害，且会持续造成魔法伤害。同时召唤4只蝎子。"
+    },
+    "2": {
+      "name": "毒气吸收",
+      "cost": null,
+      "cooldown": "20",
+      "description": "吸收周围的毒气，受到物理伤害时将会反射伤害并石化对方5秒。毒气吸收完成后，将对周围发射冲击波造成魔法伤害并击倒对方3秒。"
+    },
+    "3": {
+      "name": "石化毒液",
+      "cost": null,
+      "cooldown": "20",
+      "description": "对距离最远的敌人和其周围敌人持续注射毒液，造成魔法伤害。毒液注射完成后，目标与周围敌人将被石化5秒。"
+    },
+    "4": {
+      "name": "女王之子",
+      "cost": null,
+      "cooldown": null,
+      "description": "依照存活的蝎子数量，大幅提升自身所有防御力与攻击力。此外自身不受攻击速度增加/降低的影响。"
+    },
+    "5": {
+      "name": "净化",
+      "cost": null,
+      "cooldown": null,
+      "description": "每30秒解除自身的负面效果，并提升攻击速度。"
+    }
+  },
+  "aliases": [
+    "Nubis",
+    "GR3",
+    "GR 3"
+  ]
+}

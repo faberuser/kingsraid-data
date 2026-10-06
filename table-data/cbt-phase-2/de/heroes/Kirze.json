@@ -1,0 +1,272 @@
+{
+  "id": "Kirze",
+  "profile": {
+    "name": "Kirze",
+    "title": "Kristallpurpure Katzenfrau Kirze",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "7100",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "16",
+    "height": "162",
+    "race": "Tierkreuzungen (Katze)",
+    "constellation": "Armil, der Ehrwürdige",
+    "birth": {
+      "month": 4,
+      "day": 29,
+      "monthName": "Monat des Lebens"
+    },
+    "like": "Stoffpuppen, kühle Flusskante, kleine Tiere, das Lachen eines unschuldigen Kindes.",
+    "dislike": "Dämonen, eklige Insekten, Personen, die Menschen schlecht behandeln.",
+    "story": "Besonderer Dank an unserem Gewinner des Globalen Konzept Design Wettbewerbs [87CEFA]Mochi00 (JPN)[-]\nVor einige Jahren wurden Dörfer des Orbis-Kontinents von Malduks Untertanen angegriffen. Dabei haben sie Kinder, die als Albinos mit starkem Willen geboren sind, entführt.\nDiese Kinder sind einem Experiment unterstellt worden, bei dem ihnen rote Kristalle injiziert worden sind. Dadurch sollten die Kinder in lebendige Minen, die genau diese rote Kristalle produzieren, verwandelt werden.\n\nDie Kinder waren jedoch mit den Kristallen nicht kompatibel, sodass viele von ihnen ihr Leben dabei verloren. Sie wurden während dieses Prozesses in Stein verwandelt und schließlich zerbrachen sie und wurden zum Pulver.\nDie übrigen Kinder mussten dies mitansehen und hatten keine andere Wahl als auf ihr eigenes Ende zu warten.\n\nEin Kind hat es jedoch lebendig geschafft.\nKirze schaffte es das Experiment zu überleben, wobei sie alle Kristalle in ihrer Umgebung absorbierte und sich ihr Körper mit den roten Kristallen verschmelzte. Dadurch erhielt sie die mächtige Kraft mit den Kristallen so umzugehen, wie sie wollte.\nDaraufhin hat Kirze Malduks Männer besiegt und die übrigen Kinder gerettet.\nSeitdem hat sie es sich zur Aufgabe gemacht alle Untertanen Malduks zu finden und zu töten und dafür zu sorgen, dass keiner jemals die gleichen Schmerzen erlebt wie sie ...",
+    "thumbnail": "heroes/Kirze/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Scharfe Urteilsklingen!",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Fügt Gegnern im kreisförmigen Bereich um den Wirker 7-mal je 46*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 26.2% of ATK Magieschaden zu. Fügt anschließend Gegnern im vorderen Bereich 384*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 263.1% of ATK Magieschaden zu und wirft sie für 1.5 Sek. nieder.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Kirze/skills/1.png"
+    },
+    "2": {
+      "name": "Zerstreuter Kristallnebel!",
+      "cost": "3",
+      "cooldown": "10",
+      "description": "Fügt allen Gegnern 255*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 145% of ATK Magieschaden zu und betäubt sie für 0.5 Sek. Aktiviert beim Wirken [Arkanes Kristallerwachen] für 10 Sek. und erhöht das Angriffstempo um 35%. Sendet währenddessen alle 1.3 Sek. eine Schockwelle aus, die Gegnern in der Nähe 44*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 27.8% of ATK Magieschaden zufügt.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Kirze/skills/2.png"
+    },
+    "3": {
+      "name": "Volles Erblühen!",
+      "cost": "4",
+      "cooldown": "16",
+      "description": "Beschwört einen arkanen Kristall, der Gegnern in einer Linie vor dem Wirker 518*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 221.3% of ATK Magieschaden zufügt und kurz darauf explodiert, um 828*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 354% of ATK zusätzlichen Magieschaden zu verursachen. Getroffene Gegner erhalten [Arkaner Kristallfluch] für 5 Sek., der das Angriffstempo um 10% reduziert. Kirzes Angriffe auf verfluchte Gegner fügen [Arkane Kristallenergie]-Stapel hinzu. Nach 5 Sek. explodiert der Fluch, verursacht 290*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 200% of ATK Magieschaden sowie Magieschaden in Höhe von 43% des ANG pro Energiestapel und setzt alle Energiestapel zurück.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Kirze/skills/3.png"
+    },
+    "4": {
+      "name": "Schluss mit den Verbrechen!",
+      "cost": null,
+      "cooldown": null,
+      "description": "Der eigene ANG erhöht sich um [64ff64]150[-] und die Krit. Chance um [64ff64]250[-]. Außerdem wird die Massenkontroll-Dauer für den Schaden, den alle Verbündete dem Bossmonster hinzufügen, um [64ff64]15[-] % erhöht.",
+      "thumbnail": "heroes/Kirze/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "4": {
+      "II": "Erhöht ANG-Boost um [64ff64]50[-] %.",
+      "III": "Erhöht ANG-Boost um [64ff64]75[-] %.",
+      "IV": "Erhöht ANG-Boost um [64ff64]125[-] %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Reduziert Cooldown um 3 % für jeden Treffer.",
+          "thumbnail": "heroes/Kirze/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Jede Verwendung erhöht den Schaden um 15%. Bis zu 10-mal stapelbar.",
+          "thumbnail": "heroes/Kirze/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Erhöht die Manakosten um 1000, aber verlängert die Dauer um 4 Sek.",
+          "thumbnail": "heroes/Kirze/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht das Angriffstempo zusätzlich um 35 %.",
+          "thumbnail": "heroes/Kirze/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "[Fluch der arkanen Kristalle] reduziert das Angriffstempo zusätzlich um 10%.",
+          "thumbnail": "heroes/Kirze/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Jeweils 2 Kristall-Energien werden gestapelt.",
+          "thumbnail": "heroes/Kirze/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Mit jedem Kampfbeginn wird 10 Sek. lang der Schaden für Feinde, die keine Helden sind, um 65 % erhöht.",
+          "thumbnail": "heroes/Kirze/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Dem Bossmonster zugefügter Schaden wird um 20 % erhöht.",
+          "thumbnail": "heroes/Kirze/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/ANG-GESCHW +100",
+        "thumbnail": "heroes/Kirze/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht den Krit. Schaden um 30 % und die VERT-Durchdringung um 150. Nachdem Kirze ihre Gegner 100-mal angegriffen hat, erhöht sich dieser Effekt um das 2-fache.",
+        "thumbnail": "heroes/Kirze/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Klinge der Verurteilung, Elicipira",
+    "description": "Durch die Verstärkung der Kristallkraft wird die [Volles Erblühen!] Skill-Wirkungsreichweite erheblich erhöht. Außerdem wird mit jedem Normal- & Skill-ANG mit 8 %iger Chance zus. Mag. Schaden für {0} % des ANG hinzugefügt. Der Bossmonster-Schaden erhöht sich um das 2-fache.",
+    "thumbnail": "heroes/Kirze/uw.png",
+    "story": "Eine riesige Schere aus roten Zaubersteinen, die Kirzes Körper ausmachen.\nEs ist entsprechend der antiken Schere, die ihre Mutter zuvor verwendet hat, gebaut worden.\nEs ist eine praktische Waffe, die wie ein langes Schwert benutzt werden kann.\nAußerdem kann man eine Klinge trennen und als Zweischwerter verwenden.\nIn dieser Schere steckt der Wunsch eines Mädchens, das sich wünscht, dass es keine Opfer wie sie mehr geben würde.\nEs kann auf ihren Verstand reagieren und noch mächtiger werden.",
+    "value": {
+      "0": {
+        "0": "250",
+        "1": "300",
+        "2": "360",
+        "3": "430",
+        "4": "500",
+        "5": "625"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Durch die Verstärkung der Kristallkraft wird die [Volles Erblühen!] Skill-Wirkungsreichweite erheblich erhöht. Außerdem wird mit jedem Normal- & Skill-ANG mit 8 %iger Chance zus. Mag. Schaden für 250 % des ANG hinzugefügt. Der Bossmonster-Schaden erhöht sich um das 2-fache.",
+      "1": "Durch die Verstärkung der Kristallkraft wird die [Volles Erblühen!] Skill-Wirkungsreichweite erheblich erhöht. Außerdem wird mit jedem Normal- & Skill-ANG mit 8 %iger Chance zus. Mag. Schaden für 300 % des ANG hinzugefügt. Der Bossmonster-Schaden erhöht sich um das 2-fache.",
+      "2": "Durch die Verstärkung der Kristallkraft wird die [Volles Erblühen!] Skill-Wirkungsreichweite erheblich erhöht. Außerdem wird mit jedem Normal- & Skill-ANG mit 8 %iger Chance zus. Mag. Schaden für 360 % des ANG hinzugefügt. Der Bossmonster-Schaden erhöht sich um das 2-fache.",
+      "3": "Durch die Verstärkung der Kristallkraft wird die [Volles Erblühen!] Skill-Wirkungsreichweite erheblich erhöht. Außerdem wird mit jedem Normal- & Skill-ANG mit 8 %iger Chance zus. Mag. Schaden für 430 % des ANG hinzugefügt. Der Bossmonster-Schaden erhöht sich um das 2-fache.",
+      "4": "Durch die Verstärkung der Kristallkraft wird die [Volles Erblühen!] Skill-Wirkungsreichweite erheblich erhöht. Außerdem wird mit jedem Normal- & Skill-ANG mit 8 %iger Chance zus. Mag. Schaden für 500 % des ANG hinzugefügt. Der Bossmonster-Schaden erhöht sich um das 2-fache.",
+      "5": "Durch die Verstärkung der Kristallkraft wird die [Volles Erblühen!] Skill-Wirkungsreichweite erheblich erhöht. Außerdem wird mit jedem Normal- & Skill-ANG mit 8 %iger Chance zus. Mag. Schaden für 625 % des ANG hinzugefügt. Der Bossmonster-Schaden erhöht sich um das 2-fache."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Rotkristall Lotus",
+      "description": "[Scharfe Urteilsklingen!] Erhöht den Schaden um {0} % und senkt die Manakosten um 1000.",
+      "thumbnail": "heroes/Kirze/ut/1.png",
+      "story": "Manchmal entstehen in Kirzes Körper Kristallstücke, die sich von selbst ablösen.\nSie kann diese Stücke nirgendwo liegen lassen, weshalb sie diese einsammelt.\nEs war jedoch schwierig für sie, mit so vielen Stücken umzugehen.\nEines Tages sah sie einen Glasschmuck in Mays Gemischtwarenladen in Orvel.\n\nSie fand es schön und dachte sich, dass ihre Kristallstücke genauso gut verwendet werden könnten. Daraufhin gab sie May all ihre rote magische Kristallstücke.\n\nAls Wiedergutmachung fertigte May ein Schmuck mit Rotkristallen, das sog. Rotkristall Lotus, an und gab es Kirze.",
+      "value": {
+        "0": {
+          "0": "25",
+          "1": "30",
+          "2": "35",
+          "3": "40",
+          "4": "45",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Scharfe Urteilsklingen!] Erhöht den Schaden um 25 % und senkt die Manakosten um 1000.",
+        "1": "[Scharfe Urteilsklingen!] Erhöht den Schaden um 30 % und senkt die Manakosten um 1000.",
+        "2": "[Scharfe Urteilsklingen!] Erhöht den Schaden um 35 % und senkt die Manakosten um 1000.",
+        "3": "[Scharfe Urteilsklingen!] Erhöht den Schaden um 40 % und senkt die Manakosten um 1000.",
+        "4": "[Scharfe Urteilsklingen!] Erhöht den Schaden um 45 % und senkt die Manakosten um 1000.",
+        "5": "[Scharfe Urteilsklingen!] Erhöht den Schaden um 50 % und senkt die Manakosten um 1000."
+      }
+    },
+    "2": {
+      "name": "Hobby Spuren",
+      "description": "[Zerstreuter Kristallnebel!] Skill-ANG-GESCHW erhöht sich zus. um 10 und die VERT-Durchdringung aller Verbündeten erhöht sich um {0} während der Wirkungsdauer.",
+      "thumbnail": "heroes/Kirze/ut/2.png",
+      "story": "Seit ihrer Kindheit hat Kirze Puppen sehr gerne gemocht.\nIhre Familie konnte sich diese jedoch nicht leisten, weshalb sie normalerweise mit Stoffpuppen spielte, die von ihrer Mutter gemacht wurden.\nDa sie mit ihrer Mutter zusammen lebte, konnte sie den Herstellungsprozess von Puppen schnell erlernen.\n\nHeutzutage mag sie zwar immer noch Puppen, jedoch näht sie diese nicht für sie, sondern für andere Kinder.\nBesonders für kleine Kinder, die unter dem Verlust ihrer Eltern durch Dämonenangriffe leiden ...",
+      "value": {
+        "0": {
+          "0": "50",
+          "1": "60",
+          "2": "70",
+          "3": "80",
+          "4": "90",
+          "5": "100"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Zerstreuter Kristallnebel!] Skill-ANG-GESCHW erhöht sich zus. um 10 und die VERT-Durchdringung aller Verbündeten erhöht sich um 50 während der Wirkungsdauer.",
+        "1": "[Zerstreuter Kristallnebel!] Skill-ANG-GESCHW erhöht sich zus. um 10 und die VERT-Durchdringung aller Verbündeten erhöht sich um 60 während der Wirkungsdauer.",
+        "2": "[Zerstreuter Kristallnebel!] Skill-ANG-GESCHW erhöht sich zus. um 10 und die VERT-Durchdringung aller Verbündeten erhöht sich um 70 während der Wirkungsdauer.",
+        "3": "[Zerstreuter Kristallnebel!] Skill-ANG-GESCHW erhöht sich zus. um 10 und die VERT-Durchdringung aller Verbündeten erhöht sich um 80 während der Wirkungsdauer.",
+        "4": "[Zerstreuter Kristallnebel!] Skill-ANG-GESCHW erhöht sich zus. um 10 und die VERT-Durchdringung aller Verbündeten erhöht sich um 90 während der Wirkungsdauer.",
+        "5": "[Zerstreuter Kristallnebel!] Skill-ANG-GESCHW erhöht sich zus. um 10 und die VERT-Durchdringung aller Verbündeten erhöht sich um 100 während der Wirkungsdauer."
+      }
+    },
+    "3": {
+      "name": "Flucht Erinnerungsstück",
+      "description": "[Volles Erblühen!] erhöht den Schaden um {0}% und gewährt beim Stapeln von [Energie der arkanen Kristalle] 1 zusätzlichen Stapel.",
+      "thumbnail": "heroes/Kirze/ut/3.png",
+      "story": "Die erste Waffe, die Kirze damals, als sie von Dämonen entführt wurde und durch Experimente ihren Körper in rote magische Steine verwandelte, dringend zur Flucht herstellte.\nZwei Dolche aus schlechter Qualität, die nicht vollendet sind.\n\nAllein diese Dolche reichten aus, um damals die Kinder im Labor zu retten.\nDie Waffe ist für sie ein wichtiges Erinnerungsstück und kann seitdem nicht weggeschmießen werden.",
+      "value": {
+        "0": {
+          "0": "25",
+          "1": "30",
+          "2": "35",
+          "3": "40",
+          "4": "45",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Volles Erblühen!] erhöht den Schaden um 25% und gewährt beim Stapeln von [Energie der arkanen Kristalle] 1 zusätzlichen Stapel.",
+        "1": "[Volles Erblühen!] erhöht den Schaden um 30% und gewährt beim Stapeln von [Energie der arkanen Kristalle] 1 zusätzlichen Stapel.",
+        "2": "[Volles Erblühen!] erhöht den Schaden um 35% und gewährt beim Stapeln von [Energie der arkanen Kristalle] 1 zusätzlichen Stapel.",
+        "3": "[Volles Erblühen!] erhöht den Schaden um 40% und gewährt beim Stapeln von [Energie der arkanen Kristalle] 1 zusätzlichen Stapel.",
+        "4": "[Volles Erblühen!] erhöht den Schaden um 45% und gewährt beim Stapeln von [Energie der arkanen Kristalle] 1 zusätzlichen Stapel.",
+        "5": "[Volles Erblühen!] erhöht den Schaden um 50% und gewährt beim Stapeln von [Energie der arkanen Kristalle] 1 zusätzlichen Stapel."
+      }
+    },
+    "4": {
+      "name": "Zeit der Ruhe",
+      "description": "[Schluss mit den Verbrechen!] Skill-Krit. Chance erhöht sich um zus. 32 und die Massenkontroll-Dauer wird nun um {0} % erhöht.",
+      "thumbnail": "heroes/Kirze/ut/4.png",
+      "story": "Nähzeug, das für Kirzes Hobby verwendet wird.\nEs ist ein Muss für Kirze, weil ihr Hobby Puppenmachen ist.\nKürzlich ergatterte sie eine besondere Garn- und Baumwollsorte, mit der sie nun noch bessere Puppen machen kann.\n\nDie Schere ist übrigens eine kleine Ausgabe ihrer eigentlichen Waffe.",
+      "value": {
+        "0": {
+          "0": "22.5",
+          "1": "24",
+          "2": "25.5",
+          "3": "27",
+          "4": "28.5",
+          "5": "30"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Schluss mit den Verbrechen!] Skill-Krit. Chance erhöht sich um zus. 32 und die Massenkontroll-Dauer wird nun um 22.5 % erhöht.",
+        "1": "[Schluss mit den Verbrechen!] Skill-Krit. Chance erhöht sich um zus. 32 und die Massenkontroll-Dauer wird nun um 24 % erhöht.",
+        "2": "[Schluss mit den Verbrechen!] Skill-Krit. Chance erhöht sich um zus. 32 und die Massenkontroll-Dauer wird nun um 25.5 % erhöht.",
+        "3": "[Schluss mit den Verbrechen!] Skill-Krit. Chance erhöht sich um zus. 32 und die Massenkontroll-Dauer wird nun um 27 % erhöht.",
+        "4": "[Schluss mit den Verbrechen!] Skill-Krit. Chance erhöht sich um zus. 32 und die Massenkontroll-Dauer wird nun um 28.5 % erhöht.",
+        "5": "[Schluss mit den Verbrechen!] Skill-Krit. Chance erhöht sich um zus. 32 und die Massenkontroll-Dauer wird nun um 30 % erhöht."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn du [64ff64]60[-]-mal Schaden erleidest, wird dies aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Klinge der Verurteilung, Elicipira und [64ffff]10[-] Sek. lang wird die zus. Mag. Schaden-Aktivierungschance von Klinge der Verurteilung, Elicipira auf [64ff64]20[-] % geändert, wobei der erhaltene Gesamtschaden um [64ff64]50[-] % verringert wird.",
+    "cooldown": "25",
+    "uses": "7",
+    "thumbnail": "heroes/Kirze/sw.png",
+    "advancement": {
+      "1": "Während der Wirkungsdauer wird der ANG um 45 % erhöht.",
+      "2": "Ändert die Auslösechance von Elicipiras zusätzlichem Magieschaden auf 30%."
+    },
+    "story": "Der Ort, an dem der rote Zauberstein aufgetaucht ist, ist die Grenze zwischen Dämonenwelt und materieller Welt.\nDieser Stein, von dem niemand weiß, warum er hergestellt wurde, besteht aus der Kraft der materiellen Welt und der Dämonenwelt.\nEs gibt einen Gerücht, dass es einen großen roten Zauberstein gibt und dieser soll der erste Zauberstein überhaupt sein.\nViele Dunkelmagier haben versucht, diese enorme Kraft des ersten Zaubersteins zu erlangen, aber niemand hatte Erfolg ...\n\nKirze, die die Seelenkraft erweckte, hat die Kraft des roten Zaubersteins, die Wurzel seiner Kraft, befreit und in die Waffe gesteckt.\nDie Kraft, die Elicipira im ersten Zauberstein einsetzt, ist stärker als jede andere Kraft, die sie einsetzt.\nAber mit dieser mächtigen Kraft kam große Angst zu ihr.\n\nSie hatte das Gefühl, dass sie jedes Mal, wenn sie die Kraft einsetzt, ihre Menschlichkeit verliert,\nals würde sich ihr Geist in roten Kristallen verwandeln ..."
+  },
+  "splashart": "heroes/Kirze/sa.png",
+  "costumes": "heroes/Kirze/cos",
+  "_localization": {
+    "locale": "de",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

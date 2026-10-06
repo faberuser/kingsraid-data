@@ -1,0 +1,228 @@
+{
+  "id": "Loman",
+  "profile": {
+    "name": "Loman",
+    "title": "Loman, Gardien de Foi",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "9300",
+    "damage_type": "Physical",
+    "gender": "Homme",
+    "age": "24",
+    "height": "187",
+    "race": "Humain",
+    "constellation": "Mertis la Protectrice",
+    "birth": {
+      "month": 1,
+      "day": 12,
+      "monthName": "Mois de la Protection"
+    },
+    "like": "Clause, Demia, les gelées, l'artisanat sculpture",
+    "dislike": "La menthe, le ginseng",
+    "story": "Si l'on devait nommer le plus fidèle des Chevaliers gardiens, c'est le nom de Loman qui viendrait aussitôt à l'esprit. La famille royale a tellement confiance en lui qu'elle l'a nommé gardien de la monarchie Orvel. C'est un homme doux et amical, mais il est sans pitié lorsque quelqu'un tente d'approcher le roi sans permission royale. Aucun de ceux ayant vu sa hallebarde, offerte par Scarlet, trancher l'air n'a survécu pour le raconter. Cependant, quand il n'est pas en mission, c'est un homme sensible qui se détend en pratiquant la gravure sur bois.",
+    "thumbnail": "heroes/Loman/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Sol déchiré",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Inflige ??? points de DEG P aux ennemis à portée situés en face et les renverse pendant 4 sec, ce qui diminue la Resist P faible des cibles touchées de 25% pendant 10 sec.",
+      "thumbnail": "heroes/Loman/skills/1.png"
+    },
+    "2": {
+      "name": "Credo voilé",
+      "cost": "3",
+      "cooldown": "23",
+      "description": "Supprime les effets négatifs affectant les alliés. Lance un bouclier sur tous les alliés. Il absorbe ??? DEG pendant 5 seconde(s) et réduit tous les DEG aux alliés de 20% pendant 10 seconde(s). Le bouclier accorde une immunité au contrôle pendant la durée de l'effet.",
+      "thumbnail": "heroes/Loman/skills/2.png"
+    },
+    "3": {
+      "name": "Credo du chevalier",
+      "cost": "3",
+      "cooldown": "24",
+      "description": "Frappe les ennemis en face et à portée 3 fois. Les 2 premiers coups infligent ??? DEG P et étourdissent les ennemis pendant 1.5 seconde(s) Le dernier frappe les ennemis sur une portée plus large 2 fois, infligeant ??? DEG P au total. Ce dernier coup étourdit les ennemis pendant 5 secondes et inflige [Marque du credo] aux ennemis, ce qui les blesse pendant 15 seconde(s). Les cibles touchées par [Marque du credo] subissent ??? DEG P supplémentaires de la part des alliés, à l'exclusion du lanceur. L'effet de DEG supplémentaire n'est activé qu'une fois toutes les 0.5 seconde(s).",
+      "thumbnail": "heroes/Loman/skills/3.png"
+    },
+    "4": {
+      "name": "Le dernier gardien",
+      "cost": null,
+      "cooldown": null,
+      "description": "Accumule [Endurance] toutes les secondes. [Endurance] ne peut être dissipée et, quand elle est cumulée 20 fois, elle inflige ??? DEG P, ignorant la DEF des ennemis proches et réduisant l'ATQ des ennemis affectés de 20% pendant 10 seconde(s). Un blocage réussi cumule [Endurance] 1 fois supplémentaire. Cet effet ne s'active qu'une fois toutes les 0.2 seconde(s).",
+      "thumbnail": "heroes/Loman/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Bloque tous les DEG."
+    },
+    "2": {
+      "II": "Augmente les PV Bouclier de  10 %.",
+      "III": "Augmente les PV Bouclier de 15%.",
+      "IV": "Augmente les PV Bouclier de 25%."
+    },
+    "3": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "4": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Le Temps de recharge est réduit de 3 sec.",
+          "thumbnail": "heroes/Loman/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Augmente la Résist P faible de la cible de 25% pendant 10 secondes.",
+          "thumbnail": "heroes/Loman/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit le temps de recharge de 5 secondes.",
+          "thumbnail": "heroes/Loman/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Le bouclier dure 5 secondes supplémentaires.",
+          "thumbnail": "heroes/Loman/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Lorsque 1 seul ennemi est présent, les DEG sont augmentés de 100%.",
+          "thumbnail": "heroes/Loman/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Confère l'immunité contre les Contrôles pendant l'utilisation de la compétence.",
+          "thumbnail": "heroes/Loman/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Augmente de 1 le nombre d'Endurance accumulé chaque seconde.",
+          "thumbnail": "heroes/Loman/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Réduit de 200 points la Vitesse d'ATQ de l'ennemi touché pendant 10 sec.",
+          "thumbnail": "heroes/Loman/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Blocage M +200",
+        "thumbnail": "heroes/Loman/perks/light.png"
+      },
+      "dark": {
+        "effect": "Si vous bloquez des DEG M, le Blocage M de tous les alliés augmente de 200 points, et leur DEF M augmente de 10% de celle de Loman pendant 5 sec. Cet effet ne peut être activé qu'une fois toutes les 5 sec.",
+        "thumbnail": "heroes/Loman/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Gaiamenes, la Vague de Protection",
+    "description": "Chaque compétence cumule Fierté d'Orvelia, indissipable. À 3 cumuls, Bénédiction d'Orvelia inflige aux ennemis dans une vaste zone des DEG P égaux à 200% de l'ATQ, augmente leurs DEG P subis de 25% pendant 20 sec et augmente sa propre DEF M de 10% pendant 10 sec.",
+    "value": {},
+    "thumbnail": "heroes/Loman/uw.png",
+    "story": "Cette hallebarde était portée par une statue antique défendant les portes du labyrinthe royal récemment découvert. Vieille et usée, la statue la tenait fermement, comme si elle voulait protéger le labyrinthe de toute intrusion. Loman, qui était chargé des fouilles du labyrinthe, sentit à quel point la statue était sublime et lui rendit les honneurs. Alors, la statue lâcha la hallebarde avant de tomber en poussière. L'arme elle-même semblait intacte et possédait une mystérieuse énergie.\n« La statue lâcha la hallebarde avant de tomber en poussière... »\ndit Scarlet, lisant le rapport.\n« Oui, madame. »\nScarlet leva les yeux vers Loman.\n« Protéger un lieu avec une indéfectible loyauté jusqu'à ce que son corps finisse par lâcher... Je connais un homme comme cela. »\n« Je vous demande pardon, madame ? »\nIl regarda Scarlet avec étonnement. Souriante, elle lui tendait la hallebarde.",
+    "descriptionByStar": {
+      "0": "Chaque compétence cumule Fierté d'Orvelia, indissipable. À 3 cumuls, Bénédiction d'Orvelia inflige aux ennemis dans une vaste zone des DEG P égaux à 200% de l'ATQ, augmente leurs DEG P subis de 25% pendant 20 sec et augmente sa propre DEF M de 10% pendant 10 sec.",
+      "1": "Chaque compétence cumule Fierté d'Orvelia, indissipable. À 3 cumuls, Bénédiction d'Orvelia inflige aux ennemis dans une vaste zone des DEG P égaux à 240% de l'ATQ, augmente leur faiblesse physique de 30% pendant 20 sec et augmente sa DEF M de 12% pendant 10 sec.",
+      "2": "Chaque compétence cumule Fierté d'Orvelia, indissipable. À 3 cumuls, Bénédiction d'Orvelia inflige aux ennemis dans une vaste zone des DEG P égaux à 290% de l'ATQ, augmente leur faiblesse physique de 36% pendant 20 sec et augmente sa DEF M de 14% pendant 10 sec.",
+      "3": "Chaque compétence cumule Fierté d'Orvelia, indissipable. À 3 cumuls, Bénédiction d'Orvelia inflige aux ennemis dans une vaste zone des DEG P égaux à 350% de l'ATQ, augmente leur faiblesse physique de 43% pendant 20 sec et augmente sa DEF M de 17% pendant 10 sec.",
+      "4": "Chaque compétence cumule Fierté d'Orvelia, indissipable. À 3 cumuls, Bénédiction d'Orvelia inflige aux ennemis dans une vaste zone des DEG P égaux à 420% de l'ATQ, augmente leur faiblesse physique de 51% pendant 20 sec et augmente sa DEF M de 21% pendant 10 sec.",
+      "5": "Chaque compétence cumule Fierté d'Orvelia, indissipable. À 3 cumuls, Bénédiction d'Orvelia inflige aux ennemis dans une vaste zone des DEG P égaux à 500% de l'ATQ, augmente leur faiblesse physique de 60% pendant 20 sec et augmente sa DEF M de 25% pendant 10 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Techniques de combat de base des chevaliers d'Orvelia",
+      "description": "[Sol déchiré] Réduit le Blocage P de la cible de 500 points et la résistance aux contrôles de 100 pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Loman/ut/1.png",
+      "story": "Ce traité couvre les bases maîtrisées par tous les chevaliers d'Orvel. Parmi les nombreuses compétences citées figure Sol déchiré, le point de départ de toutes leurs techniques de combat. C'est l'une des premières compétences qu'ils apprennent, mais sa complexité permet de distinguer aisément les néophytes des experts. Loman a lu cette œuvre plus d'un millier de fois depuis qu'il est chevalier, et il s'y reporte à chaque fois qu'il souhaite parfaire sa technique.",
+      "descriptionByStar": {
+        "0": "[Sol déchiré] Réduit le Blocage P de la cible de 500 points et la résistance aux contrôles de 100 pendant 10 sec.",
+        "1": "[Sol déchiré] Réduit le Blocage P de la cible de 500 points et la résistance aux contrôles de 120 pendant 10 sec.",
+        "2": "[Sol déchiré] Réduit le Blocage P de la cible de 500 points et la résistance aux contrôles de 140 pendant 10 sec.",
+        "3": "[Sol déchiré] Réduit le Blocage P de la cible de 500 points et la résistance aux contrôles de 170 pendant 10 sec.",
+        "4": "[Sol déchiré] Réduit le Blocage P de la cible de 500 points et la résistance aux contrôles de 210 pendant 10 sec.",
+        "5": "[Sol déchiré] Réduit le Blocage P de la cible de 500 points et la résistance aux contrôles de 250 pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Poupée en bois miniature",
+      "description": "[Credo voilé] Réduit le coût en PM de 1 et restaure le PM de la cible de 400.",
+      "value": {},
+      "thumbnail": "heroes/Loman/ut/2.png",
+      "story": "Lorsqu'il était contrarié et cherchait à mettre de l'ordre dans son esprit, Loman sculptait des figurines grandes comme sa main. Lorsqu'il taillait ses morceaux de bois, il se sentait en paix et revivait le temps où il n'était qu'un bleu. Ce qui n'était qu'un passe-temps devint une passion, et il remplit ses quartiers avec des centaines de sculptures. Un beau jour, Loman se mit à sculpter des poupées en bois pour les offrir à ses amis et à ses hommes. À l'époque, les poupées ensorcelées, censées protéger contre le mal, étaient à la mode à Orvelia. Loman demanda à un vieux chaman adepte des remèdes ancestraux d'enchanter ses poupées avec un sort de protection et les offrit à ses proches.",
+      "descriptionByStar": {
+        "0": "[Credo voilé] Réduit le coût en PM de 1 et restaure le PM de la cible de 400.",
+        "1": "[Credo voilé] Réduit le coût en PM de 1 et restaure le PM de la cible de 480.",
+        "2": "[Credo voilé] Réduit le coût en PM de 1 et restaure le PM de la cible de 580.",
+        "3": "[Credo voilé] Réduit le coût en PM de 1 et restaure le PM de la cible de 700.",
+        "4": "[Credo voilé] Réduit le coût en PM de 1 et restaure le PM de la cible de 840.",
+        "5": "[Credo voilé] Réduit le coût en PM de 1 et restaure le PM de la cible de 1 000."
+      }
+    },
+    "3": {
+      "name": "Océan d'invocation",
+      "description": "[Credo du chevalier] Réduit le temps de recharge de 30% et augmente la Résist P faible de la cible de 10% pendant 10 secondes.",
+      "value": {},
+      "thumbnail": "heroes/Loman/ut/3.png",
+      "story": "Ce pendentif spécial fut décerné par le premier roi d'Orvelia à la famille de Loman pour récompenser sa loyauté et la protection qu'elle offrit à la monarchie d'Orvel. Sa véritable origine reste un mystère, mais certains pensent que cet accessoire renferme l'esprit du gardien du continent d'Orbis, appartenant à une civilisation depuis longtemps disparue. Tous les propriétaires de ce pendentif ont raconté la même histoire : lorsqu'ils se sont résolus à risquer leur vie pour ce qui leur importante, ils invoquent une force supérieure telle que les vagues de l'océan. Certains pensent à présent que la gemme bleue de ce pendentif peut invoquer les esprits, et c'est pour cette raison qu'on l'appelle l'Océan d'invocation. Loman en a hérité de son père lorsqu'il est entré au château et le garde toujours avec lui.",
+      "descriptionByStar": {
+        "0": "[Credo du chevalier] Réduit le temps de recharge de 30% et augmente la Résist P faible de la cible de 10% pendant 10 secondes.",
+        "1": "[Credo du chevalier] Réduit le temps de recharge de 30% et augmente la Résist P faible de la cible de 12% pendant 10 secondes.",
+        "2": "[Credo du chevalier] Réduit le temps de recharge de 30% et augmente la Résist P faible de la cible de 14% pendant 10 secondes.",
+        "3": "[Credo du chevalier] Réduit le temps de recharge de 30% et augmente la Résist P faible de la cible de 17% pendant 10 secondes.",
+        "4": "[Credo du chevalier] Réduit le temps de recharge de 30% et augmente la Résist P faible de la cible de 21% pendant 10 secondes.",
+        "5": "[Credo du chevalier] Réduit le temps de recharge de 30% et augmente la Résist P faible de la cible de 25% pendant 10 secondes."
+      }
+    },
+    "4": {
+      "name": "Bouclier paternel",
+      "description": "[Le dernier gardien] Augmente le Blocage M de 200 points et le nombre de charges d'Endurance infligées par blocage réussi de 1.",
+      "value": {},
+      "thumbnail": "heroes/Loman/ut/4.png",
+      "story": "Un bouclier autrefois utilisé par Loman, qu'il chérit comme un trésor. Il lui vient de son père qui travaillait comme gardien de la famille royale.\nBien qu'il ne l'utilise plus depuis qu'il a sa hallebarde, il garde au fond de son cœur les paroles de son père : « Sois la porte qui protège Orvelia. »\nLoman vivant, jamais il ne laissera le moindre ennemi franchir la porte d'Orvelia.",
+      "descriptionByStar": {
+        "0": "[Le dernier gardien] Augmente le Blocage M de 200 points et le nombre de charges d'Endurance infligées par blocage réussi de 1.",
+        "1": "[Le dernier gardien] Augmente le Blocage M de 240 points et le nombre de charges d'Endurance infligées par blocage réussi de 1.",
+        "2": "[Le dernier gardien] Augmente le Blocage M de 290 points et le nombre de charges d'Endurance infligées par blocage réussi de 1.",
+        "3": "[Le dernier gardien] Augmente le Blocage M de 350 points et le nombre de charges d'Endurance infligées par blocage réussi de 1.",
+        "4": "[Le dernier gardien] Augmente le Blocage M de 420 points et le nombre de charges d'Endurance infligées par blocage réussi de 1.",
+        "5": "[Le dernier gardien] Augmente le Blocage M de 500 points et le nombre de charges d'Endurance infligées par blocage réussi de 1."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 22 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de Gaiamenes, la Vague de Protection, ce qui inflige ??? DEG P aux ennemis situés en face et les étourdit pendant 3 sec. Ensuite, pendant 10 sec, augmente le taux d'ATQ de tous les alliés de 30% + à la hauteur de 5% du taux d'ATQ de Loman. Augmente également la DEF M de 30%. Restaure ??? PM de tous les alliés toutes les 3 sec.",
+    "cooldown": "22",
+    "uses": "7",
+    "thumbnail": "heroes/Loman/sw.png",
+    "advancement": {
+      "1": "Toutes les 3sec, restaure les PV de tous les alliés à la hauteur de 12% de leurs PV max, et dissipe les effets négatifs.",
+      "2": "Réduit la condition d'utilisation de 6 sec et lors d'une attaque portée, augmente les DEG P reçus par la cible touchée de 35% pendant 10 sec."
+    },
+    "story": "Une fois, alors que Loman montait la garde devant la crypte royale, un monstre puissant avait tenté de surgir de la crypte. Seul, Loman empêcha le monstre de passer, et la cour royale envoya sur le champ du renfort. Lorsque les soldats arrivèrent sur place, ils aperçurent Loman qui affrontait le monstre dans une bataille pénible. Afin de lui venir en aide, les soldats se ruèrent sur le monstre. Comme si la créature s'y avait attendu, elle réagit avec violence et les brutalisa. Voyant ses compagnons se faire taillader devant ses yeux, Loman voulut désespérément les protéger. Cette volonté, mêlée à la nature aussi pure que de l'eau de Loman, ainsi qu'à la confiance inébranlable que ses collègues lui portaient, amena Gaiamenes à libérer ses pouvoirs, afin de lui venir en aide."
+  },
+  "splashart": "heroes/Loman/sa.png",
+  "costumes": "heroes/Loman/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

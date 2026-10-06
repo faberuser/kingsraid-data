@@ -1,0 +1,228 @@
+{
+  "id": "Shea",
+  "profile": {
+    "name": "Shea",
+    "title": "Shea, Mélodie fantastique",
+    "class": "Priest",
+    "position": "Back-100",
+    "attack_range": "6600",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "16",
+    "height": "165",
+    "race": "Humain",
+    "constellation": "Mira la Ménestrelle",
+    "birth": {
+      "month": 6,
+      "day": 22,
+      "monthName": "Mois de l'Amour"
+    },
+    "like": "La somptueuse mélodie, la douce brise",
+    "dislike": "Les fantômes, les goules à citrouille",
+    "story": "« En entendant la douce mélodie qui se répand sur le champ de bataille, je me demande si je suis vraiment au beau milieu d'un combat. » « L'épée tomba de ma main, et de celle de tous les autres soldats. » « J'avais l'impression que la jeune femme se trouvait sur un tout autre niveau de l'existence, bien loin du nôtre. »\nL'histoire incroyable de la jeune femme aux cheveux roses, dont l'apparition soudaine interrompit le combat, était sur toutes les lèvres. Sa mélodie douce, captivante, et sa présence aussi discrète que charmante conquirent l'imaginaire de chacun. Toutefois, personne ne sut vraiment d'où elle venait et où elle allait.\n« Elle me parut étrange. Elle parlait dans le vide, comme s'il y avait quelqu'un... »\nBien entendu, certains émirent des hypothèses lourdes de signification, mais sa beauté mystérieuse coupa court à toute spéculation.",
+    "thumbnail": "heroes/Shea/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Mélodie de la nature verte",
+      "cost": "2",
+      "cooldown": "28",
+      "description": "Restaure un total de ??? PV à tous les alliés en 8 reprises et réduit les DEG reçus par tous les alliés de 35% pendant 8 sec. En utilisant la compétence à l'état de [Transe], augmente les soins de cette compétence de 100% et modifie la réduction des DEG à 70%.",
+      "thumbnail": "heroes/Shea/skills/1.png"
+    },
+    "2": {
+      "name": "Chant du vent bleu",
+      "cost": "3",
+      "cooldown": "28",
+      "description": "Restaure un total de 640 PM à tous les alliés en 8 reprises et restaure ??? PV de la cible dont les PM sont déjà au max, et réduit la durée des Contrôles de 50% pendant 8 sec. En utilisant la compétence à l'état de [Transe], augmente la récupération des PM et les soins de cette compétence de 50%, et confère à tous les alliés une immunité aux Contrôles pendant 8 sec.",
+      "thumbnail": "heroes/Shea/skills/2.png"
+    },
+    "3": {
+      "name": "Danse de la passion rouge",
+      "cost": "3",
+      "cooldown": "28",
+      "description": "Inflige un total de ??? DEG M à tous les ennemis à 8 reprises et augmente l'ATQ de tous les alliés de ??? pendant 8 sec. En utilisant la compétence à l'état de [Transe], augmente les DEG et l'augmentation d'ATQ de cette compétence de 100% et dissipe en continu l'effet positif de tous les ennemis.",
+      "thumbnail": "heroes/Shea/skills/3.png"
+    },
+    "4": {
+      "name": "Transe",
+      "cost": null,
+      "cooldown": null,
+      "description": "À la fin de la compétence, cumule 1 charge de [Concert fantastique]. Si Shea utilise une compétence lorsque 3 charges de [Concert fantastique] sont cumulées, consomme les charges de [Concert fantastique] pour restaurer ??? PV à tous les alliés, et passe à l'état de [Transe] pendant 12 sec. [Concert fantastique] et [Transe] ne peuvent être dissipés.",
+      "thumbnail": "heroes/Shea/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les soins de 10%.",
+      "III": "Augmente les soins de 15%.",
+      "IV": "Augmente les soins de 25%."
+    },
+    "2": {
+      "II": "Augmente la Récupération PM de 10%.",
+      "III": "Augmente la Récupération PM de 15%.",
+      "IV": "Augmente la Récupération PM de 25%."
+    },
+    "3": {
+      "II": "Augmentation de l'ATQ boostée de 10%.",
+      "III": "Augmentation de l'ATQ boostée de 15%.",
+      "IV": "Augmentation de l'ATQ boostée de 25%."
+    },
+    "4": {
+      "II": "Augmente les soins de 10%.",
+      "III": "Augmente les soins de 15%.",
+      "IV": "Augmente les soins de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Restaure 15% des PV de tous les alliés.",
+          "thumbnail": "heroes/Shea/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG infligés par tous les alliés à l'ennemi non-Héros de 20% pendant 8 sec.",
+          "thumbnail": "heroes/Shea/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "À l'incantation, restaure 500 PM de tous les alliés.",
+          "thumbnail": "heroes/Shea/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Augmente la Vitesse d'ATQ des alliés de 250 pendant 8 secondes.",
+          "thumbnail": "heroes/Shea/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente le boost d'ATQ de 40%.",
+          "thumbnail": "heroes/Shea/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Les ennemis subissent 15% de dégâts supplémentaires pendant 8 secondes.",
+          "thumbnail": "heroes/Shea/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Augmente les soins de Transe de 100%.",
+          "thumbnail": "heroes/Shea/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "À l'état de [Transe], inflige à tous les ennemis des DEG M à hauteur des soins qui auraient dû être donnés aux alliés, sans toutefois les soigner. De plus, réduit la DEF de 20% pendant 10 sec.",
+          "thumbnail": "heroes/Shea/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Résist. Contrôles +100",
+        "thumbnail": "heroes/Shea/perks/light.png"
+      },
+      "dark": {
+        "effect": "Au début de chaque bataille, obtient 1 charge de [Concert fantastique] et récupère 500 PM.",
+        "thumbnail": "heroes/Shea/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Schwanheite, la Mélodie charmante",
+    "description": "Augmente la résistance aux Contrôles de 300. En obtenant [Concert fantastique], réduit le temps de recharge de toutes ses compétences de 10% et récupère 400 PM.",
+    "value": {},
+    "thumbnail": "heroes/Shea/uw.png",
+    "story": "Certaines pièces d'équipement aussi puissantes qu'impressionnantes peuvent dialoguer avec leur porteur, voire parfois le contrôler. Schwanheit figure parmi ces armes redoutables. Cette harpe, qui insiste pour se faire appeler « M. Schute », peut considérablement amplifier le mana de son porteur et en asperger tout autour de lui. Une fois le mana ainsi éparpillé, il ne peut plus servir à de la magie offensive. En revanche, s'il est utilisé intelligemment, cela peut s'avérer tout à fait redoutable. M. Schute est plutôt bavard, mais seulement envers ceux qu'il considère comme ses amis. En ce moment, il ne s'adresse qu'à Shea.",
+    "descriptionByStar": {
+      "0": "Augmente la résistance aux Contrôles de 300. En obtenant [Concert fantastique], réduit le temps de recharge de toutes ses compétences de 10% et récupère 400 PM.",
+      "1": "Augmente la résistance aux Contrôles de 360. En obtenant [Concert fantastique], réduit le temps de recharge de toutes ses compétences de 12% et récupère 480 PM.",
+      "2": "Augmente la résistance aux Contrôles de 430. En obtenant [Concert fantastique], réduit le temps de recharge de toutes ses compétences de 14% et récupère 580 PM.",
+      "3": "Augmente la résistance aux Contrôles de 520. En obtenant [Concert fantastique], réduit le temps de recharge de toutes ses compétences de 17% et récupère 700 PM.",
+      "4": "Augmente la résistance aux Contrôles de 630. En obtenant [Concert fantastique], réduit le temps de recharge de toutes ses compétences de 21% et récupère 840 PM.",
+      "5": "Augmente la résistance aux Contrôles de 750. En obtenant [Concert fantastique], réduit le temps de recharge de toutes ses compétences de 25% et récupère 1000 PM."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Fleur de la vie",
+      "description": "[Mélodie de la nature verte] Accélère les soins de 50 % et augmente la résistance aux contrôles de la cible de 100 points pendant 8 sec.",
+      "value": {},
+      "thumbnail": "heroes/Shea/ut/1.png",
+      "story": "Cette fleur mystique renferme l'énergie de la vie.\nContrairement à la flore du Pandémonium qui se nourrit de débris maléfiques, la fleur de la vie subsiste grâce aux nutriments les plus purs, tels que la rosée du matin et l'énergie étoilée de la Voie lactée. Au cours de sa croissance, cette fleur accumule une énergie pure, qui aide Shea à exécuter la Mélodie de la nature verte de Shea.",
+      "descriptionByStar": {
+        "0": "[Mélodie de la nature verte] Accélère les soins de 50 % et augmente la résistance aux contrôles de la cible de 100 points pendant 8 sec.",
+        "1": "[Mélodie de la nature verte] Accélère les soins de 50 % et augmente la résistance aux contrôles de la cible de 120 points pendant 8 sec.",
+        "2": "[Mélodie de la nature verte] Accélère les soins de 50 % et augmente la résistance aux contrôles de la cible de 140 points pendant 8 sec.",
+        "3": "[Mélodie de la nature verte] Accélère les soins de 50 % et augmente la résistance aux contrôles de la cible de 170 points pendant 8 sec.",
+        "4": "[Mélodie de la nature verte] Accélère les soins de 50 % et augmente la résistance aux contrôles de la cible de 210 points pendant 8 sec.",
+        "5": "[Mélodie de la nature verte] Accélère les soins de 50 % et augmente la résistance aux contrôles de la cible de 250 points pendant 8 sec."
+      }
+    },
+    "2": {
+      "name": "Fleur venteuse",
+      "description": "[Chant du vent bleu] Augmente la Précision de 250 pendant 8 sec et récupère 160 PM chaque fois qu'un allié utilise une compétence.",
+      "value": {},
+      "thumbnail": "heroes/Shea/ut/2.png",
+      "story": "Fleur retrouvée sur la tête de Shea le lendemain de son interprétation de Bonheur du vent.\nD’après Schwanheit, cette fleur est aussi un cadeau des fées de la forêt en remerciement de sa douce musique. \nElle renferme le souhait de Shea de voir le vent répandre la joie à travers le monde.",
+      "descriptionByStar": {
+        "0": "[Chant du vent bleu] Augmente la Précision de 250 pendant 8 sec et récupère 160 PM chaque fois qu'un allié utilise une compétence.",
+        "1": "[Chant du vent bleu] Augmente la Précision de 250 pendant 8 sec et récupère 190 PM chaque fois qu'un allié utilise une compétence.",
+        "2": "[Chant du vent bleu] Augmente la Précision de 250 pendant 8 sec et récupère 230 PM chaque fois qu'un allié utilise une compétence.",
+        "3": "[Chant du vent bleu] Augmente la Précision de 250 pendant 8 sec et récupère 270 PM chaque fois qu'un allié utilise une compétence.",
+        "4": "[Chant du vent bleu] Augmente la Précision de 250 pendant 8 sec et récupère 330 PM chaque fois qu'un allié utilise une compétence.",
+        "5": "[Chant du vent bleu] Augmente la Précision de 250 pendant 8 sec et récupère 400 PM chaque fois qu'un allié utilise une compétence."
+      }
+    },
+    "3": {
+      "name": "Couronne de fée",
+      "description": "[Danse de la Passion Rouge] Applique Silence pendant 2 sec sur les ennemis et les DEG Crit de tous les alliés sont augmentés de 20% pendant la durée de la compétence.",
+      "value": {},
+      "thumbnail": "heroes/Shea/ut/3.png",
+      "story": "Chapelet retrouvé sur la tête de Shea le lendemain de son interprétation de Berceuse pour les rêves dans la forêt. D’après Schwanheit, il s’agit d’un cadeau des fées de la forêt en remerciement de sa douce musique. Il paraît que des objets passés entre les mains des fées comme celui-ci ont le pouvoir de rendre à une âme sa forme la plus pure.",
+      "descriptionByStar": {
+        "0": "[Danse de la Passion Rouge] Applique Silence pendant 2 sec sur les ennemis et les DEG Crit de tous les alliés sont augmentés de 20% pendant la durée de la compétence.",
+        "1": "[Danse de la Passion Rouge] Applique Silence pendant 2 sec sur les ennemis et les DEG Crit de tous les alliés sont augmentés de 24% pendant la durée de la compétence.",
+        "2": "[Danse de la Passion Rouge] Applique Silence pendant 2 sec sur les ennemis et les DEG Crit de tous les alliés sont augmentés de 29% pendant la durée de la compétence.",
+        "3": "[Danse de la Passion Rouge] Applique Silence pendant 2 sec sur les ennemis et les DEG Crit de tous les alliés sont augmentés de 35% pendant la durée de la compétence.",
+        "4": "[Danse de la Passion Rouge] Applique Silence pendant 2 sec sur les ennemis et les DEG Crit de tous les alliés sont augmentés de 42% pendant la durée de la compétence.",
+        "5": "[Danse de la Passion Rouge] Applique Silence pendant 2 sec sur les ennemis et les DEG Crit de tous les alliés sont augmentés de 50% pendant la durée de la compétence."
+      }
+    },
+    "4": {
+      "name": "Rêve de Mira",
+      "description": "[Transe] Augmente son ATQ de 20% et sa Vitesse d'ATQ de 200 pendant la durée de [Transe].",
+      "value": {},
+      "thumbnail": "heroes/Shea/ut/4.png",
+      "story": "Lorsque Shea entonna le chant de la vie avec les esprits pour bénir les créatures terrestres, Mira, déesse de l'amour, lui offrit ce bijou en retour au cours d'un rêve.\nÀ son réveil, Shea le tenait dans sa main.\nLe bijou brille telle la déesse de l'amour elle-même, et sa seule vue suscite l'émerveillement.\nShea décida de l'appeler le Rêve de Mira.",
+      "descriptionByStar": {
+        "0": "[Transe] Augmente son ATQ de 20% et sa Vitesse d'ATQ de 200 pendant la durée de [Transe].",
+        "1": "[Transe] Augmente son ATQ de 20% et sa Vitesse d'ATQ de 240 pendant la durée de [Transe].",
+        "2": "[Transe] Augmente son ATQ de 20% et sa Vitesse d'ATQ de 290 pendant la durée de [Transe].",
+        "3": "[Transe] Augmente son ATQ de 20% et sa Vitesse d'ATQ de 350 pendant la durée de [Transe].",
+        "4": "[Transe] Augmente son ATQ de 20% et sa Vitesse d'ATQ de 420 pendant la durée de [Transe].",
+        "5": "[Transe] Augmente son ATQ de 20% et sa Vitesse d'ATQ de 500 pendant la durée de [Transe]."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 7 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Schwanheite, la Mélodie charmante, pendant 20 sec, ce qui augmente l'ATQ de tous les alliés de 25% et leur DEF de 25%. Récupère toutes les sec 100 de ses PM.",
+    "cooldown": "30",
+    "uses": "6",
+    "thumbnail": "heroes/Shea/sw.png",
+    "advancement": {
+      "1": "Ajoute l'effet d'augmentation des DEG Crit de 50% pendant la durée d'invocation.",
+      "2": "Modifie l'augmentation du taux d'ATQ à 50%, celle de la DEF à 50% et celle des DEG Crit à 100%."
+    },
+    "story": "Schwanheite, la harpe bavarde, aussi appelé M. Schute, racontait souvent à Shea du temps où il était encore un humain. Il parlait avec nostalgie du barde vagabond à l'âme libre, qui chuchotait sans cesse des mots doux et entonnait des chants d'amour aux oreilles de ses belles fiancées.\n'Ah, c'était le bon temps. Que cette sorcière m'ait jeté cette malédiction est une perte irréparable pour le monde entier. Mes fiancées chéries... Aaaah...' Ses bavardages débutant par ces paroles se poursuivaient sans fin, tels les gazouillements d'un oiseau matinal, et donnaient à Shea une idée fantasque sur la forme que revêtait l'amour de M. Schute.\nShea et M. Schute étaient tous les deux des personnes débordant d'amour, et aimant toute chose. Cependant, leur apparence différait.\nQuelle sensation offrait un amour intense et brûlant ? Quels sentiments ressentait-on face aux flammes de l'amour et de la passion ? La curiosité de la jeune fille candide insuffla un souffle peu banal à l'âme bavarde de la harpe.\n'Veux-tu que je t'apprenne ?' Avec une lueur éblouissante, M. Schute lui apparut sous la forme humaine, arborant un sourire, et Shea lui répondit en ces termes.\n\n'Oui ! Mais si vous devenez un humain, M. Schute, comment puis-je jouer des mélodies avec vous, désormais ?'"
+  },
+  "splashart": "heroes/Shea/sa.png",
+  "costumes": "heroes/Shea/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

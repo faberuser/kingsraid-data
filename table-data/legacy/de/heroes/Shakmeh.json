@@ -1,0 +1,264 @@
+{
+  "id": "Shakmeh",
+  "profile": {
+    "name": "Shakmeh",
+    "title": "Schatten der Sonne Shakmeh",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "8000",
+    "damage_type": "Physical",
+    "gender": "Männlich",
+    "age": "21",
+    "height": "193",
+    "race": "Tidhar",
+    "constellation": "Asiphia, die Herrscherin",
+    "birth": {
+      "month": 10,
+      "day": 30,
+      "monthName": "Monat der Freundschaft"
+    },
+    "like": "Macht erlangen, Starkes",
+    "dislike": "Aegina-Wüste, Schwaches",
+    "story": "Der zweite Prinz des alten Sekireinel-Königreichs, der die Wüste verließ und die jenseitige Dunkelheit für sich wählte. Er, der mit harter Hand herrschte, wurde einst vom neuen Erben der Wüste geschlagen, doch er überlebte und wurde als Fragment der Dunkelheit wiedergeboren, welches als Gefäß von Tidhar erhalten blieb. Es ist nicht sicher, ob er der vollständige Shakmeh selbst ist oder nur einer der Tidhar, der jenseitigen Dunkelheit. Nur seine verdrehte Besessenheit mit seinem älteren Bruder Cain dient als klarer Beweis für seine Identität. Shakmeh, der sein ganzen Leben lang die dunklen Emotionen im Inneren verborgen hatte, versucht an noch eine viel größere Macht zu gelangen, um sein wiedergeborenes Selbst zu stärken, seinen Bruder Cain zu übertreffen und die Aegina-Wüste auszulöschen. Er selbst ist sich der Bedeutung des von ihm gewählten Weges vollkommen bewusst und schreitet dennoch ohne zu zögern in die Dunkelheit hinein, ganz gleich was ihn am Ende erwartet.",
+    "thumbnail": "heroes/Shakmeh/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Wind des Hasses",
+      "cost": "2",
+      "cooldown": "13",
+      "description": "Fügt den Gegnern an der Frontlinie  5-mal ??? Körp. Schaden zu und pro Treffer werden 100 eigene MP regeneriert.",
+      "thumbnail": "heroes/Shakmeh/skills/1.png"
+    },
+    "2": {
+      "name": "Tor des Grolls",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Erzeugt an der eigenen Front 7 Sek. lang [Tor des Grolls ]. Fügt Frontfeinden insgesamt ??? Körp. Schaden zu und stapelt pro Treffer 15 Sek. lang einen kontinuierlichen [Groll]. [Groll] kann bis zu 5-mal gestapelt werden, wobei pro Stapel jeweils 4 % der Heilungsrate des Ziels verringert wird. Ist das Ziel kein Held, erhöht sich die Heilungsrate-Verringerung um das 2-fache.",
+      "thumbnail": "heroes/Shakmeh/skills/2.png"
+    },
+    "3": {
+      "name": "Aufkommende Verzweiflung",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Entfernt eigene negative Effekte und verwendet alle [Dunkelseele] Stapel, wobei 15 Sek. lang der ANG aller Verbündete um 10 % + 0.5 % pro [Dunkelseele] Stapel erhöht wird. Außerdem wird allen Gegnern ??? zus. Körp. Schaden zugefügt und sie werden 3 Sek. lang betäubt, wobei der erhaltene Körp. Schaden des Ziels 15 Sek. lang um 20 % + 1 % pro [Dunkelseele] Stapel erhöht wird. Der zugefügte Schaden dieses Skills erhöht sich pro [Dunkelseele] Stapel um jeweils 10 %. Ist das Ziel kein Held, wird der Schaden-Boost pro Stapel um das 2-fache erhöht.",
+      "thumbnail": "heroes/Shakmeh/skills/3.png"
+    },
+    "4": {
+      "name": "Gefäß der Dunkelseele",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht die max. TP um 20 % und immer, wenn dem Gegner mit dem Skill Schaden zugefügt wird, wird zus. Körp. Schaden in Höhe von 1 % der eigenen max. TP zugefügt. Dabei werden die TP von allen Verbündeten um 0.1 % der max. TP von Shakmeh geheilt und die Mag. VERT wird 15 Sek. lang um jeweils ??? erhöht. Außerdem wird dem Wirker 30 Sek. lang kontinuierlich [Dunkelseele] gestapelt. [Dunkelseele] kann bis zu 30-mal gestapelt und kann nicht entfernt werden. Der Effekt zur Erhöhung der Mag. VERT kann bis zu 30-mal gestapelt werden.",
+      "thumbnail": "heroes/Shakmeh/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht die max. TP um zus. 5  %.",
+      "III": "Erhöht die max. TP um zus. 5  %.",
+      "IV": "Erhöht die max. TP um zus. 5  %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht 10 Sek. lang den erhaltenen Körp. Schaden des getroffenen Ziels um 25 %.",
+          "thumbnail": "heroes/Shakmeh/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Entfernt positive Effekte des Ziels.",
+          "thumbnail": "heroes/Shakmeh/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert Cooldown um 6 Sek.",
+          "thumbnail": "heroes/Shakmeh/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "[Tor des Grolls] betäubt pro Treffer 1 Sek. lang das Ziel während der Wirkungsdauer.",
+          "thumbnail": "heroes/Shakmeh/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht den Schaden um 40 %.",
+          "thumbnail": "heroes/Shakmeh/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Entfernt negative Effekte aller Verbündeten.",
+          "thumbnail": "heroes/Shakmeh/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Ändert die zus. Schadensrate proportional zu max. TP auf 1.5 %.",
+          "thumbnail": "heroes/Shakmeh/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Ändert die Heilungsrate proportional zu max. TP auf 1 %, wenn nur ein Gegner übrig bleibt.",
+          "thumbnail": "heroes/Shakmeh/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/TP +10 %",
+        "thumbnail": "heroes/Shakmeh/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht den ANG von 1 Verbündete(n) mit dem höchsten ANG um 0.1 % der eigenen max. TP. Überträgt 20 % des gesamten erhaltenen Schadens des Ziels an sich selbst. Dieser Effekt kann nicht entfernt werden und der Schaden des Wirkers wird um 50 % verringert, wenn er den Schaden der Verbündete übertragen bekommt. In der Arena wird der Effektwert der ANG-Erhöhung halbiert.",
+        "thumbnail": "heroes/Shakmeh/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Packende Dunkelheit, Leifende",
+    "description": "Heilt jedes Mal, wenn dem Wirker mit einem Normal-ANG Schaden zugefügt wird, die TP des Wirkers in Höhe von 0.5 % der max. TP und stapelt beim Wirker eine nicht entfernbare [Bestie]. [Bestie] kann bis zu 10-mal gestapelt werden. Beim Erreichen der max. Stapelanzahl wird der erhaltene Körp. Schaden aller Gegner 15 Sek. lang um {0} % erhöht und alle Stapeln verwendet werden, wobei er 15 Sek. lang zu einer nicht entfernbaren [Dunkelbestie] wird. Dabei wird die ANG-GESCHW. um {1} und die Heilungsrate um {2} % erhöht. Im [Dunkelbestie] Zustand wird [Bestie] nicht gestapelt und der Effekt zur Erhöhung der ANG-GESCHW. und der Heilungsrate wird auf alle Verbündeten angewendet, was der Hälfte des von Shakmeh erhaltenen Effekts entspricht.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "120",
+        "1": "140",
+        "2": "170",
+        "3": "210",
+        "4": "250",
+        "5": "300"
+      },
+      "2": {
+        "0": "12",
+        "1": "14",
+        "2": "17",
+        "3": "21",
+        "4": "25",
+        "5": "30"
+      }
+    },
+    "thumbnail": "heroes/Shakmeh/uw.png",
+    "story": "Krummsäbel, die einem ehrenhaften Krieger vermacht wurden, der im alten Sekireinel die Grenzen der Wüste bewacht hat. Als Shakmeh mit der Aufgabe betraut wurde, die Grenze zu bewachen, gab Cain selbst den Befehl eine Waffe für Shakmeh herstellen zu lassen. Die Verzierung der Schwerter erinnert an einen Schakal, einer der Schutzgötter, den die tapferen Wüstenkrieger verehren. Er lies die Schwerter in der Hoffnung anfertigen, dass sein Bruder an der weit entfernt gelegenen Grenze nicht sein entschlossenes Herz verlieren würde. Doch nachdem Shakmeh von der Dunkelheit verdorben war, sickerte eine fürchterliche Energie in die Schwertklingen hinein. In der Vergangenheit, als Cain und Shakmeh in Sekireinel gegeneinander kämpften, führte Shakmeh ebenfalls diese Schwerter, um die Trauer seines Bruders noch zu verstärken.\nAls er als der Schatten der Aegina-Wüste einmal mehr gegen seinen Bruder kämpfte, wurden, zusammen mit der Niederlage Shakmehs, auch die Schwertklingen teilweise zerstört. Als er durch Tidhar wiedergeboren wurde, kehrten die zerstörten Schwerert, durch die in die Klingen eingesickerte Dunkelheit, mit fürchterlicher Energie in ihrer ursprünglichen Form zurück.",
+    "descriptionByStar": {
+      "0": "Heilt jedes Mal, wenn dem Wirker mit einem Normal-ANG Schaden zugefügt wird, die TP des Wirkers in Höhe von 0.5 % der max. TP und stapelt beim Wirker eine nicht entfernbare [Bestie]. [Bestie] kann bis zu 10-mal gestapelt werden. Beim Erreichen der max. Stapelanzahl wird der erhaltene Körp. Schaden aller Gegner 15 Sek. lang um 20 % erhöht und alle Stapeln verwendet werden, wobei er 15 Sek. lang zu einer nicht entfernbaren [Dunkelbestie] wird. Dabei wird die ANG-GESCHW. um 120 und die Heilungsrate um 12 % erhöht. Im [Dunkelbestie] Zustand wird [Bestie] nicht gestapelt und der Effekt zur Erhöhung der ANG-GESCHW. und der Heilungsrate wird auf alle Verbündeten angewendet, was der Hälfte des von Shakmeh erhaltenen Effekts entspricht."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Geschenk des Boten",
+      "description": "[Wind des Hasses] verringert die Manakosten um 1 und verringert 10 Sek. lang alle Blockchancen des Ziels um {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
+      "thumbnail": "heroes/Shakmeh/ut/1.png",
+      "story": "Ein Anhänger mit einem mysteriösen Muster. Xerah hatte diesen einst Shakmeh geschenkt, der in einem weit entfernten Land studierte. Damals wollte Shakmeh seinen Bruder Cain in seinem Heimatland unterstützen, indem er sich Wissen aneignete, von dem man in Sekireinel nichts wusste. Jedes neue Wissen, welches er zu seinem eigenen machte, genügte, um seinen verstörten Geist in einem fremden Land zu beruhigen, und das auf Neugierde beruhende Erkunden, wurde zu einem von Shakhmes Hobbys. Das Geschenk eines solchen Anhängers an Shakmeh war nichts mehr als eine Gelegenheit, den besten Weg zu finden, die Dunkelheit zu empfangen und die Weisheit zu nutzen. Shakmeh, der den Anhänger von Xerah bekam, drückte seinen Dank mit der ruhigen Art eines Prinzen der Wüste aus, doch seine Augen leuchteten voller Neugier auf wie die eines Kindes, welches ein neues Spielzeug geschenkt bekam.",
+      "descriptionByStar": {
+        "0": "[Wind des Hasses] verringert die Manakosten um 1 und verringert 10 Sek. lang alle Blockchancen des Ziels um 200."
+      }
+    },
+    "2": {
+      "name": "Dunkelheitsfragment",
+      "description": "[Tor des Grolls] ändert die max. Stapelanzahl von [Groll] auf {0} und mit jedem Stapel wird der erhaltene Körp. Schaden des Ziels um 3 % erhöht.",
+      "value": {
+        "0": {
+          "0": "6",
+          "1": "7",
+          "2": "8",
+          "3": "9",
+          "4": "10",
+          "5": "12"
+        }
+      },
+      "thumbnail": "heroes/Shakmeh/ut/2.png",
+      "story": "Ein Fragment, mit einem seltsamen eingraviertem Muster. Es ist das Medium, welches Xerah Shakmeh gab, damit er, nachdem er von der Dunkelheit verdorben war, mit der Dunkelheit von Tidhar in Kontakt treten konnte. Das eingravierte Muster wurde durch Tidhars Magie gezeichnet, aber damit es für Shakmeh nicht fremd erschien, brachte Xerah es durch einen einzigen Verarbeitungsprozess in seine jetzige Form. Die Dunkelheit von Tidhar, die ursprünglich in dem Fragment enthalten war, wurde bereits vollständig auf Shakmeh übertragen, welcher jetzt nur noch eine leere Hülle ist. Die im Stein eingravierte Magie hat jedoch die Kraft, die Macht der Dunkelheit weiter zu verfeinern und zu verhindern, dass sie herausfließt, weshalb Shakmeh sie jetzt nun dafür nutzt, um die Macht der Dunkelheit zu sammeln.",
+      "descriptionByStar": {
+        "0": "[Tor des Grolls] ändert die max. Stapelanzahl von [Groll] auf 6 und mit jedem Stapel wird der erhaltene Körp. Schaden des Ziels um 3 % erhöht."
+      }
+    },
+    "3": {
+      "name": "Aufzeichnungen der Königsfamilie",
+      "description": "[Aufkommende Verzweiflung] erhöht den Schaden um {0} % und ignoriert die VERT des Ziels.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Shakmeh/ut/3.png",
+      "story": "Ein Gemälde, welches einige Mitglieder der Königsfamilie von Sekireinel zeigt.\nDer Junge, der einst fortgehen musste, um in einem fernen und fremden Land zu studieren, betrachtete jeden Tag das Bild seiner Familienangehörigen. Obwohl er selbst weit entfernt lebte, lächelte immer sein Ebenbild in dem Gemälde an der Seite seiner Familie. Wenn er eines Tages als erwachsener Mann in sein Heimatland zurückkehrt, glaubt er fest daran, dass er wie in dem Bild mit seiner Familie zusammen lächeln würde, sowohl in schweren Zeiten, wenn er vor Trauer umgehend in sein Heimatland zurückkehren wollte, als auch wenn es einen frohen Anlass gäbe ... Doch bis der Junge das Erwachsenenalter erreicht hatte, bewahrheitete sich keiner dieser Gedanken in dem Maße, wie er es sich vorgestellt hatte. Vielmehr noch, geriet er in eine noch größere Tragödie, weshalb er seine Familie nicht länger in dem Gemälde betrachtete. Sogar die Emotionen, die eins in einer hinteren Ecke seiner Erinnerungen schliefen, verdunkelten sich und verwandelten sich in eine Dunkelheit aus der Vergangenheit, welche entfernt werden muss.",
+      "descriptionByStar": {
+        "0": "[Aufkommende Verzweiflung] erhöht den Schaden um 20 % und ignoriert die VERT des Ziels."
+      }
+    },
+    "4": {
+      "name": "Gebrochenes Siegel",
+      "description": "[Gefäß der Dunkelseele] erhöht Massenkontroll-Widerstand um {0} und der Effekt zu Erhöhung der Mag. VERT wird in Erhöhung aller VERT geändert.",
+      "value": {
+        "0": {
+          "0": "300",
+          "1": "360",
+          "2": "430",
+          "3": "520",
+          "4": "630",
+          "5": "750"
+        }
+      },
+      "thumbnail": "heroes/Shakmeh/ut/4.png",
+      "story": "Ein dekoratives Schwert in schicker goldener Farbe. Man erzählt sich, dass es die vom Himmel fallenden Sterne reinigt, um die Dunkelheit hinfort zu jagen und wohltuende Energie spende. Shakmeh, der von seinem fernen Studium zurück nach Sekireinel kam, machte es Cain zum Geschenk und es war auch der Katalysator, der Shakmeh versiegelte, als er in der Vergangenheit zum ersten Mal im Sekireinel-Königreich umherwütete. Dieses Schwert war das allererste, was Shakmeh innerhalb Cains Siegel sah, als er seine Augen öffnete, und es erfüllte ihn mit Zorn und Enttäuschung gegenüber seinem Bruder, der seine Absichten nicht verstand und ihn verletzte. Bevor er ging, nahm Shakmeh, der sich von Cain betrogen fühlte, ein Stück des zerbrochenen Schwertes auf sich, welches das Siegel gebrochen hatte, da er beschlossen hatte, nicht alles zurückzulassen, was er wertschätzte.",
+      "descriptionByStar": {
+        "0": "[Gefäß der Dunkelseele] erhöht Massenkontroll-Widerstand um 300 und der Effekt zu Erhöhung der Mag. VERT wird in Erhöhung aller VERT geändert."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 20 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört 10 Sek. lang die Seele von Packende Dunkelheit, Leifende. Fügt alle 3 Sek. Frontfeinden Körp. Schaden in Höhe von 5 % der eigenen max. TP zu und erhöht mit jedem Treffer 5 Sek. lang den erhaltenen Körp. Schaden des Ziels um 30 %. Während der Seelenwirkungsdauer wird der Schaden, den der Wirker und der Verbündete mit dem höchsten ANG außer dem Wirker dem Gegner zufügt, um 10 % erhöht.",
+    "cooldown": "16",
+    "uses": "6",
+    "thumbnail": "heroes/Shakmeh/sw.png",
+    "advancement": {
+      "1": "Regeneriert während der Seelenwirkungsdauer jede Sek. 400 MP.",
+      "2": "Aktivierungsbedingungen werden auf 15 Sek. geändert und dem Gegner zugefügte Schaden-Boost wird auf 20 % geändert."
+    },
+    "story": "Als Shakmeh die Macht der Dunkelheit berührte, nahm die Dunkelheit auf seinen Schwerter zu. Als sich die Dunkelheit, die ursprünglich in diesem Land existierte, und die Dunkelheit, die durch das Jenseits verdreht wurde, miteinander vermischte und zunahm, war Shakmeh in der Lage mit der Macht der Schwerter, welche rechtmäßig Seelengeleiter genannt wurden, noch größere Macht anzusammeln. Shakmeh erhielt zwar die übermäßige Kraft, die er gewollt hatte, doch war damit nicht zufrieden. Er wollte die aufkeimenden Gefühle in seinem Inneren auslöschen. Der Respekt gegenüber Cain, die einstige Liebe für die Wüste, das Vertrauen in seine Freunde ... all jene verließen Shakmeh und er wurde von allen, die er liebte, betrogen, weshalb er sich von all den quälenden Erinnerungen der Vergangenheit befreien wollte. Um weiterzukommen. Die Liebe und das Vertrauen für die Freunde waren nicht weiter als Fesseln, die ihn schwach machten. Danach, ganz gleich was er tat, was er auch in der Zukunft vorhatte, erlangte Shakmeh unendliche Macht, einzig mit dem Ziel der Vergangenheit zu entfliehen und als wenn er es selbst verursachen würde, wurden die Schwerter dunkler. Ehe er sich versah, sammelten die Schwerter soviel Dunkelheit an, dass sie einen eigenen Willen zu haben schienen. Sie nahmen Gestalt an und wurden zu Shakmehs treue Diener. Die Dunkelheit der Schwerter ähnelte dem ägyptischen Gott Seth, der seinen Bruder in der Vergangenheit in Sekireinel verraten hatte, und spiegelt die Entschlossenheit Shakmehs wider, die Vergangenheit abzuschütteln und selbst voranzuschreiten."
+  },
+  "splashart": "heroes/Shakmeh/sa.png",
+  "costumes": "heroes/Shakmeh/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

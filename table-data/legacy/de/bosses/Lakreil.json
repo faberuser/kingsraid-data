@@ -1,0 +1,66 @@
+{
+  "id": "Lakreil",
+  "profile": {
+    "name": "Lakreil",
+    "title": "Dorn des Zorns",
+    "type": [
+      "Guild Conquest",
+      "Guild Raid"
+    ],
+    "race": "Eidechse",
+    "damage_type": "Physical",
+    "recommended_heroes": "Naila, Juno, Rodina",
+    "characteristics": "Das Beschwören von [Tödlicher Boomerang] nach [Körperhieb] hinterlässt dauerhafte Narben an Feinden. Sobald Lakreil aufhört, Tödlicher Boomerang zu wirken, wenn [Zorn von Lakreil] abgelaufen ist, solltest du seine Angriffe abwehren oder Lakreil massiven Körp. Schaden zufügen.",
+    "thumbnail": "bosses/Lakreil.png",
+    "recommendedHeroNames": [
+      "Naila",
+      "Juno",
+      "Rodina"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Tödlicher Boomerang",
+      "cost": null,
+      "cooldown": null,
+      "description": "Wirft einen Boomerang auf alle frontal stehenden Feinde, fügt ihnen 4-mal Körp. Schaden zu und reduziert ihre Heilungsrate dauerhaft um 1 %. Der Angriff hält an, bis [Zorn von Lakreil] abläuft."
+    },
+    "2": {
+      "name": "Körperhieb",
+      "cost": null,
+      "cooldown": "30",
+      "description": "Rammt frontal stehende Feinde, fügt ihnen Körp. Schaden zu und wirft sie zu Boden. Erhält anschließend [Zorn von Lakreil] und wirkt [Tödlicher Boomerang]."
+    },
+    "3": {
+      "name": "Wütender Schlag",
+      "cost": null,
+      "cooldown": "25",
+      "description": "Fährt hoch in die Luft und stürzt auf den Boden herab, wodurch Feinde alle positiven Effekte verlieren. Fügt Körp. Schaden zu und verringert ihre Ausweichchance insgesamt für 10 Sek. um 300. Diesem Angriff kann nicht ausgewichen werden."
+    },
+    "4": {
+      "name": "Zorn",
+      "cost": null,
+      "cooldown": "18",
+      "description": "Erhöht den ANG des Beschwörers um 50 % und seine PRÄZ um 300 (hält 20 Sek. lang an)."
+    },
+    "5": {
+      "name": "Zorn von Lakreil",
+      "cost": null,
+      "cooldown": null,
+      "description": "Zorn von Lakreil wird um 5 verringert, wenn der Feind erfolgreich einen Angriff des Beschwörers abwehrt, und um 1 verringert, wenn der Beschwörer Körp. Schaden erleidet.\nSobald Zorn von Lakreil abläuft, wird der Beschwörer kraftlos und erleidet für eine gewisse Zeit erhöhten Schaden."
+    },
+    "6": {
+      "name": "Dorn des Zorns",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lakreils ANG-GESCHW. und seine VERT werden nicht reduziert, jegliche Schadenverringerungs-Effekte von Feinden werden ignoriert.\nZusätzlich können Feinde eine Sek. lang kein Mana regenerieren, wenn sie einen Skill benutzt haben."
+    }
+  },
+  "aliases": [
+    "Lakreil",
+    "GC2",
+    "GC 2",
+    "GR8",
+    "GR 8"
+  ]
+}

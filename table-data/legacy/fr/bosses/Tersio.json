@@ -1,0 +1,73 @@
+{
+  "id": "Tersio",
+  "profile": {
+    "name": "Tersio",
+    "title": "Dragon pris de Folie",
+    "type": [
+      "Divine Punishment Raid"
+    ],
+    "race": "Dragon",
+    "damage_type": "Magical",
+    "recommended_heroes": "Yanne, Laias, Isaiah",
+    "characteristics": "À l'état de [Dragon de la Mort], Tersio augmente son Crit et ses DEG infligés à l'ennemi. Il est donc nécessaire de dissiper cet état. La compétence [Croisée de la Mort] inflige de puissants DEG M en continu et augmente les DEG M reçus de la cible. Il faut dissiper régulièrement ces effets qui sont cumulables et qui deviennent inamovibles lorsque le nombre de charges atteint le maximum. Lorsque Tersio reçoit une certaine quantité de DEG, il active [Force de la Haine] avant de s'envoler pour exterminer tous les ennemis. Utilisez des compétences infligeant des Contrôles pour réduire la [Force de la Haine] afin d'empêcher son envol.",
+    "thumbnail": "bosses/Tersio.png",
+    "recommendedHeroNames": [
+      "Yanne",
+      "Laias",
+      "Isaiah"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Souffle du Dragon de la Mort",
+      "cost": null,
+      "cooldown": "28",
+      "description": "Inflige des DEG M à tous les ennemis et les étourdit. Ensuite, laisse sur le sol [Flammes du Dragon de la Mort] qui dure 5 sec. [Flammes du Dragon de la Mort] détruit le bouclier et inflige des DEG M ignorant le Blocage à chaque coup porté."
+    },
+    "2": {
+      "name": "Massacre total",
+      "cost": null,
+      "cooldown": "28",
+      "description": "Concentre la force et tire un rayon pendant 3 sec sur les ennemis à l'avant en ligne droite leur infligeant des DEG M. Réduit 250 PM de la cible touchée et la repousse à chaque coup porté. Plus la cible est éloignée, plus elle reçoit des DEG."
+    },
+    "3": {
+      "name": "Croisée de la Mort",
+      "cost": null,
+      "cooldown": "32",
+      "description": "Par la porte des enfers, Tersio invoque les esprits vengeurs des Dragons pendant 8 sec qui infligent des DEG M aux ennemis. Augmente les DEG M reçus par la cible touchée de 5%. L'effet d'augmentation de DEG M peut se cumuler jusqu'à 15 fois. Si le nombre de charges atteint le maximum, l'effet ne peut plus être dissipé."
+    },
+    "4": {
+      "name": "Incarnation de l'Enfer",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lorsque les PV de Tersio sont à 33%, active [Force de la Haine] et se concentre pendant 8 sec pour se préparer à l'envol. Si [Force de la Haine] n'est pas dissipée avant la fin de la concentration, Tersio s'envole pour attaquer tous les ennemis et les extermine. [Force de la Haine] peut être réduite avec les compétences infligeant des Contrôles."
+    },
+    "5": {
+      "name": "Esprit perdu",
+      "cost": null,
+      "cooldown": null,
+      "description": "Au début du premier combat et toutes les 15 sec, Tersio se met à l'état de [Dragon de la Mort], ce qui augmente le Crit de ??? et les DEG infligés à l'ennemi de 50%."
+    },
+    "6": {
+      "name": "Puissance absolue",
+      "cost": null,
+      "cooldown": null,
+      "description": "Tersio n'est pas affecté par les effets qui réduisent la Vitesse d'ATQ, la DEF et l'ATQ. Augmente la Résistance Crit de 1000 et touche ses cibles à coup sûr lors de toutes ses attaques."
+    },
+    "7": {
+      "name": "Force du Prééminent",
+      "cost": null,
+      "cooldown": null,
+      "description": "Les attaques automatiques de Tersio infligent des DEG M à l'ennemi et aux cibles à portée. Réduit les DEG infligés par la cible touchée de 4%. Cet effet peut se cumuler jusqu'à 20 fois et ne peut être dissipé."
+    },
+    "8": {
+      "name": "Entrave infernale",
+      "cost": null,
+      "cooldown": null,
+      "description": "Toutes les 15 sec, inflige des DEG M à 1 ennemi(s) à la DEF M la plus élevée. Met la cible à l'écart de la bataille pendant 8 sec et lui inflige [Malédiction des Enfers], ce qui réduit la Récupération des PM de 100 et la Vitesse d'ATQ de 100 par charge cumulée. [Malédiction des Enfers] peut être cumulée jusqu'à 10 fois et ne peut être dissipée."
+    }
+  },
+  "aliases": [
+    "baby dragon"
+  ]
+}

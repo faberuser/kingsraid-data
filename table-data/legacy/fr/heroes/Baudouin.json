@@ -1,0 +1,228 @@
+{
+  "id": "Baudouin",
+  "profile": {
+    "name": "Baudouin",
+    "title": "Baudouin, Bandit sacré",
+    "class": "Priest",
+    "position": "Middle-100",
+    "attack_range": "2400",
+    "damage_type": "Magical",
+    "gender": "Homme",
+    "age": "28",
+    "height": "190",
+    "race": "Humain",
+    "constellation": "Layan la Justiciére",
+    "birth": {
+      "month": 9,
+      "day": 12,
+      "monthName": "Mois de la Vérité"
+    },
+    "like": "Lua",
+    "dislike": "Lua",
+    "story": "Baudouin est le prêtre le plus improbable de l'Église de Lua. En gros, c'est une tête brûlée. Depuis son enfance, il a toujours été considéré comme le mouton noir de la pieuse Église de Lua. Il a réussi à entrer à l'Église grâce au Haut Prêtre Berman, mais la vie religieuse ne lui convenait pas. Un jour, il décida tout de même d'abandonner son comportement déviant et commença à suivre la voie menant à la haute prêtrise.",
+    "thumbnail": "heroes/Baudouin/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Nova Sacrée",
+      "cost": "2",
+      "cooldown": "6",
+      "description": "Restaure ??? PV à l'allié ayant le moins de PV et aux alliés proches. Inflige ??? DEG M aux ennemis proches de la cible et réduit leur vitesse d'attaque de 25% pendant 10 sec.",
+      "thumbnail": "heroes/Baudouin/skills/1.png"
+    },
+    "2": {
+      "name": "Lance de Lumière",
+      "cost": "2",
+      "cooldown": "15",
+      "description": "Inflige ??? DEG M à l'ennemi ciblé, le repousse et l'immobilise pendant 6 sec. Pendant l'immobilisation, ses DEG M subis augmentent de 25%.",
+      "thumbnail": "heroes/Baudouin/skills/2.png"
+    },
+    "3": {
+      "name": "Sanctuaire Sacré",
+      "cost": "1",
+      "cooldown": "60",
+      "description": "Rend tous les alliés invincibles pendant 7 sec et leur restaure ??? PV sur la durée de la compétence.",
+      "thumbnail": "heroes/Baudouin/skills/3.png"
+    },
+    "4": {
+      "name": "Formation de Dieu",
+      "cost": null,
+      "cooldown": "0.5",
+      "description": "Chaque attaque a 20% de chances d'infliger ??? DEG M à la cible et de l'étourdir pendant 1.5 sec.",
+      "thumbnail": "heroes/Baudouin/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les soins et les DEG de 10%.",
+      "III": "Augmente les soins et les DEG de 15%.",
+      "IV": "Augmente les soins et les DEG de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les soins de 10%.",
+      "III": "Augmente les soins de 15%.",
+      "IV": "Augmente la Vitesse d'ATQ de 250 pendant la durée."
+    },
+    "4": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Les DEG et les Soins sont augmentés de 40%.",
+          "thumbnail": "heroes/Baudouin/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Les ennemis touchés subissent Étourdissement pendant 1 sec.",
+          "thumbnail": "heroes/Baudouin/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Baudouin/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Le nombre de cibles passe à 2.",
+          "thumbnail": "heroes/Baudouin/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Baudouin/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Réduit la durée de l'invincibilité de 3 sec et augmente l'ATQ de tous les alliés de 50%. Augmente le coût en PM de 2.",
+          "thumbnail": "heroes/Baudouin/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Les chances d'activation sont augmentées de 10%.",
+          "thumbnail": "heroes/Baudouin/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "La portée de l'attaque est augmentée de 20%.",
+          "thumbnail": "heroes/Baudouin/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Blocage M +200",
+        "thumbnail": "heroes/Baudouin/perks/light.png"
+      },
+      "dark": {
+        "effect": "Une attaque avec Nova Sacrée et Lance de Lumière inflige des DEG M supplémentaires à hauteur de 100% de l'ATQ et réduit le Temps de recharge de la compétences de 20%.",
+        "thumbnail": "heroes/Baudouin/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Genesis, l'Ancien et le Nouveau",
+    "description": "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 2% et la DEF de 2% pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois.",
+    "value": {},
+    "thumbnail": "heroes/Baudouin/uw.png",
+    "story": "Même parmi les reliques sacrées accordées aux hauts prêtres de l'Église de Lua, le Genesis, Ancien et Nouveau est spécial. D'après la légende, ce livre, gardé durant des siècles par les grands prêtres de l'Église, fut écrit par Lua en personne. Iris, le grand prêtre actuel, en recevant une révélation, confia le livre à son beau-père, Berman. Plus tard, il fut offert à Baudouin lorsqu'il devint haut prêtre. On dit que cette relique divine offre une énergie infinie à son propriétaire, ainsi que la puissance nécessaire pour débloquer le vrai potentiel de ceux qui ont la foi.",
+    "descriptionByStar": {
+      "0": "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 2% et la DEF de 2% pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois.",
+      "1": "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 2.4% et la DEF de 2.4% pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois.",
+      "2": "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 2.9% et la DEF de 2.9% pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois.",
+      "3": "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 3.5% et la DEF de 3.5% pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois.",
+      "4": "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 4.2% et la DEF de 4.2% pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois.",
+      "5": "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 5% et la DEF de 5% pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Vieux saint Graal",
+      "description": "[Nova sacrée] Réduit le coût en PM de 1 et accélère les soins de 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Baudouin/ut/1.png",
+      "story": "Un Graal en bois qui porte l'effigie de la déesse Lua.\nQuand les gens ont appris l'existence de Lua, ils sculptèrent un Graal en son honneur. Lors de la chute de la civilisation du continent Orbis, il fut enseveli et la seule trace de son existence se résuma à quelques mentions dans les archives. Le jour où Baudouin se repentit de ses péchés et embrassa la vérité du livre saint, le vieux Graal apparut devant lui, brillant comme le soleil.",
+      "descriptionByStar": {
+        "0": "[Nova sacrée] Réduit le coût en PM de 1 et accélère les soins de 20 %.",
+        "1": "[Nova sacrée] Réduit le coût en PM de 1 et accélère les soins de 24 %.",
+        "2": "[Nova sacrée] Réduit le coût en PM de 1 et accélère les soins de 29 %.",
+        "3": "[Nova sacrée] Réduit le coût en PM de 1 et accélère les soins de 35 %.",
+        "4": "[Nova sacrée] Réduit le coût en PM de 1 et accélère les soins de 42 %.",
+        "5": "[Nova sacrée] Réduit le coût en PM de 1 et accélère les soins de 50 %."
+      }
+    },
+    "2": {
+      "name": "Dernier chapitre de la Bible",
+      "description": "[Lance de lumière] Gagne l'immunité aux contrôles pendant la durée de la compétence et augmente la Resist M Faible de la cible de 10 % pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Baudouin/ut/2.png",
+      "story": "Dernier chapitre de la légende, bien trop horrible pour figurer dans la Bible. \nIl traite de la lumière sacrée capable de pourfendre l’ennemi gagné par les plus grandes ténèbres.",
+      "descriptionByStar": {
+        "0": "[Lance de lumière] Gagne l'immunité aux contrôles pendant la durée de la compétence et augmente la Resist M Faible de la cible de 10 % pendant 10 sec.",
+        "1": "[Lance de lumière] Gagne l'immunité aux contrôles pendant la durée de la compétence et augmente la Resist M Faible de la cible de 12 % pendant 10 sec.",
+        "2": "[Lance de lumière] Gagne l'immunité aux contrôles pendant la durée de la compétence et augmente la Resist M Faible de la cible de 14 % pendant 10 sec.",
+        "3": "[Lance de lumière] Gagne l'immunité aux contrôles pendant la durée de la compétence et augmente la Resist M Faible de la cible de 17 % pendant 10 sec.",
+        "4": "[Lance de lumière] Gagne l'immunité aux contrôles pendant la durée de la compétence et augmente la Resist M Faible de la cible de 21 % pendant 10 sec.",
+        "5": "[Lance de lumière] Gagne l'immunité aux contrôles pendant la durée de la compétence et augmente la Resist M Faible de la cible de 25 % pendant 10 sec."
+      }
+    },
+    "3": {
+      "name": "Vieux rosaire",
+      "description": "[Sanctuaire Sacré] Augmente l'ATQ de 25% pendant la durée de la compétence et récupère 120 PM toutes les secondes.",
+      "value": {},
+      "thumbnail": "heroes/Baudouin/ut/3.png",
+      "story": "Le rosaire que la sainte prêtresse Evelyn de l’Église de Lua porta jusqu’à sa mort. On dirait que la voix de Lua en personne s’entend dans le rosaire, priant pour que le monde ne s’écroule pas. Une sainteté indéniable engouffre le corps et maximise les pouvoirs de Baudouin.",
+      "descriptionByStar": {
+        "0": "[Sanctuaire Sacré] Augmente l'ATQ de 25% pendant la durée de la compétence et récupère 120 PM toutes les secondes.",
+        "1": "[Sanctuaire Sacré] Augmente l'ATQ de 25% pendant la durée de la compétence et récupère 140 PM toutes les secondes.",
+        "2": "[Sanctuaire Sacré] Augmente l'ATQ de 25% pendant la durée de la compétence et récupère 170 PM toutes les secondes.",
+        "3": "[Sanctuaire Sacré] Augmente l'ATQ de 25% pendant la durée de la compétence et récupère 200 PM toutes les secondes.",
+        "4": "[Sanctuaire Sacré] Augmente l'ATQ de 25% pendant la durée de la compétence et récupère 250 PM toutes les secondes.",
+        "5": "[Sanctuaire Sacré] Augmente l'ATQ de 25% pendant la durée de la compétence et récupère 300 PM toutes les secondes."
+      }
+    },
+    "4": {
+      "name": "Journal calciné",
+      "description": "[Formation de Dieu] Augmente la durée d'Étourdissement de 0,5 sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec.",
+      "value": {},
+      "thumbnail": "heroes/Baudouin/ut/4.png",
+      "story": "Le dernier journal d'un grand professeur.\nIl contient les détails du traitement qu'administrait le prêtre Berman aux patients atteints de la peste sombre et le récit de son propre combat contre la maladie.\nBaudouin réussit à le sauver des flammes lorsque les affaires du professeur furent brûlées après sa mort. Puis il le retranscrivit avec l'aide de Leo et l'appela le Journal de Berman, qui fut d'une aide précieuse dans le traitement contre la peste sombre.\nBaudouin conserve précieusement le journal d'origine, qui lui rappelle la détermination de son professeur.",
+      "descriptionByStar": {
+        "0": "[Formation de Dieu] Augmente la durée d'Étourdissement de 0,5 sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec.",
+        "1": "[Formation de Dieu] Augmente la durée d'Étourdissement de 0,6 sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec.",
+        "2": "[Formation de Dieu] Augmente la durée d'Étourdissement de 0,7 sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec.",
+        "3": "[Formation de Dieu] Augmente la durée d'Étourdissement de 0,8 sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec.",
+        "4": "[Formation de Dieu] Augmente la durée d'Étourdissement de 0,9 sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec.",
+        "5": "[Formation de Dieu] Augmente la durée d'Étourdissement de 1 sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 5 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Genesis, l'Ancien et le Nouveau, ce qui augmente le nombre de la cible visée par les attaques automatiques du Héros à 2 pendant 10 sec. Toutes les 2 sec, restaure ??? PV de tous les alliés et dissipe leurs effets négatifs.",
+    "cooldown": "22",
+    "uses": "5",
+    "thumbnail": "heroes/Baudouin/sw.png",
+    "advancement": {
+      "1": "Modifie la condition d'utilisation de l'Arme spirituelle à 4 fois.",
+      "2": "Pendant la durée de l'invocation, réduit les DEG reçus par tous les alliés de 30% et augmente la récupération de PV de 50%."
+    },
+    "story": "- Pas de doute, ce livre est ennuyeux.\nEn se disant cela, Baudouin referma le livre avant d'y poser la tête et s'apprêta à dormir. À cet instant, le livre se mit à briller d'une lumière intense, ce qui fit sursauter Baudouin, le faisant tomber à la renverse. Le livre s'ouvrit tout seul et les pages se mirent à tourner d'une vitesse rapide. Lorsqu'elles s'arrêtèrent, un vieil homme apparut dans une lueur éblouissante. Baudouin le considéra d'un air hébété.\n- Petit insolent ! Je ne peux plus te laisser faire ! À cause de ton pouvoir sacré appréciable et de tes talents innés, j'avais pourtant pensé à t'aider à prog...\n- Euh... Qui êtes-vous, papi... ?\n- Quoi ? Tu ignores encore le nom du livre qui t'a permis à progresser ! Je m'appelle Genesis ! Je suis l'incarnation du livre que tu as reçu de ton père adoptif !"
+  },
+  "splashart": "heroes/Baudouin/sa.png",
+  "costumes": "heroes/Baudouin/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

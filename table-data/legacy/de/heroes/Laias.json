@@ -1,0 +1,228 @@
+{
+  "id": "Laias",
+  "profile": {
+    "name": "Laias",
+    "title": "Heilige Wasserpriesterin Laias",
+    "class": "Priest",
+    "position": "Back-100",
+    "attack_range": "3000",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "???",
+    "height": "175",
+    "race": "Drachen",
+    "constellation": "Notmun, der Stimmer",
+    "birth": {
+      "month": 7,
+      "day": 9,
+      "monthName": "Monat der Harmonie"
+    },
+    "like": "Schwimmen; Haarewaschen",
+    "dislike": "Alles, was die Ordnung der Welt gefährdet",
+    "story": "Diese schöne und sanftmütige Wasserpriesterin ist in Wahrheit ein verwandelter Blaudrache. Vor langer Zeit wurde sie von einigen Wüstenstämmen verehrt. Aus unbekannten Gründen war sie jedoch in einen ewigen Schlaf verfallen. Sie vermag, das Wasser zu befehligen und Land fruchtbar zu machen, und sie nutzte ihre Kräfte stets zum Wohle der Leute. Im Gegenzug errichteten die Menschen ihr zu Ehren unter dem See der Oase den goldenen Schrein des Flusses. Ein Strom böser Energie erweckte sie aus ihrem Schlaf und sie begann erneut, ihre Kräfte einzusetzen, um jenen in ihrer Nähe zu helfen.",
+    "thumbnail": "heroes/Laias/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Heilende Tropfen",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Heilt alle Verbündeten um ??? LP und erhöht ihre erhaltene Heilung für 10 Sek. um 25%. Hat das Ziel höchstens 50% LP, wird die Heilung mit 1.5 multipliziert.",
+      "thumbnail": "heroes/Laias/skills/1.png"
+    },
+    "2": {
+      "name": "Schildblase",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Gewährt dem Verbündeten mit den niedrigsten LP für 15 Sek. einen Schild gegen ??? Schaden. Währenddessen ist er gegen Kontrolleffekte immun, erhält ??? ANG und heilt jede Sekunde ??? LP. Für 15 Sek. erleidet er 30% weniger Schaden durch Nichthelden und verursacht gegen sie 15% mehr Schaden. Diese beiden Effekte gegen Nichthelden sind nicht entfernbar.",
+      "thumbnail": "heroes/Laias/skills/2.png"
+    },
+    "3": {
+      "name": "Fest des Wassers",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Fügt Gegnern in der Nähe ??? Magieschaden zu und wirft sie für 3 Sek. nieder. Heilt bei Aktivierung alle Verbündeten um 15% ihrer max. LP und gibt anderen Verbündeten 2 Manakugeln. Danach entsteht für 12 Sek. alle 4 Sek. ein Strudel, der zufälligen Gegnern ??? Magieschaden zufügt und sie für 2 Sek. niederwirft.",
+      "thumbnail": "heroes/Laias/skills/3.png"
+    },
+    "4": {
+      "name": "Segen des Wasserdrachen",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht Laias' Kontrollwiderstand um 500, die magische VTD aller Verbündeten um ??? + 5% ihrer magischen VTD und ihren magischen Krit.-Widerstand um 250. Jeder aktive Fähigkeitseinsatz von Laias senkt den erlittenen Magieschaden aller Verbündeten für 5 Sek. um 25%.",
+      "thumbnail": "heroes/Laias/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Heilungsrate um 10 %.",
+      "III": "Erhöht Heilungsrate um 15 %.",
+      "IV": "Erhöht Heilungsrate um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schild um 10 %.",
+      "III": "Erhöht Schild um 15 %.",
+      "IV": "Erhöht Schild um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht VERT-Boost um 10 %.",
+      "III": "Erhöht VERT-Boost um 15 %.",
+      "IV": "Erhöht VERT-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht Heilungsrate um 40 %.",
+          "thumbnail": "heroes/Laias/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Erhöht bei Heilung Mag. Krit.Widerstand für 10 Sek. um 25 %.",
+          "thumbnail": "heroes/Laias/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Ändert das Ziel auf den Verbündeten mit dem höchsten ANG.",
+          "thumbnail": "heroes/Laias/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Laias/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Schadenseffekt wird alle 3 Sek. ausgelöst.",
+          "thumbnail": "heroes/Laias/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Das Ziel von Wirbel wird auf den Gegner mit dem höchsten ANG geändert.",
+          "thumbnail": "heroes/Laias/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht Mag. VERT-Erhöhungsrate um 20 % und Mag. Krit.Widerstand um 150.",
+          "thumbnail": "heroes/Laias/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Der Schadenverringerungs-Effek wird nicht entfernt.",
+          "thumbnail": "heroes/Laias/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Mag. Blockchance +200",
+        "thumbnail": "heroes/Laias/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erholt alle 3 Sek. 350 Mana für sämtliche Verbündeten.",
+        "thumbnail": "heroes/Laias/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Fließender Kreis, Eltoirre",
+    "description": "Erhöht die Heilungsrate aller Verbündeten um 8 % und Mag. VERT um 5 % von Laias ANG. Heilt alle 5 Sek. die TP des Verbündeten mit den niedrigsten TP um 100 % des eigenen ANG.",
+    "value": {},
+    "thumbnail": "heroes/Laias/uw.png",
+    "story": "Ein Ankh in Gestalt eines Phönix. Es symbolisiert den natürlichen Kreislauf des Lebens. In der Urzeit verehrten die Nomaden der Wüste die Blaue Drachin der Oase als ihre Beschützerin. Im Gegenzug segnete sie sie mit Regen und schenkte ihren Feldfrüchten Leben. Um ihre Dankbarkeit zu zeigen, boten die Nomaden allerlei Schätze dar, darunter Lazulia, den Edelstein des Wassers. Obwohl sie eigentlich kein Interesse an materiellem Reichtum hatte, nahm sie ihre Erkenntlichkeit dankend an und verwendete die Schätze dazu, einen Tempel in der Oase zu errichten. Dieses Ankh ist das geheiligte Symbol des Tempels und enthält die mächtige Kraft des Wassers.",
+    "descriptionByStar": {
+      "0": "Erhöht die Heilungsrate aller Verbündeten um 8 % und Mag. VERT um 5 % von Laias ANG. Heilt alle 5 Sek. die TP des Verbündeten mit den niedrigsten TP um 100 % des eigenen ANG.",
+      "1": "Erhöht die Heilungsrate aller Verbündeten um 10 % und Mag. VERT um 5 % von Laias ANG. Heilt alle 5 Sek. die TP des Verbündeten mit den niedrigsten TP um 120 % des eigenen ANG.",
+      "2": "Erhöht die Heilungsrate aller Verbündeten um 12 % und Mag. VERT um 5 % von Laias ANG. Heilt alle 5 Sek. die TP des Verbündeten mit den niedrigsten TP um 140 % des eigenen ANG.",
+      "3": "Erhöht die Heilungsrate aller Verbündeten um 14 % und Mag. VERT um 5 % von Laias ANG. Heilt alle 5 Sek. die TP des Verbündeten mit den niedrigsten TP um 170 % des eigenen ANG.",
+      "4": "Erhöht die Heilungsrate aller Verbündeten um 17 % und Mag. VERT um 5 % von Laias ANG. Heilt alle 5 Sek. die TP des Verbündeten mit den niedrigsten TP um 210 % des eigenen ANG.",
+      "5": "Erhöht die Heilungsrate aller Verbündeten um 20 % und Mag. VERT um 5 % von Laias ANG. Heilt alle 5 Sek. die TP des Verbündeten mit den niedrigsten TP um 250 % des eigenen ANG."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Wasserdrachenschuppe",
+      "description": "[Heilende Tropfen] erhöht die Heilungsrate um 50 % und Mag. Blockchance des Ziels 10 Sek. lang um 200.",
+      "value": {},
+      "thumbnail": "heroes/Laias/ut/1.png",
+      "story": "Eine Schuppe, mit der Laias ihren Haarschmuck dekoriert. Darin ist ihre Heilkraft gespeichert, sollte ihr jemals die Energie ausgehen. Als sie im Schrein des Flusses von innigen Gebeten des Trovatia-Stammes aufgeweckt wurde, kam sie zu dem Schluss, dass die junge Lilia die Kinder der Wüste nicht beschützen konnte, sollte sie noch einmal in einen tiefen Schlaf wie vor 100 Jahren verfallen. Sie entschloss sich deshalb, ihre Kraft in der Schuppe zu speichern, damit sie sie an Lilia weitergeben kann, sollte etwas passieren.",
+      "descriptionByStar": {
+        "0": "[Heilende Tropfen] erhöht die Heilungsrate um 50 % und Mag. Blockchance des Ziels 10 Sek. lang um 200.",
+        "1": "[Heilende Tropfen] erhöht die Heilungsrate um 50 % und Mag. Blockchance des Ziels 10 Sek. lang um 240.",
+        "2": "[Heilende Tropfen] erhöht die Heilungsrate um 50 % und Mag. Blockchance des Ziels 10 Sek. lang um 290.",
+        "3": "[Heilende Tropfen] erhöht die Heilungsrate um 50 % und Mag. Blockchance des Ziels 10 Sek. lang um 350.",
+        "4": "[Heilende Tropfen] erhöht die Heilungsrate um 50 % und Mag. Blockchance des Ziels 10 Sek. lang um 420.",
+        "5": "[Heilende Tropfen] erhöht die Heilungsrate um 50 % und Mag. Blockchance des Ziels 10 Sek. lang um 500."
+      }
+    },
+    "2": {
+      "name": "Oasenkristall",
+      "description": "[Schildblase] verringert den Cooldown um 12 % und entfernt negative Effekte vom Ziel.",
+      "value": {},
+      "thumbnail": "heroes/Laias/ut/2.png",
+      "story": "Wasseressenz, die von den Blauen Drachen beschützt wird. \nDie Essenz einer Oase, die von den Blauen Drachen zu Beginn der Welt in die Wüste gebracht wurde. Es ist die heilige Mission der Wasserpriesterin Laias, diese Essenz zu beschützen und es ist ihre liebste Aufgabe. Der Oasenkristall führt die Wasserpriesterin, die die Schildblase einsetzt, zu der Person, die ihre Hilfe am nötigsten braucht.",
+      "descriptionByStar": {
+        "0": "[Schildblase] verringert den Cooldown um 12 % und entfernt negative Effekte vom Ziel.",
+        "1": "[Schildblase] verringert den Cooldown um 14 % und entfernt negative Effekte vom Ziel.",
+        "2": "[Schildblase] verringert den Cooldown um 17 % und entfernt negative Effekte vom Ziel.",
+        "3": "[Schildblase] verringert den Cooldown um 21 % und entfernt negative Effekte vom Ziel.",
+        "4": "[Schildblase] verringert den Cooldown um 25 % und entfernt negative Effekte vom Ziel.",
+        "5": "[Schildblase] verringert den Cooldown um 30 % und entfernt negative Effekte vom Ziel."
+      }
+    },
+    "3": {
+      "name": "Papyrus des Flusses",
+      "description": "[Fest des Wassers] Wirbel-Effekt zielt auf 2 Gegner und alle Verbündeten stellen zus. 500 Mana wieder her.",
+      "value": {},
+      "thumbnail": "heroes/Laias/ut/3.png",
+      "story": "Ein Ausschnitt aus der uralten Schrift, dem Buch des Chaos, das als verschwunden gilt. Das Buch des Chaos ist eine historische Schrift, die an den Priester des Wassers weitergegeben wurde und Aufzeichnungen über Kultur, Magie und viele andere Themen enthält. Es wurde zusammen mit Laias im goldenen Schrein des Flusses eingeschlossen, aber der größte Teil des Buches verschwand nach und nach, während sie schlief. Der verbleibende Papyrus des Flusses ist ein verstärkender Zauber für das „Fest des Wassers“.",
+      "descriptionByStar": {
+        "0": "[Fest des Wassers] Wirbel-Effekt zielt auf 2 Gegner und alle Verbündeten stellen zus. 500 Mana wieder her.",
+        "1": "[Fest des Wassers] Wirbel-Effekt zielt auf 2 Gegner und alle Verbündeten stellen zus. 600 Mana wieder her.",
+        "2": "[Fest des Wassers] Wirbel-Effekt zielt auf 2 Gegner und alle Verbündeten stellen zus. 720 Mana wieder her.",
+        "3": "[Fest des Wassers] Wirbel-Effekt zielt auf 2 Gegner und alle Verbündeten stellen zus. 860 Mana wieder her.",
+        "4": "[Fest des Wassers] Wirbel-Effekt zielt auf 2 Gegner und alle Verbündeten stellen zus. 1040 Mana wieder her.",
+        "5": "[Fest des Wassers] Wirbel-Effekt zielt auf 2 Gegner und alle Verbündeten stellen zus. 1250 Mana wieder her."
+      }
+    },
+    "4": {
+      "name": "Träne des Gottdrachen",
+      "description": "[Segen des Wasserdrachens] erhöht den VERT-Boost um 50 %. Alle Verbündeten stellen pro Sek. 40 Mana wieder her.",
+      "value": {},
+      "thumbnail": "heroes/Laias/ut/4.png",
+      "story": "Ein bläuliches, durchsichtiges Juwel, das dort gefunden wurde, wo der erste Wasserdrache in die Umarmung des Manas zurückgekehrt ist.\nEs ist auch als die Verletzte Seele des Ersten Wasserdrachen bekannt, da die Leute glauben, dass es das Leid und die Sehnsucht des Drachen nach seinem verstorbenen Ehepartner enthält.\nSo hat es auch seinen Namen bekommen: Träne des Gottdrachens.",
+      "descriptionByStar": {
+        "0": "[Segen des Wasserdrachens] erhöht den VERT-Boost um 50 %. Alle Verbündeten stellen pro Sek. 40 Mana wieder her.",
+        "1": "[Segen des Wasserdrachens] erhöht den VERT-Boost um 50 %. Alle Verbündeten stellen pro Sek. 48 Mana wieder her.",
+        "2": "[Segen des Wasserdrachens] erhöht den VERT-Boost um 50 %. Alle Verbündeten stellen pro Sek. 58 Mana wieder her.",
+        "3": "[Segen des Wasserdrachens] erhöht den VERT-Boost um 50 %. Alle Verbündeten stellen pro Sek. 70 Mana wieder her.",
+        "4": "[Segen des Wasserdrachens] erhöht den VERT-Boost um 50 %. Alle Verbündeten stellen pro Sek. 84 Mana wieder her.",
+        "5": "[Segen des Wasserdrachens] erhöht den VERT-Boost um 50 %. Alle Verbündeten stellen pro Sek. 100 Mana wieder her."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 5-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Entfernt eigene negative Effekte und die der Verbündeten. Beschwört 12 Sek. lang die Seele von Fließender Kreis Eltoirre, heilt jede Sek. alle Verbündete um ??? TP und regeneriert 400 ihrer MP.",
+    "cooldown": "23",
+    "uses": "6",
+    "thumbnail": "heroes/Laias/sw.png",
+    "advancement": {
+      "1": "Erhöht die Mag. VERT geheilter Verbündete um 10 % und das Mag. Blockchance um 200. Dieser Effekt ist bis zu 5-mal stapelbar.",
+      "2": "Während der Wirkungsdauer wirst du immun gegen alle Schäden und jede Sek. wird das Cooldown der verwendeten Skills um 1 Sek. verringert."
+    },
+    "story": "Nach 100 Jahren Schlaf sah Laias die Menschen unter der Invasion der Dämonen leiden. Es erinnerte ihn an das, was vor dem Schlafengehen passiert ist. Zu der Zeit sollte sie schlafen, obwohl es viele Menschen gab, die gelitten haben. Das musste sie zwar tun, um die Menschen nicht in Gefahr zu bringen, aber Laias gibt sich immer noch die Schuld dafür. Nachdem sie erwachte, machte sie sich auf dem Weg, um der Wüste und den Menschen zu helfen. Aber sie kann nicht jedes Volk vor Dämonen retten. Laias war in Qual und dachte an Eltoirre, das Ankh, das sie in ihren Händen hielt. Die Kraft, die Eltoirre hat, ist die Kraft des Wassers und der Zirkulation. Die Kraft der Heilung. Laias dachte sich, dass je mehr Macht sie von Eltoirre verwenden kann, desto mehr Menschen könnte sie helfen. Daher gebann Laias, die Kraft von Eltoirre zu erforschen. Und als man spürte, dass man den Boden erreicht hat, ist ein wunderschöner Phönix aus Wasser vor Laias aufgetaucht. Die Kraft von Eltoirre ist wirklich freigesetzt worden."
+  },
+  "splashart": "heroes/Laias/sa.png",
+  "costumes": "heroes/Laias/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

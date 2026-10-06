@@ -1,0 +1,228 @@
+{
+  "id": "Ophelia",
+  "profile": {
+    "name": "Ophelia",
+    "title": "Ophelia, Éclaireuse du Destin",
+    "class": "Wizard",
+    "position": "Back-500",
+    "attack_range": "4900",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "19",
+    "height": "165",
+    "race": "Humain",
+    "constellation": "Notmun l'Accordeur",
+    "birth": {
+      "month": 7,
+      "day": 7,
+      "monthName": "Mois de l'Harmonie"
+    },
+    "like": "Les histoires romantiques",
+    "dislike": "Les insectes volants",
+    "story": "Une astrologue qui voyage avec un groupe itinérant appelé « Stardust ». En tant que membre de l'association de la sorcière, elle est censée résider dans un endroit particulier et déchiffrer les flux du destin. Cependant, elle voyage actuellement à la recherche d'un homme au destin spécial qu'elle a rencontré dans un rêve. Elle pense que l'homme de son rêve prémonitoire doit devenir le sauveur du monde. Sa priorité actuelle est donc de le retrouver et de rester à son côté. Si on lui demande quel est son deuxième but... elle rougit et ne sait plus quoi dire sur son avenir avec l'homme du destin.",
+    "thumbnail": "heroes/Ophelia/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Carte de Mort - Carta",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Attaque la cible ennemie, inflige ??? points de DEG M et applique Étourdissement pendant 3 sec. Consomme la carte possédée pour appliquer des effets supplémentaires. Utiliser la compétence permet d'obtenir la Carte de [Mort].\n[Mort] - Les DEG ignorent la DEF de la cible et la durée d'Étourdissement augmente de 5 sec.\n[Amour] - Inflige un total de ??? points de DEG M sur la durée pendant 10 sec et réduit les soins de 100%.\n[Chance] - Le Temps de Recharge de la compétence ne s'enclenche pas.",
+      "thumbnail": "heroes/Ophelia/skills/1.png"
+    },
+    "2": {
+      "name": "Carte d'Amour - Elliciad",
+      "cost": "2",
+      "cooldown": "15",
+      "description": "Augmente l'ATQ de ??? pendant 12 sec et la récupération PM de 100%. Utilise une carte en votre possession pour ajouter un effet supplémentaire selon le type de carte. Permet d'obtenir une carte [Amour].\n[Mort] : augmente la Pénétration DEF de 600 points pendant la durée de la compétence et confère l'immunité aux contrôles pendant 6 sec.\n[Amour] : l'effet s'applique à tous les alliés.\n[Chance] : Ne produit pas de temps de recharge.",
+      "thumbnail": "heroes/Ophelia/skills/2.png"
+    },
+    "3": {
+      "name": "Carte de Chance - Vellekia",
+      "cost": "3",
+      "cooldown": "2",
+      "description": "Attaque la cible et les ennemis près d'elle, ce qui leur inflige ??? DEG M. Cette attaque ne rate jamais et inflige des DEG Crit supplémentaires à hauteur de 100%. Permet d'obtenir une carte [Chance].\n[Mort] : les DEG Crit augmentent de 120%.\n[Amour] : dissipe tous les effets positifs dont bénéficient les ennemis à portée et les réduit au silence pendant 2 sec.\n[Chance] : Ne produit pas de temps de recharge. Restaure 1 barre de PM.",
+      "thumbnail": "heroes/Ophelia/skills/3.png"
+    },
+    "4": {
+      "name": "Éclaireur du Destin",
+      "cost": null,
+      "cooldown": null,
+      "description": "L'ATQ de tous les alliés est augmentée de ??? et le Crit de 100. La carte possédée donne un effet supplémentaire.\n[Mort] - ATQ augmentée de 30%.\n[Amour] - Chaque sec, soigne 7% des PV max.\n[Chance] - Esquive M est augmentée de 200.",
+      "thumbnail": "heroes/Ophelia/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "2": {
+      "II": "Augmentation de l'ATQ boostée de 10%.",
+      "III": "Augmentation de l'ATQ boostée de 15%.",
+      "IV": "Augmentation de l'ATQ boostée de 25%."
+    },
+    "3": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "4": {
+      "II": "Le boost ATQ de tous les alliés est augmenté de 10%.",
+      "III": "Le boost ATQ de tous les alliés est augmenté de 15%.",
+      "IV": "Augmente l'augmentation de Crit de tous les alliés de 50."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Pendant 10 sec, la cible reçoit 25% de DEG M supplémentaires.",
+          "thumbnail": "heroes/Ophelia/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Ophelia/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Restaure 1 000 PM de la cible.",
+          "thumbnail": "heroes/Ophelia/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Le boost d'ATQ est augmenté de 40%.",
+          "thumbnail": "heroes/Ophelia/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente le coût en PM de 1 et les DEG infligés de 100%.",
+          "thumbnail": "heroes/Ophelia/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Inflige toujours des coups critiques.",
+          "thumbnail": "heroes/Ophelia/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Au début de chaque bataille, obtient la carte de [Mort]. Cette carte n'a pas d'effet d'augmentation des DEG.",
+          "thumbnail": "heroes/Ophelia/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Au début de chaque bataille, obtient la carte d'[Amour]. Cette carte n'a pas d'effet de soin.",
+          "thumbnail": "heroes/Ophelia/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Ophelia/perks/light.png"
+      },
+      "dark": {
+        "effect": "À l'utilisation de la compétence, a 7% de chances de réduire le coût en PM de toutes les compétences d'1 barre, pendant 7 sec. Cet effet ne peut être dissipé.",
+        "thumbnail": "heroes/Ophelia/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Del Arcana, les Cartes du Destin",
+    "description": "Les attaques ont 77,7% de chances d'augmenter la Vitesse d'ATQ de 20 et la récupération PM/sec de 10% pendant 15 sec. Cet effet peut se cumuler jusqu'à 15 fois.",
+    "value": {},
+    "thumbnail": "heroes/Ophelia/uw.png",
+    "story": "Le tirage des tarots compte parmi les méthodes de prédiction les plus communément employées par les sorcières. Certaines utilisent d'ailleurs des lames de tarot personnalisées afin de mieux coller à leur style. Les cartes d'Ophelia font également office de preuve du pacte qui l'unit aux créatures qu'elle invoque. Jouissant d'un succès certain en tant que guide du destin parmi les entités des dimensions mystérieuses, elle a conclu des pactes avec de nombreuses créatures. Del Arcana, un puissant tarot minutieusement assemblé par Ophelia, constitue une preuve physique de ces relations.",
+    "descriptionByStar": {
+      "0": "Les attaques ont 77,7% de chances d'augmenter la Vitesse d'ATQ de 20 et la récupération PM/sec de 10% pendant 15 sec. Cet effet peut se cumuler jusqu'à 15 fois.",
+      "1": "Les attaques ont 77,7% de chances d'augmenter la Vitesse d'ATQ de 24 et la récupération PM/sec de 12% pendant 15 sec. Cet effet peut se cumuler jusqu'à 15 fois.",
+      "2": "Les attaques ont 77,7% de chances d'augmenter la Vitesse d'ATQ de 29 et la récupération PM/sec de 14% pendant 15 sec. Cet effet peut se cumuler jusqu'à 15 fois.",
+      "3": "Les attaques ont 77,7% de chances d'augmenter la Vitesse d'ATQ de 35 et la récupération PM/sec de 17% pendant 15 sec. Cet effet peut se cumuler jusqu'à 15 fois.",
+      "4": "Les attaques ont 77,7% de chances d'augmenter la Vitesse d'ATQ de 42 et la récupération PM/sec de 21% pendant 15 sec. Cet effet peut se cumuler jusqu'à 15 fois.",
+      "5": "Les attaques ont 77,7% de chances d'augmenter la Vitesse d'ATQ de 50 et la récupération PM/sec de 25% pendant 15 sec. Cet effet peut se cumuler jusqu'à 15 fois."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Carte étrange",
+      "description": "[Carte de mort - Carta] Augmente les DEG de 50 % et restaure 1 000 PM à chaque ennemi vaincu.",
+      "value": {},
+      "thumbnail": "heroes/Ophelia/ut/1.png",
+      "story": "Cette carte fut fabriquée par la sorcière Eucaletus après la mort de la personne à laquelle elle tenait le plus. Elle y employa tout son mana.\nPar la suite, elle fut brûlée et cette étrange carte fut tout ce qui resta d'elle. Elle acquit la réputation d'affranchir son propriétaire de la vie et de la mort, ce qui poussa de nombreux aspirants à la vie éternelle à se battre pour elle. C'est alors qu'un mage, voulant mettre un terme aux morts inutiles, mit la main dessus et la scella. Personne n'avait vu cette carte depuis des siècles, jusqu'à ce qu'Ophelia la trouvât dans une vieille réserve.",
+      "descriptionByStar": {
+        "0": "[Carte de mort - Carta] Augmente les DEG de 50 % et restaure 1 000 PM à chaque ennemi vaincu.",
+        "1": "[Carte de mort - Carta] Augmente les DEG de 50 % et restaure 1200 PM à chaque ennemi vaincu.",
+        "2": "[Carte de mort - Carta] Augmente les DEG de 50 % et restaure 1400 PM à chaque ennemi vaincu.",
+        "3": "[Carte de mort - Carta] Augmente les DEG de 50 % et restaure 1700 PM à chaque ennemi vaincu.",
+        "4": "[Carte de mort - Carta] Augmente les DEG de 50 % et restaure 2100 PM à chaque ennemi vaincu.",
+        "5": "[Carte de mort - Carta] Augmente les DEG de 50 % et restaure 2500 PM à chaque ennemi vaincu."
+      }
+    },
+    "2": {
+      "name": "Cœur d’Elliciad",
+      "description": "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 6%.",
+      "value": {},
+      "thumbnail": "heroes/Ophelia/ut/2.png",
+      "story": "Le cœur d’Elliciad incarne l’esprit de l’amour. \nIl consume les amours accomplies, mais aussi inavouées, il peut se montrer tantôt brûlant comme la lave, tantôt froid comme la glace. Le pouvoir qu’il renferme dépend de la corruption de l’âme. Si celle-ci est pure, le cœur d’Elliciad dégage une lumière vive incroyablement puissante.",
+      "descriptionByStar": {
+        "0": "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 6%.",
+        "1": "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 7,2%.",
+        "2": "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 8,6%.",
+        "3": "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 10,4%.",
+        "4": "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 12,5%.",
+        "5": "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 15%."
+      }
+    },
+    "3": {
+      "name": "Pièce de la Chance",
+      "description": "[Carte de Chance - Vellekia] Réduit le coût en PM de 1 et augmente les DEG infligés de 20%.",
+      "value": {},
+      "thumbnail": "heroes/Ophelia/ut/3.png",
+      "story": "La pièce légendaire qui aurait changé le cours de la roue de la fortune, qui se dirigeait vers la destruction. Ophelia pensa qu’elle a été jetée par l’esprit de la chance, Vellekia.",
+      "descriptionByStar": {
+        "0": "[Carte de Chance - Vellekia] Réduit le coût en PM de 1 et augmente les DEG infligés de 20%.",
+        "1": "[Carte de Chance - Vellekia] Réduit le coût en PM de 1 et augmente les DEG infligés de 24%.",
+        "2": "[Carte de Chance - Vellekia] Réduit le coût en PM de 1 et augmente les DEG infligés de 29%.",
+        "3": "[Carte de Chance - Vellekia] Réduit le coût en PM de 1 et augmente les DEG infligés de 35%.",
+        "4": "[Carte de Chance - Vellekia] Réduit le coût en PM de 1 et augmente les DEG infligés de 42%.",
+        "5": "[Carte de Chance - Vellekia] Réduit le coût en PM de 1 et augmente les DEG infligés de 50%."
+      }
+    },
+    "4": {
+      "name": "Fil de Croisée des Destins",
+      "description": "[Éclaireur du destin] Pendant 10 sec après avoir acquis une carte, augmente les DEG infligés aux ennemis non-héros de 10 % et réduit les DEG subis de 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Ophelia/ut/4.png",
+      "story": "Un fil utilisé par la déesse de la destinée pour lier les destins entre eux.\nSeuls les plus purs des élémentaux n'ayant pas le moindre karma négatif peuvent nouer ce fil du destin.\nEn ouvrant véritablement les yeux, Ophelia put entrevoir le destin du monde et se servir de ses esprits pour tisser de nouvelles destinées dans son avenir.\nIl reste généralement un fil ou deux dès qu'un destin est manipulé, et Ophelia noue les extrémités de ces fils pour les fusionner par la magie, comme s'ils n'avaient toujours fait qu'un.\nCette bobine de fil est le résultat de cette habitude.",
+      "descriptionByStar": {
+        "0": "[Éclaireur du destin] Pendant 10 sec après avoir acquis une carte, augmente les DEG infligés aux ennemis non-héros de 10 % et réduit les DEG subis de 20 %.",
+        "1": "[Éclaireur du destin] Pendant 10 sec après avoir acquis une carte, augmente les DEG infligés aux ennemis non-héros de 12 % et réduit les DEG subis de 20 %.",
+        "2": "[Éclaireur du destin] Pendant 10 sec après avoir acquis une carte, augmente les DEG infligés aux ennemis non-héros de 14 % et réduit les DEG subis de 20 %.",
+        "3": "[Éclaireur du destin] Pendant 10 sec après avoir acquis une carte, augmente les DEG infligés aux ennemis non-héros de 17 % et réduit les DEG subis de 20 %.",
+        "4": "[Éclaireur du destin] Pendant 10 sec après avoir acquis une carte, augmente les DEG infligés aux ennemis non-héros de 21 % et réduit les DEG subis de 20 %.",
+        "5": "[Éclaireur du destin] Pendant 10 sec après avoir acquis une carte, augmente les DEG infligés aux ennemis non-héros de 25 % et réduit les DEG subis de 20 %."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 6 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Del Arcana, les Cartes du Destin, ce qui supprime la carte en possession du Héros et lui donne la carte [Étoile]. Cette carte augmente le taux d'ATQ de 60% pendant 10 sec. Avec la carte [Étoile], l'utilisation de la compétence déclenche tous les effets de [Mort], [Amour] et [Chance], et consomme la carte [Étoile].",
+    "cooldown": "17",
+    "uses": "7",
+    "thumbnail": "heroes/Ophelia/sw.png",
+    "advancement": {
+      "1": "Récupère 3 barres de PM du Héros à l'activation.",
+      "2": "La condition d'activation passe à 4 fois."
+    },
+    "story": "Des cartes qui se sont éveillées avec de nouvelles apparences, lorsqu'Ophelia comprit sa véritable vocation.\n\nLes élémentaires voués à décider le sort du monde, ainsi que les sources de diverses émotions, s'étaient dissouts et dispersés çà et là, le jour où leur ancienne amie, pressentant sa mort prochaine, disparut en une myriade d'étoiles.\nAinsi, les cartes attendirent que leur amie apparaisse de nouveau, revêtue d'une nouvelle apparence.\n\nLe temps s'écoula, avant que les cartes ne se montrent devant une petite fille du nom d'Ophelia.\nLa jeune fille, afin de les garder auprès d'elle, les prit dans ses bras et fit un pacte afin de compléter Del Arcana.\n\nLes rêves successifs et les élémentaires habitant Del Arcana apprirent à Ophelia, sa véritable identité.\n\nDel Arcana aspira le pouvoir de clairvoyance émis par la jeune fille et put prendre une forme matérielle. Ainsi, elle devint la compagne de celle qui allait poursuivre la destinée du monde.\n\nOphelia, devenue la Constellation de la Clairvoyance, pourra dès à présent embrasser le destin du monde de ses deux prunelles.\nLa jeune fille, la jeune Éclaireuse du Destin devra poursuivre une tâche à la fois illustre et douloureuse..."
+  },
+  "splashart": "heroes/Ophelia/sa.png",
+  "costumes": "heroes/Ophelia/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

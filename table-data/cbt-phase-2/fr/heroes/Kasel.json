@@ -1,0 +1,272 @@
+{
+  "id": "Kasel",
+  "profile": {
+    "name": "Kasel",
+    "title": "Kasel, Héros de l'Épée Sacrée",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "100",
+    "damage_type": "Physical",
+    "gender": "Homme",
+    "age": "18",
+    "height": "185",
+    "race": "Humain",
+    "constellation": "Asiphia l'Impératrice",
+    "birth": {
+      "month": 10,
+      "day": 15,
+      "monthName": "Mois de l'Amitié"
+    },
+    "like": "Les nourritures de la nature",
+    "dislike": "Le fatalisme",
+    "story": "Un écuyer du royaume d'Orvelia. Traumatisé par la mort de ses parents des mains des démons ayant envahi son village et par l'assassinat de son maître d'escrime, il ne supporte pas l'idée que ses proches puissent mourir. Son passé l'a poussé à partir à la recherche de son frère de sang, Clause, rencontré durant son enfance à l'orphelinat, disparu alors qu'il était parti en expédition.",
+    "thumbnail": "heroes/Kasel/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Lame de Jugement",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Inflige 2 fois 267*(0.7+(0.3*Skill Level*Awakening Coefficient))+ATK 168.3% de DGT physiques aux ennemis dans la zone devant soi et les renverse pendant 1.5 s. [Mandataire divin] : les dégâts augmentent de 25 %, la portée d'attaque de 50 % et la durée du renversement de 0.5 s. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Kasel/skills/1.png"
+    },
+    "2": {
+      "name": "Ruée Vaillante",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Se rue derrière l'ennemi et inflige 3 fois 233*(0.7+(0.3*Skill Level*Awakening Coefficient))+ATK 146.9% de DGT physiques aux ennemis à portée, augmentant leurs DGT physiques subis de 24 % pendant 5 s. [Mandataire divin] : les dégâts augmentent de 25 %, le temps d'incantation diminue de 1 s et le taux de CRIT est appliqué avec un bonus de 600. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Kasel/skills/2.png"
+    },
+    "3": {
+      "name": "Mandat de Dieu",
+      "cost": "3",
+      "cooldown": "10",
+      "description": "Inflige 200*(0.7+(0.3*Skill Level*Awakening Coefficient))+126% ATK de DGT physiques aux ennemis proches et les étourdit pendant 1 s. Entre ensuite dans l'état [Mandataire divin] pendant 10 s, renforçant ses compétences. [Mandataire divin] : l'ATQ augmente de 314*(0.7+(0.3*Skill Level*Awakening Coefficient)) et les DGT des attaques normales de 100 %. Cet effet ne peut pas être dissipé.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Kasel/skills/3.png"
+    },
+    "4": {
+      "name": "Frappe de la Déesse",
+      "cost": null,
+      "cooldown": null,
+      "description": "L'ATQ augmente de 192*(0.7+(0.3*Skill Level*Awakening Coefficient)) et l'esquive magique de 240. Lorsque [Épée sacrée Ea] est équipée, les dégâts infligés aux ennemis non héros augmentent de 20 % et les dégâts subis de leur part diminuent de 20 %. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Kasel/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "3": {
+      "II": "Augmente l'augmentation d'ATQ de [64ff64]10[-]%.",
+      "III": "Augmente l'augmentation d'ATQ de [64ff64]15[-]%.",
+      "IV": "Augmente l'augmentation d'ATQ de [64ff64]25[-]%."
+    },
+    "4": {
+      "II": "Augmente le taux d'augmentation de DEF de [64ff64]10[-]%.",
+      "III": "Augmente le taux d'augmentation de DEF de [64ff64]15[-]%.",
+      "IV": "Augmente le taux d'augmentation de DEF de [64ff64]25[-]%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Les dégâts augmentent de 50 %.",
+          "thumbnail": "heroes/Kasel/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 1000.",
+          "thumbnail": "heroes/Kasel/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Les dégâts augmentent de 50 %.",
+          "thumbnail": "heroes/Kasel/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "À chaque coup, augmente les DGT physiques subis par la cible de 24 % pendant 5 s.",
+          "thumbnail": "heroes/Kasel/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Réduit les DÉG. PHYS subis de 140% pendant la durée de la compétence.",
+          "thumbnail": "heroes/Kasel/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Les dégâts infligés aux ennemis non héros augmentent de 34 % pendant la durée de l'effet.",
+          "thumbnail": "heroes/Kasel/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Le bonus d'ATQ augmente de 50 %.",
+          "thumbnail": "heroes/Kasel/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "En esquivant, restaure 6 % des PV max toutes les 3 s.",
+          "thumbnail": "heroes/Kasel/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Esquive P +100",
+        "thumbnail": "heroes/Kasel/perks/light.png"
+      },
+      "dark": {
+        "effect": "Inflige des DEG P supplémentaires à hauteur de 60% de l'ATQ lors de l'attaque automatique et celle de compétence. Modifie cet effet en 120% pour un ennemi non-Héros et possède 0.5 sec de temps de recharge.",
+        "thumbnail": "heroes/Kasel/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Aea, l'Épée-Sacrée",
+    "description": "Inflige des DÉG. PHYS supplémentaires égaux à 35% de son ATQ lors d'une attaque. Cet effet s'applique à {0}% aux cibles non-héros et a un temps de recharge de 0.5 sec.",
+    "thumbnail": "heroes/Kasel/uw.png",
+    "story": "Une légendaire Épée sacrée offerte au monde par Lua. Cette relique apparut il y a 100 ans, lorsque les démons envahirent le continent d'Orbis par la Porte dimensionnelle. Selon la légende, le roi héroïque Kyle transperça le cœur du Seigneur des ténèbres Angmund avec cette épée, mettant fin à la guerre. Pourtant, tous deux disparurent, et seule Aea demeura.",
+    "value": {
+      "0": {
+        "0": "160",
+        "1": "192",
+        "2": "230",
+        "3": "276",
+        "4": "331",
+        "5": "400"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Inflige des DÉG. PHYS supplémentaires égaux à 35% de son ATQ lors d'une attaque. Cet effet s'applique à 160% aux cibles non-héros et a un temps de recharge de 0.5 sec.",
+      "1": "Inflige des DÉG. PHYS supplémentaires égaux à 35% de son ATQ lors d'une attaque. Cet effet s'applique à 192% aux cibles non-héros et a un temps de recharge de 0.5 sec.",
+      "2": "Inflige des DÉG. PHYS supplémentaires égaux à 35% de son ATQ lors d'une attaque. Cet effet s'applique à 230% aux cibles non-héros et a un temps de recharge de 0.5 sec.",
+      "3": "Inflige des DÉG. PHYS supplémentaires égaux à 35% de son ATQ lors d'une attaque. Cet effet s'applique à 276% aux cibles non-héros et a un temps de recharge de 0.5 sec.",
+      "4": "Inflige des DÉG. PHYS supplémentaires égaux à 35% de son ATQ lors d'une attaque. Cet effet s'applique à 331% aux cibles non-héros et a un temps de recharge de 0.5 sec.",
+      "5": "Inflige des DÉG. PHYS supplémentaires égaux à 35% de son ATQ lors d'une attaque. Cet effet s'applique à 400% aux cibles non-héros et a un temps de recharge de 0.5 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Couronne de Lumière",
+      "description": "[Lame de jugement] Réduit le temps de recharge de 30% et à chaque utilisation, augmente les DEG de {0}%. L'effet d'augmentation des DEG peut se cumuler jusqu'à 5 fois et ne peut être dissipé.",
+      "thumbnail": "heroes/Kasel/ut/1.png",
+      "story": "La couronne de Kyle, roi d'Orvelia et héros de l'Épée sacrée. Portée par le roi lors de son expédition contre le Seigneur des ténèbres Angmund il y a 100 ans, cette couronne d'or renferme la volonté de la déesse de la lumière. Après la défaite d'Angmund, la Couronne de lumière et l'Épée sacrée Aea furent laissées à l'endroit où le roi avait disparu.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "16",
+          "4": "18",
+          "5": "20"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Lame de jugement] Réduit le temps de recharge de 30% et à chaque utilisation, augmente les DEG de 10%. L'effet d'augmentation des DEG peut se cumuler jusqu'à 5 fois et ne peut être dissipé.",
+        "1": "[Lame de jugement] Réduit le temps de recharge de 30% et à chaque utilisation, augmente les DEG de 12%. L'effet d'augmentation des DEG peut se cumuler jusqu'à 5 fois et ne peut être dissipé.",
+        "2": "[Lame de jugement] Réduit le temps de recharge de 30% et à chaque utilisation, augmente les DEG de 14%. L'effet d'augmentation des DEG peut se cumuler jusqu'à 5 fois et ne peut être dissipé.",
+        "3": "[Lame de jugement] Réduit le temps de recharge de 30% et à chaque utilisation, augmente les DEG de 16%. L'effet d'augmentation des DEG peut se cumuler jusqu'à 5 fois et ne peut être dissipé.",
+        "4": "[Lame de jugement] Réduit le temps de recharge de 30% et à chaque utilisation, augmente les DEG de 18%. L'effet d'augmentation des DEG peut se cumuler jusqu'à 5 fois et ne peut être dissipé.",
+        "5": "[Lame de jugement] Réduit le temps de recharge de 30% et à chaque utilisation, augmente les DEG de 20%. L'effet d'augmentation des DEG peut se cumuler jusqu'à 5 fois et ne peut être dissipé."
+      }
+    },
+    "2": {
+      "name": "Gantelet d’empereur",
+      "description": "[Ruée vaillante] Étourdit la cible pendant 1.5 s et réduit le temps de recharge de {0} % lors d'un coup critique.",
+      "thumbnail": "heroes/Kasel/ut/2.png",
+      "story": "Gantelet imprégné de la bénédiction de Lua, Déesse de la Lumière.\nIl a été transmis par les rois du continent Orbis et renferme les encouragements de la déesse vous permettant d’utiliser Ruée Vaillante vers vos ennemis sans la moindre peur.",
+      "value": {
+        "0": {
+          "0": "5",
+          "1": "6",
+          "2": "7",
+          "3": "8",
+          "4": "9",
+          "5": "10"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Ruée vaillante] Étourdit la cible pendant 1.5 s et réduit le temps de recharge de 5 % lors d'un coup critique.",
+        "1": "[Ruée vaillante] Étourdit la cible pendant 1.5 s et réduit le temps de recharge de 6 % lors d'un coup critique.",
+        "2": "[Ruée vaillante] Étourdit la cible pendant 1.5 s et réduit le temps de recharge de 7 % lors d'un coup critique.",
+        "3": "[Ruée vaillante] Étourdit la cible pendant 1.5 s et réduit le temps de recharge de 8 % lors d'un coup critique.",
+        "4": "[Ruée vaillante] Étourdit la cible pendant 1.5 s et réduit le temps de recharge de 9 % lors d'un coup critique.",
+        "5": "[Ruée vaillante] Étourdit la cible pendant 1.5 s et réduit le temps de recharge de 10 % lors d'un coup critique."
+      }
+    },
+    "3": {
+      "name": "Rune d'autorité",
+      "description": "[Mandat de Dieu] Augmente en supplément l'Esquive de 400 et la Vitesse d'ATQ de {0} pendant la durée de la compétence.",
+      "thumbnail": "heroes/Kasel/ut/3.png",
+      "story": "Une rune prouvant qu’on est un préposé de Lua, déesse de la Lumière. La Rune d’autorité est une relique de l’Église de Lua et elle est offerte au chevalier maniant Aea, l’Épée de Lumière. La Rune d’autorité repousse les ennemis grâce au pouvoir de la lumière et augmente l’ATQ et le moral.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "28",
+          "3": "32",
+          "4": "36",
+          "5": "40"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Mandat de Dieu] Augmente en supplément l'Esquive de 400 et la Vitesse d'ATQ de 20 pendant la durée de la compétence.",
+        "1": "[Mandat de Dieu] Augmente en supplément l'Esquive de 400 et la Vitesse d'ATQ de 24 pendant la durée de la compétence.",
+        "2": "[Mandat de Dieu] Augmente en supplément l'Esquive de 400 et la Vitesse d'ATQ de 28 pendant la durée de la compétence.",
+        "3": "[Mandat de Dieu] Augmente en supplément l'Esquive de 400 et la Vitesse d'ATQ de 32 pendant la durée de la compétence.",
+        "4": "[Mandat de Dieu] Augmente en supplément l'Esquive de 400 et la Vitesse d'ATQ de 36 pendant la durée de la compétence.",
+        "5": "[Mandat de Dieu] Augmente en supplément l'Esquive de 400 et la Vitesse d'ATQ de 40 pendant la durée de la compétence."
+      }
+    },
+    "4": {
+      "name": "Larme de Lua",
+      "description": "[Frappe de la déesse] Augmente le taux d'augmentation de DEF de 360% et les DEG infligés au Boss de {0}%.",
+      "thumbnail": "heroes/Kasel/ut/4.png",
+      "story": "Un bijou couleur d'azur ornant Aea l'Épée sacrée.\nIl renferme une quantité impressionnante de détermination, liée par les larmes de Lua, et possède le mystérieux pouvoir de guider le gardien de l'Épée sacrée sur le chemin de la lumière.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "16",
+          "4": "18",
+          "5": "20"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Frappe de la déesse] Augmente le taux d'augmentation de DEF de 360% et les DEG infligés au Boss de 10%.",
+        "1": "[Frappe de la déesse] Augmente le taux d'augmentation de DEF de 360% et les DEG infligés au Boss de 12%.",
+        "2": "[Frappe de la déesse] Augmente le taux d'augmentation de DEF de 360% et les DEG infligés au Boss de 14%.",
+        "3": "[Frappe de la déesse] Augmente le taux d'augmentation de DEF de 360% et les DEG infligés au Boss de 16%.",
+        "4": "[Frappe de la déesse] Augmente le taux d'augmentation de DEF de 360% et les DEG infligés au Boss de 18%.",
+        "5": "[Frappe de la déesse] Augmente le taux d'augmentation de DEF de 360% et les DEG infligés au Boss de 20%."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant [64ff64]16[-] sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de l'Épée sacrée Aea pendant 10 s, augmentant sa propre ATQ de 40 % et sa DÉF physique de 50 %. L'âme suit Kasel, restaure aux alliés proches des PV égaux à 5 % de leurs PV max pendant 1 s et inflige 150% of ATK de DGT physiques aux ennemis proches pendant 1 s.",
+    "cooldown": "24",
+    "uses": "5",
+    "thumbnail": "heroes/Kasel/sw.png",
+    "advancement": {
+      "1": "Augmente la durée de 15 s.",
+      "2": "Augmente les DEG infligés aux ennemis à portée de 100% et dissipe l'effet positif de la cible touchée."
+    },
+    "story": "Aea, l'Épée-Sacrée, représentait la volonté protectrice de Lua, et le fruit de l'amour que la déesse ressentait pour le monde. Cependant, malgré qu'il soit noyé dans les ténèbres, malgré qu'il ait connu l'atroce vérité, celui qui tenait l'épée atteignit la lumière, et à cet instant, cet amour se matérialisa en un éclat éblouissant qui n'éclairait que lui.\n'-J'ai été créée afin de protéger ce monde. Mais... Ô être noble et droit, Héros au cœur sublime. Je vous présente mes respects. En tant que votre épée, je resterai à vos côtés pour vous aider dans votre mission.'\nElle le bénit avec un sourire rayonnant. Tant que Kasel continuera à vouloir protéger tout le monde, non pas pour obéir à Lua mais de sa propre volonté, elle l'éclairera et l'accompagnera, où qu'il aille."
+  },
+  "splashart": "heroes/Kasel/sa.png",
+  "costumes": "heroes/Kasel/cos",
+  "_localization": {
+    "locale": "fr",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

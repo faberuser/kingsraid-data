@@ -1,0 +1,248 @@
+{
+  "id": "Mediana",
+  "profile": {
+    "name": "Mediana",
+    "title": "The Dangerous Doctor Mediana",
+    "class": "Priest",
+    "position": "Back-100",
+    "attack_range": "4100",
+    "damage_type": "Physical",
+    "gender": "Female",
+    "age": "21",
+    "height": "170",
+    "race": "Human",
+    "constellation": "Armil the Saint",
+    "birth": {
+      "month": 4,
+      "day": 7,
+      "monthName": "Month of Life"
+    },
+    "like": "Medical science, test subjects",
+    "dislike": "Healing magic",
+    "story": "A practitioner of the medical arts developed when priests were short in supply. She inherited her natural medical talent from her father, but her thirst for knowledge crossed the line when she began researching poison. As a result, she was excommunicated from medical society, but her enthusiasm for research was seemingly unaffected. However, her basic respect for life kept her from achieving any experimental results for her poison research. When the Demons appeared, she became overjoyed at finding rare and precious test subjects.",
+    "thumbnail": "heroes/Mediana/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Healing Salve",
+      "cost": "2",
+      "cooldown": "15",
+      "description": "Heals all allies by ??? and makes them immune to the next single hit of DMG.",
+      "thumbnail": "heroes/Mediana/skills/1.png"
+    },
+    "2": {
+      "name": "Special Water Cannon",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Fires a water cannon in a frontal direction, healing allies in range of ??? HP every 0.5 sec, and dealing ??? P.DMG to the enemy.",
+      "thumbnail": "heroes/Mediana/skills/2.png"
+    },
+    "3": {
+      "name": "Strengthening Potion",
+      "cost": "4",
+      "cooldown": "23",
+      "description": "Injects the ally with the highest ATK with a strengthening potion, increasing their ATK by  20%+??? of Mediana's ATK and keeping their HP from falling below 5%.",
+      "thumbnail": "heroes/Mediana/skills/3.png"
+    },
+    "4": {
+      "name": "Mediana's Special Poison",
+      "cost": null,
+      "cooldown": null,
+      "description": "Increases all allies' ATK by ??? and P.Crit Resistance by 200. Upon attack, injects the enemy with a Special Poison that deals a total of ??? P.DMG over 5 sec and reduces P.Crit Resistance by 200. If there are 2 or more allies including herself, Mediana will not be counted as the ally with the highest ATK.",
+      "thumbnail": "heroes/Mediana/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Heal rate is increased by 10 %.",
+      "III": "Heal rate is increased by 15 %.",
+      "IV": "Heal rate is increased by 25 %."
+    },
+    "2": {
+      "II": "DMG and Heal rate are increased by 10 %.",
+      "III": "DMG and Heal rate are increased by 15 %.",
+      "IV": "DMG and Heal rate are increased by 25 %."
+    },
+    "3": {
+      "II": "ATK boost is increased by 10 %.",
+      "III": "ATK boost is increased by 15 %.",
+      "IV": "ATK boost is increased by 25 %."
+    },
+    "4": {
+      "II": "ATK boost is increased by 10 %.",
+      "III": "ATK boost is increased by 15 %.",
+      "IV": "All allies' P.Block is increased by 150."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Boosts healed ally ATK by 10% for 10 sec.",
+          "thumbnail": "heroes/Mediana/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Mana cost is reduced by 1.",
+          "thumbnail": "heroes/Mediana/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "DMG and Heal rate are increased by 40%.",
+          "thumbnail": "heroes/Mediana/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Gain CC immunity while using said skill.",
+          "thumbnail": "heroes/Mediana/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Changes the number of targets to 2.",
+          "thumbnail": "heroes/Mediana/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Crit Chance is boosted by 400.",
+          "thumbnail": "heroes/Mediana/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Increases own DMG dealt to enemies by 20% and allows Mediana to be counted as the ally with the highest ATK.",
+          "thumbnail": "heroes/Mediana/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Target takes 20% increased P.DMG.",
+          "thumbnail": "heroes/Mediana/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATK, DEF, HP +15% / CC Resist +100",
+        "thumbnail": "heroes/Mediana/perks/light.png"
+      },
+      "dark": {
+        "effect": "When Mediana takes DMG, all allies gain 2% ATK. This effect stacks 20 times.",
+        "thumbnail": "heroes/Mediana/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Merciful Threat, Phistonia",
+    "description": "Increases DMG of Special Poison by {0}%, and increases P.DMG the target inflicted with Special Poison takes by {1}% for 3 sec. If the target is hit by an ally other than Mediana, the target takes additional P.DMG equal to {2}% of Mediana's ATK. The additional P.DMG effect activates only once every 1 sec.",
+    "value": {
+      "0": {
+        "0": "40",
+        "1": "48",
+        "2": "57",
+        "3": "69",
+        "4": "83",
+        "5": "100"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "2": {
+        "0": "30",
+        "1": "36",
+        "2": "43",
+        "3": "52",
+        "4": "62",
+        "5": "75"
+      }
+    },
+    "thumbnail": "heroes/Mediana/uw.png",
+    "story": "The story goes back to when Mediana's poison experiments were still being kept secret from her peers. One day, a fellow doctor noticed the giant syringe she had made. Impressed by its sheer size, he asked her:\n'Look at the size of that thing. Shouldn't you at least give it a name?'\nTo this, Mediana replied, nonchalantly:\n'Oh... Just call it... Piston.'",
+    "descriptionByStar": {
+      "0": "Increases DMG of Special Poison by 40%, and increases P.DMG the target inflicted with Special Poison takes by 10% for 3 sec. If the target is hit by an ally other than Mediana, the target takes additional P.DMG equal to 30% of Mediana's ATK. The additional P.DMG effect activates only once every 1 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Strangely Healthy Injection",
+      "description": "[Healing Salve] Increases Heal Rate by 50%, and for 10 sec, increases the targets' Crit DMG by 20%.",
+      "value": {},
+      "thumbnail": "heroes/Mediana/ut/1.png",
+      "story": "A collection of Mediana's special healthy injections. These liquids are all made up of unknown substances and have a mystical glimmer.\nThese were made with folk remedies that Mediana learned from every corner of the continent. Mediana insists that they provide recovery, but their abuse can lead to some extreme results.",
+      "descriptionByStar": {
+        "0": "[Healing Salve] Increases Heal Rate by 50%, and for 10 sec, increases the targets' Crit DMG by 20%.",
+        "1": "[Healing Salve] Increases Heal Rate by 50%, and for 10 sec, increases the targets' Crit DMG by 24%.",
+        "2": "[Healing Salve] Increases Heal Rate by 50%, and for 10 sec, increases the targets' Crit DMG by 29%.",
+        "3": "[Healing Salve] Increases Heal Rate by 50%, and for 10 sec, increases the targets' Crit DMG by 35%.",
+        "4": "[Healing Salve] Increases Heal Rate by 50%, and for 10 sec, increases the targets' Crit DMG by 42%.",
+        "5": "[Healing Salve] Increases Heal Rate by 50%, and for 10 sec, increases the targets' Crit DMG by 50%."
+      }
+    },
+    "2": {
+      "name": "Special Potion of Double Reaction",
+      "description": "[Special Water Cannon] Increases Resistance by 30% and reduces Cooldown by 12%.",
+      "value": {},
+      "thumbnail": "heroes/Mediana/ut/2.png",
+      "story": "A special potion that has two type of effects.\nMediana wondered if there was a way to handle attack and recovery at once. She went to the library and read a dusty book called 'Slimes Can Also Make Cannons.' \nMediana was reading just for fun, but found a way to apply the principle of cannons into her piston. She was then able to invent the Special Potion of Double Reaction and maximize recovery and attack when using Special Water Cannon. Mediana is still thankful to the author of the book who gave her the inspiration.",
+      "descriptionByStar": {
+        "0": "[Special Water Cannon] Increases Resistance by 30% and reduces Cooldown by 12%.",
+        "1": "[Special Water Cannon] Increases Resistance by 30% and reduces Cooldown by 14%.",
+        "2": "[Special Water Cannon] Increases Resistance by 30% and reduces Cooldown by 17%.",
+        "3": "[Special Water Cannon] Increases Resistance by 30% and reduces Cooldown by 21%.",
+        "4": "[Special Water Cannon] Increases Resistance by 30% and reduces Cooldown by 25%.",
+        "5": "[Special Water Cannon] Increases Resistance by 30% and reduces Cooldown by 30%."
+      }
+    },
+    "3": {
+      "name": "Mysterious Potion",
+      "description": "[Strengthening Potion] dispels target's negative effects and target gains immunity to CC for 2 sec.",
+      "value": {},
+      "thumbnail": "heroes/Mediana/ut/3.png",
+      "story": "A special potion that has the teachings of a master. The genius surgeon and expert on anatomy, Doctor Aldini, is Mediana's master. Doctor Aldini recognized her talent early on, and he taught her extraordinary medical knowledge that couldn't have been imagined in the Church of Lua. The unidentifiable potion that was made with her master's special recipe increases the effect of the Strengthening Potion.",
+      "descriptionByStar": {
+        "0": "[Strengthening Potion] dispels target's negative effects and target gains immunity to CC for 2 sec.",
+        "1": "[Strengthening Potion] dispels target's negative effects and target gains immunity to CC for 3 sec.",
+        "2": "[Strengthening Potion] dispels target's negative effects and target gains immunity to CC for 4 sec.",
+        "3": "[Strengthening Potion] dispels target's negative effects and target gains immunity to CC for 5 sec.",
+        "4": "[Strengthening Potion] dispels target's negative effects and target gains immunity to CC for 6 sec.",
+        "5": "[Strengthening Potion] dispels target's negative effects and target gains immunity to CC for 7 sec."
+      }
+    },
+    "4": {
+      "name": "Old Medical Report",
+      "description": "[Mediana's Special Poison] Increases ATK boost by 50%. All allies take 4% reduced P.DMG.",
+      "value": {},
+      "thumbnail": "heroes/Mediana/ut/4.png",
+      "story": "A strange medical test report that Doctor Aldini gave to his student, Mediana.\nFor a long time, he had kept notes about the autopsies he performed, and handed the records to Mediana, hoping that the traditional art of medicine would live on in her hands.\nFilled with joy, she has read it numerous times, and it was this report that made Mediana's Special Poison possible.",
+      "descriptionByStar": {
+        "0": "[Mediana's Special Poison] Increases ATK boost by 50%. All allies take 4% reduced P.DMG.",
+        "1": "[Mediana's Special Poison] Increases ATK boost by 50%. All allies take 4.8% reduced P.DMG.",
+        "2": "[Mediana's Special Poison] Increases ATK boost by 50%. All allies take 5.8% reduced P.DMG.",
+        "3": "[Mediana's Special Poison] Increases ATK boost by 50%. All allies take 7% reduced P.DMG.",
+        "4": "[Mediana's Special Poison] Increases ATK boost by 50%. All allies take 8.4% reduced P.DMG.",
+        "5": "[Mediana's Special Poison] Increases ATK boost by 50%. All allies take 10% reduced P.DMG."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Charges up over 25 sec.",
+    "description": "Summons the Soul of Merciful Threat, Phistonia, increasing ATK of the ally with the highest ATK equal to 20% of Mediana's ATK for 10 sec, and healing the target and Mediana by a total of ??? HP over 10 sec.",
+    "cooldown": "25",
+    "uses": "4",
+    "thumbnail": "heroes/Mediana/sw.png",
+    "advancement": {
+      "1": "For the duration of Skill, Mediana and the target recover 400 Mana every 1 sec.",
+      "2": "ATK Boost is increased by 50%."
+    },
+    "story": "Phistonia, Mediana’s unique gigantic syringe, has contained many different samples and antibodies from the past experiments.\nBecause Phistonia had once contained the blood of Demons, Dragons, and even demonic beasts, the remains of that power from those fluids started forming a maelstrom of power within Phistonia. It got to the point where even Mediana, who had limited knowledge on otherworldly power, could feel that there’s something wrong.\nThe disease needed to be treated. Hence, Mediana decided to ‘treat’ this ‘disease’ before Phistonia turns into something not suited for medical use.\nMediana was swift and precise, living up to her title of a genius.\nShe extracted samples from a Draconic, XXX, and even from XX, which she went through so much trouble gathering...\nAnd when she finally combined these samples from things that cannot be named to make an antibody, it started to shine brightly.\n\nMediana pushed the antibody into Phistonia, and at that moment,\na vortex of power exploded. The mixture inside Phistonia went through evaporation, and an energy in the purest form was born.\nA soul to succeed Mediana’s will to experiment and research, had awakened."
+  },
+  "splashart": "heroes/Mediana/sa.png",
+  "costumes": "heroes/Mediana/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "en",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

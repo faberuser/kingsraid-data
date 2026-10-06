@@ -1,0 +1,268 @@
+{
+  "id": "Frey",
+  "profile": {
+    "name": "Frey",
+    "title": "Priesterin des Lichts Frey",
+    "class": "Priest",
+    "position": "Back-100",
+    "attack_range": "200",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "18",
+    "height": "170",
+    "race": "Menschen",
+    "constellation": "Mertis, die Wächterin",
+    "birth": {
+      "month": 1,
+      "day": 1,
+      "monthName": "Monat des Schutzes"
+    },
+    "like": "Lua; derzeitige Arbeit",
+    "dislike": "Ungerechtigkeit",
+    "story": "Eine angehende Priesterin in den Diensten der Göttin Lua. Die Kirche hat hohe Erwartungen an sie als zukünftige Priesterin. Seit den ersten Tagen ihrer Ausbildung begeisterte sie mit ihrem starken Glauben und ihrer natürlichen Gabe, Luas Macht zu beschwören selbst die Hohepriester. Sie selbst sieht das Priestertum als ihre Bestimmung und ihr gütiges Herz spiegelt ihre Entschlossenheit wider. Für Frevler hat sie allerdings keine Gnade übrig.",
+    "thumbnail": "heroes/Frey/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Wundersames Licht",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Entfernt negative Effekte vom Verbündeten mit den niedrigsten aktuellen LP und stellt 3-mal 529*(0.7+(0.3*Skill Level*Awakening Coefficient))+330.6% ATK LP wieder her. Bei der Heilung des Ziels werden nahe Verbündete zusätzlich um 40% der Heilmenge geheilt.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Frey/skills/1.png"
+    },
+    "2": {
+      "name": "Segen des Lichts",
+      "cost": "3",
+      "cooldown": "16",
+      "description": "Gewährt allen Verbündeten für 4 Sek. einen Schild, der 2080*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 800.6% of ATK Schaden absorbiert. Während der Schild besteht, steigen Heilkraft um 120% und Statuswiderstand um 800.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Frey/skills/2.png"
+    },
+    "3": {
+      "name": "Himmlische Rache",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Fügt dem Ziel und Gegnern in der Nähe 6-mal 177*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 110.8% of ATK Magieschaden zu und blendet sie anschließend für 2 Sek. Diese Fertigkeit erhält 800 zusätzliche Krit.-Chance. Erweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Frey/skills/3.png"
+    },
+    "4": {
+      "name": "Anmut der Göttin",
+      "cost": null,
+      "cooldown": "14",
+      "description": "Stellt alle 20 Sek. 14% der max. LP der 2 Verbündeten mit den niedrigsten aktuellen LP wieder her und erhöht ihre Magie-VERT für 15 Sek. um 60*(0.7+(0.3*Skill Level*Awakening Coefficient)).\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Frey/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Heilungsrate um [64ff64]10[-] %.",
+      "III": "Erhöht Heilungsrate um [64ff64]15[-] %.",
+      "IV": "Erhöht Heilungsrate um [64ff64]25[-] %."
+    },
+    "2": {
+      "II": "Erhöht Schild um [64ff64]10[-] %.",
+      "III": "Erhöht Schild um [64ff64]15[-] %.",
+      "IV": "Erhöht Schild um [64ff64]25[-] %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "4": {
+      "II": "Erhöht Mag. VERT-Boost um [64ff64]10[-] %.",
+      "III": "Erhöht Mag. VERT-Boost um [64ff64]15[-] %.",
+      "IV": "Erhöht Mag. VERT-Boost [64ff64]25[-] %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Die MP-Kosten steigen um 1000, aber die Anzahl der Ziele wird auf 2 geändert.",
+          "thumbnail": "heroes/Frey/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Geheilte Verbündete nehmen 40 % weniger Mag. Schaden für 10 Sek.",
+          "thumbnail": "heroes/Frey/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Die Absorptionsmenge des Schildes steigt um 50 %.",
+          "thumbnail": "heroes/Frey/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Verringert Cooldown um 2 Sek.",
+          "thumbnail": "heroes/Frey/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht den erlittenen Körp. Schaden des Ziels 10 Sek. lang um 10%.",
+          "thumbnail": "heroes/Frey/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Erhöht den erlittenen Magieschaden des Ziels 10 Sek. lang um 10%.",
+          "thumbnail": "heroes/Frey/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Aktiviert zusätzlich [Anmut der Göttin] zu Beginn jedes Kampfes.",
+          "thumbnail": "heroes/Frey/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Reduziert den von Frey erlittenen Magieschaden um 20%.",
+          "thumbnail": "heroes/Frey/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Mag. Blockchance +200",
+        "thumbnail": "heroes/Frey/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht den ANG. aller Verbündeten um 5 % des eigenen ANG.",
+        "thumbnail": "heroes/Frey/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Autorität Gottes, Rosmerta",
+    "description": "Heilt alle 8 Sek. die 4 Verbündeten mit den niedrigsten aktuellen LP um {0}% des ANG und erhöht für 8 Sek. die Krit.-Chance der 4 Verbündeten mit dem höchsten ANG um 200 und ihren Krit. Schaden um {1}%.",
+    "thumbnail": "heroes/Frey/uw.png",
+    "story": "Es heißt, die Engel wären Lua ähnlicher als jedes andere Volk. Ein hochrangiger Engel, Rosmerta, vermachte ihren Kern der Kirche von Lua. Dieser heilige Stab wurde aus der göttlichen Energie des Kerns erzeugt.",
+    "value": {
+      "0": {
+        "0": "80",
+        "1": "96",
+        "2": "115",
+        "3": "138",
+        "4": "165",
+        "5": "200"
+      },
+      "1": {
+        "0": "15",
+        "1": "19",
+        "2": "23",
+        "3": "27",
+        "4": "31",
+        "5": "35"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Heilt alle 8 Sek. die 4 Verbündeten mit den niedrigsten aktuellen LP um 80% des ANG und erhöht für 8 Sek. die Krit.-Chance der 4 Verbündeten mit dem höchsten ANG um 200 und ihren Krit. Schaden um 15%.",
+      "1": "Heilt alle 8 Sek. die 4 Verbündeten mit den niedrigsten aktuellen LP um 96% des ANG und erhöht für 8 Sek. die Krit.-Chance der 4 Verbündeten mit dem höchsten ANG um 200 und ihren Krit. Schaden um 19%.",
+      "2": "Heilt alle 8 Sek. die 4 Verbündeten mit den niedrigsten aktuellen LP um 115% des ANG und erhöht für 8 Sek. die Krit.-Chance der 4 Verbündeten mit dem höchsten ANG um 200 und ihren Krit. Schaden um 23%.",
+      "3": "Heilt alle 8 Sek. die 4 Verbündeten mit den niedrigsten aktuellen LP um 138% des ANG und erhöht für 8 Sek. die Krit.-Chance der 4 Verbündeten mit dem höchsten ANG um 200 und ihren Krit. Schaden um 27%.",
+      "4": "Heilt alle 8 Sek. die 4 Verbündeten mit den niedrigsten aktuellen LP um 165% des ANG und erhöht für 8 Sek. die Krit.-Chance der 4 Verbündeten mit dem höchsten ANG um 200 und ihren Krit. Schaden um 31%.",
+      "5": "Heilt alle 8 Sek. die 4 Verbündeten mit den niedrigsten aktuellen LP um 200% des ANG und erhöht für 8 Sek. die Krit.-Chance der 4 Verbündeten mit dem höchsten ANG um 200 und ihren Krit. Schaden um 35%."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Ei des Engels",
+      "description": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel {0} Sek. lang immun gegen Schaden.",
+      "thumbnail": "heroes/Frey/ut/1.png",
+      "story": "Freys heißgeliebter Schatz.\nFrey trug diese Kristallkugel bei sich, als sie als Kleinkind unter dem Weltenbaum gefunden wurde. Frey nannte sie das Ei des Engels, weil sie wie Engelshaar glänzte. Sie pflegte es ihr ganzes Leben lang.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel 1 Sek. lang immun gegen Schaden.",
+        "1": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel 1,2 Sek. lang immun gegen Schaden.",
+        "2": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel 1,4 Sek. lang immun gegen Schaden.",
+        "3": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel 1,7 Sek. lang immun gegen Schaden.",
+        "4": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel 2,1 Sek. lang immun gegen Schaden.",
+        "5": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel 2,5 Sek. lang immun gegen Schaden."
+      }
+    },
+    "2": {
+      "name": "Wundersame Medaille",
+      "description": "[Segen des Lichts] erhöht die Schildmenge um 50 % und stellt 4 Sek. lang jede Sekunde {0} Mana wieder her.",
+      "thumbnail": "heroes/Frey/ut/2.png",
+      "story": "Medaille, die mit der Offenbarung der Göttin von Yvonne, der Heiligen Jungfrau der Wunder geschaffen wurde. \nDie Medaille der Wunder ist ein Relikt, welches die Magie des Lichts enthält. Es heißt, dass die Heilige Jungfrau Yvonne mit dem durch die Medaille verstärkten Segen des Lichts die Stadt rettete, die von den Dämonen angegriffen wurde.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Segen des Lichts] erhöht die Schildmenge um 50 % und stellt 4 Sek. lang jede Sekunde 100 Mana wieder her.",
+        "1": "[Segen des Lichts] erhöht die Schildmenge um 50 % und stellt 4 Sek. lang jede Sekunde 120 Mana wieder her.",
+        "2": "[Segen des Lichts] erhöht die Schildmenge um 50 % und stellt 4 Sek. lang jede Sekunde 140 Mana wieder her.",
+        "3": "[Segen des Lichts] erhöht die Schildmenge um 50 % und stellt 4 Sek. lang jede Sekunde 170 Mana wieder her.",
+        "4": "[Segen des Lichts] erhöht die Schildmenge um 50 % und stellt 4 Sek. lang jede Sekunde 210 Mana wieder her.",
+        "5": "[Segen des Lichts] erhöht die Schildmenge um 50 % und stellt 4 Sek. lang jede Sekunde 250 Mana wieder her."
+      }
+    },
+    "3": {
+      "name": "Feder des Vergessenen Schlichters",
+      "description": "[Himmlische Rache] Erhöht den erlittenen magischen Schaden des Ziels für 10 Sek. um 20 % und verlängert die Blindheit um {0} Sek.",
+      "thumbnail": "heroes/Frey/ut/3.png",
+      "story": "Feder des Wächters der Sonne. Feder eines Engels, der in der Vergangenheit die Menschheit durch den Kampf gegen die Dämonen gerettet hat. Er ließ seine Feder als Versprechen zurück, wiederzukommen, wenn die Welt erneut im Chaos versinken sollte. Ein Relikt der Kirche von Lua, das heilige Strahlen der Sonne beschwört, um den Feind zu blenden.",
+      "value": {
+        "0": {
+          "0": "0.6",
+          "1": "0.9",
+          "2": "1.2",
+          "3": "1.5",
+          "4": "1.8",
+          "5": "2.1"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Himmlische Rache] Erhöht den erlittenen magischen Schaden des Ziels für 10 Sek. um 20 % und verlängert die Blindheit um 0.6 Sek.",
+        "1": "[Himmlische Rache] Erhöht den erlittenen magischen Schaden des Ziels für 10 Sek. um 20 % und verlängert die Blindheit um 0.9 Sek.",
+        "2": "[Himmlische Rache] Erhöht den erlittenen magischen Schaden des Ziels für 10 Sek. um 20 % und verlängert die Blindheit um 1.2 Sek.",
+        "3": "[Himmlische Rache] Erhöht den erlittenen magischen Schaden des Ziels für 10 Sek. um 20 % und verlängert die Blindheit um 1.5 Sek.",
+        "4": "[Himmlische Rache] Erhöht den erlittenen magischen Schaden des Ziels für 10 Sek. um 20 % und verlängert die Blindheit um 1.8 Sek.",
+        "5": "[Himmlische Rache] Erhöht den erlittenen magischen Schaden des Ziels für 10 Sek. um 20 % und verlängert die Blindheit um 2.1 Sek."
+      }
+    },
+    "4": {
+      "name": "Die Ankunft der Engel",
+      "description": "[Anmut der Göttin] entfernt bei Aktivierung alle negativen Effekte vom Ziel und erhöht die Heilungsrate des Ziels für die Dauer des Skills um {0} %.",
+      "thumbnail": "heroes/Frey/ut/4.png",
+      "story": "Ein altes Geschichtsbuch, das Frey gehört.\nEs ist das erste Buch, das Frey geschenkt bekommen hat, und es erzählt die Geschichte eines Kampfes zwischen Engeln und Dämonen.\nFrey mag vor allem den Teil, in dem die Engel als Sieger hervorgehen und alle Dämonen besiegen.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Anmut der Göttin] entfernt bei Aktivierung alle negativen Effekte vom Ziel und erhöht die Heilungsrate des Ziels für die Dauer des Skills um 20 %.",
+        "1": "[Anmut der Göttin] entfernt bei Aktivierung alle negativen Effekte vom Ziel und erhöht die Heilungsrate des Ziels für die Dauer des Skills um 24 %.",
+        "2": "[Anmut der Göttin] entfernt bei Aktivierung alle negativen Effekte vom Ziel und erhöht die Heilungsrate des Ziels für die Dauer des Skills um 29 %.",
+        "3": "[Anmut der Göttin] entfernt bei Aktivierung alle negativen Effekte vom Ziel und erhöht die Heilungsrate des Ziels für die Dauer des Skills um 35 %.",
+        "4": "[Anmut der Göttin] entfernt bei Aktivierung alle negativen Effekte vom Ziel und erhöht die Heilungsrate des Ziels für die Dauer des Skills um 42 %.",
+        "5": "[Anmut der Göttin] entfernt bei Aktivierung alle negativen Effekte vom Ziel und erhöht die Heilungsrate des Ziels für die Dauer des Skills um 50 %."
+      }
+    }
+  },
+  "splashart": "heroes/Frey/sa.png",
+  "costumes": "heroes/Frey/cos",
+  "_localization": {
+    "locale": "de",
+    "version": "cbt-phase-1",
+    "englishFallbackFields": []
+  }
+}

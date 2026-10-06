@@ -1,0 +1,242 @@
+{
+  "id": "Laudia",
+  "profile": {
+    "name": "Laudia",
+    "title": "Tänzerin der Oase Laudia",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "5800",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "22",
+    "height": "169",
+    "race": "Menschen",
+    "constellation": "Asiphia, die Herrscherin",
+    "birth": {
+      "month": 10,
+      "day": 11,
+      "monthName": "Monat der Freundschaft"
+    },
+    "like": "Laias, Lilia, das Volk der Wüste",
+    "dislike": "Anzusehen, wenn Menschen leiden",
+    "story": "Die Trovatia sind ein Nomadenstamm der Aegina-Wüste, die die Traditionen und die Religion des uralten Wüstenkönigreiches geerbt haben. \nLaudia ist die Tochter des Stammesführers und dient der Priesterin des Wassers, Laias. Außerdem kümmert sie sich für ihren Vater um den Stamm. \nAls sie um Hilfe betete, erwachten der Gottdrache Lilia und ihre Schwester Lilia aus ihrem langen Schlaf und führten sie und ihren Stamm in den Schrein, um sie zu beschützen. \nSeitdem bekämpfte Laudia Dämonen in der Wüste, zusammen mit Zafir, dem Anführer des Mauhata-Stammes der Wüstenkrieger.",
+    "thumbnail": "heroes/Laudia/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Flüstern des Sandes",
+      "cost": "2",
+      "cooldown": "11",
+      "description": "Greift das Ziel im Nahkampf an, verursacht ??? Mag. Schaden, verringert 8 Sek. lang die Blockchance um 500 und den Krit. Widerstand um 500. Ein zusätzlicher Angriff verursacht ??? Mag. Schaden und betäubt 3 Sek. lang.",
+      "thumbnail": "heroes/Laudia/skills/1.png"
+    },
+    "2 (1)": {
+      "name": "Verzauberndes Fließen",
+      "cost": "2",
+      "cooldown": "20",
+      "description": "Erhöht 10 Sek. lang eigenen ANG um ??? und Krit. Schaden um 70 %. Bewegt sich dann eine kurze Strecke vorwärts und verursacht bei Gegnern in Bewegungsreichweite ??? Mag. Schaden und bezaubert sie 5 Sek. lang, wenn der Skill in der Arena benutzt wurde. Kann innerhalb von 5 Sek. nach Benutzung einmalig [Verlockender Hinterhalt] aktivieren.",
+      "thumbnail": "heroes/Laudia/skills/2 (1).png"
+    },
+    "2 (2)": {
+      "name": "Verlockender Hinterhalt",
+      "cost": "2",
+      "cooldown": null,
+      "description": "Greift das Ziel dreimal an und verursacht insgesamt ??? Mag. Schaden. Fügt Bossgegnern und verzauberten Gegnern zusätzlich ??? Mag. Schaden zu und umgeht dabei ihre VERT.",
+      "thumbnail": "heroes/Laudia/skills/2 (2).png"
+    },
+    "3 (1)": {
+      "name": "Tanz der Wüste",
+      "cost": "2",
+      "cooldown": "20",
+      "description": "Greift Gegner in Reichweite 30-mal an und verursacht insgesamt ??? Mag. Schaden. Wirft außerdem die Klingen des Arlaq 30-mal auf zufällige Gegner und verursacht dabei insgesamt ??? Mag. Schaden. Jedes Mal, wenn die Klingen den gleichen Gegner treffen, wird zusätzlich ??? Schaden hinzugefügt. [Blendende Beschleunigung] kann einmal während der Skillaktivierung benutzt werden. Die Klingen des Arlaq treffen bevorzugt bezauberte Gegner.",
+      "thumbnail": "heroes/Laudia/skills/3 (1).png"
+    },
+    "3 (2)": {
+      "name": "Blendende Beschleunigung",
+      "cost": "1",
+      "cooldown": null,
+      "description": "Gewährt 3 Sek. lang Massenkontroll-Immunität und erhöht die ANG-GESCHW. um 800.",
+      "thumbnail": "heroes/Laudia/skills/3 (2).png"
+    },
+    "4": {
+      "name": "Segen der Oase",
+      "cost": null,
+      "cooldown": null,
+      "description": "Senkt Dauer von auf den Nutzer wirkende Massenkontrolle um 30 %. Bei Benutzung eines Skills wird [Segen der Oase] 20 Sek. lang gewährt, so dass VERT-Durchdr. um 30 und VERT um ??? steigt. [Segen der Oase] kann bis zu 10-mal gestapelt werden und kann nicht entfernt werden.",
+      "thumbnail": "heroes/Laudia/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "ANG-Boost und Schaden werden um 10 % erhöht.",
+      "III": "ANG-Boost und Schaden werden um 15 % erhöht.",
+      "IV": "ANG-Boost und Schaden werden um 25 % erhöht."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht VERT-Durchdr. und VERT-Boost um 10 %.",
+      "III": "Erhöht VERT-Durchdr. und VERT-Boost um 15 %.",
+      "IV": "Erhöht VERT-Durchdr. und VERT-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Manakosten sind um 1 reduziert.",
+          "thumbnail": "heroes/Laudia/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Ziel erleidet 10 Sek. lang um 25 % erhöhten Mag. Schaden.",
+          "thumbnail": "heroes/Laudia/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Erhalte nach Bewegung 2 Mana. Erhaltenes Mana wird innerhalb von 10 Sek. verbraucht.",
+          "thumbnail": "heroes/Laudia/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Nach der Nutzung von Verzauberndes Fließen kann innerhalb von 10 Sek. zweimal Verlockender Hinterhalt benutzt werden.",
+          "thumbnail": "heroes/Laudia/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Regeneriert bei jedem Angriff 30 Mana.",
+          "thumbnail": "heroes/Laudia/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Manakosten sind um 1 erhöht, aber der Schaden wird um 100 % gesteigert.",
+          "thumbnail": "heroes/Laudia/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhält 2 Stapel für Segen der Oase.",
+          "thumbnail": "heroes/Laudia/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Senkt erlittenen Schaden für jeden Stapel um 2 %, ausgenommen Schaden durch Helden.",
+          "thumbnail": "heroes/Laudia/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/ANG-GESCHW. +100",
+        "thumbnail": "heroes/Laudia/perks/light.png"
+      },
+      "dark": {
+        "effect": "Gewährt zu Kampfbeginn 7 Sek. lang Massenkontroll-Immunität. Steigert 10 Sek. lang PRÄZ und Massenkontroll-PRÄZ um 300.",
+        "thumbnail": "heroes/Laudia/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Flüsternder Sand, Arlaq",
+    "description": "[Segen der Oase] kann bis zu 14-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um 4 % zu senken.",
+    "value": {},
+    "thumbnail": "heroes/Laudia/uw.png",
+    "story": "Ein seltener Schatz, der die Leidenschaft verkörpert, die wie eine Flamme in der Wüste lodert. \nEin Paar dieser wunderschönen Waffen soll sich im Lager des uralten Gottkönigs befinden. \nWenn man sie schwingt, klingen sie schön wie der Wind. \nEine süße und gleichzeitig tödliche Verlockung, genau wie eine Fata Morgana in der Wüste ...",
+    "descriptionByStar": {
+      "0": "[Segen der Oase] kann bis zu 14-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um 4 % zu senken.",
+      "1": "Segen der Oase kann bis zu 15-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um 4,8 % zu senken.",
+      "2": "Segen der Oase kann bis zu 16-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um 5,8 % zu senken.",
+      "3": "Segen der Oase kann bis zu 17-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um 7 % zu senken.",
+      "4": "Segen der Oase kann bis zu 18-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um 8,4 % zu senken.",
+      "5": "Segen der Oase kann bis zu 20-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um 10 % zu senken."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Fußkettchen der Oase",
+      "description": "[Flüstern des Sandes] kann den Effekt nicht entfernen. Stellt bei einem Krit. Treffer 140 Mana wieder her.",
+      "value": {},
+      "thumbnail": "heroes/Laudia/ut/1.png",
+      "story": "Ein Fußkettchen vom Trovatia-Stamm. Es wurde beim Tanzritual zur Beschwörung des Gottdrachen im Schrein des Flusses verwendet. Nur der Auserwählte der großen Wüste durfte es nach der Prüfung des Sandsturms tragen. Momentan befindet es sich im Besitz von Laudia, der Anführerin von Trovatia. Das Fußkettchen zeigt seine wahre Macht erst, wenn es mehrere Tage lang in der heiligen Oase getränkt wird, die sich nur dem Auserwählten offenbart.",
+      "descriptionByStar": {
+        "0": "[Flüstern des Sandes] kann den Effekt nicht entfernen. Stellt bei einem Krit. Treffer 140 Mana wieder her.",
+        "1": "[Flüstern des Sandes] kann den Effekt nicht entfernen. Stellt bei einem Krit. Treffer 170 Mana wieder her.",
+        "2": "[Flüstern des Sandes] kann den Effekt nicht entfernen. Stellt bei einem Krit. Treffer 210 Mana wieder her.",
+        "3": "[Flüstern des Sandes] kann den Effekt nicht entfernen. Stellt bei einem Krit. Treffer 250 Mana wieder her.",
+        "4": "[Flüstern des Sandes] kann den Effekt nicht entfernen. Stellt bei einem Krit. Treffer 300 Mana wieder her.",
+        "5": "[Flüstern des Sandes] kann den Effekt nicht entfernen. Stellt bei einem Krit. Treffer 360 Mana wieder her."
+      }
+    },
+    "2": {
+      "name": "Heiligtum von Trovatia",
+      "description": "[Verzauberndes Fließen] absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 160 % des ANG. Danach wird ein Schild erschaffen, der immun gegen Massenkontrolle ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+      "value": {},
+      "thumbnail": "heroes/Laudia/ut/2.png",
+      "story": "Eine Truhe mit Artefakten, die für Rituale zur Anbetung des Wasserdrachen benötigt werden. \nEin Teil des Schmucks darauf ist aus „Azurblauem Lapislazuli“ gefertigt, einem Edelstein, der Fülle verkörpert. \nSie ist der größte Schatz von Laudias Vater und wird nur denen verliehen, welche den ganzen Trovatia-Stamm führen können.",
+      "descriptionByStar": {
+        "0": "[Verzauberndes Fließen] absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 160 % des ANG. Danach wird ein Schild erschaffen, der immun gegen Massenkontrolle ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+        "1": "[Verzauberndes Fließen] absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 190 % des ANG. Danach wird ein Schild erschaffen, der immun gegen Massenkontrolle ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+        "2": "[Verzauberndes Fließen] absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 230 % des ANG. Danach wird ein Schild erschaffen, der immun gegen Massenkontrolle ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+        "3": "[Verzauberndes Fließen] absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 270 % des ANG. Danach wird ein Schild erschaffen, der immun gegen Massenkontrolle ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+        "4": "[Verzauberndes Fließen] absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 330 % des ANG. Danach wird ein Schild erschaffen, der immun gegen Massenkontrolle ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+        "5": "[Verzauberndes Fließen] absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 400 % des ANG. Danach wird ein Schild erschaffen, der immun gegen Massenkontrolle ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt."
+      }
+    },
+    "3": {
+      "name": "Schleier der Bezauberung",
+      "description": "[Tanz der Wüste] Skill-Cooldown wird um 30 % gesenkt und die VERT-Durchdr. um 100 erhöht, wenn Skill aktiviert ist.",
+      "value": {},
+      "thumbnail": "heroes/Laudia/ut/3.png",
+      "story": "Ein legendärer Schleier, der nur der besten Tänzerin auf dem Kontinent verliehen wird. \nWenn mit ihm ein Tanz vollführt wird, werden alle Zuschauer bezaubert. \nLaudia setzte den Schleier mit ihrem betörenden Tanz ein und erreichte so alles, was sie wollte.",
+      "descriptionByStar": {
+        "0": "[Tanz der Wüste] Skill-Cooldown wird um 30 % gesenkt und die VERT-Durchdr. um 100 erhöht, wenn Skill aktiviert ist.",
+        "1": "[Tanz der Wüste] Skill-Cooldown wird um 30 % gesenkt und die VERT-Durchdr. um 120 erhöht, wenn Skill aktiviert ist.",
+        "2": "[Tanz der Wüste] Skill-Cooldown wird um 30 % gesenkt und die VERT-Durchdr. um 140 erhöht, wenn Skill aktiviert ist.",
+        "3": "[Tanz der Wüste] Skill-Cooldown wird um 30 % gesenkt und die VERT-Durchdr. um 170 erhöht, wenn Skill aktiviert ist.",
+        "4": "[Tanz der Wüste] Skill-Cooldown wird um 30 % gesenkt und die VERT-Durchdr. um 210 erhöht, wenn Skill aktiviert ist.",
+        "5": "[Tanz der Wüste] Skill-Cooldown wird um 30 % gesenkt und die VERT-Durchdr. um 250 erhöht, wenn Skill aktiviert ist."
+      }
+    },
+    "4": {
+      "name": "Ohrringe des Gottdrachen",
+      "description": "[Segen der Oase] erhöht den VERT-Boost um 50 %. Nach dem Erlangen von Skill wird die ANG-GESCHW. für 5 Sek. um 100 erhöht.",
+      "value": {},
+      "thumbnail": "heroes/Laudia/ut/4.png",
+      "story": "Ohrringe, die der Gottdrache Laias Laudia überreicht hat. Am letzten Tag, an dem Laudia das Ritual für den Gottdrachen beim Schrein des Flusses durchführte, öffnete Laias endlich ihre Augen.\nDaraufhin erschienen rund um Laudia Wasserkugeln, die in einem grellen blauen Licht erstrahlten.\nDie Kugeln landeten auf Laudias Händen und wurden zu wunderschönen Ohrringen.\nEs war ein von der Oase gesegnetes Geschenk und ein Zeichen der Dankbarkeit, das Laias Laudia für die schmerzvollen Mühen überreichte, die sie auf sich genommen hatte, um Laias wieder zurückzubringen.",
+      "descriptionByStar": {
+        "0": "[Segen der Oase] erhöht den VERT-Boost um 50 %. Nach dem Erlangen von Skill wird die ANG-GESCHW. für 5 Sek. um 100 erhöht.",
+        "1": "[Segen der Oase] erhöht den VERT-Boost um 50 %. Nach dem Erlangen von Skill wird die ANG-GESCHW. für 5 Sek. um 120 erhöht.",
+        "2": "[Segen der Oase] erhöht den VERT-Boost um 50 %. Nach dem Erlangen von Skill wird die ANG-GESCHW. für 5 Sek. um 140 erhöht.",
+        "3": "[Segen der Oase] erhöht den VERT-Boost um 50 %. Nach dem Erlangen von Skill wird die ANG-GESCHW. für 5 Sek. um 170 erhöht.",
+        "4": "[Segen der Oase] erhöht den VERT-Boost um 50 %. Nach dem Erlangen von Skill wird die ANG-GESCHW. für 5 Sek. um 210 erhöht.",
+        "5": "[Segen der Oase] erhöht den VERT-Boost um 50 %. Nach dem Erlangen von Skill wird die ANG-GESCHW. für 5 Sek. um 250 erhöht."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 21 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Flüsternder Sand Arlaq für 6 Sek. und jede Sek. wird 500 eigene Mana regeneriert. Die ANG-GESCHW von Feinden in ringförmiger Reichweite wird um 120 verringert. Der ANG-GESCHW-Reduktionseffekt kann bis zu 5-mal gestapelt werden. Der Mag. Schaden des Gegners mit 5 Stapel wird für 7 Sek. um 50 % erhöht und der Gegner versteinert.",
+    "cooldown": "22",
+    "uses": "6",
+    "thumbnail": "heroes/Laudia/sw.png",
+    "advancement": {
+      "1": "Erhöht eigenen ANG um 40 % während der Wirkungsdauer.",
+      "2": "Die pos. Effekte von Gegner in Reichweite werden jede Sek. entfernt und ??? Mag. Schaden zugefügt."
+    },
+    "story": "Arlaq bekam von Cain die Kraft der Seelenwaffe ... Als Laudia den erweckten Arlaq bekam, roch sie den schwachen, aber verlockenden Geruch. Aber nach wenigen Zwischenfällen roch Arlaq nicht mehr wie zuvor. Laudia hat gemerkt, dass sie Arlaq perfekt erwecken muss, wenn sie diesen Duft erneut riechen will. Nach dem harten Training war es soweit. Als Laudia alles vergaß und sich mit dem Sandsturm auf einen Tanz einließ, roch sie einen wunderschönen Duft in ihren Händen. Nach dem Tanz erkannte Laudia, dass sie einen Schwerttanz beherrschte. In diesem Moment wurde der beste Tänzer in der Wüste geboren, und der Arlaq, der Laudia akzeptiert, hat gezeigt, dass er die beste Kraft hat. Jetzt ist Arlaq nicht nur ein verlockender Geruch, sondern es riecht nach einem sinnlichen Geruch, dass den Menschen sein Bewusstsein verlieren lassen kann. Der Duft, den niemand ablehnen kann, lockt das Sehvermögen und den Geruchssinn mit Laudias Tanz an."
+  },
+  "splashart": "heroes/Laudia/sa.png",
+  "costumes": "heroes/Laudia/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

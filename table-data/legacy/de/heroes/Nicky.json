@@ -1,0 +1,278 @@
+{
+  "id": "Nicky",
+  "profile": {
+    "name": "Nicky",
+    "title": "Grausame Kerkermeisterin Nicky",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "9500",
+    "damage_type": "Physical",
+    "gender": "Weiblich",
+    "age": "24",
+    "height": "183",
+    "race": "Menschen",
+    "constellation": "Mira, die Bardin",
+    "birth": {
+      "month": 6,
+      "day": 23,
+      "monthName": "Monat der Liebe"
+    },
+    "like": "Einfache Dinge, geordnete Dinge",
+    "dislike": "Aufmüpfige Unruhestifter",
+    "story": "Anführerin der Wache, die den Kerker von Orvel führt.\nFrüher war sie eine Kriegerin in der Arena von Orvel und die erbittertste Rivalin Gladis. Als Gladi sich mehr und mehr um den Shop kümmerte, anstatt in der Arena zu kämpfen, verlor auch Nicky das Interesse daran und suchte sich eine neue Arbeit.\nMit ihrem durchaus vorhandenen Talent im Trainieren von Monstern bewarb sie sich um die gefährliche, aber hochbezahlte Stelle der Kerkermeisterin.\nObwohl die Häftlinge aus Furcht vor ihr kaum etwas anstellten, verloren sie gelegentlich den Verstand und drehten durch.\nBei jedem dieser Vorfälle wurde durch ihre Keule eine Menge Blut vergossen, sodass die Gefangenen wieder vor Furcht erzitterten.",
+    "thumbnail": "heroes/Nicky/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Streitkolben der Rehabilitation",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Fügt feindlichen Zielen und Feinden in unmittelbarer Nähe ??? Körp. Schaden zu und betäubt sie für 1 Sek. Das Ziel wird für 7 Sek. zum Abrüsten gezwungen. Die Körp. Blockchance von Feinden, die beim Abrüsten sind, wird auf 0 gesetzt. Dieser Effekt kann nicht entfernt werden.",
+      "thumbnail": "heroes/Nicky/skills/1.png"
+    },
+    "2": {
+      "name": "Gnadenloser Sturm",
+      "cost": "3",
+      "cooldown": "14",
+      "description": "Greift nahe Feinde in ringförmiger Reichweite 7-mal mit der Waffe an. Jeder Treffer fügt ihnen Körp. Schaden in Höhe von ??? + 1 % von Nickys max. TP und betäubt sie für 1.5 Sek., wobei die Körp. VERT des Ziels 5 Sek. lang um 30 % verringert wird. Wenn das Ziel kein Held ist, wird der Schaden um 100 % erhöht und der erlittene Körp. Schaden wird 5 Sek. lang um 50 % erhöht.",
+      "thumbnail": "heroes/Nicky/skills/2.png"
+    },
+    "3": {
+      "name": "Letzte Hinrichtung",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Nachdem Haltung angenommen und konzentriert wird, werden die Feinde in der Front angegriffen. Beseitigt gute Effekte, greift sie mit Körp. Schaden für ??? an und wirft sie 6 Sek. lang um, indem sie weggeblasen werden. Wenn sie keine Helden sind, schadet es ??? mehr Körp. Schaden. Bei diesem Skill steigt PRÄZ und Massenkontroll-PRÄZision um 500.",
+      "thumbnail": "heroes/Nicky/skills/3.png"
+    },
+    "4": {
+      "name": "Blutbadinstinkt",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht ANG um ??? und die Krit. Chance um 300. Wenn die TP auf 50 % oder darunter fallen, wird der Effekt [Grausamer Wahnsinn] aktiviert. Bei Aktivierung von [Grausamer Wahnsinn] werden alle eigenen negativen Effekte entfernt, der ANG wird 8 Sek. lang um ??? und die ANG-GESCHW. um 500 erhöht, der erhaltenen Schaden wird um 50 % verringert, wobei Massenkontroll-Immunität gewährt wird. Dieser Effekt aktiviert sich nur einmal pro Kampf und kann nicht entfernt werden.",
+      "thumbnail": "heroes/Nicky/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Das Cooldown des Abrüsten-Effekts wird um 3 Sek. erhöht.",
+          "thumbnail": "heroes/Nicky/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Nicky/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Entfernt bei jedem Treffer positive Effekte von Feinden.",
+          "thumbnail": "heroes/Nicky/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Verringert mit jedem Treffer die Heilungsrate des Ziels 10 Sek. lang um 5 %. Dieser Effekt kann bis zu 7-mal gestapelt werden.",
+          "thumbnail": "heroes/Nicky/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Nicky/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Erhöht die Manakosten um 1 und den Schaden um 100 %.",
+          "thumbnail": "heroes/Nicky/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht die Dauer von Grausamer Wahnsinn um 5 Sek.",
+          "thumbnail": "heroes/Nicky/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erholt 3 Mana-Kugel, wenn der Grausamer Wahnsinn-Effekt aktiviert wird.",
+          "thumbnail": "heroes/Nicky/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/ANG-GESCHW. +100",
+        "thumbnail": "heroes/Nicky/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht den Massenkontroll-Widerstand um 500 und verringert die erhaltene Massenkontroll-Wirkungsdauer von Nicky um 50 %.",
+        "thumbnail": "heroes/Nicky/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Streitkolben der Rehabilitation, Hartnon",
+    "description": "Skill-ANG erhöhen 5 Sek. lang den erlittenen Körp. Schaden des Ziels um {0} % und verringern die MP pro Sek. um {1}. Hinterlässt danach bei Nicky den Effekt [Sadismus]. [Sadismus] kann einmal alle 2 Sek. erhalten und kann bis zu 5-mal gestapelt werden. Bei max. Stapelung werden alle Stapel verbraucht und dem Gegner wird 5 Sek. lang [Masochismus] verleiht, wobei während der Wirkungsdauer der Massenkontroll-Widerstand um {2} gesenkt und die Massenkontroll-Dauer um {3} % erhöht wird. Die [Sadismus] und [Masochismus] Effekte können nicht entfernt werden. Verursacht bei Skill-ANG in der Arena zusätzlichen Körp. Schaden in Höhe von {4} % von den max. TP des Ziels.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "80",
+        "1": "100",
+        "2": "120",
+        "3": "140",
+        "4": "170",
+        "5": "200"
+      },
+      "2": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      },
+      "3": {
+        "0": "10",
+        "1": "13",
+        "2": "16",
+        "3": "20",
+        "4": "25",
+        "5": "30"
+      },
+      "4": {
+        "0": "0.8",
+        "1": "1",
+        "2": "1.2",
+        "3": "1.4",
+        "4": "1.7",
+        "5": "2"
+      }
+    },
+    "thumbnail": "heroes/Nicky/uw.png",
+    "story": "Streitkolben, der von der Anführerin der Wache geführt wurde, um die Gefangenen unter Kontrolle zu halten.\nEr ist als Streitkolben der Rehabilitation für aufmüpfige Monster in Gefangenschaft bekannt.\nVon Generation zu Generation wurde er von den Kerkermeistern in Orvelia weitergereicht, doch kurz nachdem Nicky die neue Anführerin wurde, brach ein Teil des Streitkolbens ab, als sie ihn gnadenlos gegen die Gefangenen führte.\n\n– ... ... ...\n\nSie starrte auf den kaputten Streitkolben, als ihr Blick zu den Gefangenen wanderte und auf die Höllenbestie Hartnon fiel, deren gesamter Körper mit Hörnern bedeckt war.\nEin kaltherziges Lächeln breitete sich auf ihrem Gesicht aus.\n\n– Du da! Du hast einen hübschen Augapfel für ein Stück Abschaum!\n\nMit der Zeit wurde aus dem Auge des Monsters dank den fähigen Händen von Schmied Jin Nickys neuer Streitkolben.\nEr war perfekt für sie.\nVon den Hörnern, mit denen der Streitkolben besetzt war, ging ein schrecklicher Fluch aus, während die durch das Opfer des Monsters erbrachte Iris für einen die Seele zermürbenden Schmerz sorgte.\nDie Insassen fingen an, den Streitkolben „Hartnon“ zu nennen, zu Ehren des Biests, das für die Waffe sein Leben gab.\nJedes Mal, wenn Nicky den neuen Streitkolben gegen die Gefangenen einsetzte, fühlte sie eine Welle unvergleichlicher Freude in sich aufsteigen.",
+    "descriptionByStar": {
+      "0": "Skill-ANG erhöhen 5 Sek. lang den erlittenen Körp. Schaden des Ziels um 20 % und verringern die MP pro Sek. um 80. Hinterlässt danach bei Nicky den Effekt [Sadismus]. [Sadismus] kann einmal alle 2 Sek. erhalten und kann bis zu 5-mal gestapelt werden. Bei max. Stapelung werden alle Stapel verbraucht und dem Gegner wird 5 Sek. lang [Masochismus] verleiht, wobei während der Wirkungsdauer der Massenkontroll-Widerstand um 200 gesenkt und die Massenkontroll-Dauer um 10 % erhöht wird. Die [Sadismus] und [Masochismus] Effekte können nicht entfernt werden. Verursacht bei Skill-ANG in der Arena zusätzlichen Körp. Schaden in Höhe von 0.8 % von den max. TP des Ziels.",
+      "1": "Skilltreffer erhöhen den erlittenen Körp. Schaden des Ziels 5 Sek. lang um 20 % und verringern pro Sek. die MP um 80.",
+      "2": "Skilltreffer erhöhen den erlittenen Körp. Schaden des Ziels 5 Sek. lang um 24 % und verringern pro Sek. die MP um 100.",
+      "3": "Skilltreffer erhöhen den erlittenen Körp. Schaden des Ziels 5 Sek. lang um 29 % und verringern pro Sek. die MP um 120.",
+      "4": "Skilltreffer erhöhen den erlittenen Körp. Schaden des Ziels 5 Sek. lang um 42 % und senken pro Sek. das Mana um 170.",
+      "5": "Skilltreffer erhöhen den erlittenen Körp. Schaden des Ziels 5 Sek. lang um 50 % und senken pro Sek. das Mana um 200."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Spezialstiefel des Kerkers",
+      "description": "[Streitkolben der Rehabilitation] verringert die Körp. VERT des getroffenen Feindes für 10 Sek. um 25 % und fügt der Heilungsrate einen Reduktionseffekt in Höhe von 30 % hinzu, wenn im Abrüsten-Zustand.",
+      "value": {},
+      "thumbnail": "heroes/Nicky/ut/1.png",
+      "story": "Ein Paar Stiefel, die aus dem Leder von Monstern hergestellt wurden, die im Kerker wüteten.\nAn ihrem ersten Tag als Anführerin der Wache musste Nicky mitansehen, wie die Monster den gesamten Kerker verwüsteten. Als sich die Monster auf sie stürzten, holte sie mit ihrem Streitkolben aus und zerschmetterte ihre Schädel mit einem kaltherzigen Lächeln im Gesicht. Anschließend häutete sie die Monster und fertigte aus ihrem Leder ein Paar Stiefel an.\nSeither hat sie nie wieder Probleme mit aufmüpfigen Gefangenen im Kerker gehabt.",
+      "descriptionByStar": {
+        "0": "[Streitkolben der Rehabilitation] verringert die Körp. VERT des getroffenen Feindes für 10 Sek. um 25 % und fügt der Heilungsrate einen Reduktionseffekt in Höhe von 30 % hinzu, wenn im Abrüsten-Zustand.",
+        "1": "[Streitkolben der Rehabilitation] verringert die Körp. VERT des getroffenen Feindes für 10 Sek. um 25 % und fügt der Heilungsrate einen Reduktionseffekt in Höhe von 36 % hinzu, wenn im Abrüsten-Zustand.",
+        "2": "[Streitkolben der Rehabilitation] verringert die Körp. VERT des getroffenen Feindes für 10 Sek. um 25 % und fügt der Heilungsrate einen Reduktionseffekt in Höhe von 43 % hinzu, wenn im Abrüsten-Zustand.",
+        "3": "[Streitkolben der Rehabilitation] verringert die Körp. VERT des getroffenen Feindes für 10 Sek. um 25 % und fügt der Heilungsrate einen Reduktionseffekt in Höhe von 52 % hinzu, wenn im Abrüsten-Zustand.",
+        "4": "[Streitkolben der Rehabilitation] verringert die Körp. VERT des getroffenen Feindes für 10 Sek. um 25 % und fügt der Heilungsrate einen Reduktionseffekt in Höhe von 62 % hinzu, wenn im Abrüsten-Zustand.",
+        "5": "[Streitkolben der Rehabilitation] verringert die Körp. VERT des getroffenen Feindes für 10 Sek. um 25 % und fügt der Heilungsrate einen Reduktionseffekt in Höhe von 75 % hinzu, wenn im Abrüsten-Zustand."
+      }
+    },
+    "2": {
+      "name": "Anhänger des Kriegsgotts",
+      "description": "[Gnadenloser Sturm] erhöht den Schaden um 50 % und verringert den Cooldown für jeden betroffenen Feind um 1,6 %.",
+      "value": {},
+      "thumbnail": "heroes/Nicky/ut/2.png",
+      "story": "Ein Anhänger aus dem Kampf gegen Gladi, Nickys Erzfeind.\nDer Kriegsgott vom Orbis-Kontinent hat in der Vergangenheit den Anhänger mit seiner Kraft belegt, sodass er für eventuelle Krisen in der Zukunft eingesetzt werden kann.\nIm Juwel lodert eine Flamme, die so stark ist wie die Seele eines Kämpfers.\nNachdem der Anhänger im Auktionshaus eintraf, kämpften Gladi und Nick Tag und Nacht um ihn, doch keiner von ihnen konnte die Oberhand gewinnen.\nWar das, was als Nächstes passierte, eine Laune der Göttin? Als der Kampf besonders brutal wurde, lag plötzlich der Duft einer Silberrebe in der Luft. Gladi gab den Kampf auf und rannte davon.\nNicky hatte den Anhänger schließlich gewonnen.",
+      "descriptionByStar": {
+        "0": "[Gnadenloser Sturm] erhöht den Schaden um 50 % und verringert den Cooldown für jeden betroffenen Feind um 1,6 %.",
+        "1": "[Gnadenloser Sturm] erhöht den Schaden um 50 % und verringert den Cooldown für jeden betroffenen Feind um 1,9 %.",
+        "2": "[Gnadenloser Sturm] erhöht den Schaden um 50 % und verringert den Cooldown für jeden betroffenen Feind um 2,3 %.",
+        "3": "[Gnadenloser Sturm] erhöht den Schaden um 50 % und verringert den Cooldown für jeden betroffenen Feind um 2,7 %.",
+        "4": "[Gnadenloser Sturm] erhöht den Schaden um 50 % und verringert den Cooldown für jeden betroffenen Feind um 3,3 %.",
+        "5": "[Gnadenloser Sturm] erhöht den Schaden um 50 % und verringert den Cooldown für jeden betroffenen Feind um 4 %."
+      }
+    },
+    "3": {
+      "name": "Gnadenloser Schädelschlagring",
+      "description": "[Letzte Hinrichtung] verringert den Cooldown um 30 % und erhöht den pro Einsatz dem Boss zugefügten Schaden um 4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+      "value": {},
+      "thumbnail": "heroes/Nicky/ut/3.png",
+      "story": "Ein seltsamer Schlagring, den Cassandra gekauft hatte, als sie in Orvelia zu Besuch war.\nCassandra traf in der Taverne Nicky, die sich über ihre ungehorsamen Gefangenen beschwerte, und verkaufte ihr diesen Gegenstand.\nLaut Cassandra bestehen die Schädel des Schlagrings aus den Knochen von Hochzauberer. Der Schädel mit den roten Augen soll bei Feinden Halluzinationen hervorrufen und sie bis in alle Ewigkeiten foltern.\nNicky setzt ihn zusammen mit ihrem Kolben ein, um die Verbrecher zu bestrafen.",
+      "descriptionByStar": {
+        "0": "[Letzte Hinrichtung] verringert den Cooldown um 30 % und erhöht den pro Einsatz dem Boss zugefügten Schaden um 4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "1": "[Letzte Hinrichtung] verringert den Cooldown um 30 % und erhöht den pro Einsatz dem Boss zugefügten Schaden um 4,8 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "2": "[Letzte Hinrichtung] verringert den Cooldown um 30 % und erhöht den pro Einsatz dem Boss zugefügten Schaden um 5,8 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "3": "[Letzte Hinrichtung] verringert den Cooldown um 30 % und erhöht den pro Einsatz dem Boss zugefügten Schaden um 7 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "4": "[Letzte Hinrichtung] verringert den Cooldown um 30 % und erhöht den pro Einsatz dem Boss zugefügten Schaden um 8,4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "5": "[Letzte Hinrichtung] verringert den Cooldown um 30 % und erhöht den pro Einsatz dem Boss zugefügten Schaden um 10 %. Dieser Effekt kann bis zu 10-mal gestapelt werden."
+      }
+    },
+    "4": {
+      "name": "Unheilvoller Nagellack",
+      "description": "[Blutbadinstinkt] verringert bei Aktivierung von [Grausamer Wahnsinn] sofort den Cooldown aller eigenen Skills um {0} % und fügt während der Dauer ein 50 % Heilungsrate-Boost hinzu.",
+      "value": {
+        "0": {
+          "0": "30",
+          "1": "36",
+          "2": "43",
+          "3": "52",
+          "4": "63",
+          "5": "75"
+        }
+      },
+      "thumbnail": "heroes/Nicky/ut/4.png",
+      "story": "Ein schwarzer Nagellack, den Nicky am Tag der Müllentsorgung im Kerker benutzt.\nNicky hasste es, wenn das Blut nach dem „Beseitigen des Mülls“ auf ihren Nägeln klebte.\nDas Blut der verschiedenen Monster hatte unterschiedliche Farben und ihre Nägel waren nach der Arbeit immer sehr schmutzig.\nEines Tages, als sie ihrem Frust wegen ihrer schmutzigen Nägel gerade freien Lauf ließ, sah sie eine Dame mit verschiedenfarbigen Nägeln und da kam ihr eine Idee.\nWenn sie nicht wollte, dass die unterschiedlichen Farben ihre Nägel beschmutzten, musste sie sie nur mit einer dunklen Farbe bemalen!\nSie wählte das Monster mit dem dunkelsten Blut aus und stellte einen speziellen Nagellack her. Jetzt benutzt sie ihn vor jeder Müllentsorgung.\nWenn sie mit schwarzen Nägeln in den Kerker kommt, beginnen die Gefangenen vor Angst zu zittern.",
+      "descriptionByStar": {
+        "0": "[Blutbadinstinkt] verringert bei Aktivierung von [Grausamer Wahnsinn] sofort den Cooldown aller eigenen Skills um 30 % und fügt während der Dauer ein 50 % Heilungsrate-Boost hinzu.",
+        "1": "[Blutbadinstinkt] kann den Grausamer Wahnsinn-Effekt nicht entfernen. Bei Aktivierung wird der Cooldown aller Skills sofort um 24 % verringert.",
+        "2": "[Blutbadinstinkt] kann den Grausamer Wahnsinn-Effekt nicht entfernen. Bei Aktivierung wird der Cooldown aller Skills sofort um 29 % verringert.",
+        "3": "[Blutbadinstinkt] kann den Grausamer Wahnsinn-Effekt nicht entfernen. Bei Aktivierung wird der Cooldown aller Skills sofort um 35 % verringert.",
+        "4": "[Blutbadinstinkt] kann den Grausamer Wahnsinn-Effekt nicht entfernen. Bei Aktivierung wird der Cooldown aller Skills sofort um 42 % verringert.",
+        "5": "[Blutbadinstinkt] kann den Grausamer Wahnsinn-Effekt nicht entfernen. Bei Aktivierung wird der Cooldown aller Skills sofort um 50 % verringert."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 5-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört die Seele von Streitkolben der Rehabilitation, Hartnon und fügt Gegnern in der Nähe ??? Körp. Schaden zu. Danach werden die Gegner bei einem Normal- und Skill-ANG 10 Sek. lang unter einem nicht entfernbaren [Groll Hartnons] Effekt gestellt, wobei 10 Sek. lang der gegn. erlittene Körp. Schaden um 2 % erhöht und der ANG um 2 % verringert wird. Nach 10 Sek. werden alle Gegner angegriffen, wobei ihnen ??? Körp. Schaden zugefügt wird und sie für 5 Sek. betäubt werden. [Groll Hartnons] kann bis zu 15-mal gestapelt werden. Handelt es sich dabei um ein Bossmonster, so werden alle Effekte um das 2-fache erhöht.",
+    "cooldown": "20",
+    "uses": "6",
+    "thumbnail": "heroes/Nicky/sw.png",
+    "advancement": {
+      "1": "Aktivierungsbedingungen werden auf 4 geändert und der Körp. Schaden-Boost wird auf 3 % geändert.",
+      "2": "Verwendet bei der Seelenbeschwörung 8 Sek. lang den Effekt [Grausamer Wahnsinn] und entfernt nach 10 Sek. die positiven Effekte aller Gegner."
+    },
+    "story": "Ein Tag im Leben von Hartnon bestand darin, dass er vor Wut tobte und auf Nicky zielte.\nHartnon hatte immer den Drang, Nickys Augen gnadenlos herausauszustechen, aber in Wirklichkeit war er Nickys Sklave.\nSelbst als Hartnon zum Streitkolben wurde, tobte es vor Wut, als Nicky dies nicht verlangte oder wünschte, und breitete seinen Fluch aus, um sie zu ärgern.\nHartnon sorgte für derartiges Aufsehen, dass die Gefangenen des Kerkers Hartnon mehr fürchteten als Nicky.\n\nSeltsamerweise war Nicky immer so ruhig und tat nichts, um Hartnon aufzuhalten ...\nHartnon fühlte sich ignoriert und explodierte eines Tages vor Wut und fragte bei Nicky nach.\n\n- Warum bist du nicht böse auf mich?\n\n- Wenn dies der einzige Weg ist, um deinen Ärger auszulassen und dich zu beruhigen, so mach weiter.\n- Egal was du machst, ich werde dich immer als mein Begleiter respektieren.\nAber es wäre besser mit mir zusammen zu arbeiten, um diesen Abschaum hier zu beseitigen.\n\nNicky ließ auch danach Hartnon machen, was er will und Hartnon sah Nicky schließlich in ein anderes Licht.\nHartnon wurde klar, dass Nicky von Anfang an keine Verrückte war, sondern eine leidenschaftliche Kampfsportlerin, die sich immer bemüht, ihren Feinden zu helfen.\n\nLetztendlich akzeptierte Hartnon sein Schicksal und beschloss, Nicky zu unterstützen.\n- Sehr gut. Ich habe wohl keine andere Wahl. Lass es uns mit ihnen gemeinsam aufnehmen, Partner."
+  },
+  "splashart": "heroes/Nicky/sa.png",
+  "costumes": "heroes/Nicky/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

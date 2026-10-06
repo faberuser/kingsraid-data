@@ -1,0 +1,230 @@
+{
+  "id": "Artemia",
+  "profile": {
+    "name": "Artemia",
+    "title": "Herrscherin des Lichts Artemia",
+    "class": "Wizard",
+    "position": "Back-500",
+    "attack_range": "6400",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "19",
+    "height": "165",
+    "race": "Menschen",
+    "constellation": "Lasiphil, die Prophetin",
+    "birth": {
+      "month": 3,
+      "day": 22,
+      "monthName": "Monat der Einsicht"
+    },
+    "like": "Süße Kuchen; die Augen gerechter Ritter",
+    "dislike": "Dämonen",
+    "story": "Penteonia ist ein uneinnehmbares Königreich. Nicht einmal die Dämonenarmee konnte vor 100 Jahren ihre Verteidigung überwinden. Die Herrscherin über dieses eiserne Königreich ist Artemia, die Herrscherin des Lichts. Seit ihrer Kindheit lebte sie mit der Last der Verantwortung durch den Thron, den sie eines Tages besteigen würde. Als sie schließlich erkannte, dass ihr Königreich nur durch die Opfer ihres Volkes den Sieg erringen konnte, schwor sie, sich niemals vor ihrer Pflicht zu drücken. Mutig und beherzt begegnete sie dem Druck der königlichen Verantwortung. Penteonia war historisch gesehen stets ein eigennütziges Königreich und nur an seiner eigenen Sicherheit interessiert. Jetzt, wo Artemia herrscht, ist all das im Wandel begriffen.",
+    "thumbnail": "heroes/Artemia/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Lichtsäule",
+      "cost": "2",
+      "cooldown": "7",
+      "description": "Platziert eine Lichtsäule an der Stelle des Gegners, die über 3 Sek. insgesamt ??? Mag. Schaden verursacht und die ANG des Gegners für 10 Sek. um 20 % reduziert.",
+      "thumbnail": "heroes/Artemia/skills/1.png"
+    },
+    "2": {
+      "name": "Krititsche Intensität",
+      "cost": "3",
+      "cooldown": "14",
+      "description": "Fügt Feinden in einer geraden Linie ??? Mag. Schaden zu. Dieser Angriff gibt zusätzlich 100 % auf den Krit. Schadensmodifizierer.",
+      "thumbnail": "heroes/Artemia/skills/2.png"
+    },
+    "3": {
+      "name": "Lichturteil",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Greift den Gegner 3 Mal an und verursacht ??? Mag. Schaden, sowie Betäuben für 5 Sek. Fügt pro Treffer zus. ??? Mag. Schaden zu, wenn das Ziel kein Held ist. Dieser Skill-Cooldown ist um 30 % reduziert, wenn der Gegner dadurch getötet wird.",
+      "thumbnail": "heroes/Artemia/skills/3.png"
+    },
+    "4": {
+      "name": "Lichtsegen",
+      "cost": null,
+      "cooldown": null,
+      "description": "60 %-Chance, dass das Ziel und weitere Feinden in der Nähe ??? Mag. Schaden erleiden, während Artemia 1 Stapel für Lichtsegen erhält. Dieser Skill kann bis zu 10 Mal gestapelt werden, wobei jeder Stapel den ANG um ??? erhöht. Der Stapel erhöht außerdem den Schaden an Helden, die keine Helden sind, um 7 % und reduziert den Schaden von Helden, die keine Helden sind, um 3 %.",
+      "thumbnail": "heroes/Artemia/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht Schaden um 40 %.",
+          "thumbnail": "heroes/Artemia/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Jeder Schlag hat eine 25 %-Chance den Gegner für 1 Sek. zu betäuben.",
+          "thumbnail": "heroes/Artemia/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Artemia/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Wenn Lichtsegen 10 Stapel hat, wird der Cooldown um 50 % reduziert.",
+          "thumbnail": "heroes/Artemia/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Cooldown ist um 3 Sek. reduziert.",
+          "thumbnail": "heroes/Artemia/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Manakosten sind um 1 erhöht, aber Schaden ist +100 %.",
+          "thumbnail": "heroes/Artemia/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht den erhaltenen Schaden von Feinde, die keine Helden sind, um zus. 2.5 %.",
+          "thumbnail": "heroes/Artemia/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Verändert den erhaltenen Schadenverringerungs-Effekt von Feinden, die keine Helden sind, auf Schadenreduzierungs-Effekt von allen Feinden.",
+          "thumbnail": "heroes/Artemia/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Chance +100",
+        "thumbnail": "heroes/Artemia/perks/light.png"
+      },
+      "dark": {
+        "effect": "Falls TP unter 50 % fallen, erhalte 2 Sek. Schadensimmunität. Effekt wird nur alle 30 Sek. aktiviert.",
+        "thumbnail": "heroes/Artemia/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Lobeshymne, Brauxio",
+    "description": "Erschafft bei 3-malige Aktivierung des Skills einen Schild, der 10 Sek. lang Schaden in Höhe von 200 % des eigenen ANG blockiert und erhöht den eigenen ANG um 20 %. Während der Schild aktiv ist, besteht Massenkontroll-Immunität.",
+    "value": {},
+    "thumbnail": "heroes/Artemia/uw.png",
+    "story": "Dieses Relikt von Penteonia wurde angeblich aus den Himmeln geschickt, um die Dämonen auszulöschen. Dieser Lichtstab gehorcht nur jenen, die seiner Heiligkeit würdig sind und begann in den Händen der jungen Artemia zu strahlen, als wolle er die zukünftige Herrscherin würdigen. Er ruft die Macht des absoluten Lichts an und lässt die Rache des Himmels auf seine Feinde regnen, während er seinen Besitzer mit göttlichem Licht schützt.",
+    "descriptionByStar": {
+      "0": "Erschafft bei 3-malige Aktivierung des Skills einen Schild, der 10 Sek. lang Schaden in Höhe von 200 % des eigenen ANG blockiert und erhöht den eigenen ANG um 20 %. Während der Schild aktiv ist, besteht Massenkontroll-Immunität.",
+      "1": "Erschafft bei 3-malige Aktivierung des Skills einen Schild, der 10 Sek. lang Schaden in Höhe von 240 % des eigenen ANG blockiert und erhöht den eigenen ANG um 24 %. Während der Schild aktiv ist, besteht Massenkontroll-Immunität.",
+      "2": "Erschafft bei 3-malige Aktivierung des Skills einen Schild, der 10 Sek. lang Schaden in Höhe von 290 % des eigenen ANG blockiert und erhöht den eigenen ANG um 29 %. Während der Schild aktiv ist, besteht Massenkontroll-Immunität.",
+      "3": "Erschafft bei 3-malige Aktivierung des Skills einen Schild, der 10 Sek. lang Schaden in Höhe von 350 % des eigenen ANG blockiert und erhöht den eigenen ANG um 35 %. Während der Schild aktiv ist, besteht Massenkontroll-Immunität.",
+      "4": "Erschafft bei 3-malige Aktivierung des Skills einen Schild, der 10 Sek. lang Schaden in Höhe von 420 % des eigenen ANG blockiert und erhöht den eigenen ANG um 42 %. Während der Schild aktiv ist, besteht Massenkontroll-Immunität.",
+      "5": "Erschafft bei 3-malige Aktivierung des Skills einen Schild, der 10 Sek. lang Schaden in Höhe von 500 % des eigenen ANG blockiert und erhöht den eigenen ANG um 50 %. Während der Schild aktiv ist, besteht Massenkontroll-Immunität."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Würde der Königin",
+      "description": "[Lichtsäule] verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 10 %.",
+      "value": {},
+      "thumbnail": "heroes/Artemia/ut/1.png",
+      "story": "Eine Brosche, die vom besten Schmied des Königreichs Penteonia zu Ehren der wunderschönen Königin hergestellt wurde. Die Leute nennen sie die Würde der Königin. Der Schmied wandte bei der Herstellung eine spezielle Technik an, die er von den Zwergen gelernt hatte, und verstärkte das Juwel mit mystischer Kraft. Es ist dazu in der Lage, Artemias Lichtenergie zu bündeln und auf einmal zu entfesseln.",
+      "descriptionByStar": {
+        "0": "[Lichtsäule] verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 10 %.",
+        "1": "[Lichtsäule] verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 12 %.",
+        "2": "[Lichtsäule] verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 14 %.",
+        "3": "[Lichtsäule] verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 17 %.",
+        "4": "[Lichtsäule] verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 21 %.",
+        "5": "[Lichtsäule] verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %."
+      }
+    },
+    "2": {
+      "name": "Stolz der Königin",
+      "description": "[Kritische Intensität] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht den Schaden um 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Artemia/ut/2.png",
+      "story": "Ohrringe, die aus hellem Kveril hergestellt wurden, einem seltenen Mineral, das nur in Penteonia vorkommen soll. Als Artemia zur Kaiserin gekrönt wurde, erhielt sie die Ohrringe zusammen mit der Krone. Sie verlieren ihr Licht auch in der Nacht nicht und leuchten im Dunkeln sogar noch heller. Sie sind beim Volk bekannt als Juwelen der Prinzipien und der Brillanz. \nEin Gegenstand, der die Würde der Königin noch erhöht, wenn er ihre Ohren schmückt.",
+      "descriptionByStar": {
+        "0": "[Kritische Intensität] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht den Schaden um 20 %.",
+        "1": "[Kritische Intensität] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht den Schaden um 24 %.",
+        "2": "[Kritische Intensität] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht den Schaden um 29 %.",
+        "3": "[Kritische Intensität] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht den Schaden um 35 %.",
+        "4": "[Kritische Intensität] gewährt Massenkontroll-Immunität und erhöht den Schaden um 42 %.",
+        "5": "[Kritische Intensität] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht den Schaden um 50 %."
+      }
+    },
+    "3": {
+      "name": "Glanz-Krone",
+      "description": "[Lichturteil] erhöht den Schaden um 20 % und stellt beim Töten eines Gegners 700 Mana wieder her.",
+      "value": {},
+      "thumbnail": "heroes/Artemia/ut/3.png",
+      "story": "Eine Krone, die der König von Penteonia geerbt hat. Ein Teil davon wurde von einem vorherigen Tyrannen zerstört, aber sie wurde wieder repariert. Ein neuer roter Edelstein namens „Seele der Sonne“ wurde in der Mitte der Krone eingefasst. Ihre Ehrfurcht gebietende Form zwingt jeden dazu, als Zeichen des Respekts vor ihr niederzuknien.",
+      "descriptionByStar": {
+        "0": "[Lichturteil] erhöht den Schaden um 20 % und stellt beim Töten eines Gegners 700 Mana wieder her.",
+        "1": "[Lichturteil] erhöht den Schaden um 24 % und stellt beim Töten eines Gegners 700 Mana wieder her.",
+        "2": "[Lichturteil] erhöht den Schaden um 29 % und stellt beim Töten eines Gegners 700 Mana wieder her.",
+        "3": "[Lichturteil] erhöht den Schaden um 35 % und stellt beim Töten eines Gegners 700 Mana wieder her.",
+        "4": "[Lichturteil] erhöht den Schaden um 42 % und stellt beim Töten eines Gegners 700 Mana wieder her.",
+        "5": "[Lichturteil] erhöht den Schaden um 50 % und stellt beim Töten eines Gegners 700 Mana wieder her."
+      }
+    },
+    "4": {
+      "name": "Spiegel der Segen",
+      "description": "[Lichtsegen] erhöht den Schaden um 50 % und der Schaden-Boost gegen Feinde, die keine Helden sind, wird um 1 % erhöht.",
+      "value": {},
+      "thumbnail": "heroes/Artemia/ut/4.png",
+      "story": "Ein mystischer Spiegel, der die Zauber alter königlicher Zauberer enthält und in der königlichen Familie von Penteonia von Generation zu Generation weitergegeben wird.\nDer erste König hat den Spiegel selbst angefertigt, um Penteonia damit ewigen Wohlstand zu bringen.\nNur das Oberhaupt des Landes kann in den Spiegel blicken und den Lichtsegen empfangen.\nDadurch werden die Könige selbst zum Licht für alle Menschen in ihrem Land.",
+      "descriptionByStar": {
+        "0": "[Lichtsegen] erhöht den Schaden um 50 % und der Schaden-Boost gegen Feinde, die keine Helden sind, wird um 1 % erhöht.",
+        "1": "[Lichtsegen] erhöht den Schaden um 50 % und der Schaden-Boost gegen Feinde, die keine Helden sind, wird um 1,2 % erhöht.",
+        "2": "[Lichtsegen] erhöht den Schaden um 50 % und der Schaden-Boost gegen Feinde, die keine Helden sind, wird um 1,4 % erhöht.",
+        "3": "[Lichtsegen] erhöht den Schaden um 50 % und der Schaden-Boost gegen Feinde, die keine Helden sind, wird um 1,7 % erhöht.",
+        "4": "[Lichtsegen] erhöht den Schaden um 50 % und der Schaden-Boost gegen Feinde, die keine Helden sind, wird um 2,1 % erhöht.",
+        "5": "[Lichtsegen] erhöht den Schaden um 50 % und der Schaden-Boost gegen Feinde, die keine Helden sind, wird um 2,5 % erhöht."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 20 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Lobeshymne Brauxio für 10 Sek. und erhöht den ANG aller Verbündeten um 40 % und die VERT um 40 %. Verringert den von allen Verbündeten erhaltenen Schaden um 30 %.",
+    "cooldown": "21",
+    "uses": "6",
+    "thumbnail": "heroes/Artemia/sw.png",
+    "advancement": {
+      "1": "Entfernt während der Wirkungsdauer aller 2 Sek. die neg. Effekte aller Verbündete und die pos. Effekte aller Gegner.",
+      "2": "Erhöht den eigenen verursachten Schaden an Feinden um 30 % während der Wirkungsdauer."
+    },
+    "story": "Artemia hatte das Gefühl, ausgewählt zu sein, jedes Mal, wenn sie die Magie eingesetzt hat. Als der Zauberstab die Magie des Lichts angehoben hat oder als die Kraft des Zauberstabs sie warm bedeckt hatte. Sie fand es natürlich, als sie jung war, aber sie glaubt, dass der Zauberstab nicht nur eine Waffe ist, sondern ein zuverlässiger Kollege.\n‘- Solange ich dich halte, werde ich ein Licht sein, das am hellsten scheint.‘\nAls sie das versprach, fühlte sie das zuverlässigste Licht hinter sich. Und Brauxio, die sie hält, schätzt sie auch ..."
+  },
+  "splashart": "heroes/Artemia/sa.png",
+  "costumes": "heroes/Artemia/cos",
+  "aliases": [
+    "arte"
+  ],
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

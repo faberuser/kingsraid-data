@@ -1,0 +1,58 @@
+{
+  "id": "Sekmaha",
+  "profile": {
+    "name": "Sekmaha",
+    "title": "Émissaire des Flots",
+    "type": [
+      "Temple of the God King"
+    ],
+    "race": "Golem",
+    "damage_type": "Magical",
+    "recommended_heroes": "Lilia, Kaulah, May",
+    "characteristics": "Les compétences de Sekmaha deviennent plus puissantes lorsqu'elles rencontrent les flots qui leur correspondent, et deviennent plus faibles lorsqu'elles sont confrontées aux flots qui leur sont contraires. Vous devez donc utiliser à bon escient la jauge d'Étourdissement afin de maîtriser les flots. De plus, les effets positifs de  [Cascade] et [Mer] sont renforcés selon la quantité de PM en réserve, alors vous devez faire des efforts pour maintenir élevés les PM en réserve.",
+    "thumbnail": "bosses/Sekmaha.png",
+    "recommendedHeroNames": [
+      "Lilia",
+      "Kaulah",
+      "May"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Symbole de Vie",
+      "cost": null,
+      "cooldown": "12",
+      "description": "Dissipe tous les effets positifs sur les Héros, et récupère ses PV. Active la compétence [Maîtrise des Flots] afin de modifier le cours de ses flots."
+    },
+    "2": {
+      "name": "Souverain de Cascade",
+      "cost": null,
+      "cooldown": "20",
+      "description": "Génère une immense bulle d'eau au-dessus de la cible et la fait chuter pour infliger des DEG M à tous les ennemis. Cette attaque inflige également des DEG M supplémentaires en continu pendant une courte durée.\nSi Sekmaha est à l'état [Cascade], ses attaques ignorent l'effet de réduction de DEG et les étourdissent, avant de réduire les PM.\nSi Sekmaha est à l'état de [Mer], les DEG reçus augmentent pendant une courte durée."
+    },
+    "3": {
+      "name": "Symbole de la Mer",
+      "cost": null,
+      "cooldown": "20",
+      "description": "Génère d'immenses flots marins, qui dissipent les effets positifs de tous les Héros et leur infligent des DEG M.\nSi Sekmaha est à l'état de [Mer], lance une attaque qui ignore l'effet Blocage et projette au loin la cible, lui réduisant la Vitesse d'ATQ.\nSi Sekmaha est à l'état [Cascade], les DEG reçus par le gardien augmentent pendant une courte durée."
+    },
+    "4": {
+      "name": "Maîtrise des Flots",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lorsque la jauge d'Étourdissement de Sekmaha est réduite à zéro, il modifie le cours des flots. S'il est à l'état de Cascade, il passe à l'état de Mer. S'il est à l'état de Mer, il passe à l'état de Cascade.\n[Mer] – Tous les ennemis ne peuvent plus récupérer de PV et selon la quantité de PM en réserve, les DEG infligés par les ennemis augmentent.\n[Cascade] – La récupération PM de tous les ennemis est réduite de manière considérable et selon la quantité de PM en réserve, les DEG reçus par les ennemis diminuent."
+    },
+    "5": {
+      "name": "Gardien de Sekireinel",
+      "cost": null,
+      "cooldown": null,
+      "description": "Le Gardien de Sekireinel, doté d'une grande force, est immunisé contre les effets négatifs qui réduisent la DEF et la Vitesse d'ATQ. Durant la bataille au niveau supérieur à 6, Sekmaha génère une bulle protectrice à intervalles réguliers."
+    }
+  },
+  "aliases": [
+    "TrialoftheFlow",
+    "TrialofFlow",
+    "TrialFlow",
+    "Sekmaha"
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "id": "Lorraine",
+  "profile": {
+    "name": "Lorraine",
+    "title": "Großgelehrte Elidoras Lorraine",
+    "class": "Wizard",
+    "position": "Middle-200",
+    "attack_range": "1300",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "???",
+    "height": "168",
+    "race": "Elfen",
+    "constellation": "Graham, der Dieb",
+    "birth": {
+      "month": 5,
+      "day": 25,
+      "monthName": "Monat der Hoffnung"
+    },
+    "like": "Ruhige Wälder; schöne Lieder",
+    "dislike": "Alles, was der Natur Schaden zufügt",
+    "story": "Die Großgelehrte von Elidora ist die Weiseste unter den Druiden. Sie ist eine jener Helden, die vor 100 Jahren gegen die Dämoneninvasoren kämpften und wird oft als weiseste Person des gesamten Orbis-Kontinents bezeichnet. Sie lehrte und bildete unzählige Elfen aus und verfügt aufgrund ihres Alters über einen scharfen Verstand und mystische Kräfte. Es heißt, dass der gegenwärtige König von Elidora und dessen Kinder ebenfalls ihre Schüler waren. Nachdem sie vor Kurzem eine befremdliche Unruhe im Elidora-Wald wahrnahm, bereitet sie nun den Weg für den Führer des Heiligen Schwertes.",
+    "thumbnail": "heroes/Lorraine/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Dornenbusch-Wald",
+      "cost": "2",
+      "cooldown": "7",
+      "description": "Greift ein zufälliges Ziel und Feinde in seiner Nähe [64ffff]3[-]-mal an, verursacht insgesamt [ffc800]333(1+0.3Skill Level)+153.2% of Attack Power[-] Mag. Schaden und betäubt für [64ffff]1.8[-] Sek.",
+      "thumbnail": "heroes/Lorraine/skills/1.png"
+    },
+    "2": {
+      "name": "Samen von Belladonna",
+      "cost": "3",
+      "cooldown": "14",
+      "description": "Erzeugt für 7 Sek. einen [Tollkirschensamen] um das Ziel. [Tollkirschensamen]: Fügt Gegnern in der Nähe alle 1 Sek. 403(1+0.3Skill Level)+146.2% of Attack Power Magieschaden zu und reduziert ihre erhaltene Heilung für 1 Sek. um 25%.",
+      "thumbnail": "heroes/Lorraine/skills/2.png"
+    },
+    "3": {
+      "name": "Zorn des Waldes",
+      "cost": "3",
+      "cooldown": "18",
+      "description": "Fügt Gegnern in einem großen Bereich vor dem Helden 6-mal 304(1+0.3Skill Level)+112.2% of Attack Power Magieschaden zu und schlägt sie für 1.8 Sek. nieder.",
+      "thumbnail": "heroes/Lorraine/skills/3.png"
+    },
+    "4": {
+      "name": "Gift",
+      "cost": null,
+      "cooldown": null,
+      "description": "Normale Angriffe und Fähigkeitsangriffe belegen das Ziel mit [Gift], das für 20 Sek. alle 1 Sek. Magieschaden in Höhe von 100% des ANG verursacht und die erhaltene Heilung um 5% reduziert. Bis zu 5-mal stapelbar.",
+      "thumbnail": "heroes/Lorraine/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht erlittenen Mag. Schaden um 25 % während d. Skill-Wirkungsdauer."
+    },
+    "2": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht erlittenen Mag. Schaden um [64ff64]25[-] % während d. Skill-Wirkungsdauer."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Verringert die MP des getroffenen Ziels um 250. Bei einem Boss werden sie um 500 verringert.",
+          "thumbnail": "heroes/Lorraine/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Die Manakosten steigen um 1000, aber der Schaden steigt um 100 %.",
+          "thumbnail": "heroes/Lorraine/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Erhöht den Schaden um 40 %. ",
+          "thumbnail": "heroes/Lorraine/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht {1} Sek. lang den Massenkontroll-Cooldown der getroffenen Gegnern um 30 %.",
+          "thumbnail": "heroes/Lorraine/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Die Manakosten steigen um 1000, aber der Schaden steigt um 80 %.",
+          "thumbnail": "heroes/Lorraine/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Die MP-Kosten steigen um 1000, aber positive Effekte von Gegnern in Reichweite werden entfernt.",
+          "thumbnail": "heroes/Lorraine/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Verringert den ANG des Ziels pro Gift-Stapel um 5 %.",
+          "thumbnail": "heroes/Lorraine/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Ist das Ziel ein Boss, steigt der Schaden von [Gift] um 70%.",
+          "thumbnail": "heroes/Lorraine/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Chance +100",
+        "thumbnail": "heroes/Lorraine/perks/light.png"
+      },
+      "dark": {
+        "effect": "Verringert mit jedem Kampfbeginn den Cooldown aller eigenen aktiven Skills um 30 % und erhöht 90 Sek. lang den Schaden an Feinde, die keine Helden sind, um 10 %. Die Schaden-Erhöhung kann bis zu 5-mal gestapelt und kann nicht entfernt werden.",
+        "thumbnail": "heroes/Lorraine/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Wille des Weltbaums, Roburu",
+    "description": "Fügt alle 7 Sek. Feinden, die vergiftet sind, Mag. Schaden in Höhe von {0} % des ANG zu, wobei sich 10 Sek. lang ihre Mag. VERT um {1} % verringert und der erhaltene Mag. Schaden des Ziels um {2} % erhöht.",
+    "value": {
+      "0": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "2": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
+    "thumbnail": "heroes/Lorraine/uw.png",
+    "story": "Der Legende nach beschenkt der Weltenbaum einmal alle 100 Jahre einen Auserwählten mit einem seiner Zweige. Der Zweig versprüht ewiges Leben und verleiht seinem Besitzer immense Macht und großes Wissen. Lorraine schuf diesen Stab, indem sie den Zweig mit dem Stein des Waldes, einem Elfenschatz, vereinigte. Jetzt kann sie die Kräfte der Natur anrufen und ihre Verbindung mit dem Weltenbaum aufrechterhalten, wo auch immer sie gerade sein mag.",
+    "descriptionByStar": {
+      "0": "Fügt alle 7 Sek. Feinden, die vergiftet sind, Mag. Schaden in Höhe von 100 % des ANG zu, wobei sich 10 Sek. lang ihre Mag. VERT um 10 % verringert und der erhaltene Mag. Schaden des Ziels um 10 % erhöht.",
+      "1": "Fügt alle 7 Sek. Feinden, die vergiftet sind, Mag. Schaden in Höhe von 120 % des ANG zu, wobei sich 10 Sek. lang ihre Mag. VERT um 12 % verringert und der erhaltene Mag. Schaden des Ziels um 12 % erhöht.",
+      "2": "Fügt alle 7 Sek. Feinden, die vergiftet sind, Mag. Schaden in Höhe von 140 % des ANG zu, wobei sich 10 Sek. lang ihre Mag. VERT um 14 % verringert und der erhaltene Mag. Schaden des Ziels um 14 % erhöht.",
+      "3": "Fügt alle 7 Sek. Feinden, die vergiftet sind, Mag. Schaden in Höhe von 170 % des ANG zu, wobei sich 10 Sek. lang ihre Mag. VERT um 17 % verringert und der erhaltene Mag. Schaden des Ziels um 17 % erhöht.",
+      "4": "Fügt alle 7 Sek. Feinden, die vergiftet sind, Mag. Schaden in Höhe von 210 % des ANG zu, wobei sich 10 Sek. lang ihre Mag. VERT um 21 % verringert und der erhaltene Mag. Schaden des Ziels um 21 % erhöht.",
+      "5": "Fügt alle 7 Sek. Feinden, die vergiftet sind, Mag. Schaden in Höhe von 250 % des ANG zu, wobei sich 10 Sek. lang ihre Mag. VERT um 25 % verringert und der erhaltene Mag. Schaden des Ziels um 25 % erhöht."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Buch des Lebens",
+      "description": "[Dornenbusch-Wald] erhöht den Schaden um 50 % und verringert den Cooldown um {0} Sek.",
+      "value": {
+        "0": {
+          "0": "1.2",
+          "1": "1.4",
+          "2": "1.7",
+          "3": "2.1",
+          "4": "2.5",
+          "5": "3"
+        }
+      },
+      "thumbnail": "heroes/Lorraine/ut/1.png",
+      "story": "Das Buch beinhaltet das Wissen über alle Lebewesen des Waldes.\nEs ist ein magisches Buch, das seit jeher von den Wächtern des Weltenbaums weitergegeben wird. Es befand sich lange Zeit im Besitz der Weisen von Elidora, doch jetzt ist Lorraine für die sichere Aufbewahrung verantwortlich.",
+      "descriptionByStar": {
+        "0": "[Dornenbusch-Wald] erhöht den Schaden um 50 % und verringert den Cooldown um 1.2 Sek.",
+        "1": "[Dornenbusch-Wald] erhöht den Schaden um 50 % und verringert den Cooldown um 1.4 Sek.",
+        "2": "[Dornenbusch-Wald] erhöht den Schaden um 50 % und verringert den Cooldown um 1.7 Sek.",
+        "3": "[Dornenbusch-Wald] erhöht den Schaden um 50 % und verringert den Cooldown um 2.1 Sek.",
+        "4": "[Dornenbusch-Wald] erhöht den Schaden um 50 % und verringert den Cooldown um 2.5 Sek.",
+        "5": "[Dornenbusch-Wald] erhöht den Schaden um 50 % und verringert den Cooldown um 3 Sek."
+      }
+    },
+    "2": {
+      "name": "Tödliche Belladonna",
+      "description": "[Samen von Belladonna] verringert die Manakosten um 1, entzieht dem betroffenen Feind {0} MP und stellt {1} eigene MP wieder her.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        },
+        "1": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Lorraine/ut/2.png",
+      "story": "Die wunderschöne, aber giftige Belladonna.\nEine gefährliche Pflanze, die nur der Große Weise handhaben kann. Die kleine Belladonna, die in Ranken verschlungen ist, kann Feinde vergiften und sie schutzlos gegen magische Angriffe machen.",
+      "descriptionByStar": {
+        "0": "[Samen von Belladonna] verringert die Manakosten um 1, entzieht dem betroffenen Feind 200 MP und stellt 100 eigene MP wieder her.",
+        "1": "[Samen von Belladonna] verringert die Manakosten um 1, entzieht dem betroffenen Feind 240 MP und stellt 120 eigene MP wieder her.",
+        "2": "[Samen von Belladonna] verringert die Manakosten um 1, entzieht dem betroffenen Feind 290 MP und stellt 140 eigene MP wieder her.",
+        "3": "[Samen von Belladonna] verringert die Manakosten um 1, entzieht dem betroffenen Feind 350 MP und stellt 170 eigene MP wieder her.",
+        "4": "[Samen von Belladonna] verringert die Manakosten um 1, entzieht dem betroffenen Feind 420 MP und stellt 210 eigene MP wieder her.",
+        "5": "[Samen von Belladonna] verringert die Manakosten um 1, entzieht dem betroffenen Feind 500 MP und stellt 250 eigene MP wieder her."
+      }
+    },
+    "3": {
+      "name": "Weltenbaumwurzel",
+      "description": "[Zorn des Waldes] erhöht den Schaden um {0} %. Bei Krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4 % verringert.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Lorraine/ut/3.png",
+      "story": "Ein Zeichen der Einheit zwischen den Druiden und dem Weltenbaum. Die großen Weisen von Elidora pflegten schon immer eine tiefe Verbindung zum Weltenbaum. Die Wurzeln des Weltenbaums sind der Beweis für die tiefe Verbundenheit mit den Druiden. Sie greifen Feinde mit übernatürlichem Schaden an, wann immer Druiden den „Zorn des Waldes“ anrufen, um die Wut und die Feindseligkeit der Natur zu zeigen.",
+      "descriptionByStar": {
+        "0": "[Zorn des Waldes] erhöht den Schaden um 20 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4 % verringert.",
+        "1": "[Zorn des Waldes] erhöht den Schaden um 24 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4 % verringert.",
+        "2": "[Zorn des Waldes] erhöht den Schaden um 29 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4 % verringert.",
+        "3": "[Zorn des Waldes] erhöht den Schaden um 35 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4 % verringert.",
+        "4": "[Zorn des Waldes] erhöht den Schaden um 42 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4 % verringert.",
+        "5": "[Zorn des Waldes] erhöht den Schaden um 50 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4 % verringert."
+      }
+    },
+    "4": {
+      "name": "Terrarium der Zirkulation",
+      "description": "[Gift] kann den Gifteffekt nicht entfernen und erhöht den erhaltenen Mag. Schaden des Ziels während der Gift-Wirkungsdauer um {0} %.",
+      "value": {
+        "0": {
+          "0": "30",
+          "1": "38",
+          "2": "46",
+          "3": "54",
+          "4": "64",
+          "5": "70"
+        }
+      },
+      "thumbnail": "heroes/Lorraine/ut/4.png",
+      "story": "Ein Terrarium, das aus einem abgebrochenen Zweig des Weltenbaums gefertigt wurde.\nDas Abbrechen eines Zweigs des Weltenbaums soll Unglück bringen, weshalb diese Zweige normalerweise gereinigt und entsorgt werden.\nLorraine hatte dadurch jedoch eine Offenbarung und beschloss, ein kleines Terrarium daraus zu bauen.",
+      "descriptionByStar": {
+        "0": "[Gift] kann den Gifteffekt nicht entfernen und erhöht den erhaltenen Mag. Schaden des Ziels während der Gift-Wirkungsdauer um 30 %.",
+        "1": "[Gift] kann den Gifteffekt nicht entfernen und erhöht den erhaltenen Mag. Schaden des Ziels während der Gift-Wirkungsdauer um 38 %.",
+        "2": "[Gift] kann den Gifteffekt nicht entfernen und erhöht den erhaltenen Mag. Schaden des Ziels während der Gift-Wirkungsdauer um 46 %.",
+        "3": "[Gift] kann den Gifteffekt nicht entfernen und erhöht den erhaltenen Mag. Schaden des Ziels während der Gift-Wirkungsdauer um 54 %.",
+        "4": "[Gift] kann den Gifteffekt nicht entfernen und erhöht den erhaltenen Mag. Schaden des Ziels während der Gift-Wirkungsdauer um 64 %.",
+        "5": "[Gift] kann den Gifteffekt nicht entfernen und erhöht den erhaltenen Mag. Schaden des Ziels während der Gift-Wirkungsdauer um 70 %."
+      }
+    }
+  },
+  "splashart": "heroes/Lorraine/sa.png",
+  "costumes": "heroes/Lorraine/cos",
+  "_localization": {
+    "locale": "de",
+    "version": "ccbt",
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "Manticore",
+  "profile": {
+    "name": "Manticore",
+    "title": "Bête du Chaos",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "Bête",
+    "damage_type": "Physical",
+    "recommended_heroes": "Kasel, Clause, Mitra",
+    "characteristics": "[Venin Manticore] inflige de gros DEG aux ennemis du front et invoque des scorpions. Si le Héros du front ne peut pas encaisser les DEG, la formation tombera. [Ruée de la Mort] inflige d'énormes DEG P. à tous les Héros et nécessite que les Contrôles soient arrêtés.",
+    "thumbnail": "bosses/Manticore.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Sombre Lance-Flammes",
+      "cost": null,
+      "cooldown": "17",
+      "description": "Rejette des Flammes Sombres depuis la tête de mouton, infligeant des DEG P à 7 reprises. Les ennemis sous les 50% de PV sont pétrifiés pendant 5 sec."
+    },
+    "2": {
+      "name": "Flamme Désintégratrice",
+      "cost": null,
+      "cooldown": "17",
+      "description": "Rejette du feu de la tête de lion, infligeant des DEG P à 7 reprises et retire les Améliorations de l'ennemi."
+    },
+    "3": {
+      "name": "Venin Manticore",
+      "cost": null,
+      "cooldown": "22",
+      "description": "Afflige l'ennemi avec un puissant poison qui ne peut pas être enlevé. Pendant 5 sec, toutes les 0,5 sec, inflige des DEG (33% des PV actuels) et invoque 3 scorpions."
+    },
+    "4": {
+      "name": "Ruée de la Mort",
+      "cost": null,
+      "cooldown": "45",
+      "description": "La Manticore recueille une puissante énergie avec ses pattes avant, inligeant d'énormes DEG P à tous les ennemis et les renverse pendant 4 sec."
+    },
+    "5": {
+      "name": "Purifier",
+      "cost": null,
+      "cooldown": null,
+      "description": "Retire les effets négatifs toutes les 30 sec et augmente la Vitesse d'ATQ."
+    }
+  },
+  "aliases": [
+    "Manticore",
+    "GR6",
+    "GR 6"
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "id": "Lorraine",
+  "profile": {
+    "name": "Lorraine",
+    "title": "Großgelehrte Elidoras Lorraine",
+    "class": "Wizard",
+    "position": "Middle-200",
+    "attack_range": "1300",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "???",
+    "height": "168",
+    "race": "Elfen",
+    "constellation": "Graham, der Dieb",
+    "birth": {
+      "month": 5,
+      "day": 25,
+      "monthName": "Monat der Hoffnung"
+    },
+    "like": "Ruhige Wälder; schöne Lieder",
+    "dislike": "Alles, was der Natur Schaden zufügt",
+    "story": "Die Großgelehrte von Elidora ist die Weiseste unter den Druiden. Sie ist eine jener Helden, die vor 100 Jahren gegen die Dämoneninvasoren kämpften und wird oft als weiseste Person des gesamten Orbis-Kontinents bezeichnet. Sie lehrte und bildete unzählige Elfen aus und verfügt aufgrund ihres Alters über einen scharfen Verstand und mystische Kräfte. Es heißt, dass der gegenwärtige König von Elidora und dessen Kinder ebenfalls ihre Schüler waren. Nachdem sie vor Kurzem eine befremdliche Unruhe im Elidora-Wald wahrnahm, bereitet sie nun den Weg für den Führer des Heiligen Schwertes.",
+    "thumbnail": "heroes/Lorraine/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Dornenbusch-Wald",
+      "cost": "2",
+      "cooldown": "7",
+      "description": "Greift einen zufälligen Gegner und Gegner in seiner Nähe 3-mal an, verursacht insgesamt ??? Magieschaden und betäubt sie für 3 Sek.",
+      "thumbnail": "heroes/Lorraine/skills/1.png"
+    },
+    "2": {
+      "name": "Samen von Belladonna",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Erzeugt für 10 Sek. einen Tollkirschensamen beim Ziel. Er fügt nahen Gegnern alle 2 Sek. ??? Magieschaden zu, erhöht ihren erlittenen Magieschaden für 5 Sek. um 30% und senkt ihre erhaltene Heilung um 30%.",
+      "thumbnail": "heroes/Lorraine/skills/2.png"
+    },
+    "3": {
+      "name": "Zorn des Waldes",
+      "cost": "3",
+      "cooldown": "18",
+      "description": "Greift Gegner in einem großen Bereich vor sich 6-mal an, verursacht insgesamt ??? Magieschaden und wirft sie für 3 Sek. nieder.",
+      "thumbnail": "heroes/Lorraine/skills/3.png"
+    },
+    "4": {
+      "name": "Gift",
+      "cost": null,
+      "cooldown": null,
+      "description": "Normale und Fähigkeitsangriffe vergiften das Ziel, verursachen über 20 Sek. insgesamt ??? anhaltenden Magieschaden und senken seine erhaltene Heilung um 5%. Gift ist bis zu 5-mal stapelbar.",
+      "thumbnail": "heroes/Lorraine/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Verringert die MP des getroffenen Ziels um 250. Bei einem Boss werden sie um 500 verringert.",
+          "thumbnail": "heroes/Lorraine/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Stellt bei einem Krit. Treffer 250 MP wieder her.",
+          "thumbnail": "heroes/Lorraine/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Erhöht den Schaden um 40 %.",
+          "thumbnail": "heroes/Lorraine/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht 5 Sek. lang den Massenkontroll-Cooldown der getroffenen Gegnern um 30 %.",
+          "thumbnail": "heroes/Lorraine/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Manakosten sind um 1 erhöht, aber Schaden ist +100 %.",
+          "thumbnail": "heroes/Lorraine/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Die Manakosten erhöhen sich um 1 und entfernt alle positiven Effekte von Feinden in Reichweite.",
+          "thumbnail": "heroes/Lorraine/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Verringert den ANG des Ziels pro Gift-Stapel um 5 %.",
+          "thumbnail": "heroes/Lorraine/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Wenn das Ziel ein Boss ist, erhöht sich der Schaden des Gifts um das 3-fache.",
+          "thumbnail": "heroes/Lorraine/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Chance +100",
+        "thumbnail": "heroes/Lorraine/perks/light.png"
+      },
+      "dark": {
+        "effect": "Verringert mit jedem Kampfbeginn den Cooldown aller eigenen aktiven Skills um 30 % und erhöht 90 Sek. lang den Schaden an Feinde, die keine Helden sind, um 20 %. Die Schaden-Erhöhung kann bis zu 5-mal gestapelt und kann nicht entfernt werden.",
+        "thumbnail": "heroes/Lorraine/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Wille des Weltbaums, Roburu",
+    "description": "Fügt alle 7 Sek. Feinden, die vergiftet sind, Mag. Schaden in Höhe von {0} % des ANG zu, wobei sich 10 Sek. lang ihre Mag. VERT um {1} % verringert und der erhaltene Mag. Schaden des Ziels um {2} % erhöht.",
+    "value": {
+      "0": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "2": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
+    "thumbnail": "heroes/Lorraine/uw.png",
+    "story": "Der Legende nach beschenkt der Weltenbaum einmal alle 100 Jahre einen Auserwählten mit einem seiner Zweige. Der Zweig versprüht ewiges Leben und verleiht seinem Besitzer immense Macht und großes Wissen. Lorraine schuf diesen Stab, indem sie den Zweig mit dem Stein des Waldes, einem Elfenschatz, vereinigte. Jetzt kann sie die Kräfte der Natur anrufen und ihre Verbindung mit dem Weltenbaum aufrechterhalten, wo auch immer sie gerade sein mag.",
+    "descriptionByStar": {
+      "0": "Fügt alle 7 Sek. Feinden, die vergiftet sind, Mag. Schaden in Höhe von 100 % des ANG zu, wobei sich 10 Sek. lang ihre Mag. VERT um 10 % verringert und der erhaltene Mag. Schaden des Ziels um 10 % erhöht.",
+      "1": "Fügt alle 7 Sek. Feinden, die vergiftet sind, Mag. Schaden zu (48 % d. ANG) und verringert ihre Mag. VERT um 12 %. Pro Gift-Stapel wird der Schaden um 20 % erhöht.",
+      "2": "Fügt alle 7 Sek. Feinden, die vergiftet sind, Mag. Schaden zu (57 % d. ANG) und verringert ihre Mag. VERT um 14 %. Pro Gift-Stapel wird der Schaden um 20 % erhöht.",
+      "3": "Fügt alle 7 Sek. Feinden, die vergiftet sind, Mag. Schaden zu (69 % d. ANG) und verringert ihre Mag. VERT um 17 %. Pro Gift-Stapel wird der Schaden um 20 % erhöht.",
+      "4": "Fügt alle 7 Sek. Feinden, die vergiftet sind, Mag. Schaden zu (83 % d. ANG) und verringert ihre Mag. VERT um 20 %. Pro Gift-Stapel wird der Schaden um 20 % erhöht.",
+      "5": "Fügt alle 7 Sek. Feinden, die vergiftet sind, Mag. Schaden zu (100 % d. ANG) und verringert ihre Mag. VERT um 25 %. Pro Gift-Stapel wird der Schaden um 20 % erhöht."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Buch des Lebens",
+      "description": "[Dornenbusch-Wald] erhöht den Schaden um 50 % und verringert den Cooldown um {0} Sek.",
+      "value": {
+        "0": {
+          "0": "1.2",
+          "1": "1.4",
+          "2": "1.7",
+          "3": "2.1",
+          "4": "2.5",
+          "5": "3"
+        }
+      },
+      "thumbnail": "heroes/Lorraine/ut/1.png",
+      "story": "Das Buch beinhaltet das Wissen über alle Lebewesen des Waldes.\nEs ist ein magisches Buch, das seit jeher von den Wächtern des Weltenbaums weitergegeben wird. Es befand sich lange Zeit im Besitz der Weisen von Elidora, doch jetzt ist Lorraine für die sichere Aufbewahrung verantwortlich.",
+      "descriptionByStar": {
+        "0": "[Dornenbusch-Wald] erhöht den Schaden um 50 % und verringert den Cooldown um 1.2 Sek.",
+        "1": "[Dornenbusch-Wald] verringert die Manakosten um 1 und den Cooldown um 1 Sek.",
+        "2": "[Dornenbusch-Wald] verringert die Manakosten um 1 und den Cooldown um 1,2 Sek.",
+        "3": "[Dornenbusch-Wald] verringert die Manakosten um 1 und den Cooldown um 1,4 Sek.",
+        "4": "[Dornenbusch-Wald] verringert die Manakosten um 1 und den Cooldown um 1,7 Sek.",
+        "5": "[Dornenbusch-Wald] verringert die Manakosten um 1 und den Cooldown um 2 Sek."
+      }
+    },
+    "2": {
+      "name": "Tödliche Belladonna",
+      "description": "[Samen von Belladonna] verringert die Manakosten um 1, entzieht dem betroffenen Feind {0} MP und stellt {1} eigene MP wieder her.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        },
+        "1": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Lorraine/ut/2.png",
+      "story": "Die wunderschöne, aber giftige Belladonna.\nEine gefährliche Pflanze, die nur der Große Weise handhaben kann. Die kleine Belladonna, die in Ranken verschlungen ist, kann Feinde vergiften und sie schutzlos gegen magische Angriffe machen.",
+      "descriptionByStar": {
+        "0": "[Samen von Belladonna] verringert die Manakosten um 1, entzieht dem betroffenen Feind 200 MP und stellt 100 eigene MP wieder her.",
+        "1": "[Verworrene Reben] verringert die Manakosten um 1 und entzieht dem betroffenen Feind 240 MP.",
+        "2": "[Verworrene Reben] verringert die Manakosten um 1 und entzieht dem betroffenen Feind 290 MP.",
+        "3": "[Verworrene Reben] verringert die Manakosten um 1 und entzieht dem betroffenen Feind 350 MP.",
+        "4": "[Verworrene Reben] verringert die Manakosten um 1 und entzieht dem betroffenen Feind 420 MP.",
+        "5": "[Verworrene Reben] verringert die Manakosten um 1 und entzieht dem betroffenen Feind 500 MP."
+      }
+    },
+    "3": {
+      "name": "Weltenbaumwurzel",
+      "description": "[Zorn des Waldes] erhöht den Schaden um 20 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4 % verringert.",
+      "value": {},
+      "thumbnail": "heroes/Lorraine/ut/3.png",
+      "story": "Ein Zeichen der Einheit zwischen den Druiden und dem Weltenbaum. Die großen Weisen von Elidora pflegten schon immer eine tiefe Verbindung zum Weltenbaum. Die Wurzeln des Weltenbaums sind der Beweis für die tiefe Verbundenheit mit den Druiden. Sie greifen Feinde mit übernatürlichem Schaden an, wann immer Druiden den „Zorn des Waldes“ anrufen, um die Wut und die Feindseligkeit der Natur zu zeigen.",
+      "descriptionByStar": {
+        "0": "[Zorn des Waldes] erhöht den Schaden um 20 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4 % verringert.",
+        "1": "[Zorn des Waldes] erhöht den Schaden um 24 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4 % verringert.",
+        "2": "[Zorn des Waldes] erhöht den Schaden um 29 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4 % verringert.",
+        "3": "[Zorn des Waldes] erhöht den Schaden um 35 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4 % verringert.",
+        "4": "[Zorn des Waldes] erhöht den Schaden um 42 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4 % verringert.",
+        "5": "[Zorn des Waldes] erhöht den Schaden um 50 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Giftzählern, wird der Skill-Cooldown um 4 % verringert."
+      }
+    },
+    "4": {
+      "name": "Terrarium der Zirkulation",
+      "description": "[Gift] Der Gifteffekt wird unentfernbar. Währenddessen erleidet das Ziel {0}% mehr Magieschaden.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Lorraine/ut/4.png",
+      "story": "Ein Terrarium, das aus einem abgebrochenen Zweig des Weltenbaums gefertigt wurde.\nDas Abbrechen eines Zweigs des Weltenbaums soll Unglück bringen, weshalb diese Zweige normalerweise gereinigt und entsorgt werden.\nLorraine hatte dadurch jedoch eine Offenbarung und beschloss, ein kleines Terrarium daraus zu bauen.",
+      "descriptionByStar": {
+        "0": "[Gift] Der Gifteffekt wird unentfernbar. Währenddessen erleidet das Ziel 10% mehr Magieschaden.",
+        "1": "[Klingenblatt] erhöht die Aktivierungschance um 20 %. Ziele erleiden für 10 Sek. um 12 % erhöhten Mag. Schaden.",
+        "2": "[Klingenblatt] erhöht die Aktivierungschance um 20 %. Ziele erleiden für 10 Sek. um 14 % erhöhten Mag. Schaden.",
+        "3": "[Klingenblatt] erhöht die Aktivierungschance um 20 %. Ziele erleiden für 10 Sek. um 17 % erhöhten Mag. Schaden.",
+        "4": "[Klingenblatt] erhöht die Aktivierungschance um 20 %. Ziele erleiden für 10 Sek. um 21 % erhöhten Mag. Schaden.",
+        "5": "[Klingenblatt] erhöht die Aktivierungschance um 20 %. Ziele erleiden für 10 Sek. um 25 % erhöhten Mag. Schaden."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 17 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört 10 Sek. lang die Seele von Wille des Weltbaums, Roburu und fügt aller 2 Sek. einem zufälligen Gegner ??? Mag. Schaden zu. Dabei wird 10 Sek. lang der erhaltene Mag. Schaden um 30 % erhöht und die Gegner werden 2 Sek. lang gefesselt. Weiterhin werden aller 2 Sek. 500 Eigen-MP regeneriert und der Cooldown aller aktiven Skills wird um 1 Sek. verringert.",
+    "cooldown": "21",
+    "uses": "7",
+    "thumbnail": "heroes/Lorraine/sw.png",
+    "advancement": {
+      "1": "Während der Seelen-Wirkungsdauer erhöht sich der EIgen-ANG um 50 %.",
+      "2": "Während der Seelen-Wirkungsdauer wird die erhaltene Massenkontroll-Wirkungsdauer aller Gegner um 30 % erhöht und die Mag. VERT um 25 % verringert."
+    },
+    "story": "Der Ast des Weltbaums, der das Zentrum von Roburu ist, hat eine starke Lebenskraft, die er vom Hauptbaum bekommt. Diese ewige Lebenskraft erhöht die Magie von Lorraine und verleiht dem Roburu selbst den Charakter eines wachsenden Stabs. Der Ast des Weltenbaums hat Lorraine immer begleitet und sie in Stille beobachtet. Die Qual als Druidin, Qual als Meister in der königlichen Familie, Qual als Gefährte des alten Helden und Berater des gegenwärtigen Helden. All diese Sorgen und der Entscheidungsprozess und die Ergebnisse. Als die Zeit verging und es Zeit war zu entscheiden, akzeptierte der Zweig des Weltbaums, dass Lorraine der geeignete Eigentümer für sich ist. Es wächst nicht nur als neuer Weltenbaum, sondern es hat sich entschieden, als ein Stab zu wachsen, das Lorraine begleitet. Roburu, der das Potenzial des Weltbaums zeigt, wird den Wald mit Lorraine schützen, wie keine andere Waffe."
+  },
+  "splashart": "heroes/Lorraine/sa.png",
+  "costumes": "heroes/Lorraine/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

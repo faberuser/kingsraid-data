@@ -1,0 +1,280 @@
+{
+  "id": "Leo",
+  "profile": {
+    "name": "Leo",
+    "title": "Leo, Scribe Éternel",
+    "class": "Priest",
+    "position": "Back-100",
+    "attack_range": "2700",
+    "damage_type": "Physical",
+    "gender": "Homme",
+    "age": "???",
+    "height": "144",
+    "race": "Gnome",
+    "constellation": "Lasiphil la Prophétesse",
+    "birth": {
+      "month": 3,
+      "day": 23,
+      "monthName": "Mois de la Clairvoyance"
+    },
+    "like": "La lecture, l'écriture, l'enregistrement",
+    "dislike": "La solitude",
+    "story": "Dans le palais royal d'Orvel, on dit qu'il existe une bibliothèque infinie. Leo est un Gnome qui protège cette bibliothèque depuis très longtemps. Il a mémorisé chaque ouvrage et il est donc la personne la plus érudite de tout le palais. Beaucoup de visiteurs viennent le voir pour bénéficier de sa sagesse. Cependant, il a du mal à interagir avec les autres.",
+    "thumbnail": "heroes/Leo/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Rune de Fragilité",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Grave un sceau sur 2 ennemi, infligeant 864*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 547.3% of ATK DEG P et réduisant sa DEF P de 20% pendant 5 sec. Cette compétence gagne 500 de pénétration de DEF et ses DEG augmentent jusqu’à 200% selon les PV manquants de la cible.",
+      "thumbnail": "heroes/Leo/skills/1.png"
+    },
+    "2": {
+      "name": "Rune de Soin",
+      "cost": "2",
+      "cooldown": "7",
+      "description": "Rend 621*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 100.8% of ATK PV à tous les alliés, puis restaure en plus 124*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 20.2% of ATK PV toutes les 0.8 sec pendant 4 sec et réduit leurs DEG P subis de 30%.",
+      "thumbnail": "heroes/Leo/skills/2.png"
+    },
+    "3": {
+      "name": "Rune de Silence",
+      "cost": "1",
+      "cooldown": "40",
+      "description": "Inflige 690*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 450% of ATK DEG P à tous les ennemis, dissipe leurs effets positifs et les réduit au silence pendant 1.8 sec.",
+      "thumbnail": "heroes/Leo/skills/3.png"
+    },
+    "4": {
+      "name": "Rune de Protection",
+      "cost": null,
+      "cooldown": "12",
+      "description": "Toutes les 12 sec, annule 2 instances de DEG pour les 2 alliés ayant le moins de PV actuels.",
+      "thumbnail": "heroes/Leo/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les dégâts de [64ff64]10[-]%.",
+      "III": "Augmente les dégâts de [64ff64]15[-]%.",
+      "IV": "Augmente les dégâts de [64ff64]25[-]%."
+    },
+    "2": {
+      "II": "Augmente les soins de [64ff64]10[-]%.",
+      "III": "Augmente les soins de [64ff64]15[-]%.",
+      "IV": "Augmente les soins de [64ff64]25[-]%."
+    },
+    "3": {
+      "II": "Augmente la durée de Silence de [64ff64]0.25[-] sec.",
+      "III": "Augmente la durée de Silence de [64ff64]0.25[-] sec.",
+      "IV": "Augmente la durée de Silence de [64ff64]0.5[-] sec."
+    },
+    "4": {
+      "II": "Augmente les soins de [64ff64]10[-]%.",
+      "III": "Augmente les soins de [64ff64]15[-]%.",
+      "IV": "Augmente la Résist. Effets Négatifs de [64ff64]250[-] pendant la durée."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Le Temps de recharge est réduit de 2 sec.",
+          "thumbnail": "heroes/Leo/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Le nombre de cibles est maintenant de 2.",
+          "thumbnail": "heroes/Leo/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Augmente les soins de 40%.",
+          "thumbnail": "heroes/Leo/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "La DEF P des alliés est augmentée de 25% pendant 10 sec après un soin.",
+          "thumbnail": "heroes/Leo/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Leo/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG de 200% et tous les DEG subis par la cible ennemie de 20% pendant 10 sec. Augmente le coût en Mana de 2.",
+          "thumbnail": "heroes/Leo/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Augmente les soins de 40%.",
+          "thumbnail": "heroes/Leo/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Soigner un allié augmente sa DEF P de 40% pendant 10 sec.",
+          "thumbnail": "heroes/Leo/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Blocage P +200",
+        "thumbnail": "heroes/Leo/perks/light.png"
+      },
+      "dark": {
+        "effect": "Les attaques ont 10% de chances d'infliger des DEG P à hauteur de 120% de l'ATQ à un ennemi aléatoire, tout en lui réduisant 300 PM et appliquant Silence pendant 1 sec.",
+        "thumbnail": "heroes/Leo/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Belisa, la Plume de Phénix",
+    "description": "Toutes les 20 sec, augmente toutes les DEF de {0}% et la vitesse d'attaque de {1}% pendant 10 sec. La première compétence utilisée reçoit un effet supplémentaire. [Rune de Fragilité] : gagne 500 de pénétration de DEF. [Rune de Soin] : dissipe ses propres effets négatifs à l'utilisation. [Rune de Silence] : prolonge la durée du silence.",
+    "thumbnail": "heroes/Leo/uw.png",
+    "story": "Le phénix est une créature céleste symbolisant la vie éternelle. Sa plume est aussi rare que la bête elle-même. On raconte qu'une plume basée sur celle du phénix est un puissant outil magique. Les runes gravées sur cette plume aident considérablement la Magie Runique.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "28",
+        "3": "32",
+        "4": "36",
+        "5": "40"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "28",
+        "3": "32",
+        "4": "36",
+        "5": "40"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Toutes les 20 sec, augmente toutes les DEF de 20% et la vitesse d'attaque de 20% pendant 10 sec. La première compétence utilisée reçoit un effet supplémentaire. [Rune de Fragilité] : gagne 500 de pénétration de DEF. [Rune de Soin] : dissipe ses propres effets négatifs à l'utilisation. [Rune de Silence] : prolonge la durée du silence.",
+      "1": "Toutes les 20 sec, augmente toutes les DEF de 24% et la vitesse d'attaque de 24% pendant 10 sec. La première compétence utilisée reçoit un effet supplémentaire. [Rune de Fragilité] : gagne 500 de pénétration de DEF. [Rune de Soin] : dissipe ses propres effets négatifs à l'utilisation. [Rune de Silence] : prolonge la durée du silence.",
+      "2": "Toutes les 20 sec, augmente toutes les DEF de 28% et la vitesse d'attaque de 28% pendant 10 sec. La première compétence utilisée reçoit un effet supplémentaire. [Rune de Fragilité] : gagne 500 de pénétration de DEF. [Rune de Soin] : dissipe ses propres effets négatifs à l'utilisation. [Rune de Silence] : prolonge la durée du silence.",
+      "3": "Toutes les 20 sec, augmente toutes les DEF de 32% et la vitesse d'attaque de 32% pendant 10 sec. La première compétence utilisée reçoit un effet supplémentaire. [Rune de Fragilité] : gagne 500 de pénétration de DEF. [Rune de Soin] : dissipe ses propres effets négatifs à l'utilisation. [Rune de Silence] : prolonge la durée du silence.",
+      "4": "Toutes les 20 sec, augmente toutes les DEF de 36% et la vitesse d'attaque de 36% pendant 10 sec. La première compétence utilisée reçoit un effet supplémentaire. [Rune de Fragilité] : gagne 500 de pénétration de DEF. [Rune de Soin] : dissipe ses propres effets négatifs à l'utilisation. [Rune de Silence] : prolonge la durée du silence.",
+      "5": "Toutes les 20 sec, augmente toutes les DEF de 40% et la vitesse d'attaque de 40% pendant 10 sec. La première compétence utilisée reçoit un effet supplémentaire. [Rune de Fragilité] : gagne 500 de pénétration de DEF. [Rune de Soin] : dissipe ses propres effets négatifs à l'utilisation. [Rune de Silence] : prolonge la durée du silence."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Encyclopédie littéraire antique, volume I",
+      "description": "[Rune de fragilité] Devient inamovible et augmente les DEG de {0} %.",
+      "thumbnail": "heroes/Leo/ut/1.png",
+      "story": "Cette encyclopédie, la préférée de Leo, traite de l'interprétation de textes anciens.\nElle faisait partie d'une série de 3 volumes, mais les deux autres ont été brûlés, ne laissant que le [Vol. I - Lettres de malédiction et de soin]. Leo se dit souvent que les secrets des textes anciens étaient peut-être révélés dans les deux autres volumes. Quoi qu'il en soit, ce livre est sous le coup d'un sort mystique qui rend sa lecture impossible, à moins que le livre lui-même ne décide du contraire.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Rune de fragilité] Devient inamovible et augmente les DEG de 20 %.",
+        "1": "[Rune de fragilité] Devient inamovible et augmente les DEG de 24 %.",
+        "2": "[Rune de fragilité] Devient inamovible et augmente les DEG de 29 %.",
+        "3": "[Rune de fragilité] Devient inamovible et augmente les DEG de 35 %.",
+        "4": "[Rune de fragilité] Devient inamovible et augmente les DEG de 42 %.",
+        "5": "[Rune de fragilité] Devient inamovible et augmente les DEG de 50 %."
+      }
+    },
+    "2": {
+      "name": "Encre de vitalité",
+      "description": "[Rune de soin] Augmente les soins de 50 % et la résistance Crit P des alliés de {0} pendant 10 sec.",
+      "thumbnail": "heroes/Leo/ut/2.png",
+      "story": "Encre produite par extraction des jeunes pousses de l’Arbre Monde. Seules 10 gouttes peuvent ainsi être récoltées par an.\nLes sorts écrits avec cette encre assurent une vitalité hors du commun.\nComme elle est précieuse et difficile à obtenir, Leo ne s’en sert que pour les occasions spéciales.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Rune de soin] Augmente les soins de 50 % et la résistance Crit P des alliés de 100 pendant 10 sec.",
+        "1": "[Rune de soin] Augmente les soins de 50 % et la résistance Crit P des alliés de 120 pendant 10 sec.",
+        "2": "[Rune de soin] Augmente les soins de 50 % et la résistance Crit P des alliés de 140 pendant 10 sec.",
+        "3": "[Rune de soin] Augmente les soins de 50 % et la résistance Crit P des alliés de 170 pendant 10 sec.",
+        "4": "[Rune de soin] Augmente les soins de 50 % et la résistance Crit P des alliés de 210 pendant 10 sec.",
+        "5": "[Rune de soin] Augmente les soins de 50 % et la résistance Crit P des alliés de 250 pendant 10 sec."
+      }
+    },
+    "3": {
+      "name": "Parchemin de mémoire",
+      "description": "[Rune de Silence] Les DEG sur la cible sont augmentés de 15% pendant 10 sec et sa Résistance aux Contrôles est réduite de {0}.",
+      "thumbnail": "heroes/Leo/ut/3.png",
+      "story": "Un ancien grimoire de mage, rédigé par des mages respectés et contenant les principes de la magie de la vie et de la création. Il est rédigé dans une langue inconnue et une seule partie a pu être déchiffrée. Si on découvrait la clé de cette langue ancienne, il serait possible d’utiliser des sorts sans payer le moindre coût.",
+      "value": {
+        "0": {
+          "0": "120",
+          "1": "140",
+          "2": "170",
+          "3": "210",
+          "4": "250",
+          "5": "300"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Rune de Silence] Les DEG sur la cible sont augmentés de 15% pendant 10 sec et sa Résistance aux Contrôles est réduite de 120.",
+        "1": "[Rune de Silence] Les DEG sur la cible sont augmentés de 15% pendant 10 sec et sa Résistance aux Contrôles est réduite de 140.",
+        "2": "[Rune de Silence] Les DEG sur la cible sont augmentés de 15% pendant 10 sec et sa Résistance aux Contrôles est réduite de 170.",
+        "3": "[Rune de Silence] Les DEG sur la cible sont augmentés de 15% pendant 10 sec et sa Résistance aux Contrôles est réduite de 210.",
+        "4": "[Rune de Silence] Les DEG sur la cible sont augmentés de 15% pendant 10 sec et sa Résistance aux Contrôles est réduite de 250.",
+        "5": "[Rune de Silence] Les DEG sur la cible sont augmentés de 15% pendant 10 sec et sa Résistance aux Contrôles est réduite de 300."
+      }
+    },
+    "4": {
+      "name": "Loupe dorée",
+      "description": "[Rune de protection] Augmente le nombre de cibles de 1. Augmente la Vitesse d'ATQ des cibles de {0} points pendant la durée de la compétence.",
+      "thumbnail": "heroes/Leo/ut/4.png",
+      "story": "Une loupe en or transmise aux historiens.\nElle constitue un gage de reconnaissance possédé par les spécialistes de l'histoire d'Orvel les plus fidèles et objectifs.\nLa Loupe dorée est sans conteste la plus haute distinction pour un historien.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Rune de protection] Augmente le nombre de cibles de 1. Augmente la Vitesse d'ATQ des cibles de 200 points pendant la durée de la compétence.",
+        "1": "[Rune de protection] Augmente le nombre de cibles de 1. Augmente la Vitesse d'ATQ des cibles de 240 points pendant la durée de la compétence.",
+        "2": "[Rune de protection] Augmente le nombre de cibles de 1. Augmente la Vitesse d'ATQ des cibles de 290 points pendant la durée de la compétence.",
+        "3": "[Rune de protection] Augmente le nombre de cibles de 1. Augmente la Vitesse d'ATQ des cibles de 350 points pendant la durée de la compétence.",
+        "4": "[Rune de protection] Augmente le nombre de cibles de 1. Augmente la Vitesse d'ATQ des cibles de 420 points pendant la durée de la compétence.",
+        "5": "[Rune de protection] Augmente le nombre de cibles de 1. Augmente la Vitesse d'ATQ des cibles de 500 points pendant la durée de la compétence."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros [64ff64]5[-] fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Belisa, la Plume de Phénix. Confère aux 4 alliés à l'ATQ la plus élevée un bouclier absorbant des DEG égaux à 500% de l'ATQ et une immunité aux contrôles pendant 10 sec, et augmente leurs DEG infligés aux ennemis de 20% pendant 10 sec. Dissipe ensuite les effets positifs des ennemis situés en ligne droite à l'avant et leur inflige des DEG P égaux à 600% de l'ATQ.",
+    "cooldown": "23",
+    "uses": "5",
+    "thumbnail": "heroes/Leo/sw.png",
+    "advancement": {
+      "1": "Modifie la condition d'invocation à 3 utilisations de compétence.",
+      "2": "Empêche l'ennemi touché de recevoir les effets positifs pendant 4 sec."
+    },
+    "story": "Le phénix, symbole de l'éternité et créature céleste de flammes, était une parfaite représentation de la volonté infinie de Leo pour ses études.\nBeaucoup enviaient son intelligence en tant qu'expert des caractères antiques, mais Leo lui-même s'efforçait incessamment de déchiffrer les caractères encore non décodés, et de connaître la vérité historique qu'ils contenaient.\nIl ne cessait jamais ses études sur les caractères antiques, afin de découvrir leur but et leur signification. Et sa vocation finit par éveiller l'âme endormie dans son stylo à plume.\nBelisa, qui s'était transformé en phénix, partagea avec son propriétaire le souvenir de toute une éternité de sa forme d'origine, et lui proposa des réponses sur les interrogations que Leo portait sur les caractères antiques."
+  },
+  "splashart": "heroes/Leo/sa.png",
+  "costumes": "heroes/Leo/cos",
+  "_localization": {
+    "locale": "fr",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

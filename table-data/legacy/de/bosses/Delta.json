@@ -1,0 +1,53 @@
+{
+  "id": "Delta",
+  "profile": {
+    "name": "Delta",
+    "title": "Predator MK-XX",
+    "type": [
+      "Technomagic Enchantment Raid"
+    ],
+    "race": "Golem",
+    "damage_type": "Physical",
+    "recommended_heroes": "Gau, Cecilia, Mediana",
+    "characteristics": "ARCDIM X Delta stapelt ständig Blutungen, daher musst du Skills zum Entfernen negativer Effekte einsetzen. Außerdem erhöht er stark seine Körp. Ausweichchance, bis er in bestimmten Situationen mehr als eine bestimmte Anzahl an Treffern erlitten hat, daher ist es wichtig PRÄZ-Effekte einzusetzen.\nBeachte auch, dass ARCDIM X Delta über hohen Krit. Widerstand verfügt.",
+    "thumbnail": "bosses/Delta.png",
+    "recommendedHeroNames": [
+      "Gau",
+      "Cecilia",
+      "Mediana"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Sägeblatt-Messer",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Greift Gegner in der hinteren Reihe 8-mal an, fügt ihnen Körp. Schaden zu und stapelt mit jedem Treffer Blutung. Blutung fügt dem Gegner jede Sek. massiven Körp. Schaden zu und kann bis zu 100-mal gestapelt werden."
+    },
+    "2": {
+      "name": "Klingenspirale",
+      "cost": null,
+      "cooldown": "32",
+      "description": "Greift nahe Feinde in ringförmiger Reichweite an, fügt ihnen Körp. Schaden zu und erhöht während der Wirkungsdauer stark die eigene Ausweichchance. Dieser Angriff dauert so lange, bis der Bossmonster mehr als eine bestimmte Anzahl an Treffern erlitten hat und wird mit der Zeit stärker. Wenn die Anzahl der Treffer aufgebraucht ist, wird er für eine bestimmte Dauer neutralisiert und erleidet erheblichen Schaden. Wird für eine bestimmte Dauer kein Gegner von diesem Angriff getroffen, wird der Angriff automatisch abgebrochen.\nDie Anzahl der Treffer und der Ausweichchance-Boost erhöhen sich mit höheren Schwierigkeitsgraden.\n[Phase 1 Anzahl der Treffer: 120)\n(Phase 1 Ausweichchance-Boost: 500)"
+    },
+    "3": {
+      "name": "Wellenflügel-Massaker",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erreichen die TP von ARCDIM X Delta 66 %, wird der nicht entfernbare [Wellenflügel-Massaker]-Zustand erzeugt. In dem [Wellenflügel-Massaker]-Zustand wird der Normal-ANG von ARCDIM X Delta verstärkt, wobei auch Gegner in großer Reichweite angegriffen werden und der dabei erlittene Schaden erhöht wird."
+    },
+    "4": {
+      "name": "Plasma-Notbremse",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erreichen die TP von ARCDIM X Delta 33 %, wird der nicht entfernbare [Plasma-Notbremse]-Zustand erzeugt. In dem [Plasma-Notbremse]-Zustand wird der ANG und die ANG-GESCHW. von ARCDIM X Delta stark erhöht und nimmt mit der Zeit zu."
+    },
+    "5": {
+      "name": "Adaptive Metadium-Rüstung Delta",
+      "cost": null,
+      "cooldown": null,
+      "description": "ARCDIM X Delta erhält keine ANG-GESCHW.- und VERT-Reduktions-Effekte, ist immun gegen Schaden-Boost-Effekte und hat einen hohen Krit. Widerstand. Außerdem ignorieren ARCDIM X Deltas Angriffe gegn. Schadenverringerungs-Effekte. Der Krit. Widerstand erhöht sich mit höheren Schwierigkeitsgraden.\n(Phase 1 Krit. Widerstand: 300)"
+    }
+  },
+  "aliases": null
+}

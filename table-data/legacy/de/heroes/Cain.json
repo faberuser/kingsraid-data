@@ -1,0 +1,270 @@
+{
+  "id": "Cain",
+  "profile": {
+    "name": "Cain",
+    "title": "Unsterblicher Gottkönig Cain",
+    "class": "Wizard",
+    "position": "Middle-300",
+    "attack_range": "9800",
+    "damage_type": "Physical",
+    "gender": "Männlich",
+    "age": "28",
+    "height": "191",
+    "race": "Menschen",
+    "constellation": "Satua, die Weise",
+    "birth": {
+      "month": 2,
+      "day": 1,
+      "monthName": "Monat der Weisheit"
+    },
+    "like": "Laias, Clowns",
+    "dislike": "Dunkelheit, Höfling, Augendiener, Menschen, die keine Loyalität kennen.",
+    "story": "Der beste und mächtigste König in der Geschichte des alten Sekireinel-Königreich. Die Menschen nennen Cain einen Gottkönig, da er der perfekte und ideale König ist, der von Gott auserwählt wurde. Unter seiner Herrschaft war Sekireinel ein blühendes und gesegnetes Königreich. Die Leute sind ihm treu und bewundern ihn, der eine überwältigende Ausstrahlung hat. Er regierte sehr gerecht und barmherzig gegenüber den Menschen in Sekireinel. Gleichzeitig verzeihte er jedoch  niemanden, der das Königreich bedrohte und ließ jeden schwer für sein Verbrechen bezahlen, sogar mit dem Tod.\nAber als ängstlicher Gottkönig, der sein Volk mit sehr distanzierter Haltung regierte, war es sehr einsam und immer voller Angst, wenn er allein war. Laias war diejenige, die ihn in diesen Zeiten tröstete und für ihn sang. Cain liebte Laias wirklich sehr und seine Liebe zu ihr drückte er viemals aus und war bereit, alles für sie zu tun.",
+    "thumbnail": "heroes/Cain/ico.png"
+  },
+  "skills": {
+    "1 (1)": {
+      "name": "Fühle die Angst!",
+      "cost": "2",
+      "cooldown": "14",
+      "description": "Cain heilt ??? TP von den Verbündeten mit den wenigsten TP, gibt [Segen des Gottkönigs], verringert alle Schäden für 3.5 Sek. um 35 % und gewährt Massenkontroll-Immunität. Es entfernt die schlechten Effekte von Gegnern und Verbündeten nach  3.5  Sek. und stellt  ???  TP wieder her. Du kannst den [Segen des Gottkönigs] nicht entfernen.",
+      "thumbnail": "heroes/Cain/skills/1 (1).png"
+    },
+    "1 (2)": {
+      "name": "Auf die Knie.",
+      "cost": "2",
+      "cooldown": "14",
+      "description": "Cain erteilt ??? Mag. Schaden an dem Gegner mit dem höchsten ANG: benutzt die [Siegelmagie des Tyrannen], um die gegn. ANG-GESCHW. für 5 Sek. um 350 zu verringern und keine negativen Effekte zu bekommen. Außerdem wird nach 5 Sek. ??? Körp. Schaden an Gegnern und Ziele in der Nähe zugefügt und sie werden 3 Sek. lang betäubt. Du kannst die [Siegelmagie des Tyrannen] nicht entfernen.",
+      "thumbnail": "heroes/Cain/skills/1 (2).png"
+    },
+    "2": {
+      "name": "Spüre meine Kraft!",
+      "cost": "3",
+      "cooldown": "8",
+      "description": "Wenn Cain zu [Tyrann] gewechselt ist, greift er ständig alle Feinde an und richtet ??? Körp. Schaden bei jedem Treffer an. Cain im [Tyrann]-Modus wechselt die [Fühle die Angst!] und [Meine allmächtige Macht!] Skills zu [Auf die Knie.] und [Nun stirb.] Skills und wird immun gegen Massenkontrolle. Wenn du die Skills erneut einsetzt, kehrt er zum [Gottkönig]-Zustand zurück.\n[Gnade des Gottkönigs] Wenn Cain ein Gottkönig ist, verringern sich die Schäden der Verbündeten um 10 %.\n[Würde des Tyrannen] Wenn Cain ein Tyrann ist, erhöhen sich die Schäden der Feinde um 10 %.",
+      "thumbnail": "heroes/Cain/skills/2.png"
+    },
+    "3 (1)": {
+      "name": "Meine allmächtige Macht!",
+      "cost": "3",
+      "cooldown": "25",
+      "description": "Es erhöht die VERT aller Verbündeten in der Nähe für 10 Sek. um ??? 10-mal. VERT-Boost kann max. 10-mal gestapelt werden. Der Verbündete, dessen VERT-Boost 10-mal gestapelt wurde, erhöht den gegn. ANG für 10 Sek. um ??? und gewährt Massenkontroll-Immunität.",
+      "thumbnail": "heroes/Cain/skills/3 (1).png"
+    },
+    "3 (2)": {
+      "name": "Nun stirb.",
+      "cost": "4",
+      "cooldown": "25",
+      "description": "Es installiert eine [Tür zur Hölle] an der Front für 3 Sek. und verursacht 10-mal ??? Körp. Schaden an Gegnern im Umfeld und zieht sie zum Mittelpunkt. Danach lässt es die [Tür zur Hölle] explodieren und verursacht ??? Körp. Schaden und betäubt sie für 3 Sek.",
+      "thumbnail": "heroes/Cain/skills/3 (2).png"
+    },
+    "4": {
+      "name": "Der König der Wüste bin Ich!",
+      "cost": null,
+      "cooldown": null,
+      "description": "Du kannst eine Stapelung von [König der Wüste], das du nicht entfernen kannst, zu jedem Beginn des Kampfes erhalten. Pro [König der Wüste]-Stapel wird der Effekt von [Gnade des Gottkönigs] und [Würde des Tyrannen] um 5 % erhöht und pro Sek. wird 100 } MP regeneriert und der ANG um ??? erhöht. Wenn [König der Wüste] mehr als 3-mal gestapelt wird, erhöht sich der Schaden, den du dem Boss zufügst, um 50 %. [König der Wüste] kann max. 5-mal gestapelt werden.",
+      "thumbnail": "heroes/Cain/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Heilungsrate und Schaden um 10 %.",
+      "III": "Erhöht Heilungsrate und Schaden um 15 %.",
+      "IV": "Erhöht Heilungsrate und Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "ANG- und Schaden-Boost werden um 10 % erhöht.",
+      "III": "ANG- und Schaden-Boost werden um 15 % erhöht.",
+      "IV": "ANG- und Schaden-Boost werden um 25 % erhöht."
+    },
+    "4": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "[Fühle die Angst!] Skill-Effekt wirkt sich auf 3 Verbündete aus und jeder Effekt, der nach 3.5 Sek. angewendet wird, funktioniert nicht.",
+          "thumbnail": "heroes/Cain/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "[Auf die Knie.] Skill-Effekt wirkt sich auf 3 Verbündete aus und jeder Effekt, der nach 5 Sek. angewendet wird, funktioniert nicht.",
+          "thumbnail": "heroes/Cain/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Der Schaden dieses Skills erhöht sich um 30 %, je nach Anzahl der Stapelungen von [König der Wüste].",
+          "thumbnail": "heroes/Cain/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Der Skill-Cooldown verringert sich um 4 Sek. und verwandelt sich im Auto-Kampf in einen Tyrannen, um dann wieder zum Gottkönig-Zustand zurückzukehren.",
+          "thumbnail": "heroes/Cain/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "[Meine allmächtige Macht!] Effekt-Wirkungsdauer erhöht sich um 10 Sek.",
+          "thumbnail": "heroes/Cain/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "[Nun stirb.] Skill-Manakosten verringern sich um 1.",
+          "thumbnail": "heroes/Cain/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Dem Bossmonster zugefügter Schaden-Boost wird um 100 % erhöht.",
+          "thumbnail": "heroes/Cain/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erholte MP pro Sek. werden zu 150 geändert.",
+          "thumbnail": "heroes/Cain/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/ANG-GESCHW +10 %",
+        "thumbnail": "heroes/Cain/perks/light.png"
+      },
+      "dark": {
+        "effect": "Zu Beginn jedes Kampfs verbrauchst du 20 % der aktuellen MP und der ANG von allen Verbündeten wird für 20 Sek. um 20 % erhöht. Wenn es weniger als 3 Verbündete gibt, verringert sich der Schaden der Verbündeten um zus. 30 %.",
+        "thumbnail": "heroes/Cain/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Würde des Gottkönigs, Tyrannicus",
+    "description": "Je nach Zustand des Normalangriffs und des Skillangriffs wird ein zusätzlicher Effekt hinzugefügt.\n[Gottkönig] betäubt den Gegner 1 Sek. lang mit einer Chance von {0} %.\n[Tyrann] erhöht den gegn. Körp. Schaden für 5 Sek. um {1} %. Das Ziel, welches diesen Effekt erhält, kann 3 Sek. lang den gleichen Effekt nicht erneut bekommen.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      }
+    },
+    "thumbnail": "heroes/Cain/uw.png",
+    "story": "Atermos, der König von Sekireinel, der über große Weisheit besaß, hat die Offenbarung Gottes erhalten und selbst eine Waffe mit heiligem Material hergestellt.\nDer Legende entsprechend ist die Waffe des Gottes der Weisheit in der Lage die Gedanken des Besitzers zu lesen. Wenn der neue Besitzer der Waffe aufgrund seiner schlechten Absichten von Tyrannicus als nicht qualifiziert gehalten wurde, konnte er weder Tyrannicus halten, noch durfte er am Leben bleiben.\nNach Atemos' Tod ist Tyrannicus mit der Sonne geschmückt, die direkt hinter dem Thron scheint. Außerdem stellt es ein Symbol für die Qualifikation und Würde des Königs dar. AmTag vor seiner Krönung hat Cain nach Tyrannicus gegriffen, wobei dieser Cain wie eine Sonne erleuchtete und folgte, als hätte er endlich seinen wahren Besitzer getroffen.",
+    "descriptionByStar": {
+      "0": "Je nach Zustand des Normalangriffs und des Skillangriffs wird ein zusätzlicher Effekt hinzugefügt.\n[Gottkönig] betäubt den Gegner 1 Sek. lang mit einer Chance von 20 %.\n[Tyrann] erhöht den gegn. Körp. Schaden für 5 Sek. um 20 %. Das Ziel, welches diesen Effekt erhält, kann 3 Sek. lang den gleichen Effekt nicht erneut bekommen."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Rune des Flusses",
+      "description": "[Fühle die Angst!] Schadenverringerungs-Effekt erhöht sich um zus. {0} %.\n[Auf die Knie.] Skill-Manakosten verringern sich um 1.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Cain/ut/1.png",
+      "story": "Ein Ring der von Cain getragen wurde, als sein Körper, der von der versiegelten Seele des Cains getrennt wurde, in einen langen Todesschlaf fiel.\nDiesen Ring trug Cain am Ringfinger und er wurde von Laias mit demSegen des Flusses gehaucht. Damit sollte die ewige Herrlichkeit des Gottkönigs auch im Jenseits bewahrt werden.\nKeiner hat jedoch erwartet, dass er aufgrund unbekannter Umstände wieder erwecken würde ... Als er nach tausenden von Jahren wieder aufwachte, war der Ring zwar veraltet und schäbig, aber ein Juwel, das die Kraft eines blauen Drachen verinnerlichte, blieb übrig.",
+      "descriptionByStar": {
+        "0": "[Fühle die Angst!] Schadenverringerungs-Effekt erhöht sich um zus. 10 %.\n[Auf die Knie.] Skill-Manakosten verringern sich um 1."
+      }
+    },
+    "2": {
+      "name": "Auge des Gottkönigs",
+      "description": "[Spüre meine Kraft!] Skill-Schaden erhöht sich um 50 % und der Schaden, den du im Tyrann-Zustand verursachst, um {0} %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Cain/ut/2.png",
+      "story": "Die Krone mit dem Augensymbol, das Gottkönig bedeutet.\nIm alten Sekireinel bedeutet dies, dass alles von dem Gottkönig beobachtet wird. Fürchte es also und bewundere es.",
+      "descriptionByStar": {
+        "0": "[Spüre meine Kraft!] Skill-Schaden erhöht sich um 50 % und der Schaden, den du im Tyrann-Zustand verursachst, um 10 %."
+      }
+    },
+    "3": {
+      "name": "Kiste der Aufrichtigkeit",
+      "description": "[Meine allmächtige Macht!] Skill-ANG-Boost erhöht sich um 50 %.\n[Nun stirb.] erhöht den Körp. Schaden, den das Ziel erleidet, für 10 Sek. um {0} %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Cain/ut/3.png",
+      "story": "Die versiegelte Kiste, die sich nicht öffnen lässt, egal wie stark man ist.\nShakmeh, der Bruder Cains, der lange außerhalb des Königreichs gelebt hat, hatte ein Geschenk dabei, als er zurückkam.\nCain freute sich über das gute Herz und die Loyalität seines Bruders, aber als Schakmeh zu einer Dunkelheit wurde, die Sekireinel bedeckte, benutzte er das kostbare Geschenk seines Brudes, um Schakmeh dort einzusperren.\nNach einer langen Zeit wachte Cain im Siegel auf und holte die bereits geöffnete Kiste neben seinen Sarg und erinnerte sich an die alten Tage.",
+      "descriptionByStar": {
+        "0": "[Meine allmächtige Macht!] Skill-ANG-Boost erhöht sich um 50 %.\n[Nun stirb.] erhöht den Körp. Schaden, den das Ziel erleidet, für 10 Sek. um 10 %."
+      }
+    },
+    "4": {
+      "name": "Sekireinel-Aufzeichnungen",
+      "description": "[Der König der Wüste bin Ich!] Skill-ANG-Boost erhöht sich um 50 % und wenn die Stapelung von [König der Wüste] mehr als 3 beträgt, erhöht sich die Heilungsrate aller Verbündeten um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Cain/ut/4.png",
+      "story": "Die Aufzeichnungen, in dem die Geschichte von Sekireinel niedergeschrieben wurden.\nNach Cains Auferstehung bat er Zafir, ihm die Geschichtsaufzeichnungen zu bringen, um zu erfahren, wie die Geschichte von ihm und seinem Bruder an die nächsten Generationen weitergeleitet wurde.\nDas Buch, das Zafir nahm, ist das Buch, das von den Nachkommen der Schreiberfamilie von Sekireinel geschrieben und während Kriegen und Unruhen für Generationen beschützt wurde. Es ist das genaueste Geschichtsbuch unter vielen.",
+      "descriptionByStar": {
+        "0": "[Der König der Wüste bin Ich!] Skill-ANG-Boost erhöht sich um 50 % und wenn die Stapelung von [König der Wüste] mehr als 3 beträgt, erhöht sich die Heilungsrate aller Verbündeten um 20 %."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 5-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört die Seele von Würde des Gottkönigs Tyrannicus, verursacht ??? Körp. Schaden an Gegnern im weiten Umkreis und friert sie für 4 Sek. ein. Danach erhöht sich der eigene ANG 10 Sek. lang um 50 %. Im Einfrier-Zustand können Normalangriffe und Skills nicht verwendet werden, und der Cooldown bleibt stehen.",
+    "cooldown": "22",
+    "uses": "5",
+    "thumbnail": "heroes/Cain/sw.png",
+    "advancement": {
+      "1": "??? TP der Verbündete in Reichweite werden innerhalb von 10 Sek. regeneriert.",
+      "2": "Positive Effekte aller Gegner in Reichweite werden aufgehoben."
+    },
+    "story": "Als Cain Tyrannicus zum ersten Mal auf dem Thron sah, erkannte er, was der Thron des wahren Gottkönigs ist. Die Form, die diese Seele von Tyrannicus hat, ist der Thron des Gottkönigs selbst, und der Name der Sonne passt sehr gut zum strahlenden Licht. Cain hat die Würde des Gottkönigs mit eigenen Augen gesehen und respektiert die herrliche Helligkeit von Tyrannicus. Und er versprach sich, ein Mensch zu sein, der für diesen Thron geeignet ist und ein perfekter König ist und die Wüste regiert. Tyrannicus gehorchte Cain und schwang mit Cain mit und teilte die Weisheit, die der alte König der Weisheit besaß."
+  },
+  "splashart": "heroes/Cain/sa.png",
+  "costumes": "heroes/Cain/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "Lakreil",
+  "profile": {
+    "name": "勞格雷爾",
+    "title": "憎惡荊棘",
+    "type": [
+      "Guild Conquest",
+      "Guild Raid"
+    ],
+    "race": "蜥蜴人",
+    "damage_type": "Physical",
+    "recommended_heroes": "奈拉, 朱諾, 羅迪娜",
+    "characteristics": "使用[肉彈突擊]後施放[致命迴力鏢]對敵人造成永久性的傷痕。需要閃避勞格雷爾的攻擊或對勞格雷爾造成大量的物理傷害，才能結束[勞格雷爾的憤怒]效果，使其停止施放。",
+    "thumbnail": "bosses/Lakreil.png"
+  },
+  "skills": {
+    "1": {
+      "name": "致命迴力鏢",
+      "cost": null,
+      "cooldown": null,
+      "description": "對前方所有敵人投擲迴力鏢攻擊4次造成物理傷害，並使敵人的回復力永久降低1%。[勞格雷爾的憤怒]效果結束前不會停止。"
+    },
+    "2": {
+      "name": "肉彈突擊",
+      "cost": null,
+      "cooldown": "30",
+      "description": "衝向敵軍造成物理傷害並擊倒敵人，突進後獲得[勞格雷爾的憤怒]效果且施放[致命迴力鏢]。"
+    },
+    "3": {
+      "name": "憤怒強打",
+      "cost": null,
+      "cooldown": "25",
+      "description": "奮力跳躍猛擊地面，在清除全體敵軍的正面效果後對敵人造成物理傷害，並於10秒內使其迴避率減少300，此攻擊無法迴避。"
+    },
+    "4": {
+      "name": "暴怒",
+      "cost": null,
+      "cooldown": "18",
+      "description": "自身的攻擊力提高50%、命中率提高300，持續20秒。"
+    },
+    "5": {
+      "name": "勞格雷爾的憤怒",
+      "cost": null,
+      "cooldown": null,
+      "description": "勞格雷爾的攻擊被敵人閃避時會降低憤怒5，自身每次受到物理傷害時會降低憤怒1。\n勞格雷爾的憤怒結束時在一定時間內會呈現無力狀態且受到的傷害提高。"
+    },
+    "6": {
+      "name": "憎惡荊棘",
+      "cost": null,
+      "cooldown": null,
+      "description": "勞格雷爾的攻擊速度與防禦力不會降低，而且無視敵人受到的所有傷害降低效果。\n敵人使用技能時，可額外造成使用者在1秒內無法回復魔力。"
+    }
+  },
+  "aliases": [
+    "Lakreil",
+    "GC2",
+    "GC 2",
+    "GR8",
+    "GR 8"
+  ]
+}

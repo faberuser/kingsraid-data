@@ -1,0 +1,228 @@
+{
+  "id": "Requina",
+  "profile": {
+    "name": "Requina",
+    "title": "Requina, Marchande de Poisons",
+    "class": "Archer",
+    "position": "Middle-300",
+    "attack_range": "5000",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "14",
+    "height": "130",
+    "race": "Hybride animal (Renard)",
+    "constellation": "Gisla le Fin Tireur",
+    "birth": {
+      "month": 11,
+      "day": 19,
+      "monthName": "Mois de la Chance"
+    },
+    "like": "Développer de nouveaux poisons, ceux qui comprennent les joies de concevoir de nouvelles concoctions",
+    "dislike": "Les personnes remplies de préjugés sur le poison",
+    "story": "Une étrange marchande qui fait commerce de tous les poisons connus de l'homme. C'est la fille de deux alchimistes errants venant d'une nation lointaine. Les autres marchands l'appellent la « marchande de mort », mais elle n'est pas d'accord. Elle dit que les poisons ne sont pas nécessairement maléfiques, seule leur utilisation détermine leur nature. Comme tout vrai marchand, elle pense que les outils sont neutres, contrairement à ceux qui les utilisent. Depuis l'apparition des démons, elle voyage en cherchant le bon poison contre les envahisseurs.",
+    "thumbnail": "heroes/Requina/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Larmes de Mr. Python!",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Attaque 2 ennemis et inflige ??? DEG P, en les empoisonnant avec Larmes de Mr. Python pendant 4.5 sec. Cet effet ne peut être dissipé. Les ennemis affectés par Larmes de Mr. Python ne peuvent plus récupérer de PM et subissent 30% de DEG additionnels. Réduit également leur Blocage de 500.",
+      "thumbnail": "heroes/Requina/skills/1.png"
+    },
+    "2": {
+      "name": "Extrait d'Herbe Stridente!",
+      "cost": "3",
+      "cooldown": "10",
+      "description": "Attaque à 3 reprises des ennemis aléatoires, leur inflige un total de ??? DEG et les empoisonne avec Extrait d'Herbe Stridente pendant 6 sec. Les ennemis affectés par Extrait d'Herbe Stridente voient leur ATQ réduite de 30% et leur Crit de 500.",
+      "thumbnail": "heroes/Requina/skills/2.png"
+    },
+    "3": {
+      "name": "Plus! Plus fort!",
+      "cost": "3",
+      "cooldown": "25",
+      "description": "L'ATQ du Héros est augmentée de ??? pendant 20 sec et l'effet de [Larmes de Mr. Python], [Extrait d'Herbe Stridente], [Potion Guili-Guili] est doublé. Augmente également de 1 le nombre de cibles de [Larmes de Mr. Python], [Extrait d'Herbe Stridente], [Potion Guili-Guili]",
+      "thumbnail": "heroes/Requina/skills/3.png"
+    },
+    "4": {
+      "name": "Potion Guili-Guili",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lors d'une attaque, la cible ennemie est empoisonnée avec Potion Guili-Guili pendant 10 sec, infligeant un total de ??? points de DEG P sur la durée, effet non dissipable. Potion Guili-Guili est cumulable 50 fois.",
+      "thumbnail": "heroes/Requina/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "2": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "3": {
+      "II": "Le taux d'augmentation d'ATQ est augmenté de 10%.",
+      "III": "Le taux d'augmentation d'ATQ est augmenté de 15%.",
+      "IV": "Le taux d'augmentation d'ATQ est augmenté de 25%."
+    },
+    "4": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Requina/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit 1 200 PM de la cible.",
+          "thumbnail": "heroes/Requina/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "S'il n'y a qu'1 seul ennemi, les DEG sont augmentés de 100%.",
+          "thumbnail": "heroes/Requina/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Applique Étourdissement sur la cible pendant 1 sec.",
+          "thumbnail": "heroes/Requina/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Pendant la durée, les DEG des attaques auto sont augmentés de 100%.",
+          "thumbnail": "heroes/Requina/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Requina/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "3 charges de Potion Guili-Guili sont accumulées d'un coup!.",
+          "thumbnail": "heroes/Requina/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "La cible reçoit 20% de DEG P supplémentaires.",
+          "thumbnail": "heroes/Requina/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Crit +100",
+        "thumbnail": "heroes/Requina/perks/light.png"
+      },
+      "dark": {
+        "effect": "Les attaques auto sur un ennemi avec 50 charges ou plus de Potion Guili-Guili infligent des DEG P supplémentaires à hauteur de 200% de l'ATQ et qui ignorent la DEF.",
+        "thumbnail": "heroes/Requina/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Rakshathar, la Flûte des Vents silencieux",
+    "description": "Le nombre maximum de charges de Potion Guili-Guili est maintenant de 55. Chaque attaque auto a 10% de chances d'attaquer un ennemi aléatoire, d'infliger des DEG à hauteur de 20% de l'ATQ et d'appliquer Silence pendant 1 sec.",
+    "value": {},
+    "thumbnail": "heroes/Requina/uw.png",
+    "story": "Sarbacane ultra précise fabriquée par Requina en personne. Un atténuateur ajouté à son extrémité rend cette arme déjà silencieuse presque inaudible. L'apparition des démons ayant commencé à ralentir ses affaires, elle décida d'utiliser tout ce qui se présentait, en sus des poisons. Elle requit l'aide d'un ami élémentaliste qui imprégna la sarbacane de la bénédiction du vent, lui conférant ainsi une puissance de feu comparable à celle d'un canon magique. Une fois le redoutable poison anti-démon ajouté, la sarbacane devint une arme aussi puissante que létale capable de venir à bout de n'importe quel être vivant.",
+    "descriptionByStar": {
+      "0": "Le nombre maximum de charges de Potion Guili-Guili est maintenant de 55. Chaque attaque auto a 10% de chances d'attaquer un ennemi aléatoire, d'infliger des DEG à hauteur de 20% de l'ATQ et d'appliquer Silence pendant 1 sec.",
+      "1": "Le nombre maximum de charges des Potion Guili-Guili est maintenant de 60. Chaque attaque auto a 10% de chances d'attaquer un ennemi aléatoire, d'infliger des DEG à hauteur de 24% de l'ATQ et d'appliquer Silence pendant 1 sec.",
+      "2": "Le nombre maximum de charges des Potion Guili-Guili est maintenant de 65. Chaque attaque auto a 10% de chances d'attaquer un ennemi aléatoire, d'infliger des DEG à hauteur de 29% de l'ATQ et d'appliquer Silence pendant 1 sec.",
+      "3": "Le nombre maximum de charges des Potion Guili-Guili est maintenant de 70. Chaque attaque auto a 10% de chances d'attaquer un ennemi aléatoire, d'infliger des DEG à hauteur de 35% de l'ATQ et d'appliquer Silence pendant 1 sec.",
+      "4": "Le nombre maximum de charges des Potion Guili-Guili est maintenant de 75. Chaque attaque auto a 10% de chances d'attaquer un ennemi aléatoire, d'infliger des DEG à hauteur de 42% de l'ATQ et d'appliquer Silence pendant 1 sec.",
+      "5": "Le nombre maximum de charges des Potion Guili-Guili est maintenant de 80. Chaque attaque auto a 10% de chances d'attaquer un ennemi aléatoire, d'infliger des DEG à hauteur de 50% de l'ATQ et d'appliquer Silence pendant 1 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Larme de venin",
+      "description": "[Larmes de Mr. Python!] Confère l'immunité contre les contrôles pendant la durée de la compétence et augmente cette dernière de 0,8 sec.",
+      "value": {},
+      "thumbnail": "heroes/Requina/ut/1.png",
+      "story": "C'est un extrait de racine de mandragore serpentine, une plante célèbre pour ne pousser qu'une fois par siècle.\nRequina mit la main dessus après avoir fouillé tout le continent à la recherche du plus mortel des poisons. Elle le confectionna et le nomma « larme de M. Grand-serpent ». L'extrait de racine de mandragore serpentine provoque une douleur insoutenable, qui provient de l'extermination de la partie corrompue de l'âme. Ceux qui survivent voient leur âme purifiée.",
+      "descriptionByStar": {
+        "0": "[Larmes de Mr. Python!] Confère l'immunité contre les contrôles pendant la durée de la compétence et augmente cette dernière de 0,8 sec.",
+        "1": "[Larmes de Mr. Python!] Confère l'immunité contre les contrôles pendant la durée de la compétence et augmente cette dernière de 1 sec.",
+        "2": "[Larmes de Mr. Python!] Confère l'immunité contre les contrôles pendant la durée de la compétence et augmente cette dernière de 1,2 sec.",
+        "3": "[Larmes de Mr. Python!] Confère l'immunité contre les contrôles pendant la durée de la compétence et augmente cette dernière de 1,4 sec.",
+        "4": "[Larmes de Mr. Python!] Confère l'immunité contre les contrôles pendant la durée de la compétence et augmente cette dernière de 1,7 sec.",
+        "5": "[Larmes de Mr. Python!] Confère l'immunité contre les contrôles pendant la durée de la compétence et augmente cette dernière de 2 sec."
+      }
+    },
+    "2": {
+      "name": "Croc venimeux de basilic",
+      "description": "[Extrait d'herbe stridente !] Le temps de recharge des compétences diminue de 30% et vous infligez 3% de l'ATQ en guise de DEG P pour chaque potion Guili-Guili ! que possède la cible.",
+      "value": {},
+      "thumbnail": "heroes/Requina/ut/2.png",
+      "story": "Vilain croc de basilic capable d’absorber l’énergie maléfique. Son poison est si fort qu’il peut faire fondre l’âme. S’il venait à être mélangé avec de l’herbe stridente, nul ne pourrait survivre à cette préparation. Le cœur de Requina en est déjà tout bouleversé.",
+      "descriptionByStar": {
+        "0": "[Extrait d'herbe stridente !] Le temps de recharge des compétences diminue de 30% et vous infligez 3% de l'ATQ en guise de DEG P pour chaque potion Guili-Guili ! que possède la cible.",
+        "1": "[Extrait d'herbe stridente !] Le temps de recharge des compétences diminue de 30% et vous infligez 3,6% de l'ATQ en guise de DEG P pour chaque potion Guili-Guili ! que possède la cible.",
+        "2": "[Extrait d'herbe stridente !] Le temps de recharge des compétences diminue de 30% et vous infligez 4,3% de l'ATQ en guise de DEG P pour chaque potion Guili-Guili ! que possède la cible.",
+        "3": "[Extrait d'herbe stridente !] Le temps de recharge des compétences diminue de 30% et vous infligez 5,2% de l'ATQ en guise de DEG P pour chaque potion Guili-Guili ! que possède la cible.",
+        "4": "[Extrait d'herbe stridente !] Le temps de recharge des compétences diminue de 30% et vous infligez 6,2% de l'ATQ en guise de DEG P pour chaque potion Guili-Guili ! que possède la cible.",
+        "5": "[Extrait d'herbe stridente !] Le temps de recharge des compétences diminue de 30% et vous infligez 7,5% de l'ATQ en guise de DEG P pour chaque potion Guili-Guili ! que possède la cible."
+      }
+    },
+    "3": {
+      "name": "Potion étincelante",
+      "description": "[Plus! Plus fort!] Attaque 1 cible supplémentaire et augmente la Vitesse d'ATQ de 100 pendant la durée.",
+      "value": {},
+      "thumbnail": "heroes/Requina/ut/3.png",
+      "story": "Un remède créé en faisant bouillir le septième arc-en-ciel et la langue d’une bête géante Kiselaton qui peut franchir l’enfer. Il est plein de couleurs brillantes. Celui qui le boit ressent une brûlure interne, mais celui qui le sirote meurt doucement en plein bonheur.",
+      "descriptionByStar": {
+        "0": "[Plus! Plus fort!] Attaque 1 cible supplémentaire et augmente la Vitesse d'ATQ de 100 pendant la durée.",
+        "1": "[Plus! Plus fort!] Attaque 1 cible supplémentaire et augmente la Vitesse d'ATQ de 120 pendant la durée.",
+        "2": "[Plus! Plus fort!] Attaque 1 cible supplémentaire et augmente la Vitesse d'ATQ de 140 pendant la durée.",
+        "3": "[Plus! Plus fort!] Attaque 1 cible supplémentaire et augmente la Vitesse d'ATQ de 170 pendant la durée.",
+        "4": "[Plus! Plus fort!] Attaque 1 cible supplémentaire et augmente la Vitesse d'ATQ de 210 pendant la durée.",
+        "5": "[Plus! Plus fort!] Attaque 1 cible supplémentaire et augmente la Vitesse d'ATQ de 250 pendant la durée."
+      }
+    },
+    "4": {
+      "name": "Rire de la mort",
+      "description": "[Potion Guili-Guili !] Augmente les DEG de 20 % et réduit la Résistance Crit P des ennemis touchés de 250 points.",
+      "value": {},
+      "thumbnail": "heroes/Requina/ut/4.png",
+      "story": "Un pollen extrait du kraseir, une fleur jaune connue pour faire rire les gens jusqu'à ce qu'ils en meurent.\nClassée dangereuse et vénéneuse, c'est en fait son pollen, et non la fleur en elle-même, qui attaque le système nerveux.\nRequina fait pousser des kraseirs dans son jardin pour toujours avoir un stock suffisant de pollen.",
+      "descriptionByStar": {
+        "0": "[Potion Guili-Guili !] Augmente les DEG de 20 % et réduit la Résistance Crit P des ennemis touchés de 250 points.",
+        "1": "[Potion Guili-Guili !] Augmente les DEG de 24 % et réduit la Résistance Crit P des ennemis touchés de 250 points.",
+        "2": "[Potion Guili-Guili !] Augmente les DEG de 29 % et réduit la Résistance Crit P des ennemis touchés de 250 points.",
+        "3": "[Potion Guili-Guili !] Augmente les DEG de 35 % et réduit la Résistance Crit P des ennemis touchés de 250 points.",
+        "4": "[Potion Guili-Guili !] Augmente les DEG de 42 % et réduit la Résistance Crit P des ennemis touchés de 250 points.",
+        "5": "[Potion Guili-Guili !] Augmente les DEG de 50 % et réduit la Résistance Crit P des ennemis touchés de 250 points."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Vous devez infliger des DEG à 70 reprises pour recharger l'âme et l'utiliser.",
+    "description": "Invoque l'âme de Rakshathar, la Flûte des Vents silencieux, pendant 10 sec. Pendant la durée de l'invocation de l'âme, toutes les secondes, inflige ??? DEG P + ??? DEG P par 1 charge de Potion Guili-Guili appliquée sur la cible. Pétrifie la cible touchée pendant 1 sec.",
+    "cooldown": "20",
+    "uses": "6",
+    "thumbnail": "heroes/Requina/sw.png",
+    "advancement": {
+      "1": "Augmente tous les DEG reçus par l'ennemi touché de 30% pendant 10 sec.",
+      "2": "Augmente la durée de l'invocation de l'âme de 5 sec."
+    },
+    "story": "Requina comprit que la résonnance de l'intérieur de la flûte était devenue quelque peu différente.\nC'était comme si elle réagissait au poison de Requina. Chaque fois que le poison coulait, un son sombre et bas brisait la placidité propre à la flûte.\nAlors que Requina s'inquiétait en croyant que la flûte pourrait être détruite, ne supportant pas le poison,\nle conseil de l'élémentaliste, qui avait béni sa flûte, lui revint en mémoire...\n\n- Cet enfant n'a-t-il pas encore de nom ?\nDans ce cas, nommez-le avec prudence.\nTout objet s'efforce de mériter le nom donné par son propriétaire.\n\nRequina comprit ce qui se passait avec sa flûte.\nEnfin, il était là !\nPour ce visiteur qui lui était cher, elle versa sur la flûte le venin mortel qu'elle gardait précieusement : les larmes du serpent-roi.\n\nLa flûte lui répondit en produisant un son assourdissant, et une forme de serpent entortillé apparut devant ses yeux.\n\nLe serpent-roi, qu'elle avait rêvé toute sa vie.\nCe fut la renaissance de la flûte nommée Rakshathar, vipère de légende."
+  },
+  "splashart": "heroes/Requina/sa.png",
+  "costumes": "heroes/Requina/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

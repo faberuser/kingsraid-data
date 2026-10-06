@@ -1,0 +1,279 @@
+{
+  "id": "Hilda",
+  "profile": {
+    "name": "Hilda",
+    "title": "Hilda, Lance de l'Aube",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "8100",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "???",
+    "height": "170",
+    "race": "???",
+    "constellation": "Mertis la Protectrice",
+    "birth": {
+      "month": 1,
+      "day": 4,
+      "monthName": "Mois de la Protection"
+    },
+    "like": "Siegfried, travail qui ne demande pas de réflexion",
+    "dislike": "Déesses, humains, tout ce qui menace son roi",
+    "story": "Au temps de jadis, à l'époque où le Royaume technomagique fut fondé, la famille royale craignit l'avènement de la fin du cycle, et ordonna le projet Brunhild. Il avait pour objectif de créer un réceptacle capable d'atteindre le statut divin, qui pourrait ainsi devenir une 'imitation de déesse, obéissant aux hommes'.\nDans ce but, les chercheurs synthétisèrent divers monstres, golems et même des humains, mais à chaque fois, les spécimens ne parvenaient pas à maintenir leurs corps qui finissaient par se dissocier. Ils se tournèrent alors vers les 'Transcendants', des êtres puissants proches de l'origine de toute chose, et utilisèrent les données que le royaume possédait sur eux pour créer Hilda.\nCette Transcendante artificielle devait être l'instrument de la destruction des règles existantes, afin de permettre aux hommes d'échapper au cycle et d'établir un nouveau monde. Elle devait être une 'arme' faite pour s'opposer aux Déesses, alors il ne lui fut pas permis d'avoir une volonté ou une personnalité. En dehors de la période d'ajustement nécessaire à l'acquisition de la qualité divine et celle de l'apprentissage des idéologies, elle passait le reste du son existence en hibernation, enfermée dans une éprouvette, puis dans le laboratoire.\nPassant sans cesse de la phase de sommeil à celle de l'éveil, elle choisit d'accepter son destin en tant qu'arme afin de protéger son esprit, au lieu de chercher à connaître ces émotions inconnues qu'elle ressentait. De toute façon, personne n'était là pour les lui apprendre... Puis un jour, le projet Brunhild fut abandonné juste avant que Hilda n'atteigne le stade d'une déesse.\nEt ce, sur l'ordre du nouveau souverain du royaume, Siegfried Felix Liesnel...",
+    "thumbnail": "heroes/Hilda/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Tourbillon du Néant",
+      "cost": "3",
+      "cooldown": "18",
+      "description": "Inflige à l'ennemi à portée situé à l'avant un total de ??? DEG M en 12 attaques et réduit 150 PM de la cible à chaque coup porté.",
+      "thumbnail": "heroes/Hilda/skills/1.png"
+    },
+    "2 (1)": {
+      "name": "Transcendant",
+      "cost": "3",
+      "cooldown": "8",
+      "description": "Dissipe son effet négatif et inflige à tous les ennemis ??? DEG M. Ensuite, se met à l'état de [Transcendant], ce qui renforce l'attaque automatique du lanceur. À l'état de [Transcendant], devient incapable d'utiliser les compétences, se confère l'immunité contre les Contrôles, et inflige à la cible jusqu'à 20 charges cumulables de [Néant] lors de l'attaque automatique. Puis réduit la Récupération des PV de l'ennemi dans une zone circulaire à portée de 30% et consomme 100 PM toutes les sec. Les PM consommés augmentent au fur et à mesure que le temps passe, et si tous les PM sont consommés ou si une compétence est utilisée, l'état de [Transcendant] est dissipé.",
+      "thumbnail": "heroes/Hilda/skills/2 (1).png"
+    },
+    "2 (2)": {
+      "name": "Transcendance dissipée",
+      "cost": null,
+      "cooldown": null,
+      "description": "Dissipe l'état de [Transcendant] et confère à [Transcendant] un temps de recharge de 8 sec.\nCette compétence s'active automatiquement lorsque tous les PM sont consommés.",
+      "thumbnail": "heroes/Hilda/skills/2 (2).png"
+    },
+    "3": {
+      "name": "Coup cinglant du Néant",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Inflige à l'ennemi dans une zone circulaire à l'avant ??? DEG M et le renverse pendant 3 sec. Lors d'un coup porté à l'ennemi à l'état de [Néant], consomme toutes les charges cumulées de la cible et inflige ??? DEG M supplémentaires par charge.",
+      "thumbnail": "heroes/Hilda/skills/3.png"
+    },
+    "4": {
+      "name": "Fureur du Néant",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente l'ATQ de ???, applique à toutes les récupérations de PM un taux de 50% plus élevé, et augmente la Pénétration DEF de 100 par 1 barres de PM du lanceur. Lorsque les PM sont au maximum, se met à l'état de [Fureur du Néant] pendant 30 sec. Dans cet état, toutes ses attaques ignorent le Blocage de l'ennemi et fixe l'augmentation de Pénétration DEF par barres de PM à 1000. L'état de [Fureur du Néant] possède 15 sec de temps de recharge.",
+      "thumbnail": "heroes/Hilda/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente l'augmentation d'ATQ de 10%.",
+      "III": "Augmente l'augmentation d'ATQ de 15%.",
+      "IV": "Augmente l'augmentation d'ATQ de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Récupère 100 PM à chaque coup porté.",
+          "thumbnail": "heroes/Hilda/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Confère l'immunité contre les Contrôles pendant l'utilisation de la compétence.",
+          "thumbnail": "heroes/Hilda/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "[Transcendant] Dans cet état, augmente la Vitesse d'ATQ de 500.",
+          "thumbnail": "heroes/Hilda/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "[Transcendant] Dans cet état, réduit les DEG reçus de 20%.",
+          "thumbnail": "heroes/Hilda/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Dissipe les effets positifs de l'ennemi à portée.",
+          "thumbnail": "heroes/Hilda/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG infligés de 40%.",
+          "thumbnail": "heroes/Hilda/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "[Fureur du Néant] Modifie le temps de recharge à 7.",
+          "thumbnail": "heroes/Hilda/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "[Fureur du Néant] Dans cet état, augmente les DEG infligés au boss de 50%.",
+          "thumbnail": "heroes/Hilda/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Vitesse d'ATQ +100",
+        "thumbnail": "heroes/Hilda/perks/light.png"
+      },
+      "dark": {
+        "effect": "[Néant] Modifie les charges pour qu'elles ne puissent être dissipées, et lors d'une attaque automatique, a 25% de chances d'infliger 1 charges cumulables de [Néant].",
+        "thumbnail": "heroes/Hilda/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Innocentia, le Songe de Déesse créée",
+    "description": "Augmente l'ATQ de {0}% et la Récupération des PV de {1}%. À l'état de [Transcendant], modifie l'augmentation de l'ATQ à {2}% et celle de la Récupération des PV à {3}%.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "2": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "3": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      }
+    },
+    "thumbnail": "heroes/Hilda/uw.png",
+    "story": "Le réceptacle divin créé à partir d'un Transcendant devait non seulement avoir un esprit capable de résister à la 'Voix', mais il devait également être obéissant.\nGénéralement, les spécimens du projet Brunhild ne parvenaient pas à supporter la 'Voix' et étaient pris d'un accès de rage, perdant toute raison, ainsi que leur utilité. Devant ce problème épineux, les chercheurs du laboratoire consacrèrent beaucoup de temps à créer un sort spécial, 'Innocentia'. Implanté dans le corps du réceptacle, Innocentia s'immisçait dans l'esprit du spécimen afin de le contrôler au maximum de son efficacité. Parfois, ce sort était utilisé comme un moyen de répression qui leur infligeait des douleurs imaginaires. Siegfried voulut supprimer le sort implanté dans Hilda, mais il était déjà devenu comme une partie de son corps et il était impossible de le lui enlever.\nSous le regard sévère de Heimann qui voulait absolument consoler le roi, Docteur Ignio opéra d'importants changements au sort.\n\n'Majesté, à voir votre expression, tout le monde risque de croire que vous venez d'ordonner une purge. Cessez de vous lamenter dans votre coin et écoutez-moi. Puisque le sort ne peut être effacé, Hilda n'a pas d'autre choix que de vivre avec. Mais n'en soyez pas aussi navré. Il suffit de changer quelque peu les commandes inscrites dans le sort ! Innocentia ne sera plus l'administrateur qui exerce le contrôle sur elle, mais sera son ami, qui la secondera. Tant que nous y sommes, nous allons lui fabriquer une arme, afin que Hilda ne soit pas désarmée où qu'elle aille, et nous la synchroniserons avec le sort. Ainsi, il se montrera assez utile comme opérateur. Ne vous inquiétez pas, avec cela, tout ce que nous aurons à craindre, c'est que notre Hilda n'aille pas provoquer des bagarres dans les mauvais quartiers. Donc je vous prie d'arrêter de faire la tête et... Aïe ! Heimann ! C'est pourtant toi qui m'a demandé de lui fabriquer une arme !!'\n\nLe plus grand technomage, qui dans le cercle privé était en fait un bavard invétéré et un parfait impoli, reçut la récompense de 5 jours et nuits sacrifiés pour la liberté de Hilda : une chiquenaude en plein milieu du front.",
+    "descriptionByStar": {
+      "0": "Augmente l'ATQ de 10% et la Récupération des PV de 10%. À l'état de [Transcendant], modifie l'augmentation de l'ATQ à 20% et celle de la Récupération des PV à 20%."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Fais de beaux Rêves",
+      "description": "[Tourbillon du Néant] À chaque coup porté, attire la cible à l'avant du lanceur et a {0}% de chances d'infliger 2 charges cumulables de [Néant].",
+      "value": {
+        "0": {
+          "0": "40",
+          "1": "48",
+          "2": "58",
+          "3": "70",
+          "4": "84",
+          "5": "100"
+        }
+      },
+      "thumbnail": "heroes/Hilda/ut/1.png",
+      "story": "Un bouquet de fleurs séchées, sans emballage luxueux ni ruban multicolore, mais d'une sobre beauté qui démontre le goût élégant de ceux qui l'ont réalisé.\nCe bouquet de fleurs que Clause, Morrah et Maria ont déposé auprès de Hilda endormie a été préalablement déshydraté afin qu'il puisse perdurer jusqu'à son réveil.\nMaria a ensorcelé ce bouquet par un sort, souhaitant que Hilda, qui ne cesse de ressasser le passé, n'aie plus à se souvenir des émotions douloureuses... afin qu'elle puisse se réveiller le sourire aux lèvres, et aller de l'avant.",
+      "descriptionByStar": {
+        "0": "[Tourbillon du Néant] À chaque coup porté, attire la cible à l'avant du lanceur et a 40% de chances d'infliger 2 charges cumulables de [Néant]."
+      }
+    },
+    "2": {
+      "name": "Cadeau de l'Intruse",
+      "description": "[Transcendant] Réduit de 40% le coût en PM qui augmente au fil du temps, et augmente les DEG infligés par une attaque automatique de {0}% pendant la durée de la compétence.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Hilda/ut/2.png",
+      "story": "Un panier contenant une pelote de laine et des aiguilles à tricoter.\n\nChaque fois que Rose visitait Serineu, elle préparait toujours pour Hilda de nouveaux jouets, des histoires à raconter, ainsi que de la nourriture. À Hilda, qui avait vécu seule dans cette cité où le temps semblait avoir suspendu son cours, elle voulait surtout montrer des objets créés par les hommes de l'extérieur.\nToujours calme, Hilda ne s'intéressait pas à ces objets, mais à la surprise de Rose, elle fut étonnamment attirée par son panier à tricot.\nRose apportait ce panier pour tricoter des écharpes pour Crow et Loah pendant les conversations avec Hilda, pas pour le lui offrir comme cadeau. Mais voyant que cette dernière portait enfin de l'intérêt pour quelque chose, Rose lui apprit à tricoter avec un grand enthousiasme. Puis, constatant que cela plaisait à Hilda qui s'était montrée indifférente jusqu'à présent, elle acheta un nouveau panier de pelote de laine et d'aiguilles et le décora selon son goût avant de le lui offrir.\n\nUn jour elle lui demanda en quoi le tricot lui plaisait autant alors que le reste l'indifférait. Hilda répondit avec une expression atone, tout en tricotant : 'Cette activité ne nécessite pas de pensée complexe logique et m'aide à récapituler les évènements du passé.",
+      "descriptionByStar": {
+        "0": "[Transcendant] Réduit de 40% le coût en PM qui augmente au fil du temps, et augmente les DEG infligés par une attaque automatique de 20% pendant la durée de la compétence."
+      }
+    },
+    "3": {
+      "name": "Nostalgie perpétuelle",
+      "description": "[Coup cinglant du Néant] Augmente les DEG infligés de {0}% et modifie le nombre de charges max cumulables de [Néant] à 40.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Hilda/ut/3.png",
+      "story": "Un pendentif sublime aux gravures complexes muni d'une pierre précieuse.\n\nUne personne originaire de Lucern, que ce soit homme ou femme, devait porter un insigne d'identification. En étroite relation avec l'administration du royaume, l'insigne pouvait être utilisé comme un laissez-passer ou une pièce d'identité.\nSelon le goût de chacun, ce produit de la technomagie pouvait être modeste ou paré de joyaux coûteux, et prendre différentes formes. Ceux qui n'en possédaient pas ne pouvaient revendiquer aucun droit, tels des fantômes.\nComme Hilda n'était pas considérée comme une humaine au sein du laboratoire, elle n'avait pas reçu d'insigne d'identification. En apprenant cela, Siegfried ordonna au joaillier de la cour royale de créer un pendentif pour Hilda.\nLe code d'identification fut ciselé sur la pierre précieuse qui ornait le pendentif royal, faisant de l'objet le summum de la technologie et de l'art, que seuls quelques rares artisans de Lucern pouvaient réaliser. Personne ne comprit l'intention du roi qui offrait un pendentif aussi précieux à celle qui n'était qu'une arme, après tout. Mais le roi le remit à Hilda, avec le sourire en coin.\n\n'Ne l'ouvre pas encore. Un jour, tu en auras besoin.'",
+      "descriptionByStar": {
+        "0": "[Coup cinglant du Néant] Augmente les DEG infligés de 20% et modifie le nombre de charges max cumulables de [Néant] à 40."
+      }
+    },
+    "4": {
+      "name": "Pot de Colle No. 12",
+      "description": "[Fureur du Néant] Récupère 100 PM toutes les sec et augmente l'ATQ de {0}% pendant la durée de [Fureur du Néant].",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Hilda/ut/4.png",
+      "story": "Nom du modèle : ZRZL 367-12p\nSurnommé : Pot de Colle No. 12\n\nLa dernière invention en date du Docteur Ignio, le plus grand génie de Lucern ! Voici l'animal de compagnie automate !\nUne unité super intelligente, capable d'assistance journalière, de navigation routière, de recherche de recettes de cuisine, etc. Et ses capacités s'améliorent de jour en jour selon les goûts de son propriétaire, à travers de l'algorithme d'apprentissage !\nOubliez ces journées de terreur, où vous trembliez à l'idée que les anges ne vous tombent sur la tête sans crier gare !\nPour vous qui devez vivre en ces temps troublés, il est équipé d'un système de sécurité renforcé ! Admirez sa puissance de feu, qui peut réduire en poussière n'importe quel ange ou démon !\n\n... Bien entendu, Pot de Colle No. 12 ne put avoir l'aval de l'office de contrôle des sorts pour la production en chaîne. Découvrant 'l'invention géniale' d'Ignio, tout aussi extravagante que la publicité qui vantait ses mérites, Heimann la confisqua. Puis elle fut découverte par Siegfried, qui l'offrit à Hilda... Pour une invention qui devait réécrire l'histoire, c'est par un processus guère prodigieux qu'elle tomba dans les mains de Hilda.\nMais justement grâce à cela, Hilda put se sentir moins seule dans cette immense cité d'un silence oppressant.",
+      "descriptionByStar": {
+        "0": "[Fureur du Néant] Récupère 100 PM toutes les sec et augmente l'ATQ de 20% pendant la durée de [Fureur du Néant]."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 20 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme d'Innocentia, le Songe de Déesse créée pendant 10 sec, ce qui augmente son ATQ de 40% et récupère 200 PM toutes les secondes. Réduit l'ATQ de tous les ennemis de 30% pendant la durée d'invocation.",
+    "cooldown": "20",
+    "uses": "6",
+    "thumbnail": "heroes/Hilda/sw.png",
+    "advancement": {
+      "1": "Modifie la condition d'utilisation à 15 sec et réduit la DEF de tous les ennemis de 30% pendant la durée de l'invocation.",
+      "2": "Modifie la durée d'invocation de l'âme à 15 sec et augmente de 20% les DEG infligés aux ennemis pendant la durée de l'invocation."
+    },
+    "story": "Le temps passa. Puis après le départ de Clause et ses compagnons, le roi apparut dans le rêve de Hilda. Plus exactement, il avait l'apparence du roi, mais en fait, c'était Innocentia qui avait pris son aspect, ce qui mit Hilda de mauvaise humeur. Innocentia avait sans doute décidé d'imiter les faits et les gestes du roi, car il lui sourit avec douceur avant de se mettre à parler.\n'Ne sois pas aussi agacée. Je n'ai fait qu'emprunter l'image de celui que tu aimes le plus. Souvent, je n'ai pas été aimable avec toi... Mais c'est en partie de ta faute, aussi. Dans l'algorithme que le professeur a rectifié, la capacité qui permet d'entrer en contact avec ton for intérieur est influencé par ton état d'esprit. Or, jusque récemment, ton esprit était un véritable amas d'incohérence à cause de ta désastreuse autosuggestion. Pour moi aussi, ça a été assez pénible, tu sais ?' Il avait pris l'apparence du roi, certes, mais sa façon de parler ressemblait plus à celle du docteur.\n'Je m'excuse d'avoir fait irruption au milieu de ta subconscience. Mais puisque j'ai maintenant le droit d'y accéder, j'ai des choses à te dire sur Brunhild. Oui, cette déesse dont tout le monde rêvait dans ce laboratoire. Elle est programmée en moi. Si jamais cela s'active, je dois engager le processus de te transformer en déesse. Jusqu'à présent, comme tu étais incomplète en tant que réceptacle, je ne m'en suis pas préoccupé, mais...' Il se gratta le nez. Ce geste était exactement le même que celui que le roi avait l'habitude de faire quand il devait dire quelque chose d'embarrassant.\n'Normalement, il faut d'autres Transcendants, mais comme l'énergie du néant s'est accumulé depuis longtemps... Je crois que les conditions d'activation sont réunies de justesse. Et puisqu'il en est ainsi, je dois activer le code, que je le veuille ou non. Cependant, je suis certain que tu n'as pas envie de devenir une déesse, pas vrai ? Alors j'ai réfléchi. Que dirais-tu de dépenser l'énergie cumulée à travers moi ? Non, je ne suis pas en train de dire que je souhaite devenir une divinité... Ne te fâche pas, enfin. Sais-tu que tu es vraiment d'un tempérament irritable ? Quoi qu'il en soit, je te propose de consumer cette quantité phénoménale d'énergie, en la divisant en plusieurs fois, ce qui permettra de la garder sous un certain seuil. Tu n'as pas l'intention de rester ici toute ta vie, n'est-ce pas ? Il faut que tu visites d'autres cités... Puisque le monde doit être encore empli de serviteurs des Déesses, il est important d'avoir une technique secrète sous la manche, ne crois-tu pas ? De plus, je pense que rester enfermée ici n'est pas bon pour ta santé mentale. Tu as suffisamment veillé sur cette ville vide et désolée.' Sur ce, il croisa les bras, ayant dit tout ce qu'il avait à dire.\nHilda était consciente de la nécessité de quitter cette cité.\n\nDurant toute sa vie, seule une personne l'avait traitée en être humain, et ce singulier personnage avait été pour elle aussi bien qu'un parent qu'un instituteur, s'efforçant de lui apprendre diverses choses. Grâce à lui, Hilda avait pu ressortir une par une les émotions enfouies tout au fond d'elle-même puis les nommer. Et grâce à lui, ou plutôt, à cause de lui, elle n'avait pas eu d'autre choix que de marcher sur ses traces. De par son humanité inachevée, elle n'avait fait que le suivre des yeux, au lieu de scruter le ciel étoilé qu'il lui avait montré. Si seulement elle avait levé la tête, elle aurait pu, d'égal à égal, regarder le paysage qu'il avait contemplé. Mais son regard était resté rivé au sol, réduisant volontairement son monde. Elle le savait. Elle savait que l'étoile du roi n'était pas sur ses traces de pas, et qu'elle devait sortir si elle souhaitait l'observer. Hilda ferma les yeux. Le soleil était en train de se lever.\n\n'J'accepte ta proposition. Je vérifierai tes capacités en éliminant les spécimens restants de la ville.' Les vestiges des péchés des humains défunts du royaume étaient nombreux. Avant de partir, comme il lui fallait du temps pour tout débarrasser, elle décida d'en profiter pour tester la nouvelle puissance d'Innocentia."
+  },
+  "splashart": "heroes/Hilda/sa.png",
+  "costumes": "heroes/Hilda/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

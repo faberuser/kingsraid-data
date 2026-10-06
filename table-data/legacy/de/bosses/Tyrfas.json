@@ -1,0 +1,66 @@
+{
+  "id": "Tyrfas",
+  "profile": {
+    "name": "Tyrfas",
+    "title": "Heilige Bestie des Absoluten Nullpunkts",
+    "type": [
+      "Guild Conquest",
+      "Guild Raid"
+    ],
+    "race": "Bestie",
+    "damage_type": "Magical",
+    "recommended_heroes": "Frey, Aisha, Kara",
+    "characteristics": "Setzt Tyrfas [Lawine] ein, solltest du schnell Mag. Schaden verursachen, um die Skill-Aktivierung zu unterbrechen. Achte auf den Frost-Effekt, der die Heilung deiner TP verhindert.",
+    "thumbnail": "bosses/Tyrfas.png",
+    "recommendedHeroNames": [
+      "Frey",
+      "Aisha",
+      "Kara"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Frostpeitsche",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Fügt Frontfeinden in Reichweite Mag. Schaden zu und wirft sie weit nach hinten zurück."
+    },
+    "2": {
+      "name": "Eisatem",
+      "cost": null,
+      "cooldown": "25",
+      "description": "Greift Feinde 6 Mal in einer geraden Linie an und fügt Mag. Schaden zu. Mit einer Wahrscheinlichkeit von 30 % wird ein Stapeleffekt Frost verursacht. Hat das Ziel mehr als 50 Stapel Frost, wird weiterer Mag. Schaden zugefügt."
+    },
+    "3": {
+      "name": "Gletscherbruch",
+      "cost": null,
+      "cooldown": "20",
+      "description": "Greift 5 Mal 3 zufällige Feinde an und fügt Mag. Schaden zu. Verursacht auch einen Stapeleffekt Frost bei Feinden, die Schaden erlitten haben."
+    },
+    "4": {
+      "name": "Lawine",
+      "cost": null,
+      "cooldown": "30",
+      "description": "Greift alle Feinde konstant aus stabiler Haltung an, verursacht Mag. Schaden und fügt Frost-Stapel hinzu. Der Schaden dieses Skills nimmt mit der Zeit zu, doch sobald Tyrfas mehr als 50-mal Mag. Schaden erlitten hat, wird die Beschwörung eingestellt und Tyrfas für eine bestimmte Zeit zu Boden geworfen. Wenn dieser Fall eintritt, erleidet Tyrfas stark erhöhten Körp. Schaden und Mag. Schaden. Die Anzahl der nötigen Mag. Schaden-Treffer, um die nächste Lawine aufzuhalten, wird erhöht."
+    },
+    "5": {
+      "name": "Gefrorene Welle",
+      "cost": null,
+      "cooldown": null,
+      "description": "Greift alle Feinde im Sek.takt an und wirkt Mag. Schaden mit zusätzlich 30 % Chance auf Frost. Frost reduziert die Mag. VERT und die Heilungsrate des Ziels und kann bis zu 200-mal gestapelt werden. Frost kann nicht entfernt werden."
+    },
+    "6": {
+      "name": "Hülle der Göttlichen Bestie",
+      "cost": null,
+      "cooldown": null,
+      "description": "Die göttliche Erdbestie Tyrfas ist immun gegen Massenkotrolle. Seine ANG-GESCHW. und VERT können nicht durch Effekte beeinflusst werden. Seine Schadenswirkung erhöht sich mit jedem Stapel Frost auf dem Feind."
+    }
+  },
+  "aliases": [
+    "Tyrfas",
+    "GC1",
+    "GC 1",
+    "GR7",
+    "GR 7"
+  ]
+}

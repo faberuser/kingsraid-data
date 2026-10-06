@@ -1,0 +1,246 @@
+{
+  "id": "Shamilla",
+  "profile": {
+    "name": "Shamilla",
+    "title": "Gefäß der Flüche Shamilla",
+    "class": "Archer",
+    "position": "Back-300",
+    "attack_range": "5300",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "???",
+    "height": "165",
+    "race": "Dämonen",
+    "constellation": "Mira, die Bardin",
+    "birth": {
+      "month": 6,
+      "day": 2,
+      "monthName": "Monat der Liebe"
+    },
+    "like": "Unerwartete Situationen. Menschen die gegen den Strom anschwimmen",
+    "dislike": "Langweilige Szenarien, offensichtliche Geschichten",
+    "story": "Eine mächtige Dämonin, die einst zu den Offizieren gehörte, die dem Dunklen Lord Angmund dienten. Sie vermag es, sämtliche Flüche der Welt zu beherrschen. Doch ihr wahres Ziel besteht weder darin, den Dunklen Lord wiederzubeleben noch die Weltherrschaft an sich zu reißen. Sie glaubt, alles, was auf der Welt geschieht, wäre nur Teil eines großen Dramas und sie das Publikum. Sie handelt wie eine Drehbuchautorin, die Szenarien überarbeitet, die Fäden im Hintergrund zieht und gespannt darauf wartet, wie sich die Szene schlussendlich entwickelt.",
+    "thumbnail": "heroes/Shamilla/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Fluch der Versteinerung",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Greift 2 Gegner an, verursacht ??? Mag. Schaden und belegt sie 3 Sek. lang mit Fluch der Versteinerung, der nicht entfernt werden kann. Verringert die ANG-GESCHW. von Gegner, die unter Fluch der Versteinerung stehen, um 200. Dieser Effekt verstärkt sich mit der Zeit bis auf 600 %. Endet Fluch der Versteinerung, wird das Ziel 3 Sek. lang versteinert.",
+      "thumbnail": "heroes/Shamilla/skills/1.png"
+    },
+    "2": {
+      "name": "Fluch der Zeit",
+      "cost": "2",
+      "cooldown": "18",
+      "description": "Greift einen Gegner an und entfernt seine positiven Effekte. Verursacht danach ??? Mag. Schaden und belegt ihn 10 Sek. lang mit Fluch der Zeit, wobei alle Skill-Cooldowns um 1.5 Sek. erhöht werden. Alle Skill-Cooldowns von Gegnern, die mit Fluch der Zeit belegt sind, werden alle 3 Sek. um 1 Sek. erhöht.",
+      "thumbnail": "heroes/Shamilla/skills/2.png"
+    },
+    "3": {
+      "name": "Fluch des Schmerzes",
+      "cost": "3",
+      "cooldown": "9",
+      "description": "Greift einen Feind an, verursacht ??? Mag. Schaden und wirft ihn zurück. Belegt ihn außerdem für 8 Sek. mit Fluch des Schmerzes, der insgesamt ??? Mag. Schaden über Zeit verursacht.",
+      "thumbnail": "heroes/Shamilla/skills/3.png"
+    },
+    "4": {
+      "name": "Gefäß der Flüche",
+      "cost": null,
+      "cooldown": null,
+      "description": "Zu jeden Kampfbeginn und immer wenn der Wirker einen Gegner besiegt, wird Gefäß der Flüche gewährt. Dabei wird 10 Sek. lang ein Schild erzeugt, der nicht entfernt werden kann und ??? Schaden absorbiert. Der Schild erhöht für die gesamte Dauer die Massenkontroll-PRÄZ um 400 und gewährt Massenkontroll-Immunität. Bei der Aktivierung des Skills wird Gefäß der Flüche verbraucht und 4 Gegner werden als Ziel ausgewählt.",
+      "thumbnail": "heroes/Shamilla/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Schild um 10 %.",
+      "III": "Erhöht Schild um 15 %.",
+      "IV": "Erhöht Schild um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Cooldown ist um 3 Sek. reduziert.",
+          "thumbnail": "heroes/Shamilla/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Verringert die MP des getroffenen Gegners um 1000.",
+          "thumbnail": "heroes/Shamilla/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Manakosten sind um 1 reduziert.",
+          "thumbnail": "heroes/Shamilla/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Das Ziel wird auf den Gegner mit dem höchsten ANG geändert.",
+          "thumbnail": "heroes/Shamilla/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Ziel erleidet 10 Sek. lang 25 % extra Mag. Schaden.",
+          "thumbnail": "heroes/Shamilla/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Erhöht Schaden um 40 %.",
+          "thumbnail": "heroes/Shamilla/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Verringert den Schaden um 30 %, wenn über keine [Gefäß der Flüche] Stapel verfügt wird.",
+          "thumbnail": "heroes/Shamilla/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "[Gefäß der Flüche] erhöht die Schildmenge um 100 %, anstatt entfernt zu werden.",
+          "thumbnail": "heroes/Shamilla/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/ANG-GESCHW. +100",
+        "thumbnail": "heroes/Shamilla/perks/light.png"
+      },
+      "dark": {
+        "effect": "Sämtliche Effekte von Flüchen werden erhöht.\n[Fluch der Versteinerung] Dauer der Versteinerung wird um 2 Sek. erhöht.\n[Fluch der Zeit] Dauer wird um 3 Sek. erhöht.\n[Fluch des Schmerzes] Schaden über Zeit um 50 % erhöht.",
+        "thumbnail": "heroes/Shamilla/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Schwingen der Verderbnis, Apoliox",
+    "description": "Gewährt alle 20 Sek. „Gefäß der Flüche“ und erhöht den ANG für 10 Sek. um 20 %.",
+    "value": {},
+    "thumbnail": "heroes/Shamilla/uw.png",
+    "story": "Flüche entstehen aus negativen Gefühlen wie Hass, Eifersucht und Feindseligkeit. Sie sind der beste Nährboden für Shamilla. Die Schwingen erlangten ihre Macht während des Dämonenkrieges, indem sie die Flüche unzähliger Menschen absorbierten, die andere Menschen in Angst versetzten. Jene, die die Federn berührten, waren an viele Flüche gebunden und wurden in einen Strudel der Emotionen gezogen. In diesem Abgrund hallt fesselndes Gelächter wider. Das Gelächter eines Dämons, der sich an unterschiedlichen menschlichen Gefühle gütlich tut.",
+    "descriptionByStar": {
+      "0": "Gewährt alle 20 Sek. „Gefäß der Flüche“ und erhöht den ANG für 10 Sek. um 20 %.",
+      "1": "Gewährt alle 18 Sek. „Gefäß der Flüche“ und erhöht den ANG für 10 Sek. um 24 %.",
+      "2": "Gewährt alle 16 Sek. „Gefäß der Flüche“ und erhöht den ANG für 10 Sek. um 29 %.",
+      "3": "Gewährt alle 14 Sek. „Gefäß der Flüche“ und erhöht den ANG für 10 Sek. um 35 %.",
+      "4": "Gewährt alle 12 Sek. „Gefäß der Flüche“ und erhöht den ANG für 10 Sek. um 42 %.",
+      "5": "Gewährt alle 10 Sek. „Gefäß der Flüche“ und erhöht den ANG für 10 Sek. um 50 %."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Befreiung der Flüche",
+      "description": "[Fluch der Versteinerung] erhöht die Anzahl an Zielen um 1 und verringert Mag. Ausweichen des Ziels 10 Sek. lang um 120.",
+      "value": {},
+      "thumbnail": "heroes/Shamilla/ut/1.png",
+      "story": "Ein Juwel, das die Flüche freilässt, die Shamilla in sich trägt.\nShamilla verwendet dieses Juwel manchmal, um Flüche aus ihrem Körper freizugeben, nur um eine spannende Geschichte zu verfolgen, die genau nach ihrem Plan abläuft. Am häufigsten setzt sie den Fluch „Versteinerung“ ein, hauptsächliche deshalb, um dafür zu sorgen, dass die richtigen Charaktere bei ihren Intrigen mitspielen.",
+      "descriptionByStar": {
+        "0": "[Fluch der Versteinerung] erhöht die Anzahl an Zielen um 1 und verringert Mag. Ausweichen des Ziels 10 Sek. lang um 120.",
+        "1": "[Fluch der Versteinerung] erhöht die Anzahl an Zielen um 1 und verringert Mag. Ausweichen des Ziels 10 Sek. lang um 140.",
+        "2": "[Fluch der Versteinerung] erhöht die Anzahl an Zielen um 1 und verringert Mag. Ausweichen des Ziels 10 Sek. lang um 170.",
+        "3": "[Fluch der Versteinerung] erhöht die Anzahl an Zielen um 1 und verringert Mag. Ausweichen des Ziels 10 Sek. lang um 210.",
+        "4": "[Fluch der Versteinerung] erhöht die Anzahl an Zielen um 1 und verringert Mag. Ausweichen des Ziels 10 Sek. lang um 250.",
+        "5": "[Fluch der Versteinerung] erhöht die Anzahl an Zielen um 1 und verringert Mag. Ausweichen des Ziels 10 Sek. lang um 300."
+      }
+    },
+    "2": {
+      "name": "Herz eines uralten Dämons",
+      "description": "[Fluch der Zeit] erhöht den Cooldown zus. um 0,7 Sek. und verringert die Mag. VERT des Ziels 10 Sek. lang um 10 %.",
+      "value": {},
+      "thumbnail": "heroes/Shamilla/ut/2.png",
+      "story": "Ein seltsames Juwel, aus dem das verbitterte Geflüster uralter Dämonen hervordringt.\nEin verfluchter Gegenstand, der mit den vergessenen Seelen uralter Dämonen gefüllt ist.\nTagtäglich versuchen sie, zu entkommen, doch das lässt sich nicht so einfach zu.\nIhre Seele hat alle Flüche der Welt aufgenommen,\nsie ist tief und dunkel wie der Abgrund.",
+      "descriptionByStar": {
+        "0": "[Fluch der Zeit] erhöht den Cooldown zus. um 0,7 Sek. und verringert die Mag. VERT des Ziels 10 Sek. lang um 10 %.",
+        "1": "[Fluch der Zeit] erhöht den Cooldown zus. um 0,7 Sek. und verringert die Mag. VERT des Ziels 10 Sek. lang um 12 %.",
+        "2": "[Fluch der Zeit] erhöht den Cooldown zus. um 0,7 Sek. und verringert die Mag. VERT des Ziels 10 Sek. lang um 14 %.",
+        "3": "[Fluch der Zeit] erhöht den Cooldown zus. um 0,7 Sek. und verringert die Mag. VERT des Ziels 10 Sek. lang um 17 %.",
+        "4": "[Fluch der Zeit] erhöht den Cooldown zus. um 0,7 Sek. und verringert die Mag. VERT des Ziels 10 Sek. lang um 21 %.",
+        "5": "[Fluch der Zeit] erhöht den Cooldown zus. um 0,7 Sek. und verringert die Mag. VERT des Ziels 10 Sek. lang um 25 %."
+      }
+    },
+    "3": {
+      "name": "Das Gefäß der Flüche",
+      "description": "[Fluch des Schmerzes] erhöht den Schaden um {0} % und kann den kontinuierlichen Schaden nicht entfernen.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Shamilla/ut/3.png",
+      "story": "Shamilla war dazu verflucht, alle Flüche der Welt in sich zu tragen.\nMan könnte sie auch als Retterin sehen, die all diese Flüche in sich einschließt.\nMit ihrem Tod würde all das Böse, das sie in sich trägt, wieder auf die Welt losgelassen werden.\nShamilla hat dieses Gefäß der Flüche hergestellt, um die Flüche einzufangen, die sie ausgespien hat.",
+      "descriptionByStar": {
+        "0": "[Fluch des Schmerzes] erhöht den Schaden um 20 % und kann den kontinuierlichen Schaden nicht entfernen.",
+        "1": "[Fluch des Schmerzes] schaden wird um 24 % erhöht und erhält einen Stapel von „Gefäß der Flüche“, nachdem ein Feind getötet wurde.",
+        "2": "[Fluch des Schmerzes] schaden wird um 29 % erhöht und erhält einen Stapel von „Gefäß der Flüche“, nachdem ein Feind getötet wurde.",
+        "3": "[Fluch des Schmerzes] schaden wird um 35 % erhöht und erhält einen Stapel von „Gefäß der Flüche“, nachdem ein Feind getötet wurde.",
+        "4": "[Fluch des Schmerzes] schaden wird um 42 % erhöht und erhält einen Stapel von „Gefäß der Flüche“, nachdem ein Feind getötet wurde.",
+        "5": "[Fluch des Schmerzes] schaden wird um 50 % erhöht und erhält einen Stapel von „Gefäß der Flüche“, nachdem ein Feind getötet wurde."
+      }
+    },
+    "4": {
+      "name": "Urfluch",
+      "description": "[Gefäß der Flüche] verringert beim Erhalt von Gefäß der Flüche den Cooldown aller Skills des Wirkers um {0} % und erhöht 5 Sek. lang alle VERT um 50 %. Der VERT-Erhöhungseffekt kann nicht entfernt werden.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
+      "thumbnail": "heroes/Shamilla/ut/4.png",
+      "story": "Der Quell aller Flüche.\nIhre Wurzeln begannen zu wachsen, als der Hass geboren wurde und die Welt das Böse kennenlernte.\nSie befindet sich tief im Inneren von Shamilla, dem Gefäß der Flüche, und wird immer abscheulicher, je mehr Flüche sie hervorbringt.",
+      "descriptionByStar": {
+        "0": "[Gefäß der Flüche] verringert beim Erhalt von Gefäß der Flüche den Cooldown aller Skills des Wirkers um 12 % und erhöht 5 Sek. lang alle VERT um 50 %. Der VERT-Erhöhungseffekt kann nicht entfernt werden.",
+        "1": "[Gefäß der Flüche] nach dem Erlangen von Skill wird der Cooldown aller Skills um 14 % verringert sowie alle VERT für 5 Sek. um 50 % erhöht.",
+        "2": "[Gefäß der Flüche] nach dem Erlangen von Skill wird der Cooldown aller Skills um 17 % verringert sowie alle VERT für 5 Sek. um 50 % erhöht.",
+        "3": "[Gefäß der Flüche] nach dem Erlangen von Skill wird der Cooldown aller Skills um 21 % verringert sowie alle VERT für 5 Sek. um 50 % erhöht.",
+        "4": "[Gefäß der Flüche] nach dem Erlangen von Skill wird der Cooldown aller Skills um 25 % verringert sowie alle VERT für 5 Sek. um 50 % erhöht.",
+        "5": "[Gefäß der Flüche] nach dem Erlangen von Skill wird der Cooldown aller Skills um 30 % verringert sowie alle VERT für 5 Sek. um 50 % erhöht."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 18 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Entfernt alle eigenen negativen Effekte und beschwört die Seele von Schwingen der Verderbnis, Apoliox, wobei alle Feinde unter Apoliox Fluch versetzt werden und der Wirker Gefäß der Flüche erhält. Apoliox Fluch verringert 10 Sek. lang die gegn. Mag. VERT um 50 % und die Heilungsrate um 50 %.",
+    "cooldown": "18",
+    "uses": "6",
+    "thumbnail": "heroes/Shamilla/sw.png",
+    "advancement": {
+      "1": "Verwendungsbedingungen werden um 5 Sek. verringert und bei Verwendung wird 2000 MP regeneriert.",
+      "2": "„Apoliox Fluch“ kann nicht entfernt werden und verringert jede Sek. die MP des Gegners, der unter dem „Apoliox Fluch“ steht, um 300."
+    },
+    "story": "Shamilla, die sich selbst die Flügel riss, ist in die menschliche Gesellschaft eingeschmolzen und hat dort gelebt.\nSie verhielt sich wie eine edle Person, manchmal wie eine normale Person.\nSie kontrolliert die Menschen in der Nähe, wie sie will, und bearbeitet ein Szenario der Welt.\nSie frisst den Groll, Hass und die Trauer der Menschen, die sich aus den Konflikten ergeben haben, die sie erschaffen hat.\n\nAber Shamilla langweilte sich.\nObwohl sie ein Szenario der Welt bearbeitet, möchte sie, dass die Situation manchmal unerwartet ist.\nSie wollte die neuen Emotionen sehen, die sie noch nie gefühlt hatte.\nSie wollte den mysteriösen Zauber spüren, der nicht in der Welt geboren wurde.\n\nWährenddessen dachte sie sich, dass sie mit jemanden, der nicht wie sie ist, aber einen ähnlichen Zweck verfolgt,\nsie ihren Zweck schnell erreichen könnte.\nEin etwas anderes Ende hat sie sich gewünscht.\n\nAlso legte Shamilla den Teil ihrer Seele in ihre Flügel."
+  },
+  "splashart": "heroes/Shamilla/sa.png",
+  "costumes": "heroes/Shamilla/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

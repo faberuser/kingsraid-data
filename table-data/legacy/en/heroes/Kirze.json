@@ -1,0 +1,255 @@
+{
+  "id": "Kirze",
+  "profile": {
+    "name": "Kirze",
+    "title": "Crimson Crystal Cat Kirze",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "7100",
+    "damage_type": "Magical",
+    "gender": "Female",
+    "age": "16",
+    "height": "162",
+    "race": "Animal Hybrid (Cat)",
+    "constellation": "Armil the Saint",
+    "birth": {
+      "month": 4,
+      "day": 29,
+      "monthName": "Month of Life"
+    },
+    "like": "Rag doll, cool riverbank, small animals, child's laughter",
+    "dislike": "Demons, nasty bugs, rude people",
+    "story": "Hero Concept Design Contest Winner Mochi00 (JPN)\nFew years ago, small towns all over Orbis were attacked by the undead army of Malduk.\nThey were seeking out albino kids, ones who were born with unique and powerful magic.\nMalduk's subordinates captured these children,\nand injected them with crimson arcane crystals, a powerful energy source for Demons.\nThe goal of this experiment was to transform them into crimson arcane crystal living mines - that would mass produce crimson arcane crystals until the moment they die.\n\nPain from the inhumane experiment took its toll on the children and one by one, losing their lives.\nChildren who weren't compatible with the crimson arcane crystal were petrified and crumbled into dust.\nThe remaining children who witnessed this horror were shaking with fear, and hopelessly awaited their death.\n\nBut the experiment finally came to a success. Crimson arcane crystals resonated with Kirze,\nand she absorbed all the crystals in the area.\nAs a result, she gained vast amount of mana and gained ability to manipulate crimson arcane crystals at her will.\n\nWith her new found power, Kirze defeated Malduk's subordinates and fled from the lab with the surviving children.\n\nIn the hopes of preventing further casualties like herself, Kirze took off and began to hunt rouge demons that crossed her path...",
+    "thumbnail": "heroes/Kirze/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Slash, Blade of Judgment!",
+      "cost": "2",
+      "cooldown": "9",
+      "description": "Deals a total of ??? M.DMG over 7 attacks to nearby enemies in a circular range of self. Then, attacks frontal enemies in range, dealing ??? M.DMG and knocking them down for 3 sec.",
+      "thumbnail": "heroes/Kirze/skills/1.png"
+    },
+    "2": {
+      "name": "Disperse, Crystal Haze!",
+      "cost": "3",
+      "cooldown": "17",
+      "description": "Unleashes the power of Arcane Crystals within to deal ??? M.DMG to all enemies and stun them for 2 sec. Upon casting, activates [Arcane Crystal Awakening] for 15 sec, which increases ATK Spd of all allies by 300 and releases a shockwave every 2 sec to enemies in range of self, dealing ??? M.DMG and stunning them for 1 sec.",
+      "thumbnail": "heroes/Kirze/skills/2.png"
+    },
+    "3": {
+      "name": "Bloom, Crimson Flower!",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Summons Arcane Crystals and deals ??? M.DMG to frontal enemies in a straight line. Shortly afterward, causes an explosion that deals ??? additional M.DMG and inflicts [Arcane Crystal Curse] upon enemies for 5 sec, reducing their ATK Spd by 200.\nAttacking enemies under [Arcane Crystal Curse] inflicts a stack of [Arcane Crystal Energy]. [Arcane Crystal Curse] explodes after 5 sec, dealing M.DMG equal to ??? + ??? per stack of Arcane Crystal Energy.",
+      "thumbnail": "heroes/Kirze/skills/3.png"
+    },
+    "4": {
+      "name": "End to Evil Deeds!",
+      "cost": null,
+      "cooldown": null,
+      "description": "Increases own ATK by ??? and Crit Chance by 200, while increasing the duration of CCs that all allies inflict to Bosses by 30%.",
+      "thumbnail": "heroes/Kirze/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Increases DMG by 10%.",
+      "III": "Increases DMG by 15%.",
+      "IV": "Increases DMG by 25%."
+    },
+    "2": {
+      "II": "Increases DMG by 10%.",
+      "III": "Increases DMG by 15%.",
+      "IV": "Increases DMG by 25%."
+    },
+    "3": {
+      "II": "Increases DMG by 10%.",
+      "III": "Increases DMG by 15%.",
+      "IV": "Increases DMG by 25%."
+    },
+    "4": {
+      "II": "Increases ATK Boost by 10%.",
+      "III": "Increases ATK Boost by 15%.",
+      "IV": "Increases ATK Boost by 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Reduces Cooldown by 3% per each enemy hit.",
+          "thumbnail": "heroes/Kirze/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "If there is only 1 enemy, DMG is increased by 100%.",
+          "thumbnail": "heroes/Kirze/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Reduces Mana Cost by 1.",
+          "thumbnail": "heroes/Kirze/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "While under [Arcane Crystal Awakening], self deals 20% increased DMG to Non-Hero enemies.",
+          "thumbnail": "heroes/Kirze/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Increases ATK Spd reduction by 300.",
+          "thumbnail": "heroes/Kirze/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Inflicts 2 stacks of Arcane Crystal Energy.",
+          "thumbnail": "heroes/Kirze/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "At the beginning of each battle, self deals 25% increased DMG to Non-Hero enemies for 20 sec.",
+          "thumbnail": "heroes/Kirze/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Deals 15% increased DMG to Bosses.",
+          "thumbnail": "heroes/Kirze/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATK, DEF, HP+15% / ATK Spd +100",
+        "thumbnail": "heroes/Kirze/perks/light.png"
+      },
+      "dark": {
+        "effect": "Increases Crit DMG by 40% and DEF Penetration by 150. This effect increases by 2 times after Kirze attacks the enemy 100 times.",
+        "thumbnail": "heroes/Kirze/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Judgment Edge, Elicipira",
+    "description": "Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to {0}% of ATK. DMG is increased by 2 times against Bosses.",
+    "value": {
+      "0": {
+        "0": "500",
+        "1": "600",
+        "2": "720",
+        "3": "860",
+        "4": "1000",
+        "5": "1250"
+      }
+    },
+    "thumbnail": "heroes/Kirze/uw.png",
+    "story": "Giant scissors created with crimson arcane crystals that form Kirze's body.\nThey are based on antique scissors her mother used to have.\nIt is a very versatile weapon that can be swung like a great sword or split into two like double swords.\n\nThe weapon is built with prayers of a girl who wants no one to be tormented by the Demons anymore.\nThese scissors resonate with her emotions to unleash greater power.",
+    "descriptionByStar": {
+      "0": "Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 500% of ATK. DMG is increased by 2 times against Bosses.",
+      "1": "Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 600% of ATK. DMG is doubled against Bosses.",
+      "2": "Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 720% of ATK. DMG is doubled against Bosses.",
+      "3": "Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 860% of ATK. DMG is doubled against Bosses.",
+      "4": "Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 1000% of ATK. DMG is doubled against Bosses.",
+      "5": "Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 1250% of ATK. DMG is doubled against Bosses."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Lotus of Crimson Crystal",
+      "description": "[Slash, Blade of Judgment!] Increases DMG by 20% and reduces Mana Cost by 1.",
+      "value": {},
+      "thumbnail": "heroes/Kirze/ut/1.png",
+      "story": "Crystal fragments sometimes sprout from Kirze's body and fall off.\nUnable to toss away what used to be part of her body, she picks them up and collects them.\nWhile being unsure of what to do with her growing collection, she stopped by Orvel, and a glass decoration in May's General Shop caught her eyes.\n\nKirze thought it was beautiful, and with high hopes, gave all the fragments she collected to May.\n\nIn return, May gave her the first piece she made using those fragments - this crimson lotus trinket as a gift.",
+      "descriptionByStar": {
+        "0": "[Slash, Blade of Judgment!] Increases DMG by 20% and reduces Mana Cost by 1.",
+        "1": "[Slash, Blade of Judgment!] Increases DMG by 24% and reduces Mana Cost by 1.",
+        "2": "[Slash, Blade of Judgment!] Increases DMG by 29% and reduces Mana Cost by 1.",
+        "3": "[Slash, Blade of Judgment!] Increases DMG by 35% and reduces Mana Cost by 1.",
+        "4": "[Slash, Blade of Judgment!] Increases DMG by 42% and reduces Mana Cost by 1.",
+        "5": "[Slash, Blade of Judgment!] Increases DMG by 50% and reduces Mana Cost by 1."
+      }
+    },
+    "2": {
+      "name": "Remnant of Hobby",
+      "description": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional {0} and increases DEF Penetration of all allies by 250 for the duration of Skill.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Kirze/ut/2.png",
+      "story": "Kirze adores dolls ever since she was a child, but all she had were rag dolls her mother made for her since her family did not have good living.\nWhile living with her mother, Kirze was able to learn some tips and tricks for sewing and doll making.\n\nAfter all this time, she still loves dolls, but now she makes them not only for herself but for others as well.\nEspecially for children who lost their loved ones at the hands of rouge Demons.",
+      "descriptionByStar": {
+        "0": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional 100 and increases DEF Penetration of all allies by 250 for the duration of Skill.",
+        "1": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional 120 and the duration of [Arcane Crystal Awakening] by 7 sec.",
+        "2": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional 140 and the duration of [Arcane Crystal Awakening] by 7 sec.",
+        "3": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional 170 and the duration of [Arcane Crystal Awakening] by 7 sec.",
+        "4": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional 210 and the duration of [Arcane Crystal Awakening] by 7 sec.",
+        "5": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional 250 and the duration of [Arcane Crystal Awakening] by 7 sec."
+      }
+    },
+    "3": {
+      "name": "Reminiscence of Escape",
+      "description": "[Bloom, Crimson Flower!] Reduces Cooldown by 30%, and upon gaining a stack of [Arcane Crystal Energy], there is a 40% chance to gain 3 additional stacks.",
+      "value": {},
+      "thumbnail": "heroes/Kirze/ut/3.png",
+      "story": "The first makeshift weapon Kirze made when she escaped from the Demon lab. They were made in haste-\nsince this was her first time she resonated with the crimson arcane crystals-\njust so that she can escape.\nThis pair of daggers are barely finished, crude and on the verge of breaking.\n\nThese daggers are the very weapons that saved her and the other children.\nThey hold important memory, so she carries them as keepsakes.",
+      "descriptionByStar": {
+        "0": "[Bloom, Crimson Flower!] Reduces Cooldown by 30%, and upon gaining a stack of [Arcane Crystal Energy], there is a 40% chance to gain 3 additional stacks.",
+        "1": "[Bloom, Crimson Flower!] Reduces Cooldown by 30%, and upon gaining a stack of [Arcane Crystal Energy], there is a 48% chance to gain 3 additional stacks.",
+        "2": "[Bloom, Crimson Flower!] Reduces Cooldown by 30%, and upon gaining a stack of [Arcane Crystal Energy], there is a 58% chance to gain 3 additional stacks.",
+        "3": "[Bloom, Crimson Flower!] Reduces Cooldown by 30%, and upon gaining a stack of [Arcane Crystal Energy], there is a 70% chance to gain 3 additional stacks.",
+        "4": "[Bloom, Crimson Flower!] Reduces Cooldown by 30%, and upon gaining a stack of [Arcane Crystal Energy], there is a 84% chance to gain 3 additional stacks.",
+        "5": "[Bloom, Crimson Flower!] Reduces Cooldown by 30%, and upon gaining a stack of [Arcane Crystal Energy], there is a 100% chance to gain 3 additional stacks."
+      }
+    },
+    "4": {
+      "name": "Moment of Peace",
+      "description": "[End to Evil Deeds!] Increases Crit Chance by an additional 250 and the duration of CC increase effect by an additional {0}%.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Kirze/ut/4.png",
+      "story": "Sewing tool that Kirze uses for her hobby.\nIt is a must for her doll making pastime.\nRecently she was able to get her hands on special kinds of string and cotton.\nShe can happily make better dolls with them.\n\nOn the side note, the scissors are miniature version of her weapon.",
+      "descriptionByStar": {
+        "0": "[End to Evil Deeds!] Increases Crit Chance by an additional 250 and the duration of CC increase effect by an additional 10%.",
+        "1": "[End to Evil Deeds!] Increases Crit Chance by an additional 250 and the effect of the duration of CC increase changes to 32%.",
+        "2": "[End to Evil Deeds!] Increases Crit Chance by an additional 250 and the effect of the duration of CC increase changes to 34%.",
+        "3": "[End to Evil Deeds!] Increases Crit Chance by an additional 250 and the effect of the duration of CC increase changes to 37%.",
+        "4": "[End to Evil Deeds!] Increases Crit Chance by an additional 250 and the effect of the duration of CC increase changes to 41%.",
+        "5": "[End to Evil Deeds!] Increases Crit Chance by an additional 250 and the effect of the duration of CC increase changes to 45%."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Charges up upon dealing DMG 60 times.",
+    "description": "Summons the Soul of Judgment Edge, Elicipira, changing the activation chance of the additional M.DMG effect of Judgment Edge, Elicipira to 10% and reducing All DMG taken by 40% for 10 sec.",
+    "cooldown": "25",
+    "uses": "7",
+    "thumbnail": "heroes/Kirze/sw.png",
+    "advancement": {
+      "1": "For the duration of Skill, increases ATK by 50%.",
+      "2": "Increases the duration of the effect by 5 sec and changes the activation chance of Judgment Edge, Elicipira to 15%."
+    },
+    "story": "The place where the Crimson Arcane Crystals first appeared is known as the dimensional border between the Pandemonium and the Material World.\nNo one knows how and why the crystal was made, but it is told that the crystal was made by combining both power of the Material World and the power of Pandemonium...\nAccording to rumors, there exists a gigantic Crimson Arcane Crystal on the dimensional border and that is the first Crimson Arcane Crystal.\nAccording to the records, there were many dark wizards who attempted to absorb the power of the first Arcane Crystal for themselves to no avail.\n\nKirze, after awakening the power of her soul, unleashed the power of the Crimson Arcane Crystal, her source of power, and infused it to her weapon.\nThe power that Elicipira harnessed through the very first Arcane Crystal was stronger than any power Kirze had harnessed.\nHowever, along with that great power, a great fear swept her.\n\nKirze felt that as she utilized that power, her mind was gradually turning into a Crimson Arcane Crystal.\nIt was as if she was losing her humanity more and more."
+  },
+  "splashart": "heroes/Kirze/sa.png",
+  "costumes": "heroes/Kirze/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "en",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "id": "Nia",
+  "profile": {
+    "name": "Nia",
+    "title": "Nia, Yeux dévoreurs des Ténèbres",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "6800",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "16",
+    "height": "156",
+    "race": "Humain (À sang démoniaque)",
+    "constellation": "Gisla le Fin Tireur",
+    "birth": {
+      "month": 11,
+      "day": 23,
+      "monthName": "Mois de la Chance"
+    },
+    "like": "La viande, les personnes qui lui donnent de la viande, reposer sa tête sur les genoux des gens, lézarder au soleil",
+    "dislike": "La légume, le peuple de l'empire Vespia, les démons, les bêtes démoniaques, faire l'objet d'expériences, le temps froid",
+    "story": "Une légende raconte qu'un démon se servait d'humains comme cobayes pour ses expériences transmorphiques. Il clona, combina et modifia ainsi d'innombrables corps humains à l'aide de sa magie. On dit également que l'un de ses cobayes acquit un grand pouvoir, s'enfuit du laboratoire et fonda une tribu parmi d'autres humains.\nIl était réputé pour avoir développé une compétence mystérieuse appelée Yeux démoniaques de pétrification.\nCes yeux semblables à ceux d'un basilic, une créature rarissime, changent tout ce qu'ils voient en pierre.\nC'est aujourd'hui Nia, le chef de la tribu Krakashu, qui les possède.\nCette jeune créature, aussi vive qu'un léopard, chasse les démons et les bêtes démoniaques pour venger ses ancêtres.",
+    "thumbnail": "heroes/Nia/ico.png"
+  },
+  "skills": {
+    "1 (1)": {
+      "name": "Stigmate de la barbarie",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Inflige ??? points de DEG P à 1 ennemi. Vous avancez ensuite en infligeant des dégâts de zone en continu et en repoussant les ennemis touchés, leur infligeant un total de ??? points de DEG P Le dernier coup inflige ??? points de DEG P aux ennemis situés en face et les renverse pendant 2 sec.",
+      "thumbnail": "heroes/Nia/skills/1 (1).png"
+    },
+    "1 (2)": {
+      "name": "Stigmate de la barbarie renforcé",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Inflige ??? points de DEG P à 1 ennemi. Vous avancez ensuite vers des ennemis au hasard en infligeant des dégâts de zone en continu et en repoussant les ennemis touchés, leur infligeant un total de ??? points de DEG P. Le dernier coup inflige ??? points de DEG P aux ennemis situés en face et les renverse pendant 4 sec.",
+      "thumbnail": "heroes/Nia/skills/1 (2).png"
+    },
+    "2 (1)": {
+      "name": "En chasse",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Se place derrière l'ennemi le plus éloigné pour lui infliger ??? points de DEG P, et infliger [Marque de chasse] à tous les ennemis pendant 12 sec. Les ennemis touchés par [Marque de chasse] subissent 20% de DEG P supplémentaires et leur récupération est réduite de 25%. Dissipe tous les effets positifs dont bénéficient les ennemis sous [Marque de chasse améliorée].",
+      "thumbnail": "heroes/Nia/skills/2 (1).png"
+    },
+    "2 (2)": {
+      "name": "En chasse améliorée",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Se place derrière l'ennemi le plus éloigné pour lui infliger ??? points de DEG P ignorant sa DEF, et infliger [Marque de chasse améliorée] à tous les ennemis pendant 12 sec. Les ennemis touchés par [Marque de chasse améliorée] subissent 40% de DEG P supplémentaires, leur récupération est réduite de 50% et leur Vitesse d'ATQ de 25%. Dissipe tous les effets positifs dont bénéficient les ennemis sous [Marque de chasse].",
+      "thumbnail": "heroes/Nia/skills/2 (2).png"
+    },
+    "3 (1)": {
+      "name": "Yeux démoniaques de pétrification",
+      "cost": "3",
+      "cooldown": "30",
+      "description": "Inflige aux ennemis en face ??? DEG P, 3 fois, et les pétrifie pendant 3 sec, avant de réduire l'Esquive de la cible de 200 pendant 10 sec.",
+      "thumbnail": "heroes/Nia/skills/3 (1).png"
+    },
+    "3 (2)": {
+      "name": "Yeux démoniaques de pétrification améliorés",
+      "cost": "3",
+      "cooldown": "30",
+      "description": "Inflige aux ennemis en face dans une large zone ??? DEG P en ignorant leur DEF, 3 fois, et les pétrifie pendant 5 sec, avant de réduire l'Esquive de la cible de 200 pendant 10 sec.",
+      "thumbnail": "heroes/Nia/skills/3 (2).png"
+    },
+    "4": {
+      "name": "Sang démoniaque",
+      "cost": null,
+      "cooldown": null,
+      "description": "Chaque déclenchement de compétence confère 1 charge de [Sang démoniaque]. Ces charges peuvent se cumuler jusqu'à 4 fois. Lorsqu'elles sont cumulées 4 fois, le temps de recharge de toutes les compétences est réinitialisé et [Compétence améliorée] devient disponible. [Compétence améliorée] dissipe les charges de [Sang démoniaque]. À chaque charge de [Sang démoniaque] obtenu, l'ATQ augmente de ??? et l'Esquive augmente de 40 pendant 20 sec. Cet effet peut se cumuler jusqu'à 5 fois.",
+      "thumbnail": "heroes/Nia/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmentation de l'ATQ boostée de 10%.",
+      "III": "Augmentation de l'ATQ boostée de 15%.",
+      "IV": "Augmentation de l'ATQ boostée de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "À chaque frappe infligée, réduit les PM de la cible de 100.",
+          "thumbnail": "heroes/Nia/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "À chaque frappe infligée, récupère 100 PM.",
+          "thumbnail": "heroes/Nia/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Nia/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "[Marque de chasse] et [Marque de chasse améliorée] ne peuvent pas être dissipées par les compétences qui retirent les effets négatifs.",
+          "thumbnail": "heroes/Nia/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Confère l'immunité contre les contrôles pendant la durée de la compétence.",
+          "thumbnail": "heroes/Nia/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG infligés aux ennemis non-Héros de 100% pendant la durée de la compétence.",
+          "thumbnail": "heroes/Nia/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Récupère les PV à hauteur de 8% de ses PV max à chaque [Sang démoniaque] obtenu.",
+          "thumbnail": "heroes/Nia/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "[Sang démoniaque] Au bout de 4 charges cumulées, récupère 2 barres de PM et augmente l'ATQ de 50% pendant 5 sec.",
+          "thumbnail": "heroes/Nia/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Vitesse d'ATQ +100",
+        "thumbnail": "heroes/Nia/perks/light.png"
+      },
+      "dark": {
+        "effect": "Les attaques normales et [Stigmate de la barbarie renforcé] infligent davantage de DEG P ignorant la DEF, à hauteur de 25% de l'ATQ.",
+        "thumbnail": "heroes/Nia/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Zakadras, le Broyeur du Chaos",
+    "description": "Augmente le Crit de 200 et les DEG Crit de 40%.",
+    "value": {},
+    "thumbnail": "heroes/Nia/uw.png",
+    "story": "Une arme fabriquée à partir d'un métal spécial forgé par un chaman de la tribu Krakashu, obtenu en faisant fondre des bêtes démoniaques vivantes.\nIl fut ensuite travaillé par le meilleur forgeron de la jungle pour devenir une arme magique pourfendeuse de démons,\ncomposée d'une paire de griffes renfermant fléau, rancune et rage.\nElles sont le symbole du chef des Krakashu et peuvent apaiser la colère de leurs ancêtres.\nNia devint très jeune le chef de la tribu. Elle doit encore découvrir la profondeur des ombres que renferme l'arme,\nmais souvent la nuit, alors qu'elle s'apprête à s'endormir, elle peut entendre à travers elle les hurlements de rancune de ses ancêtres.",
+    "descriptionByStar": {
+      "0": "Augmente le Crit de 200 et les DEG Crit de 40%.",
+      "1": "Augmente le Crit de 240 et les DEG Crit de 48%.",
+      "2": "Augmente le Crit de 290 et les DEG Crit de 58%.",
+      "3": "Augmente le Crit de 350 et les DEG Crit de 70%.",
+      "4": "Augmente le Crit de 420 et les DEG Crit de 84%.",
+      "5": "Augmente le Crit de 500 et les DEG Crit de 100%."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Fleur de la jungle",
+      "description": "[Stigmate de la barbarie] Réduit le coût en PM de 1 et la résistance Crit P de l'ennemi affecté de 200 pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Nia/ut/1.png",
+      "story": "La Jungle de l'ombre trône au sud de Vespia. Elle est la terre nourricière, le terrain de chasse et le champ de bataille de la tribu Krakashu. Le peuple de l'empire la considère comme barbare, mais elle est constituée d'êtres sensibles qui s'offrent des fleurs pour témoigner leur affection.\nDans cette tribu, un bouquet de fleurs signifie « rentre à la maison sain et sauf ». Les fleurs de ce bouquet, confectionné par les membres de la tribu de Nia, sont protégées par un sort qui les empêche de faner tant que Nia sera en bonne santé.",
+      "descriptionByStar": {
+        "0": "[Stigmate de la barbarie] Réduit le coût en PM de 1 et la résistance Crit P de l'ennemi affecté de 200 pendant 10 sec.",
+        "1": "[Stigmate de la barbarie] Réduit le coût en PM de 1 et la résistance Crit P de l'ennemi affecté de 240 pendant 10 sec.",
+        "2": "[Stigmate de la barbarie] Réduit le coût en PM de 1 et la résistance Crit P de l'ennemi affecté de 290 pendant 10 sec.",
+        "3": "[Stigmate de la barbarie] Réduit le coût en PM de 1 et la résistance Crit P de l'ennemi affecté de 350 pendant 10 sec.",
+        "4": "[Stigmate de la barbarie] Réduit le coût en PM de 1 et la résistance Crit P de l'ennemi affecté de 420 pendant 10 sec.",
+        "5": "[Stigmate de la barbarie] Réduit le coût en PM de 1 et la résistance Crit P de l'ennemi affecté de 500 pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Cadeau de chasseur",
+      "description": "[En chasse] Augmente les DEG de 50 % ainsi que le boost de DEG P apporté par [Marque de chasse] et [Marque de chasse améliorée] de 8 % supplémentaires.",
+      "value": {},
+      "thumbnail": "heroes/Nia/ut/2.png",
+      "story": "La réputation de Yanne, la pourfendeuse de dragons, ne se limite pas au continent Orbis, elle a aussi atteint l'empire Vespia. Yanne, chasseuse de monstres émérite, reçut d'un noble de cet empire la mission de chasser tous les monstres qui peuplaient la Jungle de l'ombre. Toutefois, la véritable intention de l'empire était de chasser les autochtones afin d'exploiter la jungle à leurs propres fins.\nYanne se rendit dans la jungle en toute innocence, et la tribu Krakashu la prit pour un envahisseur impérial et s'en prit à elle sur l'ordre de Nia. Grâce à ses superpouvoirs, Yanne maîtrisa cette attaque sans effort. Elle put alors parler avec Nia et découvrir la vérité. Elle s'excusa auprès de Nia de s'être rendue sur les terres de la tribu sans permission, et lui offrit le collier qu'elle avait fabriqué en signe de réconciliation et d'amitié.",
+      "descriptionByStar": {
+        "0": "[En chasse] Augmente les DEG de 50 % ainsi que le boost de DEG P apporté par [Marque de chasse] et [Marque de chasse améliorée] de 8 % supplémentaires.",
+        "1": "[En chasse] Augmente les DEG de 50 % ainsi que le boost de DEG P apporté par [Marque de chasse] et [Marque de chasse améliorée] de 10 % supplémentaires.",
+        "2": "[En chasse] Augmente les DEG de 50 % ainsi que le boost de DEG P apporté par [Marque de chasse] et [Marque de chasse améliorée] de 12 % supplémentaires.",
+        "3": "[En chasse] Augmente les DEG de 50 % ainsi que le boost de DEG P apporté par [Marque de chasse] et [Marque de chasse améliorée] de 14 % supplémentaires.",
+        "4": "[En chasse] Augmente les DEG de 50 % ainsi que le boost de DEG P apporté par [Marque de chasse] et [Marque de chasse améliorée] de 17 % supplémentaires.",
+        "5": "[En chasse] Augmente les DEG de 50 % ainsi que le boost de DEG P apporté par [Marque de chasse] et [Marque de chasse améliorée] de 20 % supplémentaires."
+      }
+    },
+    "3": {
+      "name": "Masque d'os des sorts",
+      "description": "[Yeux démoniaques de pétrification] Au moment du lancement, attire les ennemis vers l'avant et réduit leur PM de 200 par coup réussi.",
+      "value": {},
+      "thumbnail": "heroes/Nia/ut/3.png",
+      "story": "Un masque confectionné avec un crâne de Prektrek, la bête des sorts, et façonné par la magie. Nia n'appréciait pas beaucoup les masques traditionnels qui couvraient tout son visage, et elle décida de se faire un casque à partir d'un masque d'os.\nCes masques servent principalement à réfréner les yeux démoniaques, mais ceux de Nia étant extrêmement stables malgré leur grande puissance, ce n'était donc pas important pour elle.\nNia s'en sert plutôt pour se souvenir de son père, appelé par l'Étoile bleue lorsqu'elle acquit Yeux démoniaques de pétrification. On raconte qu'elle fabriqua son masque afin qu'il ressemble le plus possible au masque d'os de son père.\nPour information, Prektrek est un lointain cousin des gobelins...",
+      "descriptionByStar": {
+        "0": "[Yeux démoniaques de pétrification] Au moment du lancement, attire les ennemis vers l'avant et réduit leur PM de 200 par coup réussi.",
+        "1": "[Yeux démoniaques de pétrification] Au moment du lancement, attire les ennemis vers l'avant et réduit leur PM de 240 par coup réussi.",
+        "2": "[Yeux démoniaques de pétrification] Au moment du lancement, attire les ennemis vers l'avant et réduit leur PM de 290 par coup réussi.",
+        "3": "[Yeux démoniaques de pétrification] Au moment du lancement, attire les ennemis vers l'avant et réduit leur PM de 350 par coup réussi.",
+        "4": "[Yeux démoniaques de pétrification] Au moment du lancement, attire les ennemis vers l'avant et réduit leur PM de 420 par coup réussi.",
+        "5": "[Yeux démoniaques de pétrification] Au moment du lancement, attire les ennemis vers l'avant et réduit leur PM de 500 par coup réussi."
+      }
+    },
+    "4": {
+      "name": "Stabilisateur sanguin",
+      "description": "[Sang démoniaque] Acquiert 1 charge de Sang démoniaque au début de chaque combat. Au bout de 4 charges, accorde l'immunité contre les contrôles pendant 2 sec.",
+      "value": {},
+      "thumbnail": "heroes/Nia/ut/4.png",
+      "story": "Même si le sang de Nia était plus stable que celui de ses ancêtres, il lui est parfois arrivé de chauffer à tel point qu'elle en perdit presque la raison.\nCe traitement spécial est une sorte de poison unique, préparé par Mediana et Requina à la demande de Yanne lorsqu'elle découvrit l'état de Nia.\nExclusivement dirigé contre le sang démoniaque de Nia, ce poison empêche son propre sang de trop chauffer.\nCe traitement a toutefois un effet secondaire qui perturbe son système digestif et l'empêche de consommer de la viande, à son grand dam.\nPour cette raison, Nia essaie au maximum de se passer de ce stabilisateur.",
+      "descriptionByStar": {
+        "0": "[Sang démoniaque] Acquiert 1 charge de Sang démoniaque au début de chaque combat. Au bout de 4 charges, accorde l'immunité contre les contrôles pendant 2 sec.",
+        "1": "[Sang démoniaque] Acquiert 1 charge de Sang démoniaque au début de chaque combat. Au bout de 4 charges, accorde l'immunité contre les contrôles pendant 2,4 sec.",
+        "2": "[Sang démoniaque] Acquiert 1 charge de Sang démoniaque au début de chaque combat. Au bout de 4 charges, accorde l'immunité contre les contrôles pendant 2,9 sec.",
+        "3": "[Sang démoniaque] Acquiert 1 charge de Sang démoniaque au début de chaque combat. Au bout de 4 charges, accorde l'immunité contre les contrôles pendant 3,5 sec.",
+        "4": "[Sang démoniaque] Acquiert 1 charge de Sang démoniaque au début de chaque combat. Au bout de 4 charges, accorde l'immunité contre les contrôles pendant 4,2 sec.",
+        "5": "[Sang démoniaque] Acquiert 1 charge de Sang démoniaque au début de chaque combat. Au bout de 4 charges, accorde l'immunité contre les contrôles pendant 5 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 5 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Zakadras, le Broyeur du Chaos, ce qui inflige ??? DEG P à tous les ennemis, et les étourdit pendant 4 sec. De plus, augmente les DEG P reçus par tous les ennemis de 20% pendant 10 sec. Ensuite, augmente le taux d'ATQ du Héros de 25% et sa Vitesse d'ATQ de 250, pendant 10 sec.",
+    "cooldown": "22",
+    "uses": "5",
+    "thumbnail": "heroes/Nia/sw.png",
+    "advancement": {
+      "1": "Augmente les DEG infligés de 30% et l'augmentation des DEG P reçus par l'ennemi de 40%.",
+      "2": "Réduit le temps de recharge de 7 sec et obtient 2 charges de Sang démoniaque à l'activation."
+    },
+    "story": "Nia se réveillait souvent du sommeil, à cause des voix qu'elle entendait toutes les nuits. Ce jour-là aussi, elle ne parvenait pas à s'endormir, alors elle se dirigea vers la provenance de ces voix. Ses pas s'arrêtèrent devant Zakadras, l'arme qu'elle avait reçue en devenant chef de tribu.\nAfin de trouver l'origine des voix, elle s'empara de Zakadras pour scruter sa lame, et se retrouva face aux esprits remplis de rancune. En constatant que Nia les observait, ils se mirent à faire encore plus de bruit, mais elle les écouta en silence. Durant des jours et des jours, Nia écouta leurs histoires, et leur promit de réaliser leurs souhaits.\nÀ cet instant, un démon, qui attendait le moment idéal pour s'en prendre à la vie de Nia, l'attaqua en profitant de ce relâchement. Mais il se fit arrêter pas une main géante qui surgit de Zakadras.\n- Cette gamine est l'unique personne capable de régler notre rancœur. Je ne laisserai pas une créature de ton espèce porter la main sur elle !\nSurgissant de Zakadras, l'être fait de rancune terrassa le démon d'une seule frappe et contempla Nia."
+  },
+  "splashart": "heroes/Nia/sa.png",
+  "costumes": "heroes/Nia/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

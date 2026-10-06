@@ -1,0 +1,276 @@
+{
+  "id": "Luna",
+  "profile": {
+    "name": "Luna",
+    "title": "Child of Moonlight Luna",
+    "class": "Archer",
+    "position": "Back-300",
+    "attack_range": "2900",
+    "damage_type": "Magical",
+    "gender": "Female",
+    "age": "???",
+    "height": "110",
+    "race": "Animal Hybrid (Rabbit)",
+    "constellation": "Kandala the Conqueror",
+    "birth": {
+      "month": 8,
+      "day": 8,
+      "monthName": "Month of Vitality"
+    },
+    "like": "Carrots, friends",
+    "dislike": "Hunger",
+    "story": "Lulus, very rarely sighted and often considered mythical, are a race of animal hybrids. They live in an extremely cold region, and are very fearful of contacting the outside world. One day, a Lulu child was born with the exact opposite personality that is typical her race. That child is Luna. It's not that she was unhappy with the ways of her people. Nor did she have any grand purpose of experiencing the world outside. She was simply picking flowers, one step at a time. Another step to pick up some frozen branches for her slingshot. And another step to follow the scent of some sweet, red fruit. Before she knew it, she was outside, running toward a carrot field away from the mountain.",
+    "thumbnail": "heroes/Luna/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Pew!",
+      "cost": "1",
+      "cooldown": "8",
+      "description": "Unleashes an attack that bounces [64ffff]4[-] times starting from the nearest enemy, dealing [ffc800]684*(1+0.3Skill Level)+300% of Attack Power[-] Magic Damage to each enemy hit. Damage increases by up to [ffc800]100%[-] the farther the enemy is.",
+      "thumbnail": "heroes/Luna/skills/1.png"
+    },
+    "2": {
+      "name": "Look out above!",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Deals [ffc800]792(1+0.3Skill Level)+347.5% of Attack Power[-] Magic Damage [64ffff]2 time(s)[-] to a random enemy and surrounding enemies, and [fa96fa]stuns[-] them for [64ffff]1.8 sec[-]. Damage increases by up to [ffc800]200%[-] the farther the enemy is.",
+      "thumbnail": "heroes/Luna/skills/2.png"
+    },
+    "3": {
+      "name": "Twinkle Twinkle",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Deals [ffc800]342(1+0.3Skill Level)+150% of Attack Power[-] Magic Damage [64ffff]6 time(s)[-] to enemies within range, [fa96fa]knocks them back[-] for [64ffff]1.8 sec[-], and reduces their Critical Chance by [ff6464]100%[-] for [64ffff]7 sec[-]. Damage increases by up to [ffc800]150%[-] the farther the enemy is.",
+      "thumbnail": "heroes/Luna/skills/3.png"
+    },
+    "4": {
+      "name": "Gotcha!",
+      "cost": null,
+      "cooldown": "12",
+      "description": "Attacks the farthest enemy, dealing [ffc800]799(1+0.3*Skill Level)+350% of Attack Power[-] Magic Damage, [fa96fa]knocking them back[-] for [64ffff]1.2 sec[-], and increasing Magic Damage taken by [ff6464]20%[-] for [64ffff]6 sec[-]. Damage increases by up to [ffc800]200%[-] the farther the enemy is.",
+      "thumbnail": "heroes/Luna/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DMG is increased by [64ff64]10[-] %.",
+      "III": "DMG is increased by [64ff64]15[-] %.",
+      "IV": "DMG is increased by [64ff64]25[-] %."
+    },
+    "2": {
+      "II": "DMG is increased by [64ff64]10[-] %.",
+      "III": "DMG is increased by [64ff64]15[-] %.",
+      "IV": "DMG is increased by [64ff64]25[-] %."
+    },
+    "3": {
+      "II": "DMG is increased by [64ff64]10[-] %.",
+      "III": "DMG is increased by [64ff64]15[-] %.",
+      "IV": "DMG is increased by [64ff64]25[-] %."
+    },
+    "4": {
+      "II": "DMG is increased by [64ff64]10[-] %.",
+      "III": "DMG is increased by [64ff64]15[-] %.",
+      "IV": "DMG is increased by [64ff64]25[-] %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Ignores the target’s Block effects.",
+          "thumbnail": "heroes/Luna/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "[fa96fa]Stuns[-] enemies hit for 1.2 seconds.",
+          "thumbnail": "heroes/Luna/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Mana cost is increased by 2000, but the number of hits is increased by 2.",
+          "thumbnail": "heroes/Luna/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Mana cost is increased by 1000, but targets the farthest enemy.",
+          "thumbnail": "heroes/Luna/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "For 7 seconds, reduces Accuracy of enemies hit by 200.",
+          "thumbnail": "heroes/Luna/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "If there is only 1 enemy, damage dealt is increased by 100%.",
+          "thumbnail": "heroes/Luna/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Removes positive effects from the target.",
+          "thumbnail": "heroes/Luna/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Number of targets changes to 2.",
+          "thumbnail": "heroes/Luna/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATK, DEF, HP +15% / Crit DMG +20%",
+        "thumbnail": "heroes/Luna/perks/light.png"
+      },
+      "dark": {
+        "effect": "Damage dealt to non-hero enemies is increased by 30%, and damage taken is reduced by 30%.",
+        "thumbnail": "heroes/Luna/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Flower of Eternity, Hyacinth",
+    "description": "Critical Damage is increased by {0}%, Normal Attack damage by {1}%, and Attack Range by {2}%.",
+    "value": {
+      "0": {
+        "0": "40",
+        "1": "48",
+        "2": "58",
+        "3": "70",
+        "4": "84",
+        "5": "100"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "2": {
+        "0": "12",
+        "1": "14.4",
+        "2": "17.2",
+        "3": "21",
+        "4": "25",
+        "5": "30"
+      }
+    },
+    "thumbnail": "heroes/Luna/uw.png",
+    "story": "A slingshot made from hyacinth, a silver tree that only grows in extremely cold regions. It is said that hyacinths have been blessed by the Queen of Ice, and are able to bear bright red fruits even in the coldest weather. Simply holding onto a hyacinth branch allows one to ignore the coldness around the holder. These blessed trees also have the power to call upon snowstorms and frost. Needless to say, these powers are best harnessed by a weapon carved from one of these trees.",
+    "descriptionByStar": {
+      "0": "Critical Damage is increased by 40%, Normal Attack damage by 20%, and Attack Range by 12%.",
+      "1": "Critical Damage is increased by 48%, Normal Attack damage by 24%, and Attack Range by 14.4%.",
+      "2": "Critical Damage is increased by 58%, Normal Attack damage by 29%, and Attack Range by 17.2%.",
+      "3": "Critical Damage is increased by 70%, Normal Attack damage by 35%, and Attack Range by 21%.",
+      "4": "Critical Damage is increased by 84%, Normal Attack damage by 42%, and Attack Range by 25%.",
+      "5": "Critical Damage is increased by 100%, Normal Attack damage by 50%, and Attack Range by 30%."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Golden Bell of Luck",
+      "description": "[Pew!] Increases DMG by {0}%, and upon Critical Hit, recovers Mana by 200.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Luna/ut/1.png",
+      "story": "A golden bell that brings luck.\nIt's Luna's second favorite thing after carrots, and it brightly glitters when she walks and trots. The sound of the golden bell has a mystical power that summons luck from her homeland.",
+      "descriptionByStar": {
+        "0": "[Pew!] Increases DMG by 20%, and upon Critical Hit, recovers Mana by 200.",
+        "1": "[Pew!] Increases DMG by 24%, and upon Critical Hit, recovers Mana by 200.",
+        "2": "[Pew!] Increases DMG by 29%, and upon Critical Hit, recovers Mana by 200.",
+        "3": "[Pew!] Increases DMG by 35%, and upon Critical Hit, recovers Mana by 200.",
+        "4": "[Pew!] Increases DMG by 42%, and upon Critical Hit, recovers Mana by 200.",
+        "5": "[Pew!] Increases DMG by 50%, and upon Critical Hit, recovers Mana by 200."
+      }
+    },
+    "2": {
+      "name": "Moonlight Carrot",
+      "description": "[Look Out Above!] Increases DMG by {0}% and reduces Cooldown by 10% upon a Crit Hit.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Luna/ut/2.png",
+      "story": "A carrot that grew from receiving moonlight a thousand times. \nThose hit by this carrot will have all evil stripped away from them, and they'll be able to tell apart good from bad.",
+      "descriptionByStar": {
+        "0": "[Look Out Above!] Increases DMG by 20% and reduces Cooldown by 10% upon a Crit Hit.",
+        "1": "[Look Out Above!] Increases DMG by 24% and reduces Cooldown by 10% upon a Crit Hit.",
+        "2": "[Look Out Above!] Increases DMG by 29% and reduces Cooldown by 10% upon a Crit Hit.",
+        "3": "[Look Out Above!] Increases DMG by 35% and reduces Cooldown by 10% upon a Crit Hit.",
+        "4": "[Look Out Above!] Increases DMG by 42% and reduces Cooldown by 10% upon a Crit Hit.",
+        "5": "[Look Out Above!] Increases DMG by 50% and reduces Cooldown by 10% upon a Crit Hit."
+      }
+    },
+    "3": {
+      "name": "Never-Melting Snow Flower",
+      "description": "[Twinkle Twinkle] The Crit Chance Reduction effect becomes irremovable, and increases the duration by {0} sec.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
+      "thumbnail": "heroes/Luna/ut/3.png",
+      "story": "A legendary snowfield flower that blossomed from the never melting land of Windland Snow Mountain. It is said that it makes the energy of its master's body flow clearly and beautifully. An item that makes Luna's pure energy shine even brighter.",
+      "descriptionByStar": {
+        "0": "[Twinkle Twinkle] The Crit Chance Reduction effect becomes irremovable, and increases the duration by 2 sec.",
+        "1": "[Twinkle Twinkle] The Crit Chance Reduction effect becomes irremovable, and increases the duration by 2.4 sec.",
+        "2": "[Twinkle Twinkle] The Crit Chance Reduction effect becomes irremovable, and increases the duration by 2.9 sec.",
+        "3": "[Twinkle Twinkle] The Crit Chance Reduction effect becomes irremovable, and increases the duration by 3.5 sec.",
+        "4": "[Twinkle Twinkle] The Crit Chance Reduction effect becomes irremovable, and increases the duration by 4.2 sec.",
+        "5": "[Twinkle Twinkle] The Crit Chance Reduction effect becomes irremovable, and increases the duration by 5 sec."
+      }
+    },
+    "4": {
+      "name": "Carrot Cake",
+      "description": "[Gotcha!] reduces Cooldown by {0} sec and cleanses self when affected by a CC once every 20 sec.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
+      "thumbnail": "heroes/Luna/ut/4.png",
+      "story": "Juno's special carrot cake.\nThis special carrot cake was made especially for Luna, who misses her family back in her hometown and the carrots she used to eat.\nAs it has the exact same taste like the ones Luna would eat back at home, the cake has become Luna's new soul food.",
+      "descriptionByStar": {
+        "0": "[Gotcha!] reduces Cooldown by 2 sec and cleanses self when affected by a CC once every 20 sec.",
+        "1": "[Gotcha!] reduces Cooldown by 2.4 sec and cleanses self when affected by a CC once every 20 sec.",
+        "2": "[Gotcha!] reduces Cooldown by 2.9 sec and cleanses self when affected by a CC once every 20 sec.",
+        "3": "[Gotcha!] reduces Cooldown by 3.5 sec and cleanses self when affected by a CC once every 20 sec.",
+        "4": "[Gotcha!] reduces Cooldown by 4.2 sec and cleanses self when affected by a CC once every 20 sec.",
+        "5": "[Gotcha!] reduces Cooldown by 5 sec and cleanses self when affected by a CC once every 20 sec."
+      }
+    }
+  },
+  "splashart": "heroes/Luna/sa.png",
+  "costumes": "heroes/Luna/cos",
+  "_localization": {
+    "locale": "en",
+    "version": "ccbt",
+    "englishFallbackFields": []
+  }
+}

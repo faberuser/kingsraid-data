@@ -1,0 +1,268 @@
+{
+  "id": "Frey",
+  "profile": {
+    "name": "Frey",
+    "title": "Frey, Prêtresse de la Lumière",
+    "class": "Priest",
+    "position": "Back-100",
+    "attack_range": "200",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "18",
+    "height": "170",
+    "race": "Humain",
+    "constellation": "Mertis la Protectrice",
+    "birth": {
+      "month": 1,
+      "day": 1,
+      "monthName": "Mois de la Protection"
+    },
+    "like": "Lua, son métier",
+    "dislike": "L'injustice",
+    "story": "Une apprentie prêtresse servant la déesse Lua. L'Église attend beaucoup de son accession au poste de prêtresse. Depuis ses premières années de formation, elle a stupéfait les plus grands prêtres par sa foi puissante et son talent naturel pour canaliser la puissance de Lua. Elle considère que la prêtrise est sa destinée naturelle et elle fait preuve d'autant de bienveillance que de volonté. Cependant, elle ne montre aucune pitié envers les malfaisants.",
+    "thumbnail": "heroes/Frey/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Lumière Miraculeuse",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Dissipe les effets négatifs de l’allié ayant le moins de PV actuels et lui rend 529*(1+0.3*Skill Level)+330.6% ATK PV 3 fois. À chaque soin de la cible, les alliés proches récupèrent également 40% de la quantité soignée.",
+      "thumbnail": "heroes/Frey/skills/1.png"
+    },
+    "2": {
+      "name": "Bénédiction de Lumière",
+      "cost": "2",
+      "cooldown": "14",
+      "description": "Accorde à tous les alliés un bouclier absorbant 1080*(1+0.3*Skill Level)+675.6% ATK DEG pendant 7 sec. Tant que le bouclier est actif, l’ATQ de la cible augmente de 25%, sa puissance de soin de 65% et sa résistance aux contrôles de 600.",
+      "thumbnail": "heroes/Frey/skills/2.png"
+    },
+    "3": {
+      "name": "Vengeance Céleste",
+      "cost": "3",
+      "cooldown": "22",
+      "description": "Attaque [64ffff]177*(1+0.3*Skill Level)+110.8% ATK[-] fois la cible ennemie et les ennemis à portée de la cible, leur infligeant un total de [ffc800]6[-] DEG M. Applique [64ff64]3.5[-] Crit supplémentaire à cette compétence. Aveugle la cible touchée pendant [64ffff]10[-] sec et lui augmente les DEG reçus de [64ff64]500[-]% pendant [64ffff]25[-] sec.",
+      "thumbnail": "heroes/Frey/skills/3.png"
+    },
+    "4": {
+      "name": "Grâce de la Déesse",
+      "cost": null,
+      "cooldown": "14",
+      "description": "Réduit ses propres DEG M subis de 15%. Au début de chaque combat ou toutes les 14 sec, rend 15% des PV max aux 1 alliés ayant le moins de PV actuels et augmente leur DEF M de 60*(1+0.3*Skill Level) pendant 7 sec.",
+      "thumbnail": "heroes/Frey/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les soins de [64ff64]10[-]%.",
+      "III": "Augmente les soins de [64ff64]15[-]%.",
+      "IV": "Augmente les soins de [64ff64]25[-]%."
+    },
+    "2": {
+      "II": "Augmente le taux de bouclier de [64ff64]10[-]%.",
+      "III": "Augmente le taux de bouclier de [64ff64]15[-]%.",
+      "IV": "Augmente le taux de bouclier de [64ff64]25[-]%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "4": {
+      "II": "Augmente l'augmentation de DEF M de [64ff64]10[-]%.",
+      "III": "Augmente l'augmentation de DEF M de [64ff64]15[-]%.",
+      "IV": "Augmente l'augmentation de DEF M de [64ff64]25[-]%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Cible 2 alliés en échange d’un coût en Mana supplémentaire de 1000.",
+          "thumbnail": "heroes/Frey/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit les dégâts magiques subis par les alliés soignés de 25% pendant 10 sec.",
+          "thumbnail": "heroes/Frey/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Augmente le Bouclier de 50%.",
+          "thumbnail": "heroes/Frey/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Réduit le temps de recharge de 3 sec.",
+          "thumbnail": "heroes/Frey/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente les dégâts de 80% en échange d’un coût en Mana supplémentaire de 1000.",
+          "thumbnail": "heroes/Frey/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Change la cible pour un ennemi aléatoire.",
+          "thumbnail": "heroes/Frey/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Réduit les DEG reçus de la cible de la part d'un ennemi non-Héros de 40% pendant la durée de l'effet.",
+          "thumbnail": "heroes/Frey/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Le nombre de cibles est maintenant de 2.",
+          "thumbnail": "heroes/Frey/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Blocage M +200",
+        "thumbnail": "heroes/Frey/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente l’ATQ de tous les alliés de 5%.",
+        "thumbnail": "heroes/Frey/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Rosmerta, l'Autorité de Dieu",
+    "description": "Toutes les 8 sec, soigne les 4 alliés aux PV actuels les plus faibles à hauteur de {0}% de l'ATQ et augmente les chances de coup critique de 200 et les DEG Crit de {1}% des 4 alliés à l'ATQ la plus élevée pendant 8 sec.",
+    "value": {
+      "0": {
+        "0": "80",
+        "1": "96",
+        "2": "115",
+        "3": "138",
+        "4": "165",
+        "5": "200"
+      },
+      "1": {
+        "0": "15",
+        "1": "19",
+        "2": "23",
+        "3": "27",
+        "4": "31",
+        "5": "35"
+      }
+    },
+    "thumbnail": "heroes/Frey/uw.png",
+    "story": "Les anges forment la race la plus proche de Lua que toutes les autres. Un de ces anges de haut rang nommé Rosmerta donna son noyau aux humains appartenant à l'Église de Lua. Et l'énergie divine provenant de ce noyau servit à créer ce bâton sacré.",
+    "descriptionByStar": {
+      "0": "Toutes les 8 sec, soigne les 4 alliés aux PV actuels les plus faibles à hauteur de 80% de l'ATQ et augmente les chances de coup critique de 200 et les DEG Crit de 15% des 4 alliés à l'ATQ la plus élevée pendant 8 sec.",
+      "1": "Toutes les 8 sec, soigne les 4 alliés aux PV actuels les plus faibles à hauteur de 96% de l'ATQ et augmente les chances de coup critique de 200 et les DEG Crit de 19% des 4 alliés à l'ATQ la plus élevée pendant 8 sec.",
+      "2": "Toutes les 8 sec, soigne les 4 alliés aux PV actuels les plus faibles à hauteur de 115% de l'ATQ et augmente les chances de coup critique de 200 et les DEG Crit de 23% des 4 alliés à l'ATQ la plus élevée pendant 8 sec.",
+      "3": "Toutes les 8 sec, soigne les 4 alliés aux PV actuels les plus faibles à hauteur de 138% de l'ATQ et augmente les chances de coup critique de 200 et les DEG Crit de 27% des 4 alliés à l'ATQ la plus élevée pendant 8 sec.",
+      "4": "Toutes les 8 sec, soigne les 4 alliés aux PV actuels les plus faibles à hauteur de 165% de l'ATQ et augmente les chances de coup critique de 200 et les DEG Crit de 31% des 4 alliés à l'ATQ la plus élevée pendant 8 sec.",
+      "5": "Toutes les 8 sec, soigne les 4 alliés aux PV actuels les plus faibles à hauteur de 200% de l'ATQ et augmente les chances de coup critique de 200 et les DEG Crit de 35% des 4 alliés à l'ATQ la plus élevée pendant 8 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Œuf d'ange",
+      "description": "[Lumière miraculeuse] Accélère les soins de 50 % et immunise la cible contre les DEG pendant {0} sec.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
+      "thumbnail": "heroes/Frey/ut/1.png",
+      "story": "Trésor chéri par Frey.\nIl s'agit d'un orbe de cristal qu'elle trouva sous l'Arbre Monde lorsqu'elle était enfant. Elle le baptisa « œuf d'ange » en raison de son éclat qui évoquait les cheveux d'un ange, et elle ne s'en sépara jamais.",
+      "descriptionByStar": {
+        "0": "[Lumière miraculeuse] Accélère les soins de 50 % et immunise la cible contre les DEG pendant 1 sec.",
+        "1": "[Lumière miraculeuse] Accélère les soins de 50 % et immunise la cible contre les DEG pendant 1,2 sec.",
+        "2": "[Lumière miraculeuse] Accélère les soins de 50 % et immunise la cible contre les DEG pendant 1,4 sec.",
+        "3": "[Lumière miraculeuse] Accélère les soins de 50 % et immunise la cible contre les DEG pendant 1,7 sec.",
+        "4": "[Lumière miraculeuse] Accélère les soins de 50 % et immunise la cible contre les DEG pendant 2,1 sec.",
+        "5": "[Lumière miraculeuse] Accélère les soins de 50 % et immunise la cible contre les DEG pendant 2,5 sec."
+      }
+    },
+    "2": {
+      "name": "Médaille miraculeuse",
+      "description": "[Bénédiction de lumière] Augmente la puissance du bouclier de 50 % et récupère {0} PM toutes les secondes, pendant 4 sec.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Frey/ut/2.png",
+      "story": "Médaille confectionnée par Yvonne, la sainte patronne des miracles, grâce à la révélation de la déesse. \nLa médaille miraculeuse est une relique sacrée renfermant la magie de la lumière. L’on raconte que la sainte patronne Yvonne a sauvé la ville contre les démons grâce à la bénédiction de la lumière décuplée par cette médaille.",
+      "descriptionByStar": {
+        "0": "[Bénédiction de lumière] Augmente la puissance du bouclier de 50 % et récupère 100 PM toutes les secondes, pendant 4 sec.",
+        "1": "[Bénédiction de lumière] Augmente la puissance du bouclier de 50 % et récupère 120 PM toutes les secondes, pendant 4 sec.",
+        "2": "[Bénédiction de lumière] Augmente la puissance du bouclier de 50 % et récupère 140 PM toutes les secondes, pendant 4 sec.",
+        "3": "[Bénédiction de lumière] Augmente la puissance du bouclier de 50 % et récupère 170 PM toutes les secondes, pendant 4 sec.",
+        "4": "[Bénédiction de lumière] Augmente la puissance du bouclier de 50 % et récupère 210 PM toutes les secondes, pendant 4 sec.",
+        "5": "[Bénédiction de lumière] Augmente la puissance du bouclier de 50 % et récupère 250 PM toutes les secondes, pendant 4 sec."
+      }
+    },
+    "3": {
+      "name": "Plume de l'arbitre oublié",
+      "description": "[Vengeance Céleste] Augmente les DGT magiques subis par la cible de 20 % pendant 10 s et prolonge l'aveuglement de {0} s.",
+      "value": {
+        "0": {
+          "0": "0.6",
+          "1": "0.9",
+          "2": "1.2",
+          "3": "1.5",
+          "4": "1.8",
+          "5": "2.1"
+        }
+      },
+      "thumbnail": "heroes/Frey/ut/3.png",
+      "story": "Plume de la Gardienne du soleil. Plume d’un ange ayant autrefois sauvé des gens en combattant des démons. Il laissa cette plume comme preuve de sa promesse de revenir un jour si jamais le monde sombrait dans le chaos. Une relique de l’Église de Lua invoquant les rayons sacrés du soleil pour aveugler l’ennemi.",
+      "descriptionByStar": {
+        "0": "[Vengeance Céleste] Augmente les DGT magiques subis par la cible de 20 % pendant 10 s et prolonge l'aveuglement de 0.6 s.",
+        "1": "[Vengeance Céleste] Augmente les DGT magiques subis par la cible de 20 % pendant 10 s et prolonge l'aveuglement de 0.9 s.",
+        "2": "[Vengeance Céleste] Augmente les DGT magiques subis par la cible de 20 % pendant 10 s et prolonge l'aveuglement de 1.2 s.",
+        "3": "[Vengeance Céleste] Augmente les DGT magiques subis par la cible de 20 % pendant 10 s et prolonge l'aveuglement de 1.5 s.",
+        "4": "[Vengeance Céleste] Augmente les DGT magiques subis par la cible de 20 % pendant 10 s et prolonge l'aveuglement de 1.8 s.",
+        "5": "[Vengeance Céleste] Augmente les DGT magiques subis par la cible de 20 % pendant 10 s et prolonge l'aveuglement de 2.1 s."
+      }
+    },
+    "4": {
+      "name": "L'avènement des anges",
+      "description": "[Grâce de la déesse] Dissipe tous les effets négatifs qui pèsent sur la cible et augmente sa récupération de {0} % pendant la durée de la compétence.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Frey/ut/4.png",
+      "story": "Un ancien livre de contes que possède Frey.\nC'est le tout premier livre de contes que Frey reçut étant enfant. Il narre une guerre entre anges et démons.\nFrey aime particulièrement la partie où les anges triomphent de tous les démons.",
+      "descriptionByStar": {
+        "0": "[Grâce de la déesse] Dissipe tous les effets négatifs qui pèsent sur la cible et augmente sa récupération de 20 % pendant la durée de la compétence.",
+        "1": "[Grâce de la déesse] Dissipe tous les effets négatifs qui pèsent sur la cible et augmente sa récupération de 24 % pendant la durée de la compétence.",
+        "2": "[Grâce de la déesse] Dissipe tous les effets négatifs qui pèsent sur la cible et augmente sa récupération de 29 % pendant la durée de la compétence.",
+        "3": "[Grâce de la déesse] Dissipe tous les effets négatifs qui pèsent sur la cible et augmente sa récupération de 35 % pendant la durée de la compétence.",
+        "4": "[Grâce de la déesse] Dissipe tous les effets négatifs qui pèsent sur la cible et augmente sa récupération de 42 % pendant la durée de la compétence.",
+        "5": "[Grâce de la déesse] Dissipe tous les effets négatifs qui pèsent sur la cible et augmente sa récupération de 50 % pendant la durée de la compétence."
+      }
+    }
+  },
+  "splashart": "heroes/Frey/sa.png",
+  "costumes": "heroes/Frey/cos",
+  "_localization": {
+    "locale": "fr",
+    "version": "ccbt",
+    "englishFallbackFields": []
+  }
+}

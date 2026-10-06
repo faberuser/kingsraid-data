@@ -1,0 +1,64 @@
+{
+  "id": "Event Protianus",
+  "profile": {
+    "name": "Protianus (Event)",
+    "title": "Der Unaufhaltsame, Einsame König",
+    "type": [
+      "World Boss"
+    ],
+    "race": "Elementar",
+    "damage_type": "Magical",
+    "recommended_heroes": "Mediana, Fluss, Reina",
+    "characteristics": "Der Unaufhaltsame, Einsame König erhält nur 1 Schaden durch jede Attacke. Seine Angriffe verursachen Mag. Schaden basierend auf der max. TP des Ziels.",
+    "thumbnail": "bosses/Protianus (Christmas).png",
+    "recommendedHeroNames": [
+      "Mediana",
+      "Fluss",
+      "Reina"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Tödlicher Dreizack",
+      "cost": null,
+      "cooldown": "18",
+      "description": "Greift Gegner in Reichweite mit dem Dreizack an und verursacht Schaden porportional zur gegnerischen max. TP während alle positiven Effekte entfernt werden. Betäubt sie zusätzlich für 4 Sek."
+    },
+    "2": {
+      "name": "Wisch & Weg",
+      "cost": null,
+      "cooldown": "24",
+      "description": "Wischt mit den Gegnern den Boden auf, verursacht Mag. Schaden proportional zur gegnerischen max. TP und verstummt getroffene Gegner für 5 Sek., während ihre PRÄZ für 10 Sek. um 200 reduziert ist."
+    },
+    "3": {
+      "name": "Wassergefängnis: Lockdown",
+      "cost": null,
+      "cooldown": "32",
+      "description": "Spritze Mag. Schaden proportional zur gegnerischen max. TP verursachende Wassertropfen auf den Gegner und sperre ihn in ein Wassergefängnis. Zusätzlich wird ein weiterer, zufälliger Gegner alle 5 Sek. in ein Wassergefängnis gesperrt."
+    },
+    "4": {
+      "name": "Tsunami",
+      "cost": null,
+      "cooldown": "40",
+      "description": "Dieser Tsunami räumt frontal 50m weit auf und trifft Gegner mit Mag. Schaden, proportional zur gegnerischen max. TP. Außerdem besteht eine 30 % Chance, die Gegner für 5 Sek. zu betäuben. Das Mana von getroffenen Gegnern wird für 10 Sek. um 1000 reduziert. Dieser Effekt kann nicht aufgehoben werden."
+    },
+    "5": {
+      "name": "Protianus-Haut",
+      "cost": null,
+      "cooldown": null,
+      "description": "Protianus ist vor ANG-GESCHW. beeinflussenden Effekten geschützt. Wenn Protianus einen Gegner verletzt, erleidet dieser für 5 Sek. Mag. Schaden proportional zu seiner max. TP."
+    },
+    "6": {
+      "name": "Wassergefängnis",
+      "cost": null,
+      "cooldown": null,
+      "description": "Gegner, die im Wassergefägnis eingesperrt sind, können sich weder bewegen, noch Skills benutzen. 20 Sek. nach Benutzung von [Einschließendes Wassergefängnis] verliert der Eingesperrte 3.000 Mana und alle Skill-Cooldowns erhöhen sich um 100 %. Das Wassergefängnis wird aufgehoben, wenn Protianus 350 Mal Körp. Schaden erhalten hat."
+    }
+  },
+  "aliases": [
+    "EventProtianus",
+    "ChristmasProtianus",
+    "WB4",
+    "WB 4"
+  ]
+}

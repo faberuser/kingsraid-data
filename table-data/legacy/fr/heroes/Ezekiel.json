@@ -1,0 +1,253 @@
+{
+  "id": "Ezekiel",
+  "profile": {
+    "name": "Ezekiel",
+    "title": "Ezekiel, Sang Maudit",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "3800",
+    "damage_type": "Magical",
+    "gender": "Homme",
+    "age": "HERO_AGE_EZEKIEL",
+    "height": "195",
+    "race": "Démon (Métis)",
+    "constellation": "Mira la Ménestrelle",
+    "birth": {
+      "month": 6,
+      "day": 6,
+      "monthName": "Mois de l'Amour"
+    },
+    "like": "Le pudding au caramel, les jus sucrés",
+    "dislike": "Les faibles qui jouent aux durs, les imbéciles qui pensent tout savoir",
+    "story": "Il est le fils de Lucikiel, qui est un puissant officier démoniaque, responsable de la chute du Grand-Duché de Gray. Il est généralement prudent et attentif, car il est à demi humain. Au combat, son sang de démon prend le dessus et il devient arrogant et violent. Il a hérité des pouvoirs de son père, qu'il n'a jamais connu. Cependant, il en tire une certaine fierté et ne s'en cache pas. Comme il n'est qu'à moitié démon, seul un de ses bras se transforme. Cependant, ce bras dispose d'une énorme puissance, qu'il a du mal à contrôler. S'il en perd le contrôle, mieux vaut s'éloigner de lui au plus vite.",
+    "thumbnail": "heroes/Ezekiel/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Instinct Destructeur",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Balaie les ennemis à portée de manière circulaire et inflige ??? points de DEG M Frappe ensuite le sol, infligeant ??? points de DEG M tout en renversant les ennemis pendant 3 sec.\n[Fureur] - Consomme 15% des PV actuels pour s'activer. La portée de l'effet augmente et les attaques tournoyantes attirent les ennemis.",
+      "thumbnail": "heroes/Ezekiel/skills/1.png"
+    },
+    "2": {
+      "name": "Aube du Désespoir",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Se précipite vers l'ennemi ayant l'ATQ la plus élevée et inflige ??? points de DEG M aux ennemis à portée, réduisant leur Vitesse d'ATQ de 300. \n[Fureur] - Consomme 10% des PV actuels pour s'activer. La portée de l'effet augmente, applique Étourdissement pendant 3 sec et augmente la Vitesse d'ATQ du Héros de 300 pendant 10 sec.",
+      "thumbnail": "heroes/Ezekiel/skills/2.png"
+    },
+    "3": {
+      "name": "Frappe de Condamnation",
+      "cost": "2",
+      "cooldown": "7",
+      "description": "Collecte de l'énergie et attaque la cible ennemie, pour infliger ??? DEG M et étourdir pendant 3 sec. Les DEG ignorent l'effet de réduction de DEG de la cible.\n\n[Fureur] - Consomme 20% des PV actuels pour s'activer. Attaque les ennemis à portée de la cible et multiplie les DEG infligés par 3.",
+      "thumbnail": "heroes/Ezekiel/skills/3.png"
+    },
+    "4": {
+      "name": "Sang Maudit",
+      "cost": null,
+      "cooldown": null,
+      "description": "Ezekiel gagne 1 charge de 'Sang Maudit' à la fin de la compétence. En obtenant la 3ème charge de Sang Maudit, consomme toutes les charges pour réinitialiser le temps de recharge de toutes les compétences. Ceci inflige ??? DEG M aux ennemis à portée et les renverse pendant 3 sec, tout en activant Fureur pendant 10 sec, ce qui n'est pas dissipable. Lorsque Fureur est activée, le Héros entre en mode bataille-auto, qui ne peut pas être contrôlé, l'ATQ est augmentée de ???, les DEG infligés par les attaques auto sont doublés, et l'effet de toutes les compétences est renforcé. Sang Maudit ne peut pas être obtenu pendant que Fureur est activée, sauf lorsqu'un ennemi est tué.",
+      "thumbnail": "heroes/Ezekiel/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "2": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "3": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "4": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Les DEG sont augmentés de 40%.",
+          "thumbnail": "heroes/Ezekiel/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Augmente l'ATQ de 40% pendant 10 sec après l'utilisation.",
+          "thumbnail": "heroes/Ezekiel/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Ezekiel/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Ignore la DEF ennemie lorsque activé pendant Fureur.",
+          "thumbnail": "heroes/Ezekiel/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Confère l'immunité contre les Contrôles pendant l'utilisation de la compétence.",
+          "thumbnail": "heroes/Ezekiel/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "S'il n'y a qu'1 ennemi, les DEG sont augmentés de 100%.",
+          "thumbnail": "heroes/Ezekiel/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Lorsque Fury est actif, les soins sont augmentés de 50%.",
+          "thumbnail": "heroes/Ezekiel/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Pour chaque charge de 'Sang Maudit', les DEG réçus sont réduits de 12%.",
+          "thumbnail": "heroes/Ezekiel/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Vitesse d'ATQ +100",
+        "thumbnail": "heroes/Ezekiel/perks/light.png"
+      },
+      "dark": {
+        "effect": "Lorsque Fury est actif, les DEG des attaques auto ignorent la DEF.",
+        "thumbnail": "heroes/Ezekiel/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Barbatos, le Gardien du Désespoir",
+    "description": "Augmente la durée de Fureur de {0} sec. À l'état de Fureur, augmente les DEG Crit de {1}% et la résistance aux Contrôles de {2}.",
+    "value": {
+      "0": {
+        "0": "2",
+        "1": "3",
+        "2": "4",
+        "3": "5",
+        "4": "6",
+        "5": "7"
+      },
+      "1": {
+        "0": "80",
+        "1": "90",
+        "2": "100",
+        "3": "110",
+        "4": "120",
+        "5": "130"
+      },
+      "2": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      }
+    },
+    "thumbnail": "heroes/Ezekiel/uw.png",
+    "story": "Le père d'Ezekiel faisait partie des démons supérieurs. Bien qu'il n'ait jamais connu son nom ou son visage, il est parfaitement conscient du pouvoir incommensurable dont il a hérité. C'est d'ailleurs à ce sang démoniaque qu'il doit sa seconde personnalité. Lorsque son humanité prévaut, Ezekiel est un jeune homme sociable. Mais il se change parfois en démon étonnamment arrogant et puissant, car son père. Barbatos, le Gardien du Désespoir, se manifeste lorsque le sang démoniaque d'Ezekiel prend le dessus. Adoptant la forme de son bras, cette arme est suffisamment puissante pour trancher à travers les dimensions et l'espace lui-même. Elle constitue la représentation physique du pouvoir de son père.",
+    "descriptionByStar": {
+      "0": "Augmente la durée de Fureur de 2 sec. À l'état de Fureur, augmente les DEG Crit de 80% et la résistance aux Contrôles de 200.",
+      "1": "La durée de Fureur est augmentée de 3 sec et lorsqu'elle est active, les DEG Crit sont augmentés de 90%.",
+      "2": "La durée de Fureur est augmentée de 4 sec et lorsqu'elle est active, les DEG Crit sont augmentés de 100%.",
+      "3": "La durée de Fureur est augmentée de 5 sec et lorsqu'elle est active, les DEG Crit sont augmentés de 110%.",
+      "4": "La durée de Fureur est augmentée de 6 sec et lorsqu'elle est active, les DEG Crit sont augmentés de 120%.",
+      "5": "La durée de Fureur est augmentée de 7 sec et lorsqu'elle est active, les DEG Crit sont augmentés de 130%."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Ceinture en cuir de bête sauvage",
+      "description": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 15 % pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Ezekiel/ut/1.png",
+      "story": "Lorsqu'Ezekiel fit un ras-de-cou en cuir de Manticore, il confectionna également une ceinture doublée. Ce cuir spécial a la particularité de contenir de l'énergie démoniaque et de rendre fou. Cette ceinture instille la peur autour d'elle lorsqu'Ezekiel relâche sa puissance démoniaque, immobilisant les esprits faibles.",
+      "descriptionByStar": {
+        "0": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 15 % pendant 10 sec.",
+        "1": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 12 % pendant 10 sec.",
+        "2": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 14 % pendant 10 sec.",
+        "3": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 17 % pendant 10 sec.",
+        "4": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 21 % pendant 10 sec.",
+        "5": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 25 % pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Ras-de-cou bête sauvage",
+      "description": "[Aube du désespoir] Donne l'immunité aux contrôles pendant la durée de la compétence et augmente la Vitesse d'ATQ de 100 pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Ezekiel/ut/2.png",
+      "story": "Ras-de-cou confectionné à partir de la peau d’une puissante bête.\nCet objet fait honneur à la manticore vaincue par le jeune Ezekiel après une éprouvante bataille contre les démons. \nEzekiel se rappelle la joie que procure la mise à mort d’une manticore à chaque fois qu’il effleure le ras-de-cou de la bête violente, juste avant de foncer vers l’imposant ennemi qui lui fait face.",
+      "descriptionByStar": {
+        "0": "[Aube du désespoir] Donne l'immunité aux contrôles pendant la durée de la compétence et augmente la Vitesse d'ATQ de 100 pendant 10 sec.",
+        "1": "[Aube du désespoir] Donne l'immunité aux contrôles pendant la durée de la compétence et augmente la Vitesse d'ATQ de 120 pendant 10 sec.",
+        "2": "[Aube du désespoir] Donne l'immunité aux contrôles pendant la durée de la compétence et augmente la Vitesse d'ATQ de 140 pendant 10 sec.",
+        "3": "[Aube du désespoir] Donne l'immunité aux contrôles pendant la durée de la compétence et augmente la Vitesse d'ATQ de 170 pendant 10 sec.",
+        "4": "[Aube du désespoir] Donne l'immunité aux contrôles pendant la durée de la compétence et augmente la Vitesse d'ATQ de 210 pendant 10 sec.",
+        "5": "[Aube du désespoir] Donne l'immunité aux contrôles pendant la durée de la compétence et augmente la Vitesse d'ATQ de 250 pendant 10 sec."
+      }
+    },
+    "3": {
+      "name": "Lien de sceau",
+      "description": "[Frappe de Condamnation] Augmente les DEG de 20% et donne 1 charge supplémentaire de Sang Maudit après l'utilisation de la compétence.",
+      "value": {},
+      "thumbnail": "heroes/Ezekiel/ut/3.png",
+      "story": "Un lien contenant la mana d’un prêtre inconnu. Le jeune Ezekiel devenait fréquemment enragé. Si quelqu’un insultait sa mère, il laissait son sang de démon prendre le dessus. Une fois qu’il reprenait ses esprits, il contemplait son bras blessé et sa mère terrifiée. Lorsqu’il fut plus âgé, Ezekiel affrontait des démons lorsqu’il se disputa avec un grand prêtre de Lua. Il devint enragé, comme les autres fois. Lorsqu’il reprit ses esprits, il était seul et un lien était fixé sur son bras maudit. Lorsqu’il tenta de le retirer, il se rendit compte que la magie du prêtre ne pouvait être arrachée si facilement. Cependant, il arrêta de devenir enragé et de perdre conscience. Il a également plus de contrôle sur sa mana. Ce lien est désormais son bien le plus précieux.",
+      "descriptionByStar": {
+        "0": "[Frappe de Condamnation] Augmente les DEG de 20% et donne 1 charge supplémentaire de Sang Maudit après l'utilisation de la compétence.",
+        "1": "[Frappe de Condamnation] Augmente les DEG de 24% et donne 1 charge supplémentaire de Sang Maudit après l'utilisation de la compétence.",
+        "2": "[Frappe de Condamnation] Augmente les DEG de 29% et donne 1 charge supplémentaire de Sang Maudit après l'utilisation de la compétence.",
+        "3": "[Frappe de Condamnation] Augmente les DEG de 35% et donne 1 charge supplémentaire de Sang Maudit après l'utilisation de la compétence.",
+        "4": "[Frappe de Condamnation] Augmente les DEG de 42% et donne 1 charge supplémentaire de Sang Maudit après l'utilisation de la compétence.",
+        "5": "[Frappe de Condamnation] Augmente les DEG de 50% et donne 1 charge supplémentaire de Sang Maudit après l'utilisation de la compétence."
+      }
+    },
+    "4": {
+      "name": "Sculpture de sang",
+      "description": "[Sang maudit] Au début de la première bataille, récupère 2 charges de Sang maudit et augmente de 20% les DEG infligés au Boss pendant la durée de Fureur.",
+      "value": {},
+      "thumbnail": "heroes/Ezekiel/ut/4.png",
+      "story": "Les soudains pics d'énergie au niveau du bras droit du jeune Ezekiel lui ont laissé de nombreuses blessures et cicatrices sur les bras et les mains.\nLorsque son bras est apaisé et que le sang dégouline sur le sol, son regard a tendance à se river sur ce sang.\nEzekiel attend que le saignement cesse, ramasse une pierre imprégnée de son sang bleu, et commence à y graver une petite sculpture à l'image de sa main droite.",
+      "descriptionByStar": {
+        "0": "[Sang maudit] Au début de la première bataille, récupère 2 charges de Sang maudit et augmente de 20% les DEG infligés au Boss pendant la durée de Fureur.",
+        "1": "[Sang maudit] Au début de la première bataille, récupère 2 charges de Sang maudit et augmente de 24% les DEG infligés au Boss pendant la durée de Fureur.",
+        "2": "[Sang maudit] Au début de la première bataille, récupère 2 charges de Sang maudit et augmente de 29% les DEG infligés au Boss pendant la durée de Fureur.",
+        "3": "[Sang maudit] Au début de la première bataille, récupère 2 charges de Sang maudit et augmente de 35% les DEG infligés au Boss pendant la durée de Fureur.",
+        "4": "[Sang maudit] Au début de la première bataille, récupère 2 charges de Sang maudit et augmente de 42% les DEG infligés au Boss pendant la durée de Fureur.",
+        "5": "[Sang maudit] Au début de la première bataille, récupère 2 charges de Sang maudit et augmente de 50% les DEG infligés au Boss pendant la durée de Fureur."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 6 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Barbatos, le Gardien du Désespoir pendant 12 sec, ce qui inflige ??? DEG M aux ennemis proches dans une zone circulaire et augmente le taux d'ATQ du Héros de 50%. Pendant la durée de l'invocation, vous pouvez contrôler le Héros en état Fureur et ses compétences ne dépensent pas de PV. À la fin de cette compétence, le Héros obtient 1 charges de Sang Maudit. Le Sang Maudit obtenu lors de l'utilisation de cette compétence peut être obtenu même à l'état Fureur.",
+    "cooldown": "18",
+    "uses": "6",
+    "thumbnail": "heroes/Ezekiel/sw.png",
+    "advancement": {
+      "1": "Permet d'obtenir 1 charges supplémentaires de Sang Maudit.",
+      "2": "Augmente les DEG infligés par le Héros aux ennemis de 30% pendant la durée de l'invocation."
+    },
+    "story": "Ezekiel n'avait jamais usé à sa pleine puissance l'énergie contenue dans son bras.\nLa personnalité humaine n'était pas capable de le maîtriser, et la personnalité démone n'avait jamais ressenti le besoin de le faire. Cependant, après une rencontre fortuite suivie d'un long voyage, Ezekiel commença à vouloir protéger.\nSeulement, 'protéger' demandait une plus grande force que 'tuer'. Mais comment devenir plus fort ? Il n'était pas humain, alors les méthodes des humains ne lui étaient d'aucune utilité.\nIl n'était pas non plus démon, et leurs techniques lui étaient inutiles. Ne sachant comment gérer la situation, les deux personnalités d'Ezekiel arrivent à une seule conclusion.\nC'était celle de libérer totalement la puissance reçue de leur père, afin de la comprendre.\nCar une puissance qui n'avait pas été totalement identifiée ne pouvait être parfaitement contrôlée. C'était un raisonnement juste, et concordait avec les histoires qu'il avait entendues d'une personne fiable. Après ces réflexions, il libéra toute sa puissance de démon. Et se produisit un fait inimaginable. Suivant la trajectoire de ses ongles, une fissure s'était formée dans le vide. Surpris par ce phénomène, il s'en approcha, et perçut une énergie démoniaque intense. Elle lui était familière, malgré que ce soit la première fois.\nÀ cet instant, Ezekiel comprit ce qu'il venait de faire. Il comprit également ce qu'était cette puissance. Et il put enfin faire face avec la force de Barbatos."
+  },
+  "splashart": "heroes/Ezekiel/sa.png",
+  "costumes": "heroes/Ezekiel/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

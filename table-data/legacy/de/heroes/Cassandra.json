@@ -1,0 +1,228 @@
+{
+  "id": "Cassandra",
+  "profile": {
+    "name": "Cassandra",
+    "title": "Verführerische Winde Cassandra",
+    "class": "Priest",
+    "position": "Back-100",
+    "attack_range": "3900",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "27",
+    "height": "171",
+    "race": "Menschen",
+    "constellation": "Lasiphil, die Prophetin",
+    "birth": {
+      "month": 3,
+      "day": 28,
+      "monthName": "Monat der Einsicht"
+    },
+    "like": "Rotwein; Nüsse; protzige Fächer",
+    "dislike": "Unangenehme Kunden; Fettiges Haar; Schlechte Gerüche",
+    "story": "Sie ist die Besitzerin der 'Goldenen Kneipe', der größten und luxuriösesten Taverne in Vespia. Hinter ihrer protzigen Fassade dient die Taverne in Wahrheit als geheimer Treffpunkt der gesellschaftlichen Elite, an dem ein regelmäßiger Austausch von unbezahlbaren Geheiminformationen stattfindet. Ihr natürlicher Charme und ihre Wortgewandtheit lassen sie schnell persönliche Hindernisse überwinden und das Vertrauen Anderer gewinnen. Ihre wahre Identität ist die einer Händlerin geheimer Informationen und Waffen.",
+    "thumbnail": "heroes/Cassandra/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Vorsichtig~",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Heilt alle Verbündeten um ??? TP und verursacht Mag. Schaden in Höhe von ??? an allen Feinden. Getroffene Feinde werden 5 Sek. lang zum Schweigen gebracht.",
+      "thumbnail": "heroes/Cassandra/skills/1.png"
+    },
+    "2": {
+      "name": "Heftig!",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Erhöht den ANG deiner Verbündeten um ??? für 15 Sek. und ihre Krit. Chance um 700.",
+      "thumbnail": "heroes/Cassandra/skills/2.png"
+    },
+    "3": {
+      "name": "Verführerische Welle",
+      "cost": "4",
+      "cooldown": "22",
+      "description": "Erteilt ??? Mag. Schaden an dem Gegner mit dem höchsten ANG. Falls der Gegner ein Held ist und der Skill in der Arena benutzt wird, wird er für 7. Sek. bezaubert. Wenn der Skill in der Arena benutzt wird, verursacht er 25 % zusätzlichen Mag. Schaden. Bezauberte Gegner greifen ihre Verbündeten mit normalen Angriffen an und können keine Skills benutzen.",
+      "thumbnail": "heroes/Cassandra/skills/3.png"
+    },
+    "4": {
+      "name": "Sanfte Berührung",
+      "cost": null,
+      "cooldown": null,
+      "description": "Bei jedem Kampf sind die Manakosten des ersten Skills um 2 reduziert. Erhöht außerdem die VERT aller Verbündeten um ??? für 5 Sek.",
+      "thumbnail": "heroes/Cassandra/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Heilungsrate und Schaden um 10 %.",
+      "III": "Erhöht Heilungsrate und Schaden um 15 %.",
+      "IV": "Stille-Dauer um 0.5 Sek. erhöht."
+    },
+    "2": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Bezaubert-Dauer um 1 Sek. erhöht."
+    },
+    "4": {
+      "II": "Erhöht VERT-Boost um 10 %.",
+      "III": "Erhöht VERT-Boost um 15 %.",
+      "IV": "Erhöht VERT-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Geheilte Verbündete erhalten ANG-GESCHW. Boost von 200 für 10 Sek.",
+          "thumbnail": "heroes/Cassandra/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Getroffene Feinde verlieren 200 Mana/Sek. für 5 Sek.",
+          "thumbnail": "heroes/Cassandra/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Erhöht ANG-Boost um 40 %.",
+          "thumbnail": "heroes/Cassandra/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Cassandra/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Ziel erleidet 10 Sek. lang 25 % extra Mag. Schaden.",
+          "thumbnail": "heroes/Cassandra/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Cassandra/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Reduziert allen erlittenen Schaden Verbündeter 5 Sek. lang um 20 %.",
+          "thumbnail": "heroes/Cassandra/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Verlängert die Effektdauer der VERT-Erhöhung um 5 Sek.",
+          "thumbnail": "heroes/Cassandra/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/ANG-GESCHW. +100",
+        "thumbnail": "heroes/Cassandra/perks/light.png"
+      },
+      "dark": {
+        "effect": "Gewährt zu Beginn der Schlacht einem zufälligen Helden Schadensimmunität für 3 Sek.",
+        "thumbnail": "heroes/Cassandra/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Goldenes Geflüster, Goldbreeze",
+    "description": "Skilltreffer erhöhen den vom Ziel erlittenen Mag. Schaden für 10 Sek. um 10 %. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 200 % des eigenen ANG geheilt und alle negativen Effekte werden entfernt.",
+    "value": {},
+    "thumbnail": "heroes/Cassandra/uw.png",
+    "story": "Cassandra arbeitet nebenbei als Waffenhändlerin. Eines Tages gelangte sie in den Besitz eines gestohlenen Gegenstandes, der sofort ihre Aufmerksamkeit erregte. Es handelte sich dabei um einen schönen Fächer, verziert mit Gold und wertvollen Edelsteinen. Den Gerüchten zufolge überkam alle Frauen, denen dieser Fächer gehörte, großes Unglück. Als verfluchtes Objekt wechselte es daher oft seine Besitzer. Als Cassandra den Fächer erwarb, begann sie unverzüglich mit der Erforschung seiner Herkunft. Wie sich herausstellte wurde dieser Fächer, genannt Goldbreeze, als versteckte Waffe erschaffen. Es ist daher nicht allzu schwierig, sich vorzustellen, welches Unglück die Besitzerinnen des Fächers überkommen haben muss.",
+    "descriptionByStar": {
+      "0": "Skilltreffer erhöhen den vom Ziel erlittenen Mag. Schaden für 10 Sek. um 10 %. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 200 % des eigenen ANG geheilt und alle negativen Effekte werden entfernt.",
+      "1": "Skilltreffer erhöhen den vom Ziel erlittenen Mag. Schaden für 10 Sek. um 12 %. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 240 % des eigenen ANG geheilt und alle negativen Effekte werden entfernt.",
+      "2": "Skilltreffer erhöhen den vom Ziel erlittenen Mag. Schaden für 10 Sek. um 14 %. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 290 % des eigenen ANG geheilt und alle negativen Effekte werden entfernt.",
+      "3": "Skilltreffer erhöhen den vom Ziel erlittenen Mag. Schaden für 10 Sek. um 17 %. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 350 % des eigenen ANG geheilt und alle negativen Effekte werden entfernt.",
+      "4": "Skilltreffer erhöhen den vom Ziel erlittenen Mag. Schaden für 10 Sek. um 21 %. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 420 % des eigenen ANG geheilt und alle negativen Effekte werden entfernt.",
+      "5": "Skilltreffer erhöhen den vom Ziel erlittenen Mag. Schaden für 10 Sek. um 25 %. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 500 % des eigenen ANG geheilt und alle negativen Effekte werden entfernt."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Dekorationsfeder des Purpurroten Vogels",
+      "description": "[Vorsichtig~] erhöht die Heilungsrate um 50 % und die Dauer von Schweigen um 0,8 Sek.",
+      "value": {},
+      "thumbnail": "heroes/Cassandra/ut/1.png",
+      "story": "Eine Dekoration, die aus der Feder des Purpurroten Vogels hergestellt wurde, einer wunderschönen aber gefährlichen Bestie.\nDie Feder strahlt für gewöhnlich dunkle Energie aus, aber sobald sie Licht ausgesetzt wird, leuchtet sie rot. Schwache Geister können sich den Halluzinationen nicht entziehen, die durch die prächtige, glänzende Farbe ausgelöst werden.",
+      "descriptionByStar": {
+        "0": "[Vorsichtig~] erhöht die Heilungsrate um 50 % und die Dauer von Schweigen um 0,8 Sek.",
+        "1": "[Vorsichtig~] erhöht die Heilungsrate um 50 % und die Dauer von Schweigen um 1 Sek.",
+        "2": "[Vorsichtig~] erhöht die Heilungsrate um 50 % und die Dauer von Schweigen um 1,2 Sek.",
+        "3": "[Vorsichtig~] erhöht die Heilungsrate um 50 % und die Dauer von Schweigen um 1,4 Sek.",
+        "4": "[Vorsichtig~] erhöht die Heilungsrate um 50 % und die Dauer von Schweigen um 1,7 Sek.",
+        "5": "[Vorsichtig~] erhöht die Heilungsrate um 50 % und die Dauer von Schweigen um 2 Sek."
+      }
+    },
+    "2": {
+      "name": "Schickes Ornament",
+      "description": "[Heftig!] erhöht die Dauer um 5 Sek. und den Krit. Schaden um 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Cassandra/ut/2.png",
+      "story": "Ein luxuriöses Accessoire, das vom größten Juwelier auf dem Kontinent hergestellt wurde.\nEin Schmuckstück in limitierter Auflage, gefertigt von Juwelier Larik. Jeder in der High Society auf dem Orbis-Kontinent hätte gern eines davon. \nSeine Arbeit soll der Inbegriff des Kunsthandwerks sein sowie den Träger heilen und ihm Mut verleihen. \nEs gibt nur 3 dieser streng limitierten Schmuckstücke und eines davon gehört natürlich dem Meister der Goldenen Kneipe.",
+      "descriptionByStar": {
+        "0": "[Heftig!] erhöht die Dauer um 5 Sek. und den Krit. Schaden um 20 %.",
+        "1": "[Heftig!] erhöht die Dauer um 5 Sek. und den Krit. Schaden um 24 %.",
+        "2": "[Heftig!] erhöht die Dauer um 5 Sek. und den Krit. Schaden um 29 %.",
+        "3": "[Heftig!] erhöht die Dauer um 5 Sek. und den Krit. Schaden um 35 %.",
+        "4": "[Heftig!] erhöht die Dauer um 5 Sek. und den Krit. Schaden um 42 %.",
+        "5": "[Heftig!] erhöht die Dauer um 5 Sek. und den Krit. Schaden um 50 %."
+      }
+    },
+    "3": {
+      "name": "Goldduft",
+      "description": "[Verführerische Welle] verringert Skill-Cooldown um 30 % und erhöht Bezaubert-Dauer um 1 Sek.",
+      "value": {},
+      "thumbnail": "heroes/Cassandra/ut/3.png",
+      "story": "Eine legendäre goldene Flammenhalskette. Der legendäre Goldkönig schuf diese goldene Flammenhalskette, um die Aufmerksamkeit der Göttin von Liebe und Schönheit zu erregen. \nIhr goldener Geruch erschafft eine Verführerische Welle, die jeden dazu bringt, sich auf die Seite des Trägers zu stellen und ihn zu verehren.",
+      "descriptionByStar": {
+        "0": "[Verführerische Welle] verringert Skill-Cooldown um 30 % und erhöht Bezaubert-Dauer um 1 Sek.",
+        "1": "[Verführerische Welle] verringert Skill-Cooldown um 30 % und erhöht Bezaubert-Dauer um 1,5 Sek.",
+        "2": "[Verführerische Welle] verringert Skill-Cooldown um 30 % und erhöht Bezaubert-Dauer um 2 Sek.",
+        "3": "[Verführerische Welle] verringert Skill-Cooldown um 30 % und erhöht Bezaubert-Dauer um 2,5 Sek.",
+        "4": "[Verführerische Welle] verringert Skill-Cooldown um 30 % und erhöht Bezaubert-Dauer um 3 Sek.",
+        "5": "[Verführerische Welle] verringert Skill-Cooldown um 30 % und erhöht Bezaubert-Dauer um 3,5 Sek."
+      }
+    },
+    "4": {
+      "name": "Riechfläschchen der Verführung",
+      "description": "[Sanfte Berührung] VERT-Boost kann nicht entfernt werden. Der Krit. Widerstand gesamt von allen Verbündeten wird für 10 Sek. um 100 erhöht.",
+      "value": {},
+      "thumbnail": "heroes/Cassandra/ut/4.png",
+      "story": "Ein Riechfläschchen, das Cassandra von einem Schwarzmarkthändler aus dem Osten gekauft hat.\nEr riecht stark nach Azaleen.\nDie Flüssigkeit im Inneren besteht aus einer speziellen Substanz, die Leute erregt und sie dazu bringt, für eine bestimmte Zeit ihre größten Geheimnisse preiszugeben.\nCassandra nutzt das Fläschchen nur, wenn sie unbedingt Informationen braucht, da es so gut wie unmöglich ist, irgendwo ein anderes Exemplar zu kaufen.",
+      "descriptionByStar": {
+        "0": "[Sanfte Berührung] VERT-Boost kann nicht entfernt werden. Der Krit. Widerstand gesamt von allen Verbündeten wird für 10 Sek. um 100 erhöht.",
+        "1": "[Sanfte Berührung] VERT-Boost kann nicht entfernt werden. Der Krit. Widerstand gesamt von allen Verbündeten wird für 10 Sek. um 120 erhöht.",
+        "2": "[Sanfte Berührung] VERT-Boost kann nicht entfernt werden. Der Krit. Widerstand gesamt von allen Verbündeten wird für 10 Sek. um 140 erhöht.",
+        "3": "[Sanfte Berührung] VERT-Boost kann nicht entfernt werden. Der Krit. Widerstand gesamt von allen Verbündeten wird für 10 Sek. um 170 erhöht.",
+        "4": "[Sanfte Berührung] VERT-Boost kann nicht entfernt werden. Der Krit. Widerstand gesamt von allen Verbündeten wird für 10 Sek. um 210 erhöht.",
+        "5": "[Sanfte Berührung] VERT-Boost kann nicht entfernt werden. Der Krit. Widerstand gesamt von allen Verbündeten wird für 10 Sek. um 250 erhöht."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 4-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört 10 lang die Seele von Goldenes Geflüster, Goldbreeze und die ANG-GESCHW aller Verbündete wird um 300 erhöht. Dabei wird allen Gegnern ??? Mag. Schaden zugefügt und 10 Sek. lang wird der erhaltene Mag. Schaden um 25 % erhöht. Bei Verwendung in Arena werden alle Gegner 5 Sek. lang verführt.",
+    "cooldown": "23",
+    "uses": "4",
+    "thumbnail": "heroes/Cassandra/sw.png",
+    "advancement": {
+      "1": "Verwendungsbedingungen werden auf 3-mal geändert.",
+      "2": "Bei Aktivierung werden 2000 MP aller Verbündeten regeneriert und deren Krit. Schaden wird während der Wirkungsdauer um 80 % erhöht."
+    },
+    "story": "Goldbreeze ist ein wunderschöner Fächer, der seine fatale Seite verbergen kann. Es wurde von vielen Adligen benutzt, um ihren Wunsch, Neid und Eifersucht zu lösen. Dabei tränkte Goldbreeze das Blut vieler und wurde als verfluchter Fächer gefürchtet, der seinem Besitzer Schaden zufügt.\n\nSein Schicksal nahm jedoch eine Wendung, als Cassandra den Fächer in einem Schrottladen kaufte.\nCassandra war wunderschön und verhängnisvoll wie der Fächer und sie behandelte Goldbreeze nicht als Werkzeug, um ihren Wunsch nach Präsentation oder Eitelkeit zu verwirklichen.\nCassandra benutzte den Fächer manchmal elegant, manchmal zart und manchmal kühn. Unter denen, die Cassandra mit ihrem Fächer gegenüberstanden, wurden einige zu Sklaven ihrer Schönheit, einige zu Stammkunden und einige fielen auf ihre Füße.\nSchließlich erkannte Goldbreeze Cassandras Fähigkeit und zeigte sich in seiner wirklichen Form.\nEine schöne Adlige, deren Gesicht mit einer Maske bedeckt ist ... Man könnte sich niemals vorstellen, dass es sich um die wahre Form einer tödlichen Waffe handelt, die Hunderten von Menschenleben schadet.\n\nCassandra wusste jedoch mehr als jeder andere.\nJe schöner die Rose ist, desto schärfer sind ihre Dornen."
+  },
+  "splashart": "heroes/Cassandra/sa.png",
+  "costumes": "heroes/Cassandra/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

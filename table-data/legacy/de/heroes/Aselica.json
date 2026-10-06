@@ -1,0 +1,246 @@
+{
+  "id": "Aselica",
+  "profile": {
+    "name": "Aselica",
+    "title": "Wächterin der Sonne Aselica",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "5100",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "???",
+    "height": "170",
+    "race": "Engel",
+    "constellation": "Layan, der Richter",
+    "birth": {
+      "month": 9,
+      "day": 22,
+      "monthName": "Monat der Wahrheit"
+    },
+    "like": "Angehörige; Recht und Ordnung",
+    "dislike": "Dämonen",
+    "story": "Als mächtiger Engel beschützt sie den Engelshafen. Sogar unter den Engeln, die die Macht des Lichts kontrollieren, hat sie eine besondere Verbindung zur Sonne, deren göttliches Licht sie sich im Kampf gegen die Dunkelheit zunutze macht. Sie ist mit dem Schutz der Seelen anderer Engel in Erwartung der Auferstehung betraut. Als das Heilige Schwert wieder auf der Welt erschienen war, erhörte sie den göttlichen Ruf, sich dem neuen Beschützer der Welt anzuschließen. Sie kümmert sich darum, dass kein auserwählter Krieger jemals wieder der Dunkelheit erliegen möge.",
+    "thumbnail": "heroes/Aselica/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Schwert der Sonne",
+      "cost": "2",
+      "cooldown": "9",
+      "description": "Fügt dem Ziel und Feinden in der Nähe ??? Mag. Schaden zu und betäubt sie für 5 Sek. Erhöht nach Verwendung 5 Sek. lang die eigene ANG-GESCHW. um 350.",
+      "thumbnail": "heroes/Aselica/skills/1.png"
+    },
+    "2": {
+      "name": "Segen der Sonne",
+      "cost": "2",
+      "cooldown": "20",
+      "description": "Verleiht dem Verbündeten mit dem höchsten ANG den Segen der Sonne, wodurch der Cooldown aller aktiven Skills um 20 % verringert und 15 Sek. lang der ANG um ??? + 8 % von Aselicas Körp. VERT erhöht wird. Erhöht den Schaden gegen Gegner, die keine Helden sind, um 20 %.",
+      "thumbnail": "heroes/Aselica/skills/2.png"
+    },
+    "3": {
+      "name": "Urteil der Sonne",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Bezieht Position, um die TP naher Verbündeter 8 Mal um insgesamt ??? + 12 % von Aselicas Körp. VERT zu heilen und deren Körp. VERT 10 Sek. lang um ??? zu erhöhen. Fügt außerdem Feinden in Reichweite 8-mal insgesamt ??? Mag. Schaden zu und verringert ihre Mag. VERT 10 Sek. lang um ???. Nach der Aktivierung werden die TP von Verbündeten in Reichweite um ??? + 2 % von Aselicas max. TP geheilt. Fügt außerdem Feinden ??? Mag. Schaden zu und wirft sie für 3 Sek. zu Boden.",
+      "thumbnail": "heroes/Aselica/skills/3.png"
+    },
+    "4": {
+      "name": "Fluch der Sonne",
+      "cost": null,
+      "cooldown": null,
+      "description": "Beim Angriff werden Gegner 10 Sek. lang mit dem Fluch der Sonne belegt. Sobald Gegner Fluch der Sonne 10x gestapelt haben, werden diese verbraucht und sie erleiden ??? Mag. Schaden, werden für 2 Sek. geblendet und ihr ANG wird 10 Sek. lang um 30 % verringert.\nVerleiht bei Verwendung des Skills 5 Sek. lang allen Verbündeten außer sich selbst Segen des Engels. Der erhaltene Körp. Schaden von Zielen, die unter Segen des Engels stehen, wird um 15 % verringert und ihre TP werden jede Sek. um 0.1 % von Aselicas max. TP geheilt.",
+      "thumbnail": "heroes/Aselica/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden und Heilungsrate um 10 %.",
+      "III": "Erhöht Schaden und Heilungsrate um 15 %.",
+      "IV": "Erhöht Schaden und Heilungsrate um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht 10 Sek. lang den erhaltenen Mag. Schaden des Ziels um 25 %.",
+          "thumbnail": "heroes/Aselica/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Reduziert Cooldown um 2 Sek.",
+          "thumbnail": "heroes/Aselica/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Erhöht Manakosten um 1 und verleiht den Effekt an 2 Verbündeten mit dem höchten ANG.",
+          "thumbnail": "heroes/Aselica/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Entfernt alle eigenen negativen Effekte, wird verwendet und entfernt die negativen Effekte vom Ziel.",
+          "thumbnail": "heroes/Aselica/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Aselica/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Entfernt eigene negative Effekte, ehe der Skill gewirkt wird.",
+          "thumbnail": "heroes/Aselica/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "[Segen des Engels] kann nicht entfernt werden.",
+          "thumbnail": "heroes/Aselica/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Skill wird aktiviert, wenn Fluch der Sonne 7x gestapelt wird.",
+          "thumbnail": "heroes/Aselica/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Körp. Blockchance +200",
+        "thumbnail": "heroes/Aselica/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht zu Beginn des ersten Kampfes die Körp. VERT des Verbündeten mit dem höchsten ANG um 20 % der eigenen Körp. VERT. Dieser Effekt kann nicht entfernt werden.",
+        "thumbnail": "heroes/Aselica/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Sonnen-Heiligenschein, Ignisius",
+    "description": "Wenn ein normaler ANG den Feind 5-mal trifft, erleidet das Ziel für 10 Sek. um {0} % erhöhten Mag. Schaden und wird 0.5 Sek. lang betäubt. Der erhaltene Mag. Schaden-Boost kann nicht entfernt werden.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      }
+    },
+    "thumbnail": "heroes/Aselica/uw.png",
+    "story": "Die Legende erzählt von einem geheimnisvollen Metall, golden wie die Strahlen der Sonne, blau wie der reine Himmel und weiß wie ein blendendes Licht. Dieses heilige Set aus Schwert und Schild wurde aus jenem speziellen Metall geschmiedet, das nur von Engeln gehandhabt werden kann. Diese Relikten des Schutzes wurden erschaffen, um die Dunkelheit zu bannen und die Welt mit Licht zu durchfluten. Nur der redlichste aller Wachritter der Engel darf sie führen und sie sind in der Lage, jeden Dämon, der ihres Lichts gewahr wird, zu entzünden.",
+    "descriptionByStar": {
+      "0": "Wenn ein normaler ANG den Feind 5-mal trifft, erleidet das Ziel für 10 Sek. um 20 % erhöhten Mag. Schaden und wird 0.5 Sek. lang betäubt. Der erhaltene Mag. Schaden-Boost kann nicht entfernt werden.",
+      "1": "Wenn ein normaler Angriff den Feind 5-mal trifft, erleidet das Ziel für 10 Sek. um 24 % erhöhten Mag. Schaden und wird 0,5 Sek. lang betäubt.",
+      "2": "Wenn ein normaler Angriff den Feind 5-mal trifft, erleidet das Ziel für 10 Sek. um 29 % erhöhten Mag. Schaden und wird 0,5 Sek. lang betäubt.",
+      "3": "Wenn ein normaler Angriff den Feind 5-mal trifft, erleidet das Ziel für 10 Sek. um 35 % erhöhten Mag. Schaden und wird 0,5 Sek. lang betäubt.",
+      "4": "Wenn ein normaler Angriff den Feind 5-mal trifft, erleidet das Ziel für 10 Sek. um 42 % erhöhten Mag. Schaden und wird 0,5 Sek. lang betäubt.",
+      "5": "Wenn ein normaler Angriff den Feind 5-mal trifft, erleidet das Ziel für 10 Sek. um 50 % erhöhten Mag. Schaden und wird 0,5 Sek. lang betäubt."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Licht der Morgendämmerung",
+      "description": "[Schwert der Sonne] entfernt alle positiven Effekte von Feinden in Reichweite und stellt bei einem Treffer 200 Mana wieder her.",
+      "value": {},
+      "thumbnail": "heroes/Aselica/ut/1.png",
+      "story": "Ein Fragment, das vom ewig leuchtenden Morgenstern gefallen ist.\nDer Morgenstern ist das heilige Licht, das schon seit Anbeginn der Zeit existiert. Er wacht über die Himmel und sorgt dafür, dass die heiligen Flammen der Schwerter der Engel nicht erlöschen. Der Erzengel übergab es Aselica zusammen mit dem Schwert der Sonne, bevor sie auf die Erde abgestiegen ist.",
+      "descriptionByStar": {
+        "0": "[Schwert der Sonne] entfernt alle positiven Effekte von Feinden in Reichweite und stellt bei einem Treffer 200 Mana wieder her.",
+        "1": "[Schwert der Sonne] entfernt alle positiven Effekte von Feinden in Reichweite und stellt bei einem Treffer 240 Mana wieder her.",
+        "2": "[Schwert der Sonne] entfernt alle positiven Effekte von Feinden in Reichweite und stellt bei einem Treffer 290 Mana wieder her.",
+        "3": "[Schwert der Sonne] entfernt alle positiven Effekte von Feinden in Reichweite und stellt bei einem Treffer 350 Mana wieder her.",
+        "4": "[Schwert der Sonne] entfernt alle positiven Effekte von Feinden in Reichweite und stellt bei einem Treffer 420 Mana wieder her.",
+        "5": "[Schwert der Sonne] entfernt alle positiven Effekte von Feinden in Reichweite und stellt bei einem Treffer 500 Mana wieder her."
+      }
+    },
+    "2": {
+      "name": "Armreif der Sonne",
+      "description": "[Segen der Sonne] reduziert Manakosten um 1 und verringert den Körp. Schaden des Ziels 10 Sek. lang um 10 %.",
+      "value": {},
+      "thumbnail": "heroes/Aselica/ut/2.png",
+      "story": "Armreif, der von den Erzengeln geschaffen wurde, um die Engel zu schützen, wenn sie auf die Erde herabsteigen. Er enthält die Sonne, also leuchtet er strahlend hell.\nWenn die Engel Furcht empfinden, soll das Sonnenlicht aus dem Armreif ihre Seelen schützen. \nUnd die Schicksale der Engel sind in dem Armreif miteinander verwoben, wenn sich also ein Engel in Lebensgefahr befindet, spüren die anderen instinktiv dessen Schmerz.",
+      "descriptionByStar": {
+        "0": "[Segen der Sonne] reduziert Manakosten um 1 und verringert den Körp. Schaden des Ziels 10 Sek. lang um 10 %.",
+        "1": "[Segen der Sonne] reduziert Manakosten um 1 und verringert den Körp. Schaden des Ziels 10 Sek. lang um 12 %.",
+        "2": "[Segen der Sonne] reduziert Manakosten um 1 und verringert den Körp. Schaden des Ziels 10 Sek. lang um 14 %.",
+        "3": "[Segen der Sonne] reduziert Manakosten um 1 und verringert den Körp. Schaden des Ziels 10 Sek. lang um 17 %.",
+        "4": "[Segen der Sonne] reduziert Manakosten um 1 und verringert den Körp. Schaden des Ziels 10 Sek. lang um 21 %.",
+        "5": "[Segen der Sonne] reduziert Manakosten um 1 und verringert den Körp. Schaden des Ziels 10 Sek. lang um 25 %."
+      }
+    },
+    "3": {
+      "name": "Wächtertrompete",
+      "description": "[Urteil der Sonne] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Körp. VERT-Boost und Mag. VERT-Verringerung um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Aselica/ut/3.png",
+      "story": "Die Trompete, die der Anführer der Erzengel blasen soll, wenn die Katastrophe kommt, welche die materielle Welt vernichten wird. Es heißt, dass die Wächter erwachen, wenn sie den Ton dieser Trompete hören, und herabsteigen, um dieses Land zu beschützen.",
+      "descriptionByStar": {
+        "0": "[Urteil der Sonne] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Körp. VERT-Boost und Mag. VERT-Verringerung um 20 %.",
+        "1": "[Urteil der Sonne] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Körp. VERT-Boost und Mag. VERT-Verringerung um 24 %.",
+        "2": "[Urteil der Sonne] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Körp. VERT-Boost und Mag. VERT-Verringerung um 29 %.",
+        "3": "[Urteil der Sonne] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Körp. VERT-Boost und Mag. VERT-Verringerung um 35 %.",
+        "4": "[Urteil der Sonne] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Körp. VERT-Boost und Mag. VERT-Verringerung um 42 %.",
+        "5": "[Urteil der Sonne] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Körp. VERT-Boost und Mag. VERT-Verringerung um 50 %."
+      }
+    },
+    "4": {
+      "name": "Wille des Lichts",
+      "description": "[Fluch der Sonne] erhöht die Blendungsdauer um 1 Sekunde. Bei Aktivierung erleiden Gegner für 10 Sek. 10 % mehr Mag. Schaden.",
+      "value": {},
+      "thumbnail": "heroes/Aselica/ut/4.png",
+      "story": "Ein Haarschmuck, der mit goldenen Lorbeerblättern und einer Feder des heiligen Vogels „Illaira“ verziert ist. Er leuchtet auch in absoluter Dunkelheit.\nDer Haarschmuck schützt seinen Träger vor Flüchen und verbrennt unheilvolle Energien mit seinem Licht.\nAselica hat sie bei ihrer Ernennung zu einem Schutzengel vom Erzengel erhalten.",
+      "descriptionByStar": {
+        "0": "[Fluch der Sonne] erhöht die Blendungsdauer um 1 Sekunde. Bei Aktivierung erleiden Gegner für 10 Sek. 10 % mehr Mag. Schaden.",
+        "1": "[Fluch der Sonne] erhöht die Blendungsdauer um 1 Sekunde. Bei Aktivierung erleiden Gegner für 10 Sek. 12 % mehr Mag. Schaden.",
+        "2": "[Fluch der Sonne] erhöht die Blendungsdauer um 1 Sekunde. Bei Aktivierung erleiden Gegner für 10 Sek. 14 % mehr Mag. Schaden.",
+        "3": "[Fluch der Sonne] erhöht die Blendungsdauer um 1 Sekunde. Bei Aktivierung erleiden Gegner für 10 Sek. 17 % mehr Mag. Schaden.",
+        "4": "[Fluch der Sonne] erhöht die Blendungsdauer um 1 Sekunde. Bei Aktivierung erleiden Gegner für 10 Sek. 21 % mehr Mag. Schaden.",
+        "5": "[Fluch der Sonne] erhöht die Blendungsdauer um 1 Sekunde. Bei Aktivierung erleiden Gegner für 10 Sek. 25 % mehr Mag. Schaden."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 5-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört die Seele von Sonnen-Heiligenschein, Ignisius und erhöht 10 Sek. lang den ANG aller Verbündeten um 30 % und die Körp. VERT um 60 %. Danach werden die Gegner in kurzer Reichweite 20-mal angegriffen und ihnen wird ??? Mag. Schaden zugefügt. Zusätzlich wird den getroffenen Gegnern pro Treffer einen Verurteilung von Ignisius-Stapel auferlegt. Danach wird 5 Sek. lang der erhaltene Mag. Schaden des Ziels um 2 % erhöht. Verurteilung von Ignisius kann max. 20-mal gestapelt werden.",
+    "cooldown": "20",
+    "uses": "7",
+    "thumbnail": "heroes/Aselica/sw.png",
+    "advancement": {
+      "1": "Erhöht die Wirkungsdauer um 5 Sek. und es wird ein Effekt hinzugefügt, der die Mag. VERT pro Verurteilung von Ignisius-Stapel um 2 % verringert.",
+      "2": "Ändert den Mag. Schaden-Boost auf 3 % und verringert den erhaltenen Körp. Schaden aller Verbündeten während der Wirkungsdauer um 60 %."
+    },
+    "story": "Eine Waffe, die den gerechtesten Schutzengeln des Himmels gegeben wurde.\n\nAselica erhielt diese Waffe von den Erzengeln, als sie auf die Welt herabstieg, um den Krieger des Heiligen Schwertes zu beobachten, und schwor, die Waffe nur zu benutzen, um Luas Gerechtigkeit zu beweisen.\nDie Macht der Dunkelheit wurde jedoch mit der Zeit stärker und Aselica musste gegen stärkere Feinde kämpfen.\nSie musste gegen die Dämonen, Draconics und sogar Wesen der Dunkelheit kämpfen.\nSie kämpfte mit ihrem Leben auf dem Spiel, aber es war ihr unmöglich, mit allen Feinden gleichzeitig umzugehen.\nAls schließlich  ihre Kraft und ihr Mut an ihre Grenzen stießen ...\nZu Aselicas Überraschung begann ihre Waffe zu glänzen, und nachdem sie Aselica geflüstert hatte, um Gerechtigkeit zu bringen, verlieh die Waffe ihr viel Stärke und Mut.\nDann wurde der Wille aller Wächterritter, die in der Waffe aufbewahrt wurden, eins und erwachte."
+  },
+  "splashart": "heroes/Aselica/sa.png",
+  "costumes": "heroes/Aselica/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

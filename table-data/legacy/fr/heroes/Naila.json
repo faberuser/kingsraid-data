@@ -1,0 +1,289 @@
+{
+  "id": "Naila",
+  "profile": {
+    "name": "Naila",
+    "title": "Naila, Combattante du Vent",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "2100",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "19",
+    "height": "180",
+    "race": "Harpie",
+    "constellation": "Hexipolia le Vagabond",
+    "birth": {
+      "month": 12,
+      "day": 16,
+      "monthName": "Mois de la Patience"
+    },
+    "like": "Ses congénères, ceux qui possèdent la fierté du guerrier",
+    "dislike": "Les lâches et les hypocrites",
+    "story": "Une guerrière honorable et robuste du peuple des Harpies, qui manient la puissance des vents. Sa dignité de guerrière harpie est la chose la plus importante à ses yeux. Elle s'appuie sur une volonté sans faille et son désir de remporter ses combats avec honneur. Ses talents sont exceptionnels, même parmi ses pairs. C'est un modèle exemplaire pour les jeunes guerrières harpies.",
+    "thumbnail": "heroes/Naila/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Vents déchaînés",
+      "cost": "3",
+      "cooldown": "8",
+      "description": "Naila fonce 2 fois vers l'ennemi. D'abord, passe derrière la cible, inflige ??? DEG P et la renverse pendant 3 sec. Ensuite, passe derrière l'ennemi à l'ATQ la plus élevée, inflige ??? DEG P, le renverse pendant 3 sec et augmente ses DEG P subis de 25% pendant 10 sec.",
+      "thumbnail": "heroes/Naila/skills/1.png"
+    },
+    "2": {
+      "name": "Lecture du Vent",
+      "cost": "1",
+      "cooldown": "20",
+      "description": "Dissipe ses effets négatifs et applique [Lecture du vent] à tous les alliés pendant 20 sec, augmentant leur ATQ de ??? et leur esquive physique de 250. Esquiver sous cet effet augmente les DEG crit de 5% pendant 10 sec, jusqu'à 10 cumuls.",
+      "thumbnail": "heroes/Naila/skills/2.png"
+    },
+    "3": {
+      "name": "Bombe Plongeante",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Inflige ??? DEG P aux ennemis dans un cercle autour de soi et les étourdit pendant 3 sec. Cette compétence bénéficie de 500 de pénétration de DEF.",
+      "thumbnail": "heroes/Naila/skills/3.png"
+    },
+    "4": {
+      "name": "Frappe de la Tornade",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente la pénétration de DEF de Naila de 150 et sa DEF de ???. Ses attaques normales et de compétence ignorent la réduction de dégâts de la cible. Ses attaques normales ont 15% de chances d'infliger ??? DEG P supplémentaires et d'étourdir pendant 1 sec.",
+      "thumbnail": "heroes/Naila/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente l'augmentation d'ATQ de 10%.",
+      "III": "Augmente l'augmentation d'ATQ de 15%.",
+      "IV": "Augmente l'augmentation d'ATQ de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Confère l'immunité contre les Contrôles pendant la durée de la compétence.",
+          "thumbnail": "heroes/Naila/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG P reçus par la cible touchée de 25% pendant 10 sec.",
+          "thumbnail": "heroes/Naila/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Augmente le coût en PM de 1 et dissipe les effets positifs de tous les ennemis lors de l'activation.",
+          "thumbnail": "heroes/Naila/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Augmente le nombre max cumulable des augmentations des DEG Crit de 20.",
+          "thumbnail": "heroes/Naila/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente les DEG infligés de 40%.",
+          "thumbnail": "heroes/Naila/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Réduit la récupération des PV de la cible touchée de 40% pendant 10 sec.",
+          "thumbnail": "heroes/Naila/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Augmente les DEG des attaques automatiques de 25% et réduit le temps de recharge de toutes les compétences de 2 sec.",
+          "thumbnail": "heroes/Naila/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Au début de chaque bataille, augmente sa Pénétration DEF de 400 pendant 20 sec. En cas d'activation lors de la Guerre des Guildes, immunise contre les Contrôles pendant 10 sec. L'effet d'augmentation de la Pénétration DEF ne peut être dissipé.",
+          "thumbnail": "heroes/Naila/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Crit +100",
+        "thumbnail": "heroes/Naila/perks/light.png"
+      },
+      "dark": {
+        "effect": "Lors d'un coup critique, augmente son ATQ de 3% et son Esquive P de 30, pendant 10 sec. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "thumbnail": "heroes/Naila/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Baroro, les Griffes maudites",
+    "description": "Lors d'un coup critique, augmente les DEG P reçus par la cible de {0}% et réduit sa Résistance aux Contrôles de {1}, pendant 10 sec. Si la cible est un boss, augmente de {2}% les DEG que le Héros lui inflige. L'effet d'augmentation des DEG infligés à un boss peut se cumuler jusqu'à 10 fois.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      },
+      "2": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.9",
+        "3": "3.5",
+        "4": "4.2",
+        "5": "5"
+      }
+    },
+    "thumbnail": "heroes/Naila/uw.png",
+    "story": "Une paire de gantelets maudits fabriqués à l'aide des griffes du démon fou Baroro, qui fut vaincu durant la guerre. Ces gantelets font plusieurs fois la taille de mains humaines et sont directement connectés aux nerfs de leur porteur, ce qui lui permet de les contrôler sans effort. Bien qu'ils accordent énormément de puissance, ils brisent également l'esprit du porteur, grignotant peu à peu son âme. Seul un guerrier aux nobles convictions, à la volonté forte et à l'esprit inflexible peut manier ces armes maudites. Elles sont idéales pour le guerrier à la volonté puissante dont l'éclat resplendit même au milieu des ténèbres abyssales.",
+    "descriptionByStar": {
+      "0": "Lors d'un coup critique, augmente les DEG P reçus par la cible de 20% et réduit sa Résistance aux Contrôles de 200, pendant 10 sec. Si la cible est un boss, augmente de 2% les DEG que le Héros lui inflige. L'effet d'augmentation des DEG infligés à un boss peut se cumuler jusqu'à 10 fois.",
+      "1": "Lors d'un coup critique, inflige des DEG P (180% de l'ATQ) pendant 10sec. L'ennemi reçoit des DEG P augmentés de 24% pendant la durée.",
+      "2": "Lors d'un coup critique, inflige des DEG P (216% de l'ATQ) pendant 10sec. L'ennemi reçoit des DEG P augmentés de 28% pendant la durée.",
+      "3": "Lors d'un coup critique, inflige des DEG P (258% de l'ATQ) pendant 10sec. L'ennemi reçoit des DEG P augmentés de 34% pendant la durée.",
+      "4": "Lors d'un coup critique, inflige des DEG P (310% de l'ATQ) pendant 10sec. L'ennemi reçoit des DEG P augmentés de 41% pendant la durée.",
+      "5": "Lors d'un coup critique, inflige des DEG P (500% de l'ATQ) pendant 10sec. L'ennemi reçoit des DEG P augmentés de 50% pendant la durée."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Âme de la rafale",
+      "description": "[Vents violents] Augmente les dégâts de 50%. Un coup critique réduit le mana de {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
+      "thumbnail": "heroes/Naila/ut/1.png",
+      "story": "Ce morceau d'ambre, considéré par les harpies comme un véritable trésor, renferme une tornade géante.\nD'après la légende, dans un accès de rage, la créature céleste Tyrfas laissa échapper une rafale qui frappa la sève du saint arbre. Une fois solidifiée, elle devint de l'ambre. Les années ont passé, l'ambre s'est fragmenté, mais la rafale qu'il contient n'a jamais faibli. Les harpies considèrent ce morceau comme sacré et l'appellent l'âme de la rafale.",
+      "descriptionByStar": {
+        "0": "[Vents violents] Augmente les dégâts de 50%. Un coup critique réduit le mana de 200.",
+        "1": "[Vents déchaînés] Augmente les DEG de 50 % et réduit l'Esquive P de la cible de 240 points pendant 10 sec.",
+        "2": "[Vents déchaînés] Augmente les DEG de 50 % et réduit l'Esquive P de la cible de 290 points pendant 10 sec.",
+        "3": "[Vents déchaînés] Augmente les DEG de 50 % et réduit l'Esquive P de la cible de 350 points pendant 10 sec.",
+        "4": "[Vents déchaînés] Augmente les DEG de 50 % et réduit l'Esquive P de la cible de 420 points pendant 10 sec.",
+        "5": "[Vents déchaînés] Augmente les DEG de 50 % et réduit l'Esquive P de la cible de 500 points pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Écharpe d’Himmullis",
+      "description": "[Lecture du Vent] Modifie les effets pour qu'ils ne puissent plus être dissipés, et récupère {0}% de ses PV max lors de l'activation de la compétence.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Naila/ut/2.png",
+      "story": "Écharpe portée par les défunts Himmullis. Naila porte toujours la sienne.\nLes Himmullis rabâchent sans cesse à Naila qu’elle doit être fière d’être une Harpie. \nCette écharpe renferme la tristesse liée à la perte de sa famille, ce qui rend Naila furieuse.",
+      "descriptionByStar": {
+        "0": "[Lecture du Vent] Modifie les effets pour qu'ils ne puissent plus être dissipés, et récupère 10% de ses PV max lors de l'activation de la compétence.",
+        "1": "[Lecture du Vent] Augmente le boost d'ATQ de 50 % et l'Esquive M de 120.",
+        "2": "[Lecture du Vent] Augmente le boost d'ATQ de 50 % et l'Esquive M de 140.",
+        "3": "[Lecture du Vent] Augmente le boost d'ATQ de 50 % et l'Esquive M de 170.",
+        "4": "[Lecture du Vent] Augmente le boost d'ATQ de 50 % et l'Esquive M de 210.",
+        "5": "[Lecture du Vent] Augmente le boost d'ATQ de 50 % et l'Esquive M de 250."
+      }
+    },
+    "3": {
+      "name": "Fierté du vent",
+      "description": "[Bombe Plongeante] Réduit le coût en PM de 1 et augmente les DEG infligés de {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Naila/ut/3.png",
+      "story": "Une offrande rituelle d’un ancien peuple religieux qui vénérait le vent. C’est un précieux trésor pour les harpies et on dit qu’il était offert à la guerrière harpie la plus puissante. Celui qui porte ce masque peut utiliser le vent à sa guise et attaquer à la vitesse de la lumière.",
+      "descriptionByStar": {
+        "0": "[Bombe Plongeante] Réduit le coût en PM de 1 et augmente les DEG infligés de 20%.",
+        "1": "[Bombe Plongeante] Le Temps de Recharger est réduit de 30% et la cible reçoit 12% de DEG P supplémentaires pendant 10 sec.",
+        "2": "[Bombe Plongeante] Le Temps de Recharger est réduit de 30% et la cible reçoit 14% de DEG P supplémentaires pendant 10 sec.",
+        "3": "[Bombe Plongeante] Le Temps de Recharger est réduit de 30% et la cible reçoit 17% de DEG P supplémentaires pendant 10 sec.",
+        "4": "[Bombe Plongeante] Le Temps de Recharger est réduit de 30% et la cible reçoit 21% de DEG P supplémentaires pendant 10 sec.",
+        "5": "[Bombe Plongeante] Le Temps de Recharger est réduit de 30% et la cible reçoit 25% de DEG P supplémentaires pendant 10 sec."
+      }
+    },
+    "4": {
+      "name": "Ruban vert",
+      "description": "[Frappe tornade] Augmente la probabilité de dégâts supplémentaires de 10%. En guerre de guilde, son activation inflige des DEG P supplémentaires égaux à {0}% des PV max de la cible.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Naila/ut/4.png",
+      "story": "Un ruban qui détient la grâce d'un élémental de vent.\nSelene donna ce ruban vert à Naila, qui voulait être aussi rapide que le vent.\nIl contient un sort de Notos, l'élémental de vent, et confère à son porteur une force et une vélocité incroyables face à ses ennemis.",
+      "descriptionByStar": {
+        "0": "[Frappe tornade] Augmente la probabilité de dégâts supplémentaires de 10%. En guerre de guilde, son activation inflige des DEG P supplémentaires égaux à 10% des PV max de la cible.",
+        "1": "[Frappe de la Tornade] Réduit le Blocage P de la cible de 500 points et son Esquive P de 240 pendant 10 sec.",
+        "2": "[Frappe de la Tornade] Réduit le Blocage P de la cible de 500 points et son Esquive P de 290 pendant 10 sec.",
+        "3": "[Frappe de la Tornade] Réduit le Blocage P de la cible de 500 points et son Esquive P de 350 pendant 10 sec.",
+        "4": "[Frappe de la Tornade] Réduit le Blocage P de la cible de 500 points et son Esquive P de 420 pendant 10 sec.",
+        "5": "[Frappe de la Tornade] Réduit le Blocage P de la cible de 500 points et son Esquive P de 500 pendant 10 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 5 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Baroro, les Griffes maudites, ce qui augmente le taux d'ATQ du Héros de 40% pendant 10 sec. Pendant la durée de l'invocation, inflige aux ennemis situés en face et à portée ??? DEG P toutes les 3 sec et applique Malédiction de Baroro à la cible touchée pendant 5 sec. Malédiction de Baroro augmente les DEG P reçus de 30%, et réduit la récupération de PV de 30%. Si la cible est un boss, augmente l'effet de la malédiction de 1.5 fois.",
+    "cooldown": "23",
+    "uses": "6",
+    "thumbnail": "heroes/Naila/sw.png",
+    "advancement": {
+      "1": "Pétrifie l'ennemi touché pendant 3 sec.",
+      "2": "Modifie la condition d'activation à 4 fois et et augmente la durée de l'invocation de l'âme de 3 sec."
+    },
+    "story": "Le démon fou Baroro était un être vil et misérable.\nDurant la guerre des démons, bien qu'il ait perdu dans un duel effectué dans les règles, il ne voulut jamais admettre sa défaite. Et afin de réaliser son obsession malpropre, son âme s'installa dans les gantelets fabriqués avec ses griffes.\nDepuis, Baroro se repaissait des âmes et des esprits de ceux qui utilisaient ces gantelets. De plus, il les utilisait comme ses marionnettes afin de détruire des vies innocentes et s'en prenait à leurs âmes, ainsi qu'à leurs sangs. Mais la nouvelle utilisatrice était bien différente des hôtes qu'il avait manipulés jusque-là.\nBien qu'elle ne soit qu'une simple femme de la race des harpies, non seulement elle résista à ses attaques mentales, mais aussi, elle mania librement les gantelets qui contenaient l'âme diabolique.\nDe plus, sa conviction sublime et l'éclatante lumière de sa volonté finirent par dominer Baroro, cette âme infâme. Baroro se plia face à cette personne inébranlable, et commença à agir en tant que le mal avaleur de ténèbres, afin d'aider sa propriétaire à terrasser ses ennemis."
+  },
+  "splashart": "heroes/Naila/sa.png",
+  "costumes": "heroes/Naila/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

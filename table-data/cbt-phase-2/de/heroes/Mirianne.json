@@ -1,0 +1,280 @@
+{
+  "id": "Mirianne",
+  "profile": {
+    "name": "Mirianne",
+    "title": "Zofe der Blauen Mirianne",
+    "class": "Assassin",
+    "position": "Middle-500",
+    "attack_range": "6500",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "12 (Körperliches Alter: 18)",
+    "height": "162",
+    "race": "Halbelfen",
+    "constellation": "Asiphia, die Herrscherin",
+    "birth": {
+      "month": 10,
+      "day": 5,
+      "monthName": "Monat der Freundschaft"
+    },
+    "like": "Sonia und alle anderen im Waisenhaus",
+    "dislike": "Insekten mit vielen Beinen",
+    "story": "Sie ist Sonias Magd und enge Freundin aus dem Waisenhaus. Als ihr Dorf, in dem Menschen und Elfen lebten, von den Dämonen angegriffen wurde, konnte sie als einzige überleben. Ricardo fand sie und nahm sie mit in sein Waisenhaus. Aus unbekannten Gründen begann sie im Alter von sechs Jahren plötzlich explosionsartig zu wachsen. Nun gleicht ihr Körper jenem einer 18-jährigen, doch ihr Verstand ist immer noch der eines Kindes. Sie ist rein und übertrieben fromm. Diese Eigenschaften hängen möglicherweise mit dem Verlust ihrer Kindheitserinnerungen zusammen.",
+    "thumbnail": "heroes/Mirianne/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Zielerfassung",
+      "cost": "2",
+      "cooldown": "6",
+      "description": "Greift den Gegner mit der niedrigsten Magie-VERT 3-mal an, verursacht 182*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 114.8% of ATK Magieschaden und betäubt ihn für 0.6 Sek. Steht das Ziel unter [Zielerfassung], werden 303*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 68.9% of ATK zusätzliche Magieschaden verursacht. Der letzte Treffer wendet [Zielerfassung] für 10 Sek. an.",
+      "thumbnail": "heroes/Mirianne/skills/1.png"
+    },
+    "2": {
+      "name": "Bändigen und Beschützen",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Fügt Gegnern in Reichweite 569*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 357.2% of ATK Magieschaden zu und betäubt sie für 1.2 Sek. Bewegt sich anschließend zum Verbündeten mit dem höchsten verursachten Schaden und erzeugt auf dem Ziel und sich selbst einen [Schild], der für 6 Sek. 2782*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 451.6% of ATK Schaden absorbiert und den Statuswiderstand um 60% erhöht. Dieser Effekt wird ohne Verbündete nicht aktiviert.",
+      "thumbnail": "heroes/Mirianne/skills/2.png"
+    },
+    "3": {
+      "name": "Auslöschung",
+      "cost": "4",
+      "cooldown": "14",
+      "description": "Bewegt sich zum Gegner mit den niedrigsten aktuellen LP, verursacht 909*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 570.3% of ATK Magieschaden und kehrt dann zum am weitesten entfernten Verbündeten zurück. Ist das Ziel kein Held, erleidet es 1363*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 855.4% of ATK zusätzlichen Magieschaden. Stirbt es durch diese Fertigkeit oder ist es ein Boss, wird [Bändigen und Beschützen] eingesetzt.",
+      "thumbnail": "heroes/Mirianne/skills/3.png"
+    },
+    "4": {
+      "name": "Ziel ausgelöscht",
+      "cost": null,
+      "cooldown": null,
+      "description": "Existiert ein Gegner unter [Zielerfassung], steigt der ANG um 245*(0.7+(0.3*Skill Level*Awakening Coefficient)) und alle Fertigkeiten bevorzugen solche Gegner. Stirbt ein erfasster Gegner, erhält ein anderer Gegner mit der niedrigsten Magie-VERT [Zielerfassung] für 10 Sek. [Zielerfassung]: Erhöht erlittenen Magieschaden um 20%. Dieser Effekt kann nicht entfernt werden.",
+      "thumbnail": "heroes/Mirianne/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "2": {
+      "II": "Erhöht Schaden und Schild-TP um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden und Schild-TP um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden und Schild-TP um [64ff64]25[-] %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "4": {
+      "II": "Erhöht ANG-Boost um [64ff64]10[-] %.",
+      "III": "Erhöht ANG-Boost um [64ff64]15[-] %.",
+      "IV": "Erhöht ANG-Boost um [64ff64]25[-] %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Ist nur noch 1 Feind auf dem Schlachtfeld, wird der Schaden um 100 % erhöht.",
+          "thumbnail": "heroes/Mirianne/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Erhöht Betäubungsdauer um 1 Sek.",
+          "thumbnail": "heroes/Mirianne/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Massenkontroll-Immunität für die Dauer des Skills.",
+          "thumbnail": "heroes/Mirianne/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht Betäubungsdauer um 2 Sek.",
+          "thumbnail": "heroes/Mirianne/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Entfernt alle positiven Effekte des Ziels und betäubt es für 1 Sek.",
+          "thumbnail": "heroes/Mirianne/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Erhöht Schaden um {1} %.",
+          "thumbnail": "heroes/Mirianne/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Wenn sich Gegner in 'Zielerfassung' befinden, ist die Krit. Chance um 300 erhöht.",
+          "thumbnail": "heroes/Mirianne/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Reduziert bei Vorhandensein eines Gegners unter [Zielerfassung] den erlittenen Schaden um {2}%.",
+          "thumbnail": "heroes/Mirianne/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Schaden +20 %",
+        "thumbnail": "heroes/Mirianne/perks/light.png"
+      },
+      "dark": {
+        "effect": "Reduziert beim Töten eines Gegners alle Skill-Cooldowns um 50 % und gibt 1 Mana-Kugel zurück.",
+        "thumbnail": "heroes/Mirianne/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Endlose Beschleunigung, Riventina",
+    "description": "Verursacht beim Angriff auf einen Gegner unter [Zielerfassung] zusätzlichen Magieschaden in Höhe von {0}% des ANG und erhöht das Angriffstempo um 1%. Die Angriffstempo-Erhöhung ist bis zu {1}-mal stapelbar. Dieser Effekt kann nur alle 1 Sek. ausgelöst werden.",
+    "thumbnail": "heroes/Mirianne/uw.png",
+    "story": "Ein magischer Ausrüstungsgegenstand, der von Sonia, der Erzmagierin von Blau erschaffen wurde. Er ist mit Magie verzaubert, die es ihm erlaubt, enorme Geschwindigkeiten zu erreichen. Außerdem ist er mit einem speziellen Zauber ausgestattet, der ihn nach dem Wurf stets in die Hände seines Besitzers zurückkehren lässt. Sonia hätte Mirianne, die wie eine Schwester für sie ist, nicht besser beschenken können. Mit anderen Worten handelt es sich dabei um eine Liebesbekundung, die nur Mirianne gilt.",
+    "value": {
+      "0": {
+        "0": "125",
+        "1": "150",
+        "2": "175",
+        "3": "200",
+        "4": "225",
+        "5": "250"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "28",
+        "3": "32",
+        "4": "36",
+        "5": "40"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Verursacht beim Angriff auf einen Gegner unter [Zielerfassung] zusätzlichen Magieschaden in Höhe von 125% des ANG und erhöht das Angriffstempo um 1%. Die Angriffstempo-Erhöhung ist bis zu 20-mal stapelbar. Dieser Effekt kann nur alle 1 Sek. ausgelöst werden.",
+      "1": "Verursacht beim Angriff auf einen Gegner unter [Zielerfassung] zusätzlichen Magieschaden in Höhe von 150% des ANG und erhöht das Angriffstempo um 1%. Die Angriffstempo-Erhöhung ist bis zu 24-mal stapelbar. Dieser Effekt kann nur alle 1 Sek. ausgelöst werden.",
+      "2": "Verursacht beim Angriff auf einen Gegner unter [Zielerfassung] zusätzlichen Magieschaden in Höhe von 175% des ANG und erhöht das Angriffstempo um 1%. Die Angriffstempo-Erhöhung ist bis zu 28-mal stapelbar. Dieser Effekt kann nur alle 1 Sek. ausgelöst werden.",
+      "3": "Verursacht beim Angriff auf einen Gegner unter [Zielerfassung] zusätzlichen Magieschaden in Höhe von 200% des ANG und erhöht das Angriffstempo um 1%. Die Angriffstempo-Erhöhung ist bis zu 32-mal stapelbar. Dieser Effekt kann nur alle 1 Sek. ausgelöst werden.",
+      "4": "Verursacht beim Angriff auf einen Gegner unter [Zielerfassung] zusätzlichen Magieschaden in Höhe von 225% des ANG und erhöht das Angriffstempo um 1%. Die Angriffstempo-Erhöhung ist bis zu 36-mal stapelbar. Dieser Effekt kann nur alle 1 Sek. ausgelöst werden.",
+      "5": "Verursacht beim Angriff auf einen Gegner unter [Zielerfassung] zusätzlichen Magieschaden in Höhe von 250% des ANG und erhöht das Angriffstempo um 1%. Die Angriffstempo-Erhöhung ist bis zu 40-mal stapelbar. Dieser Effekt kann nur alle 1 Sek. ausgelöst werden."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Anstrengungszeugnis",
+      "description": "[Zielerfassung] erhöht den Schaden um {0}% und reduziert den Magie-Krit.-Widerstand des Ziels für 10 Sek. um 160.",
+      "thumbnail": "heroes/Mirianne/ut/1.png",
+      "story": "Ein Wurfdolch, der von Ricardo hergestellt wurde. Mirianne hat ihn zu Übungszwecken verwendet.\nMirianne war die einzige Überlebende eines Dorfes, in dem Elfen und Menschen zusammenlebten. Als Ricardo sie zu einem Waisenhaus brachte, befürchtete er, dass sie ihr Herz verschließen würde, sobald sie herausfindet, dass sie sich von den anderen Stadtbewohnern unterscheidet. Sonia, die Orvelia besuchte, teilte seine Sorge. Er bat Sonia, sich um das kleine Mädchen zu kümmern, und schenkte ihr diesen Übungsdolch, um sich auf ihre Reise vorzubereiten.",
+      "value": {
+        "0": {
+          "0": "25",
+          "1": "30",
+          "2": "35",
+          "3": "40",
+          "4": "45",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Zielerfassung] erhöht den Schaden um 25% und reduziert den Magie-Krit.-Widerstand des Ziels für 10 Sek. um 160.",
+        "1": "[Zielerfassung] erhöht den Schaden um 30% und reduziert den Magie-Krit.-Widerstand des Ziels für 10 Sek. um 160.",
+        "2": "[Zielerfassung] erhöht den Schaden um 35% und reduziert den Magie-Krit.-Widerstand des Ziels für 10 Sek. um 160.",
+        "3": "[Zielerfassung] erhöht den Schaden um 40% und reduziert den Magie-Krit.-Widerstand des Ziels für 10 Sek. um 160.",
+        "4": "[Zielerfassung] erhöht den Schaden um 45% und reduziert den Magie-Krit.-Widerstand des Ziels für 10 Sek. um 160.",
+        "5": "[Zielerfassung] erhöht den Schaden um 50% und reduziert den Magie-Krit.-Widerstand des Ziels für 10 Sek. um 160."
+      }
+    },
+    "2": {
+      "name": "Zwillingsring der sofortigen Teleportation",
+      "description": "[Bändigen und Beschützen] Senkt die Manakosten um 1000 und stellt bei einem kritischen Treffer {0} Mana wieder her.",
+      "thumbnail": "heroes/Mirianne/ut/2.png",
+      "story": "Ring, den Mirianne im „Sehr Unglaublichen Magischen Spielzeugladen“ in Orvel kaufte. Sie gravierte ihren und Sonias Namen in den Ring. Die beiden bilden ein Paar, das es ihnen erlaubt, sich einmal am Tag zum jeweils anderen zu teleportieren. Sonia benutzt ihn jedoch nicht, da dies recht beschwerlich ist ...\nDer Ring mag zwar nur ein Spielzeug sein, aber Mirianne ist froh, dass es noch eine Möglichkeit gibt, Sonia zu beschützen.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "280",
+          "3": "320",
+          "4": "360",
+          "5": "400"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Bändigen und Beschützen] Senkt die Manakosten um 1000 und stellt bei einem kritischen Treffer 200 Mana wieder her.",
+        "1": "[Bändigen und Beschützen] Senkt die Manakosten um 1000 und stellt bei einem kritischen Treffer 240 Mana wieder her.",
+        "2": "[Bändigen und Beschützen] Senkt die Manakosten um 1000 und stellt bei einem kritischen Treffer 280 Mana wieder her.",
+        "3": "[Bändigen und Beschützen] Senkt die Manakosten um 1000 und stellt bei einem kritischen Treffer 320 Mana wieder her.",
+        "4": "[Bändigen und Beschützen] Senkt die Manakosten um 1000 und stellt bei einem kritischen Treffer 360 Mana wieder her.",
+        "5": "[Bändigen und Beschützen] Senkt die Manakosten um 1000 und stellt bei einem kritischen Treffer 400 Mana wieder her."
+      }
+    },
+    "3": {
+      "name": "Magisches Blitzpulver",
+      "description": "[Auslöschung] Erhöht den Schaden um 50 % und erhöht bei einem kritischen Treffer den eigenen ANG für 14 Sek. um {0} %.",
+      "thumbnail": "heroes/Mirianne/ut/3.png",
+      "story": "Eine Sammlung wunderschönen Materials, das im Innern von Sonias Kristallkugel wie Sterne verstreut ist. Mirianne sammelte das Pulver, um einen Streich zu spielen, aber es ist so mächtig, dass es als Mordwerkzeug genutzt wird.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "16",
+          "4": "18",
+          "5": "20"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Auslöschung] Erhöht den Schaden um 50 % und erhöht bei einem kritischen Treffer den eigenen ANG für 14 Sek. um 10 %.",
+        "1": "[Auslöschung] Erhöht den Schaden um 50 % und erhöht bei einem kritischen Treffer den eigenen ANG für 14 Sek. um 12 %.",
+        "2": "[Auslöschung] Erhöht den Schaden um 50 % und erhöht bei einem kritischen Treffer den eigenen ANG für 14 Sek. um 14 %.",
+        "3": "[Auslöschung] Erhöht den Schaden um 50 % und erhöht bei einem kritischen Treffer den eigenen ANG für 14 Sek. um 16 %.",
+        "4": "[Auslöschung] Erhöht den Schaden um 50 % und erhöht bei einem kritischen Treffer den eigenen ANG für 14 Sek. um 18 %.",
+        "5": "[Auslöschung] Erhöht den Schaden um 50 % und erhöht bei einem kritischen Treffer den eigenen ANG für 14 Sek. um 20 %."
+      }
+    },
+    "4": {
+      "name": "Geburt eines Wunders",
+      "description": "[Ziel ausgelöscht] verstärkt die ANG-Erhöhung um 50% und betäubt Gegner unter [Zielerfassung] alle 5 Sek. für {0} Sek.",
+      "thumbnail": "heroes/Mirianne/ut/4.png",
+      "story": "Eine Blätterhalskette, die Miriannes Mutter zur Feier ihrer Geburt angefertigt hat.\nIhre Mutter hoffte, dass ihre Tochter in Ella unbeschadet aufwachsen würde, und verzierte den hölzernen Anhänger mit einem elfischen Glücksjuwel.\nDas Schicksal hatte jedoch andere Pläne und Ella wurde von dämonischen Kreaturen angegriffen. Miriannes Mutter starb, übertrug dabei jedoch ihre Liebe in die Halskette.\nDie Halskette beschützte Mirianne, bis sie von Ricardo gefunden wurde, und zerfiel danach zu Staub.\nRicardo hatte Mitleid mit Mirianne, weil sie die Einzige war, die den Angriff auf Ella überlebte.\nEin paar Jahre später bat er Loman, eine ähnliche Halskette anzufertigen, und gab sie Mirianne.",
+      "value": {
+        "0": {
+          "0": "0.75",
+          "1": "0.9",
+          "2": "1.05",
+          "3": "1.2",
+          "4": "1.35",
+          "5": "1.5"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Ziel ausgelöscht] verstärkt die ANG-Erhöhung um 50% und betäubt Gegner unter [Zielerfassung] alle 5 Sek. für 0.75 Sek.",
+        "1": "[Ziel ausgelöscht] verstärkt die ANG-Erhöhung um 50% und betäubt Gegner unter [Zielerfassung] alle 5 Sek. für 0.9 Sek.",
+        "2": "[Ziel ausgelöscht] verstärkt die ANG-Erhöhung um 50% und betäubt Gegner unter [Zielerfassung] alle 5 Sek. für 1.05 Sek.",
+        "3": "[Ziel ausgelöscht] verstärkt die ANG-Erhöhung um 50% und betäubt Gegner unter [Zielerfassung] alle 5 Sek. für 1.2 Sek.",
+        "4": "[Ziel ausgelöscht] verstärkt die ANG-Erhöhung um 50% und betäubt Gegner unter [Zielerfassung] alle 5 Sek. für 1.35 Sek.",
+        "5": "[Ziel ausgelöscht] verstärkt die ANG-Erhöhung um 50% und betäubt Gegner unter [Zielerfassung] alle 5 Sek. für 1.5 Sek."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill [64ff64]5[-]-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Platziert [Endlose Beschleunigung, Riventina] für 10 Sek. auf dem Boden, greift den Gegner mit der niedrigsten Magie-VERT an, verursacht Magieschaden in Höhe von 400% des ANG und wendet [Zielerfassung] an. [Endlose Beschleunigung]: Greift alle 3 Sek. einen Gegner an, verursacht Magieschaden in Höhe von 400% des ANG und betäubt ihn für 1.2 Sek. Bevorzugt Gegner unter [Zielerfassung].",
+    "cooldown": "23",
+    "uses": "6",
+    "thumbnail": "heroes/Mirianne/sw.png",
+    "advancement": {
+      "1": "Erhöht während der Wirkungsdauer Miriannes Krit. Schaden um 72%.",
+      "2": "Erhöht während der Wirkungsdauer den Schaden von [Auslöschung] um 50%."
+    },
+    "story": "Die Zauberwaffe Riventina, die Sonia für Mirianne gemacht hat.\nAls sie Riventina die Macht des Donners gab,\nist auch das Vaikal, das in ihr steckt, auf die neue Waffe übertragen worden.\n\nNach und nach erlebte, lernte und fühlte Mirianne eine Menge Dinge,\nund das Donnerfragment in ihrem Dolch ist mit ihr gewachsen.\nMit ihrer Emotionen, Erfahrungen und ihrem Leben veränderte sich das Erscheinungsbild.\n\nWenn sie reiste, um sich an ihre verlorenen Erinnerungen zu erinnern,\nwenn sie einen Albtraum hatte und nicht mehr schlafen konnte,\nwenn sie ihre Tränen mit einem Lächeln verbarg.\nDas Donnerfragment beobachtete sie und war bei ihr.\nSie wartet auf den Tag, an dem sie mächtiger wird und sie beschützen kann ..."
+  },
+  "splashart": "heroes/Mirianne/sa.png",
+  "costumes": "heroes/Mirianne/cos",
+  "_localization": {
+    "locale": "de",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

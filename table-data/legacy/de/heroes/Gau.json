@@ -1,0 +1,272 @@
+{
+  "id": "Gau",
+  "profile": {
+    "name": "Gau",
+    "title": "Barbar der Frostländer Gau",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "500",
+    "damage_type": "Physical",
+    "gender": "Männlich",
+    "age": "33",
+    "height": "231",
+    "race": "Barbaren",
+    "constellation": "Layan, der Richter",
+    "birth": {
+      "month": 9,
+      "day": 23,
+      "monthName": "Monat der Wahrheit"
+    },
+    "like": "Kinder; Tiere",
+    "dislike": "Zerstörerische und gewalttätige Leute",
+    "story": "Gau ist ein mächtiger Krieger aus dem Barbaren-Königreich. Wo immer er seine beiden Äxte schwang, folgte ein Blutbad. Er war als Krieger für seine unvergleichliche Grausamkeit bekannt. Doch urplötzlich war er für zehn Jahre verschollen. Als er zurückkehrte, war er ein anderer Mann geworden. Seine brutale Barbarenart war verschwunden, sogar, wenn andere Kritik an ihm übten. Nun begegnet er ihnen mit einem Lächeln oder heiterem Gelächter. Sein warmer, gütiger Blick, den er heute für Kinder und Tiere übrighat, ist besonders verwunderlich.",
+    "thumbnail": "heroes/Gau/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Zerschmettern",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Greift Gegner in Reichweite 2-mal an und verursacht ??? physischen Schaden. Der erste Treffer wirft sie für 3 Sek. nieder und senkt ihre VTD-Durchdringung für 10 Sek. um 250.",
+      "thumbnail": "heroes/Gau/skills/1.png"
+    },
+    "2": {
+      "name": "Kriegsschrei",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Entfernt negative Effekte von allen Verbündeten und erhöht für 15 Sek. ihren ANG um ???, ihr Angriffstempo um 300 und ihre physische VTD um ???.",
+      "thumbnail": "heroes/Gau/skills/2.png"
+    },
+    "3": {
+      "name": "Wirbel",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Stürmt vorwärts, greift Gegner im Kreis um sich 12-mal an, verursacht ??? physischen Schaden und zieht sie während des Wirkens heran. Während der Fähigkeit besteht Immunität gegen Kontrolleffekte; der letzte Treffer friert die Gegner für 4 Sek. ein.",
+      "thumbnail": "heroes/Gau/skills/3.png"
+    },
+    "4": {
+      "name": "Zorn",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht jede Sekunde den eigenen ANG um ???, den Kontrollwiderstand um 30 und den Schaden gegen Nichthelden um 1.5%. Bis zu 20-mal stapelbar. Ab 20 Stapeln steigt der Schaden normaler Angriffe um 100%.",
+      "thumbnail": "heroes/Gau/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht ANG- und VERT-Boost um 10 %.",
+      "III": "Erhöht ANG- und VERT-Boost um 15 %.",
+      "IV": "Erhöht ANG- und VERT-Boost um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Gau/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Jede Nutzung erhöht Schaden um 15 %. Kann bis zu 10-mal gestapelt werden.",
+          "thumbnail": "heroes/Gau/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Alle Effekte können nicht entfernt werden.",
+          "thumbnail": "heroes/Gau/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "ANG-GESCHW. Boost von 200 wird zum Effekt hinzugefügt.",
+          "thumbnail": "heroes/Gau/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Reduziert Cooldown um 3 Sek.",
+          "thumbnail": "heroes/Gau/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Immun gegenüber allen Schadensarten während der Wirkungsdauer.",
+          "thumbnail": "heroes/Gau/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Alle Effekte können nicht entfernt werden.",
+          "thumbnail": "heroes/Gau/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Pro Stapel verringert sich die eigene VERT um 3 % und der Schaden an Feinden, die keine Helden sind, wird auf 2.5 % geändert.",
+          "thumbnail": "heroes/Gau/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Körp. Blockchance +200",
+        "thumbnail": "heroes/Gau/perks/light.png"
+      },
+      "dark": {
+        "effect": "Heilt die TP jede Sek. um 10 % der ANG. Für jedes 1 % verlorener TP reduziert den erlittenen Schaden um 0,6 %.",
+        "thumbnail": "heroes/Gau/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Heiliger Vogel, Numinu",
+    "description": "Deine max. TP steigen um {0} % und bei einem Normal-ANG wird mit 15 % Chance {1} % des Angriffs als zusätzlichen Körp. Schaden verursacht und für 2 Sek. eingefroren.",
+    "value": {
+      "0": {
+        "0": "12",
+        "1": "14",
+        "2": "17",
+        "3": "21",
+        "4": "25",
+        "5": "30"
+      },
+      "1": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      }
+    },
+    "thumbnail": "heroes/Gau/uw.png",
+    "story": "Es heißt, dass im Windland-Schneegebirge eine heilige Bestie lebt, die die Barbaren beschützt. Diese Bestie, angeblich ein Blauphönix aus Eis, vermag die Macht der Dunkelheit zu verbannen. Numinu, was so viel bedeutet wie „heilig“ wurde der Form dieser Bestie nachempfunden. Sie wurde aus verwunschenem Eis gefertigt, das niemals schmilzt. Die Waffe, die von den Barbaren als Relikt angesehen wird, wird ihrem mächtigsten Krieger verliehen. Jener, der diese Waffe führt, ist der stärkste Krieger unter den Barbaren und kann als deren König eingestuft werden.",
+    "descriptionByStar": {
+      "0": "Deine max. TP steigen um 12 % und bei einem Normal-ANG wird mit 15 % Chance 200 % des Angriffs als zusätzlichen Körp. Schaden verursacht und für 2 Sek. eingefroren.",
+      "1": "Erhöht ANG um 1 % und ANG-GESCHW. um 10, immer wenn die TP um 1 % verringert werden.",
+      "2": "Erhöht ANG um 1,2 % und ANG-GESCHW. um 12, immer wenn die TP um 1 % verringert werden.",
+      "3": "Erhöht ANG um 1,4 % und ANG-GESCHW. um 14, immer wenn die TP um 1 % verringert werden.",
+      "4": "Erhöht ANG um 1,7 % und ANG-GESCHW. um 17, immer wenn die TP um 1 % verringert werden.",
+      "5": "Erhöht ANG um 2 % und ANG-GESCHW. um 20, immer wenn die TP um 1 % verringert werden."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Helm des Frostkönigs",
+      "description": "[Zerschmettern] Senkt den ANG des Ziels um 20% und erhöht seinen erlittenen physischen Schaden für 10 Sek. um 10%.",
+      "value": {},
+      "thumbnail": "heroes/Gau/ut/1.png",
+      "story": "Der abgetragene Helm des Königs der Frostriesen.\nZuletzt trug ihn der König der Frostriesen, der von der Dunkelheit beherrscht wurde. Gau bewahrt diesen beschädigten Helm im Gedenken an den gefallenen Helden auf. Außerdem solle er als Mahnmal der Tragödie vom Windland-Schneegebirge dienen.",
+      "descriptionByStar": {
+        "0": "[Zerschmettern] Senkt den ANG des Ziels um 20% und erhöht seinen erlittenen physischen Schaden für 10 Sek. um 10%.",
+        "1": "[Zerschmettern] Senkt den ANG des Ziels um 20% und erhöht seinen erlittenen physischen Schaden für 10 Sek. um 12%.",
+        "2": "[Zerschmettern] Senkt den ANG des Ziels um 20% und erhöht seinen erlittenen physischen Schaden für 10 Sek. um 14%.",
+        "3": "[Zerschmettern] Senkt den ANG des Ziels um 20% und erhöht seinen erlittenen physischen Schaden für 10 Sek. um 17%.",
+        "4": "[Zerschmettern] Senkt den ANG des Ziels um 20% und erhöht seinen erlittenen physischen Schaden für 10 Sek. um 21%.",
+        "5": "[Zerschmettern] Senkt den ANG des Ziels um 20% und erhöht seinen erlittenen physischen Schaden für 10 Sek. um 25%."
+      }
+    },
+    "2": {
+      "name": "Horn des Kämpfers",
+      "description": "[Kriegsschrei] verringert die Manakosten um 1 und erhöht während der Wirkungsdauer den Krit. Schaden des Ziels um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Gau/ut/2.png",
+      "story": "Trompete, die aus dem Horn von Orox, der Wächterbestie des Windland-Schneegebirges geschaffen wurde.\nOrox aus dem Schneegebirge verleiht edlen Kriegern große Kräfte und die Fähigkeit, die Wahrheit zu sehen. \nWenn ein Krieger, der Orox’ Segen erhalten hat, dieses Horn bläst, verbessert dies die Moral von Gefährten und macht ihren Verstand wieder klar.",
+      "descriptionByStar": {
+        "0": "[Kriegsschrei] verringert die Manakosten um 1 und erhöht während der Wirkungsdauer den Krit. Schaden des Ziels um 20 %.",
+        "1": "[Kriegsschrei] verringert die Manakosten um 1 und erhöht den ANG-Boost um 24 %.",
+        "2": "[Kriegsschrei] verringert die Manakosten um 1 und erhöht den ANG-Boost um 29 %.",
+        "3": "[Kriegsschrei] verringert die Manakosten um 1 und erhöht den ANG-Boost um 35 %.",
+        "4": "[Kriegsschrei] verringert die Manakosten um 1 und erhöht den ANG-Boost um 42 %.",
+        "5": "[Kriegsschrei] verringert die Manakosten um 1 und erhöht den ANG-Boost um 50 %."
+      }
+    },
+    "3": {
+      "name": "Barbarenbecher",
+      "description": "[Wirbel] Erhöht den Schaden um 50%. Der letzte Treffer erhöht den gesamten erlittenen Schaden des Ziels für 10 Sek. um {0}%.",
+      "value": {
+        "0": {
+          "0": "8",
+          "1": "10",
+          "2": "12",
+          "3": "14",
+          "4": "17",
+          "5": "20"
+        }
+      },
+      "thumbnail": "heroes/Gau/ut/3.png",
+      "story": "Becher des Barbarenkönigs, der sich als Erster in den verschneiten Bergen niederließ. Als sich der erste Barbarenkönig in Windland niederließ, schwor er, der Wächter der verschneiten Berge zu werden und teilte seinen Becher mit den heiligen Wesen der Berge. Die Schutzmagie des Frostwolfes, von denen der Barbarenbecher durchwirkt ist, erhöht den ANG von „Wirbel“ und den Effekt von „Frost“.",
+      "descriptionByStar": {
+        "0": "[Wirbel] Erhöht den Schaden um 50%. Der letzte Treffer erhöht den gesamten erlittenen Schaden des Ziels für 10 Sek. um 8%.",
+        "1": "[Wirbel] Erhöht den Schaden um 50%. Der letzte Treffer erhöht den gesamten erlittenen Schaden des Ziels für 10 Sek. um 12%.",
+        "2": "[Wirbel] Erhöht den Schaden um 50%. Der letzte Treffer erhöht den gesamten erlittenen Schaden des Ziels für 10 Sek. um 14%.",
+        "3": "[Wirbel] Erhöht den Schaden um 50%. Der letzte Treffer erhöht den gesamten erlittenen Schaden des Ziels für 10 Sek. um 17%.",
+        "4": "[Wirbel] Erhöht den Schaden um 50%. Der letzte Treffer erhöht den gesamten erlittenen Schaden des Ziels für 10 Sek. um 21%.",
+        "5": "[Wirbel] Erhöht den Schaden um 50%. Der letzte Treffer erhöht den gesamten erlittenen Schaden des Ziels für 10 Sek. um 25%."
+      }
+    },
+    "4": {
+      "name": "Schneeglöckchenarmreif",
+      "description": "[Zorn] ändert die max. Anzahl an Stapel auf 30 und bei 30 Stapel wird die eigene VERT-Durchdr. um {0} erhöht.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Gau/ut/4.png",
+      "story": "Ein Armreif aus einem Schneeglöckchen.\nDie Kinder im Waisenhaus haben es als Geburtstagsgeschenk für Gau gebastelt, um ihn von seiner Trauer wegen seiner gefallenen Barbarenbrüder und -schwestern abzulenken.\nSchneeglöckchen stehen in der Sprache der Blumen für Hoffnung und Trost.",
+      "descriptionByStar": {
+        "0": "[Zorn] ändert die max. Anzahl an Stapel auf 30 und bei 30 Stapel wird die eigene VERT-Durchdr. um 100 erhöht.",
+        "1": "[Zorn] erhöht die max. Anzahl an Glut-Zählern um 2, wobei jeder Zähler die Durchdringung um 10 erhöht.",
+        "2": "[Zorn] erhöht die max. Anzahl an Glut-Zählern um 3, wobei jeder Zähler die Durchdringung um 10 erhöht.",
+        "3": "[Zorn] erhöht die max. Anzahl an Glut-Zählern um 4, wobei jeder Zähler die Durchdringung um 10 erhöht.",
+        "4": "[Zorn] erhöht die max. Anzahl an Glut-Zählern um 5, wobei jeder Zähler die Durchdringung um 10 erhöht.",
+        "5": "[Zorn] erhöht die max. Anzahl an Glut-Zählern um 6, wobei jeder Zähler die Durchdringung um 10 erhöht."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 4-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört die Seele von Heiliger Vogel, Numinu und erhöht 8 Sek. lang den eigenen ANG um 60 %. Bei Aktivierung wird an der Front 8 Sek. lang der Sturm von Numinu beschwört, wobei Gegnern an der Front aller 0.5 Sek. ??? Körp. Schaden zugefügt und die ANG-GESCHW des Ziels 5 Sek. lang um 100 verringert wird. Der ANG-GESCHW-Reduktionseffekt ist max. 10-mal stapelbar und für 5 wird der Körp. Schaden des Gegners mit 10 Stapel um 30 % erhöht, wobei der Gegner eingefroren wird.",
+    "cooldown": "22",
+    "uses": "6",
+    "thumbnail": "heroes/Gau/sw.png",
+    "advancement": {
+      "1": "Erhöht den Sturm von Numinu und die Seelen-Wirkungsdauer um 4 Sek.",
+      "2": "Die Körp. Schwächung wird auf 50 % geändert und pro Treffer werden positive Effekte des Gegners entfernt."
+    },
+    "story": "Obwohl Gau die Waffe Numinu hatte, die nur von den stärksten Krieger der Barbaren gehoben werden konnte, war er nicht bereit ihn richtig einzusetzen.\nNuminu, das Relikt der Barbaren, ist eine heilige Waffe, die die Dunkelheit besiegt hat.\nDa Gau einst seine Landsleute und sein Königreich verlassen hatte, stand es ihm, seiner Meinung nach, nicht zu Numinu vor seinem Volk hochzuheben.\nEr habe nur geholfen, das Königreich stillschweigend wieder aufzubauen, um für die Vergangenheit zu büßen.\nAm Ende haben sich seine Mühen und seine Aufrichtigkeit gelohnt, sodass sein Volk ihn zum Anführer anerkannt hat.\nNuminu, der dies mitbeobachtet hatte, flog zu seinem Herren und zeigte seine wahre Gestalt.\nGau wurde daraufhin als der wahre Barbarenkönig wiedergeboren."
+  },
+  "splashart": "heroes/Gau/sa.png",
+  "costumes": "heroes/Gau/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

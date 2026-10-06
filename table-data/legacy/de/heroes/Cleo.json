@@ -1,0 +1,254 @@
+{
+  "id": "Cleo",
+  "profile": {
+    "name": "Cleo",
+    "title": "Zauberin des Fegefeuers Cleo",
+    "class": "Wizard",
+    "position": "Middle-200",
+    "attack_range": "300",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "17",
+    "height": "156",
+    "race": "Menschen",
+    "constellation": "Kandala, der Eroberer",
+    "birth": {
+      "month": 8,
+      "day": 1,
+      "monthName": "Monat der Lebenskraft"
+    },
+    "like": "Lagerfeuer; Kissen (?)",
+    "dislike": "Maschinen",
+    "story": "Cleos früheste Erinnerung beginnt im Turm der Weisen. Sie wurde von Dominics, dem Urweisen aufgezogen und ist gleichermaßen geniale Zauberin wie Unruhestifterin. Die Tatsache, dass sie ihre eigenen Kräfte nicht zu kontrollieren vermag, verursachte oftmals Probleme, darunter die teilweise Zerstörung des Roten Turms, ihrer eigenen Wohnstätte. Ihre scheinbare Immunität gegenüber dem Zorn des Urweisen sorgte aber dafür, dass sie von ihren Gleichaltrigen ausgegrenzt wurde. Obwohl sie dadurch selbstsüchtig und leichtfertig wurde, ist sie tief im Inneren immer noch ein gutherziges Mädchen, das sich davor fürchtet, von allen allein gelassen zu werden.",
+    "thumbnail": "heroes/Cleo/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Feuernadel",
+      "cost": "2",
+      "cooldown": "5",
+      "description": "Greift einen zufälligen Gegner 5-mal an, verursacht insgesamt ??? Magieschaden und betäubt ihn bei jedem Treffer für 1 Sek. Nichthelden erleiden pro Glutstapel ??? zusätzlichen Magieschaden. Kritische Treffer regenerieren 100 Mana.",
+      "thumbnail": "heroes/Cleo/skills/1.png"
+    },
+    "2": {
+      "name": "Feuerball",
+      "cost": "3",
+      "cooldown": "10",
+      "description": "Fügt dem Ziel und Gegnern in der Nähe ??? Magieschaden zu und betäubt sie für 2 Sek. Nichthelden erleiden zusätzlich ??? Magieschaden plus ??? pro Glutstapel. Fügt getroffenen Zielen 12 Glutstapel zu.",
+      "thumbnail": "heroes/Cleo/skills/2.png"
+    },
+    "3": {
+      "name": "Feuerregen",
+      "cost": "4",
+      "cooldown": "15",
+      "description": "Greift alle Gegner 5-mal an und verursacht insgesamt ??? Magieschaden. Dieser Angriff hat 150% erhöhten Krit.-Schaden. Nichthelden erleiden pro Glutstapel ??? zusätzlichen Magieschaden.",
+      "thumbnail": "heroes/Cleo/skills/3.png"
+    },
+    "4": {
+      "name": "Flammen-Diffusion",
+      "cost": null,
+      "cooldown": null,
+      "description": "Fügt dem Ziel bei Angriffen einen Glutstapel zu. Betroffene Gegner erleiden über 20 Sek. ??? anhaltenden Magieschaden. Glut ist bis zu 12-mal stapelbar. Treffer auf Gegner mit maximalen Stapeln regenerieren 30 Mana.",
+      "thumbnail": "heroes/Cleo/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Der Schaden des Skills wird um 50 % verringert, wenn mehr als 5 Feinde angegriffen werden, dafür werden alle Feinde anvisiert.",
+          "thumbnail": "heroes/Cleo/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Das Ziel wird auf den Gegner mit dem höchsten ANG geändert.",
+          "thumbnail": "heroes/Cleo/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Wird ein Feind mit 10 oder mehr Stapeln Glut getroffen, erhöht sich sein erlittener Mag. Schaden für 10 Sek. um 40 %.",
+          "thumbnail": "heroes/Cleo/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Verringert für jeden getroffenen Gegner den Cooldown um 10 %.",
+          "thumbnail": "heroes/Cleo/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht den Schaden um 40 %.",
+          "thumbnail": "heroes/Cleo/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Verringert die Manakosten für 10 Sek. um 2, wenn mehr als 5 Feinde angegriffen werden. Der Cooldown beträgt 10 Sek.",
+          "thumbnail": "heroes/Cleo/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Verringert pro Stapel Glut die Mag. VERT des Ziels um 2.5 %.",
+          "thumbnail": "heroes/Cleo/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Alle 10 Sek. wird ein Feind, der mit Glut belegt ist, für 2 Sek. betäubt. Feinde mit mehr als 10 Stapel Glut werden für 3 Sek. betäubt.",
+          "thumbnail": "heroes/Cleo/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Chance +100",
+        "thumbnail": "heroes/Cleo/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht den Magieschaden um 30 % für das Ziel, wenn es mehr als 10 Glut gestapelt hat und stapelt jede Sek. 2 Glut auf die Feinde, die keine Helden sind.",
+        "thumbnail": "heroes/Cleo/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Urflamme, Flenos",
+    "description": "Erhöht die ANG-GESCHW. um {0}. Skilltreffer verursachen zus. Mag. Schaden entsprechend {1} % des ANG pro Stapel Glut, der auf Gegner gewirkt wurde.",
+    "value": {
+      "0": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      },
+      "1": {
+        "0": "3",
+        "1": "3.6",
+        "2": "4.3",
+        "3": "5.2",
+        "4": "6.3",
+        "5": "7.5"
+      }
+    },
+    "thumbnail": "heroes/Cleo/uw.png",
+    "story": "Die Essenz der ersten Flamme der Welt. Der Feuerlord schenkte diesen schönen Edelstein einem Menschen, der einen Vertrag mit ihm geschlossen hatte. Im Laufe der Zeitalter gelangte er in die Hände eines Erzmagiers, der ihn zum Kern seines Stabes machte. Später gab der Erzmagier diesen Stab an seinen geschätzten Schüler weiter.",
+    "descriptionByStar": {
+      "0": "Erhöht die ANG-GESCHW. um 200. Skilltreffer verursachen zus. Mag. Schaden entsprechend 3 % des ANG pro Stapel Glut, der auf Gegner gewirkt wurde.",
+      "1": "Skilltreffer verursachen zusätzlichen Mag. Schaden entsprechend 3,6 % des ANG pro Stapel Glut, der auf Feinde gewirkt wurden.",
+      "2": "Skilltreffer verursachen zusätzlichen Mag. Schaden entsprechend 4,3 % des ANG pro Stapel Glut, der auf Feinde gewirkt wurden.",
+      "3": "Skilltreffer verursachen zusätzlichen Mag. Schaden entsprechend 5,2 % des ANG pro Stapel Glut, der auf Feinde gewirkt wurden.",
+      "4": "Skilltreffer verursachen zusätzlichen Mag. Schaden entsprechend 6,3 % des ANG pro Stapel Glut, der auf Feinde gewirkt wurden.",
+      "5": "Skilltreffer verursachen zusätzlichen Mag. Schaden entsprechend 7,5 % des ANG pro Stapel Glut, der auf Feinde gewirkt wurden."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Phönix Laterne",
+      "description": "[Feuernadel] verringert pro Treffer die MP des Ziels um {0} und erhöht bei jede Verwendung den zugefügten Schaden um 10 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Cleo/ut/1.png",
+      "story": "Eine magische Laterne vom Turm des Weisen.\nDer ewig brennende Phönix, die erste Flamme des Turms des Weisen, ist darin eingeschlossen. Dominics kümmert sich sorgfältig um ihn, da die Phönixe vom Aussterben bedroht sind. Aber Cleo benutzt ihn einfach für ihren Feuernadel-Zauber, ohne Rücksicht auf die Bedenken ihres Lehrers zu nehmen.",
+      "descriptionByStar": {
+        "0": "[Feuernadel] verringert pro Treffer die MP des Ziels um 100 und erhöht bei jede Verwendung den zugefügten Schaden um 10 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "1": "[Feuernadel] wechselt das Ziel zum Gegner mit dem höchsten ANG und verringert seine Mana um 120.",
+        "2": "[Feuernadel] wechselt das Ziel zum Gegner mit dem höchsten ANG und verringert seine Mana um 140.",
+        "3": "[Feuernadel] wechselt das Ziel zum Gegner mit dem höchsten ANG und verringert seine Mana um 170.",
+        "4": "[Feuernadel] wechselt das Ziel zum Gegner mit dem höchsten ANG und verringert seine Mana um 210.",
+        "5": "[Feuernadel] wechselt das Ziel zum Gegner mit dem höchsten ANG und verringert seine Mana um 250."
+      }
+    },
+    "2": {
+      "name": "Flamels Elixier",
+      "description": "[Feuerball] verringert die Manakosten um 1 und erhöht den Schaden um 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Cleo/ut/2.png",
+      "story": "Ein Elixier, das der Alchemist Flamel herstellte, indem er Flammenessenz kondensierte.\nFlamels Flammen hören nie auf zu brennen. Jeder Zauberer lobt ihn für seine Flammen und die von ihm aus den Salamandern des Dragia-Vulkans geschaffene Flammenessenz maximiert den Effekt des Feuerballs.",
+      "descriptionByStar": {
+        "0": "[Feuerball] verringert die Manakosten um 1 und erhöht den Schaden um 20 %.",
+        "1": "[Feuerball] verringert die Manakosten um 1 und erhöht den Schaden um 24 %.",
+        "2": "[Feuerball] verringert die Manakosten um 1 und erhöht den Schaden um 29 %.",
+        "3": "[Feuerball] verringert die Manakosten um 1 und erhöht den Schaden um 35 %.",
+        "4": "[Feuerball] verringert die Manakosten um 1 und erhöht den Schaden um 42 %.",
+        "5": "[Feuerball] verringert die Manakosten um 1 und erhöht den Schaden um 50 %."
+      }
+    },
+    "3": {
+      "name": "Schriftrolle der Sengenden Hölle",
+      "description": "[Feuerregen] Skill-Schaden erhöht sich um 20 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Gluten, wird der Skill-Cooldown um 5 % verringert. Wird der Gegner mit diesem Skill getötet, so verringert sich der Skill-Cooldown um zus. 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Cleo/ut/3.png",
+      "story": "Eine Schriftrolle, geschrieben von einer Zauberin, die als die Göttin des Feuers bekannt war. Eine Schriftrolle, die von Vesta, der größten Feuerzauberin von Orvelia hinterlassen wurde, als sie sich im Turm der Weisen aufhielt. Sie ist sehr mächtig, benötigt aber auch eine große Menge an Mana. Cleo nahm die Schriftrolle der Sengenden Hölle, die als verbotene Schriftrolle galt, aus dem Turm der Weisen. Jetzt benutzt sie sie, um damit ihren Feuerregen zu verstärken.",
+      "descriptionByStar": {
+        "0": "[Feuerregen] Skill-Schaden erhöht sich um 20 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Gluten, wird der Skill-Cooldown um 5 % verringert. Wird der Gegner mit diesem Skill getötet, so verringert sich der Skill-Cooldown um zus. 20 %.",
+        "1": "[Feuerregen] Skill-Schaden erhöht sich um 24 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Gluten, wird der Skill-Cooldown um 5 % verringert. Wird der Gegner mit diesem Skill getötet, so verringert sich der Skill-Cooldown um zus. 20 %.",
+        "2": "[Feuerregen] Skill-Schaden erhöht sich um 29 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Gluten, wird der Skill-Cooldown um 5 % verringert. Wird der Gegner mit diesem Skill getötet, so verringert sich der Skill-Cooldown um zus. 20 %.",
+        "3": "[Feuerregen] Skill-Schaden erhöht sich um 35 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Gluten, wird der Skill-Cooldown um 5 % verringert. Wird der Gegner mit diesem Skill getötet, so verringert sich der Skill-Cooldown um zus. 20 %.",
+        "4": "[Feuerregen] Skill-Schaden erhöht sich um 42 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Gluten, wird der Skill-Cooldown um 5 % verringert. Wird der Gegner mit diesem Skill getötet, so verringert sich der Skill-Cooldown um zus. 20 %.",
+        "5": "[Feuerregen] Skill-Schaden erhöht sich um 50 %. Bei Krit. Treffern auf Gegner mit mehr als 5 Gluten, wird der Skill-Cooldown um 5 % verringert. Wird der Gegner mit diesem Skill getötet, so verringert sich der Skill-Cooldown um zus. 20 %."
+      }
+    },
+    "4": {
+      "name": "Einführung in die Zauber der Roten Hexe",
+      "description": "[Flammen-Diffusion] kann den Glut nicht mehr entfernen und lässt Ziele 1 % erhöhten Mag. Schaden pro Zähler erleiden.",
+      "value": {},
+      "thumbnail": "heroes/Cleo/ut/4.png",
+      "story": "Ein Fachbuch über den Gebrauch von Feuermagie für Rote Hexen.\nObwohl es unter den meisten Zauberern verpönt ist, weil seine zerstörerischen Zauber den Verstand des Zaubernden verderben können, verbreitet es sich im ganzen Kaiserreich.",
+      "descriptionByStar": {
+        "0": "[Flammen-Diffusion] kann den Glut nicht mehr entfernen und lässt Ziele 1 % erhöhten Mag. Schaden pro Zähler erleiden.",
+        "1": "[Flammen-Diffusion] kann den Glut nicht mehr entfernen und lässt Ziele 1,2 % erhöhten Mag. Schaden pro Zähler erleiden.",
+        "2": "[Flammen-Diffusion] kann den Glut nicht mehr entfernen und lässt Ziele 1,4 % erhöhten Mag. Schaden pro Zähler erleiden.",
+        "3": "[Flammen-Diffusion] kann den Glut nicht mehr entfernen und lässt Ziele 1,7 % erhöhten Mag. Schaden pro Zähler erleiden.",
+        "4": "[Flammen-Diffusion] kann den Glut nicht mehr entfernen und lässt Ziele 2,1 % erhöhten Mag. Schaden pro Zähler erleiden.",
+        "5": "[Flammen-Diffusion] kann den Glut nicht mehr entfernen und lässt Ziele 2,5 % erhöhten Mag. Schaden pro Zähler erleiden."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 6-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört die Seele von Urflamme Flenos und verursacht 5 Gegnern ??? Mag. Schaden zu. Wenn mithilfe dieses Skills Gegners geschadet werden, erhöht sich die VERT-Durchdringung 60 Sek. lang um 25. Dieser Effekt kann bis zu 20-mal kumuliert werden.",
+    "cooldown": "22",
+    "uses": "7",
+    "thumbnail": "heroes/Cleo/sw.png",
+    "advancement": {
+      "1": "Erhöht den Schaden um 50 %.",
+      "2": "Erhöht den Schaden um 50 % und fügt pro Stapel ein 2.5 % ANG-Boost hinzu."
+    },
+    "story": "Die Flamme in Flenos ist arrogant. Cleo könnte es aushalten, weil sie tolerant gegenüber Flammen ist, aber dann war das Risiko zu groß, dass sie ihr wehtun wird. Cleo gab vor, nichts davon zu wissen, obwohl sie es wusste.Sie erhoffte sich, dass sie eines Tages selbstständig die Flamme entzünden und nicht mehr so viel Angst davor haben wird.\nAber als sie mit der Realität konfrontiert wurde, begann Cleo demütig auf die innere Flamme zu schauen. Sie wollte die wilde Flamme akzeptieren, die sie gedankenlos führte. In diesem Moment erschien ihr Flenos. Als wäre es von ihrem Willen beeindruckt worden, als das Erscheinen der sehnsüchtigen Gestalt."
+  },
+  "splashart": "heroes/Cleo/sa.png",
+  "costumes": "heroes/Cleo/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

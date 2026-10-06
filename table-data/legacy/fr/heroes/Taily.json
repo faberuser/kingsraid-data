@@ -1,0 +1,256 @@
+{
+  "id": "Taily",
+  "profile": {
+    "name": "Taily",
+    "title": "Taily, Capitaine sans Peur sans Reproche",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "7600",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "11",
+    "height": "87",
+    "race": "Shuti",
+    "constellation": "Gisla le Fin Tireur",
+    "birth": {
+      "month": 11,
+      "day": 13,
+      "monthName": "Mois de la Chance"
+    },
+    "like": "Les promenades, les compliments, les roulades en avant, les biscuits des autres, des aliments mauvais pour la santé (surtout des rondelles de poulet)",
+    "dislike": "Les ails, les pattes de poulpe, ses rivaux qui sont à la 1ère page de l'encyclopédie des hybrides",
+    "story": "Il existe toutes sortes de races hybrides dans le monde, mais la race de Shuti est connue pour être la plus particulière de toutes, en ce qui concerne son origine.\n\nDans le temps jadis, un chien courageux aurait utilisé une pierre possédant un pouvoir miraculeux, afin de créer une technique capable de dépasser les limites du corps physique pour un court instant. Et les descendants ayant hérité de cette technique secrète formèrent la race de Shuti.\n\nIls nommèrent la pierre à l'origine de la technique, la 'Pierre chanceuse'. La gardant précieusement, ils la considérèrent comme un objet sacré.\nAu point de hurler ses éloges à chaque utilisation de la technique.\nMais pour une cause inconnue, la pierre disparut du jour au lendemain, et depuis, la race de Shuti erre toute leur vie, à la recherche de la pierre perdue.\nC'est pour cette raison qu'ils se déplacent en groupe, et changent souvent leur habitat.\n\nLa découverte de la Pierre chanceuse est donc le vœu le plus cher de la race de Shuti.\n\nAfin de le réaliser, une personne s'est mise à l'avant, portant l'espérance de toute la race : c'est la grande et brave capitaine des chevaliers, Taily.\nEn imprimant la plus puissante des empreintes de l'histoire sur le marteau Prochika, objet symbolique des Shutis, elle est devenue la championne pouvant réaliser le souhait de sa race.\n\nElle est l'espoir de tout un peuple.\nAujourd'hui aussi, la brave Taily part à la recherche de la Pierre chanceuse, dissimulée quelque part dans le monde.\n\nCependant, en rencontrant divers hybrides qui ourdissent des sabotages, elle semble souvent se détourner de sa mission, au lieu de s'y concentrer...",
+    "thumbnail": "heroes/Taily/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Bam ! Prenez garde !",
+      "cost": "2",
+      "cooldown": "13",
+      "description": "Inflige ??? DEG P aux ennemis en face, en ligne droite, avant de les étourdir pendant 2 sec et leur réduit toutes chances de Blocage de 350 pendant 8 sec. Ensuite, inflige ??? DEG P aux ennemis situés dans la zone et les renverse pendant 3 sec.",
+      "thumbnail": "heroes/Taily/skills/1.png"
+    },
+    "2": {
+      "name": "Protection ! Est-ce la Pierre chancheuse ??",
+      "cost": "3",
+      "cooldown": "22",
+      "description": "Dissipe tous les effets négatifs de Taily, et réduit de 50% tout DEG reçu pendant qu'elle rassemble de l'énergie. Augmente la Récupération des PV de 25% et la DEF de ???, pendant 10 sec, une fois que toute l'énergie rassemblée. Si cette compétence est utilisée lorsque le lanceur possède plus de 50 charges d'[Emblème de bravoure], les effets sont appliqués sur tous les alliés et toutes les charges d'[Emblème de bravoure] sont consommées.",
+      "thumbnail": "heroes/Taily/skills/2.png"
+    },
+    "3": {
+      "name": "Attaque ! C'est la forche du capitaine des chevaliers !",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Attaque les ennemis à portée circulaire à 5 reprises pour infliger ??? DEG P au total. Cumule également une charge de [Puissance des Shutis] avant de marteler une dernière fois avec toute la force accumulée pour infliger ??? DEG P. De plus, consomme toutes les charges de [Puissance des Shutis] afin d'augmenter les DEG reçus par la cible touchée de 30% + [2% supplémentaire par charge de Puissance des Shutis] pendant 10 sec et l'étourdit pendant 3 sec. Les charges de [Puissance des Shutis] peuvent se cumuler jusqu'à 30 fois.",
+      "thumbnail": "heroes/Taily/skills/3.png"
+    },
+    "4": {
+      "name": "Bénédiction des Shutis !",
+      "cost": null,
+      "cooldown": null,
+      "description": "Si ses PV sont supérieurs à 30%, attaque les ennemis à portée toutes les secondes pour infliger ??? DEG P. Une charge d'[Emblème de bravoure], non dissipable, est cumulée à chaque fois que la compétence inflige des DEG aux ennemis. Les charges d'[Emblème de bravoure] peuvent se cumuler jusqu'à 50 fois et chaque [Emblème de bravoure] augmente la DEF de tous alliés de ???. Si les PV du lanceur sont inférieurs à 30%, toutes chances de Blocage augmentent de 700.",
+      "thumbnail": "heroes/Taily/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente l'augmentation de DEF de 10%.",
+      "III": "Augmente l'augmentation de DEF de 15%.",
+      "IV": "Augmente l'augmentation de DEF de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente l'augmentation de DEF de 10%.",
+      "III": "Augmente l'augmentation de DEF de 15%.",
+      "IV": "Augmente l'augmentation de DEF de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "L'effet de la réduction de toute chance de Blocage sur la cible ne peut être dissipé.",
+          "thumbnail": "heroes/Taily/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Taily/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Immunise contre tous les DEG pendant qu'elle rassemble de l'énergie.",
+          "thumbnail": "heroes/Taily/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Taily/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente la cumulation des charges de la [Puissance des Shutis] de 3 fois, s'il n'existe qu'un seul ennemi.",
+          "thumbnail": "heroes/Taily/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Immunise contre tous les Contrôles pendant l'utilisation.",
+          "thumbnail": "heroes/Taily/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Réduit le taux d'ATQ de la cible touchée de 20% pendant 3 sec.",
+          "thumbnail": "heroes/Taily/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Inflige des DEG P supplémentaires à la hauteur de 2% des PV max de la cible lors d'une attaque lancée à l'Arène. Cet effet ne peut produire de coup critique mais ses DEG infligés augmentent en fonction de la Pénétration DEF.",
+          "thumbnail": "heroes/Taily/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Résistance aux Contrôles +100",
+        "thumbnail": "heroes/Taily/perks/light.png"
+      },
+      "dark": {
+        "effect": "Au début de la première bataille, pendant 5 sec, réduit les PM de 100, toutes les sec, pour immuniser le lanceur contre tout DEG reçu.",
+        "thumbnail": "heroes/Taily/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Prochika, le Roc de Persévérance.",
+    "description": "Augmente ses PV max de {0}%, et lui confère l'état de [Courroux des Shutis] si elle est touchée 50 fois par les attaques. En état de [Courroux des Shutis], dissipe son effet négatif et confère l'immunité contre tous les Contrôles pendant 5 sec, avant d'augmenter la Pénétration DEF de {1}. Cet effet ne peut être dissipé, et pendant la durée de l'effet de [Courroux des Shutis], les DEG reçus ne cumulent pas de charges.",
+    "value": {
+      "0": {
+        "0": "8",
+        "1": "10",
+        "2": "12",
+        "3": "14",
+        "4": "17",
+        "5": "20"
+      },
+      "1": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      }
+    },
+    "thumbnail": "heroes/Taily/uw.png",
+    "story": "Un marteau qui atteste que son propriétaire est l'être le plus brave de toute la race de Shuti.\nSelon les légendes, le jour où l'ancêtre obtint la révélation grâce à la Pierre chanceuse, au bout d'un très long et pénible entraînement... il aurait sculpté le roc sur lequel il avait l'habitude de s'asseoir, et cela en forme de l'empreinte de sa patte.\n\nBien plus tard, ses descendants comprirent qu'une force peu ordinaire circulait dans le roc laissé par leur ancêtre.\nLes descendants menèrent de longues études afin de trouver un moyen d'employer le roc. Après d'innombrables échecs, ils finirent par transformer le roc en un marteau.\n\nLeurs recherches avaient abouti à un véritable succès.\nComme l'espéraient les descendants, la puissance du marteau était phénoménale, sans parler de l'effet synergique avec leur technique secrète.\nCe fut la naissance de Prochika, l'arme légendaire.\n\nCependant, un problème subsistait...\nQui pourrait donc manier ce marteau extraordinaire ?\n\nAprès de longues réflexions, ils se mirent d'accord pour organiser un tournoi, et de donner le marteau à celui qui, en concentrant sa force, y laisserait la plus profonde des empreintes de pattes sur le marteau.\nLe procédé était assez équitable, vu que le propriétaire du marteau partait en retraite à la disparition de l'empreinte, ce qui permettait l'ouverture d'un nouveau tournoi.\nEt au dernier tournoi organisé, Taily, la plus jeune des concurrents, devint la propriétaire du marteau en y imprimant la plus puissante des empreintes dans l'histoire.\n\nEn aparté, il existe plusieurs théories quant à l'origine du nom du marteau, mais la plus acceptée est celle qui affirme que c'est une expression utilisée par les ancêtres lorsqu'ils ont compris quelque chose.",
+    "descriptionByStar": {
+      "0": "Augmente ses PV max de 8%, et lui confère l'état de [Courroux des Shutis] si elle est touchée 50 fois par les attaques. En état de [Courroux des Shutis], dissipe son effet négatif et confère l'immunité contre tous les Contrôles pendant 5 sec, avant d'augmenter la Pénétration DEF de 200. Cet effet ne peut être dissipé, et pendant la durée de l'effet de [Courroux des Shutis], les DEG reçus ne cumulent pas de charges."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Affiche publicitaire des Shutis",
+      "description": "[Bam ! Prenez garde !] Modifie la réduction des chances de Blocage pour que le Blocage soit à 0, et après l'utilisation de la compétence, augmente les DEG crit de 4 alliés de {0}%, pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Taily/ut/1.png",
+      "story": "Tada ! Dans l'Univers palpitant des Hybrides ! En cette journée mondiale des chiots, nous vous présentons la race de Shuti !\nAfin de faire connaître le vœu héroïque de sa race, le capitaine des Shutis a accepté de paraître dans notre magazine ! Pour une interview passionnante !\nCeux qui sont intéressés par la vaillante race de Shuti, veuillez consulter Dans l'Univers des Hybrides publié ce mois-ci !\nLe magazine ne coûte que 1 000 Or !",
+      "descriptionByStar": {
+        "0": "[Bam ! Prenez garde !] Modifie la réduction des chances de Blocage pour que le Blocage soit à 0, et après l'utilisation de la compétence, augmente les DEG crit de 4 alliés de 20%, pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Biscuit de Secours",
+      "description": "[Protection ! Est-ce la Pierre chancheuse ??] Réduit le temps de recharge de 6 sec et récupère {0}% de ses PV max à la fin du rassemblement de l'énergie.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Taily/ut/2.png",
+      "story": "Une friandise très en vogue parmi les Shutis. Son goût étant succulent, ils la conservent bien à l'abri, et la mange une par une lorsque la faim devient insoutenable. \nIl semblerait que quelqu'un en fabrique en grande quantité, avant de les distribuer dès qu'il rencontre la race de Shuti.\nÀ la queue leu leu, ils prennent le biscuit que cette personne leur tend, le mettent dans leur poche et retournent refaire la queue.",
+      "descriptionByStar": {
+        "0": "[Protection ! Est-ce la Pierre chancheuse ??] Réduit le temps de recharge de 6 sec et récupère 10% de ses PV max à la fin du rassemblement de l'énergie."
+      }
+    },
+    "3": {
+      "name": "Livre fantastique des Trésors",
+      "description": "[Attaque ! C'est la forche du capitaine des chevaliers !] À l'exception du dernier coup infligé, chaque frappe possède l'effet d'étourdir la cible touchée pendant 2 sec. Tous les DEG reçus par la cible ennemie lors la dernière frappe augmentent de {0}% supplémentaires pour chaque charge de [Puissance des Shutis] cumulée.",
+      "value": {
+        "0": {
+          "0": "0.5",
+          "1": "0.6",
+          "2": "0.7",
+          "3": "0.8",
+          "4": "0.9",
+          "5": "1"
+        }
+      },
+      "thumbnail": "heroes/Taily/ut/3.png",
+      "story": "Un livre considéré comme fantastique par la race de Shuti, et contenant les coordonnées de l'emplacement où seraient dissimulés divers trésors.\nOffert par Idrian aux ancêtres de la race de Shuti, il a été transmis de génération en génération.\nCependant, l'ouvrage est couvert de caractères trop complexes pour être lus par la race de Shuti, qui se contente de regarder les images qu'il contient.\nEn se rendant sur les lieux indiqués par les coordonnées qui y sont inscrites, ils n'ont pas pu découvrir la Pierre chanceuse, mais parviennent tout de même à trouver certaines choses.",
+      "descriptionByStar": {
+        "0": "[Attaque ! C'est la forche du capitaine des chevaliers !] À l'exception du dernier coup infligé, chaque frappe possède l'effet d'étourdir la cible touchée pendant 2 sec. Tous les DEG reçus par la cible ennemie lors la dernière frappe augmentent de 0.5% supplémentaires pour chaque charge de [Puissance des Shutis] cumulée."
+      }
+    },
+    "4": {
+      "name": "Décoration du meilleur Capitaine",
+      "description": "[Bénédiction des Shutis !] Réduit la Récupération des PV de la cible de {0}% et la Pénétration DEF de 10, lors d'attaque. Cet effet peut se cumuler jusqu'à 25 fois et ne peut être dissipé.",
+      "value": {
+        "0": {
+          "0": "0.5",
+          "1": "0.6",
+          "2": "0.7",
+          "3": "0.8",
+          "4": "0.9",
+          "5": "1"
+        }
+      },
+      "thumbnail": "heroes/Taily/ut/4.png",
+      "story": "Décoration que Taily a reçue en devenant capitaine des chevaliers.\nSurtout, elle a été désignée comme Capitaine suprême, en devenant la propriétaire de Prochika pendant le tournoi.\nPortant sur sa tête la décoration scintillant glorieusement, aujourd'hui aussi, elle est à la recherche de la Pierre chanceuse.",
+      "descriptionByStar": {
+        "0": "[Bénédiction des Shutis !] Réduit la Récupération des PV de la cible de 0.5% et la Pénétration DEF de 10, lors d'attaque. Cet effet peut se cumuler jusqu'à 25 fois et ne peut être dissipé."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 4 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Dissipe tous les effets positifs sur les ennemis situés à portée, en face en cercle, et leur inflige ??? DEG P avant d'invoquer l'âme de Prochika, le Roc de Persévérance. Cette dernière disparaît après avoir renforcé la prochaine compétence avec des effets supplémentaires.\n[Bam ! Prenez garde !] Inflige ??? DEG P à l'ennemi à portée avant d'augmenter tous les DEG reçus par celui-ci de 40% pendant 8 sec.\n[Protection ! Est-ce la Pierre chancheuse ??] Pendant qu'elle rassemble l'énergie, à 4 reprises, récupère 2 PM au total et ensuite, augmente le taux d'ATQ de 50% pendant 10.\n[Attaque ! C'est la forche du capitaine des chevaliers !] Inflige ??? DEG P à la cible à portée, en face, et réduit immédiatement ses PM de 3. Inflige ??? DEG P supplémentaires à un ennemi non-Héros.",
+    "cooldown": "18",
+    "uses": "6",
+    "thumbnail": "heroes/Taily/sw.png",
+    "advancement": {
+      "1": "La condition d'utilisation passe à 3 fois.",
+      "2": "Réduit le temps de recharge de 5 sec, et pendant 15 sec après l'invocation de l'âme, augmente la Pénétration DEF de 300."
+    },
+    "story": "Depuis que Taily était devenue la propriétaire de Prochika, il y avait une chose qu'elle se promettait tous les jours.\nC'était celle de devenir une championne de ses propres forces, sans dépendre du pouvoir laissé par son ancêtre.\n\nAfin de respecter sa promesse, non seulement elle recherchait sans cesse la Pierre chanceuse, mais elle fournissait d'incessants efforts en tant que propriétaire de Prochika.\nUtiliser la technique secrète le plus longtemps possible, devenir le grand gagnant de la bataille de boules de neige, complimenter d'autres hybrides, etc.\nAucun d'eux n'était facile, mais elle n'abandonnait jamais.\n\nSes efforts auraient-ils fini par porter ses fruits ?\nAu bout d'un entraînement sans fin, elle parvint à amplifier sa force à son maximum !\n\nAu moment où elle abattit Prochika de toutes ses forces, le marteau comprit que son aura ressemblait fortement à celle de son premier propriétaire.\n\nUne vive lumière bleue se répandit de Prochika, ému par tant d'acharnement.\nC'était un fragment de mémoire venant de Prochika, qui avait pris l'apparence du champion que Taily avait rêvé de devenir toute sa vie.\n\nLa vaillance pouvant régir le monde ! Le regard qui pouvant intimider n'importe qui ! La puissance pouvant faire craindre son adversaire !\n\n- J'admets que tu as fourni des efforts acharnés !\nTu es digne de me succéder ! Hahaha !"
+  },
+  "splashart": "heroes/Taily/sa.png",
+  "costumes": "heroes/Taily/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "id": "Chrisha",
+  "profile": {
+    "name": "Chrisha",
+    "title": "Inquisitorin von Blut und Eisen Chrisha",
+    "class": "Mechanic",
+    "position": "Back-300",
+    "attack_range": "6000",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "18",
+    "height": "164",
+    "race": "Menschen",
+    "constellation": "Layan, der Richter",
+    "birth": {
+      "month": 9,
+      "day": 12,
+      "monthName": "Monat der Wahrheit"
+    },
+    "like": "Ihre Familie, die Ritter, Stolz, Überzeugung und Tapferkeit, Schach und intelligente Leute.",
+    "dislike": "Jene, die das Kaiserreich beschämen und die Feinde, die den Frieden im Kaiserreich bedrohen.",
+    "story": "Die Kommandantin der Velchia, der stolzen Magieritter des Kaiserreichs, und die Inquisitorin, die direkt dem Kaiser untersteht.\nSie hat die Pflicht, die Korrumpierung, Rebellen und alles andere zu eliminieren, das das Kaiserreich bedroht.\nDie Bewohner des Kaiserreichs verehren sie als Heldin,\nobwohl sie diesen Titel nicht gerne trägt.\nAls Tochter der Van Nosenhill-Familie und Soldatin des Kaiserreichs zählt für sie nur die Erfüllung ihrer Pflichten.",
+    "thumbnail": "heroes/Chrisha/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Licht der Zerstörung",
+      "cost": "3",
+      "cooldown": "19",
+      "description": "Verursacht ??? Mag. Schaden am Ziel, der die VERT ignoriert, und betäubt es für 3 Sek. Verursacht zusätzlich ??? Mag. Schaden, der die VERT ignoriert, an Zielen, die keine Helden sind. Entfernt nach Verwendung alle Lichter in Besitz und erhält Rotes Licht, das nicht entfernt werden kann.",
+      "thumbnail": "heroes/Chrisha/skills/1.png"
+    },
+    "2": {
+      "name": "Feindblockade",
+      "cost": "3",
+      "cooldown": "16",
+      "description": "Entfernt alle negativen Effekte vom Beschwörer, verursacht ??? Mag. Schaden an allen Feinden und bringt sie für 2 Sek. zum Schweigen. Entfernt nach Verwendung alle Lichter in Besitz und erhält Blaues Licht, das nicht entfernt werden kann.",
+      "thumbnail": "heroes/Chrisha/skills/2.png"
+    },
+    "3": {
+      "name": "Grüne Zone",
+      "cost": "3",
+      "cooldown": "25",
+      "description": "Verursacht ??? Mag. Schaden an frontalen Feinden in einer geraden Linie und erschafft vor ihnen eine Grüne Zone. Feinde in der Grünen Zone können keine positiven Effekte erhalten und erleiden ??? Mag. Schaden über 3 Sek. Ihre Heilungsrate wird dabei um 30 % verringert. Entfernt nach Verwendung alle Lichter in Besitz und erhält Grünes Licht, das nicht entfernt werden kann.",
+      "thumbnail": "heroes/Chrisha/skills/3.png"
+    },
+    "4": {
+      "name": "Technomagie des Kaiserreichs",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht den ANG um ??? und die PRÄZ um 100 für alle Verbündeten. Ändert den Normal-Angriff des Beschwörers gemäß der Farbe des Lichts im Besitz.\nRotes Licht – Erhöht den Schaden des Normal-Angriffs um 100 % und verringert den Cooldown von [Licht der Zerstörung] beim Angreifen um 1 Sek.\nBlaues Licht – Verringert den Schaden des Normal-Angriffs um 30 %, verursacht dafür Schaden am ganzen Feind. Erhöht den Mag. Schaden, den das Ziel erleidet, für 10 Sek. um 30 %.\nGrünes Licht – Greift 2 Feinde an und verringert die Heilungsrate des Ziels für 5 Sek. um 20 %.",
+      "thumbnail": "heroes/Chrisha/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Chrisha/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Erhöht die Manakosten um 1 und den Schaden um 100 %.",
+          "thumbnail": "heroes/Chrisha/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Chrisha/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht die Dauer von Schweigen um 1 Sek.",
+          "thumbnail": "heroes/Chrisha/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Chrisha/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Erhöht die Dauer der Grünen Zone um 1,5 Sek.",
+          "thumbnail": "heroes/Chrisha/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Verstärkt die Effekte des Lichts bei normalen Angriffen.\nRotes Licht: Ändert die Cooldown-Verringerung auf 2 Sek.\nBlaues Licht: Das Ziel erleidet 60 % mehr Mag. Schaden.\nGrünes Licht: Die Heilungsraten-Verringerung wird um 40 % erhöht.",
+          "thumbnail": "heroes/Chrisha/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erhöht die Reichweite des normalen Angriffs um 20 %.",
+          "thumbnail": "heroes/Chrisha/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Chance +100",
+        "thumbnail": "heroes/Chrisha/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht die ANG-GESCHW. eines normalen Angriffs um 400 und um zusätzliche 40 pro eingesetztem Skill. Dieser Effekt kann nicht entfernt und bis zu 10-mal gestapelt werden.",
+        "thumbnail": "heroes/Chrisha/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Prismanova, Arc Lumineir",
+    "description": "Bekommt beim Erhalt von Licht verschiedene Effekte.\nRotes Licht – Erhöht die ANG aller Verbündeten für 10 Sek. um 10 %.\nBlaues Licht – Erhöht die VERT aller Verbündeten für 10 Sek. um 10 %.\nGrünes Licht - Regeneriert bei allen Verbündeten 300 MP.",
+    "value": {},
+    "thumbnail": "heroes/Chrisha/uw.png",
+    "story": "Eine der neuesten Waffen von Magos Le’Flamme, der Forschungsorganisation des Kaiserreichs.\nAkistra ist eine Kanone, die maximale Verheerung anrichten kann,\nwährend es sich bei Arc Lumineir um eine strategische Mehrzweckwaffe handelt.\nForscher, die die Macht des Lichts studierten,\nhaben die Attribute von lichtzerstreuendem Erz mit dem Prinzip der Technomagie, die ihre Wurzeln in der gewöhnlichen Magie hat, kombiniert\nund ein komplett neues Konzept für eine optische Waffe entwickelt.",
+    "descriptionByStar": {
+      "0": "Bekommt beim Erhalt von Licht verschiedene Effekte.\nRotes Licht – Erhöht die ANG aller Verbündeten für 10 Sek. um 10 %.\nBlaues Licht – Erhöht die VERT aller Verbündeten für 10 Sek. um 10 %.\nGrünes Licht - Regeneriert bei allen Verbündeten 300 MP.",
+      "1": "Bekommt beim Erhalt von Licht verschiedene Effekte.\nRotes Licht – Erhöht die ANG aller Verbündeten für 10 Sek. um 12 %.\nBlaues Licht – Erhöht die VERT aller Verbündeten für 10 Sek. um 12 %.\nGrünes Licht - Regeneriert bei allen Verbündeten 360 MP.",
+      "2": "Bekommt beim Erhalt von Licht verschiedene Effekte.\nRotes Licht – Erhöht die ANG aller Verbündeten für 10 Sek. um 14 %.\nBlaues Licht – Erhöht die VERT aller Verbündeten für 10 Sek. um 14 %.\nGrünes Licht - Regeneriert bei allen Verbündeten 430 MP.",
+      "3": "Bekommt beim Erhalt von Licht verschiedene Effekte.\nRotes Licht – Erhöht die ANG aller Verbündeten für 10 Sek. um 17 %.\nBlaues Licht – Erhöht die VERT aller Verbündeten für 10 Sek. um 17 %.\nGrünes Licht - Regeneriert bei allen Verbündeten 520 MP.",
+      "4": "Bekommt beim Erhalt von Licht verschiedene Effekte.\nRotes Licht – Erhöht die ANG aller Verbündeten für 10 Sek. um 21 %.\nBlaues Licht – Erhöht die VERT aller Verbündeten für 10 Sek. um 21 %.\nGrünes Licht - Regeneriert bei allen Verbündeten 630 MP.",
+      "5": "Bekommt beim Erhalt von Licht verschiedene Effekte.\nRotes Licht – Erhöht die ANG aller Verbündeten für 10 Sek. um 25 %.\nBlaues Licht – Erhöht die VERT aller Verbündeten für 10 Sek. um 25 %.\nGrünes Licht - Regeneriert bei allen Verbündeten 750 MP."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Schwert von Nosenhill",
+      "description": "[Licht der Zerstörung] erhöht den Schaden um 20 % und setzt den Cooldown zurück, wenn ein Feind getötet wird.",
+      "value": {},
+      "thumbnail": "heroes/Chrisha/ut/1.png",
+      "story": "Dieses edle Schwert ist ein Schatz der Familie Van Nosenhill.\nDie Familie Van Nosenhill ist für ihre herausragenden Strategen und Kommandanten bekannt, die sie seit der Herrschaft des ersten Kaisers hervorgebracht hat.\nSeit das Schwert in den Familienbesitz übergegangen ist, tragen es die Anführer der Familie Van Nosenhill bei sich.",
+      "descriptionByStar": {
+        "0": "[Licht der Zerstörung] erhöht den Schaden um 20 % und setzt den Cooldown zurück, wenn ein Feind getötet wird.",
+        "1": "[Licht der Zerstörung] erhöht den Schaden um 24 % und setzt den Cooldown zurück, wenn ein Feind getötet wird.",
+        "2": "[Licht der Zerstörung] erhöht den Schaden um 29 % und setzt den Cooldown zurück, wenn ein Feind getötet wird.",
+        "3": "[Licht der Zerstörung] erhöht den Schaden um 35 % und setzt den Cooldown zurück, wenn ein Feind getötet wird.",
+        "4": "[Licht der Zerstörung] erhöht den Schaden um 42 % und setzt den Cooldown zurück, wenn ein Feind getötet wird.",
+        "5": "[Licht der Zerstörung] erhöht den Schaden um 50 % und setzt den Cooldown zurück, wenn ein Feind getötet wird."
+      }
+    },
+    "2": {
+      "name": "Zertifikat des Inquisitors",
+      "description": "[Feindblockade] verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 10 %.",
+      "value": {},
+      "thumbnail": "heroes/Chrisha/ut/2.png",
+      "story": "Die Tafel des Inquisitors, die Chrisha vom Kaiser erhalten hat.\nDer silberne Wolf mit dem Schwert im Mund symbolisiert Autorität und Kontrolle,\nmit denen Chrisha die Gerechtigkeit walten und das Böse im Namen des Kaisers züchtigen kann.",
+      "descriptionByStar": {
+        "0": "[Feindblockade] verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 10 %.",
+        "1": "[Feindblockade] verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 12 %.",
+        "2": "[Feindblockade] verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 14 %.",
+        "3": "[Feindblockade] verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 17 %.",
+        "4": "[Feindblockade] verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 21 %.",
+        "5": "[Feindblockade] verringert den Cooldown um 5 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %."
+      }
+    },
+    "3": {
+      "name": "Stolz von Velchia",
+      "description": "[Grüne Zone] verringert den Cooldown um 30 % und erhöht den Heilungsraten-Reduktionseffekt der Grünen Zone um zusätzliche 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Chrisha/ut/3.png",
+      "story": "Ein Ring, der der Kommandantin der Velchia-Magieritter geschenkt wurde.\nEr symbolisiert die Macht und den Stolz des besten Ordens der Magieritter im ganzen Kaiserreich.\nDie Ritter verwenden diesen Ring auch als Stempel, wenn sie sich um Papierkram kümmern.",
+      "descriptionByStar": {
+        "0": "[Grüne Zone] verringert den Cooldown um 30 % und erhöht den Heilungsraten-Reduktionseffekt der Grünen Zone um zusätzliche 20 %.",
+        "1": "[Grüne Zone] verringert den Cooldown um 30 % und erhöht den Heilungsraten-Reduktionseffekt der Grünen Zone um zusätzliche 24 %.",
+        "2": "[Grüne Zone] verringert den Cooldown um 30 % und erhöht den Heilungsraten-Reduktionseffekt der Grünen Zone um zusätzliche 29 %.",
+        "3": "[Grüne Zone] verringert den Cooldown um 30 % und erhöht den Heilungsraten-Reduktionseffekt der Grünen Zone um zusätzliche 35 %.",
+        "4": "[Grüne Zone] verringert den Cooldown um 30 % und erhöht den Heilungsraten-Reduktionseffekt der Grünen Zone um zusätzliche 42 %.",
+        "5": "[Grüne Zone] verringert den Cooldown um 30 % und erhöht den Heilungsraten-Reduktionseffekt der Grünen Zone um zusätzliche 50 %."
+      }
+    },
+    "4": {
+      "name": "Prisma der Primärfarben",
+      "description": "[Technomagie des Kaiserreichs] erhöht nach dem Erlangen von Licht den eigenen ANG um 3 % und den Schaden an Feinden, die keine Helden sind, für 20 Sek. um 1,2 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+      "value": {},
+      "thumbnail": "heroes/Chrisha/ut/4.png",
+      "story": "Hierbei handelt es sich um den Kern von Arc Lumineir und eine Manaquelle, die Lichter bestimmter Wellenlängen ausstrahlt.\nDieses Mineral war ein mächtiges Artefakt zur Verwendung von Elementarzaubern, es war jedoch nicht hart genug, um auch stärkerer Magie standhalten zu können.\nMagos Le'Flamme konnte seine Härte mithilfe der Technomagie erhöhen, weshalb es jetzt als optische Waffe eingesetzt wird.",
+      "descriptionByStar": {
+        "0": "[Technomagie des Kaiserreichs] erhöht nach dem Erlangen von Licht den eigenen ANG um 3 % und den Schaden an Feinden, die keine Helden sind, für 20 Sek. um 1,2 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "1": "[Technomagie des Kaiserreichs] erhöht nach dem Erlangen von Licht den eigenen ANG um 3 % und den Schaden an Feinden, die keine Helden sind, für 20 Sek. um 1,4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "2": "[Technomagie des Kaiserreichs] erhöht nach dem Erlangen von Licht den eigenen ANG um 3 % und den Schaden an Feinden, die keine Helden sind, für 20 Sek. um 1,7 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "3": "[Technomagie des Kaiserreichs] erhöht nach dem Erlangen von Licht den eigenen ANG um 3 % und den Schaden an Feinden, die keine Helden sind, für 20 Sek. um 2,1 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "4": "[Technomagie des Kaiserreichs] erhöht nach dem Erlangen von Licht den eigenen ANG um 3 % und den Schaden an Feinden, die keine Helden sind, für 20 Sek. um 2,5 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "5": "[Technomagie des Kaiserreichs] erhöht nach dem Erlangen von Licht den eigenen ANG um 3 % und den Schaden an Feinden, die keine Helden sind, für 20 Sek. um 3 %. Dieser Effekt kann bis zu 10-mal gestapelt werden."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 5-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört 10 Sek. lang die Seele von Prismanova, Arc Lumineir. Während der Wirkungsdauer greift die Seele aller 3 Sek. gemäß des Lichts im Besitz an. \nRotes Licht - Greift den Gegner an und fügt ??? VERT-ignorierenden Mag. Schaden zu. \nBlaues Licht - Greift alle Gegner an, fügt ??? Mag. Schaden zu und regeneriert 1 Mana-Kugel. \nGrünes Licht - Greift zwei Gegner an, fügt ??? Mag. Schaden zu und verringert 5 Sek. lang den gegn. ANG um 35 %.",
+    "cooldown": "21",
+    "uses": "7",
+    "thumbnail": "heroes/Chrisha/sw.png",
+    "advancement": {
+      "1": "Verwendungsbedingungen werden um 4 verringert.",
+      "2": "Alle Effekte werden zusätzlich verstärkt.\n[Rotes Licht] - Erhöht den Schaden um 50 %.\n[Blaues Licht] - Erhöht MP-Regeneration um 100 %. \n[Grünes Licht] - Verändert die ANG-Reduktion auf 50 %."
+    },
+    "story": "Chrisha erforscht ständig ihre Lichtbogen, Lumineir. Wenn man ihre Waffe nicht kennt, kann man nie gewinnen, meint sie. Sie sah den Blauplan, den Magos Le'Flamme ihr gab und schrieb ein Tagebuch, wobei sie eines Tages die andere Kraft fand, die darin schlief. Es war das andere Licht, das der Forscher, der das Lumineir erfunden hatte, ihr nicht einmal sagte. Chrisha war am Anfang schockiert, aber sie verstand schnell, dass nur sie diese Kraft aufnehmen kann.\n‘-Jetzt ist es wirklich meine Waffe. Dann werde ich es gründlich und vollständig nutzen.’\nDanach wurde der Arc Lumineir wieder auf die glänzende Waffe, die aus 3 magischen Elementen besteht, wiedergeboren."
+  },
+  "splashart": "heroes/Chrisha/sa.png",
+  "costumes": "heroes/Chrisha/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

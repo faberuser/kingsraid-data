@@ -1,0 +1,280 @@
+{
+  "id": "Sonia",
+  "profile": {
+    "name": "Sonia",
+    "title": "Sonia, Tempête d'Azur",
+    "class": "Knight",
+    "position": "Front-650",
+    "attack_range": "6300",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "16 ans (Aucune croissance depuis sa création)",
+    "height": "152",
+    "race": "Homoncule",
+    "constellation": "Satua la Sage",
+    "birth": {
+      "month": 2,
+      "day": 23,
+      "monthName": "Mois de la Sagesse"
+    },
+    "like": "Mirianne et tout le monde à l'orphelinat",
+    "dislike": "Les mages, les alchimistes",
+    "story": "Une homoncule de combat créée par un mage d'Orvel, qui utilisa le cœur de Vaïkal la Bête Éclair comme noyau. Après avoir acquis une conscience propre lors du processus de création, elle fuit le laboratoire et passa quelques années à l'orphelinat de Ricardo. Elle est capable de lancer des sorts de foudre puissants à volonté. En tant qu'homoncule de combat, elle dispose également d'excellentes capacités. Sous son apparence de jeune fille, elle reste une machine de guerre troublée et cherchant la signification de son existence. Les mages de la Tour des Sages lui donnèrent le titre de « Bleue », qui indique sa maîtrise du lancement de sorts sans incantations. Cependant, elle ne fait pas confiance aux mages et ne souhaite pas être associée à la Tour.",
+    "thumbnail": "heroes/Sonia/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Frappe d'Éclair!",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Fait exploser la foudre devant le lanceur, infligeant 333*(0.7+(0.3*Skill Level*Awakening Coefficient))+ 208.8% of ATK DEG M aux ennemis à portée et créant [Champ électrique] pendant 4 sec. [Champ électrique] : inflige 48*(0.7+(0.3*Skill Level*Awakening Coefficient))+ 30.2% of ATK DEG M toutes les 0.4 sec, chaque coup ayant 25% de chances d’étourdir les ennemis pendant 0.3 sec.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Sonia/skills/1.png"
+    },
+    "2": {
+      "name": "Puissance de la Foudre!",
+      "cost": "3",
+      "cooldown": "10",
+      "description": "Augmente la DEF M de [ffc800]224*(0.7+(0.3*Niveau de compétence*Coefficient d'éveil))[-] pendant 15 sec et la vitesse d’attaque de 30% pendant 10 sec. Tant que le bonus de vitesse d’attaque est actif, chaque attaque normale a 30% de chances d’infliger [ffc800]374*(1+0.3*Niveau de compétence)+235.1% ATQ[-] DEG M supplémentaires à 2 ennemis aléatoires et de les étourdir pendant 0.3 sec.\n\n[ffc800]Coefficient d'éveil([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+      "thumbnail": "heroes/Sonia/skills/2.png"
+    },
+    "3": {
+      "name": "Explosion Électrique!",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Attaque les ennemis dans une zone circulaire autour du lanceur, infligeant 148*(0.7+(0.3*Skill Level*Awakening Coefficient))+ 92.8% of ATK DEG M 3 fois. Fait ensuite exploser la foudre, infligeant 222*(0.7+(0.3*Skill Level*Awakening Coefficient))+ 139.2% of ATK DEG M 3 fois et étourdissant les ennemis pendant 3 sec.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Sonia/skills/3.png"
+    },
+    "4": {
+      "name": "Décharge",
+      "cost": null,
+      "cooldown": null,
+      "description": "Les attaques appliquent [Charge] aux ennemis qui ne sont pas sous [Choc], augmentant leurs DEG M subis de 1% pendant 10 sec. [Charge] se cumule jusqu’à 30 fois. À 30 cumuls, consomme toutes les charges, inflige 926*(0.7+(0.3*Skill Level*Awakening Coefficient))+ 580% of ATK DEG M et applique [Choc] pendant 5 sec. [Choc] : prolonge tous les étourdissements reçus de 0.7 sec et augmente les DEG M subis de 40%.",
+      "thumbnail": "heroes/Sonia/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DEG augmentés de [64ff64]10[-]%.",
+      "III": "DEG augmentés de [64ff64]15[-]%.",
+      "IV": "DEG augmentés de [64ff64]25[-]%."
+    },
+    "2": {
+      "II": "Les boosts ATK et DEF sont augmentés de [64ff64]10[-]%.",
+      "III": "Les boosts ATK et DEF sont augmentés de [64ff64]15[-]%.",
+      "IV": "Les boosts ATK et DEF sont augmentés de [64ff64]25[-]%."
+    },
+    "3": {
+      "II": "DEG augmentés de [64ff64]10[-]%.",
+      "III": "DEG augmentés de [64ff64]15[-]%.",
+      "IV": "DEG augmentés de [64ff64]25[-]%."
+    },
+    "4": {
+      "II": "DEG augmentés de [64ff64]10[-]%.",
+      "III": "DEG augmentés de [64ff64]15[-]%.",
+      "IV": "DEG augmentés de [64ff64]25[-]%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Le coût en mana augmente de 1000, mais les dégâts augmentent de 80 %.",
+          "thumbnail": "heroes/Sonia/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Les chances d'appliquer l'Étourdissement sont augmentées de 10%.",
+          "thumbnail": "heroes/Sonia/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Les boosts ATQ et DEF sont augmentés de 40%.",
+          "thumbnail": "heroes/Sonia/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Les DGT supplémentaires s'appliquent à un maximum de 4 ennemis.",
+          "thumbnail": "heroes/Sonia/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Lorsqu'il n'y a que 1 ennemi, les dégâts augmentent de 100 %.",
+          "thumbnail": "heroes/Sonia/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "La durée d'Étourdissement est augmentée de 1.2 sec.",
+          "thumbnail": "heroes/Sonia/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "La durée de Choc est augmentée de 1.5 sec.",
+          "thumbnail": "heroes/Sonia/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "L'augmentation des DEG M reçus change en augmentation des DEG P et M reçus.",
+          "thumbnail": "heroes/Sonia/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Vitesse d'ATQ +100",
+        "thumbnail": "heroes/Sonia/perks/light.png"
+      },
+      "dark": {
+        "effect": "Les attaques ont 15% de chances d'infliger des DEG M supplémentaires égaux à 10% des PV max et d'appliquer 1 cumul supplémentaire d'[Électricité].",
+        "thumbnail": "heroes/Sonia/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Yanadis, l'Œil du Cyclone",
+    "description": "La durée de [Choc] passe à {0} sec. Attaquer normalement une cible sous [Choc] réduit la recharge de {1}% et inflige des DEG M supplémentaires égaux à 100% de l'ATQ.",
+    "thumbnail": "heroes/Sonia/uw.png",
+    "story": "Une sphère d'électricité créée par Sonia, basée sur le noyau bestial qui lui sert aujourd'hui de cœur. Sonia a démontré un talent certain pour fabriquer de l'équipement magique. Il s'agit là de la première arme qu'elle ait jamais créée. Elle manque de stabilité à cause de l'immense flux électrique qu'elle contient. La puissante tempête électrique générée par cette arme représente une véritable menace pour n'importe quel ennemi. En vérité, à part Sonia, quiconque touche cette arme est instantanément grillé par l'intense courant qui la traverse.",
+    "value": {
+      "0": {
+        "0": "7.5",
+        "1": "8",
+        "2": "8.5",
+        "3": "9",
+        "4": "9.5",
+        "5": "10"
+      },
+      "1": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.8",
+        "3": "3.2",
+        "4": "3.6",
+        "5": "4"
+      }
+    },
+    "descriptionByStar": {
+      "0": "La durée de [Choc] passe à 7.5 sec. Attaquer normalement une cible sous [Choc] réduit la recharge de 2% et inflige des DEG M supplémentaires égaux à 100% de l'ATQ.",
+      "1": "La durée de [Choc] passe à 8 sec. Attaquer normalement une cible sous [Choc] réduit la recharge de 2.4% et inflige des DEG M supplémentaires égaux à 100% de l'ATQ.",
+      "2": "La durée de [Choc] passe à 8.5 sec. Attaquer normalement une cible sous [Choc] réduit la recharge de 2.8% et inflige des DEG M supplémentaires égaux à 100% de l'ATQ.",
+      "3": "La durée de [Choc] passe à 9 sec. Attaquer normalement une cible sous [Choc] réduit la recharge de 3.2% et inflige des DEG M supplémentaires égaux à 100% de l'ATQ.",
+      "4": "La durée de [Choc] passe à 9.5 sec. Attaquer normalement une cible sous [Choc] réduit la recharge de 3.6% et inflige des DEG M supplémentaires égaux à 100% de l'ATQ.",
+      "5": "La durée de [Choc] passe à 10 sec. Attaquer normalement une cible sous [Choc] réduit la recharge de 4% et inflige des DEG M supplémentaires égaux à 100% de l'ATQ."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Joyau amplificateur",
+      "description": "[Frappe d'Éclair!] prolonge le champ électrique de 2 sec. Chaque coup augmente sa propre DEF M de {0}% pendant 5 sec. Cumulable jusqu'à 10 fois.",
+      "thumbnail": "heroes/Sonia/ut/1.png",
+      "story": "Ce joyau fut remis à Sonia lorsque la Tour des Sages lui conféra le titre de Bleu. Il a pour particularité de condenser et d'amplifier l'énergie foudroyante. Les sages de la tour espéraient que ce cadeau la ferait rester. Malheureusement, ce ne fut pas le cas, car la présence des mages la révulsait. Elle laissa le joyau dans la tour, mais au cours de son périple, elle se rendit compte qu'il s'était retrouvé dans sa poche.",
+      "value": {
+        "0": {
+          "0": "1.5",
+          "1": "1.8",
+          "2": "2.1",
+          "3": "2.4",
+          "4": "2.7",
+          "5": "3"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Frappe d'Éclair!] prolonge le champ électrique de 2 sec. Chaque coup augmente sa propre DEF M de 1.5% pendant 5 sec. Cumulable jusqu'à 10 fois.",
+        "1": "[Frappe d'Éclair!] prolonge le champ électrique de 2 sec. Chaque coup augmente sa propre DEF M de 1.8% pendant 5 sec. Cumulable jusqu'à 10 fois.",
+        "2": "[Frappe d'Éclair!] prolonge le champ électrique de 2 sec. Chaque coup augmente sa propre DEF M de 2.1% pendant 5 sec. Cumulable jusqu'à 10 fois.",
+        "3": "[Frappe d'Éclair!] prolonge le champ électrique de 2 sec. Chaque coup augmente sa propre DEF M de 2.4% pendant 5 sec. Cumulable jusqu'à 10 fois.",
+        "4": "[Frappe d'Éclair!] prolonge le champ électrique de 2 sec. Chaque coup augmente sa propre DEF M de 2.7% pendant 5 sec. Cumulable jusqu'à 10 fois.",
+        "5": "[Frappe d'Éclair!] prolonge le champ électrique de 2 sec. Chaque coup augmente sa propre DEF M de 3% pendant 5 sec. Cumulable jusqu'à 10 fois."
+      }
+    },
+    "2": {
+      "name": "Manteau éclair",
+      "description": "[Puissance de la Foudre!] remplace l'augmentation de DEF M par une augmentation d'ATQ. Chaque attaque augmente l'ATQ de {0}% pendant 5 sec.",
+      "thumbnail": "heroes/Sonia/ut/2.png",
+      "story": "Manteau que Mirianne a confectionné pour Sonia en affrontant un terrible danger. En effet, l’électricité qui parcourt le corps de Sonia mit un jour feu à ses vêtements. Voyant cela, Mirianne arracha de l’ereth, cette plante supposée pousser dans la terre frappée par la foudre. Elle en tira des fils avec lesquels elle confectionna un manteau. Sonia vit les mains brûlées de Mirianne à cause de l’électricité, mais celle-ci souffrait en silence. Ce vêtement unique en son genre fut conçu spécialement pour Sonia.",
+      "value": {
+        "0": {
+          "0": "4",
+          "1": "4.8",
+          "2": "5.6",
+          "3": "3.4",
+          "4": "7.2",
+          "5": "8"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Puissance de la Foudre!] remplace l'augmentation de DEF M par une augmentation d'ATQ. Chaque attaque augmente l'ATQ de 4% pendant 5 sec.",
+        "1": "[Puissance de la Foudre!] remplace l'augmentation de DEF M par une augmentation d'ATQ. Chaque attaque augmente l'ATQ de 4.8% pendant 5 sec.",
+        "2": "[Puissance de la Foudre!] remplace l'augmentation de DEF M par une augmentation d'ATQ. Chaque attaque augmente l'ATQ de 5.6% pendant 5 sec.",
+        "3": "[Puissance de la Foudre!] remplace l'augmentation de DEF M par une augmentation d'ATQ. Chaque attaque augmente l'ATQ de 3.4% pendant 5 sec.",
+        "4": "[Puissance de la Foudre!] remplace l'augmentation de DEF M par une augmentation d'ATQ. Chaque attaque augmente l'ATQ de 7.2% pendant 5 sec.",
+        "5": "[Puissance de la Foudre!] remplace l'augmentation de DEF M par une augmentation d'ATQ. Chaque attaque augmente l'ATQ de 8% pendant 5 sec."
+      }
+    },
+    "3": {
+      "name": "Cœur de Baikal",
+      "description": "[Explosion Électrique!] confère une immunité aux contrôles pendant la préparation. Chaque coup a {0}% de chances d'appliquer 3 cumuls de [Charge], même aux ennemis sous [Choc].",
+      "thumbnail": "heroes/Sonia/ut/3.png",
+      "story": "Le cœur de Vaïkal, qu’on appelle la créature céleste. Il mange les éléments de lumière et de ténèbres du monde, son cœur est donc rempli de cette collision entre les deux éléments. Si quelqu’un de malhabile le touche, il serait absorbé par sa puissance. Cependant, Sonia est faite de foudre pure et elle a pu absorber son pouvoir et obtenir une mana inimaginable.",
+      "value": {
+        "0": {
+          "0": "50",
+          "1": "60",
+          "2": "70",
+          "3": "80",
+          "4": "90",
+          "5": "100"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Explosion Électrique!] confère une immunité aux contrôles pendant la préparation. Chaque coup a 50% de chances d'appliquer 3 cumuls de [Charge], même aux ennemis sous [Choc].",
+        "1": "[Explosion Électrique!] confère une immunité aux contrôles pendant la préparation. Chaque coup a 60% de chances d'appliquer 3 cumuls de [Charge], même aux ennemis sous [Choc].",
+        "2": "[Explosion Électrique!] confère une immunité aux contrôles pendant la préparation. Chaque coup a 70% de chances d'appliquer 3 cumuls de [Charge], même aux ennemis sous [Choc].",
+        "3": "[Explosion Électrique!] confère une immunité aux contrôles pendant la préparation. Chaque coup a 80% de chances d'appliquer 3 cumuls de [Charge], même aux ennemis sous [Choc].",
+        "4": "[Explosion Électrique!] confère une immunité aux contrôles pendant la préparation. Chaque coup a 90% de chances d'appliquer 3 cumuls de [Charge], même aux ennemis sous [Choc].",
+        "5": "[Explosion Électrique!] confère une immunité aux contrôles pendant la préparation. Chaque coup a 100% de chances d'appliquer 3 cumuls de [Charge], même aux ennemis sous [Choc]."
+      }
+    },
+    "4": {
+      "name": "Gants de foudre",
+      "description": "[Choc] augmente les DEG M subis par les ennemis affectés de 60% et réduit également leur DEF M de {0}%.",
+      "thumbnail": "heroes/Sonia/ut/4.png",
+      "story": "Une relique fabriquée par Sonia elle-même, qui contient l'énergie de foudre colossale que génère son cœur.\nLorsque le cœur de Vaïkal se déchaînait en elle, Sonia recevait une surcharge d'énergie de foudre, provoquant une implosion.\nMais elle ne pouvait pas libérer cette puissance, car cela aurait pu blesser Mirianne. Inquiète, Mirianne lui suggéra de fabriquer une relique capable de canaliser tout cela.\nCela prit beaucoup de temps à Sonia pour concevoir une paire de gants suffisamment résistante pour supporter toute cette énergie de foudre.\nMais le résultat dépassa toutes ses espérances.\nElle réussit à créer une énorme réserve d'énergie qui lui permettait d'en utiliser de façon quasi inépuisable.\nDe plus, les gants protégeaient Mirianne des explosions potentielles, ce dont Sonia n'était pas peu fière.",
+      "value": {
+        "0": {
+          "0": "15",
+          "1": "18",
+          "2": "21",
+          "3": "24",
+          "4": "27",
+          "5": "30"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Choc] augmente les DEG M subis par les ennemis affectés de 60% et réduit également leur DEF M de 15%.",
+        "1": "[Choc] augmente les DEG M subis par les ennemis affectés de 60% et réduit également leur DEF M de 18%.",
+        "2": "[Choc] augmente les DEG M subis par les ennemis affectés de 60% et réduit également leur DEF M de 21%.",
+        "3": "[Choc] augmente les DEG M subis par les ennemis affectés de 60% et réduit également leur DEF M de 24%.",
+        "4": "[Choc] augmente les DEG M subis par les ennemis affectés de 60% et réduit également leur DEF M de 27%.",
+        "5": "[Choc] augmente les DEG M subis par les ennemis affectés de 60% et réduit également leur DEF M de 30%."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Vous devez infliger des DEG à [64ff64]90[-] reprises pour recharger l'âme et l'utiliser.",
+    "description": "Invoque l'âme de [Yanadis, l'Œil du Cyclone], infligeant des DEG M égaux à 300% de l'ATQ aux ennemis dans une large zone frontale et les étourdissant pendant 3 sec. Crée ensuite [Champ magnétique déchaîné] pendant 6 sec. [Champ magnétique déchaîné] : augmente de 30% la durée des contrôles subis par les ennemis.",
+    "cooldown": "25",
+    "uses": "5",
+    "thumbnail": "heroes/Sonia/sw.png",
+    "advancement": {
+      "1": "Augmente la durée du Champ magnétique déchaîné de 3 sec.",
+      "2": "Inflige aux ennemis dans [Champ magnétique déchaîné] des DEG M égaux à 25% de l'ATQ + 3% des PV max de Sonia toutes les 1 sec."
+    },
+    "story": "Sonia réalisa que l'aura de Vaïkal devenait de plus en plus puissante, de même que sa propre force se renforçait.\nEn outre, elle avait parfois l'impression que son corps bougeait selon la volonté de Vaïkal.\nSi cela continuait, la personnalité de Sonia risquait de se faire effacer par la volonté de Vaïkal, alors elle prit des mesures draconiennes.\n\nElle se remémora quel être elle était.\nSonia, l'homoncule façonné en prenant le cœur de Vaïkal comme noyau. \nSon arme était un instrument magique imitant ce noyau,\net un équipement qui pouvait faire fonctionner son cœur à sa puissance maximum, produisant un puissant éclair. \nC'était un produit d'une perfection étonnante, qui pourrait porter sans problème le nom de 2nd cœur de Vaïkal.\n\nSonia fabriqua un circuit magique qui reliait le cœur de Vaïkal et Yanadis, avant de fermer les yeux et de se concentrer sur sa propre force.\nUne créature céleste, formée de magnifiques éclairs bleus, coulant incessamment.\nUn être spécial, appelé Vaïkal, ne pouvant être comparé à nulle autre créature sur terre.\nIl fut celui qui permit à Sonia d'exister en ce monde, comme s'il eut été son véritable parent et son protecteur...\n\nLorsque Sonia réalisa sa véritable puissance, elle rouvrit les yeux.\nEt elle aperçut Vaïkal qui la couvait d'un regard doux."
+  },
+  "splashart": "heroes/Sonia/sa.png",
+  "costumes": "heroes/Sonia/cos",
+  "_localization": {
+    "locale": "fr",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

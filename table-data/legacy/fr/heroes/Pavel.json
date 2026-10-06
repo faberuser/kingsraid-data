@@ -1,0 +1,229 @@
+{
+  "id": "Pavel",
+  "profile": {
+    "name": "Pavel",
+    "title": "Pavel, Mage du Dragon de Glace",
+    "class": "Wizard",
+    "position": "Middle-200",
+    "attack_range": "1900",
+    "damage_type": "Magical",
+    "gender": "Homme (+Femme)",
+    "age": "HERO_AGE_PAVEL",
+    "height": "172",
+    "race": "Humain (Possédé par l'âme d'un dragon)",
+    "constellation": "Hexipolia le Vagabond",
+    "birth": {
+      "month": 12,
+      "day": 2,
+      "monthName": "Mois de la Patience"
+    },
+    "like": "La paix, le silence, la lecture",
+    "dislike": "Le temps chaud, la turbulence",
+    "story": "Un cas curieux de mage humain possédé par l'âme d'un Dragon de Glace. Même s'il a combattu auprès de Kyle voici cent ans, cet ancien mage de glace est beaucoup plus vieux que cela. L'âme du dragon est généralement silencieuse, mais il se réveille parfois pour s'adresser à lui comme à un amant. L'empire le considère comme un personnage clé et a confié à Rodina le soin de le surveiller et le protéger. Quant à lui, il préfère vivre en paix, loin des soucis du monde.",
+    "thumbnail": "heroes/Pavel/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Vague de Froid",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Inflige ??? points de DEG M à l'ennemi ciblé et applique Gel pendant 5 sec. Si un autre ennemi est affecté par Gel, il reçoit des DEG et se retrouve également affecté par Gel.",
+      "thumbnail": "heroes/Pavel/skills/1.png"
+    },
+    "2": {
+      "name": "Lance Gelée",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Attaque 5 fois des ennemis aléatoires, infligeant  ???  points de DEG M et applique Gel. Lorsqu'un ennemi affecté par Gel est attaqué, il subit une attaque supplémentaire d'une Lance de glace qui inflige la moitié des DEG. Ces Lances de glace n'influencent pas l'effet de Gel. Les ennemis gelés subissent 50% de DEG supplémentaires de cette attaque.",
+      "thumbnail": "heroes/Pavel/skills/2.png"
+    },
+    "3": {
+      "name": "Conquête Glaciale",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Inflige ??? points de DEG M à tous les ennemis, les gèle pendant 3 secondes et augmente les DEG de 100% si ils sont déjà gelés.",
+      "thumbnail": "heroes/Pavel/skills/3.png"
+    },
+    "4": {
+      "name": "Frisson de l'Aube",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Inflige ??? points de DEG M à 3 ennemis toutes les 15 sec et leur inflige Givre, ce qui réduit leur Vitesse d'ATQ de 100 points pendant 8 sec.",
+      "thumbnail": "heroes/Pavel/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Les DEG sont augmentés de 40%.",
+          "thumbnail": "heroes/Pavel/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Augmente le coût en PM de 1 et la durée de Gel de 5 sec.",
+          "thumbnail": "heroes/Pavel/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Pavel/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "La cible change pour l'ennemi ayant l'ATQ la plus élevée.",
+          "thumbnail": "heroes/Pavel/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Pavel/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Confère l'immunité contre les Contrôles pendant l'utilisation de la compétence.",
+          "thumbnail": "heroes/Pavel/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "La résistance aux Contrôles de la cible est réduite de 250 pendant 10 sec.",
+          "thumbnail": "heroes/Pavel/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Gel ne peut pas être dissipé par des Sorts.",
+          "thumbnail": "heroes/Pavel/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Pavel/perks/light.png"
+      },
+      "dark": {
+        "effect": "Toutes les 3 sec, attaque tous les ennemis et inflige 50% de l'ATQ sous forme de DEG M avec 50% de chances d'appliquer Gel. Les ennemis affligés par Gel subissent sur 3 sec des DEG M à hauteur de 300% de l'ATQ.",
+        "thumbnail": "heroes/Pavel/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Andarta et Andraste, les Cœurs de Dragons",
+    "description": "Toutes les 15 sec, applique Gel et inflige des DEG M (160% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
+    "value": {},
+    "thumbnail": "heroes/Pavel/uw.png",
+    "story": "Andarta et Andraste étaient deux dragons vaincus par les démons durant la guerre. Ils formaient une paire connectée par l'âme, deux amants qui se comprenaient mieux que quiconque. Même lorsqu'ils moururent, ils refusèrent de se séparer et firent une dernière demande à Pavel, leur camarade. Pavel leur accorda leur dernier vœu, transférant leurs âmes dans leurs cœurs et en les métamorphosant en une paire de gemmes. Même s'ils ont tous deux perdu leur corps, ils restent ensemble, aussi inséparables que jamais.",
+    "descriptionByStar": {
+      "0": "Toutes les 15 sec, applique Gel et inflige des DEG M (160% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
+      "1": "Toutes les 14 sec, applique Gel et inflige des DEG M (192% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
+      "2": "Toutes les 12,5 sec, applique Gel et inflige des DEG M (228% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
+      "3": "Toutes les 11 sec, applique Gel et inflige des DEG M (276% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
+      "4": "Toutes les 9,5 sec, applique Gel et inflige des DEG M (332% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
+      "5": "Toutes les 8 sec, applique Gel et inflige des DEG M (400% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Graine de neige",
+      "description": "[Vague de froid] Augmente les DEG de 20 % ainsi que la précision des contrôles de 400 points pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Pavel/ut/1.png",
+      "story": "Ce cristal de neige aux formes antiques renferme des élémentaires d'hiver.\nSa beauté suffit à emprisonner les esprits faibles dans un blizzard éternel. Les dragons Andarta et Andraste l'ont offert à Pavel après qu'il a exaucé leur souhait. Pendant son séjour solitaire à Terre-Venteuse, ce cadeau lui réchauffait le cœur, jusqu'à ce que Rodina le rejoigne.",
+      "descriptionByStar": {
+        "0": "[Vague de froid] Augmente les DEG de 20 % ainsi que la précision des contrôles de 400 points pendant 10 sec.",
+        "1": "[Vague de froid] Augmente les DEG de 24 % ainsi que la précision des contrôles de 400 points pendant 10 sec.",
+        "2": "[Vague de froid] Augmente les DEG de 29 % ainsi que la précision des contrôles de 400 points pendant 10 sec.",
+        "3": "[Vague de froid] Augmente les DEG de 35 % ainsi que la précision des contrôles de 400 points pendant 10 sec.",
+        "4": "[Vague de froid] Augmente les DEG de 42 % ainsi que la précision des contrôles de 400 points pendant 10 sec.",
+        "5": "[Vague de froid] Augmente les DEG de 50 % ainsi que la précision des contrôles de 400 points pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Broche gelée",
+      "description": "[Lance de glace] Réduit le temps de recharge de 8 % et donne 40 % de chances de geler l'ennemi pendant 1 sec en infligeant des dégâts à un ennemi en état de Givre. Cet effet ne s'applique pas aux lances créées en plus.",
+      "value": {},
+      "thumbnail": "heroes/Pavel/ut/2.png",
+      "story": "Le dragon de glace a offert cette broche au jeune Pavel et l’a imprégnée de son souffle.\nMaintenant que le dragon de glace et Pavel ne font plus qu’un, Pavel sait qu’il ne doit pas le quitter. Cette broche peut infliger une douleur qui transperce le cœur. \nInsuffle un frisson au mana de Pavel, ce qui affûte davantage sa magie.",
+      "descriptionByStar": {
+        "0": "[Lance de glace] Réduit le temps de recharge de 8 % et donne 40 % de chances de geler l'ennemi pendant 1 sec en infligeant des dégâts à un ennemi en état de Givre. Cet effet ne s'applique pas aux lances créées en plus.",
+        "1": "[Lance de glace] Réduit le temps de recharge de 8 % et donne 48 % de chances de geler l'ennemi pendant 1 sec en infligeant des dégâts à un ennemi en état de Givre. Cet effet ne s'applique pas aux lances créées en plus.",
+        "2": "[Lance de glace] Réduit le temps de recharge de 8 % et donne 58 % de chances de geler l'ennemi pendant 1 sec en infligeant des dégâts à un ennemi en état de Givre. Cet effet ne s'applique pas aux lances créées en plus.",
+        "3": "[Lance de glace] Réduit le temps de recharge de 8 % et donne 70 % de chances de geler l'ennemi pendant 1 sec en infligeant des dégâts à un ennemi en état de Givre. Cet effet ne s'applique pas aux lances créées en plus.",
+        "4": "[Lance de glace] Réduit le temps de recharge de 8 % et donne 84 % de chances de geler l'ennemi pendant 1 sec en infligeant des dégâts à un ennemi en état de Givre. Cet effet ne s'applique pas aux lances créées en plus.",
+        "5": "[Lance de glace] Réduit le temps de recharge de 8 % et donne 100 % de chances de geler l'ennemi pendant 1 sec en infligeant des dégâts à un ennemi en état de Givre. Cet effet ne s'applique pas aux lances créées en plus."
+      }
+    },
+    "3": {
+      "name": "Cœur de glacier",
+      "description": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 1 sec.",
+      "value": {},
+      "thumbnail": "heroes/Pavel/ut/3.png",
+      "story": "Sang gelé de l’esprit hivernal. Pavel l’a découvert au fond de la Caverne de Glace et en a fait des boucles d’oreille. Il en émane un vent glacial et une profonde douleur, mais elles augmentent la mana de Pavel jusqu’à sa limite.",
+      "descriptionByStar": {
+        "0": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 1 sec.",
+        "1": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 1,2 sec.",
+        "2": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 1,4 sec.",
+        "3": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 1,7 sec.",
+        "4": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 2,1 sec.",
+        "5": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 2,5 sec."
+      }
+    },
+    "4": {
+      "name": "Cœur du dragon de glace",
+      "description": "[Frisson de l'aube] Augmente le nombre de cibles de 1. En cas de coup critique, restaure 100 PM.",
+      "value": {},
+      "thumbnail": "heroes/Pavel/ut/4.png",
+      "story": "Un cadeau offert à Pavel par une femelle dragon possédée.\nLe dragon de glace lui offrait sans arrêt toutes sortes de cadeaux, que cela lui plût ou non. Cet orbe en faisait partie, et il renferme une petite partie de l'âme du dragon.",
+      "descriptionByStar": {
+        "0": "[Frisson de l'aube] Augmente le nombre de cibles de 1. En cas de coup critique, restaure 100 PM.",
+        "1": "[Frisson de l'aube] Augmente le nombre de cibles de 1. En cas de coup critique, restaure 120 PM.",
+        "2": "[Frisson de l'aube] Augmente le nombre de cibles de 1. En cas de coup critique, restaure 140 PM.",
+        "3": "[Frisson de l'aube] Augmente le nombre de cibles de 1. En cas de coup critique, restaure 170 PM.",
+        "4": "[Frisson de l'aube] Augmente le nombre de cibles de 1. En cas de coup critique, restaure 210 PM.",
+        "5": "[Frisson de l'aube] Augmente le nombre de cibles de 1. En cas de coup critique, restaure 250 PM."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 5 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme d'Andarta et Andraste, les Cœurs de Dragons, ce qui augmente les DEG Crit du Héros de 100% pendant 10 sec. Lors de son activation, inflige ??? DEG M à l'ennemi en face en ligne droite et augmente des DEG M reçus par la cible de 30% pendant 10 sec. Ensuite, lui applique l'effet Gel pendant 6 sec. Chaque coup porté à l'ennemi en état de Gel inflige ??? DEG M ignorant la DEF et restaure 2 barres de PM du Héros. Cela réduit également le temps de recharge de toutes ses compétences de 30%.",
+    "cooldown": "21",
+    "uses": "5",
+    "thumbnail": "heroes/Pavel/sw.png",
+    "advancement": {
+      "1": "La condition d'utilisation passe à 4 fois.",
+      "2": "Augmente les DEG infligés de 80% et dissipe les effets positifs de l'ennemi touché."
+    },
+    "story": "Une onde magique inhabituelle percuta les cœurs des dragons.\n\nLewisia lui transmit la situation d'Orvel.\nÀ cette réalité sinistre où même Kasel s'était transformé en seigneur de ténèbres, la froide colère de Pavel se répandit dans l'atmosphère, et se mit à tourbillonner.\nCela provoqua un puissant écho de la puissance magique, au point de briser le sort protecteur posé sur les deux dragons, afin qu'ils puissent se reposer en paix.\n\nFinalement, Andarta et Andraste entrèrent en résonance avec la rage glaciale de Pavel, et montrèrent leurs apparences gigantesques."
+  },
+  "splashart": "heroes/Pavel/sa.png",
+  "costumes": "heroes/Pavel/cos",
+  "aliases": null,
+  "gender": "Male",
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

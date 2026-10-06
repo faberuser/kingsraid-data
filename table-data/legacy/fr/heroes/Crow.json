@@ -1,0 +1,228 @@
+{
+  "id": "Crow",
+  "profile": {
+    "name": "Crow",
+    "title": "Crow, Balle du Châtiment",
+    "class": "Mechanic",
+    "position": "Middle-200",
+    "attack_range": "5200",
+    "damage_type": "Physical",
+    "gender": "Homme",
+    "age": "32",
+    "height": "193",
+    "race": "Humain",
+    "constellation": "Notmun l'Accordeur",
+    "birth": {
+      "month": 7,
+      "day": 8,
+      "monthName": "Mois de l'Harmonie"
+    },
+    "like": "Sucre d'orge, pendentif de souvenir, les remarques oubliées d'un être cher",
+    "dislike": "Les pirates, le dieu qui lui ont tout pris. Et maintenant, le tabac",
+    "story": "Nom de code : chien de chasse. Ce chasseur de primes est surnommé Cerbère. L'on raconte que nul ne peut échapper à cet ancien officier de la marine impériale une fois qu'il a verrouillé sa cible. La seule chose qui peut consoler les criminels, c'est qu'il n'est pas motivé uniquement par les primes. Tandis que les théories à son sujet font légion, la plus convaincante d'entre elles évoque une revanche. D'après certains, le cœur de cet homme sans pitié semble parfois se réchauffer. Cela survient lorsqu'il sort de sa poche un vieux pendentif que personne n'a jamais vraiment vu.",
+    "thumbnail": "heroes/Crow/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "La cible sera éliminée.",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Inflige un total de ??? points de DEG P sur 15 coups aux ennemis situés en face, et appose 2 Crocs du chien de chasse pendant 40 sec. 100 Crocs du chien de chasse peuvent être cumulés au maximum.",
+      "thumbnail": "heroes/Crow/skills/1.png"
+    },
+    "2": {
+      "name": "Lutter n'a aucun sens.",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Inflige ??? DEG P en attaquant 10 fois un ennemi aléatoire, puis tire une balle de givre qui inflige ??? DEG P aux ennemis aux alentours et les gèle pendant 4 sec. La balle de givre génère une zone de gel qui dure pendant 6 sec et inflige ??? points de DEG P toutes les 2 sec, avec 50% de chances de geler les ennemis pendant 2 sec.",
+      "thumbnail": "heroes/Crow/skills/2.png"
+    },
+    "3": {
+      "name": "Même les Dieux mourront.",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Prend position et se concentre pour tirer un laser qui inflige ??? points de DEG P frontalement aux ennemis à portée et consomme Crocs du chien de chasse sur la cible pour infliger ??? points de DEG P supplémentaires pour chaque charge. La portée de l'effet augmente en fonction du temps de concentration et les DEG augmentent jusqu'à un maximum de 100%. Une fois la concentration terminée, l'ennemi est repoussé sur une longue distance.",
+      "thumbnail": "heroes/Crow/skills/3.png"
+    },
+    "4": {
+      "name": "Préparation à la Chasse",
+      "cost": null,
+      "cooldown": null,
+      "description": "Crow n'est pas affecté par les changements de vitesse d'attaque. Son ATQ augmente de ???, ses dégâts critiques de 80% et il récupère 300 mana par seconde. Ses attaques normales appliquent également la Marque du croc du chien de chasse pendant 40 sec.",
+      "thumbnail": "heroes/Crow/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "2": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "3": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "4": {
+      "II": "Le taux d'augmentation d'ATQ est augmenté de 10%.",
+      "III": "Le taux d'augmentation d'ATQ est augmenté de 15%.",
+      "IV": "Le taux d'augmentation d'ATQ est augmenté de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Récupère 30 PM à chaque fois que le lanceur inflige des DEG.",
+          "thumbnail": "heroes/Crow/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Confère l'immunité contre les Contrôles pendant l'utilisation de la compétence.",
+          "thumbnail": "heroes/Crow/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Le Temps de Recharge est réduit de 3 sec.",
+          "thumbnail": "heroes/Crow/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "La zone de gel a 30% de chances de plus de geler les ennemis.",
+          "thumbnail": "heroes/Crow/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente le temps de recharge de 10 s et les DEG de 100%.",
+          "thumbnail": "heroes/Crow/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Crow/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Le Monstre-Boss reçoit de DEG augmentés de 15%.",
+          "thumbnail": "heroes/Crow/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Augmente la récupèration PM de 40%.",
+          "thumbnail": "heroes/Crow/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Crow/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente le coût en PM de toutes les compétences de 1 et les DEG infligés de 75%.",
+        "thumbnail": "heroes/Crow/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Akistra, le Chien de l'Enfer",
+    "description": "Les attaques normales tirent une balle supplémentaire infligeant des DEG P égaux à 50% de l'ATQ. À la fin d'une compétence, Chien des enfers, Akistra s'active et augmente l'ATQ de 30% et les dégâts critiques de 30% pendant 20 sec. Cet effet ne s'active qu'une fois toutes les 20 sec.",
+    "value": {},
+    "thumbnail": "heroes/Crow/uw.png",
+    "story": "Il s'agit sans aucun doute de la pointe de la technomagie impériale. Cet objet se décline en trois modes, dont l'un d'entre eux fait appel à une magie si dévastatrice que son utilisation est réglementée. D'après Valance, le chef de MagosLe'Flamme, l'organisation impériale dédiée au développement des armes, Archistra, la toute dernière, a été volée aussitôt après sa production par Crow, un ancien officier de la marine renvoyé de manière indigne. Il reste toutefois à savoir comment Crow aurait réussi à infiltrer l'une des organisations capitales de l'empire pour dérober Archistra... On pourrait aussi soupçonner Valance de lui avoir tout simplement remis l'arme, étant donné qu'ils sont amis de longue date.",
+    "descriptionByStar": {
+      "0": "Les attaques normales tirent une balle supplémentaire infligeant des DEG P égaux à 50% de l'ATQ. À la fin d'une compétence, Chien des enfers, Akistra s'active et augmente l'ATQ de 30% et les dégâts critiques de 30% pendant 20 sec. Cet effet ne s'active qu'une fois toutes les 20 sec.",
+      "1": "Les attaques normales tirent une balle supplémentaire infligeant des DEG P égaux à 60% de l'ATQ. À la fin d'une compétence, Chien des enfers, Akistra s'active et augmente l'ATQ de 36% et les dégâts critiques de 36% pendant 20 sec. Cet effet ne s'active qu'une fois toutes les 20 sec.",
+      "2": "Les attaques normales tirent une balle supplémentaire infligeant des DEG P égaux à 70% de l'ATQ. À la fin d'une compétence, Chien des enfers, Akistra s'active et augmente l'ATQ de 43% et les dégâts critiques de 43% pendant 20 sec. Cet effet ne s'active qu'une fois toutes les 20 sec.",
+      "3": "Les attaques normales tirent une balle supplémentaire infligeant des DEG P égaux à 85% de l'ATQ. À la fin d'une compétence, Chien des enfers, Akistra s'active et augmente l'ATQ de 52% et les dégâts critiques de 52% pendant 20 sec. Cet effet ne s'active qu'une fois toutes les 20 sec.",
+      "4": "Les attaques normales tirent une balle supplémentaire infligeant des DEG P égaux à 100% de l'ATQ. À la fin d'une compétence, Chien des enfers, Akistra s'active et augmente l'ATQ de 62% et les dégâts critiques de 62% pendant 20 sec. Cet effet ne s'active qu'une fois toutes les 20 sec.",
+      "5": "Les attaques normales tirent une balle supplémentaire infligeant des DEG P égaux à 125% de l'ATQ. À la fin d'une compétence, Chien des enfers, Akistra s'active et augmente l'ATQ de 75% et les dégâts critiques de 75% pendant 20 sec. Cet effet ne s'active qu'une fois toutes les 20 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Balle mordue",
+      "description": "[La cible sera éliminée.] Réduit le temps de recharge de 3 sec et le PM de la cible de 20 à chaque coup réussi.",
+      "value": {},
+      "thumbnail": "heroes/Crow/ut/1.png",
+      "story": "Cette balle fut mordue par un chien de l'enfer.\nCeux qu'elle touche reçoivent une marque du chien de l'enfer qui ne disparaîtra qu'à leur dernier souffle. Ils auront beau courir, les dents du chien de l'enfer les rattraperont toujours.",
+      "descriptionByStar": {
+        "0": "[La cible sera éliminée.] Réduit le temps de recharge de 3 sec et le PM de la cible de 20 à chaque coup réussi.",
+        "1": "[La cible sera éliminée.] Réduit le temps de recharge de 3 sec et le PM de la cible de 24 à chaque coup réussi.",
+        "2": "[La cible sera éliminée.] Réduit le temps de recharge de 3 sec et le PM de la cible de 29 à chaque coup réussi.",
+        "3": "[La cible sera éliminée.] Réduit le temps de recharge de 3 sec et le PM de la cible de 35 à chaque coup réussi.",
+        "4": "[La cible sera éliminée.] Réduit le temps de recharge de 3 sec et le PM de la cible de 42 à chaque coup réussi.",
+        "5": "[La cible sera éliminée.] Réduit le temps de recharge de 3 sec et le PM de la cible de 50 à chaque coup réussi."
+      }
+    },
+    "2": {
+      "name": "Déluge glacé",
+      "description": "[Lutter n'a aucun sens.] Réduit le coût en PM de 1 et, à chaque frappe, a 10 % de chances de geler la cible pendant 3 sec.",
+      "value": {},
+      "thumbnail": "heroes/Crow/ut/2.png",
+      "story": "Magos Le’Flamme, l’organisation impériale dédiée au développement des armes, vient d’améliorer le missile Frisson terrestre. Elle en a équipé Akistra, la toute nouvelle arme, mais Crow l’a dérobée et a donc emporté le missile en même temps. Ce dernier contient un froid si intense qu’il peut geler le sol autour de lui.",
+      "descriptionByStar": {
+        "0": "[Lutter n'a aucun sens.] Réduit le coût en PM de 1 et, à chaque frappe, a 10 % de chances de geler la cible pendant 3 sec.",
+        "1": "[Lutter n'a aucun sens.] Réduit le coût en PM de 1 et, à chaque frappe, a 12 % de chances de geler la cible pendant 3 sec.",
+        "2": "[Lutter n'a aucun sens.] Réduit le coût en PM de 1 et, à chaque frappe, a 14 % de chances de geler la cible pendant 3 sec.",
+        "3": "[Lutter n'a aucun sens.] Réduit le coût en PM de 1 et, à chaque frappe, a 17 % de chances de geler la cible pendant 3 sec.",
+        "4": "[Lutter n'a aucun sens.] Réduit le coût en PM de 1 et, à chaque frappe, a 21 % de chances de geler la cible pendant 3 sec.",
+        "5": "[Lutter n'a aucun sens.] Réduit le coût en PM de 1 et, à chaque frappe, a 25 % de chances de geler la cible pendant 3 sec."
+      }
+    },
+    "3": {
+      "name": "Pendentif mémoriel",
+      "description": "[Même les Dieux mourront] Donne l'immunité aux Contrôles pendant l'activation de la compétence et augmente les DEG de 20%.",
+      "value": {},
+      "thumbnail": "heroes/Crow/ut/3.png",
+      "story": "Précieux pendentif renfermant le portrait de feues la femme et la fille de Crow. Il le contemple souvent d’un air calme et triste pendant qu’il suce un bonbon. Il tient à ce pendentif plus qu’à sa propre vie, alors mieux vaut ne pas y toucher. Vous pourriez bien être un dieu que vous le paieriez quand même de votre vie.",
+      "descriptionByStar": {
+        "0": "[Même les Dieux mourront] Donne l'immunité aux Contrôles pendant l'activation de la compétence et augmente les DEG de 20%.",
+        "1": "[Même les Dieux mourront] Donne l'immunité aux Contrôles pendant l'activation de la compétence et augmente les DEG de 24%.",
+        "2": "[Même les Dieux mourront] Donne l'immunité aux Contrôles pendant l'activation de la compétence et augmente les DEG de 29%.",
+        "3": "[Même les Dieux mourront] Donne l'immunité aux Contrôles pendant l'activation de la compétence et augmente les DEG de 35%.",
+        "4": "[Même les Dieux mourront] Donne l'immunité aux Contrôles pendant l'activation de la compétence et augmente les DEG de 42%.",
+        "5": "[Même les Dieux mourront] Donne l'immunité aux Contrôles pendant l'activation de la compétence et augmente les DEG de 50%."
+      }
+    },
+    "4": {
+      "name": "Carrousel musical",
+      "description": "[Préparatifs de chasse] Augmente le boost d'ATQ de 20 %. Crocs du chien de chasse devient inamovible.",
+      "value": {},
+      "thumbnail": "heroes/Crow/ut/4.png",
+      "story": "Rose, la femme de Crow, adorait ce carrousel musical.\nCrow se promenait dans les rues d'Orvelia lorsqu'il aperçut cette boîte à musique dans une vitrine.\nIl s'arrêta net, la fixant pendant un bon moment avant de finalement entrer dans le magasin. Il fit marcher la boîte à musique et resta planté là, écoutant en silence sa douce mélodie.\n- C'est la même.\n- Je lui ai dit que je lui en achèterais une neuve, mais elle préférait cette vieille boîte à musique usée.\nMurmurant dans sa barbe, il l'acheta.\nDans ses yeux, sa femme jouait de cette boîte à musique à sa fille, un grand sourire aux lèvres.",
+      "descriptionByStar": {
+        "0": "[Préparatifs de chasse] Augmente le boost d'ATQ de 20 %. Crocs du chien de chasse devient inamovible.",
+        "1": "[Préparatifs de chasse] Augmente le boost d'ATQ de 24 %. Crocs du chien de chasse devient inamovible.",
+        "2": "[Préparatifs de chasse] Augmente le boost d'ATQ de 29 %. Crocs du chien de chasse devient inamovible.",
+        "3": "[Préparatifs de chasse] Augmente le boost d'ATQ de 35 %. Crocs du chien de chasse devient inamovible.",
+        "4": "[Préparatifs de chasse] Augmente le boost d'ATQ de 42 %. Crocs du chien de chasse devient inamovible.",
+        "5": "[Préparatifs de chasse] Augmente le boost d'ATQ de 50 %. Crocs du chien de chasse devient inamovible."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 4 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme d'Akistra, le Chien de l'Enfer pendant 15 sec, ce qui inflige ??? DEG P supplémentaires lors de l'attaque de la compétence de Crow [Même les Dieux mourront]. Inflige des DEG augmentés de 100% lorsque cette compétence est chargée au maximum. Après avoir infligé les DEG, l'âme disparaît.",
+    "cooldown": "30",
+    "uses": "3",
+    "thumbnail": "heroes/Crow/sw.png",
+    "advancement": {
+      "1": "Augmente les DEG infligés de 80%.",
+      "2": "Augmente son taux d'ATQ de 40% pendant la durée de la compétence."
+    },
+    "story": "À l'origine, Akistra était destiné à être la tourelle installée sur le porte-avions en développement par l'empire, mais il demandait une quantité phénoménale de la force vitale provenant de plusieurs dizaines d'hommes, au point de les rendre tous inaptes au combat. Pour cela, il fut jugé inadapté sur le champ de bataille, et fut transformé en une tourelle à la puissance de feu amoindrie, mais pouvant être utilisé par la force vitale d'une seule personne.\nMême avec une moindre capacité, Akistra donnait de lourds dommages au corps de son utilisateur, mais sa puissance était capable de tuer le dieu lui-même.\nLorsque Crow utilisa Akistra pour la première fois, le code d'authentification enregistré par Rose, qui est 'la force vitale de Crow', se mit en diapason avec le cœur central d'Akistra. Plus Crow utilisait Akistra, plus le taux de diapason augmentait, jusqu'à ce que cela débloque les limites posées sur l'arme et éveille sa véritable puissance."
+  },
+  "splashart": "heroes/Crow/sa.png",
+  "costumes": "heroes/Crow/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

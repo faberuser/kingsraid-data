@@ -1,0 +1,228 @@
+{
+  "id": "Viska",
+  "profile": {
+    "name": "Viska",
+    "title": "Dämonenverschlinger Viska",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "4300",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "HERO_AGE_VISKA",
+    "height": "141",
+    "race": "Dämonen (Besessene Menschen)",
+    "constellation": "Hexipolia, der Wanderer",
+    "birth": {
+      "month": 12,
+      "day": 20,
+      "monthName": "Monat der Geduld"
+    },
+    "like": "Gegen mächtige Dämonen kämpfen und sie anschließend verschlingen",
+    "dislike": "Schwächlinge",
+    "story": "Eine Rebellin unter den Dämonen, die ihre eigene Macht vergrößert, in dem sie andere, mächtige Dämonen verschlingt. Sie verkörpert alles, wofür ein Dämon im schlimmsten Sinne steht. Sie überquerte den Dimensionsriss, um die Dämonen auf dem Weg ins Erdenreich aufzuspüren und zu verschlingen. Sie limitierte sich selbst in ihrer Macht und nahm die Gestalt eines kränklichen jungen Mädchens an, um ihre Opfer noch mehr zu demütigen. Sie hasst Schwächlinge, die sich für stark halten. Auf der anderen Seite respektiert sie jene, die ihre eigenen Schwächen eingestehen und ihr Leben auf der Suche nach Stärke riskieren.",
+    "thumbnail": "heroes/Viska/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Zeit zum Essen!",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Fügt Feinden in Reichw. ??? Mag. Schaden zu und verringert ihre ANG 10 Sek. lang um 25 %, während die eigene ANG um ??? steigt. Ist der Held im Besitz von 3 Seelen, wird der Feind für 3 Sek. gefesselt.",
+      "thumbnail": "heroes/Viska/skills/1.png"
+    },
+    "2": {
+      "name": "Ich schlitz' dich auf!",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Bewegt sich hinter das Ziel, entfernt alle positiven Effekte, fügt ihm ??? Mag. Schaden zu, wobei 15 Sek. lang der erhaltene Mag. Schaden des Ziels um 25 % erhöht und er zu Boden geworfen wird. Ist der Held im Besitz von 3 und mehr Seelen, wird 15 Sek. lang die Mag. VERT des Ziels um 30 % verringert.",
+      "thumbnail": "heroes/Viska/skills/2.png"
+    },
+    "3": {
+      "name": "Ich reiß' dich in Stücke!",
+      "cost": "4",
+      "cooldown": "13",
+      "description": "Fügt Feinden in einem großen, kreisförmigen Gebiet ??? Mag. Schaden zu und betäubt sie für 3 Sek. Sind 5 Seelen im Besitz, werden alle Seelen verbraucht und der Cooldown-Timer zurückgesetzt.",
+      "thumbnail": "heroes/Viska/skills/3.png"
+    },
+    "4": {
+      "name": "Lecker, Seelen!",
+      "cost": null,
+      "cooldown": null,
+      "description": "Gegner, die mit Viskas Skills angegriffen werden, verlieren Seelen. Bei jeder verlorenen Seele erleidet das Ziel ??? zusätzlichen Mag. Schaden und für jede gesammelte Seele, werden Viskas TP um ??? geheilt und Mana um 300 wiederaufgefüllt. Seelen bestehen solange, bis sie genutzt werden, können nicht abgewehrt und kan bis zu 5-mal gestapelt werden.",
+      "thumbnail": "heroes/Viska/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Feinde in Reichw. werden herangezogen, bevor der Skill verwendet wird."
+    },
+    "4": {
+      "II": "Erhöht Schaden und Heilungsrate um 10 %.",
+      "III": "Erhöht Schaden und Heilungsrate um 15 %.",
+      "IV": "Feinde ohne Seele verlieren 300 Mana."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Reduziert Cooldown um 4 Sek. für 1 extra Mana.",
+          "thumbnail": "heroes/Viska/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Seelenbedingung für Gefesselt-Effekt aufgehoben.",
+          "thumbnail": "heroes/Viska/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Viska/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Verringert 15 Sek. lang die Heilungsrate des Ziels um 30 %.",
+          "thumbnail": "heroes/Viska/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Kann aktiviert werden, ohne die 5 Seelen zu konsumieren.",
+          "thumbnail": "heroes/Viska/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Viska/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Die Seele des Feindes mit dem höchsten ANG wird mit jedem Kampfbeginn gestohlen und der eigene erhaltene Mag. Schaden verringert sich 10 Sek. lang um 20 %.",
+          "thumbnail": "heroes/Viska/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Für jede Seele wird ANG um 10 % erhöht.",
+          "thumbnail": "heroes/Viska/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Chance +100",
+        "thumbnail": "heroes/Viska/perks/light.png"
+      },
+      "dark": {
+        "effect": "Für jede Seele im Besitz werden Krit. Chance um 50 und Krit. Schaden um 30 % erhöht.",
+        "thumbnail": "heroes/Viska/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Alptraumkralle, Kitrax",
+    "description": "Feinde, deren Seele gestohlen wurde, erhalten 25 % extra Mag. Schaden. Dauert 10 Sek. an.",
+    "value": {},
+    "thumbnail": "heroes/Viska/uw.png",
+    "story": "Alptraum Kitrax war als beste und schrecklichste unter den Sukkuben bekannt. Nachdem Viska Kitrax im Ganzen und mit Seele verschlungen hatte, erzeugte sie daraufhin ihre mächtigste Waffe. Dieser Stachel ist die Verkörperung von Angst und Verzweiflung. Der Tod ist das einzige Schicksal seiner unglücklichen Opfer. Er injiziert fortwährend Angst in die Seele des Opfers, wodurch selbst die fähigsten Feinde nur mehr leichte Beute darstellen.",
+    "descriptionByStar": {
+      "0": "Feinde, deren Seele gestohlen wurde, erhalten 25 % extra Mag. Schaden. Dauert 10 Sek. an.",
+      "1": "Feinde, deren Seele gestohlen wurde, erhalten 30 % extra Mag. Schaden. Dauert 10 Sek. an.",
+      "2": "Feinde, deren Seele gestohlen wurde, erhalten 36 % extra Mag. Schaden. Dauert 10 Sek. an.",
+      "3": "Feinde, deren Seele gestohlen wurde, erhalten 43 % extra Mag. Schaden. Dauert 10 Sek. an.",
+      "4": "Feinde, deren Seele gestohlen wurde, erhalten 51 % extra Mag. Schaden. Dauert 10 Sek. an.",
+      "5": "Feinde, deren Seele gestohlen wurde, erhalten 60 % extra Mag. Schaden. Dauert 10 Sek. an."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Leckere Erinnerung",
+      "description": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann 1 Sek. lang kein Mana regenerieren.",
+      "value": {},
+      "thumbnail": "heroes/Viska/ut/1.png",
+      "story": "Juwelen, die Viska dazu verwendet hat, die Erinnerungen an Dämonen zu speichern, die sie für lecker hielt.\nSie hatte schon immer das Gefühl, dass ihr Geschmack zu schnell verflüchtigte. Als sie einmal nichts Gutes zu essen finden konnten, ist ihr eine brillante Idee gekommen. Sie dachte, sie könnte die Träume aus Alptraumjuwelen von Alptraum Kitrax extrahieren und ihre Erinnerungen an köstliche Beute darin speichern. So konnte sie vergangene Freuden wieder aufleben lassen. Aufgeregt schloss sie eine Erinnerung an einen köstlichen Dämon in das Juwel ein und seitdem ist Viska ständig auf der Suche nach noch besser schmeckenden Dingen, die sie in Juwelen einschließen kann.",
+      "descriptionByStar": {
+        "0": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann 1 Sek. lang kein Mana regenerieren.",
+        "1": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann 1,2 Sek. lang kein Mana regenerieren.",
+        "2": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann 1,4 Sek. lang kein Mana regenerieren.",
+        "3": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann 1,7 Sek. lang kein Mana regenerieren.",
+        "4": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann 2,1 Sek. lang kein Mana regenerieren.",
+        "5": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann 2,5 Sek. lang kein Mana regenerieren."
+      }
+    },
+    "2": {
+      "name": "Klaue der wütenden Bestie",
+      "description": "[Ich schlitz' dich auf!] verringert den Cooldown um 30 % und fügt 8 % Mag. VERT-Verringerung hinzu.",
+      "value": {},
+      "thumbnail": "heroes/Viska/ut/2.png",
+      "story": "Klaue der gewalttätigen magischen Bestie Urgol, die ihren Opfern die Seelen herausbeißen können soll.\nAm Tag, als Viska beschloss, in der materiellen Welt zu jagen, verschlang sie Urgol aus der Dämonenwelt.\nZusammen mit ihrer Fähigkeit, die Kräfte von anderen zu absorbieren, kam sie so zu großer Macht.\nDie Klaue ist außerdem notwendig, um Dämonen zu verschlingen, die in die materiellen Welt auftauchen.",
+      "descriptionByStar": {
+        "0": "[Ich schlitz' dich auf!] verringert den Cooldown um 30 % und fügt 8 % Mag. VERT-Verringerung hinzu.",
+        "1": "[Ich schlitz' dich auf!] verringert den Cooldown um 30 % und fügt 10 % Mag. VERT-Verringerung hinzu.",
+        "2": "[Ich schlitz' dich auf!] verringert den Cooldown um 30 % und fügt 12 % Mag. VERT-Verringerung hinzu.",
+        "3": "[Ich schlitz' dich auf!] verringert den Cooldown um 30 % und fügt 14 % Mag. VERT-Verringerung hinzu.",
+        "4": "[Ich schlitz' dich auf!] verringert den Cooldown um 30 % und fügt 17 % Mag. VERT-Verringerung hinzu.",
+        "5": "[Ich schlitz' dich auf!] verringert den Cooldown um 30 % und fügt 20 % Mag. VERT-Verringerung hinzu."
+      }
+    },
+    "3": {
+      "name": "Seele des Riesendämons",
+      "description": "[Ich reiß' dich in Stücke!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden bei jeder Nutzung um 4 %. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
+      "value": {},
+      "thumbnail": "heroes/Viska/ut/3.png",
+      "story": "Kristalline Form der Seele des Großdämonen Curapis, der die Kraft besitzt, riesig anzuwachsen. Er war einer der ersten Dämonen, die Viska in der Dämonenwelt jagte und man sagt, dass er seinen mächtigen Körper dazu nutzte, um seine Feinde zu dominieren. Im Kampf geht es jedoch nicht nur um Kraft allein – man muss auch seinen Kopf benutzen. Der riesige Dämon wurde besiegt und von einer Räuberin gefressen, die ihr Gehirn benutzte. Viska erhielt die Kraft des Riesenwachstums und kann sie nun jederzeit einsetzen.",
+      "descriptionByStar": {
+        "0": "[Ich reiß' dich in Stücke!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden bei jeder Nutzung um 4 %. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
+        "1": "[Ich reiß' dich in Stücke!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden bei jeder Nutzung um 4,8 %. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
+        "2": "[Ich reiß' dich in Stücke!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden bei jeder Nutzung um 5,8 %. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
+        "3": "[Ich reiß' dich in Stücke!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden bei jeder Nutzung um 7 %. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
+        "4": "[Ich reiß' dich in Stücke!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden bei jeder Nutzung um 8,4 %. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
+        "5": "[Ich reiß' dich in Stücke!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden bei jeder Nutzung um 10 %. Effekt kann sich bis zu max. 10-mal gestapelt werden."
+      }
+    },
+    "4": {
+      "name": "Symbol der Völlerei",
+      "description": "[Lecker, Seelen!] erhöht die MP beim Erhalt einer Seele um 100. Jeder Stapel Seele gewährt 70 Massenkontrolle-PRÄZ.",
+      "value": {},
+      "thumbnail": "heroes/Viska/ut/4.png",
+      "story": "Hierbei handelt es sich um kristallisierte Manaenergie von „Araneck“, einer Bestie, die die „Völlerei“ verschluckt hatte und zu den Bestien der 7 Sünden zählt. Sie wurde von Viska getötet, nachdem sie in die materielle Welt gekommen war.\nDie Farbe des Juwels in der Mitte des Kristalls spiegelt die Macht seines Besitzers wider. Das Juwel war ursprünglich durchsichtig, doch als Viska es berührte, begann es rot zu leuchten und auf seiner Oberfläche ein kleines Muster zu entstehen.\nMit Viskas Macht wuchs auch das Muster, und sie dachte immer wieder darüber nach, wie das Muster wohl aussehen würde, wenn sie zum Dunklen Lord ernannt werden würde.",
+      "descriptionByStar": {
+        "0": "[Lecker, Seelen!] erhöht die MP beim Erhalt einer Seele um 100. Jeder Stapel Seele gewährt 70 Massenkontrolle-PRÄZ.",
+        "1": "[Lecker, Seelen!] erhöht die MP beim Erhalt einer Seele um 120. Jeder Stapel Seele gewährt 70 Massenkontrolle-PRÄZ.",
+        "2": "[Lecker, Seelen!] erhöht die MP beim Erhalt einer Seele um 140. Jeder Stapel Seele gewährt 70 Massenkontrolle-PRÄZ.",
+        "3": "[Lecker, Seelen!] erhöht die MP beim Erhalt einer Seele um 170. Jeder Stapel Seele gewährt 70 Massenkontrolle-PRÄZ.",
+        "4": "[Lecker, Seelen!] erhöht die MP beim Erhalt einer Seele um 210. Jeder Stapel Seele gewährt 70 Massenkontrolle-PRÄZ.",
+        "5": "[Lecker, Seelen!] erhöht die MP beim Erhalt einer Seele um 250. Jeder Stapel Seele gewährt 70 Massenkontrolle-PRÄZ."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 20 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört 10 Sek. lang die Seele von Alptraumkralle, Kitrax und verringert den erhaltenen Schaden für 1 Seele im Besitz um 6 %. Pro Sek. werden TP in Höhe von 1 % der max. TP und 50 MP regeneriert. Danach wird den frontal stehenden Gegnern ??? Mag. Schaden zugefügt und die getroffenen Ziele werden für 4 Sek. versteinert. Wenn die Anzahl der Seelen 5 beträgt, wird das Cooldown aller Viska-Skills zurückgesetzt.",
+    "cooldown": "25",
+    "uses": "5",
+    "thumbnail": "heroes/Viska/sw.png",
+    "advancement": {
+      "1": "Die Versteinerungsdauer wird um 3 Sek. erhöht und der erhaltene Mag. Schaden des getroffenen Ziels wird 10 Sek. lang um 30 % erhöht.",
+      "2": "Während der Wirkungsdauer wird der Schaden des Ich reiß' dich in Stücke!-Skills um 100 % erhöht."
+    },
+    "story": "Kitrax, die Königin des Alptraums, ist eine böse Kreatur, die die Grenze zwischen Realität und Traum überschreitet und nach Angst sucht.\nEs gibt viele Menschen, die sie fürchten, sogar unter den Dämonen.\nAber Viska war anders.\nFür Viska ist Angst das, was sie überwinden sollte, nicht das, was sie fürchten muss.\nAlso besiegte Viska ihre Angst im direkten Kampf mit Kitrax und bekam die Macht.\n\nDanach wurde Viska eine Form der Angst unter den Dämonen. Sie nutzte ihre neue Kraft, wie sie wollte, und war böser als Kitrax.\nEs gab also weniger Dämonen, die gegen sie kämpfen würden.\n\nViska ist das egal.\nEs könnte ein Weg sein, die Starken auszusuchen. Der Feind, der die Angst vor Kitrax überwinden und kämpfen würde, ist derjenige, den sie akzeptieren kann.\nUnd die Schwachen, die den Albtraum nie überwinden konnten, sind es nicht wert, zu kämpfen.\n\nAlso aß sie die starken Dämonen, ergriff Kräfte und überwand die Grenze.\nSie wurde eine große Dämonin und ein Wesen, das mit dem Dämonenkönig übereinstimmt ..."
+  },
+  "splashart": "heroes/Viska/sa.png",
+  "costumes": "heroes/Viska/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

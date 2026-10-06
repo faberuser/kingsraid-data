@@ -1,0 +1,57 @@
+{
+  "id": "Nubis",
+  "profile": {
+    "name": "뉴비스",
+    "title": "구속의 여왕",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "야수",
+    "damage_type": "Magical, Physical",
+    "recommended_heroes": "카울라, 에피스, 로레인",
+    "characteristics": "[여왕의 아이]로 소환한 전갈 수 마다 자신의 모든 방어력과 공격력을 크게 증가 시킵니다. 많은 몬스터를 효과적으로 처리할 수 있는 마법 피해 영웅을 잘 활용해야 합니다.",
+    "thumbnail": "bosses/Nubis.png",
+    "recommendedHeroNames": [
+      "Kaulah",
+      "Epis",
+      "Lorraine"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "사막의 독침",
+      "cost": null,
+      "cooldown": "15",
+      "description": "임의의 대상에게 독침을 발사하여 마법 피해와 지속적인 마법 피해를 입히며 전갈 4마리를 소환합니다."
+    },
+    "2": {
+      "name": "독기 흡수",
+      "cost": null,
+      "cooldown": "20",
+      "description": "주변의 독기를 흡수하여 물리 피해를 입으면 데미지를 반사하고 5초간 석화 상태로 만듭니다. 또한, 흡수가 완료되면 주변에 충격파를 발산하여 마법 피해를 주고 3초간 넘어뜨립니다."
+    },
+    "3": {
+      "name": "석화의 독액",
+      "cost": null,
+      "cooldown": "20",
+      "description": "가장 멀리있는 적과 그 주변에 지속적으로 독액을 주입하여 마법 피해를 줍니다. 독액 주입이 완료되면 대상과 주위가 5초간 석화상태가 됩니다."
+    },
+    "4": {
+      "name": "여왕의 아이",
+      "cost": null,
+      "cooldown": null,
+      "description": "살아있는 전갈의 수 만큼 자신의 모든 방어력과 공격력을 크게 증가시킵니다. 뉴비스는 공격 속도 감소 및 증가에 영향을 받지 않습니다."
+    },
+    "5": {
+      "name": "정화",
+      "cost": null,
+      "cooldown": null,
+      "description": "30초마다 자신의 해로운 효과를 제거하고 공격속도를 증가시킵니다."
+    }
+  },
+  "aliases": [
+    "Nubis",
+    "GR3",
+    "GR 3"
+  ]
+}

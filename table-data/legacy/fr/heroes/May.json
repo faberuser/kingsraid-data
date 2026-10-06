@@ -1,0 +1,270 @@
+{
+  "id": "May",
+  "profile": {
+    "name": "May",
+    "title": "May, Fille qui rêve de Richesses",
+    "class": "Priest",
+    "position": "Middle-100",
+    "attack_range": "9000",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "15",
+    "height": "146",
+    "race": "Humain",
+    "constellation": "Gisla le Fin Tireur",
+    "birth": {
+      "month": 11,
+      "day": 7,
+      "monthName": "Mois de la Chance"
+    },
+    "like": "L'or",
+    "dislike": "Le carnet de dépenses en déficit",
+    "story": "Une fille qui tient sa propre Boutique Générale au Château d'Orvel. Elle est adorable et traite tout le monde avec la même gentillesse et le même enthousiasme. Elle rêve de devenir un jour la marchande la plus riche d'Orvel. Elle cherche et récupère elle-même ses propres marchandises. Vu ses efforts pour obtenir ses produits, ses prix ne sont pas bon marché, ce qui lui attire des critiques. Elle se prépare actuellement à partir pour le Désert Aegina, car elle a entendu que quelqu'un y avait trouvé un trésor.",
+    "thumbnail": "heroes/May/ico.png"
+  },
+  "skills": {
+    "1 (1)": {
+      "name": "Prenez tout!",
+      "cost": "1",
+      "cooldown": "8",
+      "description": "Augmente l'ATQ de tous les alliés de 0.5% de l'ATQ de May + ??? pendant 120 sec, restaure 500 mana et accorde soit 70 de pénétration de DEF, soit 100 de vitesse d'attaque. Le bonus d'ATQ est multiplié par 3 pour l'allié à l'ATQ la plus élevée, hors May. Tous les effets sauf la récupération de mana se cumulent jusqu'à 8 fois. Après 20 utilisations ou plus, devient [Seulement le meilleur du meilleur !!].",
+      "thumbnail": "heroes/May/skills/1 (1).png"
+    },
+    "1 (2)": {
+      "name": "Que des Produits de Qualité !!",
+      "cost": "1",
+      "cooldown": "8",
+      "description": "Active tous les effets de [Prenez tout !], restaure 500 PM de tous les alliés et augmente leur DEG infligés aux ennemis non-Héros de 2%. L'augmentation des DEG infligés aux ennemis non-Héros peut se cumuler jusqu'à 10 fois.",
+      "thumbnail": "heroes/May/skills/1 (2).png"
+    },
+    "2": {
+      "name": "Courage!",
+      "cost": "2",
+      "cooldown": "11",
+      "description": "Restaure ??? PV de tous les alliés, puis 1% des PV max de chaque cible toutes les sec pendant 10 sec, et augmente leur Résistance aux Contrôles de 250 pendant 10 sec. A 30% de chances de multiplier la première restauration des PV par 2.",
+      "thumbnail": "heroes/May/skills/2.png"
+    },
+    "3": {
+      "name": "Pas à vendre!",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Inflige ??? DEG M à un ennemi aléatoire et ceux autour de la cible en 3 fois et les étourdit pendant 4 sec. A 10% de chances de multiplier la portée d'attaque, les DEG infligés et la durée d'étourdissement par 2. Active [Prenez ça !] à la fin de cette compétence.",
+      "thumbnail": "heroes/May/skills/3.png"
+    },
+    "4": {
+      "name": "Prenez ça!",
+      "cost": null,
+      "cooldown": null,
+      "description": "Inflige ??? DEG M à 5 ennemis aléatoires toutes les 15 sec et pendant 10 sec, augmente les DEG M reçus de 25%. Ensuite, leur inflige l'un des effets suivants : ??? DEG M en continu sur 10 sec, étourdissement pendant 2 sec, ou gel pendant 5 sec.",
+      "thumbnail": "heroes/May/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente l'augmentation d'ATQ de 10%.",
+      "III": "Augmente l'augmentation d'ATQ de 15%.",
+      "IV": "Augmente l'augmentation d'ATQ de 25%."
+    },
+    "2": {
+      "II": "Augmente les soins de 10%.",
+      "III": "Augmente les soins de 15%.",
+      "IV": "Augmente les soins de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG de 10%.",
+      "III": "Augmente les DEG de 15%.",
+      "IV": "Augmente les DEG de 25%."
+    },
+    "4": {
+      "II": "Augmente les DEG de 10%.",
+      "III": "Augmente les DEG de 15%.",
+      "IV": "Augmente les DEG de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Tous les effets ne peuvent être dissipés.",
+          "thumbnail": "heroes/May/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Modifie le nombre max des augmentations cumulables des DEG infligés aux ennemis non-Héros par la compétence [Que des Produits de Qualité !!] pour 15.",
+          "thumbnail": "heroes/May/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Augmente la durée de la restauration des PV de 3 sec.",
+          "thumbnail": "heroes/May/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Restaure 1 barres de PM des alliés lors de l'activation de l'effet de multiplication de la restauration des PV par 2.",
+          "thumbnail": "heroes/May/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1 barre.",
+          "thumbnail": "heroes/May/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Focalise toutes les attaques sur un ennemi aléatoire.",
+          "thumbnail": "heroes/May/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Modifie l'intervalle d'activation pour 12 sec.",
+          "thumbnail": "heroes/May/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Augmente l'effet d'augmentation des DEG M reçus de 3% à chaque utilisation de [Prenez tout !]. Cet effet peut se cumuler jusqu'à 10 fois et ne peut être dissipé.",
+          "thumbnail": "heroes/May/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Résist. Contrôles +100",
+        "thumbnail": "heroes/May/perks/light.png"
+      },
+      "dark": {
+        "effect": "A 30 % de chances de restaurer 3% des PV ou 5% des PM de l'allié aux PV les plus faibles lors de l'attaque automatique.",
+        "thumbnail": "heroes/May/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Etelia, la Boîte de Parfum",
+    "description": "Réduit le temps de recharge de toutes les compétences de {0} sec. Augmente l'augmentation de Vitesse d'ATQ et de Pénétration DEF conférées par [Prenez tout !] de {1}.",
+    "value": {
+      "0": {
+        "0": "1.4",
+        "1": "1.7",
+        "2": "2.1",
+        "3": "2.5",
+        "4": "3",
+        "5": "3.6"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      }
+    },
+    "thumbnail": "heroes/May/uw.png",
+    "story": "Un panier étrange dont May ne se sépare jamais quand elle se met en quête de nouveaux matériaux. Il contient une quantité infinie d'espace et réduit a zéro le poids des objets qu'il recèle. Cela permet à May de rapporter une quantité astronomique d'objets en un seul voyage. À première vue, il pourrait tout aussi bien transporter un pique-nique. Cependant, on prétend que May y cache des choses… douteuses. Mais allez savoir…",
+    "descriptionByStar": {
+      "0": "Réduit le temps de recharge de toutes les compétences de 1.4 sec. Augmente l'augmentation de Vitesse d'ATQ et de Pénétration DEF conférées par [Prenez tout !] de 20.",
+      "1": "Réduit tous les temps de recharge des compétences de 1,7 sec et augmente l'amélioration de Vitesse d'ATQ et Pénétration DEF de [Prenez tout!] de 24.",
+      "2": "Réduit tous les temps de recharge des compétences de 2,1 sec et augmente l'amélioration de Vitesse d'ATQ et Pénétration DEF de [Prenez tout!] de 29.",
+      "3": "Réduit tous les temps de recharge des compétences de 2,5 sec et augmente l'amélioration de Vitesse d'ATQ et Pénétration DEF de [Prenez tout!] de 35.",
+      "4": "Réduit tous les temps de recharge des compétences de 3 sec et augmente l'amélioration de Vitesse d'ATQ et Pénétration DEF de [Prenez tout!] de 42.",
+      "5": "Réduit tous les temps de recharge des compétences de 3,6 sec et augmente l'amélioration de Vitesse d'ATQ et Pénétration DEF de [Prenez tout!] de 50."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Assortiment de potions revigorantes",
+      "description": "[Prenez tout! / Que des Produits de Qualité !!] Réduit le coût en PM de 1 barre et augmente la DEF M de la cible de {0}% pendant 20 sec. Cet effet peut se cumuler jusqu'à 8 fois.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
+      "thumbnail": "heroes/May/ut/1.png",
+      "story": "Ces quatre potions aux effets et couleurs différents décuplent la volonté, la concentration, le mana et la vitalité. May assure que cet assortiment possède aussi un effet rajeunissant extraordinaire, mais les ingrédients qu'elles contiennent restent un pur mystère. Cela vaut peut-être mieux ainsi.",
+      "descriptionByStar": {
+        "0": "[Prenez tout! / Que des Produits de Qualité !!] Réduit le coût en PM de 1 barre et augmente la DEF M de la cible de 2% pendant 20 sec. Cet effet peut se cumuler jusqu'à 8 fois.",
+        "1": "[Prenez tout!] Réduit le coût en PM de 1 barre et augmente la DEF M de la cible de 2,4 % pendant 20 sec. Cet effet peut se cumuler jusqu'à 8 fois.",
+        "2": "[Prenez tout!] Réduit le coût en PM de 1 barre et augmente la DEF M de la cible de 2,9 % pendant 20 sec. Cet effet peut se cumuler jusqu'à 8 fois.",
+        "3": "[Prenez tout!] Réduit le coût en PM de 1 barre et augmente la DEF M de la cible de 3,4 % pendant 20 sec. Cet effet peut se cumuler jusqu'à 8 fois.",
+        "4": "[Prenez tout!] Réduit le coût en PM de 1 barre et augmente la DEF M de la cible de 4,2 % pendant 20 sec. Cet effet peut se cumuler jusqu'à 8 fois.",
+        "5": "[Prenez tout!] Réduit le coût en PM de 1 barre et augmente la DEF M de la cible de 5 % pendant 20 sec. Cet effet peut se cumuler jusqu'à 8 fois."
+      }
+    },
+    "2": {
+      "name": "Délicieuse part de gâteau",
+      "description": "[Courage !] Augmente les soins de 50% et augmente le Crit de tous les alliés de {0} pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/May/ut/2.png",
+      "story": "Gâteau préparé spécialement par Juno. Il sent délicieusement bon. \nMay adore en manger au goûter. Personne ne sait vraiment pourquoi elle ne veut pas donner sa recette.",
+      "descriptionByStar": {
+        "0": "[Courage !] Augmente les soins de 50% et augmente le Crit de tous les alliés de 100 pendant 10 sec.",
+        "1": "[Courage !] Augmente les soins de 24 % et donne 20 % de chances de doubler les soins.",
+        "2": "[Courage !] Augmente les soins de 29 % et donne 20 % de chances de doubler les soins.",
+        "3": "[Courage !] Augmente les soins de 35 % et donne 20 % de chances de doubler les soins.",
+        "4": "[Courage !] Augmente les soins de 42 % et donne 20 % de chances de doubler les soins.",
+        "5": "[Courage !] Augmente les soins de 50 % et donne 20 % de chances de doubler les soins."
+      }
+    },
+    "3": {
+      "name": "Boule de cristal d'origine inconnue",
+      "description": "[Pas à vendre!] Augmente les DEG de 20% et le nombre des coups infligés à l'ennemi de 1.",
+      "value": {},
+      "thumbnail": "heroes/May/ut/3.png",
+      "story": "À l’époque de l’ancienne civilisation, quelqu’un déroba les sorts des sages et concentra leur pouvoir dans une boule de cristal, sans doute dans le but de devenir le plus grand chaman de tous les temps. Seulement, aucun livre d’histoire n’a jamais mentionné cette boule de cristal, retrouvée très loin du village, près de personne n’a jamais trouvé la moindre trace de cette boule de cristal, près du fleuve Eden. Plusieurs sorts élémentaires sont ainsi rassemblés au même endroit et le danger que cela représente rend incertaine la manière dont ces pouvoirs seront libérés.",
+      "descriptionByStar": {
+        "0": "[Pas à vendre!] Augmente les DEG de 20% et le nombre des coups infligés à l'ennemi de 1.",
+        "1": "[Pas à vendre!] Augmente les DEG de 24% et le nombre des coups infligés à l'ennemi de 1.",
+        "2": "[Pas à vendre!] Augmente les DEG de 29% et le nombre des coups infligés à l'ennemi de 1.",
+        "3": "[Pas à vendre!] Augmente les DEG de 35% et le nombre des coups infligés à l'ennemi de 1.",
+        "4": "[Pas à vendre!] Augmente les DEG de 42% et le nombre des coups infligés à l'ennemi de 1.",
+        "5": "[Pas à vendre!] Augmente les DEG de 50% et le nombre des coups infligés à l'ennemi de 1."
+      }
+    },
+    "4": {
+      "name": "Boîte à bonbons sournoise",
+      "description": "[Prenez ça !] Modifie pour cibler tous les ennemis et restaure 200 PM à tous les alliés lors de l'activation.",
+      "value": {},
+      "thumbnail": "heroes/May/ut/4.png",
+      "story": "Une boîte à bonbons extrêmement rare en édition limitée achetée par May à la Boutique de jouets magiques extraordinaires d'Orvelia.\nC'est le chef-d'œuvre du propriétaire et il ne s'en vendra plus.\nMalgré l'inscription « Attention ! À ne manger sous aucun prétexte ! » sur la boîte, les friandises à l'intérieur ont l'air terriblement appétissantes.\nCependant, elle a été conçue pour « les blagues de très mauvais goût » et explose une fois lancée. Sa puissance destructrice est proportionnelle à la quantité de mana du lanceur.\nAprès explosion, les morceaux de bonbons se rassemblent, se reconstituent et retournent dans leur boîte.\nLe sang de May ne fit qu'un tour et elle s'empressa d'ajouter cette boîte adorablement redoutable à son panier d'achats.",
+      "descriptionByStar": {
+        "0": "[Prenez ça !] Modifie pour cibler tous les ennemis et restaure 200 PM à tous les alliés lors de l'activation.",
+        "1": "[Prenez ça !] Modifie pour cibler tous les ennemis et restaure 240 PM à tous les alliés lors de l'activation.",
+        "2": "[Prenez ça !] Modifie pour cibler tous les ennemis et restaure 290 PM à tous les alliés lors de l'activation.",
+        "3": "[Prenez ça !] Modifie pour cibler tous les ennemis et restaure 350 PM à tous les alliés lors de l'activation.",
+        "4": "[Prenez ça !] Modifie pour cibler tous les ennemis et restaure 420 PM à tous les alliés lors de l'activation.",
+        "5": "[Prenez ça !] Modifie pour cibler tous les ennemis et restaure 500 PM à tous les alliés lors de l'activation."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 15 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme d'Etelia, la Boîte de Parfum, ce qui restaure un total de ??? PV de tous les alliés en 10 sec, et augmente l'ATQ de l'allié à l'ATQ la plus élevée en dehors du lanceur de 4% pendant 120 sec toutes les 3 sec. L'effet d'augmentation d'ATQ peut se cumuler jusqu'à 20 fois et a 30% de chances de se cumuler 2 fois en une seule fois.",
+    "cooldown": "20",
+    "uses": "5",
+    "thumbnail": "heroes/May/sw.png",
+    "advancement": {
+      "1": "Augmente les soins de 100% et les chances de cumuler 2 charges en une fois de 50%.",
+      "2": "Augmente les DEG infligés au boss par l'allié à l'ATQ la plus élevée de 1% par nombre d'augmentation d'ATQ cumulé."
+    },
+    "story": "Du temps de la civilisation antique, les sages avaient sans cesse effectué des recherches afin de trouver un intermédiaire qui pourrait contenir quelque chose, et le résultat de ces recherches fut Etelia, l'élémentaire artificielle.\nÀ l'apparence d'un papillon élégant, elle possédait des connaissances vastes, que ce soit des informations sur des objets communs, ou des archives historiques.\nCependant, durant ce processus, il se produisit un événement imprévu : Etelia, qui n'avait pas de conscience de soi, se mit à ressentir de la curiosité. Après cela, afin de la satisfaire, elle fit des actes extravagants tels que copier en secret les sorts des sages, et les expérimenter sur les civiles. En comprenant la dangerosité d'Etelia, les sages la scellèrent à l'intérieur d'un petit panier, et l'enfermèrent dans une grotte sombre, pour que personne ne puisse mettre la main dessus.\nUn nombre incalculable d'années s'écoulèrent, puis Etelia devint la possession d'une jeune fille qui gérait la boutique générale d'Orvel. Cette jeune fille, May, qui s'efforçait tout le temps afin de réaliser son rêve, éveilla la curiosité d'Etelia. Cette dernière, qui s'ennuyait depuis longtemps, brisa le sceau avant d'apparaître sous sa véritable apparence.\nEtelia demanda à cette jeune fille pure et joyeuse de lui permettre de faire des expériences extraordinaires, en échange de son aide pour qu'elle réalise ses rêves. May lui répondit qu'Etelia pourrait faire de nouvelles expériences si elle devenait son amie.\n\nAlors Etelia lui prit la main, d'un air heureux..."
+  },
+  "splashart": "heroes/May/sa.png",
+  "costumes": "heroes/May/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

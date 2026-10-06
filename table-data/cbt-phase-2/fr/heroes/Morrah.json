@@ -1,0 +1,280 @@
+{
+  "id": "Morrah",
+  "profile": {
+    "name": "Morrah",
+    "title": "Morrah, Flamme du Diable",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "2300",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "???",
+    "height": "178",
+    "race": "Démon (Draconic ténébreux)",
+    "constellation": "Armil le Vénéré",
+    "birth": {
+      "month": 4,
+      "day": 9,
+      "monthName": "Mois de la Vie"
+    },
+    "like": "Les adversaires de taille, les combats intéressants",
+    "dislike": "Les dragons",
+    "story": "Ancien commandant des Chevaliers du Dragon Noir, c'est la plus vaillante des chevaliers démons de l'Armée Démoniaque. Actuellement, pour une raison inconnue, elle suit la sorcière Maria et l'aide dans son travail. Beaucoup trouvent étrange que l'ancienne championne de l'Armée Démoniaque, qui a massacré d'innombrables ennemis et même dévoré des dragons, travaille actuellement comme simple servante d'une sorcière. Cependant, elle continue de servir fidèlement sa maîtresse.",
+    "thumbnail": "heroes/Morrah/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Puissance brûlante",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Inflige 56*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 43.4% ATK DEG M 3 fois aux ennemis à portée, applique 1 cumuls de [Flamme] et les renverse pendant 3 sec. Puis pendant 5 sec, les attaques normales infligent 34*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 26.1% ATK DEG M et appliquent 1 cumuls de [Flamme]. Les DEG de cette compétence augmentent de 2% par cumul de [Flamme].\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Morrah/skills/1.png"
+    },
+    "2": {
+      "name": "Feu d'Enfer",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Pendant 5 sec, augmente la DEF M de tous les alliés de 280*(0.7+(0.3*Skill Level*Awakening Coefficient)) et leur blocage magique de 400. Applique 1 cumuls de [Flamme] aux ennemis proches toutes les 1 sec.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Morrah/skills/2.png"
+    },
+    "3": {
+      "name": "Éruption de Lave",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Inflige 180*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 113.7% ATK DEG M 3 fois aux ennemis à portée et les renverse. Les DEG augmentent de 2% par cumul de [Flamme].\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Morrah/skills/3.png"
+    },
+    "4": {
+      "name": "Feu fracassant",
+      "cost": null,
+      "cooldown": "1",
+      "description": "Lors d’un blocage, inflige 25*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 15.7% ATK DEG M aux ennemis proches, applique 5 cumuls de [Flamme] et augmente sa propre DEF M de 6% pendant 6 sec, jusqu’à 5 cumuls. [Flamme] : inflige des DEG M égaux à 3% de l’ATQ toutes les 1 sec pendant 20 sec et réduit les soins reçus de 1%, jusqu’à 100 cumuls.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Morrah/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "2": {
+      "II": "Augmente l'augmentation de DEF M de [64ff64]10[-]%.",
+      "III": "Augmente l'augmentation de DEF M de [64ff64]15[-]%.",
+      "IV": "Le taux d'augmentation des Chances de Blocage M est augmenté de [64ff64]25[-]%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "4": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "La vitesse d'attaque augmente de 30 % pendant 3 s.",
+          "thumbnail": "heroes/Morrah/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Pour chaque ennemi qui subit des DEG, le Temps de recharge est réduit de 10%.",
+          "thumbnail": "heroes/Morrah/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Le taux de Blocage M est augmenté de 25%.",
+          "thumbnail": "heroes/Morrah/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Pendant la durée de l'effet, inflige aux ennemis proches des DEG égaux à 40% de sa propre DEF M.",
+          "thumbnail": "heroes/Morrah/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Les DEG sont augmentés de 40%.",
+          "thumbnail": "heroes/Morrah/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Restaure les PV à hauteur de 40% des DEG infligés.",
+          "thumbnail": "heroes/Morrah/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Lors d'un blocage, le nombre maximum de cumuls d'augmentation de DEF M passe à 10.",
+          "thumbnail": "heroes/Morrah/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Si la cible a plus de 100 charges de Flamme, les DEG M qu'elle reçoit sont augmentés de 40%.",
+          "thumbnail": "heroes/Morrah/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Blocage M +200",
+        "thumbnail": "heroes/Morrah/perks/light.png"
+      },
+      "dark": {
+        "effect": "Les DEG des charges de Flamme sont augmentés de 100% et le nombre maximum de charges passe à 120.",
+        "thumbnail": "heroes/Morrah/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Carprain, la Flamme de Victoire",
+    "description": "Les attaques normales ont 20% de chances de réduire l'ATQ de la cible de {0}% et sa DEF M de {1}% pendant 5 sec. En présence d'au moins 100 cumuls de [Flamme], la réduction de DEF M est multipliée par 2.",
+    "thumbnail": "heroes/Morrah/uw.png",
+    "story": "Un forgeron réside au cœur du volcan Dragia. Des centaines d'années auparavant, Téméraire, l'ancien Dragon du Feu, créa un ensemble d'équipements enchantés. En utilisant de la lave imprégnée de puissance volcanique, il forgea un bouclier et une épée capables d'incinérer n'importe quoi. Durant la guerre contre les démons, Téméraire les présenta à un guerrier humain. Hélas, on raconte que ce guerrier fut vaincu par Morrah. Depuis, plus personne n'a vu cet équipement légendaire. Du moins pas avant que Morrah ne réapparaisse.",
+    "value": {
+      "0": {
+        "0": "7",
+        "1": "8.4",
+        "2": "9.8",
+        "3": "11.2",
+        "4": "12.6",
+        "5": "14"
+      },
+      "1": {
+        "0": "7",
+        "1": "8.4",
+        "2": "9.8",
+        "3": "11.2",
+        "4": "12.6",
+        "5": "14"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Les attaques normales ont 20% de chances de réduire l'ATQ de la cible de 7% et sa DEF M de 7% pendant 5 sec. En présence d'au moins 100 cumuls de [Flamme], la réduction de DEF M est multipliée par 2.",
+      "1": "Les attaques normales ont 20% de chances de réduire l'ATQ de la cible de 8.4% et sa DEF M de 8.4% pendant 5 sec. En présence d'au moins 100 cumuls de [Flamme], la réduction de DEF M est multipliée par 2.",
+      "2": "Les attaques normales ont 20% de chances de réduire l'ATQ de la cible de 9.8% et sa DEF M de 9.8% pendant 5 sec. En présence d'au moins 100 cumuls de [Flamme], la réduction de DEF M est multipliée par 2.",
+      "3": "Les attaques normales ont 20% de chances de réduire l'ATQ de la cible de 11.2% et sa DEF M de 11.2% pendant 5 sec. En présence d'au moins 100 cumuls de [Flamme], la réduction de DEF M est multipliée par 2.",
+      "4": "Les attaques normales ont 20% de chances de réduire l'ATQ de la cible de 12.6% et sa DEF M de 12.6% pendant 5 sec. En présence d'au moins 100 cumuls de [Flamme], la réduction de DEF M est multipliée par 2.",
+      "5": "Les attaques normales ont 20% de chances de réduire l'ATQ de la cible de 14% et sa DEF M de 14% pendant 5 sec. En présence d'au moins 100 cumuls de [Flamme], la réduction de DEF M est multipliée par 2."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Œil de l'enfer",
+      "description": "[Puissance brûlante] Augmente les DEG de {0} % et chaque charge de Flamme infligée à l'ennemi devient inamovible.",
+      "thumbnail": "heroes/Morrah/ut/1.png",
+      "story": "Il s'agit du plus petit des yeux de Belzebuna, une créature qui se nourrissait des laves de l'enfer.\nCet œil, le dernier parmi cent, resplendit d'une sombre folie.\nBelzebuna fit fondre une pierre de sceau de Morrah, en perdit le contrôle, sortit de la lave et fonça sur elle. Morrah n'hésita pas à frapper son œil avec Carprain, tandis qu'une chaleur d'une autre nature engloutissait et consumait la créature. Lorsqu'elle vit sa carcasse se ratatiner, Morrah ramassa son dernier œil et l'apposa sur son bouclier en signe de moquerie.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Puissance brûlante] Augmente les DEG de 20 % et chaque charge de Flamme infligée à l'ennemi devient inamovible.",
+        "1": "[Puissance brûlante] Augmente les DEG de 24 % et chaque charge de Flamme infligée à l'ennemi devient inamovible.",
+        "2": "[Puissance brûlante] Augmente les DEG de 29 % et chaque charge de Flamme infligée à l'ennemi devient inamovible.",
+        "3": "[Puissance brûlante] Augmente les DEG de 35 % et chaque charge de Flamme infligée à l'ennemi devient inamovible.",
+        "4": "[Puissance brûlante] Augmente les DEG de 42 % et chaque charge de Flamme infligée à l'ennemi devient inamovible.",
+        "5": "[Puissance brûlante] Augmente les DEG de 50 % et chaque charge de Flamme infligée à l'ennemi devient inamovible."
+      }
+    },
+    "2": {
+      "name": "Gants en cuir de dragonnet",
+      "description": "[Feu d'Enfer] Lors du Blocage M de la cible pendant la durée de cette compétence, augmente la réduction des DEG de {0} et la Résistance Crit M de 250.",
+      "thumbnail": "heroes/Morrah/ut/2.png",
+      "story": "Gants confectionnés à partir d’os et de peau de dragonnet. \nMorrah les a fabriqués il y a cent ans en récupérant les dragonnets qu’elle avait tués lors de ses chasses au dragon. \nIls sont capables de résister aux flammes de Morrah et confèrent même une plus grande puissance qui attise ces flammes.\nMorrah apprécie beaucoup ces gants.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Feu d'Enfer] Lors du Blocage M de la cible pendant la durée de cette compétence, augmente la réduction des DEG de 100 et la Résistance Crit M de 250.",
+        "1": "[Feu d'Enfer] Lors du Blocage M de la cible pendant la durée de cette compétence, augmente la réduction des DEG de 120 et la Résistance Crit M de 250.",
+        "2": "[Feu d'Enfer] Lors du Blocage M de la cible pendant la durée de cette compétence, augmente la réduction des DEG de 140 et la Résistance Crit M de 250.",
+        "3": "[Feu d'Enfer] Lors du Blocage M de la cible pendant la durée de cette compétence, augmente la réduction des DEG de 170 et la Résistance Crit M de 250.",
+        "4": "[Feu d'Enfer] Lors du Blocage M de la cible pendant la durée de cette compétence, augmente la réduction des DEG de 210 et la Résistance Crit M de 250.",
+        "5": "[Feu d'Enfer] Lors du Blocage M de la cible pendant la durée de cette compétence, augmente la réduction des DEG de 250 et la Résistance Crit M de 250."
+      }
+    },
+    "3": {
+      "name": "Pierre de l'enfer scellée",
+      "description": "[Éruption de Lave] Les DEG sont augmentés de {0}% et la DEF M de la cible est réduite de 25% pendant 7 sec.",
+      "thumbnail": "heroes/Morrah/ut/3.png",
+      "story": "Un étrange fragment venant de la Faille Dimensionnelle. Dans le fragment se trouve une flamme qui tue tout être vivant. L’énergie de la dimension y est condensée. Il est indispensable pour compléter le plan de Maria.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Éruption de Lave] Les DEG sont augmentés de 20% et la DEF M de la cible est réduite de 25% pendant 7 sec.",
+        "1": "[Éruption de Lave] Les DEG sont augmentés de 24% et la DEF M de la cible est réduite de 25% pendant 7 sec.",
+        "2": "[Éruption de Lave] Les DEG sont augmentés de 29% et la DEF M de la cible est réduite de 25% pendant 7 sec.",
+        "3": "[Éruption de Lave] Les DEG sont augmentés de 35% et la DEF M de la cible est réduite de 25% pendant 7 sec.",
+        "4": "[Éruption de Lave] Les DEG sont augmentés de 42% et la DEF M de la cible est réduite de 25% pendant 7 sec.",
+        "5": "[Éruption de Lave] Les DEG sont augmentés de 50% et la DEF M de la cible est réduite de 25% pendant 7 sec."
+      }
+    },
+    "4": {
+      "name": "Joyau infernal",
+      "description": "[Feu fracassant] Augmente le nombre de charges de Flamme infligées par [Feu fracassant] de 3. Réduit la Vitesse d'ATQ des cibles touchées de {0} points pendant 5 sec.",
+      "thumbnail": "heroes/Morrah/ut/4.png",
+      "story": "Un joyau renfermant l'essence du feu de Téméraire.\nLorsque Téméraire fut vaincu, Morrah en extirpa le Joyau infernal afin d'améliorer son Feu fracassant par l'essence du Dragon de Flamme.",
+      "value": {
+        "0": {
+          "0": "140",
+          "1": "170",
+          "2": "210",
+          "3": "250",
+          "4": "300",
+          "5": "360"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Feu fracassant] Augmente le nombre de charges de Flamme infligées par [Feu fracassant] de 3. Réduit la Vitesse d'ATQ des cibles touchées de 140 points pendant 5 sec.",
+        "1": "[Feu fracassant] Augmente le nombre de charges de Flamme infligées par [Feu fracassant] de 3. Réduit la Vitesse d'ATQ des cibles touchées de 170 points pendant 5 sec.",
+        "2": "[Feu fracassant] Augmente le nombre de charges de Flamme infligées par [Feu fracassant] de 3. Réduit la Vitesse d'ATQ des cibles touchées de 210 points pendant 5 sec.",
+        "3": "[Feu fracassant] Augmente le nombre de charges de Flamme infligées par [Feu fracassant] de 3. Réduit la Vitesse d'ATQ des cibles touchées de 250 points pendant 5 sec.",
+        "4": "[Feu fracassant] Augmente le nombre de charges de Flamme infligées par [Feu fracassant] de 3. Réduit la Vitesse d'ATQ des cibles touchées de 300 points pendant 5 sec.",
+        "5": "[Feu fracassant] Augmente le nombre de charges de Flamme infligées par [Feu fracassant] de 3. Réduit la Vitesse d'ATQ des cibles touchées de 360 points pendant 5 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant [64ff64]18[-] sec avant de devenir utilisable.",
+    "description": "Inflige des DEG M égaux à 450% de l'ATQ aux ennemis proches dans une zone circulaire et les renverse pendant 1.8 sec. Puis invoque [Carprain, la Flamme de Victoire] pendant 13 sec, augmentant sa propre ATQ de 45%.",
+    "cooldown": "22",
+    "uses": "6",
+    "thumbnail": "heroes/Morrah/sw.png",
+    "advancement": {
+      "1": "Réduit les DEG reçus par tous les alliés de 14% pendant la durée de la compétence.",
+      "2": "Augmente les DEG M reçus par les ennemis à portée du Héros de 22.5% pendant la durée de la compétence. Cet effet augmente de 45% si la cible est un Boss."
+    },
+    "story": "À l'origine, Carprain fut dédié à un Héros humain, mais il fut altéré lorsqu'il tomba dans les mains de Morrah, le commandant des draconics ténébreux. \nL'énergie de flammes et de lave conférée par Téméraire fut corrompue par l'instinct destructeur de Morrah. \nL'épée du Héros gorgée de sang d'innombrables dragons fut pervertie de plus en plus, \net l'arme façonnée pour protéger le monde finit par dégénérer en une arme destructrice.\n\nCependant, Morrah aspira Oricana, le Saint dragon, durant la dernière bataille de la guerre des démons, et connut un bouleversement du fond de son âme,\n\nchangeant également Carprain qu'elle tenait en main. \nLa force des ténèbres contenue dans l'épée fut exposée à celle d'Oricana, en ouvrant une nouvelle voie de progression à l'arme.\nMalgré le fait que Carprain soit manié par un draconic, il fut animé non d'une puissance destructrice et mortelle, \nmais d'une puissance protectrice protégeant la vie de ce monde.\n\nL'épée de flamme touchée par la lumière,\nconnut une renaissance en s'imprégnant de l'âme sacrée,\npour se transformer en dieu-gardien de flamme, afin de protéger des êtres chers."
+  },
+  "splashart": "heroes/Morrah/sa.png",
+  "costumes": "heroes/Morrah/cos",
+  "_localization": {
+    "locale": "fr",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

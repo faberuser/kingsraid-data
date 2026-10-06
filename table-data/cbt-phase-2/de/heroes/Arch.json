@@ -1,0 +1,280 @@
+{
+  "id": "Arch",
+  "profile": {
+    "name": "Arch",
+    "title": "Pfeil der Reinheit Arch",
+    "class": "Archer",
+    "position": "Back-200",
+    "attack_range": "3100",
+    "damage_type": "Magical",
+    "gender": "Männlich",
+    "age": "???",
+    "height": "193",
+    "race": "Engel",
+    "constellation": "Layan, der Richter",
+    "birth": {
+      "month": 9,
+      "day": 17,
+      "monthName": "Monat der Wahrheit"
+    },
+    "like": "Frieden und Stabilität",
+    "dislike": "Dämonen",
+    "story": "Ein Engelskrieger, der aus den Himmeln herabstieg, um Dämonen zu bestrafen und der Ausbreitung des Chaos auf der Erde Einhalt zu gebieten. Seine Pflichten umfassen Spähen, Aufklärung und die Exekution aller auf der Erde entdeckten Dämonen. Er hat ein starkes Verantwortungsgefühl und tritt schnell und bestimmt gegen alles Unrecht auf. Er liebt die Menschheit und alle Lebensformen, die die Welt bewohnen. Deshalb ist er bemüht, die Dämonen daran zu hindern, diese Welt zu entweihen.",
+    "thumbnail": "heroes/Arch/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Himmlischer Pfeil",
+      "cost": "2",
+      "cooldown": "6",
+      "description": "Fügt 2 Gegnern 310*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 196.3% of ATK Magieschaden zu, stößt sie zurück und wendet [Urteilsmal] für 15 Sek. an. [Urteilsmal]: Erhöht erlittenen Magieschaden um 15%.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Arch/skills/1.png"
+    },
+    "2": {
+      "name": "Reinigende Flamme",
+      "cost": "4",
+      "cooldown": "14",
+      "description": "Fügt Gegnern in einer Linie vor dem Wirker 3-mal 146*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 92.6% of ATK Magieschaden zu. [Urteilsmal]: Verursacht 3-mal 219*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 138.8% of ATK zusätzlichen Magieschaden und reduziert Heilung für 7 Sek. um 30%. Dieser zusätzliche Schaden erhält 500 zusätzliche Verteidigungsdurchdringung.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Arch/skills/2.png"
+    },
+    "3": {
+      "name": "Schlichter",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Fügt Gegnern in Reichweite 1235*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 782.7% of ATK Magieschaden zu und lässt sie für 2 Sek. verstummen. Gewährt anschließend allen Verbündeten für 5 Sek. Immunität gegen Magieschaden. [Urteilsmal]: Erhöht erlittenen Magieschaden für 5 Sek. um 40%.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Arch/skills/3.png"
+    },
+    "4": {
+      "name": "Das jüngste Gericht",
+      "cost": null,
+      "cooldown": null,
+      "description": "Fertigkeiten lösen bei Gegnern unter [Urteilsmal] einen Zusatzeffekt aus. Einmal pro Kampf gewährt tödlicher Schaden [Todeswiderstand], verursacht 642*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 407.1% of ATK Magieschaden an markierten Gegnern und betäubt sie für 1.2 Sek. Gewährt anschließend allen Verbündeten für 5 Sek. einen Schild, der 1566*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 687.3% of ATK Schaden absorbiert, und erhöht ihren Statuswiderstand um 600. [Todeswiderstand]: Ignoriert tödlichen Schaden, verbraucht aber sämtliche MP und erhöht die verbleibende Abklingzeit aller Fertigkeiten um 50%. [Urteilsmal]: Verursacht alle 15 Sek. 214*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 135.7% of ATK Magieschaden mit 500 zusätzlicher Verteidigungsdurchdringung.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Arch/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "4": {
+      "II": "Erhöht Schaden und Schild-TP um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden und Schild-TP um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden und Schild-TP um [64ff64]25[-] %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1000.",
+          "thumbnail": "heroes/Arch/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Verringert bei einem Treffer die MP um 500.",
+          "thumbnail": "heroes/Arch/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Selbst bei Feinde ohne Urteilssiegel wird die Heilungsrate verringert.",
+          "thumbnail": "heroes/Arch/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Massenkontroll-Immunität für die Dauer des Skills.",
+          "thumbnail": "heroes/Arch/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1000.",
+          "thumbnail": "heroes/Arch/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Selbst Feinde ohne Urteilssiegel erleiden erhöhten Schaden und die Effekt-Wirkungsdauer erhöht sich um 5 Sek.",
+          "thumbnail": "heroes/Arch/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erleidet der Held einen tödlichen Treffer, greift der Held 20 Sek. lang 2 Feinde mit jedem normalen Angriff an.",
+          "thumbnail": "heroes/Arch/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Aktiviert Effekte 3 Sek. Schneller.",
+          "thumbnail": "heroes/Arch/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Chance +100",
+        "thumbnail": "heroes/Arch/perks/light.png"
+      },
+      "dark": {
+        "effect": "Macht dich mit jedem Kampfbeginn 5 Sek. lang immun gegen Mag. Schaden.",
+        "thumbnail": "heroes/Arch/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Klarer blauer Himmel, Sherrkyle",
+    "description": "Belegt alle 10 Sek. einen zufälligen Gegner für {0} Sek. mit [Mal des Urteils] und verursacht Magieschaden in Höhe von {1}% des ANG. Ist das Ziel kein Held, steigt die VERT-Durchdringung um 500.",
+    "thumbnail": "heroes/Arch/uw.png",
+    "story": "Eine mächtige Lichtwaffe, die die Form eines Speeres, Dolches oder Bogens annehmen kann. Einer der göttlichen Schätze der Engel, gesegnet durch einen Erzengel. Es heißt, sie wäre in der Lage, das Böse zu entzünden. Wegen ihrer Vielseitigkeit gab man sie traditionell dem talentiertesten Späher. Die Zahl der Dämonen, die angesichts ihres Lichts ihr Ende fanden, ist schier unendlich.",
+    "value": {
+      "0": {
+        "0": "7.5",
+        "1": "9",
+        "2": "10.5",
+        "3": "12",
+        "4": "13.5",
+        "5": "15"
+      },
+      "1": {
+        "0": "250",
+        "1": "300",
+        "2": "350",
+        "3": "400",
+        "4": "450",
+        "5": "500"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Belegt alle 10 Sek. einen zufälligen Gegner für 7.5 Sek. mit [Mal des Urteils] und verursacht Magieschaden in Höhe von 250% des ANG. Ist das Ziel kein Held, steigt die VERT-Durchdringung um 500.",
+      "1": "Belegt alle 10 Sek. einen zufälligen Gegner für 9 Sek. mit [Mal des Urteils] und verursacht Magieschaden in Höhe von 300% des ANG. Ist das Ziel kein Held, steigt die VERT-Durchdringung um 500.",
+      "2": "Belegt alle 10 Sek. einen zufälligen Gegner für 10.5 Sek. mit [Mal des Urteils] und verursacht Magieschaden in Höhe von 350% des ANG. Ist das Ziel kein Held, steigt die VERT-Durchdringung um 500.",
+      "3": "Belegt alle 10 Sek. einen zufälligen Gegner für 12 Sek. mit [Mal des Urteils] und verursacht Magieschaden in Höhe von 400% des ANG. Ist das Ziel kein Held, steigt die VERT-Durchdringung um 500.",
+      "4": "Belegt alle 10 Sek. einen zufälligen Gegner für 13.5 Sek. mit [Mal des Urteils] und verursacht Magieschaden in Höhe von 450% des ANG. Ist das Ziel kein Held, steigt die VERT-Durchdringung um 500.",
+      "5": "Belegt alle 10 Sek. einen zufälligen Gegner für 15 Sek. mit [Mal des Urteils] und verursacht Magieschaden in Höhe von 500% des ANG. Ist das Ziel kein Held, steigt die VERT-Durchdringung um 500."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Heiliger goldener Pfeil",
+      "description": "[Himmlischer Pfeil] erhöht den Schaden um {0} % und die Anzahl an Zielen um 2.",
+      "thumbnail": "heroes/Arch/ut/1.png",
+      "story": "Eine goldener Pfeil, der durch Archs göttliche Kraft erschaffen wurde.\nEr beschwört und materialisiert das reinste und heiligste Licht des Himmels. Wie stark der Pfeil tatsächlich ist, hängt davon ab, wie viel göttliche Kraft ihm gewährt wird. Für gutherzige Wesen ist es ein wunderschönes Schauspiel, doch wenn eine böse Kreatur davon getroffen wird, wird sie verstümmelt und in eine immaterielle Dimension befördert.",
+      "value": {
+        "0": {
+          "0": "25",
+          "1": "30",
+          "2": "35",
+          "3": "40",
+          "4": "45",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Himmlischer Pfeil] erhöht den Schaden um 25 % und die Anzahl an Zielen um 2.",
+        "1": "[Himmlischer Pfeil] erhöht den Schaden um 30 % und die Anzahl an Zielen um 2.",
+        "2": "[Himmlischer Pfeil] erhöht den Schaden um 35 % und die Anzahl an Zielen um 2.",
+        "3": "[Himmlischer Pfeil] erhöht den Schaden um 40 % und die Anzahl an Zielen um 2.",
+        "4": "[Himmlischer Pfeil] erhöht den Schaden um 45 % und die Anzahl an Zielen um 2.",
+        "5": "[Himmlischer Pfeil] erhöht den Schaden um 50 % und die Anzahl an Zielen um 2."
+      }
+    },
+    "2": {
+      "name": "Magisches Quadrat der Verfolgung",
+      "description": "[Reinigende Flamme] Senkt die Manakosten um 1000 und erhöht den Schaden um {0} %.",
+      "thumbnail": "heroes/Arch/ut/2.png",
+      "story": "Das Symbol der Armee der Feuerschlichter, die einen erbitterten Kampf gegen uralte Dämonen fochten. \nBei Benutzung des von Lua, der Göttin des Lichts gesegneten Magischen Quadrats der Verfolgung wird Arch zu einem gnadenlosen Schlichter.",
+      "value": {
+        "0": {
+          "0": "25",
+          "1": "30",
+          "2": "35",
+          "3": "40",
+          "4": "45",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Reinigende Flamme] Senkt die Manakosten um 1000 und erhöht den Schaden um 25 %.",
+        "1": "[Reinigende Flamme] Senkt die Manakosten um 1000 und erhöht den Schaden um 30 %.",
+        "2": "[Reinigende Flamme] Senkt die Manakosten um 1000 und erhöht den Schaden um 35 %.",
+        "3": "[Reinigende Flamme] Senkt die Manakosten um 1000 und erhöht den Schaden um 40 %.",
+        "4": "[Reinigende Flamme] Senkt die Manakosten um 1000 und erhöht den Schaden um 45 %.",
+        "5": "[Reinigende Flamme] Senkt die Manakosten um 1000 und erhöht den Schaden um 50 %."
+      }
+    },
+    "3": {
+      "name": "Himmelsauge",
+      "description": "[Schlichter] erhöht den Schaden um {0}% und während des Magieschilds den ANG aller Verbündeten um 25%.",
+      "thumbnail": "heroes/Arch/ut/3.png",
+      "story": "Das Seelen-Ei des Engelsschlichters Pilier. Pilier wurde aus Luas erster Flamme geboren und ist der Meister von Arch. Pilier war der Beste unter den Engelskriegern und einer von denen, die den Krieg gegen die Dämonen beendeten. Nachdem er jedoch all seine Kraft aufgebraucht hatte, kehrte er zurück und wurde wieder ein Himmlisches Auge, seine Gestalt als Seelen-Ei, und Arch trägt die Seele seines Meisters immer bei sich.",
+      "value": {
+        "0": {
+          "0": "25",
+          "1": "30",
+          "2": "35",
+          "3": "40",
+          "4": "45",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Schlichter] erhöht den Schaden um 25% und während des Magieschilds den ANG aller Verbündeten um 25%.",
+        "1": "[Schlichter] erhöht den Schaden um 30% und während des Magieschilds den ANG aller Verbündeten um 25%.",
+        "2": "[Schlichter] erhöht den Schaden um 35% und während des Magieschilds den ANG aller Verbündeten um 25%.",
+        "3": "[Schlichter] erhöht den Schaden um 40% und während des Magieschilds den ANG aller Verbündeten um 25%.",
+        "4": "[Schlichter] erhöht den Schaden um 45% und während des Magieschilds den ANG aller Verbündeten um 25%.",
+        "5": "[Schlichter] erhöht den Schaden um 50% und während des Magieschilds den ANG aller Verbündeten um 25%."
+      }
+    },
+    "4": {
+      "name": "Glocke der Bestrafung",
+      "description": "[Das jüngste Gericht] heilt beim Erleiden tödlichen Schadens alle Verbündeten um 15% ihrer max. LP und bringt alle Gegner für {0} Sek. zum Schweigen.",
+      "thumbnail": "heroes/Arch/ut/4.png",
+      "story": "Eine himmlische Glocke, die im Morgenstern geläutet wird.\nDie Glocke läutet, um die Engelskrieger zu warnen, wenn die Welt mit großen Problemen zu kämpfen hat und auf ein göttliches Eingreifen hofft.\nSobald die Glocke erklingt, wissen die Krieger, dass sie Luas Überbringern der Apokalypse die Kehlen aufschlitzen müssen.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.6",
+          "4": "1.8",
+          "5": "2"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Das jüngste Gericht] heilt beim Erleiden von tödlichem Schaden die TP von allen Verbündeten um 15 % der max. TP und alle Feinde werden für 1 Sek. zum Schweigen gebracht.",
+        "1": "[Das jüngste Gericht] heilt beim Erleiden tödlichen Schadens alle Verbündeten um 15% ihrer max. LP und bringt alle Gegner für 1.2 Sek. zum Schweigen.",
+        "2": "[Das jüngste Gericht] heilt beim Erleiden tödlichen Schadens alle Verbündeten um 15% ihrer max. LP und bringt alle Gegner für 1.4 Sek. zum Schweigen.",
+        "3": "[Das jüngste Gericht] heilt beim Erleiden tödlichen Schadens alle Verbündeten um 15% ihrer max. LP und bringt alle Gegner für 1.6 Sek. zum Schweigen.",
+        "4": "[Das jüngste Gericht] heilt beim Erleiden tödlichen Schadens alle Verbündeten um 15% ihrer max. LP und bringt alle Gegner für 1.8 Sek. zum Schweigen.",
+        "5": "[Das jüngste Gericht] heilt beim Erleiden tödlichen Schadens alle Verbündeten um 15% ihrer max. LP und bringt alle Gegner für 2 Sek. zum Schweigen."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für [64ff64]18[-] Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von [Klarer blauer Himmel, Sherrkyle], fügt allen Gegnern Magieschaden in Höhe von 400% des ANG zu und wendet [Urteilssiegel] für 15 Sek. an. Erhöht anschließend den eigenen Krit. Schaden für 11 Sek. um 72%.",
+    "cooldown": "20",
+    "uses": "6",
+    "thumbnail": "heroes/Arch/sw.png",
+    "advancement": {
+      "1": "Reduziert während der Dauer alle 2 Sek. die Abklingzeit aller eigenen Fertigkeiten um 1 Sek.",
+      "2": "Greift während der Dauer alle 2 Sek. einen zufälligen Gegner an, verursacht Magieschaden in Höhe von 150% des ANG und wendet [Urteilssiegel] für 15 Sek. an. Besitzt das Ziel bereits dieses Siegel, wird es entfernt und zusätzlicher Magieschaden in Höhe von 300% des ANG verursacht. Dieser Schaden erhält 500 zusätzliche Verteidigungsdurchdringung."
+    },
+    "story": "Sherrkyle ist eine starke Lichtwaffe, die gleichzeitig ein Schatz von Engeln ist, das vom Erzengel gesegnet wurde. Mit Arch als seinem Meister beseitigte er Dämonen und böse Wesen, die die Welt befleckten.\nArch war ein kalter Bezwinger, und Sherrkyle teilte auch die Eigenschaft seines Besitzers.\n\nNachdem Arch in die Welt hinabgestiegen war, begann er sich langsam zu verändern.\nAls Arch die Menschen und Lebensformen der Welt beobachtete, begann er langsam, das Gefühl von Liebe und Barmherzigkeit zu entwickeln.\n\nSchließlich erkannte er die Wärme, die in seinem Herzen blühte. Auch Sherrkyle, der von seinem Besitzer beeinflusst wurde, begann sich zu verändern.\nVon der Waffe eines kalten, unnachgiebigen Besiegers zur Waffe des Beschützers der Welt ... Sherrkyle veränderte sich.\n\nAls Arch schließlich herabstieg, um Leben vor der Gefahr zu retten, leuchtete Sherrkyle immer heller und erwachte in Form eines Wächters.\nArchs Wille, andere zu beschützen, hat den großen Wächter geweckt."
+  },
+  "splashart": "heroes/Arch/sa.png",
+  "costumes": "heroes/Arch/cos",
+  "_localization": {
+    "locale": "de",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "Gushak",
+  "profile": {
+    "name": "裘夏克",
+    "title": "血祭坛酋长",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "兽人族",
+    "damage_type": "Physical",
+    "recommended_heroes": "里欧, 尼克斯, 谭雅",
+    "characteristics": "每次遭受伤害时BOSS会堆栈[兽人之怒]，最多可堆栈100次。超过最大堆栈数后会导致狂暴，大大提升战力。透过解除[敌人强化效果]可以妨碍BOSS堆栈兽人之怒",
+    "thumbnail": "bosses/Gushak.png",
+    "recommendedHeroNames": [
+      "Leo",
+      "Nyx",
+      "Tanya"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "血光斩击",
+      "cost": null,
+      "cooldown": "15",
+      "description": "猛力旋转武器，对周围的敌人造成物理伤害并击倒2秒。"
+    },
+    "2": {
+      "name": "狂乱剑舞",
+      "cost": null,
+      "cooldown": "25",
+      "description": "攻击敌人3次后向下打击，对周围的敌人造成物理伤害并使敌人晕眩5秒。"
+    },
+    "3": {
+      "name": "血之一击",
+      "cost": null,
+      "cooldown": "45",
+      "description": "重踏地面并使周围敌人晕眩4秒，蓄力并挥动武器对周围敌人造成大量物理伤害。"
+    },
+    "4": {
+      "name": "兽人之怒",
+      "cost": null,
+      "cooldown": null,
+      "description": "每次受到伤害将累积1层愤怒效果。愤怒效果将持续10秒并提升自身攻击力与防御力0.4%。最多可以迭加100层，当到达100层时将免疫控制10秒并大幅提升能力值。"
+    },
+    "5": {
+      "name": "净化",
+      "cost": null,
+      "cooldown": null,
+      "description": "每30秒解除自身的负面效果，并提升攻击速度。"
+    }
+  },
+  "aliases": [
+    "Gushak",
+    "GR4",
+    "GR 4"
+  ]
+}

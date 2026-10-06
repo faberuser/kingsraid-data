@@ -1,0 +1,228 @@
+{
+  "id": "Epis",
+  "profile": {
+    "name": "Epis",
+    "title": "Verführerischer Dämon Epis",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "900",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "???",
+    "height": "164",
+    "race": "Dämonen",
+    "constellation": "Kandala, der Eroberer",
+    "birth": {
+      "month": 8,
+      "day": 13,
+      "monthName": "Monat der Lebenskraft"
+    },
+    "like": "Alles, was Interesse oder Neugier hervorruft",
+    "dislike": "Langweilige Atmosphäre",
+    "story": "Dieser verspielte und bezaubernde Sukkubus handelt frei nach ihren Launen. Wie man es aufgrund ihrer Dämonenabstammung erwarten kann, ist sie ein Genussmensch und macht allein das, was ihr Spaß und Amüsement bringt. Sogar während des Dämonenkriegs reiste sie allein herum, anstatt sich der Invasion anzuschließen. Den Kampf an der Seite von Kyle fand sie interessant genug, um ihre eigene Rasse zu verraten. Als sie später Kasel kennenlernte, wusste sie, dass sich ihr die Chance auf ein weiteres lustiges Abenteuer bot und so schloss sie sich seiner Gruppe an. Wenn sie auf attraktive Männer trifft, besucht sie sie gelegentlich in ihren Träumen.",
+    "thumbnail": "heroes/Epis/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Lebensraub",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Verursacht ??? Magieschaden, der die gegnerische VTD ignoriert, und heilt LP in Höhe von 25% des verursachten Schadens.",
+      "thumbnail": "heroes/Epis/skills/1.png"
+    },
+    "2": {
+      "name": "Alptraum",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Bewegt sich hinter den entferntesten Gegner und verursacht ??? Magieschaden. Getroffene Gegner erleiden für 10 Sek. 30% mehr Magieschaden.",
+      "thumbnail": "heroes/Epis/skills/2.png"
+    },
+    "3": {
+      "name": "Des Teufels Ball",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Fügt Feinden in Reichw. ??? mag. Schaden zu. Bei der Verwendung des Skills wirkt Massenkontroll nicht.",
+      "thumbnail": "heroes/Epis/skills/3.png"
+    },
+    "4": {
+      "name": "Ernte",
+      "cost": null,
+      "cooldown": null,
+      "description": "Wenn sie einen Gegner tötet, steigt ihr ANG für 12 Sek. um ???, und alle Fähigkeitsabklingzeiten sinken um 30%.",
+      "thumbnail": "heroes/Epis/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Heilt Epis um 25 % des zugefügten Schadens bei einem Krit. Treffer."
+    },
+    "4": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Regeneriert beim Töten eines Gegners 1 Manakugel(n)."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Wenn nur 1 Gegner vorhanden ist, erhöht sich der Schaden um 100%.",
+          "thumbnail": "heroes/Epis/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Ignoriert feindliche Blockeffekte.",
+          "thumbnail": "heroes/Epis/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Epis/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Manaverbrauch ist um 1 erhöht und bei Benutzung des Skills wird 'Lebensraub' aktiviert. Kann nicht genutzt werden, wenn keine Gegner in Reichweite sind.",
+          "thumbnail": "heroes/Epis/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht Schaden um 40 %.",
+          "thumbnail": "heroes/Epis/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Reduziert erlittenen Schaden um 50 %, solange der Skill aktiv ist.",
+          "thumbnail": "heroes/Epis/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Jeder Stapel erhöht die MP-Regeneration pro Sek. um 50 %.",
+          "thumbnail": "heroes/Epis/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Solange der Stapel höher als 5 ist, ist Mana immer auf 100 %. Cooldowns werden pro Sek. um je eine Sek. reduziert.",
+          "thumbnail": "heroes/Epis/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Schaden +20 %",
+        "thumbnail": "heroes/Epis/perks/light.png"
+      },
+      "dark": {
+        "effect": "Alle Angriffe von Epis verringern 10 Sek. lang die Mag. VERT getroffener Feinde um 20 %. Erhöht ANG um 2 % für jeden Treffer. Kann bis zu 10-mal gestapelt werden.",
+        "thumbnail": "heroes/Epis/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Verführerin, Guillotine",
+    "description": "25%ige Chance beim Angriff Mag. Schaden in Höhe von 80% des ANG anzurichten und den eigenen ANG um 2% zu erhöhen. Dieser ANG-Boost kann sich bis zu 10 Mal kumulieren.",
+    "value": {},
+    "thumbnail": "heroes/Epis/uw.png",
+    "story": "Eine tödliche Sense, die zum Charakter ihres Führers, Epis, passt. Sie rafft die Seelen jener, die an sie herantreten, um ihre Schönheit zu bewundern. Diese Waffe, die aus Epis’ eigenem Körper erschaffen wurde, ist selbst wie ein Sukkubus. Sie verschafft ihren Opfern größte Befriedigung, ehe sie ihnen die Lebensenergie aussaugt. Es scheint so, als hätte Epis mit dieser Waffe versucht, ein wenig Güte zu zeigen.",
+    "descriptionByStar": {
+      "0": "25%ige Chance beim Angriff Mag. Schaden in Höhe von 80% des ANG anzurichten und den eigenen ANG um 2% zu erhöhen. Dieser ANG-Boost kann sich bis zu 10 Mal kumulieren.",
+      "1": "25%ige Chance beim Angriff Mag. Schaden in Höhe von 96% des ANG anzurichten und den eigenen ANG um 2.4% zu erhöhen. Dieser ANG-Boost kann sich bis zu 10 Mal kumulieren.",
+      "2": "25%ige Chance beim Angriff Mag. Schaden in Höhe von 115% des ANG anzurichten und den eigenen ANG um 2.9% zu erhöhen. Dieser ANG-Boost kann sich bis zu 10 Mal kumulieren.",
+      "3": "25%ige Chance beim Angriff Mag. Schaden in Höhe von 138% des ANG anzurichten und den eigenen ANG um 3.5% zu erhöhen. Dieser ANG-Boost kann sich bis zu 10 Mal kumulieren.",
+      "4": "25%ige Chance beim Angriff Mag. Schaden in Höhe von 165% des ANG anzurichten und den eigenen ANG um 4.2% zu erhöhen. Dieser ANG-Boost kann sich bis zu 10 Mal kumulieren.",
+      "5": "25%ige Chance beim Angriff Mag. Schaden in Höhe von 200% des ANG anzurichten und den eigenen ANG um 5% zu erhöhen. Dieser ANG-Boost kann sich bis zu 10 Mal kumulieren."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Grüne Fee",
+      "description": "[Absorbierender Schlag] Erhöht den Schaden um 20%. Beim Töten eines Gegners steigt der ANG für 10 Sek. um 20%. Der ANG-Bonus ist bis zu 3-mal stapelbar.",
+      "value": {},
+      "thumbnail": "heroes/Epis/ut/1.png",
+      "story": "Epis’ Lieblingsgetränk.\nDas berüchtigtste alkoholische Getränk in ganz Orvelia wird nur aus dem stärksten Wermut hergestellt und kann Halluzinationen hervorrufen. Künstler konsumieren es heimlich, um ihre Inspiration anzuregen oder ihre Schlaflosigkeit zu heilen. Für Epis ist es allerdings ein leichtes, süffiges Getränk.",
+      "descriptionByStar": {
+        "0": "[Absorbierender Schlag] Erhöht den Schaden um 20%. Beim Töten eines Gegners steigt der ANG für 10 Sek. um 20%. Der ANG-Bonus ist bis zu 3-mal stapelbar.",
+        "1": "[Absorbierender Schlag] Erhöht den Schaden um 24%. Beim Töten eines Gegners steigt der ANG für 10 Sek. um 20%. Der ANG-Bonus ist bis zu 3-mal stapelbar.",
+        "2": "[Absorbierender Schlag] Erhöht den Schaden um 29%. Beim Töten eines Gegners steigt der ANG für 10 Sek. um 20%. Der ANG-Bonus ist bis zu 3-mal stapelbar.",
+        "3": "[Absorbierender Schlag] Erhöht den Schaden um 35%. Beim Töten eines Gegners steigt der ANG für 10 Sek. um 20%. Der ANG-Bonus ist bis zu 3-mal stapelbar.",
+        "4": "[Absorbierender Schlag] Erhöht den Schaden um 42%. Beim Töten eines Gegners steigt der ANG für 10 Sek. um 20%. Der ANG-Bonus ist bis zu 3-mal stapelbar.",
+        "5": "[Absorbierender Schlag] Erhöht den Schaden um 50%. Beim Töten eines Gegners steigt der ANG für 10 Sek. um 20%. Der ANG-Bonus ist bis zu 3-mal stapelbar."
+      }
+    },
+    "2": {
+      "name": "Sukkubus-Kiste",
+      "description": "[Alptraum] erhöht den Schaden um 50 % und betäubt den betroffenen Feind 2 Sek. lang.",
+      "value": {},
+      "thumbnail": "heroes/Epis/ut/2.png",
+      "story": "Kiste, die den Schlafsand der Alptraumkönigin enthält. \nEine Kiste aus der Dämonenwelt, die Magie und Sand enthält, die jeden in Schlaf versetzen. \nWenn der Feind einschläft, wird er angegriffen und ihm wird durch einen Alptraum, der nicht entfernt werden kann, M. Schaden zugefügt.",
+      "descriptionByStar": {
+        "0": "[Alptraum] erhöht den Schaden um 50 % und betäubt den betroffenen Feind 2 Sek. lang.",
+        "1": "[Alptraum] erhöht den Schaden um 50 % und betäubt den betroffenen Feind 2,4 Sek. lang.",
+        "2": "[Alptraum] erhöht den Schaden um 50 % und betäubt den betroffenen Feind 2,9 Sek. lang.",
+        "3": "[Alptraum] erhöht den Schaden um 50 % und betäubt den betroffenen Feind 3,5 Sek. lang.",
+        "4": "[Alptraum] erhöht den Schaden um 50 % und betäubt den betroffenen Feind 4,2 Sek. lang.",
+        "5": "[Alptraum] erhöht den Schaden um 50 % und betäubt den betroffenen Feind 5 Sek. lang."
+      }
+    },
+    "3": {
+      "name": "Schuh der Verführung",
+      "description": "Des Teufels Ball] verringert Manakosten um 1 und erhöht Schaden um 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Epis/ut/3.png",
+      "story": "Epis‘ geschätzter Gegenstand. Als Epis zum ersten Mal in der Menschenwelt ankam, interessierte sie sich sehr für menschliche Kultur und besuchte einen Maskenball. Der Tanz eines Mädchens mit roten Absätzen zog ihren Blick auf sich und sie ging im Austausch gegen diese Schuhe einen Handel mit ihr ein. Epis trägt ihre verführerischen Absätze und kann sich nicht bremsen, wenn sie ihren Feinden mit ihrem Tanz Schmerzen zufügt.",
+      "descriptionByStar": {
+        "0": "Des Teufels Ball] verringert Manakosten um 1 und erhöht Schaden um 20 %.",
+        "1": "Des Teufels Ball] verringert Manakosten um 1 und erhöht Schaden um 24 %.",
+        "2": "Des Teufels Ball] verringert Manakosten um 1 und erhöht Schaden um 29 %.",
+        "3": "Des Teufels Ball] verringert Manakosten um 1 und erhöht Schaden um 35 %.",
+        "4": "Des Teufels Ball] verringert Manakosten um 1 und erhöht Schaden um 42 %.",
+        "5": "Des Teufels Ball] verringert Manakosten um 1 und erhöht Schaden um 50 %."
+      }
+    },
+    "4": {
+      "name": "Traumerinnerung",
+      "description": "[Ernte] erhöht den ANG-Boost um 50 %. Das Töten eines Feindes erhöht die ANG-GESCHW. um 20. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+      "value": {},
+      "thumbnail": "heroes/Epis/ut/4.png",
+      "story": "Ein magischer Spiegel, der die Träume zeigt, die Epis absorbiert hat.\nDa Epis den Spiegel benutzt hat, um interessante Träume aufzubewahren, enthält er jede Menge Spuren von großen Geheimnissen.",
+      "descriptionByStar": {
+        "0": "[Ernte] erhöht den ANG-Boost um 50 %. Das Töten eines Feindes erhöht die ANG-GESCHW. um 20. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "1": "[Ernte] erhöht den ANG-Boost um 50 %. Das Töten eines Feindes erhöht die ANG-GESCHW. um 24. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "2": "[Ernte] erhöht den ANG-Boost um 50 %. Das Töten eines Feindes erhöht die ANG-GESCHW. um 29. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "3": "[Ernte] erhöht den ANG-Boost um 50 %. Das Töten eines Feindes erhöht die ANG-GESCHW. um 35. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "4": "[Ernte] erhöht den ANG-Boost um 50 %. Das Töten eines Feindes erhöht die ANG-GESCHW. um 42. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "5": "[Ernte] erhöht den ANG-Boost um 50 %. Das Töten eines Feindes erhöht die ANG-GESCHW. um 50. Dieser Effekt kann bis zu 10-mal gestapelt werden."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 18 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Verführerin, Guillotine und erhöht 8 Sek. lang den eigenen ANG um 40 %. Während der Wirkungsdauer wird bei einem Normal- und Skill-ANG dem Gegner mit 20 %-iger Chance ??? VERT-ignorierender Mag. Schaden zugefügt. Dieser Effekt wird mit jedem [Lebensraub]-Treffer 100 % aktiviert.",
+    "cooldown": "18",
+    "uses": "6",
+    "thumbnail": "heroes/Epis/sw.png",
+    "advancement": {
+      "1": "Aktivierungschance wird auf 30 % geändert und der Schaden um 50 % erhöht.",
+      "2": "Dem Mag. Schaden wird ein VERT-ignorierender Effekt zugefügt und der erhaltene Mag. Schaden des getroffenen Gegners wird 7 Sek. lang um 30 % erhöht."
+    },
+    "story": "Guillotine, die aus Epis geboren wurde, ist als Kraft von Epis gewachsen und wächst mit ihr mit. Guillotine könnte das Instrument, das die feste Regel ist, mit dem Seelentest brechen. Guillotine nahm viel Seelen und erscheint mit zwei Sicheln, so dass Guillotine ihr Vergnügen bereiten kann.\nWenn man von der faszinierenden Erscheinung der Guillotine verzaubert wird, erwartet einem der freundliche Tod und das ewige Vergnügen."
+  },
+  "splashart": "heroes/Epis/sa.png",
+  "costumes": "heroes/Epis/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

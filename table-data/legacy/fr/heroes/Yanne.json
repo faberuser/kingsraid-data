@@ -1,0 +1,272 @@
+{
+  "id": "Yanne",
+  "profile": {
+    "name": "Yanne",
+    "title": "Yanne, Pourfendeuse de Dragon",
+    "class": "Archer",
+    "position": "Back-300",
+    "attack_range": "4500",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "21",
+    "height": "185",
+    "race": "Barbare",
+    "constellation": "Mira la Ménestrelle",
+    "birth": {
+      "month": 6,
+      "day": 30,
+      "monthName": "Mois de l'Amour"
+    },
+    "like": "Les plats délicieux, la cuisine, la chasse aux monstres",
+    "dislike": "Les monstres impossibles à vaincre physiquement",
+    "story": "Une guerrière barbare spécialisée dans l'extermination de monstres menaçants. Grâce à un trait physique unique, sa force musculaire est bien plus importante que celle d'un barbare normal. Elle manie un arc long plus gros qu'elle avec tant d'aisance que les gens disent qu'elle est une arme de siège ambulante. Même si c'est une femme aimable qui aime aider les autres, dès qu'elle est au combat, son agressivité barbare remonte à la surface. Une fois, elle a tué un dragon fou du nom de Svelta, un exploit qui lui a permis de gagner le surnom de Pourfendeuse de Dragon.",
+    "thumbnail": "heroes/Yanne/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Tir focalisé !",
+      "cost": "2",
+      "cooldown": "9",
+      "description": "Prend position et se concentre pour infliger ??? DEG P aux ennemis en ligne droite et augmente les DEG P reçus par la cible de 25% pendant 10 sec. Si la cible est un Dragon, l'étourdit pendant 5 sec. Augmente les DEG et la durée de l'étourdissement jusqu'à 100% en fonction du temps de concentration. Lorsque la concentration atteint le maximum, inflige sûrement un coup critique.",
+      "thumbnail": "heroes/Yanne/skills/1.png"
+    },
+    "2": {
+      "name": "Anéantissement !",
+      "cost": "3",
+      "cooldown": "10",
+      "description": "Inflige à la cible et aux ennemis à sa portée ??? DEG P et étourdit pendant 2 sec. Si la cible est un Dragon, inflige ??? DEG P supplémentaires ignorant la DEF.",
+      "thumbnail": "heroes/Yanne/skills/2.png"
+    },
+    "3": {
+      "name": "Aucune retenue !",
+      "cost": "4",
+      "cooldown": "25",
+      "description": "Dissipe tous les effets négatifs du lanceur et pendant 30 sec, augmente l'ATQ de ???, la Pénétration DEF de 500, la Vitesse d'ATQ de 250, et réduit les DEG reçus de 25%. Consomme 3% des PM pour modifier l'attaque automatique pendant la durée de la compétence pour infliger des DEG aux ennemis en ligne droite et ??? DEG P supplémentaires ignorant la DEF aux Dragons. Cet effet ne peut être dissipé.",
+      "thumbnail": "heroes/Yanne/skills/3.png"
+    },
+    "4": {
+      "name": "Pourfendeur de Dragon",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente l'ATQ du lanceur de ??? et ses PV max de 30%. Ignore le Blocage de l'ennemi lors des DEG infligés par des attaques automatiques. De plus, augmente les DEG du lanceur infligés aux Dragons de 100% et réduit les DEG reçus des alliés de la part des Dragons de 20%.",
+      "thumbnail": "heroes/Yanne/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG de 10%.",
+      "III": "Augmente les DEG de 15%.",
+      "IV": "Augmente les DEG de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG de 10%.",
+      "III": "Augmente les DEG de 15%.",
+      "IV": "Augmente les DEG de 25%."
+    },
+    "3": {
+      "II": "Augmente l'augmentation d'ATQ de 10%.",
+      "III": "Augmente l'augmentation d'ATQ de 15%.",
+      "IV": "Augmente l'augmentation d'ATQ de 25%."
+    },
+    "4": {
+      "II": "Augmente l'augmentation d'ATQ de 10%.",
+      "III": "Augmente l'augmentation d'ATQ de 15%.",
+      "IV": "Augmente l'augmentation d'ATQ de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Augmente les DEG infligés de 40%.",
+          "thumbnail": "heroes/Yanne/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Si la cible est un Dragon, inflige des DEG P supplémentaires ignorant la DEF, à hauteur de 300% de l'ATQ.",
+          "thumbnail": "heroes/Yanne/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Lorsque 1 seul ennemi est présent, augmente les DEG infligés de 100%.",
+          "thumbnail": "heroes/Yanne/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Réduit la Résistance Crit P de la cible touchée de 500 pendant 10 sec.",
+          "thumbnail": "heroes/Yanne/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente les PM consommés lors des attaques automatiques de 100% et les DEG P supplémentaires ignorant la DEF infligés aux Dragons de 50%.",
+          "thumbnail": "heroes/Yanne/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Réduit la durée des Contrôles reçus par le lanceur de 50% pendant la durée de la compétence.",
+          "thumbnail": "heroes/Yanne/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Modifie l'effet de réduction des DEG reçus des alliés de la part des Dragons en 30%.",
+          "thumbnail": "heroes/Yanne/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "N'applique pas l'effet de réduction des DEG reçus des alliés de la part des Dragons, mais modifie l'effet d'augmentation de DEG du lanceur infligés aux Dragons en 130%.",
+          "thumbnail": "heroes/Yanne/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Yanne/perks/light.png"
+      },
+      "dark": {
+        "effect": "Lorsque l'attaque automatique touche la cible 10 fois, dissipe l'effet positif de la cible et inflige des DEG P supplémentaires à hauteur de 500% de l'ATQ.",
+        "thumbnail": "heroes/Yanne/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Svelta, le Dragon fléau",
+    "description": "Lors d'un coup critique, inflige des DEG P supplémentaires à hauteur de {0}% de l'ATQ et récupère 150 PM. Si la cible est un Dragon, modifie les DEG P supplémentaires en {1}% de l'ATQ et étourdit pendant 1.5 sec. Cet effet possède 0.5 sec de temps de recharge.",
+    "value": {
+      "0": {
+        "0": "50",
+        "1": "60",
+        "2": "72",
+        "3": "86",
+        "4": "103",
+        "5": "125"
+      },
+      "1": {
+        "0": "80",
+        "1": "96",
+        "2": "115",
+        "3": "138",
+        "4": "166",
+        "5": "200"
+      }
+    },
+    "thumbnail": "heroes/Yanne/uw.png",
+    "story": "Une arme enchantée fabriquée à base d'ossements, de tendons et de fragments de peau du dragon fou Svelta. Trop lourd pour être soulevé par un humain ordinaire et encore moins bandé, cet arc long monstrueux combine les technologies de siège des Elfes-Sombres et des Nains. Seuls les individus à la musculature exceptionnelle tels que Yanne peuvent espérer pouvoir manier cet arc ridicule. L'âme du dragon fou est toujours emprisonnée dans cette arme. Son énergie féroce se transmet à chaque flèche qu'il décoche, leur conférant la puissance nécessaire pour transpercer même les murs les plus solides.",
+    "descriptionByStar": {
+      "0": "Lors d'un coup critique, inflige des DEG P supplémentaires à hauteur de 50% de l'ATQ et récupère 150 PM. Si la cible est un Dragon, modifie les DEG P supplémentaires en 80% de l'ATQ et étourdit pendant 1.5 sec. Cet effet possède 0.5 sec de temps de recharge.",
+      "1": "Chaque coup critique a 12% de chances d'infliger des DEG P à hauteur de 240% de l'ATQ et de récupérer 5% de PM. Si la cible est un Dragon, il subit un Étourdissement pendant 1,5 sec.",
+      "2": "Chaque coup critique a 14% de chances d'infliger des DEG P à hauteur de 290% de l'ATQ et de récupérer 5% de PM. Si la cible est un Dragon, il subit un Étourdissement pendant 1,5 sec.",
+      "3": "Chaque coup critique a 17% de chances d'infliger des DEG P à hauteur de 350% de l'ATQ et de récupérer 5% de PM. Si la cible est un Dragon, il subit un Étourdissement pendant 1,5 sec.",
+      "4": "Chaque coup critique a 21% de chances d'infliger des DEG P à hauteur de 420% de l'ATQ et de récupérer 5% de PM. Si la cible est un Dragon, il subit un Étourdissement pendant 1,5 sec.",
+      "5": "Chaque coup critique a 25% de chances d'infliger des DEG P à hauteur de 500% de l'ATQ et de récupérer 5% de PM. Si la cible est un Dragon, il subit un Étourdissement pendant 1,5 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Talisman de concentration",
+      "description": "[Tir focalisé !] Pendant l'utilisation de la compétence, confère au lanceur l'immunité aux Contrôles et augmente les DEG P reçus par la cible de {0}% pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Yanne/ut/1.png",
+      "story": "Ce bracelet fut offert à Yanne par les habitants pour avoir terrassé Svelta.\nRéalisé en cuir de dragon rouge, il rassemble l'énergie du yang dans le porteur, ce qui lui permet d'atteindre un niveau de concentration hors du commun. Quand Yanne vise, ce bracelet lui permet de décocher une seule flèche, mortelle.",
+      "descriptionByStar": {
+        "0": "[Tir focalisé !] Pendant l'utilisation de la compétence, confère au lanceur l'immunité aux Contrôles et augmente les DEG P reçus par la cible de 10% pendant 10 sec.",
+        "1": "[Tir focalisé !] Augmente la Vitesse d'ATQ de 800 points pendant la durée de la compétence et augmente les DEG P reçus par la cible de 12 % pendant 10 sec.",
+        "2": "[Tir focalisé !] Augmente la Vitesse d'ATQ de 800 points pendant la durée de la compétence et augmente les DEG P reçus par la cible de 14 % pendant 10 sec.",
+        "3": "[Tir focalisé !] Augmente la Vitesse d'ATQ de 800 points pendant la durée de la compétence et augmente les DEG P reçus par la cible de 17 % pendant 10 sec.",
+        "4": "[Tir focalisé !] Augmente la Vitesse d'ATQ de 800 points pendant la durée de la compétence et augmente les DEG P reçus par la cible de 21 % pendant 10 sec.",
+        "5": "[Tir focalisé !] Augmente la Vitesse d'ATQ de 800 points pendant la durée de la compétence et augmente les DEG P reçus par la cible de 25 % pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Flèche géante de la mort subite",
+      "description": "[Anéantissement !] Augmente les DEG de 20 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique.",
+      "value": {},
+      "thumbnail": "heroes/Yanne/ut/2.png",
+      "story": "Flèche taillée dans la colonne vertébrale de Svelta le dragon fou, capable de décocher des déflagrations magiques. Cet objet appartient à Yanne. La tête de flèche comporte l’œil rouge en feu du dragon fou. La flèche tout entière suinte sa folie et s’apprête à mettre le feu à l’ennemi.",
+      "descriptionByStar": {
+        "0": "[Anéantissement !] Augmente les DEG de 20 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique.",
+        "1": "[Anéantissement !] Augmente les DEG de 24 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique.",
+        "2": "[Anéantissement !] Augmente les DEG de 29 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique.",
+        "3": "[Anéantissement !] Augmente les DEG de 35 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique.",
+        "4": "[Anéantissement !] Augmente les DEG de 42 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique.",
+        "5": "[Anéantissement !] Augmente les DEG de 50 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique."
+      }
+    },
+    "3": {
+      "name": "Steak de dragon",
+      "description": "[Aucune retenue !] Réduit le coût en PM de 1 et augmente les DEG infligés aux ennemis non-Héros de {0}% pendant la durée de la compétence.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
+      "thumbnail": "heroes/Yanne/ut/3.png",
+      "story": "Un gros steak permettant de goûter à la fois la surlonge et le filet d’un dragon. Le goût est exquis. L’énergie du dragon pénètre dans le corps et augmente l’endurance de combat de Yanne à son maximum.",
+      "descriptionByStar": {
+        "0": "[Aucune retenue !] Réduit le coût en PM de 1 et augmente les DEG infligés aux ennemis non-Héros de 12% pendant la durée de la compétence.",
+        "1": "[Aucune retenue !] Réduit le coût en PM de 1 point et augmente de 12 % les dégâts infligés aux dragons pendant la durée de la compétence.",
+        "2": "[Aucune retenue !] Réduit le coût en PM de 1 point et augmente de 14 % les dégâts infligés aux dragons pendant la durée de la compétence.",
+        "3": "[Aucune retenue !] Réduit le coût en PM de 1 point et augmente de 17 % les dégâts infligés aux dragons pendant la durée de la compétence.",
+        "4": "[Aucune retenue !] Réduit le coût en PM de 1 point et augmente de 21 % les dégâts infligés aux dragons pendant la durée de la compétence.",
+        "5": "[Aucune retenue !] Réduit le coût en PM de 1 point et augmente de 25 % les dégâts infligés aux dragons pendant la durée de la compétence."
+      }
+    },
+    "4": {
+      "name": "Cœur ardent de géant",
+      "description": "[Pourfendeur de Dragon] Réduit les DEG reçus par les alliés de la part des Dragons de 10% supplémentaires et augmente les DEG infligés aux Dragons de {0}%.",
+      "value": {
+        "0": {
+          "0": "6",
+          "1": "7.2",
+          "2": "8.6",
+          "3": "10.4",
+          "4": "12.6",
+          "5": "15"
+        }
+      },
+      "thumbnail": "heroes/Yanne/ut/4.png",
+      "story": "Lorsqu'on ordonna à Yanne de tuer les géants, elle rencontra leur chef, le géant de feu, et le combattit trois jours et trois nuits avant de le vaincre.\nLe cœur du géant de feu fut transpercé, mais des flammes ardentes y brûlaient encore. Elle trouva à l'intérieur une pierre de la taille d'un poing.\nLorsqu'elle la retira, les flammes s'éteignirent. Depuis, les flèches de Yanne sont imprégnées d'énergie enflammée.",
+      "descriptionByStar": {
+        "0": "[Pourfendeur de Dragon] Réduit les DEG reçus par les alliés de la part des Dragons de 10% supplémentaires et augmente les DEG infligés aux Dragons de 6%.",
+        "1": "[Pourfendeur de Dragon] Augmente le boost d'ATQ de 50 % et les DEG infligés aux dragons par tous les alliés de 4,8 %.",
+        "2": "[Pourfendeur de Dragon] Augmente le boost d'ATQ de 50 % et les DEG infligés aux dragons par tous les alliés de 5,8 %.",
+        "3": "[Pourfendeur de Dragon] Augmente le boost d'ATQ de 50 % et les DEG infligés aux dragons par tous les alliés de 7 %.",
+        "4": "[Pourfendeur de Dragon] Augmente le boost d'ATQ de 50 % et les DEG infligés aux dragons par tous les alliés de 8,4 %.",
+        "5": "[Pourfendeur de Dragon] Augmente le boost d'ATQ de 50 % et les DEG infligés aux dragons par tous les alliés de 10 %."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 18 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de Svelta, le Dragon fléau pendant 20 sec, ce qui augmente la Vitesse d'ATQ du lanceur de 300 et celle de tous les alliés de 300 et qui restaure 400 PM du lanceur toutes les sec. Pendant la durée de l'invocation, augmente tous les DEG reçus de tous les ennemis de 20%. Si la cible est un Dragon, modifie l'effet d'augmentation de DEG reçus en 60%.",
+    "cooldown": "20",
+    "uses": "7",
+    "thumbnail": "heroes/Yanne/sw.png",
+    "advancement": {
+      "1": "Augmente l'ATQ du lanceur de 50% pendant la durée de l'invocation.",
+      "2": "Les DEG infligés par les attaques automatiques ignorent la DEF de l'ennemi."
+    },
+    "story": "L'âme de Svelta, le dragon fou, n'avait pu trouver le repos éternel même dans la mort. \nSa rage et sa rancune restèrent dans l'arc long de Yanne, et hurlèrent sa volonté de détruire toute chose visible. \nCependant, en passant plusieurs années aux mains de Yanne, \nl'âme remplie de rancœur de Svelta trouva peu à peu la force de maîtriser la colère qui l'habitait. \n\nPeut-être était-ce à cause de ces contacts fréquents avec les âmes des monstres et des draconics ténébreux.\nL'âme de Svelta comprit quelles devaient être les véritables cibles de sa colère.\nTous les êtres de ce monde n'étaient pas ses ennemis. \nLes monstres, et les êtres corrompus. C'étaient eux qu'il devait réellement détruire. \n\nAlors l'âme apaisée de Svelta entra en communion avec celle de Yanne,\net décida d'accompagner la pourfendeuse de dragon, dont le sang de dragon coulait dans les veines."
+  },
+  "splashart": "heroes/Yanne/sa.png",
+  "costumes": "heroes/Yanne/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

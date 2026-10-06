@@ -1,0 +1,228 @@
+{
+  "id": "Gladi",
+  "profile": {
+    "name": "Gladi",
+    "title": "Beast of the Arena",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "9100",
+    "damage_type": "Physical",
+    "gender": "Male",
+    "age": "27",
+    "height": "184",
+    "race": "Animal Hybrid (Lynx)",
+    "constellation": "Kandala the Conqueror",
+    "birth": {
+      "month": 8,
+      "day": 30,
+      "monthName": "Month of Vitality"
+    },
+    "like": "Silvervine, powerful opponents",
+    "dislike": "Gloomy people, indecisive people",
+    "story": "The man who conquered the Orvel Arena. Sitting on the throne of the champion, he is often feared by others. People refer to him as Beast Fist. However, he is actually a cheerful man with a positive and straightforward personality. As reflected by his fighting style, he is a bold man who does not hesitate to act upon his will. After his conquest, Gladi requested the right to run an Arena Shop. Supposedly, his real goal was to gain a monopoly on silvervines. It still remains a mystery as to who will actually buy these plants, but he seems happy enough. Curiously enough, he's currently not even selling any silvervines.",
+    "thumbnail": "heroes/Gladi/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Quick Strikes",
+      "cost": "2",
+      "cooldown": "9",
+      "description": "Strikes the target 7 times, dealing a total of ??? P.DMG. The last hit increases the target's P.DMG taken by 25 % for 10 sec.",
+      "thumbnail": "heroes/Gladi/skills/1.png"
+    },
+    "2": {
+      "name": "Advent of the War God",
+      "cost": "1",
+      "cooldown": "15",
+      "description": "Dispel all negative effects on self and deal ??? P.DMG to nearby enemies within a small radius, gaining the Status 'War God' for 10 sec. While in War God mode, ATK is boosted by ??? and all auto attacks have a 30% chance to consume 5% mana to deal an extra attack of ??? extra P.DMG. Upon taking M.DMG, dodge all M.DMG for 1 sec. Dodge effect only activates 1 time in every 2 sec.",
+      "thumbnail": "heroes/Gladi/skills/2.png"
+    },
+    "3": {
+      "name": "Ultimate Punch!",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Charges energy and sprints toward frontal enemies, dealing ??? P.DMG to enemies within range and inflicting Stun for 3 sec. If the target is a Boss, attack ignores target's DEF.",
+      "thumbnail": "heroes/Gladi/skills/3.png"
+    },
+    "4": {
+      "name": "This will hurt!",
+      "cost": null,
+      "cooldown": null,
+      "description": "Upon hitting a single target with 5 normal attacks, deals ??? additional P.DMG that ignores DEF.",
+      "thumbnail": "heroes/Gladi/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DMG is increased by 10 %.",
+      "III": "DMG is increased by 15 %.",
+      "IV": "DMG is increased by 25 %."
+    },
+    "2": {
+      "II": "ATK boost and DMG is increased by 10 %",
+      "III": "ATK boost and DMG is increased by 15 %",
+      "IV": "ATK boost and DMG is increased by 25 %"
+    },
+    "3": {
+      "II": "DMG is increased by 10 %.",
+      "III": "DMG is increased by 15 %.",
+      "IV": "DMG is increased by 25 %."
+    },
+    "4": {
+      "II": "DMG is increased by 10 %.",
+      "III": "DMG is increased by 15 %.",
+      "IV": "DMG is increased by 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "When there is 1 enemy, DMG is boosted by 100%.",
+          "thumbnail": "heroes/Gladi/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "P.DMG taken increase effect amount is changed to 50%.",
+          "thumbnail": "heroes/Gladi/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "War God state lasts 5 seconds longer.",
+          "thumbnail": "heroes/Gladi/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Additional DMG hit chance rises by 20%.",
+          "thumbnail": "heroes/Gladi/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "DMG is increased by 40%.",
+          "thumbnail": "heroes/Gladi/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Mana cost is reduced by 1.",
+          "thumbnail": "heroes/Gladi/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "When there is 1 enemy, DMG is boosted by 100%.",
+          "thumbnail": "heroes/Gladi/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "When activated in the Arena, deal 15% of the target's current HP as additional P.DMG that ignores DEF.",
+          "thumbnail": "heroes/Gladi/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATK, DEF, HP +15% / ATK Spd +100",
+        "thumbnail": "heroes/Gladi/perks/light.png"
+      },
+      "dark": {
+        "effect": "Increases all DEF by 8% of ATK.",
+        "thumbnail": "heroes/Gladi/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Beast Fist, Mastra",
+    "description": "Upon a Crit Hit, Crit. DMG is increased by 20% for 5 sec. This effect can be stacked up to 7 times max.",
+    "value": {},
+    "thumbnail": "heroes/Gladi/uw.png",
+    "story": "A pair of gauntlets custom forged for Gladi. They are the proof of his winning the championship at the Orvel Arena. Supposedly, these were crafted from a legendary pair of gauntlets used by a man who was known as the War God hundreds of years ago. These gauntlets, specialized for smashing the opponent, greatly enhance the power of their wearer. However, the physical cost of using them is brutal, and no normal person can handle them. Unless the wearer is incredibly flexible, and physically capable of withstanding the impact of each blow, using them is almost suicidal. Nevertheless, Gladi's natural strength and flexibility allow him to use them freely.",
+    "descriptionByStar": {
+      "0": "Upon a Crit Hit, Crit. DMG is increased by 20% for 5 sec. This effect can be stacked up to 7 times max.",
+      "1": "Upon a Crit Hit, Crit. DMG is increased by 24% for 5 sec. This effect can be stacked up to 7 times max.",
+      "2": "Upon a Crit Hit, Crit. DMG is increased by 29% for 5 sec. This effect can be stacked up to 7 times max.",
+      "3": "Upon a Crit Hit, Crit. DMG is increased by 35% for 5 sec. This effect can be stacked up to 7 times max.",
+      "4": "Upon a Crit Hit, Crit. DMG is increased by 42% for 5 sec. This effect can be stacked up to 7 times max.",
+      "5": "Upon a Crit Hit, Crit. DMG is increased by 50% for 5 sec. This effect can be stacked up to 7 times max."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Intolerable Feather",
+      "description": "[Quick Strikes] Increases DMG by 50%, and makes the target unable to recover Mana for 2 sec.",
+      "value": {},
+      "thumbnail": "heroes/Gladi/ut/1.png",
+      "story": "You just can't stop throwing punches!\nThe mysterious feather wavering before the eyes pushes Gladi's concentration to its limit so that he can land strikes at a crazy speed. Gladi seems a bit too excited when he's looking at it.",
+      "descriptionByStar": {
+        "0": "[Quick Strikes] Increases DMG by 50%, and makes the target unable to recover Mana for 2 sec.",
+        "1": "[Quick Strikes] Increases DMG by 50%, and makes the target unable to recover Mana for 2.4 sec.",
+        "2": "[Quick Strikes] Increases DMG by 50%, and makes the target unable to recover Mana for 2.9 sec.",
+        "3": "[Quick Strikes] Increases DMG by 50%, and makes the target unable to recover Mana for 3.5 sec.",
+        "4": "[Quick Strikes] Increases DMG by 50%, and makes the target unable to recover Mana for 4.2 sec.",
+        "5": "[Quick Strikes] Increases DMG by 50%, and makes the target unable to recover Mana for 5 sec."
+      }
+    },
+    "2": {
+      "name": "Silvervine Box",
+      "description": "[Advent of the War God] Recovers 100 Mana every sec and stacks 1 [This will hurt!] upon dealing additional P.DMG for the duration of Skill.",
+      "value": {},
+      "thumbnail": "heroes/Gladi/ut/2.png",
+      "story": "Silvervine is used to exponentially boost physical ability. \nNothing else, but this silvervine. Others may try chewing silvervine, drink it, boil it, but it won't work.\nGladi just needs this silvervine to have the effect of the War God.",
+      "descriptionByStar": {
+        "0": "[Advent of the War God] Recovers 100 Mana every sec and stacks 1 [This will hurt!] upon dealing additional P.DMG for the duration of Skill.",
+        "1": "[Advent of the War God] Recovers 120 Mana every sec and stacks 1 [This will hurt!] upon dealing additional P.DMG for the duration of Skill.",
+        "2": "[Advent of the War God] Recovers 140 Mana every sec and stacks 1 [This will hurt!] upon dealing additional P.DMG for the duration of Skill.",
+        "3": "[Advent of the War God] Recovers 170 Mana every sec and stacks 1 [This will hurt!] upon dealing additional P.DMG for the duration of Skill.",
+        "4": "[Advent of the War God] Recovers 210 Mana every sec and stacks 1 [This will hurt!] upon dealing additional P.DMG for the duration of Skill.",
+        "5": "[Advent of the War God] Recovers 250 Mana every sec and stacks 1 [This will hurt!] upon dealing additional P.DMG for the duration of Skill."
+      }
+    },
+    "3": {
+      "name": "Champion's Laurel Wreath",
+      "description": "[Ultimate Punch!] Skill cooldown is reduced by 30% and per each activation DMG is increased by 4%. This effect can be stacked max 10 times.",
+      "value": {},
+      "thumbnail": "heroes/Gladi/ut/3.png",
+      "story": "Wreath given to the strongest warrior of Orbis Continent. It's only given to the winner of the fighting tournament that happens every 4 years. Those who wear this wreath are said to be able to borrow the strength of the War God.",
+      "descriptionByStar": {
+        "0": "[Ultimate Punch!] Skill cooldown is reduced by 30% and per each activation DMG is increased by 4%. This effect can be stacked max 10 times.",
+        "1": "[Ultimate Punch!] Skill cooldown is reduced by 30% and per each activation DMG is increased by 4.8%. This effect can be stacked max 10 times.",
+        "2": "[Ultimate Punch!] Skill cooldown is reduced by 30% and per each activation DMG is increased by 5.8%. This effect can be stacked max 10 times.",
+        "3": "[Ultimate Punch!] Skill cooldown is reduced by 30% and per each activation DMG is increased by 7%. This effect can be stacked max 10 times.",
+        "4": "[Ultimate Punch!] Skill cooldown is reduced by 30% and per each activation DMG is increased by 8.4%. This effect can be stacked max 10 times.",
+        "5": "[Ultimate Punch!] Skill cooldown is reduced by 30% and per each activation DMG is increased by 10%. This effect can be stacked max 10 times."
+      }
+    },
+    "4": {
+      "name": "Elastic Bandage of Fighting Spirit",
+      "description": "[This will hurt!] Increases DMG by 50%. Upon activation, a target takes 2% increased P.DMG for 10 sec. This effect can be stacked up to max 6 times.",
+      "value": {},
+      "thumbnail": "heroes/Gladi/ut/4.png",
+      "story": "A roll of elastic bandage that Gladi wears around his fists when someone really needs a good punch to the face.\nIt was a present that his master gave him a long time ago.\nGladi rarely gets mad after he started to work at the shop in the Arena, but he would take the bandage out for nasty customers who keep whining that they need weapons that exceed their capabilities, or those who dishonor the War God, whom he respects dearly.\nGladi is a big-hearted man who knows how to let things go with a good laugh, but if you see him wrapping the bandage around his fists silently,\nthat could be your last day.",
+      "descriptionByStar": {
+        "0": "[This will hurt!] Increases DMG by 50%. Upon activation, a target takes 2% increased P.DMG for 10 sec. This effect can be stacked up to max 6 times.",
+        "1": "[This will hurt!] Increases DMG by 50%. Upon activation, a target takes 2.4% increased P.DMG for 10 sec. This effect can be stacked up to max 6 times.",
+        "2": "[This will hurt!] Increases DMG by 50%. Upon activation, a target takes 2.9% increased P.DMG for 10 sec. This effect can be stacked up to max 6 times.",
+        "3": "[This will hurt!] Increases DMG by 50%. Upon activation, a target takes 3.5% increased P.DMG for 10 sec. This effect can be stacked up to max 6 times.",
+        "4": "[This will hurt!] Increases DMG by 50%. Upon activation, a target takes 4.2% increased P.DMG for 10 sec. This effect can be stacked up to max 6 times.",
+        "5": "[This will hurt!] Increases DMG by 50%. Upon activation, a target takes 5% increased P.DMG for 10 sec. This effect can be stacked up to max 6 times."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Charges up upon using Skills 5 times.",
+    "description": "Summons the soul of Beast Fist, Mastra, dealing ??? P.DMG that ignores DEF to the enemy with the highest ATK, and increasing own ATK by 50% for 10 sec. For the duration of Skill, increases DMG of [Ultimate Punch!] by 50%. Upon activation of [This will hurt!], deals ??? additional P.DMG that ignores DEF on the target.",
+    "cooldown": "20",
+    "uses": "6",
+    "thumbnail": "heroes/Gladi/sw.png",
+    "advancement": {
+      "1": "Upon using [Ultimate Punch!] for the duration of Skill, DMG that ignores DEF also applies to targets other than Bosses.",
+      "2": "Increases DMG by 100% and changes DMG Boost of [Ultimate Punch!] to 100%."
+    },
+    "story": "Gladi received an impressive reward for conquering the Arena, but he had one concern. Gladi could not help but sense something odd about Mastra, the weapon he received as a token of his victory. Gladi was sure that he was controlling Mastra as he wished, but he realized at one point that Mastra was moving on its own, ‘matching’ his movement. Gladi brainstormed for the answer all night, but he eventually fell asleep with Mastra by his side.\nIn his dream, Gladi saw a massive lion that was staring at him. Gladi didn't know why, but he was happy to see the lion. However, when he waved his hand, the lion rather responded coldly.\n\n- You are just a wee pup, and you are far from being ready. You are in no position of greeting me.\n\nGladi, upset by the lion's remark, asked the lion back. However, the lion replied coldly. ‘I do not have to answer your question.’ Gladi, enraged with the lion who was being dismissive, fought with the lion to hear his answer. After a long fight, Gladi managed to defeat the lion. \n\n- I would like to have my answer now.\n- Another question that does not need to be answered.\n\nAfter hearing the lion’s mysterious answer, Gladi woke up from the dream. Gladi could not shake the uneasy feeling because the dream felt all too real. When Gladi equipped Mastra and started jabbing to forget about the distractions, it did not take long until Gladi understood the lion’s last words."
+  },
+  "splashart": "heroes/Gladi/sa.png",
+  "costumes": "heroes/Gladi/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "en",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "id": "Ricardo",
+  "profile": {
+    "name": "Ricardo",
+    "title": "Ricardo, Justicier de Lua",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "3600",
+    "damage_type": "Physical",
+    "gender": "Homme",
+    "age": "71",
+    "height": "215",
+    "race": "Humain",
+    "constellation": "Kandala le Conquérant",
+    "birth": {
+      "month": 8,
+      "day": 23,
+      "monthName": "Mois de la Vitalité"
+    },
+    "like": "Les hommes et aider les autres",
+    "dislike": "Les démons et surtout les démons qui attaquent les humains sans raison particulière",
+    "story": "Un héros ayant sauvé d'innombrables vies face aux démons. C'est le commandant actuel des Chevaliers Sacrés de l'Église de Lua. Ce chevalier courageux et chevronné pourchasse les démons dans tout Orvelia depuis sa tendre enfance. Il est également le maître de l'orphelinat où Kasel, Frey et Clause ont grandi. Il a entraîné énormément de guerriers d'Orvelia, qui le considèrent comme un chef spirituel. Du fait de son âge, il se prépare à abandonner son poste, mais sa puissance est telle qu'on lui a toujours refusé son départ en retraite.",
+    "thumbnail": "heroes/Ricardo/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Destruction",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Inflige ??? points de DEG P aux ennemis qui font face au Héros et les renverse pendant 3 sec.",
+      "thumbnail": "heroes/Ricardo/skills/1.png"
+    },
+    "2": {
+      "name": "Protection Divine",
+      "cost": "1",
+      "cooldown": "30",
+      "description": "Inflige ??? points de DEG P aux ennemis à portée des applique Étourdissement pendant 1 sec. La DEF M du Héros augmente également de ??? pendant 10 sec, et il reçoit 80% des DEG M à la place des alliés.",
+      "thumbnail": "heroes/Ricardo/skills/2.png"
+    },
+    "3": {
+      "name": "Jugement Divin",
+      "cost": "4",
+      "cooldown": "23",
+      "description": "Attaque frontalement les ennemis à 3 reprises. Les 2 premières attaques infligent ??? points de DEG P aux ennemis et applique Étourdissement pendant 4 sec à chaque fois. La dernière attaque a une portée 20% plus importante et inflige ??? points de DEG P \nen appliquant Étourdissement pendant 4 sec. Chaque attaque a 50% de chances de retirer un effet bénéfique sur l'ennemi.",
+      "thumbnail": "heroes/Ricardo/skills/3.png"
+    },
+    "4": {
+      "name": "Bénédiction Divine",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lorsqu'un allié subit des DEG M sa DEF M est augmentée de ??? pendant 5 sec. Cumulable 5 fois, et Ricardo ne peut pas bénéficier de cet effet.",
+      "thumbnail": "heroes/Ricardo/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "Confère l'immunité contre les Contrôles pendant l'utilisation de la compétence."
+    },
+    "2": {
+      "II": "Bonus de Défense augmenté de 10%.",
+      "III": "Bonus de Défense augmenté de 15%.",
+      "IV": "Récupère 1% des PV du Héros par seconde, pendant 10 sec."
+    },
+    "3": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "Bloque tous les DEG."
+    },
+    "4": {
+      "II": "Bonus de Défense augmenté de 10%.",
+      "III": "Bonus de Défense augmenté de 15%.",
+      "IV": "Durée augmentée de 2 sec."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "La cible reçoit 25% de DEG P supplémentaires pendant 10 sec.",
+          "thumbnail": "heroes/Ricardo/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Inflige des DEG P supplémentaires équivalents à 200% de la DEF M.",
+          "thumbnail": "heroes/Ricardo/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Augmente le coût en PM de 1, et Ricardo gagne 30% de résistance aux DEG reçus pour couvrir ses alliés.",
+          "thumbnail": "heroes/Ricardo/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "L'effet de cette compétence ne peut pas être dissipé.",
+          "thumbnail": "heroes/Ricardo/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "La durée d'Étourdissement est augmentée de 2 sec.",
+          "thumbnail": "heroes/Ricardo/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Ricardo/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Le taux de récupération de la DEF M est augmenté de 40%.",
+          "thumbnail": "heroes/Ricardo/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Le nombre maximal de charges est maintenant de 8.",
+          "thumbnail": "heroes/Ricardo/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Blocage P +200",
+        "thumbnail": "heroes/Ricardo/perks/light.png"
+      },
+      "dark": {
+        "effect": "Lorsque les PV du Héros tombent sous les 40%, ils ne peuvent aller sous les 10% pendant 6 sec, et l'ATQ de tous les alliés est augmentée de 50% de la DEF M du Héros. Cet effect ne peut être activé qu'une seule fois toutes les 60 sec.",
+        "thumbnail": "heroes/Ricardo/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Theoria, la Lumière du Jugement",
+    "description": "Lorsqu'un allié autre que le lanceur subit des DEG, il y a 10% de chances pour qu'un bouclier soit généré autour de lui, capable d'absorber les DEG à hauteur de 320% de l'ATQ pendant 5 sec et qui confère l'immunité contre les contrôles. Cet effet ne peut pas se produire plus d'une fois toutes les 5 sec.",
+    "value": {},
+    "thumbnail": "heroes/Ricardo/uw.png",
+    "story": "Quand Aea l'Épée Sacrée fut confiée à Kyle, elle apparut au temple de Lua, situé au nord des Plaines du Roi. Lorsque Kyle la retira de l'autel, la lame libéra une puissante vague de lumière qui consacra les terres avoisinantes. Tous les objets contenus dans le temple devinrent immédiatement de saintes reliques. Teoria, le pilier central du temple, absorba l'essentiel de l'énergie divine.",
+    "descriptionByStar": {
+      "0": "Lorsqu'un allié autre que le lanceur subit des DEG, il y a 10% de chances pour qu'un bouclier soit généré autour de lui, capable d'absorber les DEG à hauteur de 320% de l'ATQ pendant 5 sec et qui confère l'immunité contre les contrôles. Cet effet ne peut pas se produire plus d'une fois toutes les 5 sec.",
+      "1": "Lorsqu'un allié autre que le lanceur subit des DEG, il y a 12% de chances pour qu'un bouclier soit généré autour de lui, capable d'absorber les DEG à hauteur de 384% de l'ATQ pendant 5 sec et qui confère l'immunité contre les contrôles. Cet effet ne peut pas se produire plus d'une fois toutes les 5 sec.",
+      "2": "Lorsqu'un allié autre que le lanceur subit des DEG, il y a 14% de chances pour qu'un bouclier soit généré autour de lui, capable d'absorber les DEG à hauteur de 460% de l'ATQ pendant 5 sec et qui confère l'immunité contre les contrôles. Cet effet ne peut pas se produire plus d'une fois toutes les 5 sec.",
+      "3": "Lorsqu'un allié autre que le lanceur subit des DEG, il y a 17% de chances pour qu'un bouclier soit généré autour de lui, capable d'absorber les DEG à hauteur de 552% de l'ATQ pendant 5 sec et qui confère l'immunité contre les contrôles. Cet effet ne peut pas se produire plus d'une fois toutes les 5 sec.",
+      "4": "Lorsqu'un allié autre que le lanceur subit des DEG, il y a 20% de chances pour qu'un bouclier soit généré autour de lui, capable d'absorber les DEG à hauteur de 660% de l'ATQ pendant 5 sec et qui confère l'immunité contre les contrôles. Cet effet ne peut pas se produire plus d'une fois toutes les 5 sec.",
+      "5": "Lorsqu'un allié autre que le lanceur subit des DEG, il y a 25% de chances pour qu'un bouclier soit généré autour de lui, capable d'absorber les DEG à hauteur de 800% de l'ATQ pendant 5 sec et qui confère l'immunité contre les contrôles. Cet effet ne peut pas se produire plus d'une fois toutes les 5 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Étole de templier",
+      "description": "[Écrasement] Réduit l'ATQ de la cible de 20 % et augmente les DEG P et DEG M qu'elle reçoit de 5 % pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Ricardo/ut/1.png",
+      "story": "Cette étole de cérémonie est remise au grand maître des Chevaliers sacrés.\nRicardo en fit un emblème et l'apposa sur son armure pour exalter ses camarades sur le champ de bataille. Lorsqu'il pourfend les créatures maléfiques avec Theoria, les mouvements de l'étole remplissent le cœur de ses alliés de courage.",
+      "descriptionByStar": {
+        "0": "[Écrasement] Réduit l'ATQ de la cible de 20 % et augmente les DEG P et DEG M qu'elle reçoit de 5 % pendant 10 sec.",
+        "1": "[Écrasement] Réduit l'ATQ de la cible de 20 % et augmente les DEG P et DEG M qu'elle reçoit de 6 % pendant 10 sec.",
+        "2": "[Écrasement] Réduit l'ATQ de la cible de 20 % et augmente les DEG P et DEG M qu'elle reçoit de 7 % pendant 10 sec.",
+        "3": "[Écrasement] Réduit l'ATQ de la cible de 20 % et augmente les DEG P et DEG M qu'elle reçoit de 8,5 % pendant 10 sec.",
+        "4": "[Écrasement] Réduit l'ATQ de la cible de 20 % et augmente les DEG P et DEG M qu'elle reçoit de 10,5 % pendant 10 sec.",
+        "5": "[Écrasement] Réduit l'ATQ de la cible de 20 % et augmente les DEG P et DEG M qu'elle reçoit de 12,5 % pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Fierté du guerrier saint",
+      "description": "[Protection divine] Donne l'immunité aux contrôles et augmente la Résist M Forte de 10 % pendant la durée de la compétence.",
+      "value": {},
+      "thumbnail": "heroes/Ricardo/ut/2.png",
+      "story": "Bouclier de l’arbitre des Chevaliers Sacrés de Lua. \nCette relique est offerte à ceux qui ont gagné le titre d’arbitre des Chevaliers Sacrés de Lua. \nElle est imprégnée de la bénédiction de la déesse Lua et protège ceux qui bénéficient de la bienveillance des dieux tout en punissant sans merci les ennemis.",
+      "descriptionByStar": {
+        "0": "[Protection divine] Donne l'immunité aux contrôles et augmente la Résist M Forte de 10 % pendant la durée de la compétence.",
+        "1": "[Protection divine] Donne l'immunité aux contrôles et augmente la Résist M Forte de 12 % pendant la durée de la compétence.",
+        "2": "[Protection divine] Donne l'immunité aux contrôles et augmente la Résist M Forte de 14 % pendant la durée de la compétence.",
+        "3": "[Protection divine] Donne l'immunité aux contrôles et augmente la Résist M Forte de 17 % pendant la durée de la compétence.",
+        "4": "[Protection divine] Donne l'immunité aux contrôles et augmente la Résist M Forte de 21 % pendant la durée de la compétence.",
+        "5": "[Protection divine] Donne l'immunité aux contrôles et augmente la Résist M Forte de 25 % pendant la durée de la compétence."
+      }
+    },
+    "3": {
+      "name": "Vœu du guerrier saint",
+      "description": "[Jugement Divin] Dissipe toutes les Améliorations sur les ennemis avec 75% de réussite et réduit la Vitesse d'ATQ de la cible de 100 pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Ricardo/ut/3.png",
+      "story": "Le sceau utilisé par Ricardo pour le serment du guerrier saint. Lorsqu’ils sont nommés pour la première fois comme guerrier saint, les chevaliers déposent leur sur le certificat de serment avec leur sceau. Ricardo fit ce sceau avec toute son affection pour l’Église de Lua. \nIl le porte toujours, même après tout ce temps.",
+      "descriptionByStar": {
+        "0": "[Jugement Divin] Dissipe toutes les Améliorations sur les ennemis avec 75% de réussite et réduit la Vitesse d'ATQ de la cible de 100 pendant 10 sec.",
+        "1": "[Jugement Divin] Dissipe toutes les Améliorations sur les ennemis avec 75% de réussite et réduit la Vitesse d'ATQ de la cible de 120 pendant 10 sec.",
+        "2": "[Jugement Divin] Dissipe toutes les Améliorations sur les ennemis avec 75% de réussite et réduit la Vitesse d'ATQ de la cible de 140 pendant 10 sec.",
+        "3": "[Jugement Divin] Dissipe toutes les Améliorations sur les ennemis avec 75% de réussite et réduit la Vitesse d'ATQ de la cible de 170 pendant 10 sec.",
+        "4": "[Jugement Divin] Dissipe toutes les Améliorations sur les ennemis avec 75% de réussite et réduit la Vitesse d'ATQ de la cible de 210 pendant 10 sec.",
+        "5": "[Jugement Divin] Dissipe toutes les Améliorations sur les ennemis avec 75% de réussite et réduit la Vitesse d'ATQ de la cible de 250 pendant 10 sec."
+      }
+    },
+    "4": {
+      "name": "Pendentif bienveillant",
+      "description": "[Bénédiction divine] Augmente la durée de 5 sec et réduit les DEG M subis par le lanceur de 1 % par charge.",
+      "value": {},
+      "thumbnail": "heroes/Ricardo/ut/4.png",
+      "story": "Le symbole de l'orphelinat de Ricardo, une petite croix au centre d'une croix plus grande.\nIl fut créé lors de la construction de l'orphelinat, dans l'espoir que les prières de Ricardo puissent inclure les vœux tacites des plus jeunes enfants qui ne savaient pas parler.\nLa grande prêtresse Iris l'a également béni au nom de Lua, et on raconte qu'il protège les enfants qui grandissent contre les maladies.",
+      "descriptionByStar": {
+        "0": "[Bénédiction divine] Augmente la durée de 5 sec et réduit les DEG M subis par le lanceur de 1 % par charge.",
+        "1": "[Bénédiction divine] Augmente la durée de 5 sec et réduit les DEG M subis par le lanceur de 1,2 % par charge.",
+        "2": "[Bénédiction divine] Augmente la durée de 5 sec et réduit les DEG M subis par le lanceur de 1,4 % par charge.",
+        "3": "[Bénédiction divine] Augmente la durée de 5 sec et réduit les DEG M subis par le lanceur de 1,7 % par charge.",
+        "4": "[Bénédiction divine] Augmente la durée de 5 sec et réduit les DEG M subis par le lanceur de 2,1 % par charge.",
+        "5": "[Bénédiction divine] Augmente la durée de 5 sec et réduit les DEG M subis par le lanceur de 2,5 % par charge."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Se recharge toutes les sec et à chaque fois que les DEG sont infligés. Devient utilisable lorsqu'elle est rechargée 100 fois.",
+    "description": "Invoque l'âme de Theoria, la Lumière du Jugement, pendant 15 sec, ce qui augmente la DEF de 50%. Pendant la durée de la compétence, chaque fois que Ricardo reçoit des DEG, inflige à la cible attaquante ??? DEG P et l'étourdit pendant 2 sec, avec une probabilité de 10%.",
+    "cooldown": "25",
+    "uses": "5",
+    "thumbnail": "heroes/Ricardo/sw.png",
+    "advancement": {
+      "1": "Augmente la durée de l'Étourdissement pendant 2 sec.",
+      "2": "Augmente la probabilité d'activation de 10% et réduit les PM de l'ennemi touché de 500."
+    },
+    "story": "Une âme tenace, reflétant la foi envers Lua et la conviction de Ricardo. \nL'âme de Theoria, formée à partir de la résolution de vouloir protéger tous ceux qu'il chérit et en qui il a confiance, a l'apparence d'un golem sacré. \nTout comme Ricardo qui ne désespère point malgré d'innombrables batailles étalées sur de longues années, Theoria représente une volonté inébranlable qui ne saurait fléchir.\n\nTout comme Aea, l'Épée-Sacrée, qui par sa puissance transforma en terre sacrée l'endroit où il apparut pour la première fois,\n\nTheoria, dont l'âme est libérée, purifie l'atmosphère environnante en anéantissant le mal et attirant la lumière.\nDevant la lumière sacrée de cette âme, tout ce qui est impur disparaîtra,\net l'âme purifiée trouvera la paix éternelle dans la lumière de Lua.\n\n... Du moins, c'est ce que pense la grande prêtresse Iris. \nPour Ricardo, cette croyance ne sert qu'à retarder sa retraite..."
+  },
+  "splashart": "heroes/Ricardo/sa.png",
+  "costumes": "heroes/Ricardo/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

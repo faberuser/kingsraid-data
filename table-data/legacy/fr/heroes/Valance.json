@@ -1,0 +1,272 @@
+{
+  "id": "Valance",
+  "profile": {
+    "name": "Valance",
+    "title": "Valance, Technomage au Zénith",
+    "class": "Mechanic",
+    "position": "Middle-200",
+    "attack_range": "11100",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "28",
+    "height": "167",
+    "race": "Humain",
+    "constellation": "Lasiphil la Prophétesse",
+    "birth": {
+      "month": 3,
+      "day": 20,
+      "monthName": "Mois de la Clairvoyance"
+    },
+    "like": "Du thé noir bien chaud, Crow, Rose, Loah, les recherches",
+    "dislike": "Du café refroidi, les gens qui se servent des autres sans scrupules",
+    "story": "À la fois l'une des génies les plus célèbres en technomagie et directrice générale de Magos Le'Flamme, le centre de développement d'armes et de recherches technomagiques le plus prestigieux de l'empire, Valance de Charlie était distinguée dans son domaine dès son adolescence par sa créativité inégalée. Grâce à ses aptitudes intellectuelles, elle a pu sauter une classe dans son institut scolaire, et ce plus d'une fois, avant d'achever les études plus tôt que prévu et d'entrer ensuite à une académie supérieure. Il existait bien entendu des aspects quelque peu négatifs derrière tous ces exploits; son excellence inspirait la jalousie chez de nombreuses personnes et poussait d'autres à convoiter ses œuvres académiques... des faits envers lesquels elle manifestait une indifférence déterminée. Rien n'a pu empêcher Valance d'aller de l'avant jusqu'à ce qu'elle soit nommée comme chercheuse à Magos Le'Flamme immédiatement après l'obtention de son diplôme, là où seuls les plus compétents de tous les surdoués de l'empire Vespia étaient réunis.\nDe par son comportement qui était loin d'être affectueux et sa façon de parler avec une franchise excessive au goût de certains, elle n'était proche avec personne à part Crow (qui, dans son cas, avait dû redoubler quelques fois) et Rose, une ancienne camarade à l'académie d'où elles étaient sorties. Valance chérissait ces deux des amis plus que quiconque; elle éprouvait un amour sincère envers Rose qui souhaitait constamment le bonheur pour ses biens-aimés, puis Crow qui protégeait cette dernière en montrant une fidélité immuable. Cependant, la vie a fait connaître à Valance la peine atroce de perdre Rose : celle-ci se fit tuer avec sa fille dans un incendie provoqué par Pandora suite à un complot qui était en train de germer au sein de l'empire. Marquant le seul regret dans la vie de Valance, cet événement l'a incitée à jurer vengeance main dans la main avec Crow contre les coupables du meurtre.\nValance peut paraître taciturne et altière, mais ce n'est qu'une apparence. Elle est du genre à raconter les faits tels qu'ils sont, en usant si nécessaire des paroles rudes et violentes. Non seulement elle est d'un tempérament actif, mais elle est également passionnée, sachant prendre l'initiative afin d'atteindre son but et croyant qu'il est possible de changer l'avenir avec de la volonté. Elle possède une grande soif de connaissance, et lorsqu'elle fait face à un phénomène inexplicable en rapport avec la technomagie, elle ne cesse de murmurer malgré elle « Comment est-ce possible ? », incapable de se rasséréner. Cette attitude qui est contradictoire avec sa nature d'une froide intellectuelle fait partie de ses charmes.\nDe plus, il lui arrive souvent de fabriquer les armes des membres de l'Unité du Chien. Il paraît qu'elle se fait payer rubis sur l'ongle lorsqu'il s'agit de réparer ou d'améliorer les équipements. Pour les membres de l'unité, il n'y a rien de certain mais... la bourse de quelqu'un d'autre doit être à sec.",
+    "thumbnail": "heroes/Valance/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Prototype – VA",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Dissipe tous les effets négatifs sur l'allié à l'ATQ la plus élevée et lui confère l'effet d'[Hologramme] qui dure 15 sec. [Hologramme] augmente l'ATQ de ??? et le Crit de 350 de la cible. Cet effet restaure également ??? PV de la cible toutes les sec et réduit le temps de recharge de toutes ses compétences de 0.2 sec. Immunise la cible contre les effets négatifs pendant la durée d'[Hologramme].",
+      "thumbnail": "heroes/Valance/skills/1.png"
+    },
+    "2": {
+      "name": "Champ de Protection absolue – LA",
+      "cost": "5",
+      "cooldown": "20",
+      "description": "Étend un [Champ d'Énergie violet] dans une large zone autour du lanceur pendant 5 sec, ce qui augmente la DEF des alliés à portée du [Champ d'Énergie violet] de 15%, les immunise contre les Contrôles et leur restaure toutes les sec ??? PV et 600 PM. N'active pas de coup critique pour l'effet de restauration des PV.",
+      "thumbnail": "heroes/Valance/skills/2.png"
+    },
+    "3": {
+      "name": "Canon Laser ultime – NCE",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Attaque avec des canons de Laser déployés derrière le lanceur, ce qui inflige ??? DEG P à la cible ennemie, l'étourdit pendant 3 sec et la met sous l'effet de [Manipulation] pendant 15 sec. Ensuite, tire 9 coups de laser au total aux ennemis aléatoires, ce qui inflige ??? DEG P par coup de laser, les étourdit pendant 1.5 sec et le met sous l'effet de [Manipulation] pendant 15 sec. L'effet de [Manipulation] réduit la Récupération des PV de la cible ennemie de 5% et augmente ses DEG reçus de 7%. L'effet de [Manipulation] peut se cumuler jusqu'à 7 fois.",
+      "thumbnail": "heroes/Valance/skills/3.png"
+    },
+    "4": {
+      "name": "Éveil technomagique",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente la DEF du lanceur de ??? et la Récupération PM/attaque de 400, ainsi que l'ATQ de tous les alliés de 10%. Augmente les DEG infligés par tous les alliés au boss de 15% dans le Royaume technomagique.",
+      "thumbnail": "heroes/Valance/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente l'augmentation d'ATQ de 10%.",
+      "III": "Augmente l'augmentation d'ATQ de 15%.",
+      "IV": "Augmente l'augmentation d'ATQ de 25%."
+    },
+    "2": {
+      "II": "Augmente l'augmentation de DEF de 5%.",
+      "III": "Augmente l'augmentation de DEF de 5%.",
+      "IV": "Augmente l'augmentation de DEF de 5%."
+    },
+    "3": {
+      "II": "Augmente les DEG de 10%.",
+      "III": "Augmente les DEG de 15%.",
+      "IV": "Augmente les DEG de 25%."
+    },
+    "4": {
+      "II": "Augmente l'augmentation d'ATQ de 5%.",
+      "III": "Augmente l'augmentation d'ATQ de 5%.",
+      "IV": "Augmente l'augmentation d'ATQ de 5%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Applique l'effet d'[Hologramme] à 2 alliés à l'ATQ la plus élevée.",
+          "thumbnail": "heroes/Valance/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Ajoute l'effet d'augmentation des DEG Crit de 50% à [Hologramme].",
+          "thumbnail": "heroes/Valance/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Ajoute l'effet de réduction des DEG reçus de 25% au [Champ d'Énergie violet].",
+          "thumbnail": "heroes/Valance/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Ajoute l'effet d'augmentation de Vitesse d'ATQ de 300 au [Champ d'Énergie violet].",
+          "thumbnail": "heroes/Valance/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Dissipe tous les effets positifs de la cible touchée.",
+          "thumbnail": "heroes/Valance/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Valance/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Réduit les DEG reçus par tous les alliés de 30% dans le Royaume technomagique.",
+          "thumbnail": "heroes/Valance/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG infligés au boss par tous les alliés de 15% supplémentaires dans le Royaume technomagique.",
+          "thumbnail": "heroes/Valance/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Vitesse d'ATQ +100",
+        "thumbnail": "heroes/Valance/perks/light.png"
+      },
+      "dark": {
+        "effect": "Réduit les DEG reçus de tous les alliés de 2.5% et augmente les DEG reçus de tous les ennemis de 2.5%. Multiplie l'effet par le nombre d'équipements technomagiques portés par le lanceur.",
+        "thumbnail": "heroes/Valance/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Corbeau Rose, l'Essence de Magos Le'Flamme",
+    "description": "Confère les effets suivants à chaque allié en fonction du nombre d'équipements technomagiques portés par celui-ci.\n1 pièce : Augmente l'ATQ de {0}%.\n2 pièces : Augmente la DEF de {1}%.\n3 pièces : Augmente les PV max de {2}%.\n4 pièces: Augmente les DEG infligés aux ennemis de {3}%.",
+    "value": {
+      "0": {
+        "0": "6",
+        "1": "7.2",
+        "2": "8.6",
+        "3": "10.4",
+        "4": "12.6",
+        "5": "15"
+      },
+      "1": {
+        "0": "6",
+        "1": "7.2",
+        "2": "8.6",
+        "3": "10.4",
+        "4": "12.6",
+        "5": "15"
+      },
+      "2": {
+        "0": "6",
+        "1": "7.2",
+        "2": "8.6",
+        "3": "10.4",
+        "4": "12.6",
+        "5": "15"
+      },
+      "3": {
+        "0": "4",
+        "1": "4.8",
+        "2": "5.8",
+        "3": "7",
+        "4": "8.4",
+        "5": "10"
+      }
+    },
+    "thumbnail": "heroes/Valance/uw.png",
+    "story": "Une arme représentant la devise de Magos Le'Flamme, façonnée par Valance. La technomagie de pointe par laquelle elle a été conçue lui permet d’alterner librement par commande vocale les diverses modes d'attaque ainsi que ceux de fonctionnement. En temps habituel, elle flotte dans l'air avec ses trois ailes mobiles suivant partout Valance en mode sondage de terrain et détection de danger.\nÉtant un concentré de la technomagie, le développement de cette arme a pris un très long moment. Au début, elle avait été programmée pour fonctionner en captant les signes de la main et les mouvements de Valance. Cependant, après que Valance s'est rendue au royaume technomagique avec l'Unité du Chien, elle y a découvert une nouvelle méthode d'améliorer l'arme. Après s'être enfermée et avoir brûlé son énergie jour et nuit dans le laboratoire d'un technomage génie au nom inconnu, Valance a enfin réussi à décoder le système de mobilité et à l'implémenter dans cette arme.\n- Waouh, vous avez encore fabriqué une machine fabuleuse ! Ça bouge tout seul ? Mais c'est fascin... Aaahh !!\n- Ça t'apprendra à toucher les affaires d'autrui sans leur permission.\n- Ahahah !! Regardez le gros trou sur l'habit de ce vaurien !!\nAprès cette démonstration de performance inattendue effectuée avec l'aide de l'Unité du Chien, Valance a poussé un petit soupir puis s'est mise à réfléchir sur le nom à donner. Derrière ses subalternes faisant du chahut, Crow l'a regardée, les bras croisés.\n- ... Ça lui aurait plu.\n- Quoi donc... ?\n- Rose l'aurait aimée. C'est sa couleur préférée.\nÀ la vue de Crow souriant légèrement, contemplant les souvenirs avec une sucette dans la bouche, une idée est venue à l'esprit de Valance. Corbeau Rose. Car il n'y avait rien de mieux au monde que les noms de ceux qu'elle aimait pour lui apporter du bonheur.",
+    "descriptionByStar": {
+      "0": "Confère les effets suivants à chaque allié en fonction du nombre d'équipements technomagiques portés par celui-ci.\n1 pièce : Augmente l'ATQ de 6%.\n2 pièces : Augmente la DEF de 6%.\n3 pièces : Augmente les PV max de 6%.\n4 pièces: Augmente les DEG infligés aux ennemis de 4%."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Terminal portatif",
+      "description": "[Prototype – VA] Ajoute à [Hologramme] l'effet d'augmentation de {0}% des DEG infligés aux ennemis non-Héros et augmente la réduction du temps de recharge de compétence de la cible de 50%.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Valance/ut/1.png",
+      "story": "Valance se déplace toujours avec ce petit terminal multifonction. Connecté à l'ordinateur de Magos Le'Flamme, cette machine minuscule qui tient dans la main de Valance est capable d'effectuer une variété de tâches : recherche d'informations dans la base de données à Magos Le'Flamme, entrée, sauvegarde et envoi de textes courts, communication avec l'institut, parmi autres. Cependant, la mémoire de cet objet n'est pas si grande, ce qui nécessite une sauvegarde régulière du contenu.\nAu début, il était lié avec Corbeau Rose et maintenant aussi, il est toujours possible de rétablir le lien pour contrôler cette arme à distance si on le veut. Seulement, cette fonction est devenue inutile depuis que Corbeau Rose a été doté d'un système de mobilité à base d'intelligence artificielle, raison pour laquelle Valance n'utilise plus ce terminal que pour des petites manœuvres sommaires. Malgré son apparence toute simple, le système de verrouillage est assez complexe car Valance y a implémenté son empreinte digitale et un mot de passe qui doit être saisi en un temps défini. Valance a mis en place cette sécurité excessive afin de protéger contre tout piratage l'appareil et l’ordinateur de Magos Le'Flamme qui y est lié, si jamais il tombait entre de mauvaises mains.\nUne autre personne pouvait l'utiliser, auparavant. Comme Valance, cette génie était capable de mémoriser le mot de passe d'une complexité atroce et avait reçu le droit d'accès à la base de données de Magos Le'Flamme par la directrice générale, qui le lui avait accordé de grand cœur. Mais depuis la mort de cette personne, de Rose Cristina, Valance est restée la seule gestionnaire de cet appareil.",
+      "descriptionByStar": {
+        "0": "[Prototype – VA] Ajoute à [Hologramme] l'effet d'augmentation de 10% des DEG infligés aux ennemis non-Héros et augmente la réduction du temps de recharge de compétence de la cible de 50%."
+      }
+    },
+    "2": {
+      "name": "Moment de Détente",
+      "description": "[Champ de Protection absolue – LA] Dissipe tous les effets négatifs sur le lanceur avant d'utiliser cette compétence et augmente le Blocage des cibles sur le [Champ d'Énergie violet] de {0} pendant la durée.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
+      "thumbnail": "heroes/Valance/ut/2.png",
+      "story": "L'un des passe-temps de Valance est de déguster le thé noir, puis elle aime également faire une pause au milieu des recherches pour savourer l'arôme de cette boisson pour se changer ou organiser les idées. C'est pour cette raison qu'elle garde toujours quelques feuilles de thé dans sa poche, mais la tasse a toujours posé problème. Il est facile de se procurer de l'eau à la bonne température avec l'aide de Corbeau Rose, mais une tasse peut facilement se briser et il n'est pas simple de porter sur soi.\nAprès y avoir réfléchi, Valance a commandé un porte-gobelet qui peut s'attacher à sa ceinture pour y mettre la tasse et la soucoupe. Il y a même un emplacement pour la cuillère à cet objet fait de cuir durable, capable de tenir même les tasses plutôt lourdes. Un jour, lorsqu'un chercheur de Magos Le'Flamme lui a demandé si ça ne lui faisait rien, en tant que directrice générale, de porter un filet en cuir au lieu d'un instrument réalisé avec de la technomagie, Valance lui a répondu : « Une directrice générale ne doit pas faire de la discrimination entre les matériaux et technologies. » À ce jour, personne à Magos Le'Flamme ne sait si elle l'a dit sérieusement ou pour rire.",
+      "descriptionByStar": {
+        "0": "[Champ de Protection absolue – LA] Dissipe tous les effets négatifs sur le lanceur avant d'utiliser cette compétence et augmente le Blocage des cibles sur le [Champ d'Énergie violet] de 200 pendant la durée."
+      }
+    },
+    "3": {
+      "name": "Bric-à-Brac soigné",
+      "description": "[Canon Laser ultime – NCE] Réduit le temps de recharge de {0} sec et modifie le nombre max de charges de [Manipulation] de 10.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "3",
+          "2": "4",
+          "3": "5",
+          "4": "6",
+          "5": "7"
+        }
+      },
+      "thumbnail": "heroes/Valance/ut/3.png",
+      "story": "Ceci est un ensemble tout à fait étrange et hétéroclite, incluant des choses les plus bizarres selon Valance. Pourtant, elle le garde dans un endroit spécial de son laboratoire et le dépoussière soigneusement de temps en temps.\nLe seul objet qui soit normal est cette boîte qui a été fabriquée par l'un des meilleurs artisans de l'empire Vespia, confectionnée sur la demande de Crow et Rose et offerte à Valance, peu après leur mariage. À l'intérieur, Valance garde précieusement les lettres et les autres cadeaux reçus de la part de Rose, de Loah et de Crow. L'objet qu'elle chérit plus que tout est placé au fond de cette boîte : un jouet à ressort que Loah lui avait fait cadeau.\nLe reste, Valance l'a reçu de la part des membres de l'Unité du Chien avant de partir pour le royaume technomagique... et horripilée, elle n'a pas su cacher la gêne.\n- Non mais, écoutez, Valance ! Je suis en train de vous dire que ce marteau foooormidable est le plus populaire parmi les meilleurs des meilleurs chercheurs scientifiques de l'empire ! Bon bon, vous devez sans doute avoir un instrument encore plus performant que ça, mais comme on le dit, il vaut toujours mieux d'avoir deux plutôt qu'un seul ! J'ai même retenu le mode d'emploi ! Alors, regardez, on met ça ici et on le joint par là... et... mais ? Pourquoi ça ne marche pas ?\n- Kyahahaha ! Tu es bête, vaurien ! Je t'avais pourtant dit de choisir quelque chose d'utile au quotidien comme moi ! Regarde ce heaume qui protégera ta tête, Valance !! Cela te va parfaitement, n'est-ce pas ? Hihi !\n- Ahaha... je vois que vous avez tous apporté des merveilles. Je ne suis pas connaisseur en machines, alors je vous ai apporté quelque chose de chez moi, de l'est. Il y avait cette saleté de... euh, une très jolie renarde-diable qui avait neuf queues, et je les lui ai prises moi-même. Il n'y a plus de sang maintenant et je les ai bien brossées avant de les apporter, vous savez ?!\n- ... Oui. Vous m'avez rappelée combien vous êtes sophistiqués.\nElle n'y pouvait rien, ce bric-à-brac était tout de même des cadeaux offerts par ses proches. Alors Valance a mis tous ces objets inutiles ensemble, et quand elle est épuisée par les études, elle les regarde pour retrouver le sourire.",
+      "descriptionByStar": {
+        "0": "[Canon Laser ultime – NCE] Réduit le temps de recharge de 2 sec et modifie le nombre max de charges de [Manipulation] de 10."
+      }
+    },
+    "4": {
+      "name": "Premier Ratage",
+      "description": "[Éveil technomagique] Modifie l'effet pour que l'augmentation de DEF et de Récupération PM/attaque s'applique à tous les alliés, et augmente leur Récupération des PV de {0}%.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Valance/ut/4.png",
+      "story": "L'histoire de la technomagie de l'empire Vespia est courte, contrairement à ce que certains pourraient croire. En fait, ils n'avaient pas connu de grands progrès en ce domaine jusqu'à ce qu'Arentzevelia, la quatrième impératrice, ait accédé au trône et ait redoublé d'efforts pour faire accélérer les recherches et pour mieux former les ressources humaines. Alors qu'auparavant la technomagie de l'empire ressemblait plus ou moins à du copiage de celle du Grand-Duché de Gray, cela a considérablement changé depuis que l'impératrice a commencé à apporter du soutien bien ferme aux chercheurs. Notamment, à Vespia, le développement a été concentré surtout en sciences militaires, non comme dans le grand-duché où la technomagie était le plus souvent utilisée pour améliorer la vie quotidienne. Et bien que ceux de l'empire ne soient toujours pas à la hauteur de leurs précurseurs du grand-duché, ils ont tout de même réussi à développer des équipements de guerre avec leur propre savoir-faire.\nC'est autour de cette période que Valance a commencé à approfondir ces connaissances en technomagie à l'académie où elle était. Au début, l'histoire relativement courte de sa patrie et de ses sciences ont été pour elle des obstacles. En effet, elle a beaucoup peiné pour fabriquer un générateur d'énergie technomagique après avoir consulté quasiment tous les documents valables existants à l'empire, mais il n'a jamais fonctionné, comme pour lui montrer les limites du premier essai.\n- D'où vient le problème ? J'ai déjà regardé par là encore et encore, mais... je ne comprends pas ce qui cloche. Il serait plus rapide de le reconstruire dès le tout début.\n- Calme-toi, Valance. Faisons encore un essai. Ton approche était sans défaut. Ça va sûrement fonctionner après quelques révisions.\n- Mais c'était le troisième essai. Tu l'as vu, Rose !\n- Eh bien, on peut toujours faire un quatrième, non ? J'ai confiance en toi. Je suis certaine que tu réussiras cette fois.\nGrâce aux encouragements de Rose, Valance a changé de plan puis a modifié une partie de la machine au lieu de la rejeter, réussissant enfin à produire une source d'énergie. Cet exploit lui a valu de recevoir un soutien absolu de la part de son académie et l'a aidée par la suite à devenir chercheuse à Magos Le'Flamme.\n'On peut échouer plusieurs fois. L'important est d'essayer encore une fois.' Valance garde toujours le commutateur de cette première expérience, et dans son cœur, les paroles de son ancienne amie qui n'avait jamais cessé de la soutenir.",
+      "descriptionByStar": {
+        "0": "[Éveil technomagique] Modifie l'effet pour que l'augmentation de DEF et de Récupération PM/attaque s'applique à tous les alliés, et augmente leur Récupération des PV de 10%."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 23 sec avant de devenir utilisable.",
+    "description": "Dissipe tous les effets négatifs du lanceur avant d'invoquer l'âme de Corbeau Rose, l'Essence de Magos Le'Flamme, ce qui multiplie les effets conférés par Corbeau Rose par 3 pendant 10 sec.",
+    "cooldown": "18",
+    "uses": "6",
+    "thumbnail": "heroes/Valance/sw.png",
+    "advancement": {
+      "1": "Augmente la durée de 5 sec et restaure les PM de tous les alliés de 1500.",
+      "2": "Réduit la condition d'utilisation de 10 sec et lors de l'invocation, réduit le temps de recharge de compétence de tous les alliés de 5 sec."
+    },
+    "story": "Corbeau Rose, l'arme façonnée directement par Valance, était fort efficace, bien qu'il ne pouvait contenir toute l'essence des sciences de combat développé par Magos Le'Flamme. Bien entendu, cela n'était pas dû au manque de savoir-faire de la part de Valance ou de défectuosité de cette arme, mais parce que Valance s'était focalisée sur la mobilité de Corbeau Rose plus que tout. Elle connaissait ses limites mieux que tout le monde; cependant, elle avait voulu la rendre utile dans d'autres tâches plutôt que du combat direct.\n- Ce gros bêta, Mitra, Pansirone, Kibera... ce sont tous des spécialistes de guerre. Si c'est pour ma protection personnelle, la performance actuelle de Corbeau Rose ne nécessite pas davantage d'améliorations. Alors ce qu'il me reste à faire... serait plutôt de pouvoir les aider correctement, en toutes circonstances.\nAgrandissement du champ de sondage pour couvrir tout déplacement imprévisible, système de recherche et d'analyse pour une identification rapide d'ennemi inconnu, émission d'ondes disruptives pour plus de sécurité en cas de repli ou de pause pour ravitaillement... une fois le but défini, l'établissement du système s'est achevé en peu de temps. En effet, rien ne pouvait empêcher Valance, maintenant qu'elle avait étudié la technomagie de pointe de Lucern, le berceau de cette science.\nAprès le dernier réglage, le test final a commencé, et bien entendu, il n'y avait pas de meilleur assistant pour ce travail que son ami silencieux.\n- Alors ? Crois-tu que ça ira ?\nAu lieu de répondre, il a tiré sur chacune des cibles, les éliminant toutes avec plus de rapidité et d'exactitude que jamais. Cela s'est exécuté exactement selon les coordonnées définies par le système de renforcement de Corbeau Rose, marquant ainsi encore une contribution brillante à la technomagie de l'empire."
+  },
+  "splashart": "heroes/Valance/sa.png",
+  "costumes": "heroes/Valance/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

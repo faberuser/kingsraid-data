@@ -1,0 +1,296 @@
+{
+  "id": "Lakrak",
+  "profile": {
+    "name": "Lakrak",
+    "title": "Lakrak, Chasseur du Canon à Main",
+    "class": "Mechanic",
+    "position": "Middle-400",
+    "attack_range": "700",
+    "damage_type": "Physical",
+    "gender": "Homme",
+    "age": "19",
+    "height": "120",
+    "race": "Gobelin",
+    "constellation": "Graham le Grand Voleur",
+    "birth": {
+      "month": 5,
+      "day": 12,
+      "monthName": "Mois de l'Espoir"
+    },
+    "like": "La poudre à canon, les armes à feu, les canons",
+    "dislike": "Les gobelins stupides",
+    "story": "Ce Gobelin albinos excentrique adore plus que tout développer des armes puissantes. Après avoir été harcelé et ostracisé par les autres Gobelins du fait de sa couleur de peau, il n'éprouve plus aucune compassion pour ceux de son espèce. Il préfère tirer, exploser et fracasser un de ses comparses gobelins pour tester une de ses armes. Cependant, il sait faire preuve de gratitude envers ceux qui l'aident et c'est ainsi qu'il est devenu l'ami de Roi. Malheureusement, il a une mémoire effroyable pour se souvenir des visages et il tente souvent de tirer sur Roi avant de se souvenir qu'il s'agit de son ami.",
+    "thumbnail": "heroes/Lakrak/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Tir Rapide",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Inflige 739*(0.7+(0.3*Skill Level*Awakening Coefficient))+355.4% ATK DEG P aux ennemis dans une zone frontale en ligne et les étourdit pendant 1 sec. Les ennemis non héros subissent 339*(0.7+(0.3*Skill Level*Awakening Coefficient))+185.4% ATK DEG P supplémentaires. [Expérience réussie !] : cette compétence ne déclenche pas de recharge. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Lakrak/skills/1.png"
+    },
+    "2": {
+      "name": "Bombe Fumigène",
+      "cost": "2",
+      "cooldown": "14",
+      "description": "Inflige 443*(0.7+(0.3*Skill Level*Awakening Coefficient))+213.5% ATK DEG P à la cible et aux ennemis proches, applique [Substance explosive] pendant 7 sec, augmentant les DEG P subis de 20%, et aveugle pendant 1 sec. [Expérience réussie !] : dissipe les effets positifs des ennemis dans la zone. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Lakrak/skills/2.png"
+    },
+    "3": {
+      "name": "Bombe de Colle",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Fixe une bombe collante à un ennemi aléatoire. Après 3 sec, elle explose, infligeant 1500*(0.7+(0.3*Skill Level*Awakening Coefficient))+755.2% ATK DEG P à la cible et aux ennemis proches et les étourdissant pendant 1 sec. Les ennemis sous [Substance explosive] subissent 1001*(0.7+(0.3*Skill Level*Awakening Coefficient))+477.5% ATK DEG P supplémentaires. [Expérience réussie !] : la bombe explose dès qu'elle est fixée. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Lakrak/skills/3.png"
+    },
+    "4": {
+      "name": "Charge de Canon",
+      "cost": null,
+      "cooldown": null,
+      "description": "Les attaques normales ont 15% de chances de tirer un obus infligeant 345*(0.7+(0.3*Skill Level*Awakening Coefficient))+166.3% ATK DEG P à la cible et aux ennemis proches et les étourdissant pendant 1 sec. À la fin d'une compétence, tente une [Expérience] avec 50% de chances de réussite pour renforcer la compétence suivante. Les compétences renforcées ne tentent pas d'[Expérience]. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Lakrak/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Inflige des DEG à l'ennemi et applique Étourdissement pendant 1 sec."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "4": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Les dégâts augmentent de 50 %.",
+          "thumbnail": "heroes/Lakrak/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit les PM de la cible touchée de 700.",
+          "thumbnail": "heroes/Lakrak/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1000.",
+          "thumbnail": "heroes/Lakrak/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Augmente la durée d'Aveuglement de 1 sec.",
+          "thumbnail": "heroes/Lakrak/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Le coût en Mana augmente de 2000, et le nombre de bombes posées passe à 2.",
+          "thumbnail": "heroes/Lakrak/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "La cible change pour l'ennemi ayant l'ATQ la plus élevée.",
+          "thumbnail": "heroes/Lakrak/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Augmente les chances d'activation de l'obus de 25% et la durée de l'étourdissement de 0.5 sec.",
+          "thumbnail": "heroes/Lakrak/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Récupère 500 PM en cas de réussite de l'expérience.",
+          "thumbnail": "heroes/Lakrak/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Lakrak/perks/light.png"
+      },
+      "dark": {
+        "effect": "À chaque expérience réussie, augmente sa Vitesse d'ATQ de 12 et sa Précision des Contrôles de 150, pendant 10 sec.",
+        "thumbnail": "heroes/Lakrak/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "MK-1 de Lakrak",
+    "description": "Augmente les chances de réussite d'[Expérience] de {0}%. Lors d'une réussite, augmente l'ATQ de {1}%, la vitesse d'attaque de {2}% et les DEG infligés aux ennemis non héros de {3}%. Cet effet se cumule jusqu'à 3 fois et ne peut pas être dissipé.",
+    "thumbnail": "heroes/Lakrak/uw.png",
+    "story": "Le chef-d'œuvre destructeur, mais artistique, d'un inventeur gobelin futé. Ce canon à une main offre la meilleure puissance de feu qu'un Gobelin seul puisse manier. Malgré la dangereuse quantité de poudre utilisée, cette arme n'a encore jamais explosé. Heureusement.",
+    "value": {
+      "0": {
+        "0": "25",
+        "1": "30",
+        "2": "35",
+        "3": "40",
+        "4": "45",
+        "5": "50"
+      },
+      "1": {
+        "0": "6",
+        "1": "7.2",
+        "2": "8.4",
+        "3": "9.6",
+        "4": "10.8",
+        "5": "12"
+      },
+      "2": {
+        "0": "6",
+        "1": "7.2",
+        "2": "8.4",
+        "3": "9.6",
+        "4": "10.8",
+        "5": "12"
+      },
+      "3": {
+        "0": "6",
+        "1": "7.2",
+        "2": "8.4",
+        "3": "9.6",
+        "4": "10.8",
+        "5": "12"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Augmente les chances de réussite d'[Expérience] de 25%. Lors d'une réussite, augmente l'ATQ de 6%, la vitesse d'attaque de 6% et les DEG infligés aux ennemis non héros de 6%. Cet effet se cumule jusqu'à 3 fois et ne peut pas être dissipé.",
+      "1": "Augmente les chances de réussite d'[Expérience] de 30%. Lors d'une réussite, augmente l'ATQ de 7.2%, la vitesse d'attaque de 7.2% et les DEG infligés aux ennemis non héros de 7.2%. Cet effet se cumule jusqu'à 3 fois et ne peut pas être dissipé.",
+      "2": "Augmente les chances de réussite d'[Expérience] de 35%. Lors d'une réussite, augmente l'ATQ de 8.4%, la vitesse d'attaque de 8.4% et les DEG infligés aux ennemis non héros de 8.4%. Cet effet se cumule jusqu'à 3 fois et ne peut pas être dissipé.",
+      "3": "Augmente les chances de réussite d'[Expérience] de 40%. Lors d'une réussite, augmente l'ATQ de 9.6%, la vitesse d'attaque de 9.6% et les DEG infligés aux ennemis non héros de 9.6%. Cet effet se cumule jusqu'à 3 fois et ne peut pas être dissipé.",
+      "4": "Augmente les chances de réussite d'[Expérience] de 45%. Lors d'une réussite, augmente l'ATQ de 10.8%, la vitesse d'attaque de 10.8% et les DEG infligés aux ennemis non héros de 10.8%. Cet effet se cumule jusqu'à 3 fois et ne peut pas être dissipé.",
+      "5": "Augmente les chances de réussite d'[Expérience] de 50%. Lors d'une réussite, augmente l'ATQ de 12%, la vitesse d'attaque de 12% et les DEG infligés aux ennemis non héros de 12%. Cet effet se cumule jusqu'à 3 fois et ne peut pas être dissipé."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Balle-gourdin",
+      "description": "[Tir rapide] Augmente les DEG infligés de 50% et récupère {0} PM lors d'un coup critique.",
+      "thumbnail": "heroes/Lakrak/ut/1.png",
+      "story": "Une balle d'autodéfense à faible pouvoir létal.\nInspirée des vastes connaissances de Lakrak en matière d'explosifs, cette balle est utilisée pour son effet de recul lors de Tir rapide. Afin de réduire le nombre de victimes, Lakrak met un point d'honneur à étiqueter tous ses explosifs.",
+      "value": {
+        "0": {
+          "0": "250",
+          "1": "300",
+          "2": "350",
+          "3": "400",
+          "4": "450",
+          "5": "500"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Tir rapide] Augmente les DEG infligés de 50% et récupère 250 PM lors d'un coup critique.",
+        "1": "[Tir rapide] Augmente les DEG infligés de 50% et récupère 300 PM lors d'un coup critique.",
+        "2": "[Tir rapide] Augmente les DEG infligés de 50% et récupère 350 PM lors d'un coup critique.",
+        "3": "[Tir rapide] Augmente les DEG infligés de 50% et récupère 400 PM lors d'un coup critique.",
+        "4": "[Tir rapide] Augmente les DEG infligés de 50% et récupère 450 PM lors d'un coup critique.",
+        "5": "[Tir rapide] Augmente les DEG infligés de 50% et récupère 500 PM lors d'un coup critique."
+      }
+    },
+    "2": {
+      "name": "Masque à gaz spécial",
+      "description": "[Bombe fumigène] Réduit le temps de recharge de 30 % et augmente la durée d'aveuglement de {0} sec.",
+      "thumbnail": "heroes/Lakrak/ut/2.png",
+      "story": "Masque haute performance fabriqué à partir de matériaux spéciaux rassemblés par Lakrak dans tout le continent Orbis. \nCe masque contient plusieurs ingrédients rarissimes : une première plume de Harpie, une écaille de dragon, une feuille de l’Arbre Monde et du mithril impérial. \nIl protège contre le gaz toxique et l’effet aveuglant des bombes fumigènes.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Bombe fumigène] Réduit le temps de recharge de 30 % et augmente la durée d'aveuglement de 1 sec.",
+        "1": "[Bombe fumigène] Réduit le temps de recharge de 30 % et augmente la durée d'aveuglement de 1,2 sec.",
+        "2": "[Bombe fumigène] Réduit le temps de recharge de 30 % et augmente la durée d'aveuglement de 1,4 sec.",
+        "3": "[Bombe fumigène] Réduit le temps de recharge de 30 % et augmente la durée d'aveuglement de 1,7 sec.",
+        "4": "[Bombe fumigène] Réduit le temps de recharge de 30 % et augmente la durée d'aveuglement de 2,1 sec.",
+        "5": "[Bombe fumigène] Réduit le temps de recharge de 30 % et augmente la durée d'aveuglement de 2,5 sec."
+      }
+    },
+    "3": {
+      "name": "Explosif spécial haute densité gobelin",
+      "description": "[Bombe de Colle] Augmente les DEG infligés de 50% et réduit la Récupération des PV de la cible touchée de {0}% pendant 7 sec.",
+      "thumbnail": "heroes/Lakrak/ut/3.png",
+      "story": "De la poudre à canon fabriquée avec la dangereuse recette de Lakrak. \nLakrak pensait que de simples explosions n’étaient pas assez efficaces pour les stratégies de bataille, il ajouta donc de l’acide formique et du poison d’ortie pour obtenir un résultat stupéfiant. \nIl fait en sorte de bien la filtrer et ne divulgue pas son secret pour éviter les abus.",
+      "value": {
+        "0": {
+          "0": "15",
+          "1": "18",
+          "2": "21",
+          "3": "24",
+          "4": "27",
+          "5": "30"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Bombe de Colle] Augmente les DEG infligés de 50% et réduit la Récupération des PV de la cible touchée de 15% pendant 7 sec.",
+        "1": "[Bombe de Colle] Augmente les DEG infligés de 50% et réduit la Récupération des PV de la cible touchée de 18% pendant 7 sec.",
+        "2": "[Bombe de Colle] Augmente les DEG infligés de 50% et réduit la Récupération des PV de la cible touchée de 21% pendant 7 sec.",
+        "3": "[Bombe de Colle] Augmente les DEG infligés de 50% et réduit la Récupération des PV de la cible touchée de 24% pendant 7 sec.",
+        "4": "[Bombe de Colle] Augmente les DEG infligés de 50% et réduit la Récupération des PV de la cible touchée de 27% pendant 7 sec.",
+        "5": "[Bombe de Colle] Augmente les DEG infligés de 50% et réduit la Récupération des PV de la cible touchée de 30% pendant 7 sec."
+      }
+    },
+    "4": {
+      "name": "Boulet de canon boum",
+      "description": "[Charge de canon] Réduit le PM des ennemis touchés de {0}. La première frappe du combat active [Charge de canon] systématiquement.",
+      "thumbnail": "heroes/Lakrak/ut/4.png",
+      "story": "Un projectile créé par Lakrak en collaboration avec les pirates de Miruru.\nAprès avoir surmonté moult obstacles, les pirates de Miruru et Lakrak se sont associés et ont travaillé main dans la main sur cette arme colossale.\nLa poudre spéciale de Miruru ajoute une vraie puissance destructrice au boulet de canon de Lakrak.",
+      "value": {
+        "0": {
+          "0": "400",
+          "1": "480",
+          "2": "580",
+          "3": "700",
+          "4": "840",
+          "5": "1000"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Charge de canon] Réduit le PM des ennemis touchés de 400. La première frappe du combat active [Charge de canon] systématiquement.",
+        "1": "[Charge de canon] Réduit le PM des ennemis touchés de 480. La première frappe du combat active [Charge de canon] systématiquement.",
+        "2": "[Charge de canon] Réduit le PM des ennemis touchés de 580. La première frappe du combat active [Charge de canon] systématiquement.",
+        "3": "[Charge de canon] Réduit le PM des ennemis touchés de 700. La première frappe du combat active [Charge de canon] systématiquement.",
+        "4": "[Charge de canon] Réduit le PM des ennemis touchés de 840. La première frappe du combat active [Charge de canon] systématiquement.",
+        "5": "[Charge de canon] Réduit le PM des ennemis touchés de 1000. La première frappe du combat active [Charge de canon] systématiquement."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant [64ff64]18[-] sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de Lakrak MK-1 pendant 12 sec. Toutes les 4 sec, inflige des DEG P égaux à 120% de l'ATQ 5 fois aux ennemis autour d'une cible aléatoire, les étourdit pendant 2 sec et augmente leurs DEG P subis de 30% pendant 8 sec.",
+    "cooldown": "19",
+    "uses": "6",
+    "thumbnail": "heroes/Lakrak/sw.png",
+    "advancement": {
+      "1": "Augmente les DEG infligés de 6% et immunise le Héros contre les Contrôles pendant la durée de l'invocation.",
+      "2": "Toutes les 4 s, réduit le temps de recharge de toutes les compétences de 2 s."
+    },
+    "story": "Jusqu'à présent, Lakrak avait fabriqué un nombre incalculable d'armes, mais aucune d'elles n'avait pu surpasser la perfection de Lakrak MK-1. Même s'il truffait l'arme de poudre à canon jusqu'à un niveau critique, elle fonctionnait sans problème, car Lakrak lui avait donné une puissance de feu idéale, et stable.\nCependant, Lakrak n'était pas satisfait.\nIl était un gobelin petit et chétif, mais il se consacra à l'évolution de l'arme la plus puissante qu'il put imaginer.\nEn fin de compte, le désir incessant de Lakrak sur le développement des armes puissantes finit par libérer l'âme endormie à l'intérieur de Lakrak MK-1.\nTout comme son créateur, cette arme aspirait à un pouvoir destructeur qui n'aurait d'égal dans le monde, mais semblait parfois oublier que cette obstination pourrait un jour menacer la vie de son propriétaire."
+  },
+  "splashart": "heroes/Lakrak/sa.png",
+  "costumes": "heroes/Lakrak/cos",
+  "_localization": {
+    "locale": "fr",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

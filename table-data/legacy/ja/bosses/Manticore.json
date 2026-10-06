@@ -1,0 +1,57 @@
+{
+  "id": "Manticore",
+  "profile": {
+    "name": "マンティコア",
+    "title": "混沌の魔獣",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "獣",
+    "damage_type": "Physical",
+    "recommended_heroes": "カーセル, クラウス, ミトラ",
+    "characteristics": "[マンティコアの猛毒]は、前衛の英雄に大ダメージを与えてサソリを召喚します。耐えられなければ戦列は崩れるでしょう。[死の猛襲]は、すべての英雄に大きな物理ダメージを与えるため、[状態異常]を与えて止める必要があります。",
+    "thumbnail": "bosses/Manticore.png",
+    "recommendedHeroNames": [
+      "Kasel",
+      "Clause",
+      "Mitra"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "暗黒の炎",
+      "cost": null,
+      "cooldown": null,
+      "description": "羊の頭から暗黒の炎を噴出させ、物理ダメージを7回与えます。HPが50%以下の敵は、5秒間、石化状態になります。"
+    },
+    "2": {
+      "name": "消滅の炎",
+      "cost": null,
+      "cooldown": "17",
+      "description": "羊の頭から暗黒の炎を噴出し、物理ダメージを7回与えます。攻撃するたび、敵のバフを取り除きます。"
+    },
+    "3": {
+      "name": "マンティコアの猛毒",
+      "cost": null,
+      "cooldown": "22",
+      "description": "敵に強い毒を飛ばし、5秒間、0.5秒あたり現在HPの33%のダメージを与え、サソリを3体召喚します。"
+    },
+    "4": {
+      "name": "死の猛襲",
+      "cost": null,
+      "cooldown": "27",
+      "description": "前足に強いオーラを集中させ、前方にいる広い範囲の敵に大きな物理ダメージを与え、4秒間転倒させます。"
+    },
+    "5": {
+      "name": "浄化",
+      "cost": null,
+      "cooldown": null,
+      "description": "30秒ごとに、自分のデバフを取り除き、攻撃速度を増加させます。"
+    }
+  },
+  "aliases": [
+    "Manticore",
+    "GR6",
+    "GR 6"
+  ]
+}

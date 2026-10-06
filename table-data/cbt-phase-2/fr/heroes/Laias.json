@@ -1,0 +1,280 @@
+{
+  "id": "Laias",
+  "profile": {
+    "name": "Laias",
+    "title": "Laias, Prêtresse Sacrée de l'Eau",
+    "class": "Priest",
+    "position": "Back-100",
+    "attack_range": "3000",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "???",
+    "height": "175",
+    "race": "Dragon",
+    "constellation": "Notmun l'Accordeur",
+    "birth": {
+      "month": 7,
+      "day": 9,
+      "monthName": "Mois de l'Harmonie"
+    },
+    "like": "La natation, se laver les cheveux",
+    "dislike": "Tout ce qui détruit le monde",
+    "story": "Cette prêtresse de l'eau belle et gentille est en réalité un dragon bleu métamorphosé. Dans un lointain passé, elle était vénérée par certaines tribus du désert. Cependant, pour des raisons inconnues, elle dormit pendant une éternité. Capable de manipuler l'eau pour rendre des terres fertiles, elle a toujours utilisé ses pouvoirs pour aider les humains. En retour, ils lui bâtirent un Autel des flots doré sous le lac de l'oasis. Un flux d'énergie maléfique dans le désert l'a réveillée, et elle a recommencé à utiliser ses pouvoirs pour aider ceux qui l'entourent.",
+    "thumbnail": "heroes/Laias/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Gouttelettes de Soin",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Rend 621*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 100.8% of ATK PV à tous les alliés, augmente leur blocage magique de 300 pendant 4 sec et restaure en plus 155*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 25.2% of ATK PV toutes les 1 sec. Si les PV de la cible sont à 50% ou moins, les soins augmentent de 50%.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Laias/skills/1.png"
+    },
+    "2": {
+      "name": "Bulle protectrice",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Accorde à 4 allié ayant le moins de PV actuels un bouclier absorbant 795*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 129% of ATK DEG pendant 15 sec. La cible protégée subit 15% de DEG en moins des ennemis non héros.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Laias/skills/2.png"
+    },
+    "3": {
+      "name": "Festival de l'Eau",
+      "cost": "4",
+      "cooldown": "24",
+      "description": "Inflige 618*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 385.9% of ATK DEG M aux ennemis proches et les renverse pendant 1.8 sec. Puis augmente la régénération de Mana par seconde de tous les alliés sauf soi de 30% pendant 12 sec. Toutes les 4 sec, un vortex surgit sur un ennemi aléatoire, infligeant 412*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 257.3% of ATK DEG M et le renversant pendant 1.2 sec.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Laias/skills/3.png"
+    },
+    "4": {
+      "name": "Bénédiction du Dragon d'Eau",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente la DEF M de tous les alliés de 56*(0.7+(0.3*Niveau de compétence*Coefficient d’éveil)) + 5% DEF M de Laias et leur résistance aux coups critiques magiques de 250.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Laias/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les soins de [64ff64]10[-]%.",
+      "III": "Augmente les soins de [64ff64]15[-]%.",
+      "IV": "Augmente les soins de [64ff64]25[-]%."
+    },
+    "2": {
+      "II": "Augmente le taux de bouclier de [64ff64]10[-]%.",
+      "III": "Augmente le taux de bouclier de [64ff64]15[-]%.",
+      "IV": "Augmente le taux de bouclier de [64ff64]0[-]%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "4": {
+      "II": "Augmente l'augmentation de DEF M de [64ff64]10[-] %.",
+      "III": "Augmente l'augmentation de DEF M de [64ff64]15[-] %.",
+      "IV": "Augmente l'augmentation de DEF M de [64ff64]25[-] %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Augmente les soins de 40%.",
+          "thumbnail": "heroes/Laias/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Lors d'un soin, la résistance aux coups critiques magiques augmente de 25%.",
+          "thumbnail": "heroes/Laias/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Modifie la cible pour l'allié à l'ATQ la plus élevée.",
+          "thumbnail": "heroes/Laias/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 1000.",
+          "thumbnail": "heroes/Laias/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "L'effet des DEG se produit toutes les 3 sec.",
+          "thumbnail": "heroes/Laias/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Modifie la cible du tourbillon d'eau en l'ennemi à l'ATQ la plus élevée. ",
+          "thumbnail": "heroes/Laias/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Renforce le taux d'augmentation de DEF M de 40% et augmente la résistance aux critiques magiques de 100.",
+          "thumbnail": "heroes/Laias/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Augmente la résistance aux contrôles de Laias de 500.",
+          "thumbnail": "heroes/Laias/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Blocage M +200",
+        "thumbnail": "heroes/Laias/perks/light.png"
+      },
+      "dark": {
+        "effect": "Restaure 350 PM de tous les alliés toutes les 3 sec. ",
+        "thumbnail": "heroes/Laias/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Eltoirre, le Cercle flottant",
+    "description": "Augmente la Récupération de tous les alliés de {0}% et la DEF M de 5% de l'ATQ de Laias. Soigne les PV de l'allié ayant le moins de PV de {1}% de son ATQ toutes les 5 sec.",
+    "thumbnail": "heroes/Laias/uw.png",
+    "story": "Une ankh taillée en forme de phénix symbolisant le cycle naturel de la vie. Dans les temps anciens, les nomades du désert vénéraient le Dragon Bleu de l'oasis. En retour, elle leur accordait de la pluie et donnait vie à leurs récoltes. Pour prouver leur gratitude, les nomades lui offraient divers trésors, comme la Lazulia, la gemme de l'eau. Même si elle n'avait aucun besoin de fortunes matérielles, elle acceptait leur gratitude et utilisait les trésors pour bâtir un temple au sein de l'oasis. Cet ankh est le symbole sacré du temple et contient la puissance de l'eau.",
+    "value": {
+      "0": {
+        "0": "8",
+        "1": "10",
+        "2": "12",
+        "3": "14",
+        "4": "17",
+        "5": "20"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Augmente la Récupération de tous les alliés de 8% et la DEF M de 5% de l'ATQ de Laias. Soigne les PV de l'allié ayant le moins de PV de 100% de son ATQ toutes les 5 sec.",
+      "1": "Augmente la Récupération de tous les alliés de 10% et la DEF M de 5% de l'ATQ de Laias. Soigne les PV de l'allié ayant le moins de PV de 120% de son ATQ toutes les 5 sec.",
+      "2": "Augmente la Récupération de tous les alliés de 12% et la DEF M de 5% de l'ATQ de Laias. Soigne les PV de l'allié ayant le moins de PV de 140% de son ATQ toutes les 5 sec.",
+      "3": "Augmente la Récupération de tous les alliés de 14% et la DEF M de 5% de l'ATQ de Laias. Soigne les PV de l'allié ayant le moins de PV de 170% de son ATQ toutes les 5 sec.",
+      "4": "Augmente la Récupération de tous les alliés de 17% et la DEF M de 5% de l'ATQ de Laias. Soigne les PV de l'allié ayant le moins de PV de 210% de son ATQ toutes les 5 sec.",
+      "5": "Augmente la Récupération de tous les alliés de 20% et la DEF M de 5% de l'ATQ de Laias. Soigne les PV de l'allié ayant le moins de PV de 250% de son ATQ toutes les 5 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Écaille de dragon d'eau",
+      "description": "[Gouttelettes de Soin] Augmente les soins de 50 % et le Blocage M de la cible de {0} pendant 10 sec.",
+      "thumbnail": "heroes/Laias/ut/1.png",
+      "story": "Cette écaille servait à Laias pour orner sa coiffure. Elle y enferma son pouvoir de soin, au cas l'énergie viendrait à lui manquer. Lorsqu'elle se réveilla dans l'Autel des flots au son des prières assidues de la tribu Trovatia, elle craignit que la jeune Lilia ne parvienne pas à protéger les enfants du désert si elle se rendormait pendant cent ans. Après mûre réflexion, elle enferma son pouvoir dans l'écaille et la remit à Lilia au cas où un malheur arriverait.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Gouttelettes de Soin] Augmente les soins de 50 % et le Blocage M de la cible de 200 pendant 10 sec.",
+        "1": "[Gouttelettes de Soin] Augmente les soins de 50 % et le Blocage M de la cible de 240 pendant 10 sec.",
+        "2": "[Gouttelettes de Soin] Augmente les soins de 50 % et le Blocage M de la cible de 290 pendant 10 sec.",
+        "3": "[Gouttelettes de Soin] Augmente les soins de 50 % et le Blocage M de la cible de 350 pendant 10 sec.",
+        "4": "[Gouttelettes de Soin] Augmente les soins de 50 % et le Blocage M de la cible de 420 pendant 10 sec.",
+        "5": "[Gouttelettes de Soin] Augmente les soins de 50 % et le Blocage M de la cible de 500 pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Cristal d’oasis",
+      "description": "[Bulle protectrice] Réduit le temps de recharge de {0} % et dissipe tous les effets négatifs de la cible.",
+      "thumbnail": "heroes/Laias/ut/2.png",
+      "story": "Essence aqueuse protégée par les dragons bleus. \nIl s’agit de l’essence d’une oasis apportée dans le désert par les dragons bleus au commencement du monde. Laias, prêtresse sacrée de l’eau, a pour sainte mission de la protéger. Par chance, elle adore ça. Ce cristal d’oasis amène la prêtresse de l’eau maniant la Bulle Protectrice à la personne qui a le plus besoin de son aide.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Bulle protectrice] Réduit le temps de recharge de 12 % et dissipe tous les effets négatifs de la cible.",
+        "1": "[Bulle protectrice] Réduit le temps de recharge de 14 % et dissipe tous les effets négatifs de la cible.",
+        "2": "[Bulle protectrice] Réduit le temps de recharge de 17 % et dissipe tous les effets négatifs de la cible.",
+        "3": "[Bulle protectrice] Réduit le temps de recharge de 21 % et dissipe tous les effets négatifs de la cible.",
+        "4": "[Bulle protectrice] Réduit le temps de recharge de 25 % et dissipe tous les effets négatifs de la cible.",
+        "5": "[Bulle protectrice] Réduit le temps de recharge de 30 % et dissipe tous les effets négatifs de la cible."
+      }
+    },
+    "3": {
+      "name": "Papyrus des flots",
+      "description": "[Festival de l'Eau] Le tourbillon d'eau attaque 2 ennemis et tous les alliés récupèrent {0} PM supplémentaires.",
+      "thumbnail": "heroes/Laias/ut/3.png",
+      "story": "Cet extrait provient du Livre du Chaos, un ancien grimoire disparu. Le Livre du Chaos était un texte sacré, qui fut transmis au Prêtre de l’Eau. Il contenait des archives sur la culture, la magie et autres sujets essentiels. Il fut scellé dans l'Autel des flots doré avec Laias, mais sa plus grande partie disparut pendant son sommeil. Le seul texte préservé, le Papyrus des flots, est un sort d’amélioration du Festival d'influx.",
+      "value": {
+        "0": {
+          "0": "500",
+          "1": "600",
+          "2": "720",
+          "3": "860",
+          "4": "1040",
+          "5": "1250"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Festival de l'Eau] Le tourbillon d'eau attaque 2 ennemis et tous les alliés récupèrent 500 PM supplémentaires.",
+        "1": "[Festival de l'Eau] Le tourbillon d'eau attaque 2 ennemis et tous les alliés récupèrent 600 PM supplémentaires.",
+        "2": "[Festival de l'Eau] Le tourbillon d'eau attaque 2 ennemis et tous les alliés récupèrent 720 PM supplémentaires.",
+        "3": "[Festival de l'Eau] Le tourbillon d'eau attaque 2 ennemis et tous les alliés récupèrent 860 PM supplémentaires.",
+        "4": "[Festival de l'Eau] Le tourbillon d'eau attaque 2 ennemis et tous les alliés récupèrent 1040 PM supplémentaires.",
+        "5": "[Festival de l'Eau] Le tourbillon d'eau attaque 2 ennemis et tous les alliés récupèrent 1250 PM supplémentaires."
+      }
+    },
+    "4": {
+      "name": "Larme de dieu-dragon",
+      "description": "[Bénédiction du Dragon d'Eau] Augmente l'augmentation de DEF M de 50% et restaure {0} PM à tous les alliés toutes les sec.",
+      "thumbnail": "heroes/Laias/ut/4.png",
+      "story": "Un bijou d'un bleu transparent trouvé là où le premier dragon d'eau rejoignit l'étreinte du mana.\nOn l'appelle également l'Âme meurtrie du premier dragon d'eau, car on raconte qu'il renferme la peine et la mélancolie du dragon envers sa compagne défunte.\nDes vaguelettes évoquant des larmes se forment autour du bijou lorsqu'on le plonge dans l'eau. C'est de là qu'il tient son nom, la Larme de dieu-dragon.",
+      "value": {
+        "0": {
+          "0": "40",
+          "1": "48",
+          "2": "58",
+          "3": "70",
+          "4": "84",
+          "5": "100"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Bénédiction du Dragon d'Eau] Augmente l'augmentation de DEF M de 50% et restaure 40 PM à tous les alliés toutes les sec.",
+        "1": "[Bénédiction du Dragon d'Eau] Augmente l'augmentation de DEF M de 50% et restaure 48 PM à tous les alliés toutes les sec.",
+        "2": "[Bénédiction du Dragon d'Eau] Augmente l'augmentation de DEF M de 50% et restaure 58 PM à tous les alliés toutes les sec.",
+        "3": "[Bénédiction du Dragon d'Eau] Augmente l'augmentation de DEF M de 50% et restaure 70 PM à tous les alliés toutes les sec.",
+        "4": "[Bénédiction du Dragon d'Eau] Augmente l'augmentation de DEF M de 50% et restaure 84 PM à tous les alliés toutes les sec.",
+        "5": "[Bénédiction du Dragon d'Eau] Augmente l'augmentation de DEF M de 50% et restaure 100 PM à tous les alliés toutes les sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros [64ff64]5[-] fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Dissipe les effets négatifs sur soi et sur les alliés, puis invoque l'âme de [Eltoirre, le Cercle flottant] pendant 12 sec, soignant tous les alliés à hauteur de 120% de l'ATQ et restaurant 40 Mana chaque seconde.",
+    "cooldown": "23",
+    "uses": "6",
+    "thumbnail": "heroes/Laias/sw.png",
+    "advancement": {
+      "1": "Augmente la DEF M de l'allié soigné de 10% et le Blocage M de 200. Cet effet est cumulable jusqu'à 5 fois.",
+      "2": "Pendant La durée de l'invocation, confère l'immunité à tous les DEG et réduit le temps de recharge de toutes les compétences de 1 sec toutes les sec."
+    },
+    "story": "Après qu'elle fut réveillée d'un sommeil de 100 ans, Laias aperçut les hommes qui enduraient les attaques des démons. C'était une scène qui lui remettait en mémoire les souvenirs d'avant son sommeil. Malgré le fait qu'il y avait des personnes qui souffraient, elle n'avait pas pu les aider, et n'avait pas eu d'autres choix que de s'endormir. Ce choix lui avait été imposé, pour ne pas sombrer dans la folie, mais cela lui était resté dans le cœur de Laias, en tant que culpabilité. Bien entendu, Laias continua à agir afin d'aider le désert, ainsi que ses habitants. Mais cette fois aussi, elle était incapable de sauver tous les hommes des démons. Sans cesse tourmentée, elle finit par penser à Eltoirre, l'ankh qu'elle tenait en main. Le pouvoir détenu par Eltoirre était celui de la circulation de l'eau, celui de la vie. C'était celui de la guérison. Si elle pouvait libérer la pleine puissance d'Eltoirre, ne pourrait-elle pas aider plus de personnes ? Laias se mit à étudier la puissance contenue dans Eltoirre. Et quand elle eut l'impression d'en toucher le fond, un phénix magnifique apparut devant Laias. C'était la libération totale de la puissance d'Eltoirre."
+  },
+  "splashart": "heroes/Laias/sa.png",
+  "costumes": "heroes/Laias/cos",
+  "_localization": {
+    "locale": "fr",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

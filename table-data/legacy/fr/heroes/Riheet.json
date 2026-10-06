@@ -1,0 +1,263 @@
+{
+  "id": "Riheet",
+  "profile": {
+    "name": "Riheet",
+    "title": "Riheet, Éclair de la Lune noire",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "8800",
+    "damage_type": "Magical",
+    "gender": "Homme",
+    "age": "???",
+    "height": "183",
+    "race": "Elfe-sombre",
+    "constellation": "Layan la Justiciére",
+    "birth": {
+      "month": 9,
+      "day": 25,
+      "monthName": "Mois de la Vérité"
+    },
+    "like": "Sa petite sœur, les compagnons de Perce Nuit, l'entraînement aux techniques de combat rapproché et à l'épée",
+    "dislike": "Les humains (surtout ceux qui sont haut placés), les Démons",
+    "story": "Elfe-Sombre qui ressemble à ceux de ce monde, mais qui en réalité provient d'Orvel d'une autre dimension. Comme les Elfes-Sombres sont persécutés dans le monde d'origine de Ripine et de Riheet, les deux frère et sœur ne peuvent qu'être abasourdis en arrivant à Orvel, où la discrimination est bien moindre. Voyant les différents peuples cohabiter en s'entraidant, Riheet se met à ressentir d'étranges émotions qui vacillent entre la colère et l'émerveillement. Bien que les humains soient ses ennemis là d'où il vient, il se sent incapable de haïr ceux de ce monde-ci, qui ne lui ont rien fait...",
+    "thumbnail": "heroes/Riheet/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Sceau de la Lune noire",
+      "cost": "2",
+      "cooldown": "7",
+      "description": "Inflige à l'ennemi à portée situé à l'avant ??? DEG M et lui appose [Sceau de la Lune noire] pendant 3 sec, avant de le renverser pendant 3 sec. En cas de coup porté, inflige ??? DEG M supplémentaires ignorant le Blocage pour chaque [Malédiction d'un autre Monde] cumulée. La cible touchée par [Sceau de la Lune noire] ne peut pas récupérer ses PM pendant la durée de l'effet.",
+      "thumbnail": "heroes/Riheet/skills/1.png"
+    },
+    "2": {
+      "name": "Marque de la Lune noire",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Dissipe l'effet de contrôle sur le lanceur et appose pendant 15 sec à la cible ennemie la [Marque de la Lune noire] qui ne peut être dissipée. Inflige également ??? DEG M. Si un ennemi est à l'état de [Marque de la Lune argentée], attaque cet ennemi et modifie la marque en [Marque de la pleine Lune]. Lorsque la cible se trouve à l'état de [Marque de la pleine Lune], [Exécution de la pleine Lune] devient disponible pendant 10 sec.",
+      "thumbnail": "heroes/Riheet/skills/2.png"
+    },
+    "3": {
+      "name": "Assaut d'Épée de la Lune noire",
+      "cost": "3",
+      "cooldown": "23",
+      "description": "Attaque les ennemis à portée situés à l'avant à 10 reprises, ce qui inflige un total de ??? DEG M, et les étourdit pendant 2 sec. Ensuite, lance une dernière attaque, ce qui inflige ??? DEG M et ??? DEG M supplémentaires ignorant le Blocage pour chaque [Malédiction d'un autre Monde] cumulée. Se confère l'immunité contre les contrôles pendant l'utilisation de la compétence.",
+      "thumbnail": "heroes/Riheet/skills/3.png"
+    },
+    "4 (1)": {
+      "name": "Mana d'un autre Monde",
+      "description": "Utilise le Mana d'un autre Monde pour augmenter les DEG infligés par le lanceur à l'ennemi de 35% et à chaque coup porté, inflige à la cible ennemie 1 [Malédiction d'un autre Monde]. [Malédiction d'un autre Monde] peut se cumuler jusqu'à 30 fois.",
+      "thumbnail": "heroes/Riheet/skills/4 (1).png",
+      "cost": null,
+      "cooldown": null
+    },
+    "4 (2)": {
+      "name": "Exécution de la pleine Lune",
+      "description": "Dissipe l'effet de contrôle sur le lanceur et attaque à 2 reprises l'ennemi à l'état de [Marque de la pleine Lune], infligeant ??? DEG M. Au dernier coup, fait exploser la [Marque de la pleine Lune], ce qui inflige ??? DEG M ignorant le Blocage, et ??? DEG M supplémentaires ignorant le Blocage si la cible n'est pas un Héros. Lors de l'explosion de la [Marque de la pleine Lune], inflige ??? DEG M supplémentaires ignorant le Blocage pour chaque [Malédiction d'un autre Monde] cumulée. Utilise cette compétence avec [Ripine], et réinitialise le temps de recharge de [Marque de la Lune noire] et [Marque de la Lune argentée] de Ripine lorsqu'un ennemi est éliminé par cette compétence.",
+      "thumbnail": "heroes/Riheet/skills/4 (2).png",
+      "cost": null,
+      "cooldown": "1"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente les DEG infligés par le lanceur à l'ennemi de 5% supplémentaires.",
+      "III": "Augmente les DEG infligés par le lanceur à l'ennemi de 5% supplémentaires.",
+      "IV": "Augmente les DEG infligés par le lanceur à l'ennemi de 5% supplémentaires."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Augmente les DEG infligés de 40%.",
+          "thumbnail": "heroes/Riheet/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "[Sceau de la Lune noire] Modifie pour que cet effet ne puisse être dissipé.",
+          "thumbnail": "heroes/Riheet/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Étourdit la cible touchée pendant 5 sec.",
+          "thumbnail": "heroes/Riheet/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG M reçus par la cible touchée de 30% pendant 10 sec.",
+          "thumbnail": "heroes/Riheet/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Immunise contre tous les DEG pendant l'utilisation de cette compétence.",
+          "thumbnail": "heroes/Riheet/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente la durée d'étourdissement de 1 sec.",
+          "thumbnail": "heroes/Riheet/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Cumule 1 charge de [Malédiction d'un autre Monde] supplémentaire à chaque coup porté lorsqu'il y a 3 ennemis ou plus.",
+          "thumbnail": "heroes/Riheet/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Cumule 1 charge de [Malédiction d'un autre Monde] supplémentaire à chaque coup porté lorsqu'il y a 1 ennemis.",
+          "thumbnail": "heroes/Riheet/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Vitesse d'ATQ +100",
+        "thumbnail": "heroes/Riheet/perks/light.png"
+      },
+      "dark": {
+        "effect": "Au début de chaque bataille, les PV ne peuvent pas descendre en dessous de 10% pendant 7 sec. Si les PV descendent en dessous de 15% pendant la durée de l'effet, réduit les DEG infligés au Héros de 70% pendant 5 sec. Tous les effets ne peuvent être dissipés.",
+        "thumbnail": "heroes/Riheet/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Noctipheus, l'Aile de la Lune noire",
+    "description": "Augmente l'ATQ de {0}%, et lors des DEG infligés à l'ennemi, augmente les DEG M reçus par la cible de {1}% pendant 5 sec.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      }
+    },
+    "thumbnail": "heroes/Riheet/uw.png",
+    "story": "L'épée-sœur de Clarapheon, l'Aile de la Lune argentée. Elle est l'une des épées jumelles maniées par le Héros qui aurait sauvé le royaume des Elfes-Sombres dans le lointain passé. Sa lame longiligne contient l'énergie de la lune noire et symbolise la lune elle-même, capable de rester pure, même en présence des ténèbres qui l'imprégneraient. Selon la légende, les épées du Héros sans nom feraient leur apparition lorsque le royaume des Elfes-Sombres se retrouverait de nouveau en péril, et ce serait la volonté de l'ancienne lignée royale qui déciderait à qui elles appartiendraient. Cependant, depuis que la guerre des démons a ravagé le monde 100 ans auparavant, la famille royale des Elfes-Sombres a connu le déclin, et personne ne s'attendait plus à ce qu'elles apparaissent. Mais un jour...",
+    "descriptionByStar": {
+      "0": "Augmente l'ATQ de 20%, et lors des DEG infligés à l'ennemi, augmente les DEG M reçus par la cible de 20% pendant 5 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Symbole du Lien du Sang",
+      "description": "[Sceau de la Lune noire] Dissipe l'effet positif de la cible touchée par le sceau et ajoute au [Sceau de la Lune noire] l'effet de réduction de la récupération des PV de {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Riheet/ut/1.png",
+      "story": "Un bracelet que Ripine a offert à Riheet, avant que celui-ci ne fonde Perce Nuit. C'est un produit de bas de gamme, fait d'une bande métallique recouverte d'argent et décoré de cuir robuste d'un buffle noir. Toutefois, l'objet représente les sentiments de Ripine, bien plus estimables que n'importe quel joyau qui puisse exister. Bien que vieilli et usé, Riheet porte toujours sur lui ce précieux trésor.",
+      "descriptionByStar": {
+        "0": "[Sceau de la Lune noire] Dissipe l'effet positif de la cible touchée par le sceau et ajoute au [Sceau de la Lune noire] l'effet de réduction de la récupération des PV de 20%."
+      }
+    },
+    "2": {
+      "name": "Capuche de Perce Nuit",
+      "description": "[Marque de la Lune noire] Augmente l'ATQ de {0}% pendant 10 sec et réduit la DEF M de la cible touchée de 30% pendant 10 sec, lors de l'utilisation de cette compétence.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Riheet/ut/2.png",
+      "story": "Une capuche fournie à la troupe d'élite des Elfes-Sombres, créée par Riheet. Cet objet permet de cacher le fait que son porteur est un Elfe-Sombre, et parfois, il est indispensable selon la nature de la mission à accomplir. L'objectif apparent de Perce Nuit est de chasser les démons... Mais son véritable but reste un secret. Contre qui se dirigeront les lames de ses membres, brûlant d'envie de se venger contre les humains, surtout ceux haut placés à Orvel ? Bien entendu, il s'agit d'Orvel d'un autre monde...",
+      "descriptionByStar": {
+        "0": "[Marque de la Lune noire] Augmente l'ATQ de 20% pendant 10 sec et réduit la DEF M de la cible touchée de 30% pendant 10 sec, lors de l'utilisation de cette compétence."
+      }
+    },
+    "3": {
+      "name": "Vieux Pendentif",
+      "description": "[Assaut d'Épée de la Lune noire] Augmente les DEG de {0}% et réduit le temps de recharge de 30%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Riheet/ut/3.png",
+      "story": "Un pendentif transmis de génération en génétation dans la famille de Riheet. Orné d'une gemme pourpre brillant de mille feux, ce pendentif aurait été façonné par un lointain ancêtre de Riheet. Ni lui ni Ripine ne savent dans quel but cet accessoire a été créé, ni la signification qu'il porte. Toutefois, Riheet le garde sur lui en souvenir de ses parents.",
+      "descriptionByStar": {
+        "0": "[Assaut d'Épée de la Lune noire] Augmente les DEG de 20% et réduit le temps de recharge de 30%."
+      }
+    },
+    "4": {
+      "name": "Plat nostalgique de Riheet",
+      "description": "[Mana d'un autre Monde] Augmente la Pénétration DEF de 300 et augmente les DEG M reçus par la cible de {0}% pour chaque [Malédiction d'un autre Monde] cumulée. Cet effet peut se cumuler jusqu'à 30 fois.",
+      "value": {
+        "0": {
+          "0": "0.5",
+          "1": "0.6",
+          "2": "0.7",
+          "3": "0.8",
+          "4": "0.9",
+          "5": "1"
+        }
+      },
+      "thumbnail": "heroes/Riheet/ut/4.png",
+      "story": "Depuis le décès de leurs parents pendant leur enfance, Riheet et Ripine vivaient comme des fugitifs. Comme ils n'avaient ni l'occasion ni le loisir d'avoir un repas correct, ils n'avaient d'autre choix que de se nourrir de pains ou de fruits volés. Mais un jour, un marchand sans préjugé leur donna de bon cœur des aliments pour la cuisine. Alors Riheet et Ripine préparèrent l'un pour l'autre des plats simples, et ce repas resta gravé dans leur souvenir. Le plat que Riheet cuisina fut un sandwich équilibré, fait avec des ingrédients divers.",
+      "descriptionByStar": {
+        "0": "[Mana d'un autre Monde] Augmente la Pénétration DEF de 300 et augmente les DEG M reçus par la cible de 0.5% pour chaque [Malédiction d'un autre Monde] cumulée. Cet effet peut se cumuler jusqu'à 30 fois."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 20 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de Noctipheus, l'Aile de la Lune noire, ce qui inflige ??? DEG M à la cible et aux ennemis à portée de la cible. Cumule 30 charges de [Malédiction d'un autre Monde] à la cible touchée et obtient [Puissance de la Lune noire]. [Puissance de la Lune noire] peut se cumuler jusqu'à 3 fois et ne peut être dissipée, et augmente les DEG infligés à l'ennemi de 5% par charge cumulée. Si [Ripine] est présente parmi les alliés, cumule également [Puissance de la Lune noire] sur [Ripine].",
+    "cooldown": "20",
+    "uses": "6",
+    "thumbnail": "heroes/Riheet/sw.png",
+    "advancement": {
+      "1": "[Puissance de la Lune noire] Ajoute l'effet de réduction des DEG reçus de 5%.",
+      "2": "[Puissance de la Lune noire] Augmente le nombre max de charges cumulables de 2."
+    },
+    "story": "D'après les mythes transmis parmi les Elfes-Sombres, Noctipheus, l'Aile de la Lune noire, serait uneépée suréminente, où la force des ténèbres et celle de la lune cohabiteraient en harmonie. Cette épée forgée par un artisan sans nom désignerait le Héros salvateur en suivant la volonté de l'ancienne lignée des Elfes-Sombres, et disparaîtrait lorsque la menace aurait été écartée. L'éclat de jais dont brillerait l'arme serait en fait la matérialisation de la juste colère de la famille royale des Elfes-Sombres. Et l'épée aurait une présence qui ferait trembler tous ceux qui se trouveraient devant elle.\n\nLa raison pour laquelle l'épée de la lune noire avait choisi Riheet comme son porteur était claire. Son âme était rongée par la colère et la vengeance, bien qu'elle soit encore sensible aux émotions telles que l'amour, sans parler de son esprit qui était vierge de tout péché ou culpabilité. Noctipheus souhaitait que sa puissance soit utilisée à bon escient, même après que la menace directe contre les Elfes-Sombres soit dissipée. C'est pourquoi Noctipheus décida de demeurer aux côtés de Riheet, du moins jusqu'à ce qu'il soit rentré dans son monde d'origine."
+  },
+  "splashart": "heroes/Riheet/sa.png",
+  "costumes": "heroes/Riheet/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

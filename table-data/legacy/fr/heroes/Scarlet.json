@@ -1,0 +1,261 @@
+{
+  "id": "Scarlet",
+  "profile": {
+    "name": "Scarlet",
+    "title": "Scarlet, Foi d'Argent blanc",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "6200",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "18",
+    "height": "168",
+    "race": "Humain",
+    "constellation": "Layan la Justiciére",
+    "birth": {
+      "month": 9,
+      "day": 21,
+      "monthName": "Mois de la Vérité"
+    },
+    "like": "Les personnes honnêtes et justes",
+    "dislike": "Les opportunistes, les oppresseurs des faibles",
+    "story": "Le roi Veroglance II d'Orvelia s'affaiblissait de jour en jour. Il était autrefois un puissant monarque que personne n'osait contredire. Cependant, il commença à faire preuve de faiblesse avec l'âge. Lorsqu'il finit par tomber malade, les aspirants au pouvoir commencèrent à s'amasser autour de lui comme des mouches autour d'un festin. Scarlet tenta de protéger son père dans tout ce chaos. Hélas, le roi, manipulé par les flatteurs qui l'entouraient, n'était plus l'homme qu'il était autrefois. Il refusa d'écouter les conseils de sa fille. Les nobles ne voulaient plus d'elle, la seule enfant du roi, comme nouvelle reine. L'atmosphère du château devient de plus en plus irrespirable du fait des pressions des nobles. Cependant, elle refuse de plier. Elle est prête à se battre pour protéger son royaume et son peuple. Elle fera tout pour empêcher les gens assoiffés de pouvoir prendre le contrôle du royaume.",
+    "thumbnail": "heroes/Scarlet/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Taille!",
+      "cost": "3",
+      "cooldown": "8",
+      "description": "Inflige aux ennemis à portée situés à l'avant ??? DEG P, les renverse pendant 3 sec et récupère les PV à hauteur de 30% des DEG infligés par cette compétence. Augmente les DEG P reçus par la cible touchée de 25% pendant 10 sec, et inflige ??? DEG P supplémentaires si la cible n'est pas un Héros. Ensuite, installe [Zone de Consécration] pendant 4 sec. Augmente l'ATQ de 25% et le Crit de 150 de l'allié placé sur la [Zone de Consécration], et réduit la Pénétration DEF de 250 et le Blocage de 500 de l'ennemi à portée de la zone.",
+      "thumbnail": "heroes/Scarlet/skills/1.png"
+    },
+    "2 (1)": {
+      "name": "Justice Servie",
+      "cost": "2",
+      "cooldown": "15",
+      "description": "Dissipe les effets négatifs de tous les alliés et dissipe les effets positifs de tous les ennemis, tout en infligeant ??? DEG P.\n\nLa compétence [Voici la véritable Force d'Orvelia !!] devient disponible lors de l'activation de l'Arme spirituelle.",
+      "thumbnail": "heroes/Scarlet/skills/2 (1).png"
+    },
+    "2 (2)": {
+      "name": "Voici la véritable Force d'Orvelia !!",
+      "cost": "2",
+      "cooldown": "15",
+      "description": "Dissipe l'effet négatif de tous les alliés et l'effet positif de tous les ennemis, puis inflige ??? DEG P. Cette attaque ne manque jamais sa cible. Étourdit la cible touchée pendant 4 sec et réduit la Vitesse d'ATQ de 300 pendant 10 sec. Ensuite, augmente la Résistance Crit de tous les alliés de 250 pendant 10 sec.",
+      "thumbnail": "heroes/Scarlet/skills/2 (2).png"
+    },
+    "3": {
+      "name": "Épée de Fierté",
+      "cost": "3",
+      "cooldown": "17",
+      "description": "Attaque la cible ennemie à 2 reprises, ce qui lui inflige un total de ??? DEG P et l'étourdit pendant 3 sec à chaque coup porté. Ensuite, lance une explosion d'énergie avec l'épée 2 fois, ce qui inflige aux ennemis à portée en ligne droite ??? DEG P, les étourdissant pendant 5 sec.",
+      "thumbnail": "heroes/Scarlet/skills/3.png"
+    },
+    "4": {
+      "name": "Déesse de la Guerre",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente toutes les résistances critiques de 300. Les attaques normales ont 10% de chances d'infliger ??? DEG P supplémentaires et d'étourdir pendant 1 sec. Chaque coup augmente aussi les DEG P subis par la cible de 3%, jusqu'à 10 cumuls. Les attaques normales donnent 1 cumul d'[Esprit d'Orvelia], les compétences 10, jusqu'à 30 cumuls. Au maximum, les consomme tous pour entrer pendant 15 sec dans l'état indissipable [Bénédiction des rois]. Cet état empêche de gagner [Esprit d'Orvelia], immunise au contrôle et réduit tous les dégâts subis de 350.",
+      "thumbnail": "heroes/Scarlet/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Scarlet/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Permet de dissiper tous les Effets Négatifs sur le Héros",
+          "thumbnail": "heroes/Scarlet/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit la Vitesse d'ATQ de la cible touchée de 300 pendant 10 sec.",
+          "thumbnail": "heroes/Scarlet/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Augmente la Résistance Crit de tous les alliés de 250 pendant 10 sec.",
+          "thumbnail": "heroes/Scarlet/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Détruit le bouclier de la cible à chaque coup porté.",
+          "thumbnail": "heroes/Scarlet/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Les soins sur les ennemis touchés sont réduits de 40% pendant 10 sec.",
+          "thumbnail": "heroes/Scarlet/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Obtient 15 charges de [Dignité d'Orvelia] au début de chaque combat.",
+          "thumbnail": "heroes/Scarlet/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Modifie l'effet d'augmentation des DEG P reçus pour qu'il ne puisse être dissipé.",
+          "thumbnail": "heroes/Scarlet/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Vitesse d'ATQ +100",
+        "thumbnail": "heroes/Scarlet/perks/light.png"
+      },
+      "dark": {
+        "effect": "Si le Héros subit des coups critiques, il y a 5% de chances que toutes les améliorations soient dissipées sur l'attaquant et qu'il subisse l'Étourdissement pendant 1 sec. Temps de Recharge: 8 sec.",
+        "thumbnail": "heroes/Scarlet/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Belona blanc, la Lame de Conviction",
+    "description": "Augmente les DEG infligés par le lanceur de {0}% par 1 compétence en recharge et augmente la Pénétration DEF de {1} pendant la durée de [Protection de la Lignée royale].",
+    "value": {
+      "0": {
+        "0": "8",
+        "1": "10",
+        "2": "12",
+        "3": "14",
+        "4": "17",
+        "5": "20"
+      },
+      "1": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      }
+    },
+    "thumbnail": "heroes/Scarlet/uw.png",
+    "story": "L'épée la plus légendaire de tout Orvelia. Cette lame sacrée s'est transmise de génération en génération au sein de la famille royale d'Orvelia depuis l'avènement du royaume et symbolise l'autorité du monarque. Le roi Kyle a également déjà manié cette épée, jusqu'à être choisi par Aea l'Épée Sacrée. Bénie par le pouvoir de la lumière, sa lame peut neutraliser n'importe quelle magie en tranchant son flux. Seul un chevalier vertueux et de noble lignage peut brandir cette épée. Ceux qui souhaitent s'en servir doivent d'abord réussir l'épreuve de la famille royale, un exploit que seule Scarlet est parvenue à accomplir après Kyle.",
+    "descriptionByStar": {
+      "0": "Augmente les DEG infligés par le lanceur de 8% par 1 compétence en recharge et augmente la Pénétration DEF de 200 pendant la durée de [Protection de la Lignée royale].",
+      "1": "Pour chaque Compétence en recharge, les DEG sont augmentés de 10%.",
+      "2": "Pour chaque Compétence en recharge, les DEG sont augmentés de 12%.",
+      "3": "Pour chaque Compétence en recharge, les DEG sont augmentés de 14%.",
+      "4": "Pour chaque Compétence en recharge, les DEG sont augmentés de 17%.",
+      "5": "Pour chaque Compétence en recharge, les DEG sont augmentés de 20%."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Gantelet des vagues",
+      "description": "[Stop!] Augmente les DEG de 20 % et les DEG P reçus par la cible de 25 % pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Scarlet/ut/1.png",
+      "story": "Ce gantelet a été forgé à partir de minerais rares et ultradenses, présents dans la mine familiale des Ziltrion.\nDemia l'offrit à Scarlet après qu'elles eurent terminé leur entraînement à l'épée ensemble. Pour Scarlet, il est la preuve que Demia est la meilleure partenaire qui soit, et sa meilleure amie. Scarlet n'a jamais utilisé ce gantelet, de peur de l'abîmer.",
+      "descriptionByStar": {
+        "0": "[Stop!] Augmente les DEG de 20 % et les DEG P reçus par la cible de 25 % pendant 10 sec.",
+        "1": "[Stop!] Augmente les DEG de 24 % et les DEG P reçus par la cible de 25 % pendant 10 sec.",
+        "2": "[Stop!] Augmente les DEG de 29 % et les DEG P reçus par la cible de 25 % pendant 10 sec.",
+        "3": "[Stop!] Augmente les DEG de 35 % et les DEG P reçus par la cible de 25 % pendant 10 sec.",
+        "4": "[Stop!] Augmente les DEG de 42 % et les DEG P reçus par la cible de 25 % pendant 10 sec.",
+        "5": "[Stop!] Augmente les DEG de 50 % et les DEG P reçus par la cible de 25 % pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Ailes de la justice",
+      "description": "[Justice servie] Augmente les DEG de 20 % et réduit le temps de recharge de tous les alliés de 10 %.",
+      "value": {},
+      "thumbnail": "heroes/Scarlet/ut/2.png",
+      "story": "Pendentif confectionné par Scarlet, dont les principes sont tels qu’elle ne peut plier face à l’injustice ou rester indifférente face à la lâcheté. Elle en a offert un à tous les gens qui lui sont indispensables, c’est-à-dire Clause et Demia. \nLes ailes brillantes de l’émeraude royale, symboles de justice, sont incrustées dans le pendentif. Il suffit de regarder le reflet de ses yeux dans le pendentif pour sentir tous ses problèmes s’évaporer.\nScarlet le regarde pour trouver du réconfort à chaque fois que les gens accusent son père Veroglance II.",
+      "descriptionByStar": {
+        "0": "[Justice servie] Augmente les DEG de 20 % et réduit le temps de recharge de tous les alliés de 10 %.",
+        "1": "[Justice servie] Augmente les DEG de 24 % et réduit le temps de recharge de tous les alliés de 10 %.",
+        "2": "[Justice servie] Augmente les DEG de 29 % et réduit le temps de recharge de tous les alliés de 10 %.",
+        "3": "[Justice servie] Augmente les DEG de 35 % et réduit le temps de recharge de tous les alliés de 10 %.",
+        "4": "[Justice servie] Augmente les DEG de 42 % et réduit le temps de recharge de tous les alliés de 10 %.",
+        "5": "[Justice servie] Augmente les DEG de 50 % et réduit le temps de recharge de tous les alliés de 10 %."
+      }
+    },
+    "3": {
+      "name": "Fierté d'Orvelia",
+      "description": "[Épée de Fierté] Augmente les DEG de {0}% et réduit le temps de recharge de 30%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Scarlet/ut/3.png",
+      "story": "Un drapeau de fête pour célébrer le roi lors de la fondation d’Orvelia. Lorsque Scarlet le voit, elle est furieuse en pensant aux sujets traîtres qui réduisirent son père à un simple épouvantail et aux flatteurs qui ruinèrent le pays. Scarlet est encore plus déterminée à restaurer la gloire d’antan d’Orvelia et de rendre le trône plus fort.",
+      "descriptionByStar": {
+        "0": "[Épée de Fierté] Augmente les DEG de 20% et réduit le temps de recharge de 30%.",
+        "1": "[Épée de Fierté] Les DEG sont augmentés de 24% et chaque attaque applique Étourdissement sur l'ennemi pendant 3 sec.",
+        "2": "[Épée de Fierté] Les DEG sont augmentés de 29% et chaque attaque applique Étourdissement sur l'ennemi pendant 3 sec.",
+        "3": "[Épée de Fierté] Les DEG sont augmentés de 35% et chaque attaque applique Étourdissement sur l'ennemi pendant 3 sec.",
+        "4": "[Épée de Fierté] Les DEG sont augmentés de 42% et chaque attaque applique Étourdissement sur l'ennemi pendant 3 sec.",
+        "5": "[Épée de Fierté] Les DEG sont augmentés de 50% et chaque attaque applique Étourdissement sur l'ennemi pendant 3 sec."
+      }
+    },
+    "4": {
+      "name": "Cœur d'argent",
+      "description": "[Déesse du champ de bataille] Les chances d'activation passent à 20 %. Augmente la Vitesse d'ATQ de 200 points pendant 5 sec.",
+      "value": {},
+      "thumbnail": "heroes/Scarlet/ut/4.png",
+      "story": "Le forgeron Jin se donna beaucoup de mal pour créer ce joyau destiné à Scarlet d'Orvel.\nC'était un pendentif à la base, mais il fut refaçonné en talisman que Scarlet pouvait à sa guise porter sur son armure ou ses vêtements lorsqu'elle s'enrôla dans la guerre en tant que chevalier.\nLorsqu'elle arborait le Cœur d'argent sur le champ de bataille, les soldats la voyaient comme la déesse de la victoire.",
+      "descriptionByStar": {
+        "0": "[Déesse du champ de bataille] Les chances d'activation passent à 20 %. Augmente la Vitesse d'ATQ de 200 points pendant 5 sec.",
+        "1": "[Déesse du champ de bataille] Les chances d'activation passent à 20 %. Augmente la Vitesse d'ATQ de 240 points pendant 5 sec.",
+        "2": "[Déesse du champ de bataille] Les chances d'activation passent à 20 %. Augmente la Vitesse d'ATQ de 290 points pendant 5 sec.",
+        "3": "[Déesse du champ de bataille] Les chances d'activation passent à 20 %. Augmente la Vitesse d'ATQ de 350 points pendant 5 sec.",
+        "4": "[Déesse du champ de bataille] Les chances d'activation passent à 20 %. Augmente la Vitesse d'ATQ de 420 points pendant 5 sec.",
+        "5": "[Déesse du champ de bataille] Les chances d'activation passent à 20 %. Augmente la Vitesse d'ATQ de 500 points pendant 5 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 5 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Belona blanc, la Lame de Conviction, pendant 8 sec, ce qui augmente l'ATQ de 50% pendant la durée de l'âme. Lors de l'activation de l'âme, dissipe l'effet positif de l'ennemi à l'ATQ la plus élevée et lui inflige ??? DEG P. Lors de l'utilisation de l'âme, modifie 1 seule fois la compétence [Justice Servie] en [Voici la véritable Force d'Orvelia !!].",
+    "cooldown": "16",
+    "uses": "6",
+    "thumbnail": "heroes/Scarlet/sw.png",
+    "advancement": {
+      "1": "Augmente la durée de 4 sec et modifie la condition d'utilisation à 4.",
+      "2": "Augmente les DEG de 70% et lors de l'activation de l'âme, réduit le temps de recharge restant de toutes les compétences de Scarlet de 50%."
+    },
+    "story": "L'épée du roi ne peut être maniée que par celui qui posséde la véritable qualité digne d'un roi. Elle est donc sacrée, et en est la preuve de la royauté de son utilisateur.\nL'Église de Lua reconnaissait Aea l'Épée-Sacrée comme l'épée portant la bénédiction et la légitimité accordées par la déesse. Cependant, l'épée la plus illustre parmi les membres de la famille royale, les nobles et les chevaliers était Belona.\nSupportant les épreuves de la cour royale, Belona, devenu le symbole de l'autorité du roi, engrangea les souvenirs et les expériences des rois de génération en génération. Cela permit à l'épée de former une âme qui ne déméritait pas de celle du roi et du chevalier.\n\nAvant que Kyle ne manie Belona, l'arme, durant la guerre des démons d'il y a 100 ans, tint la forme d'une épée imposante, possédant une lame immense.\nLa lame, objet de haine et de malédiction d'innombrables démons qu'elle avait transpercés, devint peu à peu corrompue par les ténèbres.\nAprès la fin de la guerre, la famille royale ne voulut pas laisser Belona dans cet état, et fit aiguiser sa lame avec l'incantation de protection de la lumière.\nL'incantation purifia peu à peu l'arme, tout en lui insufflant le pouvoir protecteur de la lumière. Belona finit par renaître en une épée plus affûtée que jamais, capable de trancher toute force du mal.\n\nBelona, devenu une épée plus illustre que jamais, ne put trouver de propriétaire adéquat. Pendant longtemps, il fut chagriné de ne trouver personne qui serait digne d'être le roi comme Kyle. Mais voyant Scarlet surmonter une à une les épreuves de la cour royale, Belona commença à éprouver un nouvel espoir.\nLa reine d'argent blanc aidait les faibles malgré les difficultés que cela imposait, et ne perdait jamais sa conviction en tant que chevalier. Cette attitude poussa Belona à se montrer à Scarlet sous sa véritable apparence, ce qu'il n'avait pas fait avec Kyle."
+  },
+  "splashart": "heroes/Scarlet/sa.png",
+  "costumes": "heroes/Scarlet/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

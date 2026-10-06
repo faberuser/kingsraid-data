@@ -1,0 +1,1385 @@
+{
+  "classes": {
+    "Archer": {
+      "perks": {
+        "t2": {
+          "Precision Shot": "Increases ATK by 15% and ACC by 120.",
+          "Eagle Eye": "Increases all allies’ DEF Penetration by 60 and ACC by 60. If another ally has the same perk, only an additional 30 DEF Penetration and 30 ACC apply.",
+          "Mortal Wound": "On Critical Hit, reduces the enemy’s Recovery by 24% for 10 sec and deals Physical DoT equal to 20% of ATK every sec. Does not stack with the same effect from other allies.",
+          "Opportune Strike": "Increases Crit Chance by 185 and Crit DMG by 24%.",
+          "Concentration": "Every 5 sec, increases own Crit DMG by 3%. Stacks up to 24 times and cannot be removed."
+        }
+      },
+      "perkNames": {
+        "Precision Shot": "Precision Shot",
+        "Eagle Eye": "Eagle Eye",
+        "Mortal Wound": "Mortal Wound",
+        "Opportune Strike": "Opportune Strike",
+        "Concentration": "Concentration"
+      }
+    },
+    "Assassin": {
+      "perks": {
+        "t2": {
+          "Target Weakness": "Increases ATK by 15% and DEF Penetration by 120.",
+          "Swift and Nimble": "All Dodge +50 per second, up to 10 stacks; resets upon a successful dodge.",
+          "Tactical Foresight": "Increases All Dodge by 80 and reduces DMG taken by 8%.",
+          "Opportune Strike": "Increases Crit Chance by 185 and Crit DMG by 24%.",
+          "Vital Detection": "On attack, causes the target to take 8% increased All DMG and reduces ATK Speed by 8% for 10 sec. Activates once every 3 sec."
+        }
+      },
+      "perkNames": {
+        "Target Weakness": "Target Weakness",
+        "Swift and Nimble": "Swift and Nimble",
+        "Tactical Foresight": "Tactical Foresight",
+        "Opportune Strike": "Opportune Strike",
+        "Vital Detection": "Vital Detection"
+      }
+    },
+    "General": {
+      "perks": {
+        "t1": {
+          "ATK Up": "ATK is increased by 18%.",
+          "HP Up": "HP is increased by 18%.",
+          "DEF Up": "All DEF is increased by 18%.",
+          "Crit Resist Up": "Crit Resistance is increased by 150.",
+          "Monster Hunting": "Increases DMG dealt to Non-Hero enemies by 6.5% and reduces DMG taken by 6.5%."
+        }
+      },
+      "perkNames": {
+        "ATK Up": "ATK Up",
+        "HP Up": "HP Up",
+        "DEF Up": "DEF Up",
+        "Crit Resist Up": "Crit Resist Up",
+        "Monster Hunting": "Monster Hunting"
+      }
+    },
+    "Knight": {
+      "perks": {
+        "t2": {
+          "Experienced Fighter": "Attacked targets take 16% more DMG. Does not stack with the same effect from other allies.",
+          "Excellent Strategy": "Increases CC Accuracy of all allies by 100. If another ally has the same Perk, only 50 additional CC Accuracy is applied.",
+          "Battle Cry": "Increases Max HP of all allies by 10%. If another ally has the same Perk, only 5% additional Max HP is applied.",
+          "Shield of Protection": "Increases All Block by 150 and CC Resistance by 150.",
+          "Swift Move": "Increases ATK Speed by 12% and ACC by 120."
+        }
+      },
+      "perkNames": {
+        "Experienced Fighter": "Experienced Fighter",
+        "Excellent Strategy": "Excellent Strategy",
+        "Battle Cry": "Battle Cry",
+        "Shield of Protection": "Shield of Protection",
+        "Swift Move": "Swift Move"
+      }
+    },
+    "Mechanic": {
+      "perks": {
+        "t2": {
+          "Target Weakness": "Increases ATK by 15% and DEF Penetration by 120.",
+          "Ready Cannons": "Increases Mana Recovery per sec by 10.8% for each enemy.",
+          "Pressure Point": "Increases own Crit Chance by 350.",
+          "Special Bullet": "Attacked targets lose 10% ATK and 100 Crit Chance. Does not stack with effects from other allies.",
+          "Amplified Gunpowder": "Increases all allies’ Crit DMG by 12%. If another ally has the same perk, only an additional 4% applies."
+        }
+      },
+      "perkNames": {
+        "Target Weakness": "Target Weakness",
+        "Ready Cannons": "Ready Cannons",
+        "Pressure Point": "Pressure Point",
+        "Special Bullet": "Special Bullet",
+        "Amplified Gunpowder": "Amplified Gunpowder"
+      }
+    },
+    "Priest": {
+      "perks": {
+        "t2": {
+          "Vengeful Curse": "When hit by an enemy, attacker's DMG is reduced by 70% for 3 sec. This effect only activates once in 40 sec, and cannot be dispelled.",
+          "Goddess Blessing": "Increases all allies’ Crit Chance by 90. If another ally has the same perk, only an additional 45 applies.",
+          "Inner Peace": "All allies recover 1% HP per sec and gain 60 CC Resist. If another ally has the same perk, only an additional 0.5% HP recovery per sec and 30 CC Resist apply.",
+          "Blessing of Mana": "Increases Mana Recovery per sec by 30%.",
+          "Swiftness": "Increases all allies’ ATK Speed by 60. If another ally has the same perk, only an additional 30 applies."
+        }
+      },
+      "perkNames": {
+        "Vengeful Curse": "Vengeful Curse",
+        "Goddess Blessing": "Goddess Blessing",
+        "Inner Peace": "Inner Peace",
+        "Blessing of Mana": "Blessing of Mana",
+        "Swiftness": "Swiftness"
+      }
+    },
+    "Warrior": {
+      "perks": {
+        "t2": {
+          "Opportune Strike": "Increases Crit Chance by 185 and Crit DMG by 24%.",
+          "Warlike": "Increases ATK by 6% and CC Resistance by 30 per enemy. Stacks up to 5 times.",
+          "Offensive Guard": "ATK increases by 25% of P.DEF. P.DMG taken is reduced by 15%.",
+          "Tactical Foresight": "ncreases All Dodge by 80 and reduces DMG taken by 8%.",
+          "Blood Wrath": "Increases Lifesteal by 60 and ATK Speed by 12%."
+        }
+      },
+      "perkNames": {
+        "Opportune Strike": "Opportune Strike",
+        "Warlike": "Warlike",
+        "Offensive Guard": "Offensive Guard",
+        "Tactical Foresight": "Tactical Foresight",
+        "Blood Wrath": "Blood Wrath"
+      }
+    },
+    "Wizard": {
+      "perks": {
+        "t2": {
+          "Deception": "When receiving DMG, becomes immune to the next 3 hit of DMG. This effect is activated every 40 sec.",
+          "Moral Rise": "Increases all allies’ ATK by 7%. If another ally has the same perk, only an additional 3.5% ATK applies.",
+          "Blessing of Mana": "Increases Mana Recovery per sec by 30%.",
+          "Circuit Burst": "DMG Taken is increased by 15%, but ATK is increased by 35% and ACC by 150.",
+          "Destruction": "Increases Crit Chance by 185 and DEF Penetration by 120."
+        }
+      },
+      "perkNames": {
+        "Deception": "Deception",
+        "Moral Rise": "Moral Rise",
+        "Blessing of Mana": "Blessing of Mana",
+        "Circuit Burst": "Circuit Burst",
+        "Destruction": "Destruction"
+      }
+    }
+  },
+  "artifacts": [
+    {
+      "id": "Burning Brazier of Elf",
+      "name": "Burning Brazier of Elf",
+      "description": "Upon attacking an enemy, there is a {0}% chance to recover 1 MP.",
+      "value": {
+        "0": "10, 12, 14, 17, 20, 25"
+      },
+      "thumbnail": "artifacts/Burning Brazier of Elf.png",
+      "story": "A mysterious brazier crafted by ancient Elves to honor the mother nature. It is the pinnacle of their magic, capable of producing an infinite amount of mana.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Upon attacking an enemy, there is a 10% chance to recover 1 MP.",
+        "1": "Upon attacking an enemy, there is a 12% chance to recover 1 MP.",
+        "2": "Upon attacking an enemy, there is a 14% chance to recover 1 MP.",
+        "3": "Upon attacking an enemy, there is a 17% chance to recover 1 MP.",
+        "4": "Upon attacking an enemy, there is a 20% chance to recover 1 MP.",
+        "5": "Upon attacking an enemy, there is a 25% chance to recover 1 MP."
+      }
+    },
+    {
+      "id": "Drinking Horn of Ancient Cow",
+      "name": "Drinking Horn of Ancient Cow",
+      "description": "Normal attacks have a 10% chance to increase ATK by {0}% and ATK Spd by {1} for 10 sec.",
+      "value": {
+        "0": "10, 12, 14, 17, 20, 25",
+        "1": "100, 120, 140, 170, 200, 250"
+      },
+      "thumbnail": "artifacts/Drinking Horn of Ancient Cow.png",
+      "story": "A glass made from the horn of a sacred bull that roams the sky. It is a magical drinking horn that embodies the essence of abundance.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Normal attacks have a 10% chance to increase ATK by 10% and ATK Spd by 100 for 10 sec.",
+        "1": "Normal attacks have a 10% chance to increase ATK by 12% and ATK Spd by 120 for 10 sec.",
+        "2": "Normal attacks have a 10% chance to increase ATK by 14% and ATK Spd by 140 for 10 sec.",
+        "3": "Normal attacks have a 10% chance to increase ATK by 17% and ATK Spd by 170 for 10 sec.",
+        "4": "Normal attacks have a 10% chance to increase ATK by 20% and ATK Spd by 200 for 10 sec.",
+        "5": "Normal attacks have a 10% chance to increase ATK by 25% and ATK Spd by 250 for 10 sec."
+      }
+    },
+    {
+      "id": "Dice of Magical Letters",
+      "name": "Dice of Magical Letters",
+      "description": "Normal attacks have a 3% chance to deal {0}% M.DMG.",
+      "value": {
+        "0": "400, 480, 575, 690, 830, 1000"
+      },
+      "thumbnail": "artifacts/Dice of Magical Letters.png",
+      "story": "A die used in an ancient civilization for divination. Each face is engraved with mysterious illegible letters.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Normal attacks have a 3% chance to deal 400% M.DMG.",
+        "1": "Normal attacks have a 3% chance to deal 480% M.DMG.",
+        "2": "Normal attacks have a 3% chance to deal 575% M.DMG.",
+        "3": "Normal attacks have a 3% chance to deal 690% M.DMG.",
+        "4": "Normal attacks have a 3% chance to deal 830% M.DMG.",
+        "5": "Normal attacks have a 3% chance to deal 1000% M.DMG."
+      }
+    },
+    {
+      "id": "Golden Cat Statue",
+      "name": "Golden Cat Statue",
+      "description": "At the beginning of each battle, increases ATK Spd by {0} for 15 sec.",
+      "value": {
+        "0": "400, 480, 570, 690, 830, 1000"
+      },
+      "thumbnail": "artifacts/Golden Cat Statue.png",
+      "story": "A curious golden statue in the shape of a golden cat, the symbol of good fortune. Sometimes it seems as if the cat is waving its paw.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "At the beginning of each battle, increases ATK Spd by 400 for 15 sec.",
+        "1": "At the beginning of each battle, increases ATK Spd by 480 for 15 sec.",
+        "2": "At the beginning of each battle, increases ATK Spd by 570 for 15 sec.",
+        "3": "At the beginning of each battle, increases ATK Spd by 690 for 15 sec.",
+        "4": "At the beginning of each battle, increases ATK Spd by 830 for 15 sec.",
+        "5": "At the beginning of each battle, increases ATK Spd by 1000 for 15 sec."
+      }
+    },
+    {
+      "id": "Pocket Watch of Ancient Civilization",
+      "name": "Pocket Watch of Ancient Civilization",
+      "description": "Reduces Cooldown of self's all Skills by {0} sec every 10 sec and increases ATK Spd by {1} for 5 sec.",
+      "value": {
+        "0": "1, 1.2, 1.4, 1.7, 2, 2.5",
+        "1": "80, 96, 115, 138, 165, 200"
+      },
+      "thumbnail": "artifacts/Pocket Watch of Ancient Civilization.png",
+      "story": "A pocket watch that can fast-forward time slightly to provide a quick glimpse of one's destiny. Excessive use may prove to be quite dangerous.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Reduces Cooldown of self's all Skills by 1 sec every 10 sec and increases ATK Spd by 80 for 5 sec.",
+        "1": "Reduces Cooldown of self's all Skills by 1.2 sec every 10 sec and increases ATK Spd by 96 for 5 sec.",
+        "2": "Reduces Cooldown of self's all Skills by 1.4 sec every 10 sec and increases ATK Spd by 115 for 5 sec.",
+        "3": "Reduces Cooldown of self's all Skills by 1.7 sec every 10 sec and increases ATK Spd by 138 for 5 sec.",
+        "4": "Reduces Cooldown of self's all Skills by 2 sec every 10 sec and increases ATK Spd by 165 for 5 sec.",
+        "5": "Reduces Cooldown of self's all Skills by 2.5 sec every 10 sec and increases ATK Spd by 200 for 5 sec."
+      }
+    },
+    {
+      "id": "Primer for the Heroes",
+      "name": "Primer for the Heroes",
+      "description": "When HP is 20% or below, increases ATK by {0}%, and increases ATK Spd and All DMG Reduction by {1}.",
+      "value": {
+        "0": "30, 36, 43, 51, 62, 75",
+        "1": "300, 360, 430, 510, 620, 750"
+      },
+      "thumbnail": "artifacts/Primer for the Heroes.png",
+      "story": "This primer, which chronicles the stories of past heroes, is considered a bible for any new hero. It's written in ancient letters.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "When HP is 20% or below, increases ATK by 30%, and increases ATK Spd and All DMG Reduction by 300.",
+        "1": "When HP is 20% or below, increases ATK by 36%, and increases ATK Spd and All DMG Reduction by 360.",
+        "2": "When HP is 20% or below, increases ATK by 43%, and increases ATK Spd and All DMG Reduction by 430.",
+        "3": "When HP is 20% or below, increases ATK by 51%, and increases ATK Spd and All DMG Reduction by 510.",
+        "4": "When HP is 20% or below, increases ATK by 62%, and increases ATK Spd and All DMG Reduction by 620.",
+        "5": "When HP is 20% or below, increases ATK by 75%, and increases ATK Spd and All DMG Reduction by 750."
+      }
+    },
+    {
+      "id": "The Ancient Scope",
+      "name": "The Ancient Scope",
+      "description": "When MP is at 100%, Crit Chance and ACC rise by {0} for 10 sec. Has a cooldown of 20 sec.",
+      "value": {
+        "0": "400, 480, 570, 690, 830, 1000"
+      },
+      "thumbnail": "artifacts/The Ancient Scope.png",
+      "story": "A scope created by an ancient technomagi. A useful tool that can zoom into a faraway object to a good level of detail.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "When MP is at 100%, Crit Chance and ACC rise by 400 for 10 sec. Has a cooldown of 20 sec.",
+        "1": "When MP is at 100%, Crit Chance and ACC rise by 480 for 10 sec. Has a cooldown of 20 sec.",
+        "2": "When MP is at 100%, Crit Chance and ACC rise by 570 for 10 sec. Has a cooldown of 20 sec.",
+        "3": "When MP is at 100%, Crit Chance and ACC rise by 690 for 10 sec. Has a cooldown of 20 sec.",
+        "4": "When MP is at 100%, Crit Chance and ACC rise by 830 for 10 sec. Has a cooldown of 20 sec.",
+        "5": "When MP is at 100%, Crit Chance and ACC rise by 1000 for 10 sec. Has a cooldown of 20 sec."
+      }
+    },
+    {
+      "id": "Roaring Tiger Statue",
+      "name": "Roaring Tiger Statue",
+      "description": "When your HP falls to 35% or lower, deals Physical Damage equal to 100% of Attack to nearby enemies and knocks them down. Enemies hit have their Attack reduced by {0}% and Attack Speed reduced by {1} for 10 seconds. This effect has a 30-second cooldown.",
+      "value": {
+        "0": "14, 16, 20, 24, 29, 35",
+        "1": "140, 160, 200, 240, 290, 350"
+      },
+      "thumbnail": "artifacts/Roaring Tiger Statue.png",
+      "story": "An eerie gold statue designed after a roaring tiger. Under the right conditions, the tiger wakes up and makes everything around it tremble in fear.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "When your HP falls to 35% or lower, deals Physical Damage equal to 100% of Attack to nearby enemies and knocks them down. Enemies hit have their Attack reduced by 14% and Attack Speed reduced by 140 for 10 seconds. This effect has a 30-second cooldown.",
+        "1": "When your HP falls to 35% or lower, deals Physical Damage equal to 100% of Attack to nearby enemies and knocks them down. Enemies hit have their Attack reduced by 16% and Attack Speed reduced by 160 for 10 seconds. This effect has a 30-second cooldown.",
+        "2": "When your HP falls to 35% or lower, deals Physical Damage equal to 100% of Attack to nearby enemies and knocks them down. Enemies hit have their Attack reduced by 20% and Attack Speed reduced by 200 for 10 seconds. This effect has a 30-second cooldown.",
+        "3": "When your HP falls to 35% or lower, deals Physical Damage equal to 100% of Attack to nearby enemies and knocks them down. Enemies hit have their Attack reduced by 24% and Attack Speed reduced by 240 for 10 seconds. This effect has a 30-second cooldown.",
+        "4": "When your HP falls to 35% or lower, deals Physical Damage equal to 100% of Attack to nearby enemies and knocks them down. Enemies hit have their Attack reduced by 29% and Attack Speed reduced by 290 for 10 seconds. This effect has a 30-second cooldown.",
+        "5": "When your HP falls to 35% or lower, deals Physical Damage equal to 100% of Attack to nearby enemies and knocks them down. Enemies hit have their Attack reduced by 35% and Attack Speed reduced by 350 for 10 seconds. This effect has a 30-second cooldown."
+      }
+    },
+    {
+      "id": "Golden Apple of a Goddess",
+      "name": "Golden Apple of a Goddess",
+      "description": "When the hero's HP falls below 25%, recover {0}% of max HP and dispel all negative effects. Activates 1 time only.",
+      "value": {
+        "0": "30, 36, 43, 51, 62, 75"
+      },
+      "thumbnail": "artifacts/Golden Apple of a Goddess.png",
+      "story": "It's said to be one of the sacred artifacts bestowed by the goddess. A miraculous remedy said to heal any injury.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "When the hero's HP falls below 25%, recover 30% of max HP and dispel all negative effects. Activates 1 time only.",
+        "1": "When the hero's HP falls below 25%, recover 36% of max HP and dispel all negative effects. Activates 1 time only.",
+        "2": "When the hero's HP falls below 25%, recover 43% of max HP and dispel all negative effects. Activates 1 time only.",
+        "3": "When the hero's HP falls below 25%, recover 51% of max HP and dispel all negative effects. Activates 1 time only.",
+        "4": "When the hero's HP falls below 25%, recover 62% of max HP and dispel all negative effects. Activates 1 time only.",
+        "5": "When the hero's HP falls below 25%, recover 75% of max HP and dispel all negative effects. Activates 1 time only."
+      }
+    },
+    {
+      "id": "Golden Mask of Ancient King",
+      "name": "Golden Mask of Ancient King",
+      "description": "Upon taking a hit, there is a 5% chance to gain invulnerability to all DMG for {0} sec. Has a cooldown of 5 sec.",
+      "value": {
+        "0": "3, 3.5, 4, 5, 6, 7.5"
+      },
+      "thumbnail": "artifacts/Golden Mask of Ancient King.png",
+      "story": "A golden mask once worn by God King of the desert. It is enchanted with the spell of absolute authority to protect its owner.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Upon taking a hit, there is a 5% chance to gain invulnerability to all DMG for 3 sec. Has a cooldown of 5 sec.",
+        "1": "Upon taking a hit, there is a 5% chance to gain invulnerability to all DMG for 3.5 sec. Has a cooldown of 5 sec.",
+        "2": "Upon taking a hit, there is a 5% chance to gain invulnerability to all DMG for 4 sec. Has a cooldown of 5 sec.",
+        "3": "Upon taking a hit, there is a 5% chance to gain invulnerability to all DMG for 5 sec. Has a cooldown of 5 sec.",
+        "4": "Upon taking a hit, there is a 5% chance to gain invulnerability to all DMG for 6 sec. Has a cooldown of 5 sec.",
+        "5": "Upon taking a hit, there is a 5% chance to gain invulnerability to all DMG for 7.5 sec. Has a cooldown of 5 sec."
+      }
+    },
+    {
+      "id": "Madame's Bronze Mirrors",
+      "name": "Madame's Bronze Mirrors",
+      "description": "Increases own M.Block Chance by {0} and M.DMG Reduction by {1}.",
+      "value": {
+        "0": "300, 330, 360, 400, 440, 500",
+        "1": "100, 110, 120, 140, 160, 200"
+      },
+      "thumbnail": "artifacts/Madame's Bronze Mirrors.png",
+      "story": "A bronze mirror of an Ancient Technomagic Kingdom that a genius wizard gifted to his wife. It is inscribed with a rune for protecting a loved one.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Increases own M.Block Chance by 300 and M.DMG Reduction by 100.",
+        "1": "Increases own M.Block Chance by 330 and M.DMG Reduction by 110.",
+        "2": "Increases own M.Block Chance by 360 and M.DMG Reduction by 120.",
+        "3": "Increases own M.Block Chance by 400 and M.DMG Reduction by 140.",
+        "4": "Increases own M.Block Chance by 440 and M.DMG Reduction by 160.",
+        "5": "Increases own M.Block Chance by 500 and M.DMG Reduction by 200."
+      }
+    },
+    {
+      "id": "Sealed Chain of Ancient God",
+      "name": "Sealed Chain of Ancient God",
+      "description": "Every {0} sec, cast Silence to a random enemy for {1} sec and remove positive effects.",
+      "value": {
+        "0": "20, 19, 18, 17, 16, 15",
+        "1": "3, 3.5, 4, 4.5, 5, 6"
+      },
+      "thumbnail": "artifacts/Sealed Chain of Ancient God.png",
+      "story": "A chain said to be once used by the God King of the desert to fetter his slaves. Those who are restrained by this chain cannot resist at all.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Every 20 sec, cast Silence to a random enemy for 3 sec and remove positive effects.",
+        "1": "Every 19 sec, cast Silence to a random enemy for 3.5 sec and remove positive effects.",
+        "2": "Every 18 sec, cast Silence to a random enemy for 4 sec and remove positive effects.",
+        "3": "Every 17 sec, cast Silence to a random enemy for 4.5 sec and remove positive effects.",
+        "4": "Every 16 sec, cast Silence to a random enemy for 5 sec and remove positive effects.",
+        "5": "Every 15 sec, cast Silence to a random enemy for 6 sec and remove positive effects."
+      }
+    },
+    {
+      "id": "Mask of Goblin",
+      "name": "Mask of Goblin",
+      "description": "ATK upon Goblins increase by {0} %, and DMG resistance against Goblins increases by {1} %",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
+      "thumbnail": "artifacts/Mask of Goblin.png",
+      "story": "A mask modeled after the face of a Goblin. It's actually kind of cute.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "ATK upon Goblins increase by 40 %, and DMG resistance against Goblins increases by 20 %",
+        "1": "ATK upon Goblins increase by 48 %, and DMG resistance against Goblins increases by 24 %",
+        "2": "ATK upon Goblins increase by 57 %, and DMG resistance against Goblins increases by 28 %",
+        "3": "ATK upon Goblins increase by 69 %, and DMG resistance against Goblins increases by 34 %",
+        "4": "ATK upon Goblins increase by 83 %, and DMG resistance against Goblins increases by 41 %",
+        "5": "ATK upon Goblins increase by 100 %, and DMG resistance against Goblins increases by 50 %"
+      }
+    },
+    {
+      "id": "Mask of Harpy",
+      "name": "Mask of Harpy",
+      "description": "ATK upon Harpies increase by {0} %, and DMG resistance against Harpies increases by {1} %",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
+      "thumbnail": "artifacts/Mask of Harpy.png",
+      "story": "A mask modeled after the face of a Harpy. The sound of a brisk wind can be heard.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "ATK upon Harpies increase by 40 %, and DMG resistance against Harpies increases by 20 %",
+        "1": "ATK upon Harpies increase by 48 %, and DMG resistance against Harpies increases by 24 %",
+        "2": "ATK upon Harpies increase by 57 %, and DMG resistance against Harpies increases by 28 %",
+        "3": "ATK upon Harpies increase by 69 %, and DMG resistance against Harpies increases by 34 %",
+        "4": "ATK upon Harpies increase by 83 %, and DMG resistance against Harpies increases by 41 %",
+        "5": "ATK upon Harpies increase by 100 %, and DMG resistance against Harpies increases by 50 %"
+      }
+    },
+    {
+      "id": "Mask of Orc",
+      "name": "Mask of Orc",
+      "description": "ATK upon Orcs increase by {0} %, and DMG resistance against Orcs increases by {1} %",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
+      "thumbnail": "artifacts/Mask of Orc.png",
+      "story": "A mask modeled after the face of an Orc. It inspires a brutish desire for combat.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "ATK upon Orcs increase by 40 %, and DMG resistance against Orcs increases by 20 %",
+        "1": "ATK upon Orcs increase by 48 %, and DMG resistance against Orcs increases by 24 %",
+        "2": "ATK upon Orcs increase by 57 %, and DMG resistance against Orcs increases by 28 %",
+        "3": "ATK upon Orcs increase by 69 %, and DMG resistance against Orcs increases by 34 %",
+        "4": "ATK upon Orcs increase by 83 %, and DMG resistance against Orcs increases by 41 %",
+        "5": "ATK upon Orcs increase by 100 %, and DMG resistance against Orcs increases by 50 %"
+      }
+    },
+    {
+      "id": "Undead Mask",
+      "name": "Undead Mask",
+      "description": "Increases DMG to Undead by {0} % and Resistance against Undead by {1}%.",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
+      "thumbnail": "artifacts/Undead Mask.png",
+      "story": "A mask modeled after the face of a Skeleton. It smells like death.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Increases DMG to Undead by 40 % and Resistance against Undead by 20%.",
+        "1": "Increases DMG to Undead by 48 % and Resistance against Undead by 24%.",
+        "2": "Increases DMG to Undead by 57 % and Resistance against Undead by 28%.",
+        "3": "Increases DMG to Undead by 69 % and Resistance against Undead by 34%.",
+        "4": "Increases DMG to Undead by 83 % and Resistance against Undead by 41%.",
+        "5": "Increases DMG to Undead by 100 % and Resistance against Undead by 50%."
+      }
+    },
+    {
+      "id": "Soul Spring Water",
+      "name": "Soul Spring Water",
+      "description": "At the beginning of each battle, heals {0}% HP and recovers {1}% Mana.",
+      "value": {
+        "0": "24, 28, 34, 42, 50, 60",
+        "1": "12, 14, 17, 21, 25, 30"
+      },
+      "thumbnail": "artifacts/Soul Spring Water.png",
+      "story": "One drop of it is said to become available every hundred years at the Soul Spring. A very rare and effective panacea.",
+      "aliases": [
+        "ssw"
+      ],
+      "descriptionByStar": {
+        "0": "At the beginning of each battle, heals 24% HP and recovers 12% Mana.",
+        "1": "At the beginning of each battle, heals 28% HP and recovers 14% Mana.",
+        "2": "At the beginning of each battle, heals 34% HP and recovers 17% Mana.",
+        "3": "At the beginning of each battle, heals 42% HP and recovers 21% Mana.",
+        "4": "At the beginning of each battle, heals 50% HP and recovers 25% Mana.",
+        "5": "At the beginning of each battle, heals 60% HP and recovers 30% Mana."
+      }
+    },
+    {
+      "id": "Talismans of Resistance",
+      "name": "Talismans of Resistance",
+      "description": "Upon receiving a negative effect, removes all negative effects. Afterward, gains immunity to CC for {0} sec. Has a Cooldown of {1} sec.",
+      "value": {
+        "0": "1, 1.5, 2, 2.5, 3, 3.5",
+        "1": "20, 19, 18, 17, 16, 15"
+      },
+      "thumbnail": "artifacts/Talismans of Resistance.png",
+      "story": "A pile of old exotic talismans that drives away harmful spirits. They are rendered useless for a while once used.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Upon receiving a negative effect, removes all negative effects. Afterward, gains immunity to CC for 1 sec. Has a Cooldown of 20 sec.",
+        "1": "Upon receiving a negative effect, removes all negative effects. Afterward, gains immunity to CC for 1.5 sec. Has a Cooldown of 19 sec.",
+        "2": "Upon receiving a negative effect, removes all negative effects. Afterward, gains immunity to CC for 2 sec. Has a Cooldown of 18 sec.",
+        "3": "Upon receiving a negative effect, removes all negative effects. Afterward, gains immunity to CC for 2.5 sec. Has a Cooldown of 17 sec.",
+        "4": "Upon receiving a negative effect, removes all negative effects. Afterward, gains immunity to CC for 3 sec. Has a Cooldown of 16 sec.",
+        "5": "Upon receiving a negative effect, removes all negative effects. Afterward, gains immunity to CC for 3.5 sec. Has a Cooldown of 15 sec."
+      }
+    },
+    {
+      "id": "Judgment of Light Bracelet",
+      "name": "Judgment of Light Bracelet",
+      "description": "ACC and CC ACC rise by {0}.",
+      "value": {
+        "0": "300, 360, 430, 520, 630, 750"
+      },
+      "thumbnail": "artifacts/Judgment of Light Bracelet.png",
+      "story": "A blessed bracelet once created by the Holy Knights of the Church of Lua. It's an antique magic tool, and only a few like this remain today.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "ACC and CC ACC rise by 300.",
+        "1": "ACC and CC ACC rise by 360.",
+        "2": "ACC and CC ACC rise by 430.",
+        "3": "ACC and CC ACC rise by 520.",
+        "4": "ACC and CC ACC rise by 630.",
+        "5": "ACC and CC ACC rise by 750."
+      }
+    }
+  ],
+  "runes": [
+    {
+      "id": "Rune of Agility: Ancient",
+      "name": "Rune of Agility: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalDodgeChance": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Agitation: Ancient",
+      "name": "Rune of Agitation: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "AddMpOnAttackR": "9.4%"
+      }
+    },
+    {
+      "id": "Rune of Denial: Ancient",
+      "name": "Rune of Denial: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "MagicalBlockPower": "12.8%"
+      }
+    },
+    {
+      "id": "Rune of Exclusion: Ancient",
+      "name": "Rune of Exclusion: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "MagicalBlockChance": "21.3%"
+      }
+    },
+    {
+      "id": "Rune of Fierce Attack: Ancient",
+      "name": "Rune of Fierce Attack: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "AddPhysicalAttackR": "12.8%",
+        "AddMagicalAttackR": "12.8%"
+      }
+    },
+    {
+      "id": "Rune of Flexibility: Ancient",
+      "name": "Rune of Flexibility: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "MagicalDodgeChance": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Frenzy: Ancient",
+      "name": "Rune of Frenzy: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalCriticalPower": "21.3%",
+        "MagicalCriticalPower": "21.3%"
+      }
+    },
+    {
+      "id": "Rune of Iron Wall: Ancient",
+      "name": "Rune of Iron Wall: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalBlockPower": "12.8%"
+      }
+    },
+    {
+      "id": "Rune of Patience: Ancient",
+      "name": "Rune of Patience: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "AddPhysicalDefenseR": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Potential: Ancient",
+      "name": "Rune of Potential: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "AddMpOnDamageR": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Precision: Ancient",
+      "name": "Rune of Precision: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalHitChance": "11.1%",
+        "MagicalHitChance": "11.1%"
+      }
+    },
+    {
+      "id": "Rune of Protection: Ancient",
+      "name": "Rune of Protection: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "AddMagicalDefenseR": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Resistance: Ancient",
+      "name": "Rune of Resistance: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "AntiCcChance": "11.1%"
+      }
+    },
+    {
+      "id": "Rune of Sharpness: Ancient",
+      "name": "Rune of Sharpness: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalPiercePower": "11.1%",
+        "MagicalPiercePower": "11.1%"
+      }
+    },
+    {
+      "id": "Rune of Stamina: Ancient",
+      "name": "Rune of Stamina: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "AddMaxHpR": "12.8%"
+      }
+    },
+    {
+      "id": "Rune of Steel: Ancient",
+      "name": "Rune of Steel: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalBlockChance": "21.3%"
+      }
+    },
+    {
+      "id": "Rune of Thirst: Ancient",
+      "name": "Rune of Thirst: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "HpStealPower": "5.1%"
+      }
+    },
+    {
+      "id": "Rune of Toughness: Ancient",
+      "name": "Rune of Toughness: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalToughness": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Willpower: Ancient",
+      "name": "Rune of Willpower: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "MagicalToughness": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of the Heartless: Ancient",
+      "name": "Rune of the Heartless: Ancient",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalCriticalChance": "16.2%",
+        "MagicalCriticalChance": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Agility: Heroic",
+      "name": "Rune of Agility: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalDodgeChance": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Agitation: Heroic",
+      "name": "Rune of Agitation: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "AddMpOnAttackR": "7.7%"
+      }
+    },
+    {
+      "id": "Rune of Denial: Heroic",
+      "name": "Rune of Denial: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "MagicalBlockPower": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Exclusion: Heroic",
+      "name": "Rune of Exclusion: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "MagicalBlockChance": "17.5%"
+      }
+    },
+    {
+      "id": "Rune of Fierce Attack: Heroic",
+      "name": "Rune of Fierce Attack: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "AddPhysicalAttackR": "10.5%",
+        "AddMagicalAttackR": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Flexibility: Heroic",
+      "name": "Rune of Flexibility: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "MagicalDodgeChance": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Frenzy: Heroic",
+      "name": "Rune of Frenzy: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalCriticalPower": "17.5%",
+        "MagicalCriticalPower": "17.5%"
+      }
+    },
+    {
+      "id": "Rune of Iron Wall: Heroic",
+      "name": "Rune of Iron Wall: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalBlockPower": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Patience: Heroic",
+      "name": "Rune of Patience: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "AddPhysicalDefenseR": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Potential: Heroic",
+      "name": "Rune of Potential: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "AddMpOnDamageR": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Precision: Heroic",
+      "name": "Rune of Precision: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalHitChance": "9.1%",
+        "MagicalHitChance": "9.1%"
+      }
+    },
+    {
+      "id": "Rune of Protection: Heroic",
+      "name": "Rune of Protection: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "AddMagicalDefenseR": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Resistance: Heroic",
+      "name": "Rune of Resistance: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "AntiCcChance": "9.1%"
+      }
+    },
+    {
+      "id": "Rune of Sharpness: Heroic",
+      "name": "Rune of Sharpness: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalPiercePower": "9.1%",
+        "MagicalPiercePower": "9.1%"
+      }
+    },
+    {
+      "id": "Rune of Stamina: Heroic",
+      "name": "Rune of Stamina: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "AddMaxHpR": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Steel: Heroic",
+      "name": "Rune of Steel: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalBlockChance": "17.5%"
+      }
+    },
+    {
+      "id": "Rune of Swiftness: Heroic",
+      "name": "Rune of Swiftness: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "AttackSpeed": "9.1%"
+      }
+    },
+    {
+      "id": "Rune of Thirst: Heroic",
+      "name": "Rune of Thirst: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "HpStealPower": "4.2%"
+      }
+    },
+    {
+      "id": "Rune of Toughness: Heroic",
+      "name": "Rune of Toughness: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalToughness": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Willpower: Heroic",
+      "name": "Rune of Willpower: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "MagicalToughness": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of the Heartless: Heroic",
+      "name": "Rune of the Heartless: Heroic",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalCriticalChance": "13.3%",
+        "MagicalCriticalChance": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Agility: Rare",
+      "name": "Rune of Agility: Rare",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalDodgeChance": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Denial: Rare",
+      "name": "Rune of Denial: Rare",
+      "grade": "Rare",
+      "stats": {
+        "MagicalBlockPower": "8.3%"
+      }
+    },
+    {
+      "id": "Rune of Exclusion: Rare",
+      "name": "Rune of Exclusion: Rare",
+      "grade": "Rare",
+      "stats": {
+        "MagicalBlockChance": "13.8%"
+      }
+    },
+    {
+      "id": "Rune of Fierce Attack: Rare",
+      "name": "Rune of Fierce Attack: Rare",
+      "grade": "Rare",
+      "stats": {
+        "AddPhysicalAttackR": "8.3%",
+        "AddMagicalAttackR": "8.3%"
+      }
+    },
+    {
+      "id": "Rune of Flexibility: Rare",
+      "name": "Rune of Flexibility: Rare",
+      "grade": "Rare",
+      "stats": {
+        "MagicalDodgeChance": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Frenzy: Rare",
+      "name": "Rune of Frenzy: Rare",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalCriticalPower": "13.8%",
+        "MagicalCriticalPower": "13.8%"
+      }
+    },
+    {
+      "id": "Rune of Iron Wall: Rare",
+      "name": "Rune of Iron Wall: Rare",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalBlockPower": "8.3%"
+      }
+    },
+    {
+      "id": "Rune of Patience: Rare",
+      "name": "Rune of Patience: Rare",
+      "grade": "Rare",
+      "stats": {
+        "AddPhysicalDefenseR": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Potential: Rare",
+      "name": "Rune of Potential: Rare",
+      "grade": "Rare",
+      "stats": {
+        "AddMpOnDamageR": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Precision: Rare",
+      "name": "Rune of Precision: Rare",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalHitChance": "7.2%",
+        "MagicalHitChance": "7.2%"
+      }
+    },
+    {
+      "id": "Rune of Protection: Rare",
+      "name": "Rune of Protection: Rare",
+      "grade": "Rare",
+      "stats": {
+        "AddMagicalDefenseR": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Resistance: Rare",
+      "name": "Rune of Resistance: Rare",
+      "grade": "Rare",
+      "stats": {
+        "AntiCcChance": "7.2%"
+      }
+    },
+    {
+      "id": "Rune of Sharpness: Rare",
+      "name": "Rune of Sharpness: Rare",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalPiercePower": "7.2%",
+        "MagicalPiercePower": "7.2%"
+      }
+    },
+    {
+      "id": "Rune of Stamina: Rare",
+      "name": "Rune of Stamina: Rare",
+      "grade": "Rare",
+      "stats": {
+        "AddMaxHpR": "8.3%"
+      }
+    },
+    {
+      "id": "Rune of Steel: Rare",
+      "name": "Rune of Steel: Rare",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalBlockChance": "13.8%"
+      }
+    },
+    {
+      "id": "Rune of Swiftness: Rare",
+      "name": "Rune of Swiftness: Rare",
+      "grade": "Rare",
+      "stats": {
+        "AttackSpeed": "7.2%"
+      }
+    },
+    {
+      "id": "Rune of Thirst: Rare",
+      "name": "Rune of Thirst: Rare",
+      "grade": "Rare",
+      "stats": {
+        "HpStealPower": "3.3%"
+      }
+    },
+    {
+      "id": "Rune of Toughness: Rare",
+      "name": "Rune of Toughness: Rare",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalToughness": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Willpower: Rare",
+      "name": "Rune of Willpower: Rare",
+      "grade": "Rare",
+      "stats": {
+        "MagicalToughness": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of the Agitation: Rare",
+      "name": "Rune of the Agitation: Rare",
+      "grade": "Rare",
+      "stats": {
+        "AddMpOnAttackR": "6.1%"
+      }
+    },
+    {
+      "id": "Rune of the Heartless: Rare",
+      "name": "Rune of the Heartless: Rare",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalCriticalChance": "10.5%",
+        "MagicalCriticalChance": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Agility: Uncommon",
+      "name": "Rune of Agility: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalDodgeChance": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Agitation: Uncommon",
+      "name": "Rune of Agitation: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "AddMpOnAttackR": "4.4%"
+      }
+    },
+    {
+      "id": "Rune of Denial: Uncommon",
+      "name": "Rune of Denial: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "MagicalBlockPower": "6.0%"
+      }
+    },
+    {
+      "id": "Rune of Exclusion: Uncommon",
+      "name": "Rune of Exclusion: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "MagicalBlockChance": "10.0%"
+      }
+    },
+    {
+      "id": "Rune of Fierce Attack: Uncommon",
+      "name": "Rune of Fierce Attack: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "AddPhysicalAttackR": "6.0%",
+        "AddMagicalAttackR": "6.0%"
+      }
+    },
+    {
+      "id": "Rune of Flexibility: Uncommon",
+      "name": "Rune of Flexibility: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "MagicalDodgeChance": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Frenzy: Uncommon",
+      "name": "Rune of Frenzy: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalCriticalPower": "10.0%",
+        "MagicalCriticalPower": "10.0%"
+      }
+    },
+    {
+      "id": "Rune of Iron Wall: Uncommon",
+      "name": "Rune of Iron Wall: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalBlockPower": "6.0%"
+      }
+    },
+    {
+      "id": "Rune of Patience: Uncommon",
+      "name": "Rune of Patience: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "AddPhysicalDefenseR": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Potential: Uncommon",
+      "name": "Rune of Potential: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "AddMpOnDamageR": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Precision: Uncommon",
+      "name": "Rune of Precision: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalHitChance": "5.2%",
+        "MagicalHitChance": "5.2%"
+      }
+    },
+    {
+      "id": "Rune of Protection: Uncommon",
+      "name": "Rune of Protection: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "AddMagicalDefenseR": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Resistance: Uncommon",
+      "name": "Rune of Resistance: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "AntiCcChance": "5.2%"
+      }
+    },
+    {
+      "id": "Rune of Sharpness: Uncommon",
+      "name": "Rune of Sharpness: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalPiercePower": "5.2%",
+        "MagicalPiercePower": "5.2%"
+      }
+    },
+    {
+      "id": "Rune of Stamina: Uncommon",
+      "name": "Rune of Stamina: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "AddMaxHpR": "6.0%"
+      }
+    },
+    {
+      "id": "Rune of Steel: Uncommon",
+      "name": "Rune of Steel: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalBlockChance": "10.0%"
+      }
+    },
+    {
+      "id": "Rune of Swiftness: Uncommon",
+      "name": "Rune of Swiftness: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "AttackSpeed": "5.2%"
+      }
+    },
+    {
+      "id": "Rune of Thirst: Uncommon",
+      "name": "Rune of Thirst: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "HpStealPower": "2.4%"
+      }
+    },
+    {
+      "id": "Rune of Toughness: Uncommon",
+      "name": "Rune of Toughness: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalToughness": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Willpower: Uncommon",
+      "name": "Rune of Willpower: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "MagicalToughness": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of the Heartless: Uncommon",
+      "name": "Rune of the Heartless: Uncommon",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalCriticalChance": "7.6%",
+        "MagicalCriticalChance": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Agility: Common",
+      "name": "Rune of Agility: Common",
+      "grade": "Common",
+      "stats": {
+        "PhysicalDodgeChance": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of Agitation: Common",
+      "name": "Rune of Agitation: Common",
+      "grade": "Common",
+      "stats": {
+        "AddMpOnAttackR": "2.8%"
+      }
+    },
+    {
+      "id": "Rune of Denial: Common",
+      "name": "Rune of Denial: Common",
+      "grade": "Common",
+      "stats": {
+        "MagicalBlockPower": "3.8%"
+      }
+    },
+    {
+      "id": "Rune of Exclusion: Common",
+      "name": "Rune of Exclusion: Common",
+      "grade": "Common",
+      "stats": {
+        "MagicalBlockChance": "6.3%"
+      }
+    },
+    {
+      "id": "Rune of Fierce Attack: Common",
+      "name": "Rune of Fierce Attack: Common",
+      "grade": "Common",
+      "stats": {
+        "AddPhysicalAttackR": "3.8%",
+        "AddMagicalAttackR": "3.8%"
+      }
+    },
+    {
+      "id": "Rune of Flexibility: Common",
+      "name": "Rune of Flexibility: Common",
+      "grade": "Common",
+      "stats": {
+        "MagicalDodgeChance": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of Frenzy: Common",
+      "name": "Rune of Frenzy: Common",
+      "grade": "Common",
+      "stats": {
+        "PhysicalCriticalPower": "6.3%",
+        "MagicalCriticalPower": "6.3%"
+      }
+    },
+    {
+      "id": "Rune of Iron Wall: Common",
+      "name": "Rune of Iron Wall: Common",
+      "grade": "Common",
+      "stats": {
+        "PhysicalBlockPower": "3.8%"
+      }
+    },
+    {
+      "id": "Rune of Patience: Common",
+      "name": "Rune of Patience: Common",
+      "grade": "Common",
+      "stats": {
+        "AddPhysicalDefenseR": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of Potential: Common",
+      "name": "Rune of Potential: Common",
+      "grade": "Common",
+      "stats": {
+        "AddMpOnDamageR": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of Precision: Common",
+      "name": "Rune of Precision: Common",
+      "grade": "Common",
+      "stats": {
+        "PhysicalHitChance": "3.3%",
+        "MagicalHitChance": "3.3%"
+      }
+    },
+    {
+      "id": "Rune of Protection: Common",
+      "name": "Rune of Protection: Common",
+      "grade": "Common",
+      "stats": {
+        "AddMagicalDefenseR": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of Resistance: Common",
+      "name": "Rune of Resistance: Common",
+      "grade": "Common",
+      "stats": {
+        "AntiCcChance": "3.3%"
+      }
+    },
+    {
+      "id": "Rune of Sharpness: Common",
+      "name": "Rune of Sharpness: Common",
+      "grade": "Common",
+      "stats": {
+        "PhysicalPiercePower": "3.3%",
+        "MagicalPiercePower": "3.3%"
+      }
+    },
+    {
+      "id": "Rune of Stamina: Common",
+      "name": "Rune of Stamina: Common",
+      "grade": "Common",
+      "stats": {
+        "AddMaxHpR": "3.8%"
+      }
+    },
+    {
+      "id": "Rune of Steel: Common",
+      "name": "Rune of Steel: Common",
+      "grade": "Common",
+      "stats": {
+        "PhysicalBlockChance": "6.3%"
+      }
+    },
+    {
+      "id": "Rune of Swiftness: Common",
+      "name": "Rune of Swiftness: Common",
+      "grade": "Common",
+      "stats": {
+        "AttackSpeed": "3.3%"
+      }
+    },
+    {
+      "id": "Rune of Thirst: Common",
+      "name": "Rune of Thirst: Common",
+      "grade": "Common",
+      "stats": {
+        "HpStealPower": "1.5%"
+      }
+    },
+    {
+      "id": "Rune of Toughness: Common",
+      "name": "Rune of Toughness: Common",
+      "grade": "Common",
+      "stats": {
+        "PhysicalToughness": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of Willpower: Common",
+      "name": "Rune of Willpower: Common",
+      "grade": "Common",
+      "stats": {
+        "MagicalToughness": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of the Heartless: Common",
+      "name": "Rune of the Heartless: Common",
+      "grade": "Common",
+      "stats": {
+        "PhysicalCriticalChance": "4.8%",
+        "MagicalCriticalChance": "4.8%"
+      }
+    }
+  ],
+  "bosses": {}
+}

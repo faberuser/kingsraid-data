@@ -1,0 +1,228 @@
+{
+  "id": "Shea",
+  "profile": {
+    "name": "Shea",
+    "title": "Aria of Fantasy Shea",
+    "class": "Priest",
+    "position": "Back-100",
+    "attack_range": "6600",
+    "damage_type": "Magical",
+    "gender": "Female",
+    "age": "16",
+    "height": "165",
+    "race": "Human",
+    "constellation": "Mira the Minstrel",
+    "birth": {
+      "month": 6,
+      "day": 22,
+      "monthName": "Month of Love"
+    },
+    "like": "Beautiful melody, soft breezes",
+    "dislike": "Ghosts, pumpkin ghouls",
+    "story": "'Listening to the beautiful melody on the battlefield makes me wonder if I am truly in the middle of a battlefield.' 'I dropped the sword from my hand. All the other soldiers present also dropped their swords.' 'It felt as though the girl was in an entirely different plane of existence, removed from the rest of us.' The sensational tale of the pink-haired girl, whose sudden appearance and performance stopped the battle, quickly spread. Her beautiful, captivating melody and her demure, lovely presence has captured everyone's imagination. However, no one really knew where she came from or where she was headed. 'She seemed kind of strange to me, the way she was talking to thin air, as if there was somebody there...' Of course, some have suggested more convincing theories on the girl’s whereabouts, but her mysterious beauty has drowned out all speculation.",
+    "thumbnail": "heroes/Shea/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Green Nature's Melody",
+      "cost": "2",
+      "cooldown": "28",
+      "description": "Heals all allies' HP by a total of ??? over 8 times, and reduces All DMG all allies take by 35% for 8 sec. If used during [Trance] state, this Skill's Heal Rate increases by 100% and changes the DMG Reduction effect to 70%.",
+      "thumbnail": "heroes/Shea/skills/1.png"
+    },
+    "2": {
+      "name": "Blue Wind's Song",
+      "cost": "3",
+      "cooldown": "28",
+      "description": "Recovers all allies' Mana by a total of 640 over 8 times, heals HP of a target with max Mana by ???, and reduces the duration of CC effects by 50% for 8 sec. If used during [Trance] state, this Skill's Mana Recovery and Heal Rate increase by 50%, and all allies gain immunity to CC for 8 sec.",
+      "thumbnail": "heroes/Shea/skills/2.png"
+    },
+    "3": {
+      "name": "Dance of Red Passion",
+      "cost": "3",
+      "cooldown": "28",
+      "description": "Deals a total of ??? M.DMG to all enemies over 8 times, and increases ATK of all allies by ??? for 8 sec. If used during [Trance] state, this Skill's DMG and ATK Boost increase by 100%, and continuously dispels all enemies' positive effects.",
+      "thumbnail": "heroes/Shea/skills/3.png"
+    },
+    "4": {
+      "name": "Trance",
+      "cost": null,
+      "cooldown": null,
+      "description": "After Skill is used, Shea gains 1 stack of [Blissful Performance]. If Shea uses her next Skill when she has 3 stacks of [Blissful Performance], Shea consumes [Blissful Performance] and heals HP of all allies by ??? and enters [Trance] state for 12 sec. [Blissful Performance] and [Trance] are irremovable.",
+      "thumbnail": "heroes/Shea/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Increases Heal Rate by 10%.",
+      "III": "Increases Heal Rate by 15%.",
+      "IV": "Increases Heal Rate by 25%."
+    },
+    "2": {
+      "II": "Increases Mana Recovery by 10%.",
+      "III": "Increases Mana Recovery by 15%.",
+      "IV": "Increases Mana Recovery by 25%."
+    },
+    "3": {
+      "II": "Increases ATK Boost by 10%.",
+      "III": "Increases ATK Boost by 15%.",
+      "IV": "Increases ATK Boost by 25%."
+    },
+    "4": {
+      "II": "Increases Heal Rate by 10%.",
+      "III": "Increases Heal Rate by 15%.",
+      "IV": "Increases Heal Rate by 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Heals 15% HP of all allies when used.",
+          "thumbnail": "heroes/Shea/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Increases all allies' DMG dealt to Non-Hero enemies by 20% for 8 sec.",
+          "thumbnail": "heroes/Shea/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Heals 500 MP of all allies when used.",
+          "thumbnail": "heroes/Shea/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Increases ATK Spd of all allies by 250 for 8 seconds.",
+          "thumbnail": "heroes/Shea/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "ATK Boost is increased by 40%.",
+          "thumbnail": "heroes/Shea/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "All enemies take 15% more DMG for 8 seconds.",
+          "thumbnail": "heroes/Shea/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Increases Heal rate of Trance by 100%.",
+          "thumbnail": "heroes/Shea/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Instead of healing allies, Shea deals M.DMG equal to Heal Rate to all enemies and reduces their All DEF by 20% for 10 sec when she enters [Trance] state.",
+          "thumbnail": "heroes/Shea/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATK, DEF, HP +15% / CC Resist +100",
+        "thumbnail": "heroes/Shea/perks/light.png"
+      },
+      "dark": {
+        "effect": "At the beginning of each battle, gains 1 stack of [Blissful Performance] and recovers own Mana by 500.",
+        "thumbnail": "heroes/Shea/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Charming Melody , Schwanheite",
+    "description": "Increases CC Resist by 300. Upon gaining a stack of [Blissful Performance], reduces own Cooldown of all Skills by 10% and recovers own Mana by 400.",
+    "value": {},
+    "thumbnail": "heroes/Shea/uw.png",
+    "story": "This powerful and awe-inspiring equipment that can converse with their wielders, sometimes even dominating the owners themselves. Schwanheite is counted among these awesome weapons. This harp, which insists that it be called 'Mr. Schute,' can significantly amplify the wielder’s mana and spray it all around the wielder. Since the amplified mana is scattered about, it cannot be effectively used as offensive magic. However, depending on how it's used it can prove to be extremely effective in other ways. Mr. Schute is quite a chatterbox, but only to those he considers as his friends. These days he only talks to Shea.",
+    "descriptionByStar": {
+      "0": "Increases CC Resist by 300. Upon gaining a stack of [Blissful Performance], reduces own Cooldown of all Skills by 10% and recovers own Mana by 400.",
+      "1": "Increases CC Resist by 360. Upon gaining a stack of [Blissful Performance], reduces own Cooldown of all Skills by 12% and recovers own Mana by 480.",
+      "2": "Increases CC Resist by 430. Upon gaining a stack of [Blissful Performance], reduces own Cooldown of all Skills by 14% and recovers own Mana by 580.",
+      "3": "Increases CC Resist by 520. Upon gaining a stack of [Blissful Performance], reduces own Cooldown of all Skills by 17% and recovers own Mana by 700.",
+      "4": "Increases CC Resist by 630. Upon gaining a stack of [Blissful Performance], reduces own Cooldown of all Skills by 21% and recovers own Mana by 840.",
+      "5": "Increases CC Resist by 750. Upon gaining a stack of [Blissful Performance], reduces own Cooldown of all Skills by 25% and recovers own Mana by 1,000."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Flower of Life",
+      "description": "[Green Nature's Melody] Increases Heal Rate by 50%, and for 8 sec, increases the target's CC Resist by 100.",
+      "value": {},
+      "thumbnail": "heroes/Shea/ut/1.png",
+      "story": "A mystical flower that contains the energy of life.\nUnlike the flora of pandemonium that grows from evil residue, the flower of life gets nutrients from clean, pure substances such as dewdrops of dawn and the energy of the star-filled Milky Way. The pure energy that the flower stored during its growth becomes a great support to Shea when she plays Green Nature's Melody.",
+      "descriptionByStar": {
+        "0": "[Green Nature's Melody] Increases Heal Rate by 50%, and for 8 sec, increases the target's CC Resist by 100.",
+        "1": "[Green Nature's Melody] Increases Heal Rate by 50%, and for 8 sec, increases the target's CC Resist by 120.",
+        "2": "[Green Nature's Melody] Increases Heal Rate by 50%, and for 8 sec, increases the target's CC Resist by 140.",
+        "3": "[Green Nature's Melody] Increases Heal Rate by 50%, and for 8 sec, increases the target's CC Resist by 170.",
+        "4": "[Green Nature's Melody] Increases Heal Rate by 50%, and for 8 sec, increases the target's CC Resist by 210.",
+        "5": "[Green Nature's Melody] Increases Heal Rate by 50%, and for 8 sec, increases the target's CC Resist by 250."
+      }
+    },
+    "2": {
+      "name": "Windy Flower",
+      "description": "[Blue Wind's Song] Increases ACC by 250 for 8 sec and recovers 160 MP every time an ally uses a skill.",
+      "value": {},
+      "thumbnail": "heroes/Shea/ut/2.png",
+      "story": "A flower that was by Shea's head the day after she performed Happiness from the Wind.\nAccording to Schwanheite, it was also a gift from the fairies of the forest for her beautiful music. \nIt contains Shea's wish that the wind will carry happiness all over the world.",
+      "descriptionByStar": {
+        "0": "[Blue Wind's Song] Increases ACC by 250 for 8 sec and recovers 160 MP every time an ally uses a skill.",
+        "1": "[Blue Wind's Song] Increases ACC by 250 for 8 sec and recovers 190 MP every time an ally uses a skill.",
+        "2": "[Blue Wind's Song] Increases ACC by 250 for 8 sec and recovers 230 MP every time an ally uses a skill.",
+        "3": "[Blue Wind's Song] Increases ACC by 250 for 8 sec and recovers 270 MP every time an ally uses a skill.",
+        "4": "[Blue Wind's Song] Increases ACC by 250 for 8 sec and recovers 330 MP every time an ally uses a skill.",
+        "5": "[Blue Wind's Song] Increases ACC by 250 for 8 sec and recovers 400 MP every time an ally uses a skill."
+      }
+    },
+    "3": {
+      "name": "Fairy's Crown",
+      "description": "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by 20% for the duration of skill.",
+      "value": {},
+      "thumbnail": "heroes/Shea/ut/3.png",
+      "story": "A chaplet that was by Shea's head the day after she performed Lullaby to the Dreams in the forest. According to Schwanheite, it was a gift from the fairies of the forest for her beautiful music. It is said that items that went through the hands of fairies have the power to return a soul back to its purest form.",
+      "descriptionByStar": {
+        "0": "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by 20% for the duration of skill.",
+        "1": "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by 24% for the duration of skill.",
+        "2": "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by 29% for the duration of skill.",
+        "3": "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by 35% for the duration of skill.",
+        "4": "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by 42% for the duration of skill.",
+        "5": "[Dance of Red Passion] Upon activation, enemies are inflicted with Silence for 2 sec, and all allies' Crit DMG is increased by 50% for the duration of skill."
+      }
+    },
+    "4": {
+      "name": "Dream of Mira",
+      "description": "[Trance] Increases own ATK by 20% and ATK Spd by 200 for the duration of [Trance].",
+      "value": {},
+      "thumbnail": "heroes/Shea/ut/4.png",
+      "story": "When Shea sang the song of life with the spirits for the creatures on earth, Mira, the goddess of love, gave her this jewel in return in her dream.\nWhen Shea woke up, she found it in her hand.\nThe jewel shines like the goddess of love herself, and people would feel amazed by just looking at it.\nShea decided to call it the Dream of Mira.",
+      "descriptionByStar": {
+        "0": "[Trance] Increases own ATK by 20% and ATK Spd by 200 for the duration of [Trance].",
+        "1": "[Trance] Increases own ATK by 20% and ATK Spd by 240 for the duration of [Trance].",
+        "2": "[Trance] Increases own ATK by 20% and ATK Spd by 290 for the duration of [Trance].",
+        "3": "[Trance] Increases own ATK by 20% and ATK Spd by 350 for the duration of [Trance].",
+        "4": "[Trance] Increases own ATK by 20% and ATK Spd by 420 for the duration of [Trance].",
+        "5": "[Trance] Increases own ATK by 20% and ATK Spd by 500 for the duration of [Trance]."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Charges up upon using Skills 7 times.",
+    "description": "Summons the soul of Charming Melody, Schwanheite for 20 sec, increasing all allies' ATK by 25%, DEF by 25%, and recovering own Mana by 100 every sec.",
+    "cooldown": "30",
+    "uses": "6",
+    "thumbnail": "heroes/Shea/sw.png",
+    "advancement": {
+      "1": "Additionally increases Crit DMG by 50% for the duration of the soul.",
+      "2": "Changes ATK Boost to 50%, DEF Boost to 50%, and Crit DMG Boost to 100%."
+    },
+    "story": "Schwanheite, or Mr. Schute, is a talkative harp that occasionally tells the tale of the time when he was a human. The bard of free spirit would talk about the time when he sang the songs of love and whispered love to beautiful fiancées who were often the source of inspiration. He would often end up swimming in the sea of nostalgia.\n'Oh, good times they were. That witch caused a worldly loss by cursing me. Oh, my lovely fiancées, how I miss thee.’ Starting with the lamentation, Mr. Schute would go on day and night to tell Shea his past stories, and this lead to Shea fantasizing about forms of love.\nBoth Shea and Mr. Schute were full of love, but their definition of love were slightly different.\nBut what would it feel like to love something or someone with an endlessly-burning passion? What would a burning passion, burning love feel like? A simple curiosity of a girl breathed in a new wind to the soul of the talkative harp.\n'Want me to tell you about it?’ Mr. Schute took the form of a human and appeared with a sudden flash of light, flashing a grin. Shea responded:\n\n'Yes! Eh, but before that, how should I play you now that you are a human?’"
+  },
+  "splashart": "heroes/Shea/sa.png",
+  "costumes": "heroes/Shea/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "en",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

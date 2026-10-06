@@ -1,0 +1,228 @@
+{
+  "id": "Zafir",
+  "profile": {
+    "name": "Zafir",
+    "title": "Zafir, Prince des Tempêtes de Sable",
+    "class": "Archer",
+    "position": "Middle-300",
+    "attack_range": "4600",
+    "damage_type": "Physical",
+    "gender": "Homme",
+    "age": "20",
+    "height": "185",
+    "race": "Humain",
+    "constellation": "Notmun l'Accordeur",
+    "birth": {
+      "month": 7,
+      "day": 30,
+      "monthName": "Mois de l'Harmonie"
+    },
+    "like": "Les chats, l'artisanat de sable et le peuple du désert",
+    "dislike": "Ceux qui essaient de nuire aux personnes qui lui sont chères",
+    "story": "Prince et héritier de l'ancien dieu-roi, il a le pouvoir de contrôler les sables du désert. \nEn tant que jeune chef des guerriers du désert de la tribu Mauhata, il fut entraîné et éduqué pour succéder au grand roi. \nLorsque leurs frères d'armes de la tribu Trovatia allèrent prier à l'Autel des flots pour éveiller le dieu-dragon, il ordonna à ses hommes de vaincre tous les démons qui approchaient l'oasis. \nAvec l'aide du dieu-dragon et de Laudia, sa prêtresse, il remplit son rôle de guerrier du désert : défendre son territoire. \nIl espère ainsi se montrer à la hauteur des attentes du regretté dieu-roi.",
+    "thumbnail": "heroes/Zafir/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Jugement du désert",
+      "cost": "2",
+      "cooldown": "5",
+      "description": "Inflige ??? points de DEG P aux ennemis dans une large zone. À chaque ennemi touché, le temps de recharge de la compétence est réduit de 1 sec. Inflige ??? points de DEG P aux ennemis touchés par [Marque du désert] et supprime 1 [Marque du désert]. À chaque utilisation de compétence, les DEG Crit augmentent de 5%. Cet effet est cumulable 18 fois au maximum et ne peut être dissipé.",
+      "thumbnail": "heroes/Zafir/skills/1.png"
+    },
+    "2": {
+      "name": "Bénédiction de l'esprit des sables",
+      "cost": "2",
+      "cooldown": "14",
+      "description": "Crée sur l'allié aux PV les plus faibles un bouclier absorbant ??? dégâts pendant 5 sec et immunisant au contrôle. À son expiration, [Tempête de sable] inflige ??? DEG P dans une vaste zone et 2 cumuls de [Marque du désert]. La tempête ne se déclenche pas si le bouclier est dissipé ou détruit.",
+      "thumbnail": "heroes/Zafir/skills/2.png"
+    },
+    "3": {
+      "name": "Malédiction du désert",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Inflige ??? points de DEG P aux ennemis situés en face dans une large zone et applique 1 [Marque du désert]. Ensuite, Puits de sable est activé pendant 5 sec, ce qui inflige ??? points de DEG P toutes les 0,5 sec et réduit la DEF P de 30% pendant 10 sec. Puits de sable a 25% de chances d'appliquer 1 [Marque du désert] et d'attirer vers le centre tous les ennemis à portée.",
+      "thumbnail": "heroes/Zafir/skills/3.png"
+    },
+    "4": {
+      "name": "Appel du gardien",
+      "cost": null,
+      "cooldown": null,
+      "description": "Chaque attaque normale a 15% de chances d'infliger à tous les ennemis ??? DEG P ignorant la DEF et 1 cumul de [Marque du désert], jusqu'à 10 cumuls.",
+      "thumbnail": "heroes/Zafir/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "2": {
+      "II": "DEG et Bouclier sont augmentés de 10%.",
+      "III": "DEG et Bouclier sont augmentés de 15%.",
+      "IV": "DEG et Bouclier sont augmentés de 25%."
+    },
+    "3": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "4": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "L'augmentation de DEG Crit par utilisation passe à 10%.",
+          "thumbnail": "heroes/Zafir/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Étourdit l'ennemi touché pendant 1 sec.",
+          "thumbnail": "heroes/Zafir/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Lorsque le nombre des alliés sont moins de 3, applique un Bouclier Protecteur sur toute l'équipe. En ce cas, la tempête de sable n'est pas enclenchée.",
+          "thumbnail": "heroes/Zafir/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Au début de chaque bataille, applique un Bouclier Protecteur sur soi pendant 5 sec. En ce cas, la tempête de sable n'est pas enclenchée.",
+          "thumbnail": "heroes/Zafir/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Confère l'immunité contre les Contrôles pendant l'utilisation de la compétence.",
+          "thumbnail": "heroes/Zafir/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "La durée de Puits de sable augmente de 2 sec.",
+          "thumbnail": "heroes/Zafir/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Chaque seconde, applique Marque du désert à tous les ennemis dès lors qu'ils sont plus de 5.",
+          "thumbnail": "heroes/Zafir/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Les chances d'activation passent à 30%.",
+          "thumbnail": "heroes/Zafir/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Crit +100",
+        "thumbnail": "heroes/Zafir/perks/light.png"
+      },
+      "dark": {
+        "effect": "Récupère 700 PM à l'utilisation de la compétence. Double la récupération PM et augmente la vitesse d'ATQ de 500 lorsqu'il existe plus de 5 ennemis. Cet effet ne peut être cumulé.",
+        "thumbnail": "heroes/Zafir/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Zaries, la Gloire du Dieu-Roi",
+    "description": "Lors de l'utilisation d'une compétence, vous accumulez 1 charge de Volonté du désert, ce qui augmente l'ATQ de 4% et les DEG Crit de 4% pendant 30 sec. Cet effet peut se cumuler jusqu'à 8 fois et ne peut pas être dissipé.",
+    "value": {},
+    "thumbnail": "heroes/Zafir/uw.png",
+    "story": "Cette arme antique fut forgée par l'être le plus admirable qui soit. \nPour se montrer digne de posséder cet arc, il faut se soumettre à des épreuves inouïes, car il ne peut être porté que par l'héritier du dieu-roi. \nIl confère un pouvoir absolu dans le désert.",
+    "descriptionByStar": {
+      "0": "Lors de l'utilisation d'une compétence, vous accumulez 1 charge de Volonté du désert, ce qui augmente l'ATQ de 4% et les DEG Crit de 4% pendant 30 sec. Cet effet peut se cumuler jusqu'à 8 fois et ne peut pas être dissipé.",
+      "1": "Lors de l'utilisation d'une compétence, vous accumulez 1 charge de Volonté du désert, ce qui augmente l'ATQ de 4,8% et les DEG Crit de 4,8% pendant 30 sec. Cet effet peut se cumuler jusqu'à 8 fois et ne peut pas être dissipé.",
+      "2": "Lors de l'utilisation d'une compétence, vous accumulez 1 charge de Volonté du désert, ce qui augmente l'ATQ de 5,6% et les DEG Crit de 5,6% pendant 30 sec. Cet effet peut se cumuler jusqu'à 8 fois et ne peut pas être dissipé.",
+      "3": "Lors de l'utilisation d'une compétence, vous accumulez 1 charge de Volonté du désert, ce qui augmente l'ATQ de 6,8% et les DEG Crit de 6,8% pendant 30 sec. Cet effet peut se cumuler jusqu'à 8 fois et ne peut pas être dissipé.",
+      "4": "Lors de l'utilisation d'une compétence, vous accumulez 1 charge de Volonté du désert, ce qui augmente l'ATQ de 8,4% et les DEG Crit de 8,4% pendant 30 sec. Cet effet peut se cumuler jusqu'à 8 fois et ne peut pas être dissipé.",
+      "5": "Lors de l'utilisation d'une compétence, vous accumulez 1 charge de Volonté du désert, ce qui augmente l'ATQ de 10% et les DEG Crit de 10% pendant 30 sec. Cet effet peut se cumuler jusqu'à 8 fois et ne peut pas être dissipé."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Flèche tempête de sable",
+      "description": "[Jugement du désert] Augmente les DEG de 2 % et accorde 30 % de chances d'infliger une Marque du désert à l'ennemi touché. L'augmentation des DEG peut se cumuler jusqu'à 20 fois.",
+      "value": {},
+      "thumbnail": "heroes/Zafir/ut/1.png",
+      "story": "La tribu Mauhata a offert ce trésor à Zafir. Il s'agit d'une flèche confectionnée à partir de la plume d'un animal considéré comme sacré dans le royaume oublié.\nSon éclat est aveuglant, comme pour symboliser l'honneur et la gloire de cet antique royaume. En temps normal, elle doit être suspendue à un mur et se sert que lors de cérémonies, mais en réalité, c'est une arme défensive très efficace pour la famille royale. Les ennemis touchés par cette flèche subissent le Jugement du désert, sous la forme d'une tempête de sable apocalyptique.",
+      "descriptionByStar": {
+        "0": "[Jugement du désert] Augmente les DEG de 2 % et accorde 30 % de chances d'infliger une Marque du désert à l'ennemi touché. L'augmentation des DEG peut se cumuler jusqu'à 20 fois.",
+        "1": "[Jugement du désert] Augmente les DEG de 2,4 % et accorde 30 % de chances d'infliger une Marque du désert à l'ennemi touché. L'augmentation des DEG peut se cumuler jusqu'à 20 fois.",
+        "2": "[Jugement du désert] Augmente les DEG de 2,9 % et accorde 30 % de chances d'infliger une Marque du désert à l'ennemi touché. L'augmentation des DEG peut se cumuler jusqu'à 20 fois.",
+        "3": "[Jugement du désert] Augmente les DEG de 3,5 % et accorde 30 % de chances d'infliger une Marque du désert à l'ennemi touché. L'augmentation des DEG peut se cumuler jusqu'à 20 fois.",
+        "4": "[Jugement du désert] Augmente les DEG de 4,2 % et accorde 30 % de chances d'infliger une Marque du désert à l'ennemi touché. L'augmentation des DEG peut se cumuler jusqu'à 20 fois.",
+        "5": "[Jugement du désert] Augmente les DEG de 5 % et accorde 30 % de chances d'infliger une Marque du désert à l'ennemi touché. L'augmentation des DEG peut se cumuler jusqu'à 20 fois."
+      }
+    },
+    "2": {
+      "name": "Sable des mirages",
+      "description": "[Bénédiction de l'élémentaire des sables] Dissipe les effets néfastes qui pèsent sur soi et récupère 80 PM par sec pendant la durée de la compétence.",
+      "value": {},
+      "thumbnail": "heroes/Zafir/ut/2.png",
+      "story": "Ce sablier resta enfoui pendant des lustres à la suite d'une colossale tempête de sable qui s'abattit sur le désert Aegina.\nLorsque le sable s'en écoule, il reflète le mirage de la renaissance d'une civilisation antique.\nLe grand prêtre de ce royaume oublié s'en servait pour souligner la gloire du royaume devant ses fidèles.\nLa vision de leur cité, brillante et parée d'or, les emplissait toujours d'une grande fierté.",
+      "descriptionByStar": {
+        "0": "[Bénédiction de l'élémentaire des sables] Dissipe les effets néfastes qui pèsent sur soi et récupère 80 PM par sec pendant la durée de la compétence.",
+        "1": "[Bénédiction de l'élémentaire des sables] Dissipe les effets néfastes qui pèsent sur soi et récupère 100 PM par sec pendant la durée de la compétence.",
+        "2": "[Bénédiction de l'élémentaire des sables] Dissipe les effets néfastes qui pèsent sur soi et récupère 120 PM par sec pendant la durée de la compétence.",
+        "3": "[Bénédiction de l'élémentaire des sables] Dissipe les effets néfastes qui pèsent sur soi et récupère 140 PM par sec pendant la durée de la compétence.",
+        "4": "[Bénédiction de l'élémentaire des sables] Dissipe les effets néfastes qui pèsent sur soi et récupère 170 PM par sec pendant la durée de la compétence.",
+        "5": "[Bénédiction de l'élémentaire des sables] Dissipe les effets néfastes qui pèsent sur soi et récupère 200 PM par sec pendant la durée de la compétence."
+      }
+    },
+    "3": {
+      "name": "Âme de l'oasis",
+      "description": "[Malédiction du désert] Le temps de recharge de la compétence est réduit de 30 % et les chances d'activation de l'effet augmentent de 8 %.",
+      "value": {},
+      "thumbnail": "heroes/Zafir/ut/3.png",
+      "story": "Cette épée magique se transmet de génération en génération parmi les descendants du dieu-roi. Son nom, Oasis, vient de l'aide providentielle qu'elle leur a apportée dans l'adversité.\nAprès la chute du royaume, elle fut perdue. Zafir l'aperçut dans la collection d'art de Kumuro et l'acheta à un prix inconcevable. \nUne fois l'épée restituée à son propriétaire légitime, Zafir hérita de l'esprit de ses ancêtres, ce qui décupla son potentiel.",
+      "descriptionByStar": {
+        "0": "[Malédiction du désert] Le temps de recharge de la compétence est réduit de 30 % et les chances d'activation de l'effet augmentent de 8 %.",
+        "1": "[Malédiction du désert] Le temps de recharge de la compétence est réduit de 30 % et les chances d'activation de l'effet augmentent de 9,6 %.",
+        "2": "[Malédiction du désert] Le temps de recharge de la compétence est réduit de 30 % et les chances d'activation de l'effet augmentent de 11,5 %.",
+        "3": "[Malédiction du désert] Le temps de recharge de la compétence est réduit de 30 % et les chances d'activation de l'effet augmentent de 13,8 %.",
+        "4": "[Malédiction du désert] Le temps de recharge de la compétence est réduit de 30 % et les chances d'activation de l'effet augmentent de 16,5 %.",
+        "5": "[Malédiction du désert] Le temps de recharge de la compétence est réduit de 30 % et les chances d'activation de l'effet augmentent de 20 %."
+      }
+    },
+    "4": {
+      "name": "Hoabis le chat noir",
+      "description": "[Appel du gardien] Lors d'un coup critique, étourdit la cible pendant 2 sec et augmente les DEG P qu'elle subit de 10 % pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Zafir/ut/4.png",
+      "story": "Le dieu-roi du royaume antique du désert était toujours accompagné d'un chat noir, symbole de paix et de prospérité.\nPersonne ne sait comment ce chat noir sacré traverse les générations. Lorsque ce même animal se présenta à Zafir, il le baptisa Hoabis. Il s'en occupe avec le plus grand soin.",
+      "descriptionByStar": {
+        "0": "[Appel du gardien] Lors d'un coup critique, étourdit la cible pendant 2 sec et augmente les DEG P qu'elle subit de 10 % pendant 10 sec.",
+        "1": "[Appel du gardien] Lors d'un coup critique, étourdit la cible pendant 2 sec et augmente les DEG P qu'elle subit de 12 % pendant 10 sec.",
+        "2": "[Appel du gardien] Lors d'un coup critique, étourdit la cible pendant 2 sec et augmente les DEG P qu'elle subit de 14 % pendant 10 sec.",
+        "3": "[Appel du gardien] Lors d'un coup critique, étourdit la cible pendant 2 sec et augmente les DEG P qu'elle subit de 17 % pendant 10 sec.",
+        "4": "[Appel du gardien] Lors d'un coup critique, étourdit la cible pendant 2 sec et augmente les DEG P qu'elle subit de 21 % pendant 10 sec.",
+        "5": "[Appel du gardien] Lors d'un coup critique, étourdit la cible pendant 2 sec et augmente les DEG P qu'elle subit de 25 % pendant 10 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 6 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Zaries, la Gloire du Dieu-Roi, pendant 10 sec, ce qui augmente les DEG P reçus par tous les ennemis de 25% et augmente sa Vitesse d'ATQ de 500, pendant la durée de la compétence.",
+    "cooldown": "25",
+    "uses": "6",
+    "thumbnail": "heroes/Zafir/sw.png",
+    "advancement": {
+      "1": "Augmente la pénétration de DEF de 500 pendant la durée de la compétence.",
+      "2": "Augmente la durée de la compétence de 4 sec et l'immunise contre les Contrôles pendant la durée de la compétence."
+    },
+    "story": "Le descendant du Dieu-Roi était destiné à porter le fardeau du destin du désert, ainsi qu'à devenir le soleil qui éclaire le peuple. Pour cela, ce qui fallait n'était pas une force dominante, ni même un charisme imposant, mais la légitimité de la lignée.\nMême le plus misérable des hommes pouvait devenir le soleil du peuple et pouvait se faire obéir, si seulement il pouvait prouver qu'il était de la lignée du Dieu-Roi. La méthode la plus sûre d'y parvenir était d'être l'élu de Zaries.\nPar le passé, Cain rattacha son âme au désert et obtint Zaries, en tant que preuve de fidélité de la part de ce dernier. Et Zaries, tenu par Cain et offrant la protection, était la garantie qui démontrait la gloire que le Dieu-Roi avait apportée au désert. Zaries prit la forme d'un arc et s'endormit, en attendant le descendant du Dieu-Roi qui serait capable de révéler sa véritable apparence.\nAprès les épreuves du Dieu-Roi de l'antiquité, Zafir devint capable de percevoir l'âme de Zaries et fut reconnu comme le digne héritier du Dieu-Roi par ce dernier. Et il apprit à ses ennemis qu'il fallait savoir craindre la tempête du désert."
+  },
+  "splashart": "heroes/Zafir/sa.png",
+  "costumes": "heroes/Zafir/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

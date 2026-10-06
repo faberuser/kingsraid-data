@@ -1,0 +1,229 @@
+{
+  "id": "Pavel",
+  "profile": {
+    "name": "Pavel",
+    "title": "Zauberer des Eisdrachen Pavel",
+    "class": "Wizard",
+    "position": "Middle-200",
+    "attack_range": "1900",
+    "damage_type": "Magical",
+    "gender": "Männlich (+Weiblich)",
+    "age": "HERO_AGE_PAVEL",
+    "height": "172",
+    "race": "Menschen (mit Drachenseele)",
+    "constellation": "Hexipolia, der Wanderer",
+    "birth": {
+      "month": 12,
+      "day": 2,
+      "monthName": "Monat der Geduld"
+    },
+    "like": "Frieden; Ruhe; Lesen",
+    "dislike": "Heißes Wetter; laute Dinge",
+    "story": "Der seltene Fall eines menschlichen Zauberers, der von der Seele eines Eisdrachen besessen ist. Dieser antike Eiszauberer kämpfte vor 100 Jahren an Kyles Seite, doch er existierte schon lange vorher. Normalerweise schläft die Drachenseele, doch gelegentlich erwacht sie und spricht mit lieblichen Worten zu ihm. Das Kaiserreich hält ihn für eine Schlüsselfigur und hat Rodina entsandt, um ihn zu beobachten und zu beschützen. Er selbst wünscht sich nichts als ein Leben in Ruhe und Frieden, fernab aller weltlichen Sorgen.",
+    "thumbnail": "heroes/Pavel/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Frostkeil",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Fügt Feinden mit Frost ??? Mag. Schaden zu und friert sie für 5 Sek. ein.",
+      "thumbnail": "heroes/Pavel/skills/1.png"
+    },
+    "2": {
+      "name": "Eisspeer",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Greift Feinde zufällig 5 mal an, verusacht Frost und fügt ??? Mag. Schaden zu. Erhöht Schaden um 50 %, wenn Feinde eingefroren sind.",
+      "thumbnail": "heroes/Pavel/skills/2.png"
+    },
+    "3": {
+      "name": "Eisige Eroberung",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Fügt allen Feinden ??? Mag. Schaden zu. Friert Feinde mit Frost für 3 Sek. ein und erhöht den verursachten Schaden um 100 %, wenn der Feind bereits eingefroren ist.",
+      "thumbnail": "heroes/Pavel/skills/3.png"
+    },
+    "4": {
+      "name": "Frostige Hand",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Verursacht alle 15 Sek. an 3 Feinden ??? Mag. Schaden und fügt ihnen Frost zu, der ihre ANG-GESCHW. für 8 Sek. um 100 verringert.",
+      "thumbnail": "heroes/Pavel/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht Schaden um 40 %.",
+          "thumbnail": "heroes/Pavel/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Erhöht die Gefrierdauer um 5 Sek. für 1 extra Mana.",
+          "thumbnail": "heroes/Pavel/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Pavel/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Wechselt das Ziel zu dem Gegner mit dem höchsten ANG.",
+          "thumbnail": "heroes/Pavel/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Pavel/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Massenkontroll-Immunität für die Dauer des Skills.",
+          "thumbnail": "heroes/Pavel/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Massenkontroll-Widerstand des Ziels ist für 10 Sek. um 250 reduziert.",
+          "thumbnail": "heroes/Pavel/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Frost kann nicht mit Skills entfernt werden.",
+          "thumbnail": "heroes/Pavel/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Schaden +20 %",
+        "thumbnail": "heroes/Pavel/perks/light.png"
+      },
+      "dark": {
+        "effect": "Greift alle 3 Sek. alle Gegner an und verursacht 50 % des ANG als Mag. Schaden, mit 50 %-Chance, Frost zu verursachen. Gegner, die bereits unter Frost stehen, erhalten 3 Sek. lang 300 % des ANG als Mag. Schaden.",
+        "thumbnail": "heroes/Pavel/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Drachenherz Andarta, Andraste",
+    "description": "Fügt 2 zufälligen Feinden alle 15 Sek. Mag. Schaden(160 % d. ANG) zu und verursacht Frost. Friert Feinde für 5 Sek. ein, wenn sie bereits unter Frost leiden.",
+    "value": {},
+    "thumbnail": "heroes/Pavel/uw.png",
+    "story": "Andarta und Andraste waren zwei Drachen, die während des Krieges von den Dämonen besiegt wurden. Die Seelen des Paares waren miteinander verwoben. Sie liebten sich und verstanden einander besser als irgendjemand sonst. Selbst im Sterben weigerten sie sich, sich voneinander zu entfernen und rangen Pavel, ihrem Kameraden, eine letzte Bitte ab. Pavel erfüllte ihnen ihren letzten Wunsch, indem er ihre Seelen in ihre Herzen überführte und diese anschließend in ein Paar Edelsteine verwandelte. Trotz des Verlusts ihrer Körper konnten die beiden so zusammenbleiben und sind so unzertrennlich wie zuvor.",
+    "descriptionByStar": {
+      "0": "Fügt 2 zufälligen Feinden alle 15 Sek. Mag. Schaden(160 % d. ANG) zu und verursacht Frost. Friert Feinde für 5 Sek. ein, wenn sie bereits unter Frost leiden.",
+      "1": "Fügt 2 zufälligen Feinden alle 14 Sek. Mag. Schaden(192 % d. ANG) zu und verursacht Frost. Friert Feinde für 5 Sek. ein, wenn sie bereits unter Frost leiden.",
+      "2": "Fügt 2 zufälligen Feinden alle 12,5 Sek. Mag. Schaden(228 % d. ANG) zu und verursacht Frost. Friert Feinde für 5 Sek. ein, wenn sie bereits unter Frost leiden.",
+      "3": "Fügt 2 zufälligen Feinden alle 11 Sek. Mag. Schaden(276 % d. ANG) zu und verursacht Frost. Friert Feinde für 5 Sek. ein, wenn sie bereits unter Frost leiden.",
+      "4": "Fügt 2 zufälligen Feinden alle 9,5 Sek. Mag. Schaden(332 % d. ANG) zu und verursacht Frost. Friert Feinde für 5 Sek. ein, wenn sie bereits unter Frost leiden.",
+      "5": "Fügt 2 zufälligen Feinden alle 8 Sek. Mag. Schaden(400 % d. ANG) zu und verursacht Frost. Friert Feinde für 5 Sek. ein, wenn sie bereits unter Frost leiden."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Quelle des Schnees",
+      "description": "[Frostkeil] erhöht den Schaden um 20 % und die Massenkontrolle-PRÄZ bei Aktivierung 10 Sek. lang um 400.",
+      "value": {},
+      "thumbnail": "heroes/Pavel/ut/1.png",
+      "story": "Ein Schneekristall in seiner ursprünglichen Form. Er dient gleichzeitig als Heimat der Winter-Elementare.\nSeine Schönheit schließt willensschwache Wesen in einem unendlichen Blizzard ein. Die Drachen Andarta und Andraste haben ihn Pavel überlassen, als er ihren Wunsch erfüllt hatte. Außerdem fand er darin Trost, als er im Windland völlig auf sich allein gestellt war, bis Rodina vorbeikam.",
+      "descriptionByStar": {
+        "0": "[Frostkeil] erhöht den Schaden um 20 % und die Massenkontrolle-PRÄZ bei Aktivierung 10 Sek. lang um 400.",
+        "1": "[Frostkeil] erhöht den Schaden um 24 % und die Massenkontrolle-PRÄZ bei Aktivierung 10 Sek. lang um 400.",
+        "2": "[Frostkeil] erhöht den Schaden um 29 % und die Massenkontrolle-PRÄZ bei Aktivierung 10 Sek. lang um 400.",
+        "3": "[Frostkeil] erhöht den Schaden um 35 % und die Massenkontrolle-PRÄZ bei Aktivierung 10 Sek. lang um 400.",
+        "4": "[Frostkeil] erhöht den Schaden um 42 % und die Massenkontrolle-PRÄZ bei Aktivierung 10 Sek. lang um 400.",
+        "5": "[Frostkeil] erhöht den Schaden um 50 % und die Massenkontrolle-PRÄZ bei Aktivierung 10 Sek. lang um 400."
+      }
+    },
+    "2": {
+      "name": "Frostbrosche",
+      "description": "[Eisspeer] verringert den Cooldown um 8 % und hat eine Chance von 40 %, den Feind 1 Sek. lang bei einem Treffer im Frostzustand einzufrieren. Dieser Effekt gilt nicht bei zus. erschaffenen Speeren.",
+      "value": {},
+      "thumbnail": "heroes/Pavel/ut/2.png",
+      "story": "Der Eisdrache schenkte diese Brosche dem jungen Pavel und erfüllte sie mit seinem Odem.\nAber seit der Eisdrache und Pavel eins wurden, erinnert die Brosche Pavel daran, ihn nicht zu verlassen. Sie kann Schmerzen zufügen, die bis ins Herz stechen. \nErfüllt Pavels Mana mit Frost, was seine Magie noch schneidender werden lässt.",
+      "descriptionByStar": {
+        "0": "[Eisspeer] verringert den Cooldown um 8 % und hat eine Chance von 40 %, den Feind 1 Sek. lang bei einem Treffer im Frostzustand einzufrieren. Dieser Effekt gilt nicht bei zus. erschaffenen Speeren.",
+        "1": "[Eisspeer] verringert den Cooldown um 8 % und hat eine Chance von 48 %, den Feind 1 Sek. lang bei einem Treffer im Frostzustand einzufrieren. Dieser Effekt gilt nicht bei zus. erschaffenen Speeren.",
+        "2": "[Eisspeer] verringert den Cooldown um 8 % und hat eine Chance von 58 %, den Feind 1 Sek. lang bei einem Treffer im Frostzustand einzufrieren. Dieser Effekt gilt nicht bei zus. erschaffenen Speeren.",
+        "3": "[Eisspeer] verringert den Cooldown um 8 % und hat eine Chance von 70 %, den Feind 1 Sek. lang bei einem Treffer im Frostzustand einzufrieren. Dieser Effekt gilt nicht bei zus. erschaffenen Speeren.",
+        "4": "[Eisspeer] verringert den Cooldown um 8 % und hat eine Chance von 84 %, den Feind 1 Sek. lang bei einem Treffer im Frostzustand einzufrieren. Dieser Effekt gilt nicht bei zus. erschaffenen Speeren.",
+        "5": "[Eisspeer] verringert den Cooldown um 8 % und hat eine Chance von 100 %, den Feind 1 Sek. lang bei einem Treffer im Frostzustand einzufrieren. Dieser Effekt gilt nicht bei zus. erschaffenen Speeren."
+      }
+    },
+    "3": {
+      "name": "Gletscherherz",
+      "description": "[Eisige Eroberung] erhöht den Schaden um 50 % und die Gefrierdauer um 1 Sek.",
+      "value": {},
+      "thumbnail": "heroes/Pavel/ut/3.png",
+      "story": "Gefrorenes Blut des Wintergeistes. Pavel fand es tief in der Eishöhle und stellte daraus Ohrringe her. Es verursacht rauen Frost und starke Schmerzen, aber es erhöht Pavels Mana bis zu seiner Grenze.",
+      "descriptionByStar": {
+        "0": "[Eisige Eroberung] erhöht den Schaden um 50 % und die Gefrierdauer um 1 Sek.",
+        "1": "[Eisige Eroberung] erhöht den Schaden um 50 % und die Gefrierdauer um 1,2 Sek.",
+        "2": "[Eisige Eroberung] erhöht den Schaden um 50 % und die Gefrierdauer um 1,4 Sek.",
+        "3": "[Eisige Eroberung] erhöht den Schaden um 50 % und die Gefrierdauer um 1,7 Sek.",
+        "4": "[Eisige Eroberung] erhöht den Schaden um 50 % und dieGefrierdauer um 2,1 Sek.",
+        "5": "[Eisige Eroberung] erhöht den Schaden um 50 % und die Gefrierdauer um 2,5 Sek."
+      }
+    },
+    "4": {
+      "name": "Eisdrachenherz",
+      "description": "[Frostige Hand] erhöht die Anzahl an Zielen um 1. Stellt bei einem Krit. Treffer 100 eigenes Mana wieder her.",
+      "value": {},
+      "thumbnail": "heroes/Pavel/ut/4.png",
+      "story": "Ein Geschenk, das ein besessener weiblicher Drache Pavel gab.\nDer Eisdrache machte Pavel immer alle möglichen Geschenke, egal, ob ihm das gefiel oder nicht. Diese Kugel war eines dieser Geschenke und die enthält einen kleinen Teil der Seele des Eisdrachens.",
+      "descriptionByStar": {
+        "0": "[Frostige Hand] erhöht die Anzahl an Zielen um 1. Stellt bei einem Krit. Treffer 100 eigenes Mana wieder her.",
+        "1": "[Frostige Hand] erhöht die Anzahl an Zielen um 1. Stellt bei einem Krit. Treffer 120 eigenes Mana wieder her.",
+        "2": "[Frostige Hand] erhöht die Anzahl an Zielen um 1. Stellt bei einem Krit. Treffer 140 eigenes Mana wieder her.",
+        "3": "[Frostige Hand] erhöht die Anzahl an Zielen um 1. Stellt bei einem Krit. Treffer 170 eigenes Mana wieder her.",
+        "4": "[Frostige Hand] erhöht die Anzahl an Zielen um 1. Stellt bei einem Krit. Treffer 210 eigenes Mana wieder her.",
+        "5": "[Frostige Hand] erhöht die Anzahl an Zielen um 1. Stellt bei einem Krit. Treffer 250 eigenes Mana wieder her."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 5-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört die Seele von Drachenherz Andarta, Andraste und erhöht den eigenen Krit. Schaden 10 Sek. lang um 100 %. Bei Skill-Aktivierung wird den Feinden an der eigenen Frontlinie ??? Mag. Schaden zugefügt und für 10 Sek. wird der erhaltene Mag. Schaden des Gegners um 30 % erhöht, wobei der Gegner für 6 Sek. eingefroren wird. Wenn der eingefrorene Gegner getroffen wird, wird dem Feind ??? VERT-ignorierender Mag. Schaden zugefügt und 2 eigene Mana-Kugel werden wiederhergestellt, wobei der Cooldown aller Skills um 30 % verringert wird.",
+    "cooldown": "21",
+    "uses": "5",
+    "thumbnail": "heroes/Pavel/sw.png",
+    "advancement": {
+      "1": "Verwendungsbedingungen werden auf 4 geändert.",
+      "2": "Erhöht den Schaden um 80 % und entfernt positive Effekte des getroffenen Gegners."
+    },
+    "story": "Die ungewöhnliche Welle der magischen Kraft hat das Herz des Drachen zerschlagen.\n\nDie Situation in Orvel, die er von Lewisia hörte, und, dass Kasel zum Dunklen Lord wurde. Das alles ließ Pavels kalter Zorn in der Luft ausbreiten und herumwirbeln.\nDas war das Echo einer enormen magischen Kraft, die die Schutzmagie brechen würde, die für den friedlichen Schutz von zwei Drachen verwendet wird.\n\nSchließlich schwangen Andarta und Andraste mit dem kalten Zorn von Pavel mit und erschienen."
+  },
+  "splashart": "heroes/Pavel/sa.png",
+  "costumes": "heroes/Pavel/cos",
+  "aliases": null,
+  "gender": "Male",
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

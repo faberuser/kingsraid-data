@@ -1,0 +1,289 @@
+{
+  "id": "Naila",
+  "profile": {
+    "name": "Naila",
+    "title": "Kämpfer des Windes Naila",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "2100",
+    "damage_type": "Physical",
+    "gender": "Weiblich",
+    "age": "19",
+    "height": "180",
+    "race": "Harpien",
+    "constellation": "Hexipolia, der Wanderer",
+    "birth": {
+      "month": 12,
+      "day": 16,
+      "monthName": "Monat der Geduld"
+    },
+    "like": "Angehörige; jene mit dem Stolz eines Kriegers",
+    "dislike": "Angsthasen, Heuchler",
+    "story": "Eine tapfere und ehrenhafte Kriegerin der Harpien, die die Macht des Windes kontrollieren. Ihre Würde als Harpienkriegerin ist ihr wichtiger als alles andere auf der Welt. Mithilfe ihrer Willenskraft und dem Wunsch, ihre Kriegerehre zu bewahren kann sie jeden Gegner besiegen. Ihre Fähigkeiten sind selbst für ihresgleichen außergewöhnlich und sie ist ein ideales Vorbild für jüngere Harpienkrieger.",
+    "thumbnail": "heroes/Naila/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Wilder Wind",
+      "cost": "3",
+      "cooldown": "8",
+      "description": "Naila stürmt 2-mal zum Gegner. Beim ersten Angriff bewegt sie sich hinter das Ziel, verursacht ??? physischen Schaden und wirft es für 3 Sek. zu Boden. Beim zweiten bewegt sie sich hinter den Gegner mit dem höchsten ANG, verursacht ??? physischen Schaden, wirft ihn für 3 Sek. zu Boden und erhöht seinen erlittenen physischen Schaden für 10 Sek. um 25%.",
+      "thumbnail": "heroes/Naila/skills/1.png"
+    },
+    "2": {
+      "name": "Wind lesen",
+      "cost": "1",
+      "cooldown": "20",
+      "description": "Entfernt eigene negative Effekte und gewährt allen Verbündeten für 20 Sek. [Windlesen]: ANG +???, physisches Ausweichen +250. Weicht ein betroffener Verbündeter aus, steigt sein Krit.-Schaden für 10 Sek. um 5%. Dieser Bonus ist bis zu 10-mal stapelbar.",
+      "thumbnail": "heroes/Naila/skills/2.png"
+    },
+    "3": {
+      "name": "Sturzflug",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Verursacht im Kreis um sich ??? physischen Schaden und betäubt Gegner für 3 Sek. Diese Fähigkeit besitzt 500 Abwehrdurchdringung.",
+      "thumbnail": "heroes/Naila/skills/3.png"
+    },
+    "4": {
+      "name": "Tornado-Schlag",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht Nailas Abwehrdurchdringung um 150 und Abwehr um ???. Normale und Fähigkeitsangriffe ignorieren die Schadensreduktion des Ziels. Normale Angriffe verursachen mit 15% Wahrscheinlichkeit zusätzlich ??? physischen Schaden und betäuben für 1 Sek.",
+      "thumbnail": "heroes/Naila/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Bei Verwendung wird immun gegen Massenkontrolle.",
+          "thumbnail": "heroes/Naila/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Erhöht 10 Sek. lang den erhaltenen Körp. Schaden des getroffenen Ziels um 25 %.",
+          "thumbnail": "heroes/Naila/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Erhöht die Manakosten um 1 und entfernt beim Aktivieren des Skills alle positiven Effekte.",
+          "thumbnail": "heroes/Naila/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Die max. Erhöhter Krit. Schaden-Effekt-Stapelungen werden auf 20 erhöht.",
+          "thumbnail": "heroes/Naila/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht den Schaden um 40 %.",
+          "thumbnail": "heroes/Naila/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Verringert 10 Sek. lang die Regenerationsrate des getroffenen Gegners um 40 %.",
+          "thumbnail": "heroes/Naila/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht den Normatreffer-Schaden um 25 % und verringert den Cooldown aller Skills um 2 Sek.",
+          "thumbnail": "heroes/Naila/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Mit jedem Kampfbeginn erhöht sich 20 Sek. lang die eigene VERT-Durchdringung um 400. Wird es im Gildenkrieg aktiviert, so wird 10 Sek. lang Massenkontroll-Immunität gewährt. Der Erhöhte VERT-Durchdr.-Effekt kann nicht entfernt werden.",
+          "thumbnail": "heroes/Naila/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Chance +100",
+        "thumbnail": "heroes/Naila/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht bei einem Krit. Treffer 10 Sek. lang den eigenen ANG um 3 % und Körp. Ausweichen um 30. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "thumbnail": "heroes/Naila/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Verfluchte Klauen, Baroro",
+    "description": "Bei einem Krit. Treffer wird 10 Sek. lang der erhaltene Körp. Schaden um {0} % erhöht und der Massenkontroll-Widerstand um {1} verringert. Wenn es sich bei dem Ziel um ein Bossmonster handelt, erhöht sich der erhaltene Boss-Schaden um {2} %. Der erhaltene Boss-Schaden-Effekt kann bis zu 10 mal gestapelt werden.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      },
+      "2": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.9",
+        "3": "3.5",
+        "4": "4.2",
+        "5": "5"
+      }
+    },
+    "thumbnail": "heroes/Naila/uw.png",
+    "story": "Ein verfluchtes Paar Kampfhandschuhe aus den Klauen des Wahnsinnigen Dämons Baroro, der während des Kriegs besiegt worden war. Die Handschuhe sind um ein Vielfaches größer als menschliche Hände und verbinden sich direkt mit dem Nervensystem ihres Trägers, wodurch dieser sie ohne Anstrengung führen kann. Sie verfügen zwar über eine immense Kraft, doch korrumpieren auch den Verstand ihres Trägers und fressen dessen Seele langsam auf. Nur ein Krieger mit wahrhaft edlen Absichten, einem starken Willen und einem unsterblichen Geist vermag es, mit diesen verfluchten Waffen umzugehen. Sie sind die perfekten Waffen für einen Krieger mit starkem Willen, der selbst in der Dunkelheit des Abgrunds zu strahlen vermag.",
+    "descriptionByStar": {
+      "0": "Bei einem Krit. Treffer wird 10 Sek. lang der erhaltene Körp. Schaden um 20 % erhöht und der Massenkontroll-Widerstand um 200 verringert. Wenn es sich bei dem Ziel um ein Bossmonster handelt, erhöht sich der erhaltene Boss-Schaden um 2 %. Der erhaltene Boss-Schaden-Effekt kann bis zu 10 mal gestapelt werden.",
+      "1": "Bei einem Krit. Treffer wird dem Feind 10 Sek. lang konstant Schaden (180 %) zugefügt. Der Feind erleidet 24 % erhöhten Körp. Schaden während der Wirkungsdauer.",
+      "2": "Bei einem Krit. Treffer wird dem Feind 10 Sek. lang konstant Schaden (216 %) zugefügt. Der Feind erleidet 28 % erhöhten Körp. Schaden während der Wirkungsdauer.",
+      "3": "Bei einem Krit. Treffer wird dem Feind 10 Sek. lang konstant Schaden (258 %) zugefügt. Der Feind erleidet 34 % erhöhten Körp. Schaden während der Wirkungsdauer.",
+      "4": "Bei einem Krit. Treffer wird dem Feind 10 Sek. lang konstant Schaden (310 %) zugefügt. Der Feind erleidet 41 % erhöhten Körp. Schaden während der Wirkungsdauer.",
+      "5": "Bei einem Krit. Treffer wird dem Feind 10 Sek. lang konstant Schaden (500 %) zugefügt. Der Feind erleidet 50 % erhöhten Körp. Schaden während der Wirkungsdauer."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Seele des Windes",
+      "description": "[Heftige Winde] Erhöht den Schaden um 50%. Kritische Treffer verringern Mana um {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
+      "thumbnail": "heroes/Naila/ut/1.png",
+      "story": "In diesem Bernstein ist ein riesiger Tornado eingeschlossen. Es handelt sich dabei um einen Schatz der Harpyien.\nEiner Legende nach ist es eine Windböe, die von der göttlichen Bestie Tyrfas vor Wut heraufbeschworen wurde, allerdings kam sie mit dem Saft des heiligen Baumes in Berührung und wurde so in Bernstein verwandelt. Mit der Zeit teilte sich der Bernstein in mehrere Fragmente auf, aber die Windböe im Inneren flaute nie ab. Die Harpyien halten sie für himmlisch und nennen sie die Seele des Windes.",
+      "descriptionByStar": {
+        "0": "[Heftige Winde] Erhöht den Schaden um 50%. Kritische Treffer verringern Mana um 200.",
+        "1": "[Wilder Wind] erhöht den Schaden um 50 % und verringert Körp. Ausweichen des Ziels 10 Sek. lang um 240.",
+        "2": "[Wilder Wind] erhöht den Schaden um 50 % und verringert Körp. Ausweichen des Ziels 10 Sek. lang um 290.",
+        "3": "[Wilder Wind] erhöht den Schaden um 50 % und verringert Körp. Ausweichen des Ziels 10 Sek. lang um 350.",
+        "4": "[Wilder Wind] erhöht den Schaden um 50 % und verringert Körp. Ausweichen des Ziels 10 Sek. lang um 420.",
+        "5": "[Wilder Wind] erhöht den Schaden um 50 % und verringert Körp. Ausweichen des Ziels 10 Sek. lang um 500."
+      }
+    },
+    "2": {
+      "name": "Himmullis’ Schal",
+      "description": "[Wind lesen] kann keine Effekte mehr entfernen und heilt bei Aktivierung die eigenen TP um {0} % der max. TP.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Naila/ut/2.png",
+      "story": "Der Schal, den der tote Himmullis trug. Naila trägt ihn immer bei sich.\nHimmullis predigte Naila immer wieder, dass sie stolz darauf sein solle, eine Harpyie zu sein. \nDer Schal enthält die Trauer über den Verlust von Familie, was Naila wütend macht.",
+      "descriptionByStar": {
+        "0": "[Wind lesen] kann keine Effekte mehr entfernen und heilt bei Aktivierung die eigenen TP um 10 % der max. TP.",
+        "1": "[Wind lesen] erhöht den ANG-Boost um 50 % und Mag. Ausweichen um 120.",
+        "2": "[Wind lesen] erhöht den ANG-Boost um 50 % und Mag. Ausweichen um 140.",
+        "3": "[Wind lesen] erhöht den ANG-Boost um 50 % und Mag. Ausweichen um 170.",
+        "4": "[Wind lesen] erhöht den ANG-Boost um 50 % und Mag. Ausweichen um 210.",
+        "5": "[Wind lesen] erhöht den ANG-Boost um 50 % und Mag. Ausweichen um 250."
+      }
+    },
+    "3": {
+      "name": "Stolz des Windes",
+      "description": "[Sturzflug] verringert die Manakosten um 1 und erhöht den Schaden um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Naila/ut/3.png",
+      "story": "Ein Ritualopfer uralter Religionsangehöriger, die den Wind anbeteten. Es ist ein unter den Harpyien ein wertvoller Schatz und es heißt, dass es dem mächtigsten Harpyienkrieger verliehen wird. In dem Moment, in dem man die Maske trägt, kann man den Wind nutzen. Außerdem verleiht es die Fähigkeit, mit Lichtgeschwindigkeit anzugreifen.",
+      "descriptionByStar": {
+        "0": "[Sturzflug] verringert die Manakosten um 1 und erhöht den Schaden um 20 %.",
+        "1": "[Sturzflug] verringert Skill-Cooldown um 30 % und Ziel erleidet 10 Sek. lang 12 % mehr Körp. Schaden.",
+        "2": "[Sturzflug] verringert Skill-Cooldown um 30 % und Ziel erleidet 10 Sek. lang 14 % mehr Körp. Schaden.",
+        "3": "[Sturzflug] verringert Skill-Cooldown um 30 % und Ziel erleidet 10 Sek. lang 17 % mehr Körp. Schaden.",
+        "4": "[Sturzflug] verringert Skill-Cooldown um 30 % und Ziel erleidet 10 Sek. lang 21 % mehr Körp. Schaden.",
+        "5": "[Sturzflug] verringert Skill-Cooldown um 30 % und Ziel erleidet 10 Sek. lang 25 % mehr Körp. Schaden."
+      }
+    },
+    "4": {
+      "name": "Grüne Schleife",
+      "description": "[Tornadoschlag] Erhöht die Chance auf zusätzlichen Schaden um 10%. Bei Aktivierung im Gildenkrieg wird zusätzlicher physischer Schaden in Höhe von {0}% der maximalen LP des Ziels verursacht.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Naila/ut/4.png",
+      "story": "Eine Schleife, der die Anmut des Wind-Elementars innewohnt.\nSelene gab Naila diese Schleife, die so schnell sein wollte wie der Wind.\nSie wurde mit einem Zauber von Notos, dem Wind-Elementar, belegt und gewährt ihrem Träger Tempo und Stärke, wenn er einen Feind trifft.",
+      "descriptionByStar": {
+        "0": "[Tornadoschlag] Erhöht die Chance auf zusätzlichen Schaden um 10%. Bei Aktivierung im Gildenkrieg wird zusätzlicher physischer Schaden in Höhe von 10% der maximalen LP des Ziels verursacht.",
+        "1": "[Tornadoschlag] verringert für 10 Sek. Körp. Blockchance des Ziels um 500 und Körp. Ausweichen um 240.",
+        "2": "[Tornadoschlag] verringert für 10 Sek. Körp. Blockchance des Ziels um 500 und Körp. Ausweichen um 290.",
+        "3": "[Tornadoschlag] verringert für 10 Sek. Körp. Blockchance des Ziels um 500 und Körp. Ausweichen um 350.",
+        "4": "[Tornadoschlag] verringert für 10 Sek. Körp. Blockchance des Ziels um 500 und Körp. Ausweichen um 420.",
+        "5": "[Tornadoschlag] verringert für 10 Sek. Körp. Blockchance des Ziels um 500 und Körp. Ausweichen um 500."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 5-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört die Seele von Verfluchte Klauen, Baroro und erhöht den eigenen ANG 10 Sek. lang um 40 %. Während der Wirkungsdauer wird den Feinden an der Front pro 3 Sek. ??? Körp. Schaden zugefügt und die getroffene Feinde werden 5 Sek. lang unter Baroro-Fluch gestellt, wobei der erhaltene Körp. Schaden um 30 % erhöht und die Heilungsrate um 30 % verringert wird. Wenn es sich bei dem Ziel um ein Bossmonster handelt, wird der Baroro-Fluch um das 1.5-Fache erhöht.",
+    "cooldown": "23",
+    "uses": "6",
+    "thumbnail": "heroes/Naila/sw.png",
+    "advancement": {
+      "1": "Der getroffene Gegner wird 3 Sek. lang versteinert.",
+      "2": "Verwendungsbedingungen werden auf 4-mal geändert und die Seelen-Wirkungsdauer erhöht sich um 3 Sek."
+    },
+    "story": "Der böse Geist Baroro war ein böses und erbärmliches Wesen. Er hat das Dämonenkrieg verloren, gab aber sein Fehlschlagen nie zu. Daraufhin ist er von ein paar Handstulpen besessen worden, die aus seinen Krallen gemacht wurde, um seine lahme Zähigkeit zu erreichen. Danach aß Baroro die Gedanken und die Seelen derjenigen, die die Stulpe benutzten, und ließ sie als Gastgeber fungieren, um die kostbaren Dinge unschuldiger Menschen zu zerstören, und ihre Seele und ihr Blut zu holen. Der aktuelle Verwender unterscheidet sich jedoch von den anderen Besitzer. Sie ist eine Harpie, aber sie hält die mentalen Attacken aus und geht mit den Handstulpen um, wie sie will. Darüber hinaus überwältigten ihr edler Glaube und der Wille des strahlenden Lichts den bösen Geist Baroro. Schließlich gibt Baroro ihrer starken Mentalität nach und kämpft für sie als das Böse, das die Dunkelheit frisst."
+  },
+  "splashart": "heroes/Naila/sa.png",
+  "costumes": "heroes/Naila/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

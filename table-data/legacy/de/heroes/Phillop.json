@@ -1,0 +1,228 @@
+{
+  "id": "Phillop",
+  "profile": {
+    "name": "Phillop",
+    "title": "Zwergenkönig Phillop",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "600",
+    "damage_type": "Physical",
+    "gender": "Männlich",
+    "age": "328",
+    "height": "156",
+    "race": "Zwerge",
+    "constellation": "Kandala, der Eroberer",
+    "birth": {
+      "month": 8,
+      "day": 5,
+      "monthName": "Monat der Lebenskraft"
+    },
+    "like": "Drinks; Sandbäder; Schmiedekunst und Handwerk",
+    "dislike": "Lange Konferenzen; den königlichen Thron; Dämonen (vor allem Draconics)",
+    "story": "Er ist der tapfere und aufrichtige König der Zwerge. Gemeinsam mit dem Krieger des Heiligen Schwertes kämpfte er vor 100 Jahren gegen die Dunkle Macht. Für seine Heldentat, den Sieg über die Dunkle Drachenlegion, das Herzstück der Dunkle Macht, ist er im ganzen Land bekannt. Doch in Wahrheit sitzt er nur aus Pflichtbewusstsein auf seinem Thron. Selbst wenn er sich über die Eintönigkeit seiner königlichen Pflichten beschwert, erledigt er sie dennoch stets mit großer Sorgfalt.",
+    "thumbnail": "heroes/Phillop/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Zusammenstoß",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Fügt ??? Körp. Schaden zu und wirft den Feind für 3 Sek. zu Boden. Verringert 10 Sek. lang die Körp. VERT des Ziels um 50 %.",
+      "thumbnail": "heroes/Phillop/skills/1.png"
+    },
+    "2": {
+      "name": "Kopfnuß",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Prescht zum Feind vor und verursacht ??? Körp. Schaden. Verringert 10 Sek. lang den ANG getroffener Feinde um 25 % und die ANG-GESCHW. um 200.",
+      "thumbnail": "heroes/Phillop/skills/2.png"
+    },
+    "3": {
+      "name": "Eins mit der Erde",
+      "cost": "3",
+      "cooldown": "22",
+      "description": "Erhöht 15 Sek. lang alle eigene VERT um ???, erhöht alle Schaden-Verringerungen um 250, regeneriert 15 % TP und verleiht Massenkontroll-Immunität. Dieser Effekt kann nicht entfernt werden.",
+      "thumbnail": "heroes/Phillop/skills/3.png"
+    },
+    "4": {
+      "name": "Rüstung zerreißen",
+      "cost": null,
+      "cooldown": null,
+      "description": "Verringert beim Angriff die Körp. VERT des Feindes um ??? für 15 Sek. Kann bis zu 5mal gestapelt werden.",
+      "thumbnail": "heroes/Phillop/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht VERT-Erhöhungsrate um 10 %.",
+      "III": "Erhöht VERT-Erhöhungsrate um 15 %.",
+      "IV": "Erhöht den VERT-Boost 25 %."
+    },
+    "4": {
+      "II": "Erhöht VERT-Reduzierungsrate um 10 %.",
+      "III": "Erhöht VERT-Reduzierungsrate um 15 %.",
+      "IV": "Verringert feindliche Körp. Ausweichen um 10 % pro Stapelung."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Phillop/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Reduziert Cooldown um 10 % für jeden Treffer.",
+          "thumbnail": "heroes/Phillop/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verursacht 10 % der max. TP als zusätzlichen Körp. Schaden.",
+          "thumbnail": "heroes/Phillop/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Zurückwerfen-Effekt ändert sich zu 3 Sek.-Betäubung.",
+          "thumbnail": "heroes/Phillop/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Fügt Feinden in Reichw. 1 % der max. TP als Schaden/Sek. zu.",
+          "thumbnail": "heroes/Phillop/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Ändert Effekt zu einem Angriff, der Feinde in Reichw. 3 Sek. lang betäubt.",
+          "thumbnail": "heroes/Phillop/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Feinde mit 5 Stapeln erleiden 1 % extra Körp. Schaden, basierend auf den max TP pro Angriff.",
+          "thumbnail": "heroes/Phillop/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Alle positiven Effekte werden beim Angriff entfernt und das Ziel erhält für 20 Sek. 20 % mehr Körp. Schaden. 20 Sek. Cooldown.",
+          "thumbnail": "heroes/Phillop/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Körp. Blockchance +200",
+        "thumbnail": "heroes/Phillop/perks/light.png"
+      },
+      "dark": {
+        "effect": "10 % Chance, bei einem normalen Angriff den Feind für 2 Sek. zu betäuben und extra Schaden in Höhe von 10 % der eigenen TP zu verursachen.",
+        "thumbnail": "heroes/Phillop/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Drachenruinen, Atein",
+    "description": "Erhöht 3 Sek. lang alle VERT aller Verbündeten außer des Wirkers um 10 % und stapelt beim Wirker 1 Drachenwut, immer wenn er Schaden erleidet. Drachenwut kann bis zu 100-mal gestapelt werden und pro Stapel steigen 10 Sek. lang sein ANG und seine VERT um 0,8 %.",
+    "value": {},
+    "thumbnail": "heroes/Phillop/uw.png",
+    "story": "Die Draconics sind Dämonen, die erschaffen wurden, um die Drachen, die Richter der Welt, zu erschlagen. Während des Krieges vor 100 Jahren töteten und verschlangen diese Draconics zahllose Drachen. Ein paar der überlebenden Drachen wurden vor Zorn und Schande wahnsinnig und verwandelten sich in Wahnsinnige Drachen. Nun sind sie nichts weiter als riesige Monster, die von ihren zerstörerischen Instinkten angetrieben werden. Phillop und seine Zwerge jagten die Draconics und die Wahnsinnigen Drachen seit dem Dämonenkrieg und sammeln deren Überreste, um legendäre Gegenstände zu schmieden.",
+    "descriptionByStar": {
+      "0": "Erhöht 3 Sek. lang alle VERT aller Verbündeten außer des Wirkers um 10 % und stapelt beim Wirker 1 Drachenwut, immer wenn er Schaden erleidet. Drachenwut kann bis zu 100-mal gestapelt werden und pro Stapel steigen 10 Sek. lang sein ANG und seine VERT um 0,8 %.",
+      "1": "Erhöht 3 Sek. lang alle VERT aller Verbündeten außer des Wirkers um 12 % und stapelt beim Wirker 1 Drachenwut, immer wenn er Schaden erleidet. Drachenwut kann bis zu 100-mal gestapelt werden und pro Stapel steigen 10 Sek. lang sein ANG und seine VERT um 1 %.",
+      "2": "Erhöht 3 Sek. lang alle VERT aller Verbündeten außer des Wirkers um 14 % und stapelt beim Wirker 1 Drachenwut, immer wenn er Schaden erleidet. Drachenwut kann bis zu 100-mal gestapelt werden und pro Stapel steigen 10 Sek. lang sein ANG und seine VERT um 1,2 %.",
+      "3": "Erhöht 3 Sek. lang alle VERT aller Verbündeten außer des Wirkers um 17 % und stapelt beim Wirker 1 Drachenwut, immer wenn er Schaden erleidet. Drachenwut kann bis zu 100-mal gestapelt werden und pro Stapel steigen 10 Sek. lang sein ANG und seine VERT um 1,4 %.",
+      "4": "Erhöht 3 Sek. lang alle VERT aller Verbündeten außer des Wirkers um 21 % und stapelt beim Wirker 1 Drachenwut, immer wenn er Schaden erleidet. Drachenwut kann bis zu 100-mal gestapelt werden und pro Stapel steigen 10 Sek. lang sein ANG und seine VERT um 1,7 %.",
+      "5": "Erhöht 3 Sek. lang alle VERT aller Verbündeten außer des Wirkers um 25 % und stapelt beim Wirker 1 Drachenwut, immer wenn er Schaden erleidet. Drachenwut kann bis zu 100-mal gestapelt werden und pro Stapel steigen 10 Sek. lang sein ANG und seine VERT um 2 %."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Schilddekoration des Wahnsinnigen Drachen",
+      "description": "[Zusammenstoß] verringert 10 Sek. lang den Massenkontroll-Widerstand des Ziels um 250 und Körp. Blockchance um 200.",
+      "value": {},
+      "thumbnail": "heroes/Phillop/ut/1.png",
+      "story": "Eine goldene Schilddekoration, auf der das Bild eines Wahnsinnigen Drachen eingraviert ist.\nZwergische Meisterhandwerker haben sie König Phillop als Geschenk für seine beeindruckende Jagd auf Wahnsinnige Drachen übergeben. Phillop brachte sie nicht an seinem Schild an, da sie etwas zu edel für den Einsatz im Kampf war, aber er trägt sie immer als Glücksbringer bei sich.",
+      "descriptionByStar": {
+        "0": "[Zusammenstoß] verringert 10 Sek. lang den Massenkontroll-Widerstand des Ziels um 250 und Körp. Blockchance um 200.",
+        "1": "[Zusammenstoß] verringert 10 Sek. lang den Massenkontroll-Widerstand des Ziels um 250 und Körp. Blockchance um 240.",
+        "2": "[Zusammenstoß] verringert 10 Sek. lang den Massenkontroll-Widerstand des Ziels um 250 und Körp. Blockchance um 290.",
+        "3": "[Zusammenstoß] verringert 10 Sek. lang den Massenkontroll-Widerstand des Ziels um 250 und Körp. Blockchance um 350.",
+        "4": "[Zusammenstoß] verringert 10 Sek. lang den Massenkontroll-Widerstand des Ziels um 250 und Körp. Blockchance um 420.",
+        "5": "[Zusammenstoß] verringert 10 Sek. lang den Massenkontroll-Widerstand des Ziels um 250 und Körp. Blockchance um 500."
+      }
+    },
+    "2": {
+      "name": "Zwergischer Steinbockhelm",
+      "description": "[Kopfnuss] verringert die Manakosten um 1 und den Körp. Krit. Widerstand des betroffenen Feindes 10 Sek. lang um 200.",
+      "value": {},
+      "thumbnail": "heroes/Phillop/ut/2.png",
+      "story": "Der Steinbockhelm des uralten Zwergenkönigs. \nEr wurde aus dem Gold von Drachen geschaffen, das nach dem Sieg über den dunklen Drachen Bokrug geborgen wurde. Das prächtige goldene Horn des Helms ist mit dunkler Drachenmagie durchwirkt, die einen Feind verlangsamt, der von „Kopfnuss“ getroffen wurde.",
+      "descriptionByStar": {
+        "0": "[Kopfnuss] verringert die Manakosten um 1 und den Körp. Krit. Widerstand des betroffenen Feindes 10 Sek. lang um 200.",
+        "1": "[Kopfnuss] verringert die Manakosten um 1 und den Körp. Krit. Widerstand des betroffenen Feindes 10 Sek. lang um 240.",
+        "2": "[Kopfnuss] verringert die Manakosten um 1 und den Körp. Krit. Widerstand des betroffenen Feindes 10 Sek. lang um 290.",
+        "3": "[Kopfnuss] verringert die Manakosten um 1 und den Körp. Krit. Widerstand des betroffenen Feindes 10 Sek. lang um 350.",
+        "4": "[Kopfnuss] verringert die Manakosten um 1 und den Körp. Krit. Widerstand des betroffenen Feindes 10 Sek. lang um 420.",
+        "5": "[Kopfnuss] verringert die Manakosten um 1 und den Körp. Krit. Widerstand des betroffenen Feindes 10 Sek. lang um 500."
+      }
+    },
+    "3": {
+      "name": "Zeremonienhammer der Zwergen",
+      "description": "[Eins mit der Erde] erhöht eigene ANG-GESCHW. und Krit. Chance um 250, Körp. VERT-Boost erhöht sich um 20 % während der Wirkungsdauer.",
+      "value": {},
+      "thumbnail": "heroes/Phillop/ut/3.png",
+      "story": "Ein Hammer, den der uralte Zwergenkönig als Geschenk von einem Erdelementar erhielt. Er war ein Geschenk, das der König dafür erhielt, dass er das Königreich der Gnome vor den Angriffen des bösartigen Erddrachen Azi Dhaka beschützte. Beim Einsatz von „Eins mit der Erde“ erhöht dieser mit dem Segen des Erdgeistes durchwirkte Zeremonienhammer die VERT durch die Macht des Erdgeistes und verleiht Immunität gegen TP-Erholung und Immun gegenüber Massenkontrolle.",
+      "descriptionByStar": {
+        "0": "[Eins mit der Erde] erhöht eigene ANG-GESCHW. und Krit. Chance um 250, Körp. VERT-Boost erhöht sich um 20 % während der Wirkungsdauer.",
+        "1": "[Eins mit der Erde] erhöht eigene ANG-GESCHW. und Krit. Chance um 250, Körp. VERT-Boost erhöht sich um 24 % während der Wirkungsdauer.",
+        "2": "[Eins mit der Erde] erhöht eigene ANG-GESCHW. und Krit. Chance um 250, Körp. VERT-Boost erhöht sich um 29 % während der Wirkungsdauer.",
+        "3": "[Eins mit der Erde] erhöht eigene ANG-GESCHW. und Krit. Chance um 250, Körp. VERT-Boost erhöht sich um 35 % während der Wirkungsdauer.",
+        "4": "[Eins mit der Erde] erhöht eigene ANG-GESCHW. und Krit. Chance um 250, Körp. VERT-Boost erhöht sich um 42 % während der Wirkungsdauer.",
+        "5": "[Eins mit der Erde] erhöht eigene ANG-GESCHW. und Krit. Chance um 250, Körp. VERT-Boost erhöht sich um 50 % während der Wirkungsdauer."
+      }
+    },
+    "4": {
+      "name": "Titanhammer",
+      "description": "[Rüstung zerreißen] verringert bei einem Angriff pro Zähler den ANG des Ziels um 20 % und die Heilungsrate um 4 %.",
+      "value": {},
+      "thumbnail": "heroes/Phillop/ut/4.png",
+      "story": "Ein Hammer aus Titan, dem legendären Metall, das von Riesen geschmiedet wird.\nEr ist mächtig genug, um jede legendäre Waffe und Rüstung zu zerstören. Seit dem Ende des Dämonenkriegs gibt es in Orvelia nur noch 3 bekannte Exemplare.",
+      "descriptionByStar": {
+        "0": "[Rüstung zerreißen] verringert bei einem Angriff pro Zähler den ANG des Ziels um 20 % und die Heilungsrate um 4 %.",
+        "1": "[Rüstung zerreißen] verringert bei einem Angriff pro Zähler den ANG des Ziels um 20 % und die Heilungsrate um 4,8 %.",
+        "2": "[Rüstung zerreißen] verringert bei einem Angriff pro Zähler den ANG des Ziels um 20 % und die Heilungsrate um 5,8 %.",
+        "3": "[Rüstung zerreißen] verringert bei einem Angriff pro Zähler den ANG des Ziels um 20 % und die Heilungsrate um 7 %.",
+        "4": "[Rüstung zerreißen] verringert bei einem Angriff pro Zähler den ANG des Ziels um 20 % und die Heilungsrate um 8,4 %.",
+        "5": "[Rüstung zerreißen] verringert bei einem Angriff pro Zähler den ANG des Ziels um 20 % und die Heilungsrate um 10 %."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 23 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört 10 Sek. lang die Seele von Drachenruinen, Atein und erhöht während der Wirkungsdauer die eigene VERT um 60 %. Weiterhin wird mit jedem Normal-ANG zus. Körp. Schaden in Höhe von 1 % von den eigenen max. TP zugefügt und die eigenen verwendeten Skills werden gestärkt.\n[Zusammenstoß] fügt dem Gegner ??? zus. Körp. Schaden zu und der erhaltene Körp. Schaden des Gegners wird 10 Sek. lang um 20 % erhöht.\n[Kopfnuß] fügt den Gegnern zus. Körp. Schaden in Höhe von 10 % von den eigenen max. TP zu.\n[Eins mit der Erde] Skill-Aktivierung regeneriert sofort TP in Höhe von 20 % der max. TP.",
+    "cooldown": "24",
+    "uses": "6",
+    "thumbnail": "heroes/Phillop/sw.png",
+    "advancement": {
+      "1": "Die Seelen-Wirkungsdauer erhöht sich um 5 Sek.",
+      "2": "Während der Wirkungsdauer wird bei einem Normal-ANG basierend auf den max. TP der Körp. Schaden auf 2 % geändert und die Körp. VERT-Verringerung des [Rüstung zerreißen]-Skills um 50 % erhöht."
+    },
+    "story": "Phillop machte sich Sorgen, da mit der Zeit die mächtige dunkle Energie in Atein zunahm.\nDa die Überreste von schlammigen Kreaturen wie Draconis und Wahnsinnige Drachen eine Menge übler Verunreinigungen enthalten, sind die damit hergestellten Waffen sehr mächtig. Wenn diese Waffen jedoch falsch eingesetzt werden, besteht die Gefahr, dass der Besitzer der Waffe von ihr dominiert wird.\nPhillop hat versucht mithilfe einer Reihe von Möglichkeiten, die Energie von Atein zu unterdrücken, aber es ist nur eine vorübergehende Lösung und wird das Problem nicht so schnell aus dem Weg schaffen.\n\nEr verbrachte Tage damit, darüber nachzudenken, was das Mächtigste wäre, um die schlechte Energie wegzudrängen. Schließlich kam er zu dem Entschluss, dass die starken Zwerge selbst die Lösung wären, da sie die meisten Draconics und Wahnsinnige Drachen getötet haben.\nDaraufhin hat Phillop das Horn, das der erste Zwergenkönig hinterlassen hatte, gemahlen und es Atein hinzugefügt.\n\nDas Ergebnis war ein großes Erfolg.\nDie Überreste wurden von der starken Energie des Zwergenkönigs überwältigt und gaben seinem Herren nach.\nSolange die Seele des einst mächtigsten Zwergen an seiner Seite ist, hat er nichts zu befürchten.\nJedes Mal, wenn er Atein einsetzt, lächelt ein anderer Zwergenkönig mit Würde."
+  },
+  "splashart": "heroes/Phillop/sa.png",
+  "costumes": "heroes/Phillop/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "id": "Kaulah",
+  "profile": {
+    "name": "Kaulah",
+    "title": "Blitzschamane Kaulah",
+    "class": "Priest",
+    "position": "Back-100",
+    "attack_range": "800",
+    "damage_type": "Magical",
+    "gender": "Männlich",
+    "age": "46",
+    "height": "210",
+    "race": "Orks",
+    "constellation": "Lasiphil, die Prophetin",
+    "birth": {
+      "month": 3,
+      "day": 11,
+      "monthName": "Monat der Einsicht"
+    },
+    "like": "Verwandte; Weltfrieden",
+    "dislike": "Malduk; Krieg",
+    "story": "Dieser große Ork-Schamane verfügt über die Stromkraft. Er ist der Häuptling des Himmelwind-Stammes und ein respektierter Ältester der Ork-Allianz. Zahllose Ork-Schamanen wurden von ihm ausgebildet und er wird als deren spiritueller Anführer angesehen. Er ist einer der wenigen Schamanen mit hellseherischen Träumen und auch weise genug, sie richtig zu deuten.",
+    "thumbnail": "heroes/Kaulah/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Blitzstrahl",
+      "cost": "3",
+      "cooldown": "10",
+      "description": "Greift einen zufälligen Feind [64ffff]148(1+0.3Skill Level)+93.4% of Attack Power[-]-mal an, verursacht mit jedem Treffer [ffc800]5[-] Mag. Schaden und elektrifiziert den Feind. Wenn das Ziel bereits elektr. ist, wird er für [64ffff]1.8[-] Sek. betäubt.",
+      "thumbnail": "heroes/Kaulah/skills/1.png"
+    },
+    "2": {
+      "name": "Heilender Regen",
+      "cost": "2",
+      "cooldown": "11",
+      "description": "Stellt für 6 Sek. alle 1 Sek. 384(1+0.3Skill Level)+240% of Attack Power LP wieder her. Während der Fähigkeit sind keine anderen Aktionen möglich, aber alle Verbündeten erleiden 25% weniger Magieschaden.",
+      "thumbnail": "heroes/Kaulah/skills/2.png"
+    },
+    "3": {
+      "name": "Flinker Wind",
+      "cost": "4",
+      "cooldown": "14",
+      "description": "Erhöht für 7 Sek. den ANG aller Verbündeten um 206(1+0.3Skill Level), ihr Angriffstempo um 42% und ihre Krit.-Chance um 420.",
+      "thumbnail": "heroes/Kaulah/skills/3.png"
+    },
+    "4": {
+      "name": "Kettenblitz",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Fügt 4 Gegnern 174(1+0.3Skill Level)+109.2% of Attack Power Magieschaden zu und belegt sie für 20 Sek. mit [Stromschlag]. Kritische Treffer betäuben das Ziel für 0.6 Sek. Jeder Gegner unter [Stromschlag] reduziert den vom Wirker erlittenen Schaden um 15%, bis zu 3 Stapeln. [Stromschlag]: Verursacht für 20 Sek. alle 1 Sek. Magieschaden in Höhe von 25% des ANG.",
+      "thumbnail": "heroes/Kaulah/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Krit. Chance um [64ff64]250[-] %."
+    },
+    "2": {
+      "II": "Erhöht Heilungsrate um [64ff64]10[-] %.",
+      "III": "Erhöht Heilungsrate um [64ff64]15[-] %.",
+      "IV": "Reduziert eingehenden Schaden um [ff6464]25[-] % während der Zauberwirkung und verleiht Massenkontroll-Immunität."
+    },
+    "3": {
+      "II": "Erhöht ANG-Boost um [64ff64]10[-] %.",
+      "III": "Erhöht ANG-Boost um [64ff64]15[-] %.",
+      "IV": "Erhöht Krit. Chance um [64ff64]25[-] % während der Wirkungsdauer."
+    },
+    "4": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1000.",
+          "thumbnail": "heroes/Kaulah/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Ziel nimmt 10 Sek. lang 30 % erhöhten Mag. Schaden.",
+          "thumbnail": "heroes/Kaulah/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Während des Wirkens bist du gegen Statusveränderungen immun.",
+          "thumbnail": "heroes/Kaulah/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Die MP-Kosten steigen um 1000. Jede Heilung stellt zusätzlich 5% der max. LP des Ziels wieder her.",
+          "thumbnail": "heroes/Kaulah/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Stellt allen Verbündeten 1000 Mana wieder her.",
+          "thumbnail": "heroes/Kaulah/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Alle Effekte können nicht entfernt werden.",
+          "thumbnail": "heroes/Kaulah/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Sorgt dafür, dass Elektrischer Schock nicht entfernt werden kann.",
+          "thumbnail": "heroes/Kaulah/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Entfernt positive Effekte des Ziels, wenn bei Aktivierung weniger als {1} Gegner da sind.",
+          "thumbnail": "heroes/Kaulah/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Chance +100",
+        "thumbnail": "heroes/Kaulah/perks/light.png"
+      },
+      "dark": {
+        "effect": "Beim Erleiden von Schaden wird die ANG-GESCHW. des angreifenden Feindes für {1} Sek. um {2} verringert und die MP mit jeder Sek. um {3} verringert. Dieser Effekt wird nur einmal alle {4} Sek. aktiviert.",
+        "thumbnail": "heroes/Kaulah/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Blauwind, Coventina",
+    "description": "Fügt bei einem Normal-ANG mit einer Chance von {0} % 2 zufälligen Feinden Mag. Schaden in Höhe von {1} % des ANG zu und verringert 10 Sek. lang den ANG um {2} %. Wenn das Ziel bereits von Elektrischer Schock betroffen ist, wird es für 2 Sek. betäubt.",
+    "value": {
+      "0": {
+        "0": "12",
+        "1": "14",
+        "2": "17",
+        "3": "21",
+        "4": "25",
+        "5": "30"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      },
+      "2": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
+    "thumbnail": "heroes/Kaulah/uw.png",
+    "story": "Ein Stab in Gestalt des vierflügeligen Donnervogels. Er wurde tatsächlich aus einer Feder eines Donnervogels hergestellt, einer Bestie, die den Himmelwind-Orks heilig ist. Der Stab hat die Macht, mit dem Himmel zu kommunizieren, das Wetter zu lesen und die Luft zu kontrollieren. Für einen Himmelwind-Schamanen, der die Stromkraft nützt, ist dieser Stab der ultimative Gegenstand.",
+    "descriptionByStar": {
+      "0": "Fügt bei einem Normal-ANG mit einer Chance von 12 % 2 zufälligen Feinden Mag. Schaden in Höhe von 100 % des ANG zu und verringert 10 Sek. lang den ANG um 10 %. Wenn das Ziel bereits von Elektrischer Schock betroffen ist, wird es für 2 Sek. betäubt.",
+      "1": "Fügt bei einem Normal-ANG mit einer Chance von 14 % 2 zufälligen Feinden Mag. Schaden in Höhe von 120 % des ANG zu und verringert 10 Sek. lang den ANG um 12 %. Wenn das Ziel bereits von Elektrischer Schock betroffen ist, wird es für 2 Sek. betäubt.",
+      "2": "Fügt bei einem Normal-ANG mit einer Chance von 17 % 2 zufälligen Feinden Mag. Schaden in Höhe von 140 % des ANG zu und verringert 10 Sek. lang den ANG um 14 %. Wenn das Ziel bereits von Elektrischer Schock betroffen ist, wird es für 2 Sek. betäubt.",
+      "3": "Fügt bei einem Normal-ANG mit einer Chance von 21 % 2 zufälligen Feinden Mag. Schaden in Höhe von 170 % des ANG zu und verringert 10 Sek. lang den ANG um 17 %. Wenn das Ziel bereits von Elektrischer Schock betroffen ist, wird es für 2 Sek. betäubt.",
+      "4": "Fügt bei einem Normal-ANG mit einer Chance von 25 % 2 zufälligen Feinden Mag. Schaden in Höhe von 210 % des ANG zu und verringert 10 Sek. lang den ANG um 21 %. Wenn das Ziel bereits von Elektrischer Schock betroffen ist, wird es für 2 Sek. betäubt.",
+      "5": "Fügt bei einem Normal-ANG mit einer Chance von 30 % 2 zufälligen Feinden Mag. Schaden in Höhe von 250 % des ANG zu und verringert 10 Sek. lang den ANG um 25 %. Wenn das Ziel bereits von Elektrischer Schock betroffen ist, wird es für 2 Sek. betäubt."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Blitzsteinarmreif",
+      "description": "[Blitzstrahl] verringert die Heilungsrate des Ziels um 30 % und seine Mana 10 Sek. lang um {0}.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Kaulah/ut/1.png",
+      "story": "Ein Armreif, der aus einem heiligen Blitzstein hergestellt wurde.\nEr ist außerdem als Träne des Donnergottes bekannt und dient dazu, die Macht des Blitzstrahls zu maximieren. Es wird schon seit Generationen von Ork-Schamanen weitergegeben.",
+      "descriptionByStar": {
+        "0": "[Blitzstrahl] verringert die Heilungsrate des Ziels um 30 % und seine Mana 10 Sek. lang um 100.",
+        "1": "[Blitzstrahl] verringert die Heilungsrate des Ziels um 30 % und seine Mana 10 Sek. lang um 120.",
+        "2": "[Blitzstrahl] verringert die Heilungsrate des Ziels um 30 % und seine Mana 10 Sek. lang um 140.",
+        "3": "[Blitzstrahl] verringert die Heilungsrate des Ziels um 30 % und seine Mana 10 Sek. lang um 170.",
+        "4": "[Blitzstrahl] verringert die Heilungsrate des Ziels um 30 % und seine Mana 10 Sek. lang um 210.",
+        "5": "[Blitzstrahl] verringert die Heilungsrate des Ziels um 30 % und seine Mana 10 Sek. lang um 250."
+      }
+    },
+    "2": {
+      "name": "Donnervogelmaske",
+      "description": "[Heilender Regen] absorbiert {0} % ANG-Schaden und erschafft einen Schild, der 1 Sek. lang Massenkontroll-Immunität gewährt, wenn er bei Verbündeten mit vollen TP eingesetzt wird.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
+      "thumbnail": "heroes/Kaulah/ut/2.png",
+      "story": "Maske des Glück verheißenden Donnervogels, der Regen bringt. \nWenn die Heilenden Tropfen des Himmelswind-Schamanen einmal anfangen, bleibt die Seele des Donnervogels bei denen, die vom Heilenden Regen berührt wurden und heilt ihre müden Knochen.",
+      "descriptionByStar": {
+        "0": "[Heilender Regen] absorbiert 200 % ANG-Schaden und erschafft einen Schild, der 1 Sek. lang Massenkontroll-Immunität gewährt, wenn er bei Verbündeten mit vollen TP eingesetzt wird.",
+        "1": "[Heilender Regen] absorbiert 240 % ANG-Schaden und erschafft einen Schild, der 1 Sek. lang Massenkontroll-Immunität gewährt, wenn er bei Verbündeten mit vollen TP eingesetzt wird.",
+        "2": "[Heilender Regen] absorbiert 290 % ANG-Schaden und erschafft einen Schild, der 1 Sek. lang Massenkontroll-Immunität gewährt, wenn er bei Verbündeten mit vollen TP eingesetzt wird.",
+        "3": "[Heilender Regen] absorbiert 350 % ANG-Schaden und erschafft einen Schild, der 1 Sek. lang Massenkontroll-Immunität gewährt, wenn er bei Verbündeten mit vollen TP eingesetzt wird.",
+        "4": "[Heilender Regen] absorbiert 420 % ANG-Schaden und erschafft einen Schild, der 1 Sek. lang Massenkontroll-Immunität gewährt, wenn er bei Verbündeten mit vollen TP eingesetzt wird.",
+        "5": "[Heilender Regen] absorbiert 500 % ANG-Schaden und erschafft einen Schild, der 1 Sek. lang Massenkontroll-Immunität gewährt, wenn er bei Verbündeten mit vollen TP eingesetzt wird."
+      }
+    },
+    "3": {
+      "name": "Dekorationsfeder der Himmelwinde",
+      "description": "[Flinker Wind] verringert Manakosten um 1 und gewährt {0} % Krit. Schadensboost.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Kaulah/ut/3.png",
+      "story": "Feder eines Donnervogels, dem Wächter von Regen und Donner. Die hochrangigen Schamanen des Himmelwind-Stammes kommunizieren durch die Federn eines Donnervogels. Schamanen nutzen diesen Federschmuck, wenn sie „Flinker Wind“ einsetzen, \num eins mit dem Donnervogel zu werden, was ANG und Angriffsgeschw. aller Verbündeten erhöht.",
+      "descriptionByStar": {
+        "0": "[Flinker Wind] verringert Manakosten um 1 und gewährt 20 % Krit. Schadensboost.",
+        "1": "[Flinker Wind] verringert Manakosten um 1 und gewährt 24 % Krit. Schadensboost.",
+        "2": "[Flinker Wind] verringert Manakosten um 1 und gewährt 29 % Krit. Schadensboost.",
+        "3": "[Flinker Wind] verringert Manakosten um 1 und gewährt 35 % Krit. Schadensboost.",
+        "4": "[Flinker Wind] verringert Manakosten um 1 und gewährt 42 % Krit. Schadensboost.",
+        "5": "[Flinker Wind] verringert Manakosten um 1 und gewährt 50 % Krit. Schadensboost."
+      }
+    },
+    "4": {
+      "name": "Himmelwind-Stein",
+      "description": "[Kettenblitz] verringert die ANG-GESCHW. des Ziels um 250 und erhöht den Mag. Schaden, den es erleidet, für 10 Sek. um {0} %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Kaulah/ut/4.png",
+      "story": "Ein mysteriöser Stein, der den Donnervogel beschwört.\nIn das Innere des legendären Artefaktes, das die Macht des Donnervogels entfesseln kann, ist der Donner-Elementar eingebettet.",
+      "descriptionByStar": {
+        "0": "[Kettenblitz] verringert die ANG-GESCHW. des Ziels um 250 und erhöht den Mag. Schaden, den es erleidet, für 10 Sek. um 10 %.",
+        "1": "[Kettenblitz] verringert die ANG-GESCHW. des Ziels um 250 und erhöht den Mag. Schaden, den es erleidet, für 10 Sek. um 12 %.",
+        "2": "[Kettenblitz] verringert die ANG-GESCHW. des Ziels um 250 und erhöht den Mag. Schaden, den es erleidet, für 10 Sek. um 14 %.",
+        "3": "[Kettenblitz] verringert die ANG-GESCHW. des Ziels um 250 und erhöht den Mag. Schaden, den es erleidet, für 10 Sek. um 17 %.",
+        "4": "[Kettenblitz] verringert die ANG-GESCHW. des Ziels um 250 und erhöht den Mag. Schaden, den es erleidet, für 10 Sek. um 21 %.",
+        "5": "[Kettenblitz] verringert die ANG-GESCHW. des Ziels um 250 und erhöht den Mag. Schaden, den es erleidet, für 10 Sek. um 25 %."
+      }
+    }
+  },
+  "splashart": "heroes/Kaulah/sa.png",
+  "costumes": "heroes/Kaulah/cos",
+  "_localization": {
+    "locale": "de",
+    "version": "ccbt",
+    "englishFallbackFields": []
+  }
+}

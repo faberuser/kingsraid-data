@@ -1,0 +1,228 @@
+{
+  "id": "Dakaris",
+  "profile": {
+    "name": "Dakaris",
+    "title": "Sage of the Lake, Dakaris",
+    "class": "Wizard",
+    "position": "Back-500",
+    "attack_range": "7500",
+    "damage_type": "Magical",
+    "gender": "Male",
+    "age": "53",
+    "height": "242",
+    "race": "Lizardman",
+    "constellation": "Satua the Sage",
+    "birth": {
+      "month": 2,
+      "day": 7,
+      "monthName": "Month of Wisdom"
+    },
+    "like": "His tribe, leisurely reading, fish & seafood dishes",
+    "dislike": "Freedom oppressor, disputer, violence",
+    "story": "As the Empire expanded its territory,\nthe long occupying natives resisted relentlessly.\nHowever, they all eventually fell before the Empire's brutal military force as well as overwhelming technology.\nDakaris' homeland, the reclusive Lake Eretana,\nhidden deep inside the mountains, was no exception.\n\nThe Empire let the natives stay in their land,\nbut by no means were they treated with respect.\nTo make things worse, the officers and nobles appointed to the area were mostly corrupted,\nmaking it even more difficult for the natives.\n\nThe noble appointed to Lake Eretana was especially the worse.\nThe atrocities grew worse each day, eventually leading to the deaths of young, and innocent Lizardmen.\nThis lead Dakaris to gather his tribe to get back their freedom.\n\n'To soothe the spirits of my ancestors, and to liberate my tribe -\nI will not hesitate, I will take back our rightful future with the Resistance.'\n\nCurrently, he is a key member of the Resistance, leading them with his wisdom and insight.",
+    "thumbnail": "heroes/Dakaris/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Judgment Upon Them!",
+      "cost": "2",
+      "cooldown": "3",
+      "description": "Deals ??? M.DMG to an enemy and enemies nearby, inflicting Stun for 1 sec, healing HP of allies within range by ???, and activating [Will of Resistance] that lasts for 3 sec upon self. [Will of Resistance] can be stacked up to max 2 times, and each stack increases DMG dealt by this Skill by 25%. Activating [Grant Me Strength!] resets Cooldown and removes Cooldown up to 3 Skill uses.",
+      "thumbnail": "heroes/Dakaris/skills/1.png"
+    },
+    "2": {
+      "name": "Grant Me Strength!",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Over 10 sec, heals own HP by ??? and recovers 2 orbs of Mana, increasing ATK by ??? for the duration. If own HP is full upon activation, casts a shield that blocks ??? DMG and grants CC Immunity for 5 sec. If there are 3 or less allies, this effect will apply to all allies.",
+      "thumbnail": "heroes/Dakaris/skills/2.png"
+    },
+    "3": {
+      "name": "May Their Agony End!",
+      "cost": "3",
+      "cooldown": "13",
+      "description": "Attacks a random enemy 5 times, dealing ??? M.DMG in total. If the target is not a Hero, deals additional ??? M.DMG. While [Grant Me Strength!] is active, an enemy with highest ATK will be prioritized.",
+      "thumbnail": "heroes/Dakaris/skills/3.png"
+    },
+    "4": {
+      "name": "Might of the Ancestors!",
+      "cost": null,
+      "cooldown": null,
+      "description": "If own HP is full, increases ATK by ???. If not, heals own HP by ??? every sec. Upon taking a fatal damage, consumes entire Mana to cast a shield that blocks ??? DMG and grants CC Immunity for 5 sec. While the shield is active, Dakaris cannot recover Mana.",
+      "thumbnail": "heroes/Dakaris/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Increases DMG by 10%.",
+      "III": "Increases DMG by 15%.",
+      "IV": "Increases DMG by 25%."
+    },
+    "2": {
+      "II": "Increases ATK Boost by 10%.",
+      "III": "Increases ATK Boost by 15%.",
+      "IV": "Increases ATK Boost by 25%."
+    },
+    "3": {
+      "II": "Increases DMG by 10%.",
+      "III": "Increases DMG by 15%.",
+      "IV": "Increases DMG by 25%."
+    },
+    "4": {
+      "II": "Increases ATK Boost by 10%.",
+      "III": "Increases ATK Boost by 15%.",
+      "IV": "Increases ATK Boost by 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Increases Stun duration by 1 sec.",
+          "thumbnail": "heroes/Dakaris/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Reduces Mana Cost by 1.",
+          "thumbnail": "heroes/Dakaris/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Upon activation, increases own ATK Spd by 500.",
+          "thumbnail": "heroes/Dakaris/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Increases duration of the shield by 5 sec.",
+          "thumbnail": "heroes/Dakaris/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Gains CC Immunity for the duration of Skill.",
+          "thumbnail": "heroes/Dakaris/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Increases DMG by 40%.",
+          "thumbnail": "heroes/Dakaris/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Heal Rate is increased by 100%.",
+          "thumbnail": "heroes/Dakaris/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "If own HP is full, recovers 300 Mana every sec.",
+          "thumbnail": "heroes/Dakaris/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATK, DEF, HP +15% / Crit Chance +100",
+        "thumbnail": "heroes/Dakaris/perks/light.png"
+      },
+      "dark": {
+        "effect": "At the beginning of the first battle, gains [Ancestral Advice] that increases own CC Resist by 200 for 5 sec. If [Ancestral Advice] is still active after 5 sec, dispels negative effects from 3 random allies, and increases their DEF by 50% for 10 sec. DEF Boost is irremovable.",
+        "thumbnail": "heroes/Dakaris/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Lake of Remembrance, Armekith",
+    "description": "Dakaris takes 10% reduced DMG, and increases CC Resist by 100. After using a Skill, the effects are doubled for 2 sec.",
+    "value": {},
+    "thumbnail": "heroes/Dakaris/uw.png",
+    "story": "A treasure of the tribe that was hidden deep inside Lake Eretana.\nIt contains hundreds of years of Lizardmen wisdom and magic.\nIts power is normally calm like still water,\nbut this magical item can unleash devastating tsunami-like power if a user wishes to.",
+    "descriptionByStar": {
+      "0": "Dakaris takes 10% reduced DMG, and increases CC Resist by 100. After using a Skill, the effects are doubled for 2 sec.",
+      "1": "Dakaris takes 12% reduced DMG, and increases CC Resist by 120. After using a Skill, the effects are doubled for 2 sec.",
+      "2": "Dakaris takes 14% reduced DMG, and increases CC Resist by 140. After using a Skill, the effects are doubled for 2 sec.",
+      "3": "Dakaris takes 17% reduced DMG, and increases CC Resist by 170. After using a Skill, the effects are doubled for 2 sec.",
+      "4": "Dakaris takes 21% reduced DMG, and increases CC Resist by 210. After using a Skill, the effects are doubled for 2 sec.",
+      "5": "Dakaris takes 25% reduced DMG, and increases CC Resist by 250. After using a Skill, the effects are doubled for 2 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Lakeside Banquet",
+      "description": "[Judgment Upon Them!] Increases DMG by 50% and heals additional HP equal to 1% of the healed ally's Max HP.",
+      "value": {},
+      "thumbnail": "heroes/Dakaris/ut/1.png",
+      "story": "Dakaris' favorite and signature dish.\nIt is one of the dishes that represent his tribe.\nIt is a dish made with crawfish, clams, and many sides.\nHe normally eats fish, but dines on this on special occasions.",
+      "descriptionByStar": {
+        "0": "[Judgment Upon Them!] Increases DMG by 50% and heals additional HP equal to 1% of the healed ally's Max HP.",
+        "1": "[Judgment Upon Them!] Increases DMG by 50% and heals additional HP equal to 1.2% of the healed ally's Max HP.",
+        "2": "[Judgment Upon Them!] Increases DMG by 50% and heals additional HP equal to 1.4% of the healed ally's Max HP.",
+        "3": "[Judgment Upon Them!] Increases DMG by 50% and heals additional HP equal to 1.7% of the healed ally's Max HP.",
+        "4": "[Judgment Upon Them!] Increases DMG by 50% and heals additional HP equal to 2.1% of the healed ally's Max HP.",
+        "5": "[Judgment Upon Them!] Increases DMG by 50% and heals additional HP equal to 2.5% of the healed ally's Max HP."
+      }
+    },
+    "2": {
+      "name": "Traditional Bracelet",
+      "description": "[Grant Me Strength!] Reduces Cooldown by 5 sec, and increases Heal Rate and Mana Recovery by 20%.",
+      "value": {},
+      "thumbnail": "heroes/Dakaris/ut/2.png",
+      "story": "A trinket Dakaris received from his parents.\nThis bracelet is made with intertwined gold and silver bracelets.\nIt is a traditional wedding bracelet that symbolizes everlasting bond.\nDakaris has this bracelet as a memento of his parents.",
+      "descriptionByStar": {
+        "0": "[Grant Me Strength!] Reduces Cooldown by 5 sec, and increases Heal Rate and Mana Recovery by 20%.",
+        "1": "[Grant Me Strength!] Reduces Cooldown by 5 sec, and increases Heal Rate and Mana Recovery by 24%.",
+        "2": "[Grant Me Strength!] Reduces Cooldown by 5 sec, and increases Heal Rate and Mana Recovery by 29%.",
+        "3": "[Grant Me Strength!] Reduces Cooldown by 5 sec, and increases Heal Rate and Mana Recovery by 35%.",
+        "4": "[Grant Me Strength!] Reduces Cooldown by 5 sec, and increases Heal Rate and Mana Recovery by 42%.",
+        "5": "[Grant Me Strength!] Reduces Cooldown by 5 sec, and increases Heal Rate and Mana Recovery by 50%."
+      }
+    },
+    "3": {
+      "name": "Dagger of Sorcery",
+      "description": "[May Their Agony End!] Increases DMG by 20%. If this Skill kills an enemy, it will cast once more.",
+      "value": {},
+      "thumbnail": "heroes/Dakaris/ut/3.png",
+      "story": "A ceremonial dagger used by the Lizardmen of Lake Eretana.\nIt was used as a decoration, especially in festivals and coming of age ceremonies.\nHowever, after the Empire's invasion,\nit got customized as a weapon by imbuing it with magic.",
+      "descriptionByStar": {
+        "0": "[May Their Agony End!] Increases DMG by 20%. If this Skill kills an enemy, it will cast once more.",
+        "1": "[May Their Agony End!] Increases DMG by 24%. If this Skill kills an enemy, it will cast once more.",
+        "2": "[May Their Agony End!] Increases DMG by 29%. If this Skill kills an enemy, it will cast once more.",
+        "3": "[May Their Agony End!] Increases DMG by 35%. If this Skill kills an enemy, it will cast once more.",
+        "4": "[May Their Agony End!] Increases DMG by 42%. If this Skill kills an enemy, it will cast once more.",
+        "5": "[May Their Agony End!] Increases DMG by 50%. If this Skill kills an enemy, it will cast once more."
+      }
+    },
+    "4": {
+      "name": "Tome of the Dragon",
+      "description": "[Might of the Ancestors!] Increases shield amount by 20% and applies shield to all allies.",
+      "value": {},
+      "thumbnail": "heroes/Dakaris/ut/4.png",
+      "story": "A spellbook passed down from generation to generation.\nThis is renowned as a history book passed down to the next sage of the tribe.\nIt holds history of war, footsteps of great individuals, everyday life of the tribe, and many more.\nIt has mystical power to bring those records out into reality for a little while via magic.",
+      "descriptionByStar": {
+        "0": "[Might of the Ancestors!] Increases shield amount by 20% and applies shield to all allies.",
+        "1": "[Might of the Ancestors!] Increases shield amount by 24% and applies shield to all allies.",
+        "2": "[Might of the Ancestors!] Increases shield amount by 29% and applies shield to all allies.",
+        "3": "[Might of the Ancestors!] Increases shield amount by 35% and applies shield to all allies.",
+        "4": "[Might of the Ancestors!] Increases shield amount by 42% and applies shield to all allies.",
+        "5": "[Might of the Ancestors!] Increases shield amount by 50% and applies shield to all allies."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Charges up upon using Skills 7 times.",
+    "description": "Summons the soul of Lake of Remembrance, Armekith and creates a tidal wave, dealing ??? M.DMG on enemies within a wide frontal range of self and knocking them down for 3 sec. Dakaris then heals ??? HP and recovers 1 orb of Mana of allies within range. Afterward, absorbs the soul of Lake of Remembrance, Armekith, increasing own ATK by 60% for 10 sec.",
+    "cooldown": "20",
+    "uses": "6",
+    "thumbnail": "heroes/Dakaris/sw.png",
+    "advancement": {
+      "1": "Dispels positive effects of enemies and negative effects of allies within range.",
+      "2": "Reduces Skill Activation Requirements to 5 times, and increases the number of targets of [May Their Agony End!] to 2 for the duration of Skill."
+    },
+    "story": "For a long time, Eretana’s Lizardmen have performed a rite for the sacred entity of the lake every year.\nAlthough that entity had never shown itself to others, it remembered the history, tradition, and academic knowledge of which the Lizardmen researched, and helped them prosper.\nHowever, the lake became rapidly desolated following the Empire’s violent invasion and brutality, and all the legacy of the Lizardmen, including their tradition and culture, were destroyed. To retrieve the land which the empire took by force, Dakaris decided to summon the ancient entity of the lake. Dakaris successfully managed to summon the sacred beast by placing all the mana he had into Armekith, the relic of his Lizardmen ancestors.\nAfter hearing what the Lizardmen were going through as well as the reason why the lake was desolated, the sacred beast gladly offered its aid to Dakaris, and promised him that it will fulfill the will of the Lizardmen gathered within Eretana lake since the beginning of time."
+  },
+  "splashart": "heroes/Dakaris/sa.png",
+  "costumes": "heroes/Dakaris/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "en",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

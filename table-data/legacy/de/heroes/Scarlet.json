@@ -1,0 +1,261 @@
+{
+  "id": "Scarlet",
+  "profile": {
+    "name": "Scarlet",
+    "title": "Hoffnungsschimmer Scarlet",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "6200",
+    "damage_type": "Physical",
+    "gender": "Weiblich",
+    "age": "18",
+    "height": "168",
+    "race": "Menschen",
+    "constellation": "Layan, der Richter",
+    "birth": {
+      "month": 9,
+      "day": 21,
+      "monthName": "Monat der Wahrheit"
+    },
+    "like": "Ehrliche Leute; gerechte Leute",
+    "dislike": "Opportunistische Unterdrücker der Schwachen",
+    "story": "König Veroglance II. von Orvelia wurde von Tag zu Tag schwächer. Einst war er ein tapferer Monarch, dem sich niemand in den Weg zu stellen getraute. Doch mit dem Alter begann er, Schwäche zu zeigen. Als er schließlich erkrankte scharten sich all jene, die einen Machtanspruch hegten um ihn wie die Fliegen. Scarlet gab ihr Bestes, um ihren Vater in diesem Chaos zu beschützen. Doch der Mann, der nur noch den Worten der Schmeichler um ihn gehorchte, war nicht länger der respektierte König, den sie kannte. Der König hörte nicht auf den Appell seiner Tochter. Die Adeligen waren, gelinde gesagt, wenig erfreut darüber, sie als einzige Tochter des Königs als neue Königin zu akzeptieren. Schnell verdunkelte sich die Atmosphäre im königlichen Palast. Sie wusste, dass die Adeligen weiter Druck auf sie ausüben würden. Doch sie wird niemals aufgeben. Sie ist darauf vorbereitet, für den Schutz ihres Königreiches und ihres Volkes zu kämpfen. Niemals würde sie den Machthungrigen die Kontrolle über das Königreich überlassen. Komme, was wolle ...",
+    "thumbnail": "heroes/Scarlet/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Zugriff!",
+      "cost": "3",
+      "cooldown": "8",
+      "description": "Greift alle Frontfeinde an, verursacht ??? Körp. Schaden, wirft sie für 3 Sek. zu Boden und heilt eigene TP um 30 % des Schadens. Erhöht 10 Sek. lang den erhaltenen Körp. Schaden des getroffenen Ziels um 25 % und fügt ihm zus. ??? Körp. Schaden zu, wenn das Ziel kein Held ist. Danach installiert sie 4 Sek. lang eine [Geweihte Zone]. Erhöht den ANG von Verbündeten in der [Geweihten Zone] um 25 % und die Krit. Chance um 150. Außerdem verringert sie die VERT-Durchdr. von Feinde in Reichweite um 250 und alle Blockchancen um 500.",
+      "thumbnail": "heroes/Scarlet/skills/1.png"
+    },
+    "2 (1)": {
+      "name": "Gerichtigkeit waltet!",
+      "cost": "2",
+      "cooldown": "15",
+      "description": "Entfernt negative Effekte von Verbündeten und positive von Feinden. Verursacht dabei ??? Körp. Schaden.\n\nSchalte die Seelenwaffe von Scarlet frei, um den Skill [Das ist die wahre Macht von Orvelia!!] zu aktivieren.",
+      "thumbnail": "heroes/Scarlet/skills/2 (1).png"
+    },
+    "2 (2)": {
+      "name": "Das ist die wahre Macht von Orvelia!!",
+      "cost": "2",
+      "cooldown": "15",
+      "description": "Entfernt die negativen Effekte aller Verbündete und entfernt die positiven Effekte aller Gegner, wobei ??? Körp. Schaden zugefügt wird. Dieser Angriff trifft immer, wobei das getroffene Ziel 4 Sek. lang betäubt und 10 Sek. lang die ANG-GESCHW. um 300 verringert wird. Danach erhöht 10 Sek. lang alle Krit. Widerstände aller Verbündeten um 250.",
+      "thumbnail": "heroes/Scarlet/skills/2 (2).png"
+    },
+    "3": {
+      "name": "Schwert des Stolzes!!",
+      "cost": "3",
+      "cooldown": "17",
+      "description": "Greift den Gegner 2-mal an, verursacht dabei insgesamt ??? Körp. Schaden und betäubt ihn 3 Sek. lang pro Treffer. Danach feuert 2-mal zusätzlich Energiestoß aus dem Schwert, der ??? Körp. Schaden an Feinden in einer geraden Linie verursacht, welche sie 5 Sek. lang betäubt.",
+      "thumbnail": "heroes/Scarlet/skills/3.png"
+    },
+    "4": {
+      "name": "Kriegsgöttin",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht sämtliche Krit.-Resistenz um 300. Normale Angriffe verursachen mit 10% Wahrscheinlichkeit zusätzlich ??? physischen Schaden und betäuben für 1 Sek. Jeder Treffer erhöht außerdem den physischen Schaden am Ziel um 3%, bis zu 10-mal stapelbar. Normale Angriffe gewähren 1 Stapel [Geist Orvelias], Fähigkeiten 10, bis zu 30 Stapel. Bei maximalen Stapeln werden alle verbraucht, um für 15 Sek. den unentfernbaren Zustand [Segen der Könige] zu erhalten. Dabei können keine weiteren Stapel [Geist Orvelias] gewonnen werden. Gewährt Immunität gegen Kontrolleffekte und senkt sämtlichen erlittenen Schaden um 350.",
+      "thumbnail": "heroes/Scarlet/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Scarlet/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Entfernt alle eigenen negativen Effekte.",
+          "thumbnail": "heroes/Scarlet/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert 10 Sek. lang die ANG-GESCHW. des getroffenen Ziels um 300.",
+          "thumbnail": "heroes/Scarlet/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht 10 Sek. lang alle Krit. Widerstände aller Verbündeten um 250.",
+          "thumbnail": "heroes/Scarlet/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Zerstört pro Treffer den Schild des Ziels.",
+          "thumbnail": "heroes/Scarlet/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Verletzte Gegner erhalten 10 Sek. lang um 40 % reduzierte Heilung.",
+          "thumbnail": "heroes/Scarlet/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhält mit jedem kampfbeginn 15x [Elan von Orvelia].",
+          "thumbnail": "heroes/Scarlet/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Der Effekt zur Erhöhung des Körp. Schaden kann nicht entfernt werden.",
+          "thumbnail": "heroes/Scarlet/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/ANG-GESCHW. +100",
+        "thumbnail": "heroes/Scarlet/perks/light.png"
+      },
+      "dark": {
+        "effect": "Beim Erleiden von Krit. Schaden 5 %-Chance, dass der Angreifer alle positiven Effekte verliert und für 1 Sek. betäubt wird. 8 Sek. Skillcooldown.",
+        "thumbnail": "heroes/Scarlet/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Schwert des Stolzes, Weiße Belona",
+    "description": "Pro 1 Cooldown-Skill wird der eigene erzeugte Schaden um {0} % erhöht, wobei während der Wirkungsdauer von [Segen der Königsfamilie] die VERT-Durchdr. um {1} erhöht wird.",
+    "value": {
+      "0": {
+        "0": "8",
+        "1": "10",
+        "2": "12",
+        "3": "14",
+        "4": "17",
+        "5": "20"
+      },
+      "1": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      }
+    },
+    "thumbnail": "heroes/Scarlet/uw.png",
+    "story": "Das legendärste Schwert in Orvelia. Diese heilige Klinge wurde seit der Geburt des Königreichs innerhalb der Königsfamilie weitergegeben und symbolisiert die wahre Autorität des Monarchen. Auch König Kyle verwendete dieses Schwert, ehe ihn das Heilige Schwert Aea auserwählte. Gesegnet mit der Kraft des Lichts kann diese Klinge alle Magie blockieren, indem sie ihren Fluss durchtrennt. Nur ein adeliger Ritter mit gerechtem Stolz vermag dieses Schwert zu führen. Jene, die es erheben möchten, müssen die Prüfungen der Königsfamilie bestehen, was außer Kyle nur Scarlet gelungen war.",
+    "descriptionByStar": {
+      "0": "Pro 1 Cooldown-Skill wird der eigene erzeugte Schaden um 8 % erhöht, wobei während der Wirkungsdauer von [Segen der Königsfamilie] die VERT-Durchdr. um 200 erhöht wird.",
+      "1": "Für jeden Cooldown-Skill ist der Schaden um 10 % erhöht.",
+      "2": "Für jeden Cooldown-Skill ist der Schaden um 12 % erhöht.",
+      "3": "Für jeden Cooldown-Skill ist der Schaden um 14 % erhöht.",
+      "4": "Für jeden Cooldown-Skill ist der Schaden um 17 % erhöht.",
+      "5": "Für jeden Cooldown-Skill ist der Schaden um 20 % erhöht."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Kampfhandschuh der Welle",
+      "description": "[Zugriff!] erhöht den Schaden um 20 % und den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 25 %.",
+      "value": {},
+      "thumbnail": "heroes/Scarlet/ut/1.png",
+      "story": "Ein Kampfhandschuh, der aus seltenen und besonders harten Erzen aus der Mine der Familie Ziltrion gefertigt wurde.\nScarlet hat ihn von Demia erhalten, nachdem sie den letzten Teil ihrer Schwertkampfausbildung abgeschlossen hatten. Für Scarlet ist er ein Andenken daran, dass Demia ihre beste Trainingspartnerin und engste Freundin ist. Scarlet hat ihn noch nie verwendet, da sie Angst hat, ihn zu beschädigen.",
+      "descriptionByStar": {
+        "0": "[Zugriff!] erhöht den Schaden um 20 % und den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 25 %.",
+        "1": "[Zugriff!] erhöht den Schaden um 24 % und den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 25 %.",
+        "2": "[Zugriff!] erhöht den Schaden um 29 % und den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 25 %.",
+        "3": "[Zugriff!] erhöht den Schaden um 35 % und den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 25 %.",
+        "4": "[Zugriff!] erhöht den Schaden um 42 % und den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 25 %.",
+        "5": "[Zugriff!] erhöht den Schaden um 50 % und den vom Ziel erlittenen Körp. Schaden 10 Sek. lang um 25 %."
+      }
+    },
+    "2": {
+      "name": "Flügel der Gerechtigkeit",
+      "description": "[Gerechtigkeit waltet!] erhöht den Schaden um 20 % und verringert den Cooldown aller Verbündeten um 10 %.",
+      "value": {},
+      "thumbnail": "heroes/Scarlet/ut/2.png",
+      "story": "Anhänger, der von Scarlet hergestellt wurde, deren Prinzipien es ihr nicht erlauben, Ungerechtigkeit zu ignorieren oder angesichts von Feigheit niederzuknien. Sie hat den Leuten, denen sie vertraut – Clause und Demia – jeweils einen geschenkt. \nDie leuchtenden Flügel des königlichen Smaragds, Symbole der Gerechtigkeit, sind in dem Anhänger eingefasst. Wenn man in diesen Anhänger blickt, der die Augen reflektiert, kann man mit sich selbst ins Reine kommen.\nSie sieht ihn jedes Mal an, wenn sie Verzweiflung verspürt, weil sie die Leute ansieht, die ihren Vater Veroglance II beschuldigten.",
+      "descriptionByStar": {
+        "0": "[Gerechtigkeit waltet!] erhöht den Schaden um 20 % und verringert den Cooldown aller Verbündeten um 10 %.",
+        "1": "[Gerechtigkeit waltet!] erhöht den Schaden um 24 % und verringert den Cooldown aller Verbündeten um 10 %.",
+        "2": "[Gerechtigkeit waltet!] erhöht den Schaden um 29 % und verringert den Cooldown aller Verbündeten um 10 %.",
+        "3": "[Gerechtigkeit waltet!] erhöht den Schaden um 35 % und verringert den Cooldown aller Verbündeten um 10 %.",
+        "4": "[Gerechtigkeit waltet!] erhöht den Schaden um 42 % und verringert den Cooldown aller Verbündeten um 10 %.",
+        "5": "[Gerechtigkeit waltet!] erhöht den Schaden um 50 % und verringert den Cooldown aller Verbündeten um 10 %."
+      }
+    },
+    "3": {
+      "name": "Stolz von Orvelia",
+      "description": "[Schwert des Stolzes!!] erhöht den Schaden um {0} % und verringert den Cooldown um 30 %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Scarlet/ut/3.png",
+      "story": "Eine Festfahne, die bei der Gründung Orvelias zu Ehren des Königs hergestellt wurde. Immer wenn Scarlet die Fahne im Büro erblickt, denkt sie voller Zorn an die Verräter, die aus ihrem Vater eine bloße Vogelscheuche gemacht haben und an die Schmeichler, die das Land ruinierten. Dies machte Scarlet noch entschlossener, Orvelias ruhmreiche Tage wiederherzustellen und einen stärkeren Thron zu errichten.",
+      "descriptionByStar": {
+        "0": "[Schwert des Stolzes!!] erhöht den Schaden um 20 % und verringert den Cooldown um 30 %.",
+        "1": "[Schwert des Stolzes!!] erhöht den Schaden um 24 % und jeder ANG betäubt Gegener 3 Sek. lang.",
+        "2": "[Schwert des Stolzes!!] erhöht den Schaden um 29 % und jeder ANG betäubt Gegener 3 Sek. lang.",
+        "3": "[Schwert des Stolzes!!] erhöht den Schaden um 35 % und jeder ANG betäubt Gegener 3 Sek. lang.",
+        "4": "[Schwert des Stolzes!!] erhöht den Schaden um 42 % und jeder ANG betäubt Gegener 3 Sek. lang.",
+        "5": "[Schwert des Stolzes!!] erhöht den Schaden um 50 % und jeder ANG betäubt Gegener 3 Sek. lang."
+      }
+    },
+    "4": {
+      "name": "Silberherz",
+      "description": "[Göttin des Schlachtfelds] Aktivierungschance ändert sich auf 20 %. Bei Aktivierung wird die eigene ANG-GESCHW. für 5 Sek. um 200 erhöht.",
+      "value": {},
+      "thumbnail": "heroes/Scarlet/ut/4.png",
+      "story": "Der Schmied Jin hat für Scarlet von Orvel an diesem Juwel gearbeitet.\nEs handelte sich ursprünglich um einen Anhänger, der später jedoch in ein Amulett umfunktioniert wurde, das Scarlet an ihrer Rüstung oder Kleidung anbringen konnte, als sie als Ritterin in den Krieg zog.\nWenn sie das Silberherz auf dem Schlachtfeld bei sich hatte, betrachteten sie die Soldaten als Göttin des Sieges.",
+      "descriptionByStar": {
+        "0": "[Göttin des Schlachtfelds] Aktivierungschance ändert sich auf 20 %. Bei Aktivierung wird die eigene ANG-GESCHW. für 5 Sek. um 200 erhöht.",
+        "1": "[Göttin des Schlachtfelds] Aktivierungschance ändert sich auf 20 %. Bei Aktivierung wird die eigene ANG-GESCHW. für 5 Sek. um 240 erhöht.",
+        "2": "[Göttin des Schlachtfelds] Aktivierungschance ändert sich auf 20 %. Bei Aktivierung wird die eigene ANG-GESCHW. für 5 Sek. um 290 erhöht.",
+        "3": "[Göttin des Schlachtfelds] Aktivierungschance ändert sich auf 20 %. Bei Aktivierung wird die eigene ANG-GESCHW. für 5 Sek. um 350 erhöht.",
+        "4": "[Göttin des Schlachtfelds] Aktivierungschance ändert sich auf 20 %. Bei Aktivierung wird die eigene ANG-GESCHW. für 5 Sek. um 420 erhöht.",
+        "5": "[Göttin des Schlachtfelds] Aktivierungschance ändert sich auf 20 %. Bei Aktivierung wird die eigene ANG-GESCHW. für 5 Sek. um 500 erhöht."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 5-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört 8 Sek. lang die Seele von Urteilsschwert, Weiße Belona und erhöht während der Wirkungsdauer den eigenen ANG um 50 %. Bei Aktivierung der Seelenwaffe werden die positiven Effekte des Gegners mit dem höchsten ANG entfernt und ihm ??? Körp. Schaden zugefügt. Bei Verwendung der Seelenwaffe wird einmalig der Skill [Gerechtigkeit waltet!] in Skill [Das ist die wahre Macht von Orvelia!!] geändert.",
+    "cooldown": "16",
+    "uses": "6",
+    "thumbnail": "heroes/Scarlet/sw.png",
+    "advancement": {
+      "1": "Erhöht die Wirkungsdauer um 4 Sek. und ändert die Verwendungsbedingungen auf 4-mal.",
+      "2": "Erhöht den Schaden um 70 % und verringert bei Verwendung der Seelenwaffe den Cooldown aller aktiven Scarlet Skills um 50 %."
+    },
+    "story": "Nur wer würdig ist, ein König zu werden, kann das Schwert des Königs führen, und es wurde als heiliger Beweis angesehen, der seinem Träger die Autorität des Königs verleiht.\nHeiliges Schwert Aea, das Schwert, das den Segen und den Beweis von Lua trägt, ist zwar das Schwert, das von dem Lua-Orden als das Schwert des Königs anerkannt wurde, aber Belona ist das Schwert, das von der königlichen Familie, von den Adligen und Rittern am meisten anerkannt wurde.\nObwohl Belona nicht so mächtig war, um die königlichen Krisen allein zu bewältigen, blieb sie die Ikone der königlichen Autorität, und im Laufe der Zeit wurde Belona von Erinnerungen und Erfahrungen des Königs beeinflusst. Im Laufe der Zeit nahm Belonas Seele die Gestalt eines Ritterkönigs an.\n\nBelona hatte vor 100 Jahren einen viel größeren Körper und eine viel größere Klinge, als es in Kyles Hand war, bevor er zu Heiliges Schwert Aea wechselte.\nDer Groll und die Flüche der Dämonen, die von Belona getötet wurden, verdorben jedoch allmählich die Klinge von Belona.\nNach dem Krieg begann die königliche Familie, die verdorbene Klinge von Belona mit heiliger Lichtmagie zu zermahlen und zu reinigen, in der Hoffnung, die Ikone des Königshauses wieder in ihren früheren Glanz zu versetzen.\nDie Verdorbenheit der Dunkelheit begann zu verschwinden, und der Segen des Lichts sammelte sich im Schwert. Schließlich wurde Belonas Klinge nach dem langen, mühsamen Reinigungsprozess als elegante, aber robuste Klinge wiedergeboren, die scharf genug war, um jede Entität der Dunkelheit zu durchdringen.\nObwohl Belona als legendäre Klinge wiedergeboren wurde, die den Schatten ihres früheren Ich weit übertraf, brauchte es den Träger, um zu glänzen. Belona, der glaubte, dass es keinen anderen finden würde, der so königlich ist wie Kyle, war niedergeschlagen.\nBelona fand jedoch neue Hoffnung in Scarlet, die sich bemühte, die königliche Krise zu überwinden. Scarlet, selbst wenn es dazu führen würde, dass sie von Feinden und Nöten umgeben wird, würde niemals ihre Überzeugung aufgeben, die Schwachen zu beschützen, und mit ihrer gut etablierten Ritterlichkeit weitermachen.\nAm Ende enthüllte Belona dieser stolzen Silberkönigin ihre wahre Form und Kraft, die selbst König Kyle nicht zuteil wurde."
+  },
+  "splashart": "heroes/Scarlet/sa.png",
+  "costumes": "heroes/Scarlet/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

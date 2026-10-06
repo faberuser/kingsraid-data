@@ -1,0 +1,52 @@
+{
+  "id": "Maviel",
+  "profile": {
+    "name": "Maviel",
+    "title": "Assassin Berserker",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "Elfe-Sombre",
+    "damage_type": "Physical",
+    "recommended_heroes": "Demia, Baudouin, Aisha",
+    "characteristics": "[Furtivité de l'Ombre] est un état spécial qui permet d'esquiver toutes les attaques jusqu'à 100 fois, après quoi la compétence se dissipe pendant un certain temps. Les Héros avec taux de toucher et une Vitesse d'ATQ élevés sont avantagés dans ce niveau.",
+    "thumbnail": "bosses/Maviel.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Tranchant de l'Ombre",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Se déplace rapidement vers des cibles aléatoires et inflige des DEG P 5 fois. Chaque coup applique Saignement pendant 10 sec ainsi qu’une Réduction de la Récupération qui ne peut pas être dissipée pour le reste du combat."
+    },
+    "2": {
+      "name": "Explosion Berserk",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Entre en Rage Berserk, ce qui donne une énorme augmentation d'ATQ, de Crit et de Vitesse d'ATQ pendant 10 secondes."
+    },
+    "3": {
+      "name": "Pas de Pitié",
+      "cost": null,
+      "cooldown": "30",
+      "description": "Déplacement vers l'ennemi avec la plus haute DEF et inflige des DEG P très importants."
+    },
+    "4": {
+      "name": "Furtivité de l'Ombre",
+      "cost": null,
+      "cooldown": "40",
+      "description": "Toutes les 40 sec, esquive un certain nombre d'attaques de tout type. Après avoir tout esquivé, devient étourdi. En état non furtif, ses DEG reçus augmentent et sa Vitesse d'ATQ devient fixe."
+    },
+    "5": {
+      "name": "Purifier",
+      "cost": null,
+      "cooldown": null,
+      "description": "Retire les effets négatifs toutes les 30 sec et augmente la Vitesse d'ATQ."
+    }
+  },
+  "aliases": [
+    "Maviel",
+    "GR5",
+    "GR 5"
+  ]
+}

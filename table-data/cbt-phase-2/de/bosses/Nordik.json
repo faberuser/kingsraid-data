@@ -1,0 +1,52 @@
+{
+  "id": "Nordik",
+  "profile": {
+    "name": "Nordik",
+    "title": "Uralter Lich",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "Untot",
+    "damage_type": "Magical",
+    "recommended_heroes": "Reina, Rodina, Fluss",
+    "characteristics": "Nimmt der Boss Mag. Schaden, reflektiert er den Schaden auf den Angreifer und bringt ihn zum Schweigen. Helden mit Körp. ANG und Massenkontroll-Widerstand sind empfehlenswert.",
+    "thumbnail": "bosses/Nordik.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Mana-Schild",
+      "cost": null,
+      "cooldown": "20",
+      "description": "Kreiert ein Schild, das eine bestimmte Schadensmenge absorbiert. Während das Schild aktiv ist, absorbiert es jede Sek. Mana von Feinden, und der Held ist immun gegenüber Mag. Schaden."
+    },
+    "2": {
+      "name": "Strahl der Dunkelheit",
+      "cost": null,
+      "cooldown": "25",
+      "description": "Schießt einen Energiestrahl, der Feinden in einer Linie Mag. Schaden zufügt und sie zurückwirft."
+    },
+    "3": {
+      "name": "Mana-Sturm",
+      "cost": null,
+      "cooldown": "45",
+      "description": "Fügt einem zufälligen Ziel Mag. Schaden zu und wirft ihm für 2 Sek. zu Boden."
+    },
+    "4": {
+      "name": "Magie-Zerstörer",
+      "cost": null,
+      "cooldown": "1",
+      "description": "Jedes Mal, wenn dieses Monster Mag. Schaden erleidet, wird dem Angreifer Mag. Schaden zugefügt und Stille für 1 Sek. auferlegt."
+    },
+    "5": {
+      "name": "Reinigen",
+      "cost": null,
+      "cooldown": null,
+      "description": "Entfernt alle 30 Sek. alle eigenen Negativ-Effekte und erhöht die eigene ANG-GESCHW."
+    }
+  },
+  "aliases": [
+    "Nordik",
+    "GR2",
+    "GR 2"
+  ]
+}

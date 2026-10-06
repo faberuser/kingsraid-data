@@ -1,0 +1,280 @@
+{
+  "id": "Arch",
+  "profile": {
+    "name": "Arch",
+    "title": "Arch, Flèche vertueuse",
+    "class": "Archer",
+    "position": "Back-200",
+    "attack_range": "3100",
+    "damage_type": "Magical",
+    "gender": "Homme",
+    "age": "???",
+    "height": "193",
+    "race": "Ange",
+    "constellation": "Layan la Justiciére",
+    "birth": {
+      "month": 9,
+      "day": 17,
+      "monthName": "Mois de la Vérité"
+    },
+    "like": "La paix et la stabilité",
+    "dislike": "Les démons",
+    "story": "Un guerrier angélique descendu du ciel pour punir les démons et empêcher le chaos de se répandre sur terre. Parmi les tâches qu'on lui a confiées, il doit explorer, repérer et exécuter tous les démons qu'il trouvera sur terre. Il a un grand un sens des responsabilités et il est aussi rapide qu'efficace pour lutter contre les injustices. Il adore l'humanité et toutes les formes de vie qui habitent la terre. C'est pour cela qu'il fait tout pour empêcher les démons de souiller le monde.",
+    "thumbnail": "heroes/Arch/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Flèche Célèste",
+      "cost": "2",
+      "cooldown": "6",
+      "description": "Inflige 310*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 196.3% of ATK DEG M à 2 ennemi, le repousse et applique [Marque du jugement] pendant 15 sec. [Marque du jugement] : augmente les DEG M subis de 15%.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Arch/skills/1.png"
+    },
+    "2": {
+      "name": "Incendie Purifiant",
+      "cost": "4",
+      "cooldown": "14",
+      "description": "Inflige 146*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 92.6% of ATK DEG M 3 fois aux ennemis en ligne devant le lanceur. [Marque du jugement] : inflige 219*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 138.8% of ATK DEG M supplémentaires 3 fois et réduit les soins de 30% pendant 7 sec. Ces DEG supplémentaires gagnent 500 de pénétration de DEF.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Arch/skills/2.png"
+    },
+    "3": {
+      "name": "Arbitre",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Inflige 1235*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 782.7% of ATK DEG M aux ennemis à portée et les réduit au silence pendant 2 sec. Puis tous les alliés deviennent immunisés contre les DEG M pendant 5 sec. [Marque du jugement] : augmente les DEG M subis de 40% pendant 5 sec.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Arch/skills/3.png"
+    },
+    "4": {
+      "name": "Le Jugement Dernier",
+      "cost": null,
+      "cooldown": null,
+      "description": "Les compétences déclenchent un effet supplémentaire sur les ennemis sous [Marque du jugement]. Une fois par combat, subir des DEG fatals accorde [Résistance à la mort], inflige 642*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 407.1% of ATK DEG M aux ennemis marqués et les étourdit pendant 1.2 sec. Puis accorde à tous les alliés un bouclier absorbant 1566*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 687.3% of ATK DEG pendant 5 sec et augmente leur résistance aux contrôles de 600. [Résistance à la mort] : ignore les DEG fatals, mais consomme toute la Mana et augmente la recharge restante de toutes les compétences de 50%. [Marque du jugement] : inflige 214*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 135.7% of ATK DEG M toutes les 15 sec, avec 500 de pénétration de DEF supplémentaire.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Arch/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "4": {
+      "II": "DEG et Bouclier sont augmentés de [64ff64]10[-]%.",
+      "III": "DEG et Bouclier sont augmentés de [64ff64]15[-]%.",
+      "IV": "DEG et Bouclier sont augmentés de [64ff64]25[-]%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1000.",
+          "thumbnail": "heroes/Arch/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit 500 PM à chaque coup porté.",
+          "thumbnail": "heroes/Arch/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Applique également la réduction de la récupération des PV aux ennemis qui ne possèdent pas de Marque du Jugement.",
+          "thumbnail": "heroes/Arch/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Confère l'immunité contre les Contrôles pendant l'utilisation de la compétence.",
+          "thumbnail": "heroes/Arch/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1000.",
+          "thumbnail": "heroes/Arch/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Applique également l'augmentation de DEG infligés aux ennemis qui ne possèdent pas de Marque du Jugement, et augmente la durée de l'effet de 5 sec.",
+          "thumbnail": "heroes/Arch/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Pendant 20 secondes après l'activation, les attaques auto ciblent 2 ennemis.",
+          "thumbnail": "heroes/Arch/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "L'effet se produit 3 sec plus rapidement.",
+          "thumbnail": "heroes/Arch/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Crit +100",
+        "thumbnail": "heroes/Arch/perks/light.png"
+      },
+      "dark": {
+        "effect": "Au début de chaque bataille, confère une immunité aux DEG M pendant 5 sec.",
+        "thumbnail": "heroes/Arch/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Sherrkyle, le Ciel bleu clair",
+    "description": "Toutes les 10 sec, applique [Marque du Jugement] à un ennemi aléatoire pendant {0} sec et inflige des DEG M égaux à {1}% de l'ATQ. Si la cible n'est pas un héros, augmente la pénétration de DEF de 500.",
+    "thumbnail": "heroes/Arch/uw.png",
+    "story": "Une puissante arme de lumière pouvant prendre la forme d'une lance, d'une dague ou d'un arc. Béni par un archange, c'est l'un des trésors divins des anges. On dit qu'il peut incinérer le mal. Grâce à sa polyvalence, on le donne généralement à l'éclaireur le plus talentueux. D'innombrables démons furent anéantis par sa lumière.",
+    "value": {
+      "0": {
+        "0": "7.5",
+        "1": "9",
+        "2": "10.5",
+        "3": "12",
+        "4": "13.5",
+        "5": "15"
+      },
+      "1": {
+        "0": "250",
+        "1": "300",
+        "2": "350",
+        "3": "400",
+        "4": "450",
+        "5": "500"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Toutes les 10 sec, applique [Marque du Jugement] à un ennemi aléatoire pendant 7.5 sec et inflige des DEG M égaux à 250% de l'ATQ. Si la cible n'est pas un héros, augmente la pénétration de DEF de 500.",
+      "1": "Toutes les 10 sec, applique [Marque du Jugement] à un ennemi aléatoire pendant 9 sec et inflige des DEG M égaux à 300% de l'ATQ. Si la cible n'est pas un héros, augmente la pénétration de DEF de 500.",
+      "2": "Toutes les 10 sec, applique [Marque du Jugement] à un ennemi aléatoire pendant 10.5 sec et inflige des DEG M égaux à 350% de l'ATQ. Si la cible n'est pas un héros, augmente la pénétration de DEF de 500.",
+      "3": "Toutes les 10 sec, applique [Marque du Jugement] à un ennemi aléatoire pendant 12 sec et inflige des DEG M égaux à 400% de l'ATQ. Si la cible n'est pas un héros, augmente la pénétration de DEF de 500.",
+      "4": "Toutes les 10 sec, applique [Marque du Jugement] à un ennemi aléatoire pendant 13.5 sec et inflige des DEG M égaux à 450% de l'ATQ. Si la cible n'est pas un héros, augmente la pénétration de DEF de 500.",
+      "5": "Toutes les 10 sec, applique [Marque du Jugement] à un ennemi aléatoire pendant 15 sec et inflige des DEG M égaux à 500% de l'ATQ. Si la cible n'est pas un héros, augmente la pénétration de DEF de 500."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Flèche sainte dorée",
+      "description": "[Flèche céleste] Augmente les DEG de {0} % et le nombre de cibles de 2.",
+      "thumbnail": "heroes/Arch/ut/1.png",
+      "story": "Cette flèche dorée a été générée par le pouvoir divin d'Arch.\nElle puise dans les cieux la lumière la plus pure et la plus sainte qui soit et la matérialise. Sa puissance augmente avec la quantité de pouvoir divin qu'elle reçoit. Pour les cœurs purs, c'est un spectacle splendide, mais pour les créatures maléfiques, recevoir une telle flèche signifie mutilation et relégation dans une dimension immatérielle.",
+      "value": {
+        "0": {
+          "0": "25",
+          "1": "30",
+          "2": "35",
+          "3": "40",
+          "4": "45",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Flèche céleste] Augmente les DEG de 25 % et le nombre de cibles de 2.",
+        "1": "[Flèche céleste] Augmente les DEG de 30 % et le nombre de cibles de 2.",
+        "2": "[Flèche céleste] Augmente les DEG de 35 % et le nombre de cibles de 2.",
+        "3": "[Flèche céleste] Augmente les DEG de 40 % et le nombre de cibles de 2.",
+        "4": "[Flèche céleste] Augmente les DEG de 45 % et le nombre de cibles de 2.",
+        "5": "[Flèche céleste] Augmente les DEG de 50 % et le nombre de cibles de 2."
+      }
+    },
+    "2": {
+      "name": "Quadruple Cercle Magique de Poursuite",
+      "description": "[Incendie Purifiant] Réduit le coût en mana de 1000 et augmente les DGT de {0} %.",
+      "thumbnail": "heroes/Arch/ut/2.png",
+      "story": "Cet objet est le symbole de l'armée des arbitres de feu qui ont mené un combat acharné contre des démons ancestraux. \nLorsque vous utilisez le Quadruple Cercle Magique de Poursuite béni par Lua, la déesse de la Lumière, Arch se transforme en arbitre sans pitié.",
+      "value": {
+        "0": {
+          "0": "25",
+          "1": "30",
+          "2": "35",
+          "3": "40",
+          "4": "45",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Incendie Purifiant] Réduit le coût en mana de 1000 et augmente les DGT de 25 %.",
+        "1": "[Incendie Purifiant] Réduit le coût en mana de 1000 et augmente les DGT de 30 %.",
+        "2": "[Incendie Purifiant] Réduit le coût en mana de 1000 et augmente les DGT de 35 %.",
+        "3": "[Incendie Purifiant] Réduit le coût en mana de 1000 et augmente les DGT de 40 %.",
+        "4": "[Incendie Purifiant] Réduit le coût en mana de 1000 et augmente les DGT de 45 %.",
+        "5": "[Incendie Purifiant] Réduit le coût en mana de 1000 et augmente les DGT de 50 %."
+      }
+    },
+    "3": {
+      "name": "Œil du paradis",
+      "description": "[Arbitre] augmente les DEG de {0}% et l'ATQ de tous les alliés de 25% pendant la durée du bouclier magique.",
+      "thumbnail": "heroes/Arch/ut/3.png",
+      "story": "L’œuf d’âme de l’ange arbitre Pilier. Pilier naquit de la première flamme de Lua et c’est le maître d’Arch. Pilier fut le meilleur guerrier ange et l’un de ceux qui permit de mettre fin à la guerre contre les démons. Cependant, après avoir utilisé tous ses pouvoirs, il redevint un Œil du paradis, qui est une forme d’œuf d’âme. Arch détient donc l’âme de son maître.",
+      "value": {
+        "0": {
+          "0": "25",
+          "1": "30",
+          "2": "35",
+          "3": "40",
+          "4": "45",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Arbitre] augmente les DEG de 25% et l'ATQ de tous les alliés de 25% pendant la durée du bouclier magique.",
+        "1": "[Arbitre] augmente les DEG de 30% et l'ATQ de tous les alliés de 25% pendant la durée du bouclier magique.",
+        "2": "[Arbitre] augmente les DEG de 35% et l'ATQ de tous les alliés de 25% pendant la durée du bouclier magique.",
+        "3": "[Arbitre] augmente les DEG de 40% et l'ATQ de tous les alliés de 25% pendant la durée du bouclier magique.",
+        "4": "[Arbitre] augmente les DEG de 45% et l'ATQ de tous les alliés de 25% pendant la durée du bouclier magique.",
+        "5": "[Arbitre] augmente les DEG de 50% et l'ATQ de tous les alliés de 25% pendant la durée du bouclier magique."
+      }
+    },
+    "4": {
+      "name": "Cloche du châtiment",
+      "description": "[Le Jugement Dernier] restaure 15% des PV max de tous les alliés lors de DEG fatals et applique Silence à tous les ennemis pendant {0} sec.",
+      "thumbnail": "heroes/Arch/ut/4.png",
+      "story": "Une cloche divine que l'on sonne à l'aube.\nElle avertit les guerriers anges lorsque le monde est en grand danger, leur faisant savoir qu'un châtiment divin s'impose.\nSitôt qu'ils entendent cette cloche, les guerriers savent qu'il est temps d'aller trancher la gorge des émissaires de l'apocalypse au nom de Lua.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.6",
+          "4": "1.8",
+          "5": "2"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Le jugement dernier] Restaure les PV de tous les alliés à hauteur de 15 % des PV max à la réception de DEG fatals, et réduit au silence tous les ennemis pendant 1 sec.",
+        "1": "[Le Jugement Dernier] restaure 15% des PV max de tous les alliés lors de DEG fatals et applique Silence à tous les ennemis pendant 1.2 sec.",
+        "2": "[Le Jugement Dernier] restaure 15% des PV max de tous les alliés lors de DEG fatals et applique Silence à tous les ennemis pendant 1.4 sec.",
+        "3": "[Le Jugement Dernier] restaure 15% des PV max de tous les alliés lors de DEG fatals et applique Silence à tous les ennemis pendant 1.6 sec.",
+        "4": "[Le Jugement Dernier] restaure 15% des PV max de tous les alliés lors de DEG fatals et applique Silence à tous les ennemis pendant 1.8 sec.",
+        "5": "[Le Jugement Dernier] restaure 15% des PV max de tous les alliés lors de DEG fatals et applique Silence à tous les ennemis pendant 2 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant [64ff64]18[-] sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de [Sherrkyle, le Ciel bleu clair], infligeant des DEG M égaux à 400% de l'ATQ à tous les ennemis et appliquant [Sceau du jugement] pendant 15 sec. Puis augmente ses propres DEG Crit de 72% pendant 11 sec.",
+    "cooldown": "20",
+    "uses": "6",
+    "thumbnail": "heroes/Arch/sw.png",
+    "advancement": {
+      "1": "Pendant la durée, réduit la recharge de toutes ses propres compétences de 1 sec toutes les 2 sec.",
+      "2": "Pendant la durée, attaque un ennemi aléatoire toutes les 2 sec, infligeant des DEG M égaux à 150% de l'ATQ et appliquant [Sceau du jugement] pendant 15 sec. Si la cible possède déjà ce sceau, le retire et inflige des DEG M supplémentaires égaux à 300% de l'ATQ. Ces DEG gagnent 500 de pénétration de DEF."
+    },
+    "story": "Sherrkyle, un trésor des anges béni de l'archange et un puissant équipement de lumière, exterminait les démons et les êtres corrompus à travers Arch.\nCe dernier punissait et châtiait de manière implacable, tout comme Sherrkyle qu'il tenait en main.\n\nMais après être descendu sur terre, Arch se mit à changer peu à peu.\nIl commença à éprouver de l'amour et de la compassion envers les humains et les êtres vivants sur terre. Il dut admettre que des sentiments chaleureux envahissaient peu à peu son cœur.\n\nInfluencé par ces changements, Sherrkyle se mit à se transformer, lui aussi.\nDe l'arme de châtieur impitoyable, il devint l'arme du protecteur, veillant sur les hommes et les êtres vivants.\n\nEt enfin, lorsqu'Arch apparut afin de venir en aide à ceux en péril, Sherrkyle prit l'apparence d'un gardien, à la lueur plus éclatante que d'habitude.\nLa volonté d'Arch à vouloir protéger autrui éveilla une conscience glorieuse."
+  },
+  "splashart": "heroes/Arch/sa.png",
+  "costumes": "heroes/Arch/cos",
+  "_localization": {
+    "locale": "fr",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

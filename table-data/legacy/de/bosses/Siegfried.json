@@ -1,0 +1,56 @@
+{
+  "id": "Siegfried",
+  "profile": {
+    "name": "Siegfried",
+    "title": "Verzerrte Morgendämmerung",
+    "type": [
+      "Technomagic Kingdom Raid"
+    ],
+    "race": "Engel",
+    "damage_type": "Physical",
+    "recommended_heroes": "Dosarta, Hilda, Requina, Nicky",
+    "characteristics": "Siegfried wird in der Todeskrise zweimal wiederbelebt, und jedes Mal, wenn er die Todeskrise überwindet, wird die Kraft des Schwertes immer mächtiger. Im Endzustand ist es wichtig, die Helden hinten zu schützen, da das Schwert an Größe zunimmt und sogar die hinteren Helden bedroht.\nAußerdem wird Siegfried sehr mächtig, wenn sein Mana voll ist. Achte darauf, dass dies nicht passiert.",
+    "thumbnail": "bosses/Siegfried.png",
+    "recommendedHeroNames": [
+      "Dosarta",
+      "Hilda",
+      "Requina",
+      "Nicky"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Göttlicher Schlag",
+      "cost": null,
+      "cooldown": "17",
+      "description": "Siegfried sammelt seine Energie, Sshwingt sein Schwert und fügt Feinden an der eigenen Frontlinie Körp. Schaden zu. Fügt danach erneut Körp. Schaden zu und wirft sie für 3 Sek. zu Boden. Die VERT des durch diesen Skill getroffene Ziel wird kontinuierlich um eine bestimmte Menge verringert. Die VERT-Verringerung erhöht sich mit höheren Schwierigkeitsgraden.\n(VERT-Verringerung/1 Phase: 2.000)"
+    },
+    "2": {
+      "name": "Göttliches Schwertregen",
+      "cost": null,
+      "cooldown": "21",
+      "description": "Siegfried beschwört die Schwerter des Kleinlichts. Greift dabei alle Gegner insgesamt 20-mal an, fügt ihnen Körp. Schaden zu und regeneriert mit jedem Treffer die MP des Ziels. Danach fügt allen Gegner mit dem Schwert des göttlichen Lichts Körp. Schaden zu. Ist die Mana des Ziels voll, so werden 7 Sek. lang alle Skills des Ziels versiegelt. Danach verliert Siegfried 7 Sek. lang seine Kraft, fällt um und sein erhaltener Schaden wird stark erhöht."
+    },
+    "3": {
+      "name": "Göttliche Macht",
+      "cost": null,
+      "cooldown": null,
+      "description": "Wird Siegfried tödlicher Schaden zugefügt, so erhält er Göttliche Macht, wobei all seine negativen Effekte entfernt werden, alle TP geheilt werden und sein ANG kontinuierlich um 30 % erhöht wird. Dieser Skill kann während eines Kampfes nur 2-mal aktiviert werden. Mit jeder Aktivierung erhöht sich die max. TP von Siegfried und die Macht des göttlichen Schwertes, wodurch sich die Reichweite normaler Angriffe erhöht. Der TP-Regeneration-Effekt wird nicht von Heilungsrate-Verringerung-Effekt beeinflusst."
+    },
+    "4": {
+      "name": "Göttlicher Zorn",
+      "cost": null,
+      "cooldown": null,
+      "description": "Siegfried wird nicht von VERT- und ANG-GESCHW.-Veränderungen beeinflusst und mit der Göttlichen Macht werden alle Blockchancen um 1000 erhöht. In einem Kampf der Phase 4 und höher werden alle Blockchancen um zusätzlich 1000 erhöht. Ist die Mana voll, so explodiert die Macht und die VERT-Durchdr. wird 10 Sek. lang stark erhöht. Dieser Effekt kann nicht entfernt werden und erhält einen Cooldown von 10 Sek."
+    },
+    "5": {
+      "name": "Verzerrte Morgendämmerung",
+      "cost": null,
+      "cooldown": null,
+      "description": "Siegfried regeneriert bei jedem Treffer seine MP und seine MP werden verringert, wenn sein ANG blockiert wird. All seine Angriffe vernichten den gegnerischen Schild. In einem Kampf der Phase 4 und höher wird der Schaden des Normal-Angriffs von Siegfried stark erhöht, aber auch der erhaltene Schaden des Normal-Angriffs wird erhöht."
+    }
+  },
+  "aliases": [
+    "Sieg"
+  ]
+}

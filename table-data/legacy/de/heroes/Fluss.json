@@ -1,0 +1,228 @@
+{
+  "id": "Fluss",
+  "profile": {
+    "name": "Fluss",
+    "title": "Flatterklinge Fluss",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "2800",
+    "damage_type": "Physical",
+    "gender": "Männlich",
+    "age": "23",
+    "height": "185",
+    "race": "Menschen",
+    "constellation": "Mira, die Bardin",
+    "birth": {
+      "month": 6,
+      "day": 7,
+      "monthName": "Monat der Liebe"
+    },
+    "like": "Deine Augen",
+    "dislike": "Jene ohne Sinn für Romantik",
+    "story": "Als Sohn des Kommandanten der Kaiserlichen Ritter wurde er bereits in frühester Kindheit einer strengen Ausbildung zum Schwertkämpfer unterzogen. Es ist unbestritten, dass er der schnellste Schwertkämpfer im Kaiserhaus ist. Davon zeugt nicht zuletzt die Anzahl der von ihm auf dem Schlachtfeld besiegten feindlichen Ritter. Schon bald wurde er zum Vize-Hauptmann der Kaiserlichen Wache ernannt und von allen bewundert. Obwohl er sich seines schönen Erscheinungsbildes bewusst ist, verachtet er jene, die ihn wegen seiner oberflächlichen Schönheit ansprechen. Für ihn sind innere Werte weit wichtiger als alles Sichtbare. Allerdings ist er etwas heuchlerisch und gelegentlich von seiner eigenen Schönheit durchaus angetan.",
+    "thumbnail": "heroes/Fluss/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Sturmklinge",
+      "cost": "2",
+      "cooldown": "6",
+      "description": "Greift das Ziel und Feinde in seiner Nähe 3-mal an und verursacht insgesamt ??? Körp. Schaden. Verursacht insgesamt über 5 Sek. zusätzlich ??? Körp. Schaden, wenn das Ziel kein Held ist.",
+      "thumbnail": "heroes/Fluss/skills/1.png"
+    },
+    "2": {
+      "name": "Blitzschritt",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Bewegt sich zum Feind mit den höchsten ANG und entfernt die positiven Effekte des Ziels. Bringt ihn 2 Sek. lang zum Schweigen und markiert ihn 10 Sek. lang. So priorisiert ihn dadurch für eigene Angriffe. Jeder Angriff an markierten Gegnern verursachen ??? zusätzlichen Körp. Schaden.\nStirbt der markierte Gegner, wird der Skill-Cooldown zurückgesetzt und 2000 MP werden wiederhergestellt.",
+      "thumbnail": "heroes/Fluss/skills/2.png"
+    },
+    "3": {
+      "name": "Blutige Blüten",
+      "cost": "2",
+      "cooldown": "20",
+      "description": "Verursacht über 16 Treffer insgesamt ??? Körp. Schaden an einem Feind und unterdrückt das Ziel beim Wirken. Dieser Schaden ignoriert die Block-Effekte des Ziels.",
+      "thumbnail": "heroes/Fluss/skills/3.png"
+    },
+    "4": {
+      "name": "Zauber trennen",
+      "cost": null,
+      "cooldown": "10",
+      "description": "Die eigene Mag. VERT erhöht sich um ???. Leidet Fluss Mag. Schaden, fügt er dem Ziel ??? Körp. Schaden zu, wobei sich 5 Sek. lang Flusses ANG um 30 % verringert und 3 Sek. lang Mag. ANG ausweicht. Dieser Effekt kann nur 1 Mal pro 10 Sek. ausgelöst werden.",
+      "thumbnail": "heroes/Fluss/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Ignoriert VERT, wenn nur ein Feind auf dem Schlachtfeld ist.",
+          "thumbnail": "heroes/Fluss/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Jeder Krit. Treffer reduziert Cooldown um 6 %.",
+          "thumbnail": "heroes/Fluss/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Erhöht den erhaltenen Körp. Schaden des markierten Gegnern um 25 %.",
+          "thumbnail": "heroes/Fluss/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "2 Sek. lang können Feinde kein Mana regenerieren und das Ziel wird auf Zauberer geändert, wenn der Gegner einen Zauberer hat.",
+          "thumbnail": "heroes/Fluss/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Jeder Krit. Treffer erhöht den Schaden des letzten Treffers um 10 %.",
+          "thumbnail": "heroes/Fluss/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Erhöht den Schaden normaler Angriffe um 50 %, während der Skill sich im Cooldown befindet.",
+          "thumbnail": "heroes/Fluss/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Stellt 1000 MP wieder her und erhöht 10 Sek. lang den ANG um 20 %, wenn Mag. Schaden erhalten hat. Dieser Effekt kann nur 1 Mal pro 10 Sek. ausgelöst werden.",
+          "thumbnail": "heroes/Fluss/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erhöht die Mag. VERT in Höhe von 5 % des eigenen ANG.",
+          "thumbnail": "heroes/Fluss/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Mag. Ausweichen +100",
+        "thumbnail": "heroes/Fluss/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht den Schaden des normalen Angriffs um 35 % und fügt bei einem Zauberer-Angriff zusätzlichen Körp. Schaden in Höhe von 100 % des ANG.",
+        "thumbnail": "heroes/Fluss/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Wütende Zwillingsschwerter, Veralta",
+    "description": "Erhöht den ANG um 12 % und die ANG-GESCHW. alle 7 Sek. für 30 Sek. um 120. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden.",
+    "value": {},
+    "thumbnail": "heroes/Fluss/uw.png",
+    "story": "Ein Set verzauberter Waffen von Fluss’ Großvater, einem Ritter aus dem Fürstentum Gray, das als Familienschatz weitergegeben wurde. Die Waffen sind in der Lage, die Körperkraft ihres Besitzers zu steigern, um die Grenzen der menschlichen Leistungsfähigkeit zu überwinden und übernatürliche Kraft und Geschwindigkeit zu erlangen. Weil der Effekt allmählich eintritt, wird der Körper des Trägers keiner plötzlichen Belastung ausgesetzt. Die Teile werden als Blut und Rose bezeichnet. Diese Namen entstanden durch den Wirbel aus Blut und Blütenblättern, der stets auftrat, wenn Fluss diese Zwillingsschwerter führte. Kein anderer Krieger konnte deren Potential jemals so nutzen wie Fluss selbst.",
+    "descriptionByStar": {
+      "0": "Erhöht den ANG um 12 % und die ANG-GESCHW. alle 7 Sek. für 30 Sek. um 120. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden.",
+      "1": "Erhöht den ANG um 14 % und die ANG-GESCHW. alle 7 Sek. für 30 Sek. um 140. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden.",
+      "2": "Erhöht den ANG um 17 % und die ANG-GESCHW. alle 7 Sek. für 30 Sek. um 170. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden.",
+      "3": "Erhöht den ANG um 20 % und die ANG-GESCHW. alle 7 Sek. für 30 Sek. um 200. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden.",
+      "4": "Erhöht den ANG um 25 % und die ANG-GESCHW. alle 7 Sek. für 30 Sek. um 250. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden.",
+      "5": "Erhöht den ANG um 30 % und die ANG-GESCHW. alle 7 Sek. für 30 Sek. um 300. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Gürtel des Sturmauges",
+      "description": "[Sturmklinge] verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+      "value": {},
+      "thumbnail": "heroes/Fluss/ut/1.png",
+      "story": "Der Gürtel, den Fluss von seinem Vater bekommen hat, als er zum Vize-Hauptmann der Ritter ernannt wurde.\nEr wurde mit dem Sturmauge-Zauber belebt, der den Träger und jeden im Umkreis zum Schweigen bringt.\n– Wenn man den Klang seines Schwertes hört, dauert es nicht lange, bis man die Blütenblätter fliegen sieht.",
+      "descriptionByStar": {
+        "0": "[Sturmklinge] verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "1": "[Sturmklinge] Verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 4,8 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "2": "[Sturmklinge] verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 5,8 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "3": "[Sturmklinge] verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 7 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "4": "[Sturmklinge] verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 8,4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "5": "[Sturmklinge] verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 10 %. Dieser Effekt kann bis zu 10-mal gestapelt werden."
+      }
+    },
+    "2": {
+      "name": "Verführerisches Parfum",
+      "description": "[Blitzschritt] das Mal kann nicht entfernt werden und erhöht den ANG 10 Sek. lang um 20 %, sobald der Feind mit dem Mal getötet wurde.",
+      "value": {},
+      "thumbnail": "heroes/Fluss/ut/2.png",
+      "story": "Parfum, das die ersten Vivienne-Rosen des Jahres enthält. Vivienne-Rosen sind wunderschön, aber tödlich.\nDiejenigen, die von dem Duft betört werden, bekommen Halluzinationen und starren den Feind nur bewundernd an.",
+      "descriptionByStar": {
+        "0": "[Blitzschritt] das Mal kann nicht entfernt werden und erhöht den ANG 10 Sek. lang um 20 %, sobald der Feind mit dem Mal getötet wurde.",
+        "1": "[Blitzschritt] das Mal kann nicht entfernt werden und erhöht den ANG 10 Sek. lang um 24 %, sobald der Feind mit dem Mal getötet wurde.",
+        "2": "[Blitzschritt] das Mal kann nicht entfernt werden und erhöht den ANG 10 Sek. lang um 29 %, sobald der Feind mit dem Mal getötet wurde.",
+        "3": "[Blitzschritt] das Mal kann nicht entfernt werden und erhöht den ANG 10 Sek. lang um 35 %, sobald der Feind mit dem Mal getötet wurde.",
+        "4": "[Blitzschritt] das Mal kann nicht entfernt werden und erhöht den ANG 10 Sek. lang um 42 %, sobald der Feind mit dem Mal getötet wurde.",
+        "5": "[Blitzschritt] das Mal kann nicht entfernt werden und erhöht den ANG 10 Sek. lang um 50 %, sobald der Feind mit dem Mal getötet wurde."
+      }
+    },
+    "3": {
+      "name": "Rose der Unsterblichkeit",
+      "description": "[Blutige Blüten] erhöht den Schaden um 20 % und weicht allen Mag. ANG für die Dauer des Skills aus.",
+      "value": {},
+      "thumbnail": "heroes/Fluss/ut/3.png",
+      "story": "Eine Rose, die nie verwelkt, selbst wenn die gepflückt wird. Fluss liebt diese Blume: Sie erinnert sie an die Pflichten eines Ritters, die die Grundlage für dessenstarken Willen bildet und esihmermöglicht, im Kampf zuversichtlich zu sein.",
+      "descriptionByStar": {
+        "0": "[Blutige Blüten] erhöht den Schaden um 20 % und weicht allen Mag. ANG für die Dauer des Skills aus.",
+        "1": "[Blutige Blüten] erhöht den Schaden um 24 % und weicht allen Mag. ANG für die Dauer des Skills aus.",
+        "2": "[Blutige Blüten] erhöht den Schaden um 29 % und weicht allen Mag. ANG für die Dauer des Skills aus.",
+        "3": "[Blutige Blüten] erhöht den Schaden um 35 % und weicht allen Mag. ANG für die Dauer des Skills aus.",
+        "4": "[Blutige Blüten] erhöht den Schaden um 42 % und weicht allen Mag. ANG für die Dauer des Skills aus.",
+        "5": "[Blutige Blüten] erhöht den Schaden um 50 % und weicht allen Mag. ANG für die Dauer des Skills aus."
+      }
+    },
+    "4": {
+      "name": "Versiegelter vertraulicher Brief",
+      "description": "[Zauber trennen] erhöht bei Aktivierung die eigene ANG-GESCHW. für 4 Sek. um 200. Der von Skill gewährte Ausweicheffekt hält 1 Sek. länger.",
+      "value": {},
+      "thumbnail": "heroes/Fluss/ut/4.png",
+      "story": "Ein vertraulicher Brief mit dem Wolfssiegel des Kaiserreichs.\nFluss bewahrt den Brief, der vom Kaiser versiegelt wurde, in seiner Manteltasche auf, bis er ihn der hochverehrten Prinzessin von Orvel überreichen kann.",
+      "descriptionByStar": {
+        "0": "[Zauber trennen] erhöht bei Aktivierung die eigene ANG-GESCHW. für 4 Sek. um 200. Der von Skill gewährte Ausweicheffekt hält 1 Sek. länger.",
+        "1": "[Zauber trennen] erhöht bei Aktivierung die eigene ANG-GESCHW. für 4 Sek. um 240. Der von Skill gewährte Ausweicheffekt hält 1 Sek. länger.",
+        "2": "[Zauber trennen] erhöht bei Aktivierung die eigene ANG-GESCHW. für 4 Sek. um 290. Der von Skill gewährte Ausweicheffekt hält 1 Sek. länger.",
+        "3": "[Zauber trennen] erhöht bei Aktivierung die eigene ANG-GESCHW. für 4 Sek. um 350. Der von Skill gewährte Ausweicheffekt hält 1 Sek. länger.",
+        "4": "[Zauber trennen] erhöht bei Aktivierung die eigene ANG-GESCHW. für 4 Sek. um 420. Der von Skill gewährte Ausweicheffekt hält 1 Sek. länger.",
+        "5": "[Zauber trennen] erhöht bei Aktivierung die eigene ANG-GESCHW. für 4 Sek. um 500. Der von Skill gewährte Ausweicheffekt hält 1 Sek. länger."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn du 70-mal Schaden erleidest, wird dies aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Wütende Zwillingsschwerter, Veralta für 10 Sek., wobei während der Wirkungsdauer der Schaden des Normal-ANG um 50 % erhöht und der eigene genutzte Skill verstärkt wird.\n[Sturmklinge] greift das Ziel und Feinde in seiner Nähe 3-mal an, sodass dem Ziel insgesamt ??? zus. Körp. Schaden zugefügt und seine Heilungsrate 5 Sek. lang um 30 % reduziert wird.\n[Blitzschritt] erhöht 10 Sek. lang den eigenen Krit. Schaden um 100 %.\n[Blutige Blüten] verursacht 16-mal ??? zus. Körp. Schaden an einem Ziel.\nDer mit diesem Skill angerichtete Schaden wird von dem Mal-Effekt von [Blitzschritt] nicht getroffen.",
+    "cooldown": "24",
+    "uses": "6",
+    "thumbnail": "heroes/Fluss/sw.png",
+    "advancement": {
+      "1": "Die Wirkungsdauer der Seelenwaffe wird auf 15 Sek. geändert.",
+      "2": "Während der Wirkungsdauer wird mit jedem ANG mit einer 100 %-ige Chance der Cooldown aller eigenen Skills um 2 % verringert."
+    },
+    "story": "Veralta diente lange Zeit nur als Werkzeug, das den Menschen Kraft verleihen sollte. Veralta wusste auch, dass es nur ein einfaches Werkzeug war, um die Stärke seines Trägers zu verbessern. Also tat er genau das und gab denjenigen seine Kraft, die es wünschten.\nEs gab einige, die die Macht nicht richtig ausüben konnten, und andere wiederum, die die gegebene Macht missbrauchten und das Schwert gedankenlos schwangen. Die Zeit verging und Veraltas Besitzer änderten sich schneller als er selbst. Aber Veralta war damit zufrieden, seine Macht den Menschen zu verleihen. Er wusste doch, dass er nur ein Werkzeug war.\nDiesmal war es jedoch anders. Veralta entwickelte ein vertrautes Gefühl, die Sehnsucht, die er vor so langer Zeit gefühlt hatte ... Veraltas Stärke konnte diesen langhaarigen Mann nicht zufrieden stellen. Er trainierte und trainierte, um noch stärker zu werden. Als die Macht seines Besitzers zunahm, wurde auch das Ausmaß der Stärke, die Veralta verleihen konnte, immer größer.\nVeralta spürte eine Welle der Zufriedenheit, ein Gefühl, das er noch nie zuvor erlebt hatte. Schließlich verwandelte sich das Gefühl in Veraltas Wunsch, seinem Besitzer mehr Kraft zu verleihen. Als schließlich Veraltas Ziel zum Ziel des Mannes wurde, erweckte Veralta seine neue Form und trat vor seinen Besitzer."
+  },
+  "splashart": "heroes/Fluss/sa.png",
+  "costumes": "heroes/Fluss/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "Event Protianus",
+  "profile": {
+    "name": "이벤트 프로티아누스",
+    "title": "불굴의 솔로대장",
+    "type": [
+      "World Boss"
+    ],
+    "race": "정령",
+    "damage_type": "Magical",
+    "recommended_heroes": "메디아나, 플루스, 레이나",
+    "characteristics": "불굴의 솔로대장에게 가한 모든 피해는 1이 됩니다. 불굴의 솔로대장은 대상의 전체체력에 비례한 데미지를 주는 특징을 갖고 있습니다.",
+    "thumbnail": "bosses/Protianus (Christmas).png",
+    "recommendedHeroNames": [
+      "Mediana",
+      "Fluss",
+      "Reina"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "죽음의 창",
+      "cost": null,
+      "cooldown": "18",
+      "description": "창 정면으로 적의 정 중앙 주변범위를 공격하여 범위 내 적에게 대상의 최대 체력에 비례한 피해를 주고 이로운 효과를 제거 및 4초간 기절시킵니다."
+    },
+    "2": {
+      "name": "쓸어내기",
+      "cost": null,
+      "cooldown": "24",
+      "description": "전방에 창을 휘둘러 적을 휩쓸어 버리고 대상의 최대 체력에 비례한 마법 피해를 입힙니다. 피해를 입은 대상은 5초간 침묵되며 10초간 적중이 200 감소됩니다."
+    },
+    "3": {
+      "name": "물 감옥 가두기",
+      "cost": null,
+      "cooldown": "32",
+      "description": "적에게 물 방울을 던져 대상의 최대 체력에 비례한 마법 피해를 입히고 대상 1명을 물 감옥에 가두고, 추가로 5초 마다 임의의 대상을 물감옥에 가둡니다."
+    },
+    "4": {
+      "name": "대 해일",
+      "cost": null,
+      "cooldown": "40",
+      "description": "전방 50M까지 대 해일을 일으켜 대상의 최대 체력에 비례 한 마법 피해를 가하고 30% 확률로 5초 간 기절시킵니다. 추가로 10초간 마나를 초당 1000씩 감소시킵니다. 추가 효과는 해제할 수 없습니다."
+    },
+    "5": {
+      "name": "프로티아누스의 피부",
+      "cost": null,
+      "cooldown": null,
+      "description": "프로티아누스는 공격 속도에 영향을 받지 않습니다. 프로티아누스의 공격에 피해를 입으면 5초간 대상의 최대 체력에 비례한 마법 피해를 입습니다."
+    },
+    "6": {
+      "name": "물 감옥",
+      "cost": null,
+      "cooldown": null,
+      "description": "물 감옥에 갇힌 적은 아무 행동을 할 수 없고 모든 스킬을 사용할 수 없습니다. [물감옥 가두기] 시전 후 20초 뒤에도 물 감옥에 갇혀 있는 대상은 모든 스킬 재사용 대기시간이 100% 증가하고 마나가 3000 감소합니다. 프로티아누스가 350번 물리 피해를 받으면 모든 물감옥이 해제 됩니다."
+    }
+  },
+  "aliases": [
+    "EventProtianus",
+    "ChristmasProtianus",
+    "WB4",
+    "WB 4"
+  ]
+}

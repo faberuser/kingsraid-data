@@ -1,0 +1,52 @@
+{
+  "id": "Nordik",
+  "profile": {
+    "name": "ノルディク",
+    "title": "古代のリッチ",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "アンデッド",
+    "damage_type": "Magical",
+    "recommended_heroes": "レイナ, ロディナ, フルス",
+    "characteristics": "ボスは魔法のダメージを受けると、相手に魔法のダメージを反射して沈黙させます。状態異常への抵抗力が高い物理型の英雄が有利に戦えるでしょう。",
+    "thumbnail": "bosses/Nordik.png"
+  },
+  "skills": {
+    "1": {
+      "name": "マナシールド",
+      "cost": null,
+      "cooldown": "20",
+      "description": "一定量のダメージを防ぐシールドを展開します。シールドが張られている間、毎秒敵全体のMPを吸収します。このシールドは、魔法ダメージを無効化します。"
+    },
+    "2": {
+      "name": "ダークネスレイ",
+      "cost": null,
+      "cooldown": "25",
+      "description": "前方の線範囲内の敵に数回の魔法ダメージを与え、後ろに押し飛ばします。"
+    },
+    "3": {
+      "name": "マナテンペスト",
+      "cost": null,
+      "cooldown": "45",
+      "description": "ランダムな敵に魔法ダメージを与え、2秒間、転倒させます。"
+    },
+    "4": {
+      "name": "マジックデストロイヤー",
+      "cost": null,
+      "cooldown": "1",
+      "description": "自分が魔法ダメージを受けるたび、攻撃した対象へ魔法ダメージを与え、1秒間、沈黙させます。"
+    },
+    "5": {
+      "name": "浄化",
+      "cost": null,
+      "cooldown": null,
+      "description": "30秒ごとに、自分のデバフを取り除き、攻撃速度を増加させます。"
+    }
+  },
+  "aliases": [
+    "Nordik",
+    "GR2",
+    "GR 2"
+  ]
+}

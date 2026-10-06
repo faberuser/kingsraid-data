@@ -1,0 +1,228 @@
+{
+  "id": "Shea",
+  "profile": {
+    "name": "Shea",
+    "title": "Arie der Fantasie Shea",
+    "class": "Priest",
+    "position": "Back-100",
+    "attack_range": "6600",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "16",
+    "height": "165",
+    "race": "Menschen",
+    "constellation": "Mira, die Bardin",
+    "birth": {
+      "month": 6,
+      "day": 22,
+      "monthName": "Monat der Liebe"
+    },
+    "like": "Wunderschöne Melodie, sanfte Brisen",
+    "dislike": "Geister, Kürbis-Ghule",
+    "story": "'Wenn ich die wundervolle Melodie auf dem Schlachtfeld höre, frage ich mich, ob ich mich wirklich in der Mitte eines solchen befinde.' 'Mein Schwert glitt aus meiner Hand. Auch alle anderen anwesenden Soldaten ließen ihre Schwerter fallen.' 'Mein Gefühl sagte mir, dass das Mädchen auf einer völlig anderen Ebene existierte und von uns anderen entkoppelt war.' Die fantastische Geschichte des Mädchens mit dem rosaroten Haar, dessen plötzliches Erscheinen die Schlacht beendet hatte, verbreitete sich schnell. Ihre wundervolle, bezaubernde Weise und ihre artige, liebliche Erscheinung ließ niemanden kalt. Niemand wusste allerdings wirklich, woher sie gekommen war oder wohin sie ging. 'Sie erschien mir seltsam, so wie sie scheinbar mit dem Nichts sprach, als wäre dort jemand, mit dem sie kommunizieren könnte ...' Manche hatten zwar überzeugendere Theorien über den Verbleib des Mädchens geliefert, doch ihre geheimnisvolle Schönheit hatte jegliche Spekulationen erstickt.",
+    "thumbnail": "heroes/Shea/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Grüne Naturmelodie",
+      "cost": "2",
+      "cooldown": "28",
+      "description": "Heilt 8-mal insgesamt ??? TP aller Verbündeten und verringert 8 Sek. lang den erhaltenen Schaden aller Verbündete um 35 %. Die Heilungsrate erhöht sich um 100 % und der Schadenverringerungs-Effekt ändert sich auf 70 %, wenn diese Fähigkeit unter [Trance] aktiviert wird.",
+      "thumbnail": "heroes/Shea/skills/1.png"
+    },
+    "2": {
+      "name": "Blauer Windgesang",
+      "cost": "3",
+      "cooldown": "28",
+      "description": "Regeneriert 8-mal insgesamt 640 MP aller Verbündeten, stellt ??? TP eines Ziels mit max. MP wieder und reduziert die Massenkontroll-Wirkungsdauer 8 Sek. lang um 50 %. Die MP-Regeneration und Heilungsrate erhöhen sich um 50 % und alle Verbündeten sind 8 Sek. lang immun gegenüber Massenkontrolle, wenn diese Fähigkeit unter [Trance] aktiviert wird.",
+      "thumbnail": "heroes/Shea/skills/2.png"
+    },
+    "3": {
+      "name": "Roter Leidenschaftstanz",
+      "cost": "3",
+      "cooldown": "28",
+      "description": "Fügt 8-mal allen Feinden insgesamt ??? Mag. Schaden zu und erhöht ANG aller Verbündeten 8 Sek. lang um ???. Der Schaden und ANG-Boost erhöhen sich um 100 %, und gleichzeitig werden die Buffs aller Feinde entfernt, wenn diese Fähigkeit unter [Trance] aktiviert wird.",
+      "thumbnail": "heroes/Shea/skills/3.png"
+    },
+    "4": {
+      "name": "Trance",
+      "cost": null,
+      "cooldown": null,
+      "description": "Am Ende des Skills wird 1 weitere [Bezaubernde Aufführung] gestapelt. Erreicht [Bezaubernde Aufführung] 3 Stapel, so wird der nächste Skill aktiviert und [Bezaubernde Aufführung] beschworen. Dabei werden ??? TP aller Verbündeten wiederhergestellt und der Wirker wird 12 Sek. lang unter [Trance] versetzt. [Bezaubernde Aufführung] und [Trance] können nicht entfernt werden.",
+      "thumbnail": "heroes/Shea/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Heilungsrate um 10 %.",
+      "III": "Erhöht Heilungsrate um 15 %.",
+      "IV": "Erhöht Heilungsrate um 25 %."
+    },
+    "2": {
+      "II": "Erhöht MP-Regeneration um 10 %.",
+      "III": "Erhöht MP-Regeneration um 15 %.",
+      "IV": "Erhöht MP-Regeneration um 25 %."
+    },
+    "3": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Heilungsrate um 10 %.",
+      "III": "Erhöht Heilungsrate um 15 %.",
+      "IV": "Erhöht Heilungsrate um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Heilt alle Verbündeten um 15 % ihrer TP.",
+          "thumbnail": "heroes/Shea/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Erhöht 8 Sek. lang den Schaden aller Verbündete gegen Feinde, die keine Helden sind, um 20 %.",
+          "thumbnail": "heroes/Shea/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Regeneriert bei allen Verbündeten 500 MP.",
+          "thumbnail": "heroes/Shea/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht den ANG-GESCHW. aller Verbündeten für 8 Sek. um 250.",
+          "thumbnail": "heroes/Shea/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht den ANG-Boost um 40 %.",
+          "thumbnail": "heroes/Shea/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Alle Gegner erleiden für 8 Sek. 15 % mehr Schaden.",
+          "thumbnail": "heroes/Shea/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht die Heilungsrate von Trance um 100 %.",
+          "thumbnail": "heroes/Shea/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Wenn [Trance] aktiviert wird, wird statt die Heilungsrate von Verbündeten Feinden Mag. Schaden zugefügt und ihre VERT 10 Sek. lang um 20 % verringert.",
+          "thumbnail": "heroes/Shea/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/CC-WDST. +100",
+        "thumbnail": "heroes/Shea/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhält am Anfang jedes Kampfes 1 Stapel [Bezaubernde Aufführung] und regeneriert eigene 500 MP.",
+        "thumbnail": "heroes/Shea/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Bezaubernde Melodie, Schwanheite",
+    "description": "Erhöht den Massenkontroll-Widerstand um 300. Verringert alle Skill-Cooldowns um 10 % und stellt 400 Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält.",
+    "value": {},
+    "thumbnail": "heroes/Shea/uw.png",
+    "story": "Diese mächtige und ehrfurchtsgebietende Ausrüstung steht in Wechselwirkung zu ihren Trägern und kann ihre Besitzer sogar dominieren. Schwanheit zählt zu diesen überwältigenden Waffen. Diese Harfe, die lieber „Mr. Schute“ genannt werden möchte, verstärkt das Mana des Benutzers deutlich und versprüht es um ihn herum. Weil das verstärkte Mana verstreut wird, kann es nicht effektiv für offensive Magie genutzt werden. Doch bei anderer Verwendung kann es sich durchaus als sehr effektiv herausstellen. Mr. Schute ist eine ziemliche Quasselstrippe, aber nur, wenn er unter Freunden ist. Dieser Tage spricht er nur mit Shea.",
+    "descriptionByStar": {
+      "0": "Erhöht den Massenkontroll-Widerstand um 300. Verringert alle Skill-Cooldowns um 10 % und stellt 400 Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält.",
+      "1": "Erhöht den Massenkontroll-Widerstand um 360. Verringert alle Skill-Cooldowns um 12 % und stellt 480 Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält.",
+      "2": "Erhöht den Massenkontroll-Widerstand um 430. Verringert alle Skill-Cooldowns um 14 % und stellt 580 Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält.",
+      "3": "Erhöht den Massenkontroll-Widerstand um 520. Verringert alle Skill-Cooldowns um 17 % und stellt 700 Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält.",
+      "4": "Erhöht den Massenkontroll-Widerstand um 630. Verringert alle Skill-Cooldowns um 21 % und stellt 840 Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält.",
+      "5": "Erhöht den Massenkontroll-Widerstand um 750. Verringert alle Skill-Cooldowns um 25 % und stellt 1.000 Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Blume des Lebens",
+      "description": "[Grüne Naturmelodie] erhöht die Heilungsrate um 50 % und den Massenkontroll-Widerstand des Ziels 8 Sek. lang um 100.",
+      "value": {},
+      "thumbnail": "heroes/Shea/ut/1.png",
+      "story": "Eine mystische Blume, der die Energie des Lebens innewohnt.\nIm Gegensatz zur Pflanzenwelt des Pandämoniums, die nur üble Gewächse hervorbringt, holt sich die Blume des Lebens ihre Nährstoffe aus sauberen und reinen Substanzen wie den Tautropfen der Morgendämmerung und der Energie von den Sternen der Milchstraße. Die reine Energie, die die Blume während ihres Wachstums speichert, hilft Shea dabei, die grüne Naturmelodie zu spielen.",
+      "descriptionByStar": {
+        "0": "[Grüne Naturmelodie] erhöht die Heilungsrate um 50 % und den Massenkontroll-Widerstand des Ziels 8 Sek. lang um 100.",
+        "1": "[Grüne Naturmelodie] erhöht die Heilungsrate um 50 % und den Massenkontroll-Widerstand des Ziels 8 Sek. lang um 120.",
+        "2": "[Grüne Naturmelodie] erhöht die Heilungsrate um 50 % und den Massenkontroll-Widerstand des Ziels 8 Sek. lang um 140.",
+        "3": "[Grüne Naturmelodie] erhöht die Heilungsrate um 50 % und den Massenkontroll-Widerstand des Ziels 8 Sek. lang um 170.",
+        "4": "[Grüne Naturmelodie] erhöht die Heilungsrate um 50 % und den Massenkontroll-Widerstand des Ziels 8 Sek. lang um 210.",
+        "5": "[Grüne Naturmelodie] erhöht die Heilungsrate um 50 % und den Massenkontroll-Widerstand des Ziels 8 Sek. lang um 250."
+      }
+    },
+    "2": {
+      "name": "Windblume",
+      "description": "[Blauer Windgesang] erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 160 MP her, wenn ein Verbündeter einen Skill einsetzt.",
+      "value": {},
+      "thumbnail": "heroes/Shea/ut/2.png",
+      "story": "Der Kranz schmückte am Tag, nachdem sie „Glück des Windes“ aufführte, den Kopf von Shea.\nSchwanheit zufolge war er außerdem ein Geschenk der Feen des Waldes für ihre wunderschöne Musik. \nEr enthält Sheas Wunsch, dass der Wind Glück über die Welt bringen möge.",
+      "descriptionByStar": {
+        "0": "[Blauer Windgesang] erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 160 MP her, wenn ein Verbündeter einen Skill einsetzt.",
+        "1": "[Blauer Windgesang] erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 190 MP her, wenn ein Verbündeter einen Skill einsetzt.",
+        "2": "[Blauer Windgesang] erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 230 MP her, wenn ein Verbündeter einen Skill einsetzt.",
+        "3": "[Blauer Windgesang] erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 270 MP her, wenn ein Verbündeter einen Skill einsetzt.",
+        "4": "[Blauer Windgesang] erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 330 MP her, wenn ein Verbündeter einen Skill einsetzt.",
+        "5": "[Blauer Windgesang] erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 400 MP her, wenn ein Verbündeter einen Skill einsetzt."
+      }
+    },
+    "3": {
+      "name": "Feenkrone",
+      "description": "[Roter Leidenschaftstanz] bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 20 % erhöht.",
+      "value": {},
+      "thumbnail": "heroes/Shea/ut/3.png",
+      "story": "Der Kranz schmückte am Tag, nachdem sie im Wald das Schlaflied für die Träume vollführte, den Kopf von Shea. Schwanheit zufolge war er ein Geschenk der Feen des Waldes für ihre wunderschöne Musik. Es heißt, dass Gegenstände, welche die Hände von Feen berühren, die Kraft besitzen, eine Seele zu ihrer reinsten Form zurückzubringen.",
+      "descriptionByStar": {
+        "0": "[Roter Leidenschaftstanz] bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 20 % erhöht.",
+        "1": "[Roter Leidenschaftstanz] bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 24 % erhöht.",
+        "2": "[Roter Leidenschaftstanz] bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 29 % erhöht.",
+        "3": "[Roter Leidenschaftstanz] bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 35 % erhöht.",
+        "4": "[Roter Leidenschaftstanz] bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 42 % erhöht.",
+        "5": "[Roter Leidenschaftstanz] bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 50 % erhöht."
+      }
+    },
+    "4": {
+      "name": "Traum von Mira",
+      "description": "[Trance] erhöht während der Wirkungsdauer von [Trance] den eigenen ANG um 20 % und die ANG-GESCHW. um 200.",
+      "value": {},
+      "thumbnail": "heroes/Shea/ut/4.png",
+      "story": "Als Shea zusammen mit den Geistern das Lied des Lebens für die Kreaturen auf der Erde sang, überreichte ihr Mira, die Göttin der Liebe, im Traum dieses Juwel.\nAls Shea aufwachte, hatte sie es in ihrer Hand.\nDas Juwel glänzte wie die Göttin der Liebe selbst und die Menschen waren allein durch seinen Anblick verblüfft.\nShea beschloss, es Traum von Mira zu nennen.",
+      "descriptionByStar": {
+        "0": "[Trance] erhöht während der Wirkungsdauer von [Trance] den eigenen ANG um 20 % und die ANG-GESCHW. um 200.",
+        "1": "[Trance] erhöht während der Wirkungsdauer von [Trance] den eigenen ANG um 20 % und die ANG-GESCHW. um 240.",
+        "2": "[Trance] erhöht während der Wirkungsdauer von [Trance] den eigenen ANG um 20 % und die ANG-GESCHW. um 290.",
+        "3": "[Trance] erhöht während der Wirkungsdauer von [Trance] den eigenen ANG um 20 % und die ANG-GESCHW. um 350.",
+        "4": "[Trance] erhöht während der Wirkungsdauer von [Trance] den eigenen ANG um 20 % und die ANG-GESCHW. um 420.",
+        "5": "[Trance] erhöht während der Wirkungsdauer von [Trance] den eigenen ANG um 20 % und die ANG-GESCHW. um 500."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 7-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört 20 Sek. lang die Seele von Bezaubernde Melodie, Schwanheite und erhöht den ANG aller Verbündeten um 25 % und die VERT um 25 %. Stellt jede Sek. 100 eigene MP wieder.",
+    "cooldown": "30",
+    "uses": "6",
+    "thumbnail": "heroes/Shea/sw.png",
+    "advancement": {
+      "1": "Gewährt 50 % Krit. Schaden-Boost während der Wirkungsdauer.",
+      "2": "ANG-, VERT- und Krit. Schaden-Boost werden auf jeweils 50 %, 50 % und 100 % geändert."
+    },
+    "story": "Schwanheite oder Herr Schute ist eine gesprächige Harfe, die gelegentlich die Geschichte der Zeit erzählt, als er ein Mensch war. Der Barde des freien Geistes sprach über die Zeit, als er den schönen Schürzenjäger, die oft die Quelle der Inspiration waren, die Lieder der Liebe und der geflüsterten Liebe sang. Er schwamm oft selbst im Meer der Nostalgie.\n”Oh! Gute Zeiten waren sie. Diese Hexe verursachte einen weltlichen Verlust, indem sie mich verfluchte. Oh meine lieben Schürzenjäger, wie sehr ich euch vermisse. “ Ab der Klage erzählte Herr Schute Tag und Nacht seine vergangenen Geschichten, und dies führte dazu, dass Shea über Formen der Liebe phantasierte.\nSowohl Shea als auch Herr Schute waren voller Liebe, aber ihre Definition von Liebe war etwas anders.\nAber wie würde es sich anfühlen, etwas oder jemanden mit endlos brennender Leidenschaft zu lieben? Wie würde sich eine brennende Leidenschaft, brennende Liebe anfühlen? Eine einfache Neugierde eines Mädchens hauchte der Seele der gesprächigen Harfe einen neuen Wind ein.\n\"Soll ich es dir verraten?\" Herr Schute nahm die Form eines Menschen an und erschien mit einem plötzlichen Lichtblitz.\n\nShea antwortete auf das Lächeln von Herr Schute mit einem “Ja! Aber wie soll ich dich spielen, jetzt wo du ein Mensch bist?\""
+  },
+  "splashart": "heroes/Shea/sa.png",
+  "costumes": "heroes/Shea/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

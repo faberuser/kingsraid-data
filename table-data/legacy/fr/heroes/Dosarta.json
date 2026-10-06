@@ -1,0 +1,262 @@
+{
+  "id": "Dosarta",
+  "profile": {
+    "name": "Dosarta",
+    "title": "Dosarta, Vent de l'Innocence",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "9600",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "???",
+    "height": "166",
+    "race": "Elfe",
+    "constellation": "Kandala le Conquérant",
+    "birth": {
+      "month": 8,
+      "day": 27,
+      "monthName": "Mois de la Vitalité"
+    },
+    "like": "Les murmures des élémentaires, Selene, se faire des amis",
+    "dislike": "La solitude, l'ennui",
+    "story": "Une sentinelle du royaume d'Elidora montant la garde à la Tour du défi.\nLes règles sont strictes : les membres de la famille royale qui montent la garde ne sont jamais libérés de leurs fonctions avant la fin de leur service,\nmais à situation exceptionnelle, mesures exceptionnelles.\nDosarta est autorisée à quitter la Tour du défi pour accomplir ses missions\net elle compte bien en profiter pour rencontrer de nouvelles têtes.\nCombien d'amis cette gardienne elfe pourra-t-elle se faire ?",
+    "thumbnail": "heroes/Dosarta/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Ça va faire mal !",
+      "cost": "3",
+      "cooldown": "14",
+      "description": "Augmente la Résistance aux Contrôles des alliés autour du lanceur de 200 pendant 10 sec avant d'attaquer les ennemis pour leur infliger ??? DEG M. Ceci augmente les DEG M reçus par les ennemis touchés de 30% pendant 10 sec et empêche leur Récupération PM pendant 3 sec.",
+      "thumbnail": "heroes/Dosarta/skills/1.png"
+    },
+    "2": {
+      "name": "En garde !",
+      "cost": "2",
+      "cooldown": "16",
+      "description": "Dissipe les effets négatifs de tous les alliés, augmente leur DEF P de ??? + 4% de l'ATQ de Dosarta et multiplie l'effet de Relevons le défi ensemble ! par 2 pendant 10 sec.",
+      "thumbnail": "heroes/Dosarta/skills/2.png"
+    },
+    "3": {
+      "name": "Ah ! Tiens ! Prends ça !",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Attaque 4 fois la cible ennemie lui infligeant un total de ??? DEG M et l'étourdissant pendant 4 sec. Ensuite, inflige un dernier coup aux ennemis en face à portée, ce qui leur inflige ??? DEG M et les attire au centre. Inflige ??? DEG M supplémentaires ignorant la DEF aux ennemis non-héros.",
+      "thumbnail": "heroes/Dosarta/skills/3.png"
+    },
+    "4": {
+      "name": "Je te mets au défi !",
+      "cost": null,
+      "cooldown": "4",
+      "description": "Lorsqu'elle utilise une compétence, Dosarta bloque tous les dégâts. Un blocage réduit les temps de recharge de ses compétences actives de 1 sec et augmente sa DEF P de ??? + 1% de son ATQ ainsi que sa résistance aux coups critiques physiques de 250 pendant 4 sec. Cet effet a un temps de recharge de 4 sec.",
+      "thumbnail": "heroes/Dosarta/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG de 10%.",
+      "III": "Augmente les DEG de 15%.",
+      "IV": "Augmente les DEG de 25%."
+    },
+    "2": {
+      "II": "Augmente l'augmentation de la DEF de 10 %.",
+      "III": "Augmente l'augmentation de la DEF de 15 %.",
+      "IV": "Augmente l'augmentation de la DEF de 25 %."
+    },
+    "3": {
+      "II": "Augmente les DEG de 10%.",
+      "III": "Augmente les DEG de 15%.",
+      "IV": "Augmente les DEG de 25%."
+    },
+    "4": {
+      "II": "Augmente l'augmentation de la DEF de 10 %.",
+      "III": "Augmente l'augmentation de la DEF de 15 %.",
+      "IV": "Augmente l'augmentation de la DEF de 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Restaure 1 barre de PM à l'allié à portée.",
+          "thumbnail": "heroes/Dosarta/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit le Blocage M de la cible de 500 points pendant 5 sec.",
+          "thumbnail": "heroes/Dosarta/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Dosarta/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Confère l'immunité contre les contrôles pendant 2 sec.",
+          "thumbnail": "heroes/Dosarta/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Confère l'immunité contre les Contrôles pendant l'utilisation de la compétence.",
+          "thumbnail": "heroes/Dosarta/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG M reçus par la cible de 25% pendant 10 sec.",
+          "thumbnail": "heroes/Dosarta/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Modifie pour que l'effet d'augmentation de DEF et de la Résistance Crit P ne puissent être dissipés.",
+          "thumbnail": "heroes/Dosarta/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Augmente le Blocage P de tous les alliés de 250 pendant 5 sec lors de l'activation. Cet effet est activé une fois toutes les 10 sec.",
+          "thumbnail": "heroes/Dosarta/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / PV + 10%",
+        "thumbnail": "heroes/Dosarta/perks/light.png"
+      },
+      "dark": {
+        "effect": "Réduit les DEG ignorant la DEF infligés par tous les ennemis de 25%. Multiplie l'effet par 2 pendant 3 sec lorsque Dosarta utilise une compétence.",
+        "thumbnail": "heroes/Dosarta/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Seliere, la Valeur ancestrale",
+    "description": "Augmente l'ATQ de tous les alliés de {0}% et leur DEF de {1}%. Au début de chaque bataille, multiplie cet effet par 2 pendant {2} sec et réduit le coût en PM de la prochaine compétence utilisée par le lanceur de 1 barres. Tous ces effets ne peuvent être dissipés.",
+    "value": {
+      "0": {
+        "0": "5",
+        "1": "6",
+        "2": "7",
+        "3": "8.5",
+        "4": "10.5",
+        "5": "12.5"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14.5",
+        "3": "17.5",
+        "4": "21",
+        "5": "25"
+      },
+      "2": {
+        "0": "10",
+        "1": "11",
+        "2": "12",
+        "3": "13",
+        "4": "14",
+        "5": "15"
+      }
+    },
+    "thumbnail": "heroes/Dosarta/uw.png",
+    "story": "Un dessin retrouvé dans la Tour des Défis et un bouclier antique comportant des morceaux de relique qui n'ont pas été utilisés pendant la restauration.\nCe bouclier est imprégné de sorts de protection aux limites étrangères à ce monde.\nMême Dosarta ne connaît pas toute l'étendue de ses pouvoirs,\net d'ailleurs elle s'en fiche.\n« J'ai bien le temps de me faire la main avec et de voir de quoi il est capable », dit-elle.\nMonter la garde à la Tour des Défis l'ennuyait tellement que même s'entraîner était devenu un passe-temps.",
+    "descriptionByStar": {
+      "0": "Augmente l'ATQ de tous les alliés de 5% et leur DEF de 10%. Au début de chaque bataille, multiplie cet effet par 2 pendant 10 sec et réduit le coût en PM de la prochaine compétence utilisée par le lanceur de 1 barres. Tous ces effets ne peuvent être dissipés.",
+      "1": "Au début de chaque combat, pendant 11 sec, augmente l'ATQ de tous les alliés de 12%, la DEF de 24%, et réduit le coût en PM de la prochaine compétence utilisée par le lanceur d'1 barre. Cet effet ne peut être dissipé.",
+      "2": "Au début de chaque combat, pendant 12 sec, augmente l'ATQ de tous les alliés de 14%, la DEF de 29%, et réduit le coût en PM de la prochaine compétence utilisée par le lanceur d'1 barre. Cet effet ne peut être dissipé.",
+      "3": "Au début de chaque combat, pendant 13 sec, augmente l'ATQ de tous les alliés de 17%, la DEF de 35%, et réduit le coût en PM de la prochaine compétence utilisée par le lanceur d'1 barre. Cet effet ne peut être dissipé.",
+      "4": "Au début de chaque combat, pendant 14 sec, augmente l'ATQ de tous les alliés de 21%, la DEF de 42%, et réduit le coût en PM de la prochaine compétence utilisée par le lanceur d'1 barre. Cet effet ne peut être dissipé.",
+      "5": "Au début de chaque combat, pendant 15 sec, augmente l'ATQ de tous les alliés de 25%, la DEF de 50%, et réduit le coût en PM de la prochaine compétence utilisée par le lanceur d'1 barre. Cet effet ne peut être dissipé."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Bracelet d'Elidora",
+      "description": "[Ça va faire mal !] Augmente la récupération d'un allié à portée de 20 % pendant 4 sec et réduit la récupération de l'ennemi touché de 50 % pendant 4 sec.",
+      "value": {},
+      "thumbnail": "heroes/Dosarta/ut/1.png",
+      "story": "Une paire de bracelets bleus semblables à l'épaisse forêt d'Elidora.\nPendant les nombreuses heures passées en solitaire à la Tour du défi, Dosarta s'adonnait entre autres à l'artisanat,\net ce puissant outil magique débordant de la vitalité d'Elidora en fut le résultat.\nPour Dosarta, ce n'est qu'une jolie paire d'accessoires, mais...",
+      "descriptionByStar": {
+        "0": "[Ça va faire mal !] Augmente la récupération d'un allié à portée de 20 % pendant 4 sec et réduit la récupération de l'ennemi touché de 50 % pendant 4 sec.",
+        "1": "[Ça va faire mal !] Augmente la récupération d'un allié à portée de 24 % pendant 4 sec et réduit la récupération de l'ennemi touché de 50 % pendant 4 sec.",
+        "2": "[Ça va faire mal !] Augmente la récupération d'un allié à portée de 29 % pendant 4 sec et réduit la récupération de l'ennemi touché de 50 % pendant 4 sec.",
+        "3": "[Ça va faire mal !] Augmente la récupération d'un allié à portée de 35 % pendant 4 sec et réduit la récupération de l'ennemi touché de 50 % pendant 4 sec.",
+        "4": "[Ça va faire mal !] Augmente la récupération d'un allié à portée de 42 % pendant 4 sec et réduit la récupération de l'ennemi touché de 50 % pendant 4 sec.",
+        "5": "[Ça va faire mal !] Augmente la récupération d'un allié à portée de 50 % pendant 4 sec et réduit la récupération de l'ennemi touché de 50 % pendant 4 sec."
+      }
+    },
+    "2": {
+      "name": "Cristal de forêt",
+      "description": "[En garde !] Augmente le boost de DEF de 50 % et le Crit de 200 pendant 5 sec.",
+      "value": {},
+      "thumbnail": "heroes/Dosarta/ut/2.png",
+      "story": "Un orbe de cristal antique qui se transmet dans la famille royale d'Elidora.\nCet instrument magique est fabriqué à partir de morceaux de relique par les elfes royaux en charge de la Tour des Défis.\nOn raconte que le porteur de cet orbe de cristal peut parler à n'importe qui dans le monde, peu importe la distance.\nAfin de faire face aux imprévus à la Tour des défis,\nla famille royale établit que seul le gardien de la Tour des Défis était autorisé à le posséder.\nMalgré son importance stratégique et historique, Dosarta s'en sert essentiellement pour parler à sa grande sœur Selene.",
+      "descriptionByStar": {
+        "0": "[En garde !] Augmente le boost de DEF de 50 % et le Crit de 200 pendant 5 sec.",
+        "1": "[En garde !] Augmente le boost de DEF de 50 % et le Crit de 240 pendant 5 sec.",
+        "2": "[En garde !] Augmente le boost de DEF de 50 % et le Crit de 290 pendant 5 sec.",
+        "3": "[En garde !] Augmente le boost de DEF de 50 % et le Crit de 350 pendant 5 sec.",
+        "4": "[En garde !] Augmente le boost de DEF de 50 % et le Crit de 420 pendant 5 sec.",
+        "5": "[En garde !] Augmente le boost de DEF de 50 % et le Crit de 500 pendant 5 sec."
+      }
+    },
+    "3": {
+      "name": "Nid d'élémental de vent",
+      "description": "[Ah ! Tiens ! Prends ça !] Augmente la précision de 750 points et la précision des contrôles de 300 pendant l'utilisation de la compétence.",
+      "value": {},
+      "thumbnail": "heroes/Dosarta/ut/3.png",
+      "story": "Une décoration conçue par Dosarta pour jouer avec les élémentaux de vent lorsqu'elle gardait seule la Tour du défi.\nElle broya les pierres de mana appréciées des élémentaux, incorpora la poudre dans le métal façonné par la magie elfique, et imprégna le tout de magie runique. Peut-être a-t-elle investi trop d'énergie dans cette expérience ?\nCette décoration restaure le pouvoir naturel des élémentaux.\nIl paraît cependant que Dosarta fut déçue de voir les élémentaux s'approcher et se contenter de rester assis sans s'amuser avec sa créatrice.",
+      "descriptionByStar": {
+        "0": "[Ah ! Tiens ! Prends ça !] Augmente la précision de 750 points et la précision des contrôles de 300 pendant l'utilisation de la compétence.",
+        "1": "[Ah ! Tiens ! Prends ça !] Augmente la précision de 750 points et la précision des contrôles de 360 pendant l'utilisation de la compétence.",
+        "2": "[Ah ! Tiens ! Prends ça !] Augmente la précision de 750 points et la précision des contrôles de 430 pendant l'utilisation de la compétence.",
+        "3": "[Ah ! Tiens ! Prends ça !] Augmente la précision de 750 points et la précision des contrôles de 520 pendant l'utilisation de la compétence.",
+        "4": "[Ah ! Tiens ! Prends ça !] Augmente la précision de 750 points et la précision des contrôles de 630 pendant l'utilisation de la compétence.",
+        "5": "[Ah ! Tiens ! Prends ça !] Augmente la précision de 750 points et la précision des contrôles de 750 pendant l'utilisation de la compétence."
+      }
+    },
+    "4": {
+      "name": "Plume de vent",
+      "description": "[Je te mets au défi !] Applique l'effet d'augmentation de DEF P et de Résistance Crit P à tous les alliés et ajoute à cette compétence l'effet de réduction des DEG P reçus de {0}% pour tous les alliés.",
+      "value": {
+        "0": {
+          "0": "6",
+          "1": "7",
+          "2": "8",
+          "3": "10",
+          "4": "12",
+          "5": "15"
+        }
+      },
+      "thumbnail": "heroes/Dosarta/ut/4.png",
+      "story": "L'Auren, l'oiseau du vent, est l'un des symboles de la famille royale d'Elidora.\nSes plumes bleues soulèvent une douce brise rafraîchissante.\nSelene avait domestiqué un Auren et Dosarta prit grand soin de lui.\nLorsque Dosarta quitta le domicile familial pour partir à la Tour du défi,\nSelene lui offrit une plume de son Auren pour lui rappeler son foyer.\nDosarta ne l'a jamais utilisée et la conserve en lieu sûr.",
+      "descriptionByStar": {
+        "0": "[Je te mets au défi !] Applique l'effet d'augmentation de DEF P et de Résistance Crit P à tous les alliés et ajoute à cette compétence l'effet de réduction des DEG P reçus de 6% pour tous les alliés.",
+        "1": "[Je te mets au défi !] Un boost de DEF P est appliqué à tous les alliés et ajoute 7 % de réduction de DEG P pendant la durée de la compétence.",
+        "2": "[Je te mets au défi !] Un boost de DEF P est appliqué à tous les alliés et ajoute 8 % de réduction de DEG P pendant la durée de la compétence.",
+        "3": "[Je te mets au défi !] Un boost de DEF P est appliqué à tous les alliés et ajoute 10 % de réduction de DEG P pendant la durée de la compétence.",
+        "4": "[Je te mets au défi !] Un boost de DEF P est appliqué à tous les alliés et ajoute 12 % de réduction de DEG P pendant la durée de la compétence.",
+        "5": "[Je te mets au défi !] Un boost de DEF P est appliqué à tous les alliés et ajoute 15 % de réduction de DEG P pendant la durée de la compétence."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 5 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Seliere, la Valeur ancestrale pendant 10 sec, augmentant le Blocage P de tous les alliés de 500. Toutes les 3 sec, inflige ??? DEG M aux ennemis proches et leur inflige silence pendant 1 sec, puis augmente les DEG M reçus par les cibles de 25% pendant 5 sec. Génère un bouclier pendant 4 sec pour 1 alliés aux PV les plus bas, ce qui absorbe les DEG à hauteur de 300% de l'ATQ de Dosarta et confère l'immunité contre les Contrôles.",
+    "cooldown": "25",
+    "uses": "6",
+    "thumbnail": "heroes/Dosarta/sw.png",
+    "advancement": {
+      "1": "Augmente la durée de l'invocation de 5 sec et le bouclier dissipe tous les effets négatifs de la cible.",
+      "2": "Réduit la condition d'utilisation de 1 et modifie le nombre de cibles du bouclier en 3."
+    },
+    "story": "Dosarta ne s'était jamais dépêchée pour mieux connaître la puissance de Seliere. Cela était dû au fait qu'elle avait du temps libre pendant son séjour à la Tour des Défis, et que Seliere était devenu un ami aimable, écoutant ses moindres propos. Puis un jour, Dosarta se rendit compte que Seliere n'obéissait plus à sa volonté.\n'-Pourquoi me causes-tu tant d'ennuis ? Tu était si gentil, d'habitude !'\nTelle une enfant contrariée, Dosarta n'adressa plus la parole à Seliere. Soudain, elle se rendit compte qu'elle n'avait jamais fait d'efforts afin de mieux le connaître. Peut-être qu'elle pourrait le perdre pour toujours, si cela continuait... Dosarta regretta ses actes, mais Seliere resta muet. Cependant, Dosarta ne pouvait se résoudre à abandonner.\n'-Pardonne-moi, tu as pourtant été mon ami le plus précieux... Je ne veux pas te perdre ainsi !'\nAvec ses regrets et sa résolution, Dosarta passait des nuits blanches à consulter les plans de Seliere. Brusquement, le bouclier flotta de nouveau autour d'elle, comme s'il acceptait ses excuses. Et il avait une apparence reflétant la confiance et l'amitié envers Dosarta..."
+  },
+  "splashart": "heroes/Dosarta/sa.png",
+  "costumes": "heroes/Dosarta/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

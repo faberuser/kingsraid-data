@@ -1,0 +1,64 @@
+{
+  "id": "Event Protianus",
+  "profile": {
+    "name": "Protianus (événement)",
+    "title": "L'instoppable Roi Solitaire",
+    "type": [
+      "World Boss"
+    ],
+    "race": "Élémentaire",
+    "damage_type": "Magical",
+    "recommended_heroes": "Mediana, Fluss, Reina",
+    "characteristics": "L'instoppable Roi Solitaire Protianus reçoit seulement 1 DEG de toutes les attaques. Ses attaques infligent des DEG en fonction des PV Max de la cible.",
+    "thumbnail": "bosses/Protianus (Christmas).png",
+    "recommendedHeroNames": [
+      "Mediana",
+      "Fluss",
+      "Reina"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Trident Mortel",
+      "cost": null,
+      "cooldown": "18",
+      "description": "Attaque l'ennemi à portée avec un Trident, infligeant des DEG proportionnels aux PV Max de l'ennemi, tout en dissipant tous les effets positifs. Applique également Étourdissement pendant 4 sec."
+    },
+    "2": {
+      "name": "Balayage",
+      "cost": null,
+      "cooldown": "24",
+      "description": "Balaie vers l'avant avec le Trident, inflige des DEG M proportionnels aux PV Max de l'ennemi. Les ennemis touchés sont réduits au silence pendant 5 sec et leur Précision est réduite de 200 pendant 10 sec."
+    },
+    "3": {
+      "name": "Prison d'Eau : Confinement",
+      "cost": null,
+      "cooldown": "32",
+      "description": "Jette une goutte d'eau, enfermant l'ennemi dans une Prison d'Eau tout en infligeant des DEG M proportionnels aux PV Max de l'ennemi. Des cibles aléatoires supplémentaires seront enfermées dans une Prison d'Eau toutes les 5 sec."
+    },
+    "4": {
+      "name": "Tsunami",
+      "cost": null,
+      "cooldown": "40",
+      "description": "Lève un Tsunami sur 50M vers le front, infligeant des DEG M en fonction des PV max de la cible et applique Étourdissement pendant 5 sec avec 30% de chances. De plus, pendant 10 sec, réduit 1 000 PM toutes les sec. Les effets supplémentaires ne peuvent être dissipés."
+    },
+    "5": {
+      "name": "Peau de Protianus",
+      "cost": null,
+      "cooldown": null,
+      "description": "Protianus n'est pas affecté par les effets de Vitesse d'ATQ. Lorsqu'il est touché par Protianus, son ennemi subit des DEG M proportionnels à ses PV Max pendant 5 sec."
+    },
+    "6": {
+      "name": "Prison d'Eau",
+      "cost": null,
+      "cooldown": null,
+      "description": "Les ennemis enfermés par Prison d'Eau ne peuvent ni bouger ni utiliser de compétences. Si la cible est toujours enfermée dans la Prison d'Eau 20 sec après l'activation de [Prison d'Eau : Confinement], elle perd 3 000 PM et le temps de recharge de toutes ses compétences augmente de 100%. La Prison d'Eau est dissipée lorsque Protianus subit des DEG P 350 fois."
+    }
+  },
+  "aliases": [
+    "EventProtianus",
+    "ChristmasProtianus",
+    "WB4",
+    "WB 4"
+  ]
+}

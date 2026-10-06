@@ -1,0 +1,260 @@
+{
+  "id": "Kara",
+  "profile": {
+    "name": "Kara",
+    "title": "Kara, Essence de la Technomagie antique",
+    "class": "Mechanic",
+    "position": "Middle-200",
+    "attack_range": "6700",
+    "damage_type": "Magical",
+    "gender": "Neutre (Type féminin)",
+    "age": "???",
+    "height": "161",
+    "race": "Golem humanoïde",
+    "constellation": "Graham le Grand Voleur",
+    "birth": {
+      "month": 5,
+      "day": 30,
+      "monthName": "Mois de l'Espoir"
+    },
+    "like": "La recharge d'énergie, le maître",
+    "dislike": "Les ordres qui ne peuvent être exécutés, les travails inefficaces",
+    "story": "Golem humanoïde issu de la technomagie antique, son apparence est pourtant celle d'une petite fille ordinaire. Mais ne vous y fiez pas, elle n'est qu'un outil, une arme séculaire sans sentiment. Elle demeurait en sommeil dans les ruines d'une ancienne civilisation, enfouie sous les plaines Galluah. C'est Annette, une technomage du royaume d'Orvel, qui la mit au jour pendant ses recherches. Après son réveil, elle se retrouva dans une nouvelle ère, au cœur d'une nouvelle civilisation...",
+    "thumbnail": "heroes/Kara/ico.png"
+  },
+  "skills": {
+    "1 (1)": {
+      "name": "Laser antipersonnel",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Attaque 4 fois la cible en lui infligeant un total de ??? points de DEG M et en la renversant. Le dernier coup attaque tous les ennemis, ce qui leur inflige ??? points de DEG M et les écarte pendant 3 secondes.",
+      "thumbnail": "heroes/Kara/skills/1 (1).png"
+    },
+    "1 (2)": {
+      "name": "Laser de siège",
+      "cost": "3",
+      "cooldown": "11",
+      "description": "Attaque la cible, infligeant ??? DEG M. Les DEG Crit sont 200% plus élevés.",
+      "thumbnail": "heroes/Kara/skills/1 (2).png"
+    },
+    "2 (1)": {
+      "name": "Canon à large spectre",
+      "cost": "4",
+      "cooldown": "14",
+      "description": "Attaque 4 fois une cible au hasard ainsi que les ennemis alentour à portée, infligeant un total de ??? points de DEG M et les étourdissant pendant 4 secondes.",
+      "thumbnail": "heroes/Kara/skills/2 (1).png"
+    },
+    "2 (2)": {
+      "name": "Tir focalisé",
+      "cost": "4",
+      "cooldown": "22",
+      "description": "Attaque 15 fois une cible au hasard, infligeant un total de ??? points de DEG M ainsi que Tir focalisé pendant 20 secondes. Inflige à l'ennemi ??? points de DEG M supplémentaires à chaque charge de Tir focalisé. Tir focalisé peut être cumulé 30 fois.",
+      "thumbnail": "heroes/Kara/skills/2 (2).png"
+    },
+    "3": {
+      "name": "Sortir l'arme de siège",
+      "cost": "2",
+      "cooldown": null,
+      "description": "Kara passe en mode Arme de siège et attaque l'ennemi, infligeant ??? points de DEG M à chaque coup. En mode Arme de siège, les compétences Laser antipersonnel et Canon à large spectre deviennent Laser de siège et Tir focalisé. Lorsque la compétence est réutilisée, le mode redevient Arme antipersonnel.",
+      "thumbnail": "heroes/Kara/skills/3.png"
+    },
+    "4": {
+      "name": "Essence technomagique",
+      "cost": null,
+      "cooldown": null,
+      "description": "En mode Arme antipersonnel, augmente la DEF de ???. En mode Arme de siège, augmente les DEG infligés aux boss de 25% et les DEG reçus par les ennemis de 30%, et est immunisé contre les Contrôles. De plus, récupère 70 PM chaque fois qu'il inflige des DEG aux ennemis.",
+      "thumbnail": "heroes/Kara/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente l'augmentation de DEF de 10 %.",
+      "III": "Augmente l'augmentation de DEF de 15 %.",
+      "IV": "Augmente l'augmentation de DEF de 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "[Laser antipersonnel] - Récupère 200 PM lors d'un coup critique réussi.\n\n[Laser de siège] - Augmente le coût en PM de 1 et les DEG infligés de 100%.",
+          "thumbnail": "heroes/Kara/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "[Laser antipersonnel] - Réduit 300 PM de l'ennemi touché.\n\n[Laser de siège] - Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Kara/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "[Canon à large spectre] - Augmente la durée d'Étourdissement de 1 seconde.\n\n[Tir focalisé] - Ajoute une charge de Tir focalisé.",
+          "thumbnail": "heroes/Kara/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "[Canon à large spectre] - Réduit le coût en PM de 1.\n\n[Tir focalisé] – Augmente le nombre max de charges de Tir focalisé à 60.",
+          "thumbnail": "heroes/Kara/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente les DEG de 100% lorsqu'un seul ennemi est présent.",
+          "thumbnail": "heroes/Kara/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Réduit le temps de recharge de toutes les compétences de 3% lorsque vous assénez un coup critique.",
+          "thumbnail": "heroes/Kara/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Triple la récupération PM lorsqu'1 seul ennemi est présent.",
+          "thumbnail": "heroes/Kara/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "[Arme antipersonnel] - Réduit l'ATQ de 20%, mais augmente la récupération PM/sec de 100%.\n\n[Arme de siège] - Réduit la DEF de 60%, mais augmente les DEG Crit de 140%.",
+          "thumbnail": "heroes/Kara/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Kara/perks/light.png"
+      },
+      "dark": {
+        "effect": "[Arme antipersonnel] - Augmente la précision des contrôles de 400.\n\n[Arme de siège] - Augmente la précision de 400.",
+        "thumbnail": "heroes/Kara/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Pourfendeur des Cieux, le Canon à Mouvement perpétuel de Type 0",
+    "description": "Augmente l'ATQ de 2% toutes les sec. Cet effet peut se cumuler jusqu'à {0} fois.",
+    "value": {
+      "0": {
+        "0": "15",
+        "1": "20",
+        "2": "25",
+        "3": "30",
+        "4": "35",
+        "5": "40"
+      }
+    },
+    "thumbnail": "heroes/Kara/uw.png",
+    "story": "Cette relique provenant d'une civilisation antique est dotée d'un moteur qui fournit une énergie illimitée. Sa puissance, comparable à celle d'une arme de siège, pourrait même égaler la magie la plus sophistiquée. Cette arme fut retrouvée dans les ruines de l'ancien Grand-Duché de Gray, mais resta entreposée, car personne ne savait comment l'utiliser. Bien des années plus tard, Kara fut mise au jour et lorsqu'elle s'éveilla, l'arme se téléporta à ses côtés. Cette arme technomagique de premier plan fut conçue de manière comparable à Forteresse de la Montagne.",
+    "descriptionByStar": {
+      "0": "Augmente l'ATQ de 2% toutes les sec. Cet effet peut se cumuler jusqu'à 15 fois.",
+      "1": "Augmente l'ATQ de 1% chaque seconde. Cumulable 40 fois.",
+      "2": "Augmente l'ATQ de 1% chaque seconde. Cumulable 50 fois.",
+      "3": "Augmente l'ATQ de 1% chaque seconde. Cumulable 60 fois.",
+      "4": "Augmente l'ATQ de 1% chaque seconde. Cumulable 70 fois.",
+      "5": "Augmente l'ATQ de 1% chaque seconde. Cumulable 80 fois."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Lentille optique - MF002",
+      "description": "[Laser antipersonnel] Augmente les DEG de 20 % et les DEG M reçus par la cible de 25 % pendant 10 sec.\n[Laser de siège] Augmente les DEG de 20 % malgré le Blocage P et le Blocage M de la cible.",
+      "value": {},
+      "thumbnail": "heroes/Kara/ut/1.png",
+      "story": "Annette a fabriqué cette lentille optique pour Kara.\nElle s'inspira pour cela du plan qu'elle a trouvé en déterrant Kara. Il faisait appel à une technologie bien plus évoluée que toute l'ingénierie moderne, mais elle réussit à en interpréter certaines parties. Ses efforts furent récompensés par cette lentille, similaire aux yeux d'une libellule. Elle permet à celui qui la porte de détecter le moindre mouvement et d'apercevoir sa cible sous des centaines d'angles différents. Elle l'installa sur Kara, fer de lance de la technomagie, ce qui eut pour résultat d'améliorer considérablement son mode d'attaque.",
+      "descriptionByStar": {
+        "0": "[Laser antipersonnel] Augmente les DEG de 20 % et les DEG M reçus par la cible de 25 % pendant 10 sec.\n[Laser de siège] Augmente les DEG de 20 % malgré le Blocage P et le Blocage M de la cible.",
+        "1": "[Laser antipersonnel] Augmente les DEG de 24 % et les DEG M reçus par la cible de 25 % pendant 10 sec.\n[Laser de siège] Augmente les DEG de 24 % malgré le Blocage P et le Blocage M de la cible.",
+        "2": "[Laser antipersonnel] Augmente les DEG de 29 % et les DEG M reçus par la cible de 25 % pendant 10 sec.\n[Laser de siège] Augmente les DEG de 29 % malgré le Blocage P et le Blocage M de la cible.",
+        "3": "[Laser antipersonnel] Augmente les DEG de 35 % et les DEG M reçus par la cible de 25 % pendant 10 sec.\n[Laser de siège] Augmente les DEG de 35 % malgré le Blocage P et le Blocage M de la cible.",
+        "4": "[Laser antipersonnel] Augmente les DEG de 42 % et les DEG M reçus par la cible de 25 % pendant 10 sec.\n[Laser de siège] Augmente les DEG de 42 % malgré le Blocage P et le Blocage M de la cible.",
+        "5": "[Laser antipersonnel] Augmente les DEG de 50 % et les DEG M reçus par la cible de 25 % pendant 10 sec.\n[Laser de siège] Augmente les DEG de 50 % malgré le Blocage P et le Blocage M de la cible."
+      }
+    },
+    "2": {
+      "name": "Dispositif d'enregistrement KARA-00XX",
+      "description": "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vitesse d'ATQ de la cible de 100 pendant 10 sec.\n\n[Tir focalisé] À chaque coup critique, réduit le temps de recharge de 2% et restaure 150 PM.",
+      "value": {},
+      "thumbnail": "heroes/Kara/ut/2.png",
+      "story": "Processeur et enregistreur faisant office de cerveau pour Kara.\nC'est un véritable trésor imprégné de sagesse ancestrale, et sa capacité dépasse de loin celle de n'importe quel humain.\nBien que cet appareil soit des plus sophistiqués, il peine à enregistrer et retranscrire les émotions.",
+      "descriptionByStar": {
+        "0": "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vitesse d'ATQ de la cible de 100 pendant 10 sec.\n\n[Tir focalisé] À chaque coup critique, réduit le temps de recharge de 2% et restaure 150 PM.",
+        "1": "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vitesse d'ATQ de la cible de 120 pendant 10 sec.\n\n[Tir focalisé] À chaque coup critique, réduit le temps de recharge de 2,4% et restaure 150 PM.",
+        "2": "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vitesse d'ATQ de la cible de 140 pendant 10 sec.\n\n[Tir focalisé] À chaque coup critique, réduit le temps de recharge de 2,9% et restaure 150 PM.",
+        "3": "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vitesse d'ATQ de la cible de 170 pendant 10 sec.\n\n[Tir focalisé] À chaque coup critique, réduit le temps de recharge de 3,5% et restaure 150 PM.",
+        "4": "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vitesse d'ATQ de la cible de 210 pendant 10 sec.\n\n[Tir focalisé] À chaque coup critique, réduit le temps de recharge de 4,2% et restaure 150 PM.",
+        "5": "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vitesse d'ATQ de la cible de 250 pendant 10 sec.\n\n[Tir focalisé] À chaque coup critique, réduit le temps de recharge de 5% et restaure 150 PM."
+      }
+    },
+    "3": {
+      "name": "Source d'alimentation antique",
+      "description": "[Sortir l'arme de siège] Augmente les DEG de 50% et réduit la DEF M de l'ennemi de 1% lorsque vous assénez un coup critique. La réduction de la DEF M est cumulable 20 fois.",
+      "value": {},
+      "thumbnail": "heroes/Kara/ut/3.png",
+      "story": "Il s'agit de la source d'alimentation de Kara, mais aussi du plus grand chef-d'œuvre d'une ancienne civilisation oubliée.\nCette même technologie servit à Annette pour fabriquer le Rascal,\nmais même elle n'en comprit pas tous les aspects.\nCe moteur perpétuel génère un pouvoir magique illimité.",
+      "descriptionByStar": {
+        "0": "[Sortir l'arme de siège] Augmente les DEG de 50% et réduit la DEF M de l'ennemi de 1% lorsque vous assénez un coup critique. La réduction de la DEF M est cumulable 20 fois.",
+        "1": "[Sortir l'arme de siège] Augmente les DEG de 50% et réduit la DEF M de l'ennemi de 1% lorsque vous assénez un coup critique. La réduction de la DEF M est cumulable 24 fois.",
+        "2": "[Sortir l'arme de siège] Augmente les DEG de 50% et réduit la DEF M de l'ennemi de 1% lorsque vous assénez un coup critique. La réduction de la DEF M est cumulable 29 fois.",
+        "3": "[Sortir l'arme de siège] Augmente les DEG de 50% et réduit la DEF M de l'ennemi de 1% lorsque vous assénez un coup critique. La réduction de la DEF M est cumulable 35 fois.",
+        "4": "[Sortir l'arme de siège] Augmente les DEG de 50% et réduit la DEF M de l'ennemi de 1% lorsque vous assénez un coup critique. La réduction de la DEF M est cumulable 42 fois.",
+        "5": "[Sortir l'arme de siège] Augmente les DEG de 50% et réduit la DEF M de l'ennemi de 1% lorsque vous assénez un coup critique. La réduction de la DEF M est cumulable 50 fois."
+      }
+    },
+    "4": {
+      "name": "Schéma de recherches ancien",
+      "description": "[Essence technomagique] Augmente l'augmentation de DEF de 50% et les DEG Crit du lanceur de {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Kara/ut/4.png",
+      "story": "Lorsqu'Annette exhuma Kara, elle découvrit ce dessin qui n'est autre que le schéma d'une lentille optique.\nSur cette vieille feuille de parchemin usée étaient représentées diverses structures mécaniques accompagnées d'annotations dans une langue inconnue.\nGrâce à l'aide de Leo, elle réussit à traduire vaguement le contenu du schéma. Après quelques années de recherches, elle put enfin terminer Kara, fruit de la technomagie la plus avancée qui soit.",
+      "descriptionByStar": {
+        "0": "[Essence technomagique] Augmente l'augmentation de DEF de 50% et les DEG Crit du lanceur de 20%.",
+        "1": "[Essence technomagique] Augmente le boost d'ATQ et le boost de DEF de 50 % ainsi que les DEG Crit de 24 %.",
+        "2": "[Essence technomagique] Augmente le boost d'ATQ et le boost de DEF de 50 % ainsi que les DEG Crit de 29 %.",
+        "3": "[Essence technomagique] Augmente le boost d'ATQ et le boost de DEF de 50 % ainsi que les DEG Crit de 35 %.",
+        "4": "[Essence technomagique] Augmente le boost d'ATQ et le boost de DEF de 50 % ainsi que les DEG Crit de 42 %.",
+        "5": "[Essence technomagique] Augmente le boost d'ATQ et le boost de DEF de 50 % ainsi que les DEG Crit de 50 %."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 20 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de Pourfendeur des Cieux, le Canon à Mouvement perpétuel de Type 0, pendant 12 sec. L'âme invoquée attaque continuellement les ennemis et leur inflige ??? DEG M toutes les 0.5 sec. Cet effet est renforcé lorsque les attaques touchent la même cible pour plus de 5 sec. Les DEG infligés augmentent alors de 100%.",
+    "cooldown": "24",
+    "uses": "7",
+    "thumbnail": "heroes/Kara/sw.png",
+    "advancement": {
+      "1": "Augmente la durée de l'invocation de l'âme de 6 sec.",
+      "2": "Une attaque renforcée étourdit l'ennemi pendant 1 sec, et les DEG infligés augmentent de 100% supplémentaires."
+    },
+    "story": "La fin de la civilisation technomagique ne peut que se produire, pour avoir provoqué la colère des dieux. Il est impossible de l'éviter. \n\nUne personne a donc tourné son regard vers l'espace, là où le pouvoir divin ne peut s'exercer,\nune autre sur l'immortalité éternelle,\net celle qui a réfléchi sur la discorde avec les dieux a inventé une arme destructrice.\n\nMais le temps nous manque. Il faut nous soucier non seulement de notre présent, mais aussi de notre avenir, et de trouver un moyen de le préserver.\nNos travaux, connaissances et sagesses sont des joyaux qui doivent être conservés pour la génération future.\nAlors... Nous devons créer une technologie qui peut résister même face aux dieux. \n\nLe but du projet Kara consiste à créer une intelligence artificielle au potentiel infini, qui serait capable de protéger les ingénieurs de l'avenir, ainsi que nos sciences et nos connaissances. \nUn robot d'apparence humanoïde, qui pourrait être accepté par n'importe quel humain. \nS'il est relié avec une personne de la lignée des ingénieurs, K.A.R.A. pourrait évoluer et se renforcer au-delà de toute limite.\n\nEt ces deux êtres... Ils deviendraient la pierre angulaire sur laquelle le royaume technomagique pourrait subsister.\n\nCeci est notre héritage. \nLe seul cadeau... que nous pouvons transmettre à la génération future. \n\n-Rapport du Docteur Ignio\n-Extrait des archives du projet K.A.R.A."
+  },
+  "splashart": "heroes/Kara/sa.png",
+  "costumes": "heroes/Kara/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

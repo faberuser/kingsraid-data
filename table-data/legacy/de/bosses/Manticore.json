@@ -1,0 +1,57 @@
+{
+  "id": "Manticore",
+  "profile": {
+    "name": "Mantikor",
+    "title": "Chaosbestie",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "Bestie",
+    "damage_type": "Physical",
+    "recommended_heroes": "Kasel, Clause, Mitra",
+    "characteristics": "[Mantikor-Gift] verursacht großen Schaden an allen Zielen an der Front und beschwört Skorpione. Wenn der Frontheld den Schaden nicht aufsaugen kann, bricht die Formation zusammen. [Überfall] fügt allen Helden massiven Körp. Schaden zu, und kann nur mit [Massenkontrolle] vermieden werden.",
+    "thumbnail": "bosses/Manticore.png",
+    "recommendedHeroNames": [
+      "Kasel",
+      "Clause",
+      "Mitra"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Flamme der Dunkelheit",
+      "cost": null,
+      "cooldown": null,
+      "description": "Speit dunkle Flammen aus dem Schafskopf und verursacht 7 Mal Körp. Schaden. Feinde unter 50 % TP werden 5 Sek. lang versteinert."
+    },
+    "2": {
+      "name": "Flammen des Zerfalls",
+      "cost": null,
+      "cooldown": "17",
+      "description": "Speit Flammen aus dem Löwenkopf, fügt Feinden 7 Mal Körp. Schaden zu und entfernt alle Stärkungszauber."
+    },
+    "3": {
+      "name": "Mantikor-Gift",
+      "cost": null,
+      "cooldown": "22",
+      "description": "Verwundet den Feind mit einem mächtigen, unheilbaren Gift und beschwört 3 Skorpione. Das vergiftete Opfer verliert 5 Sek. lang alle 0,5 Sek. 33 % der derz. TP."
+    },
+    "4": {
+      "name": "Hastiger Tod",
+      "cost": null,
+      "cooldown": "27",
+      "description": "Der Mantikor sammelt seine mächtige Energie in seinen Vorderpfoten, fügt allen Feinden massiven Körp. Schaden zu und wirft sie 4 Sek. lang zu Boden."
+    },
+    "5": {
+      "name": "Reinigung",
+      "cost": null,
+      "cooldown": null,
+      "description": "Entfernt alle 30 Sek. alle eigenen Negativ-Effekte und erhöht die eigene ANG-GESCHW."
+    }
+  },
+  "aliases": [
+    "Manticore",
+    "GR6",
+    "GR 6"
+  ]
+}

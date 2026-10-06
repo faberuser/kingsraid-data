@@ -1,0 +1,59 @@
+{
+  "id": "Imet",
+  "profile": {
+    "name": "Imet",
+    "title": "Mut der Wüste",
+    "type": [
+      "Temple of the God King"
+    ],
+    "race": "Golem",
+    "damage_type": "Physical",
+    "recommended_heroes": "Gau, Nicky, Bernheim",
+    "characteristics": "Du musst deine Verbündete mit der geringsten Körp. VERT davor schützen, nicht durch Imets [Kurzen Prozess machen!] Skill, den Imet verwendet, nachdem er die Gegner im Sandgefängnis gefangen hält, zu sterben. Weiterhin musst du darauf achten, dass Imets ANG bei der Verwendung von Fechtkunst des Wüstenwächters kontinuierlich erhöht wird, wenn er erfolgreich blockiert.",
+    "thumbnail": "bosses/Imet.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Bumerang des Wächters",
+      "cost": null,
+      "cooldown": "18",
+      "description": "Er rollte seine Füße und fügt allen Gegner Schaden zu. Dieser Schaden wird stark erhöht und die Gegner werden zu Boden geworfen. Danach schwingt er seine Waffe, wirft seine Gegner weit zurück und fügt ihnen Schaden zu."
+    },
+    "2": {
+      "name": "Sandgefängnis",
+      "cost": null,
+      "cooldown": "28",
+      "description": "Alle Helden, mit Ausnahme derjenigen mit der niedrigsten Körp. VERT, werden im Sandgefängnis gefangen gehalten. Dem Sandgefängnis kann man nicht entkommen oder Widerstand leisten. Danach wird [Kurzen Prozess machen!] verwendet."
+    },
+    "3": {
+      "name": "Fechtkunst des Wüstenwächters",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Er schwingt seine Waffe und fügt Gegnern vor sich aufeinanderfolgenden Körp. Schaden zu. Dabei wird Imets Blockchance extrem erhöht und neg. Effekte werden entfernt. Zwischendurch wird Imets ANG erhöht, wenn der Block erfolgreich war."
+    },
+    "4": {
+      "name": "Segen des Gottkönigs",
+      "cost": null,
+      "cooldown": null,
+      "description": "Wenn Imets Massenkontroll-Leiste vollständig aufgebraucht ist, erhalten alle Helden den Segen des Gottkönigs und ihre TP werden regeneriert."
+    },
+    "5": {
+      "name": "Kurzen Prozess machen!",
+      "cost": null,
+      "cooldown": null,
+      "description": "Gegner, die nicht im Sandgefängnis gefangen sind, erleiden großen Schaden. Dieser Effekt kann nicht ignoriert werden und Block-Effekte wirken hierbei nicht. Wenn mit diesem Skill der Gegner beseitigt wird, wird ein Gegner mit der niedrigsten Körp. VERT aus dem Sandgefängnis freigelassen und [Kurzen Prozess machen!] erneut durchgeführt. Falls die Beseitigung des Gegners fehlschlägt, wird Imet neutralisiert und der erhaltene Schaden erhöht."
+    },
+    "6": {
+      "name": "Wächter von Sekireinel",
+      "cost": null,
+      "cooldown": null,
+      "description": "Ein Wächter von Sekireinel wird stärker und seine VERT & ANG-GESCHW können nicht beeinflusst werden. Nach der 6. Kampf-Phase wird im Kampf dem Gegner kontinuierlicher Schaden zugefügt und die Heilungsrate reduziert, wenn Imet dabei Schaden erleidet."
+    }
+  },
+  "aliases": [
+    "TrialoftheEarth",
+    "TrialofEarth",
+    "TrialEarth",
+    "Imet"
+  ]
+}

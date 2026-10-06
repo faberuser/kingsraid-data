@@ -1,0 +1,228 @@
+{
+  "id": "Mitra",
+  "profile": {
+    "name": "Mitra",
+    "title": "Mitra, Loup argenté des Batailles",
+    "class": "Mechanic",
+    "position": "Middle-200",
+    "attack_range": "3500",
+    "damage_type": "Physical",
+    "gender": "Homme",
+    "age": "27",
+    "height": "192",
+    "race": "Humain",
+    "constellation": "Hexipolia le Vagabond",
+    "birth": {
+      "month": 12,
+      "day": 17,
+      "monthName": "Mois de la Patience"
+    },
+    "like": "Les batailles, les combats excitants, l'odeur de la poudre à canon",
+    "dislike": "Les vantardises futiles. l'hypocrisie",
+    "story": "On le connaît sous le nom de Chant de Folie d'Argent. Il est impossible de lui faire confiance. Il ne montre aucun sens des responsabilités. Par contre, au combat, il devient un loup argenté intouchable qui dévaste le champ de bataille. Personne ne connaît son passé. Une seule chose est certaine : une fois qu'il sombre dans la folie du combat, il ne fait plus la différence entre amis et ennemis. Rester près de lui quand il est dans cet état revient à jouer avec une bombe à retardement.",
+    "thumbnail": "heroes/Mitra/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Bang! Bang!!",
+      "cost": "1",
+      "cooldown": "6",
+      "description": "Attaque l'ennemi à 2 reprises, inflige ??? points de DEG P à chaque fois. Lors d'un coup critique, une explosion se produit, inffligeant ??? points de DEG P supplémentaires aux ennemis à portée.",
+      "thumbnail": "heroes/Mitra/skills/1.png"
+    },
+    "2": {
+      "name": "L'Heure de la Mort !!",
+      "cost": "2",
+      "cooldown": "15",
+      "description": "Augmente l'ATQ de ??? et la Précision de 300 pendant 20 sec. Les attaques auto ont 15% de chance de déclencher 'Bang! Bang!!'.",
+      "thumbnail": "heroes/Mitra/skills/2.png"
+    },
+    "3": {
+      "name": "Danse avec moi",
+      "cost": "4",
+      "cooldown": "25",
+      "description": "Tire à l'aveuglette à 12 reprises avec son arme à feu sur les ennemis et leur inflige un total de ??? DEG P avec ??? DEG P supplémentaires pour chaque Signe de la Mort sur la cible. Chaque fois qu'il inflige des DEG, un Signe de la Mort, qui ne peut être dissipé, est appliqué sur la cible.",
+      "thumbnail": "heroes/Mitra/skills/3.png"
+    },
+    "4": {
+      "name": "Vous êtes le Prochain",
+      "cost": null,
+      "cooldown": null,
+      "description": "Les attaques automatiques appliquent les Signes de la Mort, qui ne peuvent être dissipés, sur les ennemis. Les attaques automatiques et Bang! Bang!! infligent ??? DEG P supplémentaires et chaque Signe de la Mort sur la cible inflige ??? DEG P supplémentaires. Cet effet peut se cumuler jusqu'à 200 fois.",
+      "thumbnail": "heroes/Mitra/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "2": {
+      "II": "Le Taux d'augmentation de l'ATQ est augmenté de 10%.",
+      "III": "Le Taux d'augmentation de l'ATQ est augmenté de 15%.",
+      "IV": "Le Taux d'augmentation de l'ATQ est augmenté de 25%."
+    },
+    "3": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "4": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Les DEG sont augmentés de 100% lorsqu'il y a 1 ennemi.",
+          "thumbnail": "heroes/Mitra/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Marquer a maintenant 2 charges.",
+          "thumbnail": "heroes/Mitra/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Les PV ne peuvent pas tomber en dessous de 5% pendant 3 sec après l'utilisation de la compétence.",
+          "thumbnail": "heroes/Mitra/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG Crit de 50% pendant la durée de la compétence.",
+          "thumbnail": "heroes/Mitra/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Les DEG sont augmentés de 40%.",
+          "thumbnail": "heroes/Mitra/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Ajoute 2 marques supplémentaires par coup.",
+          "thumbnail": "heroes/Mitra/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Le maximum de Marque est maintenant de 300.",
+          "thumbnail": "heroes/Mitra/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Tous les Temps de recharge sont réduits de 0,3 lorsqu'une cible affectée par 100 charges est touchée.",
+          "thumbnail": "heroes/Mitra/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Mitra/perks/light.png"
+      },
+      "dark": {
+        "effect": "En cas de coup critique, augmente ses DEG Crit de 0.5% et sa Vitesse d'ATQ de 5. Cet effet peut se cumuler jusqu'à 120 fois et ne peut pas être dissipé.",
+        "thumbnail": "heroes/Mitra/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Velkinoth, le Rugissement de la Folie",
+    "description": "Lors d'une attaque normale, augmente la Pénétration DEF et la Vitesse d'ATQ de 8 points. Cet effet peut se cumuler jusqu'à 30 fois et ne peut pas être dissipé.",
+    "value": {},
+    "thumbnail": "heroes/Mitra/uw.png",
+    "story": "Une paire d'armes magiques absorbant la frénésie guerrière de leur porteur pour accroître leur puissance de feu. Chaque pression de leurs gâchettes stimule la soif de sang de leur utilisateur. On dit que lorsqu'un maître-artisan crée une arme, celle-ci développe une âme. Les Berkinos semblent posséder l'âme d'un dieu de la guerre. Si l'on en croit la légende, quand leur créateur appuya pour la première fois sur la détente, il devint soudainement livide de peur et les jeta dans un fleuve.",
+    "descriptionByStar": {
+      "0": "Lors d'une attaque normale, augmente la Pénétration DEF et la Vitesse d'ATQ de 8 points. Cet effet peut se cumuler jusqu'à 30 fois et ne peut pas être dissipé.",
+      "1": "Lors d'une attaque normale, augmente la Pénétration DEF et la Vitesse d'ATQ de 10 points. Cet effet peut se cumuler jusqu'à 30 fois et ne peut pas être dissipé.",
+      "2": "Lors d'une attaque normale, augmente la Pénétration DEF et la Vitesse d'ATQ de 12 points. Cet effet peut se cumuler jusqu'à 30 fois et ne peut pas être dissipé.",
+      "3": "Lors d'une attaque normale, augmente la Pénétration DEF et la Vitesse d'ATQ de 14 points. Cet effet peut se cumuler jusqu'à 30 fois et ne peut pas être dissipé.",
+      "4": "Lors d'une attaque normale, augmente la Pénétration DEF et la Vitesse d'ATQ de 17 points. Cet effet peut se cumuler jusqu'à 30 fois et ne peut pas être dissipé.",
+      "5": "Lors d'une attaque normale, augmente la Pénétration DEF et la Vitesse d'ATQ de 20 points. Cet effet peut se cumuler jusqu'à 30 fois et ne peut pas être dissipé."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Folie potentielle",
+      "description": "[Bang! Bang!!] Augmente les DEG de 50 % et réduit le temps de recharge de 0,8 sec.",
+      "value": {},
+      "thumbnail": "heroes/Mitra/ut/1.png",
+      "story": "Le chargeur rapide de Velkinoth a été conçu pour accélérer sa recharge.\nConnu pour son sale caractère, Mitra décimait ses ennemis grâce à la cadence de tir invraisemblable de Velkinoth. Malheureusement, sa recharge, très lente, l'agaçait. Un jour, alors que Mitra se plaignait comme à son habitude, Crow surgit tout à coup devant lui.\n« Oh ? Vieux... argh ! »\nCrow lui balança un coup de poing dans le ventre, lui jeta quelque chose, puis s'en alla.\n« Prends ça et arrête de te plaindre. »\nSait-il seulement exprimer son affection autrement ?",
+      "descriptionByStar": {
+        "0": "[Bang! Bang!!] Augmente les DEG de 50 % et réduit le temps de recharge de 0,8 sec.",
+        "1": "[Bang! Bang!!] Augmente les DEG de 50 % et réduit le temps de recharge de 1 sec.",
+        "2": "[Bang! Bang!!] Augmente les DEG de 50 % et réduit le temps de recharge de 1,2 sec.",
+        "3": "[Bang! Bang!!] Augmente les DEG de 50 % et réduit le temps de recharge de 1,4 sec.",
+        "4": "[Bang! Bang!!] Augmente les DEG de 50 % et réduit le temps de recharge de 1,7 sec.",
+        "5": "[Bang! Bang!!] Augmente les DEG de 50 % et réduit le temps de recharge de 2 sec."
+      }
+    },
+    "2": {
+      "name": "Boîte de déluge du loup",
+      "description": "[L'Heure de la Mort !!] Réduit le coût en PM de 1 et augmente les DEG infligés au Boss de 20% pendant la durée de la compétence.",
+      "value": {},
+      "thumbnail": "heroes/Mitra/ut/2.png",
+      "story": "Boîte de déluge du loup d’acier. \nLes loups d’acier étaient réputés pour être trop agressifs et ainsi rendre impossible toute réanimation de leurs victimes. \nLe loup d’argent le plus tristement célèbre ne se sert que de la boîte de déluge du loup optimisée que la propriétaire de la Barre d’Or lui a offerte.",
+      "descriptionByStar": {
+        "0": "[L'Heure de la Mort !!] Réduit le coût en PM de 1 et augmente les DEG infligés au Boss de 20% pendant la durée de la compétence.",
+        "1": "[L'Heure de la Mort !!] Réduit le coût en PM de 1 et augmente les DEG infligés au Boss de 24% pendant la durée de la compétence.",
+        "2": "[L'Heure de la Mort !!] Réduit le coût en PM de 1 et augmente les DEG infligés au Boss de 29% pendant la durée de la compétence.",
+        "3": "[L'Heure de la Mort !!] Réduit le coût en PM de 1 et augmente les DEG infligés au Boss de 35% pendant la durée de la compétence.",
+        "4": "[L'Heure de la Mort !!] Réduit le coût en PM de 1 et augmente les DEG infligés au Boss de 42% pendant la durée de la compétence.",
+        "5": "[L'Heure de la Mort !!] Réduit le coût en PM de 1 et augmente les DEG infligés au Boss de 50% pendant la durée de la compétence."
+      }
+    },
+    "3": {
+      "name": "Rune des mercenaires à tête de loup",
+      "description": "[Danse avec moi] Les DEG sont augmentés de 20% et pour chaque activation, le Temps de Recharge de la compétence est réduit de 5%. Cumulable 8 fois.",
+      "value": {},
+      "thumbnail": "heroes/Mitra/ut/3.png",
+      "story": "Rune des plus grands mercenaires, les Loups d’Acier. Une rune symbolisant les mercenaires des Loups d’Acier, qui étaient surnommés les démons du champ de bataille. Mitra fut surnommé le Loup d’Argent du champ de bataille. Même après avoir quitté les mercenaires, il se souvient encore des combats contre l’officier naval de l’empire.",
+      "descriptionByStar": {
+        "0": "[Danse avec moi] Les DEG sont augmentés de 20% et pour chaque activation, le Temps de Recharge de la compétence est réduit de 5%. Cumulable 8 fois.",
+        "1": "[Danse avec moi] Les DEG sont augmentés de 24% et pour chaque activation, le Temps de Recharge de la compétence est réduit de 5%. Cumulable 8 fois.",
+        "2": "[Danse avec moi] Les DEG sont augmentés de 29% et pour chaque activation, le Temps de Recharge de la compétence est réduit de 5%. Cumulable 8 fois.",
+        "3": "[Danse avec moi] Les DEG sont augmentés de 35% et pour chaque activation, le Temps de Recharge de la compétence est réduit de 5%. Cumulable 8 fois.",
+        "4": "[Danse avec moi] Les DEG sont augmentés de 42% et pour chaque activation, le Temps de Recharge de la compétence est réduit de 5%. Cumulable 8 fois.",
+        "5": "[Danse avec moi] Les DEG sont augmentés de 50% et pour chaque activation, le Temps de Recharge de la compétence est réduit de 5%. Cumulable 8 fois."
+      }
+    },
+    "4": {
+      "name": "Mélodie de la folie",
+      "description": "[Vous êtes le Prochain] Augmente les DEG de 20 %. Lorsque vous attaquez un ennemi portant au moins 100 charges de Marque de la mort, augmente les DEG Crit du lanceur de 2 % pendant 10 sec. Ce boost de DEG Crit peut se cumuler jusqu'à 25 fois.",
+      "value": {},
+      "thumbnail": "heroes/Mitra/ut/4.png",
+      "story": "Un collier fait à partir d'une balle que Valance, directrice de Magos Le'Flamme, créa spécialement pour Mitra.\nIl ressemble à un collier ordinaire, mais il s'agit en réalité d'une balle d'une puissance explosive dévastatrice.\nGrâce à la technologie de pointe de Magos Le'Flamme, elle fut conçue pour ne fonctionner qu'avec Velkinoth. Les ingrédients qui la composent étant extrêmement rares, créer cette seule balle prit longtemps.\nValance décida de l'appeler la Mélodie de la folie, pour coller à la folie dont fait preuve Mitra sur le champ de bataille.",
+      "descriptionByStar": {
+        "0": "[Vous êtes le Prochain] Augmente les DEG de 20 %. Lorsque vous attaquez un ennemi portant au moins 100 charges de Marque de la mort, augmente les DEG Crit du lanceur de 2 % pendant 10 sec. Ce boost de DEG Crit peut se cumuler jusqu'à 25 fois.",
+        "1": "[Vous êtes le Prochain] Augmente les DEG de 24 %. Lorsque vous attaquez un ennemi portant au moins 100 charges de Marque de la mort, augmente les DEG Crit du lanceur de 2 % pendant 10 sec. Ce boost de DEG Crit peut se cumuler jusqu'à 25 fois.",
+        "2": "[Vous êtes le Prochain] Augmente les DEG de 29 %. Lorsque vous attaquez un ennemi portant au moins 100 charges de Marque de la mort, augmente les DEG Crit du lanceur de 2 % pendant 10 sec. Ce boost de DEG Crit peut se cumuler jusqu'à 25 fois.",
+        "3": "[Vous êtes le Prochain] Augmente les DEG de 35 %. Lorsque vous attaquez un ennemi portant au moins 100 charges de Marque de la mort, augmente les DEG Crit du lanceur de 2 % pendant 10 sec. Ce boost de DEG Crit peut se cumuler jusqu'à 25 fois.",
+        "4": "[Vous êtes le Prochain] Augmente les DEG de 42 %. Lorsque vous attaquez un ennemi portant au moins 100 charges de Marque de la mort, augmente les DEG Crit du lanceur de 2 % pendant 10 sec. Ce boost de DEG Crit peut se cumuler jusqu'à 25 fois.",
+        "5": "[Vous êtes le Prochain] Augmente les DEG de 50 %. Lorsque vous attaquez un ennemi portant au moins 100 charges de Marque de la mort, augmente les DEG Crit du lanceur de 2 % pendant 10 sec. Ce boost de DEG Crit peut se cumuler jusqu'à 25 fois."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Vous devez infliger des DEG à 80 reprises pour recharger l'âme et l'utiliser.",
+    "description": "Invoque l'âme de Velkinoth, le Rugissement de la Folie pendant 10 sec, ce qui augmente l'ATQ du Héros de 30%. L'âme de Velkinoth, le Rugissement de la Folie attaque la cible ennemie à 12 reprises pour lui infliger ??? DEG P par coup porté et ??? DEG P supplémentaires par Signe de la Mort porté par la cible.",
+    "cooldown": "22",
+    "uses": "7",
+    "thumbnail": "heroes/Mitra/sw.png",
+    "advancement": {
+      "1": "Augmente les DEG infligés par l'âme de Velkinoth, le Rugissement de la Folie, de 70%.",
+      "2": "Augmente les DEG infligés par le Héros de 30% pendant la durée de l'invocation."
+    },
+    "story": "Le canon de Velkinoth ne perdit pas sa lueur, même quand l'odeur de la poudre s'affaiblissait sous celle du sang. Et Mitra ne s'arrêta pas. Il poursuivit des massacres incessants, pareils à un festin pour lui. Cela finit par éveiller l'âme de folie endormie à l'intérieur de Velkinoth. Mitra qui se déchaînait furieusement durant les batailles plut à l'âme à peine éveillée. Et ce qui lui plaisait le plus, c'était que son propriétaire exprimait pleinement sa folie. Chaque fois que ce dernier tirait sur la gâchette, l'arme souhaitait montrer encore plus sa fureur, et libérer sa folie au point de se consumer entièrement. Le désir de Velkinoth entra en résonance avec Mitra, ce qui lui permit d'apparaître sous la forme de folie concentrée.\n\n- Waouh !! Ça déchire !"
+  },
+  "splashart": "heroes/Mitra/sa.png",
+  "costumes": "heroes/Mitra/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

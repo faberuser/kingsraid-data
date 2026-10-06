@@ -1,0 +1,246 @@
+{
+  "id": "Aselica",
+  "profile": {
+    "name": "Aselica",
+    "title": "Aselica, Gardienne du Soleil",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "5100",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "???",
+    "height": "170",
+    "race": "Ange",
+    "constellation": "Layan la Justiciére",
+    "birth": {
+      "month": 9,
+      "day": 22,
+      "monthName": "Mois de la Vérité"
+    },
+    "like": "Ses congénères et le respect de la loi",
+    "dislike": "Les démons",
+    "story": "Une ange puissante défendant leur havre. Même parmi les anges maniant le pouvoir de la lumière, elle a un lien particulier avec le soleil, dont elle utilise la lumière divine pour lutter contre les ténèbres. Elle a pour tâche de protéger les âmes des autres anges attendant leur résurrection. Lors que l'Épée Sacrée réapparut, elle répondit à l'appel divin de rejoindre le nouveau protecteur du monde. Elle fera en sorte que le guerrier élu ne succombe pas au pouvoir des ténèbres.",
+    "thumbnail": "heroes/Aselica/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Épée du Soleil",
+      "cost": "2",
+      "cooldown": "9",
+      "description": "Inflige ??? DEG M à la cible ennemie et aux ennemis à portée de la cible, puis les étourdit pendant 5 sec. Après l'utilisation de cette compétence, augmente sa Vitesse d'ATQ de 350 pendant 5 sec.",
+      "thumbnail": "heroes/Aselica/skills/1.png"
+    },
+    "2": {
+      "name": "Bénédiction du Soleil",
+      "cost": "2",
+      "cooldown": "20",
+      "description": "Confère Bénédiction du Soleil à l'allié à l'ATQ la plus élevée, ce qui réduit le temps de recharge de toutes ses compétences de 20% et qui, pendant 15 sec, augmente son ATQ à hauteur de ??? + 8% de la DEF P d'Aselica et ses DEG infligés aux ennemis non-Héros de 20%.",
+      "thumbnail": "heroes/Aselica/skills/2.png"
+    },
+    "3": {
+      "name": "Jugement du Soleil",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Prend position et se concentre pour restaurer en 8 reprises les PV des alliés à proximité à hauteur de ??? + 12% de la DEF P d'Aselica au total. Augmente également leur DEF P de ??? pendant 10 sec. En 8 reprises, inflige aux ennemis à portée ??? DEG M au total, et pendant 10 sec, réduit leur DEF M de ???. À la fin de la compétence, restaure les PV des alliés à portée de ??? + 2% des PV max d'Aselica, inflige aux ennemis ??? DEG M, et les renverse pendant 3 sec.",
+      "thumbnail": "heroes/Aselica/skills/3.png"
+    },
+    "4": {
+      "name": "Malédiction du Soleil",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lors de l'attaque, inflige à la cible ennemie Malédiction du soleil pendant 10 sec. Lorsque 10 charges de Malédiction du soleil sont cumulées sur la cible, les consomme toutes pour lui infliger ??? DEG M, et l'aveugle pendant 2 sec. Réduit également l'ATQ de la cible de 30% pendant 10 sec.\nLors de l'utilisation d'une compétence, confère à tous les alliés en dehors d'Aselica la Bénédiction de l'Ange pendant 5 sec, ce qui réduit les DEG P reçus des cibles alliées de 15%, et restaure leurs PV à hauteur de 0.1% des PV max d'Aselica toutes les sec.",
+      "thumbnail": "heroes/Aselica/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG de 10%.",
+      "III": "Augmente les DEG de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente l'augmentation d'ATQ de 10%.",
+      "III": "Augmente l'augmentation d'ATQ de 15%.",
+      "IV": "Augmente l'augmentation d'ATQ de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG et les soins de 10%.",
+      "III": "Augmente les DEG et les soins de 15%.",
+      "IV": "Augmente les DEG et les soins de 25%."
+    },
+    "4": {
+      "II": "Augmente les DEG de 10%.",
+      "III": "Augmente les DEG de 15%.",
+      "IV": "Augmente les DEG de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Augmente les DEG M reçus par la cible de 25% pendant 10 sec.",
+          "thumbnail": "heroes/Aselica/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit le temps de recharge de 2 s.",
+          "thumbnail": "heroes/Aselica/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Augmente le coût en PM de 1 et confère l'effet de la compétence aux 2 alliés à l'ATQ la plus élevée.",
+          "thumbnail": "heroes/Aselica/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Utilise la compétence en dissipant les effets négatifs d'Aselica et dissipe les effets négatifs de la cible.",
+          "thumbnail": "heroes/Aselica/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Aselica/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Utilise la compétence en dissipant tous les effets négatifs sur Aselica.",
+          "thumbnail": "heroes/Aselica/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Modifie la [Bénédiction de l'Ange] pour qu'elle ne puisse être dissipée.",
+          "thumbnail": "heroes/Aselica/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Active l'effet lorsque 7 charges de Malédiction du soleil sont cumulées.",
+          "thumbnail": "heroes/Aselica/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Blocage P +200",
+        "thumbnail": "heroes/Aselica/perks/light.png"
+      },
+      "dark": {
+        "effect": "Au début de la bataille, augmente la DEF P de l'allié à l'ATQ la plus élevée à hauteur de 20% de la DEF P d'Aselica. Cet effet ne peut être dissipé.",
+        "thumbnail": "heroes/Aselica/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Ignisius, le Halo solaire",
+    "description": "Lorsque l'attaque automatique touche la cible ennemie 5 fois, augmente les DEG M reçus par la cible de {0}% pendant 10 sec et l'étourdit pendant 0.5 sec. L'effet d'augmentation de DEG M reçus ne peut être dissipé.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      }
+    },
+    "thumbnail": "heroes/Aselica/uw.png",
+    "story": "Les légendes évoquent un mystérieux métal, aussi doré que les glorieux rayons du soleil, bleu que l'azur du ciel et blanc que la lumière aveuglante. Cette épée et ce bouclier sacrés ont été forgés dans ce métal que seuls les anges peuvent travailler. Ces divines reliques protectrices furent créées afin de bannir les ténèbres et d'inonder le monde de lumière. Confiées aux parangons des Chevaliers Gardiens angéliques, elles peuvent instantanément incinérer les démons qu'elles éclairent de leur lumière.",
+    "descriptionByStar": {
+      "0": "Lorsque l'attaque automatique touche la cible ennemie 5 fois, augmente les DEG M reçus par la cible de 20% pendant 10 sec et l'étourdit pendant 0.5 sec. L'effet d'augmentation de DEG M reçus ne peut être dissipé.",
+      "1": "Lorsque l'ennemi est touché 5 fois par une attaque normale, la cible subit 24% de DEG M supplémentaires pendant 10 secondes et est étourdie pendant 0,5 seconde.",
+      "2": "Lorsque l'ennemi est touché 5 fois par une attaque normale, la cible subit 29% de DEG M supplémentaires pendant 10 secondes et est étourdie pendant 0,5 seconde.",
+      "3": "Lorsque l'ennemi est touché 5 fois par une attaque normale, la cible subit 35% de DEG M supplémentaires pendant 10 secondes et est étourdie pendant 0,5 seconde.",
+      "4": "Lorsque l'ennemi est touché 5 fois par une attaque normale, la cible subit 42% de DEG M supplémentaires pendant 10 secondes et est étourdie pendant 0,5 seconde.",
+      "5": "Lorsque l'ennemi est touché 5 fois par une attaque normale, la cible subit 50% de DEG M supplémentaires pendant 10 secondes et est étourdie pendant 0,5 seconde."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Lumière de l'aube",
+      "description": "[Épée du Soleil] Dissipe tous les effets positifs dont bénéficient les ennemis à portée et restaure 200 PM à chaque coup porté.",
+      "value": {},
+      "thumbnail": "heroes/Aselica/ut/1.png",
+      "story": "Ce fragment de l'étoile du Berger est tombé du ciel.\nCette étoile est la lumière divine qui brille depuis la nuit des temps, gardienne des cieux et de la flamme sacrée de l'épée des anges. Lorsqu'elle descendit sur Terre, Aselica reçut ce fragment ainsi que l'épée du soleil d'un archange.",
+      "descriptionByStar": {
+        "0": "[Épée du Soleil] Dissipe tous les effets positifs dont bénéficient les ennemis à portée et restaure 200 PM à chaque coup porté.",
+        "1": "[Épée du Soleil] Dissipe tous les effets positifs dont bénéficient les ennemis à portée et restaure 240 PM à chaque coup porté.",
+        "2": "[Épée du Soleil] Dissipe tous les effets positifs dont bénéficient les ennemis à portée et restaure 290 PM à chaque coup porté.",
+        "3": "[Épée du Soleil] Dissipe tous les effets positifs dont bénéficient les ennemis à portée et restaure 350 PM à chaque coup porté.",
+        "4": "[Épée du Soleil] Dissipe tous les effets positifs dont bénéficient les ennemis à portée et restaure 420 PM à chaque coup porté:",
+        "5": "[Épée du Soleil] Dissipe tous les effets positifs dont bénéficient les ennemis à portée et restaure 500 PM à chaque coup porté."
+      }
+    },
+    "2": {
+      "name": "Bracelet du soleil",
+      "description": "[Bénédiction du Soleil] Réduit le coût en PM de 1 et les DEG P reçus par la cible de 10% pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Aselica/ut/2.png",
+      "story": "Bracelet confectionné par les archanges pour protéger les anges lors de leur venue sur terre. Il renferme le soleil, c’est pourquoi il brille de mille feux.\nLorsque les anges sont effrayés, l’on raconte que la lumière du soleil contenue dans le bracelet protège leur âme. \nLe sort des tous les anges étant mêlé à l’intérieur du bracelet, à chaque fois que la vie de l’un d’entre eux est en danger, les autres le ressentent instantanément.",
+      "descriptionByStar": {
+        "0": "[Bénédiction du Soleil] Réduit le coût en PM de 1 et les DEG P reçus par la cible de 10% pendant 10 sec.",
+        "1": "[Bénédiction du Soleil] Réduit le coût en PM de 1 et les DEG P reçus par la cible de 12% pendant 10 sec.",
+        "2": "[Bénédiction du Soleil] Réduit le coût en PM de 1 et les DEG P reçus par la cible de 14% pendant 10 sec.",
+        "3": "[Bénédiction du Soleil] Réduit le coût en PM de 1 et les DEG P reçus par la cible de 17% pendant 10 sec.",
+        "4": "[Bénédiction du Soleil] Réduit le coût en PM de 1 et les DEG P reçus par la cible de 21% pendant 10 sec.",
+        "5": "[Bénédiction du Soleil] Réduit le coût en PM de 1 et les DEG P reçus par la cible de 25% pendant 10 sec."
+      }
+    },
+    "3": {
+      "name": "Trompette de gardien",
+      "description": "[Jugement du Soleil] Confère l'immunité aux Contrôles pendant l'utilisation de la compétence. Augmente l'augmentation de DEF P et la réduction de DEF M de {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Aselica/ut/3.png",
+      "story": "Cette trompette est supposée être utilisée par le chef des archanges lors de la catastrophe qui signera la fin du monde matériel. L’on raconte que lorsque les gardiens entendront le son de cette trompette, ils se réveilleront et viendront protéger cette terre.",
+      "descriptionByStar": {
+        "0": "[Jugement du Soleil] Confère l'immunité aux Contrôles pendant l'utilisation de la compétence. Augmente l'augmentation de DEF P et la réduction de DEF M de 20%.",
+        "1": "[Jugement du Soleil] Confère l'immunité aux Contrôles pendant l'utilisation de la compétence. Augmente l'augmentation de DEF P et la réduction de DEF M de 24%.",
+        "2": "[Jugement du Soleil] Confère l'immunité aux Contrôles pendant l'utilisation de la compétence. Augmente l'augmentation de DEF P et la réduction de DEF M de 29%.",
+        "3": "[Jugement du Soleil] Confère l'immunité aux Contrôles pendant l'utilisation de la compétence. Augmente l'augmentation de DEF P et la réduction de DEF M de 35%.",
+        "4": "[Jugement du Soleil] Confère l'immunité aux Contrôles pendant l'utilisation de la compétence. Augmente l'augmentation de DEF P et la réduction de DEF M de 42%.",
+        "5": "[Jugement du Soleil] Confère l'immunité aux Contrôles pendant l'utilisation de la compétence. Augmente l'augmentation de DEF P et la réduction de DEF M de 50%."
+      }
+    },
+    "4": {
+      "name": "Volonté de la lumière",
+      "description": "[Malédiction du Soleil] Augmente la durée d'Aveuglement de 1 sec et les DEG M reçus par la cible de 10 % pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Aselica/ut/4.png",
+      "story": "Un accessoire capillaire orné de feuilles de laurier dorées et d'une plume d'aile de l'oiseau sacré Illaira. Il brille même dans l'obscurité la plus totale.\nIl protège son porteur des malédictions et sa lumière consume l'énergie négative.\nIl fut confié à Aselica par l'archange lors de sa nomination en tant qu'ange gardien.",
+      "descriptionByStar": {
+        "0": "[Malédiction du Soleil] Augmente la durée d'Aveuglement de 1 sec et les DEG M reçus par la cible de 10 % pendant 10 sec.",
+        "1": "[Malédiction du Soleil] Augmente la durée d'Aveuglement de 1 sec et les DEG M reçus par la cible de 12 % pendant 10 sec.",
+        "2": "[Malédiction du Soleil] Augmente la durée d'Aveuglement de 1 sec et les DEG M reçus par la cible de 14 % pendant 10 sec.",
+        "3": "[Malédiction du Soleil] Augmente la durée d'Aveuglement de 1 sec et les DEG M reçus par la cible de 17 % pendant 10 sec.",
+        "4": "[Malédiction du Soleil] Augmente la durée d'Aveuglement de 1 sec et les DEG M reçus par la cible de 21 % pendant 10 sec.",
+        "5": "[Malédiction du Soleil] Augmente la durée d'Aveuglement de 1 sec et les DEG M reçus par la cible de 25 % pendant 10 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 5 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme d'Ignisius, le Halo solaire, ce qui augmente pendant 10 sec l'ATQ de tous les alliés de 30% et leur DEF P de 60%. Ensuite, attaque la cible ennemie et ses alentours immédiats à 20 reprises pour leur infliger un total de ??? DEG M. À chaque coup porté, cumule une charge de Jugement d'Ignisius sur l'ennemi touché, augmentant ses DEG M reçus de 2% pour chaque charge pendant 5 sec. Le Jugement d'Ignisius est cumulable jusqu'à 20 fois.",
+    "cooldown": "20",
+    "uses": "7",
+    "thumbnail": "heroes/Aselica/sw.png",
+    "advancement": {
+      "1": "Augmente la durée de l'invocation de 5 sec et réduit la DEF M de la cible touchée de 2% par charge de Jugement d'Ignisius.",
+      "2": "Modifie l'augmentation des DEG M pour 3% et pendant la durée d'invocation, réduit les DEG P reçus par tous les alliés de 60%."
+    },
+    "story": "Un équipement transmis uniquement aux anges gardiens qui possèdent un cœur empli de justice.\n\nAselica avait reçu cet équipement des archanges lorsqu'elle descendit sur terre afin de surveiller le Héros de l'Épée-Sacrée. Elle avait également juré de l'utiliser afin de faire régner la justice au nom de Lua.\nCependant, maintenant qu'elle se retrouvait sur terre, les forces ténébreuses devenaient de plus en plus puissantes, ainsi que ses ennemis.\nCe fut aussi le cas des démons, des draconics ténébreux, et des êtres issus de ténèbres.\nElle lutta désespérément, encore et encore, mais il était impossible de tous les combattre seule.\nAlors que sa force et sa bravoure furent complètement épuisées...\nÀ son grand étonnement, son arme brilla d'une lumière éclatante. Et en lui disant de tout faire pour répandre la justice, elle lui insuffla de l'énergie et du courage inépuisables.\nC'était la conscience formée par les cœurs des anges gardiens justes, qui depuis longtemps imprégnaient l'équipement."
+  },
+  "splashart": "heroes/Aselica/sa.png",
+  "costumes": "heroes/Aselica/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

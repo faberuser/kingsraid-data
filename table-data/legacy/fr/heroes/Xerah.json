@@ -1,0 +1,271 @@
+{
+  "id": "Xerah",
+  "profile": {
+    "name": "Xerah",
+    "title": "Xerah, Messagère de la Lune écarlate",
+    "class": "Wizard",
+    "position": "Middle-200",
+    "attack_range": "7700",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "HERO_AGE_XERAH",
+    "height": "165",
+    "race": "??? (Humanoïde)",
+    "constellation": "Armil le Vénéré",
+    "birth": {
+      "month": 4,
+      "day": 19,
+      "monthName": "Mois de la Vie"
+    },
+    "like": "Les ténèbres, la lune, le spectacle de marionnettes, les livres d'histoire (très anciens), ceux qui possèdent des émotions négatives",
+    "dislike": "Tout ce qui existe en ce monde, y compris les Anges, les Démons, les Humains, les animaux, les plantes, et des êtres aussi innocents qu'un enfant",
+    "story": "Une jeune fille que Tidhar a créée afin d'intervenir dans le monde, à l'insu des autres êtres.\nElle agit parmi les hommes, en dissimulant sa présence et son identité.\nSon objectif principal est de réunir les forces de ténèbres pour réaliser l'avènement, et de trouver un réceptacle adéquat capable de contenir ces ténèbres.\nAu royaume de Sekireinel qui avait existé dans les temps jadis, elle était parvenue à retrouver un réceptacle convenable.\nCependant, elle connut l'échec par l'intervention des Héros présents et d'un être illustre.\nMais Xerah n'en désespéra pas, ni ne s'en désappointa.\nPeu lui importait le temps que cela durerait...\nElle n'en prendrait que davantage de plaisir à abîmer ce monde.",
+    "thumbnail": "heroes/Xerah/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Sphère des Ténèbres",
+      "cost": "2",
+      "cooldown": "5",
+      "description": "Lance 6 Sphères des Ténèbres, ce qui inflige ??? DEG M au total à une cible ennemie aléatoire et aux ennemis approchés dans une zone circulaire.\nLorsque Xerah est en état d'[Éveil ténébreux], les DEG de [Sphère des Ténèbres] augmentent de 2 fois et le temps de recharge est réduit de 100%.\n[Effet du niveau 1 du Sceau d'Extorsion] Anéantis le bouclier de la cible.",
+      "thumbnail": "heroes/Xerah/skills/1.png"
+    },
+    "2 (1)": {
+      "name": "Sceau d'Extorsion",
+      "cost": "3",
+      "cooldown": "17",
+      "description": "Dissipe les effets négatifs sur le Héros et génère un Sceau d'Extorsion perpétuel sur lui-même. Si le Héros possède déjà un Sceau d'Extorsion, augmente le niveau du Sceau d'Extorsion.\n[Sceau d'Extorsion] Inflige ??? DEG M toutes les 5 sec à un ennemi aléatoire.\nNiveau 1 : ajoute un effet à la compétence [Sphère des Ténèbres].\nNiveau 2 : modifie le cycle d'activation de l'effet à 4 sec et ajoute un effet à la compétence [Lune écarlate].\nNiveau 3 : modifie le cycle d'activation de l'effet à 3 sec et modifie la compétence [Sceau d'Extorsion] en [Attribution du Sceau].",
+      "thumbnail": "heroes/Xerah/skills/2 (1).png"
+    },
+    "2 (2)": {
+      "name": "Attribution du Sceau",
+      "cost": "2",
+      "cooldown": "17",
+      "description": "S'active lorsque le sceau atteint le niveau 3.\nEn l'utilisant, dissipe les effets négatifs sur le Héros et accorde à l'allié aux PV les plus bas l'énergie condensée dans le Sceau d'Extorsion. La cible alliée récupère immédiatement 1 PM et ??? PV au total pendant 5 sec et devient immunisée contre les contrôles.",
+      "thumbnail": "heroes/Xerah/skills/2 (2).png"
+    },
+    "3": {
+      "name": "Lune écarlate",
+      "cost": "4",
+      "cooldown": "25",
+      "description": "Pendant 10 sec, génère [Lune écarlate], ce qui augmente l'ATQ de tous les alliés de ??? et réduit les DEG reçus de 20% pendant la durée de la compétence. Inflige également à tous les ennemis ??? DEG M au total et réduit la récupération de PV de 50%.\n[Effet du niveau 2 du Sceau d'Extorsion] Augmente l'effet reçu par tous les alliés de 2 fois.",
+      "thumbnail": "heroes/Xerah/skills/3.png"
+    },
+    "4": {
+      "name": "Éveil ténébreux",
+      "cost": null,
+      "cooldown": null,
+      "description": "Obtient les charges de [Ténèbres] qui ne peuvent être dissipées, si le Héros n'est pas en état d'Éveil ténébreux à l'utilisation de la compétence.\nEn cumulant 4 charges de [Ténèbres], Xerah les utilise pour se mettre à l'état d'[Éveil ténébreux] qui ne peut être dissipé, pendant 10 sec, ce qui augmente le vol de vie de 200 et les dégâts infligés aux ennemis non-Héros de 50%. Lorsque Xerah subit des DEG fatals en état d'[Éveil ténébreux], cela dissipe l'état d'[Éveil ténébreux] et dépense tous les PM afin de restaurer 30% de PV. Ensuite, elle ne peut obtenir de charges de Ténèbres pendant 10 sec.",
+      "thumbnail": "heroes/Xerah/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente la récupération des PV de 10%.",
+      "III": "Augmente la récupération des PV de 15%.",
+      "IV": "Augmente la récupération des PV de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "À l'utilisation, récupère 1 PM.",
+          "thumbnail": "heroes/Xerah/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Augmente le coût en PM de 1 et modifie la cible pour l'ennemi à l'ATQ la plus élevée.",
+          "thumbnail": "heroes/Xerah/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "[Sceau d'Extorsion / Attribution du Sceau] Durant l'utilisation, immunise le Héros contre tous les DEG.",
+          "thumbnail": "heroes/Xerah/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "[Attribution du Sceau] Réduit les DEG reçus par la cible alliée de 20% pendant la durée de l'effet.",
+          "thumbnail": "heroes/Xerah/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente le coût en PM de 1. Pendant la durée de la compétence, dissipe ses effets négatifs et dissipe continuellement les effets négatifs affligés à tous les alliés.",
+          "thumbnail": "heroes/Xerah/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG M reçus par la cible ennemie de 30% pendant la durée de la compétence.",
+          "thumbnail": "heroes/Xerah/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "À l'état d'[Éveil ténébreux], modifie l'augmentation des DEG infligés aux ennemis non-Héros à 100%.",
+          "thumbnail": "heroes/Xerah/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Au début du chaque combat, passe à l'état d'[Éveil ténébreux] et ne peut cumuler de charges de [Ténèbres] pendant 40 sec.",
+          "thumbnail": "heroes/Xerah/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Crit +100",
+        "thumbnail": "heroes/Xerah/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente les DEG M reçus par la cible de 2% pendant 10 sec et réduit la récupération des PV de 2%, chaque fois que les attaques automatiques et celles de compétence infligent des DEG à l'ennemi. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "thumbnail": "heroes/Xerah/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Kaliosk, le Sceau d'Extorsion",
+    "description": "Augmente les DEG Crit de {0}%. Chaque fois que la compétence [Sceau d'Extorsion] inflige des DEG, réduit {1} PM de la cible et récupère {2} PM du lanceur.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "500",
+        "1": "600",
+        "2": "700",
+        "3": "800",
+        "4": "900",
+        "5": "1000"
+      },
+      "2": {
+        "0": "500",
+        "1": "600",
+        "2": "700",
+        "3": "800",
+        "4": "900",
+        "5": "1000"
+      }
+    },
+    "thumbnail": "heroes/Xerah/uw.png",
+    "story": "Une masse à chaîne, que Tidhar a confectionnée en y mettant les pouvoirs ténébreux, pour aider les recherches de Xerah.\nLes ténèbres pulsent à l'intérieur de la masse, et la chaîne bouge comme si elle était animée de vie.\nL'ennemi, atteint par l'attaque provenant de cette masse, est envahi par la sensation que son corps et son âme sont rongés.\nEt en poursuivant le combat, il a l'impression que son âme s'assèche de plus en plus, jusqu'à ce qu'elle tombe dans les tréfonds de l'abîme.\nNon seulement cette arme est utile aux combats, mais tient également un rôle important en tant qu'instrument :\nil s'agit d'extorquer la valeur de l'identité d'autrui, afin de l'assigner à Xerah, cette dernière étant une créature artificielle.\nCela permet à Xerah de déguiser sa propre existence, pour qu'elle soit perçue par les autres comme si elle avait existé depuis le début.",
+    "descriptionByStar": {
+      "0": "Augmente les DEG Crit de 20%. Chaque fois que la compétence [Sceau d'Extorsion] inflige des DEG, réduit 500 PM de la cible et récupère 500 PM du lanceur."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Perle des Étoiles",
+      "description": "[Sphère des Ténèbres] Augmente les DEG infligés de {0}% et étourdit l'ennemi touché pendant 1 sec.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Xerah/ut/1.png",
+      "story": "Une boule de cristal, à l'intérieur de laquelle on peut apercevoir la voie lactée et les étoiles.\nPersonne ne sait ce qu'elle contient réellement, ni à quoi elle est reliée,\nmais la puissance phénoménale qui y circule est la preuve que ce n'est pas un simple instrument de voyance.\nXerah communique avec Tidhar grâce à cette boule de cristal, afin de recevoir des missions ou de faire le rapport sur ses agissements.\nDe temps en temps, lorsque Xerah se déguise en voyante afin de dissimuler son identité, elle utilise cette boule pour dire la bonne aventure à des couples de passage.",
+      "descriptionByStar": {
+        "0": "[Sphère des Ténèbres] Augmente les DEG infligés de 20% et étourdit l'ennemi touché pendant 1 sec."
+      }
+    },
+    "2": {
+      "name": "Amulette de la Lune écarlate",
+      "description": "[Sceau d'Extorsion] Réduit le temps de recharge de 7 sec.\n[Attribution du Sceau] Modifie le nombre de cible à 4 et augmente la durée de l'effet de {0} sec.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
+      "thumbnail": "heroes/Xerah/ut/2.png",
+      "story": "Une amulette ornée d'une pierre précieuse qui ressemble à la lune écarlate.\nÀ vue d'œil, elle a l'apparence d'un magnifique accessoire, mais en réalité, c'est un instrument qui sert d'intermédiaire, afin d'accroître les forces de ténèbres.\nL'aura ténébreuse, amplifiée par l'amulette, absorbe les ténèbres environnantes et se fortifie jusqu'à ce qu'elle provoque le phénomène de l'Éclipse.\nD'immenses ténèbres apparues à cause de ce phénomène sont récoltées et conservées dans l'amulette.\nPar ce procédé, une quantité exorbitante de ténèbres est stockée dans l'amulette de Xerah.\nSeule Xerah et ses créateurs savent comment et où utiliser ce pouvoir incommensurable.",
+      "descriptionByStar": {
+        "0": "[Sceau d'Extorsion] Réduit le temps de recharge de 7 sec.\n[Attribution du Sceau] Modifie le nombre de cible à 4 et augmente la durée de l'effet de 2 sec."
+      }
+    },
+    "3": {
+      "name": "Marionnette Poupée",
+      "description": "[Lune écarlate] Pendant la durée de la compétence, restaure {0} PM de tous les alliés toutes les sec et modifie la réduction des PV de la cible ennemie touchée à 80%.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Xerah/ut/3.png",
+      "story": "Une marionnette que Xerah a reçue de Shakmeh, pendant qu'elle tentait de gagner sa confiance en l'aidant pendant ses études à l'étranger.\nProfitant d'une journée de repos, Shakmeh et Xerah étaient en train de visiter la ville, lorsqu'ils assistèrent par hasard à un spectacle de marionnette.\nSurpris par la profonde fascination que Xerah montrait pour cette performance, alors qu'en temps normal elle n'était guère intéressée même par la plus splendide des représentations,\nShakmeh lui offrit le pantin qui avait servi au spectacle comme cadeau d'anniversaire.\nIl avait dû simplement croire que Xerah appréciait le théâtre de marionnettes, mais...\nEn acceptant le cadeau, Xerah ne put s'empêcher d'esquisser un sourire amer.",
+      "descriptionByStar": {
+        "0": "[Lune écarlate] Pendant la durée de la compétence, restaure 100 PM de tous les alliés toutes les sec et modifie la réduction des PV de la cible ennemie touchée à 80%."
+      }
+    },
+    "4": {
+      "name": "Autoportrait d'une jeune Fille",
+      "description": "[Éveil ténébreux] Augmente la durée de l'état de {0} sec, et modifie la durée pendant laquelle elle ne peut cumuler les charges de [Ténèbres] à 5 sec, lorsque le Héros subit des DEG fatals.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
+      "thumbnail": "heroes/Xerah/ut/4.png",
+      "story": "Pendant qu'elle étudiait à l'académie dans le but d'accomplir sa mission, elle eut l'occasion de dessiner un autoportrait pendant un cours d'instruction culturelle.\nXerah, qui était brillante dans toutes les matières, remplit rapidement le papier à dessin,\nmais étrangement, elle ne parvint pas à esquisser ni sa figure, ni son expression.\nLe cours prit fin, et Xerah se retrouva face à un dessin d'une jeune fille sans visage.",
+      "descriptionByStar": {
+        "0": "[Éveil ténébreux] Augmente la durée de l'état de 2 sec, et modifie la durée pendant laquelle elle ne peut cumuler les charges de [Ténèbres] à 5 sec, lorsque le Héros subit des DEG fatals."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 5 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Kaliosk, le Sceau d'Extorsion pendant 10 sec, ce qui inflige ??? DEG M à l'ennemi à l'ATQ la plus élevée. Pendant la durée de l'âme, réduit l'ATQ de la cible de 20%, avant de réduire 250 PM toutes les sec, et augmente l'ATQ du lanceur de 30%.",
+    "cooldown": "22",
+    "uses": "6",
+    "thumbnail": "heroes/Xerah/sw.png",
+    "advancement": {
+      "1": "Modifie la condition d'utilisation à 4 fois, la réduction d'ATQ à 30% et l'augmentation d'ATQ à 50%.",
+      "2": "À l'utilisation de la compétence, passe immédiatement à l'état d'Éveil ténébreux pendant 10 sec."
+    },
+    "story": "Xerah était comme un épouvantail, créé uniquement dans le but de chasser les oiseaux.\nTout ce qu'elle pouvait faire, c'était d'observer, et d'observer encore, et encore... Rien de plus.\nElle se contenta donc de contempler ce monde, pendant que des générations entières naissaient, prospéraient et déclinaient, avant de finalement disparaître.\n\nEt tout ce qui lui resta au bout d'un temps proche de l'éternité n'était qu'un sentiment d'inanité.\nC'était logique, après tout. Car depuis le commencement, son existence n'avait aucune signification.\n\nSon unique plaisir était... de regarder les oiseaux s'envoler :\nles oiseaux qui parcouraient librement l'immensité du ciel, sans aucune entrave pour les retenir.\nLorsqu'un oisillon vint se percher sur l'épaule de Xerah, celle-ci sourit.\n\nUn pépiement semblable à un hurlement se fit entendre, et l'oisillon amoché tomba sur le sol.\nCar rien ne pouvait toucher ou émouvoir son cœur, déjà rempli de ténèbres.\nElle sourit en refermant son poing rougeâtre, recelant encore la sensation d'une jouissance cruelle.\n\n- Si je ne peux rien posséder... alors je prendrai tout par la force."
+  },
+  "splashart": "heroes/Xerah/sa.png",
+  "costumes": "heroes/Xerah/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

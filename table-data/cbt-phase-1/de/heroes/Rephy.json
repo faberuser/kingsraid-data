@@ -1,0 +1,260 @@
+{
+  "id": "Rephy",
+  "profile": {
+    "name": "Rephy",
+    "title": "Führer der Seelen Rephy",
+    "class": "Priest",
+    "position": "Back-100",
+    "attack_range": "1600",
+    "damage_type": "Magical",
+    "gender": "Männlich",
+    "age": "14",
+    "height": "110",
+    "race": "Tamia",
+    "constellation": "Asiphia, die Herrscherin",
+    "birth": {
+      "month": 10,
+      "day": 16,
+      "monthName": "Monat der Freundschaft"
+    },
+    "like": "Seelen; gütige Leute",
+    "dislike": "Anderen Schaden zuzufügen",
+    "story": "Dieser reine und gutherzige Tamian-Seelenführer kann mit den Toten kommunizieren. Das Volk der Tamian lebt im Einklang mit der Natur und verfügt über die Fähigkeit, ihren Verlauf zu deuten und die Seelen der Toten zu führen. Selbst für einen Tamian ist Rephy ein außerordentlicher Seelenführer. Er geleitet die Seelen der im Wald verstorbenen, hilft ihnen beim Übergang und beschützt sie vor dem Bösen. Er ist der fähigste der Tamian, wenn es darum geht, die Sterne zu deuten, die Seelen der Toten zu befrieden und sie angemessen ins Jenseits zu führen.",
+    "thumbnail": "heroes/Rephy/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Seelenheilung",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Stellt bei den 4 Verbündeten mit den niedrigsten LP 10% der max. LP wieder her und heilt zusätzlich für 10 Sek. alle 1 Sek. 88*(0.7+(0.3*Skill Level*Awakening Coefficient))+40.5% ATK LP. Dieser Effekt kann nicht entfernt werden.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Rephy/skills/1.png"
+    },
+    "2": {
+      "name": "Errettung",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Entfernt negative Effekte von allen Verbündeten und erhöht ihre Magie-VERT für 15 Sek. um 50*(0.7+(0.3*Skill Level*Awakening Coefficient)).\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Rephy/skills/2.png"
+    },
+    "3": {
+      "name": "Seelensturm",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Fügt Gegnern in Reichweite 10-mal 88*(0.7+(0.3*Skill Level*Awakening Coefficient))+55.8% ATK Magieschaden zu und reduziert ihr Angriffstempo für 10 Sek. um 10%. Erweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Rephy/skills/3.png"
+    },
+    "4": {
+      "name": "Spirituelle Anpassung",
+      "cost": null,
+      "cooldown": "8",
+      "description": "Stellt alle 8 Sek. bei 1 Verbündeten mit den niedrigsten LP 1000 MP und 264*(0.7+(0.3*Skill Level*Awakening Coefficient))+165.3% ATK LP wieder her.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Rephy/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Heilungsrate um [64ff64]10[-] %.",
+      "III": "Erhöht Heilungsrate um [64ff64]15[-] %.",
+      "IV": "Erhöht MP-Reg./Sek. um [64ff64]15[-] %."
+    },
+    "2": {
+      "II": "Erhöht Mag. VERT-Erhöhungsrate um [64ff64]10[-] %.",
+      "III": "Erhöht Mag. VERT-Erhöhungsrate um [64ff64]15[-] %.",
+      "IV": "Erhöht Debuff-Widerstand um [64ff64]120[-] für [64ffff]15[-] Sek."
+    },
+    "3": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Das Ziel erleidet [ff6464]200[-] % zusätzlichen Schaden."
+    },
+    "4": {
+      "II": "Erhöht Heilungsrate um [64ff64]10[-] %.",
+      "III": "Erhöht Heilungsrate um [64ff64]15[-] %.",
+      "IV": "Erhöht MP-Regeneration um [64ff64]50[-] %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Die Manakosten steigen um 1000, und der Effekt gilt nun für alle Verbündeten.",
+          "thumbnail": "heroes/Rephy/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "20 % Chance, mit jeder Heilung negative Effekte zu entfernen.",
+          "thumbnail": "heroes/Rephy/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1000.",
+          "thumbnail": "heroes/Rephy/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht Mag. VERT zusätzlich um 10 % der Mag. VERT des Beschwörers.",
+          "thumbnail": "heroes/Rephy/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Der vom Ziel erlittene magische Schaden steigt um 10 %.",
+          "thumbnail": "heroes/Rephy/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Der vom Ziel erlittene physische Schaden steigt um 10 %.",
+          "thumbnail": "heroes/Rephy/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Reduziert Cooldown um 2 Sek.",
+          "thumbnail": "heroes/Rephy/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Stellt zusätzlich 500 MP bei den 2 Verbündeten mit dem höchsten ANG wieder her.",
+          "thumbnail": "heroes/Rephy/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Mag. Ausweichen +100",
+        "thumbnail": "heroes/Rephy/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht die MP-Erholung pro Sekunde aller Verbündeten um 30% und reduziert die eigene Abklingzeit aller Fähigkeiten um 5%.",
+        "thumbnail": "heroes/Rephy/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Lampe Gottes, Kurulati",
+    "description": "Versetzt alle 20 Sek. die 2 Verbündeten mit den niedrigsten LP für {0} Sek. in [Geisterform]. Sie sind gegen physische Angriffe immun, ihre LP können nicht unter 1% fallen und ihre MP-Erholung pro Sekunde steigt um 35%.",
+    "thumbnail": "heroes/Rephy/uw.png",
+    "story": "Es ist die Pflicht einer Seelenführerin, die verlorenen Seelen zurück auf den richtigen Pfad zu geleiten, und ihnen beim Übergang ins Jenseits zur Seite zu stehen. Diese Lampe, erleuchtet von einer geheimnisvollen Kugel, die vor langer Zeit von einem Drachen aus einem weit entfernten Land erschaffen wurde, ist ein Schatz der Tamian. Der Kern der Kugel erlaubt Seelen in der Nähe, sich zu materialisieren, wodurch ihr Besitzer direkt mit ihnen kommunizieren kann. Insofern ist sie das optimale Werkzeug für eine Seelenführerin. Tamian-Häuptlinge verwendeten diese Reliquie seit Generationen, um damit die heiligen Pflichten einer Seelenführerin zu verrichten. Jetzt, wo die Welt von großer Gefahr bedroht wird, ging die Lampe an Rephy, der mächtigsten Seelenführerin von allen.",
+    "value": {
+      "0": {
+        "0": "2.5",
+        "1": "3",
+        "2": "3.5",
+        "3": "4",
+        "4": "4.5",
+        "5": "5"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Versetzt alle 20 Sek. die 2 Verbündeten mit den niedrigsten LP für 2.5 Sek. in [Geisterform]. Sie sind gegen physische Angriffe immun, ihre LP können nicht unter 1% fallen und ihre MP-Erholung pro Sekunde steigt um 35%.",
+      "1": "Versetzt alle 20 Sek. die 2 Verbündeten mit den niedrigsten LP für 3 Sek. in [Geisterform]. Sie sind gegen physische Angriffe immun, ihre LP können nicht unter 1% fallen und ihre MP-Erholung pro Sekunde steigt um 35%.",
+      "2": "Versetzt alle 20 Sek. die 2 Verbündeten mit den niedrigsten LP für 3.5 Sek. in [Geisterform]. Sie sind gegen physische Angriffe immun, ihre LP können nicht unter 1% fallen und ihre MP-Erholung pro Sekunde steigt um 35%.",
+      "3": "Versetzt alle 20 Sek. die 2 Verbündeten mit den niedrigsten LP für 4 Sek. in [Geisterform]. Sie sind gegen physische Angriffe immun, ihre LP können nicht unter 1% fallen und ihre MP-Erholung pro Sekunde steigt um 35%.",
+      "4": "Versetzt alle 20 Sek. die 2 Verbündeten mit den niedrigsten LP für 4.5 Sek. in [Geisterform]. Sie sind gegen physische Angriffe immun, ihre LP können nicht unter 1% fallen und ihre MP-Erholung pro Sekunde steigt um 35%.",
+      "5": "Versetzt alle 20 Sek. die 2 Verbündeten mit den niedrigsten LP für 5 Sek. in [Geisterform]. Sie sind gegen physische Angriffe immun, ihre LP können nicht unter 1% fallen und ihre MP-Erholung pro Sekunde steigt um 35%."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Melodie eines Blauen Sterns",
+      "description": "[Seelenheilung] verringert die Manakosten um 1 und erhöht die Massenkontrolle-PRÄZ des Ziels während der Wirkungsdauer um {0}.",
+      "thumbnail": "heroes/Rephy/ut/1.png",
+      "story": "Eine kleine Spieldose, die die Stimme von Asiphia, der Königin des Blauen Sterns, beinhaltet. Rephy öffnet sie, wenn er Seelen führt.\nDie Seelen, die zum Garten der Ruhe unterwegs sind, erhalten den Segen des Blauen Sterns, indem sie dem Gesang von Asiphia lauschen.\nWenn Asiphias Stimme erklingt, kann weder Dunkelheit noch Verderbnis den Seelen etwas anhaben.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Seelenheilung] verringert die Manakosten um 1 und erhöht die Massenkontrolle-PRÄZ des Ziels während der Wirkungsdauer um 100.",
+        "1": "[Seelenheilung] verringert die Manakosten um 1 und erhöht die Massenkontrolle-PRÄZ des Ziels während der Wirkungsdauer um 120.",
+        "2": "[Seelenheilung] verringert die Manakosten um 1 und erhöht die Massenkontrolle-PRÄZ des Ziels während der Wirkungsdauer um 140.",
+        "3": "[Seelenheilung] verringert die Manakosten um 1 und erhöht die Massenkontrolle-PRÄZ des Ziels während der Wirkungsdauer um 170.",
+        "4": "[Seelenheilung] verringert die Manakosten um 1 und erhöht die Massenkontrolle-PRÄZ des Ziels während der Wirkungsdauer um 210.",
+        "5": "[Seelenheilung] verringert die Manakosten um 1 und erhöht die Massenkontrolle-PRÄZ des Ziels während der Wirkungsdauer um 250."
+      }
+    },
+    "2": {
+      "name": "Saat der Geburt",
+      "description": "[Errettung] erhöht den Mag. VERT-Boost um 50 % und verringert den Cooldown um {0} %.",
+      "thumbnail": "heroes/Rephy/ut/2.png",
+      "story": "Eine Sammlung der Energie, die freigesetzt wird, wenn ein Leben geboren wird. Sie ist sehr warm und gütig, weshalb Seelen sie mögen. Rephy nutzt sie, um in einer Lampe ein Feuer zu entfachen, um die Kraft der Seelen zu nutzen. Wenn eine Saat in eine Lampe gesetzt wird, leuchtet sie hell, als wäre die Sonne neu geboren.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Errettung] erhöht den Mag. VERT-Boost um 50 % und verringert den Cooldown um 12 %.",
+        "1": "[Errettung] erhöht den Mag. VERT-Boost um 50 % und verringert den Cooldown um 14 %.",
+        "2": "[Errettung] erhöht den Mag. VERT-Boost um 50 % und verringert den Cooldown um 17 %.",
+        "3": "[Errettung] erhöht den Mag. VERT-Boost um 50 % und verringert den Cooldown um 21 %.",
+        "4": "[Errettung] erhöht den Mag. VERT-Boost um 50 % und verringert den Cooldown um 25 %.",
+        "5": "[Errettung] erhöht den Mag. VERT-Boost um 50 % und verringert den Cooldown um 30 %."
+      }
+    },
+    "3": {
+      "name": "Seelenhafen",
+      "description": "[Seelensturm] verringert die Manakosten um 1 und heilt alle Verbündete um {0} % des Schadens.",
+      "thumbnail": "heroes/Rephy/ut/3.png",
+      "story": "Ein Ornament, das in grauer Vorzeit für Gedenkfeiern verstorbener Könige benutzt wurde. In dem grünen Juwel befindet sich eine kristallisierte Träne des mythischen Wesens, das Menschen in den Tod führt. Es wird als Ruhestätte verwendet, um der Leere innerhalb von Seelen Trost zu spenden.",
+      "value": {
+        "0": {
+          "0": "8",
+          "1": "10",
+          "2": "12",
+          "3": "14",
+          "4": "17",
+          "5": "20"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Seelensturm] verringert die Manakosten um 1 und heilt alle Verbündete um 8 % des Schadens.",
+        "1": "[Seelensturm] verringert die Manakosten um 1 und heilt alle Verbündete um 10 % des Schadens.",
+        "2": "[Seelensturm] verringert die Manakosten um 1 und heilt alle Verbündete um 12 % des Schadens.",
+        "3": "[Seelensturm] verringert die Manakosten um 1 und heilt alle Verbündete um 14 % des Schadens.",
+        "4": "[Seelensturm] verringert die Manakosten um 1 und heilt alle Verbündete um 17 % des Schadens.",
+        "5": "[Seelensturm] verringert die Manakosten um 1 und heilt alle Verbündete um 20 % des Schadens."
+      }
+    },
+    "4": {
+      "name": "Blauer-Stern-Süßigkeit",
+      "description": "[Spirituelle Anpassung] erhöht die Heilungsrate um 50 %. Der ANG von Zielen wird für 4 Sek. um {0} % erhöht.",
+      "thumbnail": "heroes/Rephy/ut/4.png",
+      "story": "Eine Spezialität der Stadt der Lampenhüter.\nDiese Süßigkeit in Form eines Sterns ist Rephys Lieblingssnack.\nSie besteht aus „Wachrüttelblatt“, einem blauen Kraut, das nur in der Stadt der Lampenhüter wächst. Jedes Mal wenn Rephy die Stadt verlässt, gibt ihm das Oberhaupt der Stadt etwas davon mit.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Spirituelle Anpassung] erhöht die Heilungsrate um 50 %. Der ANG von Zielen wird für 4 Sek. um 20 % erhöht.",
+        "1": "[Spirituelle Anpassung] erhöht die Heilungsrate um 50 %. Der ANG von Zielen wird für 4 Sek. um 24 % erhöht.",
+        "2": "[Spirituelle Anpassung] erhöht die Heilungsrate um 50 %. Der ANG von Zielen wird für 4 Sek. um 29 % erhöht.",
+        "3": "[Spirituelle Anpassung] erhöht die Heilungsrate um 50 %. Der ANG von Zielen wird für 4 Sek. um 35 % erhöht.",
+        "4": "[Spirituelle Anpassung] erhöht die Heilungsrate um 50 %. Der ANG von Zielen wird für 4 Sek. um 42 % erhöht.",
+        "5": "[Spirituelle Anpassung] erhöht die Heilungsrate um 50 %. Der ANG von Zielen wird für 4 Sek. um 50 % erhöht."
+      }
+    }
+  },
+  "splashart": "heroes/Rephy/sa.png",
+  "costumes": "heroes/Rephy/cos",
+  "_localization": {
+    "locale": "de",
+    "version": "cbt-phase-1",
+    "englishFallbackFields": []
+  }
+}

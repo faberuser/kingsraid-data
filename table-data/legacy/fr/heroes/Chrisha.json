@@ -1,0 +1,228 @@
+{
+  "id": "Chrisha",
+  "profile": {
+    "name": "Chrisha",
+    "title": "Chrisha, Inquisitrice de Fer",
+    "class": "Mechanic",
+    "position": "Back-300",
+    "attack_range": "6000",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "18",
+    "height": "164",
+    "race": "Humain",
+    "constellation": "Layan la Justiciére",
+    "birth": {
+      "month": 9,
+      "day": 12,
+      "monthName": "Mois de la Vérité"
+    },
+    "like": "Sa famille et l'ordre de la chevalerie. La dignité, la foi et la bravoure. les échecs et des personnes intelligentes.",
+    "dislike": "Ceux qui décrient l'honneur de l'empire et qui menacent sa paix",
+    "story": "Capitaine de Velchia, l'Ordre des fiers chevaliers-mages de l'empire, et inquisitrice aux ordres directs de l'impératrice.\nSa mission consiste à lutter contre la corruption, les rebelles, et tout ce qui porte atteinte à l'empire.\nLes sujets de l'impératrice la considèrent comme une véritable héroïne,\nqualificatif qu'elle n'a jamais cherché à acquérir.\nEn tant que soldat et membre de la famille Van Nosenhill, tout ce qui lui importe est de mener à bien sa mission.",
+    "thumbnail": "heroes/Chrisha/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Lumière annihilatrice",
+      "cost": "3",
+      "cooldown": "19",
+      "description": "Inflige ??? points de DEG M ignorant la DEF de la cible, et étourdit cette dernière pendant 3 sec. Inflige ??? points supplémentaires de DEG M ignorant la DEF aux cibles non-Héros. À la fin de l'incantation, retire toutes les lumières et accorde une Lumière rouge inamovible.",
+      "thumbnail": "heroes/Chrisha/skills/1.png"
+    },
+    "2": {
+      "name": "Blocus ennemi",
+      "cost": "3",
+      "cooldown": "16",
+      "description": "Dissipe tous les effets négatifs qui pèsent sur le lanceur, inflige ??? points de DEG M à tous les ennemis et les réduit au silence pendant 2 sec. À la fin de l'incantation, retire toutes les lumières et accorde une Lumière bleue inamovible.",
+      "thumbnail": "heroes/Chrisha/skills/2.png"
+    },
+    "3": {
+      "name": "Zone verte",
+      "cost": "3",
+      "cooldown": "25",
+      "description": "Inflige ??? points de DEG M aux ennemis situés en face en ligne droite et génère une zone verte. Les ennemis à l'intérieur ne peuvent plus recevoir d'effet positif, subissent ??? points de DEG M pendant 3 sec, et leur récupération ralentit de 30%. À la fin de l'incantation, retire toutes les lumières et accorde une Lumière verte inamovible.",
+      "thumbnail": "heroes/Chrisha/skills/3.png"
+    },
+    "4": {
+      "name": "Technomagie de l'empire",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente l'ATQ de ??? et la Précision de 100 de tous les alliés et change l'attaque automatique du lanceur en fonction de la couleur de la lumière active.\nLumière rouge - Augmente les DEG des attaques automatiques de 100% et réduit le temps de recharge de [Lumière annihilatrice] de 1 sec lors de l'attaque.\nLumière bleue - Réduit les DEG des attaques automatiques de 30%, mais attaque tous les ennemis. Augmente les DEG M reçus par la cible de 30% pendant 10 sec.\nLumière verte - Attaque 2 ennemis et ralentit la récupération des PV de chaque cible de 20% pendant 5 sec.",
+      "thumbnail": "heroes/Chrisha/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "2": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "3": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "4": {
+      "II": "Augmentation de l'ATQ boostée de 10%.",
+      "III": "Augmentation de l'ATQ boostée de 15%.",
+      "IV": "Augmentation de l'ATQ boostée de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Chrisha/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Augmente le coût en PM de 1 et les DEG infligés de 100%.",
+          "thumbnail": "heroes/Chrisha/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Chrisha/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Augmente la durée de Silence de 1 sec.",
+          "thumbnail": "heroes/Chrisha/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Chrisha/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente la durée de Zone verte de 1,5 sec.",
+          "thumbnail": "heroes/Chrisha/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Améliore l'effet des lumières sur les attaques normales.\nLumière rouge : la réduction du temps de recharge passe à 2 sec.\nLumière bleue : la cible reçoit 60% de DEG M supplémentaires.\nLumière verte : le ralentissement de la récupération passe à 40%.",
+          "thumbnail": "heroes/Chrisha/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Augmente la portée des attaques normales de 20%.",
+          "thumbnail": "heroes/Chrisha/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Crit +100",
+        "thumbnail": "heroes/Chrisha/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente la Vitesse d'ATQ des attaques normales de 400 points et de 40 points supplémentaires par compétence utilisée. Cet effet ne peut pas être dissipé et peut se cumuler jusqu'à 10 fois.",
+        "thumbnail": "heroes/Chrisha/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Arc Lumineir, la Nova prismatique",
+    "description": "Les lumières accordent différents effets.\nLumière rouge - Augmente l'ATQ de tous les alliés de 10% pendant 10 sec.\nLumière bleue - Augmente la DEF de tous les alliés de 10% pendant 10 sec.\nLumière verte - Restaure 300 PM de tous les alliés.",
+    "value": {},
+    "thumbnail": "heroes/Chrisha/uw.png",
+    "story": "L'une des dernières armes mises au point par Magos Le'Flamme, l'organisation de recherche impériale.\nAkistra est un canon à la puissance létale maximisée,\ntandis qu'Arc Lumineir est une arme stratégique multifonction.\nAlors qu'ils essayaient de maîtriser le pouvoir de la lumière,\nles chercheurs ont associé un minerai capable de disperser la lumière et les principes élémentaux de la technomagie,\npour aboutir à un tout nouveau concept d'arme optique.",
+    "descriptionByStar": {
+      "0": "Les lumières accordent différents effets.\nLumière rouge - Augmente l'ATQ de tous les alliés de 10% pendant 10 sec.\nLumière bleue - Augmente la DEF de tous les alliés de 10% pendant 10 sec.\nLumière verte - Restaure 300 PM de tous les alliés.",
+      "1": "Les lumières accordent différents effets.\nLumière rouge - Augmente l'ATQ de tous les alliés de 12% pendant 10 sec.\nLumière bleue - Augmente la DEF de tous les alliés de 12% pendant 10 sec.\nLumière verte - Restaure 360 PM de tous les alliés.",
+      "2": "Les lumières accordent différents effets.\nLumière rouge - Augmente l'ATQ de tous les alliés de 14% pendant 10 sec.\nLumière bleue - Augmente la DEF de tous les alliés de 14% pendant 10 sec.\nLumière verte - Restaure 430 PM de tous les alliés.",
+      "3": "Les lumières accordent différents effets.\nLumière rouge - Augmente l'ATQ de tous les alliés de 17% pendant 10 sec.\nLumière bleue - Augmente la DEF de tous les alliés de 17% pendant 10 sec.\nLumière verte - Restaure 520 PM de tous les alliés.",
+      "4": "Les lumières accordent différents effets.\nLumière rouge - Augmente l'ATQ de tous les alliés de 21% pendant 10 sec.\nLumière bleue - Augmente la DEF de tous les alliés de 21% pendant 10 sec.\nLumière verte - Restaure 630 PM de tous les alliés.",
+      "5": "Les lumières accordent différents effets.\nLumière rouge - Augmente l'ATQ de tous les alliés de 25% pendant 10 sec.\nLumière bleue - Augmente la DEF de tous les alliés de 25% pendant 10 sec.\nLumière verte - Restaure 750 PM de tous les alliés."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Épée des Nosenhill",
+      "description": "[Lumière annihilatrice] Augmente les DEG de 20 % et réinitialise le temps de recharge à chaque ennemi vaincu.",
+      "value": {},
+      "thumbnail": "heroes/Chrisha/ut/1.png",
+      "story": "Cette épée élaborée est le trésor familial des Van Nosenhill.\nLa famille Van Nosenhill accéda à la noblesse, car elle a produit de nombreux stratèges et commandants exceptionnels depuis le règne du premier empereur.\nL'épée fut décernée aux Van Nosenhill par le premier empereur et depuis, elle n'a pas quitté le côté des chefs successifs de la famille.",
+      "descriptionByStar": {
+        "0": "[Lumière annihilatrice] Augmente les DEG de 20 % et réinitialise le temps de recharge à chaque ennemi vaincu.",
+        "1": "[Lumière annihilatrice] Augmente les DEG de 24 % et réinitialise le temps de recharge à chaque ennemi vaincu.",
+        "2": "[Lumière annihilatrice] Augmente les DEG de 29 % et réinitialise le temps de recharge à chaque ennemi vaincu.",
+        "3": "[Lumière annihilatrice] Augmente les DEG de 35 % et réinitialise le temps de recharge à chaque ennemi vaincu.",
+        "4": "[Lumière annihilatrice] Augmente les DEG de 42 % et réinitialise le temps de recharge à chaque ennemi vaincu.",
+        "5": "[Lumière annihilatrice] Augmente les DEG de 50 % et réinitialise le temps de recharge à chaque ennemi vaincu."
+      }
+    },
+    "2": {
+      "name": "Certificat de l'inquisitrice",
+      "description": "[Blocus ennemi] Réduit le temps de recharge de 5 sec et augmente les DEG M reçus par la cible de 10 % pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Chrisha/ut/2.png",
+      "story": "La plaque de l'inquisitrice remise à Chrisha par l'impératrice.\nLe loup d'argent et l'épée dans sa gueule symbolisent l'autorité et la domination\navec lesquelles Chrisha rend justice et pourchasse le mal au nom de l'impératrice.",
+      "descriptionByStar": {
+        "0": "[Blocus ennemi] Réduit le temps de recharge de 5 sec et augmente les DEG M reçus par la cible de 10 % pendant 10 sec.",
+        "1": "[Blocus ennemi] Réduit le temps de recharge de 5 sec et augmente les DEG M reçus par la cible de 12 % pendant 10 sec.",
+        "2": "[Blocus ennemi] Réduit le temps de recharge de 5 sec et augmente les DEG M reçus par la cible de 14 % pendant 10 sec.",
+        "3": "[Blocus ennemi] Réduit le temps de recharge de 5 sec et augmente les DEG M reçus par la cible de 17 % pendant 10 sec.",
+        "4": "[Blocus ennemi] Réduit le temps de recharge de 5 sec et augmente les DEG M reçus par la cible de 21 % pendant 10 sec.",
+        "5": "[Blocus ennemi] Réduit le temps de recharge de 5 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec."
+      }
+    },
+    "3": {
+      "name": "Fierté de Velchia",
+      "description": "[Zone verte]Réduit le temps de recharge de 30 % et renforce de 20 % supplémentaires la réduction d'effet de la récupération provoqué par Zone verte.",
+      "value": {},
+      "thumbnail": "heroes/Chrisha/ut/3.png",
+      "story": "L'anneau remis au commandant des chevaliers-mages de Velchia.\nIl symbolise la puissance et la fierté de l'ordre de chevaliers-mages le plus réputé de l'empire.\nIls se servent de cet anneau comme d'un sceau.",
+      "descriptionByStar": {
+        "0": "[Zone verte]Réduit le temps de recharge de 30 % et renforce de 20 % supplémentaires la réduction d'effet de la récupération provoqué par Zone verte.",
+        "1": "[Zone verte]Réduit le temps de recharge de 30 % et renforce de 24 % supplémentaires la réduction d'effet de la récupération provoqué par Zone verte.",
+        "2": "[Zone verte]Réduit le temps de recharge de 30 % et renforce de 29 % supplémentaires la réduction d'effet de la récupération provoqué par Zone verte.",
+        "3": "[Zone verte]Réduit le temps de recharge de 30 % et renforce de 35 % supplémentaires la réduction d'effet de la récupération provoqué par Zone verte.",
+        "4": "[Zone verte]Réduit le temps de recharge de 30 % et renforce de 42 % supplémentaires la réduction d'effet de la récupération provoqué par Zone verte.",
+        "5": "[Zone verte]Réduit le temps de recharge de 30 % et renforce de 50 % supplémentaires la réduction d'effet de la récupération provoqué par Zone verte."
+      }
+    },
+    "4": {
+      "name": "Prisme de couleurs primaires",
+      "description": "[Technomagie de l'empire] Après avoir acquis la Lumière, augmente l'ATQ de 3 % et les DEG infligés aux ennemis non-héros de 1,2 % pendant 20 sec. Cet effet peut se cumuler jusqu'à 10 fois.",
+      "value": {},
+      "thumbnail": "heroes/Chrisha/ut/4.png",
+      "story": "Cette source de mana, noyau de l'Arc Lumineir, diffracte certains rayons lumineux en fonction de leur longueur d'onde.\nCette pierre était une relique très puissante combinée à des sorts élémentaires, mais pas assez pour supporter de la magie supérieure.\nLa technomagie de Magos Le'Flamme a grandement amélioré sa résilience, et il est à présent utilisé comme arme optique.",
+      "descriptionByStar": {
+        "0": "[Technomagie de l'empire] Après avoir acquis la Lumière, augmente l'ATQ de 3 % et les DEG infligés aux ennemis non-héros de 1,2 % pendant 20 sec. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "1": "[Technomagie de l'empire] Après avoir acquis la Lumière, augmente l'ATQ de 3 % et les DEG infligés aux ennemis non-héros de 1,4 % pendant 20 sec. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "2": "[Technomagie de l'empire] Après avoir acquis la Lumière, augmente l'ATQ de 3 % et les DEG infligés aux ennemis non-héros de 1,7 % pendant 20 sec. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "3": "[Technomagie de l'empire] Après avoir acquis la Lumière, augmente l'ATQ de 3 % et les DEG infligés aux ennemis non-héros de 2,1 % pendant 20 sec. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "4": "[Technomagie de l'empire] Après avoir acquis la Lumière, augmente l'ATQ de 3 % et les DEG infligés aux ennemis non-héros de 2,5 % pendant 20 sec. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "5": "[Technomagie de l'empire] Après avoir acquis la Lumière, augmente l'ATQ de 3 % et les DEG infligés aux ennemis non-héros de 3 % pendant 20 sec. Cet effet peut se cumuler jusqu'à 10 fois."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 5 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme d'Arc Lumineir, la Nova prismatique pendant 10 sec. Pendant la durée de l'invocation, l'âme attaque toutes les 3 sec en fonction de la couleur de la lumière en possession.\nLumière rouge - Attaque l'ennemi pour lui infliger ??? DEG M ignorant la DEF de la cible. \nLumière bleue - Attaque tous les ennemis pour leur infliger ??? DEG M et restaure 1 barres de PM de tous les alliés. \nLumière verte - Attaque 2 ennemis pour leur infliger ??? DEG M et réduit leur taux d'ATQ de 35% pendant 5 sec.",
+    "cooldown": "21",
+    "uses": "7",
+    "thumbnail": "heroes/Chrisha/sw.png",
+    "advancement": {
+      "1": "La condition d'utilisation passe à 4 fois.",
+      "2": "Renforce tous les effets de manière supplémentaire.\n[Lumière rouge] - Augmente les DEG infligés de 50%.\n[Lumière bleue] - Augmente la récupération PM de 100%. \n[Lumière verte] - La réduction du taux d'ATQ passe à 50%."
+    },
+    "story": "Chrisha étudiait sans cesse son Arc Lumineir. Car elle pensait obstinément qu'aucun ennemi ne pouvait être vaincu si elle ignorait les caractéristiques de son arme. Elle tenait un journal d'étude, qu'elle écrivait en consultant les plans de Magos Le'Flamme. Puis un jour, elle découvrit qu'il existait une force endormie à l'intérieur de l'arme. C'était une autre lumière, que même les chercheurs ayant développé Arc Lumineir n'avaient jamais évoquée. Au début, Chrisha fut surprise, mais parvint au raisonnement qu'elle seule pouvait éveiller cette puissance.\n'-À présent, moi seule peut la manier. Dans ce cas, je l'utiliserai totalement, sans retenue.'\nAprès cela, Arc Lumineir devint une arme capable de produire une lumière intense, résultat de trois sorts élémentaires."
+  },
+  "splashart": "heroes/Chrisha/sa.png",
+  "costumes": "heroes/Chrisha/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

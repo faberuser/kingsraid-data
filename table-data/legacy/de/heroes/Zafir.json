@@ -1,0 +1,228 @@
+{
+  "id": "Zafir",
+  "profile": {
+    "name": "Zafir",
+    "title": "Prinz der Sandstürme Zafir",
+    "class": "Archer",
+    "position": "Middle-300",
+    "attack_range": "4600",
+    "damage_type": "Physical",
+    "gender": "Männlich",
+    "age": "20",
+    "height": "185",
+    "race": "Menschen",
+    "constellation": "Notmun, der Stimmer",
+    "birth": {
+      "month": 7,
+      "day": 30,
+      "monthName": "Monat der Harmonie"
+    },
+    "like": "Katzen, Sandkunst, das Volk der Wüste",
+    "dislike": "Jeder, der den Menschen schaden will, die ihm nahestehen.",
+    "story": "Ein Prinz und Nachfolger des Gottkönigs des uralten Wüstenkönigreiches, der die Macht besitzt, den Wüstensand zu beherrschen. \nAls junger Anführer des Mauhata-Stammes der Wüstenkrieger wurde er hart trainiert und ausgebildet, um ein würdiger Nachfolger des Gottkönigs zu werden. \nAls die Mitglieder des Trovatia-Stammes, ihre eingeschworenen Brüder, am Schrein des Flusses beteten, um den Gottdrachen zu erwecken, führte er seine Krieger an, um alle Dämonen zu besiegen, die sich der Oase näherten. \nZusammen mit dem Gottdrachen und Laudia, ihrer Priesterin, erfüllt er seine Rolle als Wüstenkrieger und verteidigt seine Heimat. \nEr hofft, dass seine Anstrengungen den verstorbenen Gottkönig mit stolz erfüllen.",
+    "thumbnail": "heroes/Zafir/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Urteil der Wüste",
+      "cost": "2",
+      "cooldown": "5",
+      "description": "Verursacht ??? Körp. Schaden an Gegnern im weiten Umkreis und senkt den Skill-Cooldown um 1 Sek. pro getroffenem Gegner. Verursacht ??? Körp. Schaden an Gegnern, die unter dem [Mal der Wüste] leiden und entfernt 1x [Mal der Wüste]. Bei jeder Skillnutzung wird der Krit. Schaden um 5 % erhöht. Der Effekt kann bis zu 18x gestapelt werden und ist nicht aufhebbar.",
+      "thumbnail": "heroes/Zafir/skills/1.png"
+    },
+    "2": {
+      "name": "Segen des Sandgeists",
+      "cost": "2",
+      "cooldown": "14",
+      "description": "Erzeugt am Verbündeten mit den niedrigsten LP für 5 Sek. einen Schild, der ??? Schaden absorbiert und gegen Kontrolleffekte immun macht. Nach Ablauf löst er [Sandsturm] aus: ??? physischer Schaden in einem großen Bereich und 2 Stapel [Wüstenmal]. Wird der Schild entfernt oder zerstört, tritt kein Sandsturm auf.",
+      "thumbnail": "heroes/Zafir/skills/2.png"
+    },
+    "3": {
+      "name": "Verderben der Wüste",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Verursacht ??? Körp. Schaden an Gegnern in weitem Umkreis vor einem und belegt diese mit 1 Stapel [Mal der Wüste]. Beschwört dann 5 Sek. lang eine Sandgrube, die alle 0,5 Sek. ??? Körp. Schaden verursacht und 10 Sek. lang Körp. VERT um 30 % senkt. Die Sandgrube hat eine 25 % Chance, Gegnern 1 Stapel [Mal der Wüste] aufzuerlegen, und zieht alle Gegner in Reichweite zu ihrem Mittelpunkt.",
+      "thumbnail": "heroes/Zafir/skills/3.png"
+    },
+    "4": {
+      "name": "Ruf des Wächters",
+      "cost": null,
+      "cooldown": null,
+      "description": "Jeder normale Angriff verursacht mit 15% Wahrscheinlichkeit an allen Gegnern ??? physischen Schaden, der Abwehr ignoriert, und 1 Stapel [Wüstenmal]. Bis zu 10-mal stapelbar.",
+      "thumbnail": "heroes/Zafir/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden und Schild-TP um 10 %.",
+      "III": "Erhöht Schaden und Schild-TP um 15 %.",
+      "IV": "Erhöht Schaden und Schild-TP um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Krit. Schadenserhöhung pro Nutzung erhöht sich auf 10 %.",
+          "thumbnail": "heroes/Zafir/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Betäubt 1 Sek. lang getroffene Feinde.",
+          "thumbnail": "heroes/Zafir/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Bei weniger als 3 Verbündete überträgt den Schild auf alle Verbündete. Dabei wird Sandstürme nicht aktiviert.",
+          "thumbnail": "heroes/Zafir/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Aktiviert mit jedem Kampfbeginn einen eigenen 5-Sek.-Schild. Dabei wird Sandstürme nicht aktiviert.",
+          "thumbnail": "heroes/Zafir/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Massenkontroll-Immunität für die Dauer des Skills.",
+          "thumbnail": "heroes/Zafir/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Dauer von ‚Sandgrube‘ wird um 2 Sek. erhöht.",
+          "thumbnail": "heroes/Zafir/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Bei mehr als 5 Feinden werden alle jede Sek. mit dem Mal der Wüste belegt.",
+          "thumbnail": "heroes/Zafir/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Aktivierungschance ändert sich auf 30 %.",
+          "thumbnail": "heroes/Zafir/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Chance +100",
+        "thumbnail": "heroes/Zafir/perks/light.png"
+      },
+      "dark": {
+        "effect": "Regeneriert 700 Mana bei Nutzung eines Skills. Bei mehr als 5 Gegnern wird die MP-Regenerationsrate verdoppelt und die ANG-GESCHW 5 Sek. lang um 500 erhöht. Dieser Effekt ist nicht stapelbar.",
+        "thumbnail": "heroes/Zafir/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Ruhm des Gottkönigs, Zaries",
+    "description": "Erhält bei der Nutzung eines Skills einen Stapel „Willen der Wüste“. „Willen der Wüste“ erhöht 30 Sek. lang ANG um 4 %, Krit. Schaden um 4 % und kann bis zu 8-mal gestapelt werden. Der Effekt kann nicht aufgehoben werden.",
+    "value": {},
+    "thumbnail": "heroes/Zafir/uw.png",
+    "story": "Eine uralte Waffe, die für das ruhmreichste Wesen auf Erden geschmiedet wurde. \nEs ist nur dem Nachfolger des Gottkönigs erlaubt, diese Waffe zu tragen, und man muss sich enormen Prüfungen unterziehen, um sich ihr als würdig zu erweisen. \nDieser Bogen, der nur dem auserwählten Nachfolger des Gottkönigs erlaubt ist, besitzt in der Wüste absolute Macht.",
+    "descriptionByStar": {
+      "0": "Erhält bei der Nutzung eines Skills einen Stapel „Willen der Wüste“. „Willen der Wüste“ erhöht 30 Sek. lang ANG um 4 %, Krit. Schaden um 4 % und kann bis zu 8-mal gestapelt werden. Der Effekt kann nicht aufgehoben werden.",
+      "1": "Erhält bei der Nutzung eines Skills einen Stapel „Willen der Wüste“. „Willen der Wüste“ erhöht 30 Sek. lang ANG um 4,8 %, Krit. Schaden um 4,8 % und kann bis zu 8-mal gestapelt werden. Der Effekt kann nicht aufgehoben werden.",
+      "2": "Erhält bei der Nutzung eines Skills einen Stapel „Willen der Wüste“. „Willen der Wüste“ erhöht 30 Sek. lang ANG um 5,6 %, Krit. Schaden um 5,6 % und kann bis zu 8-mal gestapelt werden. Der Effekt kann nicht aufgehoben werden.",
+      "3": "Erhält bei der Nutzung eines Skills einen Stapel „Willen der Wüste“. „Willen der Wüste“ erhöht 30 Sek. lang ANG um 6,8 %, Krit. Schaden um 6,8 % und kann bis zu 8-mal gestapelt werden. Der Effekt kann nicht aufgehoben werden.",
+      "4": "Erhält bei der Nutzung eines Skills einen Stapel „Willen der Wüste“. „Willen der Wüste“ erhöht 30 Sek. lang ANG um 8,4 %, Krit. Schaden um 8,4 % und kann bis zu 8-mal gestapelt werden. Der Effekt kann nicht aufgehoben werden.",
+      "5": "Erhält bei der Nutzung eines Skills einen Stapel „Willen der Wüste“. „Willen der Wüste“ erhöht 30 Sek. lang ANG um 10 %, Krit. Schaden um 10 % und kann bis zu 8-mal gestapelt werden. Der Effekt kann nicht aufgehoben werden."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Sandsturmpfeil",
+      "description": "[Urteil der Wüste] erhöht den Schaden beim Einsatz um 2 %. Es besteht eine Chance von 30 %, dass der getroffene Feind mit Mal der Wüste belegt wird. Die Schadenserhöhung kann bis zu 20-mal gestapelt werden.",
+      "value": {},
+      "thumbnail": "heroes/Zafir/ut/1.png",
+      "story": "Ein Schatz, den Zafir vom Mauhata-Stamm erhalten hat. Der Pfeil wurde aus der Schwanzfeder eines Tieres hergestellt, das in dem antiken Königreich als heilig galt.\nSein Leuchten blendet, als wären die Ehre und der Ruhm des gesamten Königreichs darin gespeichert. Normalerweise wird er an eine Wand gehängt und bei Zeremonien verwendet, aber genau genommen gehört er zu den besten Verteidigungswaffen der Königsfamilie. Feinde, die von diesem Pfeil getroffen werden, erwartet das Urteil der Wüste inmitten eines gewaltigen Sandsturms.",
+      "descriptionByStar": {
+        "0": "[Urteil der Wüste] erhöht den Schaden beim Einsatz um 2 %. Es besteht eine Chance von 30 %, dass der getroffene Feind mit Mal der Wüste belegt wird. Die Schadenserhöhung kann bis zu 20-mal gestapelt werden.",
+        "1": "[Urteil der Wüste] erhöht den Schaden beim Einsatz um 2,4 %. Es besteht eine Chance von 30 %, dass der getroffene Feind mit Mal der Wüste belegt wird. Die Schadenserhöhung kann bis zu 20-mal gestapelt werden.",
+        "2": "[Urteil der Wüste] erhöht den Schaden beim Einsatz um 2,9 %. Es besteht eine Chance von 30 %, dass der getroffene Feind mit Mal der Wüste belegt wird. Die Schadenserhöhung kann bis zu 20-mal gestapelt werden.",
+        "3": "[Urteil der Wüste] erhöht den Schaden beim Einsatz um 3,5 %. Es besteht eine Chance von 30 %, dass der getroffene Feind mit Mal der Wüste belegt wird. Die Schadenserhöhung kann bis zu 20-mal gestapelt werden.",
+        "4": "[Urteil der Wüste] erhöht den Schaden beim Einsatz um 4,2 %. Es besteht eine Chance von 30 %, dass der getroffene Feind mit Mal der Wüste belegt wird. Die Schadenserhöhung kann bis zu 20-mal gestapelt werden.",
+        "5": "[Urteil der Wüste] erhöht den Schaden beim Einsatz um 5 %. Es besteht eine Chance von 30 %, dass der getroffene Feind mit Mal der Wüste belegt wird. Die Schadenserhöhung kann bis zu 20-mal gestapelt werden."
+      }
+    },
+    "2": {
+      "name": "Sand der Illusionen",
+      "description": "[Segen des Sandgeists] entfernt eigene negative Effekte und (wenn aktiviert) regeneriert es jede Sek. 80 Mana für die Schilddauer.",
+      "value": {},
+      "thumbnail": "heroes/Zafir/ut/2.png",
+      "story": "Eine Sanduhr, die lange Zeit von einem Sandsturm in der Aegina-Wüste unter der Erde vergraben war.\nWenn sich der Sand in der Sanduhr bewegt, ruft er damit die Illusion einer uralten Stadt ins Leben.\nDer Hohepriester des uralten Königreiches nutzte dies, um seinem Volk den Ruhm des vergangenen Königreiches zu zeigen.\nAls sie sahen, wie ihre Stadt golden glänzte, wurden die Menschen von Stolz auf ihr Königreich erfüllt.",
+      "descriptionByStar": {
+        "0": "[Segen des Sandgeists] entfernt eigene negative Effekte und (wenn aktiviert) regeneriert es jede Sek. 80 Mana für die Schilddauer.",
+        "1": "[Segen des Sandgeists] entfernt eigene negative Effekte und (wenn aktiviert) regeneriert es jede Sek. 100 Mana für die Schilddauer..",
+        "2": "[Segen des Sandgeists] entfernt eigene negative Effekte und (wenn aktiviert) regeneriert es jede Sek. 120 Mana für die Schilddauer.",
+        "3": "[Segen des Sandgeists] entfernt eigene negative Effekte und (wenn aktiviert) regeneriert es jede Sek. 140 Mana für die Schilddauer.",
+        "4": "[Segen des Sandgeists] entfernt eigene negative Effekte und (wenn aktiviert) regeneriert es jede Sek. 170 Mana für die Schilddauer.",
+        "5": "[Segen des Sandgeists] entfernt eigene negative Effekte und (wenn aktiviert) regeneriert es jede Sek. 200 Mana für die Schilddauer."
+      }
+    },
+    "3": {
+      "name": "Seele der Oase",
+      "description": "[Verderben der Wüste] bei Skill-Aktivierung wird der Skill-Cooldown um 30 % gesenkt und die Chance auf Aktivierung des Effekts um 8 % erhöht.",
+      "value": {},
+      "thumbnail": "heroes/Zafir/ut/3.png",
+      "story": "Ein magisches Schwert, das unter den Nachkommen des Gottkönigs weitergereicht wurde. Der Name „Oase“ stammt daher, dass es benutzt wurde, um dem Volk in schweren Zeiten zu dienen.\nNachdem das Königreich gefallen war, war sein Standort unbekannt, bis Zafir es in Kumuros Kunstsammlung entdeckte und zu einem unglaublich hohen Preis kaufte. \nAls das Schwert nun endlich wieder zum würdigen Nachkommen zurückgekehrt war, konnte Zafir die Geister seiner Vorfahren erben, was sein Potenzial auf sein Maximum brachte.",
+      "descriptionByStar": {
+        "0": "[Verderben der Wüste] bei Skill-Aktivierung wird der Skill-Cooldown um 30 % gesenkt und die Chance auf Aktivierung des Effekts um 8 % erhöht.",
+        "1": "[Verderben der Wüste] bei Skill-Aktivierung wird der Skill-Cooldown um 30 % gesenkt und die Chance auf Aktivierung des Effekts um 9,6 % erhöht.",
+        "2": "[Verderben der Wüste] bei Skill-Aktivierung wird der Skill-Cooldown um 30 % gesenkt und die Chance auf Aktivierung des Effekts um 11,5 % erhöht.",
+        "3": "[Verderben der Wüste] bei Skill-Aktivierung wird der Skill-Cooldown um 30 % gesenkt und die Chance auf Aktivierung des Effekts um 13,8 % erhöht.",
+        "4": "[Verderben der Wüste] bei Skill-Aktivierung wird der Skill-Cooldown um 30 % gesenkt und die Chance auf Aktivierung des Effekts um 16,5 % erhöht.",
+        "5": "[Verderben der Wüste] bei Skill-Aktivierung wird der Skill-Cooldown um 30 % gesenkt und die Chance auf Aktivierung des Effekts um 20 % erhöht."
+      }
+    },
+    "4": {
+      "name": "Schwarze Katze Hoabis",
+      "description": "[Ruf des Wächters] bei einem Krit. Treffer wird das Ziel 2 Sek. lang betäubt, wobei sich der erlittene Körp. Schaden für 10 Sek. um 10 % erhöht.",
+      "value": {},
+      "thumbnail": "heroes/Zafir/ut/4.png",
+      "story": "Jeder weiß, dass der Gottkönig im antiken Wüstenkönigreich immer eine schwarze Katze an seiner Seite hatte, die Frieden und Wohlstand symbolisierte.\nNiemand weiß, wie es der schwarzen Katze gelingt, Generation um Generation aufs Neue zu erscheinen. Als die Katze zu Zafir kam, gab er ihr den Namen „Hoabis“, und seither kümmert er sich um sie.",
+      "descriptionByStar": {
+        "0": "[Ruf des Wächters] bei einem Krit. Treffer wird das Ziel 2 Sek. lang betäubt, wobei sich der erlittene Körp. Schaden für 10 Sek. um 10 % erhöht.",
+        "1": "[Ruf des Wächters] bei einem Krit. Treffer wird das Ziel 2 Sek. lang betäubt, wobei sich der erlittene Körp. Schaden für 10 Sek. um 12 % erhöht.",
+        "2": "[Ruf des Wächters] bei einem Krit. Treffer wird das Ziel 2 Sek. lang betäubt, wobei sich der erlittene Körp. Schaden für 10 Sek. um 14 % erhöht.",
+        "3": "[Ruf des Wächters] bei einem Krit. Treffer wird das Ziel 2 Sek. lang betäubt, wobei sich der erlittene Körp. Schaden für 10 Sek. um 17 % erhöht.",
+        "4": "[Ruf des Wächters] bei einem Krit. Treffer wird das Ziel 2 Sek. lang betäubt, wobei sich der erlittene Körp. Schaden für 10 Sek. um 21 % erhöht.",
+        "5": "[Ruf des Wächters] bei einem Krit. Treffer wird das Ziel 2 Sek. lang betäubt, wobei sich der erlittene Körp. Schaden für 10 Sek. um 25 % erhöht."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 6-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwöre die Seele von Ruhm des Gottkönigs Zaries für 10 Sek. und während der Wirkungsdauer wird der Körp. Schaden aller Gegner um 25 % erhöht. Die eigene ANG-GESCHW wird um 500 erhöht.",
+    "cooldown": "25",
+    "uses": "6",
+    "thumbnail": "heroes/Zafir/sw.png",
+    "advancement": {
+      "1": "Während der Wirkungsdauer wird die eigene VERT-Durchdr. um 500 erhöht.",
+      "2": "Die Skill-Dauer wird um 4 Sek. erhöht und während der Wirkungsdauer gilt Massenkontroll-Immunität."
+    },
+    "story": "Der Nachkomme des Gottkönigs trägt den Glauben der Wüste und ist wie eine Sonne, die über den Köpfen des Volkes der Wüste aufsteigt. Für ihn ist die Legitimität des Blutes erforderlich. Keine mächtige Kraft oder Charisma.\nWenn jemand nachweisen konnte, dass er das Blut des GottKönigs in sich trägt, ist das Volk der Wüste der Sonne gefolgt, auch wenn der Nachkomme unbedeutend ist. Der direkte und sicherste Weg, um die Legitimität zu beweisen, liegt bei Zaries.\nEr wurde als Symbol geboren, das die Treue zum Gottkönig beweist, als Cain seine Seele an die Wüste band. Zaries ist der sicherste Beweis, der den Ruhm des Gottkönigs in der Wüste beweist. Zaries ist in Form eines Bogens eingeschafen, bis der Nachkomme des Gottkönigs seine wahre Erscheinung wecken würde.\nNach den Prüfungen des alten Gottkönigs erkannte Zafir die Seele von Zaries und hat sich als echter Nachfolger des Gottkönigs erwiesen, und deutet den Feinden an, dass sie sich vor einem Sandsturm in der Wüste fürchten müssen."
+  },
+  "splashart": "heroes/Zafir/sa.png",
+  "costumes": "heroes/Zafir/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

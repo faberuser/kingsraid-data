@@ -1,0 +1,260 @@
+{
+  "id": "Maria",
+  "profile": {
+    "name": "Maria",
+    "title": "Gefallene Hexe Maria",
+    "class": "Wizard",
+    "position": "Middle-200",
+    "attack_range": "1100",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "125 (Körperlich immer 25)",
+    "height": "168",
+    "race": "Menschen",
+    "constellation": "Notmun, der Stimmer",
+    "birth": {
+      "month": 7,
+      "day": 19,
+      "monthName": "Monat der Harmonie"
+    },
+    "like": "Verdirbt die Verehrer Luas",
+    "dislike": "Lua und ihre Kirche",
+    "story": "Obwohl sie früher eine Heilige Jungfrau von Lua war, wurde sie eines Tages verdorben. Jetzt verflucht diese zynische, Krähen kommandierende Hexe ihre ehemalige Göttin aus der Dunkelheit heraus. Es gab eine Zeit, als sie mit Kyle befreundet und eine Volksheldin war. Als Kyle aber verschwand, versteckte sie sich ebenfalls vor der Welt. Schließlich kam sie als gefallene Hexe zurück, um als Speerspitze der Dunklen Macht die Menschheit zu bedrohen. Dieser Tage scheint sie eine Verschwörung zu planen, doch alleine und nicht mehr als Dämonenführerin.",
+    "thumbnail": "heroes/Maria/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Rabensturm",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Fügt Gegnern vor dem Wirker 3-mal 446(1+0.3Skill Level)+186.1% of Attack Power Magieschaden zu, stößt sie zurück und reduziert für 4 Sek. ihr Angriffstempo um 30% und ihre Magie-VERT um 35%. Jeder Treffer fügt Gegnern, die keine Helden sind, 446(1+0.3Skill Level)+186.1% of Attack Power zusätzlichen Magieschaden zu.",
+      "thumbnail": "heroes/Maria/skills/1.png"
+    },
+    "2": {
+      "name": "Klaue der Fesselung",
+      "cost": "2",
+      "cooldown": "13",
+      "description": "Fügt 2 Gegnern 608(1+0.3Skill Level)+253.4% of Attack Power Magieschaden zu und fesselt sie für 3.6 Sek. Getroffene Gegner erleiden für 6 Sek. alle 0.5 Sek. Magieschaden in Höhe von 18% des ANG und 30% mehr Magieschaden.",
+      "thumbnail": "heroes/Maria/skills/2.png"
+    },
+    "3": {
+      "name": "Sog der Dunkelheit",
+      "cost": "4",
+      "cooldown": "25",
+      "description": "Zieht Gegner in Reichweite zur Mitte und fügt ihnen 5-mal 338(1+0.3Skill Level)+140.8% of Attack Power Magieschaden zu. Der letzte Treffer betäubt für 1.8 Sek. und fügt Gegnern, die keine Helden sind, 338(1+0.3Skill Level)+140.8% of Attack Power zusätzlichen Magieschaden zu.",
+      "thumbnail": "heroes/Maria/skills/3.png"
+    },
+    "4": {
+      "name": "Schwarzer Wind",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht die Krit. Chance um [64ff64]150[-] und verleiht [64ffff]10[-] Sek. lang dem Ziel [fa96fa][Leas Fluch][-], immer wenn er Schaden erleidet. Das Ziel unter [fa96fa][Leas Fluch][-] verringert die Krit. Chance um [ff6464]250[-] und den ANG um [ff6464]25[-] % während der Wirkungsdauer.",
+      "thumbnail": "heroes/Maria/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "4": {
+      "II": "Erhöht Krit. Chance-Boost um [64ff64]50[-].",
+      "III": "Erhöht Krit. Chance-Boost um [64ff64]75[-].",
+      "IV": "Erhöht Krit. Chance-Boost um [64ff64]125[-]."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Die Manakosten steigen um 1000, aber der Schaden steigt um 80 %.",
+          "thumbnail": "heroes/Maria/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Fesselt das Ziel für 1.2 Sek.",
+          "thumbnail": "heroes/Maria/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Die Manakosten steigen um 1000, aber nun werden alle Gegner zum Ziel.",
+          "thumbnail": "heroes/Maria/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Die Fesseldauer steigt um 0.9 Sek.",
+          "thumbnail": "heroes/Maria/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Ziel nimmt 10 Sek. lang 25 % erhöhten Mag. Schaden.",
+          "thumbnail": "heroes/Maria/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Verringert die Manakosten um 1000.",
+          "thumbnail": "heroes/Maria/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht den eigenen ANG pro Gegner mit [Leas Fluch] um {2}%. Bis zu {3}-mal stapelbar und unentfernbar.",
+          "thumbnail": "heroes/Maria/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Reduziert feindliche Mag. Krit. Widerstand 10 Sek. lang um 25 %.",
+          "thumbnail": "heroes/Maria/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Chance +100",
+        "thumbnail": "heroes/Maria/perks/light.png"
+      },
+      "dark": {
+        "effect": "Die Massenkontroll-Widerstand des Ziels ist bei einem Krit. Treffer für 10 Sek. um 250 reduziert und alle Skill-Cooldowns, inklusive des genutzten Skills, sind um 2 % reduziert.",
+        "thumbnail": "heroes/Maria/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Leas Bote, Cocytus",
+    "description": "Reduziert bei einem Kritischen Treffer Heilungsrate des Ziels um 50 % und erhöht den eigenen Krit. Schaden 10 Sek. lang um {0} %. Dieser Effekt kann bist zu 20-mal gestapelt werden.",
+    "value": {
+      "0": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.9",
+        "3": "3.5",
+        "4": "4.2",
+        "5": "5"
+      }
+    },
+    "thumbnail": "heroes/Maria/uw.png",
+    "story": "Ein geheimnisvoller Rabe mit der Fähigkeit, zwischen den Dimensionen zu reisen. Seine Intelligenz und Gerissenheit übersteigen jene eines normalen Vogels deutlich. In Wahrheit handelt es sich dabei um ein Monster voller dunkler Energie, fast wie ein Dämon. Tatsächlich heißt es, dass diese Bestie so mächtig wie ein hochrangiger Dämon wäre. Manche behaupten, dass er gelegentlich über Schlachtfelder fliegt und in menschlichen Sprachen spricht. Viele Aspekte dieser Kreatur sind nach wie vor geheimnisumwoben.",
+    "descriptionByStar": {
+      "0": "Reduziert bei einem Kritischen Treffer Heilungsrate des Ziels um 50 % und erhöht den eigenen Krit. Schaden 10 Sek. lang um 2 %. Dieser Effekt kann bist zu 20-mal gestapelt werden.",
+      "1": "Reduziert bei einem Kritischen Treffer Heilungsrate des Ziels um 50 % und erhöht den eigenen Krit. Schaden 10 Sek. lang um 2,4 %. Dieser Effekt kann bist zu 20-mal gestapelt werden.",
+      "2": "Reduziert bei einem Kritischen Treffer Heilungsrate des Ziels um 50 % und erhöht den eigenen Krit. Schaden 10 Sek. lang um 2,9 %. Dieser Effekt kann bist zu 20-mal gestapelt werden.",
+      "3": "Reduziert bei einem Kritischen Treffer Heilungsrate des Ziels um 50 % und erhöht den eigenen Krit. Schaden 10 Sek. lang um 3,5 %. Dieser Effekt kann bist zu 20-mal gestapelt werden.",
+      "4": "Reduziert bei einem Kritischen Treffer Heilungsrate des Ziels um 50 % und erhöht den eigenen Krit. Schaden 10 Sek. lang um 4,2 %. Dieser Effekt kann bist zu 20-mal gestapelt werden.",
+      "5": "Reduziert bei einem Kritischen Treffer Heilungsrate des Ziels um 50 % und erhöht den eigenen Krit. Schaden 10 Sek. lang um 5 %. Dieser Effekt kann bist zu 20-mal gestapelt werden."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Wirbelnder Tanz",
+      "description": "[Rabensturm] gewährt Massenkontroll-Immunität für die Dauer des Skills und verringert das Mana des Ziels um {0}.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Maria/ut/1.png",
+      "story": "Ein magischer Spiegel, der den Sturm-Elementar Aerial beschwört.\nDieser magische Spiegel wurde aus einem Obsidianstein von Pandämonium hergestellt. In ihm schlummert der Sturm-Elementar Aerial. Bei jedem Einsatz von Rabensturm wird Aerial erweckt. Er verstärkt den Effekt der Fähigkeit mit seinem stürmischen Tanz.",
+      "descriptionByStar": {
+        "0": "[Rabensturm] gewährt Massenkontroll-Immunität für die Dauer des Skills und verringert das Mana des Ziels um 100.",
+        "1": "[Rabensturm] gewährt Massenkontroll-Immunität für die Dauer des Skills und verringert das Mana des Ziels um 120.",
+        "2": "[Rabensturm] gewährt Massenkontroll-Immunität für die Dauer des Skills und verringert das Mana des Ziels um 140.",
+        "3": "[Rabensturm] gewährt Massenkontroll-Immunität für die Dauer des Skills und verringert das Mana des Ziels um 170.",
+        "4": "[Rabensturm] gewährt Massenkontroll-Immunität für die Dauer des Skills und verringert das Mana des Ziels um 210.",
+        "5": "[Rabensturm] gewährt Massenkontroll-Immunität für die Dauer des Skills und verringert das Mana des Ziels um 250."
+      }
+    },
+    "2": {
+      "name": "Geister-Panzerschuh",
+      "description": "[Klaue der Fesselung] erhöht den Schaden um 50 % und Mag. Schaden des betroffenen Feindes {0} Sek. lang um 10 %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Maria/ut/2.png",
+      "story": "Eine Klauenrüstung, die Maria Leas Boten überreichte. \nDie Klauenrüstung, die mit edlem Gold gefertigt ist, enthält einen Bindungsfluch, der einen erfassten Feind nie wieder loslässt. Feinde, die vom Panzerschuh des Boten erfasst wunden, sind magischen Angriffen schutzlos ausgeliefert und erleiden großen Schaden.",
+      "descriptionByStar": {
+        "0": "[Klaue der Fesselung] erhöht den Schaden um 50 % und Mag. Schaden des betroffenen Feindes 10 Sek. lang um 10 %.",
+        "1": "[Klaue der Fesselung] erhöht den Schaden um 50 % und Mag. Schaden des betroffenen Feindes 12 Sek. lang um 10 %.",
+        "2": "[Klaue der Fesselung] erhöht den Schaden um 50 % und Mag. Schaden des betroffenen Feindes 14 Sek. lang um 10 %.",
+        "3": "[Klaue der Fesselung] erhöht den Schaden um 50 % und Mag. Schaden des betroffenen Feindes 17 Sek. lang um 10 %.",
+        "4": "[Klaue der Fesselung] erhöht den Schaden um 50 % und Mag. Schaden des betroffenen Feindes 21 Sek. lang um 10 %.",
+        "5": "[Klaue der Fesselung] erhöht den Schaden um 50 % und Mag. Schaden des betroffenen Feindes 25 Sek. lang um 10 %."
+      }
+    },
+    "3": {
+      "name": "Halskette der Dunkelheit",
+      "description": "[Sog der Dunkelheit] erhöht den Schaden um {0} % und der letzte Angriff verringert alle VERT. des Gegners für 7 Sek. um 30 %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Maria/ut/3.png",
+      "story": "Asche eines grauen Boten, die das Ende ankündigt. Dies ist die Asche des Raben, der vor hundert Jahren in die Kirche von Lua flog, kurz bevor das Fürstentum Gray zerbrach. Alle ignorierten diesen unheilvollen Boten und nur Priesterin Maria kümmerte sich um ihn bis zu seinem letzten Tag. Selbst nach seinem Tod hat er Maria geholfen, ihren Bereich der Dunkelheit zu vergrößern, indem er seine dunkle Energie über ihr verbreitet.",
+      "descriptionByStar": {
+        "0": "[Sog der Dunkelheit] erhöht den Schaden um 20 % und der letzte Angriff verringert alle VERT. des Gegners für 7 Sek. um 30 %.",
+        "1": "[Sog der Dunkelheit] erhöht den Schaden um 24 % und der letzte Angriff verringert alle VERT. des Gegners für 7 Sek. um 30 %.",
+        "2": "[Sog der Dunkelheit] erhöht den Schaden um 29 % und der letzte Angriff verringert alle VERT. des Gegners für 7 Sek. um 30 %.",
+        "3": "[Sog der Dunkelheit] erhöht den Schaden um 35 % und der letzte Angriff verringert alle VERT. des Gegners für 7 Sek. um 30 %.",
+        "4": "[Sog der Dunkelheit] erhöht den Schaden um 42 % und der letzte Angriff verringert alle VERT. des Gegners für 7 Sek. um 30 %.",
+        "5": "[Sog der Dunkelheit] erhöht den Schaden um 50 % und der letzte Angriff verringert alle VERT. des Gegners für 7 Sek. um 30 %."
+      }
+    },
+    "4": {
+      "name": "Brief des Abgrunds",
+      "description": "[Schwarzer Wind] greift Feinde, die von Leas Fluch betroffen sind, alle 10 Sek. an und verursacht Mag. Schaden entsprechend 200 % des ANG. Erhöht den eigenen ANG pro getroffener Feind für 20 Sek. um {0} %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
+      "thumbnail": "heroes/Maria/ut/4.png",
+      "story": "Ein Brief von Leas Boten.\nDieser Brief, der von der Essenz der Dunkelheit erschaffen wurde, enthält eine Warnung sowie die Bedingungen des Vertrags, den Maria mit der Dunkelheit geschlossen hat.",
+      "descriptionByStar": {
+        "0": "[Schwarzer Wind] greift Feinde, die von Leas Fluch betroffen sind, alle 10 Sek. an und verursacht Mag. Schaden entsprechend 200 % des ANG. Erhöht den eigenen ANG pro getroffener Feind für 20 Sek. um 2 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "1": "[Schwarzer Wind] greift Feinde, die von Leas Fluch betroffen sind, alle 10 Sek. an und verursacht Mag. Schaden entsprechend 200 % des ANG. Erhöht den eigenen ANG pro getroffener Feind für 20 Sek. um 2,4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "2": "[Schwarzer Wind] greift Feinde, die von Leas Fluch betroffen sind, alle 10 Sek. an und verursacht Mag. Schaden entsprechend 200 % des ANG. Erhöht den eigenen ANG pro getroffener Feind für 20 Sek. um 2,9 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "3": "[Schwarzer Wind] greift Feinde, die von Leas Fluch betroffen sind, alle 10 Sek. an und verursacht Mag. Schaden entsprechend 200 % des ANG. Erhöht den eigenen ANG pro getroffener Feind für 20 Sek. um 3,5 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "4": "[Schwarzer Wind] greift Feinde, die von Leas Fluch betroffen sind, alle 10 Sek. an und verursacht Mag. Schaden entsprechend 200 % des ANG. Erhöht den eigenen ANG pro getroffener Feind für 20 Sek. um 4,2 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "5": "[Schwarzer Wind] greift Feinde, die von Leas Fluch betroffen sind, alle 10 Sek. an und verursacht Mag. Schaden entsprechend 200 % des ANG. Erhöht den eigenen ANG pro getroffener Feind für 20 Sek. um 5 %. Dieser Effekt kann bis zu 10-mal gestapelt werden."
+      }
+    }
+  },
+  "splashart": "heroes/Maria/sa.png",
+  "costumes": "heroes/Maria/cos",
+  "_localization": {
+    "locale": "de",
+    "version": "ccbt",
+    "englishFallbackFields": []
+  }
+}

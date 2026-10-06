@@ -1,0 +1,253 @@
+{
+  "id": "Yuria",
+  "profile": {
+    "name": "Yuria",
+    "title": "Mysterious Tailor Yuria",
+    "class": "Archer",
+    "position": "Back-300",
+    "attack_range": "4700",
+    "damage_type": "Magical",
+    "gender": "Female",
+    "age": "24",
+    "height": "170",
+    "race": "Human",
+    "constellation": "Lasiphil the Prophet",
+    "birth": {
+      "month": 3,
+      "day": 12,
+      "monthName": "Month of Insight"
+    },
+    "like": "Traveling, her job, warm baths, bard's poems and songs",
+    "dislike": "People who don't take clothes seriously, people who disrespect other's fates, lies",
+    "story": "If one asks who the most famous tailor is in Orbis Continent, most people won't know who to name.\nHowever, those who know a thing or two about clothing will never fail to bring up Yuria's name.\nYuria, a tailor from Penteonia, always has two conditions that she sets when accepting requests.\nFirst, the client needs to allow Yuria to spend some time with the client so that she draws inspiration as to what kind of clothing she would make.\nSecond, while she is with the client, the client must not lie or pretend to be something they are not.\n\nThe first condition is for her sense of 'Foresight.'\nShe needs to feel the client's thread of fate so she can express it through clothing.\nThe second condition is mainly because she can sense the truth and finds lies disgusting.\nShe doesn't want to make anything for anyone who won't be true.\nHer masterpieces, made with the fate she's read, are as valuable as starlight.\nEven the nobles would be envious of them.",
+    "thumbnail": "heroes/Yuria/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Binding Karma",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Deals ??? M.DMG that ignores M.Block to 2 enemies, reduces their Mana by 500, and deals ??? additional M.DMG that ignores DEF to Non-Hero targets.\nIf the target is affected by 'Threading Destiny,' All DMG is dealt as DMG that ignores DEF, and 'Threading Destiny' will be dispelled.",
+      "thumbnail": "heroes/Yuria/skills/1.png"
+    },
+    "2": {
+      "name": "Starlight Sewing",
+      "cost": "2",
+      "cooldown": "15",
+      "description": "Dispels negative effects from self and casts a Shield that absorbs ??? DMG for 10 sec upon self.\nWhile the Shield is active, gains immunity to CC, increases ATK by 30%, Crit Chance by 300, and the number of targets that Yuria attacks by 1.",
+      "thumbnail": "heroes/Yuria/skills/2.png"
+    },
+    "3": {
+      "name": "Circle of Fate",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Deals ??? M.DMG to 2 enemies, increasing M.DMG they take by 30% for 10 sec and inflicting them with 'Threading Destiny' for 10 sec. 250 additional DEF Penetration applies to this Skill. Enemies under 'Threading Destiny' have their ATK Spd reduced by 250. If the target is not a Hero, deals ??? additional M.DMG.",
+      "thumbnail": "heroes/Yuria/skills/3.png"
+    },
+    "4": {
+      "name": "Blessing of Truth",
+      "cost": null,
+      "cooldown": null,
+      "description": "Increases own All DEF by ??? and ATK Spd by 300.\nNormal attacks hit 2 enemies. \nEvery normal attack inflicts a stack of 'Stigma of Stars' upon enemies. Targets take 1% increased M.DMG for every stack of 'Stigma of Stars'. This effect can be stacked up to max 15 times and is irremovable.",
+      "thumbnail": "heroes/Yuria/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DMG is increased by 10 %.",
+      "III": "DMG is increased by 15 %.",
+      "IV": "DMG is increased by 25 %."
+    },
+    "2": {
+      "II": "Shield is increased by 10 %.",
+      "III": "Shield is increased by 15 %.",
+      "IV": "Shield is increased by 25 %."
+    },
+    "3": {
+      "II": "DMG is increased by 10 %.",
+      "III": "DMG is increased by 15 %.",
+      "IV": "DMG is increased by 25 %."
+    },
+    "4": {
+      "II": "Increases DEF Boost by 10%.",
+      "III": "Increases DEF Boost by 15%.",
+      "IV": "Increases DEF Boost by 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Now reduces 1,000 Mana.",
+          "thumbnail": "heroes/Yuria/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Stuns hit targets for 3 sec.",
+          "thumbnail": "heroes/Yuria/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Reduces Shield by 50%, but it becomes irremovable.",
+          "thumbnail": "heroes/Yuria/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Increases Mana Cost by 1 but the same effect will be cast on an ally with the highest ATK.",
+          "thumbnail": "heroes/Yuria/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Now reduces 500 ATK Spd.",
+          "thumbnail": "heroes/Yuria/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Dispels positive effects from the target.",
+          "thumbnail": "heroes/Yuria/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Changes M.DMG Boost effect to 2.5%.",
+          "thumbnail": "heroes/Yuria/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Increases DEF and ATK Spd Boost by 50%.",
+          "thumbnail": "heroes/Yuria/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATK, DEF, HP +15% / ATK Spd +100",
+        "thumbnail": "heroes/Yuria/perks/light.png"
+      },
+      "dark": {
+        "effect": "At the beginning of the first battle, Yuria gains 'Blessing of Foresight.' 'Blessing of Foresight' increases All Dodge Chance by 300 and reduces All DMG taken by 300 for 20 sec. This effect is irremovable. If Yuria is inflicted with CC while under 'Blessing of Foresight,' Yuria consumes 'Blessing of Foresight' to dispel all negative effects, gain immunity to CC for 3 sec, and recover 1 orb of Mana.",
+        "thumbnail": "heroes/Yuria/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Starry Sky Weaver, Mellifluo",
+    "description": "Every normal attack increases ATK by {0}% and Crit DMG by {1}% for 10 sec. This effect can be stacked up to max 20 times and is irremovable. Upon using the Skill, recovers {2} Mana.",
+    "value": {
+      "0": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.7",
+        "4": "2.1",
+        "5": "2.5"
+      },
+      "1": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.7",
+        "4": "2.1",
+        "5": "2.5"
+      },
+      "2": {
+        "0": "400",
+        "1": "480",
+        "2": "580",
+        "3": "700",
+        "4": "840",
+        "5": "1000"
+      }
+    },
+    "thumbnail": "heroes/Yuria/uw.png",
+    "story": "Yuria's favorite set of thread, needle, and scissors.\nHer masterpieces were all made with these tools.\nThe thread with starlight from the night sky and the scissors and needle made from metal extracted from a meteorite give Yuria the power to read people's fate.",
+    "descriptionByStar": {
+      "0": "Every normal attack increases ATK by 1% and Crit DMG by 1% for 10 sec. This effect can be stacked up to max 20 times and is irremovable. Upon using the Skill, recovers 400 Mana.",
+      "1": "Every normal attack increases ATK by 1.2% and Crit DMG by 1.2% for 10 sec. This effect can be stacked up to max 20 times and is irremovable. Recovers 240 Mana upon using the Skill.",
+      "2": "Every normal attack increases ATK by 1.4% and Crit DMG by 1.4% for 10 sec. This effect can be stacked up to max 20 times and is irremovable. Recovers 290 Mana upon using the Skill.",
+      "3": "Every normal attack increases ATK by 1.7% and Crit DMG by 1.7% for 10 sec. This effect can be stacked up to max 20 times and is irremovable. Recovers 350 Mana upon using the Skill.",
+      "4": "Every normal attack increases ATK by 2.1% and Crit DMG by 2.1% for 10 sec. This effect can be stacked up to max 20 times and is irremovable. Recovers 420 Mana upon using the Skill.",
+      "5": "Every normal attack increases ATK by 2.5% and Crit DMG by 2.5% for 10 sec. This effect can be stacked up to max 20 times and is irremovable. Recovers 500 Mana upon using the Skill."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Whisper of Night Sky",
+      "description": "[Binding Karma] Increases DMG by 20% and grants immunity to CC for the duration of Skill.",
+      "value": {},
+      "thumbnail": "heroes/Yuria/ut/1.png",
+      "story": "The only shawl in the world that Yuria made with the starlight thread that she personally wove.\nSince she travels often, it was always important for Yuria to protect herself from the elements.\nTherefore, she decided to make something to keep her comfortable.\nThe result was this shawl, one that provides temperature adjustment magic to the wearer.\nWith this around her shoulders, storms or blizzards won't stop Yuria from traveling.\nThe only downside is that it emits light even during the night.\nPeople who see her from afar mistake her for a fairy or a ghost and get frightened.",
+      "descriptionByStar": {
+        "0": "[Binding Karma] Increases DMG by 20% and grants immunity to CC for the duration of Skill.",
+        "1": "[Binding Karma] Increases DMG by 24% and grants immunity to CC for the duration of Skill.",
+        "2": "[Binding Karma] Increases DMG by 29% and grants immunity to CC for the duration of Skill.",
+        "3": "[Binding Karma] Increases DMG by 35% and grants immunity to CC for the duration of Skill.",
+        "4": "[Binding Karma] Increases DMG by 42% and grants immunity to CC for the duration of Skill.",
+        "5": "[Binding Karma] Increases DMG by 50% and grants immunity to CC for the duration of Skill."
+      }
+    },
+    "2": {
+      "name": "Foreseeing Eyes",
+      "description": "[Starlight Sewing] Increases shield amount by 50%, and takes 10% reduced P.DMG while shield is active.",
+      "value": {},
+      "thumbnail": "heroes/Yuria/ut/2.png",
+      "story": "One of the legacies left by the fortune teller Lasiphil, a distant ancestor of Yuria.\nIt's a set of 3 rings that have never lost their luster, even after the passage of time.\nThey contain special powers that even Yuria cannot gauge.\nOne of the books that Yuria's grandparents left said that when the time comes, the Foreseeing Eyes will shine their light, and that it will guide the prophet onto the right path.",
+      "descriptionByStar": {
+        "0": "[Starlight Sewing] Increases shield amount by 50%, and takes 10% reduced P.DMG while shield is active.",
+        "1": "[Starlight Sewing] Increases shield amount by 50%, and takes 12% reduced P.DMG while shield is active.",
+        "2": "[Starlight Sewing] Increases shield amount by 50%, and takes 14% reduced P.DMG while shield is active.",
+        "3": "[Starlight Sewing] Increases shield amount by 50%, and takes 17% reduced P.DMG while shield is active.",
+        "4": "[Starlight Sewing] Increases shield amount by 50%, and takes 21% reduced P.DMG while shield is active.",
+        "5": "[Starlight Sewing] Increases shield amount by 50%, and takes 25% reduced P.DMG while shield is active."
+      }
+    },
+    "3": {
+      "name": "Beyond the Mirror",
+      "description": "[Circle of Fate] Increases DMG by 50% and increases M.DMG the target takes by 10% for 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Yuria/ut/3.png",
+      "story": "One of the legacies left by the fortune teller Lasiphil, a distant ancestor of Yuria.\nNow kept in the back of Yuria's traveling wagon, this strange mirror covered with blue energy shows fate rather than reflections.\nYuria has a rough understanding of what the mirror reveals, but even she cannot interpret it completely.",
+      "descriptionByStar": {
+        "0": "[Circle of Fate] Increases DMG by 50% and increases M.DMG the target takes by 10% for 10 sec.",
+        "1": "[Circle of Fate] Increases DMG by 50% and increases M.DMG the target takes by 12% for 10 sec.",
+        "2": "[Circle of Fate] Increases DMG by 50% and increases M.DMG the target takes by 14% for 10 sec.",
+        "3": "[Circle of Fate] Increases DMG by 50% and increases M.DMG the target takes by 17% for 10 sec.",
+        "4": "[Circle of Fate] Increases DMG by 50% and increases M.DMG the target takes by 21% for 10 sec.",
+        "5": "[Circle of Fate] Increases DMG by 50% and increases M.DMG the target takes by 25% for 10 sec."
+      }
+    },
+    "4": {
+      "name": "Drops of Heaven",
+      "description": "[Blessing of Truth] Increases the max number of 'Stigma of Stars' stacks by 10 and increases DMG of normal attacks by 20%.",
+      "value": {},
+      "thumbnail": "heroes/Yuria/ut/4.png",
+      "story": "Strong but refreshing liquor of Penteonia.\nIt is one of the best liquors in Orbis, and it's very valuable.\nIt is Yuria's favorite, but she cannot get her hands on it easily as she travels frequently.\nSo, she always returns to her home at least once a year to make a dress for the queen, and get a few bottles in return.",
+      "descriptionByStar": {
+        "0": "[Blessing of Truth] Increases the max number of 'Stigma of Stars' stacks by 10 and increases DMG of normal attacks by 20%.",
+        "1": "[Blessing of Truth] Increases the max number of 'Stigma of Stars' stacks by 10 and increases DMG of normal attacks by 24%.",
+        "2": "[Blessing of Truth] Increases the max number of 'Stigma of Stars' stacks by 10 and increases DMG of normal attacks by 29%.",
+        "3": "[Blessing of Truth] Increases the max number of 'Stigma of Stars' stacks by 10 and increases DMG of normal attacks by 35%.",
+        "4": "[Blessing of Truth] Increases the max number of 'Stigma of Stars' stacks by 10 and increases DMG of normal attacks by 42%.",
+        "5": "[Blessing of Truth] Increases the max number of 'Stigma of Stars' stacks by 10 and increases DMG of normal attacks by 50%."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Charges up over 20 sec.",
+    "description": "Summons the Soul of Starry Sky Weaver, Mellifluo, resetting the Cooldown of [Binding Karma]. Afterward, attacks the enemy, dealing ??? M.DMG, reducing Heal Rate by 50% for 10 sec, and inflicting 'Threading Destiny' for 10 sec. If the target is a Boss, deals ??? additional M.DMG that ignores DEF.",
+    "cooldown": "20",
+    "uses": "6",
+    "thumbnail": "heroes/Yuria/sw.png",
+    "advancement": {
+      "1": "Reduces Skill Activation Requirements by 5 sec and increases DMG by 70%.",
+      "2": "Dispels negative effects from self and gains [Blessing of Foresight] upon use."
+    },
+    "story": "There is a price to pay if one wishes to see fate. Yuria knew this ever since she started foreseeing. That is why whenever she severed a thread, sewed a patch of embroidery, or cut something with a scissor, she did so with great caution and precision. Yuria’s actions, some of them which looked relaxed and simple, were all in fact, done with seriousness. One day, when her keenness and seriousness of foresight reached its epitome, she saw endless possibilities and infinite futures which were weaved by her threads.\n’-Oh my, this... really is a burdensome fate. If this is the price of my power, then I have no choice but to accept it.'\nFrom then, Yuria acquired the ability to handle the thread of fate with more precision. She would touch and align them gently, as if fondling the stars of the milky way, elegantly, and precisely..."
+  },
+  "splashart": "heroes/Yuria/sa.png",
+  "costumes": "heroes/Yuria/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "en",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

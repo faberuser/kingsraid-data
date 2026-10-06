@@ -1,0 +1,271 @@
+{
+  "id": "Estelle",
+  "profile": {
+    "name": "Estelle",
+    "title": "Estelle, Guide du Panneau indicateur",
+    "class": "Archer",
+    "position": "Back-100",
+    "attack_range": "10100",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "18",
+    "height": "163",
+    "race": "Humain",
+    "constellation": "Gisla le Fin Tireur",
+    "birth": {
+      "month": 11,
+      "day": 20,
+      "monthName": "Mois de la Chance"
+    },
+    "like": "Les scarabées, ceux qui n'ont pas le sens de l'orientation, les moulins à vent, les Hybrides adorables, du riz couvert d'œufs brouillés, de l'œuf mollet",
+    "dislike": "Les guêpes, le jus de campanule, les moustiques, ceux qui affirment connaître le chemin alors qu'il n'en est rien",
+    "story": "«Bienvenue ! En quoi puis-je vous être utile, aujourd'hui ?»\n\nLorsqu'un aventurier visite Orvel pour la première fois, il y a une personne qu'il rencontre en tout premier lieu.\n\nC'est Estelle, qui fait grande impression avec des moulins à vent tournant sur son chapeau et des cartes qui débordent du sac qu'elle porte autour de sa taille. \n\nDepuis sa tendre enfance, Estelle rêve de devenir une guide, plutôt qu'une aventurière. Au lieu de réaliser des exploits au cours des aventures, elle se sent plus accomplie en aidant d'autres personnes dans leurs hauts faits. Heureusement pour elle, elle possède des talents innés pour être une bonne guide : la capacité à reconnaître aisément les routes, l'intelligence qui lui permet d'identifier la disposition des terrains, la dextérité instinctive et la persévérance infinie. Elle est prête à affronter tous les dangers pour tous ceux qui ont besoin de son aide.\n\nAprès qu'elle ait été envoyée à Orvel, elle a créé un panneau indicateur pour tous les aventuriers. Et aujourd'hui aussi, elle continue à les guider, espérant que ses encouragements leur donneront de la force pour atteindre leurs buts et réaliser leurs rêves, bien que la direction prise par chacun d'entre eux diffère l'une de l'autre.",
+    "thumbnail": "heroes/Estelle/ico.png"
+  },
+  "skills": {
+    "1 (1)": {
+      "name": "Souffle, Brise favorable !!",
+      "cost": "3",
+      "cooldown": "14",
+      "description": "Dissipe l'effet négatif de tous les alliés, restaure leurs PV de ???, et leur confère l'effet de [Brise favorable] qui dure 10 sec. Confère l'immunité aux contrôles pendant la durée de [Brise favorable]. Après l'utilisation, cette compétence est changée en [Souffle, Brise contraire !!].\nEn utilisant cette compétence à l'état de [Guide des Aventuriers], augmente la durée de [Brise favorable] de 5 sec.",
+      "thumbnail": "heroes/Estelle/skills/1 (1).png"
+    },
+    "1 (2)": {
+      "name": "Souffle, Brise contraire !!",
+      "cost": "2",
+      "cooldown": "14",
+      "description": "Inflige à tous les ennemis ??? DEG P, et leur inflige l'effet de [Brise contraire] qui dure 10 sec. Augmente les DEG P reçus par la cible de 25% pendant la durée de [Brise contraire]. Après l'utilisation, cette compétence est changée en [Souffle, Brise favorable !!].\nEn utilisant cette compétence à l'état de [Guide des Aventuriers], augmente la durée de [Brise contraire] de 5 sec.",
+      "thumbnail": "heroes/Estelle/skills/1 (2).png"
+    },
+    "2": {
+      "name": "Réveillez-vous !!",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Confère à 1 alliés à l'ATQ la plus élevée l'effet d'[Encouragements], qui dure 10 sec. Inflige à 1 ennemis à l'ATQ la plus élevée ??? DEG P, et leur inflige également l'effet de [Démoralisation] qui dure 10 sec. Pendant la durée d'[Encouragements], augmente les DEG Crit de la cible de 50%. Pendant la durée de [Démoralisation], réduit l'ATQ de la cible de 30%.\nEn utilisant cette compétence à l'état de [Guide des Aventuriers], augmente la durée d'[Encouragements] et de [Démoralisation] de 5 sec.",
+      "thumbnail": "heroes/Estelle/skills/2.png"
+    },
+    "3": {
+      "name": "Je vais vous encourager !!",
+      "cost": "3",
+      "cooldown": "18",
+      "description": "Pendant 10 sec, augmente la Vitesse d'ATQ de tous les alliés de 200, réduit leurs DEG P reçus de 20%, et restaure leurs PV de ??? toutes les sec.\nEn utilisant cette compétence à l'état de [Guide des Aventuriers], augmente la durée de ces effets de 5 sec.",
+      "thumbnail": "heroes/Estelle/skills/3.png"
+    },
+    "4": {
+      "name": "Je suis la Guide des Aventuriers !!",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente sa Vitesse d'ATQ de 200. Cumule 1 charges d'[Accompagnement] à chaque attaque automatique et 5 charges à chaque attaque de compétence. Lorsque 30 charges d'[Accompagnement] sont cumulés, consomme toutes les charges pour restaurer 1 PM de tous les alliés, et se met à l'état de [Guide des Aventuriers] pendant 15 sec.",
+      "thumbnail": "heroes/Estelle/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente la récupération des PV de 10%.",
+      "III": "Augmente la récupération des PV de 15%.",
+      "IV": "Augmente la récupération des PV de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG de 10%.",
+      "III": "Augmente les DEG de 15%.",
+      "IV": "Augmente les DEG de 25%."
+    },
+    "3": {
+      "II": "Augmente la récupération des PV de 10%.",
+      "III": "Augmente la récupération des PV de 15%.",
+      "IV": "Augmente la récupération des PV de 25%."
+    },
+    "4": {
+      "II": "Augmente l'augmentation de Vitesse d'ATQ de 50 supplémentaires.",
+      "III": "Augmente l'augmentation de Vitesse d'ATQ de 50 supplémentaires.",
+      "IV": "Augmente l'augmentation de Vitesse d'ATQ de 50 supplémentaires."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Augmente le Blocage P de la cible de 300 pendant la durée de [Brise favorable].",
+          "thumbnail": "heroes/Estelle/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit la DEF P de la cible de 30% pendant la durée de [Brise contraire].",
+          "thumbnail": "heroes/Estelle/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Augmente le nombre de cibles d'[Encouragements] de 1.",
+          "thumbnail": "heroes/Estelle/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Dissipe l'effet positif de la cible lors de l'activation de [Démoralisation].",
+          "thumbnail": "heroes/Estelle/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente de 15% les DEG infligés aux ennemis non-Héros par les Héros de corps-à-corps pendant la durée de la compétence.",
+          "thumbnail": "heroes/Estelle/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente de 15% les DEG infligés aux ennemis non-Héros par les Héros à distance pendant la durée de la compétence.",
+          "thumbnail": "heroes/Estelle/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Augmente la restauration des PM de 100%.",
+          "thumbnail": "heroes/Estelle/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "À l'état de [Guide des Aventuriers], augmente les DEG P reçus par la cible lors des attaques automatiques de 20% pendant 10 sec.",
+          "thumbnail": "heroes/Estelle/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Vitesse d'ATQ +100",
+        "thumbnail": "heroes/Estelle/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente la Récupération PM/attaque de tous les alliés de 300. Cet effet ne peut être dissipé.",
+        "thumbnail": "heroes/Estelle/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Stosmos, la Brise d'Encouragements",
+    "description": "Augmente la durée de l'état de [Guide des Aventuriers] de {0} sec, et augmente l'ATQ de tous les alliés de {1}% pendant la durée de l'état de [Guide des Aventuriers].",
+    "value": {
+      "0": {
+        "0": "1",
+        "1": "2",
+        "2": "3",
+        "3": "4",
+        "4": "5",
+        "5": "6"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
+    "thumbnail": "heroes/Estelle/uw.png",
+    "story": "Estelle est née sur un continent très éloigné, situé au nord d'Orbis. Les habitants de son pays natal ne pratiquent ni la magie ni la technomagie, mais les sciences et les technologies y sont plus développées qu'ailleurs. Les instruments étranges qu'Estelle sort de temps à autre proviennent de là-bas. Et parmi ceux-ci, l'objet le plus remarquable est PEF-12, un générateur de vent portatif qui tient dans la main d'Estelle. Dans son pays natal, tout le monde dispose de ce générateur qui est largement commercialisé. Mais celui d'Estelle est quelque peu différent :\nUn design charmant et exquis, absolument unique ! (remodelé par Estelle)\nUn logiciel réadapté pour pouvoir contenir des données d'une taille inimaginable ! (retouché par Estelle)\nUne fonction d'amplification qui ne s'active qu'avec l'énergie magique d'Estelle ! (ajoutée par la Tour des Sages)\nCes nouvelles capacités ont grandement amélioré cet appareil pour qu'il puisse modifier les courants aériens, la température et la force du vent, lorsqu'il est utilisé comme une arme. Cependant, comme elle n'aime pas se battre, cela ne lui est pas d'une grande utilité. En vérité, ce générateur auquel on a donné le nom de Stosmos est surtout employé pour sécher les sueurs du front d'Estelle, ou pour aider le départ d'un aventurier avec une brise favorable.",
+    "descriptionByStar": {
+      "0": "Augmente la durée de l'état de [Guide des Aventuriers] de 1 sec, et augmente l'ATQ de tous les alliés de 10% pendant la durée de l'état de [Guide des Aventuriers]."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Badge au Visage souriant",
+      "description": "[Souffle, Brise favorable !!] Réduit le coût en PM de 1 et ajoute à [Brise favorable] l'effet d'augmentation d'Esquive de tous les alliés de {0}.\n[Souffle, Brise contraire !!] Inflige Silence pendant 3 sec à la cible touchée et ajoute à [Brise contraire] l'effet de réduction des DEG infligés aux Héros par la cible de {1}%.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        },
+        "1": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Estelle/ut/1.png",
+      "story": "Il faut toujours sourire. C'est un badge au visage souriant, destiné aux enfants. C'est la première rétribution qu'elle a reçue en tant que guide il y a 10 ans de cela, après avoir conduit un aventurier jusqu'au village. Même jusqu'à maintenant, elle ne peut oublier l'instant précis où on le lui a offert. Ce jour là, elle était encore malhabile dans son rôle, donnant des explications gauches et perdant le chemin plusieurs fois. Mais l'aventurier se montra patient, en esquissant un sourire indulgent. Lorsqu'ils finirent par atteindre le village, il lui tendit ce badge, tout en la remerciant. Pour Estelle, ce fut une récompense plus précieuse que tous les trésors du monde. L'eau a coulé sous les ponts depuis, et chaque fois qu'elle se sent lasse face à la réalité du monde qui l'entoure, elle considère ce badge. Puis sur son visage se dessine un sourire, exactement comme celui du badge. Pour elle, c'est une sorte d'entraînement qui lui permet d'être toujours souriante en présence des autres, comme l'aventurier qui lui avait donné ce trésor. Elle sait que cela donne de la force à tous ceux qui la regardent.",
+      "descriptionByStar": {
+        "0": "[Souffle, Brise favorable !!] Réduit le coût en PM de 1 et ajoute à [Brise favorable] l'effet d'augmentation d'Esquive de tous les alliés de 100.\n[Souffle, Brise contraire !!] Inflige Silence pendant 3 sec à la cible touchée et ajoute à [Brise contraire] l'effet de réduction des DEG infligés aux Héros par la cible de 10%."
+      }
+    },
+    "2": {
+      "name": "Carnet de Voyage d'Estelle VI",
+      "description": "[Réveillez-vous !!] Réduit le temps de recharge de la compétence de 6 sec et ajoute à [Encouragements] l'effet d'augmentation des DEG infligés aux Boss de {0}%.",
+      "value": {
+        "0": {
+          "0": "6",
+          "1": "7.2",
+          "2": "8.6",
+          "3": "10.4",
+          "4": "12.5",
+          "5": "15"
+        }
+      },
+      "thumbnail": "heroes/Estelle/ut/2.png",
+      "story": "Carnet de voyage rédigé par Estelle. Actuellement, il compte 6 volumes en tout. Lorsqu'il arrive à Estelle de sortir d'Orvel, elle consigne dans son carnet tout ce qu'elle voit et entend. Et cela peut paraître surprenant, mais elle ne montre jamais ses écrits aux autres. D'après ses comportements, on peut s'attendre à ce que son écriture ne soit pas si raffinée, mais quelqu'un qui avait aperçu le carnet ouvert à la Tour des Sages par hasard avait témoigné qu'il n'en était rien. D'ailleurs, ce carnet comporte des contenus utiles et bien spécialisés... et aussi, les histoires des personnes rencontrées au cours des voyages. Certaines d'entre elles sont si embarrassantes qu'il y a toujours des gens qui veulent faire disparaître ce carnet.",
+      "descriptionByStar": {
+        "0": "[Réveillez-vous !!] Réduit le temps de recharge de la compétence de 6 sec et ajoute à [Encouragements] l'effet d'augmentation des DEG infligés aux Boss de 6%."
+      }
+    },
+    "3": {
+      "name": "Sifflet Multi-Sons",
+      "description": "[Je vais vous encourager !!] Augmente la restauration des PV de {0}% et modifie tous les effets pour qu'ils ne puissent être dissipés.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Estelle/ut/3.png",
+      "story": "Un sifflet spécial fabriqué dans le pays natal d'Estelle. En paramétrant les cadrans placés sur ses deux côtés, il est possible d'ajuster minutieusement le son qu'il produit. Grâce à cette fonction, on peut communiquer avec les insectes ou les animaux, bien que ce soit de manière rudimentaire. Il y a eu une époque où ils disaient que si on parvenait à maîtriser parfaitement la technique d'utilisation, il serait possible d'imiter le hurlement d'un dragon. Mais plus tard, il a été découvert qu'il s'agissait d'une publicité mensongère. Quoi qu'il en soit, ce trésor qu'elle avait reçu comme cadeau d'anniversaire durant son enfance lui est resté utile, même après son arrivée sur le contient Orbis. Et aujourd'hui, elle continue de maîtriser sa technique d'utilisation. Ceci n'est pas une tâche facile, mais grâce à sa persévérance et sa passion, Estelle est actuellement capable de produire plus de 50 types de sons. Cependant, il y a un problème. C'est qu'elle ne comprend pas la signification de ces sons, bien qu'elle sache les émettre. Alors parfois, il arrive que les animaux prennent les signes d'amitié qu'elle crée avec cet instrument comme une provocation de sa part.",
+      "descriptionByStar": {
+        "0": "[Je vais vous encourager !!] Augmente la restauration des PV de 20% et modifie tous les effets pour qu'ils ne puissent être dissipés."
+      }
+    },
+    "4": {
+      "name": "Seconde Patrie",
+      "description": "[Je suis la Guide des Aventuriers !!] Modifie l'état de [Guide des Aventuriers] pour qu'il ne puisse être dissipé, et a {0}% de chances de réduire les PM de la cible de 400 lors des attaques automatiques pendant la durée. Cet effet ne peut être activé qu'une seule fois toues les 3 sec.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Estelle/ut/4.png",
+      "story": "«À trois, on dit Ouistiti !» Clic. Boum ! Une photo qui a immortalisé l'instant le plus bruyant mais aussi le plus heureux. Le pays natal d'Estelle n'est pas sur le continent Orbis. Habitant dans les confins de la contrée la plus éloignée au nord, elle partit en exploration jusqu'aux frontières, avant de découvrir les traces de la Tour des Sages, qu'elle suivit par curiosité. Puis elle finit par être reconnue par Dominics pour son talent et sa persévérance, ce qui lui permit de devenir une membre de la Tour des Sages. À la tour, elle partagea avec ses camarades les sciences de sa patrie, et acquit de nouvelles connaissances, telles que la magie. Mais plusieurs mois plus tard, elle commença à avoir le mal du pays. Contre toute attente, ce fut Cleo qui présenta une solution pour la guérir de ses maux. Elle se mit à demander de l'aide ci et là, afin de fabriquer un 'appareil photo' évoqué un jour par Estelle. Roi se procura des matériaux nécessaires, Sonia s'occupa de créer les circuits, Aisha installa la source d'énergie motrice, et Evan dessina le plan de l'appareil. Ils lui arrivèrent de se chamailler, mais ils apportèrent tous leur aide pour pouvoir réconforter Estelle. Le jour où l'appareil photo fut achevé, Estelle fut émue à la proposition de prendre une photo de groupe. Résultat... Il y eut une explosion d'énergie magique de Cleo, noircissant l'unique photo obtenue. Et en même temps, Estelle fut totalement guérie du mal du pays. Avec cette simple photo, elle comprit que la Tour des Sages était comme sa seconde patrie.",
+      "descriptionByStar": {
+        "0": "[Je suis la Guide des Aventuriers !!] Modifie l'état de [Guide des Aventuriers] pour qu'il ne puisse être dissipé, et a 20% de chances de réduire les PM de la cible de 400 lors des attaques automatiques pendant la durée. Cet effet ne peut être activé qu'une seule fois toues les 3 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 4 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Stosmos, la Brise d'Encouragements pendant 10 sec. Pendant la durée de l'invocation, restaure les PV de tous les alliés de ??? toutes les sec, augmente la Vitesse d'ATQ de l'allié à l'ATQ la plus élevée de 150, et augmente les DEG P reçus de tous les ennemis de 15%.",
+    "cooldown": "18",
+    "uses": "6",
+    "thumbnail": "heroes/Estelle/sw.png",
+    "advancement": {
+      "1": "Modifie l'augmentation de la Vitesse d'ATQ à 250 et celle des DEG P reçus à 25%.",
+      "2": "Augmente les DEG infligés aux Boss par l'allié à l'ATQ la plus élevée de 15% pendant la durée de l'invocation."
+    },
+    "story": "Qu'est-ce qu'être une guide ? De temps à autre, il arrivait à Estelle d'avoir ce genre de pensées. S'il ne s'agissait que d'indiquer la direction à prendre, ainsi qu'une route sûre, une autre personne en dehors d'elle pourrait très bien s'en charger. Elle réfléchissait donc souvent sur la signification de l'objectif qu'elle devrait avoir. Puis un jour, elle finit par se rendre compte que le rôle d'une guide était censé être plus proche à 'encourager' les autres qu'à les 'mener'. Il serait normal d'indiquer le chemin à l'aventurier, mais il faudrait également lui donner du courage afin qu'il puisse atteindre sa destination. Après qu'elle eut compris cela, elle ne se fit plus de soucis à propos de son objectif. Elle encouragea les aventuriers, quels que soient leurs identités et leurs buts, afin qu'ils avancent sur leurs voies sans avoir de regrets. Ainsi, elle devint la meilleure guide pour tous ceux qui n'avaient pas suffisamment confiance en soi. Lorsque les sentiments d'Estelle encourageant les autres se revêtirent d'une sincérité pure, Stosmos, qui était la brise chargée d'encouragements, se transforma. Et cette forme était idéale pour le rôle d'Estelle."
+  },
+  "splashart": "heroes/Estelle/sa.png",
+  "costumes": "heroes/Estelle/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

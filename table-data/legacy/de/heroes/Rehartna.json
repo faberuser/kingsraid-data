@@ -1,0 +1,248 @@
+{
+  "id": "Rehartna",
+  "profile": {
+    "name": "Rehartna",
+    "title": "Freundlicher Überbringer Rehartna",
+    "class": "Priest",
+    "position": "Middle-300",
+    "attack_range": "4800",
+    "damage_type": "Physical",
+    "gender": "Weiblich",
+    "age": "18",
+    "height": "159",
+    "race": "Menschen",
+    "constellation": "Armil, der Ehrwürdige",
+    "birth": {
+      "month": 4,
+      "day": 26,
+      "monthName": "Monat des Lebens"
+    },
+    "like": "Familie, Gefährte, Orangen Pfundkuchen, Hochqualitative Materialien",
+    "dislike": "Kekse stehlender Bruder, spät entdeckte Fehler in den Bauplänen, verantwortungslose Personen, verwickelte Schleifen",
+    "story": "Handwerkerin und Besitzerin der Musikinstrumentenwerkstatt Accelerando in der Hauptstadt.\nSie wird von den Besuchern für ihre lebhafte Persönlichkeit, den sanften Ton und aufrichtige Reaktionen gut geschätzt.\nNach außen hin wirkt sie zwar, wie eine gewöhnliche Handwerkerin, die trotz ihres jungen Alters viel vom Handelsgeschäft versteht und gut in ihrem Handwerk ist, aber ...\nIn Wirklichkeit ist sie in der Widerstandgruppe tätig.\nDabei ist sie für das Sammeln von Informationen zuständig und als Verbindungsperson tätig. Um dieser Aufgabe nachzugehen und viele Informationen zu sammeln, geht sie getarnt als Instrumentenhändlerin oft auf Reisen im ganzen Kaiserreich.\nIhre Gefährten vertrauen ihr aufgrund ihrer Pünktlichkeit und Tarnung.\nDarüber hinaus wird das Hinterzimmer ihrer Werkstatt als Widerstandsnest von der Résistance verwendet. Hier versammeln sich täglich Aktivisten aus den unterschiedlichsten Orten.",
+    "thumbnail": "heroes/Rehartna/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Feuer! Ultraschallgenerator!",
+      "cost": "2",
+      "cooldown": "13",
+      "description": "Fügt den Gegnern an der Frontlinie 4-mal ??? Körp. Schaden zu und pro Treffer werden die Gegner für 3 Sek. betäubt, wobei der ANG für 10 Sek. um 25 % verringert wird.",
+      "thumbnail": "heroes/Rehartna/skills/1.png"
+    },
+    "2": {
+      "name": "Klare Töne, Matimaruma!",
+      "cost": "2",
+      "cooldown": "17",
+      "description": "Regeneriert sofort ??? TP des Verbündeten mit den niedrigsten TP, absorbiert für 10 Sek. ??? Schaden und verleiht einen Massenkontroll-Immunität-Schild. Während der Wirkungsdauer des Schilds werden jede Sek. ??? TP von Verbündeten regeneriert, die sich in Reichweite der Gegnern befinden, und deren VERT. um ??? erhöht. Fügt Gegnern jede Sek. ??? Schaden zu und verringert deren ANG-GESCHW um 250.",
+      "thumbnail": "heroes/Rehartna/skills/2.png"
+    },
+    "3": {
+      "name": "Wunderbare Waffe, was?",
+      "cost": "3",
+      "cooldown": "25",
+      "description": "Reduziert den Cooldown aller aktiven Skills von 4 zufälligen Verbündeten um 4 Sek. und regeneriert für 15 Sek. jede Sek. 150 MP. Schließlich wird der ANG um ??? erhöht. Mit jeder Verwendung wird der ANG-Boost-Effekt um zus. ??? erhöht.",
+      "thumbnail": "heroes/Rehartna/skills/3.png"
+    },
+    "4": {
+      "name": "Kampfmarsch",
+      "cost": null,
+      "cooldown": null,
+      "description": "Mit jedem Kampfbeginn werden ??? TP aller Verbündeten regeneriert und die Heilungsrate um 10 % erhöht. Heilungsrate-Erhöhungseffekt wird max. 3-mal gestapelt und kann nicht entfernt werden.",
+      "thumbnail": "heroes/Rehartna/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht den Schaden um 10 %.",
+      "III": "Erhöht den Schaden um 15 %.",
+      "IV": "Erhöht den Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schild um 10 %.",
+      "III": "Erhöht Schild um 15 %.",
+      "IV": "Erhöht Schild um 25 %."
+    },
+    "3": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Heilungsrate um 10 %.",
+      "III": "Erhöht Heilungsrate um 15 %.",
+      "IV": "Erhöht Heilungsrate um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Manakosten erhöhen sich um 1x Mana-Kugel und die pos. Effekte der Gegner werden entfernt.",
+          "thumbnail": "heroes/Rehartna/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Verringert die VERT-Durchdr. des getroffenen Gegners für 10 Sek. um 250.",
+          "thumbnail": "heroes/Rehartna/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Rehartna/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Während der Wirkungsdauer wird der erhaltene Körp. Schaden von Gegner in Reichweite um 25 % erhöht.",
+          "thumbnail": "heroes/Rehartna/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Skilleffektreichweite wird auf 6 Verbündete geändert.",
+          "thumbnail": "heroes/Rehartna/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Verringert Cooldown um 7 Sek.",
+          "thumbnail": "heroes/Rehartna/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Zum Kampfbeginn werden 1000 Eigen-Mana regeneriert.",
+          "thumbnail": "heroes/Rehartna/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Pro Stapel wird der Krit. Schaden aller Verbündeten um 12 % erhöht.",
+          "thumbnail": "heroes/Rehartna/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/CC-WDST. +100",
+        "thumbnail": "heroes/Rehartna/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht mit jede Skill-Verwendung den ANG von 4 zufällige(n) Verbündete(n) um 3 % und alle VERT um 3 %. Dieser Effekt wird max. 10-mal gestapelt und kann nicht entfernt werden.",
+        "thumbnail": "heroes/Rehartna/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Wegfreimachendes Lied, Matimaruma",
+    "description": "Bei 3x Verwendung des Skills werden die neg. Effekte aller Verbündete entfernt und der erlittene Schaden für 10 Sek. um {0} % verringert.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
+    "thumbnail": "heroes/Rehartna/uw.png",
+    "story": "Nach außen hin sieht es wie ein großes, komplexes Instrument aus.\nAber der wahre Wert des Instruments liegt woanders.\nWenn man die Teile austauscht, die den Ton erzeugen, wird es zu einer Waffe, die spezielle Ultraschallwellen aussendet.\nDer größte Vorteil dieses Instruments ist, dass jeder einfach damit umgehen kann, auch nachdem man die Teile austauscht.\nRehartna hat dieses Versuchsinstrument angefertigt, nachdem ihr bewusst wurde, dass sie nichts tun kann, wenn ein Kampf stattfinden sollte. Damit will sie ihren Gefährten in schweren Zeiten helfen.\nDanach ist das Ziel in Massproduktion zu gehen, unter Berücksichtigung des allgemeinen Zwecks.",
+    "descriptionByStar": {
+      "0": "Bei 3x Verwendung des Skills werden die neg. Effekte aller Verbündete entfernt und der erlittene Schaden für 10 Sek. um 10 % verringert."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Résistance Geheimdokument",
+      "description": "[Feuer! Ultraschallgenerator!] gewährt bei seiner Verwendung Massenkontroll-Immunität und verringert mit jedem Treffer die MP des Gegners um {0}.",
+      "value": {
+        "0": {
+          "0": "140",
+          "1": "170",
+          "2": "210",
+          "3": "250",
+          "4": "300",
+          "5": "360"
+        }
+      },
+      "thumbnail": "heroes/Rehartna/ut/1.png",
+      "story": "Ein kleiner Brief mit Siegel.\nEs enthält Nachrichten oder Informationen, die von der Hauptstadt-Basis an der Außenbasis und umgekehrt gesendet werden.\nDie Résistance bevorzugt die mündliche Übermittlung aufgrund der Natur der Organisation, aber es gibt einige Dinge, die schriftlich behandelt werden müssen.\nZurzeit eignet sich Rehartna am besten für diesen Job, da sie dank ihrer Musikinstrumentenwerkstatt sich als Instrumentenhändlerin in- und außerhalb der Stadt frei bewegen kann.\nDabei gibt Rehartna Ausreden wie die Vereinbarung eines Geschäfts mit teuren Instrumenten und verschleiert den Brief manchmal als Provisionsschreiben von Kunden.\nUm die Verkleidung noch überzeugender wirken zu lassen, verwendet Rehartna teure Briefe und stempelt ein hochwertiges Siegellack.",
+      "descriptionByStar": {
+        "0": "[Feuer! Ultraschallgenerator!] gewährt bei seiner Verwendung Massenkontroll-Immunität und verringert mit jedem Treffer die MP des Gegners um 140."
+      }
+    },
+    "2": {
+      "name": "Ultraschallgenerator",
+      "description": "[Klare Töne, Matimaruma!] erhöht den Krit. Widerstand von Verbündeten in Reichweite um {0} und regeneriert 150 MP/Sek.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Rehartna/ut/2.png",
+      "story": "Ein Teil, das den Kern von Matimaruma bildet.\nEs wird verwendet, um das Instrument kurz vor einem Kampf in eine Waffe zu verwandeln.\nDie Wirkungen der von jedem erzeugten Ultraschallwellen sind verschieden, so dass sie durch unterschiedliche Farben dargestellt werden. Eine Funktion, die Rehartna vor langer Zeit eingebaut hat, als sie Matimaruma entwickelte.\nDie anderen Instrumententeile wurden sicher gebaut, aber das Gerät, das die wichtigste Rolle spielen sollte, wurde nicht wie vorgesehen entwickelt.\nBesorgt über Rehartnas Bemühungen, eine Lösung dafür zu finden, gaben ihre Gefährten alle verfügbaren Informationen mit, die sie finden konnten.\nAuf einer Notiz zwischen den Büchern hinterließen sie ermutigte Worte und forderten sie auf um Hilfe zu bieten, wenn sie es brauchen sollte.\nDie energiegeladene Rehartna konnte mit Hilfe der Informationen den Ultraschallgenerator sicher vervollständigen.\nEs wurde durch technomagische Technik hergestellt und die Farbe des Geräts wurde mit Dankbarkeit an die Gefährten, die ihre geholfen haben, entschieden.",
+      "descriptionByStar": {
+        "0": "[Klare Töne, Matimaruma!] erhöht den Krit. Widerstand von Verbündeten in Reichweite um 100 und regeneriert 150 MP/Sek."
+      }
+    },
+    "3": {
+      "name": "Medley Noten",
+      "description": "[Wunderbare Waffe, was?] verringert den Cooldown aller aktiven Skills um zus. {0} Sek. und gewährt dem Gegner Massenkontroll-Immunität für 5 Sek.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
+      "thumbnail": "heroes/Rehartna/ut/3.png",
+      "story": "Aller paar Tage findet im Hinterzimmer der von Rehartna betriebenen Musikinstrumentenwerkstatt Accelerando ein Abendkonzert statt.\nNatürlich handelt es sich hierbei um ein Scheinkonzert und sein eigentlicher Zweck ist es, Mitglieder der Widerstandgruppe zusammenzubringen, um Informationen auszutauschen.\nWarumein Konzert und keine Feier in der Musikinstrumentenwerkstatt veranstaltet wird, ist aufgrund der Tatsache, dass es nicht verdächtig scheint, da der Klang der Instrumente lauter ist als die eigene Stimme.\nWenn die Musik zu oft unterbrochen wird, ist es schwierig Dialoge zu Ende zu bringen, daher hat Rehartna eine Reihe an Medley Noten vorbereitet.\nSobald man anfängt zu spielen, kann man stundenlang spielen ohne unterbrochen zu werden, was jedes Mal eine große Hilfe für die Widerstandgruppe darstellt.",
+      "descriptionByStar": {
+        "0": "[Wunderbare Waffe, was?] verringert den Cooldown aller aktiven Skills um zus. 1 Sek. und gewährt dem Gegner Massenkontroll-Immunität für 5 Sek."
+      }
+    },
+    "4": {
+      "name": "Drachenbild",
+      "description": "[Kampfmarsch] ändert die max. Stapelanzahl auf 6 und dem Bossmonster zugefügter Schaden wird um {0} % erhöht.",
+      "value": {
+        "0": {
+          "0": "3",
+          "1": "3.6",
+          "2": "4.3",
+          "3": "5.2",
+          "4": "6.2",
+          "5": "7.5"
+        }
+      },
+      "thumbnail": "heroes/Rehartna/ut/4.png",
+      "story": "Ein Drache auf Papier gezeichnet. Die Ränder des Papiers sind sehr zerknittert, da das Papier sehr alt ist.\nEs passierte kurz nachdem Rehartna sich der Résistance angeschlossen hatte. Damals musste sie eine Pause einlegen, weil sie unter einem Albtraum litt, der sich jede Nacht ereignete. Als Rehartna den Lagerraum aufräumte, um sich zu beschäftigen, fand sie eine alte Zeichnung. Seit ihrer Jugend litt Rehartna unter Albträumen, wenn sie unter extremen Stress stand. Eines Tages, als Rehartna nach dem Aufwachen aus dem Albtraum weinte, gab ihr Bruder ihr eine Zeichnung. ‘Dieser Drache ist super stark. Er wird dich sogar in deinen Träumen schützen!’, sagte ihr Bruder. Als Rehartna nun die Zeichnung erneut sah, dachte sie über die Gründe nach, warum sie sich der Résistance angeschlossen hatte. Rehartna legte die Zeichnung unter ihrem Kopfkissen, sodass auf magischer Weise die Albträume verschwanden und sie nie wieder unter einem Albtraum litt.",
+      "descriptionByStar": {
+        "0": "[Kampfmarsch] ändert die max. Stapelanzahl auf 6 und dem Bossmonster zugefügter Schaden wird um 3 % erhöht."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 5-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört die Seele von Wegfreimachendes Lied, Matimaruma und erhöht 10 Sek. lang den ANG aller Verbündeten um 50 %. Zusätzlich wird nach 10 Sek. den Gegnern an der Frontlinie ??? Körp. Schaden zugefügt und sie werden für 3 Sek. zu Boden geworfen.",
+    "cooldown": "24",
+    "uses": "6",
+    "thumbnail": "heroes/Rehartna/sw.png",
+    "advancement": {
+      "1": "Erhöht die ANG-GESCHW aller Verbündete um 400 während der Wirkungsdauer.",
+      "2": "Erhöht 15 Sek. lang den erhaltenen Schaden des Gegners um 50 %."
+    },
+    "story": "Obwohl es als experimentelle Waffe entwickelt wurde, erwies sich Matimaruma als ziemlich fähig.\nRehartna war jedoch nicht zufrieden und forschte weiter nach Wegen, um Matimaruma zu verbessern.\nNatürlich suchte Rehartna nicht nur nach Möglichkeiten, seine Feuerkraft zu verbessern.\nObwohl Rehartna viele Nebentätigkeiten hat, war ihre Haupttätigkeit die einer Instrumentenhandwerkerin. Ihr Stolz als Handwerkerin erlaubte ihr nicht, nur ein einfaches Werkzeug von mittelmäßiger Qualität herzustellen.\nObwohl die Herstellung eines Werkzeugs, das sowohl ein hervorragendes Instrument als auch eine hervorragende Waffe ist, eine Herausforderung darstellt, die Geduld und Anstrengung erfordert, war es für Rehartna, die entschlossen war, ihren Kameraden noch mehr zu helfen, nichts Unmögliches.\nAls Rehartna weiter verschiedene Instrumente baute, dachte sie, es sei an der Zeit, ein Instrument zu bauen, das den großartigsten und reichsten Klang der Welt hervorbringen kann.\nEin Instrument, das das ganze Orchester, die Pfeifenorgel, spielen kann. Die Forschung endete nicht und es gab viele Misserfolge auf dem Weg.\nRehartna setzte sich jedoch durch und schuf eine Pfeifenorgel ihrer Träume.\nDie Melodie erfüllte den Raum und sein Klang trug eine Wärme, die selbst Rehartna noch nie zuvor empfunden hatte.\nRehartna war sich dessen sicher, dass die Pfeifenorgel, die sie geschaffen hatte, ein Meisterwerk ist, das es wert war, als ihr Magnum Opus bezeichnet zu werden.\nDie Orgel beobachtete Rehartna, wie sie fiel und vor Glück weinte.\nDie Sterne der Morgendämmerung leuchteten auf die Orgel."
+  },
+  "splashart": "heroes/Rehartna/sa.png",
+  "costumes": "heroes/Rehartna/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "id": "Jane",
+  "profile": {
+    "name": "Jane",
+    "title": "Jane, Corps d'Albâtre",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "2500",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "118",
+    "height": "150",
+    "race": "Mort-vivant",
+    "constellation": "Armil le Vénéré",
+    "birth": {
+      "month": 4,
+      "day": 17,
+      "monthName": "Mois de la Vie"
+    },
+    "like": "Je ne me souviens pas trop mais... Ma...",
+    "dislike": "Les gros os...",
+    "story": "Elle était autrefois la princesse de l'ancien Grand-Duché de Gray, rayé de la carte par les envahisseurs démoniaques durant la guerre des démons et qui détenait d'innombrables secrets, notamment les ruines et technologies d'une ancienne civilisation. Jane périt, et ces secrets disparurent avec elle. Plus tard, elle fut ramenée à la vie sous forme de mort-vivant par Malduk, un officier de haut rang et stratège de l'Armée des ténèbres. Elle reçut une nouvelle conscience grâce à une ancienne magie maléfique. Elle cherche désormais à partir à la recherche de son passé et ses souvenirs perdus.",
+    "thumbnail": "heroes/Jane/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Rites Funéraires",
+      "cost": "1",
+      "cooldown": "8",
+      "description": "Inflige 361*(1+0.3*Skill Level)+277.6% of Attack Power DEG aux ennemis à portée et les étourdit pendant 2 sec. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Jane/skills/1.png"
+    },
+    "2": {
+      "name": "Marque de la Mort",
+      "cost": "2",
+      "cooldown": "6",
+      "description": "Applique [Marque de la mort] à tous les ennemis pendant 15 sec, infligeant 9*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 6.9% ATK DEG M continus toutes les 1 sec et réduisant leur DEF M de 10%. Relancer dans les 15 sec augmente la réduction de DEF M de 50%, jusqu’à 5 cumuls. Cette augmentation ne peut pas être dissipée.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Jane/skills/2.png"
+    },
+    "3": {
+      "name": "Jour de Ruine",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Inflige 106*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 81.4% ATK DEG M toutes les 1 sec à tous les ennemis pendant 22 sec et récupère des PV égaux à 50% des DEG infligés. Pendant la durée, réduit les DEG M subis de 11% pour les 4 alliés ayant la DEF M la plus basse et inflige aux ennemis sous [Marque de la mort] des DEG M supplémentaires égaux à 81.4% de l’ATQ.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Jane/skills/3.png"
+    },
+    "4": {
+      "name": "Repose en Paix",
+      "cost": null,
+      "cooldown": "300",
+      "description": "Augmente la DEF M de l’allié à la DEF M la plus faible de 101*(0.7+(0.3*Skill Level*Awakening Coefficient)). Lors de DEG fatals, entre dans [Cercueil] pendant 5 sec et restaure 197*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 153.7% ATK + 10% des PV max. Dans [Cercueil], ignore les changements de vitesse d’attaque, devient immunisée à tous les DEG et inflige aux ennemis proches des DEG M égaux à 5% des PV max toutes les 1 sec.\nCoefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Jane/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Récupère [64ff64]1[-]% des PM."
+    },
+    "4": {
+      "II": "Augmente les soins de [64ff64]10[-]%.",
+      "III": "Augmente les soins de [64ff64]15[-]%.",
+      "IV": "Augmente les soins de [64ff64]25[-]%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Restaure les PV à hauteur de 50% des DEG infligés.",
+          "thumbnail": "heroes/Jane/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Le coût en Mana augmente de 2000, mais attire la cible à proximité.",
+          "thumbnail": "heroes/Jane/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "La durée de l'affaiblissement est réduite à 10 s, mais les dégâts augmentent de 500 %.",
+          "thumbnail": "heroes/Jane/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "La Marque Gravée n'est pas dissipée lors d'une dissipation des effets négatifs.",
+          "thumbnail": "heroes/Jane/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Les dégâts augmentent de 50 %.",
+          "thumbnail": "heroes/Jane/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Tous les alliés subissent également 10% de DEG P en moins.",
+          "thumbnail": "heroes/Jane/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Dissipe l'effet positif de tous les ennemis lors de l'activation de l'effet.",
+          "thumbnail": "heroes/Jane/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Applique Étourdissement pendant 1 sec à tous les ennemis.",
+          "thumbnail": "heroes/Jane/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Blocage M +200",
+        "thumbnail": "heroes/Jane/perks/light.png"
+      },
+      "dark": {
+        "effect": "À chaque coup, augmente l'ATQ et les soins de 1%, jusqu'à 35 cumuls.",
+        "thumbnail": "heroes/Jane/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Erekura, l'Esprit inchangé",
+    "description": "Inflige chaque seconde des DEG M égaux à {0}% de l'ATQ aux ennemis proches, réduit leur ATQ de {1}% et récupère des PV égaux à 100% des DEG infligés.",
+    "thumbnail": "heroes/Jane/uw.png",
+    "story": "Lorsque la magie de Malduk ranima Jane sous la forme d'une morte-vivante, elle n'aurait rien dû ressentir. Cependant, elle se sentit à l'aise dans l'énergie mystérieuse entourant sa dépouille. Lorsque Malduk l'appela, elle tenta instinctivement de toucher cette douce présence. Plus tard, quand la magie mystérieuse lui fit reprendre conscience, elle commença par inspecter son cercueil, illuminé d'amour tragique. Elle y trouva le message suivant soigneusement gravé : « Mon amour pour toi reste inchangé. »",
+    "value": {
+      "0": {
+        "0": "40",
+        "1": "48",
+        "2": "56",
+        "3": "64",
+        "4": "72",
+        "5": "80"
+      },
+      "1": {
+        "0": "15",
+        "1": "18",
+        "2": "21",
+        "3": "24",
+        "4": "27",
+        "5": "30"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Inflige chaque seconde des DEG M égaux à 40% de l'ATQ aux ennemis proches, réduit leur ATQ de 15% et récupère des PV égaux à 100% des DEG infligés.",
+      "1": "Inflige chaque seconde des DEG M égaux à 48% de l'ATQ aux ennemis proches, réduit leur ATQ de 18% et récupère des PV égaux à 100% des DEG infligés.",
+      "2": "Inflige chaque seconde des DEG M égaux à 56% de l'ATQ aux ennemis proches, réduit leur ATQ de 21% et récupère des PV égaux à 100% des DEG infligés.",
+      "3": "Inflige chaque seconde des DEG M égaux à 64% de l'ATQ aux ennemis proches, réduit leur ATQ de 24% et récupère des PV égaux à 100% des DEG infligés.",
+      "4": "Inflige chaque seconde des DEG M égaux à 72% de l'ATQ aux ennemis proches, réduit leur ATQ de 27% et récupère des PV égaux à 100% des DEG infligés.",
+      "5": "Inflige chaque seconde des DEG M égaux à 80% de l'ATQ aux ennemis proches, réduit leur ATQ de 30% et récupère des PV égaux à 100% des DEG infligés."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Poupée funéraire",
+      "description": "[Rites Funéraires] Réduit la résistance au contrôle de la cible de 320 et ses chances de blocage magique de {0} pendant 4 s.",
+      "thumbnail": "heroes/Jane/ut/1.png",
+      "story": "Ce genre de poupée sert aux cérémonies funéraires du Grand-Duché de Gray.\nFabriquée à l'effigie du défunt, elle est placée devant sa pierre tombale. Après la chute du grand-duché et la mort de Jane, cette poupée fut déposée aux côtés de sa dépouille.",
+      "value": {
+        "0": {
+          "0": "210",
+          "1": "252",
+          "2": "294",
+          "3": "336",
+          "4": "378",
+          "5": "420"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Rites Funéraires] Réduit la résistance au contrôle de la cible de 320 et ses chances de blocage magique de 210 pendant 4 s.",
+        "1": "[Rites Funéraires] Réduit la résistance au contrôle de la cible de 320 et ses chances de blocage magique de 252 pendant 4 s.",
+        "2": "[Rites Funéraires] Réduit la résistance au contrôle de la cible de 320 et ses chances de blocage magique de 294 pendant 4 s.",
+        "3": "[Rites Funéraires] Réduit la résistance au contrôle de la cible de 320 et ses chances de blocage magique de 336 pendant 4 s.",
+        "4": "[Rites Funéraires] Réduit la résistance au contrôle de la cible de 320 et ses chances de blocage magique de 378 pendant 4 s.",
+        "5": "[Rites Funéraires] Réduit la résistance au contrôle de la cible de 320 et ses chances de blocage magique de 420 pendant 4 s."
+      }
+    },
+    "2": {
+      "name": "Coussin imprégné de mort",
+      "description": "[Marque de la Mort] Augmente la réduction de DEF M de 50%. Lorsqu'un ennemi marqué meurt, augmente sa propre ATQ de {0}% et ses DEG Crit de 10%. Ces bonus se cumulent jusqu'à 3 fois.",
+      "thumbnail": "heroes/Jane/ut/2.png",
+      "story": "Jane enlace ce coussin pour dormir dans le cercueil. Il renferme les esprits endormis avec elle. \nCe sont eux qui confèrent en permanence à Jane la vacuité de la mort.",
+      "value": {
+        "0": {
+          "0": "5",
+          "1": "6",
+          "2": "7",
+          "3": "8",
+          "4": "9",
+          "5": "10"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Marque de la Mort] Augmente la réduction de DEF M de 50%. Lorsqu'un ennemi marqué meurt, augmente sa propre ATQ de 5% et ses DEG Crit de 10%. Ces bonus se cumulent jusqu'à 3 fois.",
+        "1": "[Marque de la Mort] Augmente la réduction de DEF M de 50%. Lorsqu'un ennemi marqué meurt, augmente sa propre ATQ de 6% et ses DEG Crit de 10%. Ces bonus se cumulent jusqu'à 3 fois.",
+        "2": "[Marque de la Mort] Augmente la réduction de DEF M de 50%. Lorsqu'un ennemi marqué meurt, augmente sa propre ATQ de 7% et ses DEG Crit de 10%. Ces bonus se cumulent jusqu'à 3 fois.",
+        "3": "[Marque de la Mort] Augmente la réduction de DEF M de 50%. Lorsqu'un ennemi marqué meurt, augmente sa propre ATQ de 8% et ses DEG Crit de 10%. Ces bonus se cumulent jusqu'à 3 fois.",
+        "4": "[Marque de la Mort] Augmente la réduction de DEF M de 50%. Lorsqu'un ennemi marqué meurt, augmente sa propre ATQ de 9% et ses DEG Crit de 10%. Ces bonus se cumulent jusqu'à 3 fois.",
+        "5": "[Marque de la Mort] Augmente la réduction de DEF M de 50%. Lorsqu'un ennemi marqué meurt, augmente sa propre ATQ de 10% et ses DEG Crit de 10%. Ces bonus se cumulent jusqu'à 3 fois."
+      }
+    },
+    "3": {
+      "name": "Fleur du Grand-Duché oublié",
+      "description": "[Jour de Ruine] Augmente les DEG de 50% et sa propre puissance de soin de {0}% pendant la compétence.",
+      "thumbnail": "heroes/Jane/ut/3.png",
+      "story": "Une fleur du grand-duché qui est désormais introuvable. On la connaît sous le nom de Fleur des Frontières connectant la vie et la mort et se nourrissant de destruction. C’est une fleur douloureusement belle. Si vous l’offrez à quelqu’un, vous pourrez partager les derniers instants de cette personne dans un rêve.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "28",
+          "3": "32",
+          "4": "36",
+          "5": "40"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Jour de Ruine] Augmente les DEG de 50% et sa propre puissance de soin de 20% pendant la compétence.",
+        "1": "[Jour de Ruine] Augmente les DEG de 50% et sa propre puissance de soin de 24% pendant la compétence.",
+        "2": "[Jour de Ruine] Augmente les DEG de 50% et sa propre puissance de soin de 28% pendant la compétence.",
+        "3": "[Jour de Ruine] Augmente les DEG de 50% et sa propre puissance de soin de 32% pendant la compétence.",
+        "4": "[Jour de Ruine] Augmente les DEG de 50% et sa propre puissance de soin de 36% pendant la compétence.",
+        "5": "[Jour de Ruine] Augmente les DEG de 50% et sa propre puissance de soin de 40% pendant la compétence."
+      }
+    },
+    "4": {
+      "name": "Poupée de première amitié",
+      "description": "[Repose en Paix] Fixe le temps de recharge à 45 s et, après activation, réduit les DGT magiques subis de {0} % pendant 10 s.",
+      "thumbnail": "heroes/Jane/ut/4.png",
+      "story": "Une poupée qui ressemble à s'y méprendre à Rephy, le premier ami de Jane.\nJane s'arrêta net devant une boutique de poisons.\nEn voyant les yeux de Jane rivés sur la poupée de Rephy en édition limitée en vitrine, Epis décida de la lui acheter.\nElle ne pouvait être achetée qu'en coupons, et cela fendait le cœur d'Epis d'avoir à dépenser toutes ses économies. Cependant, le sourire de Jane lorsqu'elle reçut cette poupée qui serait sa toute première amie en valait très certainement la peine.",
+      "value": {
+        "0": {
+          "0": "60",
+          "1": "72",
+          "2": "84",
+          "3": "96",
+          "4": "108",
+          "5": "120"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Repose en Paix] Fixe le temps de recharge à 45 s et, après activation, réduit les DGT magiques subis de 60 % pendant 10 s.",
+        "1": "[Repose en Paix] Fixe le temps de recharge à 45 s et, après activation, réduit les DGT magiques subis de 72 % pendant 10 s.",
+        "2": "[Repose en Paix] Fixe le temps de recharge à 45 s et, après activation, réduit les DGT magiques subis de 84 % pendant 10 s.",
+        "3": "[Repose en Paix] Fixe le temps de recharge à 45 s et, après activation, réduit les DGT magiques subis de 96 % pendant 10 s.",
+        "4": "[Repose en Paix] Fixe le temps de recharge à 45 s et, après activation, réduit les DGT magiques subis de 108 % pendant 10 s.",
+        "5": "[Repose en Paix] Fixe le temps de recharge à 45 s et, après activation, réduit les DGT magiques subis de 120 % pendant 10 s."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Se recharge toutes les sec et à chaque fois que les DEG sont infligés. Devient utilisable lorsqu'elle est rechargée [64ff64]80[-] fois.",
+    "description": "Invoque l'âme de [Erekura, l'Esprit inchangé] pendant 10 sec, augmentant ses propres soins reçus de 27%. Toutes les 0.5 sec, réduit la DEF M de tous les ennemis de 3% pendant 5 sec, jusqu'à 5 cumuls. Après 10 sec, consomme les cumuls sur la cible et inflige des DEG M égaux à 160% de l'ATQ par cumul.",
+    "cooldown": "20",
+    "uses": "6",
+    "thumbnail": "heroes/Jane/sw.png",
+    "advancement": {
+      "1": "Réduit la condition d'activation à 60 fois.",
+      "2": "Modifie l'augmentation des DEG M reçus par la cible par charge à 20%."
+    },
+    "story": "Le cœur immuable de l'être qui chérit Jane de toute son âme et le sentiment irrépressible de cette dernière qui veut retrouver l'être qui lui manque devinrent une graine ensemencée dans Erekura. Chaque fois que Jane retrouvait une partie de ses sentiments perdus, elle se développa en lierre épineux qui s'entrelaça avec son propriétaire, afin de la protéger de tout danger.\nL'âme d'Erekura, qui germa et s'embellit de plus belle, produisit des fleurs en bourgeons, résonnant avec les émotions de Jane qui se faisaient de plus en plus profondes.\nEndormis en attendant son heure, ces bourgeons finirent par éclore pleinement, en harmonie avec le cœur de Jane, qui se réjouissait des retrouvailles avec l'être qui lui avait manqué. Les pollens qu'ils produisirent firent éclore d'autres fleurs du grand-duché à présent disparu, et couvrirent entièrement une colline, la transformant en colline vermeille."
+  },
+  "splashart": "heroes/Jane/sa.png",
+  "costumes": "heroes/Jane/cos",
+  "_localization": {
+    "locale": "fr",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

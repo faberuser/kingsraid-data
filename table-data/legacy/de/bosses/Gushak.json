@@ -1,0 +1,57 @@
+{
+  "id": "Gushak",
+  "profile": {
+    "name": "Gushak",
+    "title": "Häuptling des Blutaltars",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "Ork",
+    "damage_type": "Physical",
+    "recommended_heroes": "Leo, Nyx, Tanya",
+    "characteristics": "[Ork-Rage] kumuliert sich jedes Mal, wenn der Boss Schaden nimmt, bis zu 100 Male. Der Boss wird zunehmend wütender, was seine Werte beachtlich steigert. Helden, die Stärkungszauber [Auflösen] können sind empfohlen.",
+    "thumbnail": "bosses/Gushak.png",
+    "recommendedHeroNames": [
+      "Leo",
+      "Nyx",
+      "Tanya"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Blutroter Schnitt",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Wirbelt die Waffe auf dem Boden herum und fügt Feinden in Reichw. Körp. Schaden zu. Der letzte Treffer löst eine Schockwelle aus und wirft Feinde für 2 Sek. zu Boden."
+    },
+    "2": {
+      "name": "Klingenrausch",
+      "cost": null,
+      "cooldown": "25",
+      "description": "Greift den Feind 3 Mal an und beendet den Angriff mit einem Abwärtsschlag. Fügt Feinden in Reichw. Körp. Schaden zu und betäubt sie 5 Sek. lang."
+    },
+    "3": {
+      "name": "Blutschlag",
+      "cost": null,
+      "cooldown": "45",
+      "description": "Stampft auf den Boden und betäubt nahestehende Feinde für 4 Sek., um Energie aufzuladen. Der folgende Angriff ist weitreichend und verursacht massiven Körp. Schaden an Feinden in Reichw."
+    },
+    "4": {
+      "name": "Ork-Rage",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhält jedes Mal 1 Ork-Rage Stapel, wenn er Schaden nimmt. Hält 10 Sek. lang an, und ANG und VERT steigen je um 0.4 % pro Ork-Rage Stapel. Kann bis zu 100-mal gestapelt werden. Bei 100 Stapeln erhält er Massenkontroll-Immunität und erhöhte Werte für 10 Sek."
+    },
+    "5": {
+      "name": "Reinigung",
+      "cost": null,
+      "cooldown": null,
+      "description": "Entfernt alle 30 Sek. alle eigenen Negativ-Effekte und erhöht die eigene ANG-GESCHW."
+    }
+  },
+  "aliases": [
+    "Gushak",
+    "GR4",
+    "GR 4"
+  ]
+}

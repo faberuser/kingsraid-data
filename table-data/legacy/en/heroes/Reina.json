@@ -1,0 +1,228 @@
+{
+  "id": "Reina",
+  "profile": {
+    "name": "Reina",
+    "title": "Lightning Flash Reina",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "1800",
+    "damage_type": "Physical",
+    "gender": "Female",
+    "age": "17",
+    "height": "160",
+    "race": "Human",
+    "constellation": "Gisla the Sharpshooter",
+    "birth": {
+      "month": 11,
+      "day": 30,
+      "monthName": "Month of Fortune"
+    },
+    "like": "Attractive men",
+    "dislike": "Uninteresting men",
+    "story": "Reina von Stein was born the daughter of a noble family of the empire. Her free spirit and energetic personality seem to brighten up even those around her. She prefers a life of freedom as a mercenary over the suffocating life of an aristocrat. After working as a mercenary for a long time, and she's already lost all traces of her noble upbringing in her manners. Even as a child, she showed a natural talent with swords. Over the years, she developed her skills with a rapier, using a style that best suited her lithe physique. Recently, she turned down a strange contract. Ever since then, she has been feeling as if someone has been following and watching her.",
+    "thumbnail": "heroes/Reina/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Float Like a Butterfly",
+      "cost": "1",
+      "cooldown": "3",
+      "description": "Rapidly stabs the enemy, dealing ??? P.DMG. Upon a Crit Hit, stacks 1 Wound and resets cooldown. Per every stacked Wound, DMG dealt by Float Like a Butterfly is increased by 20%. Gains immunity to all DMG while the skill is in use.",
+      "thumbnail": "heroes/Reina/skills/1.png"
+    },
+    "2": {
+      "name": "Sharp End",
+      "cost": "2",
+      "cooldown": "20",
+      "description": "Dispels negative effects from self and increases ATK by ??? for 20 sec and Crit Chance by 500. This effect is irremovable.",
+      "thumbnail": "heroes/Reina/skills/2.png"
+    },
+    "3": {
+      "name": "Shooting Star",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Inflicts ??? P.DMG upon enemy with a continuous attack. The last hit blows the enemy away.",
+      "thumbnail": "heroes/Reina/skills/3.png"
+    },
+    "4": {
+      "name": "Lucky Child",
+      "cost": null,
+      "cooldown": null,
+      "description": "Upon a Crit Hit, ATK is increased by ??? for 10 sec. Can be stacked up to 8 times max.",
+      "thumbnail": "heroes/Reina/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Increases DMG by 10%.",
+      "III": "Increases DMG by 15%.",
+      "IV": "Increases DMG by 25%."
+    },
+    "2": {
+      "II": "Increases ATK Boost by 10%.",
+      "III": "Increases ATK Boost by 15%.",
+      "IV": "Increases Crit Chance Boost by 50%."
+    },
+    "3": {
+      "II": "Increases DMG by 10%.",
+      "III": "Increases DMG by 15%.",
+      "IV": "Increases DMG by 25%."
+    },
+    "4": {
+      "II": "Increases ATK Boost by 10%.",
+      "III": "Increases ATK Boost by 15%.",
+      "IV": "Increases DEF Penetration by 250 for the duration of Skill."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Mana Cost is increased by 1, and the maximum number of Wound stack is increased to 10. Deals additional DMG equal to 150% of ATK against enemies with 10 stacks of Wound.",
+          "thumbnail": "heroes/Reina/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Cooldown is removed.",
+          "thumbnail": "heroes/Reina/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Mana cost is reduced by 1.",
+          "thumbnail": "heroes/Reina/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "In exchange for 1 additional Mana Cost, Crit Chance effect is changed to a 100% Crit DMG boost. Also gains a 25% DMG boost towards Bosses.",
+          "thumbnail": "heroes/Reina/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Each crit boosts the last attack's DMG by 10%.",
+          "thumbnail": "heroes/Reina/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Gain immunity to all DMG while using skill.",
+          "thumbnail": "heroes/Reina/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Per each stack, DMG is increased by 4% to enemies other than heroes.",
+          "thumbnail": "heroes/Reina/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "When there are 5 or more stacks, takes 20% reduced P.DMG and M.DMG.",
+          "thumbnail": "heroes/Reina/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATK, DEF, HP +15% / Crit DMG +20%",
+        "thumbnail": "heroes/Reina/perks/light.png"
+      },
+      "dark": {
+        "effect": "Upon using a Skill, increases own Crit DMG by 10% for 10 sec. This effect can be stacked up to max 10 times.",
+        "thumbnail": "heroes/Reina/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Lightning Flash, Livatis",
+    "description": "Upon a Crit Hit, ATK Spd is increased by 80 and Crit DMG is increased by 20% for 15 sec. Can be stacked up to 5 times max.",
+    "value": {},
+    "thumbnail": "heroes/Reina/uw.png",
+    "story": "The Stein family boasts a long lineage that dates back to the early days of the empire. The honor of the family, however, stems from the skills of its warriors, not its noble bloodline. Aria Stein was a legendary master of the blade. Remembered as one of the most skilled warriors in the history of the empire, she laid the foundation of the Stein family honor. Reina is her descendant. Aria's sword, Livatis, currently belongs to Reina. Light as a feather yet strong enough to withstand any strike, this sword helped Reina earn the nickname 'Flash.'",
+    "descriptionByStar": {
+      "0": "Upon a Crit Hit, ATK Spd is increased by 80 and Crit DMG is increased by 20% for 15 sec. Can be stacked up to 5 times max.",
+      "1": "Upon a Crit Hit, ATK Spd is increased by 90 and Crit DMG is increased by 24% for 15 sec. Can be stacked up to 5 times max.",
+      "2": "Upon a Crit Hit, ATK Spd is increased by 110 and Crit DMG is increased by 28% for 15 sec. Can be stacked up to 5 times max.",
+      "3": "Upon a Crit Hit, ATK Spd is increased by 130 and Crit DMG is increased by 34% for 15 sec. Can be stacked up to 5 times max.",
+      "4": "Upon a Crit Hit, ATK Spd is increased by 160 and Crit DMG is increased by 41% for 15 sec. Can be stacked up to 5 times max.",
+      "5": "Upon a Crit Hit, ATK Spd is increased by 200 and Crit DMG is increased by 50% for 15 sec. Can be stacked up to 5 times max."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Wing of Lightning Flash",
+      "description": "[Float Like a Butterfly] Increases DMG by 20%, and reduces the target's P.Block Chance by 500 for 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Reina/ut/1.png",
+      "story": "A pair of mystical Ear Cuffs that raise the wearer's speed to the limit.\nNyx gave it as a present to Reina, who kept telling him to open portals since she didn't care for the rigors of traveling. Reina wears this strange item in battle, and she looks like a pretty butterfly flying at lightning speed when she raises her sword.",
+      "descriptionByStar": {
+        "0": "[Float Like a Butterfly] Increases DMG by 20%, and reduces the target's P.Block Chance by 500 for 10 sec.",
+        "1": "[Float Like a Butterfly] Increases DMG by 24%, and reduces the target's P.Block Chance by 500 for 10 sec.",
+        "2": "[Float Like a Butterfly] Increases DMG by 29%, and reduces the target's P.Block Chance by 500 for 10 sec.",
+        "3": "[Float Like a Butterfly] Increases DMG by 35%, and reduces the target's P.Block Chance by 500 for 10 sec.",
+        "4": "[Float Like a Butterfly] Increases DMG by 42%, and reduces the target's P.Block Chance by 500 for 10 sec.",
+        "5": "[Float Like a Butterfly] Increases DMG by 50%, and reduces the target's P.Block Chance by 500 for 10 sec."
+      }
+    },
+    "2": {
+      "name": "Master's Ring",
+      "description": "[Sharp End] Increases ATK Boost by 50% and recovers additional 40 MP upon a Crit Hit for the skill's duration.",
+      "value": {},
+      "thumbnail": "heroes/Reina/ut/2.png",
+      "story": "The ring that Reina received after defeating her master. It's too big, so she wears it on her thumb. \nIt looks simple and ungainly, but the spirit of fighting is hidden within the rune letters engraved in the ring.\nStaring at the ring of her master makes her feel like she will be getting more work today.",
+      "descriptionByStar": {
+        "0": "[Sharp End] Increases ATK Boost by 50% and recovers additional 40 MP upon a Crit Hit for the skill's duration.",
+        "1": "[Sharp End] Increases ATK Boost by 50% and recovers additional 48 MP upon a Crit Hit for the skill's duration.",
+        "2": "[Sharp End] Increases ATK Boost by 50% and recovers additional 58 MP upon a Crit Hit for the skill's duration.",
+        "3": "[Sharp End] Increases ATK Boost by 50% and recovers additional 70 MP upon a Crit Hit for the skill's duration.",
+        "4": "[Sharp End] Increases ATK Boost by 50% and recovers additional 84 MP upon a Crit Hit for the skill's duration.",
+        "5": "[Sharp End] Increases ATK Boost by 50% and recovers additional 100 MP upon a Crit Hit for the skill's duration."
+      }
+    },
+    "3": {
+      "name": "Medal of Swiftness",
+      "description": "[Shooting Star] Increases DMG by 20% and upon a Crit Hit, recovers Mana by 200.",
+      "value": {},
+      "thumbnail": "heroes/Reina/ut/3.png",
+      "story": "A honorable medal given to the fastest mercenary. It's said to be a keepsake from Hersz, the fastest warrior in the world. Wearing this medal will make the bearer's body feel lighter, and they'll be able to predict the opponent's movements.",
+      "descriptionByStar": {
+        "0": "[Shooting Star] Increases DMG by 20% and upon a Crit Hit, recovers Mana by 200.",
+        "1": "[Shooting Star] Increases DMG by 24% and upon a Crit Hit, recovers Mana by 200.",
+        "2": "[Shooting Star] Increases DMG by 29% and upon a Crit Hit, recovers Mana by 200.",
+        "3": "[Shooting Star] Increases DMG by 35% and upon a Crit Hit, recovers Mana by 200.",
+        "4": "[Shooting Star] Increases DMG by 42% and upon a Crit Hit, recovers Mana by 200.",
+        "5": "[Shooting Star] Increases DMG by 50% and upon a Crit Hit, recovers Mana by 200."
+      }
+    },
+    "4": {
+      "name": "Amethyst Pin",
+      "description": "[Lucky Child] Increases the max number of stacks by 2, each stack increasing Crit DMG by 2%.",
+      "value": {},
+      "thumbnail": "heroes/Reina/ut/4.png",
+      "story": "A pin that belongs to Reina's mother, a renowned leader of mercenaries in the Empire.\nShe gave this pin to her daughter when she left to Orvel Kingdom all alone, hoping it would cast bad luck away. It can also be used as a weapon in case of emergency.",
+      "descriptionByStar": {
+        "0": "[Lucky Child] Increases the max number of stacks by 2, each stack increasing Crit DMG by 2%.",
+        "1": "[Lucky Child] Increases the max number of stacks by 2, each stack increasing Crit DMG by 2.4%.",
+        "2": "[Lucky Child] Increases the max number of stacks by 2, each stack increasing Crit DMG by 2.9%.",
+        "3": "[Lucky Child] Increases the max number of stacks by 2, each stack increasing Crit DMG by 3.5%.",
+        "4": "[Lucky Child] Increases the max number of stacks by 2, each stack increasing Crit DMG by 4.2%.",
+        "5": "[Lucky Child] Increases the max number of stacks by 2, each stack increasing Crit DMG by 5%."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Charges up upon using Skills 10 times.",
+    "description": "Summons the soul of Lightning Flash, Livatis, increasing own ATK by 60% for 12 sec. For the duration of Skill, increases DMG of Float Like a Butterfly by 50%.",
+    "cooldown": "22",
+    "uses": "7",
+    "thumbnail": "heroes/Reina/sw.png",
+    "advancement": {
+      "1": "For the duration of Skill, increases own DEF Penetration by 500.",
+      "2": "Increases the duration of Skill by 5 sec and changes the Skill DMG Boost of Float Like a Butterfly to 100%."
+    },
+    "story": "To Reina’s annoyance, many have attributed Reina's bladework solely to her sword, but it is actually the combination of Reina's long endeavor, and her innate ingenuity. Reina consciously trained to make her own unique moveset, different from that of her ancestors. Her mentor, while supporting Reina’s perseverance, also gave Reina some advice out of worry.\n’-Do not forget: You cannot go anywhere if you forget where your feet previously stood.'\nAfter some time has passed, whilst practicing her sword skill, Reina came to a realization that she will never improve if she’s only hellbent on surpassing Aria. Reina realized that without understanding Aria’s feeling when she was wielding Livatis, her bladework will never be completed. After coming to an enlightenment, Reina’s sword became a perfect flash. It was that moment when the soul of the great swordsman imbued into Livatis awakened newly inside Reina."
+  },
+  "splashart": "heroes/Reina/sa.png",
+  "costumes": "heroes/Reina/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "en",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

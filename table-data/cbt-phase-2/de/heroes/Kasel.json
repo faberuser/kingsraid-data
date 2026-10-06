@@ -1,0 +1,272 @@
+{
+  "id": "Kasel",
+  "profile": {
+    "name": "Kasel",
+    "title": "Krieger des Heiligen Schwertes Kasel",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "100",
+    "damage_type": "Physical",
+    "gender": "Männlich",
+    "age": "18",
+    "height": "185",
+    "race": "Menschen",
+    "constellation": "Asiphia, die Herrscherin",
+    "birth": {
+      "month": 10,
+      "day": 15,
+      "monthName": "Monat der Freundschaft"
+    },
+    "like": "Essen aus der Natur",
+    "dislike": "Fatalismus",
+    "story": "Ein Knappe des Königreichs von Orvelia. Der Tod seiner Eltern durch Dämonen, welche sein Dorf angriffen und der Meuchelmord an seinem Schwertkampflehrer traumatisierten ihn. Daher vermag er es nicht länger, ihm nahestende Menschen sterben zu sehen. Diese Vergangenheit trieb ihn dazu, nach Clause, seinem Blutsbruder aus früheren Tagen im Waisenhaus, zu suchen, der sich einer Expedition anschloss ohne jemals zurückzukehren.",
+    "thumbnail": "heroes/Kasel/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Urteilsklinge",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Fügt Gegnern im Bereich vor sich 2-mal 267*(0.7+(0.3*Skill Level*Awakening Coefficient))+ATK 168.3% physischen Schaden zu und wirft sie für 1.5 Sek. nieder. [Stellvertreter Gottes]: Der Schaden steigt um 25 %, die Angriffsreichweite um 50 % und die Dauer des Niederwerfens um 0.5 Sek. Erweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Kasel/skills/1.png"
+    },
+    "2": {
+      "name": "Tollkühner Vorstoß",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Stürmt hinter den Gegner und fügt Gegnern in Reichweite 3-mal 233*(0.7+(0.3*Skill Level*Awakening Coefficient))+ATK 146.9% physischen Schaden zu. Ihr erlittener physischer Schaden steigt für 5 Sek. um 24 %. [Stellvertreter Gottes]: Der Schaden steigt um 25 %, die Wirkzeit sinkt um 1 Sek. und die kritische Trefferchance wird mit einem Bonus von 600 angewendet. Erweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Kasel/skills/2.png"
+    },
+    "3": {
+      "name": "Göttlicher Wille",
+      "cost": "3",
+      "cooldown": "10",
+      "description": "Fügt Gegnern in der Nähe 200*(0.7+(0.3*Skill Level*Awakening Coefficient))+126% ATK physischen Schaden zu und betäubt sie für 1 Sek. Wechselt anschließend für 10 Sek. in den Zustand [Stellvertreter Gottes], der die Fähigkeiten verstärkt. [Stellvertreter Gottes]: ANG steigt um 314*(0.7+(0.3*Skill Level*Awakening Coefficient)) und der Schaden normaler Angriffe um 100 %. Dieser Effekt kann nicht entfernt werden.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Kasel/skills/3.png"
+    },
+    "4": {
+      "name": "Stoß der Göttin",
+      "cost": null,
+      "cooldown": null,
+      "description": "ANG steigt um 192*(0.7+(0.3*Skill Level*Awakening Coefficient)) und magisches Ausweichen um 240. Wenn [Heiliges Schwert Ea] ausgerüstet ist, steigt der Schaden gegen Gegner, die keine Helden sind, um 20 %, und der von diesen Gegnern erlittene Schaden sinkt um 20 %. Erweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Kasel/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "3": {
+      "II": "Erhöht ANG-Boost um [64ff64]10[-] %.",
+      "III": "Erhöht ANG-Boost um [64ff64]15[-] %.",
+      "IV": "Erhöht ANG-Boost um [64ff64]25[-] %."
+    },
+    "4": {
+      "II": "Erhöht VERT-Erhöhungsrate um [64ff64]10[-] %.",
+      "III": "Erhöht VERT-Erhöhungsrate um [64ff64]15[-] %.",
+      "IV": "Erhöht VERT-Erhöhungsrate um [64ff64]25[-] %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Der Schaden steigt um 50 %.",
+          "thumbnail": "heroes/Kasel/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Verringert die Manakosten um 1000.",
+          "thumbnail": "heroes/Kasel/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Der Schaden steigt um 50 %.",
+          "thumbnail": "heroes/Kasel/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht bei einem Treffer den erlittenen physischen Schaden des Ziels für 5 Sek. um 24 %.",
+          "thumbnail": "heroes/Kasel/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Verringert den erhaltenen Schaden im [Göttlicher Wille] Zustand um 140 %.",
+          "thumbnail": "heroes/Kasel/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Der Schaden gegen Gegner, die keine Helden sind, steigt während der Dauer um 34 %.",
+          "thumbnail": "heroes/Kasel/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Die ANG-Erhöhung steigt um 50 %.",
+          "thumbnail": "heroes/Kasel/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Stellt beim Ausweichen alle 3 Sek. 6 % der max. LP wieder her.",
+          "thumbnail": "heroes/Kasel/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Körp. Ausweichen +100",
+        "thumbnail": "heroes/Kasel/perks/light.png"
+      },
+      "dark": {
+        "effect": "Verursacht beim ANG zus. Körp. Schaden in Höhe von 60 % des eigenen ANG. Dieser Effekt beträgt bei Ziele, die keine Helden sind, 120 %, und hat einen 0.5 Sek. Cooldown.",
+        "thumbnail": "heroes/Kasel/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Das Heilige Schwert Aea",
+    "description": "35 % Chance, mit jedem ANG Körp. Schaden in Höhe von {0} % des ANG zuzufügen. Dieser Effekt hat einen 0.5 Sek. Cooldown.",
+    "thumbnail": "heroes/Kasel/uw.png",
+    "story": "Ein legendäres Heiliges Schwert, das Lua der Welt vermachte. Dieses legendäre Artefakt wurde vor 100 Jahren materialisiert, als die Dämonen durch das Dimensionstor in den Orbis-Kontinent einmarschierten. Der Legende nach verwendete der Held König Kyle dieses Schwert, um das Herz des Dunklen Lords Angmund zu durchbohren und so den Krieg zu beenden. Doch die zwei verschwanden daraufhin und nur Aea blieb zurück.",
+    "value": {
+      "0": {
+        "0": "160",
+        "1": "192",
+        "2": "230",
+        "3": "276",
+        "4": "331",
+        "5": "400"
+      }
+    },
+    "descriptionByStar": {
+      "0": "35 % Chance, mit jedem ANG Körp. Schaden in Höhe von 160 % des ANG zuzufügen. Dieser Effekt hat einen 0.5 Sek. Cooldown.",
+      "1": "35 % Chance, mit jedem ANG Körp. Schaden in Höhe von 192 % des ANG zuzufügen. Dieser Effekt hat einen 0.5 Sek. Cooldown.",
+      "2": "35 % Chance, mit jedem ANG Körp. Schaden in Höhe von 230 % des ANG zuzufügen. Dieser Effekt hat einen 0.5 Sek. Cooldown.",
+      "3": "35 % Chance, mit jedem ANG Körp. Schaden in Höhe von 276 % des ANG zuzufügen. Dieser Effekt hat einen 0.5 Sek. Cooldown.",
+      "4": "35 % Chance, mit jedem ANG Körp. Schaden in Höhe von 331 % des ANG zuzufügen. Dieser Effekt hat einen 0.5 Sek. Cooldown.",
+      "5": "35 % Chance, mit jedem ANG Körp. Schaden in Höhe von 400 % des ANG zuzufügen. Dieser Effekt hat einen 0.5 Sek. Cooldown."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Krone des Lichts",
+      "description": "[Urteilsklinge] verringert den Cooldown um 30 % und erhöht den Schaden pro Einsatz um {0} %. Dieser Effekt kann bis zu 5-mal gestapelt und kann nicht entfernt werden.",
+      "thumbnail": "heroes/Kasel/ut/1.png",
+      "story": "Die Krone von Kyle, dem König von Orvelia und dem Helden des Heiligen Schwertes.\nKönig Kyle trug sie vor 100 Jahren während seines Feldzugs gegen den Dunklen Lord Angmund. In dieser Krone steckt der Wille der Göttin des Lichts. Nachdem Angmund besiegt worden war, blieb die Krone des Lichts gemeinsam mit dem Heiligen Schwert Aea an dem Ort zurück, von dem der König verschwand.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "16",
+          "4": "18",
+          "5": "20"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Urteilsklinge] verringert den Cooldown um 30 % und erhöht den Schaden pro Einsatz um 10 %. Dieser Effekt kann bis zu 5-mal gestapelt und kann nicht entfernt werden.",
+        "1": "[Urteilsklinge] verringert den Cooldown um 30 % und erhöht den Schaden pro Einsatz um 12 %. Dieser Effekt kann bis zu 5-mal gestapelt und kann nicht entfernt werden.",
+        "2": "[Urteilsklinge] verringert den Cooldown um 30 % und erhöht den Schaden pro Einsatz um 14 %. Dieser Effekt kann bis zu 5-mal gestapelt und kann nicht entfernt werden.",
+        "3": "[Urteilsklinge] verringert den Cooldown um 30 % und erhöht den Schaden pro Einsatz um 16 %. Dieser Effekt kann bis zu 5-mal gestapelt und kann nicht entfernt werden.",
+        "4": "[Urteilsklinge] verringert den Cooldown um 30 % und erhöht den Schaden pro Einsatz um 18 %. Dieser Effekt kann bis zu 5-mal gestapelt und kann nicht entfernt werden.",
+        "5": "[Urteilsklinge] verringert den Cooldown um 30 % und erhöht den Schaden pro Einsatz um 20 %. Dieser Effekt kann bis zu 5-mal gestapelt und kann nicht entfernt werden."
+      }
+    },
+    "2": {
+      "name": "Kaiserlicher Kampfhandschuh",
+      "description": "[Tapferer Ansturm] Betäubt das Ziel für 1.5 Sek. und senkt die Abklingzeit bei einem kritischen Treffer um {0} %.",
+      "thumbnail": "heroes/Kasel/ut/2.png",
+      "story": "Kampfhandschuh, der vom Segen Luas durchwirkt ist, der Göttin des Lichts.\nKampfhandschuh, der unter den Königen des Orbis-Kontinents weitergegeben wurde. Enthält die Ermutigung der Göttin, durch die man furchtlos den „Tollkühnen Vorstoß“ auf den Feind einsetzen kann.",
+      "value": {
+        "0": {
+          "0": "5",
+          "1": "6",
+          "2": "7",
+          "3": "8",
+          "4": "9",
+          "5": "10"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Tapferer Ansturm] Betäubt das Ziel für 1.5 Sek. und senkt die Abklingzeit bei einem kritischen Treffer um 5 %.",
+        "1": "[Tapferer Ansturm] Betäubt das Ziel für 1.5 Sek. und senkt die Abklingzeit bei einem kritischen Treffer um 6 %.",
+        "2": "[Tapferer Ansturm] Betäubt das Ziel für 1.5 Sek. und senkt die Abklingzeit bei einem kritischen Treffer um 7 %.",
+        "3": "[Tapferer Ansturm] Betäubt das Ziel für 1.5 Sek. und senkt die Abklingzeit bei einem kritischen Treffer um 8 %.",
+        "4": "[Tapferer Ansturm] Betäubt das Ziel für 1.5 Sek. und senkt die Abklingzeit bei einem kritischen Treffer um 9 %.",
+        "5": "[Tapferer Ansturm] Betäubt das Ziel für 1.5 Sek. und senkt die Abklingzeit bei einem kritischen Treffer um 10 %."
+      }
+    },
+    "3": {
+      "name": "Rune des Willens",
+      "description": "[Göttlicher Wille] erhöht Ausweichchance um zus. 400 und ANG-GESCHW. um {0} während der Wirkungsdauer.",
+      "thumbnail": "heroes/Kasel/ut/3.png",
+      "story": "Eine Rune, die den Träger als Agenten von Lua ausweist, der Göttin des Lichts. Die Rune des Willens ist ein Relikt der Kirche von Lua und wird dem Ritter verliehen, welcher Aea trägt, das Schwert des Lichts. Die Rune des Willens stößt Feinde mit der Kraft des Lichts von sich und erhöht ANG und Moral.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "28",
+          "3": "32",
+          "4": "36",
+          "5": "40"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Göttlicher Wille] erhöht Ausweichchance um zus. 400 und ANG-GESCHW. um 20 während der Wirkungsdauer.",
+        "1": "[Göttlicher Wille] erhöht Ausweichchance um zus. 400 und ANG-GESCHW. um 24 während der Wirkungsdauer.",
+        "2": "[Göttlicher Wille] erhöht Ausweichchance um zus. 400 und ANG-GESCHW. um 28 während der Wirkungsdauer.",
+        "3": "[Göttlicher Wille] erhöht Ausweichchance um zus. 400 und ANG-GESCHW. um 32 während der Wirkungsdauer.",
+        "4": "[Göttlicher Wille] erhöht Ausweichchance um zus. 400 und ANG-GESCHW. um 36 während der Wirkungsdauer.",
+        "5": "[Göttlicher Wille] erhöht Ausweichchance um zus. 400 und ANG-GESCHW. um 40 während der Wirkungsdauer."
+      }
+    },
+    "4": {
+      "name": "Luas Träne",
+      "description": "[Stoß der Göttin] VERT-Erhöhungsrate wird um 360 % erhöht und dem Bossmonster zugefügter Schaden wird um {0} % erhöht.",
+      "thumbnail": "heroes/Kasel/ut/4.png",
+      "story": "Ein himmelblaues Juwel, das das Heilige Schwert Aea ziert.\nEs handelt sich um eine Verdichtung des Geistes, die durch die Tränen Luas gebunden wurde. Das Juwel besitzt die mysteriöse Macht, dem Wächter des Heiligen Schwertes den Weg des Lichts zu zeigen.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "16",
+          "4": "18",
+          "5": "20"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Stoß der Göttin] VERT-Erhöhungsrate wird um 360 % erhöht und dem Bossmonster zugefügter Schaden wird um 10 % erhöht.",
+        "1": "[Stoß der Göttin] VERT-Erhöhungsrate wird um 360 % erhöht und dem Bossmonster zugefügter Schaden wird um 12 % erhöht.",
+        "2": "[Stoß der Göttin] VERT-Erhöhungsrate wird um 360 % erhöht und dem Bossmonster zugefügter Schaden wird um 14 % erhöht.",
+        "3": "[Stoß der Göttin] VERT-Erhöhungsrate wird um 360 % erhöht und dem Bossmonster zugefügter Schaden wird um 16 % erhöht.",
+        "4": "[Stoß der Göttin] VERT-Erhöhungsrate wird um 360 % erhöht und dem Bossmonster zugefügter Schaden wird um 18 % erhöht.",
+        "5": "[Stoß der Göttin] VERT-Erhöhungsrate wird um 360 % erhöht und dem Bossmonster zugefügter Schaden wird um 20 % erhöht."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für [64ff64]16[-] Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele des Heiligen Schwertes Aea für 10 Sek., wodurch der eigene ANG um 40 % und die physische VTD um 50 % steigen. Die Seele folgt Kasel, stellt Verbündeten in der Nähe für 1 Sek. LP in Höhe von 5 % ihrer max. LP wieder her und fügt Gegnern in der Nähe für 1 Sek. 150% of ATK physischen Schaden zu.",
+    "cooldown": "24",
+    "uses": "5",
+    "thumbnail": "heroes/Kasel/sw.png",
+    "advancement": {
+      "1": "Erhöht die Dauer um 15 Sek.",
+      "2": "Erhöht den Schaden gegenüber Gegner in Reichweite um 100 % und entfernt die positiven Effekte des Ziels."
+    },
+    "story": "Das Heilige Schwert Aea ist der Wille des Schutzes von Lua und der Kristall der Liebe zur Welt. Aber derjenige mit dem Schwert erreichte ein Licht, obwohl er von Dunkelheit verdorben worden war und alle schrecklichen Wahrheiten kannte, und ihre Liebe erschien als ein strahlendes Licht, welches nur für ihn ein Licht war.\n‘Ich bin geschaffen, um diese Welt zu beschützen. Aber derjenige, der edel und richtig ist, der Krieger mit einem edlen Verstand ... Ich respektiere dich. Ich werde mit dir sein wie dein Schwert.‘\nSie lächelte strahlend und segnete ihn. Solange Kasel jeden beschützen wird, nicht wegen seiner Mission von Lua, sondern aus seinem eigenen Willen, wird das Licht für ihn scheinen."
+  },
+  "splashart": "heroes/Kasel/sa.png",
+  "costumes": "heroes/Kasel/cos",
+  "_localization": {
+    "locale": "de",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

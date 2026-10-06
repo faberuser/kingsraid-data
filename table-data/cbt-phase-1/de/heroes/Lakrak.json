@@ -1,0 +1,284 @@
+{
+  "id": "Lakrak",
+  "profile": {
+    "name": "Lakrak",
+    "title": "Handkanonenjäger Lakrak",
+    "class": "Mechanic",
+    "position": "Middle-400",
+    "attack_range": "700",
+    "damage_type": "Physical",
+    "gender": "Männlich",
+    "age": "19",
+    "height": "120",
+    "race": "Goblins",
+    "constellation": "Graham, der Dieb",
+    "birth": {
+      "month": 5,
+      "day": 12,
+      "monthName": "Monat der Hoffnung"
+    },
+    "like": "Schießpulver; Gewehre; Kanonen",
+    "dislike": "Alberne Goblins",
+    "story": "Dieser verschrobene Albino-Goblin hat an nichts mehr Spaß, als an der Entwicklung mächtiger Waffen. Weil er von anderen Goblins aufgrund seiner Hautfarbe belästigt und ausgegrenzt wurde, hat er keinerlei Mitgefühl mit seiner eigenen Rasse. Bereitwillig erschießt, zerschmettert oder sprengt er andere Goblins, um seine Waffen zu testen. Doch er zeigt jenen, die ihm helfen, seine Dankbarkeit. So wurde er auch zu Rois Freund. Unglücklicherweise ist er sehr schlecht darin, sich Gesichter zu merken, weshalb er öfter versucht, Roi zu erschießen, ehe er sich daran erinnert, wer er eigentlich ist.",
+    "thumbnail": "heroes/Lakrak/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Schnellfeuer",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Fügt Gegnern in einer geraden Linie vor dem Wirker 739*(0.7+(0.3*Skill Level*Awakening Coefficient))+355.4% ATK Körp. Schaden zu und betäubt sie für 1 Sek. Gegner, die keine Helden sind, erleiden 339*(0.7+(0.3*Skill Level*Awakening Coefficient))+185.4% ATK zusätzlichen Körp. Schaden. [Experiment erfolgreich!]: Diese Fertigkeit löst keine Abklingzeit aus. Erweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Lakrak/skills/1.png"
+    },
+    "2": {
+      "name": "Rauchbombe",
+      "cost": "2",
+      "cooldown": "14",
+      "description": "Fügt dem Ziel und Gegnern in der Nähe 443*(0.7+(0.3*Skill Level*Awakening Coefficient))+213.5% ATK Körp. Schaden zu, wendet für 7 Sek. [Explosiver Stoff] an und erhöht ihren erlittenen Körp. Schaden um 20%. Blendet sie für 1 Sek. [Experiment erfolgreich!]: Entfernt positive Effekte von Gegnern im Bereich. Erweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Lakrak/skills/2.png"
+    },
+    "3": {
+      "name": "Leim-Bombe",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Befestigt eine Haftbombe an einem zufälligen Gegner. Nach 3 Sek. explodiert sie, fügt dem Ziel und Gegnern in der Nähe 1500*(0.7+(0.3*Skill Level*Awakening Coefficient))+755.2% ATK Körp. Schaden zu und betäubt sie für 1 Sek. Gegner unter [Explosiver Stoff] erleiden 1001*(0.7+(0.3*Skill Level*Awakening Coefficient))+477.5% ATK zusätzlichen Körp. Schaden. [Experiment erfolgreich!]: Die Bombe explodiert sofort beim Befestigen. Erweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Lakrak/skills/3.png"
+    },
+    "4": {
+      "name": "Kanone laden",
+      "cost": null,
+      "cooldown": null,
+      "description": "Normale Angriffe haben eine Chance von 15%, eine Granate abzufeuern, die dem Ziel und Gegnern in der Nähe 345*(0.7+(0.3*Skill Level*Awakening Coefficient))+166.3% ATK Körp. Schaden zufügt und sie für 1 Sek. betäubt. Nach einer Fertigkeit wird ein [Experiment] mit 50% Erfolgschance versucht, das die nächste Fertigkeit verstärkt. Verstärkte Fertigkeiten versuchen kein [Experiment]. Erweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Lakrak/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Fügt Feinden Schaden zu und betäubt sie für 1 Sek."
+    },
+    "3": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Der Schaden steigt um 50 %.",
+          "thumbnail": "heroes/Lakrak/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Verringert die MP des getroffenen Gegners um 700.",
+          "thumbnail": "heroes/Lakrak/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1000.",
+          "thumbnail": "heroes/Lakrak/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht Blendungsdauer um 1 Sek.",
+          "thumbnail": "heroes/Lakrak/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Die MP-Kosten steigen um 2000, und die Anzahl der platzierten Bomben wird auf 2 geändert.",
+          "thumbnail": "heroes/Lakrak/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Das Ziel wird auf den Gegner mit dem höchsten ANG geändert.",
+          "thumbnail": "heroes/Lakrak/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht die Aktivierungswahrscheinlichkeit der Granate um 25% und die Betäubungsdauer um 0.5 Sek.",
+          "thumbnail": "heroes/Lakrak/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Beim erfolgreichen Experimentieren werden 500 MP regeneriert.",
+          "thumbnail": "heroes/Lakrak/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Schaden +20 %",
+        "thumbnail": "heroes/Lakrak/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht bei einem erfolgreichen Experiment 10 Sek. lang die eigene ANG-GESCHW um 12 und Massenkontroll-PRÄZision um 150.",
+        "thumbnail": "heroes/Lakrak/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Lakrak MK-1",
+    "description": "Erhöht die Erfolgschance beim Experimentieren um {0} %. Der Erfolg des Experiments erhöht den ANG um {1} %, die ANG-GESCHW um {2} und den Schaden für Feinde, die keine Helden sind, um {3} %. Dieser Effekt kann bis zu 3 Mal gestapelt werden und kann nicht entfernt werden.",
+    "thumbnail": "heroes/Lakrak/uw.png",
+    "story": "Das zerstörerische und doch künstlerische Opus Magnum eines schrulligen Goblin-Erfinders. Diese Einhandkanone verfügt über die maximale Feuerkraft, die ein Goblin körperlich handzuhaben vermag. Trotz der gefährlich großen Menge des verwendeten Schießpulvers ist diese Waffe glücklicherweise bislang nicht explodiert.",
+    "value": {
+      "0": {
+        "0": "25",
+        "1": "30",
+        "2": "35",
+        "3": "40",
+        "4": "45",
+        "5": "50"
+      },
+      "1": {
+        "0": "6",
+        "1": "7.2",
+        "2": "8.4",
+        "3": "9.6",
+        "4": "10.8",
+        "5": "12"
+      },
+      "2": {
+        "0": "6",
+        "1": "7.2",
+        "2": "8.4",
+        "3": "9.6",
+        "4": "10.8",
+        "5": "12"
+      },
+      "3": {
+        "0": "6",
+        "1": "7.2",
+        "2": "8.4",
+        "3": "9.6",
+        "4": "10.8",
+        "5": "12"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Erhöht die Erfolgschance beim Experimentieren um 25 %. Der Erfolg des Experiments erhöht den ANG um 6 %, die ANG-GESCHW um 6 und den Schaden für Feinde, die keine Helden sind, um 6 %. Dieser Effekt kann bis zu 3 Mal gestapelt werden und kann nicht entfernt werden.",
+      "1": "Erhöht die Erfolgschance beim Experimentieren um 30 %. Der Erfolg des Experiments erhöht den ANG um 7.2 %, die ANG-GESCHW um 7.2 und den Schaden für Feinde, die keine Helden sind, um 7.2 %. Dieser Effekt kann bis zu 3 Mal gestapelt werden und kann nicht entfernt werden.",
+      "2": "Erhöht die Erfolgschance beim Experimentieren um 35 %. Der Erfolg des Experiments erhöht den ANG um 8.4 %, die ANG-GESCHW um 8.4 und den Schaden für Feinde, die keine Helden sind, um 8.4 %. Dieser Effekt kann bis zu 3 Mal gestapelt werden und kann nicht entfernt werden.",
+      "3": "Erhöht die Erfolgschance beim Experimentieren um 40 %. Der Erfolg des Experiments erhöht den ANG um 9.6 %, die ANG-GESCHW um 9.6 und den Schaden für Feinde, die keine Helden sind, um 9.6 %. Dieser Effekt kann bis zu 3 Mal gestapelt werden und kann nicht entfernt werden.",
+      "4": "Erhöht die Erfolgschance beim Experimentieren um 45 %. Der Erfolg des Experiments erhöht den ANG um 10.8 %, die ANG-GESCHW um 10.8 und den Schaden für Feinde, die keine Helden sind, um 10.8 %. Dieser Effekt kann bis zu 3 Mal gestapelt werden und kann nicht entfernt werden.",
+      "5": "Erhöht die Erfolgschance beim Experimentieren um 50 %. Der Erfolg des Experiments erhöht den ANG um 12 %, die ANG-GESCHW um 12 und den Schaden für Feinde, die keine Helden sind, um 12 %. Dieser Effekt kann bis zu 3 Mal gestapelt werden und kann nicht entfernt werden."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Rückstoßkugel",
+      "description": "[Schnellfeuer] erhöht den Schaden um 50 % und regeneriert pro Treffer {0} MP.",
+      "thumbnail": "heroes/Lakrak/ut/1.png",
+      "story": "Eine Kugel zur Selbstverteidigung mit wenig Zerstörungskraft.\nDiese Kugel basiert auf Lakraks Wissen über Sprengstoffingenieurskunst. Sie wird verwendet, um Ziele beim Einsatz von Schnellfeuer zurückzustoßen. Um unnötige Todesopfer zu vermeiden, achtet er stets darauf, seine Sprengstoffe richtig zu beschriften.",
+      "value": {
+        "0": {
+          "0": "250",
+          "1": "300",
+          "2": "350",
+          "3": "400",
+          "4": "450",
+          "5": "580"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Schnellfeuer] erhöht den Schaden um 50 % und regeneriert pro Treffer 250 MP.",
+        "1": "[Schnellfeuer] erhöht den Schaden um 50 % und regeneriert pro Treffer 300 MP.",
+        "2": "[Schnellfeuer] erhöht den Schaden um 50 % und regeneriert pro Treffer 350 MP.",
+        "3": "[Schnellfeuer] erhöht den Schaden um 50 % und regeneriert pro Treffer 400 MP.",
+        "4": "[Schnellfeuer] erhöht den Schaden um 50 % und regeneriert pro Treffer 450 MP.",
+        "5": "[Schnellfeuer] erhöht den Schaden um 50 % und regeneriert pro Treffer 580 MP."
+      }
+    },
+    "2": {
+      "name": "Spezialgasmaske",
+      "description": "[Rauchbombe] verringert den Cooldown um 30 % und erhöht die Blendungsdauer um {0} Sek.",
+      "thumbnail": "heroes/Lakrak/ut/2.png",
+      "story": "Eine Hochleistungsmaske, die aus speziellen Materialien geschaffen wurde, die Lakrak aus dem ganzen Orbis-Kontinent zusammensammelte. \nDiese Maske ist aus der ersten Feder einer Harpyie, einer Drachenschuppe, einem Blatt des Weltenbaums und dem Mithril des Kaiserreiches hergestellt – alles schwer zu findende Materialien. \nDie Maske schützt vor giftigem Gas und dem Blindheitseffekt von Rauchbomben.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Rauchbombe] verringert den Cooldown um 30 % und erhöht die Blendungsdauer um 1 Sek.",
+        "1": "[Rauchbombe] verringert den Cooldown um 30 % und erhöht die Blendungsdauer um 1,2 Sek.",
+        "2": "[Rauchbombe] verringert den Cooldown um 30 % und erhöht die Blendungsdauer um 1,4 Sek.",
+        "3": "[Rauchbombe] verringert den Cooldown um 30 % und erhöht die Blendungsdauer um 1,7 Sek.",
+        "4": "[Rauchbombe] verringert den Cooldown um 30 % und erhöht die Blendungsdauer um 2,1 Sek.",
+        "5": "[Rauchbombe] verringert den Cooldown um 30 % und erhöht die Blendungsdauer um 2,5 Sek."
+      }
+    },
+    "3": {
+      "name": "Speziell verdichteter Goblin-Sprengstoff",
+      "description": "[Leim-Bombe] erhöht den Schaden um 50 % und verringert die Regenerationsrate des getroffenen Gegners 7 Sek. lang um {0} %.",
+      "thumbnail": "heroes/Lakrak/ut/3.png",
+      "story": "Schießpulver, das mittels Lakraks gefährlichen Geheimrezept hergestellt wurde. \nLakrak glaubte, dass einfache Explosionen für Kampfstrategien nicht effektiv genug seien, also fügte er etwas Ameisensäure und Brennnesselgift hinzu, um einen Betäubungseffekt zu erzielen. \nEs benötigt einen extrem genauen Filterprozess und er benutzt es im Geheimen, um einem Missbrauch vorzubeugen.",
+      "value": {
+        "0": {
+          "0": "15",
+          "1": "18",
+          "2": "21",
+          "3": "24",
+          "4": "27",
+          "5": "30"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Leim-Bombe] erhöht den Schaden um 50 % und verringert die Regenerationsrate des getroffenen Gegners 7 Sek. lang um 15 %.",
+        "1": "[Leim-Bombe] erhöht den Schaden um 50 % und verringert die Regenerationsrate des getroffenen Gegners 7 Sek. lang um 18 %.",
+        "2": "[Leim-Bombe] erhöht den Schaden um 50 % und verringert die Regenerationsrate des getroffenen Gegners 7 Sek. lang um 21 %.",
+        "3": "[Leim-Bombe] erhöht den Schaden um 50 % und verringert die Regenerationsrate des getroffenen Gegners 7 Sek. lang um 24 %.",
+        "4": "[Leim-Bombe] erhöht den Schaden um 50 % und verringert die Regenerationsrate des getroffenen Gegners 7 Sek. lang um 27 %.",
+        "5": "[Leim-Bombe] erhöht den Schaden um 50 % und verringert die Regenerationsrate des getroffenen Gegners 7 Sek. lang um 30 %."
+      }
+    },
+    "4": {
+      "name": "Kabumm-Kanonenkugel",
+      "description": "[Kanone laden] verringert das Mana getroffener Feinde um {0}. Der erste Treffer in einem Kampf aktiviert [Kanone laden] ohne Fehlschlag.",
+      "thumbnail": "heroes/Lakrak/ut/4.png",
+      "story": "Eine Kanonenkugel, die Lakrak zusammen mit den Miruru-Piraten angefertigt hat.\nNach vielen anfänglichen Schwierigkeiten haben die Miruru-Piraten und Lakrak endlich begonnen, gemeinsam an dieser Waffe zu arbeiten.\nDas spezielle Schießpulver der Miruru-Piraten hat die zerstörerische Kraft von Lakraks Kanonenkugel beträchtlich gesteigert.",
+      "value": {
+        "0": {
+          "0": "400",
+          "1": "480",
+          "2": "580",
+          "3": "700",
+          "4": "840",
+          "5": "1000"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Kanone laden] verringert das Mana getroffener Feinde um 400. Der erste Treffer in einem Kampf aktiviert [Kanone laden] ohne Fehlschlag.",
+        "1": "[Kanone laden] verringert das Mana getroffener Feinde um 480. Der erste Treffer in einem Kampf aktiviert [Kanone laden] ohne Fehlschlag.",
+        "2": "[Kanone laden] verringert das Mana getroffener Feinde um 580. Der erste Treffer in einem Kampf aktiviert [Kanone laden] ohne Fehlschlag.",
+        "3": "[Kanone laden] verringert das Mana getroffener Feinde um 700. Der erste Treffer in einem Kampf aktiviert [Kanone laden] ohne Fehlschlag.",
+        "4": "[Kanone laden] verringert das Mana getroffener Feinde um 840. Der erste Treffer in einem Kampf aktiviert [Kanone laden] ohne Fehlschlag.",
+        "5": "[Kanone laden] verringert das Mana getroffener Feinde um 1000. Der erste Treffer in einem Kampf aktiviert [Kanone laden] ohne Fehlschlag."
+      }
+    }
+  },
+  "splashart": "heroes/Lakrak/sa.png",
+  "costumes": "heroes/Lakrak/cos",
+  "_localization": {
+    "locale": "de",
+    "version": "cbt-phase-1",
+    "englishFallbackFields": []
+  }
+}

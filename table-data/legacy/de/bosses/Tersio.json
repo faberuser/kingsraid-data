@@ -1,0 +1,73 @@
+{
+  "id": "Tersio",
+  "profile": {
+    "name": "Tersio",
+    "title": "Drache des Wahnsinns",
+    "type": [
+      "Divine Punishment Raid"
+    ],
+    "race": "Drache",
+    "damage_type": "Magical",
+    "recommended_heroes": "Yanne, Laias, Isaiah",
+    "characteristics": "Im [Todesdrachen]-Zustand erhöht Tersio seinen dem Feind zugefügten Schaden und die Krit. Chance, daher ist es notwendig, diesen Zustand zu entfernen. Der Skill [Kreuzung tödlicher Wege] fügt kontinuierlich mächtigen Mag. Schaden zu und erhöht den vom Ziel erhaltenen Mag. Schaden, wobei er nicht entfernt werden kann, wenn er auf das Max. gestapet wurde, daher muss er regelmäßig entfernt werden. Wenn Tersio eine bestimmte Schadensmenge erhält, aktiviert er außerdem [Macht des Hasses] und fliegt kurz darauf los, um alle Feinde zu vernichten. Verwende also Massenkontroll-Skills, um die [Macht des Hasses] zu entfernen und Tersios Skills zu blockieren.",
+    "thumbnail": "bosses/Tersio.png",
+    "recommendedHeroNames": [
+      "Yanne",
+      "Laias",
+      "Isaiah"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Atem des Todesdrachen",
+      "cost": null,
+      "cooldown": "28",
+      "description": "Fügt allen Gegnern Mag. Schaden zu und betäubt sie, sodass danach kontinuierlich [Flammen des Todesdrachen] auf dem Boden zurückbleiben. die 5 Sek. lang anhalten. [Flammen des Todesdrachen] zerstören den Schild und fügen bei jedem Treffer Block-ignorierenden Mag. Schaden zu."
+    },
+    "2": {
+      "name": "Absolute Vernichtung",
+      "cost": null,
+      "cooldown": "28",
+      "description": "Nachdem er für eine Weile seine Macht fokussiert hat, feuert er 3 Sek. lang einen Lichtstrahl auf Frontgegner in einer gerade Linie ab und verursacht Mag. Schaden. Dieser Skill verringert mit jedem Treffer die MP um 250 und stößt die Feinde zurück. Je weiter die Ziele entfernt sind, desto mehr Schaden erhalten sie."
+    },
+    "3": {
+      "name": "Kreuzung tödlicher Wege",
+      "cost": null,
+      "cooldown": "32",
+      "description": "Tersio beschwört 8 Sek. lang die Rachsüchtigen Drachengeister durch das Höllentor. Diese Geister greifen Gegner an und fügen ihnen Mag. Schaden zu. Erhöht den erhaltenen Mag. Schaden von getroffenen Zielen um 5 %. Der Mag. Schaden-Boost kann bis zu 15-mal gestapelt werden und kann bei max. Stapelung nicht mehr entfernt werden."
+    },
+    "4": {
+      "name": "Inkarnation der Hölle",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erreichen Tersios TP 33 %, wird [Macht des Hasses] aktiviert und er fokussiert 8 Sek. lang seine ganze Macht, um sich auf den Flug vorzubereiten. Wird [Macht des Hasses] nicht entfernt bevor die Fokussierung endet, fliegt Tersio los, um alle Gegner anzugreifen und sie zu vernichten. [Macht des Hasses] kann durch Massenkontroll-Skills entfernt werden."
+    },
+    "5": {
+      "name": "Verlorener Verstand",
+      "cost": null,
+      "cooldown": null,
+      "description": "Zu Beginn des ersten Kampfes und alle 15 Sek. wechselt Tersio in den [Todesdrachen]-Zustand, der die Macht des Todes entfesselt. Im [Todesdrachen]-Zustand wird die Krit. Chance um ??? und der Schaden an Feinde um 50 % erhöht."
+    },
+    "6": {
+      "name": "Perfekter Körper",
+      "cost": null,
+      "cooldown": null,
+      "description": "Tersio wird von ANG-GESCHW.-, VERT- und ANG-Effekten nicht beeinflusst. Erhöht alle Krit. Widerstände um 1000 und seine Angriffe treffen immer."
+    },
+    "7": {
+      "name": "Erstgeborener",
+      "cost": null,
+      "cooldown": null,
+      "description": "Tersios Normal-ANG verursachen bei Feinden in Reichweite des Ziels Mag. Schaden. Verringert den Schaden, den getroffene Ziele dem Gegner zufügen, um 4 %. Dieser Effekt kann bis zu 20-mal gestapelt werden und kann nicht entfernt werden."
+    },
+    "8": {
+      "name": "Richtung Hölle",
+      "cost": null,
+      "cooldown": null,
+      "description": "Verursacht alle 15 Sek. Mag. Schaden bei 1 Gegner(n) mit der höchsten Mag. VERT und entfernt ihn/sie 8 Sek. lang aus dem Kampf, wobei er/sie mit einem [Höllenfluch] verseht wird/werden. [Höllenfluch] kann bis zu 10-mal gestapelt werden und kann nicht entfernt werden, wobei pro Stapel die MP-Regeneration um 100 und die ANG-GESCHW. um 100 verringert werden."
+    }
+  },
+  "aliases": [
+    "baby dragon"
+  ]
+}

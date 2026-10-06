@@ -1,0 +1,271 @@
+{
+  "id": "Ripine",
+  "profile": {
+    "name": "Ripine",
+    "title": "Ripine, Épéiste de la Lune argentée",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "8900",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "???",
+    "height": "163",
+    "race": "Elfe-sombre",
+    "constellation": "Layan la Justiciére",
+    "birth": {
+      "month": 9,
+      "day": 30,
+      "monthName": "Mois de la Vérité"
+    },
+    "like": "Son grand frère, les compagnons de Perce Nuit, les livres, et écrire",
+    "dislike": "Les humains (surtout ceux qui sont haut placés), les Démons",
+    "story": "Elfe-Sombre qui ressemble à ceux de ce monde, mais qui en réalité provient d'Orvel d'une autre dimension. Comme les Elfes-Sombres sont persécutés dans le monde d'origine de Ripine et de Riheet, les deux frère et sœur ne peuvent qu'être abasourdis en arrivant à Orvel, où la discrimination est bien moindre. Voyant les différents peuples cohabiter en s'entraidant, Ripine se met à rêver du monde idéal que pourrait devenir le sien, s'il devenait aussi tolérant que celui-ci... Mais puisqu'il lui reste des tâches à accomplir, elle souhaite retourner d'où elle vient.",
+    "thumbnail": "heroes/Ripine/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Vent de la Lune argentée",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Attaque la cible ennemie à 4 reprises, infligeant un total de ??? DEG M. Ensuite, lance une attaque supplémentaire, ce qui inflige ??? DEG M, et étourdit pendant 2 sec. À la dernière attaque, inflige ??? DEG M supplémentaires ignorant la DEF pour chaque [Malédiction d'un autre Monde] cumulée.",
+      "thumbnail": "heroes/Ripine/skills/1.png"
+    },
+    "2": {
+      "name": "Marque de la Lune argentée",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Dissipe l'effet de contrôle sur le lanceur et se déplace vers l'ennemi le plus éloigné pour apposer pendant 15 sec une [Marque de la Lune argentée] qui ne peut être dissipée. Inflige également ??? DEG M. Si un ennemi est à l'état de [Marque de la Lune noire], attaque cet ennemi et modifie la marque en [Marque de la pleine Lune]. Lorsque la cible se trouve à l'état de [Marque de la pleine Lune], [Exécution de la pleine Lune] devient disponible pendant 10 sec. Ripine attaque en priorité l'ennemi à l'état de [Marque de la Lune argentée] ou [Marque de la pleine Lune].",
+      "thumbnail": "heroes/Ripine/skills/2.png"
+    },
+    "3": {
+      "name": "Tourbillon d'Épée de la Lune argentée",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Attaque la cible ennemie à 5 reprises, infligeant un total de ??? DEG M. Ensuite, lance une attaque supplémentaire, ce qui inflige ??? DEG M. À la dernière attaque, inflige ??? DEG M supplémentaires ignorant la DEF pour chaque [Malédiction d'un autre Monde] cumulée.",
+      "thumbnail": "heroes/Ripine/skills/3.png"
+    },
+    "4 (1)": {
+      "name": "Mana d'un autre Monde",
+      "description": "Utilise le Mana d'un autre Monde pour augmenter les DEG infligés par le lanceur à l'ennemi de 35% et à chaque coup porté, cumule 1 [Malédiction d'un autre Monde] à la cible ennemie. [Malédiction d'un autre Monde] peut se cumuler jusqu'à 30 fois.",
+      "thumbnail": "heroes/Ripine/skills/4 (1).png",
+      "cost": null,
+      "cooldown": null
+    },
+    "4 (2)": {
+      "name": "Exécution de la pleine Lune",
+      "description": "Dissipe l'effet de contrôle sur le lanceur et attaque à 2 reprises l'ennemi à l'état de [Marque de la pleine Lune], infligeant ??? DEG M. Au dernier coup, fait exploser la [Marque de la pleine Lune], ce qui inflige ??? DEG M ignorant la DEF, et ??? DEG M supplémentaires ignorant la DEF si la cible n'est pas un Héros. Lors de l'explosion de la [Marque de la pleine Lune], inflige ??? DEG M supplémentaires ignorant la DEF pour chaque [Malédiction d'un autre Monde] cumulée. Utilise cette compétence avec [Riheet], et réinitialise le temps de recharge de [Marque de la Lune argentée] et [Marque de la Lune noire] de Riheet lorsqu'un ennemi est éliminé par cette compétence.",
+      "thumbnail": "heroes/Ripine/skills/4 (2).png",
+      "cost": null,
+      "cooldown": "1"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente les DEG infligés par le lanceur à l'ennemi de 5% supplémentaires.",
+      "III": "Augmente les DEG infligés par le lanceur à l'ennemi de 5% supplémentaires.",
+      "IV": "Augmente les DEG infligés par le lanceur à l'ennemi de 5% supplémentaires."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Réduit les PM de la cible de 2000 au dernier coup.",
+          "thumbnail": "heroes/Ripine/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit le temps de recharge de 3 sec.",
+          "thumbnail": "heroes/Ripine/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Modifie la cible pour l'ennemi à l'ATQ la plus élevée.",
+          "thumbnail": "heroes/Ripine/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG M reçus par la cible touchée de 30% pendant 10 sec.",
+          "thumbnail": "heroes/Ripine/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Étourdit la cible pendant 1 sec à chaque coup porté.",
+          "thumbnail": "heroes/Ripine/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG infligés de 40%.",
+          "thumbnail": "heroes/Ripine/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Réduit la Vitesse d'ATQ de la cible de 30 pendant 10 sec à chaque coup porté. Cet effet peut se cumuler jusqu'à 10 fois.",
+          "thumbnail": "heroes/Ripine/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Cumule 1 charges de [Malédiction d'un autre Monde] supplémentaires par coup porté lorsqu'il y a 1 ennemi.",
+          "thumbnail": "heroes/Ripine/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Crit +100",
+        "thumbnail": "heroes/Ripine/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente les DEG infligés au boss de 15% au début de chaque bataille. Cet effet peut se cumuler jusqu'à 5 fois.",
+        "thumbnail": "heroes/Ripine/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Clarapheon, l'Aile de la Lune argentée",
+    "description": "Augmente le Crit de {0}. Au début de chaque bataille, augmente les DEG infligés à l'ennemi de {1}% et au boss de {2}%, pendant 120 sec. Cet effet ne peut être dissipé.",
+    "value": {
+      "0": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      },
+      "1": {
+        "0": "6",
+        "1": "7",
+        "2": "8",
+        "3": "10",
+        "4": "12",
+        "5": "15"
+      },
+      "2": {
+        "0": "6",
+        "1": "7",
+        "2": "8",
+        "3": "10",
+        "4": "12",
+        "5": "15"
+      }
+    },
+    "thumbnail": "heroes/Ripine/uw.png",
+    "story": "L'épée-sœur de Noctipheus, l'Aile de la Lune noire. Elle serait l'une des épées jumelles maniées par le Héros qui aurait sauvé le royaume des Elfes-Sombres dans le lointain passé. Sa lame longiligne contient l'énergie de la lune argentée et elle est l'essence même de la magie de clair de lune, qui est spécifique des Elfes-Sombres, ce qui fait d'elle l'un des trésors les plus précieux du monde. Selon la légende, les épées du Héros sans nom feraient leur apparition lorsque le royaume des Elfes-Sombres se retrouverait de nouveau en péril, et ce serait la volonté de l'ancienne lignée royale qui déciderait à qui elles appartiendraient. Cependant, depuis que la guerre des démons a ravagé le monde 100 ans auparavant, la famille royale des Elfes-Sombres a connu le déclin, et personne ne s'attendait plus à ce qu'elles apparaissent. Mais un jour...",
+    "descriptionByStar": {
+      "0": "Augmente le Crit de 200. Au début de chaque bataille, augmente les DEG infligés à l'ennemi de 6% et au boss de 6%, pendant 120 sec. Cet effet ne peut être dissipé."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Rêve d'Écrivain délaissé",
+      "description": "[Vent de la Lune argentée] Augmente la durée d'étourdissement de 2 sec, et augmente les DEG M reçus par la cible de {0}% pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
+      "thumbnail": "heroes/Ripine/ut/1.png",
+      "story": "Ripine avait toujours aimé les livres depuis sa tendre enfance. Elle montrait également une certaine aptitude en tant qu'auteur, ce qui poussa Riheet à lui offrir un stylo à plume coûteux lorsqu'il gagna une somme d'argent importante. Il souhaitait sans doute qu'elle l'utilise si jamais elle prenait une autre voie que celle d'une épéiste... Mais elle ne renonça pas à sa vocation et se contenta d'écrire de temps en temps, lorsqu'elle en avait le loisir. Afin de transmettre par écrit ses expériences... pour apprendre aux autres ce qu'elle n'aurait su exprimer à vive voix.",
+      "descriptionByStar": {
+        "0": "[Vent de la Lune argentée] Augmente la durée d'étourdissement de 2 sec, et augmente les DEG M reçus par la cible de 12% pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Bonheur passé",
+      "description": "[Marque de la Lune argentée] Dissipe l'effet positif de la cible et réduit sa Résistance Crit M de {0} pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
+      "thumbnail": "heroes/Ripine/ut/2.png",
+      "story": "Les fleurs que les parents de Riheet et Ripine apprécieaient par le passé. Leur mère les adoraient particulièrement, alors lorsque les jacinthes étaient écloses, elles embaumaient toute la maisonnée de leur parfum. Après la mort de ses parents, Ripine achetait toujours un pot de ces fleurs le jour de leur décès, et le plaçait dans son logis. Il représentait sa ferme intention de ne jamais les oublier, ainsi que l'événement qui s'était produit le jour de leur disparition...",
+      "descriptionByStar": {
+        "0": "[Marque de la Lune argentée] Dissipe l'effet positif de la cible et réduit sa Résistance Crit M de 200 pendant 10 sec."
+      }
+    },
+    "3": {
+      "name": "Livre de Contes de Fée",
+      "description": "[Tourbillon d'Épée de la Lune argentée] Réduit le temps de recharge de 6 sec et augmente les DEG de {0}% lorsqu'il y a 1 ennemi.",
+      "value": {
+        "0": {
+          "0": "40",
+          "1": "48",
+          "2": "58",
+          "3": "70",
+          "4": "84",
+          "5": "100"
+        }
+      },
+      "thumbnail": "heroes/Ripine/ut/3.png",
+      "story": "Un livre de conte que Ripine appréciait quand elle était une enfant. Elle le perdit durant son enfance, où elle était une fugitive. Une fois devenue adulte, elle visitait de temps en temps une vieille librairie, lorsqu'elle y découvrit le même ouvrage que dans son enfance. Poussée par la nostalgie du passé, elle l'acheta sur le champ. Depuis, elle l'emporte toujours dans ses bagages, et le lit lorsque l'envie lui prend. Une fois, ses compagnons lui demandèrent la raison pour laquelle elle gardait sur elle un livre aussi usé. Pourquoi ne le jetait-elle pas ? Alors elle leur répondit qu'elle n'avait aucunement l'intention de s'en défaire...",
+      "descriptionByStar": {
+        "0": "[Tourbillon d'Épée de la Lune argentée] Réduit le temps de recharge de 6 sec et augmente les DEG de 40% lorsqu'il y a 1 ennemi."
+      }
+    },
+    "4": {
+      "name": "Plat nostalgique de Ripine",
+      "description": "[Mana d'un autre Monde] Augmente la Vitesse d'ATQ de 300, et cumule {0} charges de [Malédiction d'un autre Monde] à tous les ennemis au début de chaque bataille.",
+      "value": {
+        "0": {
+          "0": "8",
+          "1": "10",
+          "2": "12",
+          "3": "14",
+          "4": "17",
+          "5": "20"
+        }
+      },
+      "thumbnail": "heroes/Ripine/ut/4.png",
+      "story": "Depuis le décès de leurs parents pendant leur enfance, Riheet et Ripine vivaient comme des fugitifs. Comme ils n'avaient ni l'occasion ni le loisir d'avoir un repas correct, ils n'avaient d'autre choix que de se nourrir de pains ou de fruits volés. Mais un jour, un marchand sans préjugé leur donna de bon cœur des aliments pour la cuisine. Alors Riheet et Ripine préparèrent l'un pour l'autre des plats simples, et ce repas resta gravé dans leur souvenir. Le plat que Ripine cuisina fut du saumon rôti, assaisonné d'une sauce d'ail et de citron.",
+      "descriptionByStar": {
+        "0": "[Mana d'un autre Monde] Augmente la Vitesse d'ATQ de 300, et cumule 8 charges de [Malédiction d'un autre Monde] à tous les ennemis au début de chaque bataille."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 20 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme de Clarapheon, l'Aile de la Lune argentée, pendant 8 sec, ce qui augmente l'ATQ de 30% pendant la durée de l'âme. Génère également un bouclier absorbant ??? DEG et augmentant les DEG Crit de 50%, pendant 8 sec. Si [Riheet] est présent parmi les alliés, génère le même bouclier autour de [Riheet].",
+    "cooldown": "20",
+    "uses": "6",
+    "thumbnail": "heroes/Ripine/sw.png",
+    "advancement": {
+      "1": "Modifie la durée d'invocation de l'âme et celle du bouclier en 12 sec.",
+      "2": "Modifie l'augmentation d'ATQ en 50%, l'augmentation des DEG Crit en 100%, et le bouclier ne peut plus être dissipé."
+    },
+    "story": "D'après les mythes transmis parmi les Elfes-Sombres, Clarapheon, l'Aile de la Lune argentée, aurait cumulée l'énergie pure de la lune pendant des siècles durant. Cette épée forgée par un artisan sans nom désignerait le Héros salvateur en suivant la volonté de l'ancienne lignée des Elfes-Sombres, et disparaîtrait lorsque la menace aurait été écartée. L'éclat d'un blanc argenté dont brillerait l'arme serait en fait la matérialisation des sentiments d'amour et de grâce de la famille royale des Elfes-Sombres. Et l'épée serait si belle qu'elle pourrait sans mal ensorceler tous ceux qui se trouveraient devant elle.\n\nRipine ignorait la raison pour laquelle une épée aussi formidable l'avait choisie comme son porteur. Mais l'épée argentée avait réalisé le potentiel de l'âme de Ripine, ainsi de ce qu'elle pourrait devenir dans l'avenir. C'est pourquoi Clarapheon décida de demeurer aux côtés de Ripine, même après que la menace directe contre les Elfes-Sombres soit dissipée, et ce du moins jusqu'à ce qu'elle soit rentrée dans son monde d'origine. Afin de consoler son passé criblé de blessure, ainsi que son avenir semé d'embûche..."
+  },
+  "splashart": "heroes/Ripine/sa.png",
+  "costumes": "heroes/Ripine/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

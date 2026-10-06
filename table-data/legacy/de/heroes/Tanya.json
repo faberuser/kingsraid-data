@@ -1,0 +1,245 @@
+{
+  "id": "Tanya",
+  "profile": {
+    "name": "Tanya",
+    "title": "Klinge des Schweigens Tanya",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "3700",
+    "damage_type": "Physical",
+    "gender": "Weiblich",
+    "age": "HERO_AGE_TANYA",
+    "height": "169",
+    "race": "Halbelfen",
+    "constellation": "Mertis, die Wächterin",
+    "birth": {
+      "month": 1,
+      "day": 8,
+      "monthName": "Monat des Schutzes"
+    },
+    "like": "Roi",
+    "dislike": "Roi, die Lachende Maske, Halbelfenblut",
+    "story": "Eine Assassinin der Lachenden Masken und Kollegin von Roi. Obwohl sie als Halbelfin gegenüber Roi einen körperlichen Vorteil hat, fehlen ihr seine irdische Weisheit und seine Fähigkeit, sich mit anderen zu vernetzen – Fähigkeiten, die ihn für groß angelegte Unternehmungen unersetzbar gemacht hatten. Dadurch hat sie einen gewissen Minderwertigkeitskomplex. Als 'Säuberungskommando' der Organisation wurde sie damit betraut, Verräter zu eliminieren. Als Roi der Organisation den Rücken kehrte, ließ sie all ihre Aufgaben zurück, um ihm nachzustellen und seine Beweggründe herauszufinden. Es ist nicht bekannt, was sie vorhat, sobald sie ihn gefunden hat.",
+    "thumbnail": "heroes/Tanya/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Ziel gesichtet",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Geht hinter den Feind mit der niedrigsten Körp. VERT, erhöht 10 Sek. lang den erhaltenen Körp. Schaden um 30 %, fügt ihm ??? Körp. Schaden zu und wirft ihn für 2 Sek. zu Boden. In Schleichmodus wird der Krit. Schaden auf 150 % erhöht. Wenn nicht in Schleichmodus, aktiviere Schleichmodus für 10 Sek.",
+      "thumbnail": "heroes/Tanya/skills/1.png"
+    },
+    "2": {
+      "name": "Klingen-Tornado",
+      "cost": "2",
+      "cooldown": "14",
+      "description": "Greift Feinde in Reichw. 3 Mal an, wobei ihnen insgesamt ??? Körp. Schaden zugefügt und mit jedem Treffer jeweils 1x Blutung verursacht wird. In Schleichmodus reduziert jeder Angriff die Erholungsrate der Ziele um 70 %. Wenn nicht in Schleichmodus, aktiviere Schleichmodus für 10 Sek.",
+      "thumbnail": "heroes/Tanya/skills/2.png"
+    },
+    "3": {
+      "name": "Geflüster des Todes",
+      "cost": "3",
+      "cooldown": "18",
+      "description": "Greift 6 Feinde zufällig an und verursacht insg. ??? Körp. Schaden, gefolgt von einem letzten Angriff für ??? Körp. Schaden. In Schleichmodus entfernt dieser Angriff alle positiven Effekte der Ziele. Wenn nicht in Schleichmodus, aktiviere Schleichmodus für 10 Sek.",
+      "thumbnail": "heroes/Tanya/skills/3.png"
+    },
+    "4": {
+      "name": "Leiser Hinterhalt",
+      "cost": null,
+      "cooldown": null,
+      "description": "Wenn der Schleichmodus aktiv ist, erhöht sich die Krit. Chance um 300 und die Ausweichchance ebenfalls um 300. Verursacht zusätzlich ??? Körp. Schaden an Feinden und bringt sie bei einem Krit. Treffer mit dem Skill für 2 zum Schweigen. Verursacht zusätzlich ??? VERT-ignorierenden Körp. Schaden und die ANG-GESCHW. des Ziels für 10 Sek. um 200 verringert, wenn das Ziel kein Held ist.",
+      "thumbnail": "heroes/Tanya/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Verringert die Heilungsrate des Ziels um 30 %.",
+          "thumbnail": "heroes/Tanya/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Das Ziel wird zu einem Priester geändert und verringert die Körp. Krit. Widerstand des Ziels für 10 Sek. um 250.",
+          "thumbnail": "heroes/Tanya/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert die MP des Gegners pro Treffer um 300.",
+          "thumbnail": "heroes/Tanya/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erholt sich um 200 Mana bei einem Krit. Treffer.",
+          "thumbnail": "heroes/Tanya/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Manakosten sind um 1 erhöht, aber Schaden ist +100 %.",
+          "thumbnail": "heroes/Tanya/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Tanya/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht den zusätzlichen Schaden gegen Feinde, die keine Helden sind, um 100 %.",
+          "thumbnail": "heroes/Tanya/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erhöht die Dauer von Schweigen um 0,5 Sek.",
+          "thumbnail": "heroes/Tanya/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Schaden +20 %",
+        "thumbnail": "heroes/Tanya/perks/light.png"
+      },
+      "dark": {
+        "effect": "Im normalen Angriff wird der Schleichmodus für 10 Sek. mit 15 % Wahrscheinlichkeit aktiviert. Wenn der Schleichmodus aktiv ist, erhöht sich der Krit. Schaden normaler Angriffe um 50 %.",
+        "thumbnail": "heroes/Tanya/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Dämon der Stille, Caethasis",
+    "description": "Zu Beginn jeder Schlacht wird der Schleichmodus für 10 Sek. aktiviert und alle Angriffe für {0} Sek. ausgewichen. Wenn der Schleichmodus aktiv ist, erhöht sich der Krit. Schaden für 10 Sek. um {1} %.",
+    "value": {
+      "0": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.9",
+        "3": "3.5",
+        "4": "4.2",
+        "5": "5"
+      },
+      "1": {
+        "0": "30",
+        "1": "36",
+        "2": "43",
+        "3": "52",
+        "4": "62",
+        "5": "75"
+      }
+    },
+    "thumbnail": "heroes/Tanya/uw.png",
+    "story": "Der Dämonenkrieg fand vor 100 Jahren statt. Während des Krieges stellten die hochrangigen Dämonenoffiziere zweifellos die größte Bedrohung für die Menschheit dar. Caethasis, der Dämon der Stille, war besonders gefährlich. Zahllose Zauberer und Priester wurden von diesem Dämon erschlagen, der es wegen ihrer Seelen besonders auf magische Opfer abgesehen hatte. Schließlich konnte Kyle Caethasis besiegen und sein Kern wurde versiegelt. Jahre später gelangte der Kern in den Besitz der Lachenden Maske und diente erneut als Instrument des Todes.",
+    "descriptionByStar": {
+      "0": "Zu Beginn jeder Schlacht wird der Schleichmodus für 10 Sek. aktiviert und alle Angriffe für 2 Sek. ausgewichen. Wenn der Schleichmodus aktiv ist, erhöht sich der Krit. Schaden für 10 Sek. um 30 %.",
+      "1": "Zu Beginn jeder Schlacht wird der Schleichmodus für 10 Sek. aktiviert. Wenn der Schleichmodus aktiv ist, erhöht sich der Krit. Schaden für 10 Sek. um 36 %.",
+      "2": "Zu Beginn jeder Schlacht wird der Schleichmodus für 10 Sek. aktiviert. Wenn der Schleichmodus aktiv ist, erhöht sich der Krit. Schaden für 10 Sek. um 43 %.",
+      "3": "Zu Beginn jeder Schlacht wird der Schleichmodus für 10 Sek. aktiviert. Wenn der Schleichmodus aktiv ist, erhöht sich der Krit. Schaden für 10 Sek. um 52 %.",
+      "4": "Zu Beginn jeder Schlacht wird der Schleichmodus für 10 Sek. aktiviert. Wenn der Schleichmodus aktiv ist, erhöht sich der Krit. Schaden für 10 Sek. um 62 %.",
+      "5": "Zu Beginn jeder Schlacht wird der Schleichmodus für 10 Sek. aktiviert. Wenn der Schleichmodus aktiv ist, erhöht sich der Krit. Schaden für 10 Sek. um 75 %."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Kopie des Kodex der Schatten",
+      "description": "[Ziel gesichtet] erhöht den Schaden um 50 % und stellt nach Benutzung 400 Mana wieder her.",
+      "value": {},
+      "thumbnail": "heroes/Tanya/ut/1.png",
+      "story": "Ein geheimes Handbuch über die Schleichtechniken erfahrener Assassinen der Lachenden Maske.\nDieses Buch beschreibt Schleich-Skills und wie man sie richtig einsetzt. Tanya hat ihre eigenen Tipps hinzugefügt, die das Handbuch noch wertvoller machen.",
+      "descriptionByStar": {
+        "0": "[Ziel gesichtet] erhöht den Schaden um 50 % und stellt nach Benutzung 400 Mana wieder her.",
+        "1": "[Ziel gesichtet] erhöht den Schaden um 50 % und stellt nach Benutzung 480 Mana wieder her.",
+        "2": "[Ziel gesichtet] erhöht den Schaden um 50 % und stellt nach Benutzung 580 Mana wieder her.",
+        "3": "[Ziel gesichtet] erhöht den Schaden um 50 % und stellt nach Benutzung 700 Mana wieder her.",
+        "4": "[Ziel gesichtet] erhöht den Schaden um 50 % und stellt nach Benutzung 840 Mana wieder her.",
+        "5": "[Ziel gesichtet] erhöht den Schaden um 50 % und stellt nach Benutzung 1000 Mana wieder her."
+      }
+    },
+    "2": {
+      "name": "Allzweckgürtel der Lachenden Masken",
+      "description": "[Klingentornado] erhöht den Schaden um 20 % und verringert den Cooldown um 8 % bei einem Krit. Treffer.",
+      "value": {},
+      "thumbnail": "heroes/Tanya/ut/2.png",
+      "story": "Ein Mehrzweck-Werkzeug, dass die Lachenden Masken für Morde nutzen. \nEin einzigartiges Werkzeug der Lachenden Masken, die für ihre Geschwindigkeit und Effizienz beim Töten ihrer Ziele bekannt sind. \nEs ist für die Angriffsmuster seines Trägers optimiert und verbessert den Umgang mit Wurfwaffen und verstärkt Kombo-Angriffe beim Wirken von Klingentornado.",
+      "descriptionByStar": {
+        "0": "[Klingentornado] erhöht den Schaden um 20 % und verringert den Cooldown um 8 % bei einem Krit. Treffer.",
+        "1": "[Klingentornado] erhöht den Schaden um 24 % und verringert den Cooldown um 8 % bei einem Krit. Treffer.",
+        "2": "[Klingentornado] erhöht den Schaden um 29 % und verringert den Cooldown um 8 % bei einem Krit. Treffer.",
+        "3": "[Klingentornado] erhöht den Schaden um 35 % und verringert den Cooldown um 8 % bei einem Krit. Treffer.",
+        "4": "[Klingentornado] erhöht den Schaden um 42 % und verringert den Cooldown um 8 % bei einem Krit. Treffer.",
+        "5": "[Klingentornado] erhöht den Schaden um 50 % und verringert den Cooldown um 8 % bei einem Krit. Treffer."
+      }
+    },
+    "3": {
+      "name": "Dolch des Schweigens",
+      "description": "[Geflüster des Todes] erhöht den Schaden um 20 % und gewährt Schleichmodus. Erhöhte in Schleichmodus 10 Sek. lang ANG um 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Tanya/ut/3.png",
+      "story": "Ein Dolch, der denjenigen überreicht wird, die ihre erste Mission für die Lachende Maske ausführen. Es gibt eine Regel, die besagt, dass Assassinen immer einen Dolch bei sich tragen sollten, auf dem sich Spuren ihres Ziels befinden. \nDer stumme Dolch, den Assassinen wie ein Amulett tragen, flüstert ihnen ständig etwas vom Tod zu.",
+      "descriptionByStar": {
+        "0": "[Geflüster des Todes] erhöht den Schaden um 20 % und gewährt Schleichmodus. Erhöhte in Schleichmodus 10 Sek. lang ANG um 20 %.",
+        "1": "[Geflüster des Todes] erhöht den Schaden um 24 % und gewährt Schleichmodus. Erhöhte in Schleichmodus 10 Sek. lang ANG um 20 %.",
+        "2": "[Geflüster des Todes] erhöht den Schaden um 29 % und gewährt Schleichmodus. Erhöhte in Schleichmodus 10 Sek. lang ANG um 20 %.",
+        "3": "[Geflüster des Todes] erhöht den Schaden um 35 % und gewährt Schleichmodus. Erhöhte in Schleichmodus 10 Sek. lang ANG um 20 %.",
+        "4": "[Geflüster des Todes] erhöht den Schaden um 42 % und gewährt Schleichmodus. Erhöhte in Schleichmodus 10 Sek. lang ANG um 20 %.",
+        "5": "[Geflüster des Todes] erhöht den Schaden um 50 % und gewährt Schleichmodus. Erhöhte in Schleichmodus 10 Sek. lang ANG um 20 %."
+      }
+    },
+    "4": {
+      "name": "Nadel der Stille",
+      "description": "[Leiser Hinterhalt] stellt bei Aktivierung 100 eigenes Mana wieder her, während das Mana des Ziels um 200 verringert wird.",
+      "value": {},
+      "thumbnail": "heroes/Tanya/ut/4.png",
+      "story": "Eine Geheimwaffe, die der Anführer der Lachenden Masken für Tanya angefertigt hat.\nNachdem Tanya unzählige Missionen erfolgreich abgeschlossen hatte, beschloss der Anführer, ihr einen extrem gefährlichen Auftrag zu geben, und ließ ihr diese Geheimwaffe der Lachenden Maske, die „Nadel der Stille“, zukommen.\nSie wurde mit fortschrittlicher Biotechnologie hergestellt und sorgt dafür, dass der Energiefluss im Inneren eines Körpers zurückströmt, wodurch das Opfer innerhalb eines Augenblicks stirbt.\nIhre wichtigste Funktion ist aber, dass sie Tanya dabei Hilft, ihr Schweigegelübde auch dann einzuhalten, wenn etwas schiefgeht.",
+      "descriptionByStar": {
+        "0": "[Leiser Hinterhalt] stellt bei Aktivierung 100 eigenes Mana wieder her, während das Mana des Ziels um 200 verringert wird.",
+        "1": "[Leiser Hinterhalt] stellt bei Aktivierung 120 eigenes Mana wieder her, während das Mana des Ziels um 200 verringert wird.",
+        "2": "[Leiser Hinterhalt] stellt bei Aktivierung 140 eigenes Mana wieder her, während das Mana des Ziels um 200 verringert wird.",
+        "3": "[Leiser Hinterhalt] stellt bei Aktivierung 170 eigenes Mana wieder her, während das Mana des Ziels um 200 verringert wird.",
+        "4": "[Leiser Hinterhalt] stellt bei Aktivierung 210 eigenes Mana wieder her, während das Mana des Ziels um 200 verringert wird.",
+        "5": "[Leiser Hinterhalt] stellt bei Aktivierung 250 eigenes Mana wieder her, während das Mana des Ziels um 200 verringert wird."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 18 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Dämon der Stille, Caethasis und erhöht 10 Sek. lang den eigenen ANG um 50 %, und aller 3 Sek. wird der Gegner mit der niedrigsten Körp. VERT 4-mal getroffen und ihm insgesamt ??? Körp. Schaden zugefügt. Wenn mit diesem Treffer die TP des Gegners höher als 50 % betragen, so wird 5 Sek. lang seine Körp. VERT um 5 % verringert. Sind seine TP unter 50 %, so wird der Schaden um das 2-Fache erhöht und ein Krit. Treffer entsteht. Der Körp. VERT-Reduktionseffekt wird max. 10-mal gestapelt.",
+    "cooldown": "22",
+    "uses": "6",
+    "thumbnail": "heroes/Tanya/sw.png",
+    "advancement": {
+      "1": "Verwendungsbedingungen werden auf 14 Sek. geändert.",
+      "2": "Der Körp. VERT-Reduktionseffekt wird auf 7 % geändert und die Schadenserhöhung des Gegners mit weniger als 50 % TP wird auf das 3.6-Fache geändert."
+    },
+    "story": "Innerhalb von Caethasis gibt es rachsüchtige Geister von Zauberern und Priestern, die er zu Lebzeiten gegessen hat. Die Seele von Caethasis musste sich den Menschen stellen, die er nach dem Tod gegessen hatte, und musste mit dem Fluch und dem Groll von ihnen umgehen. Aber Caethasis ertrug es nicht und erkannte es nicht an, sondern aß sie gierig. Während der Zeit, in der der Besitzer des Schwertes mehrmals gewechselt wurde, kämpfte Caethasis dagegen.\n- Eines Tages bemerkte Tanja den Groll der Seelen, den sie tötete. Sie bemerkte, dass derselbe Kampf in ihrem Schwert weitergeht. Muss dieser Kampf ewig gehen? Ist das ihr Schicksal? Tanya fand die Antwort nicht heraus und stellte sich dem Dämon in ihrem Schwert entgegen."
+  },
+  "splashart": "heroes/Tanya/sa.png",
+  "costumes": "heroes/Tanya/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

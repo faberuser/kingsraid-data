@@ -1,0 +1,228 @@
+{
+  "id": "Lilia",
+  "profile": {
+    "name": "Lilia",
+    "title": "Die Tochter von Sturm und See Lilia",
+    "class": "Wizard",
+    "position": "Back-400",
+    "attack_range": "5700",
+    "damage_type": "Physical",
+    "gender": "Weiblich",
+    "age": "???",
+    "height": "120",
+    "race": "Drachen",
+    "constellation": "Layan, der Richter",
+    "birth": {
+      "month": 9,
+      "day": 14,
+      "monthName": "Monat der Wahrheit"
+    },
+    "like": "Laias, süße Getränke, das Volk der Wüste",
+    "dislike": "Alle, die mit ihrer Schwester flirten (Neraxis, Cain)",
+    "story": "Ein Gottdrache der Oase und eine Schwester der Priesterin des Wassers. Sie ist noch ein junger blauer Drache und liebt ihre viel ältere Schwester sehr. \nAls Laias von 100 Jahren in einen tiefen Schlaf fiel, weil sie in der Schlacht ihre Kräfte verausgabt hatte, verteidigte Lilia den Schrein des Flusses ganz allein.\nErst als sie hörte, wie die Kinder der Wüste verzweifelt beteten, weckte sie die Priesterin des Wassers, um sie zu beschützen. \nAnders als ihre sanfte und nachdenkliche Schwester ist sie recht streng, und die Art, wie sie die Kräfte von Fluss und Wasser beherrscht ist ebenfalls aggressiver. \nSie sieht es als ihre Aufgabe an, ihre wunderschöne Schwester vor unwürdigen, flirtenden Männern zu beschützen.",
+    "thumbnail": "heroes/Lilia/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Gezeitensturm",
+      "cost": "3",
+      "cooldown": "8",
+      "description": "Beschwört 8 Sek. lang einen Gezeitensturm auf einem zufälligen Ziel, der an Gegnern in Reichweite alle 0,5 Sek. ??? Körp. Schaden verursacht. Wird das Ziel getötet, springt der Gezeitensturm zu einem neuen zufälligen Ziel für die verbleibende Dauer.",
+      "thumbnail": "heroes/Lilia/skills/1.png"
+    },
+    "2": {
+      "name": "Immergrüne Oase",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Erhält bei Aktivierung 15 Sek. lang den Immergüne Oase-Status.\nWährend die Immergrüne Oase wirkt, ist die MP-Reg.srate pro Sek. um 150 % und ANG um ??? erhöht. VERT wird um ??? gesteigert.",
+      "thumbnail": "heroes/Lilia/skills/2.png"
+    },
+    "3": {
+      "name": "Himmlischer Wasserfall",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Wirft 15-mal Wassertropfen auf zufällige Gegner und verursacht dabei insgesamt ??? Körp. Schaden. Zusätzlich werden 5 große Wassertropfen auf ein Ziel und Gegner in dessen Reichweite geworfen, die ??? Körp. Schaden verursachen. \nVon großen Wassertropfen getroffene Gegner werden 2 Sek. lang betäubt. Jeder geworfene Wassertropfen kostet 25 Mana und steigert die Manakosten um 13.\nBei 0 Mana endet der Effekt.",
+      "thumbnail": "heroes/Lilia/skills/3.png"
+    },
+    "4": {
+      "name": "Gezeitenreinigung",
+      "cost": null,
+      "cooldown": null,
+      "description": "MP-Reg. bei ANG ist fix, aber der eigene ANG steigt um ???, die Krit. Chance wird um 300 erhöht und MP-Reg. pro Sek. wird auf 120 erhöht.\nPro 6 eigene MP-Reg. pro Sek. steigt der ANG um 1 %.",
+      "thumbnail": "heroes/Lilia/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "MP-Reg. und ANG-Boost sind um 10 % erhöht.",
+      "III": "MP-Reg. und ANG-Boost sind um 15 % erhöht.",
+      "IV": "MP-Reg. und ANG-Boost sind um 25 % erhöht."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "ANG-GESCHW. des getroffenen Ziels sinkt 10 Sek. lang um 250.",
+          "thumbnail": "heroes/Lilia/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Jede Nutzung erhöht Schaden um 20 %. Kann bis zu 15-mal gestapelt werden.",
+          "thumbnail": "heroes/Lilia/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Manakosten werden um 1 erhöht, dafür wird der Effekt zusätzlich auch dem Verbündeten mit dem höchsten ANG gewährt (Nutzer ausgenommen).",
+          "thumbnail": "heroes/Lilia/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Effektdauer wird um 5 Sek. gesenkt, Wirkung aller Effekte wird um 100 % erhöht.",
+          "thumbnail": "heroes/Lilia/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Massenkontroll-Immunität für die Dauer des Skills.",
+          "thumbnail": "heroes/Lilia/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Pro geworfenem Wassertropfen steigen Manakosten und Manaverbrauchsrate um 100 %. Mit jedem geworfenen Tropfen gibt es eine Chance von 50 % auf einen zusätzlichen Tropfen.",
+          "thumbnail": "heroes/Lilia/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Zum Kampfbeginn werden 1.000 Mana regeneriert.",
+          "thumbnail": "heroes/Lilia/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erhöht Schaden gegenüber Bossmonstern um 15 %.",
+          "thumbnail": "heroes/Lilia/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Schaden +20 %",
+        "thumbnail": "heroes/Lilia/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht den ANG um 15 % pro MP-Kugel im Besitz.",
+        "thumbnail": "heroes/Lilia/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Nie versiegende Quelle, Cielamaha",
+    "description": "50 MP-Reg. pro Sek. Chance von 80%, bei einem Angriff zusätzlichen Körp. Schaden in Höhe von 20% des ANG zu verursachen.",
+    "value": {},
+    "thumbnail": "heroes/Lilia/uw.png",
+    "story": "Ein unendlicher Quell, aus der ohne Unterlass Wasser sprudelt. \nEin Gefäß, das vom ersten blauen Drachen erschaffen wurde, der alles Wasser auf Erden beherrschte.\nEs reagiert auf die Vorstellungskraft seines Trägers. \nFür ein junges, sensibles und kreatives Mädchen wie Lilia ist es der größte Schatz und die größte Waffe.",
+    "descriptionByStar": {
+      "0": "50 MP-Reg. pro Sek. Chance von 80%, bei einem Angriff zusätzlichen Körp. Schaden in Höhe von 20% des ANG zu verursachen.",
+      "1": "60 MP-Reg. pro Sek. Chance von 80%, bei einem Angriff zusätzlichen Körp. Schaden in Höhe von 24% des ANG zu verursachen.",
+      "2": "70 MP-Reg. pro Sek. Chance von 80%, bei einem Angriff zusätzlichen Körp. Schaden in Höhe von 28% des ANG zu verursachen.",
+      "3": "85 MP-Reg. pro Sek. Chance von 80%, bei einem Angriff zusätzlichen Körp. Schaden in Höhe von 34% des ANG zu verursachen.",
+      "4": "105 MP-Reg. pro Sek. Chance von 80%, bei einem Angriff zusätzlichen Körp. Schaden in Höhe von 42% des ANG zu verursachen.",
+      "5": "125 MP-Reg. pro Sek. Chance von 80%, bei einem Angriff zusätzlichen Körp. Schaden in Höhe von 50% des ANG zu verursachen."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Geflüster des Meers",
+      "description": "[Gezeitensturm] verringert den Cooldown um 2,5 Sek. und erhöht den Körp. Schaden von betroffenen Gegnern um 10 %.",
+      "value": {},
+      "thumbnail": "heroes/Lilia/ut/1.png",
+      "story": "Eine Haarnadel aus Edelsteinen und Korallengestein aus dem Meer der Ewigkeit, die Lilia von Laias erhalten hat.\nSie sieht wie eine einfache Haarnadel für ein Kind aus, aber die Bestandteile aus dem Meer der Ewigkeit beinhalten die Energie der Wasserdrachen, die Lilias Gezeitensturm verstärkt.",
+      "descriptionByStar": {
+        "0": "[Gezeitensturm] verringert den Cooldown um 2,5 Sek. und erhöht den Körp. Schaden von betroffenen Gegnern um 10 %.",
+        "1": "[Gezeitensturm] verringert den Cooldown um 2,5 Sek. und erhöht den Körp. Schaden von betroffenen Gegnern um 12 %.",
+        "2": "[Gezeitensturm] verringert den Cooldown um 2,5 Sek. und erhöht den Körp. Schaden von betroffenen Gegnern um 14 %.",
+        "3": "[Gezeitensturm] verringert den Cooldown um 2,5 Sek. und erhöht den Körp. Schaden von betroffenen Gegnern um 17 %.",
+        "4": "[Gezeitensturm] verringert den Cooldown um 2,5 Sek. und erhöht den Körp. Schaden von betroffenen Gegnern um 21 %.",
+        "5": "[Gezeitensturm] verringert den Cooldown um 2,5 Sek. und erhöht den Körp. Schaden von betroffenen Gegnern um 25 %."
+      }
+    },
+    "2": {
+      "name": "Herz des Flusses",
+      "description": "[Immergrüne Oase] kann den Effekt nicht entfernen. Erhöht den Krit. Schaden während der Dauer um 20 %.",
+      "value": {},
+      "thumbnail": "heroes/Lilia/ut/2.png",
+      "story": "Eine goldene Kette für Mädchen, die Laias für Lilia mit einem Schutzjuwel versehen hat. \nEr leuchtet mit der Energie der Wasserelementare darin. \nEin Symbol für Laias Sorge um ihre kleine Schwester.",
+      "descriptionByStar": {
+        "0": "[Immergrüne Oase] kann den Effekt nicht entfernen. Erhöht den Krit. Schaden während der Dauer um 20 %.",
+        "1": "[Immergrüne Oase] kann den Effekt nicht entfernen. Erhöht den Krit. Schaden während der Dauer um 24 %.",
+        "2": "[Immergrüne Oase] kann den Effekt nicht entfernen. Erhöht den Krit. Schaden während der Dauer um 29 %.",
+        "3": "[Immergrüne Oase] kann den Effekt nicht entfernen. Erhöht den Krit. Schaden während der Dauer um 35 %.",
+        "4": "[Immergrüne Oase] kann den Effekt nicht entfernen. Erhöht den Krit. Schaden während der Dauer um 42 %.",
+        "5": "[Immergrüne Oase] kann den Effekt nicht entfernen. Erhöht den Krit. Schaden während der Dauer um 50 %."
+      }
+    },
+    "3": {
+      "name": "Bodenloser Kessel der Elementare",
+      "description": "[Himmlischer Wasserfall] Skill-ANG haben eine Chance von 7 %, einen großen Wassertropfen zu werfen, der 100 % des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2 % erhöht.",
+      "value": {},
+      "thumbnail": "heroes/Lilia/ut/3.png",
+      "story": "Ein Kessel, den Lilias alte Kaktusfreunde an ihrem Geburtstag für sie herstellten. \nDer Kessel bringt stetig das sauberste und reinste Wasser hervor, das es gibt. \nWenn jedoch zu viel Wasser auf einmal eingesetzt wird, schließt er seinen Ausguss – eine Funktion, die von den Kakteen hinzugefügt wurde, um Lilia zu helfen, das Wasser zu kontrollieren, bis sie es besser beherrscht.",
+      "descriptionByStar": {
+        "0": "[Himmlischer Wasserfall] Skill-ANG haben eine Chance von 7 %, einen großen Wassertropfen zu werfen, der 100 % des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2 % erhöht.",
+        "1": "[Himmlischer Wasserfall] Skill-ANG haben eine Chance von 7 %, einen großen Wassertropfen zu werfen, der 100 % des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2,4 % erhöht.",
+        "2": "[Himmlischer Wasserfall] Skill-ANGhaben eine Chance von 7 %, einen großen Wassertropfen zu werfen, der 100 % des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2,9 % erhöht.",
+        "3": "[Himmlischer Wasserfall] Skill-ANG haben eine Chance von 7 %, einen großen Wassertropfen zu werfen, der 100 % des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 3,5 % erhöht.",
+        "4": "[Himmlischer Wasserfall] Skill-ANG haben eine Chance von 7 %, einen großen Wassertropfen zu werfen, der 100 % des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 4,2 % erhöht.",
+        "5": "[Himmlischer Wasserfall] Skill-ANG haben eine Chance von 7 %, einen großen Wassertropfen zu werfen, der 100 % des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 5 % erhöht."
+      }
+    },
+    "4": {
+      "name": "Schlüssel der Reinheit",
+      "description": "[Gezeitenreinigung] erhöht aller 10 Sek. den eigenen Krit. Schaden 5 Sek. lang um 80 % und die MP-Regeneration/Sek. um 30 %.",
+      "value": {},
+      "thumbnail": "heroes/Lilia/ut/4.png",
+      "story": "Ein heiliger Schlüssel, der in der Mitte der Oase gefunden wurde.\nAls der Stamm ein Ritual zur Säuberung des Bösen für den ersten Wasserdrachen abhielt, erschien plötzlich eine seltsame Truhe in der Mitte der Oase.\nNiemand konnte sie öffnen, bis der Stamm Lilia herbeirief.\nAls sie sich der Truhe näherte, begann diese zu wackeln und sich mit einem hellen Leuchten zu öffnen.\nIm Inneren der Truhe lag ein Schlüssel.\nLilia wusste sofort, dass es sich dabei um keinen gewöhnlichen Schlüssel handelte. Seither bewahrt sie ihn an einem sicheren Ort auf.\nBis heute ist unklar, was der Schlüssel öffnet, er maximiert jedoch Lilias Reinigungskräfte.",
+      "descriptionByStar": {
+        "0": "[Gezeitenreinigung] erhöht aller 10 Sek. den eigenen Krit. Schaden 5 Sek. lang um 80 % und die MP-Regeneration/Sek. um 30 %.",
+        "1": "[Gezeitenreinigung] erhöht aller 10 Sek. den eigenen Krit. Schaden 5 Sek. lang um 80 % und die MP-Regeneration/Sek. um 36 %.",
+        "2": "[Gezeitenreinigung] erhöht aller 10 Sek. den eigenen Krit. Schaden 5 Sek. lang um 80 % und die MP-Regeneration/Sek. um 43 %.",
+        "3": "[Gezeitenreinigung] erhöht aller 10 Sek. den eigenen Krit. Schaden 5 Sek. lang um 80 % und die MP-Regeneration/Sek. um 52 %.",
+        "4": "[Gezeitenreinigung] erhöht aller 10 Sek. den eigenen Krit. Schaden 5 Sek. lang um 80 % und die MP-Regeneration/Sek.  um 63 %.",
+        "5": "[Gezeitenreinigung] erhöht aller 10 Sek. den eigenen Krit. Schaden 5 Sek. lang um 80 % und die MP-Regeneration/Sek. um 75 %."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn du 70-mal Schaden erleidest, wird dies aufgeladen und kann verwendet werden.",
+    "description": "Beschwört 12 Sek. lang die Seele von Nie versiegende Quelle, Cielamaha, wobei der eigene verursachte Schaden an Feinden um 20 % erhöht wird und beim Normal-/Skill-Angriff wird mit 10 %-iger Chance zus. ??? Körp. Schaden zugefügt.",
+    "cooldown": "22",
+    "uses": "6",
+    "thumbnail": "heroes/Lilia/sw.png",
+    "advancement": {
+      "1": "Während der Wirkungsdauer wird die Mana wieder zur Gänze hergestellt.",
+      "2": "Erhöht den Schaden um 100 %."
+    },
+    "story": "Der erste Blaue Drache unter den Blauen Drachen, der das gesamte Wasser der Welt kontrolliert. Das Erbe dieses Drachen ist Cielamaha, das Wassergefäß, die beste Waffe und der größte Schatz Lilias. Lilia hat den ersten Blauen Drachen nie getroffen. Sie stellte sich nur vor, wie es sein würde, wenn sie Cielamaha beobachtete. Eines Tages fragte sich Lilia, ‘warum der erste Drache Cielamaha gemacht hatte\". Es ist eine einfache Frage, aber es war genug, um Lilias Fantasie anzuregen. Die Vorstellung eines jungen Drachen breitete sich wie ein Fluss aus und erreichte den Ort, an den niemand gedacht hatte. Der in Cielamaha übrig gebliebene erste Blaue Drache ist zusammen mit dem Wasser-Elementar geweckt worden. Die Zeit wird zeigen, ob die junge Lilia das Potenzial hat, mit dem geweckten Elementar mitzuhalten. Aber nachdemCielamaha gesehen hat, dass Lilia sich bei den Wasser-Tests Mühe gegebn hat, sind ihre Sorgen weniger geworden. Jetzt kann Lilia mithilfe des Elementars einen Wassersturm mächtiger als jeder Blaue Drache rufen."
+  },
+  "splashart": "heroes/Lilia/sa.png",
+  "costumes": "heroes/Lilia/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

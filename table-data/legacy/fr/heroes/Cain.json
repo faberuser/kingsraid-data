@@ -1,0 +1,270 @@
+{
+  "id": "Cain",
+  "profile": {
+    "name": "Cain",
+    "title": "Cain, l'Immortel Dieu-Roi",
+    "class": "Wizard",
+    "position": "Middle-300",
+    "attack_range": "9800",
+    "damage_type": "Physical",
+    "gender": "Homme",
+    "age": "28",
+    "height": "191",
+    "race": "Humain",
+    "constellation": "Satua la Sage",
+    "birth": {
+      "month": 2,
+      "day": 1,
+      "monthName": "Mois de la Sagesse"
+    },
+    "like": "Laias, clown",
+    "dislike": "Les Ténèbres, les hypocrites, les flatteurs, ceux qui ignorent la loyauté",
+    "story": "Roi le plus sage et le plus illustre, qui marqua l'histoire de l'antique royaume Sekireinel. Sous son règne, Sekireinel fut florissant, béni d'une éternelle prospérité. Pour cette raison, les descendants du désert couvrent Cain de louanges, lui donnant le titre du Dieu-Roi, car ils estiment que non seulement il est le roi parfait élu du dieu, mais aussi qu'il effleure le domaine divin par sa puissance.\nLe charisme écrasant dont il fit preuve lui valut d'incessants éloges et fidélités de la part de son peuple. Comme pour y remercier, il régna d'une manière juste et impartiale, se montrant généreux et indulgent envers le peuple de Sekireinel. Néanmoins, il fut d'une impitoyable cruauté envers les ennemis de son royaume, qu'il poursuivit pour effacer même jusqu'à leur existence, faisant de lui une source de terreur pour les pays étrangers.\nCependant, l'attitude hautaine du Dieu-Roi terrifiant qui régnait sur les hommes dissimulait une profonde solitude, et quand Cain se retrouvait seul, il était plongé dans des tourments sans fin. Ce fut Laias qui le sauva de l'isolement, en lui tendant la main et en chantant pour lui. Il tomba sincèrement amoureux d'elle et lui exprima son amour, toujours prêt à exaucer le moindre de ses désirs.",
+    "thumbnail": "heroes/Cain/ico.png"
+  },
+  "skills": {
+    "1 (1)": {
+      "name": "Frémissez !",
+      "cost": "2",
+      "cooldown": "14",
+      "description": "Cain soigne l'allié aux PV les plus bas de ??? PV. Il lui accorde [Bénédiction du Dieu-Roi] pour réduire tous les DEG reçus de 35% et immunise contre les Contrôles, pendant 3.5 sec. Après 3.5 sec, il dissipe les effets négatifs qui pèsent sur la cible, ainsi que sur les alliés à portée qui l'entourent, et soigne ??? PV. [Bénédiction du Dieu-Roi] ne peut ête dissipée.",
+      "thumbnail": "heroes/Cain/skills/1 (1).png"
+    },
+    "1 (2)": {
+      "name": "Agenouille-toi.",
+      "cost": "2",
+      "cooldown": "14",
+      "description": "Cain inflige ??? points de DEG P à l'ennemi ayant l'ATQ la plus élevée, et utilise [Scellage du tyran] pour réduire la Vitesse d'ATQ de la cible de 350 et l'empêche de bénéficer des effets positifs, pendant 5 sec. Après 5 sec, il inflige ??? points de DEG P à la cible et aux ennemis à portée qui l'entourent, et applique Étourdissement pendant 3 sec. [Scellage du tyran] ne peut être dissipé.",
+      "thumbnail": "heroes/Cain/skills/1 (2).png"
+    },
+    "2": {
+      "name": "Affronte ma puissance.",
+      "cost": "3",
+      "cooldown": "8",
+      "description": "Cain devient [Tyran] et attaque continuellement la cible ennemie pour infliger ??? points de DEG P à chaque coup. À l'état de [Tyran], les compétences [Frémissez !] [Contemple mon pouvoir omnipotent !] deviennent respectivement [Agenouille-toi.] [Meurs, maintenant.], et Cain est immunisé contre les Contrôles. Lorsque les compétences sont réutilisées, Cain redevient [Dieu-Roi].\n[Grâce du Dieu-Roi] À l'état de Dieu-Roi, les DEG reçus par tous les alliés sont réduits de 10%.\n[Prestige du Tyran] À l'état de Tyran, les DEG reçus par les tous les ennemis sont augmentés de 10%.",
+      "thumbnail": "heroes/Cain/skills/2.png"
+    },
+    "3 (1)": {
+      "name": "Contemple mon pouvoir omnipotent !",
+      "cost": "3",
+      "cooldown": "25",
+      "description": "Augmente de 10 fois toutes les DEF des alliés à proximité de ???, pendant 10 sec. L'augmentation du taux de DEF peut être cumulé jusqu'à 10 fois. Si les effets sont activés pour les alliés bénéficiant de 10 augmentations du taux de DEF, augmente l'ATQ de la cible de ??? et lui confère une immunité contre les Contrôles pendant 10 sec.",
+      "thumbnail": "heroes/Cain/skills/3 (1).png"
+    },
+    "3 (2)": {
+      "name": "Meurs, maintenant.",
+      "cost": "4",
+      "cooldown": "25",
+      "description": "En plaçant à l'avant [Porte de l'Enfer] pendant 3 sec, inflige à 10 reprises aux ennemis à portée un total de ??? points de DEG P et les attire au centre. Cause ensuite l'explosion de [Porte de l'Enfer] pour infliger ??? points de DEG P et appliquer l'Étourdissement pendant 3 sec.",
+      "thumbnail": "heroes/Cain/skills/3 (2).png"
+    },
+    "4": {
+      "name": "Le Roi du Désert, c'est moi.",
+      "cost": null,
+      "cooldown": null,
+      "description": "Au début de chaque combat, accorde une charge de [Roi du Désert], qui ne peut être dissipée. Pour chaque charge de [Roi du Désert], augmente les effets de [Grâce du Dieu-Roi] et [Prestige du Tyran] de 5%, et récupère 100 PM par sec et augmente l'ATQ de ???. Lorsque plus de 3 charges de [Roi du Désert] sont cumulées, les DEG infligés au Boss augmentent de 50%. [Roi du Désert] peut être cumulé jusqu'à 5 charges au maximum.",
+      "thumbnail": "heroes/Cain/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les soins et les DEG de 10%.",
+      "III": "Augmente les soins et les DEG de 15%.",
+      "IV": "Augmente les soins et les DEG de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG de 10%.",
+      "III": "Augmente les DEG de 15%.",
+      "IV": "Augmente les DEG de 25%."
+    },
+    "3": {
+      "II": "Le taux d'augmentation d'ATQ et les DEG infligés augmentent de 10%.",
+      "III": "Le taux d'augmentation d'ATQ et les DEG infligés augmentent de 15%.",
+      "IV": "Le taux d'augmentation d'ATQ et les DEG infligés augmentent de 25%."
+    },
+    "4": {
+      "II": "Le taux d'augmentation d'ATQ augmente de 10%.",
+      "III": "Le taux d'augmentation d'ATQ augmente de 15%.",
+      "IV": "Le taux d'augmentation d'ATQ augmente de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Les effets de [Frémissez !] sont appliqués à 3 alliés, et tous les effets qui devraient s'activer après 3.5 sec ne sont pas activés.",
+          "thumbnail": "heroes/Cain/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Les effets de [Agenouille-toi.] sont appliqués à 3 alliés, et tous les effets qui devraient s'activer après 5 sec ne sont pas activés.",
+          "thumbnail": "heroes/Cain/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Chaque charge de [Roi du Désert] augmente les DEG infligés par cette compétence de 30%.",
+          "thumbnail": "heroes/Cain/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Réduit le temps de recharge de 4 sec et en mode bataille-auto, peut redevenir Dieu-Roi après s'être transformé en Tyran.",
+          "thumbnail": "heroes/Cain/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente la durée des effets de [Contemple mon pouvoir omnipotent !] pendant 10 sec.",
+          "thumbnail": "heroes/Cain/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "[Meurs, maintenant.] Réduit le coût en PM de 1.",
+          "thumbnail": "heroes/Cain/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "L'augmentation des DEG infligés au Boss passe à 100%.",
+          "thumbnail": "heroes/Cain/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "La récupération PM/sec passe à 150.",
+          "thumbnail": "heroes/Cain/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / PV +10%",
+        "thumbnail": "heroes/Cain/perks/light.png"
+      },
+      "dark": {
+        "effect": "Au début de chaque combat, consomme 20% de ses PV actuels pour augmenter les ATQ de tous les alliés de 20% pendant 20 sec. Si les alliés sont moins de 3, réduit aussi les DEG reçus de tous les alliés de 30%.",
+        "thumbnail": "heroes/Cain/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Tyrannicus, l'Autorité du Dieu-Roi",
+    "description": "Les attaques automatiques et celles des compétences accordent des effets supplémentaires selon l'état du Héros.\nÀ l'état de [Dieu-Roi], applique l'Étourdissement à la cible pendant 1 sec, avec {0}% de chances.\nÀ l'état de [Tyran], augmente les DEG P reçus par la cible de {1}%, pendant 5 sec. La cible ayant subi cet effet est immunisée contre le même effet pendant 3 sec.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      }
+    },
+    "thumbnail": "heroes/Cain/uw.png",
+    "story": "Une arme façonnée par Atermos, le roi clairvoyant, connu pour être le plus intelligent parmi les rois du royaume de Sekireinel. Elle fut fabriquée avec des matériaux sacrés, après qu'il eut une révélation divine.\nDigne de l'arme du roi loué en tant que dieu de l'intelligence, Tyrannicus possèderait la capacité de percer à jour le cœur de son propriétaire. Et selon la légende, celui qui ne mériterait pas d'être le roi ne pourrait non seulement pas manier Tyrannicus, mais serait mis à mort par ce dernier.\nAprès le décès d'Atermos, Tyrannicus fut placé derrière le trône royal, tel le soleil symbolisant la qualité et l'autorité du roi régnant sur Sekireinel. La veille du couronnement, Cain tendit la main vers Tyrannicus, et l'arme l'accepta comme son véritable propriétaire, l'éclairant comme le soleil.",
+    "descriptionByStar": {
+      "0": "Les attaques automatiques et celles des compétences accordent des effets supplémentaires selon l'état du Héros.\nÀ l'état de [Dieu-Roi], applique l'Étourdissement à la cible pendant 1 sec, avec 20% de chances.\nÀ l'état de [Tyran], augmente les DEG P reçus par la cible de 20%, pendant 5 sec. La cible ayant subi cet effet est immunisée contre le même effet pendant 3 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Insigne des Flots",
+      "description": "[Frémissez !] Augmente l'effet de la réduction de DEG reçus de {0}% supplémentaires. \n[Agenouille-toi.] Réduit le coût en PM de 1.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Cain/ut/1.png",
+      "story": "Un anneau d'or porté comme objet de cérémonie, lorsque le corps de Cain, une fois son âme scellée, fut plongé dans un long sommeil aussi nommé la mort.\nMis à l'annulaire, Laias y insuffla la bénédiction des flots, souhaitant qu'il jouisse d'une gloire éternelle en tant que Dieu-Roi, même dans l'au-delà.\nIl n'avait pas prévu qu'il se réveillerait à cause d'un être insignifiant... Mais quand il ouvrit les yeux, des millénaires s'étaient écoulés, et l'anneau avait pris de l'âge, couvert de poussière. Cependant, le joyau qui l'ornait n'avait rien perdu de son éclat, grâce à l'énergie du dragon bleu qui l'habitait.",
+      "descriptionByStar": {
+        "0": "[Frémissez !] Augmente l'effet de la réduction de DEG reçus de 10% supplémentaires. \n[Agenouille-toi.] Réduit le coût en PM de 1."
+      }
+    },
+    "2": {
+      "name": "Œil du Dieu-Roi",
+      "description": "[Affronte ma puissance.] Augmente les DEG infligés de 50% et à l'état de Tyran, augmente les DEG infligés de {0}%.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Cain/ut/2.png",
+      "story": "Une couronne décorée d'emblème en forme d'oeil, symbolisant le Dieu-Roi.\nIl a comme signification de craindre et de vénérer le Dieu-Roi, qui par son omnipotence garde tout Sekireinel sous sa surveillance.",
+      "descriptionByStar": {
+        "0": "[Affronte ma puissance.] Augmente les DEG infligés de 50% et à l'état de Tyran, augmente les DEG infligés de 10%."
+      }
+    },
+    "3": {
+      "name": "Coffret d’Intégrité",
+      "description": "[Contemple mon pouvoir omnipotent !] Augmente le taux d'augmentation d'ATQ de 50%.\n[Meurs, maintenant.] Augmente les DEG reçus de la cible touchée par la compétence de {0}% pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Cain/ut/3.png",
+      "story": "Un coffret scellé, qui ne peut être ouvert de force.\n Il contient le cadeau apporté par Shakmeh, le frère de Cain, après un long séjour à l'étranger.\nCain se réjouit de ce cadeau, ravi du cœur innocent et fidèle de son petit frère, mais le jour où ce dernier se transforma en ténèbres couvrant tout Sekireinel, Cain l'utilisa afin de sceller l'ennemi mortel qu'il était devenu.\n Après que le temps se soit longuement écoulé, Cain fut libéré du sceau, et prit le coffret ouvert, abandonné près de son cercueil. Il le garde près de lui et ressasse le passé chaque fois que son regard s'y porte.",
+      "descriptionByStar": {
+        "0": "[Contemple mon pouvoir omnipotent !] Augmente le taux d'augmentation d'ATQ de 50%.\n[Meurs, maintenant.] Augmente les DEG reçus de la cible touchée par la compétence de 10% pendant 10 sec."
+      }
+    },
+    "4": {
+      "name": "Ouvrage historique de Sekireinel",
+      "description": "[Le Roi du Désert, c'est moi.] Augmente le taux d'augmentation d'ATQ de 50%. Lorsque le Héros possède plus de 3 charges de [Roi du désert], augmente la récupération des PV de tous les alliés de {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Cain/ut/4.png",
+      "story": "Un livre d'histoire qui relate l'histoire de Sekireinel.\nAprès la résurrection de Cain, il voulut savoir de quelle manière l'histoire de l'antique royaume de Sekireinel, ainsi que celle de son petit frère et de lui-même, ont été transmises à la génération future. Il demanda donc à Zafir d'apporter les archives historiques. \nEn obéissant aux ordres du Dieu-Roi, Zafir apporta le livre rédigé de génération en génération par les descendants de la famille des scribes de Sekireinel, qu'ils ont protégé de nombreux guerres et conflits. Il est réputé pour son exactitude parmi les archives historiques écrites par les différentes tribus.",
+      "descriptionByStar": {
+        "0": "[Le Roi du Désert, c'est moi.] Augmente le taux d'augmentation d'ATQ de 50%. Lorsque le Héros possède plus de 3 charges de [Roi du désert], augmente la récupération des PV de tous les alliés de 20%."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 5 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Tyrannicus, l'Autorité du Dieu-Roi, ce qui inflige ??? DEG P aux ennemis à portée dans une large zone et leur applique le Gel du Temps pendant 4 sec. Ensuite, son taux d'ATQ augmente de 50% pendant 10 sec. À l'état de Gel du Temps, les attaques automatiques et les compétences ne sont plus disponibles, et le temps de recharge en cours est également arrêté.",
+    "cooldown": "22",
+    "uses": "5",
+    "thumbnail": "heroes/Cain/sw.png",
+    "advancement": {
+      "1": "Restaure, au total, ??? PV des alliés à portée pendant 10 sec.",
+      "2": "Les Améliorations de tous les ennemis à portée sont dissipées."
+    },
+    "story": "Lorsque pour la première fois, Cain porta le regard sur Tyrannicus sur le trône, il comprit ce qu'était la véritable autorité du Dieu-Roi. L'apparence de l'âme de Tyrannicus ressemblait au trône divin, et la lueur qu'il répandait ne déméritait pas de la dénomination du soleil.\nEn apercevant l'autorité du Dieu-Roi qu'aucun mortel n'avait pu voir jusqu'à présent, Cain exprima sa considération à la lumière éclatante de Tyrannicus, et se promit de devenir un être digne de ce trône. Alors il régna sur le désert, en tant qu'un souverain parfait.\nComme pour répondre à ses efforts, Tyrannicus obéit à Cain, et partagea la sagesse du roi clairvoyant, afin que son propriétaire puisse gouverner avec autant de clairvoyance."
+  },
+  "splashart": "heroes/Cain/sa.png",
+  "costumes": "heroes/Cain/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

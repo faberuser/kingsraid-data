@@ -1,0 +1,280 @@
+{
+  "id": "Sonia",
+  "profile": {
+    "name": "Sonia",
+    "title": "Blauer Orkan Sonia",
+    "class": "Knight",
+    "position": "Front-650",
+    "attack_range": "6300",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "16 (Kein Wachstum seit Erschaffung)",
+    "height": "152",
+    "race": "Homunculus",
+    "constellation": "Satua, die Weise",
+    "birth": {
+      "month": 2,
+      "day": 23,
+      "monthName": "Monat der Weisheit"
+    },
+    "like": "Mirianne und alle anderen im Waisenhaus",
+    "dislike": "Zauberer, Alchemisten",
+    "story": "Ein Kampf-Homunculus, mit dem Herz von Vaikal, der Blitzbestie als Innerstes, erschaffen von einem Zauberer Orvels. Nachdem sie während des Schöpfungsprozesses begann, sich selbst zu erkennen, floh sie aus dem Labor und verbrachte die nächsten Jahre in Ricardos Waisenhaus. Sie kann nach Belieben mächtige Blitzmagie wirken. Als Kampf-Homunculus verfügt sie außerdem über herausragende körperliche Fähigkeiten. Ungeachtet ihres Erscheinungsbilds als junges Mädchen ist sie eine irregeführte Kriegsmaschine, die nach der wahren Bedeutung ihres Daseins sucht. Die Zauberer im Turm der Weisen verliehen ihr den Titel 'Blau', um sie für ihre meisterhafte spruchlose Magie zu ehren. Und doch misstraut sie den Zauberern und hegt keinen Wunsch, mit dem Turm in Verbindung zu stehen.",
+    "thumbnail": "heroes/Sonia/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Stromstoß!",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Lässt Blitze vor dem Wirker explodieren, fügt Gegnern in Reichweite 333*(0.7+(0.3*Skill Level*Awakening Coefficient))+ 208.8% of ATK Magieschaden zu und erzeugt [Elektrisches Feld] für 4 Sek. [Elektrisches Feld]: Verursacht alle 0.4 Sek. 48*(0.7+(0.3*Skill Level*Awakening Coefficient))+ 30.2% of ATK Magieschaden. Jeder Treffer hat eine Chance von 25%, Gegner für 0.3 Sek. zu betäuben.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Sonia/skills/1.png"
+    },
+    "2": {
+      "name": "Stromkraft!",
+      "cost": "3",
+      "cooldown": "10",
+      "description": "Erhöht die Magie-VERT für 15 Sek. um [ffc800]224*(0.7+(0.3*Skill-Level*Erweckungskoeffizient))[-] und das Angriffstempo für 10 Sek. um 30%. Während der Angriffstempo-Erhöhung haben normale Angriffe eine Chance von 30%, 2 zufälligen Gegnern [ffc800]374*(1+0.3*Skill-Level)+235.1% ANG[-] zusätzlichen Magieschaden zuzufügen und sie für 0.3 Sek. zu betäuben.\n\n[ffc800]Erweckungskoeffizient([-]★1 ~ 5[ffc800]): [[-] 1 / 2 / 3.5 / 5.5 / 8 [ffc800]][-]",
+      "thumbnail": "heroes/Sonia/skills/2.png"
+    },
+    "3": {
+      "name": "Elektrische Explosion!",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Greift Gegner im Kreis um den Wirker an und verursacht 3-mal 148*(0.7+(0.3*Skill Level*Awakening Coefficient))+ 92.8% of ATK Magieschaden. Lässt danach Blitze explodieren, verursacht 3-mal 222*(0.7+(0.3*Skill Level*Awakening Coefficient))+ 139.2% of ATK Magieschaden und betäubt Gegner für 3 Sek.\nErweckungskoeffizient(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Sonia/skills/3.png"
+    },
+    "4": {
+      "name": "Stromschock",
+      "cost": null,
+      "cooldown": null,
+      "description": "Belegt bei einem Angriff Gegner ohne [Schock] mit [Ladung] und erhöht ihren erlittenen Magieschaden für 10 Sek. um 1%. [Ladung] ist bis zu 30-mal stapelbar. Bei 30 Stapeln werden alle verbraucht, um 926*(0.7+(0.3*Skill Level*Awakening Coefficient))+ 580% of ATK Magieschaden zu verursachen und für 5 Sek. [Schock] anzuwenden. [Schock]: Verlängert alle erlittenen Betäubungen um 0.7 Sek. und erhöht den erlittenen Magieschaden um 40%.",
+      "thumbnail": "heroes/Sonia/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "2": {
+      "II": "ANG und VERT sind um [64ff64]10[-] % erhöht.",
+      "III": "ANG und VERT sind um [64ff64]15[-] % erhöht.",
+      "IV": "ANG und VERT sind um [64ff64]25[-] % erhöht."
+    },
+    "3": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um [64ff64]10[-] %.",
+      "III": "Erhöht Schaden um [64ff64]15[-] %.",
+      "IV": "Erhöht Schaden um [64ff64]25[-] %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Die Manakosten steigen um 1000, aber der Schaden steigt um 80 %.",
+          "thumbnail": "heroes/Sonia/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Betäubungschance um 10 % erhöht.",
+          "thumbnail": "heroes/Sonia/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "ANG und VERT um 40 % erhöht.",
+          "thumbnail": "heroes/Sonia/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Der zusätzliche Schaden trifft bis zu 4 Gegner.",
+          "thumbnail": "heroes/Sonia/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht Schaden um 100 %, wenn nur 1 Feind auf dem Schlachtfeld ist.",
+          "thumbnail": "heroes/Sonia/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Erhöht Betäubungsdauer um 1.2 Sek.",
+          "thumbnail": "heroes/Sonia/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Schockzustand ist um 1.5 Sek. verlängert.",
+          "thumbnail": "heroes/Sonia/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erhält erhöhten Mag. Schaden' wird durch 'Erhält erhöhten Körp. und Mag. Schaden' ersetzt.",
+          "thumbnail": "heroes/Sonia/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/ANG-GESCHW. +100",
+        "thumbnail": "heroes/Sonia/perks/light.png"
+      },
+      "dark": {
+        "effect": "Verursacht bei einem Angriff mit 15% Wahrscheinlichkeit zusätzlichen Magieschaden in Höhe von 10% der max. LP und fügt 1 zusätzlichen Stapel [Elektrizität] hinzu.",
+        "thumbnail": "heroes/Sonia/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Sturmauge, Yanadis",
+    "description": "Die Dauer von [Schock] wird auf {0} Sek. geändert. Normale Angriffe auf ein Ziel unter [Schock] reduzieren die Abklingzeit um {1}% und verursachen zusätzlichen Magieschaden in Höhe von 100% des ANG.",
+    "thumbnail": "heroes/Sonia/uw.png",
+    "story": "Eine elektrische Sphäre, die von Sonia auf der Basis des Bestienkerns erschaffen wurde, der nun ihr eigenes Herz ist. Sie bewies großes Talent bei der Herstellung von Ausrüstung und dies ist die erste Waffe, die sie jemals gefertigt hatte. Ihre Stabilität lässt etwas zu wünschen übrig, was sich durch die schier überwältigende Elektrizität erklärt, die sie enthält. Der mächtige elektrische Sturm, der von dieser Waffe erzeugt wird, ist für jeden Feind gefährlich. Würde jemand anderer außer Sonia diese Waffe berühren, so würde er aufgrund der immensen Spannung umgehend gebraten werden.",
+    "value": {
+      "0": {
+        "0": "7.5",
+        "1": "8",
+        "2": "8.5",
+        "3": "9",
+        "4": "9.5",
+        "5": "10"
+      },
+      "1": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.8",
+        "3": "3.2",
+        "4": "3.6",
+        "5": "4"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Die Dauer von [Schock] wird auf 7.5 Sek. geändert. Normale Angriffe auf ein Ziel unter [Schock] reduzieren die Abklingzeit um 2% und verursachen zusätzlichen Magieschaden in Höhe von 100% des ANG.",
+      "1": "Die Dauer von [Schock] wird auf 8 Sek. geändert. Normale Angriffe auf ein Ziel unter [Schock] reduzieren die Abklingzeit um 2.4% und verursachen zusätzlichen Magieschaden in Höhe von 100% des ANG.",
+      "2": "Die Dauer von [Schock] wird auf 8.5 Sek. geändert. Normale Angriffe auf ein Ziel unter [Schock] reduzieren die Abklingzeit um 2.8% und verursachen zusätzlichen Magieschaden in Höhe von 100% des ANG.",
+      "3": "Die Dauer von [Schock] wird auf 9 Sek. geändert. Normale Angriffe auf ein Ziel unter [Schock] reduzieren die Abklingzeit um 3.2% und verursachen zusätzlichen Magieschaden in Höhe von 100% des ANG.",
+      "4": "Die Dauer von [Schock] wird auf 9.5 Sek. geändert. Normale Angriffe auf ein Ziel unter [Schock] reduzieren die Abklingzeit um 3.6% und verursachen zusätzlichen Magieschaden in Höhe von 100% des ANG.",
+      "5": "Die Dauer von [Schock] wird auf 10 Sek. geändert. Normale Angriffe auf ein Ziel unter [Schock] reduzieren die Abklingzeit um 4% und verursachen zusätzlichen Magieschaden in Höhe von 100% des ANG."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Juwel der Verstärkung",
+      "description": "[Stromstoß!] verlängert das elektrische Feld um 2 Sek. Jeder Treffer erhöht die eigene Magie-VERT für 5 Sek. um {0}%. Bis zu 10-mal stapelbar.",
+      "thumbnail": "heroes/Sonia/ut/1.png",
+      "story": "Ein Juwel, das der Turm des Weisen Sonia zusammen mit dem Titel „die Blaue“ verliehen hat. Es hat eine besondere Funktion und kann Sonias Blitzenergie komprimieren und verstärken. Die Weisen im Turm haben ihr das Juwel überreicht, in der Hoffnung, dass sie bei ihnen bleiben würde. Dennoch verließ sie den Turm, da sie von der Existenz der Zauberer angewidert war. Sie ließ das Juwel im Turm zurück, doch während ihrer Reise bemerkte sie, dass es irgendwie in ihrer Tasche gelandet war.",
+      "value": {
+        "0": {
+          "0": "1.5",
+          "1": "1.8",
+          "2": "2.1",
+          "3": "2.4",
+          "4": "2.7",
+          "5": "3"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Stromstoß!] verlängert das elektrische Feld um 2 Sek. Jeder Treffer erhöht die eigene Magie-VERT für 5 Sek. um 1.5%. Bis zu 10-mal stapelbar.",
+        "1": "[Stromstoß!] verlängert das elektrische Feld um 2 Sek. Jeder Treffer erhöht die eigene Magie-VERT für 5 Sek. um 1.8%. Bis zu 10-mal stapelbar.",
+        "2": "[Stromstoß!] verlängert das elektrische Feld um 2 Sek. Jeder Treffer erhöht die eigene Magie-VERT für 5 Sek. um 2.1%. Bis zu 10-mal stapelbar.",
+        "3": "[Stromstoß!] verlängert das elektrische Feld um 2 Sek. Jeder Treffer erhöht die eigene Magie-VERT für 5 Sek. um 2.4%. Bis zu 10-mal stapelbar.",
+        "4": "[Stromstoß!] verlängert das elektrische Feld um 2 Sek. Jeder Treffer erhöht die eigene Magie-VERT für 5 Sek. um 2.7%. Bis zu 10-mal stapelbar.",
+        "5": "[Stromstoß!] verlängert das elektrische Feld um 2 Sek. Jeder Treffer erhöht die eigene Magie-VERT für 5 Sek. um 3%. Bis zu 10-mal stapelbar."
+      }
+    },
+    "2": {
+      "name": "Blitzzelt",
+      "description": "[Stromkraft!] wandelt die Magie-VERT-Erhöhung in eine ANG-Erhöhung um und erhöht bei einem Angriff den ANG für 5 Sek. um {0}%.",
+      "thumbnail": "heroes/Sonia/ut/2.png",
+      "story": "Ein Umhang, den Mirianne für Sonia hergestellt hat, indem sie Gefahren getrotzt hat. Es gab eine Zeit, in der Sonias Kleidung durch die Explosion der Energie verbrannt wurden, die durch ihren Körper strömt. Mirianne sah dies und pflückte die Ereth-Pflanze, von der es heißt, sich wachse, wenn sie vom Blitz getroffen wird. Sie nahm eine Pflanzenfaser und machte einen Umhang daraus. Sonia sah an Miriannes Händen die von der Elektrizität verursachten Blasen und weinte lange Zeit leise vor sich hin. Ein Kleidungsstück, das Sonia allein gehört und nirgends sonst zu finden ist.",
+      "value": {
+        "0": {
+          "0": "4",
+          "1": "4.8",
+          "2": "5.6",
+          "3": "3.4",
+          "4": "7.2",
+          "5": "8"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Stromkraft!] wandelt die Magie-VERT-Erhöhung in eine ANG-Erhöhung um und erhöht bei einem Angriff den ANG für 5 Sek. um 4%.",
+        "1": "[Stromkraft!] wandelt die Magie-VERT-Erhöhung in eine ANG-Erhöhung um und erhöht bei einem Angriff den ANG für 5 Sek. um 4.8%.",
+        "2": "[Stromkraft!] wandelt die Magie-VERT-Erhöhung in eine ANG-Erhöhung um und erhöht bei einem Angriff den ANG für 5 Sek. um 5.6%.",
+        "3": "[Stromkraft!] wandelt die Magie-VERT-Erhöhung in eine ANG-Erhöhung um und erhöht bei einem Angriff den ANG für 5 Sek. um 3.4%.",
+        "4": "[Stromkraft!] wandelt die Magie-VERT-Erhöhung in eine ANG-Erhöhung um und erhöht bei einem Angriff den ANG für 5 Sek. um 7.2%.",
+        "5": "[Stromkraft!] wandelt die Magie-VERT-Erhöhung in eine ANG-Erhöhung um und erhöht bei einem Angriff den ANG für 5 Sek. um 8%."
+      }
+    },
+    "3": {
+      "name": "Herz von Vaikal",
+      "description": "[Elektrische Explosion!] gewährt während des Wirkens Immunität gegen Kontrolleffekte. Jeder Treffer hat eine Chance von {0}%, 3 Stapel [Ladung] anzuwenden, auch auf Gegner unter [Schock].",
+      "thumbnail": "heroes/Sonia/ut/3.png",
+      "story": "Das Herz von Vaikal, der eine „heilige Bestie“ genannt wird. Er frisst die Elemente des Lichts und der Dunkelheit auf der Welt, weshalb sein Herz vom Zusammenstoß der beiden Elemente voller Donner ist. Wenn jemand Ungelerntes es berühren sollte, würde er von dessen Macht absorbiert werden. Aber Sonia, die aus dem Kern des Blitzes geschaffen wurde, absorbierte diese Macht und erhielt Mana jenseits aller Vorstellung.",
+      "value": {
+        "0": {
+          "0": "50",
+          "1": "60",
+          "2": "70",
+          "3": "80",
+          "4": "90",
+          "5": "100"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Elektrische Explosion!] gewährt während des Wirkens Immunität gegen Kontrolleffekte. Jeder Treffer hat eine Chance von 50%, 3 Stapel [Ladung] anzuwenden, auch auf Gegner unter [Schock].",
+        "1": "[Elektrische Explosion!] gewährt während des Wirkens Immunität gegen Kontrolleffekte. Jeder Treffer hat eine Chance von 60%, 3 Stapel [Ladung] anzuwenden, auch auf Gegner unter [Schock].",
+        "2": "[Elektrische Explosion!] gewährt während des Wirkens Immunität gegen Kontrolleffekte. Jeder Treffer hat eine Chance von 70%, 3 Stapel [Ladung] anzuwenden, auch auf Gegner unter [Schock].",
+        "3": "[Elektrische Explosion!] gewährt während des Wirkens Immunität gegen Kontrolleffekte. Jeder Treffer hat eine Chance von 80%, 3 Stapel [Ladung] anzuwenden, auch auf Gegner unter [Schock].",
+        "4": "[Elektrische Explosion!] gewährt während des Wirkens Immunität gegen Kontrolleffekte. Jeder Treffer hat eine Chance von 90%, 3 Stapel [Ladung] anzuwenden, auch auf Gegner unter [Schock].",
+        "5": "[Elektrische Explosion!] gewährt während des Wirkens Immunität gegen Kontrolleffekte. Jeder Treffer hat eine Chance von 100%, 3 Stapel [Ladung] anzuwenden, auch auf Gegner unter [Schock]."
+      }
+    },
+    "4": {
+      "name": "Blitzhandschuhe",
+      "description": "[Schock] erhöht den erlittenen Magieschaden betroffener Gegner um 60% und reduziert zusätzlich ihre Magie-VERT um {0}%.",
+      "thumbnail": "heroes/Sonia/ut/4.png",
+      "story": "Artefakte, die von Sonia persönlich hergestellt wurden und die gewaltige Blitzenergie enthalten, die ihr Herz generiert.\nAls sich der Kern von Vaikal in ihrem Inneren löste, lief Sonias Blitzenergie über und löste eine Explosion aus.\nSie konnte die Kraft nicht freisetzen, da sie Mirianne damit hätte verletzen können. Aus Sorge schlug ihr Mirianne vor, Artefakte herzustellen, die die Energie kontrollieren können.\nEs kostete Sonia viel Zeit, um Handschuhe herzustellen, die ihrer Blitzenergie widerstehen konnten.\nDas Ergebnis übertraf jedoch ihre kühnsten Vorstellungen.\nDank der Handschuhe konnte sie gewaltige Mengen Energie speichern und einsetzen, ohne sich Gedanken über eine mögliche Erschöpfung machen zu müssen.\nAußerdem schützen die Handschuhe Mirianne vor möglichen Explosionen, was Sonia extrem Stolz machte.",
+      "value": {
+        "0": {
+          "0": "15",
+          "1": "18",
+          "2": "21",
+          "3": "24",
+          "4": "27",
+          "5": "30"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Schock] erhöht den erlittenen Magieschaden betroffener Gegner um 60% und reduziert zusätzlich ihre Magie-VERT um 15%.",
+        "1": "[Schock] erhöht den erlittenen Magieschaden betroffener Gegner um 60% und reduziert zusätzlich ihre Magie-VERT um 18%.",
+        "2": "[Schock] erhöht den erlittenen Magieschaden betroffener Gegner um 60% und reduziert zusätzlich ihre Magie-VERT um 21%.",
+        "3": "[Schock] erhöht den erlittenen Magieschaden betroffener Gegner um 60% und reduziert zusätzlich ihre Magie-VERT um 24%.",
+        "4": "[Schock] erhöht den erlittenen Magieschaden betroffener Gegner um 60% und reduziert zusätzlich ihre Magie-VERT um 27%.",
+        "5": "[Schock] erhöht den erlittenen Magieschaden betroffener Gegner um 60% und reduziert zusätzlich ihre Magie-VERT um 30%."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn du [64ff64]90[-]-mal Schaden erleidest, wird dies aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von [Sturmauge, Yanadis], fügt Gegnern in einem breiten vorderen Bereich Magieschaden in Höhe von 300% des ANG zu und betäubt sie für 3 Sek. Erzeugt anschließend [Tobendes Magnetfeld] für 6 Sek. [Tobendes Magnetfeld]: Erhöht die Dauer der Kontrolleffekte auf Gegnern um 30%.",
+    "cooldown": "25",
+    "uses": "5",
+    "thumbnail": "heroes/Sonia/sw.png",
+    "advancement": {
+      "1": "Erhöht die Wirbelmagnetfeld-Dauer um 3 Sek.",
+      "2": "Fügt Gegnern in [Tobendes Magnetfeld] alle 1 Sek. Magieschaden in Höhe von 25% des ANG + 3% von Sonias max. LP zu."
+    },
+    "story": "Sonia spürte, dass ihre Kraft und die Kraft von Vaikal stärker wurden.\nManchmal fragte sie sich, ob sie sich mit ihrem Willen oder mit dem Willen von Vaikal bewegt.\nSie war besorgt, vom Willen von Vaikal kontrolliert zu werden, also musste sie etwas ändern.\n\nSie dachte daran, wer sie ist. Sonia, der Homunkulus, dessen Kern aus Vaikals Herz besteht.\nIhre Waffe ist das magische Instrument in Form des Kerns, das ihr Herz war.\nDie mächtige Waffe, die den mächtigen Donner auslösen kann und die Leistung ihres Herzens maximiert.\nEs ist das Meisterwerk, das einen gewissen Grad an Vollendung aufweist und das man als zweites Herz von Vaikal bezeichnen kann.\n\nSonia, die direkt magische Kraft zwischen dem Herzen von Vaikal und Yanadis ausübte, schloss die Augen und konzentrierte sich auf ihre Kraft.\nDie Göttliche Bestie, die sich aus dem schönen Donner des blauen Lichts zusammensetzt, fließt ewig.\nDas besondere Wesen, das sich von jedem anderen Wesen auf der Welt unterscheidet, heißt Vaikal.\nDiejenige, die Sonia zur Welt gebracht hat, ihre Beschützerin und eine echte Mutter ...\n\nSonia dachte an ihre Macht und öffnete ihre Augen. Sie schaut Vaikal zu, der sie sanft beobachtet."
+  },
+  "splashart": "heroes/Sonia/sa.png",
+  "costumes": "heroes/Sonia/cos",
+  "_localization": {
+    "locale": "de",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "id": "Theo",
+  "profile": {
+    "name": "Theo",
+    "title": "Königsritter Theo",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "4000",
+    "damage_type": "Magical",
+    "gender": "Männlich",
+    "age": "123",
+    "height": "194",
+    "race": "Menschen",
+    "constellation": "Armil, der Ehrwürdige",
+    "birth": {
+      "month": 4,
+      "day": 15,
+      "monthName": "Monat des Lebens"
+    },
+    "like": "Meine Dame; Jane",
+    "dislike": "Dämonen und deren Offiziere",
+    "story": "Ein Ritter, der vor 100 Jahren in den Diensten des Fürstentum Gray stand und ein Bewunderer von Jane Gray war. Theo war der Erste Ritter des Fürstentums und Führer des Blitz-Legios. Während der Schlacht gegen die Dämonenarmee wurde die Gebirgsfestung überrant da das Siegel gebrochen wurde. Auf Janes Befehl rückte Theo aus, es zu bergen. Während er fort war, attackierten mächtige Dämonenoffiziere den königlichen Palast. Theo kehrte um, um sie trotz schwerster Verletzungen zu bekämpfen, konnte sie jedoch nicht alleine besiegen. Als die Schlacht vorbei war, hielt er die Leiche der Prinzessin in seinen Armen und schrie seinen Schmerz durch die Ruinen des Palastes. Plötzlich bot ihm ein geheimnisvolles Wesen die Chance, seine Prinzessin für alle Ewigkeit zu verteidigen. Als er einwilligte, verfiel er in einen tiefen Schlaf.",
+    "thumbnail": "heroes/Theo/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Finaler Hieb",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Greift den Gegner 16 Mal für insgesamt??? Mag. Schaden an. Bei jedem Krit. Schlag erhöht sich der Krit. Schaden um 3 % für 10 Sek. Außerdem 30 %ige Chance ??? zusätzlichen Mag. Schaden zu verursachen und für 0,3 Sek. zu betäuben. Krit. Schaden kann sich bis zu 30 Mal kumulieren..",
+      "thumbnail": "heroes/Theo/skills/1.png"
+    },
+    "2": {
+      "name": "Blitzgott",
+      "cost": "2",
+      "cooldown": "20",
+      "description": "Versetzt bei Aktivierung in den „Blitzgott“ Zustand. Wirft einen Speer aus Blitzen auf den Gegner, um??? Mag. Schaden zu verursachen. Der getroffenen Gegner erleidet für 10 Sek. 50 % erhöhten Mag. Schaden. Im „Blitzgott“ Zustand wird 15 Sek. lang die „Für Jane“ Aktivierungsrate um 40 % und ANG um ??? erhöht.",
+      "thumbnail": "heroes/Theo/skills/2.png"
+    },
+    "3": {
+      "name": "Blitzexplosion",
+      "cost": "3",
+      "cooldown": "22",
+      "description": "Springt zu einem Gegner und rammt einen Speer in den Boden, der das Ziel und umstehende Gegner 5 Mal für ??? Mag. Schaden trifft und sie 3 Sek. lang betäubt.",
+      "thumbnail": "heroes/Theo/skills/3.png"
+    },
+    "4": {
+      "name": "Für Jane",
+      "cost": null,
+      "cooldown": null,
+      "description": "Jeder normale Angriff verursacht mit 20% Wahrscheinlichkeit ??? Magieschaden und betäubt für 0.7 Sek.",
+      "thumbnail": "heroes/Theo/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "ANG-Boost und Schaden werden um 10 % erhöht.",
+      "III": "ANG-Boost und Schaden werden um 15 % erhöht.",
+      "IV": "ANG-Boost und Schaden werden um 25 % erhöht."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht Schaden um 100 %, wenn nur 1 Feind auf dem Schlachtfeld ist.",
+          "thumbnail": "heroes/Theo/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Reduziert Cooldown um 2 Sek.",
+          "thumbnail": "heroes/Theo/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Theo/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht im Blitzgott-Status den ANG-Boost um 100 %.",
+          "thumbnail": "heroes/Theo/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Schaden ist um 40 % erhöht.",
+          "thumbnail": "heroes/Theo/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Betäubungszeit ist um 1 Sek. erhöht.",
+          "thumbnail": "heroes/Theo/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Schaden ist um 40 % erhöht.",
+          "thumbnail": "heroes/Theo/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Betäubungszeit ist um 0,2 Sek. erhöht.",
+          "thumbnail": "heroes/Theo/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Chance +100",
+        "thumbnail": "heroes/Theo/perks/light.png"
+      },
+      "dark": {
+        "effect": "Falls Mana bereits voll ist, wird ANG für 15 Sek. um 50 % erhöht. Dieser Effekt aktiviert sich nur alle 20 Sek.",
+        "thumbnail": "heroes/Theo/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Blitzschlag, Legios",
+    "description": "Mit jedem Normal-Angriff und mit jedem Skill-Angriff wird „Blitz“ gestapelt. Wenn 50 Stapel erreicht sind, wird „Blitzschlag, Legios“ aktiviert, was für 15 Sek. ANG-GESCHW. und VERT-Durchdr. um jeweils 300 und Krit. Schaden um 100 % erhöht. „Blitz“ wird im „Blitzschlag, Legios“ Zustand nicht gestapelt. Dieser Effekt kann nicht entfernt werden.",
+    "value": {},
+    "thumbnail": "heroes/Theo/uw.png",
+    "story": "Ein Speer, der angeblich aus einem Blitzschlag gefertigt wurde. Dieser beeindruckende und mannshohe Speer wird konstant von Elektrizität umflossen. Einen Speer aus einem Blitz zu schmieden war eine ungeheure Aufgabe. Doch Jin war auch kein normaler Schmied. Er schmolz einen riesigen Manastein, durchtränkt von Rotdrachenblut. Diesen verwendete er dazu, den Blitz zu bannen, ehe er ihn zu einem Speer schmiedete. Niemand außer seinem auserwählten Meister vermag es, diese Waffe zu berühren. Wenn seine zwei Teile vereinigt werden, wird ein riesiger Energiefluss freigesetzt, der Drachengebrüll gleicht.",
+    "descriptionByStar": {
+      "0": "Mit jedem Normal-Angriff und mit jedem Skill-Angriff wird „Blitz“ gestapelt. Wenn 50 Stapel erreicht sind, wird „Blitzschlag, Legios“ aktiviert, was für 15 Sek. ANG-GESCHW. und VERT-Durchdr. um jeweils 300 und Krit. Schaden um 100 % erhöht. „Blitz“ wird im „Blitzschlag, Legios“ Zustand nicht gestapelt. Dieser Effekt kann nicht entfernt werden.",
+      "1": "Mit jedem Normal-Angriff und mit jedem Skill-Angriff wird „Blitz“ gestapelt. Wenn 50 Stapel erreicht sind, wird „Blitzschlag, Legios“ aktiviert, was für 15 Sek. ANG-GESCHW. und VERT-Durchdr. um jeweils 360 und Krit. Schaden um 120 % erhöht. „Blitz“ wird im „Blitzschlag, Legios“ Zustand nicht gestapelt. Dieser Effekt kann nicht entfernt werden.",
+      "2": "Mit jedem Normal-Angriff und mit jedem Skill-Angriff wird „Blitz“ gestapelt. Wenn 50 Stapel erreicht sind, wird „Blitzschlag, Legios“ aktiviert, was für 15 Sek. ANG-GESCHW. und VERT-Durchdr. um jeweils 430 und Krit. Schaden um 144 % erhöht. „Blitz“ wird im „Blitzschlag, Legios“ Zustand nicht gestapelt. Dieser Effekt kann nicht entfernt werden.",
+      "3": "Mit jedem Normal-Angriff und mit jedem Skill-Angriff wird „Blitz“ gestapelt. Wenn 50 Stapel erreicht sind, wird „Blitzschlag, Legios“ aktiviert, was für 15 Sek. ANG-GESCHW. und VERT-Durchdr. um jeweils 520 und Krit. Schaden um 173 % erhöht. „Blitz“ wird im „Blitzschlag, Legios“ Zustand nicht gestapelt. Dieser Effekt kann nicht entfernt werden.",
+      "4": "Mit jedem Normal-Angriff und mit jedem Skill-Angriff wird „Blitz“ gestapelt. Wenn 50 Stapel erreicht sind, wird „Blitzschlag, Legios“ aktiviert, was für 15 Sek. ANG-GESCHW. und VERT-Durchdr. um jeweils 620 und Krit. Schaden um 208 % erhöht. „Blitz“ wird im „Blitzschlag, Legios“ Zustand nicht gestapelt. Dieser Effekt kann nicht entfernt werden.",
+      "5": "Mit jedem Normal-Angriff und mit jedem Skill-Angriff wird „Blitz“ gestapelt. Wenn 50 Stapel erreicht sind, wird „Blitzschlag, Legios“ aktiviert, was für 15 Sek. ANG-GESCHW. und VERT-Durchdr. um jeweils 750 und Krit. Schaden um 250 % erhöht. „Blitz“ wird im „Blitzschlag, Legios“ Zustand nicht gestapelt. Dieser Effekt kann nicht entfernt werden."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Pelzdekoration des Zobels",
+      "description": "[Finaler Hieb] entfernt alle eigenen negativen Effekte und hat eine Chance von 8 %, bei jedem Treffer alle positiven Effekte vom Ziel zu entfernen.",
+      "value": {},
+      "thumbnail": "heroes/Theo/ut/1.png",
+      "story": "Eine Dekoration, die als Glücksbringer dienen soll. Sie wurde aus dem Fell von Sereblos, dem heiligen Zobel, hergestellt.\nLegios’ elektrische Signale können den Körper an die Grenzen treiben. Das glänzende Fell des Zobels absorbiert den Rückstoß und erleichtert den Einsatz der Waffe für Theo erheblich. Sereblos’ Fell funktioniert wie ein Leiter, der Legios’ elektrische Signale auf den ganzen Körper aufteilt. Theos Adern werden dabei durch heilige Energie geschützt, sodass er bedenkenlos kämpfen kann, ohne seinen Körper zu verletzen.",
+      "descriptionByStar": {
+        "0": "[Finaler Hieb] entfernt alle eigenen negativen Effekte und hat eine Chance von 8 %, bei jedem Treffer alle positiven Effekte vom Ziel zu entfernen.",
+        "1": "[Finaler Hieb] entfernt alle eigenen negativen Effekte und hat eine Chance von 10 %, bei jedem Treffer alle positiven Effekte vom Ziel zu entfernen.",
+        "2": "[Finaler Hieb] entfernt alle eigenen negativen Effekte und hat eine Chance von 12 %, bei jedem Treffer alle positiven Effekte vom Ziel zu entfernen.",
+        "3": "[Finaler Hieb] entfernt alle eigenen negativen Effekte und hat eine Chance von 14 %, bei jedem Treffer alle positiven Effekte vom Ziel zu entfernen.",
+        "4": "[Finaler Hieb] entfernt alle eigenen negativen Effekte und hat eine Chance von 17 %, bei jedem Treffer alle positiven Effekte vom Ziel zu entfernen.",
+        "5": "[Finaler Hieb] entfernt alle eigenen negativen Effekte und hat eine Chance von 20 %, bei jedem Treffer alle positiven Effekte vom Ziel zu entfernen."
+      }
+    },
+    "2": {
+      "name": "Halskette des Blitzgottes",
+      "description": "[Blitzgott] erhöht die ANG-GESCHW. während der Wirkungsdauer um 250 und die Aktivierungschance von 'Für Jane' wird um zus. 8 % erhöht.",
+      "value": {},
+      "thumbnail": "heroes/Theo/ut/2.png",
+      "story": "Legios, der „Blitzschlag aus dem Himmel“ genannt wird, wird auch als „Heilige Bestie“ bezeichnet. \nDie Macht von Legios war so groß, dass das Fürstentum Gray sie nicht handhaben konnte, als sie eine Waffe daraus anfertigten. \nDer größte Teil wurde in den Speer der Blitze geschmiedet und die verbleibenden Teile wurden in anderen Orten eingesetzt. \nEines dieser Teile wurde in die Halskette des Blitzgottes eingelassen. man sagt, dass jeder, der diese Halskette trägt, mit dem Speer der Blitze kommunizieren kann und der Macht von Legios näher kommt.",
+      "descriptionByStar": {
+        "0": "[Blitzgott] erhöht die ANG-GESCHW. während der Wirkungsdauer um 250 und die Aktivierungschance von 'Für Jane' wird um zus. 8 % erhöht.",
+        "1": "[Blitzgott] erhöht die ANG-GESCHW. während der Wirkungsdauer um 250 und die Aktivierungschance von 'Für Jane' wird um zus. 9,6 % erhöht.",
+        "2": "[Blitzgott] erhöht die ANG-GESCHW. während der Wirkungsdauer um 250 und die Aktivierungschance von 'Für Jane' wird um zus. 11,5 % erhöht.",
+        "3": "[Blitzgott] erhöht die ANG-GESCHW. während der Wirkungsdauer um 250 und die Aktivierungschance von 'Für Jane' wird um zus. 13,8 % erhöht.",
+        "4": "[Blitzgott] erhöht die ANG-GESCHW. während der Wirkungsdauer um 250 und die Aktivierungschance von 'Für Jane' wird um zus. 16,5 % erhöht.",
+        "5": "[Blitzgott] erhöht die ANG-GESCHW. während der Wirkungsdauer um 250 und die Aktivierungschance von 'Für Jane' wird um zus. 20 % erhöht."
+      }
+    },
+    "3": {
+      "name": "Essenz des Roten Blitzes",
+      "description": "[Blitzexplosion] reduziert Skill-Cooldown um 30 % und verursacht 40 % des ANG als zus. Mag. Schaden beim Angriff.",
+      "value": {},
+      "thumbnail": "heroes/Theo/ut/3.png",
+      "story": "Erbe der gefallenen des Fürstentum Gray. Ein Schatz, den ein angesehener Palastzauberer des Fürstentum Gray dem ersten Ritter, Theo, anvertraute, dem auch „Blitz-Legios“ gegeben wurde. \nDie Blitzessenz, welche die Energie eines Blitzes enthält, maximiert den Effekt der Blitzexplosion.",
+      "descriptionByStar": {
+        "0": "[Blitzexplosion] reduziert Skill-Cooldown um 30 % und verursacht 40 % des ANG als zus. Mag. Schaden beim Angriff.",
+        "1": "[Blitzexplosion] reduziert Skill-Cooldown um 30 % und verursacht 48 % des ANG als zus. Mag. Schaden beim Angriff.",
+        "2": "[Blitzexplosion] reduziert Skill-Cooldown um 30 % und verursacht 58 % des ANG als zus. Mag. Schaden beim Angriff.",
+        "3": "[Blitzexplosion] reduziert Skill-Cooldown um 30 % und verursacht 70 % des ANG als zus. Mag. Schaden beim Angriff.",
+        "4": "[Blitzexplosion] reduziert Skill-Cooldown um 30 % und verursacht 84 % des ANG als zus. Mag. Schaden beim Angriff.",
+        "5": "[Blitzexplosion] reduziert Skill-Cooldown um 30 % und verursacht 100 % des ANG als zus. Mag. Schaden beim Angriff."
+      }
+    },
+    "4": {
+      "name": "Eine weitere Begräbnispuppe",
+      "description": "[Für Jane] erhöht die Aktivierungschance um 20 % und die eigene ANG-GESCHW. zu Beginn jedes Kampfes für 30 Sek. um 350.",
+      "value": {},
+      "thumbnail": "heroes/Theo/ut/4.png",
+      "story": "Eine Begräbnispuppe, die May auf Bitten von Theo angefertigt hat.\nTheo hat die Puppe, die genauso aussieht wie er, dort hingestellt, wo sich einst der Grabstein seiner ewigen Geliebten befand.\nSo kann er immer bei ihr sein, auch wenn die Zeit wieder vergeht und er selbst wieder zur Erde zurückkehrt.",
+      "descriptionByStar": {
+        "0": "[Für Jane] erhöht die Aktivierungschance um 20 % und die eigene ANG-GESCHW. zu Beginn jedes Kampfes für 30 Sek. um 350.",
+        "1": "[Für Jane] erhöht die Aktivierungschance um 24 % und die eigene ANG-GESCHW. zu Beginn jedes Kampfes für 30 Sek. um 350.",
+        "2": "[Für Jane] erhöht die Aktivierungschance um 29 % und die eigene ANG-GESCHW. zu Beginn jedes Kampfes für 30 Sek. um 350.",
+        "3": "[Für Jane] erhöht die Aktivierungschance um 35 % und die eigene ANG-GESCHW. zu Beginn jedes Kampfes für 30 Sek. um 350.",
+        "4": "[Für Jane] erhöht die Aktivierungschance um 42 % und die eigene ANG-GESCHW. zu Beginn jedes Kampfes für 30 Sek. um 350.",
+        "5": "[Für Jane] erhöht die Aktivierungschance um 50 % und die eigene ANG-GESCHW. zu Beginn jedes Kampfes für 30 Sek. um 350."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn du 100-mal Schaden erleidest, wird dies aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Blitzschlag Legios und greift Gegner in der Nähe 4-mal an. Pro Treffer wird ??? Mag. Schaden zugefügt und der Feind für 0.5 Sek. betäubt. Danach wird der ANG 10 Sek. lang um 30 % erhöht. Jede Sek. wird Legios Zorn aktiviert und allen zufälligen & in der Nähe liegenden Gegnern ??? Mag. Schaden zugefügt. Zusätzlich werden sie für 1 Sek. betäubt.",
+    "cooldown": "25",
+    "uses": "6",
+    "thumbnail": "heroes/Theo/sw.png",
+    "advancement": {
+      "1": "Gegner, die durch Legios Zorn getroffen werden, erleiden 5 Sek. lang 30 % mehr Mag. Schaden.",
+      "2": "Bei Aktivierung wird der Blitzschlag, Legios-Effekt aktiviert."
+    },
+    "story": "Die Seele von Legios, die ein Teil von Transzendent Thunderbolt ist, hat ihre Kraft verloren, die vom roten Drachenschmied im Speer gehalten wird.\nEs entschied sich lange zu schlafen, bis der wirkliche Besitzer, der für den Namen Transzendent qualifiziert ist, durch Resonanz mit der Seele von Theo geweckt wurde. Legios wurde erweckt und Theo spürte die enorme Seele, die sich in den beiden Schwertern befindet, und versuchte, die Wellenlänge anzupassen, aber als die Kraft von Legios wiederhergestellt wurde, setzte sie den Körper von Theo unter Druck.\nTheos Seele wurde offensichtlich durch die Veränderung der Wellenlänge von Legios ruiniert und durch das Wiedersehen mit der verlorenen Dame stabilisiert. Theo hat die Wellenlänge für ein wenig angepasst und die Seele von Legios wurde mit dem Aussehen eines echten Transzendenten wieder erweckt."
+  },
+  "splashart": "heroes/Theo/sa.png",
+  "costumes": "heroes/Theo/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "id": "Rehartna",
+  "profile": {
+    "name": "Rehartna",
+    "title": "Rehartna, Messagère aimable",
+    "class": "Priest",
+    "position": "Middle-300",
+    "attack_range": "4800",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "18",
+    "height": "159",
+    "race": "Humain",
+    "constellation": "Armil le Vénéré",
+    "birth": {
+      "month": 4,
+      "day": 26,
+      "monthName": "Mois de la Vie"
+    },
+    "like": "Famille, compagnons, quatre-quarts à l'orange, matériaux de qualité",
+    "dislike": "Petit frère s'emparant de la boîte à goûter, plans contenant des erreurs découvertes tardivement, personne irresponsable, ruban enchevêtré",
+    "story": "Propriétaire et artisane de l'atelier d'instruments de musique du nom de 'Aselerando', situé à la capitale de l'empire.\nPossédant un caractère enjoué et une voix aimable, elle a une bonne réputation auprès des clients par ses manières sincères.\nElle est reconnue pour ses compétences d'artisanat et une excellente gérance de clients habitués, chose étonnante pour son jeune âge. C'est une artisane ordinaire, en somme... cependant.\nEn réalité, elle fait partie de la Résistance.\nElle sert de messagère, en plus d'être chargée de collecter des informations. Sous prétexte des voyages d'affaires, elle traverse tout l'empire afin de transmettre les nouvelles.\nPar sa ponctualité rigoureuse et son respect de secret, ses compagnons lui accordent toute leur confiance.\nDe plus, l'arrière-salle de l'atelier est l'une des bases de la Résistance. Les résistants venus de divers endroits s'y réunissent pour échanger des nouvelles.",
+    "thumbnail": "heroes/Rehartna/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Feu ! Appareil générateur de l'Ultrason !",
+      "cost": "2",
+      "cooldown": "13",
+      "description": "Attaque à 4 reprises et inflige ??? DEG P au total aux ennemis en face en ligne droite. Chaque coup porté les étourdit pendant 3 sec et réduit leur taux d'ATQ de 25% pendant 10 sec.",
+      "thumbnail": "heroes/Rehartna/skills/1.png"
+    },
+    "2": {
+      "name": "Résonne en harmonie, Matimaruma !",
+      "cost": "2",
+      "cooldown": "17",
+      "description": "Soigne immédiatement ??? PV de l'allié aux PV les plus bas et génère un bouclier protecteur qui absorbe ??? de DEG pendant 10 sec. De plus, le bouclier protecteur immunise le bénéficiaire contre tous les contrôles. Pendant la durée de l'effet, les alliés situés à proximité du bouclier protecteur récupèrent ??? PV toutes les sec et leur DEF augmente de ???. Les ennemis situés à proximité du bouclier protecteur reçoivent ??? de DEG toutes les sec et leur Vitesse d'ATQ est réduite de 250.",
+      "thumbnail": "heroes/Rehartna/skills/2.png"
+    },
+    "3": {
+      "name": "Vous n'avez jamais vu une telle arme, n'est-ce pas ?",
+      "cost": "3",
+      "cooldown": "25",
+      "description": "Réduit le temps de recharge de toutes les compétences de 4 alliés aléatoires de 4 sec et restaure leur PM de 150 toutes les secondes, pendant 15 sec. Augmente également leur taux d'ATQ de ???. À chaque utilisation de la compétence, l'augmentation d'ATQ augmente de ??? supplémentaires.",
+      "thumbnail": "heroes/Rehartna/skills/3.png"
+    },
+    "4": {
+      "name": "Marche des Batailles",
+      "cost": null,
+      "cooldown": null,
+      "description": "Au début de chaque bataille, soigne les PV de tous les alliés de ??? points et augmente le taux de récupération de 10%. L'augmentation du taux de récupération est cumulable jusqu'à 3 fois et ne peut être dissipée.",
+      "thumbnail": "heroes/Rehartna/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente le Bouclier protecteur de 10%.",
+      "III": "Augmente le Bouclier protecteur de 15%.",
+      "IV": "Augmente le Bouclier protecteur de 25%."
+    },
+    "3": {
+      "II": "Augmente le taux d'augmentation d'ATQ de 10%.",
+      "III": "Augmente le taux d'augmentation d'ATQ de 15%.",
+      "IV": "Augmente le taux d'augmentation d'ATQ de 25%."
+    },
+    "4": {
+      "II": "Augmente les soins de 10%.",
+      "III": "Augmente les soins de 15%.",
+      "IV": "Augmente les soins de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Augmente le coût en PM de 1 et dissipe les effets positifs de la cible.",
+          "thumbnail": "heroes/Rehartna/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit la Pénétration DEF de la cible touchée de 250 pendant 10 sec.",
+          "thumbnail": "heroes/Rehartna/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit le coût de PM de 1.",
+          "thumbnail": "heroes/Rehartna/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG P reçus par les ennemis à portée de 25% pendant la durée de la compétence.",
+          "thumbnail": "heroes/Rehartna/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "L'effet de la compétence s'étend maintenant sur 6 alliés.",
+          "thumbnail": "heroes/Rehartna/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Réduit le temps de recharge de 7 sec.",
+          "thumbnail": "heroes/Rehartna/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Au début de chaque bataille, récupère 1000 PM.",
+          "thumbnail": "heroes/Rehartna/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG crit de tous les alliés de 12% par charge cumulée.",
+          "thumbnail": "heroes/Rehartna/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Résistance aux Contrôles +100",
+        "thumbnail": "heroes/Rehartna/perks/light.png"
+      },
+      "dark": {
+        "effect": "À chaque fois que le Héros utilise une compétence, augmente le taux d'ATQ de 4 alliés aléatoires de 3% et la DEF de 3%. Cet effet est cumulable jusqu'à 10 fois et ne peut être dissipé.",
+        "thumbnail": "heroes/Rehartna/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Matimaruma, le Chant de l'Ouvre-Chemin",
+    "description": "À chaque 3e utilisation de compétence, dissipe les effets négatifs sur tous les alliés et réduit leurs DEG reçus de {0}% pendant 10 sec.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
+    "thumbnail": "heroes/Rehartna/uw.png",
+    "story": "Ce n'est qu'un instrument, dont l'apparence est grande et complexe.\nMais la qualité de cet instrument en est ailleurs.\nEn remplaçant le composant de la partie qui produit le son, il se transforme en arme capable d'émettre de l'ultrason particulier.\nAprès le remplacement du composant, il suffit d'en jouer comme on jouerait d'un instrument de musique ordinaire, le rendant accessible à tous, ce qui est sa plus grande qualité.\nRehartna, découragée à l'idée d'être inutile lors des batailles, a créé cet instrument expérimental en déployant tous ses talents, dans l'espoir de venir en aide à ses compagnons.\nÀ présent, elle pense même à la fabrication en série de l'instrument, pour tout public.",
+    "descriptionByStar": {
+      "0": "À chaque 3e utilisation de compétence, dissipe les effets négatifs sur tous les alliés et réduit leurs DEG reçus de 10% pendant 10 sec."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Document confidentiel de la Résistance",
+      "description": "[Feu ! Appareil générateur de l'Ultrason !] Pendant la durée de la compétence, immunise contre les Contrôles et réduit le PM de la cible ennemie de {0} à chaque coup porté.",
+      "value": {
+        "0": {
+          "0": "140",
+          "1": "170",
+          "2": "210",
+          "3": "250",
+          "4": "300",
+          "5": "360"
+        }
+      },
+      "thumbnail": "heroes/Rehartna/ut/1.png",
+      "story": "Une petite lettre cachetée à la cire.\nElle contient les informations ou les nouvelles allant de la base de la capitale à celle située à l'extérieur, ou du sens contraire.\nDe par la particularité de l'organisation, la résistance préfère la transmission orale, mais parfois, certaines choses doivent être communiquées à l'écrit.\nRehartna agit à ce moment-là, car elle peut se déplacer librement à l'intérieur et à l'extérieur de la capitale, en prétextant qu'elle a des affaires concernant son atelier d'instruments de musique.\nLa lettre est déguisée en demande de fabrication d'instrument de musique, ou encore en courrier confidentiel traitant un contrat à coût élevé.\nPour rendre le déguisement crédible, Rehartna utilise une enveloppe et de la cire coûteuses.",
+      "descriptionByStar": {
+        "0": "[Feu ! Appareil générateur de l'Ultrason !] Pendant la durée de la compétence, immunise contre les Contrôles et réduit le PM de la cible ennemie de 140 à chaque coup porté."
+      }
+    },
+    "2": {
+      "name": "Appareil générateur de l'Ultrason",
+      "description": "[Résonne en harmonie, Matimaruma !] Augmente la Résistance Crit des alliés à proximité de {0} et restaure leur PM de 150 toutes les secondes.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Rehartna/ut/2.png",
+      "story": "Composant principal de Matimaruma.\nEn le remplaçant juste avant la bataille, l'instrument est transformé en arme.\nChaque composant émettant des ultrasons différents, ils sont peints de diverses couleurs afin de les différencier.\nCela remonte à l'époque où Rehartna était en plein développement de Matimaruma.\nLa fabrication de tous les autres composants était terminée sans le moindre ennui, à l'exception de ce composant, dont le rôle était pourtant le plus essentiel.\nLes compagnons de Rehartna, s'inquiétant du fait qu'elle se démenait pour trouver une solution, apportèrent toute la documentation qu'ils purent trouver.\nDans l'un des ouvrages qu'ils lui remirent, une note était placée entre les pages. Il y était écrit en termes aimables de ne pas tenter de tout régler seule, et de demander de l'aide, à n'importe quel moment.\nRehartna, encouragée par ces propos, put achever le développement des dispositifs d'émetteurs d'ultrason.\nIls ont été fabriqués par les techniques de technomagie, et les couleurs qu'ils revêtent reflètent les sentiments de reconnaissance envers les compagnons qui l'ont aidée.",
+      "descriptionByStar": {
+        "0": "[Résonne en harmonie, Matimaruma !] Augmente la Résistance Crit des alliés à proximité de 100 et restaure leur PM de 150 toutes les secondes."
+      }
+    },
+    "3": {
+      "name": "Partition de Medley",
+      "description": "[Vous n'avez jamais vu une telle arme, n'est-ce pas ?] Réduit le temps de recharge de toutes les compétences de {0} sec supplémentaires et immunise la cible aux Contrôles pendant 5 sec.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
+      "thumbnail": "heroes/Rehartna/ut/3.png",
+      "story": "Dans l'arrière-salle d'Aselerando, l'atelier d'instruments de musique, un concert est organisé le soir, à quelques jours d'intervalle.\nBien entendu, ce n'est qu'une apparence, car le véritable but est de dissimuler la réunion des résistants qui y échangent des informations.\nSi c'est un concert et non un bal, c'est pour masquer efficacement les voix par le son des instruments de musique. Cela est possible parce que l'endroit est un atelier d'instruments de musique.\nSi la musique s'interrompt trop souvent, la conversation, également interrompue, peut perdre toute cohérence, alors Rehartna a collectionné plusieurs partitions, lui permettant de jouer longuement des medleys.\nUne fois commencées, les mélodies se poursuivent pendant des heures, ce qui lui est d'une grande aide.",
+      "descriptionByStar": {
+        "0": "[Vous n'avez jamais vu une telle arme, n'est-ce pas ?] Réduit le temps de recharge de toutes les compétences de 1 sec supplémentaires et immunise la cible aux Contrôles pendant 5 sec."
+      }
+    },
+    "4": {
+      "name": "Dessin de Dragon",
+      "description": "[Marche des Batailles] Augmente le nombre max de charge cumulable à 6 et les DEG infligés au boss de {0}% par charge.",
+      "value": {
+        "0": {
+          "0": "3",
+          "1": "3.6",
+          "2": "4.3",
+          "3": "5.2",
+          "4": "6.2",
+          "5": "7.5"
+        }
+      },
+      "thumbnail": "heroes/Rehartna/ut/4.png",
+      "story": "Dragon dessiné sur le papier à dessin. À cause de son ancienneté, les bords sont quelque peu froissés.\nC'était à l'époque où Rehartna venait d'entrer dans la résistance. Toutes les nuits, elle vivait d'incessants cauchemars où elle était poursuivie par quelqu'un, et cela avait nui à sa santé, la mettant en congé à demi-forcé. Profitant de ce temps libre, elle se mit à mettre de l'ordre dans son entrepôt, quand elle y trouva un vieux dessin. Même durant son enfance, Rehartna faisait des cauchemars lorsqu'elle était très angoissée. Afin de la consoler, son petit frère lui avait dessiné ceci, en lui disant que ce dragon, très puissant, allait la protéger même dans son rêve. En regardant le dessin, Rehartna se remémora de la raison pour laquelle elle était entrée dans la résistance. Elle le colla au chevet de son lit, et plus aucun cauchemar ne la tourmenta.",
+      "descriptionByStar": {
+        "0": "[Marche des Batailles] Augmente le nombre max de charge cumulable à 6 et les DEG infligés au boss de 3% par charge."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 5 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Matimaruma, le Chant de l'Ouvre-Chemin, ce qui augmente le taux d'ATQ de tous les alliés de 50% pendant 10 sec. Après 10 sec, inflige aux ennemis en face en ligne droite ??? DEG P et les renverse pendant 3 sec.",
+    "cooldown": "24",
+    "uses": "6",
+    "thumbnail": "heroes/Rehartna/sw.png",
+    "advancement": {
+      "1": "Augmente la Vitesse d'ATQ de tous les alliés de 400 pendant la durée de la compétence.",
+      "2": "Augmente les DEG P infligés aux ennemis de 50% pendant 15 sec."
+    },
+    "story": "Bien que Matimaruma soit un instrument expérimental, ses capacités se distinguaient de manière excellente.\nCependant, Rehartna ne se contenta pas de cela, et recherchait sans cesse les moyens de le renforcer.\nBien entendu, elle ne chercha pas seulement à le parfaire en tant qu'arme.\nPuisqu'elle fut avant tout un artisan, la qualité en tant qu'instrument de musique fut une affaire d'amour-propre.\nAtteindre une excellente performance en tant qu'arme et instrument de musique demanda des efforts et de la patience, mais cela ne posa aucun problème devant sa détermination à vouloir venir en aide.\nUn jour, alors que Rehartna continuait à concevoir divers instruments de musique, elle pensa qu'il était temps qu'elle fabrique l'instrument possédant la tonalité la plus grande et la plus riche qui put exister.\nC'était l'orgue, l'instrument capable de remplacer tout un orchestre. Ses recherches n'en finissaient pas, jalonnées de multiples échecs.\nElle parvint pourtant à parachever l'orgue tant souhaité.\nLa mélodie qu'il produisit remplissait l'espace d'une manière chaleureuse, et même Rehartna entendait cela pour la première fois.\nElle avait la certitude.\nQue cet orgue était le meilleur chef-d'œuvre qu'elle eut créé, et méritait tous les éloges imaginables.\nAlors que Rehartna se mit à pleurer de joie, l'orgue l'observait en silence.\nAvec l'étoile de l'aube se reposant sur lui."
+  },
+  "splashart": "heroes/Rehartna/sa.png",
+  "costumes": "heroes/Rehartna/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

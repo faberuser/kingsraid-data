@@ -1,0 +1,1862 @@
+{
+  "classes": {
+    "Archer": {
+      "perks": {
+        "t2": {
+          "Precision Shot": "Erhöht ANG um 15 % und Genauigkeit um 120.",
+          "Eagle Eye": "Erhöht die VTD-Durchdringung aller Verbündeten um 60 und ihre Genauigkeit um 60. Besitzt ein weiterer Verbündeter dasselbe Talent, werden nur weitere 30 VTD-Durchdringung und 30 Genauigkeit angewendet.",
+          "Mortal Wound": "Senkt bei einem kritischen Treffer die Heilung des Gegners für 10 Sek. um 24 % und verursacht jede Sekunde physischen Dauerschaden in Höhe von 20 % des ANG. Nicht mit demselben Effekt anderer Verbündeter stapelbar.",
+          "Opportune Strike": "Erhöht die kritische Trefferchance um 185 und kritischen Schaden um 24 %.",
+          "Concentration": "Erhöht alle 5 Sek. den eigenen kritischen Schaden um 3 %. Bis zu 24-mal stapelbar und nicht entfernbar."
+        }
+      },
+      "perkNames": {
+        "Precision Shot": "Präzisionschuss",
+        "Eagle Eye": "Adlerauge",
+        "Mortal Wound": "Tödliche Wunde",
+        "Opportune Strike": "Entscheidender Stoß",
+        "Concentration": "Konzentration"
+      }
+    },
+    "Assassin": {
+      "perks": {
+        "t2": {
+          "Target Weakness": "Erhöht ANG um 15 % und VTD-Durchdringung um 120.",
+          "Swift and Nimble": "Erhöht sämtliches Ausweichen jede Sekunde um 50, bis zu 10-mal stapelbar. Wird nach erfolgreichem Ausweichen zurückgesetzt.",
+          "Tactical Foresight": "Erhöht sämtliches Ausweichen um 80 und senkt den erlittenen Schaden um 8 %.",
+          "Opportune Strike": "Erhöht die kritische Trefferchance um 185 und kritischen Schaden um 24 %.",
+          "Vital Detection": "Erhöht beim Angriff sämtlichen erlittenen Schaden des Ziels um 8 % und senkt sein Angriffstempo für 10 Sek. um 8 %. Wird einmal alle 3 Sek. aktiviert."
+        }
+      },
+      "perkNames": {
+        "Target Weakness": "Schwäche ausnutzen",
+        "Swift and Nimble": "Flink und wendig",
+        "Tactical Foresight": "Taktische Voraussicht",
+        "Opportune Strike": "Entscheidender Stoß",
+        "Vital Detection": "Schwachstelle erkennen"
+      }
+    },
+    "General": {
+      "perks": {
+        "t1": {
+          "ATK Up": "ANG steigt um 18 %.",
+          "HP Up": "LP steigen um 18 %.",
+          "DEF Up": "Alle VTD steigen um 18 %.",
+          "Crit Resist Up": "Die kritische Resistenz steigt um 150.",
+          "Monster Hunting": "Erhöht den Schaden gegen Gegner, die keine Helden sind, um 6.5 % und senkt den erlittenen Schaden um 6.5 %."
+        }
+      },
+      "perkNames": {
+        "ATK Up": "ANG +",
+        "HP Up": "TP +",
+        "DEF Up": "VERT erhöht",
+        "Crit Resist Up": "Krit. Widerstand erhöht",
+        "Monster Hunting": "Monsterjagd"
+      }
+    },
+    "Knight": {
+      "perks": {
+        "t2": {
+          "Experienced Fighter": "Angegriffene Ziele erleiden 16 % mehr Schaden. Nicht mit demselben Effekt anderer Verbündeter stapelbar.",
+          "Excellent Strategy": "Erhöht die Kontrollgenauigkeit aller Verbündeten um 100. Besitzt ein weiterer Verbündeter dasselbe Talent, wird nur weitere Kontrollgenauigkeit von 50 angewendet.",
+          "Battle Cry": "Erhöht die max. LP aller Verbündeten um 10 %. Besitzt ein weiterer Verbündeter dasselbe Talent, werden nur weitere 5 % max. LP angewendet.",
+          "Shield of Protection": "Erhöht sämtliches Blocken um 150 und Kontrollresistenz um 150.",
+          "Swift Move": "Erhöht das Angriffstempo um 12 % und die Genauigkeit um 120."
+        }
+      },
+      "perkNames": {
+        "Experienced Fighter": "Erfahrener Kämpfer",
+        "Excellent Strategy": "Segen des Ritters",
+        "Battle Cry": "Kriegsschrei",
+        "Shield of Protection": "Schutzschild",
+        "Swift Move": "Flinke Bewegung"
+      }
+    },
+    "Mechanic": {
+      "perks": {
+        "t2": {
+          "Target Weakness": "Erhöht ANG um 15 % und VTD-Durchdringung um 120.",
+          "Ready Cannons": "Die Manaregeneration pro Sekunde steigt pro Gegner um 27 %.",
+          "Pressure Point": "Erhöht die eigene kritische Trefferchance um 350.",
+          "Special Bullet": "Angegriffene Ziele verlieren 10 % ANG und 100 kritische Trefferchance. Nicht mit Effekten anderer Verbündeter stapelbar.",
+          "Amplified Gunpowder": "Erhöht den kritischen Schaden aller Verbündeten um 12 %. Besitzt ein weiterer Verbündeter dasselbe Talent, werden nur weitere 4 % angewendet."
+        }
+      },
+      "perkNames": {
+        "Target Weakness": "Schwäche ausnutzen",
+        "Ready Cannons": "Kanonen vorbereiten",
+        "Pressure Point": "Druckpunkt",
+        "Special Bullet": "Spezialkugel",
+        "Amplified Gunpowder": "Verstärktes Schießpulver"
+      }
+    },
+    "Priest": {
+      "perks": {
+        "t2": {
+          "Vengeful Curse": "Beim Treffer durch Gegner wird dessen ANG für 3 Sek. um 70 % reduziert. Effekt aktiviert sich nur alle 40 Sek. und kann nicht entfernt werden.",
+          "Goddess Blessing": "Erhöht die kritische Trefferchance aller Verbündeten um 90. Besitzt ein weiterer Verbündeter dasselbe Talent, wird nur ein weiterer Bonus von 45 angewendet.",
+          "Inner Peace": "Alle Verbündeten regenerieren 1 % LP pro Sekunde und erhalten 60 Kontrollresistenz. Besitzt ein weiterer Verbündeter dasselbe Talent, werden nur weitere 0.5 % LP-Regeneration pro Sekunde und 30 Kontrollresistenz angewendet.",
+          "Blessing of Mana": "Die Manaregeneration pro Sekunde steigt um 60 %.",
+          "Swiftness": "Erhöht das Angriffstempo aller Verbündeten um 60. Besitzt ein weiterer Verbündeter dasselbe Talent, wird nur ein weiterer Bonus von 30 angewendet."
+        }
+      },
+      "perkNames": {
+        "Vengeful Curse": "Rachefluch",
+        "Goddess Blessing": "Segen der Göttin",
+        "Inner Peace": "Innerer Frieden",
+        "Blessing of Mana": "Mana-Segen",
+        "Swiftness": "Schnelle"
+      }
+    },
+    "Warrior": {
+      "perks": {
+        "t2": {
+          "Opportune Strike": "Erhöht die kritische Trefferchance um 185 und kritischen Schaden um 24 %.",
+          "Warlike": "Erhöht ANG um 6 % und Kontrollresistenz um 30 pro Gegner. Bis zu 5-mal stapelbar.",
+          "Offensive Guard": "ANG steigt um 25 % der physischen VTD. Der erlittene physische Schaden sinkt um 15 %.",
+          "Tactical Foresight": "Erhöht sämtliches Ausweichen um 80 und senkt den erlittenen Schaden um 8 %.",
+          "Blood Wrath": "Erhöht Lebensraub um 60 und Angriffstempo um 12 %."
+        }
+      },
+      "perkNames": {
+        "Opportune Strike": "Entscheidender Stoß",
+        "Warlike": "Kriegsnarr",
+        "Offensive Guard": "Offensive Verteidigung",
+        "Tactical Foresight": "Taktische Voraussicht",
+        "Blood Wrath": "Blutzorn"
+      }
+    },
+    "Wizard": {
+      "perks": {
+        "t2": {
+          "Deception": "Ist nach erlittenem Schaden gegen die nächsten 3 Schadenstreffer immun. Der Effekt aktiviert sich alle 40 Sek.",
+          "Moral Rise": "Erhöht ANG aller Verbündeten um 7 %. Besitzt ein weiterer Verbündeter dasselbe Talent, werden nur weitere 3.5 % ANG angewendet.",
+          "Blessing of Mana": "Die Manaregeneration pro Sekunde steigt um 60 %.",
+          "Circuit Burst": "Der erlittene Schaden steigt um 15 %, aber ANG steigt um 35 % und Genauigkeit um 150.",
+          "Destruction": "Erhöht die kritische Trefferchance um 185 und VTD-Durchdringung um 120."
+        }
+      },
+      "perkNames": {
+        "Deception": "Täuschung",
+        "Moral Rise": "Moralschub",
+        "Blessing of Mana": "Mana-Segen",
+        "Circuit Burst": "Kreislauf brechen",
+        "Destruction": "Vernichtung"
+      }
+    }
+  },
+  "artifacts": [
+    {
+      "id": "Burning Brazier of Elf",
+      "name": "Brennendes Kohlebecken der Elfen",
+      "description": "{0} % Chance, bei einem Angriff 1 Mana-Kugel zu regenerieren.",
+      "value": {
+        "0": "10, 12, 14, 17, 20, 25"
+      },
+      "thumbnail": "artifacts/Burning Brazier of Elf.png",
+      "story": "Ein geheimnisvolles Becken, hergestellt von antiken Elfen, um Mutter Natur zu huldigen. Es ist der Inbegriff ihrer Magie und kann eine unendliche Menge Mana produzieren.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "10 % Chance, bei einem Angriff 1 Mana-Kugel zu regenerieren.",
+        "1": "12 % Chance, bei einem Angriff 1 Mana-Kugel zu regenerieren.",
+        "2": "14 % Chance, bei einem Angriff 1 Mana-Kugel zu regenerieren.",
+        "3": "17 % Chance, bei einem Angriff 1 Mana-Kugel zu regenerieren.",
+        "4": "20 % Chance, bei einem Angriff 1 Mana-Kugel zu regenerieren.",
+        "5": "25 % Chance, bei einem Angriff 1 Mana-Kugel zu regenerieren."
+      }
+    },
+    {
+      "id": "Drinking Horn of Ancient Cow",
+      "name": "Trinkhorn der uralten Kuh",
+      "description": "10 % Chance, bei einem Normal Angriff den ANG um {0} % und ANG-GESCHW. um {1} für 10 Sek. zu erhöhen.",
+      "value": {
+        "0": "10, 12, 14, 17, 20, 25",
+        "1": "100, 120, 140, 170, 200, 250"
+      },
+      "thumbnail": "artifacts/Drinking Horn of Ancient Cow.png",
+      "story": "Ein Glas, das aus dem Horn eines heiligen Stieres hergestellt wurde, der den Himmel durchstreift. Ein magisches Trinkhorn, dass den Inbegriff des Reichtums verkörpert.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "10 % Chance, bei einem Normal Angriff den ANG um 10 % und ANG-GESCHW. um 100 für 10 Sek. zu erhöhen.",
+        "1": "10 % Chance, bei einem Normal Angriff den ANG um 12 % und ANG-GESCHW. um 120 für 10 Sek. zu erhöhen.",
+        "2": "10 % Chance, bei einem Normal Angriff den ANG um 14 % und ANG-GESCHW. um 140 für 10 Sek. zu erhöhen.",
+        "3": "10 % Chance, bei einem Normal Angriff den ANG um 17 % und ANG-GESCHW. um 170 für 10 Sek. zu erhöhen.",
+        "4": "10 % Chance, bei einem Normal Angriff den ANG um 20 % und ANG-GESCHW. um 200 für 10 Sek. zu erhöhen.",
+        "5": "10 % Chance, bei einem Normal Angriff den ANG um 25 % und ANG-GESCHW. um 250 für 10 Sek. zu erhöhen."
+      }
+    },
+    {
+      "id": "Dice of Magical Letters",
+      "name": "Magische Würfel",
+      "description": "3 % Chance, bei einem Angriff zusätzlich {0} % Mag. Schaden zuzufügen.",
+      "value": {
+        "0": "400, 480, 575, 690, 830, 1000"
+      },
+      "thumbnail": "artifacts/Dice of Magical Letters.png",
+      "story": "Ein Formwerkzeug, das in einer antiken Zivilisation zur Weissagung verwendet wurde. Jede Seite ist mit geheimnisvollen, unlesbaren Buchstaben graviert.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "3 % Chance, bei einem Angriff zusätzlich 400 % Mag. Schaden zuzufügen.",
+        "1": "3 % Chance, bei einem Angriff zusätzlich 480 % Mag. Schaden zuzufügen.",
+        "2": "3 % Chance, bei einem Angriff zusätzlich 575 % Mag. Schaden zuzufügen.",
+        "3": "3 % Chance, bei einem Angriff zusätzlich 690 % Mag. Schaden zuzufügen.",
+        "4": "3 % Chance, bei einem Angriff zusätzlich 830 % Mag. Schaden zuzufügen.",
+        "5": "3 % Chance, bei einem Angriff zusätzlich 1000 % Mag. Schaden zuzufügen."
+      }
+    },
+    {
+      "id": "Golden Cat Statue",
+      "name": "Goldene Katzenstatue",
+      "description": "Erhöht die ANG-GESCHW. um {0} zu jedem Kampfbeginn für 15 Sek.",
+      "value": {
+        "0": "400, 480, 570, 690, 830, 1000"
+      },
+      "thumbnail": "artifacts/Golden Cat Statue.png",
+      "story": "Eine seltsame goldene Statue in Gestalt einer goldenen Katze, dem Symbol des Glücks. Manchmal sieht es so aus, als würde die Katze mit der Pfote winken.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Erhöht die ANG-GESCHW. um 400 zu jedem Kampfbeginn für 15 Sek.",
+        "1": "Erhöht die ANG-GESCHW. um 480 zu jedem Kampfbeginn für 15 Sek.",
+        "2": "Erhöht die ANG-GESCHW. um 570 zu jedem Kampfbeginn für 15 Sek.",
+        "3": "Erhöht die ANG-GESCHW. um 690 zu jedem Kampfbeginn für 15 Sek.",
+        "4": "Erhöht die ANG-GESCHW. um 830 zu jedem Kampfbeginn für 15 Sek.",
+        "5": "Erhöht die ANG-GESCHW. um 1000 zu jedem Kampfbeginn für 15 Sek."
+      }
+    },
+    {
+      "id": "Pocket Watch of Ancient Civilization",
+      "name": "Antike Taschenuhr",
+      "description": "Reduziert alle 10 Sek. alle Cooldowns um {0} Sek. und erhöht ANG-GESCHW. für 5 Sek. um {1}.",
+      "value": {
+        "0": "1, 1.2, 1.4, 1.7, 2, 2.5",
+        "1": "80, 96, 115, 138, 165, 200"
+      },
+      "thumbnail": "artifacts/Pocket Watch of Ancient Civilization.png",
+      "story": "Eine Taschenuhr, die die Zeit vorspulen kann, um einen kurzen Blick auf jemandes Schicksal zu erlauben. Übermäßiger Gebrauch kann sich allerdings als gefährlich herausstellen.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Reduziert alle 10 Sek. alle Cooldowns um 1 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 80.",
+        "1": "Reduziert alle 10 Sek. alle Cooldowns um 1,2 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 96.",
+        "2": "Reduziert alle 10 Sek. alle Cooldowns um 1,4 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 115.",
+        "3": "Reduziert alle 10 Sek. alle Cooldowns um 1,7 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 138.",
+        "4": "Reduziert alle 10 Sek. alle Cooldowns um 2 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 165.",
+        "5": "Reduziert alle 10 Sek. alle Cooldowns um 2,5 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 200."
+      }
+    },
+    {
+      "id": "Primer for the Heroes",
+      "name": "Elementarbuch für Helden",
+      "description": "Fallen die TP unter 20 %, erhöht sich ANG um {0} %. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um {1}.",
+      "value": {
+        "0": "30, 36, 43, 51, 62, 75",
+        "1": "300, 360, 430, 510, 620, 750"
+      },
+      "thumbnail": "artifacts/Primer for the Heroes.png",
+      "story": "Dieses Lehrbuch, in dem die Geschichten alter Helden gesammelt sind, ist für neue Helden wie eine Bibel. Es ist in antiker Schrift verfasst.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Fallen die TP unter 20 %, erhöht sich ANG um 30 %. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um 300.",
+        "1": "Fallen die TP unter 20 %, erhöht sich ANG um 36 %. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um 360.",
+        "2": "Fallen die TP unter 20 %, erhöht sich ANG um 43 %. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um 430.",
+        "3": "Fallen die TP unter 20 %, erhöht sich ANG um 51 %. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um 510.",
+        "4": "Fallen die TP unter 20 %, erhöht sich ANG um 62 %. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um 620.",
+        "5": "Fallen die TP unter 20 %, erhöht sich ANG um 75%. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um 750."
+      }
+    },
+    {
+      "id": "The Ancient Scope",
+      "name": "Antikes Fernglas",
+      "description": "Bei 100% MP steigen Krit.-Chance und Präzision 10 Sek. lang um {0}. Abklingzeit: 20 Sek.",
+      "value": {
+        "0": "400, 480, 570, 690, 830, 1000"
+      },
+      "thumbnail": "artifacts/The Ancient Scope.png",
+      "story": "Ein Zielfernrohr, das von einem antiken Technomagier erschaffen wurde. Ein nützliches Werkzeug, mit dem selbst weit entfernte Objekte detailgenau begutachtet werden können.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Bei 100% MP steigen Krit.-Chance und Präzision 10 Sek. lang um 400. Abklingzeit: 20 Sek.",
+        "1": "Bei 100% MP steigen Krit.-Chance und Präzision 10 Sek. lang um 480. Abklingzeit: 20 Sek.",
+        "2": "Bei 100% MP steigen Krit.-Chance und Präzision 10 Sek. lang um 570. Abklingzeit: 20 Sek.",
+        "3": "Bei 100% MP steigen Krit.-Chance und Präzision 10 Sek. lang um 690. Abklingzeit: 20 Sek.",
+        "4": "Bei 100% MP steigen Krit.-Chance und Präzision 10 Sek. lang um 830. Abklingzeit: 20 Sek.",
+        "5": "Bei 100% MP steigen Krit.-Chance und Präzision 10 Sek. lang um 1000. Abklingzeit: 20 Sek."
+      }
+    },
+    {
+      "id": "Roaring Tiger Statue",
+      "name": "Brüllende Tigerstatue",
+      "description": "Wenn die LP auf 35% oder darunter fallen, erleiden Gegner in der Nähe Körp. Schaden in Höhe von 100% des ANG und werden niedergeschlagen. Ihr ANG sinkt 10 Sek. lang um {0}% und ihr ANG-Tempo um {1}. Abklingzeit: 30 Sek.",
+      "value": {
+        "0": "14, 16, 20, 24, 29, 35",
+        "1": "140, 160, 200, 240, 290, 350"
+      },
+      "thumbnail": "artifacts/Roaring Tiger Statue.png",
+      "story": "Eine unheimliche Goldstatue in Gestalt eines brüllenden Tigers. Bei bestimmten Bedingungen erwacht der Tiger zum Leben und sorgt in seiner Nähe für Angst und Schrecken.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Wenn die LP auf 35% oder darunter fallen, erleiden Gegner in der Nähe Körp. Schaden in Höhe von 100% des ANG und werden niedergeschlagen. Ihr ANG sinkt 10 Sek. lang um 14% und ihr ANG-Tempo um 140. Abklingzeit: 30 Sek.",
+        "1": "Wenn die LP auf 35% oder darunter fallen, erleiden Gegner in der Nähe Körp. Schaden in Höhe von 100% des ANG und werden niedergeschlagen. Ihr ANG sinkt 10 Sek. lang um 16% und ihr ANG-Tempo um 160. Abklingzeit: 30 Sek.",
+        "2": "Wenn die LP auf 35% oder darunter fallen, erleiden Gegner in der Nähe Körp. Schaden in Höhe von 100% des ANG und werden niedergeschlagen. Ihr ANG sinkt 10 Sek. lang um 20% und ihr ANG-Tempo um 200. Abklingzeit: 30 Sek.",
+        "3": "Wenn die LP auf 35% oder darunter fallen, erleiden Gegner in der Nähe Körp. Schaden in Höhe von 100% des ANG und werden niedergeschlagen. Ihr ANG sinkt 10 Sek. lang um 24% und ihr ANG-Tempo um 240. Abklingzeit: 30 Sek.",
+        "4": "Wenn die LP auf 35% oder darunter fallen, erleiden Gegner in der Nähe Körp. Schaden in Höhe von 100% des ANG und werden niedergeschlagen. Ihr ANG sinkt 10 Sek. lang um 29% und ihr ANG-Tempo um 290. Abklingzeit: 30 Sek.",
+        "5": "Wenn die LP auf 35% oder darunter fallen, erleiden Gegner in der Nähe Körp. Schaden in Höhe von 100% des ANG und werden niedergeschlagen. Ihr ANG sinkt 10 Sek. lang um 35% und ihr ANG-Tempo um 350. Abklingzeit: 30 Sek."
+      }
+    },
+    {
+      "id": "Golden Apple of a Goddess",
+      "name": "Goldener Apfel der Göttin",
+      "description": "Wenn die LP des Helden unter 25% fallen, stellt {0}% der max. LP wieder her und entfernt alle negativen Effekte. Wird nur 1-mal aktiviert.",
+      "value": {
+        "0": "30, 36, 43, 51, 62, 75"
+      },
+      "thumbnail": "artifacts/Golden Apple of a Goddess.png",
+      "story": "Es heißt, dies wäre einer der von der Göttin verliehenen Relikte. Ein wundertätiges Heilmittel, mit dem angeblich jede Verletzung geheilt werden kann.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Wenn die LP des Helden unter 25% fallen, stellt 30% der max. LP wieder her und entfernt alle negativen Effekte. Wird nur 1-mal aktiviert.",
+        "1": "Wenn die LP des Helden unter 25% fallen, stellt 36% der max. LP wieder her und entfernt alle negativen Effekte. Wird nur 1-mal aktiviert.",
+        "2": "Wenn die LP des Helden unter 25% fallen, stellt 43% der max. LP wieder her und entfernt alle negativen Effekte. Wird nur 1-mal aktiviert.",
+        "3": "Wenn die LP des Helden unter 25% fallen, stellt 51% der max. LP wieder her und entfernt alle negativen Effekte. Wird nur 1-mal aktiviert.",
+        "4": "Wenn die LP des Helden unter 25% fallen, stellt 62% der max. LP wieder her und entfernt alle negativen Effekte. Wird nur 1-mal aktiviert.",
+        "5": "Wenn die LP des Helden unter 25% fallen, stellt 75% der max. LP wieder her und entfernt alle negativen Effekte. Wird nur 1-mal aktiviert."
+      }
+    },
+    {
+      "id": "Golden Mask of Ancient King",
+      "name": "Goldene Maske eines antiken Königs",
+      "description": "Bei erlittenem Schaden besteht eine Chance von 5%, {0} Sek. lang gegen jeglichen Schaden immun zu werden. Abklingzeit: 5 Sek.",
+      "value": {
+        "0": "3, 3.5, 4, 5, 6, 7.5"
+      },
+      "thumbnail": "artifacts/Golden Mask of Ancient King.png",
+      "story": "Eine goldene Maske, die einst vom Gottkönig der Wüste getragen wurde. Sie ist mit dem Zauber der absoluten Autorität verwunschen, um ihren Träger zu schützen.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Bei erlittenem Schaden besteht eine Chance von 5%, 3 Sek. lang gegen jeglichen Schaden immun zu werden. Abklingzeit: 5 Sek.",
+        "1": "Bei erlittenem Schaden besteht eine Chance von 5%, 3.5 Sek. lang gegen jeglichen Schaden immun zu werden. Abklingzeit: 5 Sek.",
+        "2": "Bei erlittenem Schaden besteht eine Chance von 5%, 4 Sek. lang gegen jeglichen Schaden immun zu werden. Abklingzeit: 5 Sek.",
+        "3": "Bei erlittenem Schaden besteht eine Chance von 5%, 5 Sek. lang gegen jeglichen Schaden immun zu werden. Abklingzeit: 5 Sek.",
+        "4": "Bei erlittenem Schaden besteht eine Chance von 5%, 6 Sek. lang gegen jeglichen Schaden immun zu werden. Abklingzeit: 5 Sek.",
+        "5": "Bei erlittenem Schaden besteht eine Chance von 5%, 7.5 Sek. lang gegen jeglichen Schaden immun zu werden. Abklingzeit: 5 Sek."
+      }
+    },
+    {
+      "id": "Madame's Bronze Mirrors",
+      "name": "Bronzespiegel einer Dame",
+      "description": "Erhöht Mag. Blockchance um {0} und verringert erlittenen Mag. Schaden um {1}.",
+      "value": {
+        "0": "300, 330, 360, 400, 440, 500",
+        "1": "100, 110, 120, 140, 160, 200"
+      },
+      "thumbnail": "artifacts/Madame's Bronze Mirrors.png",
+      "story": "Ein Bronzespiegel aus dem antiken, Technomagischen Königreich, der ein Geschenk eines versierten Zauberers an seine Frau war. Er trägt eine Runeninschrift zum Schutz einer geliebten Person.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Erhöht Mag. Blockchance um 300 und verringert erlittenen Mag. Schaden um 100.",
+        "1": "Erhöht Mag. Blockchance um 330 und verringert erlittenen Mag. Schaden um 110.",
+        "2": "Erhöht Mag. Blockchance um 360 und verringert erlittenen Mag. Schaden um 120.",
+        "3": "Erhöht Mag. Blockchance um 400 und verringert erlittenen Mag. Schaden um 140.",
+        "4": "Erhöht Mag. Blockchance um 440 und verringert erlittenen Mag. Schaden um 160.",
+        "5": "Erhöht Mag. Blockchance um 500 und verringert erlittenen Mag. Schaden um 200."
+      }
+    },
+    {
+      "id": "Sealed Chain of Ancient God",
+      "name": "Versiegelungskette eines Urgottes",
+      "description": "Bringt alle {0} Sek. einen zufälligen Feind {1} Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
+      "value": {
+        "0": "20, 19, 18, 17, 16, 15",
+        "1": "3, 3.5, 4, 4.5, 5, 6"
+      },
+      "thumbnail": "artifacts/Sealed Chain of Ancient God.png",
+      "story": "Eine Kette, die der Gottkönig der Wüste angeblich dazu verwendete, seine Sklaven zu fesseln. Jene, die von ihr zurückgehalten werden, können nicht widerstehen.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Bringt alle 20 Sek. einen zufälligen Feind 3 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
+        "1": "Bringt alle 19 Sek. einen zufälligen Feind 3.5 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
+        "2": "Bringt alle 18 Sek. einen zufälligen Feind 4 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
+        "3": "Bringt alle 17 Sek. einen zufälligen Feind 4.5 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
+        "4": "Bringt alle 16 Sek. einen zufälligen Feind 5 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
+        "5": "Bringt alle 15 Sek. einen zufälligen Feind 6 Sek. lang zum Schweigen und entfernt alle positiven Effekte."
+      }
+    },
+    {
+      "id": "Mask of Goblin",
+      "name": "Goblinmaske",
+      "description": "Erhöht Schaden gegen Goblins um {0} %, während der erhaltene Schaden um {1} % verringert wird.",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
+      "thumbnail": "artifacts/Mask of Goblin.png",
+      "story": "Eine Maske, die dem Gesicht eines Goblins nachempfunden ist. Eigentlich ganz hübsch.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Erhöht Schaden gegen Goblins um 40 %, während der erhaltene Schaden um 20 % verringert wird.",
+        "1": "Erhöht Schaden gegen Goblins um 48 %, während der erhaltene Schaden um 24 % verringert wird.",
+        "2": "Erhöht Schaden gegen Goblins um 57 %, während der erhaltene Schaden um 28 % verringert wird.",
+        "3": "Erhöht Schaden gegen Goblins um 69 %, während der erhaltene Schaden um 34 % verringert wird.",
+        "4": "Erhöht Schaden gegen Goblins um 83 %, während der erhaltene Schaden um 41 % verringert wird.",
+        "5": "Erhöht Schaden gegen Goblins um 100 %, während der erhaltene Schaden um 50 % verringert wird."
+      }
+    },
+    {
+      "id": "Mask of Harpy",
+      "name": "Harpienmaske",
+      "description": "Erhöht Schaden gegen Harpien um {0} %, während der erhaltene Schaden um {1} % verringert wird.",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
+      "thumbnail": "artifacts/Mask of Harpy.png",
+      "story": "Eine Maske, die dem Gesicht einer Harpie nachempfunden ist. Das Rauschen des Windes kann man förmlich hören.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Erhöht Schaden gegen Harpien um 40 %, während der erhaltene Schaden um 20 % verringert wird.",
+        "1": "Erhöht Schaden gegen Harpien um 48 %, während der erhaltene Schaden um 24 % verringert wird.",
+        "2": "Erhöht Schaden gegen Harpien um 57 %, während der erhaltene Schaden um 28 % verringert wird.",
+        "3": "Erhöht Schaden gegen Harpien um 69 %, während der erhaltene Schaden um 34 % verringert wird.",
+        "4": "Erhöht Schaden gegen Harpien um 83 %, während der erhaltene Schaden um 41 % verringert wird.",
+        "5": "Erhöht Schaden gegen Harpien um 100 %, während der erhaltene Schaden um 50 % verringert wird."
+      }
+    },
+    {
+      "id": "Mask of Orc",
+      "name": "Orkmaske",
+      "description": "Erhöht Schaden gegen Orks um {0} %, während der erhaltene Schaden um {1} % verringert wird.",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
+      "thumbnail": "artifacts/Mask of Orc.png",
+      "story": "Eine Maske, die dem Gesicht eines Orks nachempfunden ist. Sie erweckt animalische Kampflust.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Erhöht Schaden gegen Orks um 40 %, während der erhaltene Schaden um 20 % verringert wird.",
+        "1": "Erhöht Schaden gegen Orks um 48 %, während der erhaltene Schaden um 24 % verringert wird.",
+        "2": "Erhöht Schaden gegen Orks um 57 %, während der erhaltene Schaden um 28 % verringert wird.",
+        "3": "Erhöht Schaden gegen Orks um 69 %, während der erhaltene Schaden um 34 % verringert wird.",
+        "4": "Erhöht Schaden gegen Orks um 83 %, während der erhaltene Schaden um 41 % verringert wird.",
+        "5": "Erhöht Schaden gegen Orks um 100 %, während der erhaltene Schaden um 50 % verringert wird."
+      }
+    },
+    {
+      "id": "Undead Mask",
+      "name": "Maske der Untoten",
+      "description": "Erhöht Schaden gegen Untote um {0} %, während der erhaltene Schaden um {1} % verringert wird.",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
+      "thumbnail": "artifacts/Undead Mask.png",
+      "story": "Eine Maske, die dem Gesicht eines Skeletts nachempfunden ist. Sie riecht nach Tod.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Erhöht Schaden gegen Untote um 40 %, während der erhaltene Schaden um 20 % verringert wird.",
+        "1": "Erhöht Schaden gegen Untote um 48 %, während der erhaltene Schaden um 24 % verringert wird.",
+        "2": "Erhöht Schaden gegen Untote um 57 %, während der erhaltene Schaden um 28 % verringert wird.",
+        "3": "Erhöht Schaden gegen Untote um 69 %, während der erhaltene Schaden um 34 % verringert wird.",
+        "4": "Erhöht Schaden gegen Untote um 83 %, während der erhaltene Schaden um 41 % verringert wird.",
+        "5": "Erhöht Schaden gegen Untote um 100 %, während der erhaltene Schaden um 50 % verringert wird."
+      }
+    },
+    {
+      "id": "Soul Spring Water",
+      "name": "Seelenquellwasser",
+      "description": "Regeneriert zum Kampfbeginn {0} % TP und {1} % Mana.",
+      "value": {
+        "0": "24, 28, 34, 42, 50, 60",
+        "1": "12, 14, 17, 21, 25, 30"
+      },
+      "thumbnail": "artifacts/Soul Spring Water.png",
+      "story": "Es heißt, dass davon nur ein Tropfen in hundert Jahren aus der Seelenquelle läuft. Ein sehr seltenes und wirkungsvolles Wundermittel.",
+      "aliases": [
+        "ssw"
+      ],
+      "descriptionByStar": {
+        "0": "Regeneriert zum Kampfbeginn 24 % TP und 12 % Mana.",
+        "1": "Regeneriert zum Kampfbeginn 28 % TP und 14 % Mana.",
+        "2": "Regeneriert zum Kampfbeginn 34 % TP und 17 % Mana.",
+        "3": "Regeneriert zum Kampfbeginn 42 % TP und 21 % Mana.",
+        "4": "Regeneriert zum Kampfbeginn 50 % TP und 25 % Mana.",
+        "5": "Regeneriert zum Kampfbeginn 60 % TP und 30 % Mana."
+      }
+    },
+    {
+      "id": "Talismans of Resistance",
+      "name": "Talisman des Widerstands",
+      "description": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für {0} Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt {1} Sek.",
+      "value": {
+        "0": "1, 1.5, 2, 2.5, 3, 3.5",
+        "1": "20, 19, 18, 17, 16, 15"
+      },
+      "thumbnail": "artifacts/Talismans of Resistance.png",
+      "story": "Eine Reihe alter, exotischer Talismane, die schädliche Geister vertreiben. Hat man sie eine Weile in Gebrauch gehabt, werden sie wirkungslos.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 1 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 20 Sek.",
+        "1": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 1,5 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 19 Sek.",
+        "2": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 2 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 18 Sek.",
+        "3": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 2,5 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 17 Sek.",
+        "4": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 3 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 16 Sek.",
+        "5": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 3,5 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 15 Sek."
+      }
+    },
+    {
+      "id": "Judgment of Light Bracelet",
+      "name": "Armreif des Lichturteils",
+      "description": "Erhöht PRÄZ und Schwächung PRÄZ um {0}",
+      "value": {
+        "0": "300, 360, 430, 520, 630, 750"
+      },
+      "thumbnail": "artifacts/Judgment of Light Bracelet.png",
+      "story": "Ein gesegneter Armreif, erschaffen von den Heiligen Rittern der Kirche von Lua. Er ist ein antikes, magisches Werkzeug und es gibt heute nur noch einige wenige davon.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Erhöht PRÄZ und Schwächung PRÄZ um 300.",
+        "1": "Erhöht PRÄZ und Schwächung PRÄZ um 360",
+        "2": "Erhöht PRÄZ und Schwächung PRÄZ um 430.",
+        "3": "Erhöht PRÄZ und Schwächung PRÄZ um 520.",
+        "4": "Erhöht PRÄZ und Schwächung PRÄZ um 630.",
+        "5": "Erhöht PRÄZ und Schwächung PRÄZ um 750."
+      }
+    },
+    {
+      "id": "Earth Protection",
+      "name": "Erdschutz",
+      "description": "Erhalte am Anfang des Kampfes Massenkontroll-Immunität, sowie einen 50 % Boost für alle VERT von {0} Sek.",
+      "value": {
+        "0": "8, 10, 12, 14, 17, 20"
+      },
+      "thumbnail": "artifacts/Earth Protection.png",
+      "story": "Eine Miniaturversion eines der „Gesichter“ der Gebirgsfestung. Dieses schweigsame Gesicht lässt einen scharfen Verstand vermuten.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Erhalte am Anfang des Kampfes Massenkontroll-Immunität, sowie einen 50 % Boost für alle VERT von 8 Sek.",
+        "1": "Erhalte am Anfang des Kampfes Massenkontroll-Immunität, sowie einen 50 % Boost für alle VERT von 10 Sek.",
+        "2": "Erhalte am Anfang des Kampfes Massenkontroll-Immunität, sowie einen 50 % Boost für alle VERT von 12 Sek.",
+        "3": "Erhalte am Anfang des Kampfes Massenkontroll-Immunität, sowie einen 50 % Boost für alle VERT von 14 Sek.",
+        "4": "Erhalte am Anfang des Kampfes Massenkontroll-Immunität, sowie einen 50 % Boost für alle VERT von 17 Sek.",
+        "5": "Erhalte am Anfang des Kampfes Massenkontroll-Immunität, sowie einen 50 % Boost für alle VERT von 20 Sek."
+      }
+    },
+    {
+      "id": "Blessing of Earth",
+      "name": "Erdsegen",
+      "description": "Bei 1 Gegner steigt ANG um {0} %.",
+      "value": {
+        "0": "40, 48, 58, 69, 83, 100"
+      },
+      "thumbnail": "artifacts/Blessing of Earth.png",
+      "story": "Eine Miniaturversion eines der „Gesichter“ der Gebirgsfestung. Man kann die zornige und kriegerische Natur dieses wütenden Gesichts förmlich fühlen.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Bei 1 Gegner steigt ANG um 40 %.",
+        "1": "Bei 1 Gegner steigt ANG um 48 %.",
+        "2": "Bei 1 Gegner steigt ANG um 58 %.",
+        "3": "Bei 1 Gegner steigt ANG um 69 %.",
+        "4": "Bei 1 Gegner steigt ANG um 83 %.",
+        "5": "Bei 1 Gegner steigt ANG um 100 %."
+      }
+    },
+    {
+      "id": "Earth Core",
+      "name": "Erdkern",
+      "description": "ANG, TP und alle VERT steigen um {0} %.",
+      "value": {
+        "0": "10, 12, 14, 17, 20, 25"
+      },
+      "thumbnail": "artifacts/Earth Core.png",
+      "story": "Eine Miniaturversion des Kerns der Gebirgsfestung. Als unendliche Energiequelle verstärkt sie die Macht ihres Besitzers.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "ANG, TP und alle VERT steigen um 10 %.",
+        "1": "ANG, TP und alle VERT steigen um 12 %.",
+        "2": "ANG, TP und alle VERT steigen um 14 %.",
+        "3": "ANG, TP und alle VERT steigen um 17 %.",
+        "4": "ANG, TP und alle VERT steigen um 20 %.",
+        "5": "ANG, TP und alle VERT steigen um 25 %."
+      }
+    },
+    {
+      "id": "Earth Storm",
+      "name": "Erdensturm",
+      "description": "Wenn in Massenkontroll-Zustand stellt {0} MP wieder her, erhält 10 Sek. lang [Erdensturm] und erhöht alle Schäden, die die Gegner jede Sek. erhalten, um {1} %. In Arena aktiviert, fügt [Erdensturm] jede Sek. allen Gegnern in der Nähe Körp. Schaden in Höhe von 3 % der max. TP des Ziels. Dieser Effekt verursacht keinen Krit. Treffer. [Erdensturm]-Effekt erhält einen 20 Sek. Cooldown.",
+      "value": {
+        "0": "600, 700, 800, 1000, 1200, 1500",
+        "1": "12, 14, 17, 21, 25, 30"
+      },
+      "thumbnail": "artifacts/Earth Storm.png",
+      "story": "Eine Miniaturversion eines der „Gesichter“ der Gebirgsfestung. Dieses lebendige und prächtige Gesicht wirkt empfindsam und ist wunderschön.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Wenn in Massenkontroll-Zustand stellt 600 MP wieder her, erhält 10 Sek. lang [Erdensturm] und erhöht alle Schäden, die die Gegner jede Sek. erhalten, um 12 %. In Arena aktiviert, fügt [Erdensturm] jede Sek. allen Gegnern in der Nähe Körp. Schaden in Höhe von 3 % der max. TP des Ziels. Dieser Effekt verursacht keinen Krit. Treffer. [Erdensturm]-Effekt erhält einen 20 Sek. Cooldown.",
+        "1": "Wenn in Massenkontroll-Zustand stellt 700 MP wieder her, erhält 10 Sek. lang [Erdensturm] und erhöht alle Schäden, die die Gegner jede Sek. erhalten, um 14 %. In Arena aktiviert, fügt [Erdensturm] jede Sek. allen Gegnern in der Nähe Körp. Schaden in Höhe von 3 % der max. TP des Ziels. Dieser Effekt verursacht keinen Krit. Treffer. [Erdensturm]-Effekt erhält einen 20 Sek. Cooldown.",
+        "2": "Wenn in Massenkontroll-Zustand stellt 800 MP wieder her, erhält 10 Sek. lang [Erdensturm] und erhöht alle Schäden, die die Gegner jede Sek. erhalten, um 17 %. In Arena aktiviert, fügt [Erdensturm] jede Sek. allen Gegnern in der Nähe Körp. Schaden in Höhe von 3 % der max. TP des Ziels. Dieser Effekt verursacht keinen Krit. Treffer. [Erdensturm]-Effekt erhält einen 20 Sek. Cooldown.",
+        "3": "Wenn in Massenkontroll-Zustand stellt 1000 MP wieder her, erhält 10 Sek. lang [Erdensturm] und erhöht alle Schäden, die die Gegner jede Sek. erhalten, um 21 %. In Arena aktiviert, fügt [Erdensturm] jede Sek. allen Gegnern in der Nähe Körp. Schaden in Höhe von 3 % der max. TP des Ziels. Dieser Effekt verursacht keinen Krit. Treffer. [Erdensturm]-Effekt erhält einen 20 Sek. Cooldown.",
+        "4": "Wenn in Massenkontroll-Zustand stellt 1200 MP wieder her, erhält 10 Sek. lang [Erdensturm] und erhöht alle Schäden, die die Gegner jede Sek. erhalten, um 25 %. In Arena aktiviert, fügt [Erdensturm] jede Sek. allen Gegnern in der Nähe Körp. Schaden in Höhe von 3 % der max. TP des Ziels. Dieser Effekt verursacht keinen Krit. Treffer. [Erdensturm]-Effekt erhält einen 20 Sek. Cooldown.",
+        "5": "Wenn in Massenkontroll-Zustand stellt 1500 MP wieder her, erhält 10 Sek. lang [Erdensturm] und erhöht alle Schäden, die die Gegner jede Sek. erhalten, um 30 %. In Arena aktiviert, fügt [Erdensturm] jede Sek. allen Gegnern in der Nähe Körp. Schaden in Höhe von 3 % der max. TP des Ziels. Dieser Effekt verursacht keinen Krit. Treffer. [Erdensturm]-Effekt erhält einen 20 Sek. Cooldown."
+      }
+    },
+    {
+      "id": "Earth Fortress",
+      "name": "Erdfestung",
+      "description": "Verringert die Heilungsrate des Ziels um {0}%, wenn nur 1 Gegner übrig bleibt. Erhöht den eigenen Schaden gegen Bosse um {1}%. Dieser Effekt ist nicht mit Effekten anderer Verbündeter stapelbar.",
+      "value": {
+        "0": "10, 12, 14, 17, 21, 25",
+        "1": "10, 12, 14, 17, 21, 25"
+      },
+      "thumbnail": "artifacts/Earth Fortress.png",
+      "story": "Eine Miniaturversion eine der „Schultern“ der Gebirgsfestung. Durch die Kombination von Technomagie mit Stein und Holz, hat sie sowohl eine starke natürliche als auch künstliche Kraft.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Verringert die Heilungsrate des Ziels um 10%, wenn nur 1 Gegner übrig bleibt. Erhöht den eigenen Schaden gegen Bosse um 10%. Dieser Effekt ist nicht mit Effekten anderer Verbündeter stapelbar.",
+        "1": "Verringert die Heilungsrate des Ziels um 12%, wenn nur 1 Gegner übrig bleibt. Erhöht den eigenen Schaden gegen Bosse um 12%. Dieser Effekt ist nicht mit Effekten anderer Verbündeter stapelbar.",
+        "2": "Verringert die Heilungsrate des Ziels um 14%, wenn nur 1 Gegner übrig bleibt. Erhöht den eigenen Schaden gegen Bosse um 14%. Dieser Effekt ist nicht mit Effekten anderer Verbündeter stapelbar.",
+        "3": "Verringert die Heilungsrate des Ziels um 17%, wenn nur 1 Gegner übrig bleibt. Erhöht den eigenen Schaden gegen Bosse um 17%. Dieser Effekt ist nicht mit Effekten anderer Verbündeter stapelbar.",
+        "4": "Verringert die Heilungsrate des Ziels um 21%, wenn nur 1 Gegner übrig bleibt. Erhöht den eigenen Schaden gegen Bosse um 21%. Dieser Effekt ist nicht mit Effekten anderer Verbündeter stapelbar.",
+        "5": "Verringert die Heilungsrate des Ziels um 25%, wenn nur 1 Gegner übrig bleibt. Erhöht den eigenen Schaden gegen Bosse um 25%. Dieser Effekt ist nicht mit Effekten anderer Verbündeter stapelbar."
+      }
+    },
+    {
+      "id": "Trident of the Deep",
+      "name": "Dreizack der Tiefe",
+      "description": "Dem Gegner 100 Mal Schaden zuzufügen, erhöht ANG um {0} % und Krit. Chance um {1} für 15 Sek. Dieser Effekt kann nicht entfernt werden.",
+      "value": {
+        "0": "30, 36, 44, 53, 63, 75",
+        "1": "200, 240, 290, 350, 420, 500"
+      },
+      "thumbnail": "artifacts/Trident of the Deep.png",
+      "story": "Eine mystische Waffe, die dem Dreizack des Protianus nachempfunden ist. Sie trägt die Kraft des Wassers wie einen Tsunami in sich.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Dem Gegner 100 Mal Schaden zuzufügen, erhöht ANG um 30 % und Krit. Chance um 200 für 15 Sek. Dieser Effekt kann nicht entfernt werden.",
+        "1": "Dem Gegner 100 Mal Schaden zuzufügen, erhöht ANG um 36 % und Krit. Chance um 240 für 15 Sek. Dieser Effekt kann nicht entfernt werden.",
+        "2": "Dem Gegner 100 Mal Schaden zuzufügen, erhöht ANG um 44 % und Krit. Chance um 290 für 15 Sek. Dieser Effekt kann nicht entfernt werden.",
+        "3": "Dem Gegner 100 Mal Schaden zuzufügen, erhöht ANG um 53 % und Krit. Chance um 350 für 15 Sek. Dieser Effekt kann nicht entfernt werden.",
+        "4": "Dem Gegner 100 Mal Schaden zuzufügen, erhöht ANG um 63 % und Krit. Chance um 420 für 15 Sek. Dieser Effekt kann nicht entfernt werden.",
+        "5": "Dem Gegner 100 Mal Schaden zuzufügen, erhöht ANG um 75 % und Krit. Chance um 500 für 15 Sek. Dieser Effekt kann nicht entfernt werden."
+      }
+    },
+    {
+      "id": "Spellbound Ring of the Deep",
+      "name": "Verzauberter Ring der Tiefe",
+      "description": "Zu Beginn des Kampfes wird die ANG-GESCHW. von 1 Gegner für {0} Sek. auf 1000 begrenzt und sein ANG um {1}% reduziert.",
+      "value": {
+        "0": "8, 10, 12, 14, 17, 20",
+        "1": "20, 24, 29, 35, 42, 50"
+      },
+      "thumbnail": "artifacts/Spellbound Ring of the Deep.png",
+      "story": "Eine Miniaturversion des Rings des Protianus. Er ist mit einem Zauber verwunschen, der Feinde verflucht und ausschaltet.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Zu Beginn des Kampfes wird die ANG-GESCHW. von 1 Gegner für 8 Sek. auf 1000 begrenzt und sein ANG um 20% reduziert.",
+        "1": "Zu Beginn des Kampfes wird die ANG-GESCHW. von 1 Gegner für 10 Sek. auf 1000 begrenzt und sein ANG um 24% reduziert.",
+        "2": "Zu Beginn des Kampfes wird die ANG-GESCHW. von 1 Gegner für 12 Sek. auf 1000 begrenzt und sein ANG um 29% reduziert.",
+        "3": "Zu Beginn des Kampfes wird die ANG-GESCHW. von 1 Gegner für 14 Sek. auf 1000 begrenzt und sein ANG um 35% reduziert.",
+        "4": "Zu Beginn des Kampfes wird die ANG-GESCHW. von 1 Gegner für 17 Sek. auf 1000 begrenzt und sein ANG um 42% reduziert.",
+        "5": "Zu Beginn des Kampfes wird die ANG-GESCHW. von 1 Gegner für 20 Sek. auf 1000 begrenzt und sein ANG um 50% reduziert."
+      }
+    },
+    {
+      "id": "Guardian Crystal of the Deep",
+      "name": "Wächterkristall der Tiefe",
+      "description": "Beim Kampf gegen nur 1 Gegner wird die gesamte VERT um {0}% erhöht.",
+      "value": {
+        "0": "50, 60, 72, 86, 103, 125"
+      },
+      "thumbnail": "artifacts/Guardian Crystal of the Deep.png",
+      "story": "Ein blauer Edelstein, der sich einst in der Krone des Protianus befand. Dieser klare Edelstein verkörpert den Schutz.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Beim Kampf gegen nur 1 Gegner wird die gesamte VERT um 50% erhöht.",
+        "1": "Beim Kampf gegen nur 1 Gegner wird die gesamte VERT um 60% erhöht.",
+        "2": "Beim Kampf gegen nur 1 Gegner wird die gesamte VERT um 72% erhöht.",
+        "3": "Beim Kampf gegen nur 1 Gegner wird die gesamte VERT um 86% erhöht.",
+        "4": "Beim Kampf gegen nur 1 Gegner wird die gesamte VERT um 103% erhöht.",
+        "5": "Beim Kampf gegen nur 1 Gegner wird die gesamte VERT um 125% erhöht."
+      }
+    },
+    {
+      "id": "Nail Ornament of the Deep",
+      "name": "Nagelornament der Tiefe",
+      "description": "Mit jedem Kampfbeginn wird 200 Sek. lang die eigene VERT auf 0 gebracht und dem Boss zugefügter Schaden um {0} % erhöht. Dieser Effekt kann nicht entfernt werden.",
+      "value": {
+        "0": "20, 24, 29, 35, 42, 50"
+      },
+      "thumbnail": "artifacts/Nail Ornament of the Deep.png",
+      "story": "Eine Miniaturversion des Fingernagelschmucks des Protianus. Ein sündteures, magisches Artefakt, hergestellt aus verwunschenem Gold.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Mit jedem Kampfbeginn wird 200 Sek. lang die eigene VERT auf 0 gebracht und dem Boss zugefügter Schaden um 20 % erhöht. Dieser Effekt kann nicht entfernt werden.",
+        "1": "Mit jedem Kampfbeginn wird 200 Sek. lang die eigene VERT auf 0 gebracht und dem Boss zugefügter Schaden um 24 % erhöht. Dieser Effekt kann nicht entfernt werden.",
+        "2": "Mit jedem Kampfbeginn wird 200 Sek. lang die eigene VERT auf 0 gebracht und dem Boss zugefügter Schaden um 29 % erhöht. Dieser Effekt kann nicht entfernt werden.",
+        "3": "Mit jedem Kampfbeginn wird 200 Sek. lang die eigene VERT auf 0 gebracht und dem Boss zugefügter Schaden um 35 % erhöht. Dieser Effekt kann nicht entfernt werden.",
+        "4": "Mit jedem Kampfbeginn wird 200 Sek. lang die eigene VERT auf 0 gebracht und dem Boss zugefügter Schaden um 42 % erhöht. Dieser Effekt kann nicht entfernt werden.",
+        "5": "Mit jedem Kampfbeginn wird 200 Sek. lang die eigene VERT auf 0 gebracht und dem Boss zugefügter Schaden um 50 % erhöht. Dieser Effekt kann nicht entfernt werden."
+      }
+    },
+    {
+      "id": "Belt Ornament of the Deep",
+      "name": "Hüftornament der Tiefe",
+      "description": "Verringert zu Beginn des ersten Kampfes und alle 30 Sek. 3 Sek. lang den von allen Verbündeten erhaltenen gegnerischen Schaden um {0} %. Dieser Effekt kann nicht entfernt werden und ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar. Entfernt die negativen Effekte aller Verbündeten, immer wenn der Effekt beendet wird.",
+      "value": {
+        "0": "20, 24, 29, 35, 42, 50"
+      },
+      "thumbnail": "artifacts/Belt Ornament of the Deep.png",
+      "story": "Eine Miniaturversion des Hüftornaments des Protianus. Man kann den ruhigen Fluss der Energie ähnlich der tiefen Meeresströmung darin spüren.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Verringert zu Beginn des ersten Kampfes und alle 30 Sek. 3 Sek. lang den von allen Verbündeten erhaltenen gegnerischen Schaden um 20 %. Dieser Effekt kann nicht entfernt werden und ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar. Entfernt die negativen Effekte aller Verbündeten, immer wenn der Effekt beendet wird.",
+        "1": "Verringert zu Beginn des ersten Kampfes und alle 30 Sek. 3 Sek. lang den von allen Verbündeten erhaltenen gegnerischen Schaden um 24 %. Dieser Effekt kann nicht entfernt werden und ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar. Entfernt die negativen Effekte aller Verbündeten, immer wenn der Effekt beendet wird.",
+        "2": "Verringert zu Beginn des ersten Kampfes und alle 30 Sek. 3 Sek. lang den von allen Verbündeten erhaltenen gegnerischen Schaden um 29 %. Dieser Effekt kann nicht entfernt werden und ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar. Entfernt die negativen Effekte aller Verbündeten, immer wenn der Effekt beendet wird.",
+        "3": "Verringert zu Beginn des ersten Kampfes und alle 30 Sek. 3 Sek. lang den von allen Verbündeten erhaltenen gegnerischen Schaden um 35 %. Dieser Effekt kann nicht entfernt werden und ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar. Entfernt die negativen Effekte aller Verbündeten, immer wenn der Effekt beendet wird.",
+        "4": "Verringert zu Beginn des ersten Kampfes und alle 30 Sek. 3 Sek. lang den von allen Verbündeten erhaltenen gegnerischen Schaden um 42 %. Dieser Effekt kann nicht entfernt werden und ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar. Entfernt die negativen Effekte aller Verbündeten, immer wenn der Effekt beendet wird.",
+        "5": "Verringert zu Beginn des ersten Kampfes und alle 30 Sek. 3 Sek. lang den von allen Verbündeten erhaltenen gegnerischen Schaden um 50 %. Dieser Effekt kann nicht entfernt werden und ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar. Entfernt die negativen Effekte aller Verbündeten, immer wenn der Effekt beendet wird."
+      }
+    },
+    {
+      "id": "Abyssal Eye",
+      "name": "Auge des Abgrunds",
+      "description": "Nach Erleiden von Schaden wird beim Ziel Mag. Schaden in Höhe von {0} % des eigenen ANG verursacht und seine ANG-GESCHW. für 1.5 Sek. um {1} verringert. Nach Ablauf des ANG-GESCHW.-Reduktionseffekts wird das Ziel für {2} Sek. versteinert. Dieser Effekt wird nur einmal alle 30 Sek. aktiviert.",
+      "value": {
+        "0": "50, 60, 72, 86, 105, 125",
+        "1": "400, 480, 580, 700, 840, 1000",
+        "2": "2, 2.4, 2.9, 3.5, 4, 5"
+      },
+      "thumbnail": "artifacts/Abyssal Eye.png",
+      "story": "Die Quelle der Macht von Xanadus, der Göttin des Abgrunds. Die Pupille scheint sich zu bewegen, auch wenn sie aus dem Körper geschnitten wurde.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Nach Erleiden von Schaden wird beim Ziel Mag. Schaden in Höhe von 50 % des eigenen ANG verursacht und seine ANG-GESCHW. für 1,5 Sek. um 400 verringert. Nach Ablauf des ANG-GESCHW.-Reduktionseffekts wird das Ziel für 2 Sek. versteinert. Dieser Effekt wird nur einmal alle 30 Sek. aktiviert.",
+        "1": "Nach Erleiden von Schaden wird beim Ziel Mag. Schaden in Höhe von 60 % des eigenen ANG verursacht und seine ANG-GESCHW. für 1,5 Sek. um 480 verringert. Nach Ablauf des ANG-GESCHW.-Reduktionseffekts wird das Ziel für 2,4 Sek. versteinert. Dieser Effekt wird nur einmal alle 30 Sek. aktiviert.",
+        "2": "Nach Erleiden von Schaden wird beim Ziel Mag. Schaden in Höhe von 72 % des eigenen ANG verursacht und seine ANG-GESCHW. für 1,5 Sek. um 580 verringert. Nach Ablauf des ANG-GESCHW.-Reduktionseffekts wird das Ziel für 2,9 Sek. versteinert. Dieser Effekt wird nur einmal alle 30 Sek. aktiviert.",
+        "3": "Nach Erleiden von Schaden wird beim Ziel Mag. Schaden in Höhe von 86 % des eigenen ANG verursacht und seine ANG-GESCHW. für 1,5 Sek. um 700 verringert. Nach Ablauf des ANG-GESCHW.-Reduktionseffekts wird das Ziel für 3,5 Sek. versteinert. Dieser Effekt wird nur einmal alle 30 Sek. aktiviert.",
+        "4": "Nach Erleiden von Schaden wird beim Ziel Mag. Schaden in Höhe von 105 % des eigenen ANG verursacht und seine ANG-GESCHW. für 1,5 Sek. um 840 verringert. Nach Ablauf des ANG-GESCHW.-Reduktionseffekts wird das Ziel für 4 Sek. versteinert. Dieser Effekt wird nur einmal alle 30 Sek. aktiviert.",
+        "5": "Nach Erleiden von Schaden wird beim Ziel Mag. Schaden in Höhe von 125 % des eigenen ANG verursacht und seine ANG-GESCHW. für 1,5 Sek. um 1000 verringert. Nach Ablauf des ANG-GESCHW.-Reduktionseffekts wird das Ziel für 5 Sek. versteinert. Dieser Effekt wird nur einmal alle 30 Sek. aktiviert."
+      }
+    },
+    {
+      "id": "Abyssal Crown",
+      "name": "Krone des Abgrunds",
+      "description": "Erhöht 30 Sek. nach Kampfbeginn den ANG des Verbündeten mit dem höchsten ANG um {0} %. Dieser Effekt kann nicht entfernt werden und ist nicht mit anderen Effekten für Verbündete stapelbar.",
+      "value": {
+        "0": "30, 36, 43, 52, 63, 75"
+      },
+      "thumbnail": "artifacts/Abyssal Crown.png",
+      "story": "Haarschmuck der Göttin des Abgrunds Xanadus. Die schlangenförmige Krone sondert einen tödlichen Geruch ab.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Erhöht 30 Sek. nach Kampfbeginn den ANG des Verbündeten mit dem höchsten ANG um 30 %. Dieser Effekt kann nicht entfernt werden und ist nicht mit anderen Effekten für Verbündete stapelbar.",
+        "1": "Erhöht 30 Sek. nach Kampfbeginn den ANG des Verbündeten mit dem höchsten ANG um 36 %. Dieser Effekt kann nicht entfernt werden und ist nicht mit anderen Effekten für Verbündete stapelbar.",
+        "2": "Erhöht 30 Sek. nach Kampfbeginn den ANG des Verbündeten mit dem höchsten ANG um 43 %. Dieser Effekt kann nicht entfernt werden und ist nicht mit anderen Effekten für Verbündete stapelbar.",
+        "3": "Erhöht 30 Sek. nach Kampfbeginn den ANG des Verbündeten mit dem höchsten ANG um 52 %. Dieser Effekt kann nicht entfernt werden und ist nicht mit anderen Effekten für Verbündete stapelbar.",
+        "4": "Erhöht 30 Sek. nach Kampfbeginn den ANG des Verbündeten mit dem höchsten ANG um 63 %. Dieser Effekt kann nicht entfernt werden und ist nicht mit anderen Effekten für Verbündete stapelbar.",
+        "5": "Erhöht 30 Sek. nach Kampfbeginn den ANG des Verbündeten mit dem höchsten ANG um 75 %. Dieser Effekt kann nicht entfernt werden und ist nicht mit anderen Effekten für Verbündete stapelbar."
+      }
+    },
+    {
+      "id": "Abyssal Nail Ornament",
+      "name": "Nagelornament des Abgrunds",
+      "description": "Fügt dem Feind beim Angriff 10 Sek. lang alle 0.5 Sek. VERT ignorierenden Körp. Schaden in Höhe von {0} % des ANG zu. Dieser Effekt wird einmal alle 20 Sek. aktiviert.",
+      "value": {
+        "0": "4, 4.8, 5.8, 7, 8.4, 10"
+      },
+      "thumbnail": "artifacts/Abyssal Nail Ornament.png",
+      "story": "Nagelornament der Göttin des Abgrunds Xanadus. Es besteht aus einer Legierung unbekannter, aber besonderer Metalle.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Fügt dem Feind beim Angriff 10 Sek. lang alle 0,5 Sek. VERT ignorierenden Körp. Schaden in Höhe von 4 % des ANG zu. Dieser Effekt wird einmal alle 20 Sek. aktiviert.",
+        "1": "Fügt dem Feind beim Angriff 10 Sek. lang alle 0,5 Sek. VERT ignorierenden Körp. Schaden in Höhe von 4,8 % des ANG zu. Dieser Effekt wird einmal alle 20 Sek. aktiviert.",
+        "2": "Fügt dem Feind beim Angriff 10 Sek. lang alle 0,5 Sek. VERT ignorierenden Körp. Schaden in Höhe von 5,8 % des ANG zu. Dieser Effekt wird einmal alle 20 Sek. aktiviert.",
+        "3": "Fügt dem Feind beim Angriff 10 Sek. lang alle 0,5 Sek. VERT ignorierenden Körp. Schaden in Höhe von 7 % des ANG zu. Dieser Effekt wird einmal alle 20 Sek. aktiviert.",
+        "4": "Fügt dem Feind beim Angriff 10 Sek. lang alle 0,5 Sek. VERT ignorierenden Körp. Schaden in Höhe von 8,4 % des ANG zu. Dieser Effekt wird einmal alle 20 Sek. aktiviert.",
+        "5": "Fügt dem Feind beim Angriff 10 Sek. lang alle 0,5 Sek. VERT ignorierenden Körp. Schaden in Höhe von 10 % des ANG zu. Dieser Effekt wird einmal alle 20 Sek. aktiviert."
+      }
+    },
+    {
+      "id": "Heart of the Abyss",
+      "name": "Kern des Abgrunds",
+      "description": "Erhöht mit jedem Kampfbeginn 100 Sek. lang den ANG des Verbündeten mit dem höchsten Angriff um {0} % und verringert den ANG des Gegners mit dem höchsten ANG um 15 %. Die ANG-Erhöhung kann bis zu 5-mal gestapelt werden und alle Effekte können nicht entfernt werden.",
+      "value": {
+        "0": "8, 10, 12, 14, 17, 20"
+      },
+      "thumbnail": "artifacts/Heart of the Abyss.png",
+      "story": "Der Kern des Kristall, das die Göttin des Abgrunds Xanadus beschworen hat. Ein Klumpen magischer Kraft, der hell leuchtet und das Opfer verwirrt und zum Tod führt.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Erhöht mit jedem Kampfbeginn 100 Sek. lang den ANG des Verbündeten mit dem höchsten Angriff um 8 % und verringert den ANG des Gegners mit dem höchsten ANG um 15 %. Die ANG-Erhöhung kann bis zu 5-mal gestapelt werden und alle Effekte können nicht entfernt werden.",
+        "1": "Erhöht mit jedem Kampfbeginn 100 Sek. lang den ANG des Verbündeten mit dem höchsten Angriff um 10 % und verringert den ANG des Gegners mit dem höchsten ANG um 15 %. Die ANG-Erhöhung kann bis zu 5-mal gestapelt werden und alle Effekte können nicht entfernt werden.",
+        "2": "Erhöht mit jedem Kampfbeginn 100 Sek. lang den ANG des Verbündeten mit dem höchsten Angriff um 12 % und verringert den ANG des Gegners mit dem höchsten ANG um 15 %. Die ANG-Erhöhung kann bis zu 5-mal gestapelt werden und alle Effekte können nicht entfernt werden.",
+        "3": "Erhöht mit jedem Kampfbeginn 100 Sek. lang den ANG des Verbündeten mit dem höchsten Angriff um 14 % und verringert den ANG des Gegners mit dem höchsten ANG um 15 %. Die ANG-Erhöhung kann bis zu 5-mal gestapelt werden und alle Effekte können nicht entfernt werden.",
+        "4": "Erhöht mit jedem Kampfbeginn 100 Sek. lang den ANG des Verbündeten mit dem höchsten Angriff um 17 % und verringert den ANG des Gegners mit dem höchsten ANG um 15 %. Die ANG-Erhöhung kann bis zu 5-mal gestapelt werden und alle Effekte können nicht entfernt werden.",
+        "5": "Erhöht mit jedem Kampfbeginn 100 Sek. lang den ANG des Verbündeten mit dem höchsten Angriff um 20 % und verringert den ANG des Gegners mit dem höchsten ANG um 15 %. Die ANG-Erhöhung kann bis zu 5-mal gestapelt werden und alle Effekte können nicht entfernt werden."
+      }
+    },
+    {
+      "id": "Abyssal Breath",
+      "name": "Atem des Abgrunds",
+      "description": "Erhöht den Schaden gegen Gegner, die keine Helden sind, von 2 Verbündeten mit dem höchsten ANG außer dem Wirker um {0}% und stellt alle {1} Sek. die LP aller Verbündeten in Höhe von 2.5% ihrer max. LP wieder her. Ist nur 1 Gegner übrig, wird die Heilung um das 2-Fache erhöht. Dieser Effekt ist nicht mit Effekten anderer Verbündeter stapelbar.",
+      "value": {
+        "0": "5, 6, 7.2, 8.6, 10.4, 12.5",
+        "1": "10, 9, 8, 7, 6, 5"
+      },
+      "thumbnail": "artifacts/Abyssal Breath.png",
+      "story": "Armornament der Göttin des Abgrunds Xanadus. Es hat die Form eines goldenen Drachenkopfes und strahlt eine seltsame Kraft aus.",
+      "aliases": null,
+      "descriptionByStar": {
+        "0": "Erhöht den Schaden gegen Gegner, die keine Helden sind, von 2 Verbündeten mit dem höchsten ANG außer dem Wirker um 5% und stellt alle 10 Sek. die LP aller Verbündeten in Höhe von 2.5% ihrer max. LP wieder her. Ist nur 1 Gegner übrig, wird die Heilung um das 2-Fache erhöht. Dieser Effekt ist nicht mit Effekten anderer Verbündeter stapelbar.",
+        "1": "Erhöht den Schaden gegen Gegner, die keine Helden sind, von 2 Verbündeten mit dem höchsten ANG außer dem Wirker um 6% und stellt alle 9 Sek. die LP aller Verbündeten in Höhe von 2.5% ihrer max. LP wieder her. Ist nur 1 Gegner übrig, wird die Heilung um das 2-Fache erhöht. Dieser Effekt ist nicht mit Effekten anderer Verbündeter stapelbar.",
+        "2": "Erhöht den Schaden gegen Gegner, die keine Helden sind, von 2 Verbündeten mit dem höchsten ANG außer dem Wirker um 7.2% und stellt alle 8 Sek. die LP aller Verbündeten in Höhe von 2.5% ihrer max. LP wieder her. Ist nur 1 Gegner übrig, wird die Heilung um das 2-Fache erhöht. Dieser Effekt ist nicht mit Effekten anderer Verbündeter stapelbar.",
+        "3": "Erhöht den Schaden gegen Gegner, die keine Helden sind, von 2 Verbündeten mit dem höchsten ANG außer dem Wirker um 8.6% und stellt alle 7 Sek. die LP aller Verbündeten in Höhe von 2.5% ihrer max. LP wieder her. Ist nur 1 Gegner übrig, wird die Heilung um das 2-Fache erhöht. Dieser Effekt ist nicht mit Effekten anderer Verbündeter stapelbar.",
+        "4": "Erhöht den Schaden gegen Gegner, die keine Helden sind, von 2 Verbündeten mit dem höchsten ANG außer dem Wirker um 10.4% und stellt alle 6 Sek. die LP aller Verbündeten in Höhe von 2.5% ihrer max. LP wieder her. Ist nur 1 Gegner übrig, wird die Heilung um das 2-Fache erhöht. Dieser Effekt ist nicht mit Effekten anderer Verbündeter stapelbar.",
+        "5": "Erhöht den Schaden gegen Gegner, die keine Helden sind, von 2 Verbündeten mit dem höchsten ANG außer dem Wirker um 12.5% und stellt alle 5 Sek. die LP aller Verbündeten in Höhe von 2.5% ihrer max. LP wieder her. Ist nur 1 Gegner übrig, wird die Heilung um das 2-Fache erhöht. Dieser Effekt ist nicht mit Effekten anderer Verbündeter stapelbar."
+      }
+    }
+  ],
+  "runes": [
+    {
+      "id": "Rune of Agility: Ancient",
+      "name": "Rune der Geschicklichkeit: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalDodgeChance": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Agitation: Ancient",
+      "name": "Rune der Unruhe: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "AddMpOnAttackR": "11.1%"
+      }
+    },
+    {
+      "id": "Rune of Denial: Ancient",
+      "name": "Rune der Leugnung: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "MagicalBlockPower": "12.8%"
+      }
+    },
+    {
+      "id": "Rune of Exclusion: Ancient",
+      "name": "Rune der Ausschließung: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "MagicalBlockChance": "21.3%"
+      }
+    },
+    {
+      "id": "Rune of Fierce Attack: Ancient",
+      "name": "Rune des wütenden Angriffs: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "AddPhysicalAttackR": "12.8%",
+        "AddMagicalAttackR": "12.8%"
+      }
+    },
+    {
+      "id": "Rune of Flexibility: Ancient",
+      "name": "Rune der Flexibilität: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "MagicalDodgeChance": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Frenzy: Ancient",
+      "name": "Rune des Blutrausches: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalCriticalPower": "21.3%",
+        "MagicalCriticalPower": "21.3%"
+      }
+    },
+    {
+      "id": "Rune of Iron Wall: Ancient",
+      "name": "Rune der eisernen Mauer: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalBlockPower": "12.8%"
+      }
+    },
+    {
+      "id": "Rune of Patience: Ancient",
+      "name": "Rune der Geduld: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "AddPhysicalDefenseR": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Potential: Ancient",
+      "name": "Rune des Potentials: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "AddMpOnDamageR": "21.3%"
+      }
+    },
+    {
+      "id": "Rune of Precision: Ancient",
+      "name": "Rune der Präzision: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalHitChance": "11.1%",
+        "MagicalHitChance": "11.1%"
+      }
+    },
+    {
+      "id": "Rune of Protection: Ancient",
+      "name": "Rune des Schutzes: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "AddMagicalDefenseR": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Resistance: Ancient",
+      "name": "Rune des Widerstands: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "AntiCcChance": "11.1%"
+      }
+    },
+    {
+      "id": "Rune of Sharpness: Ancient",
+      "name": "Rune der Schärfe: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalPiercePower": "11.1%",
+        "MagicalPiercePower": "11.1%"
+      }
+    },
+    {
+      "id": "Rune of Stamina: Ancient",
+      "name": "Rune der Ausdauer: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "AddMaxHpR": "12.8%"
+      }
+    },
+    {
+      "id": "Rune of Steel: Ancient",
+      "name": "Rune des Stahls: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalBlockChance": "21.3%"
+      }
+    },
+    {
+      "id": "Rune of Thirst: Ancient",
+      "name": "Rune des Durstes: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "HpStealPower": "5.1%"
+      }
+    },
+    {
+      "id": "Rune of Toughness: Ancient",
+      "name": "Rune der Zähigkeit: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalToughness": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Willpower: Ancient",
+      "name": "Rune der Willenskraft: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "MagicalToughness": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of the Heartless: Ancient",
+      "name": "Rune der Herzlosen: Antik",
+      "grade": "Ancient",
+      "stats": {
+        "PhysicalCriticalChance": "16.2%",
+        "MagicalCriticalChance": "16.2%"
+      }
+    },
+    {
+      "id": "Rune of Agility: Heroic",
+      "name": "Rune der Geschicklichkeit: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalDodgeChance": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Agitation: Heroic",
+      "name": "Rune der Unruhe: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "AddMpOnAttackR": "9.1%"
+      }
+    },
+    {
+      "id": "Rune of Denial: Heroic",
+      "name": "Rune der Leugnung: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "MagicalBlockPower": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Exclusion: Heroic",
+      "name": "Rune der Unterbrechung: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "MagicalBlockChance": "17.5%"
+      }
+    },
+    {
+      "id": "Rune of Fierce Attack: Heroic",
+      "name": "Rune des wütenden Angriffs: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "AddPhysicalAttackR": "10.5%",
+        "AddMagicalAttackR": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Flexibility: Heroic",
+      "name": "Rune der Flexibilität: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "MagicalDodgeChance": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Frenzy: Heroic",
+      "name": "Rune des Blutrausches: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalCriticalPower": "17.5%",
+        "MagicalCriticalPower": "17.5%"
+      }
+    },
+    {
+      "id": "Rune of Iron Wall: Heroic",
+      "name": "Rune der eisernen Mauer: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalBlockPower": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Patience: Heroic",
+      "name": "Rune der Geduld: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "AddPhysicalDefenseR": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Potential: Heroic",
+      "name": "Rune des Potentials: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "AddMpOnDamageR": "17.5%"
+      }
+    },
+    {
+      "id": "Rune of Precision: Heroic",
+      "name": "Rune der Präzision: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalHitChance": "9.1%",
+        "MagicalHitChance": "9.1%"
+      }
+    },
+    {
+      "id": "Rune of Protection: Heroic",
+      "name": "Rune des Schutzes: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "AddMagicalDefenseR": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Resistance: Heroic",
+      "name": "Rune des Widerstands: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "AntiCcChance": "9.1%"
+      }
+    },
+    {
+      "id": "Rune of Sharpness: Heroic",
+      "name": "Rune der Schärfe: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalPiercePower": "9.1%",
+        "MagicalPiercePower": "9.1%"
+      }
+    },
+    {
+      "id": "Rune of Stamina: Heroic",
+      "name": "Rune der Ausdauer: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "AddMaxHpR": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Steel: Heroic",
+      "name": "Rune des Stahls: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalBlockChance": "17.5%"
+      }
+    },
+    {
+      "id": "Rune of Swiftness: Heroic",
+      "name": "Rune der Schnelligkeit: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "AttackSpeed": "9.1%"
+      }
+    },
+    {
+      "id": "Rune of Thirst: Heroic",
+      "name": "Rune des Dursts: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "HpStealPower": "4.2%"
+      }
+    },
+    {
+      "id": "Rune of Toughness: Heroic",
+      "name": "Rune der Zähigkeit: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalToughness": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Willpower: Heroic",
+      "name": "Rune der Willenskraft: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "MagicalToughness": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of the Heartless: Heroic",
+      "name": "Rune des Herzlosen: Heroisch",
+      "grade": "Heroic",
+      "stats": {
+        "PhysicalCriticalChance": "13.3%",
+        "MagicalCriticalChance": "13.3%"
+      }
+    },
+    {
+      "id": "Rune of Agility: Rare",
+      "name": "Rune der Geschicklichkeit: Rar",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalDodgeChance": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Denial: Rare",
+      "name": "Rune der Leugnung: Rar",
+      "grade": "Rare",
+      "stats": {
+        "MagicalBlockPower": "8.3%"
+      }
+    },
+    {
+      "id": "Rune of Exclusion: Rare",
+      "name": "Rune der Unterbrechung: Rar",
+      "grade": "Rare",
+      "stats": {
+        "MagicalBlockChance": "13.8%"
+      }
+    },
+    {
+      "id": "Rune of Fierce Attack: Rare",
+      "name": "Rune des wütenden Angriffs: Rar",
+      "grade": "Rare",
+      "stats": {
+        "AddPhysicalAttackR": "8.3%",
+        "AddMagicalAttackR": "8.3%"
+      }
+    },
+    {
+      "id": "Rune of Flexibility: Rare",
+      "name": "Rune der Flexibilität: Rar",
+      "grade": "Rare",
+      "stats": {
+        "MagicalDodgeChance": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Frenzy: Rare",
+      "name": "Rune des Blutrausches: Rar",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalCriticalPower": "13.8%",
+        "MagicalCriticalPower": "13.8%"
+      }
+    },
+    {
+      "id": "Rune of Iron Wall: Rare",
+      "name": "Rune der eisernen Mauer: Rar",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalBlockPower": "8.3%"
+      }
+    },
+    {
+      "id": "Rune of Patience: Rare",
+      "name": "Rune der Geduld: Rar",
+      "grade": "Rare",
+      "stats": {
+        "AddPhysicalDefenseR": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Potential: Rare",
+      "name": "Rune des Potentials: Rar",
+      "grade": "Rare",
+      "stats": {
+        "AddMpOnDamageR": "13.8%"
+      }
+    },
+    {
+      "id": "Rune of Precision: Rare",
+      "name": "Rune der Präzision: Rar",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalHitChance": "7.2%",
+        "MagicalHitChance": "7.2%"
+      }
+    },
+    {
+      "id": "Rune of Protection: Rare",
+      "name": "Rune des Schutzes: Rar",
+      "grade": "Rare",
+      "stats": {
+        "AddMagicalDefenseR": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Resistance: Rare",
+      "name": "Rune des Widerstands: Rar",
+      "grade": "Rare",
+      "stats": {
+        "AntiCcChance": "7.2%"
+      }
+    },
+    {
+      "id": "Rune of Sharpness: Rare",
+      "name": "Rune der Schärfe: Rar",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalPiercePower": "7.2%",
+        "MagicalPiercePower": "7.2%"
+      }
+    },
+    {
+      "id": "Rune of Stamina: Rare",
+      "name": "Rune der Ausdauer: Rar",
+      "grade": "Rare",
+      "stats": {
+        "AddMaxHpR": "8.3%"
+      }
+    },
+    {
+      "id": "Rune of Steel: Rare",
+      "name": "Rune des Stahls: Rar",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalBlockChance": "13.8%"
+      }
+    },
+    {
+      "id": "Rune of Swiftness: Rare",
+      "name": "Rune der Schnelligkeit: Rar",
+      "grade": "Rare",
+      "stats": {
+        "AttackSpeed": "7.2%"
+      }
+    },
+    {
+      "id": "Rune of Thirst: Rare",
+      "name": "Rune des Dursts: Rar",
+      "grade": "Rare",
+      "stats": {
+        "HpStealPower": "3.3%"
+      }
+    },
+    {
+      "id": "Rune of Toughness: Rare",
+      "name": "Rune der Zähigkeit: Rar",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalToughness": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Willpower: Rare",
+      "name": "Rune der Willenskraft: Rar",
+      "grade": "Rare",
+      "stats": {
+        "MagicalToughness": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of the Agitation: Rare",
+      "name": "Rune der Unruhe: Rar",
+      "grade": "Rare",
+      "stats": {
+        "AddMpOnAttackR": "7.2%"
+      }
+    },
+    {
+      "id": "Rune of the Heartless: Rare",
+      "name": "Rune des Herzlosen: Rar",
+      "grade": "Rare",
+      "stats": {
+        "PhysicalCriticalChance": "10.5%",
+        "MagicalCriticalChance": "10.5%"
+      }
+    },
+    {
+      "id": "Rune of Agility: Uncommon",
+      "name": "Rune der Geschicklichkeit: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalDodgeChance": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Agitation: Uncommon",
+      "name": "Rune der Unruhe: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "AddMpOnAttackR": "5.2%"
+      }
+    },
+    {
+      "id": "Rune of Denial: Uncommon",
+      "name": "Rune der Leugnung: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "MagicalBlockPower": "6.0%"
+      }
+    },
+    {
+      "id": "Rune of Exclusion: Uncommon",
+      "name": "Rune der Unterbrechung: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "MagicalBlockChance": "10.0%"
+      }
+    },
+    {
+      "id": "Rune of Fierce Attack: Uncommon",
+      "name": "Rune des wütenden Angriffs: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "AddPhysicalAttackR": "6.0%",
+        "AddMagicalAttackR": "6.0%"
+      }
+    },
+    {
+      "id": "Rune of Flexibility: Uncommon",
+      "name": "Rune der Flexibilität: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "MagicalDodgeChance": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Frenzy: Uncommon",
+      "name": "Rune des Blutrausches: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalCriticalPower": "10.0%",
+        "MagicalCriticalPower": "10.0%"
+      }
+    },
+    {
+      "id": "Rune of Iron Wall: Uncommon",
+      "name": "Rune der eisernen Mauer: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalBlockPower": "6.0%"
+      }
+    },
+    {
+      "id": "Rune of Patience: Uncommon",
+      "name": "Rune der Geduld: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "AddPhysicalDefenseR": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Potential: Uncommon",
+      "name": "Rune des Potentials: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "AddMpOnDamageR": "10.0%"
+      }
+    },
+    {
+      "id": "Rune of Precision: Uncommon",
+      "name": "Rune der Präzision: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalHitChance": "5.2%",
+        "MagicalHitChance": "5.2%"
+      }
+    },
+    {
+      "id": "Rune of Protection: Uncommon",
+      "name": "Rune des Schutzes: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "AddMagicalDefenseR": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Resistance: Uncommon",
+      "name": "Rune des Widerstands: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "AntiCcChance": "5.2%"
+      }
+    },
+    {
+      "id": "Rune of Sharpness: Uncommon",
+      "name": "Rune der Schärfe: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalPiercePower": "5.2%",
+        "MagicalPiercePower": "5.2%"
+      }
+    },
+    {
+      "id": "Rune of Stamina: Uncommon",
+      "name": "Rune der Ausdauer: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "AddMaxHpR": "6.0%"
+      }
+    },
+    {
+      "id": "Rune of Steel: Uncommon",
+      "name": "Rune des Stahls: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalBlockChance": "10.0%"
+      }
+    },
+    {
+      "id": "Rune of Swiftness: Uncommon",
+      "name": "Rune der Schnelligkeit: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "AttackSpeed": "5.2%"
+      }
+    },
+    {
+      "id": "Rune of Thirst: Uncommon",
+      "name": "Rune des Dursts: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "HpStealPower": "2.4%"
+      }
+    },
+    {
+      "id": "Rune of Toughness: Uncommon",
+      "name": "Rune der Zähigkeit: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalToughness": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Willpower: Uncommon",
+      "name": "Rune der Willenskraft: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "MagicalToughness": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of the Heartless: Uncommon",
+      "name": "Rune des Herzlosen: Selten",
+      "grade": "Uncommon",
+      "stats": {
+        "PhysicalCriticalChance": "7.6%",
+        "MagicalCriticalChance": "7.6%"
+      }
+    },
+    {
+      "id": "Rune of Agility: Common",
+      "name": "Rune der Geschicklichkeit: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "PhysicalDodgeChance": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of Agitation: Common",
+      "name": "Rune der Unruhe: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "AddMpOnAttackR": "3.3%"
+      }
+    },
+    {
+      "id": "Rune of Denial: Common",
+      "name": "Rune der Leugnung: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "MagicalBlockPower": "3.8%"
+      }
+    },
+    {
+      "id": "Rune of Exclusion: Common",
+      "name": "Rune der Unterbrechung: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "MagicalBlockChance": "6.3%"
+      }
+    },
+    {
+      "id": "Rune of Fierce Attack: Common",
+      "name": "Rune des wütenden Angriffs: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "AddPhysicalAttackR": "3.8%",
+        "AddMagicalAttackR": "3.8%"
+      }
+    },
+    {
+      "id": "Rune of Flexibility: Common",
+      "name": "Rune der Flexibilität: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "MagicalDodgeChance": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of Frenzy: Common",
+      "name": "Rune des Blutrausches: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "PhysicalCriticalPower": "6.3%",
+        "MagicalCriticalPower": "6.3%"
+      }
+    },
+    {
+      "id": "Rune of Iron Wall: Common",
+      "name": "Rune der eisernen Mauer: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "PhysicalBlockPower": "3.8%"
+      }
+    },
+    {
+      "id": "Rune of Patience: Common",
+      "name": "Rune der Geduld: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "AddPhysicalDefenseR": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of Potential: Common",
+      "name": "Rune des Potentials: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "AddMpOnDamageR": "6.3%"
+      }
+    },
+    {
+      "id": "Rune of Precision: Common",
+      "name": "Rune der Präzision: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "PhysicalHitChance": "3.3%",
+        "MagicalHitChance": "3.3%"
+      }
+    },
+    {
+      "id": "Rune of Protection: Common",
+      "name": "Rune des Schutzes: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "AddMagicalDefenseR": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of Resistance: Common",
+      "name": "Rune des Widerstands: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "AntiCcChance": "3.3%"
+      }
+    },
+    {
+      "id": "Rune of Sharpness: Common",
+      "name": "Rune der Schärfe: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "PhysicalPiercePower": "3.3%",
+        "MagicalPiercePower": "3.3%"
+      }
+    },
+    {
+      "id": "Rune of Stamina: Common",
+      "name": "Rune der Ausdauer: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "AddMaxHpR": "3.8%"
+      }
+    },
+    {
+      "id": "Rune of Steel: Common",
+      "name": "Rune des Stahls: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "PhysicalBlockChance": "6.3%"
+      }
+    },
+    {
+      "id": "Rune of Swiftness: Common",
+      "name": "Rune der Schnelligkeit: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "AttackSpeed": "3.3%"
+      }
+    },
+    {
+      "id": "Rune of Thirst: Common",
+      "name": "Rune des Dursts: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "HpStealPower": "1.5%"
+      }
+    },
+    {
+      "id": "Rune of Toughness: Common",
+      "name": "Rune der Zähigkeit: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "PhysicalToughness": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of Willpower: Common",
+      "name": "Rune der Willenskraft: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "MagicalToughness": "4.8%"
+      }
+    },
+    {
+      "id": "Rune of the Heartless: Common",
+      "name": "Rune des Herzlosen: Gewöhnlich",
+      "grade": "Common",
+      "stats": {
+        "PhysicalCriticalChance": "4.8%",
+        "MagicalCriticalChance": "4.8%"
+      }
+    }
+  ],
+  "bosses": {
+    "Gushak": {
+      "id": "Gushak",
+      "name": "Gushak",
+      "title": "Häuptling des Blutaltars",
+      "type": [
+        "Guild Raid"
+      ],
+      "race": "Ork",
+      "damage_type": "Physical",
+      "recommended_heroes": "Leo, Nyx, Tanya",
+      "characteristics": "[Ork-Rage] kumuliert sich jedes Mal, wenn der Boss Schaden nimmt, bis zu 100 Male. Der Boss wird zunehmend wütender, was seine Werte beachtlich steigert. Helden, die Stärkungszauber [Auflösen] können sind empfohlen.",
+      "thumbnail": "bosses/Gushak.png"
+    },
+    "Imet": {
+      "id": "Imet",
+      "name": "Imet",
+      "title": "Mut der Wüste",
+      "type": [
+        "Temple of the God King"
+      ],
+      "race": "Golem",
+      "damage_type": "Physical",
+      "recommended_heroes": "Gau, Nicky, Bernheim",
+      "characteristics": "Du musst deine Verbündete mit der geringsten Körp. VERT davor schützen, nicht durch Imets [Kurzen Prozess machen!] Skill, den Imet verwendet, nachdem er die Gegner im Sandgefängnis gefangen hält, zu sterben. Weiterhin musst du darauf achten, dass Imets ANG bei der Verwendung von Fechtkunst des Wüstenwächters kontinuierlich erhöht wird, wenn er erfolgreich blockiert.",
+      "thumbnail": "bosses/Imet.png"
+    },
+    "Lakreil": {
+      "id": "Lakreil",
+      "name": "Lakreil",
+      "title": "Dorn des Zorns",
+      "type": [
+        "Guild Conquest",
+        "Guild Raid"
+      ],
+      "race": "Eidechse",
+      "damage_type": "Physical",
+      "recommended_heroes": "Naila, Juno, Rodina",
+      "characteristics": "Das Beschwören von [Tödlicher Boomerang] nach [Körperhieb] hinterlässt dauerhafte Narben an Feinden. Sobald Lakreil aufhört, Tödlicher Boomerang zu wirken, wenn [Zorn von Lakreil] abgelaufen ist, solltest du seine Angriffe abwehren oder Lakreil massiven Körp. Schaden zufügen.",
+      "thumbnail": "bosses/Lakreil.png"
+    },
+    "Manticore": {
+      "id": "Manticore",
+      "name": "Mantikor",
+      "title": "Chaosbestie",
+      "type": [
+        "Guild Raid"
+      ],
+      "race": "Bestie",
+      "damage_type": "Physical",
+      "recommended_heroes": "Kasel, Clause, Mitra",
+      "characteristics": "[Mantikor-Gift] verursacht großen Schaden an allen Zielen an der Front und beschwört Skorpione. Wenn der Frontheld den Schaden nicht aufsaugen kann, bricht die Formation zusammen. [Überfall] fügt allen Helden massiven Körp. Schaden zu, und kann nur mit [Massenkontrolle] vermieden werden.",
+      "thumbnail": "bosses/Manticore.png"
+    },
+    "Maviel": {
+      "id": "Maviel",
+      "name": "Maviel",
+      "title": "Berserker-Assassine",
+      "type": [
+        "Guild Raid"
+      ],
+      "race": "Dunkelelf",
+      "damage_type": "Physical",
+      "recommended_heroes": "Demia, Baudouin, Aisha",
+      "characteristics": "[Schattenschritt] ist ein besonderer Zustand, der das Ausweichen vor allen Angriffen bis zu 100 Mal ermöglicht. Nach Verbrauch wird dieser Skill für eine bestimmte Zeit deaktiviert. Helden mit einer hohen Trefferrate und ANG-Geschw. sind hierfür empfohlen.",
+      "thumbnail": "bosses/Maviel.png"
+    },
+    "Mountain Fortress": {
+      "id": "Mountain Fortress",
+      "name": "Gebirgsfestung",
+      "title": "Vermächtnis des antiken Technomagischen Königreichs",
+      "type": [
+        "World Boss"
+      ],
+      "race": "Golem",
+      "damage_type": "Physical",
+      "recommended_heroes": "Frey, Luna, Jane",
+      "characteristics": "Der [Vert.Modus] aktiviert eine [Lawine], die massiven Schaden anrichtet. Der Zerstörungsstrahl fügt auch Verbündeten großen Schaden zu und wirft sie zurück. Ein hoher Widerstand gegenüber Massenkontrollen ist wichtig.",
+      "thumbnail": "bosses/Mountain Fortress.png"
+    },
+    "Musama": {
+      "id": "Musama",
+      "name": "Musama",
+      "title": "Augen der Sonne",
+      "type": [
+        "Temple of the God King"
+      ],
+      "race": "Golem",
+      "damage_type": "Physical",
+      "recommended_heroes": "Nia, Zafir, Annette",
+      "characteristics": "Die Heilbarriere des Himmlischen Relikts hebt den Schaden auf, entfernt neg. Effekte kontinuierlich und behindert die Heilung von Fernhelden. Alle Effekte werden deaktiviert, wenn Musama sein [Symbol der Sonne] Skill verwendet, daher wird die Entfernung von Himmlischer Relikt empfohlen.",
+      "thumbnail": "bosses/Musama.png"
+    },
+    "Nordik": {
+      "id": "Nordik",
+      "name": "Nordik",
+      "title": "Uralter Lich",
+      "type": [
+        "Guild Raid"
+      ],
+      "race": "Untot",
+      "damage_type": "Magical",
+      "recommended_heroes": "Reina, Rodina, Fluss",
+      "characteristics": "Nimmt der Boss Mag. Schaden, reflektiert er den Schaden auf den Angreifer und bringt ihn zum Schweigen. Helden mit Körp. ANG und Massenkontroll-Widerstand sind empfehlenswert.",
+      "thumbnail": "bosses/Nordik.png"
+    },
+    "Nubis": {
+      "id": "Nubis",
+      "name": "Nubis",
+      "title": "Königin der Fesseln",
+      "type": [
+        "Guild Raid"
+      ],
+      "race": "Bestie",
+      "damage_type": "Magical, Physical",
+      "recommended_heroes": "Kaulah, Epis, Lorraine",
+      "characteristics": "[Kinder der Königin] erhöht ANG und VERT des Bosses stark für jeden beschworenen Diener. Magier-Helden mit Flächenzauber sind empfehlenswert.",
+      "thumbnail": "bosses/Nubis.png"
+    },
+    "Protianus": {
+      "id": "Protianus",
+      "name": "Protianus",
+      "title": "Herrscher des Versunkenen Königreichs",
+      "type": [
+        "World Boss"
+      ],
+      "race": "Elementar",
+      "damage_type": "Magical",
+      "recommended_heroes": "Fluss, Mitra, Laias",
+      "characteristics": "Befreie alle Verbündeten aus Protanius [Wassergefängnis], indem du dem Boss P. Schaden zufügst. Wenn das [Wassergefängnis] nicht zerstört wird, verliert ihr wertvolle Schadenskapazitäten.",
+      "thumbnail": "bosses/Protianus.png"
+    },
+    "Sekmaha": {
+      "id": "Sekmaha",
+      "name": "Sekmaha",
+      "title": "Wächter des Flusses",
+      "type": [
+        "Temple of the God King"
+      ],
+      "race": "Golem",
+      "damage_type": "Magical",
+      "recommended_heroes": "Lilia, Kaulah, May",
+      "characteristics": "Der Skill von Sekmaha wird stärker, wenn es mit einem passenden Fluss kombiniert wird. Es wird dagegen geschwächt, wenn es mit einem nicht passenden Fluss kombiniert wird. Pass auf die Masskontroll-Leiste auf und kontrollieren des Fluss. Außerdem empfehlen wir dir deine MP immer hoch zu halten, da die neg. Effekte von [Wasserfall] und [Meer] gemäß den vorhandenen MP immer stärker werden.",
+      "thumbnail": "bosses/Sekmaha.png"
+    },
+    "Tyrfas": {
+      "id": "Tyrfas",
+      "name": "Tyrfas",
+      "title": "Göttliche Bestie des Absoluten Nullpunkts",
+      "type": [
+        "Guild Conquest",
+        "Guild Raid"
+      ],
+      "race": "Bestie",
+      "damage_type": "Magical",
+      "recommended_heroes": "Frey, Aisha, Kara",
+      "characteristics": "Setzt Tyrfas [Lawine] ein, solltest du schnell Mag. Schaden verursachen, um die Skill-Aktivierung zu unterbrechen. Achte auf den Frost-Effekt, der die Heilung deiner TP verhindert.",
+      "thumbnail": "bosses/Tyrfas.png"
+    },
+    "Xakios": {
+      "id": "Xakios",
+      "name": "Xakios",
+      "title": "Verfluchte Weltenbaumwurzel",
+      "type": [
+        "Guild Raid"
+      ],
+      "race": "Elementar",
+      "damage_type": "Physical, Magical",
+      "recommended_heroes": "Gau, Rephy, Annette",
+      "characteristics": "[Angriff der Riesenbestie] fügt umgefallenen Feinden massiven Schaden zu. Kontere den Umwerf-Effekt von [Riesen-Erdbebens] oder benutze Helden mit [Massenkontrolle].",
+      "thumbnail": "bosses/Xakios.png"
+    },
+    "Xanadus": {
+      "id": "Xanadus",
+      "name": "Xanadus",
+      "title": "Göttin des Abgrunds",
+      "type": [
+        "World Boss"
+      ],
+      "race": "Elementar",
+      "damage_type": "Magical, Physical",
+      "recommended_heroes": "Seria, Chrisha, Crow, Priscilla",
+      "characteristics": "Sie war einst eine Göttin der Unterwelt, die in Vergessenheit geriet. Durch die Macht der abgründigen Dunkelheit wurde dieses uralte Wesen zu einem Weltboss.",
+      "thumbnail": "bosses/Xanadus.png"
+    }
+  }
+}

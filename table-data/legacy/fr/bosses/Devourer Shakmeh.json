@@ -1,0 +1,71 @@
+{
+  "id": "Devourer Shakmeh",
+  "profile": {
+    "name": "Shakmeh le Vorace",
+    "title": "Le Vorace",
+    "type": [
+      "Shakmeh"
+    ],
+    "race": "Tidhar",
+    "damage_type": "Physical",
+    "recommended_heroes": "Lakrak, Rehartna, Xerah",
+    "characteristics": "Le donjon de Shakmeh le Vorace se déroule en 5 vagues. Le Totem de Sekireinel qui apparaît pendant la vague réduit régulièrement la récupération de PV. Durant la bataille de niveau 5 ou plus, il dissipe l'effet positif de l'ennemi à l'ATQ la plus élevé, alors il faut y prendre garde. Plus les PM sont élevés, plus Shakmeh devient puissant, et toutes ses attaques ignorent la DEF de ses adversaires. Afin de le vaincre, vous devez employer des Héros capables de réduire les PM et l'ATQ de l'ennemi.",
+    "thumbnail": "bosses/Devourer Shakmeh.png",
+    "recommendedHeroNames": [
+      "Lakrak",
+      "Rehartna",
+      "Xerah"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Ombre de l'Épée",
+      "cost": null,
+      "cooldown": "14",
+      "description": "Attaque en face, dans une large zone, avec l'Ombre de l'Épée, infligeant des DEG P et restaurant les PM de Shakmeh. Plus les PM actuels de Shakmeh sont élevés, plus les DEG infligés augmentent et plus les PM sont bas, plus la récupération de PM augmente."
+    },
+    "2": {
+      "name": "Vague de Péché",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Invoque l'Épée dissonante et provoque la Vague de Péché, infligeant des DEG P aux ennemis dans une large zone, et met en état de [Jouissance des Péchés]. Le Héros en état de [Jouissance des Péchés] ne peut bénéficier de Vol de vie, sa récupération est réduite et subit des DEG P en continu, mais les DEG infligés augmentent. [Jouissance des Péchés] n'est pas dissipée jusqu'à ce que les PV de la cible soient inférieures à 30%."
+    },
+    "3": {
+      "name": "Tempête de Haine",
+      "cost": null,
+      "cooldown": "21",
+      "description": "Invoque la Tempête de Haine en face, dans une large zone, infligeant des DEG P à 7 reprises et réduisant la Vitesse d'ATQ pendant 10 sec. Plus la Vitesse d'ATQ est basse, plus cette compétence inflige de DEG."
+    },
+    "4": {
+      "name": "Réceptacle des Ténèbres",
+      "cost": null,
+      "cooldown": null,
+      "description": "Shakmeh est immunisé contre les effets de la réduction de Vitesse d'ATQ et de DEF. De plus, récupère rapidement les PM, et plus les PM sont élevés, plus le Blocage augmente. Lorsque le PM est à 0, Shakmeh ne peut récupérer de PM pendant 7 sec et reçoit encore plus de DEG, mais il obtient un bouclier qui ne peut être dissipé. Il récupère une quantité importante de PM après 7 sec."
+    },
+    "5": {
+      "name": "Chute de l'Englouti par l'Abîme",
+      "cost": null,
+      "cooldown": null,
+      "description": "Les attaques de Shakmeh frappent la cible à coup sûr et infligent des DEG qui ignorent la DEF de l'ennemi grâce à la puissance de l'abîme, mais sa propre DEF est très basse."
+    },
+    "6": {
+      "name": "Puissance corrompue de Shakmeh le Vorace",
+      "cost": null,
+      "cooldown": null,
+      "description": "Shakmeh le Vorace possède la puissance corrompue, et cette dernière est réduite lorsque Shakmeh est soumis à un Contrôle. Shakmeh est neutralisé lorsque la puissance corrompue est entièrement vide et les DEG qu'il subit augmentent de manière permanente. Cependant, Shakmeh devient plus puissant."
+    },
+    "7": {
+      "name": "Totem de Sekireinel",
+      "cost": null,
+      "cooldown": null,
+      "description": "Récupère les PV de tous les alliés de manière régulière. Réduit également la Vitesse d'ATQ et les DEG infligés par l'ennemi à l'ATQ la plus élevée, avant de réduire la récupération des PV de tous les ennemis. Dissipe l'effet positif de l'ennemi à l'ATQ la plus élevée durant la bataille du niveau 5 ou plus."
+    }
+  },
+  "aliases": [
+    "DevourerShakmeh",
+    "SmallShakmeh",
+    "TinyShakmeh",
+    "BabyShakmeh",
+    "SmolShakmeh"
+  ]
+}

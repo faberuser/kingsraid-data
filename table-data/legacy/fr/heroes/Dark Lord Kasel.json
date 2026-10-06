@@ -1,0 +1,267 @@
+{
+  "id": "Dark Lord Kasel",
+  "profile": {
+    "name": "Kasel le Seigneur\ndes Ténèbres",
+    "title": "Kasel le Seigneur des Ténèbres, Héros déchu de l'Épée-Sacrée",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "8400",
+    "damage_type": "Physical",
+    "gender": "Homme",
+    "age": "???",
+    "height": "185",
+    "race": "Démon",
+    "constellation": "Asiphia l'Impératrice",
+    "birth": {
+      "month": 10,
+      "day": 15,
+      "monthName": "Mois de l'Amitié"
+    },
+    "like": "Énergie démoniaque",
+    "dislike": "Création de Lua, l'artéfact sacré qui protège le monde",
+    "story": "Le nouveau Seigneur des Ténèbres, qui est en réalité Kasel altéré par la graine du Seigneur des Ténèbres contenue dans l'Épée-Sacrée. Il se comporte comme une parfaite machine, refoulant la volonté de Kasel, et utilise sans retenue le pouvoir inné de son réceptacle, qui dépasse de loin celui de Kyle. Il poursuit l'objectif implanté par la Déesse Lea dans l'instinct du Seigneur des Ténèbres : détruire les piliers de Lua qui soutiennent le monde. En agissant après ce but, il terrorise diverses régions.",
+    "thumbnail": "heroes/Dark Lord Kasel/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Lame de Jugement",
+      "cost": null,
+      "cooldown": "11",
+      "description": "Attaque les ennemis en face en ligne droite à 2 reprises, ce qui leur inflige ??? DEG P au total et les empêche de récupérer des PM pendant 2 sec.\n[Seigneur des Ténèbres] Attaque 1 fois de manière supplémentaire des ennemis dans une zone plus large, ce qui leur inflige ??? DEG P et les renverse pendant 3 sec.\nUtilisable lorsqu'il y a 5 charges ou plus d'[Aura des Ténèbres].",
+      "thumbnail": "heroes/Dark Lord Kasel/skills/1.png"
+    },
+    "2": {
+      "name": "Anéantissement",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Fait exploser les ténèbres, attaquant 3 fois les ennemis en face en ligne droite pour infliger ??? DEG P au total, avant de les projeter pendant 3 sec.\n[Seigneur des Ténèbres] Inflige ??? DEG P à 1 ennemis les plus éloignés et les attire. Ensuite, fait exploser les ténèbres pour attaquer.\nUtilisable lorsqu'il y a 15 charges ou plus d'[Aura des Ténèbres].",
+      "thumbnail": "heroes/Dark Lord Kasel/skills/2.png"
+    },
+    "3": {
+      "name": "Avènement du Seigneur des Ténèbres",
+      "cost": null,
+      "cooldown": "25",
+      "description": "Dissipe son effet négatif et passe à l'état de [Seigneur des Ténèbres] qui ne peut être dissipé, pendant 20 sec. Inflige ??? DEG P aux ennemis proches dans une zone circulaire. À l'état de [Seigneur des Ténèbres], renforce toutes ses compétences et se confère l'immunité contre les Contrôles. De plus, les attaques automatiques infligent ??? DEG P supplémentaires à chaque coup porté. Utilisable lorsqu'il y a 25 charges ou plus d'[Aura des Ténèbres]. À l'utilisation de la compétence, consomme toutes les charges et augmente son ATQ de 2000, sa Pénétration DEF de 10 par charge.",
+      "thumbnail": "heroes/Dark Lord Kasel/skills/3.png"
+    },
+    "4": {
+      "name": "Être submergé de Ténèbres",
+      "cost": null,
+      "cooldown": null,
+      "description": "En recevant la puissance des ténèbres, Kasel le Seigneur des Ténèbres ne peut plus récupérer de PM, mais son ATQ augmente de ??? et toutes ses attaques réussissent à coup sûr. Les charges d'[Aura des Ténèbres] sont nécessaires pour utiliser la compétence. [Aura des Ténèbres] est obtenue avec les attaques automatiques. Les charges d'[Aura des Ténèbres] sont cumulables jusqu'à 40 fois et ne peuvent être dissipées.",
+      "thumbnail": "heroes/Dark Lord Kasel/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente l'augmentation d'ATQ de 10%.",
+      "III": "Augmente l'augmentation d'ATQ de 15%.",
+      "IV": "Augmente l'augmentation d'ATQ de 25%."
+    },
+    "4": {
+      "II": "Augmente l'augmentation d'ATQ de 10%.",
+      "III": "Augmente l'augmentation d'ATQ de 15%.",
+      "IV": "Augmente l'augmentation d'ATQ de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Augmente le nombre de charges d'Aura des Ténèbres requis pour l'utilisation de la compétence à 10, et les DEG infligés de 80%.",
+          "thumbnail": "heroes/Dark Lord Kasel/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Augmente la durée de l'effet empêchant la cible de récupérer les PM de 2 sec.",
+          "thumbnail": "heroes/Dark Lord Kasel/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Augmente les DEG P reçus par la cible touchée de 30% pendant 10 sec.",
+          "thumbnail": "heroes/Dark Lord Kasel/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Modifie l'effet de projection en étourdissement.",
+          "thumbnail": "heroes/Dark Lord Kasel/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente le Blocage P de 400 pendant la durée de la compétence.",
+          "thumbnail": "heroes/Dark Lord Kasel/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG infligés par les attaques automatiques de 50% pendant la durée de la compétence.",
+          "thumbnail": "heroes/Dark Lord Kasel/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Obtient 10 charges d'[Aura des Ténèbres] au début de chaque combat.",
+          "thumbnail": "heroes/Dark Lord Kasel/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Obtient 2 charges supplémentaires d'[Aura des Ténèbres] s'il n'existe qu'1 seul ennemi.",
+          "thumbnail": "heroes/Dark Lord Kasel/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Dark Lord Kasel/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente l'ATQ de 1% et les DEG infligés au boss de 1% pendant 20 sec, lors d'une attaque automatique. Cet effet est cumulable jusqu'à 30 fois et ne peut être dissipé.",
+        "thumbnail": "heroes/Dark Lord Kasel/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Aea, l'Épée-Corrompue",
+    "description": "À chaque attaque automatique et celle de compétence, réduit la récupération des PV de la cible de {0}% pendant 10 sec, et a 35% de chances d'infliger des DEG P supplémentaires à hauteur de {1}% de l'ATQ. L'effet de réduction de récupération des PV peut se cumuler jusqu'à 12 fois.",
+    "value": {
+      "0": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.7",
+        "4": "2.1",
+        "5": "2.5"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      }
+    },
+    "thumbnail": "heroes/Dark Lord Kasel/uw.png",
+    "story": "Non seulement la bénédiction de la Déesse Lua contenue dans l'Épée-Sacrée protège le Héros qui la manie, mais lui permet aussi d'utiliser temporairement le pouvoir de la Déesse, prouvant ainsi qu'il est le représentant divin. Cependant, la caractéristique de l'énergie démoniaque du Seigneur des Ténèbres Angmund était la corruption. Il y a 100 ans, profitant du combat acharné qui opposa Kyle et Angmund le Seigneur des Ténèbres, elle se propagea dans l'Épée-Sacrée, souillant le pouvoir de la Déesse Lua. Ainsi, l'épée devint à la fois le réceptacle du pouvoir de Lua et de la malédiction de Lea ensemencée au sein du Seigneur des Ténèbres. Et elle insuffla peu à peu l'énergie démoniaque au Héros de l'Épée-Sacrée chaque fois qu'il libérait le pouvoir de Lua. Finalement, le Seigneur des Ténèbres parvint à submerger entièrement le corps de Kasel, le transformant en un nouveau Seigneur des Ténèbres. Au même moment, l'Épée-Sacrée perdit la bénédiction de la lumière et s'entoura d'une énergie démoniaque d'un noir de jais. Comme si elle était destinée à être un cadeau que la Déesse Lea aurait tenu prêt pour le nouveau Seigneur des Ténèbres depuis 100 ans...",
+    "descriptionByStar": {
+      "0": "À chaque attaque automatique et celle de compétence, réduit la récupération des PV de la cible de 1% pendant 10 sec, et a 35% de chances d'infliger des DEG P supplémentaires à hauteur de 100% de l'ATQ. L'effet de réduction de récupération des PV peut se cumuler jusqu'à 12 fois."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Pouvoir d'Altération",
+      "description": "[Lame de Jugement] Augmente les DEG infligés de {0}% et dissipe l'effet positif de la cible.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Dark Lord Kasel/ut/1.png",
+      "story": "Juste avant de se rendre au château du Seigneur des Ténèbres, Frey fut tourmentée par une aura sombre qui la faisait souffrir jour après jour. Et comme pour ajouter à sa détresse, une angoisse dont elle ignorait la cause pesait sur elle, l'empêchant de dormir. S'inquiétant pour elle, Kasel réfléchit à un moyen de lui rendre la bonne humeur, et se rappela de la fleur ravissante découverte près du lac. Si seulement Frey pouvait sourire de nouveau... Espérant la réconforter, il cueillit la fleur, mais ne trouva pas l'occasion de se retrouver rien que tous les deux afin de la lui remettre. Et avant que cela n'eut lieu, il fut confronté à Kyle, le chevalier noir. Ainsi, la gentillesse du jeune homme non exprimée se retrouva transformée en une fleur maudite des démons, lorsque le Seigneur des Ténèbres submergea Kasel.",
+      "descriptionByStar": {
+        "0": "[Lame de Jugement] Augmente les DEG infligés de 20% et dissipe l'effet positif de la cible."
+      }
+    },
+    "2": {
+      "name": "Vie chétive",
+      "description": "[Anéantissement] Augmente les DEG infligés de {0}% et modifie le nombre de cibles attirées en état de [Seigneur des Ténèbres] à 2.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Dark Lord Kasel/ut/2.png",
+      "story": "Peu après que Kasel fut devenu le Seigneur des Ténèbres, un petit oiseau s'approcha de lui. L'oisillon atterrit auprès de lui, comme s'il ignorait ce qu'était la mort. Était-ce par l'influence de la subconscience de Kasel endormie en lui ? le Seigneur des Ténèbres tendit la main vers l'oisillon et le toucha. L'oiseau, qui ne possédait aucune résistance au pouvoir de corruption, fut immédiatement envahi par une énergie démoniaque. Et il devint un démon soumis à son autorité. D'un regard vide, le Seigneur des Ténèbres considéra un moment l'oiseau devenu sa créature. Décidant faire de lui son messager, il lui fit prendre son envol. C'était peut-être un avertissement adressé aux autres : leur montrer par cet acte ce qu'était un Seigneur des Ténèbres, et les prévenir de ne pas résister, s'ils ne voulaient pas être réduits en des créatures misérables, tout comme cet être chétif.",
+      "descriptionByStar": {
+        "0": "[Anéantissement] Augmente les DEG infligés de 20% et modifie le nombre de cibles attirées en état de [Seigneur des Ténèbres] à 2."
+      }
+    },
+    "3": {
+      "name": "Portrait reçu d'un Voyageur",
+      "description": "[Avènement du Seigneur des Ténèbres] À l'état de [Seigneur des Ténèbres], augmente les DEG infligés aux ennemis non-héros de {0}% et les DEG Crit de 80%.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
+      "thumbnail": "heroes/Dark Lord Kasel/ut/3.png",
+      "story": "Après leur départ des Plaines du Roi, Kasel et ses amis sauvèrent un artiste errant qui était poursuivi par les animaux sauvages. En guise de remerciement, il dessina leur portrait et le leur offrit. C'était une œuvre tracée avec du charbon du bois sur un parchemin délabré, bien loin de ces splendides portraits des nobles réalisés avec de coûteuses peintures multicolores. Cependant, l'objet symbolisait le lien qui unissait Kasel à ses compagnons. Ils s'étaient joints à lui alors qu'il avait bien des faiblesses. Kasel conserva ce portrait qui les représentait comme un précieux trésor, afin de se donner du courage chaque fois qu'il était las ou qu'il se trouvait face à des difficultés. Même lorsque Kasel fut devenu le Seigneur des Ténèbres, ces sentiments éprouvés envers ses amis ne se dissipèrent point et restèrent endormis quelque part, au fond de sa subconscience.",
+      "descriptionByStar": {
+        "0": "[Avènement du Seigneur des Ténèbres] À l'état de [Seigneur des Ténèbres], augmente les DEG infligés aux ennemis non-héros de 12% et les DEG Crit de 80%."
+      }
+    },
+    "4": {
+      "name": "Larme biscornue",
+      "description": "[Être submergé de Ténèbres] Modifie le nombre de charge max à {0}, et a 35% de chances de cumuler 1 charges supplémentaires d'[Aura des Ténèbres] lors d'une attaque automatique.",
+      "value": {
+        "0": {
+          "0": "60",
+          "1": "64",
+          "2": "69",
+          "3": "75",
+          "4": "82",
+          "5": "90"
+        }
+      },
+      "thumbnail": "heroes/Dark Lord Kasel/ut/4.png",
+      "story": "L'existence du trésor sacré de la Déesse avait pour but de protéger le Héros de l'Épée-Sacrée. La bénédiction de la Déesse avait non seulement le pouvoir de guérir les blessures, mais servait aussi de bouclier sacré pour protéger le Héros contre la menace de toutes sortes de forces maléfiques. Mais lorsque Kasel fut submergé par le Seigneur des Ténèbres, le trésor sacré de la Déesse ne parvint pas à repousser sa puissance phénoménale et en fut brisé. Le trésor sacré complètement brisé fut souillé par l'aura à la caractéristique corruptible du Seigneur des Ténèbres et devint le trésor de terreur, comme une prélude à l'avènement d'un total anéantissement.",
+      "descriptionByStar": {
+        "0": "[Être submergé de Ténèbres] Modifie le nombre de charge max à 60, et a 35% de chances de cumuler 1 charges supplémentaires d'[Aura des Ténèbres] lors d'une attaque automatique."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Vous devez infliger des DEG à 80 reprises pour recharger l'âme et l'utiliser.",
+    "description": "Invoque l'âme d'Aea, l'Épée-Corrompue pendant 10 sec, ce qui augmente son ATQ de 50% pendant la durée d'invocation, et porte des jugements aux ennemis en utilisant les compétences.\n[Lame de Jugement] Inflige ??? DEG P à l'ennemi ayant l'ATQ la plus élevée et à l'ennemi dans une zone circulaire à portée de la cible, avant de réduire leur PM de 1000.\n[Anéantissement] Inflige ??? DEG P à l'ennemi ayant l'ATQ la plus élevée et à l'ennemi dans une zone circulaire à portée de la cible. Applique une Pénétration DEF de 500 points plus élevés sur cette attaque.",
+    "cooldown": "22",
+    "uses": "6",
+    "thumbnail": "heroes/Dark Lord Kasel/sw.png",
+    "advancement": {
+      "1": "Modifie la condition d'utilisation à 60 fois et la réduction de PM à 2000.",
+      "2": "Modifie la durée de l'âme à 15 sec et augmente de 20% les DEG infligés aux ennemis pendant la durée de l'invocation."
+    },
+    "story": "Répandant une puissante lumière, témoignage de la volonté protectrice de Lua, l'Épée-Sacrée s'efforça d'empêcher le Héros élu d'être submergé par le Seigneur des Ténèbres. Mais plus le Héros de l'Épée-Sacrée progressait, acquérant plus de puissance, plus il subissait l'influence de l'énergie démoniaque. À partir du moment où Kasel prit conscience qu'il était le Héros de l'Épée-Sacrée et sut ce qu'il devait faire à l'avenir, il progressa si rapidement au niveau mental que la volonté protectrice contenue dans l'épée ne put plus empêcher l'énergie démoniaque de croître. En fin de compte, Kasel finit par devenir le Seigneur des Ténèbres. Mais malgré la transformation qu'il venait de subir, l'épée savait qu'il continuait à lutter avec une volonté de fer dans la subconscience où il était endormi. Alors l'Épée-Sacrée fit le choix de ne pas l'abandonner. Même si pour cela, elle se retrouvait imprégnée du pouvoir de Lea, faisant d'elle son instrument... Elle attendait le jour où le Héros de l'Épée-Sacrée finirait par détruire les murs qui l'emprisonne, faisant revenir l'éclat éblouissant... Du tréfonds des ténèbres, elle rêvait à l'avènement de la lumière."
+  },
+  "splashart": "heroes/Dark Lord Kasel/sa.png",
+  "costumes": "heroes/Dark Lord Kasel/cos",
+  "aliases": [
+    "dlkasel",
+    "dl kasel",
+    "dkasel",
+    "d kasel",
+    "fkasel",
+    "darkkasel",
+    "fallenkasel",
+    "fallen kasel",
+    "dark kasel",
+    "dlk"
+  ],
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

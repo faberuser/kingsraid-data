@@ -1,0 +1,52 @@
+{
+  "id": "Gushak",
+  "profile": {
+    "name": "裘夏克",
+    "title": "血祭壇酋長",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "獸人族",
+    "damage_type": "Physical",
+    "recommended_heroes": "里歐, 尼克斯, 譚雅",
+    "characteristics": "每次遭受傷害時BOSS會堆疊[獸人之怒]，最多可堆疊100次。超過最大堆疊數後會導致狂暴，大大提升戰力。透過解除[敵人強化效果]可以妨礙BOSS堆疊獸人之怒",
+    "thumbnail": "bosses/Gushak.png"
+  },
+  "skills": {
+    "1": {
+      "name": "血光斬擊",
+      "cost": null,
+      "cooldown": "15",
+      "description": "猛力旋轉武器，對周圍的敵人造成物理傷害並擊倒2秒。"
+    },
+    "2": {
+      "name": "狂亂劍舞",
+      "cost": null,
+      "cooldown": "25",
+      "description": "攻擊敵人3次後向下打擊，對周圍的敵人造成物理傷害並敵人暈眩5秒。"
+    },
+    "3": {
+      "name": "血之一擊",
+      "cost": null,
+      "cooldown": "45",
+      "description": "重踏地面並使周圍敵人暈眩4秒，蓄力並揮動武器對周圍敵人造成大量物理傷害。"
+    },
+    "4": {
+      "name": "獸人之怒",
+      "cost": null,
+      "cooldown": null,
+      "description": "每次受到傷害將累積1層憤怒效果。憤怒效果將持續10秒並提升自身攻擊力與防禦力0.4%。最多可以迭加100層，當到達100層時將免疫控制10秒並大幅提升能力值。"
+    },
+    "5": {
+      "name": "淨化",
+      "cost": null,
+      "cooldown": null,
+      "description": "每30秒解除自身的負面效果，並提升攻擊速度。"
+    }
+  },
+  "aliases": [
+    "Gushak",
+    "GR4",
+    "GR 4"
+  ]
+}

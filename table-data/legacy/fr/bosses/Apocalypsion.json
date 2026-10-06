@@ -1,0 +1,73 @@
+{
+  "id": "Apocalypsion",
+  "profile": {
+    "name": "Apocalypse",
+    "title": "Fléau de la Destruction",
+    "type": [
+      "Divine Punishment Raid"
+    ],
+    "race": "Dragon",
+    "damage_type": "Magical",
+    "recommended_heroes": "Yanne, Laias, Isaiah",
+    "characteristics": "Comme la compétence [Appel de l'Abîme] d'Apocalypse inflige des DEG considérables à la cible en état de [Malédiction de l'Abîme], il faut dissiper rapidement cet état. Lorsqu'Apocalypse reçoit des DEG fatals, elle active [Force de la Haine] et invoque des météores pour exterminer tous les ennemis. Utilisez des compétences infligeant des Contrôles pour réduire la [Force de la Haine] afin de stopper Apocalypse. Toutes les attaques d'Apocalypse possèdent un Crit élevé, alors prenez garde.",
+    "thumbnail": "bosses/Apocalypsion.png",
+    "recommendedHeroNames": [
+      "Yanne",
+      "Laias",
+      "Isaiah"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Lame élémentaire",
+      "cost": null,
+      "cooldown": "22",
+      "description": "Inflige des DEG M aux ennemis à l'avant 3 fois. Ensuite, fait exploser une énergie tranchante qui inflige des DEG M et étourdit. Restaure les PV d'Apocalypse proportionnellement au nombre des ennemis touchés par cette compétence et augmente les DEG à chaque utilisation."
+    },
+    "2": {
+      "name": "Terre bouleversée",
+      "cost": null,
+      "cooldown": "25",
+      "description": "Inflige des DEG M aux ennemis à l'avant en ligne droite et détruit leur bouclier. À chaque coup porté, réduit 1000 PM de la cible et étourdit pendant 2 sec. Augmente les DEG si la cible est touchée par un Contrôle."
+    },
+    "3": {
+      "name": "Appel de l'Abîme",
+      "cost": null,
+      "cooldown": "33",
+      "description": "Inflige des DEG M à tous les ennemis, les étourdit pendant 5 sec et les met à l'état de [Malédiction de l'Abîme]. Ensuite, Apocalypse obtient 35 charges de [Jugement] et concentre l'énergie pendant 8 sec. Une fois la concentration terminée, inflige des DEG M à tous les ennemis, les repousse au loin et les renverse pendant 7 sec. Si la cible touchée est à l'état de [Malédiction de l'Abîme], détruit le bouclier de celle-ci et l'attire vers elle, puis inflige des DEG extrêmes. Réduit le nombre de charges de [Jugement] à chaque fois qu'Apocalypse est touchée par un coup critique et dissipe l'état [Malédiction de l'Abîme] si toutes les charges de [Jugement] sont retirées avant la fin de la concentration. Augmente la Résistance Crit d'Apocalypse de 500 et son Esquive de 400 pendant l'utilisation de cette compétence."
+    },
+    "4": {
+      "name": "Abolition",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lorsque les PV d'Apocalypse sont à 1%, active [Force de la Haine] et invoque des petits météores pendant 8 sec infligeant des DEG M. Si [Force de la Haine] ne disparaît pas dans 8 sec, invoque un météore géant et extermine tous les ennemis. [Force de la Haine] peut être réduite avec les compétences infligeant des Contrôles."
+    },
+    "5": {
+      "name": "Ire souveraine",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente le niveau d'[Ire souveraine] toutes les 50 sec. Les effets de chaque niveau sont cumulables.\nNiveau 1 : Restaure les PV d'Apocalypse de 2.5% de ses PV max toutes les sec et augmente la Réduction des DEG reçus de ???.\nNiveau 2 : Augmente les DEG infligés aux ennemis par Apocalypse de 25% et celle-ci n'est plus affectée par les effets qui augmentent les DEG qu'elle subit.\nNiveau 3 : Modifie tous les DEG infligés par Apocalypse en DEG ignorant la DEF."
+    },
+    "6": {
+      "name": "Audience souveraine",
+      "cost": null,
+      "cooldown": null,
+      "description": "S'il n'y a aucun ennemi à portée lors des attaques automatiques d'Apocalypse, dissipe tous les effets positifs de 1 ennemis et les attire vers elle."
+    },
+    "7": {
+      "name": "Force parfaite",
+      "cost": null,
+      "cooldown": null,
+      "description": "Apocalypse n'est pas affectée par les effets qui réduisent la Vitesse d'ATQ, la DEF et l'ATQ. Augmente son Crit de 400 et touche les cibles à coup sûr lors de toutes ses attaques."
+    },
+    "8": {
+      "name": "Entrave infernale",
+      "cost": null,
+      "cooldown": null,
+      "description": "Toutes les 15 sec, inflige des DEG M à 1 ennemi(s) à la DEF M la plus élevée. Met la cible à l'écart de la bataille pendant 8 sec et lui inflige [Malédiction des Enfers], ce qui réduit la Récupération des PM de 100 et la Vitesse d'ATQ de 100 par charge cumulée. [Malédiction des Enfers] peut être cumulée jusqu'à 10 fois et ne peut être dissipée."
+    }
+  },
+  "aliases": [
+    "lady booba mommy dragon"
+  ]
+}

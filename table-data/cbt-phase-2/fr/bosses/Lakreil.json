@@ -1,0 +1,61 @@
+{
+  "id": "Lakreil",
+  "profile": {
+    "name": "Lakreil",
+    "title": "Incarnation de la colère",
+    "type": [
+      "Guild Conquest",
+      "Guild Raid"
+    ],
+    "race": "Homme-Lézard",
+    "damage_type": "Physical",
+    "recommended_heroes": "Naila, Juno, Rodina",
+    "characteristics": "[Boomerang mortel] se lance après que [Fracas corporel] a laissé des cicatrices indélébiles aux ennemis. Puisque Lakreil arrête de lancer des boomerangs mortels après la fin de [Rage de Lakreil], esquivez ses attaques ou vous subirez de lourds DEG P.",
+    "thumbnail": "bosses/Lakreil.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Boomerang mortel",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lance un boomerang sur tous les ennemis situés en face, ce qui leur inflige 4 fois des DEG P et réduit leur récupération de 1% de manière permanente. L'attaque continue jusqu'à la fin de [Rage de Lakreil]."
+    },
+    "2": {
+      "name": "Fracas corporel",
+      "cost": null,
+      "cooldown": "30",
+      "description": "Fonce sur les ennemis situés en face, ce qui leur inflige des DEG P et les renverse. Vous activez ensuite [Rage de Lakreil] et lancez [Boomerang mortel]."
+    },
+    "3": {
+      "name": "Frappe enragée",
+      "cost": null,
+      "cooldown": "25",
+      "description": "Saute en l'air, puis frappe le sol, ce qui dissipe les effets positifs dont bénéficiaient tous les ennemis, leur inflige des DEG P et réduit toutes chances d'esquiver de 300 points pendant 10 sec. Cette attaque est imparable."
+    },
+    "4": {
+      "name": "Accès de Rage",
+      "cost": null,
+      "cooldown": "18",
+      "description": "Augmente l'ATQ du lanceur de 50% et sa précision de 300 points pendant 20 sec."
+    },
+    "5": {
+      "name": "Rage de Lakreil",
+      "cost": null,
+      "cooldown": null,
+      "description": "Rage de Lakreil diminue de 5 points lorsque l'ennemi réussit à éviter une attaque du lanceur, et de 1 point lorsque le lanceur subit des DEG P.\nUne fois Rage de Lakreil terminée, le lanceur perd tous ses pouvoirs et reçoit davantage de DEG pendant un certain temps."
+    },
+    "6": {
+      "name": "Incarnation de la colère",
+      "cost": null,
+      "cooldown": null,
+      "description": "La Vitesse d'ATQ et la DEF de Lakreil ne peuvent être réduites, et il ignore toute réduction de DEG dont bénéficie les ennemis.\nDe plus, après avoir utilisé une compétence, les ennemis ne peuvent récupérer de PM pendant 1 sec."
+    }
+  },
+  "aliases": [
+    "Lakreil",
+    "GC2",
+    "GC 2",
+    "GR8",
+    "GR 8"
+  ]
+}

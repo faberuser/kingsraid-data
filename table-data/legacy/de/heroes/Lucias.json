@@ -1,0 +1,248 @@
+{
+  "id": "Lucias",
+  "profile": {
+    "name": "Lucias",
+    "title": "Heiliger des Segens Lucias",
+    "class": "Priest",
+    "position": "Middle-100",
+    "attack_range": "5900",
+    "damage_type": "Physical",
+    "gender": "Männlich",
+    "age": "24",
+    "height": "181",
+    "race": "Menschen",
+    "constellation": "Graham, der Dieb",
+    "birth": {
+      "month": 5,
+      "day": 21,
+      "monthName": "Monat der Hoffnung"
+    },
+    "like": "Gerichte mit Äpfeln, angeln, Gebete, Leuten helfen, geheimnisvolle Magieshows und Aufführungen.",
+    "dislike": "Unhöfliche Leute, gebrochene Versprechen, keine Wertschätzung für das menschliche Leben.",
+    "story": "Lucias war ein Mitglied von Luas heiligen Rittern, bevor er als der Heilige des Segens erwachte.\nEr diente unter der lebenden Legende Ricardo und beschützte Orvel und dessen Nachbarstädte vor Dämonen.\nMit 19 begann sein Körper jedoch Stigmata aufzuweisen, und durch den Ruf von Lura wurde der heilige Ritter zum Heiligen des Segens.\nSeine Mission besteht darin, die Welt zu bereisen und allen in Not das Licht von Lua zu bringen.\nEr nahm seine Pflichten sehr ernst und reiste durch die Welt, um andere zu segnen.\nJetzt greift er erneut zur Waffe, um die Macht der Dunkelheit zu besiegen, die in den letzten 100 Jahren immer mehr an Stärke gewonnen hat.",
+    "thumbnail": "heroes/Lucias/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Weg des Segens",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Heilt 4 Verbündete mit den wenigsten TP um ??? und verringert den Schaden, den der Beschwörer erleidet, für 7 Sek. um 20 %.",
+      "thumbnail": "heroes/Lucias/skills/1.png"
+    },
+    "2": {
+      "name": "Glaubenszone",
+      "cost": "5",
+      "cooldown": "15",
+      "description": "Baut am eigenen Standort für 6 Sek. die [Glaubenszone] auf. Erhöht den ANG von Verbündeten in der [Glaubenszone] um ??? und entfernt kontinuierlich negative Effekte von ihnen. Heilt pro Sek. Verbündete in der Nähe um ???. Feinde in der [Glaubenszone] erleiden pro Sek. Körp. Schaden von ??? und werden für 0.7 Sek. betäubt.",
+      "thumbnail": "heroes/Lucias/skills/2.png"
+    },
+    "3": {
+      "name": "Stigmata",
+      "cost": "3",
+      "cooldown": "25",
+      "description": "Erhöht für 15 Sek. das physische Ausweichen aller Verbündeten um 250 und ihren ANG um ???. Die Effekte enden beim eigenen Tod. Normale Angriffe verursachen für 15 Sek. zusätzlich ??? physischen Schaden und erhöhen den physischen Schaden am Ziel für 5 Sek. um 25%.",
+      "thumbnail": "heroes/Lucias/skills/3.png"
+    },
+    "4": {
+      "name": "Heiliges Opfer",
+      "cost": null,
+      "cooldown": null,
+      "description": "Beim Wirken von Weg des Segens und Glaubenszone werden 20 % der aktuellen TP verbraucht. Wenn die Skills verwendet werden, um Verbündete zu heilen, werden die wiederhergestellten TP um ??? erhöht und das Ziel erhält für 10 Sek. einen VERT-Boost von ???.",
+      "thumbnail": "heroes/Lucias/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Heilungsrate um 10 %.",
+      "III": "Erhöht Heilungsrate um 15 %.",
+      "IV": "Erhöht Heilungsrate um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Heilungsrate und Schaden um 10 %.",
+      "III": "Erhöht Heilungsrate und Schaden um 15 %.",
+      "IV": "Erhöht Heilungsrate und Schaden um 25 %."
+    },
+    "3": {
+      "II": "ANG-Boost und Schaden werden um 10 % erhöht.",
+      "III": "ANG-Boost und Schaden werden um 15 % erhöht.",
+      "IV": "ANG-Boost und Schaden werden um 25 % erhöht."
+    },
+    "4": {
+      "II": "Erhöht Heilungsrate um 10 %.",
+      "III": "Erhöht Heilungsrate um 15 %.",
+      "IV": "Erhöht Heilungsrate um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Skilleffektreichweite wird auf alle Verbündete geändert.",
+          "thumbnail": "heroes/Lucias/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Stellt 500 Mana beim Ziel wieder her.",
+          "thumbnail": "heroes/Lucias/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Stellt bei allen Verbündeten in Reichweite 200 Mana pro Sek. her.",
+          "thumbnail": "heroes/Lucias/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Entfernt kontinuierlich positive Effekte von Feinden in Reichweite.",
+          "thumbnail": "heroes/Lucias/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "[Stigmata] verringert die PRÄZ der Ziele, die zusätzlichen Körp. Schaden durch diesen Skill erleiden, für 5 Sek. um 150.",
+          "thumbnail": "heroes/Lucias/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Wird während der Wirkungsdauer immun gegen Massenkontrolle.",
+          "thumbnail": "heroes/Lucias/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht Heilungsrate um 40 %.",
+          "thumbnail": "heroes/Lucias/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Es werden keine TP mehr verbraucht.",
+          "thumbnail": "heroes/Lucias/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/CC-WDST. +100",
+        "thumbnail": "heroes/Lucias/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht die eigene MP-Regeneration/Sek. 3 Sek. lang um 300 %, wenn ein aktiver Skill gewirkt wird.",
+        "thumbnail": "heroes/Lucias/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Lichtsegen, Benedicia",
+    "description": "Beim Kampfbeginn wird für 30 Sek. der erhaltene Körp. Schaden aller Verbündeten um {0} % verringert, ihre ANG-GESCHW. um {1} erhöht und ihr Schaden an Feinden, die keine Helden sind, um {2} % erhöht.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      },
+      "2": {
+        "0": "8",
+        "1": "10",
+        "2": "12",
+        "3": "14",
+        "4": "17",
+        "5": "20"
+      }
+    },
+    "thumbnail": "heroes/Lucias/uw.png",
+    "story": "Eine gesegnete Fahne, die die Sonne, den Mond und den gesamten Himmel repräsentiert.\nIhr wohnen die Macht und die Lehren der Schöpferin Lua inne.\nWenn er die Fahne schwenkt, verbreitet sich die Macht des Lichts,\nwodurch seine Verbündeten geistigen Frieden finden und die Macht der Dunkelheit besiegt wird.\nHierbei handelt es sich um ein Relikt, das Lucias anvertraut wurde, der in seiner Zeit als Heiliger Ritter von Lua ebenfalls ein Fahnenträger war.",
+    "descriptionByStar": {
+      "0": "Beim Kampfbeginn wird für 30 Sek. der erhaltene Körp. Schaden aller Verbündeten um 10 % verringert, ihre ANG-GESCHW. um 100 erhöht und ihr Schaden an Feinden, die keine Helden sind, um 8 % erhöht."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Buch des Segens",
+      "description": "[Weg des Segens] verringert die Manakosten um 1 und den Cooldown um 12 %.",
+      "value": {},
+      "thumbnail": "heroes/Lucias/ut/1.png",
+      "story": "Die Bibel der Unendlichkeit, die von einer Gruppe von Heiligen des Segens verwendet wurde, um ihre Werke zu sammeln.\nDer Titel eines Heiligen wird mit den Erinnerungen seines Vorgängers weitergegeben. Man möchte also meinen, dass es nicht nötig wäre, sie festzuhalten.\nAllerdings wurde die Gefahr, dass die gesammelten Erinnerungen eines Weisen ausgelöscht werden, immer größer, was diese Bibel unerlässlich machte.",
+      "descriptionByStar": {
+        "0": "[Weg des Segens] verringert die Manakosten um 1 und den Cooldown um 12 %.",
+        "1": "[Weg des Segens] verringert die Manakosten um 1 und den Cooldown um 14 %.",
+        "2": "[Weg des Segens] verringert die Manakosten um 1 und den Cooldown um 17 %.",
+        "3": "[Weg des Segens] verringert die Manakosten um 1 und den Cooldown um 21 %.",
+        "4": "[Weg des Segens] verringert die Manakosten um 1 und den Cooldown um 25 %.",
+        "5": "[Weg des Segens] verringert die Manakosten um 1 und den Cooldown um 30 %."
+      }
+    },
+    "2": {
+      "name": "Würfel der Erinnerung",
+      "description": "[Glaubenszone] verringert die Manakosten um 1 und das Mana von Feinden in Reichweite um 200 pro Sek.",
+      "value": {},
+      "thumbnail": "heroes/Lucias/ut/2.png",
+      "story": "Lucias hatte in seiner Jugend einen guten Freund.\nDieser Freund war ein Mitglied einer Truppe namens Sternenstaub. Er hatte trotz seines jungen Alters sehr geschickte Hände\nund stahl die Geldbeutel unzähliger Spieler.\nSternenstaub kam jedoch nur einmal im Jahr in Lucias’ Stadt,\nweshalb sich die beiden Freunde gegenseitig etwas schenkten, das sie an ihre Freundschaft erinnern sollte.\nDieser Würfel ist ein besonderer Zauberwürfel, den Lucias’ Freund Esker angefertigt hat.",
+      "descriptionByStar": {
+        "0": "[Glaubenszone] verringert die Manakosten um 1 und das Mana von Feinden in Reichweite um 200 pro Sek.",
+        "1": "[Glaubenszone] verringert die Manakosten um 1 und das Mana von Feinden in Reichweite um 240 pro Sek.",
+        "2": "[Glaubenszone] verringert die Manakosten um 1 und das Mana von Feinden in Reichweite um 290 pro Sek.",
+        "3": "[Glaubenszone] verringert die Manakosten um 1 und das Mana von Feinden in Reichweite um 350 pro Sek.",
+        "4": "[Glaubenszone] verringert die Manakosten um 1 und das Mana von Feinden in Reichweite um 420 pro Sek.",
+        "5": "[Glaubenszone] verringert die Manakosten um 1 und das Mana von Feinden in Reichweite um 500 pro Sek."
+      }
+    },
+    "3": {
+      "name": "Lehre des Morgensterns",
+      "description": "[Stigmata] Skill-Effekt kann nicht durch Skills, die positive Effekte entfernen, entfernt werden. Verringert den Skill-Cooldown um 12 %.",
+      "value": {},
+      "thumbnail": "heroes/Lucias/ut/3.png",
+      "story": "Forschungsmaterialien über die Stigmata des Heiligen des Segens.\nObwohl Lucias über die Erinnerungen der Heiligen verfügt, weiß er nicht alles.\nLuas Priester haben dieses Dokument zurückgelassen, nachdem sie die Geheimnisse der Stigmata erforscht hatten.\nEs ist ihnen jedoch nicht gelungen, alle Geheimnisse zu lüften.",
+      "descriptionByStar": {
+        "0": "[Stigmata] Skill-Effekt kann nicht durch Skills, die positive Effekte entfernen, entfernt werden. Verringert den Skill-Cooldown um 12 %.",
+        "1": "[Stigmata] Skill-Effekt kann nicht durch Skills, die positive Effekte entfernen, entfernt werden. Verringert den Skill-Cooldown um 14 %.",
+        "2": "[Stigmata] Skill-Effekt kann nicht durch Skills, die positive Effekte entfernen, entfernt werden. Verringert den Skill-Cooldown um 17 %.",
+        "3": "[Stigmata] Skill-Effekt kann nicht durch Skills, die positive Effekte entfernen, entfernt werden. Verringert den Skill-Cooldown um 21 %.",
+        "4": "[Stigmata] Skill-Effekt kann nicht durch Skills, die positive Effekte entfernen, entfernt werden. Verringert den Skill-Cooldown um 25 %.",
+        "5": "[Stigmata] Skill-Effekt kann nicht durch Skills, die positive Effekte entfernen, entfernt werden. Verringert den Skill-Cooldown um 30 %."
+      }
+    },
+    "4": {
+      "name": "Schwert der Opferung",
+      "description": "[Heiliges Opfer] erhöht den VERT-Boost um 50 %. Bei Zielen wird die ANG für 5 Sek. um 8 % erhöht.",
+      "value": {},
+      "thumbnail": "heroes/Lucias/ut/4.png",
+      "story": "Das heilige Schwert, das Lucias trug, während er als Heiliger Ritter dem Kommando von Ricardo unterstand.\nHohepriester von Lua haben das Schwert gesegnet und mit einer starken heiligen Energie versehen.\nLucias wurde später zum Heiligen des Segens, denn seine eigenen Segen sind wesentlich mächtiger als die, mit denen das Schwert belegt ist.\n\nEr hat das Schwert immer als Erinnerung an seine Zeit als Heiliger Ritter bei sich, zieht es jedoch nie.\nDen Gerüchten zufolge liegt das daran, dass er Angst hat, nicht mehr als Heiliger angesehen zu werden, wenn er ein Schwert schwingt ...",
+      "descriptionByStar": {
+        "0": "[Heiliges Opfer] erhöht den VERT-Boost um 50 %. Bei Zielen wird die ANG für 5 Sek. um 8 % erhöht.",
+        "1": "[Heiliges Opfer] erhöht den VERT-Boost um 50 %. Bei Zielen wird die ANG für 5 Sek. um 10 % erhöht.",
+        "2": "[Heiliges Opfer] erhöht den VERT-Boost um 50 %. Bei Zielen wird die ANG für 5 Sek. um 12 % erhöht.",
+        "3": "[Heiliges Opfer] erhöht den VERT-Boost um 50 %. Bei Zielen wird die ANG für 5 Sek. um 14 % erhöht.",
+        "4": "[Heiliges Opfer] erhöht den VERT-Boost um 50 %. Bei Zielen wird die ANG für 5 Sek. um 17 % erhöht.",
+        "5": "[Heiliges Opfer] erhöht den VERT-Boost um 50 %. Bei Zielen wird die ANG für 5 Sek. um 20 % erhöht."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 4-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört die Seele von Lichtsegen Benedicia für 10 Sek. und erhöht die Heilungsrate aller Verbündete um 35 % und die ANG-GESCHW um 350.",
+    "cooldown": "24",
+    "uses": "7",
+    "thumbnail": "heroes/Lucias/sw.png",
+    "advancement": {
+      "1": "Erhöht den ANG aller Verbündeten um 35 % während der Wirkungsdauer.",
+      "2": "Während der Wirkungsdauer verringert sich aller 1 Sek. der eigene Cooldown um jeweils 1 Sek."
+    },
+    "story": "Im Himmel gibt es die Wahrheit der Schöpfung. Es gab keinen Ort, an dem Luas Einfluss erreicht wurde, und es gibt die Wahrheit über den Beginn der Welt und des Lebens.\nDie heilige Fahne, Benedicia, die mit dem Willen und der Gewalt der Göttin geschrieben ist, hörte auf gegen die Göttin zu kämpfen und verbreitete den Willen der Göttin. Es war gleichzeitig Lua's Warnung und ihre Botschaft.\nBenedicia, die eine schöne und starke Seele des Lichts hat, hat eine Form eines starken Ritters. Er sendet Lua’s Warnungen, die Erinnerungen und den Glauben eines Fahnenträgers verinnerlichen sollen, an narre Menschen, die versuchen, gegen die Göttin zu kämpfen."
+  },
+  "splashart": "heroes/Lucias/sa.png",
+  "costumes": "heroes/Lucias/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

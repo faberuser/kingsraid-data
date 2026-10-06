@@ -1,0 +1,228 @@
+{
+  "id": "Morrah",
+  "profile": {
+    "name": "Morrah",
+    "title": "Teufelsflamme Morrah",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "2300",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "???",
+    "height": "178",
+    "race": "Dämonen (Draconics)",
+    "constellation": "Armil, der Ehrwürdige",
+    "birth": {
+      "month": 4,
+      "day": 9,
+      "monthName": "Monat des Lebens"
+    },
+    "like": "Furchteinflößende Feinde; würdige Kämpfe",
+    "dislike": "Drachen",
+    "story": "Die ehemalige Kommandantin der Draconicsritter ist die furchtloseste Dämonenritterin der Dunklen Macht. Aus unbekannten Gründen folgt sie momentan der Hexe Maria und unterstützt sie bei ihrer Arbeit. Viele finden es seltsam, dass die ehemalige Heldin der Dunklen Macht, die zahllose Feinde erschlagen und sogar Drachen verschlungen hatte, nun für eine einfache Hexe als Dienerin arbeitet. Nichtsdestotrotz fährt sie damit fort, ihrer Meisterin treu zu dienen.",
+    "thumbnail": "heroes/Morrah/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Wütende Kraft",
+      "cost": "2",
+      "cooldown": "6",
+      "description": "Verursacht im Bereich ??? Magieschaden, wirft Gegner zu Boden und belegt sie mit 3 Flammenstapeln. Für 15 Sek. verursacht jeder normale Angriff ??? Magieschaden und 1 Flammenstapel. Pro Stapel steigt der Schaden um 2%. Jeder Stapel verursacht eigenen Magieschaden und senkt die Heilungsrate um 1%.",
+      "thumbnail": "heroes/Morrah/skills/1.png"
+    },
+    "2": {
+      "name": "Höllenfeuer",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Erhöht für 20 Sek. die Magieabwehr aller Verbündeten um ??? und ihre magische Blockchance um 250. Belegt außerdem alle 1 Sek. nahe Gegner mit 1 Flammenstapel.",
+      "thumbnail": "heroes/Morrah/skills/2.png"
+    },
+    "3": {
+      "name": "Lavaausbruch",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Fügt Gegnern im Bereich ??? Magieschaden zu und wirft sie zu Boden. Jeder Flammenstapel erhöht den Schaden um 2%.",
+      "thumbnail": "heroes/Morrah/skills/3.png"
+    },
+    "4": {
+      "name": "Feuerschlag",
+      "cost": null,
+      "cooldown": "1",
+      "description": "Verursacht beim Blocken ??? Magieschaden an Gegnern im Bereich und belegt sie mit 3 Flammenstapel.",
+      "thumbnail": "heroes/Morrah/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Mag. VERT Erhöhungsrate um 20 %.",
+      "III": "Erhöht Mag. VERT Erhöhungsrate um 30 %.",
+      "IV": "Erhöht Mag. Blockchance Erhöhungsrate um 50 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht die ANG-GESCHW. 15 Sek. lang um 200.",
+          "thumbnail": "heroes/Morrah/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Jeder Treffer reduziert Cooldown um 6 %.",
+          "thumbnail": "heroes/Morrah/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Erhöht Mag. Blockchance um 20 %.",
+          "thumbnail": "heroes/Morrah/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Fügt Feinden in Reichw. Schaden basierend auf der eigenen Mag. VERT zu, während Höllenfeuer aktiv ist.",
+          "thumbnail": "heroes/Morrah/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht Schaden um 40 %.",
+          "thumbnail": "heroes/Morrah/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Heilt die eigene TP um 40 % des verursachten Schadens.",
+          "thumbnail": "heroes/Morrah/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht die eigene Mag. VERT um 5 % mit jedem Block. Kann bis zu 10-mal gestapelt werden.",
+          "thumbnail": "heroes/Morrah/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Ziele mit mehr als 100 Flammen-Stapeln erleiden 40 % mehr Mag. Schaden.",
+          "thumbnail": "heroes/Morrah/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Mag. Blockchance +200",
+        "thumbnail": "heroes/Morrah/perks/light.png"
+      },
+      "dark": {
+        "effect": "Schaden für Flammen-Stapel ist um 100 % erhöht, max. Kumulation wurde auf 120 geändert.",
+        "thumbnail": "heroes/Morrah/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Flamme des Triumphs, Carprain",
+    "description": "Normale Angriffe haben eine Chance von 20%, den ANG des Ziels um 10% zu verringern und es 10 Sek. lang 10% mehr Mag. Schaden erleiden zu lassen. Wenn das Ziel mehr als 100 Flammen gestapelt hat, wird der Mag. Schaden-Boost verdoppelt.",
+    "value": {},
+    "thumbnail": "heroes/Morrah/uw.png",
+    "story": "Im Herzen des Dragia-Vulkans gibt es eine Schmiede. Vor hunderten von Jahren schuf Temeraire, der antike Feuerdrache, eine Reihe magischer Ausrüstungsgegenstände. Mithilfe von Lava und ihrer Kraft des vulkanischen Feuers schmiedete er einen Schild und ein Schwert mit der Fähigkeit, Dinge in Brand zu setzen. Während des Krieges gegen die Dämonen gab er diese Gegenstände einem menschlichen Krieger. Doch dieser Krieger wurde angeblich von Morrah getötet. Seitdem wurde diese legendäre Ausrüstung nicht mehr gesehen. Bis Morrah eines Tages wieder an der Front auftauchte.",
+    "descriptionByStar": {
+      "0": "Normale Angriffe haben eine Chance von 20%, den ANG des Ziels um 10% zu verringern und es 10 Sek. lang 10% mehr Mag. Schaden erleiden zu lassen. Wenn das Ziel mehr als 100 Flammen gestapelt hat, wird der Mag. Schaden-Boost verdoppelt.",
+      "1": "Normale Angriffe haben eine Chance von 20%, den ANG des Ziels um 12% zu verringern und es 10 Sek. lang 12% mehr Mag. Schaden erleiden zu lassen. Wenn das Ziel mehr als 100 Flammen gestapelt hat, wird der Mag. Schaden-Boost verdoppelt.",
+      "2": "Normale Angriffe haben eine Chance von 20%, den ANG des Ziels um 14% zu verringern und es 10 Sek. lang 14% mehr Mag. Schaden erleiden zu lassen. Wenn das Ziel mehr als 100 Flammen gestapelt hat, wird der Mag. Schaden-Boost verdoppelt.",
+      "3": "Normale Angriffe haben eine Chance von 20%, den ANG des Ziels um 17% zu verringern und es 10 Sek. lang 17% mehr Mag. Schaden erleiden zu lassen. Wenn das Ziel mehr als 100 Flammen gestapelt hat, wird der Mag. Schaden-Boost verdoppelt.",
+      "4": "Normale Angriffe haben eine Chance von 20%, den ANG des Ziels um 21% zu verringern und es 10 Sek. lang 21% mehr Mag. Schaden erleiden zu lassen. Wenn das Ziel mehr als 100 Flammen gestapelt hat, wird der Mag. Schaden-Boost verdoppelt.",
+      "5": "Normale Angriffe haben eine Chance von 20%, den ANG des Ziels um 25% zu verringern und es 10 Sek. lang 25% mehr Mag. Schaden erleiden zu lassen. Wenn das Ziel mehr als 100 Flammen gestapelt hat, wird der Mag. Schaden-Boost verdoppelt."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Höllenaugen",
+      "description": "[Wütende Kraft] erhöht den Schaden um 20 %. Flammenzähler auf Feinden können nicht entfernt werden.",
+      "value": {},
+      "thumbnail": "heroes/Morrah/ut/1.png",
+      "story": "Das letzte Auge von Belzebuna, einer Bestie, die sich von der Lava der Hölle ernährt.\nEs ist das letzte Auge von 100 und lodert vor dunklem Wahnsinn.\nDie Bestie roch einen Siegelstein von Morrah, verlor die Kontrolle, erhob sich aus der Lava und stürmte direkt auf sie zu. Morrah zögert nicht und rammte ihm Carprain in die Augen. Die völlig andere Hitze trocknete Belzebuna völlig aus und sein Körper wurde absorbiert. Morrah stand über der zerschmetterten Leiche und sah, wie sein letztes Auge noch auf dem Boden zuckte. Sie befestigte es auf ihrem Schild, um die Bestie zu spotten.",
+      "descriptionByStar": {
+        "0": "[Wütende Kraft] erhöht den Schaden um 20 %. Flammenzähler auf Feinden können nicht entfernt werden.",
+        "1": "[Wütende Kraft] erhöht den Schaden um 24 %. Flammenzähler auf Feinden können nicht entfernt werden.",
+        "2": "[Wütende Kraft] erhöht den Schaden um 29 %. Flammenzähler auf Feinden können nicht entfernt werden.",
+        "3": "[Wütende Kraft] erhöht den Schaden um 35 %. Flammenzähler auf Feinden können nicht entfernt werden.",
+        "4": "[Wütende Kraft] erhöht den Schaden um 42 %. Flammenzähler auf Feinden können nicht entfernt werden.",
+        "5": "[Wütende Kraft] erhöht den Schaden um 50 %. Flammenzähler auf Feinden können nicht entfernt werden."
+      }
+    },
+    "2": {
+      "name": "Jungtier-Lederhandschuhe",
+      "description": "[Höllenfeuer] erhöht  die gegn. Mag. Block-VERT um 100 und den Mag. Krit. Widerstand um 250 während der Wirkungsdauer.",
+      "value": {},
+      "thumbnail": "heroes/Morrah/ut/2.png",
+      "story": "Handschuhe, die aus den Knochen und der Haut eines Dunklen Jungtiers gefertigt wurden. \nMorrah stellte sie vor hundert Jahren her, indem sie die von ihr getöteten Jungtiere sammelte, wenn sie auf Drachenjagd ging. \nSie sind so robust, dass sie selbst Morrahs Flammen standhalten können und sind außerdem mit einem eigenen, stärkeren Zauber durchwirkt, der die Flammen noch höher auflodern lässt.\nMorrah mag diese Handschuhe wirklich sehr.",
+      "descriptionByStar": {
+        "0": "[Höllenfeuer] erhöht  die gegn. Mag. Block-VERT um 100 und den Mag. Krit. Widerstand um 250 während der Wirkungsdauer.",
+        "1": "[Höllenfeuer] erhöht  die gegn. Mag. Block-VERT um 120 und den Mag. Krit. Widerstand um 250 während der Wirkungsdauer.",
+        "2": "[Höllenfeuer] erhöht  die gegn. Mag. Block-VERT um 140 und den Mag. Krit. Widerstand um 250 während der Wirkungsdauer.",
+        "3": "[Höllenfeuer] erhöht  die gegn. Mag. Block-VERT um 170 und den Mag. Krit. Widerstand um 250 während der Wirkungsdauer.",
+        "4": "[Höllenfeuer] erhöht  die gegn. Mag. Block-VERT um 210 und den Mag. Krit. Widerstand um 250 während der Wirkungsdauer.",
+        "5": "[Höllenfeuer] erhöht  die gegn. Mag. Block-VERT um 250 und den Mag. Krit. Widerstand um 250 während der Wirkungsdauer."
+      }
+    },
+    "3": {
+      "name": "Versiegelter Höllenstein",
+      "description": "[Lavaausbruch] erhöht den Schaden um 20 % und verringert Mag. VERT des Ziels 7 Sek. lang um 25 %.",
+      "value": {},
+      "thumbnail": "heroes/Morrah/ut/3.png",
+      "story": "Ein seltsames Fragment, das aus dem Dimensionsriss stammt. In dem Fragment ist eine Flamme, die alles Leben vernichten kann. Die Energie aus seiner Dimension ist darin kondensiert. Es ist absolut notwendig, um Marias Plan in die Tat umzusetzen.",
+      "descriptionByStar": {
+        "0": "[Lavaausbruch] erhöht den Schaden um 20 % und verringert Mag. VERT des Ziels 7 Sek. lang um 25 %.",
+        "1": "[Lavaausbruch] erhöht den Schaden um 24 % und verringert Mag. VERT des Ziels 7 Sek. lang um 25 %.",
+        "2": "[Lavaausbruch] erhöht Schaden um 29 % und verringert Mag. VERT des Ziels 7 Sek. lang um 25 %.",
+        "3": "[Lavaausbruch] erhöht Schaden um 35 % und verringert Mag. VERT des Ziels 7 Sek. lang um 25 %.",
+        "4": "[Lavaausbruch] erhöht Schaden um 42 % und verringert Mag. VERT des Ziels 7 Sek. lang um 25 %.",
+        "5": "[Lavaausbruch] erhöht Schaden um 50 % und verringert Mag. VERT des Ziels 7 Sek. lang um 25 %."
+      }
+    },
+    "4": {
+      "name": "Infernojuwel",
+      "description": "[Feuerschlag] erhöht die Anzahl an von Skill zugefügten Flammen-Zählern um 3. Die ANG-GESCHW. von getroffenen Zielen wird für 5 Sek. um 140 verringert.",
+      "value": {},
+      "thumbnail": "heroes/Morrah/ut/4.png",
+      "story": "Ein Juwel mit der Essenz von Temeraires Feuer.\nAls Temeraire besiegt wurde, entriss Morrah dem Feuerdrachen das Infernojuwel, um damit ihren Feuerschlag zu verstärken.",
+      "descriptionByStar": {
+        "0": "[Feuerschlag] erhöht die Anzahl an von Skill zugefügten Flammen-Zählern um 3. Die ANG-GESCHW. von getroffenen Zielen wird für 5 Sek. um 140 verringert.",
+        "1": "[Feuerschlag] erhöht die Anzahl an von Skill zugefügten Flammen-Zählern um 3. Die ANG-GESCHW. von getroffenen Zielen wird für 5 Sek. um 170 verringert.",
+        "2": "[Feuerschlag] erhöht die Anzahl an von Skill zugefügten Flammen-Zählern um 3. Die ANG-GESCHW. von getroffenen Zielen wird für 5 Sek. um 210 verringert.",
+        "3": "[Feuerschlag] erhöht die Anzahl an von Skill zugefügten Flammen-Zählern um 3. Die ANG-GESCHW. von getroffenen Zielen wird für 5 Sek. um 250 verringert.",
+        "4": "[Feuerschlag] erhöht die Anzahl an von Skill zugefügten Flammen-Zählern um 3. Die ANG-GESCHW. von getroffenen Zielen wird für 5 Sek. um 300 verringert.",
+        "5": "[Feuerschlag] erhöht die Anzahl an von Skill zugefügten Flammen-Zählern um 3. Die ANG-GESCHW. von getroffenen Zielen wird für 5 Sek. um 360 verringert."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 18 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Fügt nahen Feinden in ringförmiger Reichweite ??? Mag. Schaden zu und wirft sie für 3 Sek. zu Boden. Danach beschwört es Flamme des Triumphs Carprain für 13 Sek. und erhöht den eigenen ANG um 60 %.",
+    "cooldown": "22",
+    "uses": "6",
+    "thumbnail": "heroes/Morrah/sw.png",
+    "advancement": {
+      "1": "Verringert den Mag. Schaden aller Verbündeten während der Wirkungsdauer um 50 %.",
+      "2": "Erhöht den Mag. Schaden aller Gegner in der Nähe während der Wirkungsdauer um 40 %. Handelt es sich um einen Boss wird es um 80 % erhöht."
+    },
+    "story": "Carprain war ursprünglich eine Waffe, die für den menschlichen Krieger bestimmt war, aber sie hat sich geändert, nachdem die Draconic-Kommandantin Morrah sie genommen hat.\nDie Kraft von Flammen und Lava, die Temeraire Carprain gab, wurde durch Morrahs Zerstörungstrieb verschmutzt,\nund das Schwert des Kriegers, das das Blut vieler Drachen absorbiert hat, wurde verdorben.\nSomit hat sich das Schwert, das hergestellt wurde, um die Welt zu schützen, zum Schwert der Zerstörung gewandelt. \n\nAber im letzten Kampf des Dämonenkriegs absorbierte Morrah den Gottesdrachen Oricana und wurde einer Veränderung der Seele unterlegt.\n\nSo hat sich auch Carprain verändert.\nDie Macht der Dunkelheit im Schwert wurde der Macht von Oricana ausgesetzt und ist neu gewachsen.\nObwohl Carprain in der Hand eines Draconics ist, behielt er das Licht des Schutzes, der das Leben der Welt schützt,\nund nicht die Macht für Tod und Zerstörung.\n\nDas Flammenschwert mit dem Licht wurde mit einer Heiligen Seele neu geboren\nund ist zum Flammenwächter geworden, um die kostbaren Menschen zu beschützen."
+  },
+  "splashart": "heroes/Morrah/sa.png",
+  "costumes": "heroes/Morrah/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

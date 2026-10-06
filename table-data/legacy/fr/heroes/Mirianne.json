@@ -1,0 +1,228 @@
+{
+  "id": "Mirianne",
+  "profile": {
+    "name": "Mirianne",
+    "title": "Mirianne, Servante d'Azur",
+    "class": "Assassin",
+    "position": "Middle-500",
+    "attack_range": "6500",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "HERO_AGE_MIRRIANE",
+    "height": "162",
+    "race": "Demi-elfe",
+    "constellation": "Asiphia l'Impératrice",
+    "birth": {
+      "month": 10,
+      "day": 5,
+      "monthName": "Mois de l'Amitié"
+    },
+    "like": "Sonia et tout le monde à l'orphelinat",
+    "dislike": "Les insectes avec plein de pattes",
+    "story": "C'est la servante de Sonia et sa presque sœur depuis l'orphelinat. Lorsque son village d'Humains et d'Elfes fut attaqué par les démons, elle fut la seule survivante. Ricardo la trouva et l'amena à son orphelinat. Pour une raison inconnue, elle vécut une croissance explosive à l'âge de six ans. Elle a désormais le corps d'une adulte de dix-huit ans, mais garde un esprit enfantin. Elle est pure et dévouée. Ces traits sont peut-être liés à l'amnésie qui a effacé ses souvenirs d'enfants.",
+    "thumbnail": "heroes/Mirianne/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Cible verrouillée",
+      "cost": "1",
+      "cooldown": "6",
+      "description": "Frappe 3 fois l'ennemi à la DEF M la plus faible, infligeant au total ??? DEG M et l'étourdissant pendant 1 sec. Inflige ??? DEG M supplémentaires si la cible est verrouillée. Le dernier coup applique [Cible verrouillée] pendant 10 sec : cet effet indissipable réduit le blocage magique de 500.",
+      "thumbnail": "heroes/Mirianne/skills/1.png"
+    },
+    "2": {
+      "name": "Restreindre et Protéger",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Inflige ??? DEG M à la cible et aux ennemis dans la zone, les étourdissant pendant 2 sec. Rejoint ensuite l'allié à la DEF P la plus faible, hors soi-même, et crée pour tous deux un bouclier absorbant ??? dégâts pendant 10 sec. Sans allié, le bouclier est inefficace. Il confère une immunité au contrôle tant qu'il dure.",
+      "thumbnail": "heroes/Mirianne/skills/2.png"
+    },
+    "3": {
+      "name": "Assassinat",
+      "cost": "2",
+      "cooldown": "14",
+      "description": "Rejoint l'ennemi aux PV les plus faibles, inflige ??? DEG M puis retourne auprès de l'allié le plus éloigné. Inflige aux non-héros ??? DEG M supplémentaires ignorant la DEF. Tuer une cible avec cette compétence déclenche immédiatement [Entrave et protection].",
+      "thumbnail": "heroes/Mirianne/skills/3.png"
+    },
+    "4": {
+      "name": "Cible éliminée",
+      "cost": null,
+      "cooldown": null,
+      "description": "Si un ennemi est sous [Cible verrouillée], augmente l'ATQ de ??? et toutes les compétences offensives le ciblent en priorité. À sa mort, applique [Cible verrouillée] à un autre ennemi pendant 10 sec.",
+      "thumbnail": "heroes/Mirianne/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "2": {
+      "II": "DEG et Bouclier sont augmentés de 10%.",
+      "III": "DEG et Bouclier sont augmentés de 15%.",
+      "IV": "DEG et Bouclier sont augmentés de 25%."
+    },
+    "3": {
+      "II": "DEG augmentés de 10%.",
+      "III": "DEG augmentés de 15%.",
+      "IV": "DEG augmentés de 25%."
+    },
+    "4": {
+      "II": "Augmentation de l'ATQ boostée de 10%.",
+      "III": "Augmentation de l'ATQ boostée de 15%.",
+      "IV": "Augmentation de l'ATQ boostée de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Lorsque 1 seul ennemi est présent, les DEG sont augmentés de 100%.",
+          "thumbnail": "heroes/Mirianne/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "La durée d'Étourdissement est augmentée de 1 sec.",
+          "thumbnail": "heroes/Mirianne/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Confère l'immunité contre les Contrôles pendant l'utilisation de la compétence.",
+          "thumbnail": "heroes/Mirianne/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "La durée d'Étourdissement est augmentée de 2 sec.",
+          "thumbnail": "heroes/Mirianne/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Dissipe les Améliorations de la cible et applique Étourdissement pendant 1 sec.",
+          "thumbnail": "heroes/Mirianne/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "DEG augmentés de 40%.",
+          "thumbnail": "heroes/Mirianne/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Lorsque des ennemis sont affectés par 'Verrouillage', augmente le Crit de 400.",
+          "thumbnail": "heroes/Mirianne/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Lorsque la cible est verrouillée, les DEG reçus sont réduits de 30%.",
+          "thumbnail": "heroes/Mirianne/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Mirianne/perks/light.png"
+      },
+      "dark": {
+        "effect": "Éliminer un ennemi réduit le temps de recharge de toutes les compétences de 50% et récupère 1 barre de PM.",
+        "thumbnail": "heroes/Mirianne/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Riventina, l'Accélération infinie",
+    "description": "Augmente la Vitesse d'ATQ de 200 points et attaque les ennemis verrouillés, ce qui leur inflige 200% de l'ATQ en guise de DEG M supplémentaires à raison d'une fois toutes les 2 secondes.",
+    "value": {},
+    "thumbnail": "heroes/Mirianne/uw.png",
+    "story": "Un équipement magique créé par Sonia, l'archimage du Bleu. Elle est enchantée, ce qui lui confère une vitesse incroyable. Sa magie lui permet également de retrouver son propriétaire quand celui-ci la lance. Il s'agit du plus beau cadeau que Sonia pourrait faire à Mirianne, qu'elle considère comme son amie, voire un membre de sa famille. En d'autres termes, cet objet symbolise l'amour que Sonia voue à Mirianne.",
+    "descriptionByStar": {
+      "0": "Augmente la Vitesse d'ATQ de 200 points et attaque les ennemis verrouillés, ce qui leur inflige 200% de l'ATQ en guise de DEG M supplémentaires à raison d'une fois toutes les 2 secondes.",
+      "1": "Augmente la Vitesse d'ATQ de 240 points et attaque les ennemis verrouillés, ce qui leur inflige 240% de l'ATQ en guise de DEG M supplémentaires à raison d'une fois toutes les 2 secondes.",
+      "2": "Augmente la Vitesse d'ATQ de 290 points et attaque les ennemis verrouillés, ce qui leur inflige 290% de l'ATQ en guise de DEG M supplémentaires à raison d'une fois toutes les 2 secondes.",
+      "3": "Augmente la Vitesse d'ATQ de 350 points et attaque les ennemis verrouillés, ce qui leur inflige 350% de l'ATQ en guise de DEG M supplémentaires à raison d'une fois toutes les 2 secondes.",
+      "4": "Augmente la Vitesse d'ATQ de 420 points et attaque les ennemis verrouillés, ce qui leur inflige 420% de l'ATQ en guise de DEG M supplémentaires à raison d'une fois toutes les 2 secondes.",
+      "5": "Augmente la Vitesse d'ATQ de 500 points et attaque les ennemis verrouillés, ce qui leur inflige 500% de l'ATQ en guise de DEG M supplémentaires à raison d'une fois toutes les 2 secondes."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Preuve d'effort",
+      "description": "[Cible verrouillée] Augmente les DEG de 20 % et réduit la résistance Crit M de la cible de 500 points pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Mirianne/ut/1.png",
+      "story": "Une dague de jet fabriquée par Ricardo, dont Mirianne sert pour s'entraîner.\nMirianne fut la seule survivante d'un village où cohabitaient humains et elfes. Quand Ricardo l'emmena à l'orphelinat, il craignit qu'elle ne ferme son cœur lorsqu'elle aurait pris conscience qu'elle n'était pas comme les autres citadins. Sonia, en visite à Orvelia, dissipa ses inquiétudes. Ricardo lui demanda de veiller sur la petite fille et lui remit cette dague d'entraînement pour qu'elle se prépare à son long périple.",
+      "descriptionByStar": {
+        "0": "[Cible verrouillée] Augmente les DEG de 20 % et réduit la résistance Crit M de la cible de 500 points pendant 10 sec.",
+        "1": "[Cible verrouillée] Augmente les DEG de 24 % et réduit la résistance Crit M de la cible de 500 points pendant 10 sec.",
+        "2": "[Cible verrouillée] Augmente les DEG de 29 % et réduit la résistance Crit M de la cible de 500 points pendant 10 sec.",
+        "3": "[Cible verrouillée] Augmente les DEG de 35 % et réduit la résistance Crit M de la cible de 500 points pendant 10 sec.",
+        "4": "[Cible verrouillée] Augmente les DEG de 42 % et réduit la résistance Crit M de la cible de 500 points pendant 10 sec.",
+        "5": "[Cible verrouillée] Augmente les DEG de 50 % et réduit la résistance Crit M de la cible de 500 points pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Anneau Gémeaux de téléportation instantanée",
+      "description": "[Restreindre et protéger] Réduit le coût en PM de 1 et restaure 160 PM à chaque coup critique.",
+      "value": {},
+      "thumbnail": "heroes/Mirianne/ut/2.png",
+      "story": "Anneau acheté par Mirianne à la « Boutique de jouets magiques extraordinaires » d’Orvel. Elle a fait graver son nom et celui de Sonia à l’intérieur. Cet anneau a un jumeau qui permet une fois par jour à l’un de se téléporter à l’emplacement de l’autre. Mais Sonia ne s’en sert jamais, car cela l’ennuie...\nCet anneau est peut-être un jouet, mais il rassure Mirianne de savoir qu’il existe une façon de plus de protéger Sonia.",
+      "descriptionByStar": {
+        "0": "[Restreindre et protéger] Réduit le coût en PM de 1 et restaure 160 PM à chaque coup critique.",
+        "1": "[Restreindre et protéger] Réduit le coût en PM de 1 et restaure 190 PM à chaque coup critique.",
+        "2": "[Restreindre et protéger] Réduit le coût en PM de 1 et restaure 230 PM à chaque coup critique.",
+        "3": "[Restreindre et protéger] Réduit le coût en PM de 1 et restaure 270 PM à chaque coup critique.",
+        "4": "[Restreindre et protéger] Réduit le coût en PM de 1 et restaure 330 PM à chaque coup critique.",
+        "5": "[Restreindre et protéger] Réduit le coût en PM de 1 et restaure 400 PM à chaque coup critique."
+      }
+    },
+    "3": {
+      "name": "Poudre magique de la foudre",
+      "description": "[Assassinat] Les DEG sont augmentés de 50% et chaque coup critique augmente l'ATQ du Héros de 10% pendant 10 sec.",
+      "value": {},
+      "thumbnail": "heroes/Mirianne/ut/3.png",
+      "story": "Superbe amas de matière répartie dans la boule de cristal de Sonia telles des étoiles. Mirianne l’avait collectée pour faire une farce, mais elle est si puissante qu’elle sert finalement à perpétrer des assassinats.",
+      "descriptionByStar": {
+        "0": "[Assassinat] Les DEG sont augmentés de 50% et chaque coup critique augmente l'ATQ du Héros de 10% pendant 10 sec.",
+        "1": "[Assassinat] Les DEG sont augmentés de 50% et chaque coup critique augmente l'ATQ du Héros de 12% pendant 10 sec.",
+        "2": "[Assassinat] Les DEG sont augmentés de 50% et chaque coup critique augmente l'ATQ du Héros de 14% pendant 10 sec.",
+        "3": "[Assassinat] Les DEG sont augmentés de 50% et chaque coup critique augmente l'ATQ du Héros de 17% pendant 10 sec.",
+        "4": "[Assassinat] Les DEG sont augmentés de 50% et chaque coup critique augmente l'ATQ du Héros de 21% pendant 10 sec.",
+        "5": "[Assassinat] Les DEG sont augmentés de 50% et chaque coup critique augmente l'ATQ du Héros de 25% pendant 10 sec."
+      }
+    },
+    "4": {
+      "name": "Naissance d'un miracle",
+      "description": "[Cible éliminée] Augmente le boost d'ATQ de 50 % et étourdit les ennemis touchés par Cible verrouillée pendant 1 sec toutes les 5 sec.",
+      "value": {},
+      "thumbnail": "heroes/Mirianne/ut/4.png",
+      "story": "Un collier de feuilles que confectionna la mère de Mirianne pour célébrer sa naissance.\nSa mère, priant pour que sa fille adorée grandisse dans la ville d'Ella sans qu'il lui arrive malheur, sertit son pendentif en bois d'un joyau de chance elfique.\nCependant, le destin en avait décidé autrement, et Ella fut envahie par des créatures démoniaques. Elle mourut, ne laissant d'elle que le collier de Mirianne.\nIl protégea Mirianne jusqu'à ce que Ricardo la découvre. Le collier tomba en poussière après avoir rempli sa mission.\nRicardo avait de la peine pour Mirianne, unique survivante d'Ella.\nQuelques années plus tard, il demanda à Loman de fabriquer un collier similaire et l'offrit à Mirianne.",
+      "descriptionByStar": {
+        "0": "[Cible éliminée] Augmente le boost d'ATQ de 50 % et étourdit les ennemis touchés par Cible verrouillée pendant 1 sec toutes les 5 sec.",
+        "1": "[Cible éliminée] Augmente le boost d'ATQ de 50 % et étourdit les ennemis touchés par Cible verrouillée pendant 1,2 sec toutes les 5 sec.",
+        "2": "[Cible éliminée] Augmente le boost d'ATQ de 50 % et étourdit les ennemis touchés par Cible verrouillée pendant 1,4 sec toutes les 5 sec.",
+        "3": "[Cible éliminée] Augmente le boost d'ATQ de 50 % et étourdit les ennemis touchés par Cible verrouillée pendant 1,7 sec toutes les 5 sec.",
+        "4": "[Cible éliminée] Augmente le boost d'ATQ de 50 % et étourdit les ennemis touchés par Cible verrouillée pendant 2,1 sec toutes les 5 sec.",
+        "5": "[Cible éliminée] Augmente le boost d'ATQ de 50 % et étourdit les ennemis touchés par Cible verrouillée pendant 2,5 sec toutes les 5 sec."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 5 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Installe au sol Riventina, l'Accélération infinie, pendant 10 sec. Riventina attaque l'ennemi à la DEF M la plus basse pour lui infliger ??? DEG M et le vérrouille comme cible. Ensuite, elle inflige ??? DEG M aux ennemis, toutes les 3 sec et les étourdit pendant 2 sec. Tous les effets attaquent prioritairement la cible verrouillé.",
+    "cooldown": "23",
+    "uses": "6",
+    "thumbnail": "heroes/Mirianne/sw.png",
+    "advancement": {
+      "1": "Augmente les DEG Crit de Mirianne de 100%, la Précision de 300 pendant 10 sec, lors de son activation.",
+      "2": "La compétence [Assassinat] ignore la DEF de l'ennemi, et les DEG infligés, par cette compétence, augmentent de 30% pendant 10 sec, lors de son activation."
+    },
+    "story": "Riventina, l'équipement magique fabriqué par Sonia pour Mirianne. \nLorsque Sonia injecta la puissance de l'éclair dans Riventina, \nVaïkal, de l'intérieur d'elle, ajouta une partie de lui-même dans l'arme qui était sur le point de naître. \n\nLe temps s'écoula. Mirianne expérimenta, apprit et ressentit de nombreuses choses, \net le morceau de l'éclair à l'intérieur de la dague de Mirianne grandit avec elle.\nIl changea, reflétant les émotions, les expériences et la façon de vivre de sa propriétaire.\n\nMême quand elle voyageait pour retrouver les souvenirs perdus,\nou qu'elle passait des nuits blanches entrecoupées de cauchemars, \nou qu'elle cachait ses larmes en souriant,\nle morceau de l'éclair continua à l'observer, veillant à ses côtés.\nAttendant de devenir un éclair assez puissant pour pouvoir la protéger..."
+  },
+  "splashart": "heroes/Mirianne/sa.png",
+  "costumes": "heroes/Mirianne/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "fr",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

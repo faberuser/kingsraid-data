@@ -1,0 +1,268 @@
+{
+  "id": "Miruru",
+  "profile": {
+    "name": "Miruru",
+    "title": "Miruru, Maudite Impératrice Pirate",
+    "class": "Mechanic",
+    "position": "Middle-400",
+    "attack_range": "1200",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "27 ans (Âge mental : 12)",
+    "height": "130",
+    "race": "Humain",
+    "constellation": "Graham le Grand Voleur",
+    "birth": {
+      "month": 5,
+      "day": 31,
+      "monthName": "Mois de l'Espoir"
+    },
+    "like": "Les trésors et tout ce qui brille",
+    "dislike": "La Marine",
+    "story": "Elle voguait autrefois sur les flots en tant qu'impératrice des pirates, inspirant la peur chez les marins. Hélas, un objet maudit la transforma en enfant et tous ses alliés et membres d'équipage la quittèrent. Comme elle n'était pas du genre à abandonner, elle recommença à zéro et rêve désormais de retrouver sa gloire d'antan. Malheureusement, la malédiction d'enfance fait qu'elle a également des pensées immatures. Cependant, elle continue de suivre ses rêves. En ce moment, elle commande les pirates de Miruru composés de Gobelins et Gnolls.",
+    "thumbnail": "heroes/Miruru/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Baaaam!",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Inflige 830*(0.7+(0.3*Niveau de compétence*Coefficient d'éveil))+300% ATQ DEG P à tous les ennemis et les repousse. Cette compétence est considérée comme une attaque normale. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Miruru/skills/1.png"
+    },
+    "2": {
+      "name": "Rouleau",
+      "cost": "2",
+      "cooldown": "14",
+      "description": "Inflige 415*(0.7+(0.3*Skill Level*Awakening Coefficient))+200% of Attack Power DEG P 3 fois aux ennemis devant le lanceur. Chaque coup les renverse pendant 1 sec et augmente leurs DEG P subis de 8% pendant 7 sec. Cet effet se cumule jusqu'à 3 fois. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Miruru/skills/2.png"
+    },
+    "3": {
+      "name": "Pirates de Miruru!",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Frappe 5 fois une cible aléatoire et les ennemis proches, infligeant 253*(0.7+(0.3*Niveau de compétence*Coefficient d'éveil))+122% ATQ DEG P et réduisant leur vitesse d'attaque de 12% pendant 8 sec. Inflige 308*(0.7+(0.3*Niveau de compétence*Coefficient d'éveil))+148.2% ATQ DEG P supplémentaires aux non-héros. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Miruru/skills/3.png"
+    },
+    "4": {
+      "name": "Boooooom!",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lors d'une attaque normale, tire une balle supplémentaire infligeant 117*(0.7+(0.3*Niveau de compétence*Coefficient d'éveil))+56.1% ATQ DEG P supplémentaires à tous les ennemis et augmente sa propre ATQ de 0.5% pendant 10 sec. L'augmentation d'ATQ se cumule jusqu'à 100 fois et ne peut pas être dissipée. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Miruru/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "4": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "S'il y a 1 ennemi, les DEG sont augmentés de 100%.",
+          "thumbnail": "heroes/Miruru/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "L'attaque augmente de 50 % pendant 4 s.",
+          "thumbnail": "heroes/Miruru/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Les dégâts augmentent de 50 %.",
+          "thumbnail": "heroes/Miruru/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Pour chaque ennemi qui subit des DEG, le Temps de recharge est réduit de 8%.",
+          "thumbnail": "heroes/Miruru/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente les DEG de 20% et inflige des DEG à l'ennemi dans une large zone.",
+          "thumbnail": "heroes/Miruru/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Réduit les DEG de 30 % et double le nombre de frappes.",
+          "thumbnail": "heroes/Miruru/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "A 15 % de chances d'étourdir la cible pendant 1 s.",
+          "thumbnail": "heroes/Miruru/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Réduit les DEG de 30 % et double le nombre de frappes.",
+          "thumbnail": "heroes/Miruru/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / Crit +100",
+        "thumbnail": "heroes/Miruru/perks/light.png"
+      },
+      "dark": {
+        "effect": "À chaque coup, gagne autant de cumuls de [Ténèbres] que d'ennemis touchés. À 50 cumuls, consomme toutes les [Ténèbres] et entre en [Déchaînement] pendant 10 sec, augmentant sa vitesse d'attaque de 48% et son ATQ de 25%.",
+        "thumbnail": "heroes/Miruru/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Leviathan, l'Arme ultime",
+    "description": "Inflige des DEG P égaux à {0} % de l'ATQ aux ennemis lors de l'utilisation de Bouuuuum ! avec une chance de 30 % et augmente les DEG P subis par la cible de {1} % pendant 10 secondes.",
+    "thumbnail": "heroes/Miruru/uw.png",
+    "story": "Lorsque Miruru régnait comme impératrice des pirates, elle était crainte de tous les marins et des forces navales d'Orvelia et de l'empire. Les canons de son navire étaient particulièrement terrifiants. Le plus puissant d'entre eux était le Léviathan, le canon principal du navire. Après avoir été maudite, elle emporta une seule chose en fuyant la mutinerie de son équipage. L'efficacité de cette arme vaut en effet tout l'or et les butins du monde. Le Léviathan est l'arme la plus puissante de son arsenal. Après de nombreuses modifications, l'ancienne terreur de la mer sert désormais d'artillerie mobile.",
+    "value": {
+      "0": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      }
+    },
+    "descriptionByStar": {
+      "0": "Inflige des DEG P égaux à 100 % de l’ATQ aux ennemis lors de l’utilisation de Bouuuuum ! avec une chance de 30 % et augmente les DEG P subis par la cible de 20 % pendant 10 secondes.",
+      "1": "Inflige des DEG P égaux à 120 % de l'ATQ aux ennemis lors de l'utilisation de Bouuuuum ! avec une chance de 30 % et augmente les DEG P subis par la cible de 24 % pendant 10 secondes.",
+      "2": "Inflige des DEG P égaux à 140 % de l'ATQ aux ennemis lors de l'utilisation de Bouuuuum ! avec une chance de 30 % et augmente les DEG P subis par la cible de 29 % pendant 10 secondes.",
+      "3": "Inflige des DEG P égaux à 170 % de l'ATQ aux ennemis lors de l'utilisation de Bouuuuum ! avec une chance de 30 % et augmente les DEG P subis par la cible de 35 % pendant 10 secondes.",
+      "4": "Inflige des DEG P égaux à 210 % de l'ATQ aux ennemis lors de l'utilisation de Bouuuuum ! avec une chance de 30 % et augmente les DEG P subis par la cible de 42 % pendant 10 secondes.",
+      "5": "Inflige des DEG P égaux à 250 % de l'ATQ aux ennemis lors de l'utilisation de Bouuuuum ! avec une chance de 30 % et augmente les DEG P subis par la cible de 50 % pendant 10 secondes."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Sou des profondeurs",
+      "description": "[Baaaam!] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit la résistance Crit P de la cible de {0} points pendant 10 sec.",
+      "thumbnail": "heroes/Miruru/ut/1.png",
+      "story": "Le sou fétiche de Miruru est un trésor antique du royaume englouti.\nIl s'agit d'un trophée provenant de sa première chasse au trésor après avoir été changée en enfant. Façonné selon une technique métallurgique ancienne, il est conservé au chaud dans le gousset de Miruru, et lui sert désormais de porte-bonheur. En effet, il lui a sauvé la vie plusieurs fois.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Baaaam!] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit la résistance Crit P de la cible de 200 points pendant 10 sec.",
+        "1": "[Baaaam!] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit la résistance Crit P de la cible de 240 points pendant 10 sec.",
+        "2": "[Baaaam!] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit la résistance Crit P de la cible de 290 points pendant 10 sec.",
+        "3": "[Baaaam!] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit la résistance Crit P de la cible de 350 points pendant 10 sec.",
+        "4": "[Baaaam!] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit la résistance Crit P de la cible de 420 points pendant 10 sec.",
+        "5": "[Baaaam!] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit la résistance Crit P de la cible de 500 points pendant 10 sec."
+      }
+    },
+    "2": {
+      "name": "Sextant de roi pirate",
+      "description": "[Rouleau] Augmente les DEG infligés de {0} % à chaque utilisation et récupère 120 PM en cas de coup critique infligé. Cet effet est cumulable jusqu'à 10 fois.",
+      "thumbnail": "heroes/Miruru/ut/2.png",
+      "story": "Sextant du roi pirate Olga, le premier à avoir découvert le nouveau continent. \nLe roi pirate Olga franchit le continent Orbis en quête de nouvelles terres suite à une révélation divine. Ce sextant peut déterminer l’angle et la position n’importe où dans le monde et avec une grande précision. Miruru utilise ce sextant pour décupler les dégâts occasionnés par les bombes roulantes, mais elle ne se souvient pas du tout comment elle l’a récupéré.",
+      "value": {
+        "0": {
+          "0": "4",
+          "1": "4.8",
+          "2": "5.8",
+          "3": "7",
+          "4": "8.4",
+          "5": "10"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Rouleau] Augmente les DEG infligés de 4 % à chaque utilisation et récupère 120 PM en cas de coup critique infligé. Cet effet est cumulable jusqu'à 10 fois.",
+        "1": "[Rouleau] Augmente les DEG infligés de 4,8 % à chaque utilisation et récupère 120 PM en cas de coup critique infligé. Cet effet est cumulable jusqu'à 10 fois.",
+        "2": "[Rouleau] Augmente les DEG infligés de 5,8 % à chaque utilisation et récupère 120 PM en cas de coup critique infligé. Cet effet est cumulable jusqu'à 10 fois.",
+        "3": "[Rouleau] Augmente les DEG infligés de 7 % à chaque utilisation et récupère 120 PM en cas de coup critique infligé. Cet effet est cumulable jusqu'à 10 fois.",
+        "4": "[Rouleau] Augmente les DEG infligés de 8,4 % à chaque utilisation et récupère 120 PM en cas de coup critique infligé. Cet effet est cumulable jusqu'à 10 fois.",
+        "5": "[Rouleau] Augmente les DEG infligés de 10 % à chaque utilisation et récupère 120 PM en cas de coup critique infligé. Cet effet est cumulable jusqu'à 10 fois."
+      }
+    },
+    "3": {
+      "name": "Boulet de canon miruru",
+      "description": "[Pirates de Miruru!] Les DEG sont augmentés de 50% et le Temps de Recharge de la compétence est réduit de {0}%.",
+      "thumbnail": "heroes/Miruru/ut/3.png",
+      "story": "Un boulet de canon gravé du symbole des pirates de Miruru. Miruru se souvient encore de son glorieux passé. Son drapeau flottant orné d’un requin et le son des explosions qu’elle ordonnait. Ces doux souvenirs des navires ennemis coulant dans la terreur restent gravés en elle. Miruru utilise des boulets de canon spéciaux pour attaquer ses ennemis, tout en attendant les jours heureux où elle pourra revenir à son poste.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Pirates de Miruru!] Les DEG sont augmentés de 50% et le Temps de Recharge de la compétence est réduit de 12%.",
+        "1": "[Pirates de Miruru!] Les DEG sont augmentés de 50% et le Temps de Recharge de la compétence est réduit de 14%.",
+        "2": "[Pirates de Miruru!] Les DEG sont augmentés de 50% et le Temps de Recharge de la compétence est réduit de 17%.",
+        "3": "[Pirates de Miruru!] Les DEG sont augmentés de 50% et le Temps de Recharge de la compétence est réduit de 21%.",
+        "4": "[Pirates de Miruru!] Les DEG sont augmentés de 50% et le Temps de Recharge de la compétence est réduit de 25%.",
+        "5": "[Pirates de Miruru!] Les DEG sont augmentés de 50% et le Temps de Recharge de la compétence est réduit de 30%."
+      }
+    },
+    "4": {
+      "name": "Tonneau de poudre de la tortue",
+      "description": "[Boooooom!] augmente les DEG de 50% et, à l'activation, augmente la vitesse d'attaque de {0}% pendant 3 sec.",
+      "thumbnail": "heroes/Miruru/ut/4.png",
+      "story": "Ce boulet de canon est le résultat de la collaboration fructueuse entre Miruru et son nouvel ami expert en explosifs.\nLakrak et Miruru ont fait connaissance l'été dernier, et ont développé ensemble ce boulet octroyant plus de puissance de feu au canon.\nLe point d'ignition de la poudre étant très bas, Miruru la conserve précieusement dans un tonneau-tortue, découvert dans un bateau transportant des trésors.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Boooooom!] augmente les DEG de 50% et, à l'activation, augmente la vitesse d'attaque de 20% pendant 3 sec.",
+        "1": "[Boooooom!] augmente les DEG de 50% et, à l'activation, augmente la vitesse d'attaque de 24% pendant 3 sec.",
+        "2": "[Boooooom!] augmente les DEG de 50% et, à l'activation, augmente la vitesse d'attaque de 29% pendant 3 sec.",
+        "3": "[Boooooom!] augmente les DEG de 50% et, à l'activation, augmente la vitesse d'attaque de 35% pendant 3 sec.",
+        "4": "[Boooooom!] augmente les DEG de 50% et, à l'activation, augmente la vitesse d'attaque de 42% pendant 3 sec.",
+        "5": "[Boooooom!] augmente les DEG de 50% et, à l'activation, augmente la vitesse d'attaque de 50% pendant 3 sec."
+      }
+    }
+  },
+  "splashart": "heroes/Miruru/sa.png",
+  "costumes": "heroes/Miruru/cos",
+  "_localization": {
+    "locale": "fr",
+    "version": "cbt-phase-1",
+    "englishFallbackFields": []
+  }
+}

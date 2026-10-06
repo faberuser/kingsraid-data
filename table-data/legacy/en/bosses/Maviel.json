@@ -1,0 +1,57 @@
+{
+  "id": "Maviel",
+  "profile": {
+    "name": "Maviel",
+    "title": "Berserker Assassin",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "Dark Elf",
+    "damage_type": "Physical",
+    "recommended_heroes": "Demia, Baudouin, Aisha",
+    "characteristics": "[Shadow Stealth] is a special state that dodges all attacks up to 100 times, after which the skill is dispelled for a set amount of time. Heroes with high hit-rate and Atk. Spd are advantageous in this stage.",
+    "thumbnail": "bosses/Maviel.png",
+    "recommendedHeroNames": [
+      "Demia",
+      "Baudouin",
+      "Aisha"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Shadow Slash",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Moves swiftly to random targets, dealing P.DMG 5 times. Each hit inflicts Bleeding for 10 sec and a Recovery Reduction status that cannot be dispelled for the rest of the battle."
+    },
+    "2": {
+      "name": "Berserk Burst",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Enter a Berserker Rage, increasing ATK, Crit. Chance and ATK Spd greatly for 10 sec."
+    },
+    "3": {
+      "name": "No Mercy",
+      "cost": null,
+      "cooldown": "30",
+      "description": "Moves to the enemy with the highest DEF, dealing massive P.DMG."
+    },
+    "4": {
+      "name": "Shadow Stealth",
+      "cost": null,
+      "cooldown": "40",
+      "description": "Dodges all attacks for a certain number of times every 40 sec, and becomes stunned after dodging all attacks for the set number of times. When not in Stealth mode, takes increased DMG and ATK Spd is fixed."
+    },
+    "5": {
+      "name": "Purify",
+      "cost": null,
+      "cooldown": null,
+      "description": "Every 30 sec, remove all negative effects and increase ATK Spd."
+    }
+  },
+  "aliases": [
+    "Maviel",
+    "GR5",
+    "GR 5"
+  ]
+}

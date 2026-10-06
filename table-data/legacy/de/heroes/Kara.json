@@ -1,0 +1,260 @@
+{
+  "id": "Kara",
+  "profile": {
+    "name": "Kara",
+    "title": "Der Inbegriff antiker Technomagie Kara",
+    "class": "Mechanic",
+    "position": "Middle-200",
+    "attack_range": "6700",
+    "damage_type": "Magical",
+    "gender": "Neutral (frauenähnlich)",
+    "age": "???",
+    "height": "161",
+    "race": "Menschenähnlicher Golem",
+    "constellation": "Graham, der Dieb",
+    "birth": {
+      "month": 5,
+      "day": 30,
+      "monthName": "Monat der Hoffnung"
+    },
+    "like": "Energieladung, Meister",
+    "dislike": "Befehle können nicht ausgeführt werden. Ineffiziente Art, Dinge zu erledigen",
+    "story": "Ein menschenähnlicher Golem, der aus antiker Technomagie erschaffen wurde. Er sieht aus wie ein menschliches Mädchen, doch er ist eine uralte Waffe ohne Gefühle und dient lediglich als Werkzeug. Er schlummerte in den Ruinen einer antiken Zivilisation weit unter der Galluah-Ebenen. Annette, eine Technomagierin aus dem Königreich Orvel, legte ihn während ihrer Forschung frei und erweckte ihn in einer neuen Ära und Zivilisation ...",
+    "thumbnail": "heroes/Kara/ico.png"
+  },
+  "skills": {
+    "1 (1)": {
+      "name": "Antipersonenlaser",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Greift das Ziel 4-mal an, verursacht insgesamt ??? Mag. Schaden und wirft es zurück. Der letzte Angriff trifft alle Feinde, sie erleiden dabei ??? Mag. Schaden und werden für 3 Sek. weggeweht.",
+      "thumbnail": "heroes/Kara/skills/1 (1).png"
+    },
+    "1 (2)": {
+      "name": "Belagerungslaser",
+      "cost": "3",
+      "cooldown": "11",
+      "description": "Greift das Ziel an und verursacht ??? Mag. Schaden. Krit. Schaden wird um 200 % erhöht.",
+      "thumbnail": "heroes/Kara/skills/1 (2).png"
+    },
+    "2 (1)": {
+      "name": "Flächenkanone",
+      "cost": "4",
+      "cooldown": "14",
+      "description": "Greift ein zufälliges Ziel und nahe Feinde 4-mal an, verursacht insgesamt ??? Mag. Schaden und betäubt sie für 4 Sek.",
+      "thumbnail": "heroes/Kara/skills/2 (1).png"
+    },
+    "2 (2)": {
+      "name": "Fokus-Feuer",
+      "cost": "4",
+      "cooldown": "22",
+      "description": "Greift ein zufälliges Ziel 15-mal an, verursacht insgesamt ??? Mag. Schaden und für 20 Sek. Fokus-Feuer. Verursacht mit jedem Stapel von Fokus-Feuer ??? zusätzlichen Mag. Schaden am Feind. Fokus-Feuer kann bis zu 30-mal gestapelt werden.",
+      "thumbnail": "heroes/Kara/skills/2 (2).png"
+    },
+    "3": {
+      "name": "Belagerungswaffe auslösen",
+      "cost": "2",
+      "cooldown": null,
+      "description": "Kara verwandelt sich in eine Belagerungswaffe und greift den Feind an. Dabei verursacht sie mit jedem Treffer ??? Mag. Schaden. Im Belagerungswaffen-Modus werden die Skills Antipersonenlaser und Flächenkanone gegen die Skills Belagerungslaser und Fokus-Feuer ausgetauscht. Bei erneuter Anwendung des Skills wird wieder in den Antipersonenwaffen-Modus gewechselt.",
+      "thumbnail": "heroes/Kara/skills/3.png"
+    },
+    "4": {
+      "name": "Technomagie-Essenz",
+      "cost": null,
+      "cooldown": null,
+      "description": "Im Antipersonenwaffen-Modus werden alle VERT um ??? erhöht, im Belagerungswaffen-Modus wird dem Bossmonster zugefügter Schaden um 25 % und vom Feind erhaltener Schaden um 30 % erhöht, außerdem gewährt er Massenkontroll-Immunität. Jedes Mal, wenn an einem Feind Schaden verursacht wird, werden 70 MP wiederhergestellt.",
+      "thumbnail": "heroes/Kara/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht den VERT-Boost um 10 %.",
+      "III": "Erhöht den VERT-Boost um 15 %.",
+      "IV": "Erhöht den VERT-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "[Antipersonenlaser] – Stellt bei Krit. Treffern 200 MP wieder her.\n\n[Belagerungslaser] – Erhöht die Manakosten um 1 und den Schaden um 100 %.",
+          "thumbnail": "heroes/Kara/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "[Antipersonenlaser] – Entzieht Feinden, die Schaden genommen haben, 300 MP.\n\n[Belagerungslaser] – Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Kara/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "[Flächenkanone] – Erhöht die Betäubungsdauer um 1 Sek.\n\n[Fokus-Feuer] – Fügt 1 weiteren Stapel von Fokus-Feuer hinzu.",
+          "thumbnail": "heroes/Kara/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "[Flächenkanone] – Verringert die Manakosten um 1.\n\n[Fokus-Feuer] – Erhöht den Stapelanzahl von Fokus-Feuer auf 60.",
+          "thumbnail": "heroes/Kara/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht Schaden um 100 %, wenn sich nur 1 Feind in der Nähe befindet.",
+          "thumbnail": "heroes/Kara/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Verringert bei Krit. Treffer alle Skill-Cooldowns um 3 %.",
+          "thumbnail": "heroes/Kara/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "MP-Regeneration verdreifacht, wenn nur ein Feind auf dem Schlachtfeld ist.",
+          "thumbnail": "heroes/Kara/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "[Antipersonenwaffe] – Verringert den ANG um 20 %, erhöht die MP-Regeneration/Sek. jedoch um 100 %.\n\n[Belagerungswaffe] – Verringert alle VERT um 60 %, erhöht den Krit. Schaden jedoch um 140 %.",
+          "thumbnail": "heroes/Kara/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Schaden +20 %",
+        "thumbnail": "heroes/Kara/perks/light.png"
+      },
+      "dark": {
+        "effect": "[Antipersonenwaffe] – Erhöht die Massenkontroll-PRÄZ um 400.\n\n[Belagerungswaffe] erhöht die PRÄZ um 400.",
+        "thumbnail": "heroes/Kara/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "0-Form Immerwährende Bewegungskanone, Himmelszerstörer",
+    "description": "Erhöht den ANG pro Sek. um 2 %. Kann bis zu {0}-mal gestapelt werden.",
+    "value": {
+      "0": {
+        "0": "15",
+        "1": "20",
+        "2": "25",
+        "3": "30",
+        "4": "35",
+        "5": "40"
+      }
+    },
+    "thumbnail": "heroes/Kara/uw.png",
+    "story": "Ein Artefakt aus einer antiken Zivilisation, in dem eine unerschöpfliche Energiequelle steckt. Die Macht dieser Belagerungswaffe kommt der des höchsten Magierranges gleich. Sie wurde in den Ruinen des alten Fürstentums Gray entdeckt und eingelagert, da niemand wusste, wie man sie einsetzte. Lange danach, als Kara ausgegraben wurde und erwachte, teleportierte sich die Waffe an ihre Seite. Die technomagische Waffe des höchsten Ranges wurde auf ähnliche Art und Weise hergestellt wie die Gebirgsfestung.",
+    "descriptionByStar": {
+      "0": "Erhöht den ANG pro Sek. um 2 %. Kann bis zu 15-mal gestapelt werden.",
+      "1": "Erhöht den ANG pro Sek. um 1 %. Kann bis zu 40-mal gestapelt werden.",
+      "2": "Erhöht den ANG pro Sek. um 1 %. Kann bis zu 50-mal gestapelt werden.",
+      "3": "Erhöht den ANG pro Sek. um 1 %. Kann bis zu 60-mal gestapelt werden.",
+      "4": "Erhöht den ANG pro Sek. um 1 %. Kann bis zu 70-mal gestapelt werden.",
+      "5": "Erhöht den ANG pro Sek. um 1 %. Kann bis zu 80-mal gestapelt werden."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Optische Linse – MF002",
+      "description": "[Antipersonenlaser] erhöht den Schaden um 20 % und den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %.\n[Belagerungslaser] erhöht den Schaden um 20 % und ignoriert Körp. Blockchance und Mag. Blockchance des Ziels.",
+      "value": {},
+      "thumbnail": "heroes/Kara/ut/1.png",
+      "story": "Eine optische Linse, die Annette für Kara hergestellt hat.\nSie folgte bei der Herstellung einer Blaupause, die sie bei der Ausgrabung von Kara entdeckt hatte. Die Blaupause offenbarte eine Technik, die der modernen Technologie deutlich überlegen war, aber sie schaffte es dennoch, einige der Inhalte zu entschlüsseln. Das Ergebnis der Erkenntnisse aus dieser Blaupause ist diese Linse, die den Augen einer Libelle ähnelt. Die Linse erlaubt es dem Träger, selbst die kleinsten Bewegungen zu erkennen und sein Ziel aus hunderten verschiedenen Blickwinkeln zu betrachten. Sie rüstete Kara mit der Linse aus, die ohnehin schon der Gipfel der Technomagie darstellte. Das Ergebnis war eine erhebliche Verbesserung beim Wechsel des Kampfmodus.",
+      "descriptionByStar": {
+        "0": "[Antipersonenlaser] erhöht den Schaden um 20 % und den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %.\n[Belagerungslaser] erhöht den Schaden um 20 % und ignoriert Körp. Blockchance und Mag. Blockchance des Ziels.",
+        "1": "[Antipersonenlaser] erhöht den Schaden um 24 % und den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %.\n[Belagerungslaser] erhöht den Schaden um 24 % und ignoriert Körp. Blockchance und Mag. Blockchance des Ziels.",
+        "2": "[Antipersonenlaser] erhöht den Schaden um 29 % und den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %.\n[Belagerungslaser] erhöht den Schaden um 29 % und ignoriert Körp. Blockchance und Mag. Blockchance des Ziels.",
+        "3": "[Antipersonenlaser] erhöht den Schaden um 35 % und den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %.\n[Belagerungslaser] erhöht den Schaden um 35 % und ignoriert Körp. Blockchance und Mag. Blockchance des Ziels.",
+        "4": "[Antipersonenlaser] erhöht den Schaden um 42 % und den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %.\n[Belagerungslaser] erhöht den Schaden um 42 % und ignoriert Körp. Blockchance und Mag. Blockchance des Ziels.",
+        "5": "[Antipersonenlaser] erhöht den Schaden um 50 % und den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %.\n[Belagerungslaser] erhöht den Schaden um 50 % und ignoriert Körp. Blockchance und Mag. Blockchance des Ziels."
+      }
+    },
+    "2": {
+      "name": "Aufnahmegerät KARA-00XX",
+      "description": "[Flächenkanone] erhöht den Schaden um 50 % und verringert 10 Sek. lang die ANG-GESCHW. des Ziels um 100.\n\n[Fokus-Feuer] verringert den Cooldown beim Krit. Treffer um 2 % und stellt 150 Mana wieder her.",
+      "value": {},
+      "thumbnail": "heroes/Kara/ut/2.png",
+      "story": "Ein Aufnahmegerät und Prozessor, der als Karas Gehirn fungiert.\nIn ihm steckt ein Sammelsurium alten Wissens und es ist weitaus aufnahmefähiger als das eines Menschen.\nTrotz dieser unglaublichen Funktionen hat es Probleme damit, Emotionen zu erkennen und zu zeigen.",
+      "descriptionByStar": {
+        "0": "[Flächenkanone] erhöht den Schaden um 50 % und verringert 10 Sek. lang die ANG-GESCHW. des Ziels um 100.\n\n[Fokus-Feuer] verringert den Cooldown beim Krit. Treffer um 2 % und stellt 150 Mana wieder her.",
+        "1": "[Flächenkanone] erhöht den Schaden um 50 % und verringert 10 Sek. lang die ANG-GESCHW. des Ziels um 120.\n\n[Fokus-Feuer] verringert den Cooldown beim Krit. Treffer um 2,4 % und stellt 150 Mana wieder her.",
+        "2": "[Flächenkanone] erhöht den Schaden um 50 % und verringert 10 Sek. lang die ANG-GESCHW. des Ziels um 140.\n\n[Fokus-Feuer] verringert den Cooldown beim Krit. Treffer um 2,9 % und stellt 150 Mana wieder her.",
+        "3": "[Flächenkanone] erhöht den Schaden um 50 % und verringert 10 Sek. lang die ANG-GESCHW. des Ziels um 170.\n\n[Fokus-Feuer] verringert den Cooldown beim Krit. Treffer um 3,5 % und stellt 150 Mana wieder her.",
+        "4": "[Flächenkanone] erhöht den Schaden um 50 % und verringert 10 Sek. lang die ANG-GESCHW. des Ziels um 210.\n\n[Fokus-Feuer] verringert den Cooldown beim Krit. Treffer um 4,2 % und stellt 150 Mana wieder her.",
+        "5": "[Flächenkanone] erhöht den Schaden um 50 % und verringert 10 Sek. lang die ANG-GESCHW. des Ziels um 250.\n\n[Fokus-Feuer] verringert den Cooldown beim Krit. Treffer um 5 % und stellt 150 Mana wieder her."
+      }
+    },
+    "3": {
+      "name": "Antike Quelle der Macht",
+      "description": "[Belagerungswaffe auslösen] erhöht den Schaden um 50 % und verringert die Mag. VERT des Ziels bei Krit. Treffer um 1 %. Der Mag. VERT-Reduktionseffekt kann bis zu 20-mal gestapelt werden.",
+      "value": {},
+      "thumbnail": "heroes/Kara/ut/3.png",
+      "story": "Karas Quelle der Macht und eines der größten Meisterwerke einer antiken, längst vergessenen Zivilisation.\nAnnette erschuf Rascal mithilfe der grundlegenden Technologie,\ndoch nicht einmal sie konnte diese spezielle Technologie vollständig entschlüsseln.\nEin unerschöpflicher Quell magischer Energie.",
+      "descriptionByStar": {
+        "0": "[Belagerungswaffe auslösen] erhöht den Schaden um 50 % und verringert die Mag. VERT des Ziels bei Krit. Treffer um 1 %. Der Mag. VERT-Reduktionseffekt kann bis zu 20-mal gestapelt werden.",
+        "1": "[Belagerungswaffe auslösen] erhöht den Schaden um 50 % und verringert die Mag. VERT des Ziels bei Krit. Treffer um 1 %. Der Mag. VERT-Reduktionseffekt kann bis zu 24-mal gestapelt werden.",
+        "2": "[Belagerungswaffe auslösen] erhöht den Schaden um 50 % und verringert die Mag. VERT des Ziels bei Krit. Treffer um 1 %. Der Mag. VERT-Reduktionseffekt kann bis zu 29-mal gestapelt werden.",
+        "3": "[Belagerungswaffe auslösen] erhöht den Schaden um 50 % und verringert die Mag. VERT des Ziels bei Krit. Treffer um 1 %. Der Mag. VERT-Reduktionseffekt kann bis zu 35-mal gestapelt werden.",
+        "4": "[Belagerungswaffe auslösen] erhöht den Schaden um 50 % und verringert die Mag. VERT des Ziels bei Krit. Treffer um 1 %. Der Mag. VERT-Reduktionseffekt kann bis zu 42-mal gestapelt werden.",
+        "5": "[Belagerungswaffe auslösen] erhöht den Schaden um 50 % und verringert die Mag. VERT des Ziels bei Krit. Treffer um 1 %. Der Mag. VERT-Reduktionseffekt kann bis zu 50-mal gestapelt werden."
+      }
+    },
+    "4": {
+      "name": "Antike Forschungszeichnungen",
+      "description": "[Technomagie-Essenz] erhöht den VERT-Boost um 50 % und den eigenen Krit. Schaden um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Kara/ut/4.png",
+      "story": "Als Annette Kara ausgrub, fand sie diese Zeichnungen sowie einen Blaupause für eine optische Linse.\nAuf dem alten abgenutzten Pergament waren Zeichnungen von unterschiedlichen mechanischen Strukturen sowie die dazugehörigen Beschreibungen abgebildet.\nMit Leos Hilfe konnte sie den Inhalt vage übersetzen. Nach einigen Jahren der Forschung gelang es ihr schließlich, „Kara“, das Ergebnis der fortschrittlichsten Technomagie, fertigzustellen.",
+      "descriptionByStar": {
+        "0": "[Technomagie-Essenz] erhöht den VERT-Boost um 50 % und den eigenen Krit. Schaden um 20 %.",
+        "1": "[Technomagie-Essenz] erhöht den ANG- und VERT-Boost um 50 %. Der eigene Krit. Schaden wird um 24 % erhöht.",
+        "2": "[Technomagie-Essenz] erhöht den ANG- und VERT-Boost um 50 %. Der eigene Krit. Schaden wird um 29 % erhöht.",
+        "3": "[Technomagie-Essenz] erhöht den ANG- und VERT-Boost um 50 %. Der eigene Krit. Schaden wird um 35 % erhöht.",
+        "4": "[Technomagie-Essenz] erhöht den ANG- und VERT-Boost um 50 %. Der eigene Krit. Schaden wird um 42 % erhöht.",
+        "5": "[Technomagie-Essenz] erhöht den ANG- und VERT-Boost um 50 %. Der eigene Krit. Schaden wird um 50 % erhöht."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 20 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von 0-Form Immerwährende Bewegungskanone, Himmelszerstörer für 12 Sek. Die beschwörte Seele greift den Gegner kontinuierlich an und fügt alle 0.5 Sek. ??? Mag. Schaden zu. Dieser Effekt wird verstärkt, wenn der gleiche Gegner über 5 Sek. lang angegriffen wird, sodass sich der Schaden um 100 % erhöht.",
+    "cooldown": "24",
+    "uses": "7",
+    "thumbnail": "heroes/Kara/sw.png",
+    "advancement": {
+      "1": "Die Seelen-Wirkungsdauer erhöht sich um 6 Sek.",
+      "2": "Verstärkte Angriffe betäuben das Ziel für 1 Sek. bei jedem ANG und der Schaden wird um zus. 100 % erhöht."
+    },
+    "story": "Das Ende der Technomagie-Zivilisation, die den Gott verärgert hat, wird kommen. Wir können es nicht vermeiden.\n\nEinige haben ihr Interesse an dem Universum gewandt, zu dem Gott nicht gelangen kann,\nandere haben ihr Interesse an dem ewigen Leben gewandt, andere haben sich immer noch gequält und die Waffen vorbereitet, um es zu zerstören.\n\nAber wir haben keine Zeit. Wenn man an die Zukunft mit der Gegenwart denkt, muss man auch anders denken.\nDie Leistung, das Wissen und die Weisheit sind die Dinge, die in Zukunft bleiben müssen.\nUnd wir? Wir machen einfach eine Technik, die dem Zorn Gottes standhält.\n\nDer Zweck von Projekt K.A.R.A. ist die AI, die dem Menschen ähnlich ist und die jeder annehmen kann.\nWenn es mit der Person verbunden ist, die das Blut der Technik hat, kann K.A.R.A grenzenlos wachsen und stark sein.\n\nUnd sie werden ... der Schrittstein der Technomagie-Zivilisation sein, um bestehen zu bleiben.\n\nDas ist unser Vermächtnis.\nDies ist das einzige Geschenk, das wir unseren zukünftigen Generationen geben können.\n\n- Memoiren des Prof. Ignio\n- Aus dem Projekt K.A.R.A"
+  },
+  "splashart": "heroes/Kara/sa.png",
+  "costumes": "heroes/Kara/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

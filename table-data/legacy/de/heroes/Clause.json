@@ -1,0 +1,263 @@
+{
+  "id": "Clause",
+  "profile": {
+    "name": "Clause",
+    "title": "Ritter der Eisernen Verteidigung Clause",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "1500",
+    "damage_type": "Physical",
+    "gender": "Männlich",
+    "age": "20",
+    "height": "195",
+    "race": "Menschen",
+    "constellation": "Asiphia, die Herrscherin",
+    "birth": {
+      "month": 10,
+      "day": 22,
+      "monthName": "Monat der Freundschaft"
+    },
+    "like": "Seine neue Familie",
+    "dislike": "Freunden Schaden zuzufügen",
+    "story": "Dieser aufrichtige und gerechte Mann ist einer der Ritter und Beschützer Orvels. Viele Leute halten ihn für einen verlässlichen Verteidiger Orvels, doch aufgrund seines mangelnden Interesses an Reichtum und Erfolg bekleidete er innerhalb des Ordens nie einen höheren Rang. Er wuchs gemeinsam mit Kasel und Frey im selben Waisenhaus auf und liebt sein Land als die Heimat jener, die ihm etwas bedeuten. Vor Kurzem meldete er sich freiwillig für die Expedition zur Untersuchung der Königsebenen.",
+    "thumbnail": "heroes/Clause/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Boden aufreißen",
+      "cost": "2",
+      "cooldown": "9",
+      "description": "Springt in die Luft, fügt Gegnern in Reichweite ??? physischen Schaden zu und betäubt sie für 5 Sek.",
+      "thumbnail": "heroes/Clause/skills/1.png"
+    },
+    "2": {
+      "name": "Schildhieb",
+      "cost": "1",
+      "cooldown": "8",
+      "description": "Fügt Gegnern in Reichweite ??? physischen Schaden proportional zu Clauses physischer VTD zu und stößt sie zurück. Senkt für 20 Sek. ihre gesamte VTD um 30% und ihr Angriffstempo um 500. Blockt Clause einen Angriff, sinkt die Abklingzeit dieser Fähigkeit um 0.5 Sek.",
+      "thumbnail": "heroes/Clause/skills/2.png"
+    },
+    "3": {
+      "name": "Wächterschild",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Erhöht für 20 Sek. die physische VTD aller Verbündeten um ??? und ihren physischen Krit.-Widerstand um 300. Ihr erlittener physischer Schaden sinkt um 25%.",
+      "thumbnail": "heroes/Clause/skills/3.png"
+    },
+    "4": {
+      "name": "Eid der Ritter",
+      "cost": null,
+      "cooldown": "1",
+      "description": "Fügt beim Blocken Gegnern vor sich ??? physischen Schaden zu, senkt ihren ANG für 8 Sek. um 20% und regeneriert 300 Mana. Erleidet ein anderer Verbündeter Schaden, steigen die physische VTD aller Verbündeten für 5 Sek. um 20% und ihr physischer Krit.-Widerstand um 200. Dieser Effekt kann nur einmal alle 10 Sek. ausgelöst werden.",
+      "thumbnail": "heroes/Clause/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht VERT-Erhöhungsrate um 10 %.",
+      "III": "Erhöht VERT-Erhöhungsrate um 15 %.",
+      "IV": "Erhöht VERT-Erhöhungsrate um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Reduziert Cooldown um 3 Sek.",
+          "thumbnail": "heroes/Clause/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Für 1 extra Mana erhält der Skill eine 100 % Chance, Feinde zu sich heranzuziehen.",
+          "thumbnail": "heroes/Clause/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Erhöht 10 Sek. lang alle erhaltenen Schäden des Ziels um 25 %.",
+          "thumbnail": "heroes/Clause/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Betäubt den Feind 1 Sek. lang.",
+          "thumbnail": "heroes/Clause/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht VERT-Erhöhungsrate um 40 %.",
+          "thumbnail": "heroes/Clause/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Erhöht Körp. Blockchance um 250 während der Wirkungsdauer.",
+          "thumbnail": "heroes/Clause/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht 10 Sek. lang alle erhaltenen Schäden des getroffenen Ziels um 20 %. Der Cooldown beträgt 10 Sek.",
+          "thumbnail": "heroes/Clause/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Verringert zusätzlich 10 % ANG.",
+          "thumbnail": "heroes/Clause/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Körp. Blockchance +200",
+        "thumbnail": "heroes/Clause/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht zu jedem Kampfbeginn den ANG aller Verbündeten um 15 %. Dieser Effekt kann bis zu 3-mal gestapelt und kann nicht entfernt werden.",
+        "thumbnail": "heroes/Clause/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Wächterin, Exian",
+    "description": "Nach 3 Einsätzen eigener aktiver Fähigkeiten steigen die physische VTD aller Verbündeten für 15 Sek. um {0}% und ihr ANG um {1}%. Der ANG-Bonus wird beim Verbündeten mit dem höchsten ANG mit 2 multipliziert.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
+    "thumbnail": "heroes/Clause/uw.png",
+    "story": "Ein Set aus Schwert und Schild, graviert mit verschiedenen Runen und voller antiker Magie. Es heißt, diese legendären Gegenstände wurden vor Äonen von einem antiken Drachen namens Exian aus dessen eigenen Schuppen geschaffen. Das Schwert ist einer der königlichen Schätze von Orvel und wird nur dem ehrenhaftesten Ritter verliehen. Sein Führer soll als Verteidiger des Königreichs und des Volkes sowie als Beschützer des Lebens dienen.",
+    "descriptionByStar": {
+      "0": "Nach 3 Einsätzen eigener aktiver Fähigkeiten steigen die physische VTD aller Verbündeten für 15 Sek. um 10% und ihr ANG um 10%. Der ANG-Bonus wird beim Verbündeten mit dem höchsten ANG mit 2 multipliziert.",
+      "1": "Erhöht die Körp. VERT und den ANG von allen Verbündeten für 10 Sek. um 12 %, wenn ein aktiver Skill 3-mal gewirkt wird. Der Verbündete mit dem höchsten ANG erhält einen doppelt so großen ANG-Boost.",
+      "2": "Erhöht die Körp. VERT und den ANG von allen Verbündeten für 10 Sek. um 14 %, wenn ein aktiver Skill 3-mal gewirkt wird. Der Verbündete mit dem höchsten ANG erhält einen doppelt so großen ANG-Boost.",
+      "3": "Erhöht die Körp. VERT und den ANG von allen Verbündeten für 10 Sek. um 17 %, wenn ein aktiver Skill 3-mal gewirkt wird. Der Verbündete mit dem höchsten ANG erhält einen doppelt so großen ANG-Boost.",
+      "4": "Erhöht die Körp. VERT und den ANG von allen Verbündeten für 10 Sek. um 21 %, wenn ein aktiver Skill 3-mal gewirkt wird. Der Verbündete mit dem höchsten ANG erhält einen doppelt so großen ANG-Boost.",
+      "5": "Erhöht die Körp. VERT und den ANG von allen Verbündeten für 10 Sek. um 25 %, wenn ein aktiver Skill 3-mal gewirkt wird. Der Verbündete mit dem höchsten ANG erhält einen doppelt so großen ANG-Boost."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Umhang der Gerechtigkeit",
+      "description": "[Bodenspalter] Erhöht den gesamten erlittenen Schaden des Ziels für 10 Sek. um {0}% und regeneriert für je 1 getroffene Gegner 400 Mana.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Clause/ut/1.png",
+      "story": "Ein Zeremonialumhang, der nur für besondere Anlässe in Orvelia verwendet wird.\nEr wurde Clause verliehen, als er zum Ritter geschlagen wurde. Seitdem erinnert ihn der Umhang an seine frühen Vorsätze. Wann immer er aufgeben möchte, weil er zu erschöpft von all den Kämpfen ist, holt er den Umhang hervor, um nachzudenken. Der junge Kasel hat Clause oft dabei beobachtet und träumt seither davon, auch ein Ritter zu werden.",
+      "descriptionByStar": {
+        "0": "[Bodenspalter] Erhöht den gesamten erlittenen Schaden des Ziels für 10 Sek. um 10% und regeneriert für je 1 getroffene Gegner 400 Mana.",
+        "1": "[Boden aufreißen] erhöht den erlittenen Körp. Schaden des Ziels 10 Sek. lang um 12 % und stellt pro getroffenem Feind 400 Mana wieder her.",
+        "2": "[Boden aufreißen] erhöht den erlittenen Körp. Schaden des Ziels 10 Sek. lang um 14 % und stellt pro getroffenem Feind 400 Mana wieder her.",
+        "3": "[Boden aufreißen] erhöht den erlittenen Körp. Schaden des Ziels 10 Sek. lang um 17 % und stellt pro getroffenem Feind 400 Mana wieder her.",
+        "4": "[Boden aufreißen] erhöht den erlittenen Körp. Schaden des Ziels 10 Sek. lang um 21 % und stellt pro getroffenem Feind 400 Mana wieder her.",
+        "5": "[Boden aufreißen] erhöht den erlittenen Körp. Schaden des Ziels 10 Sek. lang um 25 % und stellt pro getroffenem Feind 400 Mana wieder her."
+      }
+    },
+    "2": {
+      "name": "Feste Entschlossenheit",
+      "description": "[Schildschlag] Senkt für 10 Sek. alle Krit.-Widerstände getroffener Gegner um 500 und ihre Krit.-Chance um {0}.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Clause/ut/2.png",
+      "story": "Alter Holzschild des Ritters der Eisernen Mauer. \nEin kostbarer Schild, den Clause benutzte, als er mit seinem ersten Training begann. Seitdem hat er die Namen all seiner gefallenen Gefährten hineingraviert, um ihn an seine Entschlossenheit als Ritterwache zu erinnern. \nJedes Mal, wenn er mit seinem Schild Feinde von sich schiebt, hilft ihm die feste ritterliche Entschlossenheit, Kräfte jenseits seiner Grenzen freizusetzen.",
+      "descriptionByStar": {
+        "0": "[Schildschlag] Senkt für 10 Sek. alle Krit.-Widerstände getroffener Gegner um 500 und ihre Krit.-Chance um 100.",
+        "1": "[Schildhieb] verringert den Körp. Krit. Widerstand des betroffenen Feindes um 500 und die Krit. Chance 10 Sek. lang um 120.",
+        "2": "[Schildhieb] verringert den Körp. Krit. Widerstand des betroffenen Feindes um 500 und die Krit. Chance 10 Sek. lang um 140.",
+        "3": "[Schildhieb] verringert den Körp. Krit. Widerstand des betroffenen Feindes um 500 und die Krit. Chance 10 Sek. lang um 170.",
+        "4": "[Schildhieb] verringert den Körp. Krit. Widerstand des betroffenen Feindes um 500 und die Krit. Chance 10 Sek. lang um 210.",
+        "5": "[Schildhieb] verringert den Körp. Krit. Widerstand des betroffenen Feindes um 500 und die Krit. Chance 10 Sek. lang um 250."
+      }
+    },
+    "3": {
+      "name": "Rune der Ritter",
+      "description": "[Wächterschild] Entfernt bei Aktivierung alle eigenen negativen Effekte und erhöht den VTD-Bonus um 20%.",
+      "value": {},
+      "thumbnail": "heroes/Clause/ut/3.png",
+      "story": "Rune der Ritterwache von Orvel. Eine goldene Löwenrune, die Rittern verliehen wird, wenn sie der Ritterwache beitreten und ihren Eid leisten, dass sie das Königreich mit ihrem Leben verteidigen. \nDie Rune der Ritterwache verstärkt den eisernen Willen eines Ritters und dessen Treue und erhöht die Effektivität des „Wächterschilds“.",
+      "descriptionByStar": {
+        "0": "[Wächterschild] Entfernt bei Aktivierung alle eigenen negativen Effekte und erhöht den VTD-Bonus um 20%.",
+        "1": "[Wächterschild] Entfernt bei Aktivierung alle eigenen negativen Effekte und erhöht den VTD-Bonus um 24%.",
+        "2": "[Wächterschild] Entfernt bei Aktivierung alle eigenen negativen Effekte und erhöht den VTD-Bonus um 29%.",
+        "3": "[Wächterschild] Entfernt bei Aktivierung alle eigenen negativen Effekte und erhöht den VTD-Bonus um 35%.",
+        "4": "[Wächterschild] Entfernt bei Aktivierung alle eigenen negativen Effekte und erhöht den VTD-Bonus um 42%.",
+        "5": "[Wächterschild] Entfernt bei Aktivierung alle eigenen negativen Effekte und erhöht den VTD-Bonus um 50%."
+      }
+    },
+    "4": {
+      "name": "Fäustlinge",
+      "description": "[Ritterschwur] Heilt bei Aktivierung 2% der max. LP und erhöht die eigene physische VTD für 5 Sek. um 20%.",
+      "value": {},
+      "thumbnail": "heroes/Clause/ut/4.png",
+      "story": "Ein Paar Handschuhe, das Clause besonders gerne hat.\nEr hat es von Kasel und Frey bekommen, als er in einem sehr kalten Winter zum Ritter ernannt wurde.\nSie haben die Handschuhe mit ihren Initialen bestickt.",
+      "descriptionByStar": {
+        "0": "[Ritterschwur] Heilt bei Aktivierung 2% der max. LP und erhöht die eigene physische VTD für 5 Sek. um 20%.",
+        "1": "[Ritterschwur] Heilt bei Aktivierung 2% der max. LP und erhöht die eigene physische VTD für 5 Sek. um 24%.",
+        "2": "[Ritterschwur] Heilt bei Aktivierung 2% der max. LP und erhöht die eigene physische VTD für 5 Sek. um 29%.",
+        "3": "[Ritterschwur] Heilt bei Aktivierung 2% der max. LP und erhöht die eigene physische VTD für 5 Sek. um 35%.",
+        "4": "[Ritterschwur] Heilt bei Aktivierung 2% der max. LP und erhöht die eigene physische VTD für 5 Sek. um 42%.",
+        "5": "[Ritterschwur] Heilt bei Aktivierung 2% der max. LP und erhöht die eigene physische VTD für 5 Sek. um 50%."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 5-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört die Seele von Wächterin, Exian und erhöht 12 Sek. lang die Körp. VERT aller Verbündeten um 70 %. Betäubt außerdem den Gegner im Falle eines Normal-ANG für 1 Sek. während der Wirkungsdauer und verringert 5 Sek. lang alle VERT. des Ziels um 7 %. Der VERT-Reduktionseffekt kann bis zu 5-mal gestapelt werden.",
+    "cooldown": "22",
+    "uses": "5",
+    "thumbnail": "heroes/Clause/sw.png",
+    "advancement": {
+      "1": "Verringert bei Aktivierung 12 Sek. lang den erhaltenen Körp. Schaden des Verbündeten mit dem höchsten ANG um 80 % und erhöht den ANG um 100 % von Clause Körp. VERT. Dieser Effekt kann nicht entfernt werden.",
+      "2": "Erhöht bei Aktivierung 12 Sek. lang den verursachten Körp. Schaden des Verbündeten mit dem höchsten ANG um 15 % und erhöht bei einem Normal-ANG 5 Sek. lang alle erhaltenen Schäden des Ziels um 20 %."
+    },
+    "story": "Exian war immer mitdabei und hat zugesehen. Der Zeitpunkt als Clause beschloss, zu beschützen und nicht in Verzweiflung zu verfallen, obwohl er so viel durchgemacht hatte, als er seine Familie verlor. Exian, der den Glauben und den Mut von ihm bewunderte, hat zusammen getrauert, war zusammen wütend und schaltete die max. Kraft in sich frei, als ob er sich mit der Seele von Clause verbunden hätte.\n‘Der Ritter des Schutzes, ich werde dich von jetzt an beschützen. Damit dein Glaube niemals gebrochen wird ...!‘.\nDie Kraft von Exian, die die uralte Magie und den Willen der Eisenmauer wachgerufen hat, wird immer bei dem unzerstörbaren Ritter liegen. Auch wenn der Weg nicht leicht sein sollte ..."
+  },
+  "splashart": "heroes/Clause/sa.png",
+  "costumes": "heroes/Clause/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

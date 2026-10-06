@@ -1,0 +1,228 @@
+{
+  "id": "Reina",
+  "profile": {
+    "name": "Reina",
+    "title": "Reina, der Blitz",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "1800",
+    "damage_type": "Physical",
+    "gender": "Weiblich",
+    "age": "17",
+    "height": "160",
+    "race": "Menschen",
+    "constellation": "Gisla, die Scharfschützin",
+    "birth": {
+      "month": 11,
+      "day": 30,
+      "monthName": "Monat des Glücks"
+    },
+    "like": "Attraktive Männer",
+    "dislike": "Uninteressante Männer",
+    "story": "Reina von Stein wurde als Tochter einer adeligen Familie des Kaiserreichs geboren. Ihr freier Geist und ihre energetische Persönlichkeit scheinen sogar ihr Umfeld aufzuheitern. Sie bevorzugt ein freies Leben als Söldnerin im Gegensatz zum erdrückenden Dasein einer Aristokratin. Während ihrer langen Tätigkeit als Söldnerin gingen die Spuren ihrer adeligen Erziehung nach und nach verloren. Schon als Kind war sie ein wahres Naturtalent im Umgang mit Schwertern. Im Lauf der Jahre entwickelte sie ihre Fähigkeiten mit dem Degen und einen Stil, der ihrem geschmeidigen Körperbau entspricht. Vor Kurzem lehnte sie einen seltsamen Vertrag ab. Seitdem hat sie das Gefühl, dass ihr jemand folgt und sie beobachtet.",
+    "thumbnail": "heroes/Reina/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Fliege wie ein Schmetterling",
+      "cost": "1",
+      "cooldown": "3",
+      "description": "Sticht schnell zu und verursacht ??? physischen Schaden. Kritische Treffer erzeugen 1 Wundstapel und setzen die Abklingzeit zurück. Pro Wundstapel steigt der Schaden von [Schwebe wie ein Schmetterling] um 20%. Während der Fähigkeit besteht Immunität gegen jeglichen Schaden.",
+      "thumbnail": "heroes/Reina/skills/1.png"
+    },
+    "2": {
+      "name": "Klingenspitze",
+      "cost": "2",
+      "cooldown": "20",
+      "description": "Entfernt eigene negative Effekte und erhöht für 20 Sek. den ANG um ??? und die Krit.-Chance um 500. Der Effekt ist unentfernbar.",
+      "thumbnail": "heroes/Reina/skills/2.png"
+    },
+    "3": {
+      "name": "Sternschnuppe",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Verursacht mit einem fortlaufenden Angriff ??? physischen Schaden. Der letzte Treffer schleudert den Gegner weg.",
+      "thumbnail": "heroes/Reina/skills/3.png"
+    },
+    "4": {
+      "name": "Glückskind",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht bei kritischen Treffern für 10 Sek. den ANG um ???. Bis zu 8-mal stapelbar.",
+      "thumbnail": "heroes/Reina/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht Krit. Chance um 50 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "VERT-Durchdringung erhöht sich um 250 % während d. Skill-Wirkungsdauer."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Manakosten steigen um 1. Wunde-Stapellimit steigt auf 10 und fügt Feinden mit 10 Wunden 150 % der ANG als zusätzlichen Schaden zu.",
+          "thumbnail": "heroes/Reina/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Entfernt den Cooldown.",
+          "thumbnail": "heroes/Reina/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Reina/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Ändert für 1 extra Mana die Krit. Chance auf einen 100 % Krit. Schadensboost. Gewährt auch 25 % Schadensboost gegen Bosse.",
+          "thumbnail": "heroes/Reina/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Jeder Krit. Treffer erhöht den Schaden des letzten Angriffs um 10 %.",
+          "thumbnail": "heroes/Reina/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Erhält absolute Schadensimmunität, während der Wirkungsdauer.",
+          "thumbnail": "heroes/Reina/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht Schaden für jeden Stapel um 4 %, für alle Gegner außer Helden.",
+          "thumbnail": "heroes/Reina/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erleidet bei 5 oder mehr Stapeln um 20 % weniger Körp. Schaden und Mag. Schaden.",
+          "thumbnail": "heroes/Reina/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Schaden +20 %",
+        "thumbnail": "heroes/Reina/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht bei Skill-Verwendung 10 Sek. lang den eigenen Krit. Schaden um 10 %. DIeser Effekt kann bis zu 10-mal gestapelt werden.",
+        "thumbnail": "heroes/Reina/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Blitzschwert, Livatis",
+    "description": "Erhöht bei kritischen Treffern für 15 Sek. das Angriffstempo um 80 und den Krit.-Schaden um 20%. Bis zu 5-mal stapelbar.",
+    "value": {},
+    "thumbnail": "heroes/Reina/uw.png",
+    "story": "Der große Stammbaum der Stein-Familie datiert zurück zu den frühesten Tagen des Kaiserreichs. Die Ehrwürdigkeit der Familie erklärt sich allerdings durch ihre fähigen Krieger und hängt nicht in erster Linie mit ihrem adeligen Blut zusammen. Aria Stein war eine legendäre Meisterin der Klinge. Als eine der talentiertesten Kriegerinnen in der Geschichte des Kaiserreichs war sie es, die den Grundstein für den Ruhm der Stein-Familie legte. Arias Schwert, Livatas, ist heute im Besitz von Reina. Das Schwert, durch das Reina den Spitznamen „Blitz“ erlangte, ist leicht wie eine Feder und doch stark genug, um jedem Schwertstreich zu widerstehen.",
+    "descriptionByStar": {
+      "0": "Erhöht bei kritischen Treffern für 15 Sek. das Angriffstempo um 80 und den Krit.-Schaden um 20%. Bis zu 5-mal stapelbar.",
+      "1": "Erhöht bei kritischen Treffern für 15 Sek. das Angriffstempo um 90 und den Krit.-Schaden um 24%. Bis zu 5-mal stapelbar.",
+      "2": "Erhöht bei kritischen Treffern für 15 Sek. das Angriffstempo um 110 und den Krit.-Schaden um 28%. Bis zu 5-mal stapelbar.",
+      "3": "Erhöht bei kritischen Treffern für 15 Sek. das Angriffstempo um 130 und den Krit.-Schaden um 34%. Bis zu 5-mal stapelbar.",
+      "4": "Erhöht bei kritischen Treffern für 15 Sek. das Angriffstempo um 160 und den Krit.-Schaden um 41%. Bis zu 5-mal stapelbar.",
+      "5": "Erhöht bei kritischen Treffern für 15 Sek. das Angriffstempo um 200 und den Krit.-Schaden um 50%. Bis zu 5-mal stapelbar."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Flügel des Blitzes",
+      "description": "[Fliege wie ein Schmetterling] erhöht den Schaden um 20 % und verringert Körp. Blockchance des Ziels 10 Sek. lang um 500.",
+      "value": {},
+      "thumbnail": "heroes/Reina/ut/1.png",
+      "story": "Ein Paar mystische Ohrringe, die Geschwindigkeit des Trägers ins Unermessliche erhöhen.\nNyx schenkte sie Reina, die ihn immer wieder aufforderte, Portale zu öffnen, weil sie nichts für die Anstrengungen des Reisens übrighatte. Reina trägt diesen seltsamen Gegenstand in der Schlacht und sieht dabei wie ein Schmetterling aus, der sich blitzschnell bewegt, sobald sie ihr Schwert erhebt.",
+      "descriptionByStar": {
+        "0": "[Fliege wie ein Schmetterling] erhöht den Schaden um 20 % und verringert Körp. Blockchance des Ziels 10 Sek. lang um 500.",
+        "1": "[Fliege wie ein Schmetterling] erhöht den Schaden um 24 % und verringert Körp. Blockchance des Ziels 10 Sek. lang um 500.",
+        "2": "[Fliege wie ein Schmetterling] erhöht den Schaden um 29 % und verringert Körp. Blockchance des Ziels 10 Sek. lang um 500.",
+        "3": "[Fliege wie ein Schmetterling] erhöht den Schaden um 35 % und verringert Körp. Blockchance des Ziels 10 Sek. lang um 500.",
+        "4": "[Fliege wie ein Schmetterling] erhöht den Schaden um 42 % und verringert Körp. Blockchance des Ziels 10 Sek. lang um 500.",
+        "5": "[Fliege wie ein Schmetterling] erhöht den Schaden um 50 % und verringert Körp. Blockchance des Ziels 10 Sek. lang um 500."
+      }
+    },
+    "2": {
+      "name": "Meisterring",
+      "description": "[Klingenspitze] erhöht den ANG-Boost um 50 % und stellt zus. bei einem Krit. Treffer während der Wirkungsdauer 40 MP wieder her.",
+      "value": {},
+      "thumbnail": "heroes/Reina/ut/2.png",
+      "story": "Der Ring, den Reina erhielt, nachdem sie ihren Meister besiegte. Er ist so groß, dass sie ihn auf ihrem Daumen trägt. \nEr sieht einfach und plump aus, aber der Geiste des Kampfes ist in den eingravierten Runenlettern in dem Ring verborgen.\nImmer wenn sie den Ring ihres Meisters ansieht, fühlt sie sich, als würde sie noch Arbeit vor sich haben.",
+      "descriptionByStar": {
+        "0": "[Klingenspitze] erhöht den ANG-Boost um 50 % und stellt zus. bei einem Krit. Treffer während der Wirkungsdauer 40 MP wieder her.",
+        "1": "[Klingenspitze] erhöht den ANG-Boost um 50 % und stellt zus. bei einem Krit. Treffer während der Wirkungsdauer 48 MP wieder her.",
+        "2": "[Klingenspitze] erhöht den ANG-Boost um 50 % und stellt zus. bei einem Krit. Treffer während der Wirkungsdauer 58 MP wieder her.",
+        "3": "[Klingenspitze] erhöht den ANG-Boost um 50 % und stellt zus. bei einem Krit. Treffer während der Wirkungsdauer 70 MP wieder her.",
+        "4": "[Klingenspitze] erhöht den ANG-Boost um 50 % und stellt zus. bei einem Krit. Treffer während der Wirkungsdauer 84 MP wieder her.",
+        "5": "[Klingenspitze] erhöht den ANG-Boost um 50 % und stellt zus. bei einem Krit. Treffer während der Wirkungsdauer 100 MP wieder her."
+      }
+    },
+    "3": {
+      "name": "Geschwindigkeitsmedaille",
+      "description": "[Sternschnuppe] erhöht den Schaden um 20 % und und stellt bei Krit. Treffern 200 Mana wieder her.",
+      "value": {},
+      "thumbnail": "heroes/Reina/ut/3.png",
+      "story": "Eine ehrenhafte Medaille, die dem schnellsten Söldner verliehen wird. Sie soll ein Andenken von Hersz sein, dem schnellsten Krieger der Welt. Wer diese Medaille trägt, dessen Körper fühlt sich leichter an und er kann die Bewegungen seines Feindes vorhersehen.",
+      "descriptionByStar": {
+        "0": "[Sternschnuppe] erhöht den Schaden um 20 % und und stellt bei Krit. Treffern 200 Mana wieder her.",
+        "1": "[Sternschnuppe] erhöht den Schaden um 24 % und und stellt bei Krit. Treffern 200 Mana wieder her.",
+        "2": "[Sternschnuppe] erhöht den Schaden um 29 % und und stellt bei Krit. Treffern 200 Mana wieder her.",
+        "3": "[Sternschnuppe] erhöht den Schaden um 35 % und und stellt bei Krit. Treffern 200 Mana wieder her.",
+        "4": "[Sternschnuppe] erhöht den Schaden um 42 % und und stellt bei Krit. Treffern 200 Mana wieder her.",
+        "5": "[Sternschnuppe] erhöht den Schaden um 50 % und und stellt bei Krit. Treffern 200 Mana wieder her."
+      }
+    },
+    "4": {
+      "name": "Amethystennadel",
+      "description": "[Glückskind] erhöht die max. Anzahl an Zählern um 2, wobei jeder Zähler den Krit. Schaden um 2 % erhöht.",
+      "value": {},
+      "thumbnail": "heroes/Reina/ut/4.png",
+      "story": "Eine Nadel, die Reinas Mutter gehörte, einer bekannten Söldneranführerin im Kaiserreich.\nSie gab diese Nadel ihrer Tochter, als sie sich allein auf den Weg nach Orvel machte. Sie soll das Unglück fernhalten, kann in Notfällen aber auch als Waffe eingesetzt werden.",
+      "descriptionByStar": {
+        "0": "[Glückskind] erhöht die max. Anzahl an Zählern um 2, wobei jeder Zähler den Krit. Schaden um 2 % erhöht.",
+        "1": "[Glückskind] erhöht die max. Anzahl an Zählern um 2, wobei jeder Zähler den Krit. Schaden um 2,4 % erhöht.",
+        "2": "[Glückskind] erhöht die max. Anzahl an Zählern um 2, wobei jeder Zähler den Krit. Schaden um 2,9 % erhöht.",
+        "3": "[Glückskind] erhöht die max. Anzahl an Zählern um 2, wobei jeder Zähler den Krit. Schaden um 3,5 % erhöht.",
+        "4": "[Glückskind] erhöht die max. Anzahl an Zählern um 2, wobei jeder Zähler den Krit. Schaden um 4,2 % erhöht.",
+        "5": "[Glückskind] erhöht die max. Anzahl an Zählern um 2, wobei jeder Zähler den Krit. Schaden um 5 % erhöht."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 10-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört die Seele von Blitzschwert, Livatis und erhöht den eigene ANG 12 Sek. lang um 60 %. Während der Wirkungsdauer wird der Schaden des Fliege wie ein Schmetterling-Skills um 50 % erhöht.",
+    "cooldown": "22",
+    "uses": "7",
+    "thumbnail": "heroes/Reina/sw.png",
+    "advancement": {
+      "1": "Während der Wirkungsdauer wird die VERT-Durchdr. um 500 erhöht.",
+      "2": "Die Wirkungsdauer erhöht sich um 5 Sek. und der Schaden-Boost des Fliege wie ein Schmetterling-Skills wird auf 100 % geändert."
+    },
+    "story": "Reina hasst es zu hören, dass ihre Schwertkunst auf ihr Schwert zurückzuführen ist. Ihre Fähigkeiten sind das Ergebnis ständigen Trainings und Talents. Deshalb versuchte sie bewusst, eigenständige Züge zu machen, die sich von denen der Vorfahren unterscheiden. Ihr Meister erkannte diese Beharrlichkeit an, gab ihr jedoch einen Rat.\n'- Vergiss das nicht. Du darfst nicht vergessen, wo du stehst, sonst kannst du nicht hinuntergehen.’\nAm nächsten Tag ist Reina beim Training alles klargeworden. Sie kann keinen Fortschritt machen, wenn sie nur versucht Arias Schatten zu entkommen. Sie muss Arias Verstand und Schwertkunst, das von Livatis gehaucht wurde, verstehen, um ihre Schwertkunst zu vollenden. Als sie das bemerkte, wurde ihr Schwert zu einem vollständigen Blitz. Die Seele des großen Schwertkämpfers in Livatis wurde in Reina neu geboren."
+  },
+  "splashart": "heroes/Reina/sa.png",
+  "costumes": "heroes/Reina/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "id": "Isaiah",
+  "profile": {
+    "name": "Isaiah",
+    "title": "Hirtin des Chaos Isaiah",
+    "class": "Priest",
+    "position": "Middle-200",
+    "attack_range": "10200",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "???",
+    "height": "167",
+    "race": "Dämonen",
+    "constellation": "Satua, die Weise",
+    "birth": {
+      "month": 2,
+      "day": 16,
+      "monthName": "Monat der Weisheit"
+    },
+    "like": "Lea, Erlösung, gute Taten, ihre Brüder und Schwestern",
+    "dislike": "Lua, Ketzer",
+    "story": "Sie ist eine von fünf Wesen, die von der Göttin der Zerstörung herrühren. Nicht viele standen Isaiah gegenüber und haben überlebt. Sie wird auch Hirtin des Chaos genannt, da sie in ihre Hingabe für den Glauben und den Lebenskreis dermaßen viel Furcht und Zuneigung investiert, dass sie dem Wahnsinn der Göttin nahe kommt.\nIsaiah, die mehr blinden Glauben und Loyalität gegenüber Lea empfand, als jeder andere Dämon, nahm mit Freuden ihr Schicksal als Gesandte der Lea an und stieg hinab in das Land der Blinden, die materielle Welt. Sie hegt nicht viel Interesse für die Nachlässigkeit ihrer Brüder und Schwester, die früher in die materielle Welt eingetreten sind, und so führt sie mit Freuden das aus, was ihr aufgetragen wurde.\nAls Wesen des Chaos, Dienerin der Göttin und eine der fünf Urdämonen ist sie dankbar für all das, was ihr gegeben wurde, so dass sie sich in ihrer großzügigen, liebevollen Art nicht von einer Heiligen Jungfrau der Lua unterscheidet ... Einige Menschen haben die Hoffnung, dass Isaiah eine neue Heilige Jungfrau ist, die der Welt bisher verborgen war und hoffen auf Erlösung.\nDenjenigen bereitet Isaiah bereitwillig das Geschenk der Erlösung des Chaos. Und zwar in Form des Todes, den vor allem die Schwachen am unbedingt überleben wollen.",
+    "thumbnail": "heroes/Isaiah/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Licht der Erlösung",
+      "cost": "3",
+      "cooldown": "15",
+      "description": "Entfernt die negativen Effekte von Isaiah und verwendet den Skill. Entfernt die negativen Effekte der Verbündeten im weiten Umkreis von Isaiah und erschafft einen Schild, der für 6 Sek. Schaden in Höhe von 7 % von Isaiahs max. TP absorbiert. Regeneriert die TP der Verbündeten im weiten Umkreis außer Isaiah um 5 % von Isaiahs max. TP + ??? TP. Während der Schild aktiv ist, werden jede Sek. ??? TP regeneriert und es besteht Massenkontroll-Immunität. Fügt danach dem Gegner ??? Mag. Schaden zu und bringt ihn 3 Sek. lang zum Schweigen.\nBei Aktivierung werden 20 % der aktuellen Isaiah TP verbraucht und sie erhält einen nicht entfernbaren [Sünde]-Stapel.",
+      "thumbnail": "heroes/Isaiah/skills/1.png"
+    },
+    "2 (1)": {
+      "name": "Berührung der Göttin – Barmherzigkeit",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Bewegt sich hinter den Gegner mit dem höchsten ANG, fügt ihm ??? Mag. Schaden zu und hinterlässt für 15 Sek. [Berührung der Barmherzigkeit]. [Berührung der Barmherzigkeit] verringert den ANG des Ziels um 30 % und die ANG-GESCHW. um 300.\nBei Aktivierung werden 15 % der aktuellen Isaiah TP verbraucht und sie erhält einen nicht entfernbaren [Sünde]-Stapel.",
+      "thumbnail": "heroes/Isaiah/skills/2 (1).png"
+    },
+    "2 (2)": {
+      "name": "Berührung der Göttin – Toleranz",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Bewegt sich hinter den Verbündeten mit dem höchsten ANG und hinterlässt für 15 Sek. [Berührung der Toleranz]. [Berührung der Toleranz] regeneriert insgesamt ??? TP des Ziels und erhöht den ANG um 0.1 % von Isaiahs max. TP.\nBei Aktivierung werden 15 % der aktuellen Isaiah TP verbraucht und sie erhält einen nicht entfernbaren [Sünde]-Stapel.",
+      "thumbnail": "heroes/Isaiah/skills/2 (2).png"
+    },
+    "3": {
+      "name": "Opfer der Buße",
+      "cost": null,
+      "cooldown": null,
+      "description": "Entfernt alle negativen Effekte von Isaiah, gewährt bei Aktivierung den Verbündeten in weiter Umgebung 3 Sek. lang Unbesiegbarkeit und sorgt dafür, dass die Gegner 3 Sek. lang keine positiven Efffekte erhalten können. Setzt danach am eigenen Standort [Gebiet der Buße] ein, das 12 Sek. dauert. Verbündete in Reichweite von [Gebiet der Buße] regenerieren alle 2 Sek. ihre TP in Höhe von 1 % von Isaiahs max. TP + ??? TP und negative Effekte werden entfernt. Gegner erleiden alle 2 Sek. ??? Mag. Schaden und der gesamte erlittene Schaden des getroffenen Ziels wird 8 Sek. lang um 20 % erhöht.\nBei Aktivierung werden 50 % der aktuellen Isaiah TP verbraucht und wird verwendet.",
+      "thumbnail": "heroes/Isaiah/skills/3.png"
+    },
+    "4": {
+      "name": "Taufe der Göttin",
+      "cost": null,
+      "cooldown": null,
+      "description": "Verringert zu Beginn des ersten Kampfes den eigenen verursachten Schaden an Gegner um 50 % und erhöht den erlittenen Schaden durch Gegner um 25 %. Stattdessen wird der Schaden, den Verbündete außer Isaiah den Gegnern zufügen, um 10 % erhöht und der erlittenen Schaden durch Gegner wird um 10 % verringert. Verleiht außerdem dem Verbündeten mit dem höchsten ANG außer Isaiah [Taufe der Göttin], erhöht dabei den ANG um 10 % und die VERT um 10 %.\nErreicht [Sünde] 4 Stapel, wird der nicht entfernbare [Weg der Erlösung]-Zustand aktiviert. Im [Weg der Erlösung]-Zustand können keine [Sünde]-Stapel erhalten werden und der Skill [Opfer der Buße] kann verwendet werden.",
+      "thumbnail": "heroes/Isaiah/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Heilungsrate und Schaden um 10 %.",
+      "III": "Erhöht Heilungsrate und Schaden um 15 %.",
+      "IV": "Erhöht Heilungsrate und Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Heilungsrate und Schaden um 10 %.",
+      "III": "Erhöht Heilungsrate und Schaden um 15 %.",
+      "IV": "Erhöht Heilungsrate und Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Heilungsrate und Schaden um 10 %.",
+      "III": "Erhöht Heilungsrate und Schaden um 15 %.",
+      "IV": "Erhöht Heilungsrate und Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht den ANG-Boost und VERT-Boost um 5 %.",
+      "III": "Erhöht den ANG-Boost und VERT-Boost um 5 %.",
+      "IV": "Erhöht den ANG-Boost und VERT-Boost um 5 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht die TP-Regeneration um 40 %.",
+          "thumbnail": "heroes/Isaiah/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Erhöht für 12 Sek. alle Schäden des getroffenen Ziels um 20 %.",
+          "thumbnail": "heroes/Isaiah/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "[Berührung der Göttin – Toleranz] verringert Manakosten um 1.",
+          "thumbnail": "heroes/Isaiah/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "[Berührung der Göttin – Barmherzigkeit] entfernt zusätzlich die positiven Effekte des Ziels.",
+          "thumbnail": "heroes/Isaiah/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht im [Gebiet der Buße] alle 2 Sek. zusätzlich den Schaden, den Verbündete in Reichweite dem Bossmonster zufügen, 8 Sek. lang um 10 %.",
+          "thumbnail": "heroes/Isaiah/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Erhöht die Heilungsrate im [Gebiet der Buße] um 30 % und den Schaden um 30 %.",
+          "thumbnail": "heroes/Isaiah/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "[Taufe der Göttin] gewährt dem Verbündeten mit dem höchsten ANG, der unter [Taufe der Göttin] steht, einen zusätzlichen Effekt, der den Krit. Schaden um 50 % erhöht.",
+          "thumbnail": "heroes/Isaiah/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erhält zu Beginn des ersten Kampfes 1x [Sünde] Stapel.",
+          "thumbnail": "heroes/Isaiah/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 % / TP +10 %",
+        "thumbnail": "heroes/Isaiah/perks/light.png"
+      },
+      "dark": {
+        "effect": "Verringert den eigenen gesamten erhaltenen Schaden um 150 und erhöht die Heilungsrate um 15 %.",
+        "thumbnail": "heroes/Isaiah/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Schwert des tiefschürfenden Glaubens, Ezaya",
+    "description": "Regeneriert für 4 Sek. die eigenen TP um {0} % der max. TP, immer wenn der Skill aktiviert wird. Erhöht 8 Sek. lang den durch Normal- und Skill-ANG erlittenen Gesamtschaden des Ziels um {1} %.",
+    "value": {
+      "0": {
+        "0": "4",
+        "1": "4.8",
+        "2": "5.6",
+        "3": "6.8",
+        "4": "8.4",
+        "5": "10"
+      },
+      "1": {
+        "0": "8",
+        "1": "9.6",
+        "2": "11.2",
+        "3": "13.6",
+        "4": "16.8",
+        "5": "20"
+      }
+    },
+    "thumbnail": "heroes/Isaiah/uw.png",
+    "story": "„Im dunkelsten aller Länder werde ich den Willen des Chaos predigen.\" Isaiah, die aus einem Fragment der Lea hervorkam, war die erste, die ein Ego hatte und zu denken begann. In der materiellen Welt gab es so viele arme Narren, um die sie sich kümmern musste und, da es niemanden sonst gab, der den Willen der Lea vermitteln konnte, glaubte sie daran, dass nur sie selbst dazu in der Lage sei, die armen Kinder zu retten.\nDie Form, in der sie in die materielle Welt kam, nahm einen warmherzigen Charakter ein, als ob diese Überzeugung stark reflektiert worden wäre. Wie ihre anderen Brüder und Schwestern schuf sie sich mit diesem Körper, der Zärtlichkeit und Anmut ausstrahlte, und keine Spur von Überwältigung, eine Waffe, die sie auf ihrer Reise, die Wahrheit in der gesamten materiellen Welt zu predigen, begleiten würde.\nDer Glaube an die Göttin, die Kraft, die Lea ihr vermacht hatte, die Erkenntnis über den Lebenskreislauf, die sie durch den Weg des Predigens der Wahrheit erhielt ... Darüber hinaus fertigte sie von Hand ihren eigenen Stab mit einer Klinge, der mit heiliger Energie gefüllt wurde und in seiner fertiggestellten Form einem Relikt gleich kam.\nObwohl sie die gleiche Magie besaß wie die Relikte des Lua-Ordens, begleitete die Waffe, die das Unheil der Dämonen enthielt, Isaiah auf ihrer langen Reise.",
+    "descriptionByStar": {
+      "0": "Regeneriert für 4 Sek. die eigenen TP um 4 % der max. TP, immer wenn der Skill aktiviert wird. Erhöht 8 Sek. lang den durch Normal- und Skill-ANG erlittenen Gesamtschaden des Ziels um 8 %."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Ketzerischer Rosenkranz",
+      "description": "[Licht der Erlösung] erhöht die Schilddauer um {0} Sek. und die Dauer von Schweigen um 1 Sek.",
+      "value": {
+        "0": {
+          "0": "1.2",
+          "1": "1.4",
+          "2": "1.7",
+          "3": "2.1",
+          "4": "2.5",
+          "5": "3"
+        }
+      },
+      "thumbnail": "heroes/Isaiah/ut/1.png",
+      "story": "Ein Rosenkranz bzw. Rosarium, geknüpft aus violetten Juwelen, der als ein heiliges Relikt gilt, wurde von den Menschen der materiellen Welt geschaffen, um Leas Versprechen einzuhalten und sie zu verehren.\nZu einem späteren Zeitpunkt fiel es in die Hände von Isaiah, der Gesandtin Leas, die direkt in die materielle Welt kam.\nDer Rosenkranz, der von denen verwendet wird, die Lea verehren, ist nach der Form der heiligen Relikte des Lua-Ordens modelliert, aber wenn man ihn genauer betrachtet, weicht die Form leicht davon ab. Dennoch hat der Lua-Orden eine Methode zur Unterscheidung vorgeschlagen, um auf diese Häresie aufmerksam zu machen.",
+      "descriptionByStar": {
+        "0": "[Licht der Erlösung] erhöht die Schilddauer um 1.2 Sek. und die Dauer von Schweigen um 1 Sek."
+      }
+    },
+    "2": {
+      "name": "Flamme der Güte",
+      "description": "[Berührung der Göttin – Barmherzigkeit] erhöht zusätzlich den durch [Berührung der Barmherzigkeit] erlittenen Gesamtschaden des Ziels 15 Sek. lang um {0} %. [Berührung der Göttin – Toleranz] erhöht die ANG-GESCHW. des Ziels unter [Berührung der Toleranz] um 300.",
+      "value": {
+        "0": {
+          "0": "8",
+          "1": "9.6",
+          "2": "11.2",
+          "3": "13.6",
+          "4": "16.8",
+          "5": "20"
+        }
+      },
+      "thumbnail": "heroes/Isaiah/ut/2.png",
+      "story": "Lea gab Isaiah, die in die materielle Welt kam, eine Flamme des Unheils mit.\nSobald eines Tages der richtige Zeitpunkt für die materielle Welt gekommen ist, ist sie ein Vorbote der Zerstörung, der immerzu brennt, damit weitere Feuer entfachen können.\nDie blaue Flamme lodert in einem Glas aus Silber und wartet nur darauf, als Befreiung der Qualen die ganze Welt niederzubrennen.",
+      "descriptionByStar": {
+        "0": "[Berührung der Göttin – Barmherzigkeit] erhöht zusätzlich den durch [Berührung der Barmherzigkeit] erlittenen Gesamtschaden des Ziels 15 Sek. lang um 8 %. [Berührung der Göttin – Toleranz] erhöht die ANG-GESCHW. des Ziels unter [Berührung der Toleranz] um 300."
+      }
+    },
+    "3": {
+      "name": "Statue des Chaos",
+      "description": "[Opfer der Buße] erhöht die Unbesiegbarkeit-Dauer um 1 Sek. und erhöht die Dauer des Effekts, wo man positive Effekte erhalten kann, um 1 Sek. Regeneriert zusätzlich im [Gebiet der Buße] alle 2 Sek. {0} MP der Verbündeten und verringert zusätzlich die MP des Gegners um {1}.",
+      "value": {
+        "0": {
+          "0": "160",
+          "1": "190",
+          "2": "230",
+          "3": "280",
+          "4": "340",
+          "5": "400"
+        },
+        "1": {
+          "0": "160",
+          "1": "190",
+          "2": "230",
+          "3": "280",
+          "4": "340",
+          "5": "400"
+        }
+      },
+      "thumbnail": "heroes/Isaiah/ut/3.png",
+      "story": "Isaiah, die in der materiellen Welt ankam, betete jeden Tag für Lea.\nEs ist ein Gebet, auf das nie eine Antwort folgt, aber ein wahrhaftiges, in dem Isaiahs Wertschätzung durch die täglichen Beobachtungen der materiellen Welt, das Mitleid für die dummen Geschöpfe der Lua und der Wunsch, sie schnellstmöglich zu retten, enthalten sind.\nDieses Verhalten in der materiellen Welt ähnelte auch dem des Lua-Ordens und Isaiah entdeckte eines Tages auf ihrem Weg einige Gläubige, die eine Statue von Lua anbeteten.\n„Ach, wenn es so etwas auch von der Mutter gäbe, könnte man noch mehr Kindern das Chaos nahebringen\". Als Isaiah daran vorbeiging, begann sie selbst eine Statue der Lea zu fertigen. Die erste widmete sie der Mutter, aber wurde zerstört. Die anderen verteilte sie unter ihren Brüdern und Schwestern, die sie dann jenen Kindern schenkten, die versprochen hatten, Lea in der materiellen Welt zu verehren.",
+      "descriptionByStar": {
+        "0": "[Opfer der Buße] erhöht die Unbesiegbarkeit-Dauer um 1 Sek. und erhöht die Dauer des Effekts, wo man positive Effekte erhalten kann, um 1 Sek. Regeneriert zusätzlich im [Gebiet der Buße] alle 2 Sek. 160 MP der Verbündeten und verringert zusätzlich die MP des Gegners um 160."
+      }
+    },
+    "4": {
+      "name": "Lernen von Chaoslogik durch Bilder",
+      "description": "[Taufe der Göttin] erhöht die Anzahl der Ziele mit dem höchsten Angriff um 1 und fügt [Taufe der Göttin] einen Effekt hinzu, der den Schaden des Verbündeten mit dem höchsten Angriff an Feinden, die keine Helden sind, um {0} % erhöht.",
+      "value": {
+        "0": {
+          "0": "3",
+          "1": "4",
+          "2": "5",
+          "3": "6",
+          "4": "7",
+          "5": "8"
+        }
+      },
+      "thumbnail": "heroes/Isaiah/ut/4.png",
+      "story": "Isaiah wandert in der materiellen Welt umher und kümmert sich um die Kinder des Dorfes. Mal ein abgelegener Ort, den der Lua-Orden nicht zu erreichen vermag, mal ein verlassener Ort, an dem zwar eine Kirche, aber keine Struktur vorhanden ist.\nWo auch immer sie ist, in so abgelegenen Gebieten, dass der Lua-Orden dort nicht hinreicht, versammelt sie die Kinder um sich, die dort leben, um sie den Glauben der Lea zu lehren. Sie liebt und sorgt sich so sehr um die Kinder, dass sie umringt von ihnen mit liebevoller Stimme aus Büchern vorliest und dies ist bereits ein fester Bestandteil ihres Alltags geworden.\nEs ist der göttliche Wille, die Kinder, die von dem falschen Glauben befallen sind, zu retten. Die Dorfbewohner, die vorbeikommen und sehen, wie sie sich mit engelsgleichem Lächeln um die Kinder aus ärmlichen Verhältnissen kümmert, preisen sie als wahrhaftige Heilige Jungfrau an.\nDer Inhalt des Buches, welches sie den Kindern vorliest, ist unheilvoll und profan, aber es gibt auch diverse Bilder, die in diversen bunten Farben gestaltet wurden, sodass sich die Kinder auch nach Isaiahs Abreise weiter entfalten können.\nDamit die Kinder eines Tages erkennen, dass der einzige Weg zur Wahrheit nur in dem Ende mit dem Tod besteht.",
+      "descriptionByStar": {
+        "0": "[Taufe der Göttin] erhöht die Anzahl der Ziele mit dem höchsten Angriff um 1 und fügt [Taufe der Göttin] einen Effekt hinzu, der den Schaden des Verbündeten mit dem höchsten Angriff an Feinden, die keine Helden sind, um 3 % erhöht."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Für 20 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Schwert des tiefschürfenden Glaubens, Ezaya, erhöht 8 Sek. den Schaden aller Verbündeten gegen Gegner um 10 %, verringert den erlittenen Schaden durch Gegner um 10 % und regeneriert jede Sek. die TP des Ziels um 2 % von Isaiahs max. TP während der Seelen-Wirkungsdauer.",
+    "cooldown": "20",
+    "uses": "4",
+    "thumbnail": "heroes/Isaiah/sw.png",
+    "advancement": {
+      "1": "Die Wirkungsdauer erhöht sich um 4 Sek. und Verwendungsbedingungen werden um 4 Sek. verringert.",
+      "2": "Jedes Mal, wenn die Seelenwaffen-Skills verwendet werden, wird der Schaden gegen Feinde um zusätzlich 3 % erhöht und der erlittenen Schaden um zusätzlich 3 % verringert."
+    },
+    "story": "Es war ohne viel Mühe möglich den Wesen in der materiellen Welt den Weg zur Wahrheit zu zeigen, aber Isaiah blieb nichts anderes übrig als ihr Schwert gegen jene Ketzer zu erheben, die sich ihr in den Weg stellten. Es ist die Aufgabe der Gesandtin der Göttin dumme Häresien zu unterdrücken und anderen zu helfen sich von dem falschen Glauben loszusagen. Isaiah betet für die armen Lämmer. „Oh Göttin. Diese Kinder sind frei von Sünde. Sie sind lediglich betrogen und geblendet worden von einer dummen, gierigen Göttin. Bitte, lass mich diese Kinder auf den richtigen Weg bringen, lass mich sie führen ...\" Isaiahs sanfte Stimme ist erfüllt von Mitleid und Bedauern.\nLeas Worte und die von ihr ausgehende Wahrheit geben Isaiah die Kraft, mit dem Segen der Göttin Lea die Erlösung herbeizubringen. Es ist eine glorreiche Ehre, dass als Geschöpf der Göttin ihre Macht geliehen zu bekommen und der Schmerz, der daraus resultiert, wird unweigerlich folgen. Jedes Mal, wenn sie die Macht der Göttin nutzt, durchdrängt ein unsäglicher Schmerz Isaiahs Körper, und dennoch fuhr sie mit der Erlösung fort, denn obwohl sie alle Ketzer waren, liebte Isaiah sie und wollte sie retten. Wann immer sie einen Vers rezitierte, der Leas Wahrheit in sich trug, und ihr Schwert schliff, wurde ihr Verlangen nach Erlösung und ihre Hingabe zur Göttin Schicht für Schicht in das Schwert eingraviert und noch bevor sie es merkte wurde Isaiahs Schwert zu einem offenen Buch der Offenbarung. Dies sind Isaiahs sichtbarer Glaube und Überzeugung.\nDieses Buch, dem sie immer wieder Verse der Hingabe zur Göttin hinzufügt, gewinnt mit jedem Tag mehr an Seiten."
+  },
+  "splashart": "heroes/Isaiah/sa.png",
+  "costumes": "heroes/Isaiah/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "Event Protianus",
+  "profile": {
+    "name": "イベント・プロティアヌス",
+    "title": "不屈の大将",
+    "type": [
+      "World Boss"
+    ],
+    "race": "精霊",
+    "damage_type": "Magical",
+    "recommended_heroes": "メディアナ, フルス, レイナ",
+    "characteristics": "不屈の大将に与えたすべてのダメージは1になります。不屈の大将は、対象の全体HPに応じてダメージを与えるのが特徴です。",
+    "thumbnail": "bosses/Protianus (Christmas).png",
+    "recommendedHeroNames": [
+      "Mediana",
+      "Fluss",
+      "Reina"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "死の槍",
+      "cost": null,
+      "cooldown": "18",
+      "description": "槍で敵の中央周辺範囲の攻撃し、範囲内に、対象の最大HPに比例した効果を与えます。さらに、敵のバフを取り除き、4秒間気絶させます。"
+    },
+    "2": {
+      "name": "片付け",
+      "cost": null,
+      "cooldown": "24",
+      "description": "前方に槍を振り回して敵を攻撃し、対象の最大HPに比例した魔法のダメージを与えます。ダメージを与えられた対象は5秒間沈黙し、10秒間、命中が200減少します。"
+    },
+    "3": {
+      "name": "水監獄",
+      "cost": null,
+      "cooldown": "32",
+      "description": "敵に水玉を投げ、対象の最大HPに比例した魔法ダメージを与え、対象1体を水監獄に閉じ込めます。また、5秒ごとに、ランダムな対象を追加で閉じ込めます。"
+    },
+    "4": {
+      "name": "大津波",
+      "cost": null,
+      "cooldown": "40",
+      "description": "前方50メートルまで大津波を起し、対象の最大HPに比例した魔法ダメージを与え、30%の確率で、5秒間気絶させます。また、10秒間、MPを1秒ごとに1000ずつ減少させます。この追加効果は解除できません。"
+    },
+    "5": {
+      "name": "プロティアヌスの肌",
+      "cost": null,
+      "cooldown": null,
+      "description": "プロティアヌスは攻撃速度の影響を受けません。プロティアヌスの攻撃にダメージを受けると、5秒間、対象の最大HPに比例した魔法ダメージを受けます。"
+    },
+    "6": {
+      "name": "水監獄",
+      "cost": null,
+      "cooldown": null,
+      "description": "水監獄に閉じ込められた敵は、すべての行動が出来なくなり、スキルも発動できなくなります。「水監獄」発動後、20秒後にも水監獄に閉じ込めたままの対象は、すべてのスキルクールタイムが100%増加し、MPが3000減少されます。プロティアヌス350回物理ダメージを受けると、すべての水監獄が解除されます。"
+    }
+  },
+  "aliases": [
+    "EventProtianus",
+    "ChristmasProtianus",
+    "WB4",
+    "WB 4"
+  ]
+}

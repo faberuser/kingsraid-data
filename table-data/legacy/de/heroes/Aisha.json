@@ -1,0 +1,245 @@
+{
+  "id": "Aisha",
+  "profile": {
+    "name": "Aisha",
+    "title": "Violette Prinzessin Aisha",
+    "class": "Wizard",
+    "position": "Back-200",
+    "attack_range": "2600",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "16",
+    "height": "155",
+    "race": "Menschen",
+    "constellation": "Gisla, die Scharfschützin",
+    "birth": {
+      "month": 11,
+      "day": 1,
+      "monthName": "Monat des Glücks"
+    },
+    "like": "Tee mit Priscilla",
+    "dislike": "Unhöfliche Leute",
+    "story": "Eine Tochter einer Adelsfamilie aus Orvel. Als eine der talentiertesten Zauberinnen im Turm der Weisen wurde ihr aufgrund ihrer magischen Fähigkeiten der Titel 'Lila' verliehen. Sie wurde auf Geheiß ihrer Eltern seit ihrer Kindheit im Turm der Weisen aufgezogen, doch ihre aristokratische Würde hat sie nie abgelegt. Als Kind konnte sie nicht verstehen, warum ihre Eltern sie allein fortgeschickt hatten, doch heute versteht sie deren Gründe. Jetzt, nach ihrer Rückkehr in die Heimat, wird sie stets von ihrer Magd begleitet, die für sie wie ein weiteres Familienmitglied ist.",
+    "thumbnail": "heroes/Aisha/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Mystisches Sperrfeuer",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Fügt Feinden in einem kleinen Bereich ??? Mag. Schaden zu. Bei einem Krit. Treffer wird der Cooldown um 1 Sek. reduziert.",
+      "thumbnail": "heroes/Aisha/skills/1.png"
+    },
+    "2": {
+      "name": "Zerstörungsstrahl",
+      "cost": "2",
+      "cooldown": "13",
+      "description": "Fügt Feinden in einer geraden Linie alle 0,5 Sek. ??? Mag. Schaden zu. Nach 5 Sek. wird alle 0,5 Sek. 3 % Mana verbraucht, und der Schaden steigt um 100 %.",
+      "thumbnail": "heroes/Aisha/skills/2.png"
+    },
+    "3": {
+      "name": "Reißender Regenfall",
+      "cost": "3",
+      "cooldown": "17",
+      "description": "Fügt Feinden zufällig 3 Sek. lang ??? Mag. Schaden zu und reduziert ihre Mag. VERT um 5 %. Kann bis zu 5-mal gestapelt werden.",
+      "thumbnail": "heroes/Aisha/skills/3.png"
+    },
+    "4": {
+      "name": "Mystischer Boost",
+      "cost": null,
+      "cooldown": null,
+      "description": "Fügt dem Feind bei einem Krit. Treffer ??? zusätzlichen Mag. Schaden zu.",
+      "thumbnail": "heroes/Aisha/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht Schaden um 100 %, wenn nur 1 Feind auf dem Schlachtfeld ist.",
+          "thumbnail": "heroes/Aisha/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Stellt bei Krit. Treffer 300 Mana wieder her.",
+          "thumbnail": "heroes/Aisha/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Erhöht die Manakosten um 1 und gewährt Massenkontroll-Immunität für die Dauer des Skills.",
+          "thumbnail": "heroes/Aisha/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Verdoppelt die Manakosten für Verstärkungsstrahl und verdoppelt den Schaden von 100 % auf 200 %.",
+          "thumbnail": "heroes/Aisha/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Verursacht Flächenschaden.",
+          "thumbnail": "heroes/Aisha/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Mag. VERT-Reduzierungseffekt kann bis zu 10-mal gestapelt werden.",
+          "thumbnail": "heroes/Aisha/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht Schaden um 40 %.",
+          "thumbnail": "heroes/Aisha/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Ignoriert feindliche Blockeffekte.",
+          "thumbnail": "heroes/Aisha/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Chance +100",
+        "thumbnail": "heroes/Aisha/perks/light.png"
+      },
+      "dark": {
+        "effect": "Bei Einsatzes des Skills steigt die MP-Regeneration/Sek. um 10 % und der Krit. Schaden um 7 %. Dieser Effekt kann bis zu 20 Mal gestapelt werden und kann nicht entfernt werden.",
+        "thumbnail": "heroes/Aisha/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Nobles Schicksal, Mahitra",
+    "description": "Erhöht den eigenen Krit. Schaden um {0} % und die VERT-Durchdr. um {1}. Fügt dem Gegner 500-Mal Schaden zu und erhöht alle Effekte um das 2-fache.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      }
+    },
+    "thumbnail": "heroes/Aisha/uw.png",
+    "story": "Im Turm der Weisen bezeichnet der Titel „Lila“ den Inbegriff der Manakapazität. Aishas scheinbar unendliches Mana überstieg normale Mengen schlicht zu sehr. Deshalb kaufte die Daphnel-Familie all die besten Manasteine, die sie finden konnte und brachte sie Annette, der besten Technomagierin von Schloss Orvel. Annette willigte ein, das neue Projekt anzunehmen. Kurz darauf erschuf sie Mahitra, einen wunderschönen, für aristokratische Zauberer mit edlen Absichten angemessenen Schirm.",
+    "descriptionByStar": {
+      "0": "Erhöht den eigenen Krit. Schaden um 10 % und die VERT-Durchdr. um 100. Fügt dem Gegner 500-Mal Schaden zu und erhöht alle Effekte um das 2-fache.",
+      "1": "35 %ige Chance, bei einem Angriff zusätzlichen Schaden in Höhe von 48 % der ANG zu verursachen.",
+      "2": "35 %ige Chance, bei einem Angriff zusätzlichen Schaden in Höhe von 57 % der ANG zu verursachen.",
+      "3": "35 %ige Chance, bei einem Angriff zusätzlichen Schaden in Höhe von 69 % der ANG zu verursachen.",
+      "4": "35 %ige Chance, bei einem Angriff zusätzlichen Schaden in Höhe von 83 % der ANG zu verursachen.",
+      "5": "35 %ige Chance, bei einem Angriff zusätzlichen Schaden in Höhe von 100 % der ANG zu verursachen."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Lila Blume",
+      "description": "[Mystisches Sperrfeuer] verringert den Cooldown um 1 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %.",
+      "value": {},
+      "thumbnail": "heroes/Aisha/ut/1.png",
+      "story": "Das ist einer der Gegenstände, den der Turm des Weisen jenen mit dem Titel „Lila Magier“ verlieh. Sie lässt sich mit dem Ring des Manas zu einem Set kombinieren.\nLila ist ein Symbol für Mana im Überfluss. Die Lila Blume ist mit einer Kristallkugel versehen, die Aishas Mana verstärkt und explodieren lässt. Da ihre Macht so zerstörerisch ist, musste Aisha Priscilla versprechen, sie nur einzusetzen, wenn es unbedingt nötig ist.",
+      "descriptionByStar": {
+        "0": "[Mystisches Sperrfeuer] verringert den Cooldown um 1 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %.",
+        "1": "[Mystisches Sperrfeuer] verringert den Cooldown um 1,2 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %.",
+        "2": "[Mystisches Sperrfeuer] verringert den Cooldown um 1,4 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %.",
+        "3": "[Mystisches Sperrfeuer] verringert den Cooldown um 1,7 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %.",
+        "4": "[Mystisches Sperrfeuer] verringert den Cooldown um 2,1 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %.",
+        "5": "[Mystisches Sperrfeuer] verringert den Cooldown um 2,5 Sek. und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %."
+      }
+    },
+    "2": {
+      "name": "Vornehmer Handspiegel",
+      "description": "[Zerstörungsstrahl] erhöht den Schaden um 50 % und stellt bei Verwendung sofort 500 MP wieder her.",
+      "value": {},
+      "thumbnail": "heroes/Aisha/ut/2.png",
+      "story": "Ein heiliger Schatz, der innerhalb der Daphnel-Familie über Generationen weitergegeben wurde. Er war vor langer Zeit ein Schamanenwerkzeug, um Mana zu sparen.\nNachdem Aisha ihr Mana in das Edle Violette Juwel fließen ließ, kam seine Kraft zum Vorschein. Jetzt leuchtet er strahlend hell.",
+      "descriptionByStar": {
+        "0": "[Zerstörungsstrahl] erhöht den Schaden um 50 % und stellt bei Verwendung sofort 500 MP wieder her.",
+        "1": "[Zerstörungsstrahl] erhöht den Schaden um 50 % und stellt bei Verwendung sofort 600 MP wieder her.",
+        "2": "[Zerstörungsstrahl] erhöht den Schaden um 50 % und stellt bei Verwendung sofort 720 MP wieder her.",
+        "3": "[Zerstörungsstrahl] erhöht den Schaden um 50 % und stellt bei Verwendung sofort 860 MP wieder her.",
+        "4": "[Zerstörungsstrahl] erhöht den Schaden um 50 % und stellt bei Verwendung sofort 1.040 MP wieder her.",
+        "5": "[Zerstörungsstrahl] erhöht den Schaden um 50 % und stellt bei Verwendung sofort 1.250 MP wieder her."
+      }
+    },
+    "3": {
+      "name": "Ring der Unendlichen Magie",
+      "description": "[Reißender Regenfall] erhöht den Schaden um 50 % und stellt bei Krit. Treffern 30 Mana wieder her.",
+      "value": {},
+      "thumbnail": "heroes/Aisha/ut/3.png",
+      "story": "Ein Ring, der zusammen mit dem Titel „Lila“ vom Turm der Weisen verliehen wurde. Er ist ein Artefakt der Hexe Eucaletus, di im Sumpf der Weisheit lebte. Die Macht, die er ausstrahlt, hängt von den Fähigkeiten des Trägers ab. Für manche könnte er eine Quelle unbegrenzten Manas sein. Er ist perfekt für Aisha, die mächtige magische Kanonen einsetzt.",
+      "descriptionByStar": {
+        "0": "[Reißender Regenfall] erhöht den Schaden um 50 % und stellt bei Krit. Treffern 30 Mana wieder her.",
+        "1": "[Reißender Regenfall] erhöht den Schaden um 50 % und stellt bei Krit. Treffern 36 Mana wieder her.",
+        "2": "[Reißender Regenfall] erhöht den Schaden um 50 % und stellt bei Krit. Treffern 43 Mana wieder her.",
+        "3": "[Reißender Regenfall] erhöht den Schaden um 50 % und stellt bei Krit. Treffern 52 Mana wieder her.",
+        "4": "[Reißender Regenfall] erhöht den Schaden um 50 % und stellt bei Krit. Treffern 62 Mana wieder her.",
+        "5": "[Reißender Regenfall] erhöht den Schaden um 50 % und stellt bei Krit. Treffern 75 Mana wieder her."
+      }
+    },
+    "4": {
+      "name": "Augen der Wahrheit",
+      "description": "[Mystischer Boost] erhöht den Schaden um 50 %. Erhöht bei Aktivierung den eigenen Krit. Schaden um 1 %. Dieser Effekt kann bis zu 20-mal gestapelt werden.",
+      "value": {},
+      "thumbnail": "heroes/Aisha/ut/4.png",
+      "story": "Ein mysteriöser Anhänger, der in einer antiken Ruine gefunden wurde.\nEr wurde im Grab des Gottes der Weisheit und des alten Wissens gefunden.\nAisha hat den Anhänger in einem Laden in einer Seitengasse gekauft, weil sie von seiner Farbe fasziniert war.\nAls sie bemerkte, dass er ihre mystischen Kräfte verstärkt, nannte sie ihn Augen der Wahrheit und fing an, ihn immer häufiger zu tragen.",
+      "descriptionByStar": {
+        "0": "[Mystischer Boost] erhöht den Schaden um 50 %. Erhöht bei Aktivierung den eigenen Krit. Schaden um 1 %. Dieser Effekt kann bis zu 20-mal gestapelt werden.",
+        "1": "[Mystischer Boost] erhöht den Schaden um 50 %. Erhöht bei Aktivierung den eigenen Krit. Schaden um 1,2 %. Dieser Effekt kann bis zu 20-mal gestapelt werden.",
+        "2": "[Mystischer Boost] erhöht den Schaden um 50 %. Erhöht bei Aktivierung den eigenen Krit. Schaden um 1,4 %. Dieser Effekt kann bis zu 20-mal gestapelt werden.",
+        "3": "[Mystischer Boost] erhöht den Schaden um 50 %. Erhöht bei Aktivierung den eigenen Krit. Schaden um 1,7 %. Dieser Effekt kann bis zu 20-mal gestapelt werden.",
+        "4": "[Mystischer Boost] erhöht den Schaden um 50 %. Erhöht bei Aktivierung den eigenen Krit. Schaden um 2,1 %. Dieser Effekt kann bis zu 20-mal gestapelt werden.",
+        "5": "[Mystischer Boost] erhöht den Schaden um 50 %. Erhöht bei Aktivierung den eigenen Krit. Schaden um 2,5 %. Dieser Effekt kann bis zu 20-mal gestapelt werden."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Wenn du 120-mal Schaden erleidest, wird dies aufgeladen und kann verwendet werden.",
+    "description": "Für 8 Sek. wird die Seele von Nobles Schicksal, Mahitra beschwört. Während der Seelenbeschwörung erhöht sich der eigene Krit. Schaden um 50 % und aller 0.5 Sek. wird dem Gegner ??? Schaden zugefügt. Zusätzlich wird für 5 Sek. der Mag. Schaden des bereits getroffenen Gegners um 25% erhöht.",
+    "cooldown": "22",
+    "uses": "7",
+    "thumbnail": "heroes/Aisha/sw.png",
+    "advancement": {
+      "1": "Während der Wirkungsdauer wird die Mana wieder zur Gänze hergestellt.",
+      "2": "Die Wirkungsdauer erhöht sich um 4 Sek. und verleiht eigene Massenkontroll-Immunität während der Wirkungsdauer."
+    },
+    "story": "Mahitra wurde aus einer großen Menge raffinierter Manasteine hergestellt und war mehr als in der Lage mit der Mana der Edlen Violetten Aisha umzugehen.\n\nAls eine mit edlem Schicksal Geborene und auch als Tochter der noblen Daphnel-Familie von Orvel, benutzte sie Mahitra, um manchmal den Schwachen zu helfen, die Ehre ihrer Familie zu schützen und ihre Pflicht als Erzmagierin zu erfüllen.\n\nEines Tages, als sie Mahitra verwendete, entdeckte sie ein interessantes Phänomen. Wann immer Aisha ihr Mana verwendete, reagierte Mahitra wie eine Person darauf und änderte den Manafluss, um seine Kraft effizienter zu nutzen.\n\nAls Aisha die Gelegenheit hatte mit Annette, der Schöpferin von Mahitra, zu sprechen, erfuhr sie, dass ihr Wille und ihr Mana in Mahitras Manastein sickerten und dass Mahitra zu einer Art technomagischer Lebensform geworden ist. Aisha beschloss, dieses neue Phänomen zu erforschen."
+  },
+  "splashart": "heroes/Aisha/sa.png",
+  "costumes": "heroes/Aisha/cos",
+  "aliases": null,
+  "_localization": {
+    "locale": "de",
+    "sourceBuild": 1558,
+    "englishFallbackFields": []
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "id": "Roi",
+  "profile": {
+    "name": "Roi",
+    "title": "Roi, Dague-Meurtrière véloce",
+    "class": "Assassin",
+    "position": "Front-500",
+    "attack_range": "400",
+    "damage_type": "Physical",
+    "gender": "Homme",
+    "age": "20",
+    "height": "179",
+    "race": "Humain",
+    "constellation": "Armil le Vénéré",
+    "birth": {
+      "month": 4,
+      "day": 1,
+      "monthName": "Mois de la Vie"
+    },
+    "like": "Sa propre personne",
+    "dislike": "Son passé",
+    "story": "Dominiks lui a demandé de servir d'escorte à Cleo et de la protéger. Cet ancien membre d'un groupe d'assassins a risqué sa vie avant de vivre en solitaire pour des raisons inconnues. Du fait de son passé d'assassin, il manque souvent de respect envers les autres, mais les épreuves qu'il a traversées ont fait de lui un homme expérimenté et futé, qui traite honnêtement ceux qui lui viennent en aide.",
+    "thumbnail": "heroes/Roi/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Impitoyable",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Inflige 243*(0.7+(0.3*Skill Level*Awakening Coefficient)) + 140% of ATK DEG P 3 fois à un ennemi aléatoire, applique 1 cumuls de [Blessure grave] et augmente ses DEG P subis de 30% pendant 4 sec. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Roi/skills/1.png"
+    },
+    "2": {
+      "name": "Rideau de l'Ombre",
+      "cost": "2",
+      "cooldown": "10",
+      "description": "Augmente l'ATQ de tous les alliés de 300*(0.7+(0.3*Skill Level*Awakening Coefficient)) et leur esquive physique de 150 pendant 5 sec, et s'accorde [Souffle de la mort] pendant 7 sec. [Souffle de la mort] : esquive toutes les attaques physiques. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Roi/skills/2.png"
+    },
+    "3": {
+      "name": "GriffeLame",
+      "cost": "3",
+      "cooldown": "5",
+      "description": "Se déplace derrière l'ennemi et inflige 799*(0.7+(0.3*Skill Level*Awakening Coefficient))+244.5% ATK DEG P. Consomme tous les cumuls de [Blessure grave] pour infliger des DEG P supplémentaires égaux à 180.7% de l'ATQ par 1 cumuls consommés. Un coup critique applique 1 cumuls de [Saignement] et réinitialise la recharge de [GriffeLame]. [Saignement] : inflige des DEG P continus égaux à 5% de l'ATQ toutes les 1 sec pendant 15 sec, jusqu'à 20 cumuls. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Roi/skills/3.png"
+    },
+    "4": {
+      "name": "Piratage",
+      "cost": null,
+      "cooldown": "10",
+      "description": "Toutes les 10 sec, une attaque normale critique inflige 96*(0.7+(0.3*Skill Level*Awakening Coefficient))+54.9% ATK DEG P 6 fois. Chaque coup a 65% de chances d'appliquer 1 cumuls de [Blessure grave]. [Blessure grave] : inflige des DEG P continus égaux à 15% de l'ATQ toutes les 1 sec pendant 15 sec, jusqu'à 5 cumuls. Coefficient d'éveil(★1 ~ 5): [ 1 / 2 / 3.5 / 5.5 / 8 ]",
+      "thumbnail": "heroes/Roi/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "2": {
+      "II": "Augmente l'augmentation d'ATQ de [64ff64]10[-]%.",
+      "III": "Augmente l'augmentation d'ATQ de [64ff64]15[-]%.",
+      "IV": "Augmente l'augmentation d'ATQ de [64ff64]25[-]%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    },
+    "4": {
+      "II": "Augmente les DEG infligés de [64ff64]10[-]%.",
+      "III": "Augmente les DEG infligés de [64ff64]15[-]%.",
+      "IV": "Augmente les DEG infligés de [64ff64]25[-]%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Change la cible pour l’ennemi ayant l’ATQ la plus élevée.",
+          "thumbnail": "heroes/Roi/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Modifie le nombre de coups à 5.",
+          "thumbnail": "heroes/Roi/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Utilise la compétence en dissipant son effet négatif.",
+          "thumbnail": "heroes/Roi/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Augmente la vitesse d'attaque de tous les alliés de 10% pendant la durée de la compétence.",
+          "thumbnail": "heroes/Roi/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Lorsqu'il n'y a que 1 ennemi, les dégâts augmentent de 100 %.",
+          "thumbnail": "heroes/Roi/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Change la cible pour un ennemi avec l’ATQ la plus élevée.",
+          "thumbnail": "heroes/Roi/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Configure Hack pour appliquer [Blessure Mortelle] avec 100 % de chances.",
+          "thumbnail": "heroes/Roi/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Augmente les chances de coup critique de Roi de 360.",
+          "thumbnail": "heroes/Roi/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Roi/perks/light.png"
+      },
+      "dark": {
+        "effect": "Un coup critique augmente la vitesse d'attaque de 24% et les DEG Crit de 48% pendant 5 sec. Cet effet ne peut se déclencher qu'une fois toutes les 5 sec.",
+        "thumbnail": "heroes/Roi/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Redeal, le Souffle du Spectre",
+    "description": "A {0}% de chances de cumuler 1 charges de [Blessure mortelle] en cas d'attaque automatique et celle de Piratage. Inflige des DEG supplémentaires à hauteur de {1}% de l'ATQ par charge de [Blessure mortelle].",
+    "thumbnail": "heroes/Roi/uw.png",
+    "story": "Le groupe d'assassins connu sous le nom de Masque Rieur a longtemps régné sur le monde de la pègre d'Orvel. Seul le meilleur assassin du Masque Rieur a le droit de manier cette terrible paire de dagues. On dit que les blessures infligées ne guérissent jamais et que ses victimes saignent à mort. D'après la légende, ces dagues furent forgées à partir de la faux de la Faucheuse.",
+    "value": {
+      "0": {
+        "0": "25",
+        "1": "30",
+        "2": "35",
+        "3": "40",
+        "4": "45",
+        "5": "50"
+      },
+      "1": {
+        "0": "15",
+        "1": "18",
+        "2": "21",
+        "3": "24",
+        "4": "27",
+        "5": "30"
+      }
+    },
+    "descriptionByStar": {
+      "0": "A 25% de chances de cumuler 1 charges de [Blessure mortelle] en cas d'attaque automatique et celle de Piratage. Inflige des DEG supplémentaires à hauteur de 15% de l'ATQ par charge de [Blessure mortelle].",
+      "1": "A 30% de chances de cumuler 1 charges de [Blessure mortelle] en cas d'attaque automatique et celle de Piratage. Inflige des DEG supplémentaires à hauteur de 18% de l'ATQ par charge de [Blessure mortelle].",
+      "2": "A 35% de chances de cumuler 1 charges de [Blessure mortelle] en cas d'attaque automatique et celle de Piratage. Inflige des DEG supplémentaires à hauteur de 21% de l'ATQ par charge de [Blessure mortelle].",
+      "3": "A 40% de chances de cumuler 1 charges de [Blessure mortelle] en cas d'attaque automatique et celle de Piratage. Inflige des DEG supplémentaires à hauteur de 24% de l'ATQ par charge de [Blessure mortelle].",
+      "4": "A 45% de chances de cumuler 1 charges de [Blessure mortelle] en cas d'attaque automatique et celle de Piratage. Inflige des DEG supplémentaires à hauteur de 27% de l'ATQ par charge de [Blessure mortelle].",
+      "5": "A 50% de chances de cumuler 1 charges de [Blessure mortelle] en cas d'attaque automatique et celle de Piratage. Inflige des DEG supplémentaires à hauteur de 30% de l'ATQ par charge de [Blessure mortelle]."
+    }
+  },
+  "uts": {
+    "1": {
+      "name": "Lame de l'Ombre",
+      "description": "[Impitoyable] Dissipe tous les effets négatifs qui pèsent sur le lanceur et restaure {0} PM à chaque coup critique.",
+      "thumbnail": "heroes/Roi/ut/1.png",
+      "story": "Un bagh nakha en forme de griffes bestiales.\nCette arme dissimulée, utilisée par les assassins orientaux, comporte une lame damasquinée. Forgée dans la fièvre et le sang, la lame de l'ombre a la réputation d'une arme maudite et assoiffée. À l'exception des assassins, le commun des mortels s'en tient le plus à l'écart possible.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Impitoyable] Dissipe tous les effets négatifs qui pèsent sur le lanceur et restaure 200 PM à chaque coup critique.",
+        "1": "[Impitoyable] Dissipe tous les effets négatifs qui pèsent sur le lanceur et restaure 240 PM à chaque coup critique.",
+        "2": "[Impitoyable] Dissipe tous les effets négatifs qui pèsent sur le lanceur et restaure 290 PM à chaque coup critique.",
+        "3": "[Impitoyable] Dissipe tous les effets négatifs qui pèsent sur le lanceur et restaure 350 PM à chaque coup critique.",
+        "4": "[Impitoyable] Dissipe tous les effets négatifs qui pèsent sur le lanceur et restaure 420 PM à chaque coup critique.",
+        "5": "[Impitoyable] Dissipe tous les effets négatifs qui pèsent sur le lanceur et restaure 500 PM à chaque coup critique."
+      }
+    },
+    "2": {
+      "name": "Capuche de soma",
+      "description": "[Rideau de l'Ombre] Prolonge la durée de 3 s et augmente les DGT infligés aux boss de {0} %.",
+      "thumbnail": "heroes/Roi/ut/2.png",
+      "story": "Capuche menaçante confectionnée selon la méthode secrète du Masque Rieur. \nElle a été élaborée à partir du soma légendaire, supposé conférer une vitalité infinie, et du secret du Masque Rieur. \nLa capuche de soma améliore le moral d’un assassin à l’intérieur d’un rideau noir, ce qui augmente son ATQ et sa dextérité, permettant ainsi d’améliorer son Esquive P.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "28",
+          "3": "32",
+          "4": "36",
+          "5": "40"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Rideau de l'Ombre] Prolonge la durée de 3 s et augmente les DGT infligés aux boss de 20 %.",
+        "1": "[Rideau de l'Ombre] Prolonge la durée de 3 s et augmente les DGT infligés aux boss de 24 %.",
+        "2": "[Rideau de l'Ombre] Prolonge la durée de 3 s et augmente les DGT infligés aux boss de 28 %.",
+        "3": "[Rideau de l'Ombre] Prolonge la durée de 3 s et augmente les DGT infligés aux boss de 32 %.",
+        "4": "[Rideau de l'Ombre] Prolonge la durée de 3 s et augmente les DGT infligés aux boss de 36 %.",
+        "5": "[Rideau de l'Ombre] Prolonge la durée de 3 s et augmente les DGT infligés aux boss de 40 %."
+      }
+    },
+    "3": {
+      "name": "Masque fêlé",
+      "description": "[GriffeLame] Réduit le temps de recharge de 1 sec et augmente les DEG infligés de {0}%.",
+      "thumbnail": "heroes/Roi/ut/3.png",
+      "story": "Le masque que Roi détruisit lorsqu’il quitta les assassins du Masque Rieur. Les assassins visent les points vitaux de leurs ennemis et ils portent des masques pour cacher leurs émotions lorsqu’ils éliminent leurs cibles. Roi fait face au masque brisé et se glisse derrière ses ennemis pour les tuer avec sa GriffeLame afin de protéger ses amis.",
+      "value": {
+        "0": {
+          "0": "25",
+          "1": "30",
+          "2": "35",
+          "3": "40",
+          "4": "45",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[GriffeLame] Réduit le temps de recharge de 1 sec et augmente les DEG infligés de 25%.",
+        "1": "[GriffeLame] Réduit le temps de recharge de 1 sec et augmente les DEG infligés de 30%.",
+        "2": "[GriffeLame] Réduit le temps de recharge de 1 sec et augmente les DEG infligés de 35%.",
+        "3": "[GriffeLame] Réduit le temps de recharge de 1 sec et augmente les DEG infligés de 40%.",
+        "4": "[GriffeLame] Réduit le temps de recharge de 1 sec et augmente les DEG infligés de 45%.",
+        "5": "[GriffeLame] Réduit le temps de recharge de 1 sec et augmente les DEG infligés de 50%."
+      }
+    },
+    "4": {
+      "name": "Anneau de Spectre",
+      "description": "[Piratage] augmente les DEG de {0}% et applique 1 cumul de [Saignement] à la cible lors d'un coup critique.",
+      "thumbnail": "heroes/Roi/ut/4.png",
+      "story": "Un anneau fabriqué en souvenir du jour où Roi réussit à perfectionner sa nouvelle compétence.\nRoi était si fier de lui qu'il créa sa propre palette de compétences, qu'il appela Piratage, sans compter sur les techniques des Masques rieurs.\nUne représentation du spectre Redeal est gravée sur l'anneau, pour prouver que Roi a réussi à surmonter son passé, mais aussi pour lui rappeler ses erreurs passées.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "descriptionByStar": {
+        "0": "[Piratage] augmente les DEG de 20% et applique 1 cumul de [Saignement] à la cible lors d'un coup critique.",
+        "1": "[Piratage] augmente les DEG de 24% et applique 1 cumul de [Saignement] à la cible lors d'un coup critique.",
+        "2": "[Piratage] augmente les DEG de 29% et applique 1 cumul de [Saignement] à la cible lors d'un coup critique.",
+        "3": "[Piratage] augmente les DEG de 35% et applique 1 cumul de [Saignement] à la cible lors d'un coup critique.",
+        "4": "[Piratage] augmente les DEG de 42% et applique 1 cumul de [Saignement] à la cible lors d'un coup critique.",
+        "5": "[Piratage] augmente les DEG de 50% et applique 1 cumul de [Saignement] à la cible lors d'un coup critique."
+      }
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros [64ff64]6[-] fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de [Redeal, le Souffle du Spectre] pendant 12 sec, augmentant ses propres DEG Crit de 70%. Chaque utilisation de [Impitoyable] inflige à la cible des DEG P égaux à 270% de l'ATQ.",
+    "cooldown": "18",
+    "uses": "7",
+    "thumbnail": "heroes/Roi/sw.png",
+    "advancement": {
+      "1": "Pendant la durée de l'invocation, [GriffeLame] ne consomme pas de charge de [Blessure mortelle].",
+      "2": "Pendant la durée de l'invocation, fixe le temps de recharge de [GriffeLame] à 7 sec et en cas d'utilisation de cette compétence, récupère 50 barres supplémentaires de PM."
+    },
+    "story": "Sur ses lames, planait toujours un effluve de sang nauséabond, odeur annonciatrice de la mort. De temps à autre, les hurlements des personnes tuées par ces lames se faisaient entendre. C'était le symbole des Masques-Rieurs, et la preuve de l'auteur de carnage. Ne pouvant ni les abandonner, ni les ignorer, Roi jura de ne laisser personne s'en emparer.\n'-Je ne renie pas mes péchés. Je les accepterai et suivrai la voie de l'ombre.'\nCe fut à cet instant. L'ange de la mort émergea des ténèbres environnantes. Il exhalait une intention meurtrière à l'encontre de Roi, mais son regard exprimait une curiosité insolite. Alors, Roi comprit. Jusqu'à ce qu'au jour où il mourrait, cet ange de la mort observerait la voie qu'il suivrait..."
+  },
+  "splashart": "heroes/Roi/sa.png",
+  "costumes": "heroes/Roi/cos",
+  "_localization": {
+    "locale": "fr",
+    "version": "cbt-phase-2",
+    "englishFallbackFields": []
+  }
+}
