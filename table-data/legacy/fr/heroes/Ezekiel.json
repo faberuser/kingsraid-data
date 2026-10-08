@@ -161,33 +161,51 @@
     "story": "Le père d'Ezekiel faisait partie des démons supérieurs. Bien qu'il n'ait jamais connu son nom ou son visage, il est parfaitement conscient du pouvoir incommensurable dont il a hérité. C'est d'ailleurs à ce sang démoniaque qu'il doit sa seconde personnalité. Lorsque son humanité prévaut, Ezekiel est un jeune homme sociable. Mais il se change parfois en démon étonnamment arrogant et puissant, car son père. Barbatos, le Gardien du Désespoir, se manifeste lorsque le sang démoniaque d'Ezekiel prend le dessus. Adoptant la forme de son bras, cette arme est suffisamment puissante pour trancher à travers les dimensions et l'espace lui-même. Elle constitue la représentation physique du pouvoir de son père.",
     "descriptionByStar": {
       "0": "Augmente la durée de Fureur de 2 sec. À l'état de Fureur, augmente les DEG Crit de 80% et la résistance aux Contrôles de 200.",
-      "1": "La durée de Fureur est augmentée de 3 sec et lorsqu'elle est active, les DEG Crit sont augmentés de 90%.",
-      "2": "La durée de Fureur est augmentée de 4 sec et lorsqu'elle est active, les DEG Crit sont augmentés de 100%.",
-      "3": "La durée de Fureur est augmentée de 5 sec et lorsqu'elle est active, les DEG Crit sont augmentés de 110%.",
-      "4": "La durée de Fureur est augmentée de 6 sec et lorsqu'elle est active, les DEG Crit sont augmentés de 120%.",
-      "5": "La durée de Fureur est augmentée de 7 sec et lorsqu'elle est active, les DEG Crit sont augmentés de 130%."
+      "1": "Augmente la durée de Fureur de 3 sec. À l'état de Fureur, augmente les DEG Crit de 90% et la résistance aux Contrôles de 240.",
+      "2": "Augmente la durée de Fureur de 4 sec. À l'état de Fureur, augmente les DEG Crit de 100% et la résistance aux Contrôles de 290.",
+      "3": "Augmente la durée de Fureur de 5 sec. À l'état de Fureur, augmente les DEG Crit de 110% et la résistance aux Contrôles de 350.",
+      "4": "Augmente la durée de Fureur de 6 sec. À l'état de Fureur, augmente les DEG Crit de 120% et la résistance aux Contrôles de 420.",
+      "5": "Augmente la durée de Fureur de 7 sec. À l'état de Fureur, augmente les DEG Crit de 130% et la résistance aux Contrôles de 500."
     }
   },
   "uts": {
     "1": {
       "name": "Ceinture en cuir de bête sauvage",
-      "description": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 15 % pendant 10 sec.",
-      "value": {},
+      "description": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de {0}% pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Ezekiel/ut/1.png",
       "story": "Lorsqu'Ezekiel fit un ras-de-cou en cuir de Manticore, il confectionna également une ceinture doublée. Ce cuir spécial a la particularité de contenir de l'énergie démoniaque et de rendre fou. Cette ceinture instille la peur autour d'elle lorsqu'Ezekiel relâche sa puissance démoniaque, immobilisant les esprits faibles.",
       "descriptionByStar": {
-        "0": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 15 % pendant 10 sec.",
-        "1": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 12 % pendant 10 sec.",
-        "2": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 14 % pendant 10 sec.",
-        "3": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 17 % pendant 10 sec.",
-        "4": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 21 % pendant 10 sec.",
-        "5": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 25 % pendant 10 sec."
+        "0": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 10% pendant 10 sec.",
+        "1": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 12% pendant 10 sec.",
+        "2": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 14% pendant 10 sec.",
+        "3": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 17% pendant 10 sec.",
+        "4": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 21% pendant 10 sec.",
+        "5": "[Instinct destructeur] Restaure les PV à hauteur de 15 % des PV max et augmente les DEG M reçus par la cible de 25% pendant 10 sec."
       }
     },
     "2": {
       "name": "Ras-de-cou bête sauvage",
-      "description": "[Aube du désespoir] Donne l'immunité aux contrôles pendant la durée de la compétence et augmente la Vitesse d'ATQ de 100 pendant 10 sec.",
-      "value": {},
+      "description": "[Aube du désespoir] Donne l'immunité aux contrôles pendant la durée de la compétence et augmente la Vitesse d'ATQ de {0} pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Ezekiel/ut/2.png",
       "story": "Ras-de-cou confectionné à partir de la peau d’une puissante bête.\nCet objet fait honneur à la manticore vaincue par le jeune Ezekiel après une éprouvante bataille contre les démons. \nEzekiel se rappelle la joie que procure la mise à mort d’une manticore à chaque fois qu’il effleure le ras-de-cou de la bête violente, juste avant de foncer vers l’imposant ennemi qui lui fait face.",
       "descriptionByStar": {
@@ -201,8 +219,17 @@
     },
     "3": {
       "name": "Lien de sceau",
-      "description": "[Frappe de Condamnation] Augmente les DEG de 20% et donne 1 charge supplémentaire de Sang Maudit après l'utilisation de la compétence.",
-      "value": {},
+      "description": "[Frappe de Condamnation] Augmente les DEG de {0}% et donne 1 charge supplémentaire de Sang Maudit après l'utilisation de la compétence.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Ezekiel/ut/3.png",
       "story": "Un lien contenant la mana d’un prêtre inconnu. Le jeune Ezekiel devenait fréquemment enragé. Si quelqu’un insultait sa mère, il laissait son sang de démon prendre le dessus. Une fois qu’il reprenait ses esprits, il contemplait son bras blessé et sa mère terrifiée. Lorsqu’il fut plus âgé, Ezekiel affrontait des démons lorsqu’il se disputa avec un grand prêtre de Lua. Il devint enragé, comme les autres fois. Lorsqu’il reprit ses esprits, il était seul et un lien était fixé sur son bras maudit. Lorsqu’il tenta de le retirer, il se rendit compte que la magie du prêtre ne pouvait être arrachée si facilement. Cependant, il arrêta de devenir enragé et de perdre conscience. Il a également plus de contrôle sur sa mana. Ce lien est désormais son bien le plus précieux.",
       "descriptionByStar": {
@@ -216,8 +243,17 @@
     },
     "4": {
       "name": "Sculpture de sang",
-      "description": "[Sang maudit] Au début de la première bataille, récupère 2 charges de Sang maudit et augmente de 20% les DEG infligés au Boss pendant la durée de Fureur.",
-      "value": {},
+      "description": "[Sang maudit] Au début de la première bataille, récupère 2 charges de Sang maudit et augmente de {0}% les DEG infligés au Boss pendant la durée de Fureur.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Ezekiel/ut/4.png",
       "story": "Les soudains pics d'énergie au niveau du bras droit du jeune Ezekiel lui ont laissé de nombreuses blessures et cicatrices sur les bras et les mains.\nLorsque son bras est apaisé et que le sang dégouline sur le sol, son regard a tendance à se river sur ce sang.\nEzekiel attend que le saignement cesse, ramasse une pierre imprégnée de son sang bleu, et commence à y graver une petite sculpture à l'image de sa main droite.",
       "descriptionByStar": {

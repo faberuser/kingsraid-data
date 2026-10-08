@@ -144,14 +144,28 @@
     "thumbnail": "heroes/Erze/uw.png",
     "story": "When did this all begin...?\nThis torment that comes with unending thirst...\nBut after quenching that thirst...\nMy heart throbs with burning hatred against you, Seria...\n...Ah, Seria. I have no other choice.\nI need this power to satisfy this endless thirst.\nThis ever-flowing essence of power is the only cure to my eternal torment.\nAh... This ecstasy...\nMore... Someone, thrill me more.",
     "descriptionByStar": {
-      "0": "Each Skill hit increases own ATK and ATK Spd by 0.5% for 30 sec. This effect can be stacked up to max 80 times and is irremovable."
+      "0": "Each Skill hit increases own ATK and ATK Spd by 0.5% for 30 sec. This effect can be stacked up to max 80 times and is irremovable.",
+      "1": "Each Skill hit increases own ATK and ATK Spd by 0.5% for 30 sec. This effect can be stacked up to max 90 times and is irremovable.",
+      "2": "Each Skill hit increases own ATK and ATK Spd by 0.5% for 30 sec. This effect can be stacked up to max 110 times and is irremovable.",
+      "3": "Each Skill hit increases own ATK and ATK Spd by 0.5% for 30 sec. This effect can be stacked up to max 130 times and is irremovable.",
+      "4": "Each Skill hit increases own ATK and ATK Spd by 0.5% for 30 sec. This effect can be stacked up to max 160 times and is irremovable.",
+      "5": "Each Skill hit increases own ATK and ATK Spd by 0.5% for 30 sec. This effect can be stacked up to max 200 times and is irremovable."
     }
   },
   "uts": {
     "1": {
       "name": "Fang of Thirst",
-      "description": "[Sweet Blood] Reduces Mana Cost by 1 and increases P.DMG the hit enemy takes by 1%. This effect can be stacked up to max 10 times.",
-      "value": {},
+      "description": "[Sweet Blood] Reduces Mana Cost by 1 and increases P.DMG the hit enemy takes by {0}%. This effect can be stacked up to max 10 times.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Erze/ut/1.png",
       "story": "A fang of the Vampire that bit Erze.\nAfter Erze gained the power of blood that she had been craving, she went to this Vampire, brutally murdered it, and took its fang. When the moon is full, she would fiddle with the fang that once had her blood smeared on it, thinking of the past when she used to be a human, before she suffered from the violent thirst for blood.",
       "descriptionByStar": {
@@ -165,8 +179,17 @@
     },
     "2": {
       "name": "Wine of Shivers",
-      "description": "[Soaking Blood] Increases DMG of [Soaking Blood] by 50% and reduces Cooldown of [Soaking Blood] by 5 sec.",
-      "value": {},
+      "description": "[Soaking Blood] Increases DMG of [Soaking Blood] by 50% and reduces Cooldown of [Soaking Blood] by {0} sec.",
+      "value": {
+        "0": {
+          "0": "5",
+          "1": "6",
+          "2": "7",
+          "3": "8",
+          "4": "9",
+          "5": "10"
+        }
+      },
       "thumbnail": "heroes/Erze/ut/2.png",
       "story": "A wine made by Erze herself with the blood of fallen priests.\nOne of her greatest pleasures is forcing those once considered holy to kneel before her.\nInside the bottle is a bloody cross, and those who hear Erze drinking the wine off it shiver and tremble as the sound of the cross clanging inside.",
       "descriptionByStar": {
@@ -180,8 +203,17 @@
     },
     "3": {
       "name": "Lipstick of Shame",
-      "description": "[Blood Liberation] Increases DMG of [Blood Liberation] by 20% and gains immunity to CC for the duration of [Blood Liberation].",
-      "value": {},
+      "description": "[Blood Liberation] Increases DMG of [Blood Liberation] by {0}% and gains immunity to CC for the duration of [Blood Liberation].",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Erze/ut/3.png",
       "story": "A dark red lipstick made from the blood of those who died disgraceful deaths.\nThe ones who abandoned their dignity as humans and caved in to their insatiable desires failed to escape Erze's grasp.\nThey died while in a complete trance state, but perhaps they might still feel happy about being used by Erze.\nErze uses it to leave a mark on the neck of her prey after she has fed on them.",
       "descriptionByStar": {
@@ -195,8 +227,17 @@
     },
     "4": {
       "name": "Moonlight Piano",
-      "description": "[Life Drinker] Increases ATK boost and Max HP boost by 20%. Life Drinker becomes irremovable.",
-      "value": {},
+      "description": "[Life Drinker] Increases ATK boost and Max HP boost by {0}%. Life Drinker becomes irremovable.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Erze/ut/4.png",
       "story": "A piano played by Erze on the Festival of Blood held on full moon's night.\nWhen her unquenchable thirst for blood finally settled down after razing a peaceful town to the ground, she found herself standing in complete silence on the blood-soaked ground.\nThere was not a life that did not belong to her, and it made her want to play a beautiful tune for her silent audience.\nThe sonata echoed around, over the mountain of dead bodies.",
       "descriptionByStar": {

@@ -144,29 +144,52 @@
     "thumbnail": "heroes/Erze/uw.png",
     "story": "Quand cela a-t-il commencé ?\nCette soif inextinguible et la souffrance qui l'accompagne...\nEt quand j'étanche enfin ma soif...\nLa haine que je te porte fait trembler mon cœur, Seria...\n... Ah, Seria. Je n'ai plus le choix.\nIl me faut cette puissance pour étancher ma soif éternelle.\nCette source intarissable de puissance est le seul remède à ma souffrance infinie.\nAh... Douce extase !\nPlus... Il m'en faut plus.",
     "descriptionByStar": {
-      "0": "À chaque coup porté par les compétences, augmente l'ATQ et la Vitesse d'ATQ de 0.5% pendant 30 sec. Cet effet peut se cumuler jusqu'à 80 fois et ne peut être dissipé."
+      "0": "À chaque coup porté par les compétences, augmente l'ATQ et la Vitesse d'ATQ de 0.5% pendant 30 sec. Cet effet peut se cumuler jusqu'à 80 fois et ne peut être dissipé.",
+      "1": "À chaque coup porté par les compétences, augmente l'ATQ et la Vitesse d'ATQ de 0.5% pendant 30 sec. Cet effet peut se cumuler jusqu'à 90 fois et ne peut être dissipé.",
+      "2": "À chaque coup porté par les compétences, augmente l'ATQ et la Vitesse d'ATQ de 0.5% pendant 30 sec. Cet effet peut se cumuler jusqu'à 110 fois et ne peut être dissipé.",
+      "3": "À chaque coup porté par les compétences, augmente l'ATQ et la Vitesse d'ATQ de 0.5% pendant 30 sec. Cet effet peut se cumuler jusqu'à 130 fois et ne peut être dissipé.",
+      "4": "À chaque coup porté par les compétences, augmente l'ATQ et la Vitesse d'ATQ de 0.5% pendant 30 sec. Cet effet peut se cumuler jusqu'à 160 fois et ne peut être dissipé.",
+      "5": "À chaque coup porté par les compétences, augmente l'ATQ et la Vitesse d'ATQ de 0.5% pendant 30 sec. Cet effet peut se cumuler jusqu'à 200 fois et ne peut être dissipé."
     }
   },
   "uts": {
     "1": {
       "name": "Croc de soif",
-      "description": "[Sang suave] Réduit le coût en PM de 1 et augmente de 1 % les DEG P reçus par l'ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois.",
-      "value": {},
+      "description": "[Sang suave] Réduit le coût en PM de 1 et augmente de {0} % les DEG P reçus par l'ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Erze/ut/1.png",
       "story": "Ce croc a appartenu au vampire qui a mordu Erze.\nAprès avoir obtenu le pouvoir du sang qu'elle convoitait tant, Erze partit voir ce vampire, l'assassina brutalement et le lui prit. Les nuits de pleine lune, elle joue avec ce croc, autrefois maculé de son sang, en repensant à l'époque où elle était humaine et ne connaissait pas une soif de sang inextinguible.",
       "descriptionByStar": {
         "0": "[Sang suave] Réduit le coût en PM de 1 et augmente de 1 % les DEG P reçus par l'ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois.",
-        "1": "[Sang suave] Réduit le coût en PM de 1 et augmente de 1,2 % les DEG P reçus par l'ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois.",
-        "2": "[Sang suave] Réduit le coût en PM de 1 et augmente de 1,4 % les DEG P reçus par l'ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois.",
-        "3": "[Sang suave] Réduit le coût en PM de 1 et augmente de 1,7 % les DEG P reçus par l'ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois.",
-        "4": "[Sang suave] Réduit le coût en PM de 1 et augmente de 2,1 % les DEG P reçus par l'ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois.",
-        "5": "[Sang suave] Réduit le coût en PM de 1 et augmente de 2,5 % les DEG P reçus par l'ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois."
+        "1": "[Sang suave] Réduit le coût en PM de 1 et augmente de 1.2 % les DEG P reçus par l'ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "2": "[Sang suave] Réduit le coût en PM de 1 et augmente de 1.4 % les DEG P reçus par l'ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "3": "[Sang suave] Réduit le coût en PM de 1 et augmente de 1.7 % les DEG P reçus par l'ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "4": "[Sang suave] Réduit le coût en PM de 1 et augmente de 2.1 % les DEG P reçus par l'ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "5": "[Sang suave] Réduit le coût en PM de 1 et augmente de 2.5 % les DEG P reçus par l'ennemi touché. Cet effet peut se cumuler jusqu'à 10 fois."
       }
     },
     "2": {
       "name": "Vin de frisson",
-      "description": "[Hémorragie] Augmente les DEG d'[Hémorragie] de 50 % et réduit le temps de recharge d'[Hémorragie] de 5 sec.",
-      "value": {},
+      "description": "[Hémorragie] Augmente les DEG d'[Hémorragie] de 50 % et réduit le temps de recharge d'[Hémorragie] de {0} sec.",
+      "value": {
+        "0": {
+          "0": "5",
+          "1": "6",
+          "2": "7",
+          "3": "8",
+          "4": "9",
+          "5": "10"
+        }
+      },
       "thumbnail": "heroes/Erze/ut/2.png",
       "story": "Vin élaboré par Erze elle-même à partir du sang de prêtres déchus.\nSon plus grand plaisir consiste à faire s'agenouiller devant elle ceux qui étaient auparavant considérés comme sacrés.\nDans chaque bouteille se trouve une croix ensanglantée, et ceux qui entendent Erze boire une gorgée de vin tremblent au son de la croix qui tinte contre le verre.",
       "descriptionByStar": {
@@ -180,8 +203,17 @@
     },
     "3": {
       "name": "Rouge à lèvres de la honte",
-      "description": "[Délivrance sanguine] Augmente les DEG de [Délivrance sanguine] de 20 % et confère l'immunité contre les contrôles pendant la durée de [Délivrance sanguine].",
-      "value": {},
+      "description": "[Délivrance sanguine] Augmente les DEG de [Délivrance sanguine] de {0} % et confère l'immunité contre les contrôles pendant la durée de [Délivrance sanguine].",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Erze/ut/3.png",
       "story": "Rouge à lèvres dont la teinte provient du sang de ceux qui sont morts dans la honte.\nCeux qui ont renoncé à leur dignité d'humain et cédé à leur insatiable désir n'ont pu échapper à Erze.\nIls sont certes morts en extase, et peut-être même qu'ils seraient heureux de servir encore à Erze.\nErze utilise ce rouge à lèvres pour laisser une trace sur le cou de ses proies après avoir bu leur sang.",
       "descriptionByStar": {
@@ -195,8 +227,17 @@
     },
     "4": {
       "name": "Piano du clair de lune",
-      "description": "[Buveur de vie] Augmente le boost d'ATQ et le boost de PV max de 20 %, et rend Buveur de vie inamovible.",
-      "value": {},
+      "description": "[Buveur de vie] Augmente le boost d'ATQ et le boost de PV max de {0} %, et rend Buveur de vie inamovible.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Erze/ut/4.png",
       "story": "Un piano dont joua Erze au cours du festival du sang, qui se déroula une nuit de pleine lune.\nLorsque sa soif insatiable de sang fut enfin assouvie après avoir rasé une petite bourgade paisible,\nelle observa en silence le spectacle de tout le sang qu'elle avait versé.\nElle avait fauché toutes les vies, et cela lui donna envie de jouer une mélodie envoûtante pour son public décédé.\nLa sonate résonna au milieu des piles de cadavres.",
       "descriptionByStar": {

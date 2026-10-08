@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "The Seductress, Guillotine",
-    "description": "Upon attacking, there is a 25% chance of dealing 80% of ATK as extra M.DMG, and ATK being increased by 2%. ATK boost can be stacked up to 10 times max.",
-    "value": {},
+    "description": "Upon attacking, there is a 25% chance of dealing {0}% of ATK as extra M.DMG, and ATK being increased by {1}%. ATK boost can be stacked up to 10 times max.",
+    "value": {
+      "0": {
+        "0": "80",
+        "1": "96",
+        "2": "115",
+        "3": "138",
+        "4": "165",
+        "5": "200"
+      },
+      "1": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.9",
+        "3": "3.5",
+        "4": "4.2",
+        "5": "5"
+      }
+    },
     "thumbnail": "heroes/Epis/uw.png",
     "story": "A deadly scythe that matches the characters of its wielder, Epis. It reaps the souls of those who approach it to admire its beauty. Created from within Epis's own body, the weapon is much like a succubus itself. It delivers extreme pleasure to its victims before absorbing their life energy. It seems that, in a way, Epis tried to show some sort of kindness with this weapon.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Green Fairy",
-      "description": "[Absorbing Blow] Increases DMG by 20%. Upon killing an enemy, increases ATK by 20% for 10 sec. The ATK Boost effect can be stacked up to max 3 times.",
-      "value": {},
+      "description": "[Absorbing Blow] Increases DMG by {0}%. Upon killing an enemy, increases ATK by 20% for 10 sec. The ATK Boost effect can be stacked up to max 3 times.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Epis/ut/1.png",
       "story": "Epis's favorite liquor.\nThe most notorious liquor in Orvel, it is made from the strongest wormwood and can cause people to hallucinate. It is secretly used by artists to stoke their inspiration or as a cure for bad cases of insomnia. For Epis, however, it's a light, easy drink.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Succubus's Box",
-      "description": "[Nightmare] Increases DMG by 50% and stuns the affected enemy for 2 sec.",
-      "value": {},
+      "description": "[Nightmare] Increases DMG by 50% and stuns the affected enemy for {0} sec.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Epis/ut/2.png",
       "story": "Box containing the Nightmare Queen's sand of sleep. \nA box from the Demon World that contains magic sand that causes one to fall asleep. \nWhen the enemy falls asleep, attacks the enemy and deals M. DMG through a nightmare that cannot be dispelled.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Seductress Shoes",
-      "description": "[Devil's Prom] Reduces Mana Cost by 1 and increases DMG by 20%.",
-      "value": {},
+      "description": "[Devil's Prom] Reduces Mana Cost by 1 and increases DMG by {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Epis/ut/3.png",
       "story": "Epis's treasured item. When Epis first arrived in the human world, she really got into human culture and attended a masquerade. The dancing of a girl wearing red heels caught her eyes, and she made a deal with her in exchange for the those shoes. Epis wears her seductive heels and get carried away when inflicting pain on her enemies with her dance.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Memory of Dream",
-      "description": "[Harvest] Increases ATK boost by 50%. Killing an enemy increases ATK Spd by 20. This effect can be stacked up to max 10 times.",
-      "value": {},
+      "description": "[Harvest] Increases ATK boost by 50%. Killing an enemy increases ATK Spd by {0}. This effect can be stacked up to max 10 times.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Epis/ut/4.png",
       "story": "A magical mirror that reflects the dreams Epis has absorbed.\nSince Epis has been using the mirror to store interesting dreams, it is now filled with countless traces of the deepest of secrets.",
       "descriptionByStar": {

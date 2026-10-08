@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Wütende Zwillingsschwerter, Veralta",
-    "description": "Erhöht den ANG um 12 % und die ANG-GESCHW. alle 7 Sek. für 30 Sek. um 120. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden.",
-    "value": {},
+    "description": "Erhöht den ANG um {0} % und die ANG-GESCHW. alle 7 Sek. für 30 Sek. um {1}. Dieser Effekt ist bis zu 3-mal stapelbar und kann nicht entfernt werden.",
+    "value": {
+      "0": {
+        "0": "12",
+        "1": "14",
+        "2": "17",
+        "3": "20",
+        "4": "25",
+        "5": "30"
+      },
+      "1": {
+        "0": "120",
+        "1": "140",
+        "2": "170",
+        "3": "200",
+        "4": "250",
+        "5": "300"
+      }
+    },
     "thumbnail": "heroes/Fluss/uw.png",
     "story": "Ein Set verzauberter Waffen von Fluss’ Großvater, einem Ritter aus dem Fürstentum Gray, das als Familienschatz weitergegeben wurde. Die Waffen sind in der Lage, die Körperkraft ihres Besitzers zu steigern, um die Grenzen der menschlichen Leistungsfähigkeit zu überwinden und übernatürliche Kraft und Geschwindigkeit zu erlangen. Weil der Effekt allmählich eintritt, wird der Körper des Trägers keiner plötzlichen Belastung ausgesetzt. Die Teile werden als Blut und Rose bezeichnet. Diese Namen entstanden durch den Wirbel aus Blut und Blütenblättern, der stets auftrat, wenn Fluss diese Zwillingsschwerter führte. Kein anderer Krieger konnte deren Potential jemals so nutzen wie Fluss selbst.",
     "descriptionByStar": {
@@ -146,23 +163,41 @@
   "uts": {
     "1": {
       "name": "Gürtel des Sturmauges",
-      "description": "[Sturmklinge] verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-      "value": {},
+      "description": "[Sturmklinge] verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um {0} %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+      "value": {
+        "0": {
+          "0": "4",
+          "1": "4.8",
+          "2": "5.8",
+          "3": "7",
+          "4": "8.4",
+          "5": "10"
+        }
+      },
       "thumbnail": "heroes/Fluss/ut/1.png",
       "story": "Der Gürtel, den Fluss von seinem Vater bekommen hat, als er zum Vize-Hauptmann der Ritter ernannt wurde.\nEr wurde mit dem Sturmauge-Zauber belebt, der den Träger und jeden im Umkreis zum Schweigen bringt.\n– Wenn man den Klang seines Schwertes hört, dauert es nicht lange, bis man die Blütenblätter fliegen sieht.",
       "descriptionByStar": {
         "0": "[Sturmklinge] verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "1": "[Sturmklinge] Verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 4,8 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "2": "[Sturmklinge] verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 5,8 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "1": "[Sturmklinge] verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 4.8 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "2": "[Sturmklinge] verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 5.8 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
         "3": "[Sturmklinge] verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 7 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "4": "[Sturmklinge] verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 8,4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "4": "[Sturmklinge] verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 8.4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
         "5": "[Sturmklinge] verringert die Manakosten um 1 und erhöht den Schaden pro Einsatz um 10 %. Dieser Effekt kann bis zu 10-mal gestapelt werden."
       }
     },
     "2": {
       "name": "Verführerisches Parfum",
-      "description": "[Blitzschritt] das Mal kann nicht entfernt werden und erhöht den ANG 10 Sek. lang um 20 %, sobald der Feind mit dem Mal getötet wurde.",
-      "value": {},
+      "description": "[Blitzschritt] das Mal kann nicht entfernt werden und erhöht den ANG 10 Sek. lang um {0} %, sobald der Feind mit dem Mal getötet wurde.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Fluss/ut/2.png",
       "story": "Parfum, das die ersten Vivienne-Rosen des Jahres enthält. Vivienne-Rosen sind wunderschön, aber tödlich.\nDiejenigen, die von dem Duft betört werden, bekommen Halluzinationen und starren den Feind nur bewundernd an.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Rose der Unsterblichkeit",
-      "description": "[Blutige Blüten] erhöht den Schaden um 20 % und weicht allen Mag. ANG für die Dauer des Skills aus.",
-      "value": {},
+      "description": "[Blutige Blüten] erhöht den Schaden um {0} % und weicht allen Mag. ANG für die Dauer des Skills aus.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Fluss/ut/3.png",
       "story": "Eine Rose, die nie verwelkt, selbst wenn die gepflückt wird. Fluss liebt diese Blume: Sie erinnert sie an die Pflichten eines Ritters, die die Grundlage für dessenstarken Willen bildet und esihmermöglicht, im Kampf zuversichtlich zu sein.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Versiegelter vertraulicher Brief",
-      "description": "[Zauber trennen] erhöht bei Aktivierung die eigene ANG-GESCHW. für 4 Sek. um 200. Der von Skill gewährte Ausweicheffekt hält 1 Sek. länger.",
-      "value": {},
+      "description": "[Zauber trennen] erhöht bei Aktivierung die eigene ANG-GESCHW. für 4 Sek. um {0}. Der von Skill gewährte Ausweicheffekt hält 1 Sek. länger.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Fluss/ut/4.png",
       "story": "Ein vertraulicher Brief mit dem Wolfssiegel des Kaiserreichs.\nFluss bewahrt den Brief, der vom Kaiser versiegelt wurde, in seiner Manteltasche auf, bis er ihn der hochverehrten Prinzessin von Orvel überreichen kann.",
       "descriptionByStar": {

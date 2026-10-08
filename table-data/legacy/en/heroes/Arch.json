@@ -130,8 +130,17 @@
   },
   "uw": {
     "name": "Clear Blue Sky, Sherrkyle",
-    "description": "Every 10 sec, marks Judgment Sigil on 1 random enemy for 15 sec, then deals M.DMG equal to 200% of ATK. Ignores DEF if the target is not a Hero.",
-    "value": {},
+    "description": "Every 10 sec, marks Judgment Sigil on 1 random enemy for 15 sec, then deals M.DMG equal to {0}% of ATK. Ignores DEF if the target is not a Hero.",
+    "value": {
+      "0": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      }
+    },
     "thumbnail": "heroes/Arch/uw.png",
     "story": "A powerful weapon of light that can take the form of a spear, a dagger, or a bow. One of the divine treasures of the Angels blessed by an archangel. It is said to be capable of incinerating evil. Due to its versatility, it has traditionally been given to the most talented scout. The number of Demons who perished under its light during the war is too high to count.",
     "descriptionByStar": {
@@ -146,8 +155,17 @@
   "uts": {
     "1": {
       "name": "Holy Golden Arrow",
-      "description": "[Celestial Arrow] Increases DMG by 20% and the number of targets by 1.",
-      "value": {},
+      "description": "[Celestial Arrow] Increases DMG by {0}% and the number of targets by 1.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Arch/ut/1.png",
       "story": "A golden arrow created by the divine power of Arch.\nIt summons and materializes the purest and holiest light from heaven, its power increasing according to the amount of divine power given to it. For the good of heart, it's merely a beautiful scene to watch, but if evil creatures are shot by it, they become mutilated and slammed into some non-material dimension.",
       "descriptionByStar": {
@@ -161,8 +179,17 @@
     },
     "2": {
       "name": "Magic Square of Pursuit",
-      "description": "[Purifying Blaze] Reduces Mana Cost by 1 and increases DMG by 20%.",
-      "value": {},
+      "description": "[Purifying Blaze] Reduces Mana Cost by 1 and increases DMG by {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Arch/ut/2.png",
       "story": "The symbol of Fire Arbiter Army that fought a fierce battle against Ancient Demons. \nWhen using the Magic Square of Pursuit blessed by Lua, the Goddess of Light, Arch becomes a merciless arbiter.",
       "descriptionByStar": {
@@ -176,8 +203,17 @@
     },
     "3": {
       "name": "Eye of Heaven",
-      "description": "[Arbiter] Increases DMG by 20%, and increases all allies' ATK by 30% for the duration of M.Shield.",
-      "value": {},
+      "description": "[Arbiter] Increases DMG by {0}%, and increases all allies' ATK by 30% for the duration of M.Shield.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Arch/ut/3.png",
       "story": "Angel Arbiter Pilier's soul egg. Pilier was born from Lua's first flame, and is Arch's master. Pilier was the best Angel warrior and was the one to end the war against the Demons. But after using all of his power, he went back to being an Eye of Heaven, which is the soul egg form, and Arch is holding onto his master's soul.",
       "descriptionByStar": {
@@ -191,8 +227,17 @@
     },
     "4": {
       "name": "Bell of Punishment",
-      "description": "[The Last Judgment] Upon receiving fatal DMG, heals HP of all allies by 15% of Max HP, and silences entire enemies for 1 sec.",
-      "value": {},
+      "description": "[The Last Judgment] Upon receiving fatal DMG, heals HP of all allies by 15% of Max HP, and silences entire enemies for {0} sec.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Arch/ut/4.png",
       "story": "A heavenly bell that rings in the morning star.\nThe bell rings to warn the Angel warriors whenever the earth faces great trouble, letting them know that divine punishment will be needed .\nUpon hearing the bell, warriors realize that the time has come for them to slit the throats of the bringers of apocalypse under Lua's name.",
       "descriptionByStar": {

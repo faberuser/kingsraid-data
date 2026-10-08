@@ -130,39 +130,82 @@
   },
   "uw": {
     "name": "Targarios, le Fourneau de Futilité",
-    "description": "Toutes les 10 sec, augmente l'ATQ de 10%, toutes DEF de 10% et réduit le temps de recharge de toutes les compétences de 1 sec. Cette réduction double pendant [Initiation au combat]. Le boost d'ATQ et de DEF peut se cumuler jusqu'à 4 fois et est inamovible.",
-    "value": {},
+    "description": "Toutes les 10 sec, augmente l'ATQ de {0}%, toutes DEF de {1}% et réduit le temps de recharge de toutes les compétences de {2} sec. Cette réduction double pendant [Initiation au combat]. Le boost d'ATQ et de DEF peut se cumuler jusqu'à 4 fois et est inamovible.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "2": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.7",
+        "4": "2.1",
+        "5": "2.5"
+      }
+    },
     "thumbnail": "heroes/Bernheim/uw.png",
     "story": "Le nom de son épée signifie « celle qui ne peut être rassasiée » ou « celle à l'appétit sans fin ».\nElle a le pouvoir d'absorber toute sorte d'énergie, sainte ou démoniaque, et de l'utiliser ensuite.\nElle est dotée d'une volonté propre et d'un caractère capricieux, aussi distrait que brutal.\nLa reine Artemia elle-même ignore pourquoi cette épée a été scellée sous l'église centrale de Penteonia, même si l'on raconte que Targarios aurait été autrefois un Seigneur des ténèbres.\nMême si sa puissance dévastatrice est certaine, son caractère frivole rend cette théorie peu probable.",
     "descriptionByStar": {
       "0": "Toutes les 10 sec, augmente l'ATQ de 10%, toutes DEF de 10% et réduit le temps de recharge de toutes les compétences de 1 sec. Cette réduction double pendant [Initiation au combat]. Le boost d'ATQ et de DEF peut se cumuler jusqu'à 4 fois et est inamovible.",
-      "1": "Toutes les 10 sec, augmente l'ATQ de 12%, toutes DEF de 12% et réduit le temps de recharge de toutes les compétences de 1,2 sec. Cette réduction double pendant [Initiation au combat]. Le boost d'ATQ et de DEF peut se cumuler jusqu'à 4 fois et est inamovible.",
-      "2": "Toutes les 10 sec, augmente l'ATQ de 14%, toutes DEF de 14% et réduit le temps de recharge de toutes les compétences de 1,4 sec. Cette réduction double pendant [Initiation au combat]. Le boost d'ATQ et de DEF peut se cumuler jusqu'à 4 fois et est inamovible.",
-      "3": "Toutes les 10 sec, augmente l'ATQ de 17%, toutes DEF de 17% et réduit le temps de recharge de toutes les compétences de 1,7 sec. Cette réduction double pendant [Initiation au combat]. Le boost d'ATQ et de DEF peut se cumuler jusqu'à 4 fois et est inamovible.",
-      "4": "Toutes les 10 sec, augmente l'ATQ de 21%, toutes DEF de 21% et réduit le temps de recharge de toutes les compétences de 2,1 sec. Cette réduction double pendant [Initiation au combat]. Le boost d'ATQ et de DEF peut se cumuler jusqu'à 4 fois et est inamovible.",
-      "5": "Toutes les 10 sec, augmente l'ATQ de 25%, toutes DEF de 25% et réduit le temps de recharge de toutes les compétences de 2,5 sec. Cette réduction double pendant [Initiation au combat]. Le boost d'ATQ et de DEF peut se cumuler jusqu'à 4 fois et est inamovible."
+      "1": "Toutes les 10 sec, augmente l'ATQ de 12%, toutes DEF de 12% et réduit le temps de recharge de toutes les compétences de 1.2 sec. Cette réduction double pendant [Initiation au combat]. Le boost d'ATQ et de DEF peut se cumuler jusqu'à 4 fois et est inamovible.",
+      "2": "Toutes les 10 sec, augmente l'ATQ de 14%, toutes DEF de 14% et réduit le temps de recharge de toutes les compétences de 1.4 sec. Cette réduction double pendant [Initiation au combat]. Le boost d'ATQ et de DEF peut se cumuler jusqu'à 4 fois et est inamovible.",
+      "3": "Toutes les 10 sec, augmente l'ATQ de 17%, toutes DEF de 17% et réduit le temps de recharge de toutes les compétences de 1.7 sec. Cette réduction double pendant [Initiation au combat]. Le boost d'ATQ et de DEF peut se cumuler jusqu'à 4 fois et est inamovible.",
+      "4": "Toutes les 10 sec, augmente l'ATQ de 21%, toutes DEF de 21% et réduit le temps de recharge de toutes les compétences de 2.1 sec. Cette réduction double pendant [Initiation au combat]. Le boost d'ATQ et de DEF peut se cumuler jusqu'à 4 fois et est inamovible.",
+      "5": "Toutes les 10 sec, augmente l'ATQ de 25%, toutes DEF de 25% et réduit le temps de recharge de toutes les compétences de 2.5 sec. Cette réduction double pendant [Initiation au combat]. Le boost d'ATQ et de DEF peut se cumuler jusqu'à 4 fois et est inamovible."
     }
   },
   "uts": {
     "1": {
       "name": "Épée ternie",
-      "description": "[Cercle de la futilité] Réduit le PM des cibles touchées de 100 et augmente les DEG M qu'elles subissent de 25 % pendant 5 sec.",
-      "value": {},
+      "description": "[Cercle de la futilité] Réduit le PM des cibles touchées de {0} et augmente les DEG M qu'elles subissent de 25 % pendant 5 sec.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Bernheim/ut/1.png",
       "story": "Épée typique des chevaliers de Penteonia utilisée par Bernheim avant qu'il ne tombe dans le piège de Targarios.\nElle est conçue pour bénéficier d'une puissance hors du commun lorsqu'elle est imprégnée du pouvoir de la lumière. Targarios remarqua un jour que Bernheim essayait de manier une autre arme que celle-ci, perdit son sang-froid et brisa toutes les autres armes, non sans avoir absorbé leurs pouvoirs, protections et bénédictions.\nBernheim assista à cette scène, poussa un grand soupir et jeta les morceaux de métal, mais décida de garder cette épée avec lui.",
       "descriptionByStar": {
         "0": "[Cercle de la futilité] Réduit le PM des cibles touchées de 100 et augmente les DEG M qu'elles subissent de 25 % pendant 5 sec.",
-        "1": "[Cercle de la futilité] Réduit le PM des cibles touchées de 120 et augmente les DEG M qu'elles subissent de 25 % pendant 5 sec.",
-        "2": "[Cercle de la futilité] Réduit le PM des cibles touchées de 140 et augmente les DEG M qu'elles subissent de 25 % pendant 5 sec.",
-        "3": "[Cercle de la futilité] Réduit le PM des cibles touchées de 170 et augmente les DEG M qu'elles subissent de 25 % pendant 5 sec.",
-        "4": "[Cercle de la futilité] Réduit le PM des cibles touchées de 210 et augmente les DEG M qu'elles subissent de 25 % pendant 5 sec.",
-        "5": "[Cercle de la futilité] Réduit le PM des cibles touchées de 250 et augmente les DEG M qu'elles subissent de 25 % pendant 5 sec."
+        "1": "[Cercle de la futilité] Réduit le PM des cibles touchées de 120 et augmente les DEG M qu'elles subissent de 25 % pendant 5 sec.",
+        "2": "[Cercle de la futilité] Réduit le PM des cibles touchées de 140 et augmente les DEG M qu'elles subissent de 25 % pendant 5 sec.",
+        "3": "[Cercle de la futilité] Réduit le PM des cibles touchées de 170 et augmente les DEG M qu'elles subissent de 25 % pendant 5 sec.",
+        "4": "[Cercle de la futilité] Réduit le PM des cibles touchées de 210 et augmente les DEG M qu'elles subissent de 25 % pendant 5 sec.",
+        "5": "[Cercle de la futilité] Réduit le PM des cibles touchées de 250 et augmente les DEG M qu'elles subissent de 25 % pendant 5 sec."
       }
     },
     "2": {
       "name": "Médaille de lumière",
-      "description": "[Initiation au combat] Consomme 50 % des PV actuels lors de l'utilisation pour rendre l'effet inamovible.",
-      "value": {},
+      "description": "[Initiation au combat] Consomme {0} % des PV actuels lors de l'utilisation pour rendre l'effet inamovible.",
+      "value": {
+        "0": {
+          "0": "50",
+          "1": "46",
+          "2": "41",
+          "3": "35",
+          "4": "28",
+          "5": "20"
+        }
+      },
       "thumbnail": "heroes/Bernheim/ut/2.png",
       "story": "Symbole de la lumière qu'il reçut lorsqu'il fut fait chevalier de Penteonia.\nUn soleil est gravé sur cette médaille en or qui assure à son porteur la compagnie permanente de la lumière.\nBien que Bernheim ait été déchu de son titre de chevalier et chassé de son pays, il demeure fidèle aux chevaliers de Penteonia.",
       "descriptionByStar": {
@@ -176,8 +219,17 @@
     },
     "3": {
       "name": "Coupe de mercenaire",
-      "description": "[Destructeur] Augmente les DEG de 20% et étourdit l'ennemi affecté pendant 0,5 sec avec 20% de chances de toucher à chaque coup.",
-      "value": {},
+      "description": "[Destructeur] Augmente les DEG de {0}% et étourdit l'ennemi affecté pendant 0,5 sec avec 20% de chances de toucher à chaque coup.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Bernheim/ut/3.png",
       "story": "Coupe commémorative offerte aux braves et forts mercenaires de l'empire.\nUn loup, symbole de l'empire, est gravé dessus.\nCette coupe magnifique, dont il n'existe que cinq exemplaires, fut offerte à Bernheim par la famille royale en récompense de ses innombrables faits d'arme.\nCette coupe aurait pour effet de rendre tout liquide qu'elle contient capable de restaurer de l'endurance.",
       "descriptionByStar": {
@@ -191,8 +243,17 @@
     },
     "4": {
       "name": "Lettres jamais envoyées",
-      "description": "[Effondrement] Modifie le nombre de charges sur soi et la cible à 2 et augmente de 20 le nombre maximum de charges pour tous les effets.",
-      "value": {},
+      "description": "[Effondrement] Modifie le nombre de charges sur soi et la cible à 2 et augmente de {0} le nombre maximum de charges pour tous les effets.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Bernheim/ut/4.png",
       "story": "Lettres écrites par Bernheim à sa famille après avoir été banni.\nIl n'avait jamais pu se résoudre à les envoyer, jusqu'à maintenant, sept ans après.\nCes lettres sont pour la plupart adressées à son frère et à sa sœur, respectivement cinq et dix ans plus jeunes que lui.",
       "descriptionByStar": {

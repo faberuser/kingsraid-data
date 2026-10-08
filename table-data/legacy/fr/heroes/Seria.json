@@ -168,33 +168,59 @@
     "story": "Épée d'autorité transmise aux maîtres de la famille ShadowHilt.\nElle renferme le pouvoir des êtres suprêmes qui ont juré de servir la famille ShadowHilt.\nCertains d'entre eux étaient des élémentaires, d'autres des esprits innocents et d'autres encore des démons.\nDes dizaines de milliers de forces maléfiques ont été pourfendues par cette épée.\nElle possède également une propriété démoniaque qui lie l'esprit du mal vaincu à sa lame.\nMalgré sa grande puissance, moins de 5 personnes ont pu manier cette épée en 600 ans.\nSeria, la 101e héritière de la famille ShadowHilt et seule maîtresse à avoir été choisie par l'épée,\na juré à l'épée quelle apporterait le repos éternel à sa sœur adorée.",
     "descriptionByStar": {
       "0": "Inflige des DEG M supplémentaires à hauteur de 50% de l'ATQ à chaque coup critique de compétence porté. Réduit la récupération des PV de la cible touchée de 24% pendant 5 sec et augmente celle du lanceur de 4% pendant 20 sec. L'effet d'augmentation de la récupération des PV peut se cumuler jusqu'à 5 fois et ne peut être dissipé.",
-      "1": "La récupération est réduite de 20%. Inflige des DEG M supplémentaires à hauteur de 36% de l'ATQ à chaque coup critique de compétence porté. Ralentit la récupération de la cible de 29% pendant 5 sec et augmente celle du lanceur de 5% pendant 20 sec. L'accélération de la récupération peut se cumuler 5 fois et ne peut pas être dissipée.",
-      "2": "La récupération est réduite de 20%. Inflige des DEG M supplémentaires à hauteur de 42% de l'ATQ à chaque coup critique de compétence porté. Ralentit la récupération de la cible de 35% pendant 5 sec et augmente celle du lanceur de 6% pendant 20 sec. L'accélération de la récupération peut se cumuler 5 fois et ne peut pas être dissipée.",
-      "3": "La récupération est réduite de 20%. Inflige des DEG M supplémentaires à hauteur de 51% de l'ATQ à chaque coup critique de compétence porté. Ralentit la récupération de la cible de 42% pendant 5 sec et augmente celle du lanceur de 7% pendant 20 sec. L'accélération de la récupération peut se cumuler 5 fois et ne peut pas être dissipée.",
-      "4": "La récupération est réduite de 20%. Inflige des DEG M supplémentaires à hauteur de 63% de l'ATQ à chaque coup critique de compétence porté. Ralentit la récupération de la cible de 50% pendant 5 sec et augmente celle du lanceur de 9% pendant 20 sec. L'accélération de la récupération peut se cumuler 5 fois et ne peut pas être dissipée.",
-      "5": "La récupération est réduite de 20%. Inflige des DEG M supplémentaires à hauteur de 75% de l'ATQ à chaque coup critique de compétence porté. Ralentit la récupération de la cible de 60% pendant 5 sec et augmente celle du lanceur de 10% pendant 20 sec. L'accélération de la récupération peut se cumuler 5 fois et ne peut pas être dissipée."
+      "1": "Inflige des DEG M supplémentaires à hauteur de 60% de l'ATQ à chaque coup critique de compétence porté. Réduit la récupération des PV de la cible touchée de 29% pendant 5 sec et augmente celle du lanceur de 5% pendant 20 sec. L'effet d'augmentation de la récupération des PV peut se cumuler jusqu'à 5 fois et ne peut être dissipé.",
+      "2": "Inflige des DEG M supplémentaires à hauteur de 72% de l'ATQ à chaque coup critique de compétence porté. Réduit la récupération des PV de la cible touchée de 35% pendant 5 sec et augmente celle du lanceur de 6% pendant 20 sec. L'effet d'augmentation de la récupération des PV peut se cumuler jusqu'à 5 fois et ne peut être dissipé.",
+      "3": "Inflige des DEG M supplémentaires à hauteur de 86% de l'ATQ à chaque coup critique de compétence porté. Réduit la récupération des PV de la cible touchée de 42% pendant 5 sec et augmente celle du lanceur de 7% pendant 20 sec. L'effet d'augmentation de la récupération des PV peut se cumuler jusqu'à 5 fois et ne peut être dissipé.",
+      "4": "Inflige des DEG M supplémentaires à hauteur de 103% de l'ATQ à chaque coup critique de compétence porté. Réduit la récupération des PV de la cible touchée de 50% pendant 5 sec et augmente celle du lanceur de 9% pendant 20 sec. L'effet d'augmentation de la récupération des PV peut se cumuler jusqu'à 5 fois et ne peut être dissipé.",
+      "5": "Inflige des DEG M supplémentaires à hauteur de 125% de l'ATQ à chaque coup critique de compétence porté. Réduit la récupération des PV de la cible touchée de 60% pendant 5 sec et augmente celle du lanceur de 10% pendant 20 sec. L'effet d'augmentation de la récupération des PV peut se cumuler jusqu'à 5 fois et ne peut être dissipé."
     }
   },
   "uts": {
     "1": {
       "name": "Pierre à aiguiser du démon",
-      "description": "[Épée mystérieuse - Pétales tombants] Augmente les DEG de 50 % et restaure 200 PM à chaque coup critique infligé.\n[Épée mystérieuse - Fleur] Augmente les DEG de 50 % et réduit le temps de recharge de [Épée mystérieuse - Pétales tombants] de 0,8 sec à chaque coup critique.",
-      "value": {},
+      "description": "[Épée mystérieuse - Pétales tombants] Augmente les DEG de 50 % et restaure {0} PM à chaque coup critique infligé.\n[Épée mystérieuse - Fleur] Augmente les DEG de 50 % et réduit le temps de recharge de [Épée mystérieuse - Pétales tombants] de {1} sec à chaque coup critique.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        },
+        "1": {
+          "0": "0.8",
+          "1": "1",
+          "2": "1.2",
+          "3": "1.4",
+          "4": "1.7",
+          "5": "2"
+        }
+      },
       "thumbnail": "heroes/Seria/ut/1.png",
       "story": "Cette pierre à aiguiser menaçante est censée renfermer l'âme d'un démon.\nLes épées liées par un pacte de servitude doivent être affûtées avec cette pierre à aiguiser, car aucune autre ne fonctionnerait. Combinée avec Bougie purifiante, elle décuple la résistance d'Elsion contre les démons.",
       "descriptionByStar": {
-        "0": "[Épée mystérieuse - Pétales tombants] Augmente les DEG de 50 % et restaure 200 PM à chaque coup critique infligé.\n[Épée mystérieuse - Fleur] Augmente les DEG de 50 % et réduit le temps de recharge de [Épée mystérieuse - Pétales tombants] de 0,8 sec à chaque coup critique.",
+        "0": "[Épée mystérieuse - Pétales tombants] Augmente les DEG de 50 % et restaure 200 PM à chaque coup critique infligé.\n[Épée mystérieuse - Fleur] Augmente les DEG de 50 % et réduit le temps de recharge de [Épée mystérieuse - Pétales tombants] de 0.8 sec à chaque coup critique.",
         "1": "[Épée mystérieuse - Pétales tombants] Augmente les DEG de 50 % et restaure 240 PM à chaque coup critique infligé.\n[Épée mystérieuse - Fleur] Augmente les DEG de 50 % et réduit le temps de recharge de [Épée mystérieuse - Pétales tombants] de 1 sec à chaque coup critique.",
-        "2": "[Épée mystérieuse - Pétales tombants] Augmente les DEG de 50 % et restaure 290 PM à chaque coup critique infligé.\n[Épée mystérieuse - Fleur] Augmente les DEG de 50 % et réduit le temps de recharge de [Épée mystérieuse - Pétales tombants] de 1,2 sec à chaque coup critique.",
-        "3": "[Épée mystérieuse - Pétales tombants] Augmente les DEG de 50 % et restaure 350 PM à chaque coup critique infligé.\n[Épée mystérieuse - Fleur] Augmente les DEG de 50 % et réduit le temps de recharge de [Épée mystérieuse - Pétales tombants] de 1,4 sec à chaque coup critique.",
-        "4": "[Épée mystérieuse - Pétales tombants] Augmente les DEG de 50 % et restaure 420 PM à chaque coup critique infligé.\n[Épée mystérieuse - Fleur] Augmente les DEG de 50 % et réduit le temps de recharge de [Épée mystérieuse - Pétales tombants] de 1,7 sec à chaque coup critique.",
+        "2": "[Épée mystérieuse - Pétales tombants] Augmente les DEG de 50 % et restaure 290 PM à chaque coup critique infligé.\n[Épée mystérieuse - Fleur] Augmente les DEG de 50 % et réduit le temps de recharge de [Épée mystérieuse - Pétales tombants] de 1.2 sec à chaque coup critique.",
+        "3": "[Épée mystérieuse - Pétales tombants] Augmente les DEG de 50 % et restaure 350 PM à chaque coup critique infligé.\n[Épée mystérieuse - Fleur] Augmente les DEG de 50 % et réduit le temps de recharge de [Épée mystérieuse - Pétales tombants] de 1.4 sec à chaque coup critique.",
+        "4": "[Épée mystérieuse - Pétales tombants] Augmente les DEG de 50 % et restaure 420 PM à chaque coup critique infligé.\n[Épée mystérieuse - Fleur] Augmente les DEG de 50 % et réduit le temps de recharge de [Épée mystérieuse - Pétales tombants] de 1.7 sec à chaque coup critique.",
         "5": "[Épée mystérieuse - Pétales tombants] Augmente les DEG de 50 % et restaure 500 PM à chaque coup critique infligé.\n[Épée mystérieuse - Fleur] Augmente les DEG de 50 % et réduit le temps de recharge de [Épée mystérieuse - Pétales tombants] de 2 sec à chaque coup critique."
       }
     },
     "2": {
       "name": "Anneau des abysses",
-      "description": "[Lame d'effusion de sang] Augmente les DEG de 50 % et réduit le Blocage M des ennemis touchés de 200.",
-      "value": {},
+      "description": "[Lame d'effusion de sang] Augmente les DEG de 50 % et réduit le Blocage M des ennemis touchés de {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Seria/ut/2.png",
       "story": "Anneau d'argent à l'effigie de la famille ShadowHilt. Seria le touche à chaque fois qu'elle pense que sa vie n'a aucun sens.\nCela lui rappelle alors ses camarades qui ne sont plus là et la vengeance qu'elle doit obtenir auprès de sa sœur Erze.\nIronie du sort, cet anneau comporte une note écrite par Erze quand elle était petite et dissimulée parmi les joyaux, et Seria ignore tout de cette note, encore aujourd'hui.",
       "descriptionByStar": {
@@ -223,11 +249,11 @@
       "story": "Cette bougie est connue pour avoir siégé sur la table où se sont réunis les guerriers ancestraux de différents continents pour vaincre les êtres surnaturels.\nCette vieille bougie dégage une flamme bleue au pouvoir exorcisant.\nLorsque la flamme entre en contact avec un être maléfique, elle en aspire toute la vitalité.\nIl s'agit du matériau que Seria utilise en priorité pour renforcer son épée.",
       "descriptionByStar": {
         "0": "[Lame de la lune rouge] Confère l'immunité contre les contrôles pendant la durée de la compétence. Au début de la bataille, augmente 5 fois les DEG de 70%.",
-        "1": "[Lame de la lune rouge] Confère l'immunité contre les contrôles pendant la durée de la compétence. Au début du combat, les DEG augmentent de 70 % pour 5 fois.",
-        "2": "[Lame de la lune rouge] Confère l'immunité contre les contrôles pendant la durée de la compétence. Au début du combat, les DEG augmentent de 70 % pour 6 fois.",
-        "3": "[Lame de la lune rouge] Confère l'immunité contre les contrôles pendant la durée de la compétence. Au début du combat, les DEG augmentent de 70 % pour 7 fois.",
-        "4": "[Lame de la lune rouge] Confère l'immunité contre les contrôles pendant la durée de la compétence. Au début du combat, les DEG augmentent de 70 % pour 9 fois.",
-        "5": "[Lame de la lune rouge] Confère l'immunité contre les contrôles pendant la durée de la compétence. Au début du combat, les DEG augmentent de 70 % pour 10 fois."
+        "1": "[Lame de la lune rouge] Confère l'immunité contre les contrôles pendant la durée de la compétence. Au début de la bataille, augmente 7 fois les DEG de 70%.",
+        "2": "[Lame de la lune rouge] Confère l'immunité contre les contrôles pendant la durée de la compétence. Au début de la bataille, augmente 9 fois les DEG de 70%.",
+        "3": "[Lame de la lune rouge] Confère l'immunité contre les contrôles pendant la durée de la compétence. Au début de la bataille, augmente 11 fois les DEG de 70%.",
+        "4": "[Lame de la lune rouge] Confère l'immunité contre les contrôles pendant la durée de la compétence. Au début de la bataille, augmente 13 fois les DEG de 70%.",
+        "5": "[Lame de la lune rouge] Confère l'immunité contre les contrôles pendant la durée de la compétence. Au début de la bataille, augmente 15 fois les DEG de 70%."
       }
     },
     "4": {
@@ -247,11 +273,11 @@
       "story": "Les huit trigrammes offerts au premier chef de la famille Shadow Hilt par une créature surnaturelle.\nSeuls les chefs des Shadow Hilt peuvent les manipuler et optimiser le pouvoir d'Elsion grâce à l'énergie démoniaque qu'ils renferment.\n8 créatures différentes ayant puni le mal sont enfermées dans ces trigrammes, et leurs effets varient en fonction de l'inclination de chaque trigramme vers le yin ou le yang.\nLorsque les 8 trigrammes tendent vers le yin parfait, la pleine lune invoquée par la sorcière sans pitié devient rouge comme le sang.",
       "descriptionByStar": {
         "0": "[Sorcière sans pitié] Augmente l'augmentation d'ATQ de 50% et l'augmentation des DEG infligés aux ennemis non-Héros de 0.6% supplémentaires par charge cumulée.",
-        "1": "[Sorcière sans pitié] Augmente le boost d'ATQ de 50 % et le nombre de charges maximal de boost de DEG Crit de 3.",
-        "2": "[Sorcière sans pitié] Augmente le boost d'ATQ de 50 % et le nombre de charges maximal de boost de DEG Crit de 4.",
-        "3": "[Sorcière sans pitié] Augmente le boost d'ATQ de 50 % et le nombre de charges maximal de boost de DEG Crit de 6.",
-        "4": "[Sorcière sans pitié] Augmente le boost d'ATQ de 50 % et le nombre de charges maximal de boost de DEG Crit de 8.",
-        "5": "[Sorcière sans pitié] Augmente le boost d'ATQ de 50 % et le nombre de charges maximal de boost de DEG Crit de 10."
+        "1": "[Sorcière sans pitié] Augmente l'augmentation d'ATQ de 50% et l'augmentation des DEG infligés aux ennemis non-Héros de 0.7% supplémentaires par charge cumulée.",
+        "2": "[Sorcière sans pitié] Augmente l'augmentation d'ATQ de 50% et l'augmentation des DEG infligés aux ennemis non-Héros de 0.8% supplémentaires par charge cumulée.",
+        "3": "[Sorcière sans pitié] Augmente l'augmentation d'ATQ de 50% et l'augmentation des DEG infligés aux ennemis non-Héros de 1% supplémentaires par charge cumulée.",
+        "4": "[Sorcière sans pitié] Augmente l'augmentation d'ATQ de 50% et l'augmentation des DEG infligés aux ennemis non-Héros de 1.2% supplémentaires par charge cumulée.",
+        "5": "[Sorcière sans pitié] Augmente l'augmentation d'ATQ de 50% et l'augmentation des DEG infligés aux ennemis non-Héros de 1.5% supplémentaires par charge cumulée."
       }
     }
   },

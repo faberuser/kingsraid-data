@@ -161,18 +161,27 @@
     "story": "Lorsque la magie de Malduk ranima Jane sous la forme d'une morte-vivante, elle n'aurait rien dû ressentir. Cependant, elle se sentit à l'aise dans l'énergie mystérieuse entourant sa dépouille. Lorsque Malduk l'appela, elle tenta instinctivement de toucher cette douce présence. Plus tard, quand la magie mystérieuse lui fit reprendre conscience, elle commença par inspecter son cercueil, illuminé d'amour tragique. Elle y trouva le message suivant soigneusement gravé : « Mon amour pour toi reste inchangé. »",
     "descriptionByStar": {
       "0": "Chaque seconde, inflige aux ennemis proches des DEG M égaux à 10% de l'ATQ et réduit leur ATQ de 14%. Augmente aussi de 6% les dégâts contre les ennemis non héros de l'autre allié ayant l'ATQ la plus élevée. Ce bonus de dégâts est indissipable. L'activation de la compétence passive restaure 30% de mana.",
-      "1": "Chaque seconde, inflige 12% d'ATQ sous forme de DEG M aux ennemis à portée et réduit leur ATQ de 17%. Lorsque la compétence passive est activée, récupère 30% de PM.",
-      "2": "Chaque seconde, inflige 14% d'ATQ sous forme de DEG M aux ennemis à portée et réduit leur ATQ de 20%. Lorsque la compétence passive est activée, récupère 30% de PM.",
-      "3": "Chaque seconde, inflige 17% d'ATQ sous forme de DEG M aux ennemis à portée et réduit leur ATQ de 24%. Lorsque la compétence passive est activée, récupère 30% de PM.",
-      "4": "Chaque seconde, inflige 20% d'ATQ sous forme de DEG M aux ennemis à portée et réduit leur ATQ de 29%. Lorsque la compétence passive est activée, récupère 30% de PM.",
-      "5": "Chaque seconde, inflige 25% d'ATQ sous forme de DEG M aux ennemis à portée et réduit leur ATQ de 35%. Lorsque la compétence passive est activée, récupère 30% de PM."
+      "1": "Chaque seconde, inflige aux ennemis proches des DEG M égaux à 12% de l'ATQ et réduit leur ATQ de 17%. Augmente aussi de 7% les dégâts contre les ennemis non héros de l'autre allié ayant l'ATQ la plus élevée. Ce bonus de dégâts est indissipable. L'activation de la compétence passive restaure 30% de mana.",
+      "2": "Chaque seconde, inflige aux ennemis proches des DEG M égaux à 14% de l'ATQ et réduit leur ATQ de 20%. Augmente aussi de 8% les dégâts contre les ennemis non héros de l'autre allié ayant l'ATQ la plus élevée. Ce bonus de dégâts est indissipable. L'activation de la compétence passive restaure 30% de mana.",
+      "3": "Chaque seconde, inflige aux ennemis proches des DEG M égaux à 17% de l'ATQ et réduit leur ATQ de 24%. Augmente aussi de 10% les dégâts contre les ennemis non héros de l'autre allié ayant l'ATQ la plus élevée. Ce bonus de dégâts est indissipable. L'activation de la compétence passive restaure 30% de mana.",
+      "4": "Chaque seconde, inflige aux ennemis proches des DEG M égaux à 20% de l'ATQ et réduit leur ATQ de 29%. Augmente aussi de 12% les dégâts contre les ennemis non héros de l'autre allié ayant l'ATQ la plus élevée. Ce bonus de dégâts est indissipable. L'activation de la compétence passive restaure 30% de mana.",
+      "5": "Chaque seconde, inflige aux ennemis proches des DEG M égaux à 25% de l'ATQ et réduit leur ATQ de 35%. Augmente aussi de 15% les dégâts contre les ennemis non héros de l'autre allié ayant l'ATQ la plus élevée. Ce bonus de dégâts est indissipable. L'activation de la compétence passive restaure 30% de mana."
     }
   },
   "uts": {
     "1": {
       "name": "Poupée funéraire",
-      "description": "[Rites funéraires] Réduit la résistance au contrôle de la cible de 250 et son blocage magique de 200 pendant 10 sec.",
-      "value": {},
+      "description": "[Rites funéraires] Réduit la résistance au contrôle de la cible de 250 et son blocage magique de {0} pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Jane/ut/1.png",
       "story": "Ce genre de poupée sert aux cérémonies funéraires du Grand-Duché de Gray.\nFabriquée à l'effigie du défunt, elle est placée devant sa pierre tombale. Après la chute du grand-duché et la mort de Jane, cette poupée fut déposée aux côtés de sa dépouille.",
       "descriptionByStar": {
@@ -186,8 +195,17 @@
     },
     "2": {
       "name": "Coussin imprégné de mort",
-      "description": "[Marque de mort] Lorsqu'un ennemi marqué meurt, augmente l'ATQ de 5% et les dégâts critiques de 10% pendant 20 sec. Se cumule jusqu'à 8 fois.",
-      "value": {},
+      "description": "[Marque de mort] Lorsqu'un ennemi marqué meurt, augmente l'ATQ de 5% et les dégâts critiques de {0}% pendant 20 sec. Se cumule jusqu'à 8 fois.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Jane/ut/2.png",
       "story": "Jane enlace ce coussin pour dormir dans le cercueil. Il renferme les esprits endormis avec elle. \nCe sont eux qui confèrent en permanence à Jane la vacuité de la mort.",
       "descriptionByStar": {
@@ -201,8 +219,17 @@
     },
     "3": {
       "name": "Fleur du Grand-Duché oublié",
-      "description": "[Jour de ruine] Augmente les dégâts de 20%. Infliger des dégâts réduit la DEF M de la cible de 5% pendant 5 sec. Se cumule jusqu'à 10 fois.",
-      "value": {},
+      "description": "[Jour de ruine] Augmente les dégâts de {0}%. Infliger des dégâts réduit la DEF M de la cible de 5% pendant 5 sec. Se cumule jusqu'à 10 fois.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Jane/ut/3.png",
       "story": "Une fleur du grand-duché qui est désormais introuvable. On la connaît sous le nom de Fleur des Frontières connectant la vie et la mort et se nourrissant de destruction. C’est une fleur douloureusement belle. Si vous l’offrez à quelqu’un, vous pourrez partager les derniers instants de cette personne dans un rêve.",
       "descriptionByStar": {
@@ -216,8 +243,17 @@
     },
     "4": {
       "name": "Poupée de première amitié",
-      "description": "[Repose en paix] Dissipe tous les effets négatifs qui pèsent sur les alliés et réduit tous les DEG subis par le lanceur de 10 % pendant 10 sec.",
-      "value": {},
+      "description": "[Repose en paix] Dissipe tous les effets négatifs qui pèsent sur les alliés et réduit tous les DEG subis par le lanceur de {0} % pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Jane/ut/4.png",
       "story": "Une poupée qui ressemble à s'y méprendre à Rephy, le premier ami de Jane.\nJane s'arrêta net devant une boutique de poisons.\nEn voyant les yeux de Jane rivés sur la poupée de Rephy en édition limitée en vitrine, Epis décida de la lui acheter.\nElle ne pouvait être achetée qu'en coupons, et cela fendait le cœur d'Epis d'avoir à dépenser toutes ses économies. Cependant, le sourire de Jane lorsqu'elle reçut cette poupée qui serait sa toute première amie en valait très certainement la peine.",
       "descriptionByStar": {

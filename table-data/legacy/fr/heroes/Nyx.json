@@ -130,24 +130,50 @@
   },
   "uw": {
     "name": "Magnus Fille, la Clé dimensionnelle",
-    "description": "Modifie les attaques automatiques pour transpercer les ennemis situés en face en ligne droite et augmente les DEG de celles-ci de 30%. Augmente les DEG de 4% supplémentaires pour chaque charge de Lame.",
-    "value": {},
+    "description": "Modifie les attaques automatiques pour transpercer les ennemis situés en face en ligne droite et augmente les DEG de celles-ci de {0}%. Augmente les DEG de {1}% supplémentaires pour chaque charge de Lame.",
+    "value": {
+      "0": {
+        "0": "30",
+        "1": "36",
+        "2": "43",
+        "3": "52",
+        "4": "62",
+        "5": "75"
+      },
+      "1": {
+        "0": "4",
+        "1": "4.8",
+        "2": "5.7",
+        "3": "6.9",
+        "4": "8.3",
+        "5": "10"
+      }
+    },
     "thumbnail": "heroes/Nyx/uw.png",
     "story": "Là se trouve une corde universelle reliant différentes dimensions. Cette épée est la clé permettant de trancher ou renouer cette corde. Elle est confiée à l'arbitre dimensionnel ayant juré de protéger l'équilibre de l'univers. Pouvant être dupliquée à l'infini, elle ne confère toutefois son pouvoir qu'à l'Élu.",
     "descriptionByStar": {
       "0": "Modifie les attaques automatiques pour transpercer les ennemis situés en face en ligne droite et augmente les DEG de celles-ci de 30%. Augmente les DEG de 4% supplémentaires pour chaque charge de Lame.",
-      "1": "Modifie les attaques automatiques pour transpercer les ennemis situés en face en ligne droite et augmente les DEG de celles-ci de 36%. Augmente les DEG de 4,8% supplémentaires pour chaque charge de Lame.",
-      "2": "Modifie les attaques automatiques pour transpercer les ennemis situés en face en ligne droite et augmente les DEG de celles-ci de 43%. Augmente les DEG de 5,7% supplémentaires pour chaque charge de Lame.",
-      "3": "Modifie les attaques automatiques pour transpercer les ennemis situés en face en ligne droite et augmente les DEG de celles-ci de 52%. Augmente les DEG de 6,9% supplémentaires pour chaque charge de Lame.",
-      "4": "Modifie les attaques automatiques pour transpercer les ennemis situés en face en ligne droite et augmente les DEG de celles-ci de 62%. Augmente les DEG de 8,3% supplémentaires pour chaque charge de Lame.",
+      "1": "Modifie les attaques automatiques pour transpercer les ennemis situés en face en ligne droite et augmente les DEG de celles-ci de 36%. Augmente les DEG de 4.8% supplémentaires pour chaque charge de Lame.",
+      "2": "Modifie les attaques automatiques pour transpercer les ennemis situés en face en ligne droite et augmente les DEG de celles-ci de 43%. Augmente les DEG de 5.7% supplémentaires pour chaque charge de Lame.",
+      "3": "Modifie les attaques automatiques pour transpercer les ennemis situés en face en ligne droite et augmente les DEG de celles-ci de 52%. Augmente les DEG de 6.9% supplémentaires pour chaque charge de Lame.",
+      "4": "Modifie les attaques automatiques pour transpercer les ennemis situés en face en ligne droite et augmente les DEG de celles-ci de 62%. Augmente les DEG de 8.3% supplémentaires pour chaque charge de Lame.",
       "5": "Modifie les attaques automatiques pour transpercer les ennemis situés en face en ligne droite et augmente les DEG de celles-ci de 75%. Augmente les DEG de 10% supplémentaires pour chaque charge de Lame."
     }
   },
   "uts": {
     "1": {
       "name": "Cercle Magique Dimensionnel",
-      "description": "[Lame dimensionnelle] Augmente le nombre de cibles de 1 et réduit le Blocage P de la cible de 200 pendant 10 sec.",
-      "value": {},
+      "description": "[Lame dimensionnelle] Augmente le nombre de cibles de 1 et réduit le Blocage P de la cible de {0} pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Nyx/ut/1.png",
       "story": "Ce cercle magique permet de voyager entre les galaxies.\nLes voyages dimensionnels de Nyx commencent et se terminent ici. Les règles des voyages intergalactiques et la séquence d'ombre et de lumière requise variant selon les référentiels spatiotemporels, ceux qui ne maîtrisent pas les dimensions ne peuvent pas utiliser ce cercle. En revanche, grâce à lui, Nyx peut invoquer tout ce qu'il veut.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Épée pourfendeuse des flots",
-      "description": "[Fendoir dimensionnel] Augmente les DEG de 50%. Augmente les DEG Crit du lanceur de 10% pendant 8 sec pour chaque ennemi touché. Cet effet peut se cumuler jusqu'à 5 fois.",
-      "value": {},
+      "description": "[Fendoir dimensionnel] Augmente les DEG de 50%. Augmente les DEG Crit du lanceur de {0}% pendant 8 sec pour chaque ennemi touché. Cet effet peut se cumuler jusqu'à 5 fois.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Nyx/ut/2.png",
       "story": "Épée légendaire ayant traversé les époques.\nCette épée légendaire fut fabriquée à partir de la lumière du soleil et de l’âme en fusion des souffrants.\nElle est nécessaire au fendoir dimensionnel, car elle peut supporter la transition entre les dimensions et peut être affûtée à l’extrême.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Pierre dimensionnelle",
-      "description": "[Lames d'Infini] Réduit le coût en PM de 1 et augmente les DEG infligés de 20%.",
-      "value": {},
+      "description": "[Lames d'Infini] Réduit le coût en PM de 1 et augmente les DEG infligés de {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Nyx/ut/3.png",
       "story": "Un objet requis pour les mages qui traversent les dimensions. La Pierre Dimensionnelle est une pierre magique adorée par les voyageurs des dimensions et elle contient une énergie illimitée. Cependant, la puissance utilisable dépend des talents de l’individu : seuls les mages de haut-rang peuvent l’utiliser de manière efficace.",
       "descriptionByStar": {
@@ -191,17 +235,26 @@
     },
     "4": {
       "name": "Source galactique",
-      "description": "[Lame dissimulée] Augmente les DEG de 50%. Augmente les DEG Crit du lanceur de 1% pendant 5 sec chaque fois qu'il inflige des DEG à l'ennemi. L'augmentation des DEG Crit peut se cumuler jusqu'à 20 fois.",
-      "value": {},
+      "description": "[Lame dissimulée] Augmente les DEG de 50%. Augmente les DEG Crit du lanceur de {0}% pendant 5 sec chaque fois qu'il inflige des DEG à l'ennemi. L'augmentation des DEG Crit peut se cumuler jusqu'à 20 fois.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Nyx/ut/4.png",
       "story": "Un pendentif utilisé par Nyx pour enregistrer les coordonnées de nombreux sites magiques découverts lors de ses voyages spatiaux.\nLe pendentif est connecté aux galaxies de la dimension, et le bijou qui l'agrémente change de couleur en fonction de la couleur de la galaxie à laquelle il est actuellement connecté. En observant le pendentif, on peut constater que la galaxie se déplace progressivement.\nLe bijou du pendentif change de couleur suivant les coordonnées dimensionnelles.",
       "descriptionByStar": {
         "0": "[Lame dissimulée] Augmente les DEG de 50%. Augmente les DEG Crit du lanceur de 1% pendant 5 sec chaque fois qu'il inflige des DEG à l'ennemi. L'augmentation des DEG Crit peut se cumuler jusqu'à 20 fois.",
-        "1": "[Lame dissimulée] Augmente les DEG de 50%. Augmente les DEG Crit du lanceur de 1,2% pendant 5 sec chaque fois qu'il inflige des DEG à l'ennemi. L'augmentation des DEG Crit peut se cumuler jusqu'à 20 fois.",
-        "2": "[Lame dissimulée] Augmente les DEG de 50%. Augmente les DEG Crit du lanceur de 1,4% pendant 5 sec chaque fois qu'il inflige des DEG à l'ennemi. L'augmentation des DEG Crit peut se cumuler jusqu'à 20 fois.",
-        "3": "[Lame dissimulée] Augmente les DEG de 50%. Augmente les DEG Crit du lanceur de 1,7% pendant 5 sec chaque fois qu'il inflige des DEG à l'ennemi. L'augmentation des DEG Crit peut se cumuler jusqu'à 20 fois.",
-        "4": "[Lame dissimulée] Augmente les DEG de 50%. Augmente les DEG Crit du lanceur de 2,1% pendant 5 sec chaque fois qu'il inflige des DEG à l'ennemi. L'augmentation des DEG Crit peut se cumuler jusqu'à 20 fois.",
-        "5": "[Lame dissimulée] Augmente les DEG de 50%. Augmente les DEG Crit du lanceur de 2,5% pendant 5 sec chaque fois qu'il inflige des DEG à l'ennemi. L'augmentation des DEG Crit peut se cumuler jusqu'à 20 fois."
+        "1": "[Lame dissimulée] Augmente les DEG de 50%. Augmente les DEG Crit du lanceur de 1.2% pendant 5 sec chaque fois qu'il inflige des DEG à l'ennemi. L'augmentation des DEG Crit peut se cumuler jusqu'à 20 fois.",
+        "2": "[Lame dissimulée] Augmente les DEG de 50%. Augmente les DEG Crit du lanceur de 1.4% pendant 5 sec chaque fois qu'il inflige des DEG à l'ennemi. L'augmentation des DEG Crit peut se cumuler jusqu'à 20 fois.",
+        "3": "[Lame dissimulée] Augmente les DEG de 50%. Augmente les DEG Crit du lanceur de 1.7% pendant 5 sec chaque fois qu'il inflige des DEG à l'ennemi. L'augmentation des DEG Crit peut se cumuler jusqu'à 20 fois.",
+        "4": "[Lame dissimulée] Augmente les DEG de 50%. Augmente les DEG Crit du lanceur de 2.1% pendant 5 sec chaque fois qu'il inflige des DEG à l'ennemi. L'augmentation des DEG Crit peut se cumuler jusqu'à 20 fois.",
+        "5": "[Lame dissimulée] Augmente les DEG de 50%. Augmente les DEG Crit du lanceur de 2.5% pendant 5 sec chaque fois qu'il inflige des DEG à l'ennemi. L'augmentation des DEG Crit peut se cumuler jusqu'à 20 fois."
       }
     }
   },

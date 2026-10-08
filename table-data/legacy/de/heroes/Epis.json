@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Verführerin, Guillotine",
-    "description": "25%ige Chance beim Angriff Mag. Schaden in Höhe von 80% des ANG anzurichten und den eigenen ANG um 2% zu erhöhen. Dieser ANG-Boost kann sich bis zu 10 Mal kumulieren.",
-    "value": {},
+    "description": "25%ige Chance beim Angriff Mag. Schaden in Höhe von {0}% des ANG anzurichten und den eigenen ANG um {1}% zu erhöhen. Dieser ANG-Boost kann sich bis zu 10 Mal kumulieren.",
+    "value": {
+      "0": {
+        "0": "80",
+        "1": "96",
+        "2": "115",
+        "3": "138",
+        "4": "165",
+        "5": "200"
+      },
+      "1": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.9",
+        "3": "3.5",
+        "4": "4.2",
+        "5": "5"
+      }
+    },
     "thumbnail": "heroes/Epis/uw.png",
     "story": "Eine tödliche Sense, die zum Charakter ihres Führers, Epis, passt. Sie rafft die Seelen jener, die an sie herantreten, um ihre Schönheit zu bewundern. Diese Waffe, die aus Epis’ eigenem Körper erschaffen wurde, ist selbst wie ein Sukkubus. Sie verschafft ihren Opfern größte Befriedigung, ehe sie ihnen die Lebensenergie aussaugt. Es scheint so, als hätte Epis mit dieser Waffe versucht, ein wenig Güte zu zeigen.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Grüne Fee",
-      "description": "[Absorbierender Schlag] Erhöht den Schaden um 20%. Beim Töten eines Gegners steigt der ANG für 10 Sek. um 20%. Der ANG-Bonus ist bis zu 3-mal stapelbar.",
-      "value": {},
+      "description": "[Absorbierender Schlag] Erhöht den Schaden um {0}%. Beim Töten eines Gegners steigt der ANG für 10 Sek. um 20%. Der ANG-Bonus ist bis zu 3-mal stapelbar.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Epis/ut/1.png",
       "story": "Epis’ Lieblingsgetränk.\nDas berüchtigtste alkoholische Getränk in ganz Orvelia wird nur aus dem stärksten Wermut hergestellt und kann Halluzinationen hervorrufen. Künstler konsumieren es heimlich, um ihre Inspiration anzuregen oder ihre Schlaflosigkeit zu heilen. Für Epis ist es allerdings ein leichtes, süffiges Getränk.",
       "descriptionByStar": {
@@ -161,23 +187,41 @@
     },
     "2": {
       "name": "Sukkubus-Kiste",
-      "description": "[Alptraum] erhöht den Schaden um 50 % und betäubt den betroffenen Feind 2 Sek. lang.",
-      "value": {},
+      "description": "[Alptraum] erhöht den Schaden um 50 % und betäubt den betroffenen Feind {0} Sek. lang.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Epis/ut/2.png",
       "story": "Kiste, die den Schlafsand der Alptraumkönigin enthält. \nEine Kiste aus der Dämonenwelt, die Magie und Sand enthält, die jeden in Schlaf versetzen. \nWenn der Feind einschläft, wird er angegriffen und ihm wird durch einen Alptraum, der nicht entfernt werden kann, M. Schaden zugefügt.",
       "descriptionByStar": {
         "0": "[Alptraum] erhöht den Schaden um 50 % und betäubt den betroffenen Feind 2 Sek. lang.",
-        "1": "[Alptraum] erhöht den Schaden um 50 % und betäubt den betroffenen Feind 2,4 Sek. lang.",
-        "2": "[Alptraum] erhöht den Schaden um 50 % und betäubt den betroffenen Feind 2,9 Sek. lang.",
-        "3": "[Alptraum] erhöht den Schaden um 50 % und betäubt den betroffenen Feind 3,5 Sek. lang.",
-        "4": "[Alptraum] erhöht den Schaden um 50 % und betäubt den betroffenen Feind 4,2 Sek. lang.",
+        "1": "[Alptraum] erhöht den Schaden um 50 % und betäubt den betroffenen Feind 2.4 Sek. lang.",
+        "2": "[Alptraum] erhöht den Schaden um 50 % und betäubt den betroffenen Feind 2.9 Sek. lang.",
+        "3": "[Alptraum] erhöht den Schaden um 50 % und betäubt den betroffenen Feind 3.5 Sek. lang.",
+        "4": "[Alptraum] erhöht den Schaden um 50 % und betäubt den betroffenen Feind 4.2 Sek. lang.",
         "5": "[Alptraum] erhöht den Schaden um 50 % und betäubt den betroffenen Feind 5 Sek. lang."
       }
     },
     "3": {
       "name": "Schuh der Verführung",
-      "description": "Des Teufels Ball] verringert Manakosten um 1 und erhöht Schaden um 20 %.",
-      "value": {},
+      "description": "Des Teufels Ball] verringert Manakosten um 1 und erhöht Schaden um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Epis/ut/3.png",
       "story": "Epis‘ geschätzter Gegenstand. Als Epis zum ersten Mal in der Menschenwelt ankam, interessierte sie sich sehr für menschliche Kultur und besuchte einen Maskenball. Der Tanz eines Mädchens mit roten Absätzen zog ihren Blick auf sich und sie ging im Austausch gegen diese Schuhe einen Handel mit ihr ein. Epis trägt ihre verführerischen Absätze und kann sich nicht bremsen, wenn sie ihren Feinden mit ihrem Tanz Schmerzen zufügt.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Traumerinnerung",
-      "description": "[Ernte] erhöht den ANG-Boost um 50 %. Das Töten eines Feindes erhöht die ANG-GESCHW. um 20. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-      "value": {},
+      "description": "[Ernte] erhöht den ANG-Boost um 50 %. Das Töten eines Feindes erhöht die ANG-GESCHW. um {0}. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Epis/ut/4.png",
       "story": "Ein magischer Spiegel, der die Träume zeigt, die Epis absorbiert hat.\nDa Epis den Spiegel benutzt hat, um interessante Träume aufzubewahren, enthält er jede Menge Spuren von großen Geheimnissen.",
       "descriptionByStar": {

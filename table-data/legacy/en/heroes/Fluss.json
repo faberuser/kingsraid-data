@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Twinswords of Fury, Veralta",
-    "description": "Increases ATK by 12% and ATK Spd by 120 for 30 sec every 7 sec. This effect can stack up to 3 times and cannot be removed.",
-    "value": {},
+    "description": "Increases ATK by {0}% and ATK Spd by {1} for 30 sec every 7 sec. This effect can stack up to 3 times and cannot be removed.",
+    "value": {
+      "0": {
+        "0": "12",
+        "1": "14",
+        "2": "17",
+        "3": "20",
+        "4": "25",
+        "5": "30"
+      },
+      "1": {
+        "0": "120",
+        "1": "140",
+        "2": "170",
+        "3": "200",
+        "4": "250",
+        "5": "300"
+      }
+    },
     "thumbnail": "heroes/Fluss/uw.png",
     "story": "A set of enchanted weapons bestowed upon Fluss's grandfather, a knight hailing from the Dukedom of Gray, and passed down as family treasures. They are capable of gradually enhancing the physical abilities of their wielder, allowing him to break the boundaries of human limitations and gain supernatural power and speed. Because the effect is gradual, there is no sudden stress to the wielder's body. Each piece is called Blood and Rose, respectively. The names originated from the swirl of blood splatter and flower petals that follow whenever Fluss swings these twin swords. No other warrior has been able to utilize their potential as Fluss does.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Eye of the Storm Belt",
-      "description": "[Tempest Blade] Reduces Mana Cost by 1 and upon every use, increases DMG by 4%. This effect can be stacked up to max 10 times.",
-      "value": {},
+      "description": "[Tempest Blade] Reduces Mana Cost by 1 and upon every use, increases DMG by {0}%. This effect can be stacked up to max 10 times.",
+      "value": {
+        "0": {
+          "0": "4",
+          "1": "4.8",
+          "2": "5.8",
+          "3": "7",
+          "4": "8.4",
+          "5": "10"
+        }
+      },
       "thumbnail": "heroes/Fluss/ut/1.png",
       "story": "A belt that Fluss's father gave him when he was appointed Vice Grand Master of the knights.\nIt bears the Eye of the Storm spell that silences the wearer and its surroundings.\n- If you hear the sound of his sword, you'll soon see the petals flying before your eyes.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Tempting Perfume",
-      "description": "[Flashstep] Changes the Mark irremovable and increases ATK by 20% for 10 sec once the enemy with the mark is killed.",
-      "value": {},
+      "description": "[Flashstep] Changes the Mark irremovable and increases ATK by {0}% for 10 sec once the enemy with the mark is killed.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Fluss/ut/2.png",
       "story": "Perfume containing the first Vivienne roses of the year. Vivienne roses are beautiful but deadly.\nThose affected by the smell will hallucinate and just stare in awe as their opponent moves.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Immortal Rose",
-      "description": "[Bloody Petals] Increases DMG by 20% and dodges All M.DMG while in use.",
-      "value": {},
+      "description": "[Bloody Petals] Increases DMG by {0}% and dodges All M.DMG while in use.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Fluss/ut/3.png",
       "story": "A rose that will never wither, even if it's been picked. It's a flower that Fluss loves. It reminds Fluss about the duty of a knight, which is the basis for his strong will that allows him to be confident in battle.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Sealed Confidential Letter",
-      "description": "[Spell Cutter] Upon activation, increases own ATK Spd by 200 for 4 sec. The duration of the dodge effect increases by 1 sec.",
-      "value": {},
+      "description": "[Spell Cutter] Upon activation, increases own ATK Spd by {0} for 4 sec. The duration of the dodge effect increases by 1 sec.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Fluss/ut/4.png",
       "story": "A confidential letter that has a wolf seal of the Empire on it.\nFluss, who received the letter sealed by the Emperor, keeps it in safekeeping until it can be handed to the most esteemed princess of Orvel.",
       "descriptionByStar": {

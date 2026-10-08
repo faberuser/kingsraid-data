@@ -102,7 +102,7 @@
           "thumbnail": "heroes/Leo/perks/s3l.png"
         },
         "dark": {
-          "effect": "Augmente les DEG infligés de 200% et les DEG reçus par la cible ennemie de 20%. Augmente le coût en PM de 2.",
+          "effect": "Augmente les DEG infligés de 200% et les DEG reçus par la cible ennemie de toutes les sources de 20% pendant 10 sec. Augmente le coût en PM de 2.",
           "thumbnail": "heroes/Leo/perks/s3d.png"
         }
       },
@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Belisa, la Plume de Phénix",
-    "description": "Au début de chaque combat, augmente la DEF P et DEF M de 20% et la Vitesse d'ATQ de 200 points pendant 15 sec, et ajoute un effet supplémentaire à la première compétence utilisée.\nRune de fragilité : augmente le Crit de 500.\nRune de soin : dissipe les contrôles qui pesaient sur le lanceur avant le lancement la compétence.\nRune de silence : augmente la durée de Silence de 1 sec.",
-    "value": {},
+    "description": "Au début de chaque combat, augmente la DEF P et DEF M de {0}% et la Vitesse d'ATQ de {1} points pendant 15 sec, et ajoute un effet supplémentaire à la première compétence utilisée.\nRune de fragilité : augmente le Crit de 500.\nRune de soin : dissipe les contrôles qui pesaient sur le lanceur avant le lancement la compétence.\nRune de silence : augmente la durée de Silence de 1 sec.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      }
+    },
     "thumbnail": "heroes/Leo/uw.png",
     "story": "Le phénix est une créature céleste symbolisant la vie éternelle. Sa plume est aussi rare que la bête elle-même. On raconte qu'une plume basée sur celle du phénix est un puissant outil magique. Les runes gravées sur cette plume aident considérablement la Magie Runique.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Encyclopédie littéraire antique, volume I",
-      "description": "[Rune de fragilité] Devient inamovible et augmente les DEG de 20 %.",
-      "value": {},
+      "description": "[Rune de fragilité] Devient inamovible et augmente les DEG de {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Leo/ut/1.png",
       "story": "Cette encyclopédie, la préférée de Leo, traite de l'interprétation de textes anciens.\nElle faisait partie d'une série de 3 volumes, mais les deux autres ont été brûlés, ne laissant que le [Vol. I - Lettres de malédiction et de soin]. Leo se dit souvent que les secrets des textes anciens étaient peut-être révélés dans les deux autres volumes. Quoi qu'il en soit, ce livre est sous le coup d'un sort mystique qui rend sa lecture impossible, à moins que le livre lui-même ne décide du contraire.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Encre de vitalité",
-      "description": "[Rune de soin] Augmente les soins de 50 % et la résistance Crit P des alliés de 100 pendant 10 sec.",
-      "value": {},
+      "description": "[Rune de soin] Augmente les soins de 50 % et la résistance Crit P des alliés de {0} pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Leo/ut/2.png",
       "story": "Encre produite par extraction des jeunes pousses de l’Arbre Monde. Seules 10 gouttes peuvent ainsi être récoltées par an.\nLes sorts écrits avec cette encre assurent une vitalité hors du commun.\nComme elle est précieuse et difficile à obtenir, Leo ne s’en sert que pour les occasions spéciales.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Parchemin de mémoire",
-      "description": "[Rune de Silence] Les DEG sur la cible sont augmentés de 15% pendant 10 sec et sa Résistance aux Contrôles est réduite de 120.",
-      "value": {},
+      "description": "[Rune de Silence] Les DEG sur la cible sont augmentés de 15% pendant 10 sec et sa Résistance aux Contrôles est réduite de {0}.",
+      "value": {
+        "0": {
+          "0": "120",
+          "1": "140",
+          "2": "170",
+          "3": "210",
+          "4": "250",
+          "5": "300"
+        }
+      },
       "thumbnail": "heroes/Leo/ut/3.png",
       "story": "Un ancien grimoire de mage, rédigé par des mages respectés et contenant les principes de la magie de la vie et de la création. Il est rédigé dans une langue inconnue et une seule partie a pu être déchiffrée. Si on découvrait la clé de cette langue ancienne, il serait possible d’utiliser des sorts sans payer le moindre coût.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Loupe dorée",
-      "description": "[Rune de protection] Augmente le nombre de cibles de 1. Augmente la Vitesse d'ATQ des cibles de 200 points pendant la durée de la compétence.",
-      "value": {},
+      "description": "[Rune de protection] Augmente le nombre de cibles de 1. Augmente la Vitesse d'ATQ des cibles de {0} points pendant la durée de la compétence.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Leo/ut/4.png",
       "story": "Une loupe en or transmise aux historiens.\nElle constitue un gage de reconnaissance possédé par les spécialistes de l'histoire d'Orvel les plus fidèles et objectifs.\nLa Loupe dorée est sans conteste la plus haute distinction pour un historien.",
       "descriptionByStar": {

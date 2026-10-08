@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Aurelian Whisper, Goldbreeze",
-    "description": "Skill hits increase M.DMG that the target takes by 10% for 10 sec. Every 8 sec, heals the ally with the lowest HP by 200% of own ATK and dispels all negative effects from the ally.",
-    "value": {},
+    "description": "Skill hits increase M.DMG that the target takes by {0}% for 10 sec. Every 8 sec, heals the ally with the lowest HP by {1}% of own ATK and dispels all negative effects from the ally.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      }
+    },
     "thumbnail": "heroes/Cassandra/uw.png",
     "story": "Cassandra works double as an arms dealer. One day, a stolen item came into her possession which immediately caught her attention. It was a beautiful fan adorned with gold decorations and precious gems. According to the rumors, every single lady who possessed this fan soon fell into great misfortune. It has been circulating the market as a cursed item. As soon as she bought it, Cassandra began investigating its origin. As it turned out, this fan, named Goldbreeze, had been created to serve as a concealed weapon. It shouldn't be too hard to guess as to what kind of misfortune the unaware owners of this fan might have suffered.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Feather Decoration of Crimson Bird",
-      "description": "[Softly~] Increases Heal Rate by 50% and the duration of Silence by 0.8 sec.",
-      "value": {},
+      "description": "[Softly~] Increases Heal Rate by 50% and the duration of Silence by {0} sec.",
+      "value": {
+        "0": {
+          "0": "0.8",
+          "1": "1",
+          "2": "1.2",
+          "3": "1.4",
+          "4": "1.7",
+          "5": "2"
+        }
+      },
       "thumbnail": "heroes/Cassandra/ut/1.png",
       "story": "A decoration made with a feather of the Crimson Bird, a beautiful yet dangerous evil beast.\nThe feather usually exudes dark energy, but it illuminates the surrounding area with a red glow when exposed to light. The color is too splendid and brilliant for feeble minds to escape the hallucination it creates.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Fancy Pendant",
-      "description": "[Fiercely!] Increases duration by 5 sec and additionally increases Crit DMG by 20%.",
-      "value": {},
+      "description": "[Fiercely!] Increases duration by 5 sec and additionally increases Crit DMG by {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Cassandra/ut/2.png",
       "story": "A luxurious accessory made by the greatest jeweler in the continent.\nA limited edition ornament created by jeweler Larik. Any person in high society on the Orbis Continent would love to have one. \nHis work is said to be the epitome of art, and it is said to heal and grant courage. \nThere are only 3 of the limited edition Fancy Ornaments, and one of them obviously belongs to the master of the Gold Bar.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Golden Fragrance",
-      "description": "[Tempting Wave] Skill cooldown is reduced by 30% and Charm duration is increased by 1 sec.",
-      "value": {},
+      "description": "[Tempting Wave] Skill cooldown is reduced by 30% and Charm duration is increased by {0} sec.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.5",
+          "2": "2",
+          "3": "2.5",
+          "4": "3",
+          "5": "3.5"
+        }
+      },
       "thumbnail": "heroes/Cassandra/ut/3.png",
       "story": "A legendary gold flame necklace pendant. The legendary Gold King made this gold flame necklace pendant to get the attention of the Goddess of Love and Beauty. \nIts gold scent creates a Tempting Wave that makes anyone join their side and be loved by everyone.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Reed Diffuser of Seduction",
-      "description": "[Gentle Touch] DEF boost becomes irremovable. All allies have their All Crit Resistance increased by 100 for 10 sec.",
-      "value": {},
+      "description": "[Gentle Touch] DEF boost becomes irremovable. All allies have their All Crit Resistance increased by {0} for 10 sec.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Cassandra/ut/4.png",
       "story": "A reed diffuser that Cassandra bought at a black market merchant from the east.\nIt has a strong scent of azalea.\nThe liquid inside contains a special substance that stirs people's minds, and those who smelt it for an extended period time would confess their deepest secrets.\nUnless there is a dire need of information, Cassandra does not use the diffuser because it is nearly impossible to buy it again.",
       "descriptionByStar": {

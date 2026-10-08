@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Scarlet Ruler, Dominicia",
-    "description": "If HP is over 50%, ATK is increased by 20%. If HP is under 50%, takes 10% reduced DMG.",
-    "value": {},
+    "description": "If HP is over 50%, ATK is increased by {0}%. If HP is under 50%, takes {1}% reduced DMG.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
     "thumbnail": "heroes/Lewisia/uw.png",
     "story": "A staff of blood that has been passed down in the family of the Vampire Lord through the generations. Its crimson color symbolizes the authority, insight, and the absolute power of the Vampire Lord. Deep in the underground of the Galia Plains is the holy land of the Vampires. This legendary staff lies there, ready to appear at the call of the master worthy of it, wherever that may be.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Old Silver Cup",
-      "description": "[Blood Orb] Increases DMG by 50% and leaves 5 stacks of Blood Curse on the target.",
-      "value": {},
+      "description": "[Blood Orb] Increases DMG by 50% and leaves {0} stacks of Blood Curse on the target.",
+      "value": {
+        "0": {
+          "0": "5",
+          "1": "6",
+          "2": "7",
+          "3": "8",
+          "4": "9",
+          "5": "10"
+        }
+      },
       "thumbnail": "heroes/Lewisia/ut/1.png",
       "story": "An old silver cup of the first Vampire Queen.\nQueen used this cup to hold the blood of the one she cherished the most. It is a symbol of her immense sorrow and lunatic pleasure. It is a core item for holy rituals of Vampires, and the ones that go through the ritual of the cup are granted more beautiful and darkly colored Blood Orbs.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Spell of Bloody Mist",
-      "description": "[Blood Zone] Increases DMG by 20% and the effect duration by 2 sec.",
-      "value": {},
+      "description": "[Blood Zone] Increases DMG by {0}% and the effect duration by 2 sec.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Lewisia/ut/2.png",
       "story": "Magic tool of the successor of blood.\nThe spells of the pure Vampire Lord's family have been passed down through generations. \nThe successor of Lewisia is Vampire Sir Lusben, and the Spell of Bloody Mist is a gift from him. \nLewisia hates anything that has to do with being a successor, but she likes how the Blood Zone reduces her fatigue, so she enjoys using it.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Blood of the Ancients",
-      "description": "[Blood Banquet] Increases DMG by 20%, and recovers 400 Mana upon a Crit Hit.",
-      "value": {},
+      "description": "[Blood Banquet] Increases DMG by {0}%, and recovers 400 Mana upon a Crit Hit.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Lewisia/ut/3.png",
       "story": "Ancient vampire queen's blood. The more pure-blooded a vampire is, the stronger their mana blood. The greatest of them all is the ancient vampire queen's blood, and vampires who drink her blood will have unlimited life and mana. It is a highly addictive type of blood, so be careful when using it.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Red Ring",
-      "description": "[Blood Dominator] Increases DMG of Blood Curse by 50%. Upon attacking enemies inflicted with 60 or more stacks of Blood Curse, increases own ATK by 1% for 10 sec. ATK boost can be stacked up to max 10 times.",
-      "value": {},
+      "description": "[Blood Dominator] Increases DMG of Blood Curse by 50%. Upon attacking enemies inflicted with 60 or more stacks of Blood Curse, increases own ATK by 1% for 10 sec. ATK boost can be stacked up to max {0} times.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "20",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Lewisia/ut/4.png",
       "story": "A ring that the underworld Vampire society in Galluah Plains presented to the Scarlet Ruler in respect.\nSince then the Vampires show their respect by kissing on the ring.\nWhen Lewisia was born, the previous Ruler passed the ring to her on the spot, proclaiming the birth of the new Ruler.\nLittle did Lewisia know that the proclamation was actually the beginning of the ordeal she had to go through to become a new Ruler.",
       "descriptionByStar": {

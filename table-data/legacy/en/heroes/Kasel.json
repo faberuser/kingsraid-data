@@ -145,11 +145,11 @@
     "story": "A legendary Holy Sword given to the world by Lua. This legendary artifact materialized 100 years ago when the Demons invaded the Orbis Continent through the Dimensional Gate. According to the legend, the Hero King Kyle used this sword to pierce the heart of the Dark Lord Angmund and brought an end to the war. However, the two simply vanished, and only Aea remained.",
     "descriptionByStar": {
       "0": "Each attack has a 35% chance of dealing P.DMG equal to 160% of ATK. This effect has a Cooldown of 0.5 sec.",
-      "1": "Each attack has a 35% chance of dealing P.DMG equal to 192% of ATK.",
-      "2": "Each attack has a 35% chance of dealing P.DMG equal to 230% of ATK.",
-      "3": "Each attack has a 35% chance of dealing P.DMG equal to 276% of ATK.",
-      "4": "Each attack has a 35% chance of dealing P.DMG equal to 331% of ATK.",
-      "5": "Each attack has a 35% chance of dealing P.DMG equal to 400% of ATK."
+      "1": "Each attack has a 35% chance of dealing P.DMG equal to 192% of ATK. This effect has a Cooldown of 0.5 sec.",
+      "2": "Each attack has a 35% chance of dealing P.DMG equal to 230% of ATK. This effect has a Cooldown of 0.5 sec.",
+      "3": "Each attack has a 35% chance of dealing P.DMG equal to 276% of ATK. This effect has a Cooldown of 0.5 sec.",
+      "4": "Each attack has a 35% chance of dealing P.DMG equal to 331% of ATK. This effect has a Cooldown of 0.5 sec.",
+      "5": "Each attack has a 35% chance of dealing P.DMG equal to 400% of ATK. This effect has a Cooldown of 0.5 sec."
     }
   },
   "uts": {
@@ -170,17 +170,26 @@
       "story": "The crown of Kyle, the king of Orvelia and the Hero of Holy Sword.\nWorn by King Kyle during his expedition to kill Dark Lord Angmund 100 years ago, this golden grown contains the will of the Goddess of Light. After Angmund was defeated, the Crown of Light, along with the Holy Sword, Aea, was left in the place where the king disappeared.",
       "descriptionByStar": {
         "0": "[Judgment Blade] Reduces Cooldown by 30%, and increases DMG by 4% upon every use. This effect can be stacked up to max 10 times and is irremovable.",
-        "1": "[Judgment Blade] Reduces Cooldown by 30% and increases DMG by 4.8% upon every use. This effect can be stacked up to max 10 times.",
-        "2": "[Judgment Blade] Reduces Cooldown by 30% and increases DMG by 5.8% upon every use. This effect can be stacked up to max 10 times.",
-        "3": "[Judgment Blade] Reduces Cooldown by 30% and increases DMG by 7% upon every use. This effect can be stacked up to max 10 times.",
-        "4": "[Judgment Blade] Reduces Cooldown by 30% and increases DMG by 8.4% upon every use. This effect can be stacked up to max 10 times.",
-        "5": "[Judgment Blade] Reduces Cooldown by 30% and increases DMG by 10% upon every use. This effect can be stacked up to max 10 times."
+        "1": "[Judgment Blade] Reduces Cooldown by 30%, and increases DMG by 4.8% upon every use. This effect can be stacked up to max 10 times and is irremovable.",
+        "2": "[Judgment Blade] Reduces Cooldown by 30%, and increases DMG by 5.8% upon every use. This effect can be stacked up to max 10 times and is irremovable.",
+        "3": "[Judgment Blade] Reduces Cooldown by 30%, and increases DMG by 7% upon every use. This effect can be stacked up to max 10 times and is irremovable.",
+        "4": "[Judgment Blade] Reduces Cooldown by 30%, and increases DMG by 8.4% upon every use. This effect can be stacked up to max 10 times and is irremovable.",
+        "5": "[Judgment Blade] Reduces Cooldown by 30%, and increases DMG by 10% upon every use. This effect can be stacked up to max 10 times and is irremovable."
       }
     },
     "2": {
       "name": "Emperor's Gauntlet",
-      "description": "[Valiant Dash] Increases DMG by 20% and reduces Cooldown by 10% upon a Crit Hit.",
-      "value": {},
+      "description": "[Valiant Dash] Increases DMG by {0}% and reduces Cooldown by 10% upon a Crit Hit.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Kasel/ut/2.png",
       "story": "Gauntlet imbued with the blessing of Lua, the Goddess of Light.\nGauntlet passed down to the kings of the Orbis Continent. Contains the encouragement of the goddess that allows you to use Valiant Dash towards enemies without any fear.",
       "descriptionByStar": {
@@ -209,11 +218,11 @@
       "story": "A rune that proves that one is an agent of Lua, the Goddess of Light. The Rune of Proxy is an artifact of the Church of Lua, and it's given to the knight who wields the Aea, the Sword of Light. The Rune of Proxy pushes enemies with the power of light and increases ATK and morale.",
       "descriptionByStar": {
         "0": "[Proxy of God] Increases Dodge Chance by an additional 250 and ATK Spd by an additional 200 for the duration of Skill.",
-        "1": "[Proxy of God] Increases Dodge Chance by an additional 250 and ATK Spd by an additional 120 for the duration of Skill.",
-        "2": "[Proxy of God] Increases Dodge Chance by an additional 250 and ATK Spd by an additional 140 for the duration of Skill.",
-        "3": "[Proxy of God] Increases Dodge Chance by an additional 250 and ATK Spd by an additional 170 for the duration of Skill.",
-        "4": "[Proxy of God] Increases Dodge Chance by an additional 250 and ATK Spd by an additional 210 for the duration of Skill.",
-        "5": "[Proxy of God] Increases Dodge Chance by an additional 250 and ATK Spd by an additional 250 for the duration of Skill."
+        "1": "[Proxy of God] Increases Dodge Chance by an additional 250 and ATK Spd by an additional 240 for the duration of Skill.",
+        "2": "[Proxy of God] Increases Dodge Chance by an additional 250 and ATK Spd by an additional 290 for the duration of Skill.",
+        "3": "[Proxy of God] Increases Dodge Chance by an additional 250 and ATK Spd by an additional 350 for the duration of Skill.",
+        "4": "[Proxy of God] Increases Dodge Chance by an additional 250 and ATK Spd by an additional 420 for the duration of Skill.",
+        "5": "[Proxy of God] Increases Dodge Chance by an additional 250 and ATK Spd by an additional 500 for the duration of Skill."
       }
     },
     "4": {

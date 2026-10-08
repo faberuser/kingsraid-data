@@ -130,7 +130,7 @@
   },
   "uw": {
     "name": "Verfluchte Klauen, Baroro",
-    "description": "Bei einem Krit. Treffer wird 10 Sek. lang der erhaltene Körp. Schaden um {0} % erhöht und der Massenkontroll-Widerstand um {1} verringert. Wenn es sich bei dem Ziel um ein Bossmonster handelt, erhöht sich der erhaltene Boss-Schaden um {2} %. Der erhaltene Boss-Schaden-Effekt kann bis zu 10 mal gestapelt werden.",
+    "description": "Bei einem Krit. Treffer erhöht sich der vom Ziel erhaltene Körp. Schaden für 10 Sek. um {0} % und sein Massenkontroll-Widerstand sinkt um {1}. Ist das Ziel ein Boss, erhöht sich Nailas Schaden gegen Bosse um {2} %. Dieser Schaden-Boost gegen Bosse kann bis zu 10-mal gestapelt werden.",
     "value": {
       "0": {
         "0": "20",
@@ -160,12 +160,12 @@
     "thumbnail": "heroes/Naila/uw.png",
     "story": "Ein verfluchtes Paar Kampfhandschuhe aus den Klauen des Wahnsinnigen Dämons Baroro, der während des Kriegs besiegt worden war. Die Handschuhe sind um ein Vielfaches größer als menschliche Hände und verbinden sich direkt mit dem Nervensystem ihres Trägers, wodurch dieser sie ohne Anstrengung führen kann. Sie verfügen zwar über eine immense Kraft, doch korrumpieren auch den Verstand ihres Trägers und fressen dessen Seele langsam auf. Nur ein Krieger mit wahrhaft edlen Absichten, einem starken Willen und einem unsterblichen Geist vermag es, mit diesen verfluchten Waffen umzugehen. Sie sind die perfekten Waffen für einen Krieger mit starkem Willen, der selbst in der Dunkelheit des Abgrunds zu strahlen vermag.",
     "descriptionByStar": {
-      "0": "Bei einem Krit. Treffer wird 10 Sek. lang der erhaltene Körp. Schaden um 20 % erhöht und der Massenkontroll-Widerstand um 200 verringert. Wenn es sich bei dem Ziel um ein Bossmonster handelt, erhöht sich der erhaltene Boss-Schaden um 2 %. Der erhaltene Boss-Schaden-Effekt kann bis zu 10 mal gestapelt werden.",
-      "1": "Bei einem Krit. Treffer wird dem Feind 10 Sek. lang konstant Schaden (180 %) zugefügt. Der Feind erleidet 24 % erhöhten Körp. Schaden während der Wirkungsdauer.",
-      "2": "Bei einem Krit. Treffer wird dem Feind 10 Sek. lang konstant Schaden (216 %) zugefügt. Der Feind erleidet 28 % erhöhten Körp. Schaden während der Wirkungsdauer.",
-      "3": "Bei einem Krit. Treffer wird dem Feind 10 Sek. lang konstant Schaden (258 %) zugefügt. Der Feind erleidet 34 % erhöhten Körp. Schaden während der Wirkungsdauer.",
-      "4": "Bei einem Krit. Treffer wird dem Feind 10 Sek. lang konstant Schaden (310 %) zugefügt. Der Feind erleidet 41 % erhöhten Körp. Schaden während der Wirkungsdauer.",
-      "5": "Bei einem Krit. Treffer wird dem Feind 10 Sek. lang konstant Schaden (500 %) zugefügt. Der Feind erleidet 50 % erhöhten Körp. Schaden während der Wirkungsdauer."
+      "0": "Bei einem Krit. Treffer erhöht sich der vom Ziel erhaltene Körp. Schaden für 10 Sek. um 20 % und sein Massenkontroll-Widerstand sinkt um 200. Ist das Ziel ein Boss, erhöht sich Nailas Schaden gegen Bosse um 2 %. Dieser Schaden-Boost gegen Bosse kann bis zu 10-mal gestapelt werden.",
+      "1": "Bei einem Krit. Treffer erhöht sich der vom Ziel erhaltene Körp. Schaden für 10 Sek. um 24 % und sein Massenkontroll-Widerstand sinkt um 240. Ist das Ziel ein Boss, erhöht sich Nailas Schaden gegen Bosse um 2.4 %. Dieser Schaden-Boost gegen Bosse kann bis zu 10-mal gestapelt werden.",
+      "2": "Bei einem Krit. Treffer erhöht sich der vom Ziel erhaltene Körp. Schaden für 10 Sek. um 29 % und sein Massenkontroll-Widerstand sinkt um 290. Ist das Ziel ein Boss, erhöht sich Nailas Schaden gegen Bosse um 2.9 %. Dieser Schaden-Boost gegen Bosse kann bis zu 10-mal gestapelt werden.",
+      "3": "Bei einem Krit. Treffer erhöht sich der vom Ziel erhaltene Körp. Schaden für 10 Sek. um 35 % und sein Massenkontroll-Widerstand sinkt um 350. Ist das Ziel ein Boss, erhöht sich Nailas Schaden gegen Bosse um 3.5 %. Dieser Schaden-Boost gegen Bosse kann bis zu 10-mal gestapelt werden.",
+      "4": "Bei einem Krit. Treffer erhöht sich der vom Ziel erhaltene Körp. Schaden für 10 Sek. um 42 % und sein Massenkontroll-Widerstand sinkt um 420. Ist das Ziel ein Boss, erhöht sich Nailas Schaden gegen Bosse um 4.2 %. Dieser Schaden-Boost gegen Bosse kann bis zu 10-mal gestapelt werden.",
+      "5": "Bei einem Krit. Treffer erhöht sich der vom Ziel erhaltene Körp. Schaden für 10 Sek. um 50 % und sein Massenkontroll-Widerstand sinkt um 500. Ist das Ziel ein Boss, erhöht sich Nailas Schaden gegen Bosse um 5 %. Dieser Schaden-Boost gegen Bosse kann bis zu 10-mal gestapelt werden."
     }
   },
   "uts": {
@@ -186,11 +186,11 @@
       "story": "In diesem Bernstein ist ein riesiger Tornado eingeschlossen. Es handelt sich dabei um einen Schatz der Harpyien.\nEiner Legende nach ist es eine Windböe, die von der göttlichen Bestie Tyrfas vor Wut heraufbeschworen wurde, allerdings kam sie mit dem Saft des heiligen Baumes in Berührung und wurde so in Bernstein verwandelt. Mit der Zeit teilte sich der Bernstein in mehrere Fragmente auf, aber die Windböe im Inneren flaute nie ab. Die Harpyien halten sie für himmlisch und nennen sie die Seele des Windes.",
       "descriptionByStar": {
         "0": "[Heftige Winde] Erhöht den Schaden um 50%. Kritische Treffer verringern Mana um 200.",
-        "1": "[Wilder Wind] erhöht den Schaden um 50 % und verringert Körp. Ausweichen des Ziels 10 Sek. lang um 240.",
-        "2": "[Wilder Wind] erhöht den Schaden um 50 % und verringert Körp. Ausweichen des Ziels 10 Sek. lang um 290.",
-        "3": "[Wilder Wind] erhöht den Schaden um 50 % und verringert Körp. Ausweichen des Ziels 10 Sek. lang um 350.",
-        "4": "[Wilder Wind] erhöht den Schaden um 50 % und verringert Körp. Ausweichen des Ziels 10 Sek. lang um 420.",
-        "5": "[Wilder Wind] erhöht den Schaden um 50 % und verringert Körp. Ausweichen des Ziels 10 Sek. lang um 500."
+        "1": "[Heftige Winde] Erhöht den Schaden um 50%. Kritische Treffer verringern Mana um 240.",
+        "2": "[Heftige Winde] Erhöht den Schaden um 50%. Kritische Treffer verringern Mana um 290.",
+        "3": "[Heftige Winde] Erhöht den Schaden um 50%. Kritische Treffer verringern Mana um 350.",
+        "4": "[Heftige Winde] Erhöht den Schaden um 50%. Kritische Treffer verringern Mana um 420.",
+        "5": "[Heftige Winde] Erhöht den Schaden um 50%. Kritische Treffer verringern Mana um 500."
       }
     },
     "2": {
@@ -210,11 +210,11 @@
       "story": "Der Schal, den der tote Himmullis trug. Naila trägt ihn immer bei sich.\nHimmullis predigte Naila immer wieder, dass sie stolz darauf sein solle, eine Harpyie zu sein. \nDer Schal enthält die Trauer über den Verlust von Familie, was Naila wütend macht.",
       "descriptionByStar": {
         "0": "[Wind lesen] kann keine Effekte mehr entfernen und heilt bei Aktivierung die eigenen TP um 10 % der max. TP.",
-        "1": "[Wind lesen] erhöht den ANG-Boost um 50 % und Mag. Ausweichen um 120.",
-        "2": "[Wind lesen] erhöht den ANG-Boost um 50 % und Mag. Ausweichen um 140.",
-        "3": "[Wind lesen] erhöht den ANG-Boost um 50 % und Mag. Ausweichen um 170.",
-        "4": "[Wind lesen] erhöht den ANG-Boost um 50 % und Mag. Ausweichen um 210.",
-        "5": "[Wind lesen] erhöht den ANG-Boost um 50 % und Mag. Ausweichen um 250."
+        "1": "[Wind lesen] kann keine Effekte mehr entfernen und heilt bei Aktivierung die eigenen TP um 12 % der max. TP.",
+        "2": "[Wind lesen] kann keine Effekte mehr entfernen und heilt bei Aktivierung die eigenen TP um 14 % der max. TP.",
+        "3": "[Wind lesen] kann keine Effekte mehr entfernen und heilt bei Aktivierung die eigenen TP um 17 % der max. TP.",
+        "4": "[Wind lesen] kann keine Effekte mehr entfernen und heilt bei Aktivierung die eigenen TP um 21 % der max. TP.",
+        "5": "[Wind lesen] kann keine Effekte mehr entfernen und heilt bei Aktivierung die eigenen TP um 25 % der max. TP."
       }
     },
     "3": {
@@ -234,11 +234,11 @@
       "story": "Ein Ritualopfer uralter Religionsangehöriger, die den Wind anbeteten. Es ist ein unter den Harpyien ein wertvoller Schatz und es heißt, dass es dem mächtigsten Harpyienkrieger verliehen wird. In dem Moment, in dem man die Maske trägt, kann man den Wind nutzen. Außerdem verleiht es die Fähigkeit, mit Lichtgeschwindigkeit anzugreifen.",
       "descriptionByStar": {
         "0": "[Sturzflug] verringert die Manakosten um 1 und erhöht den Schaden um 20 %.",
-        "1": "[Sturzflug] verringert Skill-Cooldown um 30 % und Ziel erleidet 10 Sek. lang 12 % mehr Körp. Schaden.",
-        "2": "[Sturzflug] verringert Skill-Cooldown um 30 % und Ziel erleidet 10 Sek. lang 14 % mehr Körp. Schaden.",
-        "3": "[Sturzflug] verringert Skill-Cooldown um 30 % und Ziel erleidet 10 Sek. lang 17 % mehr Körp. Schaden.",
-        "4": "[Sturzflug] verringert Skill-Cooldown um 30 % und Ziel erleidet 10 Sek. lang 21 % mehr Körp. Schaden.",
-        "5": "[Sturzflug] verringert Skill-Cooldown um 30 % und Ziel erleidet 10 Sek. lang 25 % mehr Körp. Schaden."
+        "1": "[Sturzflug] verringert die Manakosten um 1 und erhöht den Schaden um 24 %.",
+        "2": "[Sturzflug] verringert die Manakosten um 1 und erhöht den Schaden um 29 %.",
+        "3": "[Sturzflug] verringert die Manakosten um 1 und erhöht den Schaden um 35 %.",
+        "4": "[Sturzflug] verringert die Manakosten um 1 und erhöht den Schaden um 42 %.",
+        "5": "[Sturzflug] verringert die Manakosten um 1 und erhöht den Schaden um 50 %."
       }
     },
     "4": {
@@ -258,11 +258,11 @@
       "story": "Eine Schleife, der die Anmut des Wind-Elementars innewohnt.\nSelene gab Naila diese Schleife, die so schnell sein wollte wie der Wind.\nSie wurde mit einem Zauber von Notos, dem Wind-Elementar, belegt und gewährt ihrem Träger Tempo und Stärke, wenn er einen Feind trifft.",
       "descriptionByStar": {
         "0": "[Tornadoschlag] Erhöht die Chance auf zusätzlichen Schaden um 10%. Bei Aktivierung im Gildenkrieg wird zusätzlicher physischer Schaden in Höhe von 10% der maximalen LP des Ziels verursacht.",
-        "1": "[Tornadoschlag] verringert für 10 Sek. Körp. Blockchance des Ziels um 500 und Körp. Ausweichen um 240.",
-        "2": "[Tornadoschlag] verringert für 10 Sek. Körp. Blockchance des Ziels um 500 und Körp. Ausweichen um 290.",
-        "3": "[Tornadoschlag] verringert für 10 Sek. Körp. Blockchance des Ziels um 500 und Körp. Ausweichen um 350.",
-        "4": "[Tornadoschlag] verringert für 10 Sek. Körp. Blockchance des Ziels um 500 und Körp. Ausweichen um 420.",
-        "5": "[Tornadoschlag] verringert für 10 Sek. Körp. Blockchance des Ziels um 500 und Körp. Ausweichen um 500."
+        "1": "[Tornadoschlag] Erhöht die Chance auf zusätzlichen Schaden um 10%. Bei Aktivierung im Gildenkrieg wird zusätzlicher physischer Schaden in Höhe von 12% der maximalen LP des Ziels verursacht.",
+        "2": "[Tornadoschlag] Erhöht die Chance auf zusätzlichen Schaden um 10%. Bei Aktivierung im Gildenkrieg wird zusätzlicher physischer Schaden in Höhe von 14% der maximalen LP des Ziels verursacht.",
+        "3": "[Tornadoschlag] Erhöht die Chance auf zusätzlichen Schaden um 10%. Bei Aktivierung im Gildenkrieg wird zusätzlicher physischer Schaden in Höhe von 17% der maximalen LP des Ziels verursacht.",
+        "4": "[Tornadoschlag] Erhöht die Chance auf zusätzlichen Schaden um 10%. Bei Aktivierung im Gildenkrieg wird zusätzlicher physischer Schaden in Höhe von 21% der maximalen LP des Ziels verursacht.",
+        "5": "[Tornadoschlag] Erhöht die Chance auf zusätzlichen Schaden um 10%. Bei Aktivierung im Gildenkrieg wird zusätzlicher physischer Schaden in Höhe von 25% der maximalen LP des Ziels verursacht."
       }
     }
   },

@@ -130,39 +130,66 @@
   },
   "uw": {
     "name": "Biestpranke, Mastra",
-    "description": "Bei einem Krit. Treffer wird der Krit. Schaden für 5 Sek. um 20 % erhöht. Dieser Effekt kann bis zu 7-mal gestapelt werden.",
-    "value": {},
+    "description": "Bei einem Krit. Treffer wird der Krit. Schaden für 5 Sek. um {0} % erhöht. Dieser Effekt kann bis zu 7-mal gestapelt werden.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      }
+    },
     "thumbnail": "heroes/Gladi/uw.png",
     "story": "Ein Paar Kampfhandschuhe, die speziell für Gladi angefertigt wurden. Sie sind der Beweis seines Sieges in der Meisterschaft der Orvel-Arena. Angeblich wurden sie aus dem legendären Paar Handschuhe eines Mannes geschmiedet, der vor hunderten von Jahren als Kriegsgott bekannt war. Diese Handschuhe verstärken die Macht ihres Trägers und wurden für das Zermalmen der Feinde spezialisiert. Die körperliche Anstrengung ihrer Verwendung ist allerdings brutal und keine normale Person vermag sie zu führen. Ist ihr Träger muss äußerst beweglich und körperlich dazu in der Lage sein, dem Rückstoß der Schläge zu widerstehen, sonst ist ihre Verwendung glatt selbstmörderisch. Gladis natürliche Kraft und Beweglichkeit allerdings erlauben es ihm, sie nach Belieben einzusetzen.",
     "descriptionByStar": {
       "0": "Bei einem Krit. Treffer wird der Krit. Schaden für 5 Sek. um 20 % erhöht. Dieser Effekt kann bis zu 7-mal gestapelt werden.",
-      "1": "Bei einem Krit. Treffer wird der Krit.Schaden für 5 Sek. um 24 % erhöht. Dieser Effekt kann bis zu 7-mal gestapelt werden.",
-      "2": "Bei einem Krit. Treffer wird der Krit.Schaden für 5 Sek. um 29 % erhöht. Dieser Effekt kann bis zu 7-mal gestapelt werden.",
-      "3": "Bei einem Krit. Treffer wird der Krit.Schaden für 5 Sek. um 35 % erhöht. Dieser Effekt kann bis zu 7-mal gestapelt werden.",
-      "4": "Bei einem Krit. Treffer wird der Krit.Schaden für 5 Sek. um 42 % erhöht. Dieser Effekt kann bis zu 7-mal gestapelt werden.",
-      "5": "Bei einem Krit. Treffer wird der Krit.Schaden für 5 Sek. um 50 % erhöht. Dieser Effekt kann bis zu 7-mal gestapelt werden."
+      "1": "Bei einem Krit. Treffer wird der Krit. Schaden für 5 Sek. um 24 % erhöht. Dieser Effekt kann bis zu 7-mal gestapelt werden.",
+      "2": "Bei einem Krit. Treffer wird der Krit. Schaden für 5 Sek. um 29 % erhöht. Dieser Effekt kann bis zu 7-mal gestapelt werden.",
+      "3": "Bei einem Krit. Treffer wird der Krit. Schaden für 5 Sek. um 35 % erhöht. Dieser Effekt kann bis zu 7-mal gestapelt werden.",
+      "4": "Bei einem Krit. Treffer wird der Krit. Schaden für 5 Sek. um 42 % erhöht. Dieser Effekt kann bis zu 7-mal gestapelt werden.",
+      "5": "Bei einem Krit. Treffer wird der Krit. Schaden für 5 Sek. um 50 % erhöht. Dieser Effekt kann bis zu 7-mal gestapelt werden."
     }
   },
   "uts": {
     "1": {
       "name": "Unerträgliche Feder",
-      "description": "[Flinkschläge] erhöht den Schaden um 50 %. Das Ziel kann 2 Sek. lang kein Mana regenerieren.",
-      "value": {},
+      "description": "[Flinkschläge] erhöht den Schaden um 50 %. Das Ziel kann {0} Sek. lang kein Mana regenerieren.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Gladi/ut/1.png",
       "story": "Man kann einfach nicht aufhören, zuzuschlagen!\nDie geheimnisvolle Feder baumelt vor Gladis Augen und erhöht seine Konzentration maßgeblich, sodass er mit unglaublicher Geschwindigkeit zuschlagen kann. Gladi wirkt beinahe ein wenig zu aufgeregt, wenn er sie ansieht.",
       "descriptionByStar": {
         "0": "[Flinkschläge] erhöht den Schaden um 50 %. Das Ziel kann 2 Sek. lang kein Mana regenerieren.",
-        "1": "[Flinkschläge] erhöht den Schaden um 50 %. Das Ziel kann 2,4 Sek. lang kein Mana regenerieren.",
-        "2": "[Flinkschläge] erhöht den Schaden um 50 %. Das Ziel kann 2,9 Sek. lang kein Mana regenerieren.",
-        "3": "[Flinkschläge] erhöht den Schaden um 50 %. Das Ziel kann 3,5 Sek. lang kein Mana regenerieren.",
-        "4": "[Flinkschläge] erhöht den Schaden um 50 %. Das Ziel kann 4,2 Sek. lang kein Mana regenerieren.",
+        "1": "[Flinkschläge] erhöht den Schaden um 50 %. Das Ziel kann 2.4 Sek. lang kein Mana regenerieren.",
+        "2": "[Flinkschläge] erhöht den Schaden um 50 %. Das Ziel kann 2.9 Sek. lang kein Mana regenerieren.",
+        "3": "[Flinkschläge] erhöht den Schaden um 50 %. Das Ziel kann 3.5 Sek. lang kein Mana regenerieren.",
+        "4": "[Flinkschläge] erhöht den Schaden um 50 %. Das Ziel kann 4.2 Sek. lang kein Mana regenerieren.",
         "5": "[Flinkschläge] erhöht den Schaden um 50 %. Das Ziel kann 5 Sek. lang kein Mana regenerieren."
       }
     },
     "2": {
       "name": "Silberwein-Kiste",
-      "description": "[Ankunft des Kriegsgottes] stellt während der Wirkungsdauer jede Sek. 100 MP wieder her und stapelt [Es wird schmerzhaft!] 1-mal beim Zufügen von zus. Körp. Schaden.",
-      "value": {},
+      "description": "[Ankunft des Kriegsgottes] stellt während der Wirkungsdauer jede Sek. {0} MP wieder her und stapelt [Es wird schmerzhaft!] 1-mal beim Zufügen von zus. Körp. Schaden.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Gladi/ut/2.png",
       "story": "Silberwein wird verwendet, um die körperlichen Fähigkeiten exponentiell zu verstärken. \nNichts anderes, nur dieser Silberwein. Andere mögen versuchen, Silberwein zu kauen, zu trinken, zu kochen, aber es funktioniert nicht.\nGladi braucht nur diesen Silberwein, um die Kraft eines Kriegsgottes zu erhalten.",
       "descriptionByStar": {
@@ -176,31 +203,49 @@
     },
     "3": {
       "name": "Lorbeerkranz des Champions",
-      "description": "[Ultimativschlag!] verringert Skill-Cooldown um 30 % und erhöhrt den Schaden um 4 % bei jeder Aktivierung. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
-      "value": {},
+      "description": "[Ultimativschlag!] verringert Skill-Cooldown um 30 % und erhöhrt den Schaden um {0} % bei jeder Aktivierung. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
+      "value": {
+        "0": {
+          "0": "4",
+          "1": "4.8",
+          "2": "5.8",
+          "3": "7",
+          "4": "8.4",
+          "5": "10"
+        }
+      },
       "thumbnail": "heroes/Gladi/ut/3.png",
       "story": "Kranz, der dem stärksten Krieger des Orbis-Kontinents verliehen wird. Er wird nur dem Sieger des Kampfturniers überreicht, das alle 4 Jahre stattfindet. Diejenigen, die diesen Kranz tragen sollen in der Lage sein, sich die Kraft des Kriegsgottes zu leihen.",
       "descriptionByStar": {
         "0": "[Ultimativschlag!] verringert Skill-Cooldown um 30 % und erhöhrt den Schaden um 4 % bei jeder Aktivierung. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
-        "1": "[Ultimativschlag!] verringert Skill-Cooldown um 30 % und erhöhrt den Schaden um 4,8 % bei jeder Aktivierung. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
-        "2": "[Ultimativschlag!] verringert Skill-Cooldown um 30 % und erhöhrt den Schaden um 5,8 % bei jeder Aktivierung. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
+        "1": "[Ultimativschlag!] verringert Skill-Cooldown um 30 % und erhöhrt den Schaden um 4.8 % bei jeder Aktivierung. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
+        "2": "[Ultimativschlag!] verringert Skill-Cooldown um 30 % und erhöhrt den Schaden um 5.8 % bei jeder Aktivierung. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
         "3": "[Ultimativschlag!] verringert Skill-Cooldown um 30 % und erhöhrt den Schaden um 7 % bei jeder Aktivierung. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
-        "4": "[Ultimativschlag!] verringert Skill-Cooldown um 30 % und erhöhrt den Schaden um 8,4 % bei jeder Aktivierung. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
+        "4": "[Ultimativschlag!] verringert Skill-Cooldown um 30 % und erhöhrt den Schaden um 8.4 % bei jeder Aktivierung. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
         "5": "[Ultimativschlag!] verringert Skill-Cooldown um 30 % und erhöhrt den Schaden um 10 % bei jeder Aktivierung. Effekt kann sich bis zu max. 10-mal gestapelt werden."
       }
     },
     "4": {
       "name": "Elastischer Verband des Kampfgeists",
-      "description": "[Es wird schmerzhaft!] erhöht den Schaden um 50 %. Ziel erleidet bei Aktivierung 10 Sek. lang 2 % erhöhten Körp. Schaden. Dieser Effekt kann bis zu 6-mal gestapelt werden.",
-      "value": {},
+      "description": "[Es wird schmerzhaft!] erhöht den Schaden um 50 %. Ziel erleidet bei Aktivierung 10 Sek. lang {0} % erhöhten Körp. Schaden. Dieser Effekt kann bis zu 6-mal gestapelt werden.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Gladi/ut/4.png",
       "story": "Ein elastischer Verband, den sich Gladi um seine Fäuste wickelt, wenn jemand dringend einen Schlag ins Gesicht braucht.\nEr war ein Geschenk, das er vor langer Zeit von seinem Meister erhalten hatte.\nGladi wird nur noch sehr selten wütend, seit er im Laden in der Arena arbeitet, aber er holt den Verband jedes Mal hervor, wenn ein ungehobelter Kunde Waffen haben will, mit denen er nicht umgehen kann, oder den Kriegsgott entehrt, den Gladi sehr respektiert.\nGladi ist ein großherziger Mann, der weiß, wie man Dinge mit einem Lachen abtun kann. Aber wenn er seine Fäuste mit dem Verband umwickelt und dich dabei mit seinem Blick fixiert,\ndann solltest du dich schnell von deinen Liebsten verabschieden, ehe es zu spät ist.",
       "descriptionByStar": {
         "0": "[Es wird schmerzhaft!] erhöht den Schaden um 50 %. Ziel erleidet bei Aktivierung 10 Sek. lang 2 % erhöhten Körp. Schaden. Dieser Effekt kann bis zu 6-mal gestapelt werden.",
-        "1": "[Es wird schmerzhaft!] erhöht den Schaden um 50 %. Ziel erleidet bei Aktivierung 10 Sek. lang 2,4 % erhöhten Körp. Schaden. Dieser Effekt kann bis zu 6-mal gestapelt werden.",
-        "2": "[Es wird schmerzhaft!] erhöht den Schaden um 50 %. Ziel erleidet bei Aktivierung 10 Sek. lang 2,9 % erhöhten Körp. Schaden. Dieser Effekt kann bis zu 6-mal gestapelt werden.",
-        "3": "[Es wird schmerzhaft!] erhöht den Schaden um 50 %. Ziel erleidet bei Aktivierung 10 Sek. lang 3,5 % erhöhten Körp. Schaden. Dieser Effekt kann bis zu 6-mal gestapelt werden.",
-        "4": "[Es wird schmerzhaft!] erhöht den Schaden um 50 %. Ziel erleidet bei Aktivierung 10 Sek. lang 4,2 % erhöhten Körp. Schaden. Dieser Effekt kann bis zu 6-mal gestapelt werden.",
+        "1": "[Es wird schmerzhaft!] erhöht den Schaden um 50 %. Ziel erleidet bei Aktivierung 10 Sek. lang 2.4 % erhöhten Körp. Schaden. Dieser Effekt kann bis zu 6-mal gestapelt werden.",
+        "2": "[Es wird schmerzhaft!] erhöht den Schaden um 50 %. Ziel erleidet bei Aktivierung 10 Sek. lang 2.9 % erhöhten Körp. Schaden. Dieser Effekt kann bis zu 6-mal gestapelt werden.",
+        "3": "[Es wird schmerzhaft!] erhöht den Schaden um 50 %. Ziel erleidet bei Aktivierung 10 Sek. lang 3.5 % erhöhten Körp. Schaden. Dieser Effekt kann bis zu 6-mal gestapelt werden.",
+        "4": "[Es wird schmerzhaft!] erhöht den Schaden um 50 %. Ziel erleidet bei Aktivierung 10 Sek. lang 4.2 % erhöhten Körp. Schaden. Dieser Effekt kann bis zu 6-mal gestapelt werden.",
         "5": "[Es wird schmerzhaft!] erhöht den Schaden um 50 %. Ziel erleidet bei Aktivierung 10 Sek. lang 5 % erhöhten Körp. Schaden. Dieser Effekt kann bis zu 6-mal gestapelt werden."
       }
     }

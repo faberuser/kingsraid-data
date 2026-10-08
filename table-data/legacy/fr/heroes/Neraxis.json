@@ -130,8 +130,41 @@
   },
   "uw": {
     "name": "Acravita, le Dragon rugissant",
-    "description": "Lorsque 20 attaques automatiques sont réussies, inflige à 2 ennemis aléatoires des DEG M supplémentaires à hauteur de 100% de l'ATQ et les étourdit pendant 0.5 sec. Ensuite, passe à l'état de Tempête de Neraxis pendant 10 sec. Pendant la durée de Tempête de Neraxis, augmente à tous les alliés la DEF P à hauteur de 4% de celle du lanceur, la DEF M à hauteur de 4% de celle du lanceur, et l'ATQ de 10%.",
-    "value": {},
+    "description": "Lorsque {0} attaques automatiques sont réussies, inflige à 2 ennemis aléatoires des DEG M supplémentaires à hauteur de 100% de l'ATQ et les étourdit pendant 0.5 sec. Ensuite, passe à l'état de Tempête de Neraxis pendant 10 sec. Pendant la durée de Tempête de Neraxis, augmente à tous les alliés la DEF P à hauteur de {1}% de celle du lanceur, la DEF M à hauteur de {2}% de celle du lanceur, et l'ATQ de {3}%.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "19",
+        "2": "18",
+        "3": "17",
+        "4": "16",
+        "5": "15"
+      },
+      "1": {
+        "0": "4",
+        "1": "4.8",
+        "2": "5.7",
+        "3": "6.9",
+        "4": "8.3",
+        "5": "10"
+      },
+      "2": {
+        "0": "4",
+        "1": "4.8",
+        "2": "5.7",
+        "3": "6.9",
+        "4": "8.3",
+        "5": "10"
+      },
+      "3": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
     "thumbnail": "heroes/Neraxis/uw.png",
     "story": "Arme fabriquée à partir d'un métal d'un noir parfait appelé adamantite et forgée dans les flammes noires avec la foudre d'un dragon noir.\nElle renferme la rancune et la rage des dragons noirs massacrés lors de la Guerre des démons.\nNeraxis avait menacé les nains pour qu'ils forgent cette arme.\nIl l'a ensuite maudite et y a incrusté l'âme des dragons noirs, débordante de rancune.\nMis à part Neraxis, il suffit d'effleurer cette arme pour entendre les rugissements de rage des dragons vengeurs.",
     "descriptionByStar": {
@@ -146,8 +179,17 @@
   "uts": {
     "1": {
       "name": "Cartouche de foudre noire",
-      "description": "[Griffe de foudre noire] Restaure 100 PM à chaque coup réussi et augmente la DEF de 10 %, pendant 10 sec.",
-      "value": {},
+      "description": "[Griffe de foudre noire] Restaure 100 PM à chaque coup réussi et augmente la DEF de {0} %, pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Neraxis/ut/1.png",
       "story": "Cet amplificateur magique renferme de la foudre noire.\nElle fut confectionnée à partir des mêmes matériaux qu'Acravita.\nNeraxis contraignit les nains à fabriquer Acravita, mais tous les matériaux nécessaires ne furent pas utilisés. Lorsque les nains demandèrent à Neraxis s'ils pouvaient garder le reste en récompense de leur travail, il leur arracha les cheveux et leur dit de tout utiliser. En fin de compte, ils purent fabriquer une cartouche de foudre noire.",
       "descriptionByStar": {
@@ -161,8 +203,17 @@
     },
     "2": {
       "name": "Souvenirs du dieu-dragon bleu",
-      "description": "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de 20 % et dissipe les effets positifs dont bénéficient tous les ennemis.",
-      "value": {},
+      "description": "[Rugissement d'obsidienne] Augmente le boost de DEF des alliés de {0} % et dissipe les effets positifs dont bénéficient tous les ennemis.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Neraxis/ut/2.png",
       "story": "Accessoire capillaire égaré par Laias pendant qu'elle purifiait les eaux souillées par les démons.\nNeraxis l'a trouvé et conservé, mais il ne sait pas encore s'il va le rendre ou non.\nLaias n'est pas près de retrouver son bien.",
       "descriptionByStar": {
@@ -176,8 +227,17 @@
     },
     "3": {
       "name": "Vortex de rage",
-      "description": "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de 3 sec le temps de recharge de Souffle de la destruction.",
-      "value": {},
+      "description": "[Souffle de la destruction] Augmente la durée d'Étourdissement de 1 sec et réduit de {0} sec le temps de recharge de Souffle de la destruction.",
+      "value": {
+        "0": {
+          "0": "3",
+          "1": "4",
+          "2": "5",
+          "3": "6",
+          "4": "7",
+          "5": "8"
+        }
+      },
       "thumbnail": "heroes/Neraxis/ut/3.png",
       "story": "Fabriqué à partir d'un de ses crocs, ce pieu renferme la rage ardente de Neraxis.\nLorsqu'il l'utilise pour attaquer ses ennemis, l'énergie qu'il contient, mêlée à la puissance de Neraxis, déferle sur les ennemis à une vitesse vertigineuse.\nIl est suffisamment puissant pour pénétrer tout ce qu'il rencontre et démembrer ceux qui s'en approchent.",
       "descriptionByStar": {
@@ -191,8 +251,17 @@
     },
     "4": {
       "name": "Ashen Nova",
-      "description": "[Peau de dragon noir] Toutes les 10 sec, restaure 1 barre de PM et augmente le Blocage de 200 pendant 5 sec pour tous les alliés.",
-      "value": {},
+      "description": "[Peau de dragon noir] Toutes les 10 sec, restaure 1 barre de PM et augmente le Blocage de {0} pendant 5 sec pour tous les alliés.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Neraxis/ut/4.png",
       "story": "Neraxis vola ce trésor dans le musée privé d'Armarta.\nIl souhaitait posséder une arme plus puissante qu'Acravita, et pensa au musée privé d'Armarta.\nIl se rendit à Ashen Peak, les ruines au sud du Rivage Arrovina, et s'introduisit dans la musée privé.\nEn sortant, il dut faire face à un Armarta hors de lui, mais le jeu en valait la chandelle, car il obtint tout ce qu'il désirait.\nParmi les plus grandes reliques se trouvait Ashen Nova, qui va de pair avec Ashen Nox.\nSon pouvoir est semblable à celui d'un cœur de dragon noir.",
       "descriptionByStar": {

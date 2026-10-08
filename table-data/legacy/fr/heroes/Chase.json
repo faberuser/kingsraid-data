@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Monolithe, le Lancier de Sang",
-    "description": "Augmente les DEG Crit de 20%. Lors d'une attaque automatique, inflige des DEG P à hauteur de 30% de l'ATQ avec [Flamme monolithique] et récupère des PV à hauteur de 20% des DEG infligés. Lorsque [Dépassement de limite] est activé, l'effet de [Flamme monolithique] est doublé.",
-    "value": {},
+    "description": "Augmente les DEG Crit de {0}%. Lors d'une attaque automatique, inflige des DEG P à hauteur de {1}% de l'ATQ avec [Flamme monolithique] et récupère des PV à hauteur de 20% des DEG infligés. Lorsque [Dépassement de limite] est activé, l'effet de [Flamme monolithique] est doublé.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "28",
+        "3": "34",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "30",
+        "1": "36",
+        "2": "43",
+        "3": "52",
+        "4": "62",
+        "5": "75"
+      }
+    },
     "thumbnail": "heroes/Chase/uw.png",
     "story": "Arme pour l'humain amélioré de type 0 créé dans les laboratoires de l'empire au terme de milliers de tentatives. \nDès son réveil, l'humain amélioré de type 0 détruisit tout sur son passage dans le but de découvrir une arme à la hauteur de sa puissance.\nEn fin de compte, il arracha la corne du monstre Cannibale, connu pour avoir avalé l'orgueil parmi les péchés capitaux. \nCette corne passa entre les mains des meilleurs forgerons de l'empire et devint le Monolithe lancier de sang.\nLes flammes du péché brûlent dans cette arme, et ce qu'elle transperce perd immédiatement tout espoir de guérison. \nManier cette arme lui procure suffisamment de satisfaction pour dissiper les regrets qu'il a d'avoir perdu la mémoire.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Guide du péché",
-      "description": "[Je vais te pulvériser !] Confère l'immunité contre les contrôles pendant la durée de la compétence et restaure 200 PM à chaque coup réussi.",
-      "value": {},
+      "description": "[Je vais te pulvériser !] Confère l'immunité contre les contrôles pendant la durée de la compétence et restaure {0} PM à chaque coup réussi.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Chase/ut/1.png",
       "story": "Élaboré à partir du quatrième cœur de Cannibal, la Bête de l'arrogance, ce joyau est fixé à l'intérieur de Monolithe.\nLorsque Chase fonce sur ses ennemis, le cœur de Cannibal s'emballe. Au moment de l'impact, les flammes du péché qui brûlent à l'intérieur de Monolithe explosent.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Mouchoir de la loyauté",
-      "description": "[Dépassement de limite] Pendant la durée de la compétence, inflige des DEG P de 40 % de l'ATQ toutes les secondes aux ennemis proches et augmente la Récupération de 30 %.",
-      "value": {},
+      "description": "[Dépassement de limite] Pendant la durée de la compétence, inflige des DEG P de {0} % de l'ATQ toutes les secondes aux ennemis proches et augmente la Récupération de 30 %.",
+      "value": {
+        "0": {
+          "0": "40",
+          "1": "48",
+          "2": "58",
+          "3": "70",
+          "4": "84",
+          "5": "100"
+        }
+      },
       "thumbnail": "heroes/Chase/ut/2.png",
       "story": "Cadeau que Scarlet offrit à Chase pour le consoler de ne pas avoir de nom.\n« Chase » est brodé dans un coin de ce mouchoir. \nIl dénote un peu avec son style, mais Chase le porte tout le temps. \nIl a perdu la mémoire et n'a pu découvrir son identité qu'à l'aide du code inscrit sur sa taille. Il n'a pu trouver de raison de vivre qu'après qu'on lui ait donné un nom. \nIl décida de mettre sa surpuissance au profit de ceux qui l'aident à se sentir vivant.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Épaulière implacable",
-      "description": "[Brûle, lance de fureur] Réduit le coût en PM de 1 et augmente les DEG infligés de 20 %.",
-      "value": {},
+      "description": "[Brûle, lance de fureur] Réduit le coût en PM de 1 et augmente les DEG infligés de {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Chase/ut/3.png",
       "story": "Épaulière portée par Chase et fabriquée dans des minerais spéciaux difficiles à trouver sur le continent Orbis. \nElle a beau être légère, elle est résistante et même incassable. \nDemia réussit à se procurer cette épaulière pour l'offrir à Chase, étant donné que Scarlet s'était prise d'affection pour lui.\nBien qu'elle ne le montrât pas, la naïveté de Chase étonnait profondément Demia, car elle contrastait avec sa fascination pour le combat. \nElle l'observa pendant quelques jours, puis lui remit cette épaulière en lui tapant sur l'épaule avec désinvolture. Elle lui dit qu'il était certes important de se battre, mais plus encore de protéger son corps.",
       "descriptionByStar": {
@@ -206,11 +250,11 @@
       "story": "Un capteur de formes de vie installé à la taille de Chase.\nIl ressemble à une petite capsule ovale et est conçu pour être inséré dans le corps du cobaye.\nOn peut lire sur la capsule le nom de code du sujet, Type 0, et elle contient un étrange matériau rouge qui recueille des informations.\nCe capteur biométrique peut enregistrer toutes sortes d'informations liées aux recherches et aux expériences et géolocaliser le cobaye.\nSi quelqu'un tente de l'extirper par la force, il s'autodétruira, tuant ainsi le cobaye et détruisant toutes les données confidentielles.\nLorsque Chase l'arracha de son corps, il le brisa instantanément. Ce petit gadget gangrénait son âme depuis trop longtemps.\nPuis il fit un serment.\nIl se jura de faire payer les responsables de son calvaire, et jusqu'à ce que son seul nom instille la peur en eux.",
       "descriptionByStar": {
         "0": "[N'oublie pas ça en enfer] Augmente les DEG infligés aux cibles non-Héros de 10% et réduit les DEG reçus de la part des ennemis non-Héros de 20%.",
-        "1": "[N'oublie pas ça en enfer] Augmente la durée de résurrection de 1 sec et accorde l'immunité contre les contrôles pendant 1,5 sec lors d'une résurrection.",
-        "2": "[N'oublie pas ça en enfer] Augmente la durée de résurrection de 1 sec et accorde l'immunité contre les contrôles pendant 2 sec lors d'une résurrection.",
-        "3": "[N'oublie pas ça en enfer] Augmente la durée de résurrection de 1 sec et accorde l'immunité contre les contrôles pendant 2,5 sec lors d'une résurrection.",
-        "4": "[N'oublie pas ça en enfer] Augmente la durée de résurrection de 1 sec et accorde l'immunité contre les contrôles pendant 3 sec lors d'une résurrection.",
-        "5": "[N'oublie pas ça en enfer] Augmente la durée de résurrection de 1 sec et accorde l'immunité contre les contrôles pendant 3,5 sec lors d'une résurrection."
+        "1": "[N'oublie pas ça en enfer] Augmente les DEG infligés aux cibles non-Héros de 12% et réduit les DEG reçus de la part des ennemis non-Héros de 20%.",
+        "2": "[N'oublie pas ça en enfer] Augmente les DEG infligés aux cibles non-Héros de 14% et réduit les DEG reçus de la part des ennemis non-Héros de 20%.",
+        "3": "[N'oublie pas ça en enfer] Augmente les DEG infligés aux cibles non-Héros de 17% et réduit les DEG reçus de la part des ennemis non-Héros de 20%.",
+        "4": "[N'oublie pas ça en enfer] Augmente les DEG infligés aux cibles non-Héros de 21% et réduit les DEG reçus de la part des ennemis non-Héros de 20%.",
+        "5": "[N'oublie pas ça en enfer] Augmente les DEG infligés aux cibles non-Héros de 25% et réduit les DEG reçus de la part des ennemis non-Héros de 20%."
       }
     }
   },

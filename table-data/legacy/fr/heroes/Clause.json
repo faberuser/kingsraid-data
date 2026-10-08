@@ -78,7 +78,7 @@
     "t3": {
       "1": {
         "light": {
-          "effect": "Immunise contre tous les types de DEG.",
+          "effect": "Réduit le temps de recharge de 2 sec.",
           "thumbnail": "heroes/Clause/perks/s1l.png"
         },
         "dark": {
@@ -153,11 +153,11 @@
     "story": "Une épée et un bouclier gravés de diverses runes et imprégnés d'ancienne magie. Ces objets légendaires ont été créés il y a une éternité par un ancien Dragon nommé Exian, à l'aide de ses propres écailles. L'épée est un des trésors royaux d'Orvel, accordée uniquement au chevalier le plus honorable. Son porteur doit servir en tant que défenseur du royaume et de son peuple, protecteur de la vie.",
     "descriptionByStar": {
       "0": "Après 3 utilisations de ses compétences actives, augmente la DEF P de tous les alliés de 10% et leur ATQ de 10% pendant 15 sec. Le bonus d'ATQ est multiplié par 2 pour l'allié ayant l'ATQ la plus élevée.",
-      "1": "Au bout de 3 lancements de compétence active, la DEF P et l'ATQ de tous les alliés augmentent de 12% pendant 10 sec. Le boost d'ATQ est doublé pour l'allié à l'ATQ la plus élevée.",
-      "2": "Au bout de 3 lancements de compétence active, la DEF P et l'ATQ de tous les alliés augmentent de 14% pendant 10 sec. Le boost d'ATQ est doublé pour l'allié à l'ATQ la plus élevée.",
-      "3": "Au bout de 3 lancements de compétence active, la DEF P et l'ATQ de tous les alliés augmentent de 17% pendant 10 sec. Le boost d'ATQ est doublé pour l'allié à l'ATQ la plus élevée.",
-      "4": "Au bout de 3 lancements de compétence active, la DEF P et l'ATQ de tous les alliés augmentent de 21% pendant 10 sec. Le boost d'ATQ est doublé pour l'allié à l'ATQ la plus élevée.",
-      "5": "Au bout de 3 lancements de compétence active, la DEF P et l'ATQ de tous les alliés augmentent de 25% pendant 10 sec. Le boost d'ATQ est doublé pour l'allié à l'ATQ la plus élevée."
+      "1": "Après 3 utilisations de ses compétences actives, augmente la DEF P de tous les alliés de 12% et leur ATQ de 12% pendant 15 sec. Le bonus d'ATQ est multiplié par 2 pour l'allié ayant l'ATQ la plus élevée.",
+      "2": "Après 3 utilisations de ses compétences actives, augmente la DEF P de tous les alliés de 14% et leur ATQ de 14% pendant 15 sec. Le bonus d'ATQ est multiplié par 2 pour l'allié ayant l'ATQ la plus élevée.",
+      "3": "Après 3 utilisations de ses compétences actives, augmente la DEF P de tous les alliés de 17% et leur ATQ de 17% pendant 15 sec. Le bonus d'ATQ est multiplié par 2 pour l'allié ayant l'ATQ la plus élevée.",
+      "4": "Après 3 utilisations de ses compétences actives, augmente la DEF P de tous les alliés de 21% et leur ATQ de 21% pendant 15 sec. Le bonus d'ATQ est multiplié par 2 pour l'allié ayant l'ATQ la plus élevée.",
+      "5": "Après 3 utilisations de ses compétences actives, augmente la DEF P de tous les alliés de 25% et leur ATQ de 25% pendant 15 sec. Le bonus d'ATQ est multiplié par 2 pour l'allié ayant l'ATQ la plus élevée."
     }
   },
   "uts": {
@@ -178,11 +178,11 @@
       "story": "Cette cape de cérémonie est portée à Orvelia dans les grandes occasions.\nDepuis qu'elle a été remise à Clause le jour de son adoubement, elle lui rappelle ses vœux de chevalier. À chaque fois qu'il envisage de tout arrêter, épuisé par les batailles, Clause sort sa cape et la contemple. Dans sa jeunesse, Kasel avait pour habitude d'observer Clause procéder à ce rituel en rêvant d'être chevalier un jour.",
       "descriptionByStar": {
         "0": "[Fendre la terre] Augmente tous les dégâts subis par la cible de 10% pendant 10 sec et récupère 400 mana pour chaque groupe de 1 ennemi(s) touché(s).",
-        "1": "[Sol déchiré] Augmente de 10% les DEG P reçus par la cible pendant 10 sec et restaure 400 PM pour chaque ennemi touché.",
-        "2": "[Sol déchiré] Augmente de 14% les DEG P reçus par la cible pendant 10 sec et restaure 400 PM pour chaque ennemi touché.",
-        "3": "[Sol déchiré] Augmente de 17% les DEG P reçus par la cible pendant 10 sec et restaure 400 PM pour chaque ennemi touché.",
-        "4": "[Sol déchiré] Augmente de 21% les DEG P reçus par la cible pendant 10 sec et restaure 400 PM pour chaque ennemi touché.",
-        "5": "[Sol déchiré] Augmente de 25% les DEG P reçus par la cible pendant 10 sec et restaure 400 PM pour chaque ennemi touché."
+        "1": "[Fendre la terre] Augmente tous les dégâts subis par la cible de 12% pendant 10 sec et récupère 400 mana pour chaque groupe de 1 ennemi(s) touché(s).",
+        "2": "[Fendre la terre] Augmente tous les dégâts subis par la cible de 14% pendant 10 sec et récupère 400 mana pour chaque groupe de 1 ennemi(s) touché(s).",
+        "3": "[Fendre la terre] Augmente tous les dégâts subis par la cible de 17% pendant 10 sec et récupère 400 mana pour chaque groupe de 1 ennemi(s) touché(s).",
+        "4": "[Fendre la terre] Augmente tous les dégâts subis par la cible de 21% pendant 10 sec et récupère 400 mana pour chaque groupe de 1 ennemi(s) touché(s).",
+        "5": "[Fendre la terre] Augmente tous les dégâts subis par la cible de 25% pendant 10 sec et récupère 400 mana pour chaque groupe de 1 ennemi(s) touché(s)."
       }
     },
     "2": {
@@ -202,17 +202,26 @@
       "story": "Vieux bouclier en bois appartenant au chevalier du Mur de Fer. \nIl est néanmoins précieux, car il s’agit du premier bouclier que Clause a manié au début de son entraînement. Il y a gravé le nom de ses camarades tombés au combat pour renforcer sa détermination de Chevalier Gardien. \nÀ chaque fois qu’il repousse un ennemi avec ce bouclier, sa détermination inébranlable l’aide à dépasser ses limites.",
       "descriptionByStar": {
         "0": "[Coup de bouclier] Réduit toutes les résistances aux coups critiques des ennemis touchés de 500 et leurs chances de coup critique de 100 pendant 10 sec.",
-        "1": "[Coup de bouclier] Réduit la résistance Crit P de l'ennemi affecté de 500 et le Crit de 120 pendant 10 sec.",
-        "2": "[Coup de bouclier] Réduit la résistance Crit P de l'ennemi affecté de 500 et le Crit de 140 pendant 10 sec.",
-        "3": "[Coup de bouclier] Réduit la résistance Crit P de l'ennemi affecté de 500 et le Crit de 170 pendant 10 sec.",
-        "4": "[Coup de bouclier] Réduit la résistance Crit P de l'ennemi affecté de 500 et le Crit de 210 pendant 10 sec.",
-        "5": "[Coup de bouclier] Réduit la résistance Crit P de l'ennemi affecté de 500 et le Crit de 250 pendant 10 sec."
+        "1": "[Coup de bouclier] Réduit toutes les résistances aux coups critiques des ennemis touchés de 500 et leurs chances de coup critique de 120 pendant 10 sec.",
+        "2": "[Coup de bouclier] Réduit toutes les résistances aux coups critiques des ennemis touchés de 500 et leurs chances de coup critique de 140 pendant 10 sec.",
+        "3": "[Coup de bouclier] Réduit toutes les résistances aux coups critiques des ennemis touchés de 500 et leurs chances de coup critique de 170 pendant 10 sec.",
+        "4": "[Coup de bouclier] Réduit toutes les résistances aux coups critiques des ennemis touchés de 500 et leurs chances de coup critique de 210 pendant 10 sec.",
+        "5": "[Coup de bouclier] Réduit toutes les résistances aux coups critiques des ennemis touchés de 500 et leurs chances de coup critique de 250 pendant 10 sec."
       }
     },
     "3": {
       "name": "Rune des chevaliers",
-      "description": "[Bouclier protecteur] À l'activation, dissipe tous ses effets négatifs et augmente le bonus de DEF de 20%.",
-      "value": {},
+      "description": "[Bouclier protecteur] À l'activation, dissipe tous ses effets négatifs et augmente le bonus de DEF de {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Clause/ut/3.png",
       "story": "Rune des Chevaliers Gardiens d’Orvel. Une rune de Lion d’or donnée aux chevaliers lorsqu’ils rejoignent les Chevaliers Gardiens, lorsqu’ils font le vœu de donner leur vie pour protéger le royaume. \nLa rune des Chevaliers Gardiens améliore la volonté d’acier du chevalier et augmente l’efficacité de Bouclier du Gardien.",
       "descriptionByStar": {
@@ -226,8 +235,17 @@
     },
     "4": {
       "name": "Moufles",
-      "description": "[Serment des chevaliers] À l'activation, restaure 2% de ses PV max et augmente sa DEF P de 20% pendant 5 sec.",
-      "value": {},
+      "description": "[Serment des chevaliers] À l'activation, restaure 2% de ses PV max et augmente sa DEF P de {0}% pendant 5 sec.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Clause/ut/4.png",
       "story": "Une paire de gants à laquelle Clause tient par-dessus tout.\nLes jeunes Kasel et Frey les lui ont donnés lorsque Clause fut adoubé chevalier au cours d'un hiver particulièrement rigoureux.\nLes deux compères lui ont cousu un gant chacun en y inscrivant leurs initiales.",
       "descriptionByStar": {

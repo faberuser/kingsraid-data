@@ -153,11 +153,11 @@
     "story": "The essence of the First Flame of the world. The Fire Elemental Lord bestowed this beautiful gem to a human who entered into a contract with him. Over the ages, it ended up in the hands of an archmage, who turned it into the core of his staff. Later, the archmage presented this staff to his precious disciple.",
     "descriptionByStar": {
       "0": "Increases ATK Spd by 200. Skill attacks deal additional M.DMG equal to 3% of ATK per stack of Ember inflicted on the enemy.",
-      "1": "Skill hits deal additional M.DMG equal to 3.6% of ATK per stack of Ember inflicted on enemies.",
-      "2": "Skill hits deal additional M.DMG equal to 4.3% of ATK per stack of Ember inflicted on enemies.",
-      "3": "Skill hits deal additional M.DMG equal to 5.2% of ATK per stack of Ember inflicted on enemies.",
-      "4": "Skill hits deal additional M.DMG equal to 6.3% of ATK per stack of Ember inflicted on enemies.",
-      "5": "Skill hits deal additional M.DMG equal to 7.5% of ATK per stack of Ember inflicted on enemies."
+      "1": "Increases ATK Spd by 240. Skill attacks deal additional M.DMG equal to 3.6% of ATK per stack of Ember inflicted on the enemy.",
+      "2": "Increases ATK Spd by 290. Skill attacks deal additional M.DMG equal to 4.3% of ATK per stack of Ember inflicted on the enemy.",
+      "3": "Increases ATK Spd by 350. Skill attacks deal additional M.DMG equal to 5.2% of ATK per stack of Ember inflicted on the enemy.",
+      "4": "Increases ATK Spd by 420. Skill attacks deal additional M.DMG equal to 6.3% of ATK per stack of Ember inflicted on the enemy.",
+      "5": "Increases ATK Spd by 500. Skill attacks deal additional M.DMG equal to 7.5% of ATK per stack of Ember inflicted on the enemy."
     }
   },
   "uts": {
@@ -178,17 +178,26 @@
       "story": "A magical lantern from the Tower of Sage.\nThe ever-burning phoenix, the Tower of Sage's first flame, is sealed inside it. Dominix looked after it with great care as phoenixes are now endangered, but Cleo nonchalantly uses it to enhance her Fire Needle spell without taking her teacher's concerns into consideration.",
       "descriptionByStar": {
         "0": "[Fire Needle] Each hit reduces the target's Mana by 100. Upon every use, increases DMG by 10%. This effect can be stacked up to max 10 times.",
-        "1": "[Fire Needle] Changes target to the enemy with the highest ATK and reduces the target's Mana by 120.",
-        "2": "[Fire Needle] Changes target to the enemy with the highest ATK and reduces the target's Mana by 140.",
-        "3": "[Fire Needle] Changes target to the enemy with the highest ATK and reduces the target's Mana by 170.",
-        "4": "[Fire Needle] Changes target to the enemy with the highest ATK and reduces the target's Mana by 210.",
-        "5": "[Fire Needle] Changes target to the enemy with the highest ATK and reduces the target's Mana by 250."
+        "1": "[Fire Needle] Each hit reduces the target's Mana by 120. Upon every use, increases DMG by 10%. This effect can be stacked up to max 10 times.",
+        "2": "[Fire Needle] Each hit reduces the target's Mana by 140. Upon every use, increases DMG by 10%. This effect can be stacked up to max 10 times.",
+        "3": "[Fire Needle] Each hit reduces the target's Mana by 170. Upon every use, increases DMG by 10%. This effect can be stacked up to max 10 times.",
+        "4": "[Fire Needle] Each hit reduces the target's Mana by 210. Upon every use, increases DMG by 10%. This effect can be stacked up to max 10 times.",
+        "5": "[Fire Needle] Each hit reduces the target's Mana by 250. Upon every use, increases DMG by 10%. This effect can be stacked up to max 10 times."
       }
     },
     "2": {
       "name": "Flamel's Elixir",
-      "description": "[Fire Ball] Reduces Mana Cost by 1 and increases DMG by 20%.",
-      "value": {},
+      "description": "[Fire Ball] Reduces Mana Cost by 1 and increases DMG by {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Cleo/ut/2.png",
       "story": "An elixir that fire alchemist Flamel created by condensing flame essence.\nFlamel's flames continue to burn and burn. Every wizard praises him for his flames, and the flame essence that he made with the salamanders from the Dragia Volcano maximizes the effect of Fire Ball.",
       "descriptionByStar": {
@@ -202,8 +211,17 @@
     },
     "3": {
       "name": "Tome of Purgatory",
-      "description": "[Fire Rain] Increases DMG by 20%. Upon Critical Hit on an enemy with 5 or more stacks of Ember, Cooldown will be reduced by 5%. Upon killing an enemy with this Skill, Cooldown will be reduced by an additional 20%.",
-      "value": {},
+      "description": "[Fire Rain] Increases DMG by {0}%. Upon Critical Hit on an enemy with 5 or more stacks of Ember, Cooldown will be reduced by 5%. Upon killing an enemy with this Skill, Cooldown will be reduced by an additional 20%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Cleo/ut/3.png",
       "story": "A scroll written by a fire sorceress who was known as the Goddess of Fire. A scroll left by the greatest Fire Sorceress of Orvelia, Vesta, when she was in the Tower of Sage. It's very powerful, but it also requires a lot of mana. Cleo took the Scroll of Purgatory from the Tower of Sage, which was considered a forbidden scroll. Now she's using it to enhance her Fire Rain.",
       "descriptionByStar": {
@@ -217,8 +235,17 @@
     },
     "4": {
       "name": "Introduction to Red Witch Spells",
-      "description": "[Flame Diffusion] Ember becomes irremovable and causes the target to take 1% increased M.DMG per stack.",
-      "value": {},
+      "description": "[Flame Diffusion] Ember becomes irremovable and causes the target to take {0}% increased M.DMG per stack.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Cleo/ut/4.png",
       "story": "A textbook of Fire Magic by the Red Witch.\nThis powerful spellbook is spreading all over the Empire in secret, but most mages consider it as taboo because it casts destructive magic and destroys the caster's mind.",
       "descriptionByStar": {

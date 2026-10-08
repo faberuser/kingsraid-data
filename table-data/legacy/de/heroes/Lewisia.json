@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Scharlachrote Herrscherin, Dominicia",
-    "description": "Bei TP über 50 %, ist ANG um 20 % erhöht. Falls die TP unter 50 % fallen, wird 10 % weniger Schaden erlitten.",
-    "value": {},
+    "description": "Bei TP über 50 %, ist ANG um {0} % erhöht. Falls die TP unter 50 % fallen, wird {1} % weniger Schaden erlitten.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
     "thumbnail": "heroes/Lewisia/uw.png",
     "story": "Ein Stab des Blutes, der in der Familie des Vampirlords von Generation zu Generation weitergegeben wurde. Seine purpurne Farbe verkörpert Autorität, Einsicht und die absolute Macht des Vampirlords. Tief im Untergrund der Galia-Ebenen liegt das heilige Land der Vampire. Dort liegt dieser legendäre Stab und erwartet versteckt den Ruf eines würdigen Meisters, wo immer dieser sein mag.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Alter Silberbecher",
-      "description": "[Blutkugel] erhöht den Schaden um 50 % und hinterlässt 5 Zähler Blutfluch auf dem Ziel.",
-      "value": {},
+      "description": "[Blutkugel] erhöht den Schaden um 50 % und hinterlässt {0} Zähler Blutfluch auf dem Ziel.",
+      "value": {
+        "0": {
+          "0": "5",
+          "1": "6",
+          "2": "7",
+          "3": "8",
+          "4": "9",
+          "5": "10"
+        }
+      },
       "thumbnail": "heroes/Lewisia/ut/1.png",
       "story": "Ein alter Silberbecher der ersten Vampirkönigin.\nIn diesem Becher bewahrte sie das Blut jener Person auf, die sie am meisten liebte. Er ist ein Symbol ihres unermesslichen Leids und ihrer wahnsinnigen Lust. Der Becher ist unerlässlich für Vampirrituale und jene, die ein Ritual mit diesem Becher durchlaufen, erhalten schönere und dunklere Blutkugeln.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Blutnebel-Zauber",
-      "description": "[Blutzone] erhöht den Schaden um 20 % und die Effektdauer um 2 Sek.",
-      "value": {},
+      "description": "[Blutzone] erhöht den Schaden um {0} % und die Effektdauer um 2 Sek.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Lewisia/ut/2.png",
       "story": "Magisches Werkzeug des Bluterben.\nDie Zauber der Familie des reinen Vampirlords wurden für Generationen weitergegeben. \nDer Nachkomme von Lewisia ist der Vampir Sir Lusben und der Zauber „Blutnebel“ ist ein Geschenk von ihm. \nLewisia hasst alles, was damit zu tun hat, ein Nachkomme zu sein, aber ihr gefällt, wie die Blut-Zone ihre Erschöpfung vermindert, also benutzt sie ihn gern.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Antikes Blut",
-      "description": "[Blut-Bankett] erhöht den Schaden um 20 % und stellt bei Krit. Treffern 400 Mana wieder her.",
-      "value": {},
+      "description": "[Blut-Bankett] erhöht den Schaden um {0} % und stellt bei Krit. Treffern 400 Mana wieder her.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Lewisia/ut/3.png",
       "story": "Blut einer uralten Vampirkönigin. Je reiner das Blut eines Vampirs ist, desto stärker ist dessen Manablut. Die größte aller Vampire ist die uralte Vampirkönigin – Vampire, die ihr Blut trinken, erhalten unbegrenztes Leben und Mana. Das Blut macht sehr stark süchtig; es sollte also vorsichtig genutzt werden..",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Roter Ring",
-      "description": "[Blut-Beherrschung] erhöht den Schaden von Blutfluch um 50 %. Beim Angreifen von Feinden mit 60 oder mehr Zählern Blutfluch wird der eigene ANG für 10 Sek. um 1 % erhöht. Der ANG-Boost kann bis zu 10-mal gestapelt werden.",
-      "value": {},
+      "description": "[Blut-Beherrschung] erhöht den Schaden von Blutfluch um 50 %. Beim Angreifen von Feinden mit 60 oder mehr Zählern Blutfluch wird der eigene ANG für 10 Sek. um 1 % erhöht. Der ANG-Boost kann bis zu {0}-mal gestapelt werden.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "20",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Lewisia/ut/4.png",
       "story": "Ein Ring, den die Vampirgemeinschaft in den Galluah-Ebenen der Scharlachroten Herrscherin als Zeichen des Respekts geschenkt hat.\nSeither zeigen die Vampire ihren Respekt, indem sie den Ring küssen.\nAls Lewisia geboren wurde, erhielt sie den Ring von ihrem Vorgänger als Zeichen ihrer Herrschaft.\nDamals wusste sie jedoch nicht, dass damit erst ihre Torturen auf dem Weg zur Herrschaft beginnen sollten.",
       "descriptionByStar": {

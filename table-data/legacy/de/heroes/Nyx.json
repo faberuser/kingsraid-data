@@ -130,24 +130,50 @@
   },
   "uw": {
     "name": "Dimensionsschlüssel, Magnus Fille",
-    "description": "Normal-Angriffe durchdringen Feinde in einer geraden Linie und erhöhen den Schaden um 30 %. Mit jedem Klingen-Stapel wird der Schaden zusätzlich um 4 % erhöht.",
-    "value": {},
+    "description": "Normal-Angriffe durchdringen Feinde in einer geraden Linie und erhöhen den Schaden um {0} %. Mit jedem Klingen-Stapel wird der Schaden zusätzlich um {1} % erhöht.",
+    "value": {
+      "0": {
+        "0": "30",
+        "1": "36",
+        "2": "43",
+        "3": "52",
+        "4": "62",
+        "5": "75"
+      },
+      "1": {
+        "0": "4",
+        "1": "4.8",
+        "2": "5.7",
+        "3": "6.9",
+        "4": "8.3",
+        "5": "10"
+      }
+    },
     "thumbnail": "heroes/Nyx/uw.png",
     "story": "Es existiert ein universelles Band, das unterschiedliche Dimensionen verbindet. Dieses Schwert ist der Schlüssel zur Trennung und Wiederverbindung dieses Bandes. Es wird dem Richter der Dimensionen verliehen, der geschworen hatte, die Balance des Universums zu beschützen. Es kann unbegrenzt vervielfältigt werden, doch gewährt seine Macht nur dem Auserwählten.",
     "descriptionByStar": {
       "0": "Normal-Angriffe durchdringen Feinde in einer geraden Linie und erhöhen den Schaden um 30 %. Mit jedem Klingen-Stapel wird der Schaden zusätzlich um 4 % erhöht.",
-      "1": "Normal-Angriffe durchdringen Feinde in einer geraden Linie und erhöhen den Schaden um 36 %. Mit jedem Klingen-Stapel wird der Schaden zusätzlich um 4,8 % erhöht.",
-      "2": "Normal-Angriffe durchdringen Feinde in einer geraden Linie und erhöhen den Schaden um 43 %. Mit jedem Klingen-Stapel wird der Schaden zusätzlich um 5,7 % erhöht.",
-      "3": "Normal-Angriffe durchdringen Feinde in einer geraden Linie und erhöhen den Schaden um 52 %. Mit jedem Klingen-Stapel wird der Schaden zusätzlich um 6,9 % erhöht.",
-      "4": "Normal-Angriffe durchdringen Feinde in einer geraden Linie und erhöhen den Schaden um 62 %. Mit jedem Klingen-Stapel wird der Schaden zusätzlich um 8,3 % erhöht.",
+      "1": "Normal-Angriffe durchdringen Feinde in einer geraden Linie und erhöhen den Schaden um 36 %. Mit jedem Klingen-Stapel wird der Schaden zusätzlich um 4.8 % erhöht.",
+      "2": "Normal-Angriffe durchdringen Feinde in einer geraden Linie und erhöhen den Schaden um 43 %. Mit jedem Klingen-Stapel wird der Schaden zusätzlich um 5.7 % erhöht.",
+      "3": "Normal-Angriffe durchdringen Feinde in einer geraden Linie und erhöhen den Schaden um 52 %. Mit jedem Klingen-Stapel wird der Schaden zusätzlich um 6.9 % erhöht.",
+      "4": "Normal-Angriffe durchdringen Feinde in einer geraden Linie und erhöhen den Schaden um 62 %. Mit jedem Klingen-Stapel wird der Schaden zusätzlich um 8.3 % erhöht.",
       "5": "Normal-Angriffe durchdringen Feinde in einer geraden Linie und erhöhen den Schaden um 75 %. Mit jedem Klingen-Stapel wird der Schaden zusätzlich um 10 % erhöht."
     }
   },
   "uts": {
     "1": {
       "name": "Magischer Dimensionskreis",
-      "description": "[Dimensionsklinge] erhöht die Anzahl an Zielen um 1 und verringert Körp. Blockchance des Ziels 10 Sek. lang um 200.",
-      "value": {},
+      "description": "[Dimensionsklinge] erhöht die Anzahl an Zielen um 1 und verringert Körp. Blockchance des Ziels 10 Sek. lang um {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Nyx/ut/1.png",
       "story": "Ein magischer Kreis, der das Reisen durch die Galaxis ermöglicht.\nNyx’ Dimensionsreisen beginnen und enden mit diesem Kreis. Da die Regeln der galaktischen Reise und die Abfolge von Licht und Dunkelheit von raumzeitlichen Gegebenheiten abhängig sind, können jene, die nicht über das nötige Wissen über Dimensionen verfügen, diesen Kreis nicht benutzen. Nyx kann mithilfe dieses magischen Kreises alles und jeden beschwören.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Schwert des Flussschneidens",
-      "description": "[Dimensions-Zerstücklungbeil] erhöht den Schaden um 50 % und erhöht 8 Sek. lang für jeden getroffenen Gegner den Krit. Schaden des Wirkers um 10 %. Dieser Effekt kann bis zu 5-mal gestapelt werden.",
-      "value": {},
+      "description": "[Dimensions-Zerstücklungbeil] erhöht den Schaden um 50 % und erhöht 8 Sek. lang für jeden getroffenen Gegner den Krit. Schaden des Wirkers um {0} %. Dieser Effekt kann bis zu 5-mal gestapelt werden.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Nyx/ut/2.png",
       "story": "Ein legendäres Schwert, das Äonen überdauert hat.\nEin legendäres Schwer, das mit dem Licht der Sonne und den schmelzenden Seelen der gequälten erschaffen wurde.\nEs ist einer der benötigen Gegenstände für das Dimensionsschwert, da es stabil genug ist, um Dimensionsreisen zu überstehen und sehr scharf geschliffen werden kann.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Dimensionsstein",
-      "description": "[Klingen der Unendlichkeit] verringert die Manakosten um 1 und erhöht den Schaden um 20 %.",
-      "value": {},
+      "description": "[Klingen der Unendlichkeit] verringert die Manakosten um 1 und erhöht den Schaden um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Nyx/ut/3.png",
       "story": "Ein Gegenstand, der von Zauberern benötigt werden, die Dimensionen durchqueren. Der Dimensionsstein ist ein magischer Stein, der bei denen beliebt ist, die durch Dimensionen wandeln und er enthält unbegrenzte Energie. Die Macht, die man von ihm erhalten kann hängt allerdings von den Fähigkeiten des Nutzers ab. Nur hochrangige Zauberer können ihn effektiv einsetzen.",
       "descriptionByStar": {
@@ -191,17 +235,26 @@
     },
     "4": {
       "name": "Feder der Galaxie",
-      "description": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um 1 %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden.",
-      "value": {},
+      "description": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um {0} %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Nyx/ut/4.png",
       "story": "Ein Anhänger, den Nyx benutzt hat, um die Koordinaten vieler magischer Ansichten aufzuzeichnen, die er auf seiner Reise durch den unendlichen Raum entdeckt hat.\nDer Anhänger ist mit Galaxien in Dimensionen verbunden und das Juwel darauf passt seine Farbe an die Farbe der Galaxie an, die gerade mit dem Anhänger verbunden ist. Wenn man den Anhänger ansieht, erkennt man, dass sich die Galaxie langsam bewegt.\nDas Juwel auf dem Anhänger verändert seine Farbe basierend auf den Koordinaten der Dimension.",
       "descriptionByStar": {
         "0": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um 1 %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden.",
-        "1": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um 1,2 %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden.",
-        "2": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um 1,4 %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden.",
-        "3": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um 1,7 %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden.",
-        "4": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um 2,1 %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden.",
-        "5": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um 2,5 %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden."
+        "1": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um 1.2 %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden.",
+        "2": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um 1.4 %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden.",
+        "3": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um 1.7 %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden.",
+        "4": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um 2.1 %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden.",
+        "5": "[Verborgene Klinge] erhöht den Schaden um 50 %. Erhöht den eigenen Krit. Schaden bei jedem erfolgreichen Treffer für 5 Sek. um 2.5 %. Der Krit. Schaden-Boost kann bis zu 20-mal gestapelt werden."
       }
     }
   },

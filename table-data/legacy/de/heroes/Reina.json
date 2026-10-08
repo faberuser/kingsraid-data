@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Blitzschwert, Livatis",
-    "description": "Erhöht bei kritischen Treffern für 15 Sek. das Angriffstempo um 80 und den Krit.-Schaden um 20%. Bis zu 5-mal stapelbar.",
-    "value": {},
+    "description": "Erhöht bei kritischen Treffern für 15 Sek. das Angriffstempo um {0} und den Krit.-Schaden um {1}%. Bis zu 5-mal stapelbar.",
+    "value": {
+      "0": {
+        "0": "80",
+        "1": "90",
+        "2": "110",
+        "3": "130",
+        "4": "160",
+        "5": "200"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "28",
+        "3": "34",
+        "4": "41",
+        "5": "50"
+      }
+    },
     "thumbnail": "heroes/Reina/uw.png",
     "story": "Der große Stammbaum der Stein-Familie datiert zurück zu den frühesten Tagen des Kaiserreichs. Die Ehrwürdigkeit der Familie erklärt sich allerdings durch ihre fähigen Krieger und hängt nicht in erster Linie mit ihrem adeligen Blut zusammen. Aria Stein war eine legendäre Meisterin der Klinge. Als eine der talentiertesten Kriegerinnen in der Geschichte des Kaiserreichs war sie es, die den Grundstein für den Ruhm der Stein-Familie legte. Arias Schwert, Livatas, ist heute im Besitz von Reina. Das Schwert, durch das Reina den Spitznamen „Blitz“ erlangte, ist leicht wie eine Feder und doch stark genug, um jedem Schwertstreich zu widerstehen.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Flügel des Blitzes",
-      "description": "[Fliege wie ein Schmetterling] erhöht den Schaden um 20 % und verringert Körp. Blockchance des Ziels 10 Sek. lang um 500.",
-      "value": {},
+      "description": "[Fliege wie ein Schmetterling] erhöht den Schaden um {0} % und verringert Körp. Blockchance des Ziels 10 Sek. lang um 500.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Reina/ut/1.png",
       "story": "Ein Paar mystische Ohrringe, die Geschwindigkeit des Trägers ins Unermessliche erhöhen.\nNyx schenkte sie Reina, die ihn immer wieder aufforderte, Portale zu öffnen, weil sie nichts für die Anstrengungen des Reisens übrighatte. Reina trägt diesen seltsamen Gegenstand in der Schlacht und sieht dabei wie ein Schmetterling aus, der sich blitzschnell bewegt, sobald sie ihr Schwert erhebt.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Meisterring",
-      "description": "[Klingenspitze] erhöht den ANG-Boost um 50 % und stellt zus. bei einem Krit. Treffer während der Wirkungsdauer 40 MP wieder her.",
-      "value": {},
+      "description": "[Klingenspitze] erhöht den ANG-Boost um 50 % und stellt zus. bei einem Krit. Treffer während der Wirkungsdauer {0} MP wieder her.",
+      "value": {
+        "0": {
+          "0": "40",
+          "1": "48",
+          "2": "58",
+          "3": "70",
+          "4": "84",
+          "5": "100"
+        }
+      },
       "thumbnail": "heroes/Reina/ut/2.png",
       "story": "Der Ring, den Reina erhielt, nachdem sie ihren Meister besiegte. Er ist so groß, dass sie ihn auf ihrem Daumen trägt. \nEr sieht einfach und plump aus, aber der Geiste des Kampfes ist in den eingravierten Runenlettern in dem Ring verborgen.\nImmer wenn sie den Ring ihres Meisters ansieht, fühlt sie sich, als würde sie noch Arbeit vor sich haben.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Geschwindigkeitsmedaille",
-      "description": "[Sternschnuppe] erhöht den Schaden um 20 % und und stellt bei Krit. Treffern 200 Mana wieder her.",
-      "value": {},
+      "description": "[Sternschnuppe] erhöht den Schaden um {0} % und und stellt bei Krit. Treffern 200 Mana wieder her.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Reina/ut/3.png",
       "story": "Eine ehrenhafte Medaille, die dem schnellsten Söldner verliehen wird. Sie soll ein Andenken von Hersz sein, dem schnellsten Krieger der Welt. Wer diese Medaille trägt, dessen Körper fühlt sich leichter an und er kann die Bewegungen seines Feindes vorhersehen.",
       "descriptionByStar": {
@@ -191,16 +235,25 @@
     },
     "4": {
       "name": "Amethystennadel",
-      "description": "[Glückskind] erhöht die max. Anzahl an Zählern um 2, wobei jeder Zähler den Krit. Schaden um 2 % erhöht.",
-      "value": {},
+      "description": "[Glückskind] erhöht die max. Anzahl an Zählern um 2, wobei jeder Zähler den Krit. Schaden um {0} % erhöht.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Reina/ut/4.png",
       "story": "Eine Nadel, die Reinas Mutter gehörte, einer bekannten Söldneranführerin im Kaiserreich.\nSie gab diese Nadel ihrer Tochter, als sie sich allein auf den Weg nach Orvel machte. Sie soll das Unglück fernhalten, kann in Notfällen aber auch als Waffe eingesetzt werden.",
       "descriptionByStar": {
         "0": "[Glückskind] erhöht die max. Anzahl an Zählern um 2, wobei jeder Zähler den Krit. Schaden um 2 % erhöht.",
-        "1": "[Glückskind] erhöht die max. Anzahl an Zählern um 2, wobei jeder Zähler den Krit. Schaden um 2,4 % erhöht.",
-        "2": "[Glückskind] erhöht die max. Anzahl an Zählern um 2, wobei jeder Zähler den Krit. Schaden um 2,9 % erhöht.",
-        "3": "[Glückskind] erhöht die max. Anzahl an Zählern um 2, wobei jeder Zähler den Krit. Schaden um 3,5 % erhöht.",
-        "4": "[Glückskind] erhöht die max. Anzahl an Zählern um 2, wobei jeder Zähler den Krit. Schaden um 4,2 % erhöht.",
+        "1": "[Glückskind] erhöht die max. Anzahl an Zählern um 2, wobei jeder Zähler den Krit. Schaden um 2.4 % erhöht.",
+        "2": "[Glückskind] erhöht die max. Anzahl an Zählern um 2, wobei jeder Zähler den Krit. Schaden um 2.9 % erhöht.",
+        "3": "[Glückskind] erhöht die max. Anzahl an Zählern um 2, wobei jeder Zähler den Krit. Schaden um 3.5 % erhöht.",
+        "4": "[Glückskind] erhöht die max. Anzahl an Zählern um 2, wobei jeder Zähler den Krit. Schaden um 4.2 % erhöht.",
         "5": "[Glückskind] erhöht die max. Anzahl an Zählern um 2, wobei jeder Zähler den Krit. Schaden um 5 % erhöht."
       }
     }

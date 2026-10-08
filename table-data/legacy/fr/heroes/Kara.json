@@ -159,18 +159,35 @@
     "story": "Cette relique provenant d'une civilisation antique est dotée d'un moteur qui fournit une énergie illimitée. Sa puissance, comparable à celle d'une arme de siège, pourrait même égaler la magie la plus sophistiquée. Cette arme fut retrouvée dans les ruines de l'ancien Grand-Duché de Gray, mais resta entreposée, car personne ne savait comment l'utiliser. Bien des années plus tard, Kara fut mise au jour et lorsqu'elle s'éveilla, l'arme se téléporta à ses côtés. Cette arme technomagique de premier plan fut conçue de manière comparable à Forteresse de la Montagne.",
     "descriptionByStar": {
       "0": "Augmente l'ATQ de 2% toutes les sec. Cet effet peut se cumuler jusqu'à 15 fois.",
-      "1": "Augmente l'ATQ de 1% chaque seconde. Cumulable 40 fois.",
-      "2": "Augmente l'ATQ de 1% chaque seconde. Cumulable 50 fois.",
-      "3": "Augmente l'ATQ de 1% chaque seconde. Cumulable 60 fois.",
-      "4": "Augmente l'ATQ de 1% chaque seconde. Cumulable 70 fois.",
-      "5": "Augmente l'ATQ de 1% chaque seconde. Cumulable 80 fois."
+      "1": "Augmente l'ATQ de 2% toutes les sec. Cet effet peut se cumuler jusqu'à 20 fois.",
+      "2": "Augmente l'ATQ de 2% toutes les sec. Cet effet peut se cumuler jusqu'à 25 fois.",
+      "3": "Augmente l'ATQ de 2% toutes les sec. Cet effet peut se cumuler jusqu'à 30 fois.",
+      "4": "Augmente l'ATQ de 2% toutes les sec. Cet effet peut se cumuler jusqu'à 35 fois.",
+      "5": "Augmente l'ATQ de 2% toutes les sec. Cet effet peut se cumuler jusqu'à 40 fois."
     }
   },
   "uts": {
     "1": {
       "name": "Lentille optique - MF002",
-      "description": "[Laser antipersonnel] Augmente les DEG de 20 % et les DEG M reçus par la cible de 25 % pendant 10 sec.\n[Laser de siège] Augmente les DEG de 20 % malgré le Blocage P et le Blocage M de la cible.",
-      "value": {},
+      "description": "[Laser antipersonnel] Augmente les DEG de {0} % et les DEG M reçus par la cible de 25 % pendant 10 sec.\n[Laser de siège] Augmente les DEG de {1} % malgré le Blocage P et le Blocage M de la cible.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        },
+        "1": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Kara/ut/1.png",
       "story": "Annette a fabriqué cette lentille optique pour Kara.\nElle s'inspira pour cela du plan qu'elle a trouvé en déterrant Kara. Il faisait appel à une technologie bien plus évoluée que toute l'ingénierie moderne, mais elle réussit à en interpréter certaines parties. Ses efforts furent récompensés par cette lentille, similaire aux yeux d'une libellule. Elle permet à celui qui la porte de détecter le moindre mouvement et d'apercevoir sa cible sous des centaines d'angles différents. Elle l'installa sur Kara, fer de lance de la technomagie, ce qui eut pour résultat d'améliorer considérablement son mode d'attaque.",
       "descriptionByStar": {
@@ -184,23 +201,49 @@
     },
     "2": {
       "name": "Dispositif d'enregistrement KARA-00XX",
-      "description": "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vitesse d'ATQ de la cible de 100 pendant 10 sec.\n\n[Tir focalisé] À chaque coup critique, réduit le temps de recharge de 2% et restaure 150 PM.",
-      "value": {},
+      "description": "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vitesse d'ATQ de la cible de {0} pendant 10 sec.\n\n[Tir focalisé] À chaque coup critique, réduit le temps de recharge de {1}% et restaure 150 PM.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        },
+        "1": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Kara/ut/2.png",
       "story": "Processeur et enregistreur faisant office de cerveau pour Kara.\nC'est un véritable trésor imprégné de sagesse ancestrale, et sa capacité dépasse de loin celle de n'importe quel humain.\nBien que cet appareil soit des plus sophistiqués, il peine à enregistrer et retranscrire les émotions.",
       "descriptionByStar": {
         "0": "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vitesse d'ATQ de la cible de 100 pendant 10 sec.\n\n[Tir focalisé] À chaque coup critique, réduit le temps de recharge de 2% et restaure 150 PM.",
-        "1": "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vitesse d'ATQ de la cible de 120 pendant 10 sec.\n\n[Tir focalisé] À chaque coup critique, réduit le temps de recharge de 2,4% et restaure 150 PM.",
-        "2": "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vitesse d'ATQ de la cible de 140 pendant 10 sec.\n\n[Tir focalisé] À chaque coup critique, réduit le temps de recharge de 2,9% et restaure 150 PM.",
-        "3": "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vitesse d'ATQ de la cible de 170 pendant 10 sec.\n\n[Tir focalisé] À chaque coup critique, réduit le temps de recharge de 3,5% et restaure 150 PM.",
-        "4": "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vitesse d'ATQ de la cible de 210 pendant 10 sec.\n\n[Tir focalisé] À chaque coup critique, réduit le temps de recharge de 4,2% et restaure 150 PM.",
+        "1": "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vitesse d'ATQ de la cible de 120 pendant 10 sec.\n\n[Tir focalisé] À chaque coup critique, réduit le temps de recharge de 2.4% et restaure 150 PM.",
+        "2": "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vitesse d'ATQ de la cible de 140 pendant 10 sec.\n\n[Tir focalisé] À chaque coup critique, réduit le temps de recharge de 2.9% et restaure 150 PM.",
+        "3": "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vitesse d'ATQ de la cible de 170 pendant 10 sec.\n\n[Tir focalisé] À chaque coup critique, réduit le temps de recharge de 3.5% et restaure 150 PM.",
+        "4": "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vitesse d'ATQ de la cible de 210 pendant 10 sec.\n\n[Tir focalisé] À chaque coup critique, réduit le temps de recharge de 4.2% et restaure 150 PM.",
         "5": "[Canon à large spectre] Augmente les DEG de 50% et réduit la Vitesse d'ATQ de la cible de 250 pendant 10 sec.\n\n[Tir focalisé] À chaque coup critique, réduit le temps de recharge de 5% et restaure 150 PM."
       }
     },
     "3": {
       "name": "Source d'alimentation antique",
-      "description": "[Sortir l'arme de siège] Augmente les DEG de 50% et réduit la DEF M de l'ennemi de 1% lorsque vous assénez un coup critique. La réduction de la DEF M est cumulable 20 fois.",
-      "value": {},
+      "description": "[Sortir l'arme de siège] Augmente les DEG de 50% et réduit la DEF M de l'ennemi de 1% lorsque vous assénez un coup critique. La réduction de la DEF M est cumulable {0} fois.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Kara/ut/3.png",
       "story": "Il s'agit de la source d'alimentation de Kara, mais aussi du plus grand chef-d'œuvre d'une ancienne civilisation oubliée.\nCette même technologie servit à Annette pour fabriquer le Rascal,\nmais même elle n'en comprit pas tous les aspects.\nCe moteur perpétuel génère un pouvoir magique illimité.",
       "descriptionByStar": {
@@ -229,11 +272,11 @@
       "story": "Lorsqu'Annette exhuma Kara, elle découvrit ce dessin qui n'est autre que le schéma d'une lentille optique.\nSur cette vieille feuille de parchemin usée étaient représentées diverses structures mécaniques accompagnées d'annotations dans une langue inconnue.\nGrâce à l'aide de Leo, elle réussit à traduire vaguement le contenu du schéma. Après quelques années de recherches, elle put enfin terminer Kara, fruit de la technomagie la plus avancée qui soit.",
       "descriptionByStar": {
         "0": "[Essence technomagique] Augmente l'augmentation de DEF de 50% et les DEG Crit du lanceur de 20%.",
-        "1": "[Essence technomagique] Augmente le boost d'ATQ et le boost de DEF de 50 % ainsi que les DEG Crit de 24 %.",
-        "2": "[Essence technomagique] Augmente le boost d'ATQ et le boost de DEF de 50 % ainsi que les DEG Crit de 29 %.",
-        "3": "[Essence technomagique] Augmente le boost d'ATQ et le boost de DEF de 50 % ainsi que les DEG Crit de 35 %.",
-        "4": "[Essence technomagique] Augmente le boost d'ATQ et le boost de DEF de 50 % ainsi que les DEG Crit de 42 %.",
-        "5": "[Essence technomagique] Augmente le boost d'ATQ et le boost de DEF de 50 % ainsi que les DEG Crit de 50 %."
+        "1": "[Essence technomagique] Augmente l'augmentation de DEF de 50% et les DEG Crit du lanceur de 24%.",
+        "2": "[Essence technomagique] Augmente l'augmentation de DEF de 50% et les DEG Crit du lanceur de 29%.",
+        "3": "[Essence technomagique] Augmente l'augmentation de DEF de 50% et les DEG Crit du lanceur de 35%.",
+        "4": "[Essence technomagique] Augmente l'augmentation de DEF de 50% et les DEG Crit du lanceur de 42%.",
+        "5": "[Essence technomagique] Augmente l'augmentation de DEF de 50% et les DEG Crit du lanceur de 50%."
       }
     }
   },

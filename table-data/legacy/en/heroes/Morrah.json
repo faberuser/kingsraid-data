@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Flame of Victory, Carprain",
-    "description": "Normal attacks have a 20% chance to reduce ATK of the target by 10% and cause the target to take 10% increased M.DMG for 10 sec. If the target has more than 100 stacks of Flame, M.DMG boost is doubled.",
-    "value": {},
+    "description": "Normal attacks have a 20% chance to reduce ATK of the target by {0}% and cause the target to take {1}% increased M.DMG for 10 sec. If the target has more than 100 stacks of Flame, M.DMG boost is doubled.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
     "thumbnail": "heroes/Morrah/uw.png",
     "story": "In the heart of the Dragia Volcano, there exists a smithy. Hundreds of years ago, Temeraire, the ancient fire dragon, created a set of magically enchanted gear. Using lava infused with the power of the volcanic fire, he forged a shield and a sword capable of incinerating anything. During the war against Demons, Temeraire presented these to a human warrior. Unfortunately, the warrior is said to have been defeated by Morrah. No one has seen this legendary gear since then. That is, until Morrah reappeared on the front line.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Hell's Eye",
-      "description": "[Burning Power] Increases DMG by 20%, and Flame stacked upon enemies become irremovable.",
-      "value": {},
+      "description": "[Burning Power] Increases DMG by {0}%, and Flame stacked upon enemies become irremovable.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Morrah/ut/1.png",
       "story": "The last eye of Belzebuna, a beast that feeds on the lava of hell.\nThe eye, the only one left out of 100, blazes with dark lunacy.\nThe beast smelt a sealing stone from Morrah, lost control, emerged from the lava, and dashed directly to her. Morrah, however, did not hesitate to stab its eyes with Carprain, and a completely different type of heat shriveled Belzebuna and absorbed its body. Looking at its entire body being crushed and the last eye wriggling on the ground, Morrah stuck it on her shield to mock the beast.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Hatchling Leather Gloves",
-      "description": "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by 100 and M.Crit resistance is increased by 250.",
-      "value": {},
+      "description": "[Hellfire] Upon blocking target's M.ATK during the skill's duration, DMG reduction is increased by {0} and M.Crit resistance is increased by 250.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Morrah/ut/2.png",
       "story": "Gloves made with a dark Hatchling's bones and skin. \nMorrah made it a hundred years ago by collecting the Hatchlings she killed when she went out to hunt dragons. \nIt's very durable to even withstand Morrah's flames, and even imbues a stronger power to let those flames blaze up even more.\nMorrah really likes these gloves.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Hellish Sealing Stone",
-      "description": "[Lava Eruption] Increases DMG by 20%, and reduces the target's M.DEF by 25% for 7 sec.",
-      "value": {},
+      "description": "[Lava Eruption] Increases DMG by {0}%, and reduces the target's M.DEF by 25% for 7 sec.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Morrah/ut/3.png",
       "story": "A strange fragment that came from the Dimensional Rift. Inside the fragment, there's a flame that kills anything that is living. The energy from its dimension is condensed within it. It's absolutely needed to complete Maria's plan.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Jewel of Inferno",
-      "description": "[Fire Smash] Increases the number of Flame stacks by 3. Hit targets have their ATK Spd reduced by 140 for 5 sec.",
-      "value": {},
+      "description": "[Fire Smash] Increases the number of Flame stacks by 3. Hit targets have their ATK Spd reduced by {0} for 5 sec.",
+      "value": {
+        "0": {
+          "0": "140",
+          "1": "170",
+          "2": "210",
+          "3": "250",
+          "4": "300",
+          "5": "360"
+        }
+      },
       "thumbnail": "heroes/Morrah/ut/4.png",
       "story": "A jewel containing the essence of Temeraire's Fire.\nWhen Temeraire was defeated, Morrah forcibly drew the Jewel of Inferno, the essence of Fire Dragon, out of it to enhance her Fire Smash.",
       "descriptionByStar": {

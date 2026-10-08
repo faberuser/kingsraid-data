@@ -27,7 +27,7 @@
       "name": "Vorsichtig~",
       "cost": "2",
       "cooldown": "8",
-      "description": "Heilt alle Verbündeten um ??? TP und verursacht Mag. Schaden in Höhe von ??? an allen Feinden. Getroffene Feinde werden 5 Sek. lang zum Schweigen gebracht.",
+      "description": "Heilt alle Verbündeten um ??? TP und verursacht Mag. Schaden in Höhe von ??? an allen Feinden. Getroffene Feinde werden 2 Sek. lang zum Schweigen gebracht.",
       "thumbnail": "heroes/Cassandra/skills/1.png"
     },
     "2": {
@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Goldenes Geflüster, Goldbreeze",
-    "description": "Skilltreffer erhöhen den vom Ziel erlittenen Mag. Schaden für 10 Sek. um 10 %. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um 200 % des eigenen ANG geheilt und alle negativen Effekte werden entfernt.",
-    "value": {},
+    "description": "Skilltreffer erhöhen den vom Ziel erlittenen Mag. Schaden für 10 Sek. um {0} %. Der Verbündete mit den wenigsten TP wird alle 8 Sek. um {1} % des eigenen ANG geheilt und alle negativen Effekte werden entfernt.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      }
+    },
     "thumbnail": "heroes/Cassandra/uw.png",
     "story": "Cassandra arbeitet nebenbei als Waffenhändlerin. Eines Tages gelangte sie in den Besitz eines gestohlenen Gegenstandes, der sofort ihre Aufmerksamkeit erregte. Es handelte sich dabei um einen schönen Fächer, verziert mit Gold und wertvollen Edelsteinen. Den Gerüchten zufolge überkam alle Frauen, denen dieser Fächer gehörte, großes Unglück. Als verfluchtes Objekt wechselte es daher oft seine Besitzer. Als Cassandra den Fächer erwarb, begann sie unverzüglich mit der Erforschung seiner Herkunft. Wie sich herausstellte wurde dieser Fächer, genannt Goldbreeze, als versteckte Waffe erschaffen. Es ist daher nicht allzu schwierig, sich vorzustellen, welches Unglück die Besitzerinnen des Fächers überkommen haben muss.",
     "descriptionByStar": {
@@ -146,23 +163,41 @@
   "uts": {
     "1": {
       "name": "Dekorationsfeder des Purpurroten Vogels",
-      "description": "[Vorsichtig~] erhöht die Heilungsrate um 50 % und die Dauer von Schweigen um 0,8 Sek.",
-      "value": {},
+      "description": "[Vorsichtig~] erhöht die Heilungsrate um 50 % und die Dauer von Schweigen um {0} Sek.",
+      "value": {
+        "0": {
+          "0": "0.8",
+          "1": "1",
+          "2": "1.2",
+          "3": "1.4",
+          "4": "1.7",
+          "5": "2"
+        }
+      },
       "thumbnail": "heroes/Cassandra/ut/1.png",
       "story": "Eine Dekoration, die aus der Feder des Purpurroten Vogels hergestellt wurde, einer wunderschönen aber gefährlichen Bestie.\nDie Feder strahlt für gewöhnlich dunkle Energie aus, aber sobald sie Licht ausgesetzt wird, leuchtet sie rot. Schwache Geister können sich den Halluzinationen nicht entziehen, die durch die prächtige, glänzende Farbe ausgelöst werden.",
       "descriptionByStar": {
-        "0": "[Vorsichtig~] erhöht die Heilungsrate um 50 % und die Dauer von Schweigen um 0,8 Sek.",
+        "0": "[Vorsichtig~] erhöht die Heilungsrate um 50 % und die Dauer von Schweigen um 0.8 Sek.",
         "1": "[Vorsichtig~] erhöht die Heilungsrate um 50 % und die Dauer von Schweigen um 1 Sek.",
-        "2": "[Vorsichtig~] erhöht die Heilungsrate um 50 % und die Dauer von Schweigen um 1,2 Sek.",
-        "3": "[Vorsichtig~] erhöht die Heilungsrate um 50 % und die Dauer von Schweigen um 1,4 Sek.",
-        "4": "[Vorsichtig~] erhöht die Heilungsrate um 50 % und die Dauer von Schweigen um 1,7 Sek.",
+        "2": "[Vorsichtig~] erhöht die Heilungsrate um 50 % und die Dauer von Schweigen um 1.2 Sek.",
+        "3": "[Vorsichtig~] erhöht die Heilungsrate um 50 % und die Dauer von Schweigen um 1.4 Sek.",
+        "4": "[Vorsichtig~] erhöht die Heilungsrate um 50 % und die Dauer von Schweigen um 1.7 Sek.",
         "5": "[Vorsichtig~] erhöht die Heilungsrate um 50 % und die Dauer von Schweigen um 2 Sek."
       }
     },
     "2": {
       "name": "Schickes Ornament",
-      "description": "[Heftig!] erhöht die Dauer um 5 Sek. und den Krit. Schaden um 20 %.",
-      "value": {},
+      "description": "[Heftig!] erhöht die Dauer um 5 Sek. und den Krit. Schaden um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Cassandra/ut/2.png",
       "story": "Ein luxuriöses Accessoire, das vom größten Juwelier auf dem Kontinent hergestellt wurde.\nEin Schmuckstück in limitierter Auflage, gefertigt von Juwelier Larik. Jeder in der High Society auf dem Orbis-Kontinent hätte gern eines davon. \nSeine Arbeit soll der Inbegriff des Kunsthandwerks sein sowie den Träger heilen und ihm Mut verleihen. \nEs gibt nur 3 dieser streng limitierten Schmuckstücke und eines davon gehört natürlich dem Meister der Goldenen Kneipe.",
       "descriptionByStar": {
@@ -176,23 +211,41 @@
     },
     "3": {
       "name": "Goldduft",
-      "description": "[Verführerische Welle] verringert Skill-Cooldown um 30 % und erhöht Bezaubert-Dauer um 1 Sek.",
-      "value": {},
+      "description": "[Verführerische Welle] verringert Skill-Cooldown um 30 % und erhöht Bezaubert-Dauer um {0} Sek.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.5",
+          "2": "2",
+          "3": "2.5",
+          "4": "3",
+          "5": "3.5"
+        }
+      },
       "thumbnail": "heroes/Cassandra/ut/3.png",
       "story": "Eine legendäre goldene Flammenhalskette. Der legendäre Goldkönig schuf diese goldene Flammenhalskette, um die Aufmerksamkeit der Göttin von Liebe und Schönheit zu erregen. \nIhr goldener Geruch erschafft eine Verführerische Welle, die jeden dazu bringt, sich auf die Seite des Trägers zu stellen und ihn zu verehren.",
       "descriptionByStar": {
         "0": "[Verführerische Welle] verringert Skill-Cooldown um 30 % und erhöht Bezaubert-Dauer um 1 Sek.",
-        "1": "[Verführerische Welle] verringert Skill-Cooldown um 30 % und erhöht Bezaubert-Dauer um 1,5 Sek.",
+        "1": "[Verführerische Welle] verringert Skill-Cooldown um 30 % und erhöht Bezaubert-Dauer um 1.5 Sek.",
         "2": "[Verführerische Welle] verringert Skill-Cooldown um 30 % und erhöht Bezaubert-Dauer um 2 Sek.",
-        "3": "[Verführerische Welle] verringert Skill-Cooldown um 30 % und erhöht Bezaubert-Dauer um 2,5 Sek.",
+        "3": "[Verführerische Welle] verringert Skill-Cooldown um 30 % und erhöht Bezaubert-Dauer um 2.5 Sek.",
         "4": "[Verführerische Welle] verringert Skill-Cooldown um 30 % und erhöht Bezaubert-Dauer um 3 Sek.",
-        "5": "[Verführerische Welle] verringert Skill-Cooldown um 30 % und erhöht Bezaubert-Dauer um 3,5 Sek."
+        "5": "[Verführerische Welle] verringert Skill-Cooldown um 30 % und erhöht Bezaubert-Dauer um 3.5 Sek."
       }
     },
     "4": {
       "name": "Riechfläschchen der Verführung",
-      "description": "[Sanfte Berührung] VERT-Boost kann nicht entfernt werden. Der Krit. Widerstand gesamt von allen Verbündeten wird für 10 Sek. um 100 erhöht.",
-      "value": {},
+      "description": "[Sanfte Berührung] VERT-Boost kann nicht entfernt werden. Der Krit. Widerstand gesamt von allen Verbündeten wird für 10 Sek. um {0} erhöht.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Cassandra/ut/4.png",
       "story": "Ein Riechfläschchen, das Cassandra von einem Schwarzmarkthändler aus dem Osten gekauft hat.\nEr riecht stark nach Azaleen.\nDie Flüssigkeit im Inneren besteht aus einer speziellen Substanz, die Leute erregt und sie dazu bringt, für eine bestimmte Zeit ihre größten Geheimnisse preiszugeben.\nCassandra nutzt das Fläschchen nur, wenn sie unbedingt Informationen braucht, da es so gut wie unmöglich ist, irgendwo ein anderes Exemplar zu kaufen.",
       "descriptionByStar": {

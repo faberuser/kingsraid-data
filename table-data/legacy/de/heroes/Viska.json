@@ -130,8 +130,17 @@
   },
   "uw": {
     "name": "Alptraumkralle, Kitrax",
-    "description": "Feinde, deren Seele gestohlen wurde, erhalten 25 % extra Mag. Schaden. Dauert 10 Sek. an.",
-    "value": {},
+    "description": "Feinde, deren Seele gestohlen wurde, erhalten {0} % extra Mag. Schaden. Dauert 10 Sek. an.",
+    "value": {
+      "0": {
+        "0": "25",
+        "1": "30",
+        "2": "36",
+        "3": "43",
+        "4": "51",
+        "5": "60"
+      }
+    },
     "thumbnail": "heroes/Viska/uw.png",
     "story": "Alptraum Kitrax war als beste und schrecklichste unter den Sukkuben bekannt. Nachdem Viska Kitrax im Ganzen und mit Seele verschlungen hatte, erzeugte sie daraufhin ihre mächtigste Waffe. Dieser Stachel ist die Verkörperung von Angst und Verzweiflung. Der Tod ist das einzige Schicksal seiner unglücklichen Opfer. Er injiziert fortwährend Angst in die Seele des Opfers, wodurch selbst die fähigsten Feinde nur mehr leichte Beute darstellen.",
     "descriptionByStar": {
@@ -146,23 +155,41 @@
   "uts": {
     "1": {
       "name": "Leckere Erinnerung",
-      "description": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann 1 Sek. lang kein Mana regenerieren.",
-      "value": {},
+      "description": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann {0} Sek. lang kein Mana regenerieren.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Viska/ut/1.png",
       "story": "Juwelen, die Viska dazu verwendet hat, die Erinnerungen an Dämonen zu speichern, die sie für lecker hielt.\nSie hatte schon immer das Gefühl, dass ihr Geschmack zu schnell verflüchtigte. Als sie einmal nichts Gutes zu essen finden konnten, ist ihr eine brillante Idee gekommen. Sie dachte, sie könnte die Träume aus Alptraumjuwelen von Alptraum Kitrax extrahieren und ihre Erinnerungen an köstliche Beute darin speichern. So konnte sie vergangene Freuden wieder aufleben lassen. Aufgeregt schloss sie eine Erinnerung an einen köstlichen Dämon in das Juwel ein und seitdem ist Viska ständig auf der Suche nach noch besser schmeckenden Dingen, die sie in Juwelen einschließen kann.",
       "descriptionByStar": {
         "0": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann 1 Sek. lang kein Mana regenerieren.",
-        "1": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann 1,2 Sek. lang kein Mana regenerieren.",
-        "2": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann 1,4 Sek. lang kein Mana regenerieren.",
-        "3": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann 1,7 Sek. lang kein Mana regenerieren.",
-        "4": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann 2,1 Sek. lang kein Mana regenerieren.",
-        "5": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann 2,5 Sek. lang kein Mana regenerieren."
+        "1": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann 1.2 Sek. lang kein Mana regenerieren.",
+        "2": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann 1.4 Sek. lang kein Mana regenerieren.",
+        "3": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann 1.7 Sek. lang kein Mana regenerieren.",
+        "4": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann 2.1 Sek. lang kein Mana regenerieren.",
+        "5": "[Zeit zum Essen!] erhöht den Schaden um 50 %. Das Ziel kann 2.5 Sek. lang kein Mana regenerieren."
       }
     },
     "2": {
       "name": "Klaue der wütenden Bestie",
-      "description": "[Ich schlitz' dich auf!] verringert den Cooldown um 30 % und fügt 8 % Mag. VERT-Verringerung hinzu.",
-      "value": {},
+      "description": "[Ich schlitz' dich auf!] verringert den Cooldown um 30 % und fügt {0} % Mag. VERT-Verringerung hinzu.",
+      "value": {
+        "0": {
+          "0": "8",
+          "1": "10",
+          "2": "12",
+          "3": "14",
+          "4": "17",
+          "5": "20"
+        }
+      },
       "thumbnail": "heroes/Viska/ut/2.png",
       "story": "Klaue der gewalttätigen magischen Bestie Urgol, die ihren Opfern die Seelen herausbeißen können soll.\nAm Tag, als Viska beschloss, in der materiellen Welt zu jagen, verschlang sie Urgol aus der Dämonenwelt.\nZusammen mit ihrer Fähigkeit, die Kräfte von anderen zu absorbieren, kam sie so zu großer Macht.\nDie Klaue ist außerdem notwendig, um Dämonen zu verschlingen, die in die materiellen Welt auftauchen.",
       "descriptionByStar": {
@@ -176,23 +203,41 @@
     },
     "3": {
       "name": "Seele des Riesendämons",
-      "description": "[Ich reiß' dich in Stücke!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden bei jeder Nutzung um 4 %. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
-      "value": {},
+      "description": "[Ich reiß' dich in Stücke!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden bei jeder Nutzung um {0} %. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
+      "value": {
+        "0": {
+          "0": "4",
+          "1": "4.8",
+          "2": "5.8",
+          "3": "7",
+          "4": "8.4",
+          "5": "10"
+        }
+      },
       "thumbnail": "heroes/Viska/ut/3.png",
       "story": "Kristalline Form der Seele des Großdämonen Curapis, der die Kraft besitzt, riesig anzuwachsen. Er war einer der ersten Dämonen, die Viska in der Dämonenwelt jagte und man sagt, dass er seinen mächtigen Körper dazu nutzte, um seine Feinde zu dominieren. Im Kampf geht es jedoch nicht nur um Kraft allein – man muss auch seinen Kopf benutzen. Der riesige Dämon wurde besiegt und von einer Räuberin gefressen, die ihr Gehirn benutzte. Viska erhielt die Kraft des Riesenwachstums und kann sie nun jederzeit einsetzen.",
       "descriptionByStar": {
         "0": "[Ich reiß' dich in Stücke!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden bei jeder Nutzung um 4 %. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
-        "1": "[Ich reiß' dich in Stücke!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden bei jeder Nutzung um 4,8 %. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
-        "2": "[Ich reiß' dich in Stücke!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden bei jeder Nutzung um 5,8 %. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
+        "1": "[Ich reiß' dich in Stücke!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden bei jeder Nutzung um 4.8 %. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
+        "2": "[Ich reiß' dich in Stücke!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden bei jeder Nutzung um 5.8 %. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
         "3": "[Ich reiß' dich in Stücke!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden bei jeder Nutzung um 7 %. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
-        "4": "[Ich reiß' dich in Stücke!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden bei jeder Nutzung um 8,4 %. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
+        "4": "[Ich reiß' dich in Stücke!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden bei jeder Nutzung um 8.4 %. Effekt kann sich bis zu max. 10-mal gestapelt werden.",
         "5": "[Ich reiß' dich in Stücke!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden bei jeder Nutzung um 10 %. Effekt kann sich bis zu max. 10-mal gestapelt werden."
       }
     },
     "4": {
       "name": "Symbol der Völlerei",
-      "description": "[Lecker, Seelen!] erhöht die MP beim Erhalt einer Seele um 100. Jeder Stapel Seele gewährt 70 Massenkontrolle-PRÄZ.",
-      "value": {},
+      "description": "[Lecker, Seelen!] erhöht die MP beim Erhalt einer Seele um {0}. Jeder Stapel Seele gewährt 70 Massenkontrolle-PRÄZ.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Viska/ut/4.png",
       "story": "Hierbei handelt es sich um kristallisierte Manaenergie von „Araneck“, einer Bestie, die die „Völlerei“ verschluckt hatte und zu den Bestien der 7 Sünden zählt. Sie wurde von Viska getötet, nachdem sie in die materielle Welt gekommen war.\nDie Farbe des Juwels in der Mitte des Kristalls spiegelt die Macht seines Besitzers wider. Das Juwel war ursprünglich durchsichtig, doch als Viska es berührte, begann es rot zu leuchten und auf seiner Oberfläche ein kleines Muster zu entstehen.\nMit Viskas Macht wuchs auch das Muster, und sie dachte immer wieder darüber nach, wie das Muster wohl aussehen würde, wenn sie zum Dunklen Lord ernannt werden würde.",
       "descriptionByStar": {

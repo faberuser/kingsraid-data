@@ -130,7 +130,7 @@
   },
   "uw": {
     "name": "Flenos, la Flamme primitive",
-    "description": "Augmente la Vitesse d'ATQ de {0}. Inflige des DEG M supplémentaires à hauteur de {1}% de l'ATQ pour chaque charge de Braise portée par la cible.",
+    "description": "Augmente la Vitesse d'ATQ de {0}. Lors d'une attaque de compétence, inflige des DEG M supplémentaires à hauteur de {1}% de l'ATQ pour chaque charge de Braise portée par la cible.",
     "value": {
       "0": {
         "0": "200",
@@ -152,12 +152,12 @@
     "thumbnail": "heroes/Cleo/uw.png",
     "story": "L'essence de la Première Flamme du monde. Le seigneur des Élementaires de Feu offrit cette gemme magnifique à un Humain qui était entré en contact avec lui. Au fil du temps, elle finit entre les mains d'un archimage, qui l'inséra au sein de son bâton. Plus tard, l'archimage offrit le bâton à son précieux disciple.",
     "descriptionByStar": {
-      "0": "Augmente la Vitesse d'ATQ de 200. Inflige des DEG M supplémentaires à hauteur de 3% de l'ATQ pour chaque charge de Braise portée par la cible.",
-      "1": "Chaque coup de compétence inflige des DEG M supplémentaires égaux à 3,6% de l'ATQ par charge de Braises qui pèse sur les ennemis.",
-      "2": "Chaque coup de compétence inflige des DEG M supplémentaires égaux à 4,3% de l'ATQ par charge de Braises qui pèse sur les ennemis.",
-      "3": "Chaque coup de compétence inflige des DEG M supplémentaires égaux à 5,2% de l'ATQ par charge de Braises qui pèse sur les ennemis.",
-      "4": "Chaque coup de compétence inflige des DEG M supplémentaires égaux à 6,3% de l'ATQ par charge de Braises qui pèse sur les ennemis.",
-      "5": "Chaque coup de compétence inflige des DEG M supplémentaires égaux à 7,5% de l'ATQ par charge de Braises qui pèse sur les ennemis."
+      "0": "Augmente la Vitesse d'ATQ de 200. Lors d'une attaque de compétence, inflige des DEG M supplémentaires à hauteur de 3% de l'ATQ pour chaque charge de Braise portée par la cible.",
+      "1": "Augmente la Vitesse d'ATQ de 240. Lors d'une attaque de compétence, inflige des DEG M supplémentaires à hauteur de 3.6% de l'ATQ pour chaque charge de Braise portée par la cible.",
+      "2": "Augmente la Vitesse d'ATQ de 290. Lors d'une attaque de compétence, inflige des DEG M supplémentaires à hauteur de 4.3% de l'ATQ pour chaque charge de Braise portée par la cible.",
+      "3": "Augmente la Vitesse d'ATQ de 350. Lors d'une attaque de compétence, inflige des DEG M supplémentaires à hauteur de 5.2% de l'ATQ pour chaque charge de Braise portée par la cible.",
+      "4": "Augmente la Vitesse d'ATQ de 420. Lors d'une attaque de compétence, inflige des DEG M supplémentaires à hauteur de 6.3% de l'ATQ pour chaque charge de Braise portée par la cible.",
+      "5": "Augmente la Vitesse d'ATQ de 500. Lors d'une attaque de compétence, inflige des DEG M supplémentaires à hauteur de 7.5% de l'ATQ pour chaque charge de Braise portée par la cible."
     }
   },
   "uts": {
@@ -178,17 +178,26 @@
       "story": "Une lanterne magique provenant de la Tour du sage.\nLa première flamme de la Tour du sage, tirée du phénix qui jamais ne s'éteint, est enfermée à l'intérieur. Dominic en a toujours pris grand soin, car les phénix sont à présent menacés, mais Cleo, insouciante, s'en sert pour améliorer son sort Pointe de feu, malgré les mises en garde de son maître.",
       "descriptionByStar": {
         "0": "[Pointe de feu] Réduit 100 PM de la cible à chaque coup porté et augmente les DEG de 10% à chaque utilisation. Cet effet peut se cumuler jusqu'à 10 fois.",
-        "1": "[Pointe de feu] Cible l'ennemi à l'ATQ la plus élevée et réduit ses PM de 120.",
-        "2": "[Pointe de feu] Cible l'ennemi à l'ATQ la plus élevée et réduit ses PM de 140.",
-        "3": "[Pointe de feu] Cible l'ennemi à l'ATQ la plus élevée et réduit ses PM de 170.",
-        "4": "[Pointe de feu] Cible l'ennemi à l'ATQ la plus élevée et réduit ses PM de 210.",
-        "5": "[Pointe de feu] Cible l'ennemi à l'ATQ la plus élevée et réduit ses PM de 250."
+        "1": "[Pointe de feu] Réduit 120 PM de la cible à chaque coup porté et augmente les DEG de 10% à chaque utilisation. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "2": "[Pointe de feu] Réduit 140 PM de la cible à chaque coup porté et augmente les DEG de 10% à chaque utilisation. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "3": "[Pointe de feu] Réduit 170 PM de la cible à chaque coup porté et augmente les DEG de 10% à chaque utilisation. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "4": "[Pointe de feu] Réduit 210 PM de la cible à chaque coup porté et augmente les DEG de 10% à chaque utilisation. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "5": "[Pointe de feu] Réduit 250 PM de la cible à chaque coup porté et augmente les DEG de 10% à chaque utilisation. Cet effet peut se cumuler jusqu'à 10 fois."
       }
     },
     "2": {
       "name": "Élixir de Flamel",
-      "description": "[Boule de feu] Réduit le coût en PM de 1 et augmente les DEG infligés de 20 %.",
-      "value": {},
+      "description": "[Boule de feu] Réduit le coût en PM de 1 et augmente les DEG infligés de {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Cleo/ut/2.png",
       "story": "Élixir obtenu par Flamel, l’alchimiste de feu, en condensant des essences de flamme.\nTous les mages du monde envient le feu de Flamel, qui brûle sans interruption. L’essence de flamme qu’il a obtenue grâce aux salamandres du volcan Dragia décuple les effets de Boule de Feu.",
       "descriptionByStar": {
@@ -202,8 +211,17 @@
     },
     "3": {
       "name": "Parchemin d'enfer brûlant",
-      "description": "[Pluie de Feu] Augmente les DEG infligés de 20% et réduit le temps de recharge de la compétence de 5% lors d'un coup critique sur un ennemi portant plus de 5 Charges de Braises. De plus, réduit le temps de recharge de 20% supplémentaire lorsque vous éliminez un ennemi avec cette compétence.",
-      "value": {},
+      "description": "[Pluie de Feu] Augmente les DEG infligés de {0}% et réduit le temps de recharge de la compétence de 5% lors d'un coup critique sur un ennemi portant plus de 5 Charges de Braises. De plus, réduit le temps de recharge de 20% supplémentaire lorsque vous éliminez un ennemi avec cette compétence.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Cleo/ut/3.png",
       "story": "Un parchemin rédigé par une mage de feu connue sous le nom de Déesse du Feu. Un parchemin laissé par la grande Archimage du Feu d’Orvelia, Vesta, lorsqu’elle était à la Tour des Sages. Il est très puissant, mais demande beaucoup de mana. Cleo prit le Parchemin d’enfer brûlant dans la Tour des Sages, alors que c’est un parchemin interdit. Elle l’utilise désormais pour améliorer sa Pluie de Feu.",
       "descriptionByStar": {
@@ -217,17 +235,26 @@
     },
     "4": {
       "name": "Initiation aux sorts de sorcière rouge",
-      "description": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit 1 % de DEG M supplémentaire par charge.",
-      "value": {},
+      "description": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit {0} % de DEG M supplémentaire par charge.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Cleo/ut/4.png",
       "story": "Un grimoire détaillant comment utiliser la magie de feu pour la Sorcière Rouge.\nLa plupart des mages jugent ce livre tabou, car la puissance destructrice des sorts qu'il contient peut faire sombrer la personne qui s'en sert dans la folie. Cependant, cela ne l'empêche pas de circuler secrètement au sein de l'empire.",
       "descriptionByStar": {
         "0": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit 1 % de DEG M supplémentaire par charge.",
-        "1": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit 1,2 % de DEG M supplémentaires par charge.",
-        "2": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit 1,4 % de DEG M supplémentaires par charge.",
-        "3": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit 1,7 % de DEG M supplémentaires par charge.",
-        "4": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit 2,1 % de DEG M supplémentaires par charge.",
-        "5": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit 2,5 % de DEG M supplémentaire par charge."
+        "1": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit 1.2 % de DEG M supplémentaire par charge.",
+        "2": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit 1.4 % de DEG M supplémentaire par charge.",
+        "3": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit 1.7 % de DEG M supplémentaire par charge.",
+        "4": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit 2.1 % de DEG M supplémentaire par charge.",
+        "5": "[Diffusion de flammes] Rend Braises inamovible, et la cible subit 2.5 % de DEG M supplémentaire par charge."
       }
     }
   },

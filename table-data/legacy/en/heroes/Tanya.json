@@ -153,18 +153,27 @@
     "story": "The Demon War dates back to 100 years ago. During this war, the greatest threat to mankind was, without a doubt, the high-ranking Demon officers. Caethasis, the Demon of the Calm, was especially dangerous among them. Countless wizards and priests were slaughtered by this Demon who specifically targeted magic users for their souls. Eventually, Caethasis was defeated by Kyle, and its core was sealed away. However, years later, the core came into the possession of the Laughing Mask and it once again served as an instrument of death.",
     "descriptionByStar": {
       "0": "At the beginning of each battle, becomes Stealth for 10 sec and dodges all attacks for 2 sec. Every time Tanya becomes Stealth, her Crit DMG increases by 30% for 10 sec.",
-      "1": "Turns into Stealth mode for 10 sec at the beginning of each battle. While in Stealth mode, own Crit DMG will be increased by 36% for 10 sec.",
-      "2": "Turns into Stealth mode for 10 sec at the beginning of each battle. While in Stealth mode, own Crit DMG will be increased by 43% for 10 sec.",
-      "3": "Turns into Stealth mode for 10 sec at the beginning of each battle. While in Stealth mode, own Crit DMG will be increased by 52% for 10 sec.",
-      "4": "Turns into Stealth mode for 10 sec at the beginning of each battle. While in Stealth mode, own Crit DMG will be increased by 62% for 10 sec.",
-      "5": "Turns into Stealth mode for 10 sec at the beginning of each battle. While in Stealth mode, own Crit DMG will be increased by 75% for 10 sec."
+      "1": "At the beginning of each battle, becomes Stealth for 10 sec and dodges all attacks for 2.4 sec. Every time Tanya becomes Stealth, her Crit DMG increases by 36% for 10 sec.",
+      "2": "At the beginning of each battle, becomes Stealth for 10 sec and dodges all attacks for 2.9 sec. Every time Tanya becomes Stealth, her Crit DMG increases by 43% for 10 sec.",
+      "3": "At the beginning of each battle, becomes Stealth for 10 sec and dodges all attacks for 3.5 sec. Every time Tanya becomes Stealth, her Crit DMG increases by 52% for 10 sec.",
+      "4": "At the beginning of each battle, becomes Stealth for 10 sec and dodges all attacks for 4.2 sec. Every time Tanya becomes Stealth, her Crit DMG increases by 62% for 10 sec.",
+      "5": "At the beginning of each battle, becomes Stealth for 10 sec and dodges all attacks for 5 sec. Every time Tanya becomes Stealth, her Crit DMG increases by 75% for 10 sec."
     }
   },
   "uts": {
     "1": {
       "name": "Copied Codex of Stealth",
-      "description": "[Target Sighted] Increases DMG by 50%, and after use, recovers Mana by 400.",
-      "value": {},
+      "description": "[Target Sighted] Increases DMG by 50%, and after use, recovers Mana by {0}.",
+      "value": {
+        "0": {
+          "0": "400",
+          "1": "480",
+          "2": "580",
+          "3": "700",
+          "4": "840",
+          "5": "1000"
+        }
+      },
       "thumbnail": "heroes/Tanya/ut/1.png",
       "story": "Laughing Mask has a secret training manual of veteran assassins' stealth techniques.\nThis book describes stealth skills and their applications in detail. Tanya added her own tips, making this manual even more valuable.",
       "descriptionByStar": {
@@ -178,8 +187,17 @@
     },
     "2": {
       "name": "Laughing Mask All-round Belt",
-      "description": "[Blade Tornado] Increases DMG by 20% and reduces Cooldown by 8% upon a Crit Hit.",
-      "value": {},
+      "description": "[Blade Tornado] Increases DMG by {0}% and reduces Cooldown by 8% upon a Crit Hit.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Tanya/ut/2.png",
       "story": "A multi-purpose tool of Laughing Masks used for assassination. \nIt is a unique item for Laughing Masks, known for their speed and efficiency in eliminating their targets. \nOptimized to the wearer's attacking patterns, it improves the handling of throwing weapons and enhances continuous attacks while casting Blade Tornado.",
       "descriptionByStar": {
@@ -193,8 +211,17 @@
     },
     "3": {
       "name": "Dagger of Silence",
-      "description": "[Whisper of Death] Increases DMG by 20%. Upon use, immediately gains Stealth. If used during Stealth state, increases ATK by 20% for 10 sec.",
-      "value": {},
+      "description": "[Whisper of Death] Increases DMG by {0}%. Upon use, immediately gains Stealth. If used during Stealth state, increases ATK by 20% for 10 sec.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Tanya/ut/3.png",
       "story": "A dagger given to those who complete the first mission of the Laughing Mask. There's a rule that says that assassins should always carry the dagger that has traces of their target. \nThe silent dagger that assassins carry like an amulet consistently whispers to them about death.",
       "descriptionByStar": {
@@ -208,8 +235,17 @@
     },
     "4": {
       "name": "Needle of Silence",
-      "description": "[Silent Ambush] Upon activation, recovers own Mana by 100 while reducing the target's Mana by 200.",
-      "value": {},
+      "description": "[Silent Ambush] Upon activation, recovers own Mana by {0} while reducing the target's Mana by 200.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Tanya/ut/4.png",
       "story": "A secret weapon that the leader of the Laughing Masks made for Tanya.\nAfter watching Tanya flawlessly accomplish countless missions, the leader decided that Tanya was the right one to be sent to the most dangerous of missions and had this secret weapon of Laughing Mask, 'Needle of Silence' delivered to her.\nMade with advanced biotechnology, it causes the energy flowing inside the body to regurgitate, killing the opponent in the blink of an eye.\nMost importantly, it is something that would help Tanya to keep the vow of silence when things go wrong and the mission is compromised.",
       "descriptionByStar": {

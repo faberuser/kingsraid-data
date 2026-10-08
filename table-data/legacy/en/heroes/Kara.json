@@ -159,18 +159,35 @@
     "story": "An artifact from an ancient civilization that has an engine that provides unlimited power. It's a mighty weapon with the power of a siege weapon, and its power comes close to that of the highest-rank magic. This weapon was found in the ruins of the old Dukedom of Gray, but it remained in storage since no one knew how to use it. Long after that, Kara was excavated and once she awakened, it teleported to her side. The highest-ranking technomagic weapon that was made in a similar way as the Mountain Fortress.",
     "descriptionByStar": {
       "0": "Increases ATK by 2% every sec. Can be stacked up to max 15 times.",
-      "1": "Increases ATK by 1% every sec. Can be stacked up to 40 times.",
-      "2": "Increases ATK by 1% every sec. Can be stacked up to 50 times.",
-      "3": "Increases ATK by 1% every sec. Can be stacked up to 60 times.",
-      "4": "Increases ATK by 1% every sec. Can be stacked up to 70 times.",
-      "5": "Increases ATK by 1% every sec. Can be stacked up to 80 times."
+      "1": "Increases ATK by 2% every sec. Can be stacked up to max 20 times.",
+      "2": "Increases ATK by 2% every sec. Can be stacked up to max 25 times.",
+      "3": "Increases ATK by 2% every sec. Can be stacked up to max 30 times.",
+      "4": "Increases ATK by 2% every sec. Can be stacked up to max 35 times.",
+      "5": "Increases ATK by 2% every sec. Can be stacked up to max 40 times."
     }
   },
   "uts": {
     "1": {
       "name": "Optical Lens - MF002",
-      "description": "[Anti-personnel Laser] Increases DMG by 20% and for 10 sec, increases M.DMG target receives by 25%.\n[Siege Laser] Increases DMG by 20% and ignores target's P.Block and M.Block.",
-      "value": {},
+      "description": "[Anti-personnel Laser] Increases DMG by {0}% and for 10 sec, increases M.DMG target receives by 25%.\n[Siege Laser] Increases DMG by {1}% and ignores target's P.Block and M.Block.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        },
+        "1": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Kara/ut/1.png",
       "story": "An optical Lens Annette made for Kara.\nShe made it based on the blueprint she discovered while digging Kara out of the ground. The blueprint revealed technology that was far beyond modern engineering, but she managed to interpret some of its content. The result of her study on the blueprint was this lens, which had a similar structure to the eyes of dragonflies. The lens enables the wearer to detect the tiniest of motions and catch sight of the target from hundreds of different angles. She equipped the lens on Kara, the pinnacle of Technomagic, and it resulted in a massive improvement in her attack mode change.",
       "descriptionByStar": {
@@ -184,8 +201,25 @@
     },
     "2": {
       "name": "Recording Device KARA-00XX",
-      "description": "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by 100 for 10 sec.\n\n[Focused Fire] Reduces Cooldown by 2% upon a Crit Hit and recovers 150 Mana.",
-      "value": {},
+      "description": "[Wide-area Cannon] Increases DMG by 50% and reduces ATK Spd of the target by {0} for 10 sec.\n\n[Focused Fire] Reduces Cooldown by {1}% upon a Crit Hit and recovers 150 Mana.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        },
+        "1": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Kara/ut/2.png",
       "story": "A recording device and processor that works as Kara's brain.\nIt's a treasure that is filled with ancient wisdom, and its capacity far surpasses that of humans.\nDespite being such an incredible device, it has a hard time recording and replicating emotions.",
       "descriptionByStar": {
@@ -199,8 +233,17 @@
     },
     "3": {
       "name": "Ancient Power Source",
-      "description": "[Release Siege Weapon] Increases DMG by 50% and decreases the target's M.DEF by 1% upon a Crit Hit. M.DEF Reduction Effect can be stacked up to 20 times.",
-      "value": {},
+      "description": "[Release Siege Weapon] Increases DMG by 50% and decreases the target's M.DEF by 1% upon a Crit Hit. M.DEF Reduction Effect can be stacked up to {0} times.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Kara/ut/3.png",
       "story": "Kara's source of power and one of the greatest masterpieces of an ancient civilization that has been long forgotten.\nIt's the basic technology that Annette used to make the Rascal, \nbut not even she has been able to figure out everything about this special technology.\nA permanent engine that continuously creates unlimited magic power.",
       "descriptionByStar": {
@@ -229,11 +272,11 @@
       "story": "When Annette excavated Kara, she found this drawing with the blueprint of the optical lens.\nOn the old and worn piece of parchment was a drawing of different mechanical structures, annotated with an unknown language.\nWith Leo's help, she could vaguely translate the content of the drawing. Over the years of research, she could finally complete 'Kara,' the product of the most advanced technomagic.",
       "descriptionByStar": {
         "0": "[Essence of Technomagic] Increases DEF Boost by 50% and own Crit DMG by 20%.",
-        "1": "[Essence of Technomagic] Increases ATK and DEF boost by 50%. Crit DMG of self is increased by 24%.",
-        "2": "[Essence of Technomagic] Increases ATK and DEF boost by 50%. Crit DMG of self is increased by 29%.",
-        "3": "[Essence of Technomagic] Increases ATK and DEF boost by 50%. Crit DMG of self is increased by 35%.",
-        "4": "[Essence of Technomagic] Increases ATK and DEF boost by 50%. Crit DMG of self is increased by 42%.",
-        "5": "[Essence of Technomagic] Increases ATK and DEF boost by 50%. Crit DMG of self is increased by 50%."
+        "1": "[Essence of Technomagic] Increases DEF Boost by 50% and own Crit DMG by 24%.",
+        "2": "[Essence of Technomagic] Increases DEF Boost by 50% and own Crit DMG by 29%.",
+        "3": "[Essence of Technomagic] Increases DEF Boost by 50% and own Crit DMG by 35%.",
+        "4": "[Essence of Technomagic] Increases DEF Boost by 50% and own Crit DMG by 42%.",
+        "5": "[Essence of Technomagic] Increases DEF Boost by 50% and own Crit DMG by 50%."
       }
     }
   },

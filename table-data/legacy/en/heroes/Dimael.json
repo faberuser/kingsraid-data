@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Tears of the Moon, Nerius",
-    "description": "Each attack has a 10 % chance of dealing 100 % of ATK as M.DMG, and all skill cooldown is reduced by 10 %.",
-    "value": {},
+    "description": "Each attack has a {0} % chance of dealing {1} % of ATK as M.DMG, and all skill cooldown is reduced by 10 %.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "20",
+        "5": "25"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      }
+    },
     "thumbnail": "heroes/Dimael/uw.png",
     "story": "A treasure of the Dark Elves created using a powerful moonlight stone from Arrovina and a moon tree branch of the highest quality. Nerius is a perfect medium for Moonlight Magic, and it is one of the most powerful magic weapons of the Dark Elves. However, it is said that the beautiful silver light of the moon can easily be tainted by darkness. A sublime love has turned into deep darkness, and the dark elf longing for vengeance has fused that darkness into this weapon.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Vow of Black Moon",
-      "description": "[Dark Rampage] Dispels all negative effects from self and reduces Cooldown by 1 sec.",
-      "value": {},
+      "description": "[Dark Rampage] Dispels all negative effects from self and reduces Cooldown by {0} sec.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Dimael/ut/1.png",
       "story": "One of the daggers that Dimael shared with his comrades dispatched in Aegina.\nWhen the Black Moon rose in the desert sky, he gave them these daggers and they all vowed to face their destiny.\nThey supported each other and tended to each other's wounds while fighting the evil creatures storming out from the rift.\nHowever, he was the only one who returned alive from Aegina.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Unbreakable Bracelet",
-      "description": "[Black Shackle] Increases DMG by 50% and increases M.Weakness of the target by 10% for 10 sec.",
-      "value": {},
+      "description": "[Black Shackle] Increases DMG by 50% and increases M.Weakness of the target by {0}% for 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Dimael/ut/2.png",
       "story": "A bracelet that was shared with Epigael a long time ago. It has shadow morion hanging, which is a precious jewel amongst the Dark Elves. \nIt is said that those who cut off the shadow morion and will have a thread of their souls, which will lead them to meet again in the next life.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Eye of Shadows",
-      "description": "[Shadow Wave] Increases DMG by 50% and the duration of Blind by 2 sec.",
-      "value": {},
+      "description": "[Shadow Wave] Increases DMG by 50% and the duration of Blind by {0} sec.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.5",
+          "2": "3",
+          "3": "3.5",
+          "4": "4",
+          "5": "4.5"
+        }
+      },
       "thumbnail": "heroes/Dimael/ut/3.png",
       "story": "Tear fragments of the beast Heltanios, who lived at the bottom of the Fountain of Life. It spews out pitch darkness, and those who see its eyes end up having their souls stolen by the powerful dark energy.\nThose who become the master of these eyes will obtain great power and insight. When Dimael was captured in Aegina and was at the brink of death, Maria embedded these eye fragments.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Black Crown",
-      "description": "[Black Stain] Increases the Range of normal attacks by 20%, each hit increasing DMG by 2%. This effect can be stacked up to max 10 times.",
-      "value": {},
+      "description": "[Black Stain] Increases the Range of normal attacks by 20%, each hit increasing DMG by {0}%. This effect can be stacked up to max 10 times.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Dimael/ut/4.png",
       "story": "The crown of Dark Elves.\nRemebering the fall and tragedy of his race and the royal family, Dimael still can't wear this bloody crown.\nAll he can do is watch it and wait for the day the true king of Dark Elves appears.",
       "descriptionByStar": {

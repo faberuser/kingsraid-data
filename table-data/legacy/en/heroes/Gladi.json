@@ -130,8 +130,17 @@
   },
   "uw": {
     "name": "Beast Fist, Mastra",
-    "description": "Upon a Crit Hit, Crit. DMG is increased by 20% for 5 sec. This effect can be stacked up to 7 times max.",
-    "value": {},
+    "description": "Upon a Crit Hit, Crit. DMG is increased by {0}% for 5 sec. This effect can be stacked up to 7 times max.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      }
+    },
     "thumbnail": "heroes/Gladi/uw.png",
     "story": "A pair of gauntlets custom forged for Gladi. They are the proof of his winning the championship at the Orvel Arena. Supposedly, these were crafted from a legendary pair of gauntlets used by a man who was known as the War God hundreds of years ago. These gauntlets, specialized for smashing the opponent, greatly enhance the power of their wearer. However, the physical cost of using them is brutal, and no normal person can handle them. Unless the wearer is incredibly flexible, and physically capable of withstanding the impact of each blow, using them is almost suicidal. Nevertheless, Gladi's natural strength and flexibility allow him to use them freely.",
     "descriptionByStar": {
@@ -146,8 +155,17 @@
   "uts": {
     "1": {
       "name": "Intolerable Feather",
-      "description": "[Quick Strikes] Increases DMG by 50%, and makes the target unable to recover Mana for 2 sec.",
-      "value": {},
+      "description": "[Quick Strikes] Increases DMG by 50%, and makes the target unable to recover Mana for {0} sec.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Gladi/ut/1.png",
       "story": "You just can't stop throwing punches!\nThe mysterious feather wavering before the eyes pushes Gladi's concentration to its limit so that he can land strikes at a crazy speed. Gladi seems a bit too excited when he's looking at it.",
       "descriptionByStar": {
@@ -161,8 +179,17 @@
     },
     "2": {
       "name": "Silvervine Box",
-      "description": "[Advent of the War God] Recovers 100 Mana every sec and stacks 1 [This will hurt!] upon dealing additional P.DMG for the duration of Skill.",
-      "value": {},
+      "description": "[Advent of the War God] Recovers {0} Mana every sec and stacks 1 [This will hurt!] upon dealing additional P.DMG for the duration of Skill.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Gladi/ut/2.png",
       "story": "Silvervine is used to exponentially boost physical ability. \nNothing else, but this silvervine. Others may try chewing silvervine, drink it, boil it, but it won't work.\nGladi just needs this silvervine to have the effect of the War God.",
       "descriptionByStar": {
@@ -176,8 +203,17 @@
     },
     "3": {
       "name": "Champion's Laurel Wreath",
-      "description": "[Ultimate Punch!] Skill cooldown is reduced by 30% and per each activation DMG is increased by 4%. This effect can be stacked max 10 times.",
-      "value": {},
+      "description": "[Ultimate Punch!] Skill cooldown is reduced by 30% and per each activation DMG is increased by {0}%. This effect can be stacked max 10 times.",
+      "value": {
+        "0": {
+          "0": "4",
+          "1": "4.8",
+          "2": "5.8",
+          "3": "7",
+          "4": "8.4",
+          "5": "10"
+        }
+      },
       "thumbnail": "heroes/Gladi/ut/3.png",
       "story": "Wreath given to the strongest warrior of Orbis Continent. It's only given to the winner of the fighting tournament that happens every 4 years. Those who wear this wreath are said to be able to borrow the strength of the War God.",
       "descriptionByStar": {
@@ -191,8 +227,17 @@
     },
     "4": {
       "name": "Elastic Bandage of Fighting Spirit",
-      "description": "[This will hurt!] Increases DMG by 50%. Upon activation, a target takes 2% increased P.DMG for 10 sec. This effect can be stacked up to max 6 times.",
-      "value": {},
+      "description": "[This will hurt!] Increases DMG by 50%. Upon activation, a target takes {0}% increased P.DMG for 10 sec. This effect can be stacked up to max 6 times.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Gladi/ut/4.png",
       "story": "A roll of elastic bandage that Gladi wears around his fists when someone really needs a good punch to the face.\nIt was a present that his master gave him a long time ago.\nGladi rarely gets mad after he started to work at the shop in the Arena, but he would take the bandage out for nasty customers who keep whining that they need weapons that exceed their capabilities, or those who dishonor the War God, whom he respects dearly.\nGladi is a big-hearted man who knows how to let things go with a good laugh, but if you see him wrapping the bandage around his fists silently,\nthat could be your last day.",
       "descriptionByStar": {

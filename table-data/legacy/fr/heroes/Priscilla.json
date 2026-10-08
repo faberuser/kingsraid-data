@@ -130,24 +130,42 @@
   },
   "uw": {
     "name": "Excilius, la Danse tumultueuse",
-    "description": "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de de 1 sec et la Vitesse d'ATQ est augmentée de 50 par ennemi touché. L'augmentation de la Vitesse d'ATQ est cumulable 10 fois.",
-    "value": {},
+    "description": "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de {0} sec et la Vitesse d'ATQ est augmentée de 50 pendant 5 sec par ennemi touché. L'augmentation de la Vitesse d'ATQ est cumulable 10 fois.",
+    "value": {
+      "0": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.7",
+        "4": "2",
+        "5": "2.5"
+      }
+    },
     "thumbnail": "heroes/Priscilla/uw.png",
     "story": "Durant sa carrière militaire, Priscilla terrassa d'innombrables ennemis à l'aide de sa hallebarde. Si l'arme a été négligée une fois sa propriétaire à la retraite, elle fut par la suite ressuscitée sous le nom d'Exilius. Cette amélioration survint à l'occasion d'une commande reçue par Annette visant à créer Mahitra pour Aisha. Cette nouvelle arme tranchante comme une lame de rasoir et incroyablement résistante possède même le pouvoir d'attirer ses ennemis. Ceux qui ont eu l'occasion de voir Priscilla en action affirment qu'ils ont eu l'impression de regarder une irrésistible tempête se déchaîner.",
     "descriptionByStar": {
-      "0": "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de de 1 sec et la Vitesse d'ATQ est augmentée de 50 par ennemi touché. L'augmentation de la Vitesse d'ATQ est cumulable 10 fois.",
-      "1": "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de de 1,2 sec et la Vitesse d'ATQ est augmentée de 50 par ennemi touché. L'augmentation de la Vitesse d'ATQ est cumulable 10 fois.",
-      "2": "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de de 1,4 sec et la Vitesse d'ATQ est augmentée de 50 par ennemi touché. L'augmentation de la Vitesse d'ATQ est cumulable 10 fois.",
-      "3": "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de de 1,7 sec et la Vitesse d'ATQ est augmentée de 50 par ennemi touché. L'augmentation de la Vitesse d'ATQ est cumulable 10 fois.",
-      "4": "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de de 2 sec et la Vitesse d'ATQ est augmentée de 50 par ennemi touché. L'augmentation de la Vitesse d'ATQ est cumulable 10 fois.",
-      "5": "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de de 2,5 sec et la Vitesse d'ATQ est augmentée de 50 par ennemi touché. L'augmentation de la Vitesse d'ATQ est cumulable 10 fois."
+      "0": "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de 1 sec et la Vitesse d'ATQ est augmentée de 50 pendant 5 sec par ennemi touché. L'augmentation de la Vitesse d'ATQ est cumulable 10 fois.",
+      "1": "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de 1.2 sec et la Vitesse d'ATQ est augmentée de 50 pendant 5 sec par ennemi touché. L'augmentation de la Vitesse d'ATQ est cumulable 10 fois.",
+      "2": "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de 1.4 sec et la Vitesse d'ATQ est augmentée de 50 pendant 5 sec par ennemi touché. L'augmentation de la Vitesse d'ATQ est cumulable 10 fois.",
+      "3": "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de 1.7 sec et la Vitesse d'ATQ est augmentée de 50 pendant 5 sec par ennemi touché. L'augmentation de la Vitesse d'ATQ est cumulable 10 fois.",
+      "4": "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de 2 sec et la Vitesse d'ATQ est augmentée de 50 pendant 5 sec par ennemi touché. L'augmentation de la Vitesse d'ATQ est cumulable 10 fois.",
+      "5": "Lorsque les compétences 'Frappe Vitale' et 'Danse Tournoyante' touchent un ennemi, leur temps de recharge respectif est réduit de 2.5 sec et la Vitesse d'ATQ est augmentée de 50 pendant 5 sec par ennemi touché. L'augmentation de la Vitesse d'ATQ est cumulable 10 fois."
     }
   },
   "uts": {
     "1": {
       "name": "Contrepoids d'attaque féroce",
-      "description": "[Frappe vitale] Augmente les DEG de 50 % et réduit le Blocage P de la cible de 200 points pendant 10 sec.",
-      "value": {},
+      "description": "[Frappe vitale] Augmente les DEG de 50 % et réduit le Blocage P de la cible de {0} points pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Priscilla/ut/1.png",
       "story": "Ce contrepoids est fixé à la poignée d'Exilius.\nIl améliore l'équilibre de Priscilla, ce qui lui permet d'asséner des attaques plus stables et précises. Lorsqu'Annette changea sa hallebarde en Exilius, elle remplaça également son contrepoids, considérablement durci grâce à une amélioration technomagique, ce qui lui permet d'exécuter des attaques d'une précision inégalée.",
       "descriptionByStar": {
@@ -161,8 +179,17 @@
     },
     "2": {
       "name": "Service à thé raffiné",
-      "description": "[Coordination] Augmente le boost d'ATQ de 20% et réduit le temps de recharge du héros avec l'ATQ la plus élevée de 30%.",
-      "value": {},
+      "description": "[Coordination] Augmente le boost d'ATQ de {0}% et réduit le temps de recharge du héros avec l'ATQ la plus élevée de 30%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Priscilla/ut/2.png",
       "story": "Tasses de thé en céramique d’Aisha que Priscilla sort en toute occasion. \nCes tasses de thé de luxe ont été fabriquées dans la meilleure argile du continent oriental par-delà l’océan. Elles servent principalement à prendre le thé avec Aisha, mais aussi à accomplir Coordination avec Priscilla.",
       "descriptionByStar": {
@@ -176,8 +203,17 @@
     },
     "3": {
       "name": "Pierre magique de gravité",
-      "description": "[Danse Tournoyante] Augmente les DEG de 20% et applique Étourdissement sur la cible pendant 3 sec.",
-      "value": {},
+      "description": "[Danse Tournoyante] Augmente les DEG de {0}% et applique Étourdissement sur la cible pendant 3 sec.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Priscilla/ut/3.png",
       "story": "Le premier outil magique fabriqué par le Mage de Violet. Le premier cadeau reçu par Aisha gave. Aisha créa cet outil magique, car elle trouvait triste que Priscilla utilise tant de magie pour sa Danse Tournoyante. La Pierre Mana de Gravité soulage la pression du corps lors de l’utilisation de la Danse Tournoyante et augmente ses effets.",
       "descriptionByStar": {
@@ -191,8 +227,17 @@
     },
     "4": {
       "name": "Début du tumulte",
-      "description": "[Maîtrise des armes] Augmente le boost d'ATQ de 50 % et toutes DEF de 10 %.",
-      "value": {},
+      "description": "[Maîtrise des armes] Augmente le boost d'ATQ de 50 % et toutes DEF de {0} %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Priscilla/ut/4.png",
       "story": "Une hallebarde dont Priscilla se sert pour s'entraîner.\nCette vieille lance émoussée a connu les tout débuts de la guerre.\nElle la prend parfois avec elle pour se remémorer l'époque de sa formation.\nC'est ainsi qu'elle est toujours restée fidèle à ses principes, protégeant sa dame de tous les dangers.",
       "descriptionByStar": {

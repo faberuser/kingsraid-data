@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Del Arcana, les Cartes du Destin",
-    "description": "Les attaques ont 77,7% de chances d'augmenter la Vitesse d'ATQ de 20 et la récupération PM/sec de 10% pendant 15 sec. Cet effet peut se cumuler jusqu'à 15 fois.",
-    "value": {},
+    "description": "Les attaques ont 77,7% de chances d'augmenter la Vitesse d'ATQ de {0} et la récupération PM/sec de {1}% pendant 15 sec. Cet effet peut se cumuler jusqu'à 15 fois.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
     "thumbnail": "heroes/Ophelia/uw.png",
     "story": "Le tirage des tarots compte parmi les méthodes de prédiction les plus communément employées par les sorcières. Certaines utilisent d'ailleurs des lames de tarot personnalisées afin de mieux coller à leur style. Les cartes d'Ophelia font également office de preuve du pacte qui l'unit aux créatures qu'elle invoque. Jouissant d'un succès certain en tant que guide du destin parmi les entités des dimensions mystérieuses, elle a conclu des pactes avec de nombreuses créatures. Del Arcana, un puissant tarot minutieusement assemblé par Ophelia, constitue une preuve physique de ces relations.",
     "descriptionByStar": {
@@ -146,12 +163,21 @@
   "uts": {
     "1": {
       "name": "Carte étrange",
-      "description": "[Carte de mort - Carta] Augmente les DEG de 50 % et restaure 1 000 PM à chaque ennemi vaincu.",
-      "value": {},
+      "description": "[Carte de mort - Carta] Augmente les DEG de 50 % et restaure {0} PM à chaque ennemi vaincu.",
+      "value": {
+        "0": {
+          "0": "1000",
+          "1": "1200",
+          "2": "1400",
+          "3": "1700",
+          "4": "2100",
+          "5": "2500"
+        }
+      },
       "thumbnail": "heroes/Ophelia/ut/1.png",
       "story": "Cette carte fut fabriquée par la sorcière Eucaletus après la mort de la personne à laquelle elle tenait le plus. Elle y employa tout son mana.\nPar la suite, elle fut brûlée et cette étrange carte fut tout ce qui resta d'elle. Elle acquit la réputation d'affranchir son propriétaire de la vie et de la mort, ce qui poussa de nombreux aspirants à la vie éternelle à se battre pour elle. C'est alors qu'un mage, voulant mettre un terme aux morts inutiles, mit la main dessus et la scella. Personne n'avait vu cette carte depuis des siècles, jusqu'à ce qu'Ophelia la trouvât dans une vieille réserve.",
       "descriptionByStar": {
-        "0": "[Carte de mort - Carta] Augmente les DEG de 50 % et restaure 1 000 PM à chaque ennemi vaincu.",
+        "0": "[Carte de mort - Carta] Augmente les DEG de 50 % et restaure 1000 PM à chaque ennemi vaincu.",
         "1": "[Carte de mort - Carta] Augmente les DEG de 50 % et restaure 1200 PM à chaque ennemi vaincu.",
         "2": "[Carte de mort - Carta] Augmente les DEG de 50 % et restaure 1400 PM à chaque ennemi vaincu.",
         "3": "[Carte de mort - Carta] Augmente les DEG de 50 % et restaure 1700 PM à chaque ennemi vaincu.",
@@ -161,23 +187,41 @@
     },
     "2": {
       "name": "Cœur d’Elliciad",
-      "description": "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 6%.",
-      "value": {},
+      "description": "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de {0}%.",
+      "value": {
+        "0": {
+          "0": "6",
+          "1": "7.2",
+          "2": "8.6",
+          "3": "10.4",
+          "4": "12.5",
+          "5": "15"
+        }
+      },
       "thumbnail": "heroes/Ophelia/ut/2.png",
       "story": "Le cœur d’Elliciad incarne l’esprit de l’amour. \nIl consume les amours accomplies, mais aussi inavouées, il peut se montrer tantôt brûlant comme la lave, tantôt froid comme la glace. Le pouvoir qu’il renferme dépend de la corruption de l’âme. Si celle-ci est pure, le cœur d’Elliciad dégage une lumière vive incroyablement puissante.",
       "descriptionByStar": {
         "0": "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 6%.",
-        "1": "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 7,2%.",
-        "2": "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 8,6%.",
-        "3": "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 10,4%.",
-        "4": "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 12,5%.",
+        "1": "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 7.2%.",
+        "2": "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 8.6%.",
+        "3": "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 10.4%.",
+        "4": "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 12.5%.",
         "5": "[Carte d'amour - Elliciad] Dissipe les effets négatifs qui pèsent sur la cible et diminue le temps de recharge de toutes les compétences de 15%."
       }
     },
     "3": {
       "name": "Pièce de la Chance",
-      "description": "[Carte de Chance - Vellekia] Réduit le coût en PM de 1 et augmente les DEG infligés de 20%.",
-      "value": {},
+      "description": "[Carte de Chance - Vellekia] Réduit le coût en PM de 1 et augmente les DEG infligés de {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Ophelia/ut/3.png",
       "story": "La pièce légendaire qui aurait changé le cours de la roue de la fortune, qui se dirigeait vers la destruction. Ophelia pensa qu’elle a été jetée par l’esprit de la chance, Vellekia.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Fil de Croisée des Destins",
-      "description": "[Éclaireur du destin] Pendant 10 sec après avoir acquis une carte, augmente les DEG infligés aux ennemis non-héros de 10 % et réduit les DEG subis de 20 %.",
-      "value": {},
+      "description": "[Éclaireur du destin] Pendant 10 sec après avoir acquis une carte, augmente les DEG infligés aux ennemis non-héros de {0} % et réduit les DEG subis de 20 %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Ophelia/ut/4.png",
       "story": "Un fil utilisé par la déesse de la destinée pour lier les destins entre eux.\nSeuls les plus purs des élémentaux n'ayant pas le moindre karma négatif peuvent nouer ce fil du destin.\nEn ouvrant véritablement les yeux, Ophelia put entrevoir le destin du monde et se servir de ses esprits pour tisser de nouvelles destinées dans son avenir.\nIl reste généralement un fil ou deux dès qu'un destin est manipulé, et Ophelia noue les extrémités de ces fils pour les fusionner par la magie, comme s'ils n'avaient toujours fait qu'un.\nCette bobine de fil est le résultat de cette habitude.",
       "descriptionByStar": {

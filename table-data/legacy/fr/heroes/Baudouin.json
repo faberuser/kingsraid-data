@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Genesis, l'Ancien et le Nouveau",
-    "description": "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de 2% et la DEF de 2% pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois.",
-    "value": {},
+    "description": "Augmente la vitesse de lancement de toutes les compétences, et à chaque utilisation d'une compétence, augmente l'ATQ de {0}% et la DEF de {1}% pour tous les alliés. Cet effet peut être cumulé jusqu'à 7 fois.",
+    "value": {
+      "0": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.9",
+        "3": "3.5",
+        "4": "4.2",
+        "5": "5"
+      },
+      "1": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.9",
+        "3": "3.5",
+        "4": "4.2",
+        "5": "5"
+      }
+    },
     "thumbnail": "heroes/Baudouin/uw.png",
     "story": "Même parmi les reliques sacrées accordées aux hauts prêtres de l'Église de Lua, le Genesis, Ancien et Nouveau est spécial. D'après la légende, ce livre, gardé durant des siècles par les grands prêtres de l'Église, fut écrit par Lua en personne. Iris, le grand prêtre actuel, en recevant une révélation, confia le livre à son beau-père, Berman. Plus tard, il fut offert à Baudouin lorsqu'il devint haut prêtre. On dit que cette relique divine offre une énergie infinie à son propriétaire, ainsi que la puissance nécessaire pour débloquer le vrai potentiel de ceux qui ont la foi.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Vieux saint Graal",
-      "description": "[Nova sacrée] Réduit le coût en PM de 1 et accélère les soins de 20 %.",
-      "value": {},
+      "description": "[Nova sacrée] Réduit le coût en PM de 1 et accélère les soins de {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Baudouin/ut/1.png",
       "story": "Un Graal en bois qui porte l'effigie de la déesse Lua.\nQuand les gens ont appris l'existence de Lua, ils sculptèrent un Graal en son honneur. Lors de la chute de la civilisation du continent Orbis, il fut enseveli et la seule trace de son existence se résuma à quelques mentions dans les archives. Le jour où Baudouin se repentit de ses péchés et embrassa la vérité du livre saint, le vieux Graal apparut devant lui, brillant comme le soleil.",
       "descriptionByStar": {
@@ -156,13 +182,22 @@
         "2": "[Nova sacrée] Réduit le coût en PM de 1 et accélère les soins de 29 %.",
         "3": "[Nova sacrée] Réduit le coût en PM de 1 et accélère les soins de 35 %.",
         "4": "[Nova sacrée] Réduit le coût en PM de 1 et accélère les soins de 42 %.",
-        "5": "[Nova sacrée] Réduit le coût en PM de 1 et accélère les soins de 50 %."
+        "5": "[Nova sacrée] Réduit le coût en PM de 1 et accélère les soins de 50 %."
       }
     },
     "2": {
       "name": "Dernier chapitre de la Bible",
-      "description": "[Lance de lumière] Gagne l'immunité aux contrôles pendant la durée de la compétence et augmente la Resist M Faible de la cible de 10 % pendant 10 sec.",
-      "value": {},
+      "description": "[Lance de lumière] Gagne l'immunité aux contrôles pendant la durée de la compétence et augmente la Resist M Faible de la cible de {0} % pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Baudouin/ut/2.png",
       "story": "Dernier chapitre de la légende, bien trop horrible pour figurer dans la Bible. \nIl traite de la lumière sacrée capable de pourfendre l’ennemi gagné par les plus grandes ténèbres.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Vieux rosaire",
-      "description": "[Sanctuaire Sacré] Augmente l'ATQ de 25% pendant la durée de la compétence et récupère 120 PM toutes les secondes.",
-      "value": {},
+      "description": "[Sanctuaire Sacré] Augmente l'ATQ de 25% pendant la durée de la compétence et récupère {0} PM toutes les secondes.",
+      "value": {
+        "0": {
+          "0": "120",
+          "1": "140",
+          "2": "170",
+          "3": "200",
+          "4": "250",
+          "5": "300"
+        }
+      },
       "thumbnail": "heroes/Baudouin/ut/3.png",
       "story": "Le rosaire que la sainte prêtresse Evelyn de l’Église de Lua porta jusqu’à sa mort. On dirait que la voix de Lua en personne s’entend dans le rosaire, priant pour que le monde ne s’écroule pas. Une sainteté indéniable engouffre le corps et maximise les pouvoirs de Baudouin.",
       "descriptionByStar": {
@@ -191,16 +235,25 @@
     },
     "4": {
       "name": "Journal calciné",
-      "description": "[Formation de Dieu] Augmente la durée d'Étourdissement de 0,5 sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec.",
-      "value": {},
+      "description": "[Formation de Dieu] Augmente la durée d'Étourdissement de {0} sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec.",
+      "value": {
+        "0": {
+          "0": "0.5",
+          "1": "0.6",
+          "2": "0.7",
+          "3": "0.8",
+          "4": "0.9",
+          "5": "1"
+        }
+      },
       "thumbnail": "heroes/Baudouin/ut/4.png",
       "story": "Le dernier journal d'un grand professeur.\nIl contient les détails du traitement qu'administrait le prêtre Berman aux patients atteints de la peste sombre et le récit de son propre combat contre la maladie.\nBaudouin réussit à le sauver des flammes lorsque les affaires du professeur furent brûlées après sa mort. Puis il le retranscrivit avec l'aide de Leo et l'appela le Journal de Berman, qui fut d'une aide précieuse dans le traitement contre la peste sombre.\nBaudouin conserve précieusement le journal d'origine, qui lui rappelle la détermination de son professeur.",
       "descriptionByStar": {
-        "0": "[Formation de Dieu] Augmente la durée d'Étourdissement de 0,5 sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec.",
-        "1": "[Formation de Dieu] Augmente la durée d'Étourdissement de 0,6 sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec.",
-        "2": "[Formation de Dieu] Augmente la durée d'Étourdissement de 0,7 sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec.",
-        "3": "[Formation de Dieu] Augmente la durée d'Étourdissement de 0,8 sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec.",
-        "4": "[Formation de Dieu] Augmente la durée d'Étourdissement de 0,9 sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec.",
+        "0": "[Formation de Dieu] Augmente la durée d'Étourdissement de 0.5 sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec.",
+        "1": "[Formation de Dieu] Augmente la durée d'Étourdissement de 0.6 sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec.",
+        "2": "[Formation de Dieu] Augmente la durée d'Étourdissement de 0.7 sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec.",
+        "3": "[Formation de Dieu] Augmente la durée d'Étourdissement de 0.8 sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec.",
+        "4": "[Formation de Dieu] Augmente la durée d'Étourdissement de 0.9 sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec.",
         "5": "[Formation de Dieu] Augmente la durée d'Étourdissement de 1 sec. Les ennemis touchés subissent 25 % de DEG M supplémentaires pendant 5 sec."
       }
     }

@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Infinite Spring, Cielamaha",
-    "description": "Mana is recovered by 50 per each sec, and upon each ATK there is an 80% chance of dealing 20% of ATK as P.DMG.",
-    "value": {},
+    "description": "Mana is recovered by {0} per each sec, and upon each ATK there is an 80% chance of dealing {1}% of ATK as P.DMG.",
+    "value": {
+      "0": {
+        "0": "50",
+        "1": "60",
+        "2": "70",
+        "3": "85",
+        "4": "105",
+        "5": "125"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "28",
+        "3": "34",
+        "4": "42",
+        "5": "50"
+      }
+    },
     "thumbnail": "heroes/Lilia/uw.png",
     "story": "An infinite spring that endlessly spouts water. \nIt is a jar made by the first Blue Dragon, who ruled all waters on earth.\nIt reacts to the imagination of the user. \nTo a young, sensitive and creative girl like Lilia, it is the greatest treasure and weapon.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Whisper of Sea",
-      "description": "[Aqua Tempest] Reduces Cooldown by 2.5 sec and enemies inflicted by Aqua Tempest take 10% increased P.DMG.",
-      "value": {},
+      "description": "[Aqua Tempest] Reduces Cooldown by 2.5 sec and enemies inflicted by Aqua Tempest take {0}% increased P.DMG.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Lilia/ut/1.png",
       "story": "A hairpin, made with gemstones and coral stones from the Sea of Eternity, that Laias gave to Lilia.\nIt looks like a simple hairpin for a child, but the materials from the Sea of Eternity contain the energy of Water Dragons, making Lilia's Aqua Tempest much more powerful.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Heart of Flow",
-      "description": "[Everlasting Oasis] The effect cannot be dispelled, and Crit DMG is increased by 20% during skill duration.",
-      "value": {},
+      "description": "[Everlasting Oasis] The effect cannot be dispelled, and Crit DMG is increased by {0}% during skill duration.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Lilia/ut/2.png",
       "story": "A gold necklace for girls that Laias crafted for Lilia with a Gem of Protection. \nIt gleams with the energy of water elementals in it. \nIt is a symbol of Laias's care for her little sister.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Bottomless Kettle of Elementals",
-      "description": "[Celestial Cataract] Upon each ATK there is a 7% chance of throwing a big water drop, dealing 100% of ATK as P.DMG and increasing own Crit DMG by 2% for 7 sec.",
-      "value": {},
+      "description": "[Celestial Cataract] Upon each ATK there is a 7% chance of throwing a big water drop, dealing 100% of ATK as P.DMG and increasing own Crit DMG by {0}% for 7 sec.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Lilia/ut/3.png",
       "story": "A kettle that Lilia's old cacti friends made for her on her birthday. \nThe kettle infinitely produces the cleanest and purest water there is. \nHowever, if too much water is used at once, it shuts its spout, which is a featured added by the Cacti to help Lilia stay in control of the water until she becomes more skilled at it.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Key of Purity",
-      "description": "[Aqua Purification] Every 10 sec, increases own Crit DMG by 80% and Mana Recovery/Sec by 30% for 5 sec.",
-      "value": {},
+      "description": "[Aqua Purification] Every 10 sec, increases own Crit DMG by 80% and Mana Recovery/Sec by {0}% for 5 sec.",
+      "value": {
+        "0": {
+          "0": "30",
+          "1": "36",
+          "2": "43",
+          "3": "52",
+          "4": "63",
+          "5": "75"
+        }
+      },
       "thumbnail": "heroes/Lilia/ut/4.png",
       "story": "A sacred key found in the center of the oasis.\nWhen the tribe was performing an evil-purging ritual for the First Water Dragon, a strange chest floated up in the center of oasis.\nNo one could open it until Lilia came, summoned by her tribespeople.\nThe chest started shaking as soon as Lilia approached, and it opened on its own after releasing a bright light.\nInside the chest was a key.\nLilia knew as soon as she saw it that it was not an ordinary key and has been keeping it safe until now.\nWhat it opens is still unknown, but it is certain that the key maximizes Lilia's purifying powers.",
       "descriptionByStar": {

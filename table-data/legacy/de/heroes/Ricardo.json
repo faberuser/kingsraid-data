@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Licht des Gesetzes, Theoria",
-    "description": "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von 10 %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von 320 % des ANG absorbiert und Massenkontroll-Immunität gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst.",
-    "value": {},
+    "description": "Wenn ein anderer Verbündeter als der Zaubernde Schaden erleidet, besteht eine Chance von {0} %, dass er einen Schild erhält, der für 5 Sek. Schaden in Höhe von {1} % des ANG absorbiert und Massenkontroll-Immunität gewährt. Dieser Effekt wird nicht öfter als einmal alle 5 Sek. ausgelöst.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "20",
+        "5": "25"
+      },
+      "1": {
+        "0": "320",
+        "1": "384",
+        "2": "460",
+        "3": "552",
+        "4": "660",
+        "5": "800"
+      }
+    },
     "thumbnail": "heroes/Ricardo/uw.png",
     "story": "Als das Heilige Schwert Aea Kyle gewährt wurde, erschien es im Tempel von Lua, nördlich der Königsebenen. Als Kyle das Schwert vom Altar nahm, wurde eine mächtige Lichtwelle freigesetzt, die alles Naheliegende in heiligen Boden verwandelte. Alle Gegenstände im Tempel wurden dadurch zu Relikten. Teoria, die mittlere Säule des Tempels, bekam dabei die größte Menge heiliger Energie ab.",
     "descriptionByStar": {
@@ -146,23 +163,41 @@
   "uts": {
     "1": {
       "name": "Stola des Templers",
-      "description": "[Vernichtung] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden und Mag. Schaden 10 Sek. lang um 5 %.",
-      "value": {},
+      "description": "[Vernichtung] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden und Mag. Schaden 10 Sek. lang um {0} %.",
+      "value": {
+        "0": {
+          "0": "5",
+          "1": "6",
+          "2": "7",
+          "3": "8.5",
+          "4": "10.5",
+          "5": "12.5"
+        }
+      },
       "thumbnail": "heroes/Ricardo/ut/1.png",
       "story": "Eine zeremonielle Stola die dem Großmeister der Heiligen Ritter verliehen wurde.\nRicardo stellte daraus eine Insignie für seine Rüstung her, um die Moral seiner Kameraden auf dem Schlachtfeld anzuspornen. Wenn die Stola mit jedem Schwung von Theoria durch die Luft wirbelt, werden die Herzen seiner Verbündeten von Mut erfüllt.",
       "descriptionByStar": {
         "0": "[Vernichtung] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden und Mag. Schaden 10 Sek. lang um 5 %.",
         "1": "[Vernichtung] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden und Mag. Schaden 10 Sek. lang um 6 %.",
         "2": "[Vernichtung] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden und Mag. Schaden 10 Sek. lang um 7 %.",
-        "3": "[Vernichtung] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden und Mag. Schaden 10 Sek. lang um 8,5 %.",
-        "4": "[Vernichtung] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden und Mag. Schaden 10 Sek. lang um 10,5 %.",
-        "5": "[Vernichtung] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden und Mag. Schaden 10 Sek. lang um 12,5 %."
+        "3": "[Vernichtung] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden und Mag. Schaden 10 Sek. lang um 8.5 %.",
+        "4": "[Vernichtung] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden und Mag. Schaden 10 Sek. lang um 10.5 %.",
+        "5": "[Vernichtung] verringert den ANG des Ziels um 20 % und erhöht den von ihm erlittenen Körp. Schaden und Mag. Schaden 10 Sek. lang um 12.5 %."
       }
     },
     "2": {
       "name": "Stolz des Heiligen Kriegers",
-      "description": "[Göttlicher Schutz] gewährt Massenkontroll-Immunität und erhöht den Mag. Widerstand um 10 % während der Wirkungsdauer.",
-      "value": {},
+      "description": "[Göttlicher Schutz] gewährt Massenkontroll-Immunität und erhöht den Mag. Widerstand um {0} % während der Wirkungsdauer.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Ricardo/ut/2.png",
       "story": "Schild der Schlichter von Luas heiligen Rittern. \nRelikt, das denjenigen von Luas heiligen Rittern verliehen wird, die sich den Titel des Schlichters verdient haben. \nEin Relikt, das mit Luas Segen durchwirkt ist. Es beschützt diejenigen, die unter dem Schutz der Göttin stehen und bestraft Feinde ohne Gnade.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Eid des Heiligen Kriegers",
-      "description": "[Göttliches Urteil] hebt mit 75 %iger Chance positive Effekte von Feinden auf und verringert ANG-GESCHW. des Ziels 10 Sek. lang um 100.",
-      "value": {},
+      "description": "[Göttliches Urteil] hebt mit 75 %iger Chance positive Effekte von Feinden auf und verringert ANG-GESCHW. des Ziels 10 Sek. lang um {0}.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Ricardo/ut/3.png",
       "story": "Das Siegel, welches Ricardo als Pfand des Heiligen Kriegers einsetzte. Wenn sie zum ersten Mal zum Heiligen Krieger ernannt werden, hinterlassen Ritter ihre Namen auf dem Eideszertifikat, zusammen mit ihrem Siegel. Ricardo schuf sein Siegel mit seiner Hingabe an die Kirche von Lua. \nEr trägt es immer noch bei sich, nach all der Zeit, die vergangen ist.",
       "descriptionByStar": {
@@ -191,17 +235,26 @@
     },
     "4": {
       "name": "Anhänger der Güte",
-      "description": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um 1 %.",
-      "value": {},
+      "description": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um {0} %.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Ricardo/ut/4.png",
       "story": "Das Symbol des Waisenhauses von Ricardo, das aus einem kleinen Kreuz innerhalb eines größeren Kreuzes besteht.\nDieser Anhänger wurde zusammen mit dem Bau des Waisenhauses in der Hoffnung hergestellt, dass Ricardos Gebete auch die unausgesprochenen Wünsche der kleinsten Kinder beinhalten würden, die selbst noch nicht sprechen können.\nAußerdem hat die Hohepriesterin Iris diesen Anhänger in Luas Namen gesegnet und er soll heranwachsende Kinder vor Krankheiten schützen.",
       "descriptionByStar": {
         "0": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um 1 %.",
-        "1": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um 1,2 %.",
-        "2": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um 1,4 %.",
-        "3": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um 1,7 %.",
-        "4": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um 2,1 %.",
-        "5": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um 2,5 %."
+        "1": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um 1.2 %.",
+        "2": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um 1.4 %.",
+        "3": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um 1.7 %.",
+        "4": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um 2.1 %.",
+        "5": "[Göttlicher Segen] erhöht die Dauer um 5 Sek. Verringert den an sich selbst verursachten Mag. Schaden pro Zähler um 2.5 %."
       }
     }
   },

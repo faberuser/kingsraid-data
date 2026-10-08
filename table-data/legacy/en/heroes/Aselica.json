@@ -145,18 +145,27 @@
     "story": "Legends speak of a mysterious metal, gold as the glorious rays of the sun, blue as the pure sky, and white as the blinding light. This holy sword and shield set has been forged from that special metal that only Angels can handle. These are divine relics of protection, created to banish the darkness and fill the world with light. Bestowed only to the most righteous Guardian Knight of the Angels, these relics can instantly incinerate any Demon that faces their light.",
     "descriptionByStar": {
       "0": "Attacking the enemy with 5 normal attacks increases M.DMG the target takes by 20% for 10 sec, and inflicts Stun for 0.5 sec. The M.DMG Boost effect is irremovable.",
-      "1": "When a normal attack hits the enemy 5 times, the target takes 24% more M.DMG for 10 seconds and is stunned for 0.5 seconds.",
-      "2": "When a normal attack hits the enemy 5 times, the target takes 29% more M.DMG for 10 seconds and is stunned for 0.5 seconds.",
-      "3": "When a normal attack hits the enemy 5 times, the target takes 35% more M.DMG for 10 seconds and is stunned for 0.5 seconds.",
-      "4": "When a normal attack hits the enemy 5 times, the target takes 42% more M.DMG for 10 seconds and is stunned for 0.5 seconds.",
-      "5": "When a normal attack hits the enemy 5 times, the target takes 50% more M.DMG for 10 seconds and is stunned for 0.5 seconds."
+      "1": "Attacking the enemy with 5 normal attacks increases M.DMG the target takes by 24% for 10 sec, and inflicts Stun for 0.5 sec. The M.DMG Boost effect is irremovable.",
+      "2": "Attacking the enemy with 5 normal attacks increases M.DMG the target takes by 29% for 10 sec, and inflicts Stun for 0.5 sec. The M.DMG Boost effect is irremovable.",
+      "3": "Attacking the enemy with 5 normal attacks increases M.DMG the target takes by 35% for 10 sec, and inflicts Stun for 0.5 sec. The M.DMG Boost effect is irremovable.",
+      "4": "Attacking the enemy with 5 normal attacks increases M.DMG the target takes by 42% for 10 sec, and inflicts Stun for 0.5 sec. The M.DMG Boost effect is irremovable.",
+      "5": "Attacking the enemy with 5 normal attacks increases M.DMG the target takes by 50% for 10 sec, and inflicts Stun for 0.5 sec. The M.DMG Boost effect is irremovable."
     }
   },
   "uts": {
     "1": {
       "name": "Light of the Dawn",
-      "description": "[Sword of the Sun] Dispels all positive effects from enemies within range, and recovers own Mana by 200 upon hit.",
-      "value": {},
+      "description": "[Sword of the Sun] Dispels all positive effects from enemies within range, and recovers own Mana by {0} upon hit.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Aselica/ut/1.png",
       "story": "A fragment that fell out from the eternally shining Morning Star.\nMorning Star is the holy light that has existed since the beginning of time, guarding the heavens and protecting the swords of angels from losing their holy flame. The Archangel bestowed this upon Aselica along with the Sword of the Sun before she came down to earth.",
       "descriptionByStar": {
@@ -170,8 +179,17 @@
     },
     "2": {
       "name": "Bracelet of the Sun",
-      "description": "[Blessing of the Sun] Reduces Mana Cost by 1 and target takes 10% decreased P.DMG for 10 sec.",
-      "value": {},
+      "description": "[Blessing of the Sun] Reduces Mana Cost by 1 and target takes {0}% decreased P.DMG for 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Aselica/ut/2.png",
       "story": "Bracelet made by the Archangels to protect the Angels when they descend down to earth. It contains the sun, so it shines brilliantly.\nWhen the angels feel fear, it is said that the sunlight from the bracelet protects their souls. \nAnd the fates of the angels are intertwined in the bracelet, so when they feel like their lives are threatened, they can feel each other's pain instinctively.",
       "descriptionByStar": {
@@ -200,17 +218,26 @@
       "story": "The trumpet that is said to be blown by the leader of the Archangels when the catastrophe that will end the Material World arrives. It is said that once the guardians hear the sound of the trumpet, they wake up and come down to protect this land.",
       "descriptionByStar": {
         "0": "[Judgment of the Sun] While in use, gains immunity to CC. Additionally, increases P.DEF Boost and M.DEF Reduction by 20%.",
-        "1": "[Judgment of the Sun] Gains Immunity to CC while in use, and increases P.DEF Boost and M.DEF Reduction by 24%.",
-        "2": "[Judgment of the Sun] Gains Immunity to CC while in use, and increases P.DEF Boost and M.DEF Reduction by 29%.",
-        "3": "[Judgment of the Sun] Gains Immunity to CC while in use, and increases P.DEF Boost and M.DEF Reduction by 35%.",
-        "4": "[Judgment of the Sun] Gains Immunity to CC while in use, and increases P.DEF Boost and M.DEF Reduction by 42%.",
-        "5": "[Judgment of the Sun] Gains Immunity to CC while in use, and increases P.DEF Boost and M.DEF Reduction by 50%."
+        "1": "[Judgment of the Sun] While in use, gains immunity to CC. Additionally, increases P.DEF Boost and M.DEF Reduction by 24%.",
+        "2": "[Judgment of the Sun] While in use, gains immunity to CC. Additionally, increases P.DEF Boost and M.DEF Reduction by 29%.",
+        "3": "[Judgment of the Sun] While in use, gains immunity to CC. Additionally, increases P.DEF Boost and M.DEF Reduction by 35%.",
+        "4": "[Judgment of the Sun] While in use, gains immunity to CC. Additionally, increases P.DEF Boost and M.DEF Reduction by 42%.",
+        "5": "[Judgment of the Sun] While in use, gains immunity to CC. Additionally, increases P.DEF Boost and M.DEF Reduction by 50%."
       }
     },
     "4": {
       "name": "Will of Light",
-      "description": "[Curse of the Sun] Increases the duration of Blind by 1 sec. Upon activation, targets take 10% increased M.DMG for 10 sec.",
-      "value": {},
+      "description": "[Curse of the Sun] Increases the duration of Blind by 1 sec. Upon activation, targets take {0}% increased M.DMG for 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Aselica/ut/4.png",
       "story": "A hair accessory decorated with golden laurel leaves and the wing feather of Sacred Bird, 'Illaira'. It shines brightly even in complete darkness.\nIt protects its wearer against curses and burns ominous energy with its light.\nIt was bestowed upon Aselica by the Archangel when she was appointed as a guardian angel.",
       "descriptionByStar": {

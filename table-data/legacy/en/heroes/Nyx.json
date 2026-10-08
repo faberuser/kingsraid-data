@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Dimensional Key, Magnus Fille",
-    "description": "Auto Attack penetrates through enemies in a straight line and DMG is increased by 30%. Per each blade stack, DMG is increased by an extra 4%.",
-    "value": {},
+    "description": "Auto Attack penetrates through enemies in a straight line and DMG is increased by {0}%. Per each blade stack, DMG is increased by an extra {1}%.",
+    "value": {
+      "0": {
+        "0": "30",
+        "1": "36",
+        "2": "43",
+        "3": "52",
+        "4": "62",
+        "5": "75"
+      },
+      "1": {
+        "0": "4",
+        "1": "4.8",
+        "2": "5.7",
+        "3": "6.9",
+        "4": "8.3",
+        "5": "10"
+      }
+    },
     "thumbnail": "heroes/Nyx/uw.png",
     "story": "There exists a universal string that connects different dimensions. This sword is the key that can sever and reconnect this string. It is bestowed upon the dimensional arbitrator sworn to protect the balance of the universe. It can be duplicated indefinitely, but will only grant its powers to the chosen one.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Dimensional Magical Circle",
-      "description": "[Dimension Blade] Increases the number of targets by 1, and for 10 sec, reduces the target's P.Block by 200.",
-      "value": {},
+      "description": "[Dimension Blade] Increases the number of targets by 1, and for 10 sec, reduces the target's P.Block by {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Nyx/ut/1.png",
       "story": "A magical circle that allows for cross-galactic travel.\nNyx's dimensional travel begins and ends with this circle. As the rules of galactic travel and the sequence of light and darkness varies according to the spatiotemporal situations, those who do not possess enough knowledge of dimensions cannot use the circle. Nyx can summon anything using this magical circle.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Sword of Flow Cutting",
-      "description": "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by 10% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
-      "value": {},
+      "description": "[Dimension Cleaver] DMG is increased by 50% and own Crit DMG is increased by {0}% for 8 sec per each hit enemies. This effect can be stacked max 5 times.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Nyx/ut/2.png",
       "story": "A legendary sword that has transcended eras.\nA legendary sword that was made with the light of the sun and the melted souls of those in pain.\nIt is one of the required items for Dimension Cleaver since it is durable enough to withstand dimension and can be made very sharp.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Dimension Stone",
-      "description": "[Infinity Blades] Reduces Mana Cost by 1 and increases DMG by 20%.",
-      "value": {},
+      "description": "[Infinity Blades] Reduces Mana Cost by 1 and increases DMG by {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Nyx/ut/3.png",
       "story": "A required item for wizards who go through dimensions. The Dimensional Stone is a magic stone that is loved by those who go through dimensions, and it contains unlimited energy. However, the power that one can use from it depends on the individual's ability. Only high ranking wizards can use it effectively.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Spring of Galaxy",
-      "description": "[Hidden Blade] Increases DMG by 50%. Increases own Crit DMG by 1% for 5 sec upon each successful hit. Crit DMG boost can be stacked up to max 20 times.",
-      "value": {},
+      "description": "[Hidden Blade] Increases DMG by 50%. Increases own Crit DMG by {0}% for 5 sec upon each successful hit. Crit DMG boost can be stacked up to max 20 times.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Nyx/ut/4.png",
       "story": "A pendant that Nyx used to store the coordinates of numerous magical views he found while traveling the infinite space.\nThe pendant is connected to galaxies in dimension, and the jewel on the pendant changes its color according to the color of the galaxy that is currently connected. One can know the galaxy is gradually moving by looking at the pendant.\nAccording to dimensional coordinates, the jewel on the pendant changes its color.",
       "descriptionByStar": {

@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Tränen des Mondes, Nerius",
-    "description": "Jeder Angriff hat eine 10 % Chance, zusätzlichen Mag. Schaden (100 % d. ANG) zu verursachen und dabei den Skill-Cooldown um 10 % zu verringern.",
-    "value": {},
+    "description": "Jeder Angriff hat eine {0} % Chance, zusätzlichen Mag. Schaden ({1} % d. ANG) zu verursachen und dabei den Skill-Cooldown um 10 % zu verringern.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "20",
+        "5": "25"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      }
+    },
     "thumbnail": "heroes/Dimael/uw.png",
     "story": "Ein Schatz der Dunkelelfen, der mithilfe eines mächtigen Mondlichtsteins aus Arrovina und einem Zweig des Mondbaums der höchsten Qualität erschaffen wurde. Nerius ist das perfekte Mittel für Mondlichtmagie und eine der mächtigsten magischen Waffen der Dunkelelfen. Doch es heißt, dass das wunderschöne silberne Licht des Mondes leicht von der Dunkelheit befleckt werden kann. Eine außergewöhnliche Liebe, verwandelt in tiefe Dunkelheit, und jener Dunkelelf, der nach Rache trachtet, bannte diese Dunkelheit in diese Waffe.",
     "descriptionByStar": {
@@ -146,23 +163,41 @@
   "uts": {
     "1": {
       "name": "Schwur des Schwarzen Mondes",
-      "description": "[Dunkles Toben] entfernt alle eigenen negativen Effekte und verringert den Cooldown um 1 Sek.",
-      "value": {},
+      "description": "[Dunkles Toben] entfernt alle eigenen negativen Effekte und verringert den Cooldown um {0} Sek.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Dimael/ut/1.png",
       "story": "Einer der Dolche, die Dimael und seine Kameraden in Aegina bei sich trugen.\nAls der Schwarze Mond in der Wüste aufging, überreichte er ihnen diese Dolche und sie alle schworen, sich ihrem Schicksal zu stellen.\nSie unterstützen sich gegenseitig und versorgten ihre Wunden, während sie gegen die Kreaturen kämpften, die aus dem Riss strömten.\nAllerdings war er der Einzige, der lebendig aus Aegina zurückkehrte.",
       "descriptionByStar": {
         "0": "[Dunkles Toben] entfernt alle eigenen negativen Effekte und verringert den Cooldown um 1 Sek.",
-        "1": "[Dunkles Toben]entfernt alle eigenen negativen Effekte auf und verringert den Cooldown um 1,2 Sek.",
-        "2": "[Dunkles Toben] entfernt alle eigenen negativen Effekte und verringert den Cooldown um 1,4 Sek.",
-        "3": "[Dunkles Toben]entfernt alle eigenen negativen Effekte auf und verringert den Cooldown um 1,7 Sek.",
-        "4": "[Dunkles Toben]entfernt alle eigenen negativen Effekte auf und verringert den Cooldown um 2,1 Sek.",
-        "5": "[Dunkles Toben]entfernt alle eigenen negativen Effekte auf und verringert den Cooldown um 2,5 Sek."
+        "1": "[Dunkles Toben] entfernt alle eigenen negativen Effekte und verringert den Cooldown um 1.2 Sek.",
+        "2": "[Dunkles Toben] entfernt alle eigenen negativen Effekte und verringert den Cooldown um 1.4 Sek.",
+        "3": "[Dunkles Toben] entfernt alle eigenen negativen Effekte und verringert den Cooldown um 1.7 Sek.",
+        "4": "[Dunkles Toben] entfernt alle eigenen negativen Effekte und verringert den Cooldown um 2.1 Sek.",
+        "5": "[Dunkles Toben] entfernt alle eigenen negativen Effekte und verringert den Cooldown um 2.5 Sek."
       }
     },
     "2": {
       "name": "Unzerstörbarer Armreif",
-      "description": "[Schwarze Fessel] erhöht den Schaden um 50 % und die Mag. Schwäche des Ziels 10 Sek. lang um 10 %.",
-      "value": {},
+      "description": "[Schwarze Fessel] erhöht den Schaden um 50 % und die Mag. Schwäche des Ziels 10 Sek. lang um {0} %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Dimael/ut/2.png",
       "story": "Eine Halskette, die Epigael vor langer Zeit erhielt. Sie besitzt einen eingefassten Schatten-Morion, ein für die Dunkelelfen kostbares Juwel. \nEs heißt, dass diejenigen, die den Schatten-Morion losschneiden, durch einen Seelenfaden verbunden werden, der dazu führt, dass sie sich im nächsten Leben wiedertreffen.",
       "descriptionByStar": {
@@ -176,31 +211,49 @@
     },
     "3": {
       "name": "Schattenauge",
-      "description": "[Schattenwelle] erhöht Schaden um 50 % und Blendungsdauer um 2 Sek.",
-      "value": {},
+      "description": "[Schattenwelle] erhöht Schaden um 50 % und Blendungsdauer um {0} Sek.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.5",
+          "2": "3",
+          "3": "3.5",
+          "4": "4",
+          "5": "4.5"
+        }
+      },
       "thumbnail": "heroes/Dimael/ut/3.png",
       "story": "Tränenfragmente der Bestie Heltanios, die am Grund des Lebensbrunnens hauste. Sie speit schwarze Finsternis aus und alle, die ihre Augen sehen, deren Seelen werden von der mächtigen dunklen Energie geraubt.\nDiejenigen, die diesen Augen Herr werden können, erhalten große Macht und Erkenntnis. Als Dimael in Aegina gefangen genommen wurde und dem Tode nahe war, bettete Maria diese Augenfragmente ein.",
       "descriptionByStar": {
         "0": "[Schattenwelle] erhöht Schaden um 50 % und Blendungsdauer um 2 Sek.",
-        "1": "[Schattenwelle] erhöht Schaden um 50 % und Blendungsdauer um 2,5 Sek.",
+        "1": "[Schattenwelle] erhöht Schaden um 50 % und Blendungsdauer um 2.5 Sek.",
         "2": "[Schattenwelle] erhöht Schaden um 50 % und Blendungsdauer um 3 Sek.",
-        "3": "[Schattenwelle] erhöht Schaden um 50 % und Blendungsdauer um 3,5 Sek.",
+        "3": "[Schattenwelle] erhöht Schaden um 50 % und Blendungsdauer um 3.5 Sek.",
         "4": "[Schattenwelle] erhöht Schaden um 50 % und Blendungsdauer um 4 Sek.",
-        "5": "[Schattenwelle] erhöht Schaden um 50 % und Blendungsdauer um 4,5 Sek."
+        "5": "[Schattenwelle] erhöht Schaden um 50 % und Blendungsdauer um 4.5 Sek."
       }
     },
     "4": {
       "name": "Schwarze Krone",
-      "description": "[Schwarzes Mal] erhöht die Reichweite von normalen Angriffen um 20 %, wobei jeder Treffer ihren Schaden um 2 % erhöht. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-      "value": {},
+      "description": "[Schwarzes Mal] erhöht die Reichweite von normalen Angriffen um 20 %, wobei jeder Treffer ihren Schaden um {0} % erhöht. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Dimael/ut/4.png",
       "story": "Die Krone der Dunkelelfen.\nAufgrund der Tragödie, die sein Volk und die königliche Familie ereilt hat, kann Dimael diese blutige Krone nicht tragen.\nAlles, was er tun kann, ist auf den Tag zu warten, an dem er sie dem wahren König der Dunkelelfen übergeben kann.",
       "descriptionByStar": {
         "0": "[Schwarzes Mal] erhöht die Reichweite von normalen Angriffen um 20 %, wobei jeder Treffer ihren Schaden um 2 % erhöht. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "1": "[Schwarzes Mal] erhöht die Reichweite von normalen Angriffen um 20 %, wobei jeder Treffer ihren Schaden um 2,4 % erhöht. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "2": "[Schwarzes Mal] erhöht die Reichweite von normalen Angriffen um 20 %, wobei jeder Treffer ihren Schaden um 2,9 % erhöht. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "3": "[Schwarzes Mal] erhöht die Reichweite von normalen Angriffen um 20 %, wobei jeder Treffer ihren Schaden um 3,5 % erhöht. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "4": "[Schwarzes Mal] erhöht die Reichweite von normalen Angriffen um 20 %, wobei jeder Treffer ihren Schaden um 4,2 % erhöht. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "1": "[Schwarzes Mal] erhöht die Reichweite von normalen Angriffen um 20 %, wobei jeder Treffer ihren Schaden um 2.4 % erhöht. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "2": "[Schwarzes Mal] erhöht die Reichweite von normalen Angriffen um 20 %, wobei jeder Treffer ihren Schaden um 2.9 % erhöht. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "3": "[Schwarzes Mal] erhöht die Reichweite von normalen Angriffen um 20 %, wobei jeder Treffer ihren Schaden um 3.5 % erhöht. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "4": "[Schwarzes Mal] erhöht die Reichweite von normalen Angriffen um 20 %, wobei jeder Treffer ihren Schaden um 4.2 % erhöht. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
         "5": "[Schwarzes Mal] erhöht die Reichweite von normalen Angriffen um 20 %, wobei jeder Treffer ihren Schaden um 5 % erhöht. Dieser Effekt kann bis zu 10-mal gestapelt werden."
       }
     }

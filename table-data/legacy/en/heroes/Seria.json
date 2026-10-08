@@ -168,18 +168,35 @@
     "story": "A sword of authority passed down to the masters of ShadowHilts.\nThis sword contains the power of mighty beings that made a pact to serve the ShadowHilts.\nSome of them were Elementals, some were innocent spirits, and some even demons.\nIt is known that tens of thousands of evil forces fell to this sword.\nIt also has a demonic quality that binds the spirit of the slain evil to the blade.\nDespite its great power, fewer than 5 people in 600 years that were able to wield this sword.\nSeria, the 101st Heir of ShadowHilts and the only master in history chosen by the sword,\nentered the pact with the sword to put her beloved sister to rest.",
     "descriptionByStar": {
       "0": "Upon a Crit Skill Hit, deals additional M.DMG equal to 50% of ATK. Hit target has its Heal Rate reduced by 24% for 5 sec and increases own Heal Rate by 4% for 20 sec. The Heal Rate Boost effect can be stacked up to max 5 times and is irremovable.",
-      "1": "Reduces own Heal Rate by 20%. Upon a critical skill hit, deals additional M.DMG of 36% ATK. Reduces Heal Rate of the target by 29% for 5 sec, and increases own Heal Rate by 5% for 20 sec. The Heal Rate increasing effect can be stacked up to max 5 times, and cannot be dispelled.",
-      "2": "Reduces own Heal Rate by 20%. Upon a critical skill hit, deals additional M.DMG of 42% ATK. Reduces Heal Rate of the target by 35% for 5 sec, and increases own Heal Rate by 6% for 20 sec. The Heal Rate increasing effect can be stacked up to max 5 times, and cannot be dispelled.",
-      "3": "Reduces own Heal Rate by 20%. Upon a critical skill hit, deals additional M.DMG of 51% ATK. Reduces Heal Rate of the target by 42% for 5 sec, and increases own Heal Rate by 7% for 20 sec. The Heal Rate increasing effect can be stacked up to max 5 times, and cannot be dispelled.",
-      "4": "Reduces own Heal Rate by 20%. Upon a critical skill hit, deals additional M.DMG of 63% ATK. Reduces Heal Rate of the target by 50% for 5 sec, and increases own Heal Rate by 9% for 20 sec. The Heal Rate increasing effect can be stacked up to max 5 times, and cannot be dispelled.",
-      "5": "Reduces own Heal Rate by 20%. Upon a critical skill hit, deals additional M.DMG of 75% ATK. Reduces Heal Rate of the target by 60% for 5 sec, and increases own Heal Rate by 10% for 20 sec. The Heal Rate increasing effect can be stacked up to max 5 times, and cannot be dispelled."
+      "1": "Upon a Crit Skill Hit, deals additional M.DMG equal to 60% of ATK. Hit target has its Heal Rate reduced by 29% for 5 sec and increases own Heal Rate by 5% for 20 sec. The Heal Rate Boost effect can be stacked up to max 5 times and is irremovable.",
+      "2": "Upon a Crit Skill Hit, deals additional M.DMG equal to 72% of ATK. Hit target has its Heal Rate reduced by 35% for 5 sec and increases own Heal Rate by 6% for 20 sec. The Heal Rate Boost effect can be stacked up to max 5 times and is irremovable.",
+      "3": "Upon a Crit Skill Hit, deals additional M.DMG equal to 86% of ATK. Hit target has its Heal Rate reduced by 42% for 5 sec and increases own Heal Rate by 7% for 20 sec. The Heal Rate Boost effect can be stacked up to max 5 times and is irremovable.",
+      "4": "Upon a Crit Skill Hit, deals additional M.DMG equal to 103% of ATK. Hit target has its Heal Rate reduced by 50% for 5 sec and increases own Heal Rate by 9% for 20 sec. The Heal Rate Boost effect can be stacked up to max 5 times and is irremovable.",
+      "5": "Upon a Crit Skill Hit, deals additional M.DMG equal to 125% of ATK. Hit target has its Heal Rate reduced by 60% for 5 sec and increases own Heal Rate by 10% for 20 sec. The Heal Rate Boost effect can be stacked up to max 5 times and is irremovable."
     }
   },
   "uts": {
     "1": {
       "name": "Whetstone of Demon",
-      "description": "[Mysterious Sword - Falling Petals] Increases DMG by 50%, and upon Critical Hit, recovers Mana by 200.\n[Mysterious Sword - Blossom] Increases DMG by 50%, and upon Critical Hit, reduces Cooldown of [Mysterious Sword - Falling Petals] by 0.8 sec .",
-      "value": {},
+      "description": "[Mysterious Sword - Falling Petals] Increases DMG by 50%, and upon Critical Hit, recovers Mana by {0}.\n[Mysterious Sword - Blossom] Increases DMG by 50%, and upon Critical Hit, reduces Cooldown of [Mysterious Sword - Falling Petals] by {1} sec .",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        },
+        "1": {
+          "0": "0.8",
+          "1": "1",
+          "2": "1.2",
+          "3": "1.4",
+          "4": "1.7",
+          "5": "2"
+        }
+      },
       "thumbnail": "heroes/Seria/ut/1.png",
       "story": "An ominous whetstone known to hold the soul of a demon.\nSwords that contain a pact of servitude must be sharpened with this whetstone as ordinary ones won't work for them. Used with Enlightening Candlelight, Elsion's resistance against the Demons becomes maximized.",
       "descriptionByStar": {
@@ -193,8 +210,17 @@
     },
     "2": {
       "name": "Ring of Abyss",
-      "description": "[Blood Scattering Blade] Increases DMG by 50% and reduces M.Block of affected enemies by 200.",
-      "value": {},
+      "description": "[Blood Scattering Blade] Increases DMG by 50% and reduces M.Block of affected enemies by {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Seria/ut/2.png",
       "story": "A silver ring that represents the ShadowHilts. Seria touches it whenever she feels her life is meaningless.\nDoing so would remind her of her dead comrades, filling her heart with the need for vengeance against her sister Erze.\nIronically, the ring has a note written by Erze, hidden within the ring's jewel when she was young, but Seria still doesn't know about it.",
       "descriptionByStar": {
@@ -223,11 +249,11 @@
       "story": "The candle known to have been on the table of the meeting hall where ancient warriors from different continents gathered to defeat supernatural beings.\nBlazing on this old candle is a blue exorcising flame.\nWhen the flame touches an evil being, it sucks the vitality out of the creature's body.\nThis is the first material Seria uses whenever she refines her sword.",
       "descriptionByStar": {
         "0": "[Red Moon Blade] Gains immunity to CC for the duration of the Skill. At the beginning of battle, increases DMG by 70% for 5 times.",
-        "1": "[Red Moon Blade] Gains immunity to CC for the duration of the skill. When the battle starts, increases DMG by 70% for 5 time.",
-        "2": "[Red Moon Blade] Gains immunity to CC for the duration of the skill. When the battle starts, increases DMG by 70% for 6 time.",
-        "3": "[Red Moon Blade] Gains immunity to CC for the duration of the skill. When the battle starts, increases DMG by 70% for 7 time.",
-        "4": "[Red Moon Blade] Gains immunity to CC for the duration of the skill. When the battle starts, increases DMG by 70% for 9 time.",
-        "5": "[Red Moon Blade] Gains immunity to CC for the duration of the skill. When the battle starts, increases DMG by 70% for 10 time."
+        "1": "[Red Moon Blade] Gains immunity to CC for the duration of the Skill. At the beginning of battle, increases DMG by 70% for 7 times.",
+        "2": "[Red Moon Blade] Gains immunity to CC for the duration of the Skill. At the beginning of battle, increases DMG by 70% for 9 times.",
+        "3": "[Red Moon Blade] Gains immunity to CC for the duration of the Skill. At the beginning of battle, increases DMG by 70% for 11 times.",
+        "4": "[Red Moon Blade] Gains immunity to CC for the duration of the Skill. At the beginning of battle, increases DMG by 70% for 13 times.",
+        "5": "[Red Moon Blade] Gains immunity to CC for the duration of the Skill. At the beginning of battle, increases DMG by 70% for 15 times."
       }
     },
     "4": {
@@ -247,11 +273,11 @@
       "story": "The Eight Trigrams that the first leader of Shadow Hilt Family received from a supernatural being.\nOnly the leaders of Shadow Hilt can handle it and maximize the power of Elsion through the demonic energy stored inside.\n8 different beasts that punished evil are sealed in the trigrams, and different forces arise based on whether each trigram is pointing to yin or yang.\nWhen all 8 trigrams point toward perfect yin, the full moon raised by the Cold Blooded Witch is redder than the thickest blood.",
       "descriptionByStar": {
         "0": "[Cold-Blooded Witch] Increases ATK Boost by 50% and DMG Boost against Non-Hero enemies by an additional 0.6% per stack.",
-        "1": "[Cold-Blooded Witch] Increases ATK boost by 50% and the max number of stacks for Crit DMG boost by 3.",
-        "2": "[Cold-Blooded Witch] Increases ATK boost by 50% and the max number of stacks for Crit DMG boost by 4.",
-        "3": "[Cold-Blooded Witch] Increases ATK boost by 50% and the max number of stacks for Crit DMG boost by 6.",
-        "4": "[Cold-Blooded Witch] Increases ATK boost by 50% and the max number of stacks for Crit DMG boost by 8.",
-        "5": "[Cold-Blooded Witch] Increases ATK boost by 50% and the max number of stacks for Crit DMG boost by 10."
+        "1": "[Cold-Blooded Witch] Increases ATK Boost by 50% and DMG Boost against Non-Hero enemies by an additional 0.7% per stack.",
+        "2": "[Cold-Blooded Witch] Increases ATK Boost by 50% and DMG Boost against Non-Hero enemies by an additional 0.8% per stack.",
+        "3": "[Cold-Blooded Witch] Increases ATK Boost by 50% and DMG Boost against Non-Hero enemies by an additional 1% per stack.",
+        "4": "[Cold-Blooded Witch] Increases ATK Boost by 50% and DMG Boost against Non-Hero enemies by an additional 1.2% per stack.",
+        "5": "[Cold-Blooded Witch] Increases ATK Boost by 50% and DMG Boost against Non-Hero enemies by an additional 1.5% per stack."
       }
     }
   },

@@ -161,18 +161,27 @@
     "story": "Yurias Lieblingssatz von Nadel, Faden und Schere.\nMit diesem Werkzeug schuf sie all ihre Meisterwerke.\nDer Faden ist vom Sternenlicht des Nachthimmels durchwoben\nund Nadel und Schere wurden aus dem Metall eines Meteoriten geschmiedet.\nZusammen geben sie Yuria die Macht, die Zukunft zu lesen.",
     "descriptionByStar": {
       "0": "Erhöht bei jedem Normal-ANG 10 Sek. lang den ANG um 1 % und Krit. Schaden um 1 %. Dieser Effekt kann bis zu 20-mal gestapelt werden und kann nicht entfernt werden. Bei Verwendung des Skills werden 400 MP regeneriert.",
-      "1": "Erhöht 10 Sek. nach jedem normalen Angriff ANG um 1,2 % und Krit. Schaden um 1,2 %. Dieser Effekt kann bis zu 20-mal gestapelt werden und ist nicht zu entfernen. Bei Benutzung des Skills werden 240 Mana wiederhergestellt.",
-      "2": "Erhöht 10 Sek. nach jedem normalen Angriff ANG um 1,4 % und Krit. Schaden um 1,4 %. Dieser Effekt kann bis zu 20-mal gestapelt werden und ist nicht zu entfernen. Bei Benutzung des Skills werden 290 Mana wiederhergestellt.",
-      "3": "Erhöht 10 Sek. nach jedem normalen Angriff ANG um 1,7 % und Krit. Schaden um 1,7 %. Dieser Effekt kann bis zu 20-mal gestapelt werden und ist nicht zu entfernen. Bei Benutzung des Skills werden 350 Mana wiederhergestellt.",
-      "4": "Erhöht 10 Sek. nach jedem normalen Angriff ANG um 2,1 % und Krit. Schaden um 2,1 %. Dieser Effekt kann bis zu 20-mal gestapelt werden und ist nicht zu entfernen. Bei Benutzung des Skills werden 420 Mana wiederhergestellt.",
-      "5": "Erhöht 10 Sek. lang nach jedem normalen Angriff ANG um 2,5 % und Krit. Schaden um 2,5 %. Dieser Effekt kann bis zu 20-mal gestapelt werden und ist nicht zu entfernen. Bei Benutzung des Skills werden 500 Mana wiederhergestellt."
+      "1": "Erhöht bei jedem Normal-ANG 10 Sek. lang den ANG um 1.2 % und Krit. Schaden um 1.2 %. Dieser Effekt kann bis zu 20-mal gestapelt werden und kann nicht entfernt werden. Bei Verwendung des Skills werden 480 MP regeneriert.",
+      "2": "Erhöht bei jedem Normal-ANG 10 Sek. lang den ANG um 1.4 % und Krit. Schaden um 1.4 %. Dieser Effekt kann bis zu 20-mal gestapelt werden und kann nicht entfernt werden. Bei Verwendung des Skills werden 580 MP regeneriert.",
+      "3": "Erhöht bei jedem Normal-ANG 10 Sek. lang den ANG um 1.7 % und Krit. Schaden um 1.7 %. Dieser Effekt kann bis zu 20-mal gestapelt werden und kann nicht entfernt werden. Bei Verwendung des Skills werden 700 MP regeneriert.",
+      "4": "Erhöht bei jedem Normal-ANG 10 Sek. lang den ANG um 2.1 % und Krit. Schaden um 2.1 %. Dieser Effekt kann bis zu 20-mal gestapelt werden und kann nicht entfernt werden. Bei Verwendung des Skills werden 840 MP regeneriert.",
+      "5": "Erhöht bei jedem Normal-ANG 10 Sek. lang den ANG um 2.5 % und Krit. Schaden um 2.5 %. Dieser Effekt kann bis zu 20-mal gestapelt werden und kann nicht entfernt werden. Bei Verwendung des Skills werden 1000 MP regeneriert."
     }
   },
   "uts": {
     "1": {
       "name": "Flüstern des Nachthimmels",
-      "description": "[Bindendes Karma] gewährt für die Dauer des Skills Immunität gegen Massenkontrolle und erhöht den Schaden um 20 %.",
-      "value": {},
+      "description": "[Bindendes Karma] gewährt für die Dauer des Skills Immunität gegen Massenkontrolle und erhöht den Schaden um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Yuria/ut/1.png",
       "story": "Der einzige Schal der Welt, der aus Yurias selbstgesponnenem Sternenlichtfaden besteht.\nAls stetig Reisende muss sich Yuria vor den Elementen beschützen,\nweswegen sie sich etwas Bequemes schneiderte.\nDas Ergebnis war dieser Schal, der sich den Temperaturen auf magische Weise anpasst.\nMit diesem Kleidungsstück um ihre Schultern hält Yuria weder Sturm noch Hagel vom Reisen ab.\nDer einzige Nachteil ist, dass das schimmernde Material Beobachter aus der Ferne dazu verleitet,\nYuria für eine Fee oder einen Geist zu halten und voller Furcht zu fliehen.",
       "descriptionByStar": {
@@ -186,8 +195,17 @@
     },
     "2": {
       "name": "Voraussehende Augen",
-      "description": "[Sternenlichtnaht] erhöht die Schildmenge um 50 % und verringert erlittenen Körp. Schaden um 10 % für die Schilddauer.",
-      "value": {},
+      "description": "[Sternenlichtnaht] erhöht die Schildmenge um 50 % und verringert erlittenen Körp. Schaden um {0} % für die Schilddauer.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Yuria/ut/2.png",
       "story": "Eines der Vermächtnisse des Wahrsagers Lasiphil, dem entfernten Vorfahren von Yuria.\nEs handelt sich um einen Satz aus 3 Ringen, die trotz ihres Alters nie ihren Glanz verloren haben.\nIhre besonderen Mächte kann selbst Yuria nicht einschätzen.\nEines der Bücher, die Yurias Großeltern ihr hinterlassen haben,\nbehauptet, dass die Voraussehenden Augen ihr Licht sein werden\nund den Propheten auf den rechten Pfad führen können.",
       "descriptionByStar": {
@@ -201,8 +219,17 @@
     },
     "3": {
       "name": "Jenseits des Spiegels",
-      "description": "[Kreis des Schicksals] erhöht den Schaden um 50 % und erhöht erlittenen Mag. Schaden am Ziel 10 Sek. lang um 10 %.",
-      "value": {},
+      "description": "[Kreis des Schicksals] erhöht den Schaden um 50 % und erhöht erlittenen Mag. Schaden am Ziel 10 Sek. lang um {0} %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Yuria/ut/3.png",
       "story": "Eines der Vermächtnisse des Wahrsagers Lasiphil, dem entfernten Vorfahren von Yuria.\nDer von bläulicher Energie durchzogene Spiegel,\nden Yuria nun in ihrem Reisewagen aufbewahrt,\nzeigt Reflexionen, aber auch das Schicksal.\nYuria begreift in Grundzügen, was der Spiegel ihr zeigt,\ndoch selbst sie kann nicht alle Visionen interpretieren.",
       "descriptionByStar": {
@@ -216,8 +243,17 @@
     },
     "4": {
       "name": "Tränen des Himmels",
-      "description": "[Segen der Wahrheit] erhöht die max. Zählerzahl des ‚Stigmas der Sterne‘ um 10. Schaden von normalen Angriffen steigt um 20 %.",
-      "value": {},
+      "description": "[Segen der Wahrheit] erhöht die max. Zählerzahl des ‚Stigmas der Sterne‘ um 10. Schaden von normalen Angriffen steigt um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Yuria/ut/4.png",
       "story": "Ein starker, aber erfrischender Schnaps aus Penteonia.\nAls eine der besten Spirituosen auf Orbis ist er sehr wertvoll.\nDurch ihre häufigen Reisen\nkann Yuria ihre Lieblingssorte nur selten erhalten.\nDeshalb kehrt sie mindestens einmal im Jahr zurück,\nfertigt ein Kleid für die Königin an und lässt sich in ein paar Flaschen auszahlen.",
       "descriptionByStar": {

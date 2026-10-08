@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Murmure doré, le Chuchotement auréolé",
-    "description": "Chaque coup de compétence augmente les DEG M subis par une cible de 10% pendant 10 sec. Soigne les PV de l'allié ayant le moins de PV de 200% de son ATQ et retire tous les effets négatifs sur l'allié toutes les 8 sec.",
-    "value": {},
+    "description": "Chaque coup de compétence augmente les DEG M subis par une cible de {0}% pendant 10 sec. Soigne les PV de l'allié ayant le moins de PV de {1}% de son ATQ et retire tous les effets négatifs sur l'allié toutes les 8 sec.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      }
+    },
     "thumbnail": "heroes/Cassandra/uw.png",
     "story": "Cassandra travaille d'arrache-pied en tant que marchande d'armes. Un jour, un article volé entré en sa possession attira immédiatement son attention : un somptueux éventail serti de pierres précieuses et d'ornements en or. D'après la rumeur, chaque femme à qui l'éventail aurait appartenu aurait connu un destin tragique. L'objet prétendument maudit aurait ainsi circulé sur le marché noir. Dès qu'elle l'eut acheté, Cassandra chercha à connaître son origine. Cet éventail baptisé Murmure Doré fut conçu pour servir d'arme furtive. On devine donc aisément quel genre de malheur a pu arriver aux ingénues à qui il a appartenu.",
     "descriptionByStar": {
@@ -146,23 +163,41 @@
   "uts": {
     "1": {
       "name": "Décoration en plume d'oiseau écarlate",
-      "description": "[Tranquillement~] Accélère les soins de 50 % et augmente la durée de Silence de 0,8 sec.",
-      "value": {},
+      "description": "[Tranquillement~] Accélère les soins de 50 % et augmente la durée de Silence de {0} sec.",
+      "value": {
+        "0": {
+          "0": "0.8",
+          "1": "1",
+          "2": "1.2",
+          "3": "1.4",
+          "4": "1.7",
+          "5": "2"
+        }
+      },
       "thumbnail": "heroes/Cassandra/ut/1.png",
       "story": "Cet ornement a été confectionné à partir d'une plume d'oiseau écarlate, une créature aussi magnifique que maléfique.\nCette plume dégage habituellement une énergie sombre, mais à la lumière, elle illumine tout ce qui l'entoure d'un halo rouge. Sa couleur étant trop lumineuse et splendide pour les esprits faibles, ils sont engloutis par les hallucinations qu'elle provoque.",
       "descriptionByStar": {
-        "0": "[Tranquillement~] Accélère les soins de 50 % et augmente la durée de Silence de 0,8 sec.",
+        "0": "[Tranquillement~] Accélère les soins de 50 % et augmente la durée de Silence de 0.8 sec.",
         "1": "[Tranquillement~] Accélère les soins de 50 % et augmente la durée de Silence de 1 sec.",
-        "2": "[Tranquillement~] Accélère les soins de 50 % et augmente la durée de Silence de 1,2 sec.",
-        "3": "[Tranquillement~] Accélère les soins de 50 % et augmente la durée de Silence de 1,4 sec.",
-        "4": "[Tranquillement~] Accélère les soins de 50 % et augmente la durée de Silence de 1,7 sec.",
+        "2": "[Tranquillement~] Accélère les soins de 50 % et augmente la durée de Silence de 1.2 sec.",
+        "3": "[Tranquillement~] Accélère les soins de 50 % et augmente la durée de Silence de 1.4 sec.",
+        "4": "[Tranquillement~] Accélère les soins de 50 % et augmente la durée de Silence de 1.7 sec.",
         "5": "[Tranquillement~] Accélère les soins de 50 % et augmente la durée de Silence de 2 sec."
       }
     },
     "2": {
       "name": "Décoration sophistiquée",
-      "description": "[Férocement !] Augmente la durée de 5 sec et augmente en plus les DEG Crit de 20 %.",
-      "value": {},
+      "description": "[Férocement !] Augmente la durée de 5 sec et augmente en plus les DEG Crit de {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Cassandra/ut/2.png",
       "story": "Accessoire de luxe confectionné par le meilleur joailler du continent.\nCette décoration édition limitée a été élaborée par Larik le joailler. Toute la haute société du continent Orbis rêverait d’avoir la même. \nSes bijoux sont au sommet de l’art, et l’on raconte qu’ils peuvent soigner et donner du courage. \nIl n’existe que 3 décorations sophistiquées édition limitée, et l’une d’entre elles semble appartenir au maître de la Barre d’Or.",
       "descriptionByStar": {
@@ -176,23 +211,41 @@
     },
     "3": {
       "name": "Fragrance d'or",
-      "description": "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 1 sec.",
-      "value": {},
+      "description": "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de {0} sec.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.5",
+          "2": "2",
+          "3": "2.5",
+          "4": "3",
+          "5": "3.5"
+        }
+      },
       "thumbnail": "heroes/Cassandra/ut/3.png",
       "story": "Un pendentif de flammes et d’or légendaire. Le légendaire Roi d’Or créa ce collier pour attirer l’attention de la Déesse de l’Amour et de la Beauté. \nSa senteur dorée crée une Vague Tentatrice qui force les gens à se joindre au porteur, qui est aimé de tous.",
       "descriptionByStar": {
         "0": "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 1 sec.",
-        "1": "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 1,5 sec.",
+        "1": "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 1.5 sec.",
         "2": "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 2 sec.",
-        "3": "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 2,5 sec.",
+        "3": "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 2.5 sec.",
         "4": "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 3 sec.",
-        "5": "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 3,5 sec."
+        "5": "[Vague Tentatrice] Le Temps de Rechange de la compétence est réduit de 30% et la durée de Charme est augmentée de 3.5 sec."
       }
     },
     "4": {
       "name": "Diffuseur de parfum de séduction",
-      "description": "[Douceur] Rend le boost de DEF inamovible. La Résistance Crit de tous les alliés augmente de 100 points pendant 10 sec.",
-      "value": {},
+      "description": "[Douceur] Rend le boost de DEF inamovible. La Résistance Crit de tous les alliés augmente de {0} points pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Cassandra/ut/4.png",
       "story": "Un diffuseur de parfum acheté par Cassandra dans l'Est, chez un marchand clandestin.\nUne forte odeur d'azalée s'en dégage.\nLe liquide à l'intérieur contient une substance spéciale qui agite les esprits, et les personnes qui la respirent suffisamment longtemps confessent leurs secrets les plus inavouables.\nÀ moins d'avoir un besoin vital d'une information, Cassandra n'utilise pas ce diffuseur, car il serait pratiquement impossible de racheter du liquide.",
       "descriptionByStar": {

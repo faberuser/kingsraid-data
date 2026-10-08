@@ -146,23 +146,41 @@
   "uts": {
     "1": {
       "name": "Gants de tireur d'élite",
-      "description": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 1 sec.",
-      "value": {},
+      "description": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de {0} sec.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Selene/ut/1.png",
       "story": "Ces gants ont été bénis par un élémentaire de vent.\nDosarta les offrit à sa sœur Selene pour la remercier d'avoir maintenu la paix parmi les elfes. Le tissu dont ils sont faits est imprégné de la magie de Sylphid, un élémental de vent, et orné de broderies réalisées en fil de clair de lune par Dosarta.",
       "descriptionByStar": {
         "0": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 1 sec.",
-        "1": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 1,2 sec.",
-        "2": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 1,4 sec.",
-        "3": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 1,7 sec.",
-        "4": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 2,1 sec.",
-        "5": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 2,5 sec."
+        "1": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 1.2 sec.",
+        "2": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 1.4 sec.",
+        "3": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 1.7 sec.",
+        "4": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 2.1 sec.",
+        "5": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 2.5 sec."
       }
     },
     "2": {
       "name": "Pierre de sceau de l’esprit du vent",
-      "description": "[Ruée] Augmente les DEG de 20 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale.",
-      "value": {},
+      "description": "[Ruée] Augmente les DEG de {0} % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Selene/ut/2.png",
       "story": "Cette pierre est la prison d'un élémentaire aventureux de l'arc de vent. \nIl a causé tellement d'ennuis qu'il a été scellé dans cette pierre par le roi des fées. \nIl imprègne les flèches d'un vent destructeur, ce qui multiplie leur force par 5, au minimum.",
       "descriptionByStar": {
@@ -176,8 +194,17 @@
     },
     "3": {
       "name": "Flèche d'argent",
-      "description": "[Flash Clair de Lune] Les DEG sont augmentés de 20% et la cible reçoit 20% de DEG P supplémentaires pendant 10 sec.",
-      "value": {},
+      "description": "[Flash Clair de Lune] Les DEG sont augmentés de {0}% et la cible reçoit 20% de DEG P supplémentaires pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Selene/ut/3.png",
       "story": "Une pointe de flèche imprégnée de la bénédiction de la Déesse de la chasse et de la lune. Une ancienne relique dont hérite le meilleur chasseur elfique. On dit que la Déesse de la chasse et de la lune s’occupait des Elfes protégeant la forêt sacrée et qu’elle leur accorda du pouvoir via la relique. La flèche d’argent imprégnée du pouvoir de la Déesse de la lune dispose d’un pouvoir mystérieux permettant à l’utilisateur de vaincre son ennemi et améliorer ses DEG.",
       "descriptionByStar": {
@@ -191,8 +218,17 @@
     },
     "4": {
       "name": "Diadème du vent",
-      "description": "[Flèche de clair de lune] Augmente la vitesse d'attaque de 100. Chaque cumul augmente les dégâts aux non-héros de 2%.",
-      "value": {},
+      "description": "[Flèche de clair de lune] Augmente la vitesse d'attaque de 100. Chaque cumul augmente les dégâts aux non-héros de {0}%.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Selene/ut/4.png",
       "story": "Un diadème qui contient la grâce de Notos et des élémentaux de vent.\nLe Diadème du vent se transmet de génération en génération au meilleur archer des elfes. Son propriétaire actuel est Selene.",
       "descriptionByStar": {

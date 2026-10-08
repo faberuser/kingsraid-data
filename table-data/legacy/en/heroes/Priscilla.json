@@ -130,8 +130,17 @@
   },
   "uw": {
     "name": "Tumultuous Dance, Excilius",
-    "description": "When attacking the enemy with 'Vital Strike' or 'Turbulent Dance', per every hit enemy, corresponding skill's cooldown is reduced by 1 sec and ATK Spd is increased by 50 for 5 sec. ATK Spd boost can be stacked up to 10 times max.",
-    "value": {},
+    "description": "When attacking the enemy with 'Vital Strike' or 'Turbulent Dance', per every hit enemy, corresponding skill's cooldown is reduced by {0} sec and ATK Spd is increased by 50 for 5 sec. ATK Spd boost can be stacked up to 10 times max.",
+    "value": {
+      "0": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.7",
+        "4": "2",
+        "5": "2.5"
+      }
+    },
     "thumbnail": "heroes/Priscilla/uw.png",
     "story": "During her military career, Priscilla felled countless enemies with her halberd. Although the halberd fell into a state of disrepair following her retirement, it was later resurrected as Excilius. This upgrade was a part of the order sent to Annette to create Mahitra for Aisha. This razor-sharp and incredibly durable new weapon even has the magical power to draw its enemies in. Those who have seen Priscilla slaughtering her Demon foes using this halberd claim that it was like watching an unstoppable storm.",
     "descriptionByStar": {
@@ -146,8 +155,17 @@
   "uts": {
     "1": {
       "name": "Weight of Fierce Attack",
-      "description": "[Vital Strike] Increases DMG by 50%, and for 10 sec, reduces the target's P.Block Chance by 200.",
-      "value": {},
+      "description": "[Vital Strike] Increases DMG by 50%, and for 10 sec, reduces the target's P.Block Chance by {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Priscilla/ut/1.png",
       "story": "A weight attached to the bottom of Excilius's grip.\nIt provides Priscilla with better balance, allowing for more stable, precise attacks. When Annette enhanced her halberd into Excilius, she replaced its weight, too. Through Technomagical enhancement, the hardness of the weight was significantly increased with an upgrade that allows her to perform attacks with high precision.",
       "descriptionByStar": {
@@ -161,8 +179,17 @@
     },
     "2": {
       "name": "Fancy Tea Set",
-      "description": "[Coordination] Increases ATK Boost by 20% and reduces active Skills' Cooldown of the Hero with the highest ATK by 30%.",
-      "value": {},
+      "description": "[Coordination] Increases ATK Boost by {0}% and reduces active Skills' Cooldown of the Hero with the highest ATK by 30%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Priscilla/ut/2.png",
       "story": "Aisha's favorite ceramic tea cups that Priscilla has ready at all times. \nLuxurious tea cups made from the best clay of the eastern continent across the sea. It's mostly used for tea time with Aisha, but it is also used when using Coordination with Priscilla.",
       "descriptionByStar": {
@@ -176,8 +203,17 @@
     },
     "3": {
       "name": "Magical Stone of Gravity",
-      "description": "[Turbulent Dance] DMG is increased by 20% and target is inflicted by Stun for 3 sec.",
-      "value": {},
+      "description": "[Turbulent Dance] DMG is increased by {0}% and target is inflicted by Stun for 3 sec.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Priscilla/ut/3.png",
       "story": "The first magic tool made by a wizard of Violet. The first gift that Aisha gave. Aisha created this magic tool because she felt bad that Priscilla used up so much power when using Turbulent Dance. The Mana Stone of Gravity relieves the pressure from the body when using Turbulent Dance, and it increases its effect.",
       "descriptionByStar": {
@@ -191,8 +227,17 @@
     },
     "4": {
       "name": "Beginning of Turbulence",
-      "description": "[Weapon Mastery] Increases ATK boost by 50% and All DEF for self by 10%.",
-      "value": {},
+      "description": "[Weapon Mastery] Increases ATK boost by 50% and All DEF for self by {0}%.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Priscilla/ut/4.png",
       "story": "A halberd that Priscilla used for practice.\nThe storm of war started from this shabby old spear.\nShe would take it out occasionally to be reminded of her training days.\nThis is how she could always stay true to his way of life, protecting her Lady against all harms.",
       "descriptionByStar": {

@@ -160,14 +160,28 @@
     "thumbnail": "heroes/Mediana/uw.png",
     "story": "The story goes back to when Mediana's poison experiments were still being kept secret from her peers. One day, a fellow doctor noticed the giant syringe she had made. Impressed by its sheer size, he asked her:\n'Look at the size of that thing. Shouldn't you at least give it a name?'\nTo this, Mediana replied, nonchalantly:\n'Oh... Just call it... Piston.'",
     "descriptionByStar": {
-      "0": "Increases DMG of Special Poison by 40%, and increases P.DMG the target inflicted with Special Poison takes by 10% for 3 sec. If the target is hit by an ally other than Mediana, the target takes additional P.DMG equal to 30% of Mediana's ATK. The additional P.DMG effect activates only once every 1 sec."
+      "0": "Increases DMG of Special Poison by 40%, and increases P.DMG the target inflicted with Special Poison takes by 10% for 3 sec. If the target is hit by an ally other than Mediana, the target takes additional P.DMG equal to 30% of Mediana's ATK. The additional P.DMG effect activates only once every 1 sec.",
+      "1": "Increases DMG of Special Poison by 48%, and increases P.DMG the target inflicted with Special Poison takes by 12% for 3 sec. If the target is hit by an ally other than Mediana, the target takes additional P.DMG equal to 36% of Mediana's ATK. The additional P.DMG effect activates only once every 1 sec.",
+      "2": "Increases DMG of Special Poison by 57%, and increases P.DMG the target inflicted with Special Poison takes by 14% for 3 sec. If the target is hit by an ally other than Mediana, the target takes additional P.DMG equal to 43% of Mediana's ATK. The additional P.DMG effect activates only once every 1 sec.",
+      "3": "Increases DMG of Special Poison by 69%, and increases P.DMG the target inflicted with Special Poison takes by 17% for 3 sec. If the target is hit by an ally other than Mediana, the target takes additional P.DMG equal to 52% of Mediana's ATK. The additional P.DMG effect activates only once every 1 sec.",
+      "4": "Increases DMG of Special Poison by 83%, and increases P.DMG the target inflicted with Special Poison takes by 21% for 3 sec. If the target is hit by an ally other than Mediana, the target takes additional P.DMG equal to 62% of Mediana's ATK. The additional P.DMG effect activates only once every 1 sec.",
+      "5": "Increases DMG of Special Poison by 100%, and increases P.DMG the target inflicted with Special Poison takes by 25% for 3 sec. If the target is hit by an ally other than Mediana, the target takes additional P.DMG equal to 75% of Mediana's ATK. The additional P.DMG effect activates only once every 1 sec."
     }
   },
   "uts": {
     "1": {
       "name": "Strangely Healthy Injection",
-      "description": "[Healing Salve] Increases Heal Rate by 50%, and for 10 sec, increases the targets' Crit DMG by 20%.",
-      "value": {},
+      "description": "[Healing Salve] Increases Heal Rate by 50%, and for 10 sec, increases the targets' Crit DMG by {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Mediana/ut/1.png",
       "story": "A collection of Mediana's special healthy injections. These liquids are all made up of unknown substances and have a mystical glimmer.\nThese were made with folk remedies that Mediana learned from every corner of the continent. Mediana insists that they provide recovery, but their abuse can lead to some extreme results.",
       "descriptionByStar": {
@@ -181,8 +195,17 @@
     },
     "2": {
       "name": "Special Potion of Double Reaction",
-      "description": "[Special Water Cannon] Increases Resistance by 30% and reduces Cooldown by 12%.",
-      "value": {},
+      "description": "[Special Water Cannon] Increases Resistance by 30% and reduces Cooldown by {0}%.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
       "thumbnail": "heroes/Mediana/ut/2.png",
       "story": "A special potion that has two type of effects.\nMediana wondered if there was a way to handle attack and recovery at once. She went to the library and read a dusty book called 'Slimes Can Also Make Cannons.' \nMediana was reading just for fun, but found a way to apply the principle of cannons into her piston. She was then able to invent the Special Potion of Double Reaction and maximize recovery and attack when using Special Water Cannon. Mediana is still thankful to the author of the book who gave her the inspiration.",
       "descriptionByStar": {
@@ -196,8 +219,17 @@
     },
     "3": {
       "name": "Mysterious Potion",
-      "description": "[Strengthening Potion] dispels target's negative effects and target gains immunity to CC for 2 sec.",
-      "value": {},
+      "description": "[Strengthening Potion] dispels target's negative effects and target gains immunity to CC for {0} sec.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "3",
+          "2": "4",
+          "3": "5",
+          "4": "6",
+          "5": "7"
+        }
+      },
       "thumbnail": "heroes/Mediana/ut/3.png",
       "story": "A special potion that has the teachings of a master. The genius surgeon and expert on anatomy, Doctor Aldini, is Mediana's master. Doctor Aldini recognized her talent early on, and he taught her extraordinary medical knowledge that couldn't have been imagined in the Church of Lua. The unidentifiable potion that was made with her master's special recipe increases the effect of the Strengthening Potion.",
       "descriptionByStar": {
@@ -211,8 +243,17 @@
     },
     "4": {
       "name": "Old Medical Report",
-      "description": "[Mediana's Special Poison] Increases ATK boost by 50%. All allies take 4% reduced P.DMG.",
-      "value": {},
+      "description": "[Mediana's Special Poison] Increases ATK boost by 50%. All allies take {0}% reduced P.DMG.",
+      "value": {
+        "0": {
+          "0": "4",
+          "1": "4.8",
+          "2": "5.8",
+          "3": "7",
+          "4": "8.4",
+          "5": "10"
+        }
+      },
       "thumbnail": "heroes/Mediana/ut/4.png",
       "story": "A strange medical test report that Doctor Aldini gave to his student, Mediana.\nFor a long time, he had kept notes about the autopsies he performed, and handed the records to Mediana, hoping that the traditional art of medicine would live on in her hands.\nFilled with joy, she has read it numerous times, and it was this report that made Mediana's Special Poison possible.",
       "descriptionByStar": {

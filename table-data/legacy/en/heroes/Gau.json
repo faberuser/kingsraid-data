@@ -153,18 +153,27 @@
     "story": "It is said that there lives a sacred beast protecting the Barbarians in the Windland Snow Mountain. This beast, capable of dispelling the power of darkness, is supposed to be a blue phoenix composed of ice. Created in the shape of this beast is Numinu, its name means 'holy.' It has been crafted from enchanted ice that never melts. Considered a holy relic among Barbarians, this weapon is bestowed to their mightiest warrior. The wielder of this weapon is the most powerful warrior among Barbarians, and may be considered their king.",
     "descriptionByStar": {
       "0": "Increases own Max HP by 12%. Normal attacks have a 15% chance of dealing additional P.DMG equal to 200% of ATK and freezing the enemy for 2 sec.",
-      "1": "Per every 1% of HP lost, ATK is increased by 1% and ATK Spd is increased by 10.",
-      "2": "Per every 1% of HP lost, ATK is increased by 1.2% and ATK Spd is increased by 12.",
-      "3": "Per every 1% of HP lost, ATK is increased by 1.4% and ATK Spd is increased by 14.",
-      "4": "Per every 1% of HP lost, ATK is increased by 1.7% and ATK Spd is increased by 17.",
-      "5": "Per every 1% of HP lost, ATK is increased by 2% and ATK Spd is increased by 20."
+      "1": "Increases own Max HP by 14%. Normal attacks have a 15% chance of dealing additional P.DMG equal to 240% of ATK and freezing the enemy for 2 sec.",
+      "2": "Increases own Max HP by 17%. Normal attacks have a 15% chance of dealing additional P.DMG equal to 290% of ATK and freezing the enemy for 2 sec.",
+      "3": "Increases own Max HP by 21%. Normal attacks have a 15% chance of dealing additional P.DMG equal to 350% of ATK and freezing the enemy for 2 sec.",
+      "4": "Increases own Max HP by 25%. Normal attacks have a 15% chance of dealing additional P.DMG equal to 420% of ATK and freezing the enemy for 2 sec.",
+      "5": "Increases own Max HP by 30%. Normal attacks have a 15% chance of dealing additional P.DMG equal to 500% of ATK and freezing the enemy for 2 sec."
     }
   },
   "uts": {
     "1": {
       "name": "King of Frost Helmet",
-      "description": "[Smash] Reduces the target's ATK by 20% and increases P.DMG target receives by 10% for 10 sec.",
-      "value": {},
+      "description": "[Smash] Reduces the target's ATK by 20% and increases P.DMG target receives by {0}% for 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Gau/ut/1.png",
       "story": "A worn-out helmet of Frost Giant King.\nIt was last used by the darkness-ridden Frost Giant King. Gau, hoping that the tragedy of Windland Snow Mountain won't repeat itself, keeps this broken helmet to mourn the fallen hero.",
       "descriptionByStar": {
@@ -193,11 +202,11 @@
       "story": "Trumpet made with the horn of the guardian beast of Windland Snow Mountain, Orox.\nOrox of the Snowy Mountain grants noble warriors great power and the ability to see the truth. \nWhen a warrior who has received the blessing of Orox blows this horn, it will boost the morale of comrades and bring clarity to their minds.",
       "descriptionByStar": {
         "0": "[Battle Roar] Reduces Mana Cost by 1 and increases targets' Crit DMG by 20% for the duration of Skill.",
-        "1": "[Battle Roar] Reduces Mana Cost by 1 and increases ATK Boost by 24%.",
-        "2": "[Battle Roar] Reduces Mana Cost by 1 and increases ATK Boost by 29%.",
-        "3": "[Battle Roar] Reduces Mana Cost by 1 and increases ATK Boost by 35%.",
-        "4": "[Battle Roar] Reduces Mana Cost by 1 and increases ATK Boost by 42%.",
-        "5": "[Battle Roar] Reduces Mana Cost by 1 and increases ATK Boost by 50%."
+        "1": "[Battle Roar] Reduces Mana Cost by 1 and increases targets' Crit DMG by 24% for the duration of Skill.",
+        "2": "[Battle Roar] Reduces Mana Cost by 1 and increases targets' Crit DMG by 29% for the duration of Skill.",
+        "3": "[Battle Roar] Reduces Mana Cost by 1 and increases targets' Crit DMG by 35% for the duration of Skill.",
+        "4": "[Battle Roar] Reduces Mana Cost by 1 and increases targets' Crit DMG by 42% for the duration of Skill.",
+        "5": "[Battle Roar] Reduces Mana Cost by 1 and increases targets' Crit DMG by 50% for the duration of Skill."
       }
     },
     "3": {
@@ -217,11 +226,11 @@
       "story": "Mug of the Barbarian King who first settled down in the snowy mountains. When the first Barbarian King settled down in Windland, he swore to become the guardian of the snowy mountains and shared this mug with the holy beings of the mountains. The protect magic of the frost wolf imbued in the Barbarian Mug increases the ATK of Vortex and the effect of Freeze.",
       "descriptionByStar": {
         "0": "[Vortex] Increases DMG by 50%, and the last hit increases All DMG the target takes by 8% for 10 sec.",
-        "1": "[Vortex] Increases DMG by 50%, and the last hit increases All DMG the target takes by 12% for 10 sec.",
-        "2": "[Vortex] Increases DMG by 50%, and the last hit increases All DMG the target takes by 14% for 10 sec.",
-        "3": "[Vortex] Increases DMG by 50%, and the last hit increases All DMG the target takes by 17% for 10 sec.",
-        "4": "[Vortex] Increases DMG by 50%, and the last hit increases All DMG the target takes by 21% for 10 sec.",
-        "5": "[Vortex] Increases DMG by 50%, and the last hit increases All DMG the target takes by 25% for 10 sec."
+        "1": "[Vortex] Increases DMG by 50%, and the last hit increases All DMG the target takes by 10% for 10 sec.",
+        "2": "[Vortex] Increases DMG by 50%, and the last hit increases All DMG the target takes by 12% for 10 sec.",
+        "3": "[Vortex] Increases DMG by 50%, and the last hit increases All DMG the target takes by 14% for 10 sec.",
+        "4": "[Vortex] Increases DMG by 50%, and the last hit increases All DMG the target takes by 17% for 10 sec.",
+        "5": "[Vortex] Increases DMG by 50%, and the last hit increases All DMG the target takes by 20% for 10 sec."
       }
     },
     "4": {
@@ -241,11 +250,11 @@
       "story": "A bracelet made with a Snowdrop Flower.\nAlthough it was made with clumsy hands, the children at the orphanage made this bracelet as a birthday gift for Gau after seeing him grieve for his fallen Barbarian tribes.\nA Snowdrop means hope and comfort in the language of flowers.",
       "descriptionByStar": {
         "0": "[Enrage] Changes the max number of stacks to 30 and upon gaining 30 stacks, increases own DEF Penetration by 100.",
-        "1": "[Enrage] Increases the max number of stacks by 2. Each stack increases DEF Penetration by 10.",
-        "2": "[Enrage] Increases the max number of stacks by 3. Each stack increases DEF Penetration by 10.",
-        "3": "[Enrage] Increases the max number of stacks by 4. Each stack increases DEF Penetration by 10.",
-        "4": "[Enrage] Increases the max number of stacks by 5. Each stack increases DEF Penetration by 10.",
-        "5": "[Enrage] Increases the max number of stacks by 6. Each stack increases DEF Penetration by 10."
+        "1": "[Enrage] Changes the max number of stacks to 30 and upon gaining 30 stacks, increases own DEF Penetration by 120.",
+        "2": "[Enrage] Changes the max number of stacks to 30 and upon gaining 30 stacks, increases own DEF Penetration by 140.",
+        "3": "[Enrage] Changes the max number of stacks to 30 and upon gaining 30 stacks, increases own DEF Penetration by 170.",
+        "4": "[Enrage] Changes the max number of stacks to 30 and upon gaining 30 stacks, increases own DEF Penetration by 210.",
+        "5": "[Enrage] Changes the max number of stacks to 30 and upon gaining 30 stacks, increases own DEF Penetration by 250."
       }
     }
   },

@@ -161,18 +161,27 @@
     "story": "Yuria's favorite set of thread, needle, and scissors.\nHer masterpieces were all made with these tools.\nThe thread with starlight from the night sky and the scissors and needle made from metal extracted from a meteorite give Yuria the power to read people's fate.",
     "descriptionByStar": {
       "0": "Every normal attack increases ATK by 1% and Crit DMG by 1% for 10 sec. This effect can be stacked up to max 20 times and is irremovable. Upon using the Skill, recovers 400 Mana.",
-      "1": "Every normal attack increases ATK by 1.2% and Crit DMG by 1.2% for 10 sec. This effect can be stacked up to max 20 times and is irremovable. Recovers 240 Mana upon using the Skill.",
-      "2": "Every normal attack increases ATK by 1.4% and Crit DMG by 1.4% for 10 sec. This effect can be stacked up to max 20 times and is irremovable. Recovers 290 Mana upon using the Skill.",
-      "3": "Every normal attack increases ATK by 1.7% and Crit DMG by 1.7% for 10 sec. This effect can be stacked up to max 20 times and is irremovable. Recovers 350 Mana upon using the Skill.",
-      "4": "Every normal attack increases ATK by 2.1% and Crit DMG by 2.1% for 10 sec. This effect can be stacked up to max 20 times and is irremovable. Recovers 420 Mana upon using the Skill.",
-      "5": "Every normal attack increases ATK by 2.5% and Crit DMG by 2.5% for 10 sec. This effect can be stacked up to max 20 times and is irremovable. Recovers 500 Mana upon using the Skill."
+      "1": "Every normal attack increases ATK by 1.2% and Crit DMG by 1.2% for 10 sec. This effect can be stacked up to max 20 times and is irremovable. Upon using the Skill, recovers 480 Mana.",
+      "2": "Every normal attack increases ATK by 1.4% and Crit DMG by 1.4% for 10 sec. This effect can be stacked up to max 20 times and is irremovable. Upon using the Skill, recovers 580 Mana.",
+      "3": "Every normal attack increases ATK by 1.7% and Crit DMG by 1.7% for 10 sec. This effect can be stacked up to max 20 times and is irremovable. Upon using the Skill, recovers 700 Mana.",
+      "4": "Every normal attack increases ATK by 2.1% and Crit DMG by 2.1% for 10 sec. This effect can be stacked up to max 20 times and is irremovable. Upon using the Skill, recovers 840 Mana.",
+      "5": "Every normal attack increases ATK by 2.5% and Crit DMG by 2.5% for 10 sec. This effect can be stacked up to max 20 times and is irremovable. Upon using the Skill, recovers 1000 Mana."
     }
   },
   "uts": {
     "1": {
       "name": "Whisper of Night Sky",
-      "description": "[Binding Karma] Increases DMG by 20% and grants immunity to CC for the duration of Skill.",
-      "value": {},
+      "description": "[Binding Karma] Increases DMG by {0}% and grants immunity to CC for the duration of Skill.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Yuria/ut/1.png",
       "story": "The only shawl in the world that Yuria made with the starlight thread that she personally wove.\nSince she travels often, it was always important for Yuria to protect herself from the elements.\nTherefore, she decided to make something to keep her comfortable.\nThe result was this shawl, one that provides temperature adjustment magic to the wearer.\nWith this around her shoulders, storms or blizzards won't stop Yuria from traveling.\nThe only downside is that it emits light even during the night.\nPeople who see her from afar mistake her for a fairy or a ghost and get frightened.",
       "descriptionByStar": {
@@ -186,8 +195,17 @@
     },
     "2": {
       "name": "Foreseeing Eyes",
-      "description": "[Starlight Sewing] Increases shield amount by 50%, and takes 10% reduced P.DMG while shield is active.",
-      "value": {},
+      "description": "[Starlight Sewing] Increases shield amount by 50%, and takes {0}% reduced P.DMG while shield is active.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Yuria/ut/2.png",
       "story": "One of the legacies left by the fortune teller Lasiphil, a distant ancestor of Yuria.\nIt's a set of 3 rings that have never lost their luster, even after the passage of time.\nThey contain special powers that even Yuria cannot gauge.\nOne of the books that Yuria's grandparents left said that when the time comes, the Foreseeing Eyes will shine their light, and that it will guide the prophet onto the right path.",
       "descriptionByStar": {
@@ -201,8 +219,17 @@
     },
     "3": {
       "name": "Beyond the Mirror",
-      "description": "[Circle of Fate] Increases DMG by 50% and increases M.DMG the target takes by 10% for 10 sec.",
-      "value": {},
+      "description": "[Circle of Fate] Increases DMG by 50% and increases M.DMG the target takes by {0}% for 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Yuria/ut/3.png",
       "story": "One of the legacies left by the fortune teller Lasiphil, a distant ancestor of Yuria.\nNow kept in the back of Yuria's traveling wagon, this strange mirror covered with blue energy shows fate rather than reflections.\nYuria has a rough understanding of what the mirror reveals, but even she cannot interpret it completely.",
       "descriptionByStar": {
@@ -216,8 +243,17 @@
     },
     "4": {
       "name": "Drops of Heaven",
-      "description": "[Blessing of Truth] Increases the max number of 'Stigma of Stars' stacks by 10 and increases DMG of normal attacks by 20%.",
-      "value": {},
+      "description": "[Blessing of Truth] Increases the max number of 'Stigma of Stars' stacks by 10 and increases DMG of normal attacks by {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Yuria/ut/4.png",
       "story": "Strong but refreshing liquor of Penteonia.\nIt is one of the best liquors in Orbis, and it's very valuable.\nIt is Yuria's favorite, but she cannot get her hands on it easily as she travels frequently.\nSo, she always returns to her home at least once a year to make a dress for the queen, and get a few bottles in return.",
       "descriptionByStar": {

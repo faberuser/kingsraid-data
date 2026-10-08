@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "The Counterattack, Maxithea",
-    "description": "Whenever a Skill is cast, increases ATK of all allies by 1% and Crit DMG by 2%. This effect stacks up to 4 times, and all effects are doubled at max stack. This effect cannot be dispelled.",
-    "value": {},
+    "description": "Whenever a Skill is cast, increases ATK of all allies by {0}% and Crit DMG by {1}%. This effect stacks up to 4 times, and all effects are doubled at max stack. This effect cannot be dispelled.",
+    "value": {
+      "0": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.7",
+        "4": "2",
+        "5": "2.5"
+      },
+      "1": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.8",
+        "3": "3.4",
+        "4": "4.2",
+        "5": "5"
+      }
+    },
     "thumbnail": "heroes/Glenwys/uw.png",
     "story": "A shield and a gunblade crafted with the cutting-edge mechanical engineering of the Empire.\nThe gunblade is a prototype made by the Department of Mechanical Engineering of Magos Le'Flamme, and it is a deadly weapon designed to attack multiple enemies at close range.\nThe shield was designed to parry and counterattack enemy strikes, and its ability to absorb and mitigate shock is unmatched.\nIt was a gift awarded by the royal family of the Empire in recognition of Glenwys's achievements after joining the Knights.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Alpha Leader Badge",
-      "description": "[That Is it] Increases DMG by 50% and reduces Cooldown by 1% upon a Critical Hit.",
-      "value": {},
+      "description": "[That Is it] Increases DMG by 50% and reduces Cooldown by {0}% upon a Critical Hit.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Glenwys/ut/1.png",
       "story": "It's the symbol of the Capital Guard Knights.\nIt's a badge bestowed upon the Alpha Leader, who has the authority to impose summary justice to secure public safety of the Empire. Elected with unanimous consent, the post of Alpha Leader is for a knight who has unmatched fighting techniques and a high reputation among their fellow knights.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Praise of Dandelion",
-      "description": "[I Will Not Stay My Hand] Reduces Cooldown by 4.5 sec and enemy Heal Rate by 20%.",
-      "value": {},
+      "description": "[I Will Not Stay My Hand] Reduces Cooldown by 4.5 sec and enemy Heal Rate by {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "28",
+          "3": "34",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Glenwys/ut/2.png",
       "story": "The Annual Imperial Colosseum Tournament was where all the courageous fighter could compete to prove their worth, regardless of their origins and social ranks, but the winner was always a well-equipped nobleman, knight, or soldier sponsored by noble families. Everyone knew it was no longer fair, but no one would dare say it out loud.\nHowever, Glenwys, a 16-year-old commoner girl who had no strings to pull, won the tournament 4 years ago and the noble purpose of the competition was regained. On the day of her victory, the Colosseum was filled with thundering applause of the audience who were longing to see haughty aristocrats lose what they thought belonged to them. Glenwys became a new idol of the Empire, and people were buying gifts for her.\nGlenwys, however, had to turn down all the gifts. Not only was the national attention too much for her, but she also knew that those with power would never take joy in seeing commoners rally around a hero like her.\nNevertheless, she could not say no to a timid little girl that came holding a paperweight made of dandelions in her small hands, and it became the only present that she kept for herself.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Ballas Ruby",
-      "description": "[Time for Counterattack] Increases the amount of ATK and DEF Boost by 50% and causes the hit target to take 10% increased P.DMG for 10 sec.",
-      "value": {},
+      "description": "[Time for Counterattack] Increases the amount of ATK and DEF Boost by 50% and causes the hit target to take {0}% increased P.DMG for 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Glenwys/ut/3.png",
       "story": "The last present from an anonymous supporter.\nGlenwys became the first tournament winner with a commoner's background, but what she needed to pay to defend her position in the following Imperial Colosseum Tournaments was far above an ordinary commoner's income. Most of her participation fee would come from the donations of citizens, but the time eventually came when the cost got too expensive for her to carry on competing.\nHowever, to her surprise, help came for her from an anonymous supporter every time she was desperate for it, enabling her to continue fighting.\nOn the day that she became the winner of 3 consecutive tournaments, the 'Ballas Ruby,' a jewel of a knight, was delivered to her, which became the last gesture of support she ever got from the nameless helper. Since then, this ruby became her charm of victory that she always carries with her, grateful, but curious about who the supporter might be.",
       "descriptionByStar": {
@@ -191,8 +235,25 @@
     },
     "4": {
       "name": "Golden Glory",
-      "description": "[Pride of Imperial Knights] Increases ATK Boost by 50%. At the beginning of each battle, increases Crit DMG of self and an ally with the highest ATK besides self by 30% for 20 sec, and increases DMG to Non-Hero enemies by 10%.",
-      "value": {},
+      "description": "[Pride of Imperial Knights] Increases ATK Boost by 50%. At the beginning of each battle, increases Crit DMG of self and an ally with the highest ATK besides self by {0}% for 20 sec, and increases DMG to Non-Hero enemies by {1}%.",
+      "value": {
+        "0": {
+          "0": "30",
+          "1": "36",
+          "2": "42",
+          "3": "50",
+          "4": "63",
+          "5": "75"
+        },
+        "1": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Glenwys/ut/4.png",
       "story": "A golden trophy awarded to Glenwys for winning 3 consecutive Imperial Colosseum Tournaments.\nIt's the Emperor's gift to the true hero of the Colosseum.\nThe third championship match was the last tournament match in which Glenwys fought in.\nHer last opponent was a mysterious man with a mask who defeated all his opponents throughout the tournament in less than a few seconds. Glenwys was nervous when she saw him fight in the semi-final match. As expected, the fight was one-sided.\nA man swung a pair of red swords at Glenwys like a red storm. She waited for an opportunity while blocking his fierce attacks. The man finally seemed to let his guard down, and Glenwys launched a powerful strike.\nBut to her surprise, the man dodged it simply by taking a few steps back. \nHowever, the explosion caused by Glenwys's attack made the man's mask crack, revealing his handsome face. She then saw, through the breaking mask, that the man was smiling.\nNoticing that her attack didn't leave a scratch on him, Glenwys raised her shield up again, appalled, but the man suddenly threw the towel.\nSoon, the smoke around the two people cleared, and there was another mask on the man's face.\nShocked and astonished, Glenwys could not understand what had happened until the Emperor handed her the trophy, until she saw the man standing behind the Emperor with the Royal Guard Captain, giving her a warm applause.",
       "descriptionByStar": {

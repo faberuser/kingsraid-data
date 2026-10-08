@@ -145,11 +145,11 @@
     "story": "Une Épée Sacré légendaire donnée au monde par Lua. Cette épée légendaire se matérialisa il y a cent ans, lorsque les démons envahirent le continent via la Porte Dimensionnelle. D'après la légende, le roi héros Kyle l'utilisa pour transpercer le cœur du Seigneur des Ténèbres Angmund et mettre fin à la guerre. Cependant, ils disparurent tous les deux, ne laissant qu'Aea.",
     "descriptionByStar": {
       "0": "Lors de chaque attaque, a 35% de chances d'infliger des DEG P à hauteur de 160% de l'ATQ. Cet effet possède 0.5 sec de temps de recharge.",
-      "1": "Chaque attaque a 35% de chance d'infliger des DEG P à l'ennemi (192% de l'ATQ)",
-      "2": "Chaque attaque a 35% de chance d'infliger des DEG P à l'ennemi (230% de l'ATQ)",
-      "3": "Chaque attaque a 35% de chance d'infliger des DEG P à l'ennemi (276% de l'ATQ)",
-      "4": "Chaque attaque a 35% de chance d'infliger des DEG P à l'ennemi (331% de l'ATQ)",
-      "5": "Chaque attaque a 35% de chance d'infliger des DEG P à l'ennemi (400% de l'ATQ)"
+      "1": "Lors de chaque attaque, a 35% de chances d'infliger des DEG P à hauteur de 192% de l'ATQ. Cet effet possède 0.5 sec de temps de recharge.",
+      "2": "Lors de chaque attaque, a 35% de chances d'infliger des DEG P à hauteur de 230% de l'ATQ. Cet effet possède 0.5 sec de temps de recharge.",
+      "3": "Lors de chaque attaque, a 35% de chances d'infliger des DEG P à hauteur de 276% de l'ATQ. Cet effet possède 0.5 sec de temps de recharge.",
+      "4": "Lors de chaque attaque, a 35% de chances d'infliger des DEG P à hauteur de 331% de l'ATQ. Cet effet possède 0.5 sec de temps de recharge.",
+      "5": "Lors de chaque attaque, a 35% de chances d'infliger des DEG P à hauteur de 400% de l'ATQ. Cet effet possède 0.5 sec de temps de recharge."
     }
   },
   "uts": {
@@ -170,17 +170,26 @@
       "story": "Cette couronne a appartenu à Kyle, roi d'Orvelia et héros de l'Épée sacrée.\nPortée notamment lors de l'expédition au cours de laquelle il tua Angmund, le Seigneur des ténèbres, il y a cent ans, cette couronne d'or renferme le pouvoir de la déesse de la Lumière. Une fois Angmund vaincu, la couronne de Lumière ainsi qu'Aea, l'Épée Sacrée, furent laissées à l'endroit où le roi disparut.",
       "descriptionByStar": {
         "0": "[Lame de jugement] Réduit le temps de recharge de 30% et à chaque utilisation, augmente les DEG de 4%. L'effet d'augmentation des DEG peut se cumuler jusqu'à 10 fois et ne peut être dissipé.",
-        "1": "[Lame de jugement] Réduit le temps de recharge de 30 % et augmente les DEG de 4,8 %. Cet effet peut se cumuler jusqu'à 10 fois.",
-        "2": "[Lame de jugement] Réduit le temps de recharge de 30 % et augmente les DEG de 5,8 %. Cet effet peut se cumuler jusqu'à 10 fois.",
-        "3": "[Lame de jugement] Réduit le temps de recharge de 30 % et augmente les DEG de 7 %. Cet effet peut se cumuler jusqu'à 10 fois.",
-        "4": "[Lame de jugement] Réduit le temps de recharge de 30 % et augmente les DEG de 8,4 %. Cet effet peut se cumuler jusqu'à 10 fois.",
-        "5": "[Lame de jugement] Réduit le temps de recharge de 30 % et augmente les DEG de 10 %. Cet effet peut se cumuler jusqu'à 10 fois."
+        "1": "[Lame de jugement] Réduit le temps de recharge de 30% et à chaque utilisation, augmente les DEG de 4.8%. L'effet d'augmentation des DEG peut se cumuler jusqu'à 10 fois et ne peut être dissipé.",
+        "2": "[Lame de jugement] Réduit le temps de recharge de 30% et à chaque utilisation, augmente les DEG de 5.8%. L'effet d'augmentation des DEG peut se cumuler jusqu'à 10 fois et ne peut être dissipé.",
+        "3": "[Lame de jugement] Réduit le temps de recharge de 30% et à chaque utilisation, augmente les DEG de 7%. L'effet d'augmentation des DEG peut se cumuler jusqu'à 10 fois et ne peut être dissipé.",
+        "4": "[Lame de jugement] Réduit le temps de recharge de 30% et à chaque utilisation, augmente les DEG de 8.4%. L'effet d'augmentation des DEG peut se cumuler jusqu'à 10 fois et ne peut être dissipé.",
+        "5": "[Lame de jugement] Réduit le temps de recharge de 30% et à chaque utilisation, augmente les DEG de 10%. L'effet d'augmentation des DEG peut se cumuler jusqu'à 10 fois et ne peut être dissipé."
       }
     },
     "2": {
       "name": "Gantelet d’empereur",
-      "description": "[Ruée vaillante] Augmente les DEG de 20% et réduit le temps de recharge de 10% lorsque vous assénez un coup critique.",
-      "value": {},
+      "description": "[Ruée vaillante] Augmente les DEG de {0}% et réduit le temps de recharge de 10% lorsque vous assénez un coup critique.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Kasel/ut/2.png",
       "story": "Gantelet imprégné de la bénédiction de Lua, Déesse de la Lumière.\nIl a été transmis par les rois du continent Orbis et renferme les encouragements de la déesse vous permettant d’utiliser Ruée Vaillante vers vos ennemis sans la moindre peur.",
       "descriptionByStar": {
@@ -209,11 +218,11 @@
       "story": "Une rune prouvant qu’on est un préposé de Lua, déesse de la Lumière. La Rune d’autorité est une relique de l’Église de Lua et elle est offerte au chevalier maniant Aea, l’Épée de Lumière. La Rune d’autorité repousse les ennemis grâce au pouvoir de la lumière et augmente l’ATQ et le moral.",
       "descriptionByStar": {
         "0": "[Mandat de Dieu] Augmente encore les chances d'esquive de 250 et la vitesse d'attaque de 200 pendant la compétence.",
-        "1": "[Mandat de Dieu] Le Taux de Blocage est augmenté de 250 et la Vitesse d'ATQ de 120 pendant la durée de la compétence.",
-        "2": "[Mandat de Dieu] Le Taux de Blocage est augmenté de 250 et la Vitesse d'ATQ de 140 pendant la durée de la compétence.",
-        "3": "[Mandat de Dieu] Le Taux de Blocage est augmenté de 250 et la Vitesse d'ATQ de 170 pendant la durée de la compétence.",
-        "4": "[Mandat de Dieu] Le Taux de Blocage est augmenté de 250 et la Vitesse d'ATQ de 210 pendant la durée de la compétence.",
-        "5": "[Mandat de Dieu] Le Taux de Blocage est augmenté de 250 et la Vitesse d'ATQ de 250 pendant la durée de la compétence."
+        "1": "[Mandat de Dieu] Augmente encore les chances d'esquive de 250 et la vitesse d'attaque de 240 pendant la compétence.",
+        "2": "[Mandat de Dieu] Augmente encore les chances d'esquive de 250 et la vitesse d'attaque de 290 pendant la compétence.",
+        "3": "[Mandat de Dieu] Augmente encore les chances d'esquive de 250 et la vitesse d'attaque de 350 pendant la compétence.",
+        "4": "[Mandat de Dieu] Augmente encore les chances d'esquive de 250 et la vitesse d'attaque de 420 pendant la compétence.",
+        "5": "[Mandat de Dieu] Augmente encore les chances d'esquive de 250 et la vitesse d'attaque de 500 pendant la compétence."
       }
     },
     "4": {

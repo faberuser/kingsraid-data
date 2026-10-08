@@ -145,11 +145,11 @@
     "story": "Ein legendäres Heiliges Schwert, das Lua der Welt vermachte. Dieses legendäre Artefakt wurde vor 100 Jahren materialisiert, als die Dämonen durch das Dimensionstor in den Orbis-Kontinent einmarschierten. Der Legende nach verwendete der Held König Kyle dieses Schwert, um das Herz des Dunklen Lords Angmund zu durchbohren und so den Krieg zu beenden. Doch die zwei verschwanden daraufhin und nur Aea blieb zurück.",
     "descriptionByStar": {
       "0": "35 % Chance, mit jedem ANG Körp. Schaden in Höhe von 160 % des ANG zuzufügen. Dieser Effekt hat einen 0.5 Sek. Cooldown.",
-      "1": "Jeder Angriff hat eine 35 % Chance, dem Feind Körp. Schaden zuzufügen (192 % der Angriffskr.)",
-      "2": "Jeder Angriff hat eine 35 % Chance, dem Feind Körp. Schaden zuzufügen (230 % der Angriffskr.)",
-      "3": "Jeder Angriff hat eine 35 % Chance, dem Feind Körp. Schaden zuzufügen (276 % der Angriffskr.)",
-      "4": "Jeder Angriff hat eine 35 % Chance, dem Feind Körp. Schaden zuzufügen (331 % der Angriffskr.)",
-      "5": "Jeder Angriff hat eine 35 % Chance, dem Feind Körp. Schaden zuzufügen (400 % der Angriffskr.)"
+      "1": "35 % Chance, mit jedem ANG Körp. Schaden in Höhe von 192 % des ANG zuzufügen. Dieser Effekt hat einen 0.5 Sek. Cooldown.",
+      "2": "35 % Chance, mit jedem ANG Körp. Schaden in Höhe von 230 % des ANG zuzufügen. Dieser Effekt hat einen 0.5 Sek. Cooldown.",
+      "3": "35 % Chance, mit jedem ANG Körp. Schaden in Höhe von 276 % des ANG zuzufügen. Dieser Effekt hat einen 0.5 Sek. Cooldown.",
+      "4": "35 % Chance, mit jedem ANG Körp. Schaden in Höhe von 331 % des ANG zuzufügen. Dieser Effekt hat einen 0.5 Sek. Cooldown.",
+      "5": "35 % Chance, mit jedem ANG Körp. Schaden in Höhe von 400 % des ANG zuzufügen. Dieser Effekt hat einen 0.5 Sek. Cooldown."
     }
   },
   "uts": {
@@ -170,17 +170,26 @@
       "story": "Die Krone von Kyle, dem König von Orvelia und dem Helden des Heiligen Schwertes.\nKönig Kyle trug sie vor 100 Jahren während seines Feldzugs gegen den Dunklen Lord Angmund. In dieser Krone steckt der Wille der Göttin des Lichts. Nachdem Angmund besiegt worden war, blieb die Krone des Lichts gemeinsam mit dem Heiligen Schwert Aea an dem Ort zurück, von dem der König verschwand.",
       "descriptionByStar": {
         "0": "[Urteilsklinge] verringert den Cooldown um 30 % und erhöht den Schaden pro Einsatz um 4 %. Dieser Effekt kann bis zu 10-mal gestapelt und kann nicht entfernt werden.",
-        "1": "[Urteilsklinge] verringert den Cooldown um 30 % und erhöht den Schaden pro Einsatz um 4,8 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "2": "[Urteilsklinge] verringert den Cooldown um 30 % und erhöht den Schaden pro Einsatz um 5,8 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "3": "[Urteilsklinge] verringert den Cooldown um 30 % und erhöht den Schaden pro Einsatz um 7 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "4": "[Urteilsklinge] verringert den Cooldown um 30 % und erhöht den Schaden pro Einsatz um 8,4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "5": "[Urteilsklinge] verringert den Cooldown um 30 % und erhöht den Schaden pro Einsatz um 10 %. Dieser Effekt kann bis zu 10-mal gestapelt werden."
+        "1": "[Urteilsklinge] verringert den Cooldown um 30 % und erhöht den Schaden pro Einsatz um 4.8 %. Dieser Effekt kann bis zu 10-mal gestapelt und kann nicht entfernt werden.",
+        "2": "[Urteilsklinge] verringert den Cooldown um 30 % und erhöht den Schaden pro Einsatz um 5.8 %. Dieser Effekt kann bis zu 10-mal gestapelt und kann nicht entfernt werden.",
+        "3": "[Urteilsklinge] verringert den Cooldown um 30 % und erhöht den Schaden pro Einsatz um 7 %. Dieser Effekt kann bis zu 10-mal gestapelt und kann nicht entfernt werden.",
+        "4": "[Urteilsklinge] verringert den Cooldown um 30 % und erhöht den Schaden pro Einsatz um 8.4 %. Dieser Effekt kann bis zu 10-mal gestapelt und kann nicht entfernt werden.",
+        "5": "[Urteilsklinge] verringert den Cooldown um 30 % und erhöht den Schaden pro Einsatz um 10 %. Dieser Effekt kann bis zu 10-mal gestapelt und kann nicht entfernt werden."
       }
     },
     "2": {
       "name": "Kaiserlicher Kampfhandschuh",
-      "description": "[Tollkühner Vorstoß] erhöht den Schaden um 20 % und verringert den Cooldown um 10 % bei einem krit. Treffer.",
-      "value": {},
+      "description": "[Tollkühner Vorstoß] erhöht den Schaden um {0} % und verringert den Cooldown um 10 % bei einem krit. Treffer.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Kasel/ut/2.png",
       "story": "Kampfhandschuh, der vom Segen Luas durchwirkt ist, der Göttin des Lichts.\nKampfhandschuh, der unter den Königen des Orbis-Kontinents weitergegeben wurde. Enthält die Ermutigung der Göttin, durch die man furchtlos den „Tollkühnen Vorstoß“ auf den Feind einsetzen kann.",
       "descriptionByStar": {
@@ -209,11 +218,11 @@
       "story": "Eine Rune, die den Träger als Agenten von Lua ausweist, der Göttin des Lichts. Die Rune des Willens ist ein Relikt der Kirche von Lua und wird dem Ritter verliehen, welcher Aea trägt, das Schwert des Lichts. Die Rune des Willens stößt Feinde mit der Kraft des Lichts von sich und erhöht ANG und Moral.",
       "descriptionByStar": {
         "0": "[Stellvertreter Gottes] Erhöht während der Fähigkeit die Ausweichchance um zusätzliche 250 und das Angriffstempo um zusätzliche 200.",
-        "1": "[Göttlicher Wille] erhöht Ausweichchance um 250 und ANG-GESCHW. um 120 während der Wirkungsdauer.",
-        "2": "[Göttlicher Wille] erhöht Ausweichchance um 250 und ANG-GESCHW. um 140 während der Wirkungsdauer.",
-        "3": "[Göttlicher Wille] erhöht Ausweichchance um 250 und ANG-GESCHW. um 170 während der Wirkungsdauer.",
-        "4": "[Göttlicher Wille] erhöht Ausweichchance um 250 und ANG-GESCHW. um 210 während der Wirkungsdauer.",
-        "5": "[Göttlicher Wille] erhöht Ausweichchance um 250 und ANG-GESCHW. um 250 während der Wirkungsdauer."
+        "1": "[Stellvertreter Gottes] Erhöht während der Fähigkeit die Ausweichchance um zusätzliche 250 und das Angriffstempo um zusätzliche 240.",
+        "2": "[Stellvertreter Gottes] Erhöht während der Fähigkeit die Ausweichchance um zusätzliche 250 und das Angriffstempo um zusätzliche 290.",
+        "3": "[Stellvertreter Gottes] Erhöht während der Fähigkeit die Ausweichchance um zusätzliche 250 und das Angriffstempo um zusätzliche 350.",
+        "4": "[Stellvertreter Gottes] Erhöht während der Fähigkeit die Ausweichchance um zusätzliche 250 und das Angriffstempo um zusätzliche 420.",
+        "5": "[Stellvertreter Gottes] Erhöht während der Fähigkeit die Ausweichchance um zusätzliche 250 und das Angriffstempo um zusätzliche 500."
       }
     },
     "4": {

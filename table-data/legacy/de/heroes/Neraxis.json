@@ -130,8 +130,41 @@
   },
   "uw": {
     "name": "Tosender Drachenschlund, Acravita",
-    "description": "Verursacht an 2 zufälligen Feinden nach 20 normalen Angriffen Mag. Schaden in Höhe von 100% des ANG, betäubt sie für 0.5 Sek. und erhält für 10 Sek. „Sturm von Neraxis“. Erhöht während der Wirkungsdauer von „Sturm von Neraxis“ die Körp. VERT aller Verbündeten um 4% der Körp. VERT des Wirkers sowie die Mag. VERT um 4% der Mag. VERT des Wirkers. Erhöht auch den ANG um 10%.",
-    "value": {},
+    "description": "Verursacht an 2 zufälligen Feinden nach {0} normalen Angriffen Mag. Schaden in Höhe von 100% des ANG, betäubt sie für 0.5 Sek. und erhält für 10 Sek. „Sturm von Neraxis“. Erhöht während der Wirkungsdauer von „Sturm von Neraxis“ die Körp. VERT aller Verbündeten um {1}% der Körp. VERT des Wirkers sowie die Mag. VERT um {2}% der Mag. VERT des Wirkers. Erhöht auch den ANG um {3}%.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "19",
+        "2": "18",
+        "3": "17",
+        "4": "16",
+        "5": "15"
+      },
+      "1": {
+        "0": "4",
+        "1": "4.8",
+        "2": "5.7",
+        "3": "6.9",
+        "4": "8.3",
+        "5": "10"
+      },
+      "2": {
+        "0": "4",
+        "1": "4.8",
+        "2": "5.7",
+        "3": "6.9",
+        "4": "8.3",
+        "5": "10"
+      },
+      "3": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
     "thumbnail": "heroes/Neraxis/uw.png",
     "story": "Eine magische Waffe, die aus dem pechschwarzen Metall namens Adamantit gefertigt und mit der dunklen Flamme und dem Blitz eines Schwarzdrachen temperiert wurde.\nIhr wohnen der Groll und die Wut der Schwarzdrachen inne, die während des Dämonenkriegs getötet wurden.\nNeraxis zwang die Zwerge, diese spezielle Waffe für ihn zu schmieden.\nDann verfluchte und verzauberte er sie mit den grollerfüllten Seelen der Schwarzdrachen.\nJeder, der diese Waffe abgesehen von Neraxis berührt, bekommt die wütenden Schreie rachsüchtiger Drachen zu hören.",
     "descriptionByStar": {
@@ -146,8 +179,17 @@
   "uts": {
     "1": {
       "name": "Patrone der Schwarzen Blitze",
-      "description": "[Schwarze Blitzklaue] stellt bei jedem Treffer 100 Mana wieder her und erhöht alle eigenen VERT. 10 Sek. lang um 10 %.",
-      "value": {},
+      "description": "[Schwarze Blitzklaue] stellt bei jedem Treffer 100 Mana wieder her und erhöht alle eigenen VERT. 10 Sek. lang um {0} %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Neraxis/ut/1.png",
       "story": "Ein magischer Verstärker, der Schwarze Blitze beinhaltet.\nEr wurde aus denselben Materialien gefertigt, die bei der Herstellung von Acravita verwendet wurden.\nDie Zwerge wurden von Neraxis dazu gezwungen, Acravita herzustellen. Als die Zwerge Neraxis fragten, ob sie die übrig gebliebenen Materialien als Belohnung für die Herstellung von Acravita behalten dürften, zog er sie an den Haaren und befahl ihnen, alle Materialien zu verwenden. Daraus entstand eine Patrone mit Schwarzen Blitzen.",
       "descriptionByStar": {
@@ -161,8 +203,17 @@
     },
     "2": {
       "name": "Erinnerungen des blauen Gottdrachens",
-      "description": "[Obsidian-Brüllen] erhöht bei der Verwendung den VERT-Boost von Verbündeten um 20 % und hebt die positiven Effekte von allen Feinden auf.",
-      "value": {},
+      "description": "[Obsidian-Brüllen] erhöht bei der Verwendung den VERT-Boost von Verbündeten um {0} % und hebt die positiven Effekte von allen Feinden auf.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Neraxis/ut/2.png",
       "story": "Ein Haarschmuck, den Laias fallen ließ, während sie die von den Dämonen verdorbenen Gewässer läuterte.\nNeraxis fand und behielt ihn, aber er hat immer noch nicht entschieden, ob er ihn ihr zurückgeben wird.\nLaias wird ihren verlorenen Haarschmuck wohl nicht allzu schnell zurückbekommen.",
       "descriptionByStar": {
@@ -176,8 +227,17 @@
     },
     "3": {
       "name": "Wutwirbel",
-      "description": "[Atem der Zerstörung] erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um 3 Sek.",
-      "value": {},
+      "description": "[Atem der Zerstörung] erhöht die Betäubungsdauer um 1 Sek. und verringert den Cooldown von Atem der Zerstörung um {0} Sek.",
+      "value": {
+        "0": {
+          "0": "3",
+          "1": "4",
+          "2": "5",
+          "3": "6",
+          "4": "7",
+          "5": "8"
+        }
+      },
       "thumbnail": "heroes/Neraxis/ut/3.png",
       "story": "Dieser Pfahl wurde aus Neraxis’ Fangzahn gefertigt und enthält seine glühende Wut.\nWenn Neraxis mit dem Pfahl angreift, rast die große Energie, die mit Neraxis’ Kräften verwoben ist, mit entsetzlicher Geschwindigkeit auf den Feind zu.\nSie ist stark genug, um alles und jeden zu durchdringen und die Gliedmaßen jener abzutrennen, die sich zu nahe an sie heranwagen.",
       "descriptionByStar": {
@@ -191,8 +251,17 @@
     },
     "4": {
       "name": "Ashen Nova",
-      "description": "[Schwarzdrachenhaut] stellt alle 10 Sek. 1 Mana-Kugel wieder her, während sich bei allen Verbündeten die Blockchance für 5 Sek. um 200 erhöht.",
-      "value": {},
+      "description": "[Schwarzdrachenhaut] stellt alle 10 Sek. 1 Mana-Kugel wieder her, während sich bei allen Verbündeten die Blockchance für 5 Sek. um {0} erhöht.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Neraxis/ut/4.png",
       "story": "Neraxis hat diesen Schatz aus dem Repositorium von Armarta gestohlen.\nEr wollte eine stärkere Waffe als Acravita haben und dachte dabei an Armartas Repositorium.\nEr ging nach Ashen Peak, den Ruinen südlich der Arrovina-Küste, und schlich sich in das Repositorium.\nAuf dem Weg nach draußen musste er sich zwar dem verrückten Armarta stellen, es war die Sache jedoch wert, da er alles bekommen hatte, was er jemals wollte.\nSo konnte er auch „Ashen Nova“ in seinen Besitz bringen, die mit „Ashen Nox“ ein Paar bildet.\nIhre Macht ist mit der des Herzens des Schwarzen Drachen vergleichbar.",
       "descriptionByStar": {

@@ -130,24 +130,50 @@
   },
   "uw": {
     "name": "Andarta et Andraste, les Cœurs de Dragons",
-    "description": "Toutes les 15 sec, applique Gel et inflige des DEG M (160% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
-    "value": {},
+    "description": "Toutes les {0} sec, applique Gel et inflige des DEG M ({1}% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
+    "value": {
+      "0": {
+        "0": "15",
+        "1": "14",
+        "2": "12.5",
+        "3": "11",
+        "4": "9.5",
+        "5": "8"
+      },
+      "1": {
+        "0": "160",
+        "1": "192",
+        "2": "228",
+        "3": "276",
+        "4": "332",
+        "5": "400"
+      }
+    },
     "thumbnail": "heroes/Pavel/uw.png",
     "story": "Andarta et Andraste étaient deux dragons vaincus par les démons durant la guerre. Ils formaient une paire connectée par l'âme, deux amants qui se comprenaient mieux que quiconque. Même lorsqu'ils moururent, ils refusèrent de se séparer et firent une dernière demande à Pavel, leur camarade. Pavel leur accorda leur dernier vœu, transférant leurs âmes dans leurs cœurs et en les métamorphosant en une paire de gemmes. Même s'ils ont tous deux perdu leur corps, ils restent ensemble, aussi inséparables que jamais.",
     "descriptionByStar": {
       "0": "Toutes les 15 sec, applique Gel et inflige des DEG M (160% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
       "1": "Toutes les 14 sec, applique Gel et inflige des DEG M (192% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
-      "2": "Toutes les 12,5 sec, applique Gel et inflige des DEG M (228% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
+      "2": "Toutes les 12.5 sec, applique Gel et inflige des DEG M (228% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
       "3": "Toutes les 11 sec, applique Gel et inflige des DEG M (276% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
-      "4": "Toutes les 9,5 sec, applique Gel et inflige des DEG M (332% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
+      "4": "Toutes les 9.5 sec, applique Gel et inflige des DEG M (332% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel.",
       "5": "Toutes les 8 sec, applique Gel et inflige des DEG M (400% de l'ATK) à 2 ennemis aléatoires. Gèle les ennemis pendant 5 sec si ils sont déjà affectés par Gel."
     }
   },
   "uts": {
     "1": {
       "name": "Graine de neige",
-      "description": "[Vague de froid] Augmente les DEG de 20 % ainsi que la précision des contrôles de 400 points pendant 10 sec.",
-      "value": {},
+      "description": "[Vague de froid] Augmente les DEG de {0} % ainsi que la précision des contrôles de 400 points pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Pavel/ut/1.png",
       "story": "Ce cristal de neige aux formes antiques renferme des élémentaires d'hiver.\nSa beauté suffit à emprisonner les esprits faibles dans un blizzard éternel. Les dragons Andarta et Andraste l'ont offert à Pavel après qu'il a exaucé leur souhait. Pendant son séjour solitaire à Terre-Venteuse, ce cadeau lui réchauffait le cœur, jusqu'à ce que Rodina le rejoigne.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Broche gelée",
-      "description": "[Lance de glace] Réduit le temps de recharge de 8 % et donne 40 % de chances de geler l'ennemi pendant 1 sec en infligeant des dégâts à un ennemi en état de Givre. Cet effet ne s'applique pas aux lances créées en plus.",
-      "value": {},
+      "description": "[Lance de glace] Réduit le temps de recharge de 8 % et donne {0} % de chances de geler l'ennemi pendant 1 sec en infligeant des dégâts à un ennemi en état de Givre. Cet effet ne s'applique pas aux lances créées en plus.",
+      "value": {
+        "0": {
+          "0": "40",
+          "1": "48",
+          "2": "58",
+          "3": "70",
+          "4": "84",
+          "5": "100"
+        }
+      },
       "thumbnail": "heroes/Pavel/ut/2.png",
       "story": "Le dragon de glace a offert cette broche au jeune Pavel et l’a imprégnée de son souffle.\nMaintenant que le dragon de glace et Pavel ne font plus qu’un, Pavel sait qu’il ne doit pas le quitter. Cette broche peut infliger une douleur qui transperce le cœur. \nInsuffle un frisson au mana de Pavel, ce qui affûte davantage sa magie.",
       "descriptionByStar": {
@@ -176,23 +211,41 @@
     },
     "3": {
       "name": "Cœur de glacier",
-      "description": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 1 sec.",
-      "value": {},
+      "description": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de {0} sec.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Pavel/ut/3.png",
       "story": "Sang gelé de l’esprit hivernal. Pavel l’a découvert au fond de la Caverne de Glace et en a fait des boucles d’oreille. Il en émane un vent glacial et une profonde douleur, mais elles augmentent la mana de Pavel jusqu’à sa limite.",
       "descriptionByStar": {
         "0": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 1 sec.",
-        "1": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 1,2 sec.",
-        "2": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 1,4 sec.",
-        "3": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 1,7 sec.",
-        "4": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 2,1 sec.",
-        "5": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 2,5 sec."
+        "1": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 1.2 sec.",
+        "2": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 1.4 sec.",
+        "3": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 1.7 sec.",
+        "4": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 2.1 sec.",
+        "5": "[Conquête Glaciale] Les DEG sont augmentés de 50% et la durée de Gel est augmentée de 2.5 sec."
       }
     },
     "4": {
       "name": "Cœur du dragon de glace",
-      "description": "[Frisson de l'aube] Augmente le nombre de cibles de 1. En cas de coup critique, restaure 100 PM.",
-      "value": {},
+      "description": "[Frisson de l'aube] Augmente le nombre de cibles de 1. En cas de coup critique, restaure {0} PM.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Pavel/ut/4.png",
       "story": "Un cadeau offert à Pavel par une femelle dragon possédée.\nLe dragon de glace lui offrait sans arrêt toutes sortes de cadeaux, que cela lui plût ou non. Cet orbe en faisait partie, et il renferme une petite partie de l'âme du dragon.",
       "descriptionByStar": {

@@ -130,8 +130,33 @@
   },
   "uw": {
     "name": "Legios, l'Éclair",
-    "description": "Lors de l'utilisation de compétence et de l'attaque automatique, cumule 'Éclat de Foudre' sur lui-même. Lorsque 50 charges sont cumulées, active 'Legios, l'Éclair', ce qui augmente la Vitesse d'ATQ de 300, les DEG Crit de 100% et la Pénétration DEF de 300, pendant 15 sec. Pendant que 'Legios, l'Éclair' est activé, ne cumule pas d''Éclat de Foudre'. Cet effet ne peut pas être dissipé.",
-    "value": {},
+    "description": "Lors de l'utilisation de compétence et de l'attaque automatique, cumule 'Éclat de Foudre' sur lui-même. Lorsque 50 charges sont cumulées, active 'Legios, l'Éclair', ce qui augmente la Vitesse d'ATQ de {0}, les DEG Crit de {1}% et la Pénétration DEF de {2}, pendant 15 sec. Pendant que 'Legios, l'Éclair' est activé, ne cumule pas d''Éclat de Foudre'. Cet effet ne peut pas être dissipé.",
+    "value": {
+      "0": {
+        "0": "300",
+        "1": "360",
+        "2": "430",
+        "3": "520",
+        "4": "620",
+        "5": "750"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "144",
+        "3": "173",
+        "4": "208",
+        "5": "250"
+      },
+      "2": {
+        "0": "300",
+        "1": "360",
+        "2": "430",
+        "3": "520",
+        "4": "620",
+        "5": "750"
+      }
+    },
     "thumbnail": "heroes/Theo/uw.png",
     "story": "Une lance dont on dit qu'elle aurait été forgée à partir d'un éclair. Un courant électrique parcourt constamment cette lance impressionnante, aussi grande qu'un homme adulte. Forger une lance à partir d'un éclair ne fut pas une mince affaire. Mais après tout, Jin n'avait rien d'un forgeron ordinaire. Il fit fondre une énorme pierre de mana imprégnée de sang de dragon rouge et s'en servit pour emprisonner l'éclair avant de le façonner. Hormis le maître qu'elle s'est choisi, nul ne peut toucher cette arme. Lorsque ses deux pièces sont assemblées, elle libère un intense flux d'énergie évoquant le rugissement d'un dragon.",
     "descriptionByStar": {
@@ -146,8 +171,17 @@
   "uts": {
     "1": {
       "name": "Décoration en fourrure de zibeline",
-      "description": "[Crash final] Dissipe tous les effets négatifs qui pèsent sur le lanceur et accorde à chaque coup 8 % de chances de dissiper tous les effets positifs dont bénéficie la cible.",
-      "value": {},
+      "description": "[Crash final] Dissipe tous les effets négatifs qui pèsent sur le lanceur et accorde à chaque coup {0} % de chances de dissiper tous les effets positifs dont bénéficie la cible.",
+      "value": {
+        "0": {
+          "0": "8",
+          "1": "10",
+          "2": "12",
+          "3": "14",
+          "4": "17",
+          "5": "20"
+        }
+      },
       "thumbnail": "heroes/Theo/ut/1.png",
       "story": "Cet ornement en fourrure de Sereblos, la zibeline divine, fonctionne comme un talisman.\nLes signaux électriques de Legios peuvent certes pousser le corps à ses limites, mais le processus est épuisant. La fourrure chatoyante de zibeline aide Theo en absorbant le contrecoup. Elle conduit des signaux électriques de Legios dans tout son corps, tout en protégeant ses veines grâce à son énergie sacrée, lui permettant ainsi de préserver son corps lorsqu'il se bat.",
       "descriptionByStar": {
@@ -161,23 +195,41 @@
     },
     "2": {
       "name": "Collier du Dieu de la Foudre",
-      "description": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 8% supplémentaires.",
-      "value": {},
+      "description": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de {0}% supplémentaires.",
+      "value": {
+        "0": {
+          "0": "8",
+          "1": "9.6",
+          "2": "11.5",
+          "3": "13.8",
+          "4": "16.5",
+          "5": "20"
+        }
+      },
       "thumbnail": "heroes/Theo/ut/2.png",
       "story": "Aussi appelé foudre du ciel, Legios n’en est pas moins une créature céleste.\nLa puissance de Legios était si grande que le Grand-Duché de Gray ne put la contenir lorsqu’il décida d’en faire une arme. \nAinsi, la plus grande partie fut placée dans la lance de foudre et le reste à différents endroits. \nC’est ainsi que le collier du Dieu de la Foudre en reçut une partie. L’on raconte que son porteur peut communier avec la lance de foudre et ainsi se rapprocher de la puissance de Legios.",
       "descriptionByStar": {
         "0": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 8% supplémentaires.",
-        "1": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 9,6% supplémentaires.",
-        "2": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 11,5% supplémentaires.",
-        "3": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 13,8% supplémentaires.",
-        "4": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 16,5% supplémentaires.",
+        "1": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 9.6% supplémentaires.",
+        "2": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 11.5% supplémentaires.",
+        "3": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 13.8% supplémentaires.",
+        "4": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 16.5% supplémentaires.",
         "5": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de 20% supplémentaires."
       }
     },
     "3": {
       "name": "Essence de foudre rouge",
-      "description": "[Explosion de Foudre] Le Temps de Rechange de la compétence est réduit de 30% et chaque attaque inflige des DEG M supplémentaires à hauteur de 40% de l'ATQ.",
-      "value": {},
+      "description": "[Explosion de Foudre] Le Temps de Rechange de la compétence est réduit de 30% et chaque attaque inflige des DEG M supplémentaires à hauteur de {0}% de l'ATQ.",
+      "value": {
+        "0": {
+          "0": "40",
+          "1": "48",
+          "2": "58",
+          "3": "70",
+          "4": "84",
+          "5": "100"
+        }
+      },
       "thumbnail": "heroes/Theo/ut/3.png",
       "story": "Un héritage du Grand-Duché de Gray déchu. Un trésor que le mage respecté du palais grand-ducal donna au premier chevalier Theo, qui avait reçu Legios, l’Éclair. \nL’Essence de Foudre qui a l’énergie de l’Explosion de Foudre en maximise les effets.",
       "descriptionByStar": {
@@ -191,8 +243,17 @@
     },
     "4": {
       "name": "Autre poupée funéraire",
-      "description": "[Pour Jane] Augmente les chances d'activation de 20 % et la Vitesse d'ATQ du lanceur de 350 points pendant 30 sec au début de chaque combat.",
-      "value": {},
+      "description": "[Pour Jane] Augmente les chances d'activation de {0} % et la Vitesse d'ATQ du lanceur de 350 points pendant 30 sec au début de chaque combat.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Theo/ut/4.png",
       "story": "Une poupée funéraire que Theo demanda à May de confectionner.\nIl plaça cette poupée qui est son portrait craché dans le tombeau où reposait jadis l'amour de sa vie.\nAinsi, il sera à ses côtés, même lorsque le temps aura raison de lui et le renverra sous terre.",
       "descriptionByStar": {

@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Armekith, le Lac de Mémoire,",
-    "description": "Réduit les DEG reçus de 10% et augmente la Résistance aux Contrôles de 100. Cet effet est doublé pendant 2 sec après le début de son incantation.",
-    "value": {},
+    "description": "Réduit les DEG reçus de {0}% et augmente la Résistance aux Contrôles de {1}. Cet effet est doublé pendant 2 sec après le début de son incantation.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      }
+    },
     "thumbnail": "heroes/Dakaris/uw.png",
     "story": "Trésor de la Tribu dissimulé au plus profond du Lac Eretana, le pays natal de Dakaris.\nIl contient la magie et la sagesse des hommes-lézards accumulées durant de nombreux siècles.\nLa forme de la puissance de cet objet magique prend celle d'une risette,\nmais selon la volonté de son possesseur, elle peut jusqu'à prendre forme de raz de marée.",
     "descriptionByStar": {
@@ -146,38 +163,65 @@
   "uts": {
     "1": {
       "name": "Festin du Rivage de Lac",
-      "description": "[Que justice soit rendue !!] Augmente les DEG de 50% et augmente la restauration des PV de 1% des PV Max des alliés se trouvant dans la zone.",
-      "value": {},
+      "description": "[Que justice soit rendue !!] Augmente les DEG de 50% et augmente la restauration des PV de {0}% des PV Max des alliés se trouvant dans la zone.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Dakaris/ut/1.png",
       "story": "Le plat favori de Dakaris. Il est également le meilleur à préparer ce plat.\nC'est le plat symbolique de la fête traditionnelle de sa tribu. Pour le cuisiner, il faut des écrevisses d'eau douce, des moules et de divers plats d'accompagnements.\nHabituellement, il préfère les plats de poisson... mais se régale de ce mets dans les jours particuliers.",
       "descriptionByStar": {
         "0": "[Que justice soit rendue !!] Augmente les DEG de 50% et augmente la restauration des PV de 1% des PV Max des alliés se trouvant dans la zone.",
-        "1": "[Que justice soit rendue !!] Augmente les DEG de 50% et augmente la restauration des PV de 1,2% des PV Max des alliés se trouvant dans la zone.",
-        "2": "[Que justice soit rendue !!] Augmente les DEG de 50% et augmente la restauration des PV de 1,4% des PV Max des alliés se trouvant dans la zone.",
-        "3": "[Que justice soit rendue !!] Augmente les DEG de 50% et augmente la restauration des PV de 1,7% des PV Max des alliés se trouvant dans la zone.",
-        "4": "[Que justice soit rendue !!] Augmente les DEG de 50% et augmente la restauration des PV de 2,1% des PV Max des alliés se trouvant dans la zone.",
-        "5": "[Que justice soit rendue !!] Augmente les DEG de 50% et augmente la restauration des PV de 2,5% des PV Max des alliés se trouvant dans la zone."
+        "1": "[Que justice soit rendue !!] Augmente les DEG de 50% et augmente la restauration des PV de 1.2% des PV Max des alliés se trouvant dans la zone.",
+        "2": "[Que justice soit rendue !!] Augmente les DEG de 50% et augmente la restauration des PV de 1.4% des PV Max des alliés se trouvant dans la zone.",
+        "3": "[Que justice soit rendue !!] Augmente les DEG de 50% et augmente la restauration des PV de 1.7% des PV Max des alliés se trouvant dans la zone.",
+        "4": "[Que justice soit rendue !!] Augmente les DEG de 50% et augmente la restauration des PV de 2.1% des PV Max des alliés se trouvant dans la zone.",
+        "5": "[Que justice soit rendue !!] Augmente les DEG de 50% et augmente la restauration des PV de 2.5% des PV Max des alliés se trouvant dans la zone."
       }
     },
     "2": {
       "name": "Bracelet de Tradition",
-      "description": "[Que la force soit avec moi !!] Réduit le temps de recharge de 5 sec, et augmente les soins et la Récupération des PM de 20%.",
-      "value": {},
+      "description": "[Que la force soit avec moi !!] Réduit le temps de recharge de 5 sec, et augmente les soins et la Récupération des PM de {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Dakaris/ut/2.png",
       "story": "Ornement reçu autrefois de la part de ses parents.\nDeux bracelets en or et en argent se sont entrelacés pour former ce bracelet de mariage,\nqui signifie le lien indissoluble du mariage traditionnel.\nCet objet lui permet de se souvenir de ses parents.",
       "descriptionByStar": {
         "0": "[Que la force soit avec moi !!] Réduit le temps de recharge de 5 sec, et augmente les soins et la Récupération des PM de 20%.",
-        "1": "[Que la force soit avec moi !!]Réduit le temps de recharge de 5 sec, et augmente les soins et la Récupération des PM de 24%.",
+        "1": "[Que la force soit avec moi !!] Réduit le temps de recharge de 5 sec, et augmente les soins et la Récupération des PM de 24%.",
         "2": "[Que la force soit avec moi !!] Réduit le temps de recharge de 5 sec, et augmente les soins et la Récupération des PM de 29%.",
         "3": "[Que la force soit avec moi !!] Réduit le temps de recharge de 5 sec, et augmente les soins et la Récupération des PM de 35%.",
         "4": "[Que la force soit avec moi !!] Réduit le temps de recharge de 5 sec, et augmente les soins et la Récupération des PM de 42%.",
-        "5": "[Que la force soit avec moi !!]Réduit le temps de recharge de 5 sec, et augmente les soins et la Récupération des PM de 50%."
+        "5": "[Que la force soit avec moi !!] Réduit le temps de recharge de 5 sec, et augmente les soins et la Récupération des PM de 50%."
       }
     },
     "3": {
       "name": "Dague de Divination",
-      "description": "[Que votre souffrance prenne fin !!] Augmente les DEG de 20% et lorsque vous tuez la cible avec cette compétence, elle est réutilisée automatiquement.",
-      "value": {},
+      "description": "[Que votre souffrance prenne fin !!] Augmente les DEG de {0}% et lorsque vous tuez la cible avec cette compétence, elle est réutilisée automatiquement.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Dakaris/ut/3.png",
       "story": "Dague originairement utilisée pour les fêtes et les cérémonies par les Hommes-Lézards du Lac Eretana.\nEssentiellement employée pour les fêtes et la cérémonie de la majorité, elle était purement considérée comme une décoration.\nCependant, suite à l'invasion de l'Empire, elle a été améliorée,\ntraitée magiquement, pour être utilisée comme une arme.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Manuscrit de Dragon",
-      "description": "[Que la puissance de mes ancêtres vous éblouisse !!] Augmente le taux de Bouclier Protecteur de 20% et applique le Bouclier Protecteur à tous les alliés.",
-      "value": {},
+      "description": "[Que la puissance de mes ancêtres vous éblouisse !!] Augmente le taux de Bouclier Protecteur de {0}% et applique le Bouclier Protecteur à tous les alliés.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Dakaris/ut/4.png",
       "story": "Grimoire traditionnel transmis de génération en génération.\nIl est considéré comme le livre historique autrefois gardé par tous les sages de la tribu.\nLes guerres, les actes des grands Hommes-Lézards, la vie de la tribu et divers autres faits y sont inscrits.\nLe grimoire détient un pouvoir mystérieux qui permet de reproduire les informations, qui y sont inscrites, dans le monde réel, pour un court instant.",
       "descriptionByStar": {

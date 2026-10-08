@@ -62,8 +62,10 @@
   {
     "id": "Earth Protection",
     "name": "Earth Protection",
-    "description": "At the beginning of battle, gain CC immunity and a 50% boost to P. and M. DEF stats for 8 sec.",
-    "value": {},
+    "description": "At the beginning of battle, gain CC immunity and a 50% boost to P. and M. DEF stats for {0} sec.",
+    "value": {
+      "0": "8, 10, 12, 14, 17, 20"
+    },
     "thumbnail": "artifacts/Earth Protection.png",
     "story": "A miniature version of one of the 'faces' of the Mountain Fortress. A keen intellect can be felt from this taciturn face.",
     "aliases": null,
@@ -79,8 +81,10 @@
   {
     "id": "Blessing of Earth",
     "name": "Blessing of Earth",
-    "description": "When there is 1 enemy, ATK is boosted by 40%.",
-    "value": {},
+    "description": "When there is 1 enemy, ATK is boosted by {0}%.",
+    "value": {
+      "0": "40, 48, 58, 69, 83, 100"
+    },
     "thumbnail": "artifacts/Blessing of Earth.png",
     "story": "A miniature version of one of the 'faces' of the Mountain Fortress. The rage and bellicose nature of this angry face can be felt.",
     "aliases": [
@@ -98,8 +102,10 @@
   {
     "id": "Earth Core",
     "name": "Earth Core",
-    "description": "ATK, HP and all DEF are increased by 10%.",
-    "value": {},
+    "description": "ATK, HP and all DEF are increased by {0}%.",
+    "value": {
+      "0": "10, 12, 14, 17, 20, 25"
+    },
     "thumbnail": "artifacts/Earth Core.png",
     "story": "A miniature version of the core of the Mountain Fortress. As a source of infinite energy, it boosts the power of the owner.",
     "aliases": null,
@@ -181,8 +187,11 @@
   {
     "id": "Trident of the Deep",
     "name": "Trident of the Deep",
-    "description": "Dealing DMG to enemies 100 times increases ATK by 30% and Crit Chance by 200 for 15 sec. This effect cannot be dispelled.",
-    "value": {},
+    "description": "Dealing DMG to enemies 100 times increases ATK by {0}% and Crit Chance by {1} for 15 sec. This effect cannot be dispelled.",
+    "value": {
+      "0": "30, 36, 44, 53, 63, 75",
+      "1": "200, 240, 290, 350, 420, 500"
+    },
     "thumbnail": "artifacts/Trident of the Deep.png",
     "story": "A mystical weapon designed after the trident of Protianus. It bears the power of water like a tsunami.",
     "aliases": [
@@ -202,8 +211,10 @@
   {
     "id": "Ring of Spirit Morph",
     "name": "Ring of Spirit Morph",
-    "description": "At the beginning of every battle, HP does not fall below 10% for 4 sec. If HP falls below 15% for the duration of Skill, DMG dealt to Heroes will be reduced by 70% for 5 sec. All effects are irremovable.",
-    "value": {},
+    "description": "At the beginning of every battle, HP does not fall below 10% for {0} sec. If HP falls below 15% for the duration of Skill, DMG dealt to Heroes will be reduced by 70% for 5 sec. All effects are irremovable.",
+    "value": {
+      "0": "4, 5, 6, 7, 8, 9"
+    },
     "thumbnail": "artifacts/Ring of Spirit Morph.png",
     "story": "An ominous ring inhabited by evil spirits from your worst nightmare. When enchanted by this ring, you lose control over your body while your soul becomes trapped within an endless dream.",
     "aliases": [
@@ -222,8 +233,11 @@
   {
     "id": "Spellbound Ring of the Deep",
     "name": "Spellbound Ring of the Deep",
-    "description": "Upon the start of a battle for 8 sec, limit 1 enemy's ATK Spd to 1000 and reduce ATK by 20%.",
-    "value": {},
+    "description": "Upon the start of a battle for {0} sec, limit 1 enemy's ATK Spd to 1000 and reduce ATK by {1}%.",
+    "value": {
+      "0": "8, 10, 12, 14, 17, 20",
+      "1": "20, 24, 29, 35, 42, 50"
+    },
     "thumbnail": "artifacts/Spellbound Ring of the Deep.png",
     "story": "A miniature version of the ring that Protianus was wearing. It is enchanted with a spell that curses and neutralizes foes.",
     "aliases": [
@@ -243,8 +257,10 @@
   {
     "id": "Guardian Crystal of the Deep",
     "name": "Guardian Crystal of the Deep",
-    "description": "When there is 1 enemy, all DEF is increased by 50%.",
-    "value": {},
+    "description": "When there is 1 enemy, all DEF is increased by {0}%.",
+    "value": {
+      "0": "50, 60, 72, 86, 103, 125"
+    },
     "thumbnail": "artifacts/Guardian Crystal of the Deep.png",
     "story": "A blue gem that was once set on the crown of Protianus. A clear gem that represents protection.",
     "aliases": [
@@ -285,8 +301,10 @@
   {
     "id": "Abyssal Crown",
     "name": "Abyssal Crown",
-    "description": "30 sec after the battle starts, increases ATK of the ally with the highest ATK by 30%. This effect cannot be dispelled, and it does not stack with other effects for allies.",
-    "value": {},
+    "description": "30 sec after the battle starts, increases ATK of the ally with the highest ATK by {0}%. This effect cannot be dispelled, and it does not stack with other effects for allies.",
+    "value": {
+      "0": "30, 36, 43, 52, 63, 75"
+    },
     "thumbnail": "artifacts/Abyssal Crown.png",
     "story": "Hair accessory of Abyssal Goddess Xanadus. The serpent-shaped crown gives off a deadly scent.",
     "aliases": null,
@@ -302,8 +320,12 @@
   {
     "id": "Abyssal Eye",
     "name": "Abyssal Eye",
-    "description": "Upon taking damage, deals M.DMG of 50% own ATK to the target and reduces ATK Spd of the target by 400 for 1.5 sec. After the ATK Spd Reduction Effect expires, the target is petrified for 2 sec. This effect will be activated only once every 30 sec.",
-    "value": {},
+    "description": "Upon taking damage, deals M.DMG of {0}% own ATK to the target and reduces ATK Spd of the target by {1} for 1.5 sec. After the ATK Spd Reduction Effect expires, the target is petrified for {2} sec. This effect will be activated only once every 30 sec.",
+    "value": {
+      "0": "50, 60, 72, 86, 105, 125",
+      "1": "400, 480, 580, 700, 840, 1000",
+      "2": "2, 2.4, 2.9, 3.5, 4.2, 5"
+    },
     "thumbnail": "artifacts/Abyssal Eye.png",
     "story": "The Power source of Abyssal Goddess Xanadus. It looks like the its pupil moves, even though it's been severed from its body.",
     "aliases": null,
@@ -319,8 +341,10 @@
   {
     "id": "Abyssal Nail Ornament",
     "name": "Abyssal Nail Ornament",
-    "description": "Upon attack, deals P.DMG equal to 4% of ATK that ignores DEF to the enemy every 0.5 sec for 10 sec. This effect will be activated once in 20 sec.",
-    "value": {},
+    "description": "Upon attack, deals P.DMG equal to {0}% of ATK that ignores DEF to the enemy every 0.5 sec for 10 sec. This effect will be activated once in 20 sec.",
+    "value": {
+      "0": "4, 4.8, 5.8, 7, 8.4, 10"
+    },
     "thumbnail": "artifacts/Abyssal Nail Ornament.png",
     "story": "Nail ornament of the Abyssal Goddess Xanadus. It is made from an alloy of unknown but special metals.",
     "aliases": [
@@ -357,8 +381,10 @@
   {
     "id": "Infernal Bond",
     "name": "Infernal Bond",
-    "description": "At the beginning of each battle, increases a random enemy's Cooldown of all Skills by 2.5 sec.",
-    "value": {},
+    "description": "At the beginning of each battle, increases a random enemy's Cooldown of all Skills by {0} sec.",
+    "value": {
+      "0": "2.5, 3, 3.5, 4, 5, 6"
+    },
     "thumbnail": "artifacts/Infernal Bond.png",
     "story": "A blazing bond of Velkazar, the Hellspawn Torturer. It's enchanted with Black Magic to control the overflowing power.",
     "aliases": null,
@@ -396,8 +422,11 @@
   {
     "id": "Infernal Greatsword",
     "name": "Infernal Greatsword",
-    "description": "Own heal rate decreases by 30%, while Penetration increases by 300 and Crit DMG increases by 30%",
-    "value": {},
+    "description": "Own heal rate decreases by 30%, while Penetration increases by {0} and Crit DMG increases by {1}%",
+    "value": {
+      "0": "300, 360, 430, 520, 630, 750",
+      "1": "30, 36, 43, 52, 63, 75"
+    },
     "thumbnail": "artifacts/Infernal Greatsword.png",
     "story": "A blazing greatsword of Velkazar, the Hellspawn Torturer. Its flame seems powerful enough to engulf anything.",
     "aliases": [
@@ -415,8 +444,12 @@
   {
     "id": "Infernal Whip",
     "name": "Infernal Whip",
-    "description": "Every 8 sec, attacks all enemies and deals 20% of ATK as M.DMG. Targets take 10% increased DMG for the next 5 sec. DMG boost effect increases by 0.4% with every activation, and can be stacked max 25 times. DMG boost effect cannot be used simultaneously with same effects of other allies.",
-    "value": {},
+    "description": "Every 8 sec, attacks all enemies and deals {0}% of ATK as M.DMG. Targets take {1}% increased DMG for the next 5 sec. DMG boost effect increases by {2}% with every activation, and can be stacked max 25 times. DMG boost effect cannot be used simultaneously with same effects of other allies.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50",
+      "1": "10, 12, 14, 17, 21, 25",
+      "2": "0.4, 0.5, 0.6, 0.7, 0.8, 1"
+    },
     "thumbnail": "artifacts/Infernal Whip.png",
     "story": "A blazing tail of Velkazar, the Hellspawn Torturer. It looks like a serpent shrouded in flame.",
     "aliases": null,
@@ -432,8 +465,12 @@
   {
     "id": "Infernal Gate",
     "name": "Infernal Gate",
-    "description": "Increases All DEF by 10%, DMG dealt to enemies by 6%, and DMG dealt to Non-Hero enemies by 6%.",
-    "value": {},
+    "description": "Increases All DEF by {0}%, DMG dealt to enemies by {1}%, and DMG dealt to Non-Hero enemies by {2}%.",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25",
+      "1": "6, 7.2, 8.6, 10.5, 12.5, 15",
+      "2": "6, 7.2, 8.6, 10.5, 12.5, 15"
+    },
     "thumbnail": "artifacts/Infernal Gate.png",
     "story": "One of the blazing horns of Velkazar, the Hellspawn Torturer. It works as a channel to release the power of soul.",
     "aliases": null,
@@ -449,8 +486,10 @@
   {
     "id": "Heart Cotton Candy",
     "name": "Heart Cotton Candy",
-    "description": "When the battle starts, increases ATK of self and the ally with the highest ATK by 10% for 20 sec. This effect will not stack with other similar effects cast by allies.",
-    "value": {},
+    "description": "When the battle starts, increases ATK of self and the ally with the highest ATK by {0}% for 20 sec. This effect will not stack with other similar effects cast by allies.",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25"
+    },
     "thumbnail": "artifacts/Heart Cotton Candy.png",
     "story": "Heart Cotton Candy, a must-have item for outings!\nIt melts in your mouth in no time!",
     "aliases": null,
@@ -466,8 +505,10 @@
   {
     "id": "Cross Pumpkin Head",
     "name": "Cross Pumpkin Head",
-    "description": "Max HP is increased by 20% and deal P.DMG worth 2% of Max HP to all nearby enemies within a small range.",
-    "value": {},
+    "description": "Max HP is increased by {0}% and deal P.DMG worth 2% of Max HP to all nearby enemies within a small range.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50"
+    },
     "thumbnail": "artifacts/Cross Pumpkin Head.png",
     "story": "A mysterious object shaped like a sad pumpkin. It is said to make an eerie noise while hovering near the owner.",
     "aliases": [
@@ -485,8 +526,11 @@
   {
     "id": "Angry Pumpkin Head",
     "name": "Angry Pumpkin Head",
-    "description": "All DMG taken is reduced by 10% and deal 10% more DMG to enemies.",
-    "value": {},
+    "description": "All DMG taken is reduced by {0}% and deal {1}% more DMG to enemies.",
+    "value": {
+      "0": "10, 12, 14, 17, 20, 25",
+      "1": "10, 12, 14, 17, 20, 25"
+    },
     "thumbnail": "artifacts/Angry Pumpkin Head.png",
     "story": "A mysterious object shaped like a mad pumpkin. It huffs angrily while hovering near the owner.",
     "aliases": null,
@@ -502,8 +546,11 @@
   {
     "id": "Happy Pumpkin Head",
     "name": "Happy Pumpkin Head",
-    "description": "Every 7 sec, increases Heal Rate by 2% and heals HP by 100% of own ATK. Heal rate increase can be stacked up to max 15 times and cannot be removed.",
-    "value": {},
+    "description": "Every 7 sec, increases Heal Rate by {0}% and heals HP by {1}% of own ATK. Heal rate increase can be stacked up to max 15 times and cannot be removed.",
+    "value": {
+      "0": "2, 2.4, 2.8, 3.4, 4.2, 5",
+      "1": "100, 120, 140, 170, 210, 250"
+    },
     "thumbnail": "artifacts/Happy Pumpkin Head.png",
     "story": "A mysterious item shaped like a happy-looking pumpkin. It boosts the energy of the owner.",
     "aliases": null,
@@ -519,8 +566,11 @@
   {
     "id": "Surprised Pumpkin Head",
     "name": "Surprised Pumpkin Head",
-    "description": "When inflicted by CC, immediately recovers Mana by 12% and increases ATK Spd by 200 for 5 sec. This effect activates once every 30 sec.",
-    "value": {},
+    "description": "When inflicted by CC, immediately recovers Mana by {0}% and increases ATK Spd by {1} for 5 sec. This effect activates once every 30 sec.",
+    "value": {
+      "0": "12, 14, 17, 21, 25, 30",
+      "1": "200, 240, 290, 350, 420, 500"
+    },
     "thumbnail": "artifacts/Surprised Pumpkin Head.png",
     "story": "A peculiar item shaped like a pumpkin with a surprised look. Its eerie ambiance startles those who look at it too.",
     "aliases": null,
@@ -556,8 +606,11 @@
   {
     "id": "Frost Giant Mask",
     "name": "Frost Giant Mask",
-    "description": "ATK upon Frost Giants increases by 40 %, and DMG resistance against Frost Giants increases by 20 %.",
-    "value": {},
+    "description": "ATK upon Frost Giants increases by {0} %, and DMG resistance against Frost Giants increases by {1} %.",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
     "thumbnail": "artifacts/Frost Giant Mask.png",
     "story": "A mask modeled after the face of a Frost Giant. The power of a snow mountain can be felt from it.",
     "aliases": null,
@@ -573,8 +626,10 @@
   {
     "id": "Golden Mask of Ancient King",
     "name": "Golden Mask of Ancient King",
-    "description": "Upon taking a hit, there is a 5% chance to gain invulnerability to all DMG for 3 sec. Has a cooldown of 5 sec.",
-    "value": {},
+    "description": "Upon taking a hit, there is a 5% chance to gain invulnerability to all DMG for {0} sec. Has a cooldown of 5 sec.",
+    "value": {
+      "0": "3, 3.5, 4, 5, 6, 7.5"
+    },
     "thumbnail": "artifacts/Golden Mask of Ancient King.png",
     "story": "A golden mask once worn by God King of the desert. It is enchanted with the spell of absolute authority to protect its owner.",
     "aliases": null,
@@ -590,8 +645,11 @@
   {
     "id": "Mask of Dark Elf",
     "name": "Mask of Dark Elf",
-    "description": "ATK upon Dark Elves increase by 40 %, and DMG resistance against Dark Elves increases by 20 %",
-    "value": {},
+    "description": "ATK upon Dark Elves increase by {0} %, and DMG resistance against Dark Elves increases by {1} %",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
     "thumbnail": "artifacts/Mask of Dark Elf.png",
     "story": "A mask modeled after the face of a Dark Elf. It gives off an aura of the soft moonlight.",
     "aliases": null,
@@ -607,8 +665,11 @@
   {
     "id": "Mask of Draconic",
     "name": "Mask of Draconic",
-    "description": "ATK upon Draconics increase by 40 %, and DMG resistance against Draconics increase by 20 %.",
-    "value": {},
+    "description": "ATK upon Draconics increase by {0} %, and DMG resistance against Draconics increase by {1} %.",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
     "thumbnail": "artifacts/Mask of Draconic.png",
     "story": "A mask modeled after the face of a Draconic. It resonates with the roar of smoldering evil.",
     "aliases": null,
@@ -624,8 +685,11 @@
   {
     "id": "Mask of Goblin",
     "name": "Mask of Goblin",
-    "description": "ATK upon Goblins increase by 40 %, and DMG resistance against Goblins increases by 20 %",
-    "value": {},
+    "description": "ATK upon Goblins increase by {0} %, and DMG resistance against Goblins increases by {1} %",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
     "thumbnail": "artifacts/Mask of Goblin.png",
     "story": "A mask modeled after the face of a Goblin. It's actually kind of cute.",
     "aliases": null,
@@ -641,8 +705,11 @@
   {
     "id": "Mask of Harpy",
     "name": "Mask of Harpy",
-    "description": "ATK upon Harpies increase by 40 %, and DMG resistance against Harpies increases by 20 %",
-    "value": {},
+    "description": "ATK upon Harpies increase by {0} %, and DMG resistance against Harpies increases by {1} %",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
     "thumbnail": "artifacts/Mask of Harpy.png",
     "story": "A mask modeled after the face of a Harpy. The sound of a brisk wind can be heard.",
     "aliases": null,
@@ -658,8 +725,11 @@
   {
     "id": "Mask of Lizardman",
     "name": "Mask of Lizardman",
-    "description": "ATK upon Lizardmen increase by 40 %, and DMG resistance against Lizardmen increase by 20 %",
-    "value": {},
+    "description": "ATK upon Lizardmen increase by {0} %, and DMG resistance against Lizardmen increase by {1} %",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
     "thumbnail": "artifacts/Mask of Lizardman.png",
     "story": "A mask modeled after the face of a Lizardman. The aura of a sage can be felt from it.",
     "aliases": null,
@@ -675,8 +745,11 @@
   {
     "id": "Mask of Orc",
     "name": "Mask of Orc",
-    "description": "ATK upon Orcs increase by 40 %, and DMG resistance against Orcs increases by 20 %",
-    "value": {},
+    "description": "ATK upon Orcs increase by {0} %, and DMG resistance against Orcs increases by {1} %",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
     "thumbnail": "artifacts/Mask of Orc.png",
     "story": "A mask modeled after the face of an Orc. It inspires a brutish desire for combat.",
     "aliases": null,
@@ -692,8 +765,11 @@
   {
     "id": "Undead Mask",
     "name": "Undead Mask",
-    "description": "Increases DMG to Undead by 40 % and Resistance against Undead by 20%.",
-    "value": {},
+    "description": "Increases DMG to Undead by {0} % and Resistance against Undead by {1}%.",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
     "thumbnail": "artifacts/Undead Mask.png",
     "story": "A mask modeled after the face of a Skeleton. It smells like death.",
     "aliases": null,
@@ -709,8 +785,11 @@
   {
     "id": "Assassin's Veil",
     "name": "Assassin's Veil",
-    "description": "Increases P.Dodge by 100. Each successful dodge increases ATK by 1%, stacking up to max 20 times.",
-    "value": {},
+    "description": "Increases P.Dodge by {0}. Each successful dodge increases ATK by {1}%, stacking up to max 20 times.",
+    "value": {
+      "0": "100, 120, 140, 170, 210, 250",
+      "1": "1, 1.2, 1.4, 1.7, 2.1, 2.5"
+    },
     "thumbnail": "artifacts/Assassin's Veil.png",
     "story": "A veil that may seem too eccentric and florid to be used by an assassin, but is, in fact, a magic tool that dulls the target's senses.",
     "aliases": null,
@@ -726,8 +805,11 @@
   {
     "id": "Book of the Mad",
     "name": "Book of the Mad",
-    "description": "Reduces own Mana by 100 every sec, and increases own DMG dealt to enemies by 14%.",
-    "value": {},
+    "description": "Reduces own Mana by {0} every sec, and increases own DMG dealt to enemies by {1}%.",
+    "value": {
+      "0": "100, 120, 140, 170, 210, 250",
+      "1": "14, 17, 21, 25, 30, 35"
+    },
     "thumbnail": "artifacts/Book of the Mad.png",
     "story": "Book of a mad wizard who wandered about the wilderness. The cursed book created from human blood and skin. It consumes mana to grant berserk status to the owner without compromising their sanity. However, it continues to consume mana, ultimately bringing destruction to its owner as it depletes their mana.",
     "aliases": [
@@ -746,8 +828,10 @@
   {
     "id": "Burning Brazier of Elf",
     "name": "Burning Brazier of Elf",
-    "description": "Upon attacking an enemy, there is a 10% chance to recover 1 MP.",
-    "value": {},
+    "description": "Upon attacking an enemy, there is a {0}% chance to recover 1 MP.",
+    "value": {
+      "0": "10, 12, 14, 17, 20, 25"
+    },
     "thumbnail": "artifacts/Burning Brazier of Elf.png",
     "story": "A mysterious brazier crafted by ancient Elves to honor the mother nature. It is the pinnacle of their magic, capable of producing an infinite amount of mana.",
     "aliases": null,
@@ -763,8 +847,11 @@
   {
     "id": "Christmas Star Ornament",
     "name": "Christmas Star Ornament",
-    "description": "At the beginning of each battle, for 5 sec, increase Mana Recovery per sec by 260%. Also, Crit Resistance is increased by 100. This effect cannot be dispelled.",
-    "value": {},
+    "description": "At the beginning of each battle, for 5 sec, increase Mana Recovery per sec by {0}%. Also, Crit Resistance is increased by {1}. This effect cannot be dispelled.",
+    "value": {
+      "0": "260, 310, 370, 450, 540, 650",
+      "1": "100, 120, 140, 170, 210, 250"
+    },
     "thumbnail": "artifacts/Christmas Star Ornament.png",
     "story": "A star ornament that blesses the sacred nights. It rises up to the sky and shines.",
     "aliases": null,
@@ -780,8 +867,11 @@
   {
     "id": "Warm Turkey Dish",
     "name": "Warm Turkey Dish",
-    "description": "Increases own Max HP by 10% and All Block Chance by 100.",
-    "value": {},
+    "description": "Increases own Max HP by {0}% and All Block Chance by {1}.",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25",
+      "1": "100, 120, 140, 170, 210, 250"
+    },
     "thumbnail": "artifacts/Warm Turkey Dish.png",
     "story": "It is the must-try food for Thanksgiving. The freshly roasted turkey dish goes well with Hero's Inn special gravy sauce.",
     "aliases": null,
@@ -797,8 +887,10 @@
   {
     "id": "Well-Done Turkey Roast",
     "name": "Well-Done Turkey Roast",
-    "description": "Every 15 sec, recover HP equal to 1% of Max HP for 3 sec.",
-    "value": {},
+    "description": "Every 15 sec, recover HP equal to {0}% of Max HP for 3 sec.",
+    "value": {
+      "0": "1, 1.2, 1.4, 1.7, 2, 2.5"
+    },
     "thumbnail": "artifacts/Well-Done Turkey Roast.png",
     "story": "An exotic specialty that comes from a faraway land across the sea. It is said to be eaten during the celebration of harvest.",
     "aliases": null,
@@ -814,8 +906,10 @@
   {
     "id": "Christmas Tree of Holy Night",
     "name": "Christmas Tree of Holy Night",
-    "description": "Increases Crit DMG by 50%.",
-    "value": {},
+    "description": "Increases Crit DMG by {0}%.",
+    "value": {
+      "0": "50, 60, 72, 87, 105, 125"
+    },
     "thumbnail": "artifacts/Christmas Tree of Holy Night.png",
     "story": "A miniature of the legendary Christmas tree. It does not grant wishes anymore, but it still has the finest quality that makes the holy night beautiful.",
     "aliases": null,
@@ -831,8 +925,11 @@
   {
     "id": "Cooling Delicacy in the Summer",
     "name": "Cooling Delicacy in the Summer",
-    "description": "When the battle begins, reduces DMG from non-Hero enemies by 20% for 30 second(s), and recovers 100 MP every 2 second(s).",
-    "value": {},
+    "description": "When the battle begins, reduces DMG from non-Hero enemies by {0}% for 30 second(s), and recovers {1} MP every 2 second(s).",
+    "value": {
+      "0": "20, 24, 28, 34, 42, 50",
+      "1": "100, 120, 140, 170, 210, 250"
+    },
     "thumbnail": "artifacts/Cooling Delicacy in the Summer.png",
     "story": "This delicacy of Orvel is a must for anyone who can't stand the blazing summer heat.\n\nOne sip of it brings down the heat, another makes the heat go away.",
     "aliases": null,
@@ -848,8 +945,11 @@
   {
     "id": "Crystal Music Box",
     "name": "Crystal Music Box",
-    "description": "Increases DMG to Hero by 20 % and takes 10% increased DMG.",
-    "value": {},
+    "description": "Increases DMG to Hero by {0} % and takes {1}% increased DMG.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50",
+      "1": "10, 12, 14, 17, 21, 25"
+    },
     "thumbnail": "artifacts/Crystal Music Box.png",
     "story": "Crystal Music Box found in the ruins of Dukedom of Galluah. It has a beautiful yet sad melody.",
     "aliases": [
@@ -884,8 +984,11 @@
   {
     "id": "Drinking Horn of Ancient Cow",
     "name": "Drinking Horn of Ancient Cow",
-    "description": "Normal attacks have a 10% chance to increase ATK by 10% and ATK Spd by 100 for 10 sec.",
-    "value": {},
+    "description": "Normal attacks have a 10% chance to increase ATK by {0}% and ATK Spd by {1} for 10 sec.",
+    "value": {
+      "0": "10, 12, 14, 17, 20, 25",
+      "1": "100, 120, 140, 170, 200, 250"
+    },
     "thumbnail": "artifacts/Drinking Horn of Ancient Cow.png",
     "story": "A glass made from the horn of a sacred bull that roams the sky. It is a magical drinking horn that embodies the essence of abundance.",
     "aliases": null,
@@ -901,8 +1004,11 @@
   {
     "id": "Fancy Traditional Pendant",
     "name": "Fancy Traditional Pendant",
-    "description": "Crit Chance is increased by 100 and Crit DMG is increased by 20%.",
-    "value": {},
+    "description": "Crit Chance is increased by {0} and Crit DMG is increased by {1}%.",
+    "value": {
+      "0": "100, 120, 140, 170, 210, 250",
+      "1": "20, 24, 29, 35, 42, 50"
+    },
     "thumbnail": "artifacts/Fancy Traditional Pendant.png",
     "story": "A mystical charm said to get rid of bad luck and bring good luck. It's created by a famous foreign designer of magical goods.",
     "aliases": null,
@@ -918,8 +1024,11 @@
   {
     "id": "Fantastic Hybrid Animals",
     "name": "Fantastic Hybrid Animals",
-    "description": "When the battle starts, increases DMG to Non-Hero enemies by 12% and takes 12% reduced DMG for 200 sec.",
-    "value": {},
+    "description": "When the battle starts, increases DMG to Non-Hero enemies by {0}% and takes {1}% reduced DMG for 200 sec.",
+    "value": {
+      "0": "12, 14, 17, 21, 25, 30",
+      "1": "12, 14, 17, 21, 25, 30"
+    },
     "thumbnail": "artifacts/Fantastic Hybrid Animals.png",
     "story": "Encyclopedia for Hybrid Animals in Orvelia Continent. As a limited edition copy, it has a silhouette of Hybrid Animals embroidered with golden thread.",
     "aliases": [
@@ -937,8 +1046,11 @@
   {
     "id": "Feather of Sacrifice",
     "name": "Feather of Sacrifice",
-    "description": "For 120 sec after the battle starts, takes 10% extra DMG and increases all DMG taken by the enemy boss by 10%. This effect cannot be dispelled, and it does not stack with other effects for allies.",
-    "value": {},
+    "description": "For 120 sec after the battle starts, takes {0}% extra DMG and increases all DMG taken by the enemy boss by {1}%. This effect cannot be dispelled, and it does not stack with other effects for allies.",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25",
+      "1": "10, 12, 14, 17, 21, 25"
+    },
     "thumbnail": "artifacts/Feather of Sacrifice.png",
     "story": "A feather containing an alchemy equation of the exchange of equivalents. The equation will activate when the enemy's name is engraved on the user's body, weakening the enemy and its owner for a short period of time.",
     "aliases": null,
@@ -954,8 +1066,10 @@
   {
     "id": "Golden Apple of a Goddess",
     "name": "Golden Apple of a Goddess",
-    "description": "When the hero's HP falls below 25%, recover 30% of max HP and dispel all negative effects. Activates 1 time only.",
-    "value": {},
+    "description": "When the hero's HP falls below 25%, recover {0}% of max HP and dispel all negative effects. Activates 1 time only.",
+    "value": {
+      "0": "30, 36, 43, 51, 62, 75"
+    },
     "thumbnail": "artifacts/Golden Apple of a Goddess.png",
     "story": "It's said to be one of the sacred artifacts bestowed by the goddess. A miraculous remedy said to heal any injury.",
     "aliases": null,
@@ -988,8 +1102,10 @@
   {
     "id": "Insignia of Iron Conviction",
     "name": "Insignia of Iron Conviction",
-    "description": "Every 50 times this character takes M.DMG, dispel all harmful effects and gain a shield worth 480% of ATK for 5 sec. While this shield is in effect, gain immunity to CC and DMG Stacking effects.",
-    "value": {},
+    "description": "Every 50 times this character takes M.DMG, dispel all harmful effects and gain a shield worth {0}% of ATK for 5 sec. While this shield is in effect, gain immunity to CC and DMG Stacking effects.",
+    "value": {
+      "0": "480, 580, 690, 830, 1000, 1200"
+    },
     "thumbnail": "artifacts/Insignia of Iron Conviction.png",
     "story": "The crest used by the Guardian Knights of Orvelia prior to the Demon War. The stalwart resolve of the knights can be felt from it.",
     "aliases": null,
@@ -1005,8 +1121,10 @@
   {
     "id": "Judgment of Light Bracelet",
     "name": "Judgment of Light Bracelet",
-    "description": "ACC and CC ACC rise by 300.",
-    "value": {},
+    "description": "ACC and CC ACC rise by {0}.",
+    "value": {
+      "0": "300, 360, 430, 520, 630, 750"
+    },
     "thumbnail": "artifacts/Judgment of Light Bracelet.png",
     "story": "A blessed bracelet once created by the Holy Knights of the Church of Lua. It's an antique magic tool, and only a few like this remain today.",
     "aliases": null,
@@ -1022,8 +1140,10 @@
   {
     "id": "Kiddy Chick",
     "name": "Kiddy Chick",
-    "description": "ATK Spd is increased by 80",
-    "value": {},
+    "description": "ATK Spd is increased by {0}",
+    "value": {
+      "0": "80, 96, 115, 138, 165, 200"
+    },
     "thumbnail": "artifacts/Kiddy Chick.png",
     "story": "A small chick figure toy that represents the innocence of children.",
     "aliases": null,
@@ -1039,8 +1159,11 @@
   {
     "id": "Lion of Protection",
     "name": "Lion of Protection",
-    "description": "Increases own P.DEF by 20%, and P.Block by 100.",
-    "value": {},
+    "description": "Increases own P.DEF by {0}%, and P.Block by {1}.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50",
+      "1": "100, 120, 140, 170, 210, 250"
+    },
     "thumbnail": "artifacts/Lion of Protection.png",
     "story": "Lion made from silver. It is the symbol of Orvel Royal family, and its eyes are made from blue sapphire. It is imbued with the longing to safeguard the kingdom, protecting the owner from evil.",
     "aliases": null,
@@ -1056,8 +1179,11 @@
   {
     "id": "LuLu's Necklace",
     "name": "LuLu's Necklace",
-    "description": "When the battle starts, increases DMG to Non-Hero enemies by 20% for 30 sec, and recovers Mana by 200 every 5 sec.",
-    "value": {},
+    "description": "When the battle starts, increases DMG to Non-Hero enemies by {0}% for 30 sec, and recovers Mana by {1} every 5 sec.",
+    "value": {
+      "0": "20, 24, 28, 34, 42, 50",
+      "1": "200, 240, 280, 340, 420, 500"
+    },
     "thumbnail": "artifacts/LuLu's Necklace.png",
     "story": "A brilliant necklace befitting Moon Rabbit LuLu.\nIt is made from the refined fragments of a full moon.\nThe magical power of the full moon seeps into the wearer's entire body the moment it is worn.",
     "aliases": null,
@@ -1111,8 +1237,11 @@
   {
     "id": "Madame's Bronze Mirrors",
     "name": "Madame's Bronze Mirrors",
-    "description": "Increases own M.Block Chance by 300 and M.DMG Reduction by 100.",
-    "value": {},
+    "description": "Increases own M.Block Chance by {0} and M.DMG Reduction by {1}.",
+    "value": {
+      "0": "300, 330, 360, 400, 440, 500",
+      "1": "100, 110, 120, 140, 160, 200"
+    },
     "thumbnail": "artifacts/Madame's Bronze Mirrors.png",
     "story": "A bronze mirror of an Ancient Technomagic Kingdom that a genius wizard gifted to his wife. It is inscribed with a rune for protecting a loved one.",
     "aliases": null,
@@ -1128,8 +1257,10 @@
   {
     "id": "Magical Flute",
     "name": "Magical Flute",
-    "description": "Every 8 sec, increases ATK Spd of 2 random allies and the caster by 100 for 4 sec.",
-    "value": {},
+    "description": "Every 8 sec, increases ATK Spd of 2 random allies and the caster by {0} for 4 sec.",
+    "value": {
+      "0": "100, 120, 140, 170, 210, 250"
+    },
     "thumbnail": "artifacts/Magical Flute.png",
     "story": "Ancient flute made from the bones of Orox, the guardian beast of snow mountains. It contains the charm of gales, which boosts the morale of warriors. Warriors may experience a slight increase in their speed when they hear its sound.",
     "aliases": null,
@@ -1145,8 +1276,10 @@
   {
     "id": "New Year's Fireworks",
     "name": "New Year's Fireworks",
-    "description": "ATK is increased by 5% for 60 sec at the start of each battle.",
-    "value": {},
+    "description": "ATK is increased by {0}% for 60 sec at the start of each battle.",
+    "value": {
+      "0": "5, 6, 7.2, 8.6, 10.4, 12.5"
+    },
     "thumbnail": "artifacts/New Year's Fireworks.png",
     "story": "An item to blow away the worries of 2017 for a fresh new start in 2018.",
     "aliases": null,
@@ -1162,8 +1295,10 @@
   {
     "id": "New Year's Fanfare",
     "name": "New Year's Fanfare",
-    "description": "Increases ATK of 4 allies by 5% for 20 sec at the beginning of every battle. This effect will not stack with other similar effects cast by allies.",
-    "value": {},
+    "description": "Increases ATK of 4 allies by {0}% for 20 sec at the beginning of every battle. This effect will not stack with other similar effects cast by allies.",
+    "value": {
+      "0": "5, 6, 7.2, 8.6, 10.4, 12.5"
+    },
     "thumbnail": "artifacts/New Year's Fanfare.png",
     "story": "This uplifting fanfare of trumpets spreads the blessing of the newly rising sun.",
     "aliases": null,
@@ -1199,8 +1334,10 @@
   {
     "id": "Orbs of Contract",
     "name": "Orbs of Contract",
-    "description": "Every 7 sec, increase M.DEF by 1% of ATK. This effect stacks up to 6 times.",
-    "value": {},
+    "description": "Every 7 sec, increase M.DEF by {0}% of ATK. This effect stacks up to 6 times.",
+    "value": {
+      "0": "1, 1.2, 1.4, 1.7, 2, 2.5"
+    },
     "thumbnail": "artifacts/Orbs of Contract.png",
     "story": "Orbs shared between two lovers. They represent the eternal companionship of two souls even when they are apart.",
     "aliases": null,
@@ -1216,8 +1353,10 @@
   {
     "id": "Perfume of the Queen",
     "name": "Perfume of the Queen",
-    "description": "When inflicted by CC for 3 times, removes own Negative Effects, and increases ATK Spd by 500 and gains immunity to CC for 4 sec.",
-    "value": {},
+    "description": "When inflicted by CC for 3 times, removes own Negative Effects, and increases ATK Spd by 500 and gains immunity to CC for {0} sec.",
+    "value": {
+      "0": "4, 4.8, 5.8, 7, 8.4, 10"
+    },
     "thumbnail": "artifacts/Perfume of the Queen.png",
     "story": "Perfume used by legendary Golden Queen. It is the legendary perfume which can tempt anyone who smells the scent.",
     "aliases": null,
@@ -1233,8 +1372,11 @@
   {
     "id": "Pocket Watch of Ancient Civilization",
     "name": "Pocket Watch of Ancient Civilization",
-    "description": "Reduces Cooldown of self's all Skills by 1 sec every 10 sec and increases ATK Spd by 80 for 5 sec.",
-    "value": {},
+    "description": "Reduces Cooldown of self's all Skills by {0} sec every 10 sec and increases ATK Spd by {1} for 5 sec.",
+    "value": {
+      "0": "1, 1.2, 1.4, 1.7, 2, 2.5",
+      "1": "80, 96, 115, 138, 165, 200"
+    },
     "thumbnail": "artifacts/Pocket Watch of Ancient Civilization.png",
     "story": "A pocket watch that can fast-forward time slightly to provide a quick glimpse of one's destiny. Excessive use may prove to be quite dangerous.",
     "aliases": null,
@@ -1250,8 +1392,11 @@
   {
     "id": "Primer for the Heroes",
     "name": "Primer for the Heroes",
-    "description": "When HP is 20% or below, increases ATK by 30%, and increases ATK Spd and All DMG Reduction by 300.",
-    "value": {},
+    "description": "When HP is 20% or below, increases ATK by {0}%, and increases ATK Spd and All DMG Reduction by {1}.",
+    "value": {
+      "0": "30, 36, 43, 51, 62, 75",
+      "1": "300, 360, 430, 510, 620, 750"
+    },
     "thumbnail": "artifacts/Primer for the Heroes.png",
     "story": "This primer, which chronicles the stories of past heroes, is considered a bible for any new hero. It's written in ancient letters.",
     "aliases": null,
@@ -1267,8 +1412,11 @@
   {
     "id": "Roaring Tiger Statue",
     "name": "Roaring Tiger Statue",
-    "description": "When Hero health falls below 35%, deal DMG equal to 100% of ATK to nearby enemies and knock them down. Targeted enemies lose 14% ATK and 140 ATK Speed for 10 sec. Has a cooldown of 30 sec.",
-    "value": {},
+    "description": "When Hero health falls below 35%, deal DMG equal to 100% of ATK to nearby enemies and knock them down. Targeted enemies lose {0}% ATK and {1} ATK Speed for 10 sec. Has a cooldown of 30 sec.",
+    "value": {
+      "0": "14, 16, 20, 24, 29, 35",
+      "1": "140, 160, 200, 240, 290, 350"
+    },
     "thumbnail": "artifacts/Roaring Tiger Statue.png",
     "story": "An eerie gold statue designed after a roaring tiger. Under the right conditions, the tiger wakes up and makes everything around it tremble in fear.",
     "aliases": null,
@@ -1284,8 +1432,11 @@
   {
     "id": "Sealed Chain of Ancient God",
     "name": "Sealed Chain of Ancient God",
-    "description": "Every 20 sec, cast Silence to a random enemy for 3 sec and remove positive effects.",
-    "value": {},
+    "description": "Every {0} sec, cast Silence to a random enemy for {1} sec and remove positive effects.",
+    "value": {
+      "0": "20, 19, 18, 17, 16, 15",
+      "1": "3, 3.5, 4, 4.5, 5, 6"
+    },
     "thumbnail": "artifacts/Sealed Chain of Ancient God.png",
     "story": "A chain said to be once used by the God King of the desert to fetter his slaves. Those who are restrained by this chain cannot resist at all.",
     "aliases": null,
@@ -1301,8 +1452,11 @@
   {
     "id": "Solar Stone",
     "name": "Solar Stone",
-    "description": "Deals P.DMG equal to 20% of ATK to nearby enemies in a circular range of self every sec and reduces their Heal Rate by 30% for 5 sec.",
-    "value": {},
+    "description": "Deals P.DMG equal to {0}% of ATK to nearby enemies in a circular range of self every sec and reduces their Heal Rate by {1}% for 5 sec.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50",
+      "1": "30, 36, 43, 52, 62, 75"
+    },
     "thumbnail": "artifacts/Solar Stone.png",
     "story": "A magic tool sculpted into the shape of the Sun. Made from a stone embodying the essence of fire, it has the power to cleanse and purify all evil energy surrounding its wearer.",
     "aliases": null,
@@ -1318,8 +1472,11 @@
   {
     "id": "Sorcerous Black Dagger",
     "name": "Sorcerous Black Dagger",
-    "description": "Upon auto-attacking, there is a 10% chance to reduce the enemy's mana by 600. Has a cooldown of 6 sec.",
-    "value": {},
+    "description": "Upon auto-attacking, there is a {0}% chance to reduce the enemy's mana by {1}. Has a cooldown of 6 sec.",
+    "value": {
+      "0": "10, 12, 14, 16, 18, 20",
+      "1": "600, 700, 800, 1000, 1200, 1500"
+    },
     "thumbnail": "artifacts/Sorcerous Black Dagger.png",
     "story": "An ancient sorcerous dagger thought to be used for assassinations. It is enchanted with a vile spell that disrupts mana.",
     "aliases": null,
@@ -1335,8 +1492,11 @@
   {
     "id": "Soul Spring Water",
     "name": "Soul Spring Water",
-    "description": "At the beginning of each battle, heals 24% HP and recovers 12% Mana.",
-    "value": {},
+    "description": "At the beginning of each battle, heals {0}% HP and recovers {1}% Mana.",
+    "value": {
+      "0": "24, 28, 34, 42, 50, 60",
+      "1": "12, 14, 17, 21, 25, 30"
+    },
     "thumbnail": "artifacts/Soul Spring Water.png",
     "story": "One drop of it is said to become available every hundred years at the Soul Spring. A very rare and effective panacea.",
     "aliases": [
@@ -1354,8 +1514,11 @@
   {
     "id": "Talismans of Resistance",
     "name": "Talismans of Resistance",
-    "description": "Upon receiving a negative effect, removes all negative effects. Afterward, gains immunity to CC for 1 sec. Has a Cooldown of 20 sec.",
-    "value": {},
+    "description": "Upon receiving a negative effect, removes all negative effects. Afterward, gains immunity to CC for {0} sec. Has a Cooldown of {1} sec.",
+    "value": {
+      "0": "1, 1.5, 2, 2.5, 3, 3.5",
+      "1": "20, 19, 18, 17, 16, 15"
+    },
     "thumbnail": "artifacts/Talismans of Resistance.png",
     "story": "A pile of old exotic talismans that drives away harmful spirits. They are rendered useless for a while once used.",
     "aliases": null,
@@ -1371,8 +1534,11 @@
   {
     "id": "Tarot Card of Loss",
     "name": "Tarot Card of Loss",
-    "description": "Reduces Crit Chance by 150 and increases ATK by 30%.",
-    "value": {},
+    "description": "Reduces Crit Chance by {0} and increases ATK by {1}%.",
+    "value": {
+      "0": "150, 180, 210, 260, 310, 375",
+      "1": "30, 36, 43, 52, 63, 75"
+    },
     "thumbnail": "artifacts/Tarot Card of Loss.png",
     "story": "A deck of Tarot Card containing unfathomable magic. Appears to be a lost property of someone. It is said to be crafted by Eucalytus the witch to honor the death of her loved one.",
     "aliases": null,
@@ -1388,8 +1554,10 @@
   {
     "id": "The Ancient Scope",
     "name": "The Ancient Scope",
-    "description": "When MP is at 100%, Crit Chance and ACC rise by 400 for 10 sec. Has a cooldown of 20 sec.",
-    "value": {},
+    "description": "When MP is at 100%, Crit Chance and ACC rise by {0} for 10 sec. Has a cooldown of 20 sec.",
+    "value": {
+      "0": "400, 480, 570, 690, 830, 1000"
+    },
     "thumbnail": "artifacts/The Ancient Scope.png",
     "story": "A scope created by an ancient technomagi. A useful tool that can zoom into a faraway object to a good level of detail.",
     "aliases": null,
@@ -1405,8 +1573,11 @@
   {
     "id": "Tome of Black Magic",
     "name": "Tome of Black Magic",
-    "description": "Every 10 sec, target a single enemy. Said enemy takes DMG that ignores DEF equal to 2% of current HP each second for 5 sec, and reduces Mana by 200. This skill is effective only in the Arena.",
-    "value": {},
+    "description": "Every 10 sec, target a single enemy. Said enemy takes DMG that ignores DEF equal to {0}% of current HP each second for 5 sec, and reduces Mana by {1}. This skill is effective only in the Arena.",
+    "value": {
+      "0": "2, 2.4, 2.9, 3.5, 4.2, 5",
+      "1": "200, 240, 290, 350, 420, 500"
+    },
     "thumbnail": "artifacts/Tome of Black Magic.png",
     "story": "A book with evil black magic. It is filled with many spells that the devil has taught to mankind.",
     "aliases": null,
@@ -1422,8 +1593,11 @@
   {
     "id": "Vase of Sacrifice",
     "name": "Vase of Sacrifice",
-    "description": "Upon taking DMG 50 times, heals HP of 1 random ally by 200% of My ATK and increases the target's ATK by 30% for 10 seconds.",
-    "value": {},
+    "description": "Upon taking DMG 50 times, heals HP of 1 random ally by {0}% of My ATK and increases the target's ATK by {1}% for 10 seconds.",
+    "value": {
+      "0": "200, 240, 290, 350, 420, 500",
+      "1": "30, 36, 43, 51, 63, 75"
+    },
     "thumbnail": "artifacts/Vase of Sacrifice.png",
     "story": "A vase dedicated to the tomb of a fallen general from the Demon War. Within it flows water from the river of Eden, glistening brilliantly.",
     "aliases": null,
@@ -1439,8 +1613,11 @@
   {
     "id": "Fragment of an Ancient Kingdom",
     "name": "Fragment of an Ancient Kingdom",
-    "description": "Increases CC Resist by 200 and CC ACC by 200.",
-    "value": {},
+    "description": "Increases CC Resist by {0} and CC ACC by {1}.",
+    "value": {
+      "0": "200, 240, 290, 350, 420, 500",
+      "1": "200, 240, 290, 350, 420, 500"
+    },
     "thumbnail": "artifacts/Fragment of an Ancient Kingdom.png",
     "story": "A component found from an ancient and mysterious machine. It is suspected to be a part of a teleportation device.",
     "aliases": null,
@@ -1456,8 +1633,10 @@
   {
     "id": "Goddess of Glory",
     "name": "Goddess of Glory",
-    "description": "Increases ATK Spd of 4 allies by 100 for 20 sec when the battle starts. This effect will not be stacked with other similar effects cast by allies.",
-    "value": {},
+    "description": "Increases ATK Spd of 4 allies by {0} for 20 sec when the battle starts. This effect will not be stacked with other similar effects cast by allies.",
+    "value": {
+      "0": "100, 120, 140, 170, 210, 250"
+    },
     "thumbnail": "artifacts/Goddess of Glory.png",
     "story": "A golden statue of a goddess holding a laurel branch. It brings victory to its owner.",
     "aliases": null,
@@ -1472,7 +1651,7 @@
   },
   {
     "id": "Master Chef's Recipe Book",
-    "name": "Master Chef's Recipe Book",
+    "name": "Master Chef’s Recipe Book",
     "description": "Increases self's All DEF by {0}%, and Heal Rate by {1}%.",
     "value": {
       "0": "10, 12, 14, 17, 21, 25",
@@ -1493,8 +1672,10 @@
   {
     "id": "Pendulum of Fantasy",
     "name": "Pendulum of Fantasy",
-    "description": "At the beginning of each battle, permanently increases ATK by 10%. This effect stacks up to max 5 times, and is irremovable.",
-    "value": {},
+    "description": "At the beginning of each battle, permanently increases ATK by {0}%. This effect stacks up to max 5 times, and is irremovable.",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25"
+    },
     "thumbnail": "artifacts/Pendulum of Fantasy.png",
     "story": "An artifact told to have been in Hexipolia's possession before he used the dice.\nIf you watch the pendulum move left and right, it feels as if the pendulum will suck you into a world of fantasy.",
     "aliases": null,
@@ -1530,8 +1711,10 @@
   {
     "id": "Ancient God King's Coin",
     "name": "Ancient God King's Coin",
-    "description": "Increases ATK and Crit DMG by 20%.",
-    "value": {},
+    "description": "Increases ATK and Crit DMG by {0}%.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50"
+    },
     "thumbnail": "artifacts/Ancient God King's Coin.png",
     "story": "During ancient times, God King Cain led the desert kingdom of Sekireinel to a golden age.\nThis is a commemorative coin crafted from the gold he extracted from the desert.\nIt holds mysterious power that makes one feel the sun's power and heat when held.",
     "aliases": null,
@@ -1547,8 +1730,10 @@
   {
     "id": "Amethyst Pendulum",
     "name": "Amethyst Pendulum",
-    "description": "Increases All Crit Resistance by 200 for 7 sec every 10 sec.",
-    "value": {},
+    "description": "Increases All Crit Resistance by {0} for 7 sec every 10 sec.",
+    "value": {
+      "0": "200, 240, 290, 350, 420, 500"
+    },
     "thumbnail": "artifacts/Amethyst Pendulum.png",
     "story": "An amethyst pendulum that has the power to drive away the dark energy, and detect negative energy.",
     "aliases": [
@@ -1692,8 +1877,11 @@
   {
     "id": "Academic Achievement Award",
     "name": "Academic Achievement Award",
-    "description": "Increases ATK of all allies by 8%, and All DEF of self by 10%. This effect will not stack with other similar effects cast by allies.",
-    "value": {},
+    "description": "Increases ATK of all allies by {0}%, and All DEF of self by {1}%. This effect will not stack with other similar effects cast by allies.",
+    "value": {
+      "0": "8, 10, 12, 14, 17, 20",
+      "1": "10, 12, 14, 17, 21, 25"
+    },
     "thumbnail": "artifacts/Academic Achievement Award.png",
     "story": "In recognition of your outstanding excellence, superior performance, and good conduct, we hereby confer this medal to you. \n- Principal Rephy",
     "aliases": [

@@ -145,18 +145,27 @@
     "story": "Les légendes évoquent un mystérieux métal, aussi doré que les glorieux rayons du soleil, bleu que l'azur du ciel et blanc que la lumière aveuglante. Cette épée et ce bouclier sacrés ont été forgés dans ce métal que seuls les anges peuvent travailler. Ces divines reliques protectrices furent créées afin de bannir les ténèbres et d'inonder le monde de lumière. Confiées aux parangons des Chevaliers Gardiens angéliques, elles peuvent instantanément incinérer les démons qu'elles éclairent de leur lumière.",
     "descriptionByStar": {
       "0": "Lorsque l'attaque automatique touche la cible ennemie 5 fois, augmente les DEG M reçus par la cible de 20% pendant 10 sec et l'étourdit pendant 0.5 sec. L'effet d'augmentation de DEG M reçus ne peut être dissipé.",
-      "1": "Lorsque l'ennemi est touché 5 fois par une attaque normale, la cible subit 24% de DEG M supplémentaires pendant 10 secondes et est étourdie pendant 0,5 seconde.",
-      "2": "Lorsque l'ennemi est touché 5 fois par une attaque normale, la cible subit 29% de DEG M supplémentaires pendant 10 secondes et est étourdie pendant 0,5 seconde.",
-      "3": "Lorsque l'ennemi est touché 5 fois par une attaque normale, la cible subit 35% de DEG M supplémentaires pendant 10 secondes et est étourdie pendant 0,5 seconde.",
-      "4": "Lorsque l'ennemi est touché 5 fois par une attaque normale, la cible subit 42% de DEG M supplémentaires pendant 10 secondes et est étourdie pendant 0,5 seconde.",
-      "5": "Lorsque l'ennemi est touché 5 fois par une attaque normale, la cible subit 50% de DEG M supplémentaires pendant 10 secondes et est étourdie pendant 0,5 seconde."
+      "1": "Lorsque l'attaque automatique touche la cible ennemie 5 fois, augmente les DEG M reçus par la cible de 24% pendant 10 sec et l'étourdit pendant 0.5 sec. L'effet d'augmentation de DEG M reçus ne peut être dissipé.",
+      "2": "Lorsque l'attaque automatique touche la cible ennemie 5 fois, augmente les DEG M reçus par la cible de 29% pendant 10 sec et l'étourdit pendant 0.5 sec. L'effet d'augmentation de DEG M reçus ne peut être dissipé.",
+      "3": "Lorsque l'attaque automatique touche la cible ennemie 5 fois, augmente les DEG M reçus par la cible de 35% pendant 10 sec et l'étourdit pendant 0.5 sec. L'effet d'augmentation de DEG M reçus ne peut être dissipé.",
+      "4": "Lorsque l'attaque automatique touche la cible ennemie 5 fois, augmente les DEG M reçus par la cible de 42% pendant 10 sec et l'étourdit pendant 0.5 sec. L'effet d'augmentation de DEG M reçus ne peut être dissipé.",
+      "5": "Lorsque l'attaque automatique touche la cible ennemie 5 fois, augmente les DEG M reçus par la cible de 50% pendant 10 sec et l'étourdit pendant 0.5 sec. L'effet d'augmentation de DEG M reçus ne peut être dissipé."
     }
   },
   "uts": {
     "1": {
       "name": "Lumière de l'aube",
-      "description": "[Épée du Soleil] Dissipe tous les effets positifs dont bénéficient les ennemis à portée et restaure 200 PM à chaque coup porté.",
-      "value": {},
+      "description": "[Épée du Soleil] Dissipe tous les effets positifs dont bénéficient les ennemis à portée et restaure {0} PM à chaque coup porté.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Aselica/ut/1.png",
       "story": "Ce fragment de l'étoile du Berger est tombé du ciel.\nCette étoile est la lumière divine qui brille depuis la nuit des temps, gardienne des cieux et de la flamme sacrée de l'épée des anges. Lorsqu'elle descendit sur Terre, Aselica reçut ce fragment ainsi que l'épée du soleil d'un archange.",
       "descriptionByStar": {
@@ -164,14 +173,23 @@
         "1": "[Épée du Soleil] Dissipe tous les effets positifs dont bénéficient les ennemis à portée et restaure 240 PM à chaque coup porté.",
         "2": "[Épée du Soleil] Dissipe tous les effets positifs dont bénéficient les ennemis à portée et restaure 290 PM à chaque coup porté.",
         "3": "[Épée du Soleil] Dissipe tous les effets positifs dont bénéficient les ennemis à portée et restaure 350 PM à chaque coup porté.",
-        "4": "[Épée du Soleil] Dissipe tous les effets positifs dont bénéficient les ennemis à portée et restaure 420 PM à chaque coup porté:",
+        "4": "[Épée du Soleil] Dissipe tous les effets positifs dont bénéficient les ennemis à portée et restaure 420 PM à chaque coup porté.",
         "5": "[Épée du Soleil] Dissipe tous les effets positifs dont bénéficient les ennemis à portée et restaure 500 PM à chaque coup porté."
       }
     },
     "2": {
       "name": "Bracelet du soleil",
-      "description": "[Bénédiction du Soleil] Réduit le coût en PM de 1 et les DEG P reçus par la cible de 10% pendant 10 sec.",
-      "value": {},
+      "description": "[Bénédiction du Soleil] Réduit le coût en PM de 1 et les DEG P reçus par la cible de {0}% pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Aselica/ut/2.png",
       "story": "Bracelet confectionné par les archanges pour protéger les anges lors de leur venue sur terre. Il renferme le soleil, c’est pourquoi il brille de mille feux.\nLorsque les anges sont effrayés, l’on raconte que la lumière du soleil contenue dans le bracelet protège leur âme. \nLe sort des tous les anges étant mêlé à l’intérieur du bracelet, à chaque fois que la vie de l’un d’entre eux est en danger, les autres le ressentent instantanément.",
       "descriptionByStar": {
@@ -209,8 +227,17 @@
     },
     "4": {
       "name": "Volonté de la lumière",
-      "description": "[Malédiction du Soleil] Augmente la durée d'Aveuglement de 1 sec et les DEG M reçus par la cible de 10 % pendant 10 sec.",
-      "value": {},
+      "description": "[Malédiction du Soleil] Augmente la durée d'Aveuglement de 1 sec et les DEG M reçus par la cible de {0} % pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Aselica/ut/4.png",
       "story": "Un accessoire capillaire orné de feuilles de laurier dorées et d'une plume d'aile de l'oiseau sacré Illaira. Il brille même dans l'obscurité la plus totale.\nIl protège son porteur des malédictions et sa lumière consume l'énergie négative.\nIl fut confié à Aselica par l'archange lors de sa nomination en tant qu'ange gardien.",
       "descriptionByStar": {

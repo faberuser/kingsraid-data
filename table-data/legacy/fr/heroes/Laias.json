@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Eltoirre, le Cercle flottant",
-    "description": "Augmente la Récupération de tous les alliés de 8% et la DEF M de 5% de l'ATQ de Laias. Soigne les PV de l'allié ayant le moins de PV de 100% de son ATQ toutes les 5 sec.",
-    "value": {},
+    "description": "Augmente la Récupération de tous les alliés de {0}% et la DEF M de 5% de l'ATQ de Laias. Soigne les PV de l'allié ayant le moins de PV de {1}% de son ATQ toutes les 5 sec.",
+    "value": {
+      "0": {
+        "0": "8",
+        "1": "10",
+        "2": "12",
+        "3": "14",
+        "4": "17",
+        "5": "20"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      }
+    },
     "thumbnail": "heroes/Laias/uw.png",
     "story": "Une ankh taillée en forme de phénix symbolisant le cycle naturel de la vie. Dans les temps anciens, les nomades du désert vénéraient le Dragon Bleu de l'oasis. En retour, elle leur accordait de la pluie et donnait vie à leurs récoltes. Pour prouver leur gratitude, les nomades lui offraient divers trésors, comme la Lazulia, la gemme de l'eau. Même si elle n'avait aucun besoin de fortunes matérielles, elle acceptait leur gratitude et utilisait les trésors pour bâtir un temple au sein de l'oasis. Cet ankh est le symbole sacré du temple et contient la puissance de l'eau.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Écaille de dragon d'eau",
-      "description": "[Gouttelettes de Soin] Augmente les soins de 50 % et le Blocage M de la cible de 200 pendant 10 sec.",
-      "value": {},
+      "description": "[Gouttelettes de Soin] Augmente les soins de 50 % et le Blocage M de la cible de {0} pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Laias/ut/1.png",
       "story": "Cette écaille servait à Laias pour orner sa coiffure. Elle y enferma son pouvoir de soin, au cas l'énergie viendrait à lui manquer. Lorsqu'elle se réveilla dans l'Autel des flots au son des prières assidues de la tribu Trovatia, elle craignit que la jeune Lilia ne parvienne pas à protéger les enfants du désert si elle se rendormait pendant cent ans. Après mûre réflexion, elle enferma son pouvoir dans l'écaille et la remit à Lilia au cas où un malheur arriverait.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Cristal d’oasis",
-      "description": "[Bulle protectrice] Réduit le temps de recharge de 12 % et dissipe tous les effets négatifs de la cible.",
-      "value": {},
+      "description": "[Bulle protectrice] Réduit le temps de recharge de {0} % et dissipe tous les effets négatifs de la cible.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
       "thumbnail": "heroes/Laias/ut/2.png",
       "story": "Essence aqueuse protégée par les dragons bleus. \nIl s’agit de l’essence d’une oasis apportée dans le désert par les dragons bleus au commencement du monde. Laias, prêtresse sacrée de l’eau, a pour sainte mission de la protéger. Par chance, elle adore ça. Ce cristal d’oasis amène la prêtresse de l’eau maniant la Bulle Protectrice à la personne qui a le plus besoin de son aide.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Papyrus des flots",
-      "description": "[Festival de l'Eau] Le tourbillon d'eau attaque 2 ennemis et tous les alliés récupèrent 500 PM supplémentaires.",
-      "value": {},
+      "description": "[Festival de l'Eau] Le tourbillon d'eau attaque 2 ennemis et tous les alliés récupèrent {0} PM supplémentaires.",
+      "value": {
+        "0": {
+          "0": "500",
+          "1": "600",
+          "2": "720",
+          "3": "860",
+          "4": "1040",
+          "5": "1250"
+        }
+      },
       "thumbnail": "heroes/Laias/ut/3.png",
       "story": "Cet extrait provient du Livre du Chaos, un ancien grimoire disparu. Le Livre du Chaos était un texte sacré, qui fut transmis au Prêtre de l’Eau. Il contenait des archives sur la culture, la magie et autres sujets essentiels. Il fut scellé dans l'Autel des flots doré avec Laias, mais sa plus grande partie disparut pendant son sommeil. Le seul texte préservé, le Papyrus des flots, est un sort d’amélioration du Festival d'influx.",
       "descriptionByStar": {
@@ -185,14 +229,23 @@
         "1": "[Festival de l'Eau] Le tourbillon d'eau attaque 2 ennemis et tous les alliés récupèrent 600 PM supplémentaires.",
         "2": "[Festival de l'Eau] Le tourbillon d'eau attaque 2 ennemis et tous les alliés récupèrent 720 PM supplémentaires.",
         "3": "[Festival de l'Eau] Le tourbillon d'eau attaque 2 ennemis et tous les alliés récupèrent 860 PM supplémentaires.",
-        "4": "[Festival de l'Eau] Le tourbillon d'eau attaque 2 ennemis et tous les alliés récupèrent 1 040 PM supplémentaires.",
-        "5": "[Festival de l'Eau] Le tourbillon d'eau attaque 2 ennemis et tous les alliés récupèrent 1 250 PM supplémentaires."
+        "4": "[Festival de l'Eau] Le tourbillon d'eau attaque 2 ennemis et tous les alliés récupèrent 1040 PM supplémentaires.",
+        "5": "[Festival de l'Eau] Le tourbillon d'eau attaque 2 ennemis et tous les alliés récupèrent 1250 PM supplémentaires."
       }
     },
     "4": {
       "name": "Larme de dieu-dragon",
-      "description": "[Bénédiction du Dragon d'Eau] Augmente l'augmentation de DEF M de 50% et restaure 40 PM à tous les alliés toutes les sec.",
-      "value": {},
+      "description": "[Bénédiction du Dragon d'Eau] Augmente l'augmentation de DEF M de 50% et restaure {0} PM à tous les alliés toutes les sec.",
+      "value": {
+        "0": {
+          "0": "40",
+          "1": "48",
+          "2": "58",
+          "3": "70",
+          "4": "84",
+          "5": "100"
+        }
+      },
       "thumbnail": "heroes/Laias/ut/4.png",
       "story": "Un bijou d'un bleu transparent trouvé là où le premier dragon d'eau rejoignit l'étreinte du mana.\nOn l'appelle également l'Âme meurtrie du premier dragon d'eau, car on raconte qu'il renferme la peine et la mélancolie du dragon envers sa compagne défunte.\nDes vaguelettes évoquant des larmes se forment autour du bijou lorsqu'on le plonge dans l'eau. C'est de là qu'il tient son nom, la Larme de dieu-dragon.",
       "descriptionByStar": {

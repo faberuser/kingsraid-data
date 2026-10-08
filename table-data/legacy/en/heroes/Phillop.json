@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Dragon's Ruins, Atein",
-    "description": "Upon taking DMG, increases All DEF of all allies except self by 10% for 3 sec and stacks 1 Dragon Rage upon self. Dragon Rage can be stacked up to max 100 times, and each stack increases own ATK and DEF by 0.8% for 10 sec.",
-    "value": {},
+    "description": "Upon taking DMG, increases All DEF of all allies except self by {0}% for 3 sec and stacks 1 Dragon Rage upon self. Dragon Rage can be stacked up to max 100 times, and each stack increases own ATK and DEF by {1}% for 10 sec.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "0.8",
+        "1": "1",
+        "2": "1.2",
+        "3": "1.4",
+        "4": "1.7",
+        "5": "2"
+      }
+    },
     "thumbnail": "heroes/Phillop/uw.png",
     "story": "The Dark Dragons are Demons created to slay the dragons, the arbitrators of the world. During the war 100 years ago, these Dark Dragons killed and devoured countless dragons. A few of the surviving dragons have gone insane from the rage and the shame, and they eventually turned into Mad Dragons. They are now nothing more than giant monsters powered by their destructive instincts. Phillop and his Dwarves have been hunting these Dark Dragons and Mad Dragons since the Demon War, gathering their remains to forge legendary items.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Mad Dragon Shield Decoration",
-      "description": "[Collision] Reduces the target's CC Resist by 250 and P.Block Chance by 200 for 10 sec.",
-      "value": {},
+      "description": "[Collision] Reduces the target's CC Resist by 250 and P.Block Chance by {0} for 10 sec.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Phillop/ut/1.png",
       "story": "A golden shield decoration that has the image of a Mad Dragon engraved on it.\nDwarf master artisans gave it to King Phillop as a present for his remarkable work in hunting Mad Dragons. Phillop did not put it on his shield as it was a little too fancy to use in combat, but he always carries it as a charm to show his gratitude to the warm-hearted artisans.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Dwarfish Capricorn Helmet",
-      "description": "[Headbutt] Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by 200 for 10 sec.",
-      "value": {},
+      "description": "[Headbutt] Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by {0} for 10 sec.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Phillop/ut/2.png",
       "story": "Ancient Dwarf King's capricorn helmet. \nIt is made from the gold of dragons that was obtained after defeating the greedy dark dragon Bokrug. The magnificent golden horn of the helmet is imbued with the dark dragon's magic that will slow down an enemy who is hit with Headbutt.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Dwarven Ceremonial Hammer",
-      "description": "[Earth Incarnate] Increases own ATK Spd and Crit Chance by 250, and DEF Boost by 20% for the duration of Skill.",
-      "value": {},
+      "description": "[Earth Incarnate] Increases own ATK Spd and Crit Chance by 250, and DEF Boost by {0}% for the duration of Skill.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Phillop/ut/3.png",
       "story": "A hammer that the ancient Dwarven King received as a gift from the Earth Elemental. It was a gift that the King received for saving the Gnome Kingdom from the attacks of the evil Earth Dragon Azi Dahaka. Upon using Earth Incarnate, this ceremonial hammer, imbued with the blessing of the spirit of the earth, increases DEF with the power of the earth's spirit, and grants immunity to HP recovery and CC.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Hammer of Titan",
-      "description": "[Destroy Armor] Upon attack, reduces the target's ATK by 20% and each stack reduces its Heal Rate by 4%.",
-      "value": {},
+      "description": "[Destroy Armor] Upon attack, reduces the target's ATK by 20% and each stack reduces its Heal Rate by {0}%.",
+      "value": {
+        "0": {
+          "0": "4",
+          "1": "4.8",
+          "2": "5.8",
+          "3": "7",
+          "4": "8.4",
+          "5": "10"
+        }
+      },
       "thumbnail": "heroes/Phillop/ut/4.png",
       "story": "A hammer made of Titanium, the legendary metal forged by giants.\nIt is powerful enough to crush through any legendary weapons and armor. After the Demon War, only 3 of them are known to exist in Orvelia.",
       "descriptionByStar": {

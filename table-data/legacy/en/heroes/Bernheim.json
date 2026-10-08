@@ -130,8 +130,33 @@
   },
   "uw": {
     "name": "Kiln of Futility, Targarios",
-    "description": "Every 10 sec, increases own ATK by 10%, all DEF by 10%, and reduces Cooldown of all Skills by 1 sec. While in [Battle Initiation], Cooldown Reduction will be doubled. The ATK and DEF boost can be stacked up to max 4 times and is irremovable.",
-    "value": {},
+    "description": "Every 10 sec, increases own ATK by {0}%, all DEF by {1}%, and reduces Cooldown of all Skills by {2} sec. While in [Battle Initiation], Cooldown Reduction will be doubled. The ATK and DEF boost can be stacked up to max 4 times and is irremovable.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "2": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.7",
+        "4": "2.1",
+        "5": "2.5"
+      }
+    },
     "thumbnail": "heroes/Bernheim/uw.png",
     "story": "The name of this demonic sword means 'the one who cannot be satiated' and 'the one with ceaseless craving.'\nIt has the power to absorb all forms of energy, evil or holy, to use them as its own.\nIt has its own will, and a character that is very temperamental, scatterbrained, and cruel.\nEven Queen Artemia does not know the exact reason why this demonic sword was sealed under the Central Church in Penteonia, but rumor says that Targarios was a Dark Lord in the distant past.\nConsidering its frivolous character, that might seem unlikely. However, there is no doubt that it has devastating powers.",
     "descriptionByStar": {
@@ -146,8 +171,17 @@
   "uts": {
     "1": {
       "name": "Faded Sword",
-      "description": "[Circle of Futility] Reduces the hit targets' Mana by 100 and increases M.DMG they take by 25% for 5 sec.",
-      "value": {},
+      "description": "[Circle of Futility] Reduces the hit targets' Mana by {0} and increases M.DMG they take by 25% for 5 sec.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Bernheim/ut/1.png",
       "story": "A standard issue sword of Penteonian Knights that Bernheim used before he fell for Targarios's trap.\nIt is designed to draw out great power when imbued with the power of light. However, one day, Targarios noticed that Bernheim was trying to use other weapons instead of it. Targarios went mad and broke all the other weapons after absorbing all the powers, protections, and blessings they bore.\nBernheim saw it, let out a big sigh, and threw broken metal pieces away, but he decided to carry this sword with him.",
       "descriptionByStar": {
@@ -161,8 +195,17 @@
     },
     "2": {
       "name": "Medal of Light",
-      "description": "[Battle Initiation] Consumes 50% of current HP upon use, but the effect will become irremovable.",
-      "value": {},
+      "description": "[Battle Initiation] Consumes {0}% of current HP upon use, but the effect will become irremovable.",
+      "value": {
+        "0": {
+          "0": "50",
+          "1": "46",
+          "2": "41",
+          "3": "35",
+          "4": "28",
+          "5": "20"
+        }
+      },
       "thumbnail": "heroes/Bernheim/ut/2.png",
       "story": "A medal of light bestowed upon him when he was conferred knighthood in Penteonia.\nHaving the sun engraved on it, this gold medal assures the bearer that the light is always with him.\nAlthough Bernheim was deprived of his knighthood and was banished from the country, his loyalty always lies with the proud Penteonian Knights.",
       "descriptionByStar": {
@@ -176,8 +219,17 @@
     },
     "3": {
       "name": "Mercenary's Goblet",
-      "description": "[Destroyer] Increases DMG by 20% and each hit has a 20% chance to stun the enemy for 0.5 sec.",
-      "value": {},
+      "description": "[Destroyer] Increases DMG by {0}% and each hit has a 20% chance to stun the enemy for 0.5 sec.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Bernheim/ut/3.png",
       "story": "A commemorative goblet only given to mighty and brave mercenaries in the Empire.\nThe wolf, the symbol of Empire, is engraved on it.\nIn recognition of the countless victories Bernheim earned for the Empire, the royal family gave him this exquisite goblet, one of only 5 in the world.\nRumor has it that the goblet has a spell that makes any drink poured into it restore stamina.",
       "descriptionByStar": {
@@ -191,8 +243,17 @@
     },
     "4": {
       "name": "Unsent Letter",
-      "description": "[Breakdown] Normal and Skill attacks now inflict 2 stacks on the enemy and self. The max number of stacks increases by 20.",
-      "value": {},
+      "description": "[Breakdown] Normal and Skill attacks now inflict 2 stacks on the enemy and self. The max number of stacks increases by {0}.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Bernheim/ut/4.png",
       "story": "Letters that Bernheim wrote to his family after his banishment.\nHe still has not decided whether or not to send them until now, after 7 years have passed from his banishment.\nThe letters are mainly addressed to his brother and sister who were 5 and 10 years younger than him when he was banished.",
       "descriptionByStar": {

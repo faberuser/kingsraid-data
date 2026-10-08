@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Endlose Beschleunigung, Riventina",
-    "description": "Erhöht ANG-GESCHW. um 200 sowie Attacken auf ausgewählte Ziele. Verursacht 200% von ANG als zusätzlichen Mag. Schaden. Zusatzschaden-Effekt tritt nur einmal alle 2 Sek. auf.",
-    "value": {},
+    "description": "Erhöht ANG-GESCHW. um {0} sowie Attacken auf ausgewählte Ziele. Verursacht {1}% von ANG als zusätzlichen Mag. Schaden. Zusatzschaden-Effekt tritt nur einmal alle 2 Sek. auf.",
+    "value": {
+      "0": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      },
+      "1": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      }
+    },
     "thumbnail": "heroes/Mirianne/uw.png",
     "story": "Ein magischer Ausrüstungsgegenstand, der von Sonia, der Erzmagierin von Blau erschaffen wurde. Er ist mit Magie verzaubert, die es ihm erlaubt, enorme Geschwindigkeiten zu erreichen. Außerdem ist er mit einem speziellen Zauber ausgestattet, der ihn nach dem Wurf stets in die Hände seines Besitzers zurückkehren lässt. Sonia hätte Mirianne, die wie eine Schwester für sie ist, nicht besser beschenken können. Mit anderen Worten handelt es sich dabei um eine Liebesbekundung, die nur Mirianne gilt.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Anstrengungszeugnis",
-      "description": "[Zielerfassung] erhöht den Schaden um 20 % und verringert den Mag. Krit. Widerstand des Ziels 10 Sek. lang um 500.",
-      "value": {},
+      "description": "[Zielerfassung] erhöht den Schaden um {0} % und verringert den Mag. Krit. Widerstand des Ziels 10 Sek. lang um 500.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Mirianne/ut/1.png",
       "story": "Ein Wurfdolch, der von Ricardo hergestellt wurde. Mirianne hat ihn zu Übungszwecken verwendet.\nMirianne war die einzige Überlebende eines Dorfes, in dem Elfen und Menschen zusammenlebten. Als Ricardo sie zu einem Waisenhaus brachte, befürchtete er, dass sie ihr Herz verschließen würde, sobald sie herausfindet, dass sie sich von den anderen Stadtbewohnern unterscheidet. Sonia, die Orvelia besuchte, teilte seine Sorge. Er bat Sonia, sich um das kleine Mädchen zu kümmern, und schenkte ihr diesen Übungsdolch, um sich auf ihre Reise vorzubereiten.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Zwillingsring der sofortigen Teleportation",
-      "description": "[Bändigen und Beschützen] verringert die Manakosten um 1 und stellt beim Krit. Treffer 160 Mana wieder her.",
-      "value": {},
+      "description": "[Bändigen und Beschützen] verringert die Manakosten um 1 und stellt beim Krit. Treffer {0} Mana wieder her.",
+      "value": {
+        "0": {
+          "0": "160",
+          "1": "190",
+          "2": "230",
+          "3": "270",
+          "4": "330",
+          "5": "400"
+        }
+      },
       "thumbnail": "heroes/Mirianne/ut/2.png",
       "story": "Ring, den Mirianne im „Sehr Unglaublichen Magischen Spielzeugladen“ in Orvel kaufte. Sie gravierte ihren und Sonias Namen in den Ring. Die beiden bilden ein Paar, das es ihnen erlaubt, sich einmal am Tag zum jeweils anderen zu teleportieren. Sonia benutzt ihn jedoch nicht, da dies recht beschwerlich ist ...\nDer Ring mag zwar nur ein Spielzeug sein, aber Mirianne ist froh, dass es noch eine Möglichkeit gibt, Sonia zu beschützen.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Magisches Blitzpulver",
-      "description": "[Auslöschung] erhöht den Schaden um 50 % und bei Krit. Treffern ANG 10 Sek. lang um 10 %.",
-      "value": {},
+      "description": "[Auslöschung] erhöht den Schaden um 50 % und bei Krit. Treffern ANG 10 Sek. lang um {0} %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Mirianne/ut/3.png",
       "story": "Eine Sammlung wunderschönen Materials, das im Innern von Sonias Kristallkugel wie Sterne verstreut ist. Mirianne sammelte das Pulver, um einen Streich zu spielen, aber es ist so mächtig, dass es als Mordwerkzeug genutzt wird.",
       "descriptionByStar": {
@@ -191,17 +235,26 @@
     },
     "4": {
       "name": "Geburt eines Wunders",
-      "description": "[Ziel ausgelöscht] erhöht den ANG-Boost um 50 %. Betäubt alle 5 Sek. Feinde unter Zielerfassung für 1 Sek.",
-      "value": {},
+      "description": "[Ziel ausgelöscht] erhöht den ANG-Boost um 50 %. Betäubt alle 5 Sek. Feinde unter Zielerfassung für {0} Sek.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Mirianne/ut/4.png",
       "story": "Eine Blätterhalskette, die Miriannes Mutter zur Feier ihrer Geburt angefertigt hat.\nIhre Mutter hoffte, dass ihre Tochter in Ella unbeschadet aufwachsen würde, und verzierte den hölzernen Anhänger mit einem elfischen Glücksjuwel.\nDas Schicksal hatte jedoch andere Pläne und Ella wurde von dämonischen Kreaturen angegriffen. Miriannes Mutter starb, übertrug dabei jedoch ihre Liebe in die Halskette.\nDie Halskette beschützte Mirianne, bis sie von Ricardo gefunden wurde, und zerfiel danach zu Staub.\nRicardo hatte Mitleid mit Mirianne, weil sie die Einzige war, die den Angriff auf Ella überlebte.\nEin paar Jahre später bat er Loman, eine ähnliche Halskette anzufertigen, und gab sie Mirianne.",
       "descriptionByStar": {
         "0": "[Ziel ausgelöscht] erhöht den ANG-Boost um 50 %. Betäubt alle 5 Sek. Feinde unter Zielerfassung für 1 Sek.",
-        "1": "[Ziel ausgelöscht] erhöht den ANG-Boost um 50 %. Betäubt alle 5 Sek. Feinde unter Zielerfassung für 1,2 Sek.",
-        "2": "[Ziel ausgelöscht] erhöht den ANG-Boost um 50 %. Betäubt alle 5 Sek. Feinde unter Zielerfassung für 1,4 Sek.",
-        "3": "[Ziel ausgelöscht] erhöht den ANG-Boost um 50 %. Betäubt alle 5 Sek. Feinde unter Zielerfassung für 1,7 Sek.",
-        "4": "[Ziel ausgelöscht] erhöht den ANG-Boost um 50 %. Betäubt alle 5 Sek. Feinde unter Zielerfassung für 2,1 Sek.",
-        "5": "[Ziel ausgelöscht] erhöht den ANG-Boost um 50 %. Betäubt alle 5 Sek. Feinde unter Zielerfassung für 2,5 Sek."
+        "1": "[Ziel ausgelöscht] erhöht den ANG-Boost um 50 %. Betäubt alle 5 Sek. Feinde unter Zielerfassung für 1.2 Sek.",
+        "2": "[Ziel ausgelöscht] erhöht den ANG-Boost um 50 %. Betäubt alle 5 Sek. Feinde unter Zielerfassung für 1.4 Sek.",
+        "3": "[Ziel ausgelöscht] erhöht den ANG-Boost um 50 %. Betäubt alle 5 Sek. Feinde unter Zielerfassung für 1.7 Sek.",
+        "4": "[Ziel ausgelöscht] erhöht den ANG-Boost um 50 %. Betäubt alle 5 Sek. Feinde unter Zielerfassung für 2.1 Sek.",
+        "5": "[Ziel ausgelöscht] erhöht den ANG-Boost um 50 %. Betäubt alle 5 Sek. Feinde unter Zielerfassung für 2.5 Sek."
       }
     }
   },

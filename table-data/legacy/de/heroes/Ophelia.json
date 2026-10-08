@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Karten des Schicksals, Del Arcana",
-    "description": "Angriffe haben eine Chance von 77,7 %, für 15 Sek. die ANG-GESCHW. um 20 und die MP-Regeneration/Sek. um 10 % zu erhöhen. Dieser Effekt kann bis zu 15-mal gestapelt werden.",
-    "value": {},
+    "description": "Angriffe haben eine Chance von 77,7 %, für 15 Sek. die ANG-GESCHW. um {0} und die MP-Regeneration/Sek. um {1} % zu erhöhen. Dieser Effekt kann bis zu 15-mal gestapelt werden.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
     "thumbnail": "heroes/Ophelia/uw.png",
     "story": "Tarot-Kartenlegen ist unter Hexen eine beliebte Methode der Zukunftsvorhersage. Manche Hexen verwenden eigene Karten, um ihren persönlichen Stil einfließen zu lassen. Ophelias Karten fungieren auch als Zeugnis der Pakte zwischen ihr selbst und den von ihr erschaffenen Kreaturen. Sie paktierte mit zahllosen Kreaturen und ist unter den Wesen der geheimnisvollen Dimensionen als sehr beliebte Schicksalsführerin bekannt. Del Arcana, ein mächtiges, von Ophelia zusammengestelltes Tarot-Kartendeck, ist der materielle Beweis dieser Beziehungen.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Seltsame Karte",
-      "description": "[Karte des Todes – Carta] erhöht den Schaden um 50 % und stellt 1000 Mana wieder her, wenn ein Feind getötet wird.",
-      "value": {},
+      "description": "[Karte des Todes – Carta] erhöht den Schaden um 50 % und stellt {0} Mana wieder her, wenn ein Feind getötet wird.",
+      "value": {
+        "0": {
+          "0": "1000",
+          "1": "1200",
+          "2": "1400",
+          "3": "1700",
+          "4": "2100",
+          "5": "2500"
+        }
+      },
       "thumbnail": "heroes/Ophelia/ut/1.png",
       "story": "Eine Karte, die Hexe Eucaletus mit all ihrem Mana hergestellt hat. Sie wollte damit ihrem verstorbenen Geliebten ein Stück näher kommen.\nSie wurde schließlich zu Asche verbrannt, zurück blieb nur diese seltsame Karte. Damals glaubten die Leute daran, dass diese Karte den Träger von Leben und Tod befreien konnte. Viele versuchten, die Karte gewaltsam an sich zu reißen, um unsterblich zu werden. Dann entschloss sich jedoch ein Zauberer, sich auf die Suche nach der Karte zu begeben, um weitere sinnlose Morde zu verhindern. Als er sie fand, sperrte er sie weg. Die Karte wurde jahrhundertelang nicht gesehen, bis Ophelia sie in einem alten Lagerraum fand.",
       "descriptionByStar": {
@@ -161,23 +187,41 @@
     },
     "2": {
       "name": "Elliciads Herz",
-      "description": "[Karte der Liebe - Elliciad] entfernt negative Effekte vom Ziel und alle Skill-Cooldowns werden um 6 % verringert.",
-      "value": {},
+      "description": "[Karte der Liebe - Elliciad] entfernt negative Effekte vom Ziel und alle Skill-Cooldowns werden um {0} % verringert.",
+      "value": {
+        "0": {
+          "0": "6",
+          "1": "7.2",
+          "2": "8.6",
+          "3": "10.4",
+          "4": "12.5",
+          "5": "15"
+        }
+      },
       "thumbnail": "heroes/Ophelia/ut/2.png",
       "story": "Das Herz von Elliciad, dem Geist der Liebe. \nEs nährt sich sowohl von erfüllter als auch unerfüllter Liebe, kann also so heiß sein wie Lava, oder so kalt wie Eis. Die Kraft, die es zeigt, hängt davon ab, wie verunreinigt eine Seele ist und es kann für diejenigen mit reinen Seelen ein starkes Licht des Segens bewirken.",
       "descriptionByStar": {
         "0": "[Karte der Liebe - Elliciad] entfernt negative Effekte vom Ziel und alle Skill-Cooldowns werden um 6 % verringert.",
-        "1": "[Karte der Liebe - Elliciad] entfernt negative Effekte vom Ziel und alle Skill-Cooldowns werden um 7,2 % verringert.",
-        "2": "[Karte der Liebe - Elliciad] entfernt negative Effekte vom Ziel und alle Skill-Cooldowns werden um 8,6 % verringert.",
-        "3": "[Karte der Liebe - Elliciad] entfernt negative Effekte vom Ziel und alle Skill-Cooldowns werden um 10,4 % verringert.",
-        "4": "[Karte der Liebe - Elliciad] entfernt negative Effekte vom Ziel und alle Skill-Cooldowns werden um 12,5 % verringert.",
+        "1": "[Karte der Liebe - Elliciad] entfernt negative Effekte vom Ziel und alle Skill-Cooldowns werden um 7.2 % verringert.",
+        "2": "[Karte der Liebe - Elliciad] entfernt negative Effekte vom Ziel und alle Skill-Cooldowns werden um 8.6 % verringert.",
+        "3": "[Karte der Liebe - Elliciad] entfernt negative Effekte vom Ziel und alle Skill-Cooldowns werden um 10.4 % verringert.",
+        "4": "[Karte der Liebe - Elliciad] entfernt negative Effekte vom Ziel und alle Skill-Cooldowns werden um 12.5 % verringert.",
         "5": "[Karte der Liebe - Elliciad] entfernt negative Effekte vom Ziel und alle Skill-Cooldowns werden um 15 % verringert."
       }
     },
     "3": {
       "name": "Glücksmünze",
-      "description": "[Karte des Glücks - Vellekia] verringert die Manakosten um 1 und erhöht den Schaden um 20 %.",
-      "value": {},
+      "description": "[Karte des Glücks - Vellekia] verringert die Manakosten um 1 und erhöht den Schaden um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Ophelia/ut/3.png",
       "story": "Die legendäre Münze, welche die Richtung des Schicksalsrades geändert haben soll, das sich in Richtung Vernichtung drehte. Ophelia glaubt daran, dass sie von Vellekia, dem Geist des Glücks geworfen wurde.",
       "descriptionByStar": {
@@ -185,14 +229,23 @@
         "1": "[Karte des Glücks - Vellekia] verringert die Manakosten um 1 und erhöht den Schaden um 24 %.",
         "2": "[Karte des Glücks - Vellekia] verringert die Manakosten um 1 und erhöht den Schaden um 29 %.",
         "3": "[Karte des Glücks - Vellekia] verringert die Manakosten um 1 und erhöht den Schaden um 35 %.",
-        "4": "[Karte des Glücks – Vellekia] verringert die Manakosten um 1 und erhöht den Schaden um 42 %.",
-        "5": "[Karte des Glücks – Vellekia] verringert die Manakosten um 1 und erhöht den Schaden um 50 %."
+        "4": "[Karte des Glücks - Vellekia] verringert die Manakosten um 1 und erhöht den Schaden um 42 %.",
+        "5": "[Karte des Glücks - Vellekia] verringert die Manakosten um 1 und erhöht den Schaden um 50 %."
       }
     },
     "4": {
       "name": "Schicksal verknüpfender Faden",
-      "description": "[Schicksalsführerin] erhöht für 10 Sek. nach dem Erhalt einer Karte den eigenen Schaden an Feinden, die keine Helden sind, um 10 %, während sich der erlittene Schaden um 20 % verringert.",
-      "value": {},
+      "description": "[Schicksalsführerin] erhöht für 10 Sek. nach dem Erhalt einer Karte den eigenen Schaden an Feinden, die keine Helden sind, um {0} %, während sich der erlittene Schaden um 20 % verringert.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Ophelia/ut/4.png",
       "story": "Der Faden der Göttin des Schicksals verknüpft alle Schicksale.\nNur die reinsten Elementare, die kein negatives Karma haben, können den Faden des Schicksals knüpfen.\nWenn Ophelia ihre Augen wirklich öffnete, konnte sie das Schicksal der Welt sehen und ihre Geister als Medien benutzen, um neue Schicksale darin einzuweben.\nWenn das Schicksal manipuliert wurde, blieben in der Regel immer ein oder zwei Teile des Fadens zurück, woraufhin Ophelia die Enden miteinander verknüpfte und dabei zusah, wie sie einen neuen Faden bildeten.\nDiese Spule ist das Ergebnis dieser Angewohnheit.",
       "descriptionByStar": {

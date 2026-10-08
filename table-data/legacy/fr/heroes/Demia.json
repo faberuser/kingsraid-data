@@ -130,24 +130,58 @@
   },
   "uw": {
     "name": "Arpheus de la Lumière bleue",
-    "description": "Augmente la DEF P de tous les alliés de 4%. Tout blocage d'une attaque ennemie accorde 10% de chances de récupérer 3% de PM et de réduire le temps de recharge de toutes les compétences de 1 sec.",
-    "value": {},
+    "description": "Augmente la DEF P de tous les alliés de {0}%. Tout blocage d'une attaque ennemie accorde {1}% de chances de récupérer {2}% de PM et de réduire le temps de recharge de toutes les compétences de 1 sec.",
+    "value": {
+      "0": {
+        "0": "4",
+        "1": "4.8",
+        "2": "5.8",
+        "3": "7",
+        "4": "8.4",
+        "5": "10"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "2": {
+        "0": "3",
+        "1": "3.3",
+        "2": "3.6",
+        "3": "3.9",
+        "4": "4.2",
+        "5": "4.5"
+      }
+    },
     "thumbnail": "heroes/Demia/uw.png",
     "story": "Un jour, une veine de mana puissante fut découverte dans le territoire de Ziltrion. En enquêtant là-dessus, Demia découvrit un minerai bleu qu'elle n'avait encore jamais vu. De nombreux mages et alchimistes étudièrent ce minerai étrange présentant des caractéristiques des gemmes et du métal, sans pouvoir l'identifier clairement. Jin le forgeron eut une idée différente : dès qu'il vit le minerai, il proposa joyeusement à Demia de fabriquer de puissants équipements avec. Il forgea une lance et un bouclier, luisant de mana bleu et plus solide que le diamant.",
     "descriptionByStar": {
       "0": "Augmente la DEF P de tous les alliés de 4%. Tout blocage d'une attaque ennemie accorde 10% de chances de récupérer 3% de PM et de réduire le temps de recharge de toutes les compétences de 1 sec.",
-      "1": "Augmente la DEF P de tous les alliés de 4,8%. Tout blocage d'une attaque ennemie accorde 12% de chances de récupérer 3,3% de PM et de réduire le temps de recharge de toutes les compétences de 1 sec.",
-      "2": "Augmente la DEF P de tous les alliés de 5,8%. Tout blocage d'une attaque ennemie accorde 14% de chances de récupérer 3,6% de PM et de réduire le temps de recharge de toutes les compétences de 1 sec.",
-      "3": "Augmente la DEF P de tous les alliés de 7%. Tout blocage d'une attaque ennemie accorde 17% de chances de récupérer 3,9% de PM et de réduire le temps de recharge de toutes les compétences de 1 sec.",
-      "4": "Augmente la DEF P de tous les alliés de 8,4%. Tout blocage d'une attaque ennemie accorde 21% de chances de récupérer 4,2% de PM et de réduire le temps de recharge de toutes les compétences de 1 sec.",
-      "5": "Augmente la DEF P de tous les alliés de 10%. Tout blocage d'une attaque ennemie accorde 25% de chances de récupérer 4,5% de PM et de réduire le temps de recharge de toutes les compétences de 1 sec."
+      "1": "Augmente la DEF P de tous les alliés de 4.8%. Tout blocage d'une attaque ennemie accorde 12% de chances de récupérer 3.3% de PM et de réduire le temps de recharge de toutes les compétences de 1 sec.",
+      "2": "Augmente la DEF P de tous les alliés de 5.8%. Tout blocage d'une attaque ennemie accorde 14% de chances de récupérer 3.6% de PM et de réduire le temps de recharge de toutes les compétences de 1 sec.",
+      "3": "Augmente la DEF P de tous les alliés de 7%. Tout blocage d'une attaque ennemie accorde 17% de chances de récupérer 3.9% de PM et de réduire le temps de recharge de toutes les compétences de 1 sec.",
+      "4": "Augmente la DEF P de tous les alliés de 8.4%. Tout blocage d'une attaque ennemie accorde 21% de chances de récupérer 4.2% de PM et de réduire le temps de recharge de toutes les compétences de 1 sec.",
+      "5": "Augmente la DEF P de tous les alliés de 10%. Tout blocage d'une attaque ennemie accorde 25% de chances de récupérer 4.5% de PM et de réduire le temps de recharge de toutes les compétences de 1 sec."
     }
   },
   "uts": {
     "1": {
       "name": "Coffre des Ziltrion",
-      "description": "[Pénétration] Augmente la précision de 750 points et la précision des contrôles de 300 points pendant la durée de la compétence.",
-      "value": {},
+      "description": "[Pénétration] Augmente la précision de 750 points et la précision des contrôles de {0} points pendant la durée de la compétence.",
+      "value": {
+        "0": {
+          "0": "300",
+          "1": "360",
+          "2": "430",
+          "3": "520",
+          "4": "630",
+          "5": "750"
+        }
+      },
       "thumbnail": "heroes/Demia/ut/1.png",
       "story": "Un vieux coffre qui fait partie des biens de famille des Ziltrion.\nIl renferme un album contenant des photos de tous les membres de la famille, de la première génération à nos jours. Grâce à un puissant sortilège, il protège la lignée. La mère de Demia s'inquiète à propos de sa fille, car elle a entrepris de servir de bouclier pour Orvelia. À chaque fois que Demia foule le champ de bataille, sa mère prie devant ce coffre pour que sa fille revienne saine et sauve.",
       "descriptionByStar": {
@@ -161,8 +195,17 @@
     },
     "2": {
       "name": "Bouclier de résolution",
-      "description": "[Volonté gagneuse] Augmente les DEG de 50 % et augmente la Resist P Faible de la cible de 10 % pendant 10 sec.",
-      "value": {},
+      "description": "[Volonté gagneuse] Augmente les DEG de 50 % et augmente la Resist P Faible de la cible de {0} % pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Demia/ut/2.png",
       "story": "Bouclier en bois que Demia utilisait pour s’entraîner pendant son enfance. Il a été ainsi manié des milliers de fois, d’où son usure avancée. \nDemia s’en sert encore aujourd’hui pour retrouver son sang-froid lorsqu’elle pense avoir franchi une limite.\nSa fierté de chevalier d’Orvelia réapparaît lorsqu’elle contemple ce vieux bouclier usé.",
       "descriptionByStar": {
@@ -176,23 +219,41 @@
     },
     "3": {
       "name": "Énergie de protection",
-      "description": "[Forteresse d'Acier] Réduit le coût en PM de 1 et augmente la durée d'Étourdissement du Saut d'Attaque de 1 sec.",
-      "value": {},
+      "description": "[Forteresse d'Acier] Réduit le coût en PM de 1 et augmente la durée d'Étourdissement du Saut d'Attaque de {0} sec.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.5",
+          "2": "2",
+          "3": "2.5",
+          "4": "3",
+          "5": "3.5"
+        }
+      },
       "thumbnail": "heroes/Demia/ut/3.png",
       "story": "Une pierre censée protéger l’âme contre son absorption par le mal. Elle ne brille qu’un instant à l’aube, elle est donc dure à trouver. Un jour, quand Demia fut fatiguée par le combat, un camarade lui mit dans les mains. Hélas, elle ne revit jamais ce camarade... Demia emporte toujours la pierre lorsqu’elle part sur un champ de bataille. Elle fait de son mieux pour respecter son vœu et que le sacrifice de son camarade ne soit pas vain.",
       "descriptionByStar": {
         "0": "[Forteresse d'Acier] Réduit le coût en PM de 1 et augmente la durée d'Étourdissement du Saut d'Attaque de 1 sec.",
-        "1": "[Forteresse d'Acier] Réduit le coût en PM de 1 et augmente la durée d'Étourdissement du Saut d'Attaque de 1,5 sec.",
+        "1": "[Forteresse d'Acier] Réduit le coût en PM de 1 et augmente la durée d'Étourdissement du Saut d'Attaque de 1.5 sec.",
         "2": "[Forteresse d'Acier] Réduit le coût en PM de 1 et augmente la durée d'Étourdissement du Saut d'Attaque de 2 sec.",
-        "3": "[Forteresse d'Acier] Réduit le coût en PM de 1 et augmente la durée d'Étourdissement du Saut d'Attaque de 2,5 sec.",
+        "3": "[Forteresse d'Acier] Réduit le coût en PM de 1 et augmente la durée d'Étourdissement du Saut d'Attaque de 2.5 sec.",
         "4": "[Forteresse d'Acier] Réduit le coût en PM de 1 et augmente la durée d'Étourdissement du Saut d'Attaque de 3 sec.",
-        "5": "[Forteresse d'Acier] Réduit le coût en PM de 1 et augmente la durée d'Étourdissement du Saut d'Attaque de 3,5 sec."
+        "5": "[Forteresse d'Acier] Réduit le coût en PM de 1 et augmente la durée d'Étourdissement du Saut d'Attaque de 3.5 sec."
       }
     },
     "4": {
       "name": "Anneau des Ziltrion",
-      "description": "[Fer de lance] Augmente le boost de DEF de 50 % et la Résistance Crit P de tous les alliés de 100.",
-      "value": {},
+      "description": "[Fer de lance] Augmente le boost de DEF de 50 % et la Résistance Crit P de tous les alliés de {0}.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Demia/ut/4.png",
       "story": "Un anneau donné aux chefs de la famille Ziltrion.\nIl est orné d'une imposante gemme bleue offerte aux Ziltrion par la famille royale d'Orvel.\nSymbole de la loyauté indéfectible de la famille, il se transmet à ses chefs, qui sont toujours en première ligne pour combattre les traîtres.",
       "descriptionByStar": {

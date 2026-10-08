@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Veralta, les Épées jumelles de Fureur",
-    "description": "Augmente l'ATQ de 12% et la Vitesse d'ATQ de 120 points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé.",
-    "value": {},
+    "description": "Augmente l'ATQ de {0}% et la Vitesse d'ATQ de {1} points toutes les 7 sec pendant 30 sec. Cet effet peut être cumulé jusqu'à 3 fois et ne peut pas être dissipé.",
+    "value": {
+      "0": {
+        "0": "12",
+        "1": "14",
+        "2": "17",
+        "3": "20",
+        "4": "25",
+        "5": "30"
+      },
+      "1": {
+        "0": "120",
+        "1": "140",
+        "2": "170",
+        "3": "200",
+        "4": "250",
+        "5": "300"
+      }
+    },
     "thumbnail": "heroes/Fluss/uw.png",
     "story": "Une paire d'armes enchantées offerte au grand-père de Fluss, un chevalier du Grand-Duché de Gray, et passée de père en fils. Ces armes augmentent peu à peu les capacités physiques de leur porteur et lui permettent de dépasser les limites humaines en gagnant une vitesse et des pouvoirs surhumains. Comme l'effet est graduel, le corps ne subit pas de stress soudain. Les pièces s‘appellent Sang et Rose, en l'honneur des effluves de sang et de pétales qui apparaissent chaque fois que Fluss manie ces épées jumelles. Nul autre guerrier n'a pu les utiliser à leur plein potentiel.",
     "descriptionByStar": {
@@ -146,23 +163,41 @@
   "uts": {
     "1": {
       "name": "Ceinture de l'Œil du cyclone",
-      "description": "[Lame-tempête] Réduit le coût en PM de 1 et augmente les DEG de 4 %. Cet effet peut se cumuler jusqu'à 10 fois.",
-      "value": {},
+      "description": "[Lame-tempête] Réduit le coût en PM de 1 et augmente les DEG de {0} %. Cet effet peut se cumuler jusqu'à 10 fois.",
+      "value": {
+        "0": {
+          "0": "4",
+          "1": "4.8",
+          "2": "5.8",
+          "3": "7",
+          "4": "8.4",
+          "5": "10"
+        }
+      },
       "thumbnail": "heroes/Fluss/ut/1.png",
       "story": "Cette ceinture fut offerte à Fluss par son père lorsqu'il fut nommé vice-grand maître des chevaliers.\nElle renferme le sort Œil du cyclone, qui réduit au silence son porteur et ceux qui l'entourent.\n- Si vous entendez le bruit de son épée, vous ne tarderez pas à voir les pétales voler sous vos yeux.",
       "descriptionByStar": {
         "0": "[Lame-tempête] Réduit le coût en PM de 1 et augmente les DEG de 4 %. Cet effet peut se cumuler jusqu'à 10 fois.",
-        "1": "[Lame-tempête] Réduit le coût en PM de 1 et augmente les DEG de 4,8 %. Cet effet peut se cumuler jusqu'à 10 fois.",
-        "2": "[Lame-tempête] Réduit le coût en PM de 1 et augmente les DEG de 5,8 %. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "1": "[Lame-tempête] Réduit le coût en PM de 1 et augmente les DEG de 4.8 %. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "2": "[Lame-tempête] Réduit le coût en PM de 1 et augmente les DEG de 5.8 %. Cet effet peut se cumuler jusqu'à 10 fois.",
         "3": "[Lame-tempête] Réduit le coût en PM de 1 et augmente les DEG de 7 %. Cet effet peut se cumuler jusqu'à 10 fois.",
-        "4": "[Lame-tempête] Réduit le coût en PM de 1 et augmente les DEG de 8,4 %. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "4": "[Lame-tempête] Réduit le coût en PM de 1 et augmente les DEG de 8.4 %. Cet effet peut se cumuler jusqu'à 10 fois.",
         "5": "[Lame-tempête] Réduit le coût en PM de 1 et augmente les DEG de 10 %. Cet effet peut se cumuler jusqu'à 10 fois."
       }
     },
     "2": {
       "name": "Parfum tentant",
-      "description": "[Pas de l'éclair] Rend la marque inamovible et augmente l'ATQ de 20 % pendant 10 sec une fois l'ennemi marqué tué.",
-      "value": {},
+      "description": "[Pas de l'éclair] Rend la marque inamovible et augmente l'ATQ de {0} % pendant 10 sec une fois l'ennemi marqué tué.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Fluss/ut/2.png",
       "story": "Parfum contenant les premières roses Vivienne de l’année. Les roses Vivienne sont aussi belles que mortelles.\nIl suffit de sentir leur arôme pour être victime d’hallucinations et rester bouche bée pendant que l’adversaire assène ses coups.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Rose d'immortalité",
-      "description": "[Pétales Sanglants] Les DEG sont augmentés de 20% et toutes les ATQ M sont esquivées pendant la durée de la compétence.",
-      "value": {},
+      "description": "[Pétales Sanglants] Les DEG sont augmentés de {0}% et toutes les ATQ M sont esquivées pendant la durée de la compétence.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Fluss/ut/3.png",
       "story": "Une rose qui ne fane jamais, même lorsqu’elle est cueillie. C’est une fleur que Fluss adore, car elle lui rappelle les devoirs du Chevalier, qui est la base de la volonté de fer lui permettant d’être confiantau combat.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Lettre confidentielle scellée",
-      "description": "[Coupe-sort] Augmente la Vitesse d'ATQ du lanceur de 200 points pendant 4 sec. L'effet d'esquive de [Coupe-sort] dure 1 seconde de plus.",
-      "value": {},
+      "description": "[Coupe-sort] Augmente la Vitesse d'ATQ du lanceur de {0} points pendant 4 sec. L'effet d'esquive de [Coupe-sort] dure 1 seconde de plus.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Fluss/ut/4.png",
       "story": "Une lettre confidentielle portant un sceau orné du loup de l'empire.\nFluss, qui a reçu cette lettre scellée de la main de l'impératrice, la garde précieusement dans la poche de son manteau jusqu'à sa remise à la princesse la plus éminente d'Orvel.",
       "descriptionByStar": {

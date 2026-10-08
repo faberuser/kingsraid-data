@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Phoenix Quill, Belisa",
-    "description": "At the beginning of each battle, increases P.DEF and M.DEF by 20%, ATK Spd by 200 for 15 sec, and adds an additional effect to the first skill used.\nRune of Frailty - Increases Crit Chance by 500.\nRune of Healing - Dispels CC inflicted on caster before the skill is cast.\nRune of Silence - Increases Silence duration by 1 sec.",
-    "value": {},
+    "description": "At the beginning of each battle, increases P.DEF and M.DEF by {0}%, ATK Spd by {1} for 15 sec, and adds an additional effect to the first skill used.\nRune of Frailty - Increases Crit Chance by 500.\nRune of Healing - Dispels CC inflicted on caster before the skill is cast.\nRune of Silence - Increases Silence duration by 1 sec.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      }
+    },
     "thumbnail": "heroes/Leo/uw.png",
     "story": "The phoenix is a holy beast that symbolizes eternal life. As elusive as the beast itself is, its feather is considered extremely rare as well. It is said that a quill crafted from a phoenix feather is a powerful magical tool in its own right. Runes drawn with this quill can serve as a powerful medium for Rune Magic.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Ancient Letter Encyclopedia - First Volume",
-      "description": "[Rune of Frailty] Becomes irremovable and increases DMG by 20%.",
-      "value": {},
+      "description": "[Rune of Frailty] Becomes irremovable and increases DMG by {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Leo/ut/1.png",
       "story": "Leo's favorite encyclopedia on the interpretation of ancient letters.\nIt's actually a 3-volume set, but the second and third volumes were burnt purposely by someone, leaving [First - Letters for curses and healing] as the only book left. Leo always feels upset, thinking that the secrets of the ancient letters could have been revealed if he had the other two books. Meanwhile, the book is locked and bears a mystical spell, making it impossible to read unless the book allows itself to be read.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Ink of Vitality",
-      "description": "[Rune of Healing] Increases Heal Rate by 50% and P.Crit Resistance of allies by 100 for 10 sec.",
-      "value": {},
+      "description": "[Rune of Healing] Increases Heal Rate by 50% and P.Crit Resistance of allies by {0} for 10 sec.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Leo/ut/2.png",
       "story": "Ink made by extracting young leaves from the World Tree. Only 10 droplets can be produced in a year.\nThe magic spells written with this ink grant great vitality to the body.\nIt's very precious and hard to obtain, so Leo doesn't use it unless it's for a special occasion.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Scroll of Memories",
-      "description": "[Rune of Silence] Increases DMG the target takes by 15% and reduces CC Resist by 120 for 10 sec.",
-      "value": {},
+      "description": "[Rune of Silence] Increases DMG the target takes by 15% and reduces CC Resist by {0} for 10 sec.",
+      "value": {
+        "0": {
+          "0": "120",
+          "1": "140",
+          "2": "170",
+          "3": "210",
+          "4": "250",
+          "5": "300"
+        }
+      },
       "thumbnail": "heroes/Leo/ut/3.png",
       "story": "Ancient sorcery codex. A codex written by respected sorcerers that contains the principle behind magic that uses all of life and creation. It's written in an unknown language, so only part of it can be decoded. If the ancient text system is discovered, it might be possible to use spells without any cost whatsoever.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Golden Magnifier",
-      "description": "[Rune of Protection] Increases the number of targets by 1. Targets have their ATK Spd increased by 200 for the duration of skill.",
-      "value": {},
+      "description": "[Rune of Protection] Increases the number of targets by 1. Targets have their ATK Spd increased by {0} for the duration of skill.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Leo/ut/4.png",
       "story": "A magnifier made with gold passed down to the writers of history.\nIt is a token of recognition owned by the most truthful, unbiased writers of Orvel history.\nThere is no higher honor for a historian than to be awarded with the Golden Magnifier.",
       "descriptionByStar": {

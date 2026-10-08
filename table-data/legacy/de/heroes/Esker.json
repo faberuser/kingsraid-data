@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Freude des Wanderers, Lu Etrona-Würfel",
-    "description": "Stellt bei einem Krit. Skilltreffer 100 Mana wieder her und erhöht den erlittenen Mag. Schaden des Ziels für 10 Sek. um 20 %.",
-    "value": {},
+    "description": "Stellt bei einem Krit. Skilltreffer {1} Mana wieder her und erhöht den erlittenen Mag. Schaden des Ziels für 10 Sek. um {0} %.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      }
+    },
     "thumbnail": "heroes/Esker/uw.png",
     "story": "Ein Paar Würfel, das einst von Hexipolia, dem Fahrenden Illusionsclown verwendet wurde.\nEr war ein bewährter Zauberer und Künstler längst vergangener Zeiten, der den gesamten Kontinent bereiste, um den Leuten Freude zu bringen und dafür zu sorgen, dass sie ihre Schmerzen vergessen konnten.\nSeine Darbietungen spendeten den Leuten Trost und Hoffnung in verwirrenden Zeiten, und sie liebten ihn so sehr, dass sie im Gedenken an seinen edlen Geist den Mond von Hexipolia schufen.\nDoch die psychisch fordernde Natur der Künste Hexipolias ließ seine Seele langsam verkümmern und er litt an Einsamkeit und Depressionen.\nEr wollte seine natürliche Gabe aufgeben, doch der Schatten, der die Leute überragte, war zu gewaltig, und er wusste nur zu gut, was seine Darbietungen seinem Publikum bedeuteten.\nEs war sein Schicksal, Leute zu unterhalten.\n\nDie Lu Etrona-Würfel schuf er, um sich auf seinen schmerzvollen Unterhaltungsreisen zu amüsieren.\nEr füllte die Würfel mit seinem Mana und gab ihnen die Macht, eine dimensionale Illusion zu erzeugen.\nDie Würfel eröffneten beim Wurf eine imaginäre Welt, in der Hexipolia ein wenig Frieden finden konnte.\n\nDie Würfel wurden an seine Nachfahren weitergegeben, die seine Unterhaltungstätigkeiten weiterführten, doch sie verschwunden, als die alte Zivilisation in sich zusammenbrach.\n\nHeute befinden sich die Würfel in Besitz eines Mannes, den man den Illusionsspieler nennt.\nNun werden sie auf andere, zweckentfremdete Weise benutzt, gegen den Willen ihres Herstellers ...\n\nEs heißt, die Würfel erschienen mit blinkenden Lichtern in Eskers Händen, als er der Welt verzweifelt den Rücken kehren wollte.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Hokuspokus-Runenwürfel",
-      "description": "[Das ist mein Spiel] erhöht den Schaden um 20 % und die Trefferanzahl um 1.",
-      "value": {},
+      "description": "[Das ist mein Spiel] erhöht den Schaden um {0} % und die Trefferanzahl um 1.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Esker/ut/1.png",
       "story": "Ein Spielzeugwürfel, mit dem Esker und Ophelia spielten, wenn sie sich nicht gut fühlte.\nDer Würfel schimmert glänzend, wenn die Runen zusammengesetzt werden, und\nspielt eine wunderschöne Melodie, wenn er vollständig gelöst wurde.\n\nOphelia war oft deprimiert, weil sie nicht wusste, wie der Mann ihres Schicksals, den sie im Traum getroffen hatte, aussehen würde.\nIn solchen Fällen nahm Esker seinen Würfel heraus, um seine Schwester zu beruhigen, woraufhin sie ihm dabei zusah, wie er den Würfel löste.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Unspielbare Schachfigur",
-      "description": "[Ich bin dran] kann den Effekt nicht mehr entfernen. Außerdem gewährt es dem Verbündeten mit dem höchsten ANG zus. ANG-GESCHW. +30-Effekt pro Stapel.",
-      "value": {},
+      "description": "[Ich bin dran] kann den Effekt nicht mehr entfernen. Außerdem gewährt es dem Verbündeten mit dem höchsten ANG zus. ANG-GESCHW. +{0}-Effekt pro Stapel.",
+      "value": {
+        "0": {
+          "0": "30",
+          "1": "36",
+          "2": "43",
+          "3": "52",
+          "4": "63",
+          "5": "75"
+        }
+      },
       "thumbnail": "heroes/Esker/ut/2.png",
       "story": "Eine Schachfigur, die Eskers Bühnenpartner bei Stardust gehörte.\nWenn die Zaubervorstellung vorbei war, spielten die beiden Schach und unterhielten sich über ihre Darbietung.\nAls sich der „Vorfall“ ereignete und Esker sich dazu entschloss, die Truppe zu verlassen, erzählte er nur seinem Partner von seinem Vorhaben.\nDieser gab Esker diese Schachfigur und bat ihn, Stardust nicht zu vergessen, und wiederzukommen, wenn er denn könnte.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Alte Angel",
-      "description": "[Soll ich mein Glück versuchen?] verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 10 %.",
-      "value": {},
+      "description": "[Soll ich mein Glück versuchen?] verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um {0} %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Esker/ut/3.png",
       "story": "Eine Angel für Kinder, die Eskers Kindheitsfreund ihm zum Geschenk machte.\nEinst gab es einen lästigen Jungen, der in einer Stadt lebte, die Stardust auf ihren Tourneen immer wieder aufsuchte.\nDieser Junge, Lucias, las Esker aus der langweiligen Bibel vor und ängstigte ihn mit Hirschkäfern.\nEsker hasste ihn zuerst, weil er immer wie ein Idiot grinste, doch am Ende freundeten sie sich an.\n\nAls Stardust während einer anderen Tournee in Lucias’ Stadt Halt machte, machten sich die beiden zum Zeichen ihrer Freundschaft Geschenke und Lucias gab Esker diese Angel.\nSeitdem musste Esker Lucias jedes Mal zum Fischen begleiten, wenn er in der Stadt war.",
       "descriptionByStar": {
@@ -185,14 +229,23 @@
         "1": "[Soll ich mein Glück versuchen?] verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 12 %.",
         "2": "[Soll ich mein Glück versuchen?] verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 14 %.",
         "3": "[Soll ich mein Glück versuchen?] verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 17 %.",
-        "4": "[Soll ich mein Glück versuchen?] verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 21 %.",
-        "5": "[Soll ich mein Glück versuchen?] verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %."
+        "4": "[Soll ich mein Glück versuchen?] verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 21 %.",
+        "5": "[Soll ich mein Glück versuchen?] verringert die Manakosten um 1 und erhöht den vom Ziel erlittenen Mag. Schaden 10 Sek. lang um 25 %."
       }
     },
     "4": {
       "name": "Zwielichtiger Chip",
-      "description": "[Das ist kein Trick] erhöht den ANG- und VERT-Boost um 50 %. Die eigene ANG-GESCHW. wird um 20 pro Zähler erhöht.",
-      "value": {},
+      "description": "[Das ist kein Trick] erhöht den ANG- und VERT-Boost um 50 %. Die eigene ANG-GESCHW. wird um {0} pro Zähler erhöht.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Esker/ut/4.png",
       "story": "Ein seltsamer Chip, der in Schwarzmarktspielhäusern zum Einsatz kommt.\nHierbei handelt es sich um den wertvollsten Chip von allen, der nur dem besten Abenteurer im geheimen Spielhaus gehören kann.\nEr sieht wie ein gewöhnlicher goldener Chip aus, wurde jedoch von Dunkelzauberer verzaubert und enthält die Lebenskraft unzähliger Seelen.",
       "descriptionByStar": {

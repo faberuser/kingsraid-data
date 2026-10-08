@@ -160,14 +160,28 @@
     "thumbnail": "heroes/Mediana/uw.png",
     "story": "Die Geschichte begann, als Medianas Giftexperimente noch im Geheimen erfolgten. Eines Tages bemerkte ein befreundeter Arzt die riesige Spritze, die sie hergestellt hatte. Von dessen schierer Größe beeindruckt, fragte er sie:\n„Sieh dir die Größe dieses Dings an. Solltest du ihr nicht wenigstens einen Namen geben?“\nDarauf antwortete Mediana locker:\n„Oh ... Nenn sie einfach ... Piston.“",
     "descriptionByStar": {
-      "0": "Erhöht den Spezialgift-Schaden um 40 % und der Körp. Schaden des Ziels mit Spezialgift wird 3 Sek. lang um 10 % erhöht. Das Ziel erleidet zusätzlich Körp. Schaden in Höhe von 30 % von Medianas ANG, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche Körp. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden."
+      "0": "Erhöht den Spezialgift-Schaden um 40 % und der Körp. Schaden des Ziels mit Spezialgift wird 3 Sek. lang um 10 % erhöht. Das Ziel erleidet zusätzlich Körp. Schaden in Höhe von 30 % von Medianas ANG, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche Körp. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
+      "1": "Erhöht den Spezialgift-Schaden um 48 % und der Körp. Schaden des Ziels mit Spezialgift wird 3 Sek. lang um 12 % erhöht. Das Ziel erleidet zusätzlich Körp. Schaden in Höhe von 36 % von Medianas ANG, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche Körp. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
+      "2": "Erhöht den Spezialgift-Schaden um 57 % und der Körp. Schaden des Ziels mit Spezialgift wird 3 Sek. lang um 14 % erhöht. Das Ziel erleidet zusätzlich Körp. Schaden in Höhe von 43 % von Medianas ANG, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche Körp. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
+      "3": "Erhöht den Spezialgift-Schaden um 69 % und der Körp. Schaden des Ziels mit Spezialgift wird 3 Sek. lang um 17 % erhöht. Das Ziel erleidet zusätzlich Körp. Schaden in Höhe von 52 % von Medianas ANG, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche Körp. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
+      "4": "Erhöht den Spezialgift-Schaden um 83 % und der Körp. Schaden des Ziels mit Spezialgift wird 3 Sek. lang um 21 % erhöht. Das Ziel erleidet zusätzlich Körp. Schaden in Höhe von 62 % von Medianas ANG, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche Körp. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden.",
+      "5": "Erhöht den Spezialgift-Schaden um 100 % und der Körp. Schaden des Ziels mit Spezialgift wird 3 Sek. lang um 25 % erhöht. Das Ziel erleidet zusätzlich Körp. Schaden in Höhe von 75 % von Medianas ANG, wenn es durch einen anderen Verbündeten außer Mediana getroffen wird. Der zusätzliche Körp. Schadenseffekt kann nur 1 Mal pro Sek. ausgelöst werden."
     }
   },
   "uts": {
     "1": {
       "name": "Merkwürdig gesunde Injektion",
-      "description": "[Heilsalbe] erhöht die Heilungsrate um 50 % und den Krit. Schaden des Ziels 10 Sek. lang um 20 %.",
-      "value": {},
+      "description": "[Heilsalbe] erhöht die Heilungsrate um 50 % und den Krit. Schaden des Ziels 10 Sek. lang um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Mediana/ut/1.png",
       "story": "Eine Sammlung von Medianas speziell gesunden Injektionen. Alle Flüssigkeiten bestehen aus unbekannten Substanzen und glitzern mystisch.\nMediana hat sie aus verschiedensten Hausmitteln von überall her hergestellt. Mediana besteht darauf, dass sie nur zu Heilzwecken verwendet werden, denn Missbrauch kann extreme Wirkungen zur Folge haben.",
       "descriptionByStar": {
@@ -181,8 +195,17 @@
     },
     "2": {
       "name": "Spezialtrank der doppelten Reaktion",
-      "description": "[Spezial-Wasserkanone] erhöht den Widerstand um 30 % und verringert den Cooldown um 12 %.",
-      "value": {},
+      "description": "[Spezial-Wasserkanone] erhöht den Widerstand um 30 % und verringert den Cooldown um {0} %.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
       "thumbnail": "heroes/Mediana/ut/2.png",
       "story": "Ein spezieller Trank, der zwei Arten von Wirkungen hat.\nMediana fragte sich, ob es einen Weg gäbe, sich gleichzeitig um Angriff und Heilung zu kümmern. Sie ging in die Bibliothek und las ein staubiges Buch namens „Schleime können auch Kanonen bauen“. \nMediana las es nur spaßeshalber, aber sie fand einen Weg, das Prinzip der Kanonen in ihren „Kolben“ einzubauen. Sie war so in der Lage, den Spezialtrank der doppelten Reaktion zu erfinden und damit sowohl Angriff als auch Heilung zu maximieren, wenn sie mit ihrer Spezial-Wasserkanone angreift. Mediana ist dem Autor des Buches, der ihr die Inspiration lieferte, immer noch dankbar.",
       "descriptionByStar": {
@@ -196,8 +219,17 @@
     },
     "3": {
       "name": "Geheimnisvoller Trank",
-      "description": "[Stärkungsarznei] hebt negative Effekte auf und gewährt dem Ziel 2 Sek. lang Immunität gegen Massenkontrolle.",
-      "value": {},
+      "description": "[Stärkungsarznei] hebt negative Effekte auf und gewährt dem Ziel {0} Sek. lang Immunität gegen Massenkontrolle.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "3",
+          "2": "4",
+          "3": "5",
+          "4": "6",
+          "5": "7"
+        }
+      },
       "thumbnail": "heroes/Mediana/ut/3.png",
       "story": "Ein besonderer Trank, der die Lehren eines Meisters enthält. Der geniale Chirurg und Anatomieexperte Doktor Aldini ist der Meister von Mediana. Doktor Aldini erkannte ihr Talent schon früh und lehrte sie außergewöhnliches medizinisches Wissen, das die Kirche von Lua sich nicht vorstellen könnte. Der unidentifizierbare Trank, der nach dem Spezialrezept ihres Meisters hergestellt wurde, erhöht den Effekt von „Stärkungsarznei“.",
       "descriptionByStar": {
@@ -211,16 +243,25 @@
     },
     "4": {
       "name": "Alter medizinischer Bericht",
-      "description": "[Medianas Spezialgift] erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 4 % verringerten Körp. Schaden.",
-      "value": {},
+      "description": "[Medianas Spezialgift] erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um {0} % verringerten Körp. Schaden.",
+      "value": {
+        "0": {
+          "0": "4",
+          "1": "4.8",
+          "2": "5.8",
+          "3": "7",
+          "4": "8.4",
+          "5": "10"
+        }
+      },
       "thumbnail": "heroes/Mediana/ut/4.png",
       "story": "Ein seltsamer medizinischer Testbericht, den Doktor Aldini seiner Schülerin Mediana gab.\nEr hat sich während seiner Autopsien Notizen gemacht und die Aufzeichnungen an Mediana weitergegeben, in der Hoffnung, dass die traditionelle Medizin in ihr weiterleben würde.\nSie hat den Bericht unzählige Male gelesen und konnte dank ihm Medianas Spezialgift herstellen.",
       "descriptionByStar": {
         "0": "[Medianas Spezialgift] erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 4 % verringerten Körp. Schaden.",
-        "1": "[Medianas Spezialgift] erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 4,8 % verringerten Körp. Schaden.",
-        "2": "[Medianas Spezialgift] erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 5,8 % verringerten Körp. Schaden.",
+        "1": "[Medianas Spezialgift] erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 4.8 % verringerten Körp. Schaden.",
+        "2": "[Medianas Spezialgift] erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 5.8 % verringerten Körp. Schaden.",
         "3": "[Medianas Spezialgift] erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 7 % verringerten Körp. Schaden.",
-        "4": "[Medianas Spezialgift] erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 8,4 % verringerten Körp. Schaden.",
+        "4": "[Medianas Spezialgift] erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 8.4 % verringerten Körp. Schaden.",
         "5": "[Medianas Spezialgift] erhöht den ANG-Boost um 50 %. Alle Verbündeten erleiden um 10 % verringerten Körp. Schaden."
       }
     }

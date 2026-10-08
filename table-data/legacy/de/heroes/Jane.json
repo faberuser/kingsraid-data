@@ -161,18 +161,27 @@
     "story": "Als Malduks Magie Jane als Untote wiederauferstehen ließ, sollte sie eigentlich nichts fühlen können. Doch sie fühlte sich warm und behaglich, denn eine sonderbare Energie umgab ihren toten Körper, die sie eigentlich nicht spüren hätte dürfen. Als Malduk sie mitnahm, gab sie sich instinktiv der warmen Ausstrahlung hin. Später, als sie durch geheimnisvolle Magie wieder das Bewusstsein erlangte, untersuchte sie zuallererst ihren Sarg, der eine tragische und doch warme Liebe ausstrahlte. In ihm fand sie eine sorgsam eingravierte Botschaft: „In beständiger Liebe für dich.“",
     "descriptionByStar": {
       "0": "Fügt Gegnern in der Nähe jede Sekunde Magieschaden in Höhe von 10% des ANG zu und senkt ihren ANG um 14%. Erhöht außerdem den Schaden gegen Nichthelden des anderen Verbündeten mit dem höchsten ANG um 6%. Dieser Schadensbonus ist nicht entfernbar. Bei Aktivierung der passiven Fähigkeit werden 30% Mana regeneriert.",
-      "1": "Verursacht jede Sek. 12 % des ANG als Mag. Schaden an umstehenden Gegnern und reduziert ihren ANG um 17 %. Stellt 30 % Mana wieder her, wenn der Passivskill aktiviert ist.",
-      "2": "Verursacht jede Sek. 14 % des ANG als Mag. Schaden an umstehenden Gegnern und reduziert ihren ANG um 20 %. Stellt 30 % Mana wieder her, wenn der Passivskill aktiviert ist.",
-      "3": "Verursacht jede Sek. 17 % des ANG als Mag. Schaden an umstehenden Gegnern und reduziert ihren ANG um 24 %. Stellt 30 % Mana wieder her, wenn der Passivskill aktiviert ist.",
-      "4": "Verursacht jede Sek. 20 % des ANG als Mag. Schaden an umstehenden Gegnern und reduziert ihren ANG um 29 %. Stellt 30 % Mana wieder her, wenn der Passivskill aktiviert ist.",
-      "5": "Verursacht jede Sek. 25 % des ANG als Mag. Schaden an umstehenden Gegnern und reduziert ihren ANG um 35 %. Stellt 30 % Mana wieder her, wenn der Passivskill aktiviert ist."
+      "1": "Fügt Gegnern in der Nähe jede Sekunde Magieschaden in Höhe von 12% des ANG zu und senkt ihren ANG um 17%. Erhöht außerdem den Schaden gegen Nichthelden des anderen Verbündeten mit dem höchsten ANG um 7%. Dieser Schadensbonus ist nicht entfernbar. Bei Aktivierung der passiven Fähigkeit werden 30% Mana regeneriert.",
+      "2": "Fügt Gegnern in der Nähe jede Sekunde Magieschaden in Höhe von 14% des ANG zu und senkt ihren ANG um 20%. Erhöht außerdem den Schaden gegen Nichthelden des anderen Verbündeten mit dem höchsten ANG um 8%. Dieser Schadensbonus ist nicht entfernbar. Bei Aktivierung der passiven Fähigkeit werden 30% Mana regeneriert.",
+      "3": "Fügt Gegnern in der Nähe jede Sekunde Magieschaden in Höhe von 17% des ANG zu und senkt ihren ANG um 24%. Erhöht außerdem den Schaden gegen Nichthelden des anderen Verbündeten mit dem höchsten ANG um 10%. Dieser Schadensbonus ist nicht entfernbar. Bei Aktivierung der passiven Fähigkeit werden 30% Mana regeneriert.",
+      "4": "Fügt Gegnern in der Nähe jede Sekunde Magieschaden in Höhe von 20% des ANG zu und senkt ihren ANG um 29%. Erhöht außerdem den Schaden gegen Nichthelden des anderen Verbündeten mit dem höchsten ANG um 12%. Dieser Schadensbonus ist nicht entfernbar. Bei Aktivierung der passiven Fähigkeit werden 30% Mana regeneriert.",
+      "5": "Fügt Gegnern in der Nähe jede Sekunde Magieschaden in Höhe von 25% des ANG zu und senkt ihren ANG um 35%. Erhöht außerdem den Schaden gegen Nichthelden des anderen Verbündeten mit dem höchsten ANG um 15%. Dieser Schadensbonus ist nicht entfernbar. Bei Aktivierung der passiven Fähigkeit werden 30% Mana regeneriert."
     }
   },
   "uts": {
     "1": {
       "name": "Begräbnispuppe",
-      "description": "[Begräbnisriten] Senkt für 10 Sek. den Kontrollwiderstand des Ziels um 250 und seine magische Blockchance um 200.",
-      "value": {},
+      "description": "[Begräbnisriten] Senkt für 10 Sek. den Kontrollwiderstand des Ziels um 250 und seine magische Blockchance um {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Jane/ut/1.png",
       "story": "Eine Puppe, die im Fürstentum Gray bei Begräbniszeremonien verwendet wurde.\nÜblicherweise wird die Puppe dem Verstorbenen nachempfunden und vor dem Grabstein platziert. Nach dem Untergang des Fürstentums und Janes Tod legten die Leute diese Puppe neben ihre Leiche.",
       "descriptionByStar": {
@@ -186,8 +195,17 @@
     },
     "2": {
       "name": "Vom Tod durchwirktes Kissen",
-      "description": "[Todesmal] Stirbt ein markierter Gegner, steigen ANG um 5% und Krit.-Schaden um 10% für 20 Sek. Bis zu 8-mal stapelbar.",
-      "value": {},
+      "description": "[Todesmal] Stirbt ein markierter Gegner, steigen ANG um 5% und Krit.-Schaden um {0}% für 20 Sek. Bis zu 8-mal stapelbar.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Jane/ut/2.png",
       "story": "Das Kissen, das Jane zum Einschlafen in ihrem Sarg benutzt. Es enthält die Geister, die mit ihr im Sarg einschliefen. \nSie verleihen Jane ständig die Leere des Todes.",
       "descriptionByStar": {
@@ -201,8 +219,17 @@
     },
     "3": {
       "name": "Blume des Vergessenen Fürstentums",
-      "description": "[Tag des Untergangs] Erhöht den Schaden um 20%. Verursachter Schaden senkt die magische VTD des Ziels für 5 Sek. um 5%. Bis zu 10-mal stapelbar.",
-      "value": {},
+      "description": "[Tag des Untergangs] Erhöht den Schaden um {0}%. Verursachter Schaden senkt die magische VTD des Ziels für 5 Sek. um 5%. Bis zu 10-mal stapelbar.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Jane/ut/3.png",
       "story": "Eine Blume des Fürstentums, die heute nirgends mehr zu finden ist. Sie ist auch als die „Blume der Grenzen“ bekannt, die Leben und Tod miteinander verbindet und sich von Zerstörung nährt. Eine schmerzhaft schöne Blume. Wenn man sie jemandem schenkt, kann man den letzten Moment dieser Person in einem Traum wahrnehmen.",
       "descriptionByStar": {
@@ -216,8 +243,17 @@
     },
     "4": {
       "name": "Erster-Freund-Puppe",
-      "description": "[Ruhe in Frieden] entfernt bei Aktivierung alle negativen Effekte von Verbündeten und verringert den gesamten verursachten Schaden für 10 Sek. um 10 %.",
-      "value": {},
+      "description": "[Ruhe in Frieden] entfernt bei Aktivierung alle negativen Effekte von Verbündeten und verringert den gesamten verursachten Schaden für 10 Sek. um {0} %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Jane/ut/4.png",
       "story": "Eine Puppe, die wie Rephy, Janes erstem Freund, aussieht.\nJane blieb vor einem Laden, in dem Gift verkauft wurde, regungslos stehen.\nAls Epis bemerkte, wie Jane die limitierte Auflage der Rephy-Puppe in der Auslage des Ladens ansah, beschloss sie, sie ihr zu kaufen.\nDa die Puppe nur gegen Mileage erhältlich war, war Epis den Tränen nahe, weil sie ihr ganzes Taschengeld dafür ausgeben musste. Doch Janes Lächeln war es wahrscheinlich wert.",
       "descriptionByStar": {

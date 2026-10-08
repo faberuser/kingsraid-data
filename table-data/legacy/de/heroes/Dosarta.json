@@ -161,18 +161,27 @@
     "story": "Eine Zeichnung aus dem Turm der Herausforderung und ein antiker Schild, der aus Artefaktbruchstücken besteht.\nDer Schild steckt voller antiker Schutzmagie, deren Grenzen niemand auf der Welt kennt.\nSelbst Dosarta kennt das volle Ausmaß seiner Kräfte nicht,\nes interessiert sie aber auch nicht wirklich.\n„Ich hatte viel Zeit, damit zu spielen und herauszufinden, was er so kann“, sagt sie.\nDas Bewachen des Turms der Herausforderung ist so langweilig geworden, dass selbst das Training ihrer Fähigkeiten für sie zur Freizeitbeschäftigung wurde.",
     "descriptionByStar": {
       "0": "Erhöht den ANG aller Verbündeten um 5 % und alle VERT um 10 %. Dieser Effekt wird zu Beginn des Kampfes 10 Sek. lang 2-fach angewendet. Verringert zu Beginn jedes Kampfes die Manakosten des nächsten Skills, der selbst benutzt wird, um 1. Alle Effekte können nicht entfernt werden.",
-      "1": "Erhöht zu Beginn des Kampfes den ANG für alle Verbündeten um 12 %, alle VERT um 24 % und verringert die Manakosten des nächsten Skills, der selbst benutzt wird, für 11 Sek. um 1. Dieser Effekt kann nicht entfernt werden.",
-      "2": "Erhöht zu Beginn des Kampfes den ANG für alle Verbündeten um 14 %, alle VERT um 29 % und verringert die Manakosten des nächsten Skills, der selbst benutzt wird, für 12 Sek. um 1. Dieser Effekt kann nicht entfernt werden.",
-      "3": "Erhöht zu Beginn des Kampfes den ANG für alle Verbündeten um 17 %, alle VERT um 35 % und verringert die Manakosten des nächsten Skills, der selbst benutzt wird, für 13 Sek. um 1. Dieser Effekt kann nicht entfernt werden.",
-      "4": "Erhöht zu Beginn des Kampfes den ANG für alle Verbündeten um 21 %, alle VERT um 42 % und verringert die Manakosten des nächsten Skills, der selbst benutzt wird, für 14 Sek. um 1. Dieser Effekt kann nicht entfernt werden.",
-      "5": "Erhöht zu Beginn des Kampfes den ANG für alle Verbündeten um 25 %, alle VERT um 50 % und verringert die Manakosten des nächsten Skills, der selbst benutzt wird, für 15 Sek. um 1. Dieser Effekt kann nicht entfernt werden."
+      "1": "Erhöht den ANG aller Verbündeten um 6 % und alle VERT um 12 %. Dieser Effekt wird zu Beginn des Kampfes 11 Sek. lang 2-fach angewendet. Verringert zu Beginn jedes Kampfes die Manakosten des nächsten Skills, der selbst benutzt wird, um 1. Alle Effekte können nicht entfernt werden.",
+      "2": "Erhöht den ANG aller Verbündeten um 7 % und alle VERT um 14.5 %. Dieser Effekt wird zu Beginn des Kampfes 12 Sek. lang 2-fach angewendet. Verringert zu Beginn jedes Kampfes die Manakosten des nächsten Skills, der selbst benutzt wird, um 1. Alle Effekte können nicht entfernt werden.",
+      "3": "Erhöht den ANG aller Verbündeten um 8.5 % und alle VERT um 17.5 %. Dieser Effekt wird zu Beginn des Kampfes 13 Sek. lang 2-fach angewendet. Verringert zu Beginn jedes Kampfes die Manakosten des nächsten Skills, der selbst benutzt wird, um 1. Alle Effekte können nicht entfernt werden.",
+      "4": "Erhöht den ANG aller Verbündeten um 10.5 % und alle VERT um 21 %. Dieser Effekt wird zu Beginn des Kampfes 14 Sek. lang 2-fach angewendet. Verringert zu Beginn jedes Kampfes die Manakosten des nächsten Skills, der selbst benutzt wird, um 1. Alle Effekte können nicht entfernt werden.",
+      "5": "Erhöht den ANG aller Verbündeten um 12.5 % und alle VERT um 25 %. Dieser Effekt wird zu Beginn des Kampfes 15 Sek. lang 2-fach angewendet. Verringert zu Beginn jedes Kampfes die Manakosten des nächsten Skills, der selbst benutzt wird, um 1. Alle Effekte können nicht entfernt werden."
     }
   },
   "uts": {
     "1": {
       "name": "Armreif von Elidora",
-      "description": "[Das wird wehtun!] erhöht die Heilungsrate eines Verbündeten in der Umgebung für 4 Sek. um 20 % und verringert die Heilungsrate des getroffenen Feindes für 4 Sek. um 50 %.",
-      "value": {},
+      "description": "[Das wird wehtun!] erhöht die Heilungsrate eines Verbündeten in der Umgebung für 4 Sek. um {0} % und verringert die Heilungsrate des getroffenen Feindes für 4 Sek. um 50 %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Dosarta/ut/1.png",
       "story": "Ein Paar blauer Armbänder, die den dichten und lebendigen Wald von Elidora repräsentieren.\nEines der Hobbies, das sich Dosarta in ihren einsamen Stunden im Turm der Herausforderung angeeignet hat, ist das Handwerk.\nDieses mächtige magische Werkzeug, in dem die Lebenskraft von Elidora steckt, ist das Resultat ihrer Freizeitbeschäftigung.\nDosarta denkt, dass es sich dabei nur um hübschen Schmuck handelt, aber ...",
       "descriptionByStar": {
@@ -186,8 +195,17 @@
     },
     "2": {
       "name": "Kristall des Waldes",
-      "description": "[Sei wachsam!] erhöht für 5 Sek. den VERT-Boost um 50 % und die Krit. Chance um 200.",
-      "value": {},
+      "description": "[Sei wachsam!] erhöht für 5 Sek. den VERT-Boost um 50 % und die Krit. Chance um {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Dosarta/ut/2.png",
       "story": "Eine antike Kristallkugel, die in der königlichen Familie von Elidora vererbt wurde.\nEs ist ein magisches Werkzeug und besteht aus Artefaktbruchstücken der königlichen Elfen, die über den Turm der Herausforderung herrschen.\nMan sagt, dass der Besitzer der Kristallkugel mit jedem auf der Welt sprechen kann, egal, wo sich diese Person befindet.\nUm auf alle Umstände im Turm der Herausforderung vorbereitet zu sein,\nhat die königliche Familie bestimmt, dass die Kugel nur im Besitz der Leitung des Turms der Herausforderung bleiben darf.\nTrotz seines strategischen und historischen Wertes, dient die Kugel nur als Kommunikationsmittel für Dosarta, mit dem sie banale Gespräche mit ihrer Schwester Selene führt.",
       "descriptionByStar": {
@@ -201,8 +219,17 @@
     },
     "3": {
       "name": "Nest des Wind-Elementars",
-      "description": "[Ha! Ha! Nimm das!] erhöht für die Dauer des Skills die PRÄZ um 750 und die Massenkontrolle-PRÄZ um 300.",
-      "value": {},
+      "description": "[Ha! Ha! Nimm das!] erhöht für die Dauer des Skills die PRÄZ um 750 und die Massenkontrolle-PRÄZ um {0}.",
+      "value": {
+        "0": {
+          "0": "300",
+          "1": "360",
+          "2": "430",
+          "3": "520",
+          "4": "630",
+          "5": "750"
+        }
+      },
       "thumbnail": "heroes/Dosarta/ut/3.png",
       "story": "Ein Schmuckstück, das Dosarta hergestellt hat, um mit den Wind-Elementaren zu spielen, während sie den Turm der Herausforderung alleine bewacht hat.\nSie hat von den Elementaren bevorzugte Manasteine gemahlen, das Pulver mit durch Elfenmagie verzaubertem Metall vermischt und das ganze mit Runenmagie behandelt. Vielleicht hat sie etwas zu großen Aufwand betrieben.\nEs kann die natürlichen Kräfte der Elementaren wieder herstellen.\nAllerdings sagt man, dass Dosarta sehr enttäuscht war, als die Elementaren gekommen sind und nichts anderes getan haben, als um das Schmuckstück herumzusitzen ohne mit seiner Schöpferin zu spielen.",
       "descriptionByStar": {
@@ -231,11 +258,11 @@
       "story": "Auren, der Vogel des Windes, ist das Symbol der Königsfamilie von Elidora.\nSeine blauen Federn sorgen für einen sanften, erfrischenden Wind.\nSelene hatte einen Auren als Haustier, um den sich Dosarta liebevoll gekümmert hat.\nAls Dosarta ihr Zuhause in Richtung Turm der Herausforderung verließ,\ngab Selene ihr diese Schreibfeder, bestehend aus einer Schwanzfeder ihres geliebten Auren. So sollte sie sich ihm immer nahe fühlen.\nDosarta hat sie nie benutzt, seit sie in ihrem Besitz ist, aber sie bewahrt sie an einem sicheren Ort auf.",
       "descriptionByStar": {
         "0": "[Wir schaffen das gemeinsam!] gewährt allen Verbündeten einen Körp. VERT- & Körp. Krit. Widerstand-Boost und fügt eine 6 % Verringerung des erhaltenen Körp. Schadens aller Verbündeten während der Wirkungsdauer zu.",
-        "1": "[Wir schaffen das gemeinsam!] gibt allen Verbündeten einen Körp. VERT-Boost, der während der Wirkungsdauer zu einer Verringerung des Körp. Schadens von 7 % führt.",
-        "2": "[Wir schaffen das gemeinsam!] gibt allen Verbündeten einen Körp. VERT-Boost, der während der Wirkungsdauer zu einer Verringerung des Körp. Schadens von 8 % führt.",
-        "3": "[Wir schaffen das gemeinsam!] gibt allen Verbündeten einen Körp. VERT-Boost, der während der Wirkungsdauer zu einer Verringerung des Körp. Schadens von 10 % führt.",
-        "4": "[Wir schaffen das gemeinsam!] gibt allen Verbündeten einen Körp. VERT-Boost, der während der Wirkungsdauer zu einer Verringerung des Körp. Schadens von 12 % führt.",
-        "5": "[Wir schaffen das gemeinsam!] gibt allen Verbündeten einen Körp. VERT-Boost, der während der Wirkungsdauer zu einer Verringerung des Körp. Schadens von 15 % führt."
+        "1": "[Wir schaffen das gemeinsam!] gewährt allen Verbündeten einen Körp. VERT- & Körp. Krit. Widerstand-Boost und fügt eine 7 % Verringerung des erhaltenen Körp. Schadens aller Verbündeten während der Wirkungsdauer zu.",
+        "2": "[Wir schaffen das gemeinsam!] gewährt allen Verbündeten einen Körp. VERT- & Körp. Krit. Widerstand-Boost und fügt eine 8 % Verringerung des erhaltenen Körp. Schadens aller Verbündeten während der Wirkungsdauer zu.",
+        "3": "[Wir schaffen das gemeinsam!] gewährt allen Verbündeten einen Körp. VERT- & Körp. Krit. Widerstand-Boost und fügt eine 10 % Verringerung des erhaltenen Körp. Schadens aller Verbündeten während der Wirkungsdauer zu.",
+        "4": "[Wir schaffen das gemeinsam!] gewährt allen Verbündeten einen Körp. VERT- & Körp. Krit. Widerstand-Boost und fügt eine 12 % Verringerung des erhaltenen Körp. Schadens aller Verbündeten während der Wirkungsdauer zu.",
+        "5": "[Wir schaffen das gemeinsam!] gewährt allen Verbündeten einen Körp. VERT- & Körp. Krit. Widerstand-Boost und fügt eine 15 % Verringerung des erhaltenen Körp. Schadens aller Verbündeten während der Wirkungsdauer zu."
       }
     }
   },

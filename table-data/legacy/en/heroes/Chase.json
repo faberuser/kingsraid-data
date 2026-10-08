@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Blood Lancer Monolith",
-    "description": "Increases own Crit DMG by 20%. Upon auto attack, deals P.DMG equal to 30% of ATK with [Flame of Monolith] and recovers HP equal to 20% of DMG dealt. When [Remove Limit] is active, the effect of [Flame of Monolith] is doubled.",
-    "value": {},
+    "description": "Increases own Crit DMG by {0}%. Upon auto attack, deals P.DMG equal to {1}% of ATK with [Flame of Monolith] and recovers HP equal to 20% of DMG dealt. When [Remove Limit] is active, the effect of [Flame of Monolith] is doubled.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "28",
+        "3": "34",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "30",
+        "1": "36",
+        "2": "43",
+        "3": "52",
+        "4": "62",
+        "5": "75"
+      }
+    },
     "thumbnail": "heroes/Chase/uw.png",
     "story": "A weapon for Enhanced Human Type. 0 that was made after thousands of attempts in one of the laboratories of the empire. \nEnhanced Human Type. 0 destroyed everything as soon as he woke up from the laboratory in order to find a weapon that could withstand his power.\nIn the end, he tore out the horn of the monster Cannibal, which was known to have swallowed Arrogance out of the 7 sins. \nThis horn went through the hands of the greatest blacksmiths of the empire and became the Blood Lancer Monolith.\nThe flame of sin is burning inside the weapon, and whatever it pierces cannot be healed. \nThe feeling of striking with this weapon is pleasurable enough to make him forget about the lingering attachment to his lost memory.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Guide of Sin",
-      "description": "[I'll Break You!] Gains immunity to CC for the skill's duration, and recovers Mana by 200 upon hit.",
-      "value": {},
+      "description": "[I'll Break You!] Gains immunity to CC for the skill's duration, and recovers Mana by {0} upon hit.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Chase/ut/1.png",
       "story": "A jewel attached at the front end of Monolith, made with the fourth heart of Cannibal, the Beast of Arrogance.\nWhen Chase charges at enemies, Cannibal's heart starts to throb, and it explodes the flame of sin blazing inside Monolith upon impact.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Handkerchief of Loyalty",
-      "description": "[Remove Limit] Deals P.DMG equal to 40% of ATK to nearby enemies every sec and increases Heal Rate by 30% for the duration of Skill.",
-      "value": {},
+      "description": "[Remove Limit] Deals P.DMG equal to {0}% of ATK to nearby enemies every sec and increases Heal Rate by 30% for the duration of Skill.",
+      "value": {
+        "0": {
+          "0": "40",
+          "1": "48",
+          "2": "58",
+          "3": "70",
+          "4": "84",
+          "5": "100"
+        }
+      },
       "thumbnail": "heroes/Chase/ut/2.png",
       "story": "An item given to Chase by Scarlet. She gave it to him because she felt sorry for him for not having a name.\nChase's name is embroidered in one corner of the handkerchief. \nIt doesn't really match his look, but he carries it all the time. \nChase lost his memory and could only figure out who he was by the test subject code marked on his waist. The moment when someone called him by a name was when he finally found a goal in life. \nHe decided to use his overflowing power to protect those who made him feel alive.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Unrelenting Pauldron",
-      "description": "[Burn, Spear of Fury] Reduces Mana Cost by 1 and increases DMG by 20%.",
-      "value": {},
+      "description": "[Burn, Spear of Fury] Reduces Mana Cost by 1 and increases DMG by {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Chase/ut/3.png",
       "story": "Pauldron that Chase wears on one shoulder. It is made up of special ores that are hard to find in the Orbis Continent. \nIt's light but extremely sturdy and unbreakable. \nAn item that Demia managed to get for Chase, since Scarlet was fond of him.\nDemia didn't show it much, but she was intrigued by how Chase normally seemed so naive, and yet was so enthusiastic when it came to sparring. \nDemia watched him for a few days, and one day, patting his shoulder, she nonchalantly gave Chase the pauldron. She told him that fighting was important, but it was also important to take care of his own body.",
       "descriptionByStar": {
@@ -191,7 +235,7 @@
     },
     "4": {
       "name": "Biometric Sensor - Type. 0",
-      "description": "[Remember This in Hell] Increases DMG dealt to Non-Hero targets by {0}% and reduces DMG taken by 20%.",
+      "description": "[Remember This in Hell] Increases DMG dealt to Non-Hero targets by {0}% and reduces DMG taken from Non-Hero enemies by 20%.",
       "value": {
         "0": {
           "0": "10",
@@ -205,12 +249,12 @@
       "thumbnail": "heroes/Chase/ut/4.png",
       "story": "A life form sensor that was installed on Chase's waist.\nIt looks like a small, oval capsule, and is designed to be inserted in the bodies of test subjects.\nStamped on the capsule is the test subject code name, 'Type. 0,' and it contains a strange red material that stores information.\nThis biometric sensor can store various tests and research information and logs the information of the test subject's location.\nIf someone tries to take it out with force, it will self-detonate and kill the test subject to keep the experiments confidential.\nWhen Chase ripped this out of his waist, he broke it instantly. This small thing had been distorting his soul for too long.\nThen, he made a promise himself.\nHe wanted to make those who drove him to misery tremble in fear, just from hearing his name.",
       "descriptionByStar": {
-        "0": "[Remember This in Hell] Increases DMG dealt to Non-Hero targets by 10% and reduces DMG taken by 20%.",
-        "1": "[Remember This in Hell] Increases the duration of resurrection by 1 sec, and gains immunity to CC for 1.5 sec upon resurrection.",
-        "2": "[Remember This in Hell] Increases the duration of resurrection by 1 sec, and gains immunity to CC for 2 sec upon resurrection.",
-        "3": "[Remember This in Hell] Increases the duration of resurrection by 1 sec, and gains immunity to CC for 2.5 sec upon resurrection.",
-        "4": "[Remember This in Hell] Increases the duration of resurrection by 1 sec, and gains immunity to CC for 3 sec upon resurrection.",
-        "5": "[Remember This in Hell] Increases the duration of resurrection by 1 sec, and gains immunity to CC for 3.5 sec upon resurrection."
+        "0": "[Remember This in Hell] Increases DMG dealt to Non-Hero targets by 10% and reduces DMG taken from Non-Hero enemies by 20%.",
+        "1": "[Remember This in Hell] Increases DMG dealt to Non-Hero targets by 12% and reduces DMG taken from Non-Hero enemies by 20%.",
+        "2": "[Remember This in Hell] Increases DMG dealt to Non-Hero targets by 14% and reduces DMG taken from Non-Hero enemies by 20%.",
+        "3": "[Remember This in Hell] Increases DMG dealt to Non-Hero targets by 17% and reduces DMG taken from Non-Hero enemies by 20%.",
+        "4": "[Remember This in Hell] Increases DMG dealt to Non-Hero targets by 21% and reduces DMG taken from Non-Hero enemies by 20%.",
+        "5": "[Remember This in Hell] Increases DMG dealt to Non-Hero targets by 25% and reduces DMG taken from Non-Hero enemies by 20%."
       }
     }
   },

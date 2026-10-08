@@ -145,18 +145,27 @@
     "story": "Ciseaux gigantesques fabriqués par les cristaux arcaniques écarlates qui constituent le corps de Kirze.\nIls ont comme modèle, les ciseaux antiques que sa mère utilisait par le passé.\nC'est une arme pratique, pouvant être maniée comme un espadon, ou en séparant sa lame en deux, employée comme deux épées jumelles\n\nLes ciseaux sont imprégnés de la prière de la jeune fille qui souhaite prévenir la souffrance des autres victimes de Démon.\nCette arme répond aux émotions de sa maîtresse pour déployer une plus grande puissance.",
     "descriptionByStar": {
       "0": "Amplifie les cristaux arcaniques et augmente fortement la portée d'[Éclos, fleur écarlate !]. Les attaques normales et de compétence ont 4% de chances d'infliger des DEG M supplémentaires égaux à 500% de l'ATQ. Ces dégâts sont multipliés par 2 contre les boss.",
-      "1": "Amplifie les cristaux arcaniques et augmente fortement la portée d'[Éclos, fleur écarlate !]. Les attaques normales et de compétence ont 4% de chances d'infliger des DEG M supplémentaires égaux à 600% de l'ATQ. Ces dégâts sont doublés contre les boss.",
-      "2": "Amplifie les cristaux arcaniques et augmente fortement la portée d'[Éclos, fleur écarlate !]. Les attaques normales et de compétence ont 4% de chances d'infliger des DEG M supplémentaires égaux à 720% de l'ATQ. Ces dégâts sont doublés contre les boss.",
-      "3": "Amplifie les cristaux arcaniques et augmente fortement la portée d'[Éclos, fleur écarlate !]. Les attaques normales et de compétence ont 4% de chances d'infliger des DEG M supplémentaires égaux à 860% de l'ATQ. Ces dégâts sont doublés contre les boss.",
-      "4": "Amplifie les cristaux arcaniques et augmente fortement la portée d'[Éclos, fleur écarlate !]. Les attaques normales et de compétence ont 4% de chances d'infliger des DEG M supplémentaires égaux à 1000% de l'ATQ. Ces dégâts sont doublés contre les boss.",
-      "5": "Amplifie les cristaux arcaniques et augmente fortement la portée d'[Éclos, fleur écarlate !]. Les attaques normales et de compétence ont 4% de chances d'infliger des DEG M supplémentaires égaux à 1250% de l'ATQ. Ces dégâts sont doublés contre les boss."
+      "1": "Amplifie les cristaux arcaniques et augmente fortement la portée d'[Éclos, fleur écarlate !]. Les attaques normales et de compétence ont 4% de chances d'infliger des DEG M supplémentaires égaux à 600% de l'ATQ. Ces dégâts sont multipliés par 2 contre les boss.",
+      "2": "Amplifie les cristaux arcaniques et augmente fortement la portée d'[Éclos, fleur écarlate !]. Les attaques normales et de compétence ont 4% de chances d'infliger des DEG M supplémentaires égaux à 720% de l'ATQ. Ces dégâts sont multipliés par 2 contre les boss.",
+      "3": "Amplifie les cristaux arcaniques et augmente fortement la portée d'[Éclos, fleur écarlate !]. Les attaques normales et de compétence ont 4% de chances d'infliger des DEG M supplémentaires égaux à 860% de l'ATQ. Ces dégâts sont multipliés par 2 contre les boss.",
+      "4": "Amplifie les cristaux arcaniques et augmente fortement la portée d'[Éclos, fleur écarlate !]. Les attaques normales et de compétence ont 4% de chances d'infliger des DEG M supplémentaires égaux à 1000% de l'ATQ. Ces dégâts sont multipliés par 2 contre les boss.",
+      "5": "Amplifie les cristaux arcaniques et augmente fortement la portée d'[Éclos, fleur écarlate !]. Les attaques normales et de compétence ont 4% de chances d'infliger des DEG M supplémentaires égaux à 1250% de l'ATQ. Ces dégâts sont multipliés par 2 contre les boss."
     }
   },
   "uts": {
     "1": {
       "name": "Lotus de Cristal Écarlate",
-      "description": "[Tranche-le, Lame de Jugement !] Augmente les DEG infligés de 20% et réduit le coût en PM de 1.",
-      "value": {},
+      "description": "[Tranche-le, Lame de Jugement !] Augmente les DEG infligés de {0}% et réduit le coût en PM de 1.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Kirze/ut/1.png",
       "story": "De temps en temps, des fragments de cristaux bourgeonnent du corps de Kirze et se détachent.\nÉtant donné que ces fragments, autrefois, formaient une partie de son corps, les ignorer n'était pas une option pour Kirze,\ndonc elle les ramassait et les gardait tous avec elle.\nCependant, avec le temps, sans se rendre compte, les fragments commencèrent à déborder de son sac, mais elle ne sut où s'en servir.\nUn jour, elle visita la boutique de May à Orvel, et elle vit de magnifiques décorations en verre.\n\nKirze les trouva admirables et dans le souhait que ses fragments puissent être utilisés dans le même usage,\nelle offrit à May tous les fragments de cristaux arcaniques écarlates qu'elle avait gardés.\n\nPour la remercier, May lui offrit en retour, sa première œuvre accomplie avec les fragments.\nCet ornement de Lotus écarlate fut son cadeau.",
       "descriptionByStar": {
@@ -185,17 +194,26 @@
       "story": "Depuis son enfance, Kirze a toujours montré de l'affection envers les poupées,\nmais compte tenu de la situation économique de la famille, ses préférées furent celles en chiffon, fabriquées par sa mère.\nEn effet, avant l'enlèvement, Kirze put apprendre de sa mère, la couture et l'artisanat de poupées.\n\nAujourd'hui, Kirze n'est plus une enfant mais la poupée reste encore son jouet préféré; toutefois elle en fabrique non seulement pour sa propre collection, mais aussi pour d'autres enfants.\nEn particulier, pour des enfants qui ont perdu leurs parents à cause des attaques de Démon errant...",
       "descriptionByStar": {
         "0": "[Répands-toi, Brouillard Cristallisé !] Augmente de manière supplémentaire la Vitesse d'ATQ de 100 et la Pénétration DEF de tous les alliés de 250 pendant la durée de la compétence.",
-        "1": "Augmente la Vitesse d'ATQ de [Répands-toi, Brouillard Cristallisé !] de 120 et la durée de [Cristal Arcanique Éveillé] de 7 sec.",
-        "2": "Augmente la Vitesse d'ATQ de [Répands-toi, Brouillard Cristallisé !] de 140 et la durée de [Cristal Arcanique Éveillé] de 7 sec.",
-        "3": "Augmente la Vitesse d'ATQ de [Répands-toi, Brouillard Cristallisé !] de 170 et la durée de [Cristal Arcanique Éveillé] de 7 sec.",
-        "4": "Augmente la Vitesse d'ATQ de [Répands-toi, Brouillard Cristallisé !] de 210 et la durée de [Cristal Arcanique Éveillé] de 7 sec.",
-        "5": "Augmente la Vitesse d'ATQ de [Répands-toi, Brouillard Cristallisé !] de 250 et la durée de [Cristal Arcanique Éveillé] de 7 sec."
+        "1": "[Répands-toi, Brouillard Cristallisé !] Augmente de manière supplémentaire la Vitesse d'ATQ de 120 et la Pénétration DEF de tous les alliés de 250 pendant la durée de la compétence.",
+        "2": "[Répands-toi, Brouillard Cristallisé !] Augmente de manière supplémentaire la Vitesse d'ATQ de 140 et la Pénétration DEF de tous les alliés de 250 pendant la durée de la compétence.",
+        "3": "[Répands-toi, Brouillard Cristallisé !] Augmente de manière supplémentaire la Vitesse d'ATQ de 170 et la Pénétration DEF de tous les alliés de 250 pendant la durée de la compétence.",
+        "4": "[Répands-toi, Brouillard Cristallisé !] Augmente de manière supplémentaire la Vitesse d'ATQ de 210 et la Pénétration DEF de tous les alliés de 250 pendant la durée de la compétence.",
+        "5": "[Répands-toi, Brouillard Cristallisé !] Augmente de manière supplémentaire la Vitesse d'ATQ de 250 et la Pénétration DEF de tous les alliés de 250 pendant la durée de la compétence."
       }
     },
     "3": {
       "name": "Souvenir de l'Évasion",
-      "description": "[Éclos, fleur écarlate !] Réduit le temps de recharge de 30%. Gagner un cumul d'[Énergie des cristaux arcaniques] a 40% de chances d'en donner 3 supplémentaires.",
-      "value": {},
+      "description": "[Éclos, fleur écarlate !] Réduit le temps de recharge de 30%. Gagner un cumul d'[Énergie des cristaux arcaniques] a {0}% de chances d'en donner 3 supplémentaires.",
+      "value": {
+        "0": {
+          "0": "40",
+          "1": "48",
+          "2": "58",
+          "3": "70",
+          "4": "84",
+          "5": "100"
+        }
+      },
       "thumbnail": "heroes/Kirze/ut/3.png",
       "story": "Autrefois, lorsque Kirze fut enlevée par les Démons pour ensuite subir les expériences immondes dans le seul but de transformer son corps en cristal arcanique écarlate -\nLorsque son corps résonna pour la première fois avec les cristaux arcaniques écarlates et qu'elle put obtenir le pouvoir - \nElle fabriqua, de manière précipitée, sa toute première arme pour son évasion.\nC'est une paire de dagues, avec sa fabrication à peine terminée, sur le point de se briser.\n\nCette paire de dagues fut justement la salvation de Kirze et des autres enfants kidnappés, les sauvant des pires expériences.\nKirze ne pourra jamais se défaire de ces deux dagues qui détiennent ses souvenirs les plus importants.",
       "descriptionByStar": {
@@ -224,11 +242,11 @@
       "story": "Kirze se sert de ces outils de couture pour son passe-temps.\nIls lui sont indispensables pour son artisanat de poupée.\nRécemment, elle rencontra son bonheur, grâce aux fils et aux cotons de types exceptionnels qu'elle put obtenir, avec lesquels elle put fabriquer de meilleures poupées.\n\nPar ailleurs, les ciseaux qu'elle utilise pour son artisanat sont les miniatures de son arme.",
       "descriptionByStar": {
         "0": "[Vos méfaits prennent fin, ici !] De manière supplémentaire, augmente le Crit de 250 et augmente l'augmentation de la durée de Contrôles de 10%.",
-        "1": "Augmente le Crit de [Vos méfaits prennent fin, ici !] de 250 points supplémentaires et modifie l'augmentation de la Durée de Contrôles appliqués aux Boss à 32%.",
-        "2": "Augmente le Crit de [Vos méfaits prennent fin, ici !] de 250 points supplémentaires et modifie l'augmentation de la Durée de Contrôles appliqués aux Boss à 34%.",
-        "3": "Augmente le Crit de [Vos méfaits prennent fin, ici !] de 250 points supplémentaires et modifie l'augmentation de la Durée de Contrôles appliqués aux Boss à 37%.",
-        "4": "Augmente le Crit de [Vos méfaits prennent fin, ici !] de 250 points supplémentaires et modifie l'augmentation de la Durée de Contrôles appliqués aux Boss à 41%.",
-        "5": "Augmente le Crit de [Vos méfaits prennent fin, ici !] de 250 points supplémentaires et modifie l'augmentation de la Durée de Contrôles appliqués aux Boss à 45%."
+        "1": "[Vos méfaits prennent fin, ici !] De manière supplémentaire, augmente le Crit de 250 et augmente l'augmentation de la durée de Contrôles de 12%.",
+        "2": "[Vos méfaits prennent fin, ici !] De manière supplémentaire, augmente le Crit de 250 et augmente l'augmentation de la durée de Contrôles de 14%.",
+        "3": "[Vos méfaits prennent fin, ici !] De manière supplémentaire, augmente le Crit de 250 et augmente l'augmentation de la durée de Contrôles de 17%.",
+        "4": "[Vos méfaits prennent fin, ici !] De manière supplémentaire, augmente le Crit de 250 et augmente l'augmentation de la durée de Contrôles de 21%.",
+        "5": "[Vos méfaits prennent fin, ici !] De manière supplémentaire, augmente le Crit de 250 et augmente l'augmentation de la durée de Contrôles de 25%."
       }
     }
   },

@@ -102,7 +102,7 @@
           "thumbnail": "heroes/Leo/perks/s3l.png"
         },
         "dark": {
-          "effect": "Erhöht Schaden um 200 % und der Gegner erhält 20 % mehr Schaden. Manakosten sind um 2 erhöht.",
+          "effect": "Erhöht den Schaden um 200 % und erhöht 10 Sek. lang den Schaden, den das gegnerische Ziel aus allen Quellen erhält, um 20 %. Die Manakosten sind um 2 erhöht.",
           "thumbnail": "heroes/Leo/perks/s3d.png"
         }
       },
@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Phoenixfeder, Belisa",
-    "description": "Erhöht zu Beginn jedes Kampfes alle VERT um 20 %, die ANG-GESCHW. für 15 Sek. um 200 und fügt dem ersten eingesetzten Skill einen zusätzlichen Effekt hinzu.\nRune der Schwäche: Erhöht die Krit. Chance um 500.\nRune der Heilung: Hebt Massenkontrolle auf dem Zaubernden auf, ehe der Skill gewirkt wird.\nRune des Schweigens: Erhöht die Dauer von Schweigen um 1 Sek.",
-    "value": {},
+    "description": "Erhöht zu Beginn jedes Kampfes alle VERT um {0} %, die ANG-GESCHW. für 15 Sek. um {1} und fügt dem ersten eingesetzten Skill einen zusätzlichen Effekt hinzu.\nRune der Schwäche: Erhöht die Krit. Chance um 500.\nRune der Heilung: Hebt Massenkontrolle auf dem Zaubernden auf, ehe der Skill gewirkt wird.\nRune des Schweigens: Erhöht die Dauer von Schweigen um 1 Sek.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      }
+    },
     "thumbnail": "heroes/Leo/uw.png",
     "story": "Der Phönix ist eine heilige Kreatur, die das ewige Leben symbolisiert. Genauso wie das Tier selbst sind auch dessen Federn extrem selten. Es heißt, dass ein Federkiel, der aus einer Phönixfeder hergestellt wurde, selbst ein mächtiges magisches Werkzeug sei. Runen, die mit dieser Feder geschrieben werden, sind ein mächtiges Mittel für Runenmagie.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Antike Buchstabenenzyklopädie – Erster Band",
-      "description": "[Rune der Schwäche] kann nicht entfernt werden und erhöht den Schaden um 20 %.",
-      "value": {},
+      "description": "[Rune der Schwäche] kann nicht entfernt werden und erhöht den Schaden um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Leo/ut/1.png",
       "story": "Leos Lieblingsenzyklopädie. Sie dient der Interpretation antiker Buchstaben.\nDie Enzyklopädie besteht aus drei Bänden, wobei der zweite und dritte Band absichtlich von jemandem verbrannt wurde. Es blieb nur [Band I – Buchstaben für Flüche und Heilzauber] zurück. Leo wird immer wütend, wenn er daran denkt, welche antiken Geheimnisse er mithilfe der anderen zwei Bände entschlüsseln hätte können. In der Zwischenzeit wurde der Band weggesperrt und mit einem mystischen Zauber belegt, der verhindert, dass man ihn lesen kann, außer er selbst gestattet es einem.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Tinte der Lebenskraft",
-      "description": "[Rune der Heilung] erhöht die Heilungsrate um 50 % und den Körp. Krit. Widerstand der Verbündeten 10 Sek. lang um 100.",
-      "value": {},
+      "description": "[Rune der Heilung] erhöht die Heilungsrate um 50 % und den Körp. Krit. Widerstand der Verbündeten 10 Sek. lang um {0}.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Leo/ut/2.png",
       "story": "Tinte, die aus jungen Blättern des Weltenbaums extrahiert wurde. Nur 10 Tropfen können im Jahr produziert werden.\nDie Zaubersprüche, die mit dieser Tinte niedergeschrieben werden, verleihen dem Körper große Lebenskraft.\nSie ist sehr kostbar und schwer zu bekommen, weshalb Leo sie nur zu wirklich besonderen Anlässen benutzt.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Schriftrolle der Erinnerung",
-      "description": "[Rune des Schweigens] Ziel nimmt 10 Sek. lang um 15 % erhöhten Schaden und Massenkontroll-Widerstand des Ziels ist um 120 verringert.",
-      "value": {},
+      "description": "[Rune des Schweigens] Ziel nimmt 10 Sek. lang um 15 % erhöhten Schaden und Massenkontroll-Widerstand des Ziels ist um {0} verringert.",
+      "value": {
+        "0": {
+          "0": "120",
+          "1": "140",
+          "2": "170",
+          "3": "210",
+          "4": "250",
+          "5": "300"
+        }
+      },
       "thumbnail": "heroes/Leo/ut/3.png",
       "story": "Uralter Zauberkodex. Ein Kodex, der von angesehenen Zauberern geschrieben wurde und die Prinzipien hinter einer Magie beinhaltet, die alles Leben und die ganze Schöpfung nutzt. Er ist in einer unbekannten Sprache verfasst, also kann nur ein Teil davon entziffert werden. Wenn das uralte Textsystem entschlüsselt würde, wäre es vielleicht möglich, Zauber ohne jegliche Kosten einzusetzen.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Goldene Lupe",
-      "description": "[Rune des Schutzes] erhöht die Anzahl an Zielen um 1. Die ANG-GESCHW. von Zielen wird während der Wirkungsdauer um 200 erhöht.",
-      "value": {},
+      "description": "[Rune des Schutzes] erhöht die Anzahl an Zielen um 1. Die ANG-GESCHW. von Zielen wird während der Wirkungsdauer um {0} erhöht.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Leo/ut/4.png",
       "story": "Eine Luoe aus Gold, die den Geschichtsschreibern gegeben wird.\nSie ist ein Zeichen der Anerkennung und wird nur wahrheitsgetreuen und unvoreingenommenen Geschichtsschreibern von Orvel verliehen.\nEs gibt keine größere Ehre für einen Historiker, als die Goldene Lupe zu erhalten.",
       "descriptionByStar": {

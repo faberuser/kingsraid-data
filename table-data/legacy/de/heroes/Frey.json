@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Autorität Gottes, Rosmerta",
-    "description": "Heilt alle 8 Sek. die TP von 4 Verbündeten mit den niedrigsten TP um 80 % des ANG und erhöht für 8 Sek. für den Verbündeten mit dem höchsten ANG die Krit. Chance um 300 und den Krit. Schaden um 20 %.",
-    "value": {},
+    "description": "Heilt alle 8 Sek. die TP von 4 Verbündeten mit den niedrigsten TP um {0} % des ANG und erhöht für 8 Sek. für den Verbündeten mit dem höchsten ANG die Krit. Chance um 300 und den Krit. Schaden um {1} %.",
+    "value": {
+      "0": {
+        "0": "80",
+        "1": "96",
+        "2": "115",
+        "3": "138",
+        "4": "165",
+        "5": "200"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      }
+    },
     "thumbnail": "heroes/Frey/uw.png",
     "story": "Es heißt, die Engel wären Lua ähnlicher als jedes andere Volk. Ein hochrangiger Engel, Rosmerta, vermachte ihren Kern der Kirche von Lua. Dieser heilige Stab wurde aus der göttlichen Energie des Kerns erzeugt.",
     "descriptionByStar": {
@@ -146,23 +163,41 @@
   "uts": {
     "1": {
       "name": "Ei des Engels",
-      "description": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel 1 Sek. lang immun gegen Schaden.",
-      "value": {},
+      "description": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel {0} Sek. lang immun gegen Schaden.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Frey/ut/1.png",
       "story": "Freys heißgeliebter Schatz.\nFrey trug diese Kristallkugel bei sich, als sie als Kleinkind unter dem Weltenbaum gefunden wurde. Frey nannte sie das Ei des Engels, weil sie wie Engelshaar glänzte. Sie pflegte es ihr ganzes Leben lang.",
       "descriptionByStar": {
         "0": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel 1 Sek. lang immun gegen Schaden.",
-        "1": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel 1,2 Sek. lang immun gegen Schaden.",
-        "2": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel 1,4 Sek. lang immun gegen Schaden.",
-        "3": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel 1,7 Sek. lang immun gegen Schaden.",
-        "4": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel 2,1 Sek. lang immun gegen Schaden.",
-        "5": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel 2,5 Sek. lang immun gegen Schaden."
+        "1": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel 1.2 Sek. lang immun gegen Schaden.",
+        "2": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel 1.4 Sek. lang immun gegen Schaden.",
+        "3": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel 1.7 Sek. lang immun gegen Schaden.",
+        "4": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel 2.1 Sek. lang immun gegen Schaden.",
+        "5": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel 2.5 Sek. lang immun gegen Schaden."
       }
     },
     "2": {
       "name": "Wundersame Medaille",
-      "description": "[Segen des Lichts] erhöht die Schildmenge um 50 % und stellt 4 Sek. lang jede Sekunde 100 Mana wieder her.",
-      "value": {},
+      "description": "[Segen des Lichts] erhöht die Schildmenge um 50 % und stellt 4 Sek. lang jede Sekunde {0} Mana wieder her.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Frey/ut/2.png",
       "story": "Medaille, die mit der Offenbarung der Göttin von Yvonne, der Heiligen Jungfrau der Wunder geschaffen wurde. \nDie Medaille der Wunder ist ein Relikt, welches die Magie des Lichts enthält. Es heißt, dass die Heilige Jungfrau Yvonne mit dem durch die Medaille verstärkten Segen des Lichts die Stadt rettete, die von den Dämonen angegriffen wurde.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Feder des Vergessenen Schlichters",
-      "description": "[Himmlische Vergeltung] Erhöht den erlittenen Magieschaden des Ziels für 10 Sek. um 20% und verlängert die Blenddauer um 1 Sek.",
-      "value": {},
+      "description": "[Himmlische Vergeltung] Erhöht den erlittenen Magieschaden des Ziels für 10 Sek. um 20% und verlängert die Blenddauer um {0} Sek.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.5",
+          "2": "2",
+          "3": "2.5",
+          "4": "3",
+          "5": "3.5"
+        }
+      },
       "thumbnail": "heroes/Frey/ut/3.png",
       "story": "Feder des Wächters der Sonne. Feder eines Engels, der in der Vergangenheit die Menschheit durch den Kampf gegen die Dämonen gerettet hat. Er ließ seine Feder als Versprechen zurück, wiederzukommen, wenn die Welt erneut im Chaos versinken sollte. Ein Relikt der Kirche von Lua, das heilige Strahlen der Sonne beschwört, um den Feind zu blenden.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Die Ankunft der Engel",
-      "description": "[Anmut der Göttin] entfernt bei Aktivierung alle negativen Effekte vom Ziel und erhöht die Heilungsrate des Ziels für die Dauer des Skills um 20 %.",
-      "value": {},
+      "description": "[Anmut der Göttin] entfernt bei Aktivierung alle negativen Effekte vom Ziel und erhöht die Heilungsrate des Ziels für die Dauer des Skills um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Frey/ut/4.png",
       "story": "Ein altes Geschichtsbuch, das Frey gehört.\nEs ist das erste Buch, das Frey geschenkt bekommen hat, und es erzählt die Geschichte eines Kampfes zwischen Engeln und Dämonen.\nFrey mag vor allem den Teil, in dem die Engel als Sieger hervorgehen und alle Dämonen besiegen.",
       "descriptionByStar": {

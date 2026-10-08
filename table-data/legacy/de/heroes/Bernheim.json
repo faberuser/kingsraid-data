@@ -130,24 +130,58 @@
   },
   "uw": {
     "name": "Brennofen der Vergeblichkeit, Targarios",
-    "description": "Erhöht alle 10 Sek. eigenen ANG um 10 %, alle VERT um 10 % und reduziert den Cooldown aller Skills um 1 Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser ANG- und VERT-Boost kann bis zu 4-mal gestapelt und nicht mehr entfernt werden.",
-    "value": {},
+    "description": "Erhöht alle 10 Sek. eigenen ANG um {0} %, alle VERT um {1} % und reduziert den Cooldown aller Skills um {2} Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser ANG- und VERT-Boost kann bis zu 4-mal gestapelt und nicht mehr entfernt werden.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "2": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.7",
+        "4": "2.1",
+        "5": "2.5"
+      }
+    },
     "thumbnail": "heroes/Bernheim/uw.png",
     "story": "Der Name des Schwerts lautet 'Es, das nie gesättigt werden kann', 'Es, das endlos giert'.\nEs hat die Macht, alle Formen von Energie, böse wie heilige, aufzunehmen und sie als die eigenen zu nutzen.\nEs hat seinen eigenen Willen und einen sehr temperamentvollen, zerstreuten und grausamen Charakter.\nSelbst Königin Artemia kennt den genauen Grund für die Einkerkerung der Klinge unter der Zentralkirche von Penteonia nicht, aber es heißt, Targarios sei einst ein Dunkler Lord gewesen.\nEs mag angesichts seines leichtfertigen Charakters unwahrscheinlich erscheinen, aber es besteht kein Zweifel daran, dass es über verheerende Kräfte gebietet.",
     "descriptionByStar": {
       "0": "Erhöht alle 10 Sek. eigenen ANG um 10 %, alle VERT um 10 % und reduziert den Cooldown aller Skills um 1 Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser ANG- und VERT-Boost kann bis zu 4-mal gestapelt und nicht mehr entfernt werden.",
-      "1": "Erhöht alle 10 Sek. eigenen ANG um 12 %, alle VERT um 12 % und reduziert den Cooldown aller Skills um 1,2 Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser ANG- und VERT-Boost kann bis zu 4-mal gestapelt und nicht mehr entfernt werden.",
-      "2": "Erhöht alle 10 Sek. eigenen ANG um 14 %, alle VERT um 14 % und reduziert den Cooldown aller Skills um 1,4 Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser ANG- und VERT-Boost kann bis zu 4-mal gestapelt und nicht mehr entfernt werden.",
-      "3": "Erhöht alle 10 Sek. eigenen ANG um 17 %, alle VERT um 17 % und reduziert den Cooldown aller Skills um 1,7 Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser ANG- und VERT-Boost kann bis zu 4-mal gestapelt und nicht mehr entfernt werden.",
-      "4": "Erhöht alle 10 Sek. eigenen ANG um 21 %, alle VERT um 21 % und reduziert den Cooldown aller Skills um 2,1 Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser ANG- und VERT-Boost kann bis zu 4-mal gestapelt und nicht mehr entfernt werden.",
-      "5": "Erhöht alle 10 Sek. eigenen ANG um 25 %, alle VERT um 25 % und reduziert den Cooldown aller Skills um 2,5 Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser ANG- und VERT-Boost kann bis zu 4-mal gestapelt und nicht mehr entfernt werden."
+      "1": "Erhöht alle 10 Sek. eigenen ANG um 12 %, alle VERT um 12 % und reduziert den Cooldown aller Skills um 1.2 Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser ANG- und VERT-Boost kann bis zu 4-mal gestapelt und nicht mehr entfernt werden.",
+      "2": "Erhöht alle 10 Sek. eigenen ANG um 14 %, alle VERT um 14 % und reduziert den Cooldown aller Skills um 1.4 Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser ANG- und VERT-Boost kann bis zu 4-mal gestapelt und nicht mehr entfernt werden.",
+      "3": "Erhöht alle 10 Sek. eigenen ANG um 17 %, alle VERT um 17 % und reduziert den Cooldown aller Skills um 1.7 Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser ANG- und VERT-Boost kann bis zu 4-mal gestapelt und nicht mehr entfernt werden.",
+      "4": "Erhöht alle 10 Sek. eigenen ANG um 21 %, alle VERT um 21 % und reduziert den Cooldown aller Skills um 2.1 Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser ANG- und VERT-Boost kann bis zu 4-mal gestapelt und nicht mehr entfernt werden.",
+      "5": "Erhöht alle 10 Sek. eigenen ANG um 25 %, alle VERT um 25 % und reduziert den Cooldown aller Skills um 2.5 Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser ANG- und VERT-Boost kann bis zu 4-mal gestapelt und nicht mehr entfernt werden."
     }
   },
   "uts": {
     "1": {
       "name": "Verblichenes Schwert",
-      "description": "[Kreis der Vergeblichkeit] verringert das Mana der Ziele um 100 und erhöht den Mag. Schaden, den sie erleiden, für 5 Sek. um 25 %.",
-      "value": {},
+      "description": "[Kreis der Vergeblichkeit] verringert das Mana der Ziele um {0} und erhöht den Mag. Schaden, den sie erleiden, für 5 Sek. um 25 %.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Bernheim/ut/1.png",
       "story": "Eine Standardausgabe der Ritterklingen Penteonias, die Bernheim nutzte, bevor er Targarios in die Falle ging.\nEs wurde geschaffen, um große Macht zu verleihen, wenn es von der Kraft des Lichts durchdrungen ist. Eines Tages bemerkte Targarios, dass Bernheim auch andere Waffen verwenden wollte. Aus Neid und Wahnsinn zerstörte es Bernheims ganzes Arsenal und absorbierte alle Kräfte, Schutzzauber und Segen der Waffen.\nBernheim sah dies, tat einen lauten Seufzer und warf den zerbrochenen Schrott fort – doch dieses Schwert behielt er bei sich.",
       "descriptionByStar": {
@@ -161,8 +195,17 @@
     },
     "2": {
       "name": "Medaille des Lichts",
-      "description": "[Kampferöffnung] verbraucht 50 % der derzeitigen TP, damit der Effekt nach Wirkung nicht mehr entfernt werden kann.",
-      "value": {},
+      "description": "[Kampferöffnung] verbraucht {0} % der derzeitigen TP, damit der Effekt nach Wirkung nicht mehr entfernt werden kann.",
+      "value": {
+        "0": {
+          "0": "50",
+          "1": "46",
+          "2": "41",
+          "3": "35",
+          "4": "28",
+          "5": "20"
+        }
+      },
       "thumbnail": "heroes/Bernheim/ut/2.png",
       "story": "Ein Lichtsymbol, das ihm verliehen wurde, als er in Penteonia den Ritterschlag erhielt.\nDie eingravierte Sonne versichert dem Träger dieser Medaille, dass das Licht stets auf seiner Seite ist.\nAuch wenn Bernheim sein Ritterstand entzogen und er aus dem Land verbannt wurde, ist er den stolzen Rittern von Penteonia noch immer treu ergeben.",
       "descriptionByStar": {
@@ -176,8 +219,17 @@
     },
     "3": {
       "name": "Söldnerkelch",
-      "description": "[Zerstörer] erhöht den Schaden um 20 % und betäubt den betroffenen Feind 0,5 Sek. lang mit einer Wahrscheinlichkeit von 20 % nach jedem Treffer.",
-      "value": {},
+      "description": "[Zerstörer] erhöht den Schaden um {0} % und betäubt den betroffenen Feind 0,5 Sek. lang mit einer Wahrscheinlichkeit von 20 % nach jedem Treffer.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Bernheim/ut/3.png",
       "story": "Ein Gedenkkelch, Geschenk für mächtige und mutige Söldner im Kaiserreich.\nDer eingravierte Wolf ist das Symbol des Kaiserreichs.\nIn Anerkennung der unzähligen Siege, die Bernheim für das Kaiserreich errang, gab ihm die Königsfamilie diesen herrlichen Kelch, von denen weltweit nur fünf Stück existieren.\nGerüchten zufolge birgt der Kelch einen Zauber, mit dem jedes daraus genossene Getränk die Ausdauer wiederherstellt.",
       "descriptionByStar": {
@@ -191,8 +243,17 @@
     },
     "4": {
       "name": "Unverschickter Brief",
-      "description": "[Zusammenbruch] ändert die Anzahl der Zähler für sich selbst und das Ziel zu 2 und erhöht die max. Stapelanzahl aller Effekte um 20.",
-      "value": {},
+      "description": "[Zusammenbruch] ändert die Anzahl der Zähler für sich selbst und das Ziel zu 2 und erhöht die max. Stapelanzahl aller Effekte um {0}.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Bernheim/ut/4.png",
       "story": "Briefe, die Bernheim nach seiner Verbannung an seine Familie schrieb.\nEr verfasste sie zwar, hat sich aber noch nicht entschieden, ob er sie nun, sieben Jahre nach seiner Ächtung, endlich senden sollte.\nDie Briefe richten sich hauptsächlich an seinen Bruder und seine Schwester, die zum Zeitpunkt seiner Verbannung fünf bzw. zehn Jahre jünger waren als er.",
       "descriptionByStar": {

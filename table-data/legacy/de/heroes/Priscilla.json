@@ -130,24 +130,42 @@
   },
   "uw": {
     "name": "Wirbeltanz, Excilius",
-    "description": "Wenn die Skills „Präziser Stoß“ und „Wirbelnder Tanz“ den Feind treffen, wird der Cooldown des jeweiligen Skills pro getroffenen Feind um 1 Sek. verringert, während die ANG-GESCHW. 5 Sek. lang um 50 erhöht wird. Der ANG-GESCHW. Effekt kann bis zu 10-mal gestapelt werden.",
-    "value": {},
+    "description": "Wenn die Skills „Präziser Stoß“ und „Wirbelnder Tanz“ den Feind treffen, wird der Cooldown des jeweiligen Skills pro getroffenen Feind um {0} Sek. verringert, während die ANG-GESCHW. 5 Sek. lang um 50 erhöht wird. Der ANG-GESCHW. Effekt kann bis zu 10-mal gestapelt werden.",
+    "value": {
+      "0": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.7",
+        "4": "2",
+        "5": "2.5"
+      }
+    },
     "thumbnail": "heroes/Priscilla/uw.png",
     "story": "Während ihrer militärischen Karriere erschlug Priscilla zahllose Feinde mit ihrer Hellebarde. Obwohl die Hellebarde nach ihrem Ruhestandsantritt in einen reparaturbedürftigen Zustand verfiel, wurde sie später als Excilius wiedererweckt. Dieses Upgrade war Teil des Auftrags an Annette, die für Aisha Mahitra herstellen sollte. Diese rasiermesserscharfe und unglaublich robuste neue Waffe verfügt über die magische Kraft, ihre Feinde anzuziehen. Diejenigen, die Priscilla beim Kampf gegen ihre dämonischen Feinde gesehen hatten, sprachen darüber als handelte es sich dabei um einen unaufhaltsamen Sturm.",
     "descriptionByStar": {
       "0": "Wenn die Skills „Präziser Stoß“ und „Wirbelnder Tanz“ den Feind treffen, wird der Cooldown des jeweiligen Skills pro getroffenen Feind um 1 Sek. verringert, während die ANG-GESCHW. 5 Sek. lang um 50 erhöht wird. Der ANG-GESCHW. Effekt kann bis zu 10-mal gestapelt werden.",
-      "1": "Wenn die Skills „Präziser Stoß“ und „Wirbelnder Tanz“ den Feind treffen, wird der Cooldown des jeweiligen Skills pro getroffenen Feind um 1,2 Sek. verringert, während die ANG-GESCHW. 5 Sek. lang um 50 erhöht wird. Der ANG-GESCHW. Effekt kann bis zu 10-mal gestapelt werden.",
-      "2": "Wenn die Skills „Präziser Stoß“ und „Wirbelnder Tanz“ den Feind treffen, wird der Cooldown des jeweiligen Skills pro getroffenen Feind um 1,4 Sek. verringert, während die ANG-GESCHW. 5 Sek. lang um 50 erhöht wird. Der ANG-GESCHW. Effekt kann bis zu 10-mal gestapelt werden.",
-      "3": "Wenn die Skills „Präziser Stoß“ und „Wirbelnder Tanz“ den Feind treffen, wird der Cooldown des jeweiligen Skills pro getroffenen Feind um 1,7 Sek. verringert, während die ANG-GESCHW. 5 Sek. lang um 50 erhöht wird. Der ANG-GESCHW. Effekt kann bis zu 10-mal gestapelt werden.",
+      "1": "Wenn die Skills „Präziser Stoß“ und „Wirbelnder Tanz“ den Feind treffen, wird der Cooldown des jeweiligen Skills pro getroffenen Feind um 1.2 Sek. verringert, während die ANG-GESCHW. 5 Sek. lang um 50 erhöht wird. Der ANG-GESCHW. Effekt kann bis zu 10-mal gestapelt werden.",
+      "2": "Wenn die Skills „Präziser Stoß“ und „Wirbelnder Tanz“ den Feind treffen, wird der Cooldown des jeweiligen Skills pro getroffenen Feind um 1.4 Sek. verringert, während die ANG-GESCHW. 5 Sek. lang um 50 erhöht wird. Der ANG-GESCHW. Effekt kann bis zu 10-mal gestapelt werden.",
+      "3": "Wenn die Skills „Präziser Stoß“ und „Wirbelnder Tanz“ den Feind treffen, wird der Cooldown des jeweiligen Skills pro getroffenen Feind um 1.7 Sek. verringert, während die ANG-GESCHW. 5 Sek. lang um 50 erhöht wird. Der ANG-GESCHW. Effekt kann bis zu 10-mal gestapelt werden.",
       "4": "Wenn die Skills „Präziser Stoß“ und „Wirbelnder Tanz“ den Feind treffen, wird der Cooldown des jeweiligen Skills pro getroffenen Feind um 2 Sek. verringert, während die ANG-GESCHW. 5 Sek. lang um 50 erhöht wird. Der ANG-GESCHW. Effekt kann bis zu 10-mal gestapelt werden.",
-      "5": "Wenn die Skills „Präziser Stoß“ und „Wirbelnder Tanz“ den Feind treffen, wird der Cooldown des jeweiligen Skills pro getroffenen Feind um 2,5 Sek. verringert, während die ANG-GESCHW. 5 Sek. lang um 50 erhöht wird. Der ANG-GESCHW. Effekt kann bis zu 10-mal gestapelt werden."
+      "5": "Wenn die Skills „Präziser Stoß“ und „Wirbelnder Tanz“ den Feind treffen, wird der Cooldown des jeweiligen Skills pro getroffenen Feind um 2.5 Sek. verringert, während die ANG-GESCHW. 5 Sek. lang um 50 erhöht wird. Der ANG-GESCHW. Effekt kann bis zu 10-mal gestapelt werden."
     }
   },
   "uts": {
     "1": {
       "name": "Gewicht des wütenden Angriffs",
-      "description": "[Präziser Stoß] erhöht den Schaden um 50 % und verringert Körp. Blockchance des Ziels 10 Sek. lang um 200.",
-      "value": {},
+      "description": "[Präziser Stoß] erhöht den Schaden um 50 % und verringert Körp. Blockchance des Ziels 10 Sek. lang um {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Priscilla/ut/1.png",
       "story": "Ein Gewicht, das an der Unterseite von Excilius’ Griff angebracht ist.\nEs hilft Priscilla dabei, eine bessere Balance zu finden, um verlässlichere und präzisere Angriffe ausführen zu können. Als Annette ihre Hellebarde zu Excilius verstärkt hatte, ersetzte sie auch das Gewicht. Durch technomagische Verstärkung konnte der Härtegrade des Gewichts deutlich erhöht werden, sodass sie jetzt mit noch größerer Präzision zuschlagen kann.",
       "descriptionByStar": {
@@ -161,8 +179,17 @@
     },
     "2": {
       "name": "Schickes Teeservice",
-      "description": "[Zangenangriff] erhöht den ANG-Boost um 20 % und verringert den Cooldown des Helden mit dem höchsten ANG um 30 %.",
-      "value": {},
+      "description": "[Zangenangriff] erhöht den ANG-Boost um {0} % und verringert den Cooldown des Helden mit dem höchsten ANG um 30 %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Priscilla/ut/2.png",
       "story": "Aishas Lieblings-Keramikteetassen, die Priscilla jederzeit bereithält. \nLuxuriöse Teetassen, die aus dem besten Ton des östlichen Kontinents jenseits des Meeres hergestellt wurden. Sie werden größtenteils zum Teetrinken mit Aisha benutzt, aber auch für den „Zangenangriff“ mit Priscilla.",
       "descriptionByStar": {
@@ -176,8 +203,17 @@
     },
     "3": {
       "name": "Magischer Stein der Schwerkraft",
-      "description": "[Wirbelnder Tanz] erhöht Schaden um 20 % und betäubt das Ziel 3 Sek. lang.",
-      "value": {},
+      "description": "[Wirbelnder Tanz] erhöht Schaden um {0} % und betäubt das Ziel 3 Sek. lang.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Priscilla/ut/3.png",
       "story": "Das erste magische Werkzeug, das von einem lila Zauberer hergestellt wurde. Das erste Geschenk, das Aisha verlieh. Aisha schuf dieses magische Werkzeug, weil sie ein schlechtes Gewissen hatte, dass Priscilla bei ihrem „Wirbelnden Tanz“ so viel Kraft verbraucht. Der Manastein der Schwerkraft befreit den Körper beim Wirbelnden Tanz von der Schwerkraft und verstärkt dessen Effekt.",
       "descriptionByStar": {
@@ -191,8 +227,17 @@
     },
     "4": {
       "name": "Unruhebringer",
-      "description": "[Waffenbeherrschung] erhöht den ANG-Boost um 50 %. Alle eigenen VERT werden um 10 % erhöht.",
-      "value": {},
+      "description": "[Waffenbeherrschung] erhöht den ANG-Boost um 50 %. Alle eigenen VERT werden um {0} % erhöht.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Priscilla/ut/4.png",
       "story": "Eine Hellebarde, die Priscilla zum Üben benutzte.\nDer Sturm des Krieges wurde mit diesem schäbigen, alten Speer entfesselt.\nPriscilla hat ihn hin und wieder herausgeholt, um sich ihre Ausbildung wieder ins Gedächtnis zu rufen.\nSo konnte sie ihrem Lebensstil immer treu bleiben und ihre Herrin vor allen Gefahren beschützen.",
       "descriptionByStar": {

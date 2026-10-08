@@ -151,8 +151,25 @@
   },
   "uw": {
     "name": "Rending Chaos, Zakadras",
-    "description": "Crit Chance is increased by 200 and Crit DMG is increased by 40%.",
-    "value": {},
+    "description": "Crit Chance is increased by {0} and Crit DMG is increased by {1}%.",
+    "value": {
+      "0": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      },
+      "1": {
+        "0": "40",
+        "1": "48",
+        "2": "58",
+        "3": "70",
+        "4": "84",
+        "5": "100"
+      }
+    },
     "thumbnail": "heroes/Nia/uw.png",
     "story": "A weapon forged from special metal that a shaman from Krakashu, the tribe of darkness, made by melting down living demonic beasts.\nThe metal was then forged by the best smith in the Jungle and was reborn as a magical weapon to punish demons.\nA huge pair of claws embrace curse, grudge, and rage.\nThese claws are the symbol that represents the leader of Krakashu, and they're also a medium of the spell that appeases the wrath of their forefathers.\nNia became the tribe leader at such a young age and has yet to tap into all the darkness that the weapon holds,\nbut deep at night, often when she's about to fall asleep, she can hear the howling grudge of her forefathers from the weapon.",
     "descriptionByStar": {
@@ -167,8 +184,17 @@
   "uts": {
     "1": {
       "name": "Flower of Jungle",
-      "description": "[Scar of Barbarism] Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by 200 for 10 sec.",
-      "value": {},
+      "description": "[Scar of Barbarism] Reduces Mana Cost by 1 and reduces P.Crit Resistance of the affected enemy by {0} for 10 sec.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Nia/ut/1.png",
       "story": "The deep Jungle of Darkness sits in southern Vespia. It is the home, the hunting ground, and the battlefield of the Krakashu tribe. The people in the Empire treat them as barbarians, but they are emotional and sensitive beings that present flowers to their beloved ones.\nFor the Krakashu tribe, the bouquet of flowers means 'return home safe and sound.' This bouquet of flowers handmade by Nia's tribe members holds a spell that keeps the flowers from withering as long as Nia is healthy.",
       "descriptionByStar": {
@@ -182,8 +208,17 @@
     },
     "2": {
       "name": "Gift of Hunter",
-      "description": "[On the Hunt] Increases DMG by 50% and P.DMG increase inflicted by [Hunt Mark] and [Enhanced Hunt Mark] by an additional 8%.",
-      "value": {},
+      "description": "[On the Hunt] Increases DMG by 50% and P.DMG increase inflicted by [Hunt Mark] and [Enhanced Hunt Mark] by an additional {0}%.",
+      "value": {
+        "0": {
+          "0": "8",
+          "1": "10",
+          "2": "12",
+          "3": "14",
+          "4": "17",
+          "5": "20"
+        }
+      },
       "thumbnail": "heroes/Nia/ut/2.png",
       "story": "The fame of Dragon Slayer Yanne spread not only to the Orbis Continent, but also to the Vespian Empire. Yanne, a skilled monster hunter, was requested by a noble in the empire to hunt down the monsters inhabiting the Jungle of Darkness. However, the empire's ulterior motive was to drive away the natives so that they could develop the jungle and use it for their own sake. Without knowing the truth, Yanne walked into the jungle. The Krakashu tribe, led by the young leader, Nia, mistook Yanne as an imperial invader and attacked her. After Yanne subdued the tribespeople rather effortlessly with her superhuman strength, she had a talk with Nia and figured out the truths. She apologized to Nia for entering their land without permission, and gave her the necklace she made herself as a sign of reconciliation and friendship.",
       "descriptionByStar": {
@@ -197,8 +232,17 @@
     },
     "3": {
       "name": "Bone Mask of Spell",
-      "description": "[Demonic Eyes of Petrification] Pulls enemies to the front upon casting, and reduces Mana of enemies by 200 upon hit.",
-      "value": {},
+      "description": "[Demonic Eyes of Petrification] Pulls enemies to the front upon casting, and reduces Mana of enemies by {0} upon hit.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Nia/ut/3.png",
       "story": "A magical mask made with the skull of Prektrek, the beast of spell. Since Nia disliked traditional masks which covered her entire face, the bone mask was modified into a helmet.\nThe main use of bone masks is to keep the tribe leaders' demonic eyes from going berserk. However, the mask wasn't significant to Nia because her demonic eyes, despite their enormous powers, were very stable.\nIt is what Nia uses to remember her father, who was called by the Blue Star when she succeeded the Demonic Eyes of Petrification. They say that she made her bone mask with a skull that closely resembled her father's bone mask.\nA little bit of trivia: The beast Prektrek is known to be distantly related to Goblins...",
       "descriptionByStar": {
@@ -212,8 +256,17 @@
     },
     "4": {
       "name": "Blood Stabilizer",
-      "description": "[Demonic Blood] At the beginning of every battle, gains 1 stack of Demonic Blood. 4 stacks of Demonic Blood will grant immunity to CC for 2 sec.",
-      "value": {},
+      "description": "[Demonic Blood] At the beginning of every battle, gains 1 stack of Demonic Blood. 4 stacks of Demonic Blood will grant immunity to CC for {0} sec.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Nia/ut/4.png",
       "story": "Even though Nia's blood was more stable than her forefathers', there were times when it boiled to the point where Nia almost lost her mind.\nThis special treatment is a unique type of poison that Mediana and Requina made by the request of Yanne, who found out about Nia's status.\nThis poison only attacks the Demonic Blood inside Nia, and it takes one sip to keep her calm.\nThis treatment has a side effect, however, that causes her digestive system to malfunction, during which meat-loving Nia has to stay away from meat.\nTherefore, Nia tries her best not to use this stabilizer.",
       "descriptionByStar": {

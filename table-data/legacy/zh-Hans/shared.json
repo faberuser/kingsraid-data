@@ -1,75 +1,21 @@
 {
   "classes": {
-    "General": {
-      "perks": {
-        "t1": {
-          "ATK Up": "攻击提高30%",
-          "HP Up": "生命值提高30%",
-          "DEF Up": "防御提高35%",
-          "Crit Resist Up": "暴击抵抗提高250",
-          "Monster Hunting": "对非英雄的敌人造成的伤害增加10%，受到的伤害减少10%。"
-        }
-      },
-      "perkNames": {
-        "ATK Up": "攻击力提高",
-        "HP Up": "生命值提高",
-        "DEF Up": "防御力提高",
-        "Crit Resist Up": "暴击抵抗力提高",
-        "Monster Hunting": "狩猎怪物"
-      }
-    },
-    "Warrior": {
+    "Archer": {
       "perks": {
         "t2": {
+          "Precision Shot": "攻击提高20%且命中提高400。",
+          "Eagle Eye": "所有友军的防御穿透力增加150、命中率增加75，若与其他友军使用同样天赋时，将额外增加防御穿透力50、命中率25。",
+          "Mortal Wound": "暴击时会降低敌人的生命值回复率50%且造成每秒相当于20%攻击的持续性物理伤害。此效果无法堆叠。",
           "Opportune Strike": "暴击机率提高150且暴击伤害提高30%。",
-          "Warlike": "每一个敌人使攻击提高7%且控场抵抗提高30。最多可以堆叠10次。",
-          "Offensive Guard": "攻击提高，提高值相当于一半的物理防御，且受到的物理伤害降低15%。",
-          "Tactical Foresight": "闪躲率提高200且受到的伤害降低10%。",
-          "Blood Wrath": "生命吸取增加200，攻击速度增加200。"
+          "Concentration": "每5秒使自己的暴击伤害量增加4%，此效果最多可堆叠25次且无法解除。"
         }
       },
       "perkNames": {
+        "Precision Shot": "精准射击",
+        "Eagle Eye": "鹰眼",
+        "Mortal Wound": "致死伤口",
         "Opportune Strike": "强运袭击",
-        "Warlike": "好战",
-        "Offensive Guard": "激进守备",
-        "Tactical Foresight": "料敌机先",
-        "Blood Wrath": "血性狂怒"
-      }
-    },
-    "Priest": {
-      "perks": {
-        "t2": {
-          "Vengeful Curse": "当被敌人击中时，攻击者的伤害降低70%，持续3秒。此效果在40秒内只能作用一次，无法被解除。",
-          "Goddess Blessing": "所有友军的暴击率增加150，若与其他友军使用同样天赋时，将额外增加50。",
-          "Inner Peace": "所有友军的生命值每秒回复1%、状态异常抵抗力增加75，若与其他友军使用同样天赋时，将每秒额外回复体力0.3%，并增加状态异常抵抗25。",
-          "Blessing of Mana": "每秒魔力回复量提高250%",
-          "Swiftness": "所有友军的攻击速度增加150，若与其他友军使用同样天赋时，将额外增加50。"
-        }
-      },
-      "perkNames": {
-        "Vengeful Curse": "复仇诅咒",
-        "Goddess Blessing": "女神祝福",
-        "Inner Peace": "心灵祥和",
-        "Blessing of Mana": "魔力祝福",
-        "Swiftness": "神速化"
-      }
-    },
-    "Wizard": {
-      "perks": {
-        "t2": {
-          "Deception": "如造成伤害，下一次所受到的3次伤害则会无效。此效果每40秒可启动一次。",
-          "Moral Rise": "所有友军的攻击力增加15%，若与其他友军使用同样天赋时，将额外增加3%。",
-          "Blessing of Mana": "每秒魔力回复量提高250%",
-          "Circuit Burst": "受到的伤害提高15%但攻击提高40%。命中提高200。",
-          "Destruction": "暴击机率增加200，防御穿透力增加200。"
-        }
-      },
-      "perkNames": {
-        "Deception": "迷惑",
-        "Moral Rise": "提振士气",
-        "Blessing of Mana": "魔力祝福",
-        "Circuit Burst": "魔流爆冲",
-        "Destruction": "破坏"
+        "Concentration": "专注"
       }
     },
     "Assassin": {
@@ -88,6 +34,24 @@
         "Tactical Foresight": "料敌机先",
         "Opportune Strike": "强运袭击",
         "Vital Detection": "感知弱点"
+      }
+    },
+    "General": {
+      "perks": {
+        "t1": {
+          "ATK Up": "攻击提高30%",
+          "HP Up": "生命值提高30%",
+          "DEF Up": "防御提高35%",
+          "Crit Resist Up": "暴击抵抗提高250",
+          "Monster Hunting": "对非英雄的敌人造成的伤害增加10%，受到的伤害减少10%。"
+        }
+      },
+      "perkNames": {
+        "ATK Up": "攻击力提高",
+        "HP Up": "生命值提高",
+        "DEF Up": "防御力提高",
+        "Crit Resist Up": "暴击抵抗力提高",
+        "Monster Hunting": "狩猎怪物"
       }
     },
     "Knight": {
@@ -126,22 +90,58 @@
         "Amplified Gunpowder": "火力增强"
       }
     },
-    "Archer": {
+    "Priest": {
       "perks": {
         "t2": {
-          "Precision Shot": "攻击提高20%且命中提高400。",
-          "Eagle Eye": "所有友军的防御穿透力增加150、命中率增加75，若与其他友军使用同样天赋时，将额外增加防御穿透力50、命中率25。",
-          "Mortal Wound": "暴击时会降低敌人的生命值回复率50%且造成每秒相当于20%攻击的持续性物理伤害。此效果无法堆叠。",
-          "Opportune Strike": "暴击机率提高150且暴击伤害提高30%。",
-          "Concentration": "每5秒使自己的暴击伤害量增加4%，此效果最多可堆叠25次且无法解除。"
+          "Vengeful Curse": "当被敌人击中时，攻击者的伤害降低70%，持续3秒。此效果在40秒内只能作用一次，无法被解除。",
+          "Goddess Blessing": "所有友军的暴击率增加150，若与其他友军使用同样天赋时，将额外增加50。",
+          "Inner Peace": "所有友军的生命值每秒回复1%、状态异常抵抗力增加75，若与其他友军使用同样天赋时，将每秒额外回复体力0.3%，并增加状态异常抵抗25。",
+          "Blessing of Mana": "每秒魔力回复量提高250%",
+          "Swiftness": "所有友军的攻击速度增加150，若与其他友军使用同样天赋时，将额外增加50。"
         }
       },
       "perkNames": {
-        "Precision Shot": "精准射击",
-        "Eagle Eye": "鹰眼",
-        "Mortal Wound": "致死伤口",
+        "Vengeful Curse": "复仇诅咒",
+        "Goddess Blessing": "女神祝福",
+        "Inner Peace": "心灵祥和",
+        "Blessing of Mana": "魔力祝福",
+        "Swiftness": "神速化"
+      }
+    },
+    "Warrior": {
+      "perks": {
+        "t2": {
+          "Opportune Strike": "暴击机率提高150且暴击伤害提高30%。",
+          "Warlike": "每一个敌人使攻击提高7%且控场抵抗提高30。最多可以堆叠10次。",
+          "Offensive Guard": "攻击提高，提高值相当于一半的物理防御，且受到的物理伤害降低15%。",
+          "Tactical Foresight": "闪躲率提高200且受到的伤害降低10%。",
+          "Blood Wrath": "生命吸取增加200，攻击速度增加200。"
+        }
+      },
+      "perkNames": {
         "Opportune Strike": "强运袭击",
-        "Concentration": "专注"
+        "Warlike": "好战",
+        "Offensive Guard": "激进守备",
+        "Tactical Foresight": "料敌机先",
+        "Blood Wrath": "血性狂怒"
+      }
+    },
+    "Wizard": {
+      "perks": {
+        "t2": {
+          "Deception": "如造成伤害，下一次所受到的3次伤害则会无效。此效果每40秒可启动一次。",
+          "Moral Rise": "所有友军的攻击力增加15%，若与其他友军使用同样天赋时，将额外增加3%。",
+          "Blessing of Mana": "每秒魔力回复量提高250%",
+          "Circuit Burst": "受到的伤害提高15%但攻击提高40%。命中提高200。",
+          "Destruction": "暴击机率增加200，防御穿透力增加200。"
+        }
+      },
+      "perkNames": {
+        "Deception": "迷惑",
+        "Moral Rise": "提振士气",
+        "Blessing of Mana": "魔力祝福",
+        "Circuit Burst": "魔流爆冲",
+        "Destruction": "破坏"
       }
     }
   },
@@ -209,8 +209,10 @@
     {
       "id": "Earth Protection",
       "name": "大地庇护",
-      "description": "战斗开始时，免疫控场并提高物理与魔法防御50%，持续8秒。",
-      "value": {},
+      "description": "战斗开始时，免疫控场并提高物理与魔法防御50%，持续{0}秒。",
+      "value": {
+        "0": "8, 10, 12, 14, 17, 20"
+      },
       "thumbnail": "artifacts/Earth Protection.png",
       "story": "山脉堡垒「脸孔」之一的缩小版。这是安静且沉默的脸孔，散发一股冷静与冷酷的感觉。",
       "aliases": null,
@@ -226,8 +228,10 @@
     {
       "id": "Blessing of Earth",
       "name": "大地祝福",
-      "description": "当只有一个敌人时，攻击提高40%。",
-      "value": {},
+      "description": "当只有一个敌人时，攻击提高{0}%。",
+      "value": {
+        "0": "40, 48, 58, 69, 83, 100"
+      },
       "thumbnail": "artifacts/Blessing of Earth.png",
       "story": "山脉堡垒「脸孔」之一的缩小版。这是生气与暴怒的脸孔，散发一股愤怒和战意。",
       "aliases": [
@@ -245,8 +249,10 @@
     {
       "id": "Earth Core",
       "name": "大地之核",
-      "description": "攻击，生命值与防御提高10%。",
-      "value": {},
+      "description": "攻击，生命值与防御提高{0}%。",
+      "value": {
+        "0": "10, 12, 14, 17, 20, 25"
+      },
       "thumbnail": "artifacts/Earth Core.png",
       "story": "模仿山脉堡垒核心制作的缩小版，利用无限的动力源增加持有者的力量。",
       "aliases": null,
@@ -328,8 +334,11 @@
     {
       "id": "Trident of the Deep",
       "name": "深海海啸长矛",
-      "description": "对敌人造成伤害100次后，攻击提高30%且暴击机率提高200，持续15秒。这个效果无法被解除。",
-      "value": {},
+      "description": "对敌人造成伤害100次后，攻击提高{0}%且暴击机率提高{1}，持续15秒。这个效果无法被解除。",
+      "value": {
+        "0": "30, 36, 44, 53, 63, 75",
+        "1": "200, 240, 290, 350, 420, 500"
+      },
       "thumbnail": "artifacts/Trident of the Deep.png",
       "story": "模仿普罗提努斯三叉戟制成的神秘武器，具备如同海啸般的水之力。",
       "aliases": [
@@ -349,8 +358,10 @@
     {
       "id": "Ring of Spirit Morph",
       "name": "灵魂化的戒指",
-      "description": "每次开始战斗时4秒内生命值不会降至10%以下。持续时间内生命值降至15%以下时5秒内对英雄造成的伤害量将减少70%。所有效果皆无法解除。",
-      "value": {},
+      "description": "每次开始战斗时{0}秒内生命值不会降至10%以下。持续时间内生命值降至15%以下时5秒内对英雄造成的伤害量将减少70%。所有效果皆无法解除。",
+      "value": {
+        "0": "4, 5, 6, 7, 8, 9"
+      },
       "thumbnail": "artifacts/Ring of Spirit Morph.png",
       "story": "躲藏着恶梦精怪们的不祥戒指。陷入戒指的诱惑的瞬间，首先，肉体会被精怪所夺取，灵魂则会被困在梦境里。",
       "aliases": [
@@ -369,8 +380,11 @@
     {
       "id": "Spellbound Ring of the Deep",
       "name": "深海咒术环",
-      "description": "战斗开始后8秒内，限制一个敌人的攻击速度为1000且降低攻击20%。",
-      "value": {},
+      "description": "战斗开始后{0}秒内，限制一个敌人的攻击速度为1000且降低攻击{1}%。",
+      "value": {
+        "0": "8, 10, 12, 14, 17, 20",
+        "1": "20, 24, 29, 35, 42, 50"
+      },
       "thumbnail": "artifacts/Spellbound Ring of the Deep.png",
       "story": "普罗提努斯戴的戒指之缩小版，施有诅咒敌人使其无力化的咒术。",
       "aliases": [
@@ -390,8 +404,10 @@
     {
       "id": "Guardian Crystal of the Deep",
       "name": "深海庇护水晶",
-      "description": "只有一个敌人时所有防御提高50%。",
-      "value": {},
+      "description": "只有一个敌人时所有防御提高{0}%。",
+      "value": {
+        "0": "50, 60, 72, 86, 103, 125"
+      },
       "thumbnail": "artifacts/Guardian Crystal of the Deep.png",
       "story": "普罗提努斯王冠上的蓝色宝石，具备守护之意晶莹剔透的宝石。",
       "aliases": [
@@ -432,8 +448,10 @@
     {
       "id": "Abyssal Crown",
       "name": "深渊的王冠",
-      "description": "在战斗开始30秒后，使我方攻击力最高的友军的攻击力增加30%。此效果无法解除，并且不会与其他友军的效果重复套用。",
-      "value": {},
+      "description": "在战斗开始30秒后，使我方攻击力最高的友军的攻击力增加{0}%。此效果无法解除，并且不会与其他友军的效果重复套用。",
+      "value": {
+        "0": "30, 36, 43, 52, 63, 75"
+      },
       "thumbnail": "artifacts/Abyssal Crown.png",
       "story": "深渊圣母札娜杜思的发饰，王冠的外观如同巨蛇，弥漫一股致命的味道。",
       "aliases": null,
@@ -449,8 +467,12 @@
     {
       "id": "Abyssal Eye",
       "name": "深渊之眼",
-      "description": "在受到伤害时，将对施加伤害的对象造成攻击力50%的魔法伤害，并于1.5秒内减缓其攻击速度400，在攻击速度减少效果结束后，将使其于2秒内呈现石化状态，此效果每30秒仅发动一次。",
-      "value": {},
+      "description": "在受到伤害时，将对施加伤害的对象造成攻击力{0}%的魔法伤害，并于1.5秒内减缓其攻击速度{1}，在攻击速度减少效果结束后，将使其于{2}秒内呈现石化状态，此效果每30秒仅发动一次。",
+      "value": {
+        "0": "50, 60, 72, 86, 105, 125",
+        "1": "400, 480, 580, 700, 840, 1000",
+        "2": "2, 2.4, 2.9, 3.5, 4.2, 5"
+      },
       "thumbnail": "artifacts/Abyssal Eye.png",
       "story": "深渊圣母札娜杜思的力量结晶，即使和本体分开，有时候看起来瞳孔也像是会移动一样。",
       "aliases": null,
@@ -466,8 +488,10 @@
     {
       "id": "Abyssal Nail Ornament",
       "name": "深渊的指甲饰品",
-      "description": "攻击时，每0.5秒对敌人造成攻击力4%的无视防御力物理伤害，持续10秒。此效果每20秒触发一次。",
-      "value": {},
+      "description": "攻击时，每0.5秒对敌人造成攻击力{0}%的无视防御力物理伤害，持续10秒。此效果每20秒触发一次。",
+      "value": {
+        "0": "4, 4.8, 5.8, 7, 8.4, 10"
+      },
       "thumbnail": "artifacts/Abyssal Nail Ornament.png",
       "story": "深渊圣母札娜杜思的指甲装饰，使用来历不明的特殊贵金属合金制作而成。",
       "aliases": [
@@ -504,8 +528,10 @@
     {
       "id": "Infernal Bond",
       "name": "炼火地狱的枷锁",
-      "description": "每次战斗开始时，任意的敌人之所有使用技能冷却时间增加2.5秒。",
-      "value": {},
+      "description": "每次战斗开始时，任意的敌人之所有使用技能冷却时间增加{0}秒。",
+      "value": {
+        "0": "2.5, 3, 3.5, 4, 5, 6"
+      },
       "thumbnail": "artifacts/Infernal Bond.png",
       "story": "地狱惩罚者裴卡查勒燃烧火焰的枷锁，能施下抑制源源不断力量的黑魔法。",
       "aliases": null,
@@ -543,8 +569,11 @@
     {
       "id": "Infernal Greatsword",
       "name": "炼火地狱巨剑",
-      "description": "自己的恢复力减少30%、防御穿透力增加300、暴击伤害量增加30%。",
-      "value": {},
+      "description": "自己的恢复力减少30%、防御穿透力增加{0}、暴击伤害量增加{1}%。",
+      "value": {
+        "0": "300, 360, 430, 520, 630, 750",
+        "1": "30, 36, 43, 52, 63, 75"
+      },
       "thumbnail": "artifacts/Infernal Greatsword.png",
       "story": "地狱惩罚者裴卡查勒燃烧着火焰的巨剑，火焰彷佛能吞噬一切。",
       "aliases": [
@@ -562,8 +591,12 @@
     {
       "id": "Infernal Whip",
       "name": "炼火地狱之鞭",
-      "description": "每8秒会对所有的敌人造成相当于20％攻击力的魔法伤害，使目标在5秒内受到的所有伤害增加10%。每次启动时，伤害增加效果会追加0.4％，最多可叠加25次。伤害增加效果不可与我方的其他相同效果同时使用。",
-      "value": {},
+      "description": "每8秒会对所有的敌人造成相当于{0}％攻击力的魔法伤害，使目标在5秒内受到的所有伤害增加{1}%。每次启动时，伤害增加效果会追加{2}％，最多可叠加25次。伤害增加效果不可与我方的其他相同效果同时使用。",
+      "value": {
+        "0": "20, 24, 29, 35, 42, 50",
+        "1": "10, 12, 14, 17, 21, 25",
+        "2": "0.4, 0.5, 0.6, 0.7, 0.8, 1"
+      },
       "thumbnail": "artifacts/Infernal Whip.png",
       "story": "地狱惩罚者裴卡查勒燃烧的尾巴，就像是全身笼罩着火焰的蛇一般。",
       "aliases": null,
@@ -579,8 +612,12 @@
     {
       "id": "Infernal Gate",
       "name": "炼火地狱之门",
-      "description": "所有防御力增加10%，对敌人造成的伤害量增加6%、对不是英雄的敌人造成的伤害量增加6%。",
-      "value": {},
+      "description": "所有防御力增加{0}%，对敌人造成的伤害量增加{1}%、对不是英雄的敌人造成的伤害量增加{2}%。",
+      "value": {
+        "0": "10, 12, 14, 17, 21, 25",
+        "1": "6, 7.2, 8.6, 10.5, 12.5, 15",
+        "2": "6, 7.2, 8.6, 10.5, 12.5, 15"
+      },
       "thumbnail": "artifacts/Infernal Gate.png",
       "story": "地狱惩罚者裴卡查勒燃烧着火焰的角之一，可开启散发灵魂之力的门。",
       "aliases": null,
@@ -596,8 +633,10 @@
     {
       "id": "Heart Cotton Candy",
       "name": "爱心棉花糖",
-      "description": "每次战斗开始时在20秒内使自己和攻击力最强的友军的攻击力增加10%。本效果不能与其他友军的相同效果堆叠套用。",
-      "value": {},
+      "description": "每次战斗开始时在20秒内使自己和攻击力最强的友军的攻击力增加{0}%。本效果不能与其他友军的相同效果堆叠套用。",
+      "value": {
+        "0": "10, 12, 14, 17, 21, 25"
+      },
       "thumbnail": "artifacts/Heart Cotton Candy.png",
       "story": "郊游的必需品！爱心棉花糖\n入口即化。",
       "aliases": null,
@@ -613,8 +652,10 @@
     {
       "id": "Cross Pumpkin Head",
       "name": "不开心的南瓜头",
-      "description": "最大生命值提高20%且对周围敌人造成相当于最大生命值2%的伤害。",
-      "value": {},
+      "description": "最大生命值提高{0}%且对周围敌人造成相当于最大生命值2%的伤害。",
+      "value": {
+        "0": "20, 24, 29, 35, 42, 50"
+      },
       "thumbnail": "artifacts/Cross Pumpkin Head.png",
       "story": "看起来像是悲伤南瓜的神秘物品，会在主人周围徘徊且发出奇妙的哭声。",
       "aliases": [
@@ -632,8 +673,11 @@
     {
       "id": "Angry Pumpkin Head",
       "name": "愤怒的南瓜头",
-      "description": "所有受到的伤害降低10%且对敌人造成的伤害提高10%。",
-      "value": {},
+      "description": "所有受到的伤害降低{0}%且对敌人造成的伤害提高{1}%。",
+      "value": {
+        "0": "10, 12, 14, 17, 20, 25",
+        "1": "10, 12, 14, 17, 20, 25"
+      },
       "thumbnail": "artifacts/Angry Pumpkin Head.png",
       "story": "看起来像是愤怒南瓜的神秘物品，会在主人周围徘徊且不停喘气。",
       "aliases": null,
@@ -649,8 +693,11 @@
     {
       "id": "Happy Pumpkin Head",
       "name": "愉快的南瓜头",
-      "description": "每7秒增加2%回复力，并回复等同自身攻击力100%的生命值，回复力增加效果最多可堆叠15次且无法解除。",
-      "value": {},
+      "description": "每7秒增加{0}%回复力，并回复等同自身攻击力{1}%的生命值，回复力增加效果最多可堆叠15次且无法解除。",
+      "value": {
+        "0": "2, 2.4, 2.8, 3.4, 4.2, 5",
+        "1": "100, 120, 140, 170, 210, 250"
+      },
       "thumbnail": "artifacts/Happy Pumpkin Head.png",
       "story": "外观像是愉快的南瓜脸的神秘物品，能够提升力量。",
       "aliases": null,
@@ -666,8 +713,11 @@
     {
       "id": "Surprised Pumpkin Head",
       "name": "惊讶的南瓜头",
-      "description": "当自身陷入状态异常时，将立即回复12%魔力，并在5秒内增加200攻击速度，此效果每30秒只会发动一次。",
-      "value": {},
+      "description": "当自身陷入状态异常时，将立即回复{0}%魔力，并在5秒内增加{1}攻击速度，此效果每30秒只会发动一次。",
+      "value": {
+        "0": "12, 14, 17, 21, 25, 30",
+        "1": "200, 240, 290, 350, 420, 500"
+      },
       "thumbnail": "artifacts/Surprised Pumpkin Head.png",
       "story": "外观像是惊讶的南瓜脸的诡异物品，散发一股让观看的人也感到讶异的奇妙氛围。",
       "aliases": null,
@@ -703,8 +753,11 @@
     {
       "id": "Frost Giant Mask",
       "name": "冰霜巨人面具",
-      "description": "对冰霜巨人的攻击提高40%，且对冰霜巨人的伤害抵抗提高20%",
-      "value": {},
+      "description": "对冰霜巨人的攻击提高{0}%，且对冰霜巨人的伤害抵抗提高{1}%",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
       "thumbnail": "artifacts/Frost Giant Mask.png",
       "story": "模仿冰霜巨人脸孔制作的面具，弥漫一股雪山的力量。",
       "aliases": null,
@@ -720,8 +773,10 @@
     {
       "id": "Golden Mask of Ancient King",
       "name": "上古王之金面具",
-      "description": "当受到攻击时，有5%的机率对所有伤害免疫3秒。冷却时间5秒。",
-      "value": {},
+      "description": "当受到攻击时，有5%的机率对所有伤害免疫{0}秒。冷却时间5秒。",
+      "value": {
+        "0": "3, 3.5, 4, 5, 6, 7.5"
+      },
       "thumbnail": "artifacts/Golden Mask of Ancient King.png",
       "story": "沙漠的新王曾使用过的黄金面具，因为施有绝对权能的魔法，所以会保护主人。",
       "aliases": null,
@@ -737,8 +792,11 @@
     {
       "id": "Mask of Dark Elf",
       "name": "黑暗精灵面具",
-      "description": "对黑暗精灵的攻击提高40%，且对黑暗精灵的伤害抵抗提高20%",
-      "value": {},
+      "description": "对黑暗精灵的攻击提高{0}%，且对黑暗精灵的伤害抵抗提高{1}%",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
       "thumbnail": "artifacts/Mask of Dark Elf.png",
       "story": "模仿黑暗精灵脸孔制作的面具，隐约散发月光的气息。",
       "aliases": null,
@@ -754,8 +812,11 @@
     {
       "id": "Mask of Draconic",
       "name": "恶龙面具",
-      "description": "对恶龙造成的伤害增加40%，受到的伤害量减少20%。",
-      "value": {},
+      "description": "对恶龙造成的伤害增加{0}%，受到的伤害量减少{1}%。",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
       "thumbnail": "artifacts/Mask of Draconic.png",
       "story": "仿照恶龙的脸所做的面具。它的那股恶之咆哮如火焰般窜出。",
       "aliases": null,
@@ -771,8 +832,11 @@
     {
       "id": "Mask of Goblin",
       "name": "哥布林面具",
-      "description": "对哥布林的攻击提高40%，且对哥布林的伤害抵抗提高20%",
-      "value": {},
+      "description": "对哥布林的攻击提高{0}%，且对哥布林的伤害抵抗提高{1}%",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
       "thumbnail": "artifacts/Mask of Goblin.png",
       "story": "模仿哥布林脸孔制作的面具，总觉得有些可爱。",
       "aliases": null,
@@ -788,8 +852,11 @@
     {
       "id": "Mask of Harpy",
       "name": "鹰身人族面具",
-      "description": "对鹰身人的攻击提高40%，且对鹰身人的伤害抵抗提高20%",
-      "value": {},
+      "description": "对鹰身人的攻击提高{0}%，且对鹰身人的伤害抵抗提高{1}%",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
       "thumbnail": "artifacts/Mask of Harpy.png",
       "story": "模仿鹰身人族脸孔制作的面具，听得见尖锐的风声。",
       "aliases": null,
@@ -805,8 +872,11 @@
     {
       "id": "Mask of Lizardman",
       "name": "蜥蜴人面具",
-      "description": "对蜥蜴人的攻击提高40%，且对蜥蜴人的伤害抵抗提高20%",
-      "value": {},
+      "description": "对蜥蜴人的攻击提高{0}%，且对蜥蜴人的伤害抵抗提高{1}%",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
       "thumbnail": "artifacts/Mask of Lizardman.png",
       "story": "模仿蜥蜴人脸孔制作的面具，散发一股贤者的余韵。",
       "aliases": null,
@@ -822,8 +892,11 @@
     {
       "id": "Mask of Orc",
       "name": "兽人族面具",
-      "description": "对兽人的攻击提高40%，且对兽人的伤害抵抗提高20%",
-      "value": {},
+      "description": "对兽人的攻击提高{0}%，且对兽人的伤害抵抗提高{1}%",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
       "thumbnail": "artifacts/Mask of Orc.png",
       "story": "模仿兽人族脸孔制作的面具，弥漫一股战意。",
       "aliases": null,
@@ -839,8 +912,11 @@
     {
       "id": "Undead Mask",
       "name": "不死族面具",
-      "description": "对不死族造成的伤害提升40%，所受伤害减少20%。",
-      "value": {},
+      "description": "对不死族造成的伤害提升{0}%，所受伤害减少{1}%。",
+      "value": {
+        "0": "40, 48, 57, 69, 83, 100",
+        "1": "20, 24, 28, 34, 41, 50"
+      },
       "thumbnail": "artifacts/Undead Mask.png",
       "story": "模仿骷髅脸孔制作的面具，散发一股死亡的味道。",
       "aliases": null,
@@ -856,8 +932,11 @@
     {
       "id": "Assassin's Veil",
       "name": "暗杀者的面罩",
-      "description": "自身的物理回避率增加100，回避成功时攻击力将增加1%，攻击力增加效果最多可堆叠20次。",
-      "value": {},
+      "description": "自身的物理回避率增加{0}，回避成功时攻击力将增加{1}%，攻击力增加效果最多可堆叠20次。",
+      "value": {
+        "0": "100, 120, 140, 170, 210, 250",
+        "1": "1, 1.2, 1.4, 1.7, 2.1, 2.5"
+      },
       "thumbnail": "artifacts/Assassin's Veil.png",
       "story": "面罩华丽到让人难以相信是暗杀时使用的工具，但它可是蕴含能扰乱对方心智的术法的魔导具。",
       "aliases": null,
@@ -873,8 +952,11 @@
     {
       "id": "Book of the Mad",
       "name": "狂人之书",
-      "description": "每秒降低自身的魔力100，\n对敌人造成的伤害提高14%。",
-      "value": {},
+      "description": "每秒降低自身的魔力{0}，\n对敌人造成的伤害提高{1}%。",
+      "value": {
+        "0": "100, 120, 140, 170, 210, 250",
+        "1": "14, 17, 21, 25, 30, 35"
+      },
       "thumbnail": "artifacts/Book of the Mad.png",
       "story": "漂泊荒野的疯狂魔法师的禁书。利用人的皮革与血制成的诅咒魔导书，虽然会消耗魔力使人陷入疯狂，但仍能保持最低程度的理智，尽管能发挥强大的效果，但由于魔力消耗效果不会解除，最后持有者会因为魔力严重耗损而走向毁灭之路。",
       "aliases": [
@@ -893,8 +975,10 @@
     {
       "id": "Burning Brazier of Elf",
       "name": "燃烧的精灵火炉",
-      "description": "攻击敌人时有10%机率回复1魔力。",
-      "value": {},
+      "description": "攻击敌人时有{0}%机率回复1魔力。",
+      "value": {
+        "0": "10, 12, 14, 17, 20, 25"
+      },
       "thumbnail": "artifacts/Burning Brazier of Elf.png",
       "story": "上古精灵族称颂大自然而制作的神秘火炉，是可以无止尽生产魔力且达到神秘境界的魔法结晶体。",
       "aliases": null,
@@ -910,8 +994,11 @@
     {
       "id": "Christmas Star Ornament",
       "name": "圣诞节星星饰品",
-      "description": "每场战斗开始后5秒内，每秒魔力回复量提高260%。另外暴击抵抗提高100。这个效果无法被解除。",
-      "value": {},
+      "description": "每场战斗开始后5秒内，每秒魔力回复量提高{0}%。另外暴击抵抗提高{1}。这个效果无法被解除。",
+      "value": {
+        "0": "260, 310, 370, 450, 540, 650",
+        "1": "100, 120, 140, 170, 210, 250"
+      },
       "thumbnail": "artifacts/Christmas Star Ornament.png",
       "story": "祝福神圣之夜的星星饰品，会飘浮在空中绽放光芒。",
       "aliases": null,
@@ -927,8 +1014,11 @@
     {
       "id": "Warm Turkey Dish",
       "name": "热腾腾的火鸡料理",
-      "description": "生命值上限增加10%，所有格挡率增加100。",
-      "value": {},
+      "description": "生命值上限增加{0}%，所有格挡率增加{1}。",
+      "value": {
+        "0": "10, 12, 14, 17, 21, 25",
+        "1": "100, 120, 140, 170, 210, 250"
+      },
       "thumbnail": "artifacts/Warm Turkey Dish.png",
       "story": "收获祭最受欢迎的No.1庆典食物，刚烤好的火鸡料理搭配英雄旅馆的特制肉汁，呈现出极致的美味。",
       "aliases": null,
@@ -944,8 +1034,10 @@
     {
       "id": "Well-Done Turkey Roast",
       "name": "烤熟的火鸡",
-      "description": "每15秒，回复最大生命值1%的生命，持续3秒。",
-      "value": {},
+      "description": "每15秒，回复最大生命值{0}%的生命，持续3秒。",
+      "value": {
+        "0": "1, 1.2, 1.4, 1.7, 2, 2.5"
+      },
       "thumbnail": "artifacts/Well-Done Turkey Roast.png",
       "story": "来自遥远海洋另一端的特产品，颂扬收获的活动中吃的食物。",
       "aliases": null,
@@ -961,8 +1053,10 @@
     {
       "id": "Christmas Tree of Holy Night",
       "name": "星夜圣诞树",
-      "description": "附加暴击伤害提高50%的效果。",
-      "value": {},
+      "description": "附加暴击伤害提高{0}%的效果。",
+      "value": {
+        "0": "50, 60, 72, 87, 105, 125"
+      },
       "thumbnail": "artifacts/Christmas Tree of Holy Night.png",
       "story": "传说中的圣诞树的缩小版，虽然已不具备实现愿望的力量，但最重要的是，它能让神圣的夜晚变得更加美丽。",
       "aliases": null,
@@ -978,8 +1072,11 @@
     {
       "id": "Cooling Delicacy in the Summer",
       "name": "清凉的夏季风味",
-      "description": "战斗开始时，30秒内非英雄的敌人造成的伤害减少20%，每2秒魔力回复100。",
-      "value": {},
+      "description": "战斗开始时，30秒内非英雄的敌人造成的伤害减少{0}%，每2秒魔力回复{1}。",
+      "value": {
+        "0": "20, 24, 28, 34, 42, 50",
+        "1": "100, 120, 140, 170, 210, 250"
+      },
       "thumbnail": "artifacts/Cooling Delicacy in the Summer.png",
       "story": "抵抗严酷夏日的必需品，不分男女老少，备受喜爱的奥勒贝尔特殊风味，\n\n喝一口浑身舒畅，喝两口暑气全消。",
       "aliases": null,
@@ -995,8 +1092,11 @@
     {
       "id": "Crystal Music Box",
       "name": "水晶音乐盒",
-      "description": "对英雄造成的伤害增加20%，受到的伤害增加10%。",
-      "value": {},
+      "description": "对英雄造成的伤害增加{0}%，受到的伤害增加{1}%。",
+      "value": {
+        "0": "20, 24, 29, 35, 42, 50",
+        "1": "10, 12, 14, 17, 21, 25"
+      },
       "thumbnail": "artifacts/Crystal Music Box.png",
       "story": "在克卢雅公国以前的领地被发现的水晶音乐盒，流淌着既悲伤又美丽的旋律。",
       "aliases": [
@@ -1031,8 +1131,11 @@
     {
       "id": "Drinking Horn of Ancient Cow",
       "name": "千年牛的角杯",
-      "description": "一般攻击时，有10%几率于10秒内攻击力增加10%，攻击速度增加100。",
-      "value": {},
+      "description": "一般攻击时，有10%几率于10秒内攻击力增加{0}%，攻击速度增加{1}。",
+      "value": {
+        "0": "10, 12, 14, 17, 20, 25",
+        "1": "100, 120, 140, 170, 200, 250"
+      },
       "thumbnail": "artifacts/Drinking Horn of Ancient Cow.png",
       "story": "利用在天空奔驰神圣牛的角当作素材制成的杯子，是蕴含丰饶之力的魔法角杯。",
       "aliases": null,
@@ -1048,8 +1151,11 @@
     {
       "id": "Fancy Traditional Pendant",
       "name": "华丽的单股吊饰",
-      "description": "暴击机率提高100且暴击伤害提高20%。",
-      "value": {},
+      "description": "暴击机率提高{0}且暴击伤害提高{1}%。",
+      "value": {
+        "0": "100, 120, 140, 170, 210, 250",
+        "1": "20, 24, 29, 35, 42, 50"
+      },
       "thumbnail": "artifacts/Fancy Traditional Pendant.png",
       "story": "消灭厄运带来幸运的神秘的传统吊饰，制作者是外国知名魔法物品的设计师。",
       "aliases": null,
@@ -1065,8 +1171,11 @@
     {
       "id": "Fantastic Hybrid Animals",
       "name": "神奇的半兽人字典",
-      "description": "战斗开始时，200秒内对非英雄的敌人造成的伤害增加12%，受到的伤害减少12% 。",
-      "value": {},
+      "description": "战斗开始时，200秒内对非英雄的敌人造成的伤害增加{0}%，受到的伤害减少{1}% 。",
+      "value": {
+        "0": "12, 14, 17, 21, 25, 30",
+        "1": "12, 14, 17, 21, 25, 30"
+      },
       "thumbnail": "artifacts/Fantastic Hybrid Animals.png",
       "story": "记录奥勒贝利亚大陆半兽人族的百科全书，由于是限量精装本，封面上使用金线绣有各种半兽人的轮廓。",
       "aliases": [
@@ -1084,8 +1193,11 @@
     {
       "id": "Feather of Sacrifice",
       "name": "牺牲的羽毛",
-      "description": "开始战斗时在120秒内自身受到的所有伤害将增加10%，同时敌方BOSS受到的所有伤害也会增加10%，\n此效果无法解除，并且不会与其他友军的效果重复套用。",
-      "value": {},
+      "description": "开始战斗时在120秒内自身受到的所有伤害将增加{0}%，同时敌方BOSS受到的所有伤害也会增加{1}%，\n此效果无法解除，并且不会与其他友军的效果重复套用。",
+      "value": {
+        "0": "10, 12, 14, 17, 21, 25",
+        "1": "10, 12, 14, 17, 21, 25"
+      },
       "thumbnail": "artifacts/Feather of Sacrifice.png",
       "story": "蕴含等价交换的炼金法术的羽毛，只要将敌人的名字刻印在施展者身上就会发动法术，短时间内会让自己与指定的敌人变弱。",
       "aliases": null,
@@ -1101,8 +1213,10 @@
     {
       "id": "Golden Apple of a Goddess",
       "name": "女神的金苹果",
-      "description": "当生命值低于25%，回复最大生命值的30%且解除所有负面效果。只会作用一次。",
-      "value": {},
+      "description": "当生命值低于25%，回复最大生命值的{0}%且解除所有负面效果。只会作用一次。",
+      "value": {
+        "0": "30, 36, 43, 51, 62, 75"
+      },
       "thumbnail": "artifacts/Golden Apple of a Goddess.png",
       "story": "据说是女神赐予的圣物之一，无论受到多么重的伤势皆能帮助回复的秘药。",
       "aliases": null,
@@ -1135,8 +1249,10 @@
     {
       "id": "Insignia of Iron Conviction",
       "name": "坚强信念的纹章",
-      "description": "此角色每受到50次魔法伤害，便解除自身的负面效果并且得到相当于480%攻击的防护罩，持续5秒。当防护罩作用时，免疫控场与伤害叠加效果。",
-      "value": {},
+      "description": "此角色每受到50次魔法伤害，便解除自身的负面效果并且得到相当于{0}%攻击的防护罩，持续5秒。当防护罩作用时，免疫控场与伤害叠加效果。",
+      "value": {
+        "0": "480, 580, 690, 830, 1000, 1200"
+      },
       "thumbnail": "artifacts/Insignia of Iron Conviction.png",
       "story": "魔族战争之前，奥勒贝利亚守护骑士团使用过的纹章，感觉得到正直骑士的信念。",
       "aliases": null,
@@ -1152,8 +1268,10 @@
     {
       "id": "Judgment of Light Bracelet",
       "name": "光之审判者手环",
-      "description": "命中率与状态异常命中率将增加300。",
-      "value": {},
+      "description": "命中率与状态异常命中率将增加{0}。",
+      "value": {
+        "0": "300, 360, 430, 520, 630, 750"
+      },
       "thumbnail": "artifacts/Judgment of Light Bracelet.png",
       "story": "露亚教圣骑士团以前制作的祝福手环，据说是仅存无几的悠久魔法器具。",
       "aliases": null,
@@ -1169,8 +1287,10 @@
     {
       "id": "Kiddy Chick",
       "name": "小小鸡",
-      "description": "攻击速度增加80。",
-      "value": {},
+      "description": "攻击速度增加{0}。",
+      "value": {
+        "0": "80, 96, 115, 138, 165, 200"
+      },
       "thumbnail": "artifacts/Kiddy Chick.png",
       "story": "象征纯真孩童的小鸡玩偶",
       "aliases": null,
@@ -1186,8 +1306,11 @@
     {
       "id": "Lion of Protection",
       "name": "守护的狮子像",
-      "description": "提高自身的物理防御力20%及物理格挡率100。",
-      "value": {},
+      "description": "提高自身的物理防御力{0}%及物理格挡率{1}。",
+      "value": {
+        "0": "20, 24, 29, 35, 42, 50",
+        "1": "100, 120, 140, 170, 210, 250"
+      },
       "thumbnail": "artifacts/Lion of Protection.png",
       "story": "使用白银制成的狮子雕像，是奥勒贝尔王室的象征，狮子的眼睛使用蓝宝石装饰，蕴含想要守护王国的愿望，保护持有者不受邪恶力量的伤害。",
       "aliases": null,
@@ -1203,8 +1326,11 @@
     {
       "id": "LuLu's Necklace",
       "name": "露露的项链",
-      "description": "在开始战斗时，于30秒内增加对非英雄的敌人造成的伤害20%，并每隔5秒回复魔力200。",
-      "value": {},
+      "description": "在开始战斗时，于30秒内增加对非英雄的敌人造成的伤害{0}%，并每隔5秒回复魔力{1}。",
+      "value": {
+        "0": "20, 24, 28, 34, 42, 50",
+        "1": "200, 240, 280, 340, 420, 500"
+      },
       "thumbnail": "artifacts/LuLu's Necklace.png",
       "story": "巨兔露露戴着晶莹剔透的项链。\n利用满月时掉落的碎片加工制作而成。\n戴上项链的瞬间，全身会弥漫神秘的满月之力。",
       "aliases": null,
@@ -1258,8 +1384,11 @@
     {
       "id": "Madame's Bronze Mirrors",
       "name": "贵夫人的青铜镜",
-      "description": "自身的魔法格挡率增加300，受到的魔法伤害减少量增加100。",
-      "value": {},
+      "description": "自身的魔法格挡率增加{0}，受到的魔法伤害减少量增加{1}。",
+      "value": {
+        "0": "300, 330, 360, 400, 440, 500",
+        "1": "100, 110, 120, 140, 160, 200"
+      },
       "thumbnail": "artifacts/Madame's Bronze Mirrors.png",
       "story": "古魔导王国的青铜镜，看起来像是某个天才魔法师送给妻子的礼物，刻印有保护爱人所设置的符石。",
       "aliases": null,
@@ -1275,8 +1404,10 @@
     {
       "id": "Magical Flute",
       "name": "魔笛",
-      "description": "每隔8秒提升自己与任2名友军的攻击速度100，每次持续4秒。",
-      "value": {},
+      "description": "每隔8秒提升自己与任2名友军的攻击速度{0}，每次持续4秒。",
+      "value": {
+        "0": "100, 120, 140, 170, 210, 250"
+      },
       "thumbnail": "artifacts/Magical Flute.png",
       "story": "使用雪山守护兽奥洛克斯的骨头制成的古代笛子。蕴含提升战士士气的疾风咒术，赋予听见笛声的战士些许的加速效果。",
       "aliases": null,
@@ -1292,8 +1423,10 @@
     {
       "id": "New Year's Fireworks",
       "name": "新年鞭炮",
-      "description": "每场战斗开始时攻击提高5%，持续60秒。",
-      "value": {},
+      "description": "每场战斗开始时攻击提高{0}%，持续60秒。",
+      "value": {
+        "0": "5, 6, 7.2, 8.6, 10.4, 12.5"
+      },
       "thumbnail": "artifacts/New Year's Fireworks.png",
       "story": "将2017年的担忧全都一扫而空，好好享受迎接2018年的心情的道具。",
       "aliases": null,
@@ -1309,8 +1442,10 @@
     {
       "id": "New Year's Fanfare",
       "name": "新年祝贺喇叭",
-      "description": "每次战斗开始时，于20秒内增加我方4名友军的攻击力5%，此效果无法与其他友军的相同效果堆叠套用。",
-      "value": {},
+      "description": "每次战斗开始时，于20秒内增加我方4名友军的攻击力{0}%，此效果无法与其他友军的相同效果堆叠套用。",
+      "value": {
+        "0": "5, 6, 7.2, 8.6, 10.4, 12.5"
+      },
       "thumbnail": "artifacts/New Year's Fanfare.png",
       "story": "使用小号演奏的轻快祝贺曲，能够让新升起太阳的祝福传至远方。",
       "aliases": null,
@@ -1346,8 +1481,10 @@
     {
       "id": "Orbs of Contract",
       "name": "契约之珠",
-      "description": "每7秒提高相当于1%攻击的魔法防御。此效果最多可以堆叠6次。",
-      "value": {},
+      "description": "每7秒提高相当于{0}%攻击的魔法防御。此效果最多可以堆叠6次。",
+      "value": {
+        "0": "1, 1.2, 1.4, 1.7, 2, 2.5"
+      },
       "thumbnail": "artifacts/Orbs of Contract.png",
       "story": "心爱的两个人互相分享的珠子，代表即使分开也要心连心的灵魂伴侣。",
       "aliases": null,
@@ -1363,8 +1500,10 @@
     {
       "id": "Perfume of the Queen",
       "name": "女王的香水",
-      "description": "当陷入状态异常3次时，将会解除自身受到的负面效果，并在4秒内增加攻击速度500，同时对状态异常免疫。",
-      "value": {},
+      "description": "当陷入状态异常3次时，将会解除自身受到的负面效果，并在{0}秒内增加攻击速度500，同时对状态异常免疫。",
+      "value": {
+        "0": "4, 4.8, 5.8, 7, 8.4, 10"
+      },
       "thumbnail": "artifacts/Perfume of the Queen.png",
       "story": "传说中的黄金女王爱用的香水，是一种只要闻过其香味就会被诱惑的传奇香水。",
       "aliases": null,
@@ -1380,8 +1519,11 @@
     {
       "id": "Pocket Watch of Ancient Civilization",
       "name": "上古文明的怀表",
-      "description": "每10秒降低所有冷却时间1秒且提高攻击速度80，持续5秒。",
-      "value": {},
+      "description": "每10秒降低所有冷却时间{0}秒且提高攻击速度{1}，持续5秒。",
+      "value": {
+        "0": "1, 1.2, 1.4, 1.7, 2, 2.5",
+        "1": "80, 96, 115, 138, 165, 200"
+      },
       "thumbnail": "artifacts/Pocket Watch of Ancient Civilization.png",
       "story": "为了窥视命运而稍微提前时间的怀表，过度使用可能会造成危险。",
       "aliases": null,
@@ -1397,8 +1539,11 @@
     {
       "id": "Primer for the Heroes",
       "name": "英雄入门书",
-      "description": "生命值低于20%时，攻击力将会增加30%，并且攻击速度和所有伤害减少量增加300。",
-      "value": {},
+      "description": "生命值低于20%时，攻击力将会增加{0}%，并且攻击速度和所有伤害减少量增加{1}。",
+      "value": {
+        "0": "30, 36, 43, 51, 62, 75",
+        "1": "300, 360, 430, 510, 620, 750"
+      },
       "thumbnail": "artifacts/Primer for the Heroes.png",
       "story": "记载过去英雄编年史与故事且想成为英雄的入门书，内容都使用上古文字。",
       "aliases": null,
@@ -1414,8 +1559,11 @@
     {
       "id": "Roaring Tiger Statue",
       "name": "咆哮的老虎雕像",
-      "description": "英雄的生命值低于35%时，对周围敌人造成攻击力100%的伤害并将其击倒。使目标敌人的攻击力降低14%，攻击速度降低140，持续10秒。冷却时间为30秒。",
-      "value": {},
+      "description": "英雄的生命值低于35%时，对周围敌人造成攻击力100%的伤害并将其击倒。使目标敌人的攻击力降低{0}%，攻击速度降低{1}，持续10秒。冷却时间为30秒。",
+      "value": {
+        "0": "14, 16, 20, 24, 29, 35",
+        "1": "140, 160, 200, 240, 290, 350"
+      },
       "thumbnail": "artifacts/Roaring Tiger Statue.png",
       "story": "模仿咆哮的老虎所制成的奇妙黄金像，只要符合条件，老虎就会苏醒让周围的一切因为恐惧而颤抖。",
       "aliases": null,
@@ -1431,8 +1579,11 @@
     {
       "id": "Sealed Chain of Ancient God",
       "name": "上古神之封印锁链",
-      "description": "每20秒使随机1名敌人陷入沉默状态3秒，并解除其正面效果。",
-      "value": {},
+      "description": "每{0}秒使随机1名敌人陷入沉默状态{1}秒，并解除其正面效果。",
+      "value": {
+        "0": "20, 19, 18, 17, 16, 15",
+        "1": "3, 3.5, 4, 4.5, 5, 6"
+      },
       "thumbnail": "artifacts/Sealed Chain of Ancient God.png",
       "story": "相传是沙漠的新王使唤自己的奴隶时使用的锁链，被绑住后就无法进行反抗。",
       "aliases": null,
@@ -1448,8 +1599,11 @@
     {
       "id": "Solar Stone",
       "name": "太阳之石",
-      "description": "每秒对自身周围圆形范围内的敌人造成攻击力20%的物理伤害，并使其受到的治疗量降低30%，持续5秒。",
-      "value": {},
+      "description": "每秒对自身周围圆形范围内的敌人造成攻击力{0}%的物理伤害，并使其受到的治疗量降低{1}%，持续5秒。",
+      "value": {
+        "0": "20, 24, 29, 35, 42, 50",
+        "1": "30, 36, 43, 52, 62, 75"
+      },
       "thumbnail": "artifacts/Solar Stone.png",
       "story": "将蕴含火之力的魔法石雕刻成如同太阳一般的魔导具，它具备能将穿戴者周遭的不纯之物燃烧净化的效果。",
       "aliases": null,
@@ -1465,8 +1619,11 @@
     {
       "id": "Sorcerous Black Dagger",
       "name": "暗黑咒术短剑",
-      "description": "自动攻击时，有10%机率降低敌人的魔力600，冷却时间6秒。",
-      "value": {},
+      "description": "自动攻击时，有{0}%机率降低敌人的魔力{1}，冷却时间6秒。",
+      "value": {
+        "0": "10, 12, 14, 16, 18, 20",
+        "1": "600, 700, 800, 1000, 1200, 1500"
+      },
       "thumbnail": "artifacts/Sorcerous Black Dagger.png",
       "story": "推测是暗杀用的上古咒术匕首。施有扰乱魔力的邪恶咒术。",
       "aliases": null,
@@ -1482,8 +1639,11 @@
     {
       "id": "Soul Spring Water",
       "name": "灵魂之泉",
-      "description": "每场战斗开始时，回复24%生命值与12%魔力。",
-      "value": {},
+      "description": "每场战斗开始时，回复{0}%生命值与{1}%魔力。",
+      "value": {
+        "0": "24, 28, 34, 42, 50, 60",
+        "1": "12, 14, 17, 21, 25, 30"
+      },
       "thumbnail": "artifacts/Soul Spring Water.png",
       "story": "据说每一百年能在灵魂之泉收集到一滴，非常珍贵与有效的灵药。",
       "aliases": [
@@ -1501,8 +1661,11 @@
     {
       "id": "Talismans of Resistance",
       "name": "抵抗的咒术符",
-      "description": "解除所有的负面效果，并在解除后的1秒内获得状态异常免疫效果。此技能需要20秒的冷却时间。",
-      "value": {},
+      "description": "解除所有的负面效果，并在解除后的{0}秒内获得状态异常免疫效果。此技能需要{1}秒的冷却时间。",
+      "value": {
+        "0": "1, 1.5, 2, 2.5, 3, 3.5",
+        "1": "20, 19, 18, 17, 16, 15"
+      },
       "thumbnail": "artifacts/Talismans of Resistance.png",
       "story": "能驱离恶鬼的异国符咒，使用后过一段时间就会失去效果。",
       "aliases": null,
@@ -1518,8 +1681,11 @@
     {
       "id": "Tarot Card of Loss",
       "name": "失效的塔罗牌",
-      "description": "暴击率减少150，攻击力增加30%。",
-      "value": {},
+      "description": "暴击率减少{0}，攻击力增加{1}%。",
+      "value": {
+        "0": "150, 180, 210, 260, 310, 375",
+        "1": "30, 36, 43, 52, 63, 75"
+      },
       "thumbnail": "artifacts/Tarot Card of Loss.png",
       "story": "掉在丛林深处的具有强效魔力的卡片。看来是谁不小心掉了。据说是魔女莤卡莱嘉丝为了要纪念自己最珍贵的人之死而所创造。",
       "aliases": null,
@@ -1535,8 +1701,10 @@
     {
       "id": "The Ancient Scope",
       "name": "古代望远镜",
-      "description": "当魔力100%时，暴击机率与命中率提高400，持续10秒。冷却时间20秒。",
-      "value": {},
+      "description": "当魔力100%时，暴击机率与命中率提高{0}，持续10秒。冷却时间20秒。",
+      "value": {
+        "0": "400, 480, 570, 690, 830, 1000"
+      },
       "thumbnail": "artifacts/The Ancient Scope.png",
       "story": "上古工程法师制作的望远镜，能协助详细看清楚远距离物品的工具。",
       "aliases": null,
@@ -1552,8 +1720,11 @@
     {
       "id": "Tome of Black Magic",
       "name": "黑魔法之书",
-      "description": "每10秒瞄准一个敌人，该敌人每秒受到无视防御且相当于其现有生命值2%的伤害，持续5秒，并降低魔力200。这个技能只在竞技场有效。",
-      "value": {},
+      "description": "每10秒瞄准一个敌人，该敌人每秒受到无视防御且相当于其现有生命值{0}%的伤害，持续5秒，并降低魔力{1}。这个技能只在竞技场有效。",
+      "value": {
+        "0": "2, 2.4, 2.9, 3.5, 4.2, 5",
+        "1": "200, 240, 290, 350, 420, 500"
+      },
       "thumbnail": "artifacts/Tome of Black Magic.png",
       "story": "记载邪恶黑魔法的书籍，有许多恶魔传授人类的咒文。",
       "aliases": null,
@@ -1569,8 +1740,11 @@
     {
       "id": "Vase of Sacrifice",
       "name": "牺牲的花瓶",
-      "description": "受到50次伤害后，为随机1名友方恢复自身攻击力200%的生命值，并使目标的攻击力提高30%，持续10秒。",
-      "value": {},
+      "description": "受到50次伤害后，为随机1名友方恢复自身攻击力{0}%的生命值，并使目标的攻击力提高{1}%，持续10秒。",
+      "value": {
+        "0": "200, 240, 290, 350, 420, 500",
+        "1": "30, 36, 43, 51, 63, 75"
+      },
       "thumbnail": "artifacts/Vase of Sacrifice.png",
       "story": "被放在在魔族战争中，献出自己生命去战斗的某位将军之墓前的花瓶。灵验的伊甸园江水在花瓶里发着灿烂光辉，静静地流着。",
       "aliases": null,
@@ -1586,8 +1760,11 @@
     {
       "id": "Fragment of an Ancient Kingdom",
       "name": "古代王国的碎片",
-      "description": "状态异常抵抗力增加200、状态异常命中率增加200。",
-      "value": {},
+      "description": "状态异常抵抗力增加{0}、状态异常命中率增加{1}。",
+      "value": {
+        "0": "200, 240, 290, 350, 420, 500",
+        "1": "200, 240, 290, 350, 420, 500"
+      },
       "thumbnail": "artifacts/Fragment of an Ancient Kingdom.png",
       "story": "古代遗迹来历不明的机械装置中发现的零件，推测是和瞬间移动相关的机械装置的一部分。",
       "aliases": null,
@@ -1603,8 +1780,10 @@
     {
       "id": "Goddess of Glory",
       "name": "荣耀女神像",
-      "description": "每次战斗开始时，于20秒内增加我方4名友军的攻击速度100，此效果不会和其他友军的相同效果堆叠套用。",
-      "value": {},
+      "description": "每次战斗开始时，于20秒内增加我方4名友军的攻击速度{0}，此效果不会和其他友军的相同效果堆叠套用。",
+      "value": {
+        "0": "100, 120, 140, 170, 210, 250"
+      },
       "thumbnail": "artifacts/Goddess of Glory.png",
       "story": "手拿着月桂树的黄金女神像，让持有者获得胜利。",
       "aliases": null,
@@ -1640,8 +1819,10 @@
     {
       "id": "Pendulum of Fantasy",
       "name": "幻想的钟摆",
-      "description": "每次开始战斗时，将永久增加攻击力10%。此效果最多可堆叠5次且无法解除。",
-      "value": {},
+      "description": "每次开始战斗时，将永久增加攻击力{0}%。此效果最多可堆叠5次且无法解除。",
+      "value": {
+        "0": "10, 12, 14, 17, 21, 25"
+      },
       "thumbnail": "artifacts/Pendulum of Fantasy.png",
       "story": "被传说赫西波利亚在使用骰子之前用过的神器。\n看着左右摇摆的钟摆，仿佛就要被幻想的世界卷进去一样。",
       "aliases": null,
@@ -1677,8 +1858,10 @@
     {
       "id": "Ancient God King's Coin",
       "name": "上古新王的钱币",
-      "description": "攻击力增加20%，暴击伤害量增加20%。",
-      "value": {},
+      "description": "攻击力增加{0}%，暴击伤害量增加{0}%。",
+      "value": {
+        "0": "20, 24, 29, 35, 42, 50"
+      },
       "thumbnail": "artifacts/Ancient God King's Coin.png",
       "story": "在遥远的过去，有位带领沙漠王国塞奇雷奈尔迈向繁荣昌盛的新王该隐。\n这是他用沙漠中提取的金子铸造的灿烂夺目的纪念币。\n因其蕴涵着奇异的力量，拿着它彷佛就能感觉到太阳的力量与热气。",
       "aliases": null,
@@ -1694,8 +1877,10 @@
     {
       "id": "Amethyst Pendulum",
       "name": "紫水晶锤",
-      "description": "每10秒所有的暴击抵抗增加200，效果维持7秒。",
-      "value": {},
+      "description": "每10秒所有的暴击抵抗增加{0}，效果维持7秒。",
+      "value": {
+        "0": "200, 240, 290, 350, 420, 500"
+      },
       "thumbnail": "artifacts/Amethyst Pendulum.png",
       "story": "用紫水晶制作的钟摆。可驱逐邪恶的力量并可以事先感应到不祥的气息。",
       "aliases": [
@@ -1839,8 +2024,11 @@
     {
       "id": "Academic Achievement Award",
       "name": "成绩优秀奖",
-      "description": "使全部友军的攻击力增加8%且使自己的所有防御力增加10%。本效果不能与其他友军的相同效果堆叠套用。",
-      "value": {},
+      "description": "使全部友军的攻击力增加{0}%且使自己的所有防御力增加{1}%。本效果不能与其他友军的相同效果堆叠套用。",
+      "value": {
+        "0": "8, 10, 12, 14, 17, 20",
+        "1": "10, 12, 14, 17, 21, 25"
+      },
       "thumbnail": "artifacts/Academic Achievement Award.png",
       "story": "该学生学习成绩优异，品行端正，是其他学生的典范，故授予此奖牌。\n－校长乐皮－",
       "aliases": [
@@ -2757,7 +2945,6 @@
   ],
   "bosses": {
     "Apocalypsion": {
-      "id": "Apocalypsion",
       "name": "阿波卡莉西温",
       "title": "破灭的灾难",
       "type": [
@@ -2775,7 +2962,6 @@
       ]
     },
     "Ascalon": {
-      "id": "Ascalon",
       "name": "阿斯卡隆",
       "title": "圣殿的监视者",
       "type": [
@@ -2794,7 +2980,6 @@
       ]
     },
     "Delta": {
-      "id": "Delta",
       "name": "德尔塔",
       "title": "掠夺者MK-XX",
       "type": [
@@ -2812,7 +2997,6 @@
       ]
     },
     "Devourer Shakmeh": {
-      "id": "Devourer Shakmeh",
       "name": "贪婪者沙克梅",
       "title": "贪婪者",
       "type": [
@@ -2830,7 +3014,6 @@
       ]
     },
     "Event Protianus": {
-      "id": "Event Protianus",
       "name": "活动普罗提亚努斯",
       "title": "不屈的鲁蛇团长",
       "type": [
@@ -2848,7 +3031,6 @@
       ]
     },
     "Galgoria": {
-      "id": "Galgoria",
       "name": "加戈里亚",
       "title": "紧握死亡之手",
       "type": [
@@ -2866,7 +3048,6 @@
       ]
     },
     "Gushak": {
-      "id": "Gushak",
       "name": "裘夏克",
       "title": "血祭坛酋长",
       "type": [
@@ -2884,7 +3065,6 @@
       ]
     },
     "Imet": {
-      "id": "Imet",
       "name": "意迈特",
       "title": "沙漠的勇气",
       "type": [
@@ -2902,7 +3082,6 @@
       ]
     },
     "Lakreil": {
-      "id": "Lakreil",
       "name": "劳格雷尔",
       "title": "憎恶荆棘",
       "type": [
@@ -2921,7 +3100,6 @@
       ]
     },
     "Manticore": {
-      "id": "Manticore",
       "name": "蝎尾狮",
       "title": "浑沌魔兽",
       "type": [
@@ -2939,7 +3117,6 @@
       ]
     },
     "Maviel": {
-      "id": "Maviel",
       "name": "马彼耶尔",
       "title": "疯狂刺客",
       "type": [
@@ -2957,7 +3134,6 @@
       ]
     },
     "Mountain Fortress": {
-      "id": "Mountain Fortress",
       "name": "山脉堡垒",
       "title": "古代皇家遗产",
       "type": [
@@ -2975,7 +3151,6 @@
       ]
     },
     "Musama": {
-      "id": "Musama",
       "name": "慕沙马",
       "title": "太阳之眼",
       "type": [
@@ -2993,7 +3168,6 @@
       ]
     },
     "Nordik": {
-      "id": "Nordik",
       "name": "诺勒帝",
       "title": "上古巫妖",
       "type": [
@@ -3011,7 +3185,6 @@
       ]
     },
     "Nubis": {
-      "id": "Nubis",
       "name": "纽琵司",
       "title": "囚禁女王",
       "type": [
@@ -3029,7 +3202,6 @@
       ]
     },
     "Otherworldly Shakmeh": {
-      "id": "Otherworldly Shakmeh",
       "name": "异质的黑暗沙克梅",
       "title": "异质的黑暗",
       "type": [
@@ -3047,7 +3219,6 @@
       ]
     },
     "Protianus": {
-      "id": "Protianus",
       "name": "普罗提努斯",
       "title": "沉没的海底王国统治者",
       "type": [
@@ -3065,7 +3236,6 @@
       ]
     },
     "Sekmaha": {
-      "id": "Sekmaha",
       "name": "塞克玛哈",
       "title": "流动使者",
       "type": [
@@ -3083,7 +3253,6 @@
       ]
     },
     "Siegfried": {
-      "id": "Siegfried",
       "name": "齐格弗里特",
       "title": "扭曲的黎明",
       "type": [
@@ -3102,7 +3271,6 @@
       ]
     },
     "Solenis": {
-      "id": "Solenis",
       "name": "瑟雷尼丝",
       "title": "守护女神之神圣",
       "type": [
@@ -3120,7 +3288,6 @@
       ]
     },
     "Tersio": {
-      "id": "Tersio",
       "name": "泰勒希欧",
       "title": "被疯狂气息\n浸染的龙",
       "type": [
@@ -3138,7 +3305,6 @@
       ]
     },
     "Tyrfas": {
-      "id": "Tyrfas",
       "name": "泰勒法斯",
       "title": "终极神兽",
       "type": [
@@ -3157,7 +3323,6 @@
       ]
     },
     "Velkazar": {
-      "id": "Velkazar",
       "name": "裴卡查勒",
       "title": "地狱惩罚者",
       "type": [
@@ -3175,7 +3340,6 @@
       ]
     },
     "Xakios": {
-      "id": "Xakios",
       "name": "查奇奥斯",
       "title": "受诅咒的世界之树",
       "type": [
@@ -3193,7 +3357,6 @@
       ]
     },
     "Xanadus": {
-      "id": "Xanadus",
       "name": "札娜杜思",
       "title": "深渊圣母",
       "type": [
@@ -3212,7 +3375,6 @@
       ]
     },
     "Zeta": {
-      "id": "Zeta",
       "name": "泽塔",
       "title": "掠夺者MK-XX",
       "type": [

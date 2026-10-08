@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Schwingen der Verderbnis, Apoliox",
-    "description": "Gewährt alle 20 Sek. „Gefäß der Flüche“ und erhöht den ANG für 10 Sek. um 20 %.",
-    "value": {},
+    "description": "Gewährt alle {0} Sek. „Gefäß der Flüche“ und erhöht den ANG für 10 Sek. um {1} %.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "18",
+        "2": "16",
+        "3": "14",
+        "4": "12",
+        "5": "10"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      }
+    },
     "thumbnail": "heroes/Shamilla/uw.png",
     "story": "Flüche entstehen aus negativen Gefühlen wie Hass, Eifersucht und Feindseligkeit. Sie sind der beste Nährboden für Shamilla. Die Schwingen erlangten ihre Macht während des Dämonenkrieges, indem sie die Flüche unzähliger Menschen absorbierten, die andere Menschen in Angst versetzten. Jene, die die Federn berührten, waren an viele Flüche gebunden und wurden in einen Strudel der Emotionen gezogen. In diesem Abgrund hallt fesselndes Gelächter wider. Das Gelächter eines Dämons, der sich an unterschiedlichen menschlichen Gefühle gütlich tut.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Befreiung der Flüche",
-      "description": "[Fluch der Versteinerung] erhöht die Anzahl an Zielen um 1 und verringert Mag. Ausweichen des Ziels 10 Sek. lang um 120.",
-      "value": {},
+      "description": "[Fluch der Versteinerung] erhöht die Anzahl an Zielen um 1 und verringert Mag. Ausweichen des Ziels 10 Sek. lang um {0}.",
+      "value": {
+        "0": {
+          "0": "120",
+          "1": "140",
+          "2": "170",
+          "3": "210",
+          "4": "250",
+          "5": "300"
+        }
+      },
       "thumbnail": "heroes/Shamilla/ut/1.png",
       "story": "Ein Juwel, das die Flüche freilässt, die Shamilla in sich trägt.\nShamilla verwendet dieses Juwel manchmal, um Flüche aus ihrem Körper freizugeben, nur um eine spannende Geschichte zu verfolgen, die genau nach ihrem Plan abläuft. Am häufigsten setzt sie den Fluch „Versteinerung“ ein, hauptsächliche deshalb, um dafür zu sorgen, dass die richtigen Charaktere bei ihren Intrigen mitspielen.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Herz eines uralten Dämons",
-      "description": "[Fluch der Zeit] erhöht den Cooldown zus. um 0,7 Sek. und verringert die Mag. VERT des Ziels 10 Sek. lang um 10 %.",
-      "value": {},
+      "description": "[Fluch der Zeit] erhöht den Cooldown zus. um 0,7 Sek. und verringert die Mag. VERT des Ziels 10 Sek. lang um {0} %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Shamilla/ut/2.png",
       "story": "Ein seltsames Juwel, aus dem das verbitterte Geflüster uralter Dämonen hervordringt.\nEin verfluchter Gegenstand, der mit den vergessenen Seelen uralter Dämonen gefüllt ist.\nTagtäglich versuchen sie, zu entkommen, doch das lässt sich nicht so einfach zu.\nIhre Seele hat alle Flüche der Welt aufgenommen,\nsie ist tief und dunkel wie der Abgrund.",
       "descriptionByStar": {
@@ -191,11 +226,11 @@
       "story": "Shamilla war dazu verflucht, alle Flüche der Welt in sich zu tragen.\nMan könnte sie auch als Retterin sehen, die all diese Flüche in sich einschließt.\nMit ihrem Tod würde all das Böse, das sie in sich trägt, wieder auf die Welt losgelassen werden.\nShamilla hat dieses Gefäß der Flüche hergestellt, um die Flüche einzufangen, die sie ausgespien hat.",
       "descriptionByStar": {
         "0": "[Fluch des Schmerzes] erhöht den Schaden um 20 % und kann den kontinuierlichen Schaden nicht entfernen.",
-        "1": "[Fluch des Schmerzes] schaden wird um 24 % erhöht und erhält einen Stapel von „Gefäß der Flüche“, nachdem ein Feind getötet wurde.",
-        "2": "[Fluch des Schmerzes] schaden wird um 29 % erhöht und erhält einen Stapel von „Gefäß der Flüche“, nachdem ein Feind getötet wurde.",
-        "3": "[Fluch des Schmerzes] schaden wird um 35 % erhöht und erhält einen Stapel von „Gefäß der Flüche“, nachdem ein Feind getötet wurde.",
-        "4": "[Fluch des Schmerzes] schaden wird um 42 % erhöht und erhält einen Stapel von „Gefäß der Flüche“, nachdem ein Feind getötet wurde.",
-        "5": "[Fluch des Schmerzes] schaden wird um 50 % erhöht und erhält einen Stapel von „Gefäß der Flüche“, nachdem ein Feind getötet wurde."
+        "1": "[Fluch des Schmerzes] erhöht den Schaden um 24 % und kann den kontinuierlichen Schaden nicht entfernen.",
+        "2": "[Fluch des Schmerzes] erhöht den Schaden um 29 % und kann den kontinuierlichen Schaden nicht entfernen.",
+        "3": "[Fluch des Schmerzes] erhöht den Schaden um 35 % und kann den kontinuierlichen Schaden nicht entfernen.",
+        "4": "[Fluch des Schmerzes] erhöht den Schaden um 42 % und kann den kontinuierlichen Schaden nicht entfernen.",
+        "5": "[Fluch des Schmerzes] erhöht den Schaden um 50 % und kann den kontinuierlichen Schaden nicht entfernen."
       }
     },
     "4": {
@@ -215,11 +250,11 @@
       "story": "Der Quell aller Flüche.\nIhre Wurzeln begannen zu wachsen, als der Hass geboren wurde und die Welt das Böse kennenlernte.\nSie befindet sich tief im Inneren von Shamilla, dem Gefäß der Flüche, und wird immer abscheulicher, je mehr Flüche sie hervorbringt.",
       "descriptionByStar": {
         "0": "[Gefäß der Flüche] verringert beim Erhalt von Gefäß der Flüche den Cooldown aller Skills des Wirkers um 12 % und erhöht 5 Sek. lang alle VERT um 50 %. Der VERT-Erhöhungseffekt kann nicht entfernt werden.",
-        "1": "[Gefäß der Flüche] nach dem Erlangen von Skill wird der Cooldown aller Skills um 14 % verringert sowie alle VERT für 5 Sek. um 50 % erhöht.",
-        "2": "[Gefäß der Flüche] nach dem Erlangen von Skill wird der Cooldown aller Skills um 17 % verringert sowie alle VERT für 5 Sek. um 50 % erhöht.",
-        "3": "[Gefäß der Flüche] nach dem Erlangen von Skill wird der Cooldown aller Skills um 21 % verringert sowie alle VERT für 5 Sek. um 50 % erhöht.",
-        "4": "[Gefäß der Flüche] nach dem Erlangen von Skill wird der Cooldown aller Skills um 25 % verringert sowie alle VERT für 5 Sek. um 50 % erhöht.",
-        "5": "[Gefäß der Flüche] nach dem Erlangen von Skill wird der Cooldown aller Skills um 30 % verringert sowie alle VERT für 5 Sek. um 50 % erhöht."
+        "1": "[Gefäß der Flüche] verringert beim Erhalt von Gefäß der Flüche den Cooldown aller Skills des Wirkers um 14 % und erhöht 5 Sek. lang alle VERT um 50 %. Der VERT-Erhöhungseffekt kann nicht entfernt werden.",
+        "2": "[Gefäß der Flüche] verringert beim Erhalt von Gefäß der Flüche den Cooldown aller Skills des Wirkers um 17 % und erhöht 5 Sek. lang alle VERT um 50 %. Der VERT-Erhöhungseffekt kann nicht entfernt werden.",
+        "3": "[Gefäß der Flüche] verringert beim Erhalt von Gefäß der Flüche den Cooldown aller Skills des Wirkers um 21 % und erhöht 5 Sek. lang alle VERT um 50 %. Der VERT-Erhöhungseffekt kann nicht entfernt werden.",
+        "4": "[Gefäß der Flüche] verringert beim Erhalt von Gefäß der Flüche den Cooldown aller Skills des Wirkers um 25 % und erhöht 5 Sek. lang alle VERT um 50 %. Der VERT-Erhöhungseffekt kann nicht entfernt werden.",
+        "5": "[Gefäß der Flüche] verringert beim Erhalt von Gefäß der Flüche den Cooldown aller Skills des Wirkers um 30 % und erhöht 5 Sek. lang alle VERT um 50 %. Der VERT-Erhöhungseffekt kann nicht entfernt werden."
       }
     }
   },

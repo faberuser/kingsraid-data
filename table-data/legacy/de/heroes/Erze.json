@@ -144,29 +144,52 @@
     "thumbnail": "heroes/Erze/uw.png",
     "story": "Wann hat all das begonnen ...?\nDiese Qual und dieser unstillbare Durst ...\nAber wenn dieser Durst gelöscht ist ...\nPocht mein Herz vor Hass dir gegenüber, Seria ...\nAh, Seria. Ich habe keine andere Wahl.\nIch brauche diese Macht, um diesen endlosen Durst zu stillen.\nDiese immerwährende Essenz der Macht ist die einzige Heilung für meine ewige Qual.\nAh ... Diese Ekstase ...\nMehr ... Ich brauche mehr Erregung.",
     "descriptionByStar": {
-      "0": "Jeder Skill-Treffer erhöht den eigenen ANG und die ANG-GESCHW. für 30 Sek. um jeweils 0.5 %. Dieser Effekt ist bis zu 80-mal stapelbar und kann nicht entfernt werden."
+      "0": "Jeder Skill-Treffer erhöht den eigenen ANG und die ANG-GESCHW. für 30 Sek. um jeweils 0.5 %. Dieser Effekt ist bis zu 80-mal stapelbar und kann nicht entfernt werden.",
+      "1": "Jeder Skill-Treffer erhöht den eigenen ANG und die ANG-GESCHW. für 30 Sek. um jeweils 0.5 %. Dieser Effekt ist bis zu 90-mal stapelbar und kann nicht entfernt werden.",
+      "2": "Jeder Skill-Treffer erhöht den eigenen ANG und die ANG-GESCHW. für 30 Sek. um jeweils 0.5 %. Dieser Effekt ist bis zu 110-mal stapelbar und kann nicht entfernt werden.",
+      "3": "Jeder Skill-Treffer erhöht den eigenen ANG und die ANG-GESCHW. für 30 Sek. um jeweils 0.5 %. Dieser Effekt ist bis zu 130-mal stapelbar und kann nicht entfernt werden.",
+      "4": "Jeder Skill-Treffer erhöht den eigenen ANG und die ANG-GESCHW. für 30 Sek. um jeweils 0.5 %. Dieser Effekt ist bis zu 160-mal stapelbar und kann nicht entfernt werden.",
+      "5": "Jeder Skill-Treffer erhöht den eigenen ANG und die ANG-GESCHW. für 30 Sek. um jeweils 0.5 %. Dieser Effekt ist bis zu 200-mal stapelbar und kann nicht entfernt werden."
     }
   },
   "uts": {
     "1": {
       "name": "Fangzahn des Durstes",
-      "description": "[Süßes Blut] verringert die Manakosten um 1 und erhöht den vom getroffenen Feind erlittenen Körp. Schaden um 1 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-      "value": {},
+      "description": "[Süßes Blut] verringert die Manakosten um 1 und erhöht den vom getroffenen Feind erlittenen Körp. Schaden um {0} %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Erze/ut/1.png",
       "story": "Ein Fangzahn des Vampirs, der Erze gebissen hat.\nNachdem Erze endlich die Macht des Blutes erlangt hatte, nach der sie sich schon so lange sehnte, ermordete sie diesen Vampir brutal und nahm sich seinen Fangzahn. Bei Vollmond spielt sie immer mit dem Fangzahn herum, der einst mit ihrem Blut beschmiert war. Dann denkt sie an die Zeit zurück, als sie noch ein Mensch war und noch nicht von ihrem Blutdurst beherrscht wurde.",
       "descriptionByStar": {
         "0": "[Süßes Blut] verringert die Manakosten um 1 und erhöht den vom getroffenen Feind erlittenen Körp. Schaden um 1 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "1": "[Süßes Blut] verringert die Manakosten um 1 und erhöht den vom getroffenen Feind erlittenen Körp. Schaden um 1,2 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "2": "[Süßes Blut] verringert die Manakosten um 1 und erhöht den vom getroffenen Feind erlittenen Körp. Schaden um 1,4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "3": "[Süßes Blut] verringert die Manakosten um 1 und erhöht den vom getroffenen Feind erlittenen Körp. Schaden um 1,7 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "4": "[Süßes Blut] verringert die Manakosten um 1 und erhöht den vom getroffenen Feind erlittenen Körp. Schaden um 2,1 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "5": "[Süßes Blut] verringert die Manakosten um 1 und erhöht den vom getroffenen Feind erlittenen Körp. Schaden um 2,5 %. Dieser Effekt kann bis zu 10-mal gestapelt werden."
+        "1": "[Süßes Blut] verringert die Manakosten um 1 und erhöht den vom getroffenen Feind erlittenen Körp. Schaden um 1.2 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "2": "[Süßes Blut] verringert die Manakosten um 1 und erhöht den vom getroffenen Feind erlittenen Körp. Schaden um 1.4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "3": "[Süßes Blut] verringert die Manakosten um 1 und erhöht den vom getroffenen Feind erlittenen Körp. Schaden um 1.7 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "4": "[Süßes Blut] verringert die Manakosten um 1 und erhöht den vom getroffenen Feind erlittenen Körp. Schaden um 2.1 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "5": "[Süßes Blut] verringert die Manakosten um 1 und erhöht den vom getroffenen Feind erlittenen Körp. Schaden um 2.5 %. Dieser Effekt kann bis zu 10-mal gestapelt werden."
       }
     },
     "2": {
       "name": "Wein des Schauderns",
-      "description": "[Triefendes Blut] erhöht den Schaden von [Triefendes Blut] um 50 % und verringert den Cooldown von [Triefendes Blut] um 5 Sek.",
-      "value": {},
+      "description": "[Triefendes Blut] erhöht den Schaden von [Triefendes Blut] um 50 % und verringert den Cooldown von [Triefendes Blut] um {0} Sek.",
+      "value": {
+        "0": {
+          "0": "5",
+          "1": "6",
+          "2": "7",
+          "3": "8",
+          "4": "9",
+          "5": "10"
+        }
+      },
       "thumbnail": "heroes/Erze/ut/2.png",
       "story": "Ein Wein, den Erze persönlich aus dem Blut gefallener Priester hergestellt hat.\nEine ihrer größten Freuden ist es, einst Heilige dazu zu zwingen, vor ihr zu knien.\nIn der Flasche befindet sich ein blutiges Kreuz, und jene, die Erze den Wein trinken hören, erschaudern und erzittern aufgrund des klirrenden Kreuzes.",
       "descriptionByStar": {
@@ -180,8 +203,17 @@
     },
     "3": {
       "name": "Lippenstift der Schande",
-      "description": "[Blutbefreiung] erhöht den Schaden von [Blutbefreiung] um 20 % und erhält für die Dauer von [Blutbefreiung] Immunität gegen Massenkontrolle.",
-      "value": {},
+      "description": "[Blutbefreiung] erhöht den Schaden von [Blutbefreiung] um {0} % und erhält für die Dauer von [Blutbefreiung] Immunität gegen Massenkontrolle.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Erze/ut/3.png",
       "story": "Ein dunkelroter Lippenstift aus dem Blut jener, die eines schändlichen Todes gestorben sind.\nJene, die ihre Würde als Menschen aufgegeben und ihrem unersättlichen Verlangen nachgegeben haben, konnten Erze nicht entkommen.\nSie starben in einem kompletten Trancezustand, doch vielleicht sind sie immer noch glücklich, von Erze gebraucht worden zu sein.\nErze benutzt ihn, um ein Mal auf dem Hals ihrer Beute zu hinterlassen, nachdem sie sich an ihr gelabt hat.",
       "descriptionByStar": {
@@ -195,8 +227,17 @@
     },
     "4": {
       "name": "Mondlichtklavier",
-      "description": "[Lebenstrinker] erhöht den ANG-Boost und den max. TP-Boost um 20 %. Lebenstrinker kann nicht mehr entfernt werden.",
-      "value": {},
+      "description": "[Lebenstrinker] erhöht den ANG-Boost und den max. TP-Boost um {0} %. Lebenstrinker kann nicht mehr entfernt werden.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Erze/ut/4.png",
       "story": "Ein Klavier, das von Erze während des Festes des Bluts in einer Vollmondnacht gespielt wurde.\nNachdem sie eine komplette Stadt ausgelöscht hatte, um ihren Blutdurst zu stillen,\nerwischte sie sich dabei, wie sie reglos auf dem blutgetränkten Boden stand.\nJedes Leben gehörte ihr und sie wollte ihr stilles Publikum mit einem schönen Lied erfreuen.\nDie Sonate hallte über den Leichenberg wider.",
       "descriptionByStar": {

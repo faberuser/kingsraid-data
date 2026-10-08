@@ -62,8 +62,10 @@
   {
     "id": "Earth Protection",
     "name": "Erdschutz",
-    "description": "Erhalte am Anfang des Kampfes Massenkontroll-Immunität, sowie einen 50 % Boost für alle VERT von 8 Sek.",
-    "value": {},
+    "description": "Erhalte am Anfang des Kampfes Massenkontroll-Immunität, sowie einen 50 % Boost für alle VERT von {0} Sek.",
+    "value": {
+      "0": "8, 10, 12, 14, 17, 20"
+    },
     "thumbnail": "artifacts/Earth Protection.png",
     "story": "Eine Miniaturversion eines der „Gesichter“ der Gebirgsfestung. Dieses schweigsame Gesicht lässt einen scharfen Verstand vermuten.",
     "aliases": null,
@@ -79,8 +81,10 @@
   {
     "id": "Blessing of Earth",
     "name": "Erdsegen",
-    "description": "Bei 1 Gegner steigt ANG um 40 %.",
-    "value": {},
+    "description": "Bei 1 Gegner steigt ANG um {0} %.",
+    "value": {
+      "0": "40, 48, 58, 69, 83, 100"
+    },
     "thumbnail": "artifacts/Blessing of Earth.png",
     "story": "Eine Miniaturversion eines der „Gesichter“ der Gebirgsfestung. Man kann die zornige und kriegerische Natur dieses wütenden Gesichts förmlich fühlen.",
     "aliases": [
@@ -98,8 +102,10 @@
   {
     "id": "Earth Core",
     "name": "Erdkern",
-    "description": "ANG, TP und alle VERT steigen um 10 %.",
-    "value": {},
+    "description": "ANG, TP und alle VERT steigen um {0} %.",
+    "value": {
+      "0": "10, 12, 14, 17, 20, 25"
+    },
     "thumbnail": "artifacts/Earth Core.png",
     "story": "Eine Miniaturversion des Kerns der Gebirgsfestung. Als unendliche Energiequelle verstärkt sie die Macht ihres Besitzers.",
     "aliases": null,
@@ -181,8 +187,11 @@
   {
     "id": "Trident of the Deep",
     "name": "Dreizack der Tiefe",
-    "description": "Dem Gegner 100 Mal Schaden zuzufügen, erhöht ANG um 30 % und Krit. Chance um 200 für 15 Sek. Dieser Effekt kann nicht entfernt werden.",
-    "value": {},
+    "description": "Dem Gegner 100 Mal Schaden zuzufügen, erhöht ANG um {0} % und Krit. Chance um {1} für 15 Sek. Dieser Effekt kann nicht entfernt werden.",
+    "value": {
+      "0": "30, 36, 44, 53, 63, 75",
+      "1": "200, 240, 290, 350, 420, 500"
+    },
     "thumbnail": "artifacts/Trident of the Deep.png",
     "story": "Eine mystische Waffe, die dem Dreizack des Protianus nachempfunden ist. Sie trägt die Kraft des Wassers wie einen Tsunami in sich.",
     "aliases": [
@@ -202,8 +211,10 @@
   {
     "id": "Ring of Spirit Morph",
     "name": "Ring der Geisterwandler",
-    "description": "Zu Beginn jedes Kampfes fallen die TP 4 Sek. lang nicht unter 10 %. Reduziert Schaden an Helden für 5 Sek. um 70 %, wenn die TP für die Dauer des Skills unter 15 % fallen. Sämtliche Effekte lassen sich nicht entfernen.",
-    "value": {},
+    "description": "Zu Beginn jedes Kampfes fallen die TP {0} Sek. lang nicht unter 10 %. Reduziert Schaden an Helden für 5 Sek. um 70 %, wenn die TP für die Dauer des Skills unter 15 % fallen. Sämtliche Effekte lassen sich nicht entfernen.",
+    "value": {
+      "0": "4, 5, 6, 7, 8, 9"
+    },
     "thumbnail": "artifacts/Ring of Spirit Morph.png",
     "story": "Ein dunkler Ring, in dem böse Geister aus deinen schlimmsten Alpträumen gefangen sind. Wirst du von dem Ring verhext, verlierst du die Kontrolle über deinen Körper und wirst in einem nicht enden wollenden Traum gefangen.",
     "aliases": [
@@ -222,8 +233,11 @@
   {
     "id": "Spellbound Ring of the Deep",
     "name": "Verzauberter Ring der Tiefe",
-    "description": "Am Anfang des Kampfes wird die ANG-GESCHW. des Gegners für 8 Sek. auf 1000, sowie um 20 % reduziert.",
-    "value": {},
+    "description": "Zu Kampfbeginn wird die ANG-GESCHW. eines Gegners {0} Sek. lang auf 1000 begrenzt und sein ANG um {1} % verringert.",
+    "value": {
+      "0": "8, 10, 12, 14, 17, 20",
+      "1": "20, 24, 29, 35, 42, 50"
+    },
     "thumbnail": "artifacts/Spellbound Ring of the Deep.png",
     "story": "Eine Miniaturversion des Rings des Protianus. Er ist mit einem Zauber verwunschen, der Feinde verflucht und ausschaltet.",
     "aliases": [
@@ -232,19 +246,21 @@
       "ring deep"
     ],
     "descriptionByStar": {
-      "0": "Am Anfang des Kampfes wird die ANG-GESCHW. des Gegners für 8 Sek. auf 1000, sowie um 20 % reduziert.",
-      "1": "Am Anfang des Kampfes wird die ANG-GESCHW. des Gegners für 10 Sek. auf 1000, sowie um 24 % reduziert.",
-      "2": "Am Anfang des Kampfes wird die ANG-GESCHW. des Gegners für 12 Sek. auf 1000, sowie um 29 % reduziert.",
-      "3": "Am Anfang des Kampfes wird die ANG-GESCHW. des Gegners für 14 Sek. auf 1000, sowie um 35 % reduziert.",
-      "4": "Am Anfang des Kampfes wird die ANG-GESCHW. des Gegners für 17 Sek. auf 1000, sowie um 42 % reduziert.",
-      "5": "Am Anfang des Kampfes wird die ANG-GESCHW. des Gegners für 20 Sek. auf 1000, sowie um 50 % reduziert."
+      "0": "Zu Kampfbeginn wird die ANG-GESCHW. eines Gegners 8 Sek. lang auf 1000 begrenzt und sein ANG um 20 % verringert.",
+      "1": "Zu Kampfbeginn wird die ANG-GESCHW. eines Gegners 10 Sek. lang auf 1000 begrenzt und sein ANG um 24 % verringert.",
+      "2": "Zu Kampfbeginn wird die ANG-GESCHW. eines Gegners 12 Sek. lang auf 1000 begrenzt und sein ANG um 29 % verringert.",
+      "3": "Zu Kampfbeginn wird die ANG-GESCHW. eines Gegners 14 Sek. lang auf 1000 begrenzt und sein ANG um 35 % verringert.",
+      "4": "Zu Kampfbeginn wird die ANG-GESCHW. eines Gegners 17 Sek. lang auf 1000 begrenzt und sein ANG um 42 % verringert.",
+      "5": "Zu Kampfbeginn wird die ANG-GESCHW. eines Gegners 20 Sek. lang auf 1000 begrenzt und sein ANG um 50 % verringert."
     }
   },
   {
     "id": "Guardian Crystal of the Deep",
     "name": "Wächterkristall der Tiefe",
-    "description": "Beim Kampf gegen nur einen Gegner, ist alle VERT um 50 % erhöht.",
-    "value": {},
+    "description": "Beim Kampf gegen nur einen Gegner, ist alle VERT um {0} % erhöht.",
+    "value": {
+      "0": "50, 60, 72, 86, 103, 125"
+    },
     "thumbnail": "artifacts/Guardian Crystal of the Deep.png",
     "story": "Ein blauer Edelstein, der sich einst in der Krone des Protianus befand. Dieser klare Edelstein verkörpert den Schutz.",
     "aliases": [
@@ -285,8 +301,10 @@
   {
     "id": "Abyssal Crown",
     "name": "Krone des Abgrunds",
-    "description": "Erhöht 30 Sek. nach Kampfbeginn den ANG des Verbündeten mit dem höchsten ANG um 30 %. Dieser Effekt kann nicht entfernt werden und ist nicht mit anderen Effekten für Verbündete stapelbar.",
-    "value": {},
+    "description": "Erhöht 30 Sek. nach Kampfbeginn den ANG des Verbündeten mit dem höchsten ANG um {0} %. Dieser Effekt kann nicht entfernt werden und ist nicht mit anderen Effekten für Verbündete stapelbar.",
+    "value": {
+      "0": "30, 36, 43, 52, 63, 75"
+    },
     "thumbnail": "artifacts/Abyssal Crown.png",
     "story": "Haarschmuck der Göttin des Abgrunds Xanadus. Die schlangenförmige Krone sondert einen tödlichen Geruch ab.",
     "aliases": null,
@@ -302,25 +320,31 @@
   {
     "id": "Abyssal Eye",
     "name": "Auge des Abgrunds",
-    "description": "Nach Erleiden von Schaden wird beim Ziel Mag. Schaden in Höhe von 50 % des eigenen ANG verursacht und seine ANG-GESCHW. für 1,5 Sek. um 400 verringert. Nach Ablauf des ANG-GESCHW.-Reduktionseffekts wird das Ziel für 2 Sek. versteinert. Dieser Effekt wird nur einmal alle 30 Sek. aktiviert.",
-    "value": {},
+    "description": "Nach Erleiden von Schaden wird beim Ziel Mag. Schaden in Höhe von {0} % des eigenen ANG verursacht und seine ANG-GESCHW. für 1,5 Sek. um {1} verringert. Nach Ablauf des ANG-GESCHW.-Reduktionseffekts wird das Ziel für {2} Sek. versteinert. Dieser Effekt wird nur einmal alle 30 Sek. aktiviert.",
+    "value": {
+      "0": "50, 60, 72, 86, 105, 125",
+      "1": "400, 480, 580, 700, 840, 1000",
+      "2": "2, 2.4, 2.9, 3.5, 4.2, 5"
+    },
     "thumbnail": "artifacts/Abyssal Eye.png",
     "story": "Die Quelle der Macht von Xanadus, der Göttin des Abgrunds. Die Pupille scheint sich zu bewegen, auch wenn sie aus dem Körper geschnitten wurde.",
     "aliases": null,
     "descriptionByStar": {
       "0": "Nach Erleiden von Schaden wird beim Ziel Mag. Schaden in Höhe von 50 % des eigenen ANG verursacht und seine ANG-GESCHW. für 1,5 Sek. um 400 verringert. Nach Ablauf des ANG-GESCHW.-Reduktionseffekts wird das Ziel für 2 Sek. versteinert. Dieser Effekt wird nur einmal alle 30 Sek. aktiviert.",
-      "1": "Nach Erleiden von Schaden wird beim Ziel Mag. Schaden in Höhe von 60 % des eigenen ANG verursacht und seine ANG-GESCHW. für 1,5 Sek. um 480 verringert. Nach Ablauf des ANG-GESCHW.-Reduktionseffekts wird das Ziel für 2,4 Sek. versteinert. Dieser Effekt wird nur einmal alle 30 Sek. aktiviert.",
-      "2": "Nach Erleiden von Schaden wird beim Ziel Mag. Schaden in Höhe von 72 % des eigenen ANG verursacht und seine ANG-GESCHW. für 1,5 Sek. um 580 verringert. Nach Ablauf des ANG-GESCHW.-Reduktionseffekts wird das Ziel für 2,9 Sek. versteinert. Dieser Effekt wird nur einmal alle 30 Sek. aktiviert.",
-      "3": "Nach Erleiden von Schaden wird beim Ziel Mag. Schaden in Höhe von 86 % des eigenen ANG verursacht und seine ANG-GESCHW. für 1,5 Sek. um 700 verringert. Nach Ablauf des ANG-GESCHW.-Reduktionseffekts wird das Ziel für 3,5 Sek. versteinert. Dieser Effekt wird nur einmal alle 30 Sek. aktiviert.",
-      "4": "Nach Erleiden von Schaden wird beim Ziel Mag. Schaden in Höhe von 105 % des eigenen ANG verursacht und seine ANG-GESCHW. für 1,5 Sek. um 840 verringert. Nach Ablauf des ANG-GESCHW.-Reduktionseffekts wird das Ziel für 4 Sek. versteinert. Dieser Effekt wird nur einmal alle 30 Sek. aktiviert.",
+      "1": "Nach Erleiden von Schaden wird beim Ziel Mag. Schaden in Höhe von 60 % des eigenen ANG verursacht und seine ANG-GESCHW. für 1,5 Sek. um 480 verringert. Nach Ablauf des ANG-GESCHW.-Reduktionseffekts wird das Ziel für 2.4 Sek. versteinert. Dieser Effekt wird nur einmal alle 30 Sek. aktiviert.",
+      "2": "Nach Erleiden von Schaden wird beim Ziel Mag. Schaden in Höhe von 72 % des eigenen ANG verursacht und seine ANG-GESCHW. für 1,5 Sek. um 580 verringert. Nach Ablauf des ANG-GESCHW.-Reduktionseffekts wird das Ziel für 2.9 Sek. versteinert. Dieser Effekt wird nur einmal alle 30 Sek. aktiviert.",
+      "3": "Nach Erleiden von Schaden wird beim Ziel Mag. Schaden in Höhe von 86 % des eigenen ANG verursacht und seine ANG-GESCHW. für 1,5 Sek. um 700 verringert. Nach Ablauf des ANG-GESCHW.-Reduktionseffekts wird das Ziel für 3.5 Sek. versteinert. Dieser Effekt wird nur einmal alle 30 Sek. aktiviert.",
+      "4": "Nach Erleiden von Schaden wird beim Ziel Mag. Schaden in Höhe von 105 % des eigenen ANG verursacht und seine ANG-GESCHW. für 1,5 Sek. um 840 verringert. Nach Ablauf des ANG-GESCHW.-Reduktionseffekts wird das Ziel für 4.2 Sek. versteinert. Dieser Effekt wird nur einmal alle 30 Sek. aktiviert.",
       "5": "Nach Erleiden von Schaden wird beim Ziel Mag. Schaden in Höhe von 125 % des eigenen ANG verursacht und seine ANG-GESCHW. für 1,5 Sek. um 1000 verringert. Nach Ablauf des ANG-GESCHW.-Reduktionseffekts wird das Ziel für 5 Sek. versteinert. Dieser Effekt wird nur einmal alle 30 Sek. aktiviert."
     }
   },
   {
     "id": "Abyssal Nail Ornament",
     "name": "Nagelornament des Abgrunds",
-    "description": "Fügt dem Gegner bei einem Angriff 10 Sek. lang alle 0.5 Sek. P.SCH in Höhe von 4% des ANG zu, der VTD ignoriert. Dieser Effekt wird einmal alle 20 Sek. aktiviert.",
-    "value": {},
+    "description": "Fügt dem Gegner bei einem Angriff 10 Sek. lang alle 0.5 Sek. P.SCH in Höhe von {0}% des ANG zu, der VTD ignoriert. Dieser Effekt wird einmal alle 20 Sek. aktiviert.",
+    "value": {
+      "0": "4, 4.8, 5.8, 7, 8.4, 10"
+    },
     "thumbnail": "artifacts/Abyssal Nail Ornament.png",
     "story": "Nagelornament der Göttin des Abgrunds Xanadus. Es besteht aus einer Legierung unbekannter, aber besonderer Metalle.",
     "aliases": [
@@ -357,15 +381,17 @@
   {
     "id": "Infernal Bond",
     "name": "Infernalisches Band",
-    "description": "Zu Beginn jeder Schlacht werden alle Skill-Cooldowns eines zufälligen Feindes um 2,5 Sek. erhöht.",
-    "value": {},
+    "description": "Zu Beginn jeder Schlacht werden alle Skill-Cooldowns eines zufälligen Feindes um {0} Sek. erhöht.",
+    "value": {
+      "0": "2.5, 3, 3.5, 4, 5, 6"
+    },
     "thumbnail": "artifacts/Infernal Bond.png",
     "story": "Ein loderndes Band von Velkazar dem Höllenfolterer. Es ist mit Schwarzer Magie verzaubert, um seine überbordende Macht zu lenken.",
     "aliases": null,
     "descriptionByStar": {
-      "0": "Zu Beginn jeder Schlacht werden alle Skill-Cooldowns eines zufälligen Feindes um 2,5 Sek. erhöht.",
+      "0": "Zu Beginn jeder Schlacht werden alle Skill-Cooldowns eines zufälligen Feindes um 2.5 Sek. erhöht.",
       "1": "Zu Beginn jeder Schlacht werden alle Skill-Cooldowns eines zufälligen Feindes um 3 Sek. erhöht.",
-      "2": "Zu Beginn jeder Schlacht werden alle Skill-Cooldowns eines zufälligen Feindes um 3,5 Sek. erhöht.",
+      "2": "Zu Beginn jeder Schlacht werden alle Skill-Cooldowns eines zufälligen Feindes um 3.5 Sek. erhöht.",
       "3": "Zu Beginn jeder Schlacht werden alle Skill-Cooldowns eines zufälligen Feindes um 4 Sek. erhöht.",
       "4": "Zu Beginn jeder Schlacht werden alle Skill-Cooldowns eines zufälligen Feindes um 5 Sek. erhöht.",
       "5": "Zu Beginn jeder Schlacht werden alle Skill-Cooldowns eines zufälligen Feindes um 6 Sek. erhöht."
@@ -396,8 +422,11 @@
   {
     "id": "Infernal Greatsword",
     "name": "Infernalisches Großschwert",
-    "description": "Die eigene Heilungsrate ist um 30 % verringert, aber VERT-Durchdr. um 300 Punkte und Krit. Schaden um 30 % erhöht.",
-    "value": {},
+    "description": "Die eigene Heilungsrate ist um 30 % verringert, aber VERT-Durchdr. um {0} Punkte und Krit. Schaden um {1} % erhöht.",
+    "value": {
+      "0": "300, 360, 430, 520, 630, 750",
+      "1": "30, 36, 43, 52, 63, 75"
+    },
     "thumbnail": "artifacts/Infernal Greatsword.png",
     "story": "Ein loderndes Großschwert von Velkazar dem Höllenfolterer. Seine Flamme scheint mächtig genug, um alles zu verschlingen.",
     "aliases": [
@@ -408,15 +437,19 @@
       "1": "Die eigene Heilungsrate ist um 30 % verringert, aber VERT-Durchdr. um 360 Punkte und Krit. Schaden um 36 % erhöht.",
       "2": "Die eigene Heilungsrate ist um 30 % verringert, aber VERT-Durchdr. um 430 Punkte und Krit. Schaden um 43 % erhöht.",
       "3": "Die eigene Heilungsrate ist um 30 % verringert, aber VERT-Durchdr. um 520 Punkte und Krit. Schaden um 52 % erhöht.",
-      "4": "Die eigene Heilungsrate ist um 30 % verringert, VERT-Durchdr. um 630 Punkte und Krit. Schaden um 63 % erhöht.",
+      "4": "Die eigene Heilungsrate ist um 30 % verringert, aber VERT-Durchdr. um 630 Punkte und Krit. Schaden um 63 % erhöht.",
       "5": "Die eigene Heilungsrate ist um 30 % verringert, aber VERT-Durchdr. um 750 Punkte und Krit. Schaden um 75 % erhöht."
     }
   },
   {
     "id": "Infernal Whip",
     "name": "Infernalische Peitsche",
-    "description": "Greift alle 8 Sek. alle Feinde an und verursacht 20% des ANG als Mag. Schaden. Die Ziele erleiden danach für 5 Sek. 10% mehr Schaden. Der Schaden-Boosteffekt wird für jede Aktivierung bis zu 25 Mal um 0.4% verstärkt, kann aber nicht gleichzeitig mit demselben Effekt von anderen Verbündeten eingesetzt werden.",
-    "value": {},
+    "description": "Greift alle 8 Sek. alle Feinde an und verursacht {0}% des ANG als Mag. Schaden. Die Ziele erleiden danach für 5 Sek. {1}% mehr Schaden. Der Schaden-Boosteffekt wird für jede Aktivierung bis zu 25 Mal um {2}% verstärkt, kann aber nicht gleichzeitig mit demselben Effekt von anderen Verbündeten eingesetzt werden.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50",
+      "1": "10, 12, 14, 17, 21, 25",
+      "2": "0.4, 0.5, 0.6, 0.7, 0.8, 1"
+    },
     "thumbnail": "artifacts/Infernal Whip.png",
     "story": "Ein lodernder Schweif von Velkazar dem Höllenfolterer. Er sieht aus wie eine in Flammen gehüllte Schlange.",
     "aliases": null,
@@ -432,25 +465,31 @@
   {
     "id": "Infernal Gate",
     "name": "Infernalisches Tor",
-    "description": "Erhöht alle VERT um 10 % und erhöht den verursachten Schaden an Feinden und den Schaden an Feinde, die keine Helden sind, um jeweils 6 %.",
-    "value": {},
+    "description": "Erhöht alle VERT um {0} %, den verursachten Schaden an Feinden um {1} % und den Schaden an Feinde, die keine Helden sind, um {2} %.",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25",
+      "1": "6, 7.2, 8.6, 10.5, 12.5, 15",
+      "2": "6, 7.2, 8.6, 10.5, 12.5, 15"
+    },
     "thumbnail": "artifacts/Infernal Gate.png",
     "story": "Eins der lodernden Hörner von Velkazar dem Höllenfolterer. Es dient als Kanal, der die Macht der Seele freisetzt.",
     "aliases": null,
     "descriptionByStar": {
-      "0": "Erhöht alle VERT um 10 % und erhöht den verursachten Schaden an Feinden und den Schaden an Feinde, die keine Helden sind, um jeweils 6 %.",
-      "1": "Erhöht alle VERT um 12 % und erhöht den verursachten Schaden an Feinden und den Schaden an Feinde, die keine Helden sind, um jeweils 7,2 %.",
-      "2": "Erhöht alle VERT um 14 % und erhöht den verursachten Schaden an Feinden und den Schaden an Feinde, die keine Helden sind, um jeweils 8,6 %.",
-      "3": "Erhöht alle VERT um 17 % und erhöht den verursachten Schaden an Feinden und den Schaden an Feinde, die keine Helden sind, um jeweils 10,5 %.",
-      "4": "Erhöht alle VERT um 21 % und erhöht den verursachten Schaden an Feinden und den Schaden an Feinde, die keine Helden sind, um jeweils 12,5 %.",
-      "5": "Erhöht alle VERT um 25 % und erhöht den verursachten Schaden an Feinden und den Schaden an Feinde, die keine Helden sind, um jeweils 15 %."
+      "0": "Erhöht alle VERT um 10 %, den verursachten Schaden an Feinden um 6 % und den Schaden an Feinde, die keine Helden sind, um 6 %.",
+      "1": "Erhöht alle VERT um 12 %, den verursachten Schaden an Feinden um 7.2 % und den Schaden an Feinde, die keine Helden sind, um 7.2 %.",
+      "2": "Erhöht alle VERT um 14 %, den verursachten Schaden an Feinden um 8.6 % und den Schaden an Feinde, die keine Helden sind, um 8.6 %.",
+      "3": "Erhöht alle VERT um 17 %, den verursachten Schaden an Feinden um 10.5 % und den Schaden an Feinde, die keine Helden sind, um 10.5 %.",
+      "4": "Erhöht alle VERT um 21 %, den verursachten Schaden an Feinden um 12.5 % und den Schaden an Feinde, die keine Helden sind, um 12.5 %.",
+      "5": "Erhöht alle VERT um 25 %, den verursachten Schaden an Feinden um 15 % und den Schaden an Feinde, die keine Helden sind, um 15 %."
     }
   },
   {
     "id": "Heart Cotton Candy",
     "name": "Herzzuckerwatte",
-    "description": "Erhöht 20 Sek. lang zum Kampfbeginn ANG des Nutzers und des Verbündeten mit dem höchsten ANG um 10 %. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar",
-    "value": {},
+    "description": "Erhöht 20 Sek. lang zum Kampfbeginn ANG des Nutzers und des Verbündeten mit dem höchsten ANG um {0} %. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25"
+    },
     "thumbnail": "artifacts/Heart Cotton Candy.png",
     "story": "Ohne Herzzuckerwatte kein toller Ausflug!\nDie schmilzt dir im Mund nur so weg!",
     "aliases": null,
@@ -466,8 +505,10 @@
   {
     "id": "Cross Pumpkin Head",
     "name": "Kreuz-Kürbiskopf",
-    "description": "Max. TP wird um 20 % erhöht und alle Gegner im näheren Umfeld erleiden Körp. Schaden in Höhe von 2 % der max. TP.",
-    "value": {},
+    "description": "Max. TP wird um {0} % erhöht und alle Gegner im näheren Umfeld erleiden Körp. Schaden in Höhe von 2 % der max. TP.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50"
+    },
     "thumbnail": "artifacts/Cross Pumpkin Head.png",
     "story": "Ein geheimnisvolles Objekt in Form eines traurigen Kürbisses. Es heißt, es würde unheimliche Geräusche verursachen, während es neben seinem Besitzer schwebt.",
     "aliases": [
@@ -485,8 +526,11 @@
   {
     "id": "Angry Pumpkin Head",
     "name": "Wütender Kürbiskopf",
-    "description": "Reduziert erhaltenen Schaden um 10 % und gleichzeitig wird 10 % mehr Schaden an Gegner verteilt.",
-    "value": {},
+    "description": "Reduziert erhaltenen Schaden um {0} % und gleichzeitig wird {1} % mehr Schaden an Gegner verteilt.",
+    "value": {
+      "0": "10, 12, 14, 17, 20, 25",
+      "1": "10, 12, 14, 17, 20, 25"
+    },
     "thumbnail": "artifacts/Angry Pumpkin Head.png",
     "story": "Ein geheimnisvolles Objekt in Form eines wahnsinnigen Kürbisses. Es schnaubt wütend, während es neben seinem Besitzer schwebt.",
     "aliases": null,
@@ -502,8 +546,11 @@
   {
     "id": "Happy Pumpkin Head",
     "name": "Glücklicher Kürbiskopf",
-    "description": "Erhöht alle 7 Sek. die Heilungsrate um 2% und heilt TP in Höhe von 100% des ANG. Die Heilungsrate-Erhöhung ist bis zu 15-mal stapelbar und kann nicht entfernt werden.",
-    "value": {},
+    "description": "Erhöht alle 7 Sek. die Heilungsrate um {0}% und heilt TP in Höhe von {1}% des ANG. Die Heilungsrate-Erhöhung ist bis zu 15-mal stapelbar und kann nicht entfernt werden.",
+    "value": {
+      "0": "2, 2.4, 2.8, 3.4, 4.2, 5",
+      "1": "100, 120, 140, 170, 210, 250"
+    },
     "thumbnail": "artifacts/Happy Pumpkin Head.png",
     "story": "Ein mysteriöser Gegenstand in Form eines glücklichen Kürbiskopfs, das dem Besitzer mehr Energie verleiht.",
     "aliases": null,
@@ -519,8 +566,11 @@
   {
     "id": "Surprised Pumpkin Head",
     "name": "Überraschter Kürbiskopf",
-    "description": "Stellt sofort 12 % Mana wieder her und erhöht die ANG-GESCHW. für 5 Sek. um 200, wenn von Massenkontrolle betroffen. Dieser Effekt wird einmal alle 30 Sek. aktiviert.",
-    "value": {},
+    "description": "Stellt sofort {0} % Mana wieder her und erhöht die ANG-GESCHW. für 5 Sek. um {1}, wenn von Massenkontrolle betroffen. Dieser Effekt wird einmal alle 30 Sek. aktiviert.",
+    "value": {
+      "0": "12, 14, 17, 21, 25, 30",
+      "1": "200, 240, 290, 350, 420, 500"
+    },
     "thumbnail": "artifacts/Surprised Pumpkin Head.png",
     "story": "Ein eigentümlicher Gegenstand in Form eines Kürbiskopfs mit überraschtem Gesichtsausdruck. Sein unheimliches Aussehen versetzt all diejenigen in Angst und Schrecken, die ihn direkt ansehen.",
     "aliases": null,
@@ -556,8 +606,11 @@
   {
     "id": "Frost Giant Mask",
     "name": "Frostriesen-Maske",
-    "description": "Erhöht Schaden gegen Frostriesen um 40 %, während der erhaltene Schaden um 20 % verringert wird.",
-    "value": {},
+    "description": "Erhöht Schaden gegen Frostriesen um {0} %, während der erhaltene Schaden um {1} % verringert wird.",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
     "thumbnail": "artifacts/Frost Giant Mask.png",
     "story": "Eine Maske, die dem Gesicht eines Frostriesen nachempfunden ist. Sie verströmt spürbar die Macht eines verschneiten Berges.",
     "aliases": null,
@@ -573,25 +626,30 @@
   {
     "id": "Golden Mask of Ancient King",
     "name": "Goldene Maske eines antiken Königs",
-    "description": "5 % Chance, bei erlittenem Schaden 3 Sek. lang immun gegenüber allen Schaden zu werden.",
-    "value": {},
+    "description": "5 % Chance, bei erlittenem Schaden {0} Sek. lang immun gegenüber allen Schaden zu werden. Hat einen Cooldown von 5 Sek.",
+    "value": {
+      "0": "3, 3.5, 4, 5, 6, 7.5"
+    },
     "thumbnail": "artifacts/Golden Mask of Ancient King.png",
     "story": "Eine goldene Maske, die einst vom Gottkönig der Wüste getragen wurde. Sie ist mit dem Zauber der absoluten Autorität verwunschen, um ihren Träger zu schützen.",
     "aliases": null,
     "descriptionByStar": {
-      "0": "5 % Chance, bei erlittenem Schaden 3 Sek. lang immun gegenüber allen Schaden zu werden.",
-      "1": "5 % Chance, bei erlittenem Schaden 3,5 Sek. lang immun gegenüber allen Schaden zu werden.",
-      "2": "5 % Chance, bei erlittenem Schaden 4 Sek. lang immun gegenüber allen Schaden zu werden.",
-      "3": "5 % Chance, bei erlittenem Schaden 5 Sek. lang immun gegenüber allen Schaden zu werden.",
-      "4": "5 % Chance, bei erlittenem Schaden 6 Sek. lang immun gegenüber allen Schaden zu werden.",
-      "5": "5 % Chance, bei erlittenem Schaden 7,5 Sek. lang immun gegenüber allen Schaden zu werden."
+      "0": "5 % Chance, bei erlittenem Schaden 3 Sek. lang immun gegenüber allen Schaden zu werden. Hat einen Cooldown von 5 Sek.",
+      "1": "5 % Chance, bei erlittenem Schaden 3.5 Sek. lang immun gegenüber allen Schaden zu werden. Hat einen Cooldown von 5 Sek.",
+      "2": "5 % Chance, bei erlittenem Schaden 4 Sek. lang immun gegenüber allen Schaden zu werden. Hat einen Cooldown von 5 Sek.",
+      "3": "5 % Chance, bei erlittenem Schaden 5 Sek. lang immun gegenüber allen Schaden zu werden. Hat einen Cooldown von 5 Sek.",
+      "4": "5 % Chance, bei erlittenem Schaden 6 Sek. lang immun gegenüber allen Schaden zu werden. Hat einen Cooldown von 5 Sek.",
+      "5": "5 % Chance, bei erlittenem Schaden 7.5 Sek. lang immun gegenüber allen Schaden zu werden. Hat einen Cooldown von 5 Sek."
     }
   },
   {
     "id": "Mask of Dark Elf",
     "name": "Dunkelelf-Maske",
-    "description": "Erhöht Schaden gegen Dunkelelfen um 40 %, während der erhaltene Schaden um 20 % verringert wird.",
-    "value": {},
+    "description": "Erhöht Schaden gegen Dunkelelfen um {0} %, während der erhaltene Schaden um {1} % verringert wird.",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
     "thumbnail": "artifacts/Mask of Dark Elf.png",
     "story": "Eine Maske, die dem Gesicht eines Dunkelelfen nachempfunden ist. Sie verfügt über eine Aura des sanften Mondlichts.",
     "aliases": null,
@@ -607,8 +665,11 @@
   {
     "id": "Mask of Draconic",
     "name": "Maske von Draconic",
-    "description": "Erhöht Schaden gegen Draconics um 40 %, während der erhaltene Schaden um 20 % verringert wird.",
-    "value": {},
+    "description": "Erhöht Schaden gegen Draconics um {0} %, während der erhaltene Schaden um {1} % verringert wird.",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
     "thumbnail": "artifacts/Mask of Draconic.png",
     "story": "Eine Maske, die dem Gesicht eines Draconics nachempfunden ist. Das fürchterliche Brüllen des Bösen lässt sie vibrieren.",
     "aliases": null,
@@ -624,8 +685,11 @@
   {
     "id": "Mask of Goblin",
     "name": "Goblinmaske",
-    "description": "Erhöht Schaden gegen Goblins um 40 %, während der erhaltene Schaden um 20 % verringert wird.",
-    "value": {},
+    "description": "Erhöht Schaden gegen Goblins um {0} %, während der erhaltene Schaden um {1} % verringert wird.",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
     "thumbnail": "artifacts/Mask of Goblin.png",
     "story": "Eine Maske, die dem Gesicht eines Goblins nachempfunden ist. Eigentlich ganz hübsch.",
     "aliases": null,
@@ -641,8 +705,11 @@
   {
     "id": "Mask of Harpy",
     "name": "Harpienmaske",
-    "description": "Erhöht Schaden gegen Harpien um 40 %, während der erhaltene Schaden um 20 % verringert wird.",
-    "value": {},
+    "description": "Erhöht Schaden gegen Harpien um {0} %, während der erhaltene Schaden um {1} % verringert wird.",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
     "thumbnail": "artifacts/Mask of Harpy.png",
     "story": "Eine Maske, die dem Gesicht einer Harpie nachempfunden ist. Das Rauschen des Windes kann man förmlich hören.",
     "aliases": null,
@@ -658,8 +725,11 @@
   {
     "id": "Mask of Lizardman",
     "name": "Eidechsen-Maske",
-    "description": "Erhöht Schaden gegen Eidechsen um 40 %, während der erhaltene Schaden um 20 % verringert wird.",
-    "value": {},
+    "description": "Erhöht Schaden gegen Eidechsen um {0} %, während der erhaltene Schaden um {1} % verringert wird.",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
     "thumbnail": "artifacts/Mask of Lizardman.png",
     "story": "Eine Maske, die dem Gesicht einer Eidechse nachempfunden ist. Sie verströmt die Aura der Weisen.",
     "aliases": null,
@@ -675,8 +745,11 @@
   {
     "id": "Mask of Orc",
     "name": "Orkmaske",
-    "description": "Erhöht Schaden gegen Orks um 40 %, während der erhaltene Schaden um 20 % verringert wird.",
-    "value": {},
+    "description": "Erhöht Schaden gegen Orks um {0} %, während der erhaltene Schaden um {1} % verringert wird.",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
     "thumbnail": "artifacts/Mask of Orc.png",
     "story": "Eine Maske, die dem Gesicht eines Orks nachempfunden ist. Sie erweckt animalische Kampflust.",
     "aliases": null,
@@ -692,8 +765,11 @@
   {
     "id": "Undead Mask",
     "name": "Maske der Untoten",
-    "description": "Erhöht Schaden gegen Untote um 40 %, während der erhaltene Schaden um 20 % verringert wird.",
-    "value": {},
+    "description": "Erhöht Schaden gegen Untote um {0} %, während der erhaltene Schaden um {1} % verringert wird.",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
     "thumbnail": "artifacts/Undead Mask.png",
     "story": "Eine Maske, die dem Gesicht eines Skeletts nachempfunden ist. Sie riecht nach Tod.",
     "aliases": null,
@@ -709,25 +785,31 @@
   {
     "id": "Assassin's Veil",
     "name": "Assassinen-Schleier",
-    "description": "Erhöht Körp. Ausweichen um 100. Jedes erfolgreiche Ausweichmanöver erhöht den ANG um 1 % und kann bis zu 20-mal gestapelt werden.",
-    "value": {},
+    "description": "Erhöht Körp. Ausweichen um {0}. Jedes erfolgreiche Ausweichmanöver erhöht den ANG um {1} % und kann bis zu 20-mal gestapelt werden.",
+    "value": {
+      "0": "100, 120, 140, 170, 210, 250",
+      "1": "1, 1.2, 1.4, 1.7, 2.1, 2.5"
+    },
     "thumbnail": "artifacts/Assassin's Veil.png",
     "story": "Ein Schleier, der für einen Assassinen zu exzentrisch und blumig zu sein scheint. Dabei handelt es sich eigentlich um ein magisches Werkzeug, das die Sinne des Ziels trübt.",
     "aliases": null,
     "descriptionByStar": {
       "0": "Erhöht Körp. Ausweichen um 100. Jedes erfolgreiche Ausweichmanöver erhöht den ANG um 1 % und kann bis zu 20-mal gestapelt werden.",
-      "1": "Erhöht Körp. Ausweichen um 120. Jedes erfolgreiche Ausweichmanöver erhöht den ANG um 1,2 % und kann bis zu 20-mal gestapelt werden.",
-      "2": "Erhöht Körp. Ausweichen um 140. Jedes erfolgreiche Ausweichmanöver erhöht den ANG um 1,4 % und kann bis zu 20-mal gestapelt werden.",
-      "3": "Erhöht Körp. Ausweichen um 170. Jedes erfolgreiche Ausweichmanöver erhöht den ANG um 1,7 % und kann bis zu 20-mal gestapelt werden.",
-      "4": "Erhöht Körp. Ausweichen um 210. Jedes erfolgreiche Ausweichmanöver erhöht den ANG um 2,1 % und kann bis zu 20-mal gestapelt werden.",
-      "5": "Erhöht Körp. Ausweichen um 250. Jedes erfolgreiche Ausweichmanöver erhöht den ANG um 2,5 % und kann bis zu 20-mal gestapelt werden."
+      "1": "Erhöht Körp. Ausweichen um 120. Jedes erfolgreiche Ausweichmanöver erhöht den ANG um 1.2 % und kann bis zu 20-mal gestapelt werden.",
+      "2": "Erhöht Körp. Ausweichen um 140. Jedes erfolgreiche Ausweichmanöver erhöht den ANG um 1.4 % und kann bis zu 20-mal gestapelt werden.",
+      "3": "Erhöht Körp. Ausweichen um 170. Jedes erfolgreiche Ausweichmanöver erhöht den ANG um 1.7 % und kann bis zu 20-mal gestapelt werden.",
+      "4": "Erhöht Körp. Ausweichen um 210. Jedes erfolgreiche Ausweichmanöver erhöht den ANG um 2.1 % und kann bis zu 20-mal gestapelt werden.",
+      "5": "Erhöht Körp. Ausweichen um 250. Jedes erfolgreiche Ausweichmanöver erhöht den ANG um 2.5 % und kann bis zu 20-mal gestapelt werden."
     }
   },
   {
     "id": "Book of the Mad",
     "name": "Buch des Wahnsinnigen",
-    "description": "Verringert jede Sek. das eigene Mana um 100, erhöht jedoch den Feinden zugefügten Schaden um 14 %.",
-    "value": {},
+    "description": "Verringert jede Sek. das eigene Mana um {0}, erhöht jedoch den Feinden zugefügten Schaden um {1} %.",
+    "value": {
+      "0": "100, 120, 140, 170, 210, 250",
+      "1": "14, 17, 21, 25, 30, 35"
+    },
     "thumbnail": "artifacts/Book of the Mad.png",
     "story": "Buch eines wahnsinnigen Zauberers, der in der Wildnis umherwanderte. Dieses verfluchte Buch aus dem Blut und der Haut eines Menschen verbraucht Mana, um den Besitzer in Raserei zu versetzen, ohne seinen Verstand dabei zu gefährden. Allerdings verbraucht es unaufhörlich Mana und bringt dem Besitzer schlussendlich Verderben, wenn es komplett aufgebraucht wurde.",
     "aliases": [
@@ -746,8 +828,10 @@
   {
     "id": "Burning Brazier of Elf",
     "name": "Brennendes Kohlebecken der Elfen",
-    "description": "10 % Chance, bei einem Angriff 1 Mana-Kugel zu regenerieren.",
-    "value": {},
+    "description": "{0} % Chance, bei einem Angriff 1 Mana-Kugel zu regenerieren.",
+    "value": {
+      "0": "10, 12, 14, 17, 20, 25"
+    },
     "thumbnail": "artifacts/Burning Brazier of Elf.png",
     "story": "Ein geheimnisvolles Becken, hergestellt von antiken Elfen, um Mutter Natur zu huldigen. Es ist der Inbegriff ihrer Magie und kann eine unendliche Menge Mana produzieren.",
     "aliases": null,
@@ -763,8 +847,11 @@
   {
     "id": "Christmas Star Ornament",
     "name": "Weihnachtsstern",
-    "description": "Erhöht MP-Regeneration am Anfang jeden Kampfes für 5 Sek. um 260 % pro Sek. und Krit. Widerstand um 100. Effekt kann nicht aufgehoben werden.",
-    "value": {},
+    "description": "Erhöht MP-Regeneration am Anfang jeden Kampfes für 5 Sek. um {0} % pro Sek. und Krit. Widerstand um {1}. Effekt kann nicht aufgehoben werden.",
+    "value": {
+      "0": "260, 310, 370, 450, 540, 650",
+      "1": "100, 120, 140, 170, 210, 250"
+    },
     "thumbnail": "artifacts/Christmas Star Ornament.png",
     "story": "Ein Sternenschmuck, der die heiligen Nächte segnet. Er erhebt sich in den Himmel und strahlt.",
     "aliases": null,
@@ -780,8 +867,11 @@
   {
     "id": "Warm Turkey Dish",
     "name": "Warmer Truthahn",
-    "description": "Erhöht die eigenen Max. TP um 10 % und die Blockchance insgesamt um 100.",
-    "value": {},
+    "description": "Erhöht die eigenen Max. TP um {0} % und die Blockchance insgesamt um {1}.",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25",
+      "1": "100, 120, 140, 170, 210, 250"
+    },
     "thumbnail": "artifacts/Warm Turkey Dish.png",
     "story": "Ein Muss bei jedem Erntedankfest. Dieser frisch zubereitete Truthahn schmeckt noch besser mit der speziellen Bratensauce der Helden-Schenke.",
     "aliases": null,
@@ -797,25 +887,29 @@
   {
     "id": "Well-Done Turkey Roast",
     "name": "Durchgegarter Truthahnbraten",
-    "description": "Alle 15. Sek. werden 3 Sek. lang TP in Höhe von 1 % der max. TP regeneriert.",
-    "value": {},
+    "description": "Alle 15. Sek. werden 3 Sek. lang TP in Höhe von {0} % der max. TP regeneriert.",
+    "value": {
+      "0": "1, 1.2, 1.4, 1.7, 2, 2.5"
+    },
     "thumbnail": "artifacts/Well-Done Turkey Roast.png",
     "story": "Eine exotische Spezialität, die aus einem fernen Land jenseits des Meeres kommt. Es heißt, man würde es während des Erntedankfests zu sich nehmen.",
     "aliases": null,
     "descriptionByStar": {
       "0": "Alle 15. Sek. werden 3 Sek. lang TP in Höhe von 1 % der max. TP regeneriert.",
-      "1": "Alle 15. Sek. werden 3 Sek. lang TP in Höhe von 1,2 % der max. TP regeneriert.",
-      "2": "Alle 15. Sek. werden 3 Sek. lang TP in Höhe von 1,4 % der max. TP regeneriert.",
-      "3": "Alle 15. Sek. werden 3 Sek. lang TP in Höhe von 1,7 % der max. TP regeneriert.",
+      "1": "Alle 15. Sek. werden 3 Sek. lang TP in Höhe von 1.2 % der max. TP regeneriert.",
+      "2": "Alle 15. Sek. werden 3 Sek. lang TP in Höhe von 1.4 % der max. TP regeneriert.",
+      "3": "Alle 15. Sek. werden 3 Sek. lang TP in Höhe von 1.7 % der max. TP regeneriert.",
       "4": "Alle 15. Sek. werden 3 Sek. lang TP in Höhe von 2 % der max. TP regeneriert.",
-      "5": "Alle 15. Sek. werden 3 Sek. lang TP in Höhe von 2,5 % der max. TP regeneriert."
+      "5": "Alle 15. Sek. werden 3 Sek. lang TP in Höhe von 2.5 % der max. TP regeneriert."
     }
   },
   {
     "id": "Christmas Tree of Holy Night",
     "name": "Heiliger Weihnachtsbaum",
-    "description": "Erhöht Krit. Schaden um 50 %.",
-    "value": {},
+    "description": "Erhöht Krit. Schaden um {0} %.",
+    "value": {
+      "0": "50, 60, 72, 87, 105, 125"
+    },
     "thumbnail": "artifacts/Christmas Tree of Holy Night.png",
     "story": "Eine Miniatur des legendären Weihnachtsbaums. Er erfüllt keine Wünsche mehr, aber ist immer noch von höchster Qualität, wodurch die heilige Nacht wunderschön wird.",
     "aliases": null,
@@ -831,25 +925,31 @@
   {
     "id": "Cooling Delicacy in the Summer",
     "name": "Kühlende Köstlichkeit im Sommer",
-    "description": "Bei Kampfbeginn werden der Schaden von Feinden, die keine Helden sind, 30 Sek. lang um 20 % verringert und alle 2 Sek. 100 MP wiederhergestellt.",
-    "value": {},
+    "description": "Bei Kampfbeginn werden der Schaden von Feinden, die keine Helden sind, 30 Sek. lang um {0} % verringert und alle 2 Sek. {1} MP wiederhergestellt.",
+    "value": {
+      "0": "20, 24, 28, 34, 42, 50",
+      "1": "100, 120, 140, 170, 210, 250"
+    },
     "thumbnail": "artifacts/Cooling Delicacy in the Summer.png",
     "story": "Diese Delikatesse aus Orvel ist ein Muss für jeden, der die sengende Sommerhitze nicht ertragen kann.\n\nEin Schluck davon verringert die Hitze, ein Zweiter lässt sie verschwinden.",
     "aliases": null,
     "descriptionByStar": {
       "0": "Bei Kampfbeginn werden der Schaden von Feinden, die keine Helden sind, 30 Sek. lang um 20 % verringert und alle 2 Sek. 100 MP wiederhergestellt.",
-      "1": "Bei Kampfbeginn werden der Schaden von Feinden, die keine Helden sind, 30 Sek. lang um 20 % verringert und alle 2 Sek. 120 MP wiederhergestellt.",
-      "2": "Bei Kampfbeginn werden der Schaden von Feinden, die keine Helden sind, 30 Sek. lang um 20 % verringert und alle 2 Sek. 140 MP wiederhergestellt.",
-      "3": "Bei Kampfbeginn werden der Schaden von Feinden, die keine Helden sind, 30 Sek. lang um 20 % verringert und alle 2 Sek. 170 MP wiederhergestellt.",
-      "4": "Bei Kampfbeginn werden der Schaden von Feinden, die keine Helden sind, 30 Sek. lang um 20 % verringert und alle 2 Sek. 210 MP wiederhergestellt.",
-      "5": "Bei Kampfbeginn werden der Schaden von Feinden, die keine Helden sind, 30 Sek. lang um 20 % verringert und alle 2 Sek. 250 MP wiederhergestellt."
+      "1": "Bei Kampfbeginn werden der Schaden von Feinden, die keine Helden sind, 30 Sek. lang um 24 % verringert und alle 2 Sek. 120 MP wiederhergestellt.",
+      "2": "Bei Kampfbeginn werden der Schaden von Feinden, die keine Helden sind, 30 Sek. lang um 28 % verringert und alle 2 Sek. 140 MP wiederhergestellt.",
+      "3": "Bei Kampfbeginn werden der Schaden von Feinden, die keine Helden sind, 30 Sek. lang um 34 % verringert und alle 2 Sek. 170 MP wiederhergestellt.",
+      "4": "Bei Kampfbeginn werden der Schaden von Feinden, die keine Helden sind, 30 Sek. lang um 42 % verringert und alle 2 Sek. 210 MP wiederhergestellt.",
+      "5": "Bei Kampfbeginn werden der Schaden von Feinden, die keine Helden sind, 30 Sek. lang um 50 % verringert und alle 2 Sek. 250 MP wiederhergestellt."
     }
   },
   {
     "id": "Crystal Music Box",
     "name": "Kristallspieldose",
-    "description": "Erhöht den Schaden an Helden um 20 % und erleidet um 10 % erhöhten Schaden.",
-    "value": {},
+    "description": "Erhöht den Schaden an Helden um {0} % und erleidet um {1} % erhöhten Schaden.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50",
+      "1": "10, 12, 14, 17, 21, 25"
+    },
     "thumbnail": "artifacts/Crystal Music Box.png",
     "story": "Kristallspieldose, die in den Ruinen des Fürstentums Galluah gefunden wurde. Sie spielt eine so schöne wie traurige Melodie.",
     "aliases": [
@@ -884,8 +984,11 @@
   {
     "id": "Drinking Horn of Ancient Cow",
     "name": "Trinkhorn der uralten Kuh",
-    "description": "10 % Chance, bei einem Normal Angriff den ANG um 10 % und ANG-GESCHW. um 100 für 10 Sek. zu erhöhen.",
-    "value": {},
+    "description": "10 % Chance, bei einem Normal Angriff den ANG um {0} % und ANG-GESCHW. um {1} für 10 Sek. zu erhöhen.",
+    "value": {
+      "0": "10, 12, 14, 17, 20, 25",
+      "1": "100, 120, 140, 170, 200, 250"
+    },
     "thumbnail": "artifacts/Drinking Horn of Ancient Cow.png",
     "story": "Ein Glas, das aus dem Horn eines heiligen Stieres hergestellt wurde, der den Himmel durchstreift. Ein magisches Trinkhorn, dass den Inbegriff des Reichtums verkörpert.",
     "aliases": null,
@@ -901,8 +1004,11 @@
   {
     "id": "Fancy Traditional Pendant",
     "name": "Schicker Traditioneller Anhänger",
-    "description": "Krit. Chance ist um 100 und Krit. Schaden um 20 % erhöht.",
-    "value": {},
+    "description": "Krit. Chance ist um {0} und Krit. Schaden um {1} % erhöht.",
+    "value": {
+      "0": "100, 120, 140, 170, 210, 250",
+      "1": "20, 24, 29, 35, 42, 50"
+    },
     "thumbnail": "artifacts/Fancy Traditional Pendant.png",
     "story": "Eine mystische Zauberformel, die das Pech vertreiben und für Glück sorgen soll. Sie wurde von einem berühmten, ausländischen Hersteller magischer Güter entwickelt.",
     "aliases": null,
@@ -918,8 +1024,11 @@
   {
     "id": "Fantastic Hybrid Animals",
     "name": "Fantastische Tierkreuzungen",
-    "description": "Erhöht bei Kampfbeginn den Schaden an Feinden, die keine Helden sind, um 12 % und verringert erlittenen Schaden für 200 Sek. um 12 %.",
-    "value": {},
+    "description": "Erhöht bei Kampfbeginn den Schaden an Feinden, die keine Helden sind, um {0} % und verringert erlittenen Schaden für 200 Sek. um {1} %.",
+    "value": {
+      "0": "12, 14, 17, 21, 25, 30",
+      "1": "12, 14, 17, 21, 25, 30"
+    },
     "thumbnail": "artifacts/Fantastic Hybrid Animals.png",
     "story": "Enzyklopädie der Tierhybride des Orvelia-Kontinents. Diese limitierte Auflage verfügt über Silhouetten von Tierhybriden, die mit goldenem Faden gestickt wurden.",
     "aliases": [
@@ -937,8 +1046,11 @@
   {
     "id": "Feather of Sacrifice",
     "name": "Feder der Opferung",
-    "description": "Erleidet für 120 Sek. nach Kampfbeginn 10 % zusätzlichen Schaden und erhöht jeglichen Schaden, den der Boss erleidet, um 10 %. Dieser Effekt kann nicht entfernt werden und ist nicht mit anderen Effekten für Verbündete stapelbar.",
-    "value": {},
+    "description": "Erleidet für 120 Sek. nach Kampfbeginn {0} % zusätzlichen Schaden und erhöht jeglichen Schaden, den der Boss erleidet, um {1} %. Dieser Effekt kann nicht entfernt werden und ist nicht mit anderen Effekten für Verbündete stapelbar.",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25",
+      "1": "10, 12, 14, 17, 21, 25"
+    },
     "thumbnail": "artifacts/Feather of Sacrifice.png",
     "story": "Eine Feder, die die Alchemiegleichung des Austauschs von Äquivalenten enthält. Die Gleichung wird aktiv, wenn der Benutzer den Namen des Feindes auf seinen Körper schreibt. Dadurch werden sowohl der Feind als auch der Benutzer für kurze Zeit geschwächt.",
     "aliases": null,
@@ -954,18 +1066,20 @@
   {
     "id": "Golden Apple of a Goddess",
     "name": "Goldener Apfel der Göttin",
-    "description": "Heilt den Helden um 30 % der max. TP und enfernt seine negativen Effekte, wenn im Kampf seine TP unter 25 % fallen.",
-    "value": {},
+    "description": "Heilt den Helden um {0} % der max. TP und enfernt seine negativen Effekte, wenn im Kampf seine TP unter 25 % fallen. Wird nur 1-mal aktiviert.",
+    "value": {
+      "0": "30, 36, 43, 51, 62, 75"
+    },
     "thumbnail": "artifacts/Golden Apple of a Goddess.png",
     "story": "Es heißt, dies wäre einer der von der Göttin verliehenen Relikte. Ein wundertätiges Heilmittel, mit dem angeblich jede Verletzung geheilt werden kann.",
     "aliases": null,
     "descriptionByStar": {
-      "0": "Heilt den Helden um 30 % der max. TP und enfernt seine negativen Effekte, wenn im Kampf seine TP unter 25 % fallen.",
-      "1": "Heilt den Helden um 36 % der max. TP und enfernt seine negativen Effekte, wenn im Kampf seine TP unter 25 % fallen.",
-      "2": "Heilt den Helden um 43 % der max. TP und enfernt seine negativen Effekte, wenn im Kampf seine TP unter 25 % fallen.",
-      "3": "Heilt den Helden um 51 % der max. TP und enfernt seine negativen Effekte, wenn im Kampf seine TP unter 25 % fallen.",
-      "4": "Heilt den Helden um 62 % der max. TP und enfernt seine negativen Effekte, wenn im Kampf seine TP unter 25 % fallen.",
-      "5": "Heilt den Helden um 75 % der max. TP und enfernt seine negativen Effekte, wenn im Kampf seine TP unter 25 % fallen."
+      "0": "Heilt den Helden um 30 % der max. TP und enfernt seine negativen Effekte, wenn im Kampf seine TP unter 25 % fallen. Wird nur 1-mal aktiviert.",
+      "1": "Heilt den Helden um 36 % der max. TP und enfernt seine negativen Effekte, wenn im Kampf seine TP unter 25 % fallen. Wird nur 1-mal aktiviert.",
+      "2": "Heilt den Helden um 43 % der max. TP und enfernt seine negativen Effekte, wenn im Kampf seine TP unter 25 % fallen. Wird nur 1-mal aktiviert.",
+      "3": "Heilt den Helden um 51 % der max. TP und enfernt seine negativen Effekte, wenn im Kampf seine TP unter 25 % fallen. Wird nur 1-mal aktiviert.",
+      "4": "Heilt den Helden um 62 % der max. TP und enfernt seine negativen Effekte, wenn im Kampf seine TP unter 25 % fallen. Wird nur 1-mal aktiviert.",
+      "5": "Heilt den Helden um 75 % der max. TP und enfernt seine negativen Effekte, wenn im Kampf seine TP unter 25 % fallen. Wird nur 1-mal aktiviert."
     }
   },
   {
@@ -982,14 +1096,16 @@
       "2": "Erhöht die ANG-GESCHW. um 570 zu jedem Kampfbeginn für 15 Sek.",
       "3": "Erhöht die ANG-GESCHW. um 690 zu jedem Kampfbeginn für 15 Sek.",
       "4": "Erhöht die ANG-GESCHW. um 830 zu jedem Kampfbeginn für 15 Sek.",
-      "5": "Erhöht die ANG-GESCHW. um 1.000 zu jedem Kampfbeginn für 15 Sek."
+      "5": "Erhöht die ANG-GESCHW. um 1000 zu jedem Kampfbeginn für 15 Sek."
     }
   },
   {
     "id": "Insignia of Iron Conviction",
     "name": "Abzeichen der Eisernen Überzeugung",
-    "description": "Alle 50 Male, wenn der Charakter Mag. Schaden erleidet, werden alle negativen Effekte entfernt und er erhält ein Schild mit 480% ANG für 5 Sek. Der Schild gewährt Massenkontroll-Immunität und verhindert Schadenskumulierung während der Dauer.",
-    "value": {},
+    "description": "Alle 50 Male, wenn der Charakter Mag. Schaden erleidet, werden alle negativen Effekte entfernt und er erhält ein Schild mit {0}% ANG für 5 Sek. Der Schild gewährt Massenkontroll-Immunität und verhindert Schadenskumulierung während der Dauer.",
+    "value": {
+      "0": "480, 580, 690, 830, 1000, 1200"
+    },
     "thumbnail": "artifacts/Insignia of Iron Conviction.png",
     "story": "Das Wappen, das die Wachritter von Orvelia vor dem Dämonenkrieg gebrauchten. Die unerschütterliche Entschlossenheit der Ritter kann man in ihm fühlen.",
     "aliases": null,
@@ -1005,14 +1121,16 @@
   {
     "id": "Judgment of Light Bracelet",
     "name": "Armreif des Lichturteils",
-    "description": "Erhöht PRÄZ und Schwächung PRÄZ um 300.",
-    "value": {},
+    "description": "Erhöht PRÄZ und Schwächung PRÄZ um {0}.",
+    "value": {
+      "0": "300, 360, 430, 520, 630, 750"
+    },
     "thumbnail": "artifacts/Judgment of Light Bracelet.png",
     "story": "Ein gesegneter Armreif, erschaffen von den Heiligen Rittern der Kirche von Lua. Er ist ein antikes, magisches Werkzeug und es gibt heute nur noch einige wenige davon.",
     "aliases": null,
     "descriptionByStar": {
       "0": "Erhöht PRÄZ und Schwächung PRÄZ um 300.",
-      "1": "Erhöht PRÄZ und Schwächung PRÄZ um 360",
+      "1": "Erhöht PRÄZ und Schwächung PRÄZ um 360.",
       "2": "Erhöht PRÄZ und Schwächung PRÄZ um 430.",
       "3": "Erhöht PRÄZ und Schwächung PRÄZ um 520.",
       "4": "Erhöht PRÄZ und Schwächung PRÄZ um 630.",
@@ -1022,8 +1140,10 @@
   {
     "id": "Kiddy Chick",
     "name": "Junger Hüpfer",
-    "description": "ANG-GESCHW. wird um 80 erhöht.",
-    "value": {},
+    "description": "ANG-GESCHW. wird um {0} erhöht.",
+    "value": {
+      "0": "80, 96, 115, 138, 165, 200"
+    },
     "thumbnail": "artifacts/Kiddy Chick.png",
     "story": "Eine kleine Kükenspielfigur, die die Unschuld von Kindern repräsentiert.",
     "aliases": null,
@@ -1039,8 +1159,11 @@
   {
     "id": "Lion of Protection",
     "name": "Löwe des Schutzes",
-    "description": "Erhöht die eigene Körp. VERT um 20 % und Körp. Blockchance um 100.",
-    "value": {},
+    "description": "Erhöht die eigene Körp. VERT um {0} % und Körp. Blockchance um {1}.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50",
+      "1": "100, 120, 140, 170, 210, 250"
+    },
     "thumbnail": "artifacts/Lion of Protection.png",
     "story": "Silberner Löwe mit blauen Saphiraugen, der der kaiserlichen Familie Orvels als Symbol dient. Er hat das Verlangen, das Königreich und seinen Besitzer vor dem Bösen zu schützen.",
     "aliases": null,
@@ -1056,8 +1179,11 @@
   {
     "id": "LuLu's Necklace",
     "name": "LuLus Halskette",
-    "description": "Erhöht bei Kampfbeginn den Schaden an Feinden, die keine Helden sind, für 30 Sek. um 20 % und stellt alle 5 Sek. 200 Mana wieder her.",
-    "value": {},
+    "description": "Erhöht bei Kampfbeginn den Schaden an Feinden, die keine Helden sind, für 30 Sek. um {0} % und stellt alle 5 Sek. {1} Mana wieder her.",
+    "value": {
+      "0": "20, 24, 28, 34, 42, 50",
+      "1": "200, 240, 280, 340, 420, 500"
+    },
     "thumbnail": "artifacts/LuLu's Necklace.png",
     "story": "Eine glänzende Halskette von Mondhase LuLu.\nSie wurde aus den verfeinerten Fragmenten eines Vollmonds gefertigt.\nDie magische Kraft des Vollmonds sickert in den gesamten Körper des Trägers, sobald sie angelegt wird.",
     "aliases": null,
@@ -1111,8 +1237,11 @@
   {
     "id": "Madame's Bronze Mirrors",
     "name": "Bronzespiegel einer Dame",
-    "description": "Erhöht Mag. Blockchance um 300 und verringert erlittenen Mag. Schaden um 100.",
-    "value": {},
+    "description": "Erhöht Mag. Blockchance um {0} und verringert erlittenen Mag. Schaden um {1}.",
+    "value": {
+      "0": "300, 330, 360, 400, 440, 500",
+      "1": "100, 110, 120, 140, 160, 200"
+    },
     "thumbnail": "artifacts/Madame's Bronze Mirrors.png",
     "story": "Ein Bronzespiegel aus dem antiken, Technomagischen Königreich, der ein Geschenk eines versierten Zauberers an seine Frau war. Er trägt eine Runeninschrift zum Schutz einer geliebten Person.",
     "aliases": null,
@@ -1128,8 +1257,10 @@
   {
     "id": "Magical Flute",
     "name": "Magische Flöte",
-    "description": "Erhöht alle 8 Sek. die ANG-GESCHW. von 2 zufälligen Verbündeten und die des Beschwörers für 4 Sek. um 100.",
-    "value": {},
+    "description": "Erhöht alle 8 Sek. die ANG-GESCHW. von 2 zufälligen Verbündeten und die des Beschwörers für 4 Sek. um {0}.",
+    "value": {
+      "0": "100, 120, 140, 170, 210, 250"
+    },
     "thumbnail": "artifacts/Magical Flute.png",
     "story": "Antike Flöte, die aus den Knochen von Orox, der Wächterbestie des Schneegebirges, geschaffen wurde. Sie enthält einen Sturmzauber, der die Moral von Kriegern erhöht. Zudem kann sich ihre Schnelligkeit erhöhen, wenn sie den Klang der Flöte vernehmen.",
     "aliases": null,
@@ -1145,35 +1276,39 @@
   {
     "id": "New Year's Fireworks",
     "name": "Neujahrsfeuerwerk",
-    "description": "ANG ist am Anfang jeden Kampfes für 60 Sek. um 5 % erhöht.",
-    "value": {},
+    "description": "ANG ist am Anfang jeden Kampfes für 60 Sek. um {0} % erhöht.",
+    "value": {
+      "0": "5, 6, 7.2, 8.6, 10.4, 12.5"
+    },
     "thumbnail": "artifacts/New Year's Fireworks.png",
     "story": "Ein Gegenstand, um die Sorgen von 2017 zu vertreiben und einen guten Start ins Jahr 2018 zu ermöglichen.",
     "aliases": null,
     "descriptionByStar": {
       "0": "ANG ist am Anfang jeden Kampfes für 60 Sek. um 5 % erhöht.",
       "1": "ANG ist am Anfang jeden Kampfes für 60 Sek. um 6 % erhöht.",
-      "2": "ANG ist am Anfang jeden Kampfes für 60 Sek. um 7,2 % erhöht.",
-      "3": "ANG ist am Anfang jeden Kampfes für 60 Sek. um 8,6 % erhöht.",
-      "4": "ANG ist am Anfang jeden Kampfes für 60 Sek. um 10,4 % erhöht.",
-      "5": "ANG ist am Anfang jeden Kampfes für 60 Sek. um 12,5 % erhöht."
+      "2": "ANG ist am Anfang jeden Kampfes für 60 Sek. um 7.2 % erhöht.",
+      "3": "ANG ist am Anfang jeden Kampfes für 60 Sek. um 8.6 % erhöht.",
+      "4": "ANG ist am Anfang jeden Kampfes für 60 Sek. um 10.4 % erhöht.",
+      "5": "ANG ist am Anfang jeden Kampfes für 60 Sek. um 12.5 % erhöht."
     }
   },
   {
     "id": "New Year's Fanfare",
     "name": "Neujahrsfanfare",
-    "description": "Erhöht am Anfang jedes Kampfes den ANG von 4 Verbündeten für 20 Sek. um 5 %. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar.",
-    "value": {},
+    "description": "Erhöht am Anfang jedes Kampfes den ANG von 4 Verbündeten für 20 Sek. um {0} %. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar.",
+    "value": {
+      "0": "5, 6, 7.2, 8.6, 10.4, 12.5"
+    },
     "thumbnail": "artifacts/New Year's Fanfare.png",
     "story": "Die frohlockende Fanfare der Trompeten verbreitet den Segen der neu aufgegangenen Sonne.",
     "aliases": null,
     "descriptionByStar": {
       "0": "Erhöht am Anfang jedes Kampfes den ANG von 4 Verbündeten für 20 Sek. um 5 %. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar.",
       "1": "Erhöht am Anfang jedes Kampfes den ANG von 4 Verbündeten für 20 Sek. um 6 %. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar.",
-      "2": "Erhöht am Anfang jedes Kampfes den ANG von 4 Verbündeten für 20 Sek. um 7,2 %. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar.",
-      "3": "Erhöht am Anfang jedes Kampfes den ANG von 4 Verbündeten für 20 Sek. um 8,6 %. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar.",
-      "4": "Erhöht am Anfang jedes Kampfes den ANG von 4 Verbündeten für 20 Sek. um 10,4 %. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar.",
-      "5": "Erhöht am Anfang jedes Kampfes den ANG von 4 Verbündeten für 20 Sek. um 12,5 %. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar."
+      "2": "Erhöht am Anfang jedes Kampfes den ANG von 4 Verbündeten für 20 Sek. um 7.2 %. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar.",
+      "3": "Erhöht am Anfang jedes Kampfes den ANG von 4 Verbündeten für 20 Sek. um 8.6 %. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar.",
+      "4": "Erhöht am Anfang jedes Kampfes den ANG von 4 Verbündeten für 20 Sek. um 10.4 %. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar.",
+      "5": "Erhöht am Anfang jedes Kampfes den ANG von 4 Verbündeten für 20 Sek. um 12.5 %. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar."
     }
   },
   {
@@ -1199,8 +1334,10 @@
   {
     "id": "Orbs of Contract",
     "name": "Vetragskugeln",
-    "description": "Erhöht Mag. VERT alle 7 Sek. um 1% der ANG. Dieser Effekt kann bis zu 6-mal gestapelt werden.",
-    "value": {},
+    "description": "Erhöht Mag. VERT alle 7 Sek. um {0}% der ANG. Dieser Effekt kann bis zu 6-mal gestapelt werden.",
+    "value": {
+      "0": "1, 1.2, 1.4, 1.7, 2, 2.5"
+    },
     "thumbnail": "artifacts/Orbs of Contract.png",
     "story": "Kugeln, die von zwei Liebenden geteilt werden. Sie repräsentieren die immerwährende Gemeinschaft zweier Seelen, selbst wenn diese getrennt sind.",
     "aliases": null,
@@ -1216,42 +1353,50 @@
   {
     "id": "Perfume of the Queen",
     "name": "Parfum der Königin",
-    "description": "Entfernt eigene negative Effekte, erhöht die ANG-GESCHW. um 500 und gewährt 4 Sek. lang Massenkontroll-Immunität, wenn 3-mal von Massenkontrolle betroffen.",
-    "value": {},
+    "description": "Entfernt eigene negative Effekte, erhöht die ANG-GESCHW. um 500 und gewährt {0} Sek. lang Massenkontroll-Immunität, wenn 3-mal von Massenkontrolle betroffen.",
+    "value": {
+      "0": "4, 4.8, 5.8, 7, 8.4, 10"
+    },
     "thumbnail": "artifacts/Perfume of the Queen.png",
     "story": "Parfum, das von der sagenhaften Goldenen Königin benutzt wurde. Dem Geruch dieses legendären Parfums kann niemand widerstehen.",
     "aliases": null,
     "descriptionByStar": {
       "0": "Entfernt eigene negative Effekte, erhöht die ANG-GESCHW. um 500 und gewährt 4 Sek. lang Massenkontroll-Immunität, wenn 3-mal von Massenkontrolle betroffen.",
-      "1": "Entfernt eigene negative Effekte, erhöht die ANG-GESCHW. um 500 und gewährt 4,8 Sek. lang Massenkontroll-Immunität, wenn 3-mal von Massenkontrolle betroffen.",
-      "2": "Entfernt eigene negative Effekte, erhöht die ANG-GESCHW. um 500 und gewährt 5,8 Sek. lang Massenkontroll-Immunität, wenn 3-mal von Massenkontrolle betroffen.",
+      "1": "Entfernt eigene negative Effekte, erhöht die ANG-GESCHW. um 500 und gewährt 4.8 Sek. lang Massenkontroll-Immunität, wenn 3-mal von Massenkontrolle betroffen.",
+      "2": "Entfernt eigene negative Effekte, erhöht die ANG-GESCHW. um 500 und gewährt 5.8 Sek. lang Massenkontroll-Immunität, wenn 3-mal von Massenkontrolle betroffen.",
       "3": "Entfernt eigene negative Effekte, erhöht die ANG-GESCHW. um 500 und gewährt 7 Sek. lang Massenkontroll-Immunität, wenn 3-mal von Massenkontrolle betroffen.",
-      "4": "Entfernt eigene negative Effekte, erhöht die ANG-GESCHW. um 500 und gewährt 8,4 Sek. lang Massenkontroll-Immunität, wenn 3-mal von Massenkontrolle betroffen.",
+      "4": "Entfernt eigene negative Effekte, erhöht die ANG-GESCHW. um 500 und gewährt 8.4 Sek. lang Massenkontroll-Immunität, wenn 3-mal von Massenkontrolle betroffen.",
       "5": "Entfernt eigene negative Effekte, erhöht die ANG-GESCHW. um 500 und gewährt 10 Sek. lang Massenkontroll-Immunität, wenn 3-mal von Massenkontrolle betroffen."
     }
   },
   {
     "id": "Pocket Watch of Ancient Civilization",
     "name": "Antike Taschenuhr",
-    "description": "Reduziert alle 10 Sek. alle Cooldowns um 1 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 80.",
-    "value": {},
+    "description": "Reduziert alle 10 Sek. alle Cooldowns um {0} Sek. und erhöht ANG-GESCHW. für 5 Sek. um {1}.",
+    "value": {
+      "0": "1, 1.2, 1.4, 1.7, 2, 2.5",
+      "1": "80, 96, 115, 138, 165, 200"
+    },
     "thumbnail": "artifacts/Pocket Watch of Ancient Civilization.png",
     "story": "Eine Taschenuhr, die die Zeit vorspulen kann, um einen kurzen Blick auf jemandes Schicksal zu erlauben. Übermäßiger Gebrauch kann sich allerdings als gefährlich herausstellen.",
     "aliases": null,
     "descriptionByStar": {
       "0": "Reduziert alle 10 Sek. alle Cooldowns um 1 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 80.",
-      "1": "Reduziert alle 10 Sek. alle Cooldowns um 1,2 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 96.",
-      "2": "Reduziert alle 10 Sek. alle Cooldowns um 1,4 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 115.",
-      "3": "Reduziert alle 10 Sek. alle Cooldowns um 1,7 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 138.",
+      "1": "Reduziert alle 10 Sek. alle Cooldowns um 1.2 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 96.",
+      "2": "Reduziert alle 10 Sek. alle Cooldowns um 1.4 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 115.",
+      "3": "Reduziert alle 10 Sek. alle Cooldowns um 1.7 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 138.",
       "4": "Reduziert alle 10 Sek. alle Cooldowns um 2 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 165.",
-      "5": "Reduziert alle 10 Sek. alle Cooldowns um 2,5 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 200."
+      "5": "Reduziert alle 10 Sek. alle Cooldowns um 2.5 Sek. und erhöht ANG-GESCHW. für 5 Sek. um 200."
     }
   },
   {
     "id": "Primer for the Heroes",
     "name": "Elementarbuch für Helden",
-    "description": "Fallen die TP unter 20 %, erhöht sich ANG um 30 %. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um 300.",
-    "value": {},
+    "description": "Fallen die TP unter 20 %, erhöht sich ANG um {0} %. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um {1}.",
+    "value": {
+      "0": "30, 36, 43, 51, 62, 75",
+      "1": "300, 360, 430, 510, 620, 750"
+    },
     "thumbnail": "artifacts/Primer for the Heroes.png",
     "story": "Dieses Lehrbuch, in dem die Geschichten alter Helden gesammelt sind, ist für neue Helden wie eine Bibel. Es ist in antiker Schrift verfasst.",
     "aliases": null,
@@ -1261,14 +1406,17 @@
       "2": "Fallen die TP unter 20 %, erhöht sich ANG um 43 %. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um 430.",
       "3": "Fallen die TP unter 20 %, erhöht sich ANG um 51 %. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um 510.",
       "4": "Fallen die TP unter 20 %, erhöht sich ANG um 62 %. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um 620.",
-      "5": "Fallen die TP unter 20 %, erhöht sich ANG um 75%. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um 750."
+      "5": "Fallen die TP unter 20 %, erhöht sich ANG um 75 %. ANG-GESCHW. sowie alle Schaden-Reduzierungen erhöhen sich um 750."
     }
   },
   {
     "id": "Roaring Tiger Statue",
     "name": "Brüllende Tigerstatue",
-    "description": "Wenn die LP des Helden unter 35% fallen, erleiden Gegner in der Nähe SCH in Höhe von 100% des ANG und werden niedergeschlagen. Ihr ANG sinkt 10 Sek. lang um 14% und ihr ANG-Tempo um 140. Abklingzeit: 30 Sek.",
-    "value": {},
+    "description": "Wenn die LP des Helden unter 35% fallen, erleiden Gegner in der Nähe SCH in Höhe von 100% des ANG und werden niedergeschlagen. Ihr ANG sinkt 10 Sek. lang um {0}% und ihr ANG-Tempo um {1}. Abklingzeit: 30 Sek.",
+    "value": {
+      "0": "14, 16, 20, 24, 29, 35",
+      "1": "140, 160, 200, 240, 290, 350"
+    },
     "thumbnail": "artifacts/Roaring Tiger Statue.png",
     "story": "Eine unheimliche Goldstatue in Gestalt eines brüllenden Tigers. Bei bestimmten Bedingungen erwacht der Tiger zum Leben und sorgt in seiner Nähe für Angst und Schrecken.",
     "aliases": null,
@@ -1284,25 +1432,31 @@
   {
     "id": "Sealed Chain of Ancient God",
     "name": "Versiegelungskette eines Urgottes",
-    "description": "Bringt alle 20 Sek. einen zufälligen Feind 3 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
-    "value": {},
+    "description": "Bringt alle {0} Sek. einen zufälligen Feind {1} Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
+    "value": {
+      "0": "20, 19, 18, 17, 16, 15",
+      "1": "3, 3.5, 4, 4.5, 5, 6"
+    },
     "thumbnail": "artifacts/Sealed Chain of Ancient God.png",
     "story": "Eine Kette, die der Gottkönig der Wüste angeblich dazu verwendete, seine Sklaven zu fesseln. Jene, die von ihr zurückgehalten werden, können nicht widerstehen.",
     "aliases": null,
     "descriptionByStar": {
       "0": "Bringt alle 20 Sek. einen zufälligen Feind 3 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
-      "1": "Bringt alle 19 Sek. einen zufälligen Feind 3 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
-      "2": "Bringt alle 18 Sek. einen zufälligen Feind 3 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
-      "3": "Bringt alle 17 Sek. einen zufälligen Feind 3 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
-      "4": "Bringt alle 16 Sek. einen zufälligen Feind 3 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
-      "5": "Bringt alle 15 Sek. einen zufälligen Feind 3 Sek. lang zum Schweigen und entfernt alle positiven Effekte."
+      "1": "Bringt alle 19 Sek. einen zufälligen Feind 3.5 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
+      "2": "Bringt alle 18 Sek. einen zufälligen Feind 4 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
+      "3": "Bringt alle 17 Sek. einen zufälligen Feind 4.5 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
+      "4": "Bringt alle 16 Sek. einen zufälligen Feind 5 Sek. lang zum Schweigen und entfernt alle positiven Effekte.",
+      "5": "Bringt alle 15 Sek. einen zufälligen Feind 6 Sek. lang zum Schweigen und entfernt alle positiven Effekte."
     }
   },
   {
     "id": "Solar Stone",
     "name": "Sonnenstein",
-    "description": "Fügt Gegnern im Umkreis jede Sekunde P.SCH in Höhe von 20% des ANG zu und verringert ihre Heilungsrate 5 Sek. lang um 30%.",
-    "value": {},
+    "description": "Fügt Gegnern im Umkreis jede Sekunde P.SCH in Höhe von {0}% des ANG zu und verringert ihre Heilungsrate 5 Sek. lang um {1}%.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50",
+      "1": "30, 36, 43, 52, 62, 75"
+    },
     "thumbnail": "artifacts/Solar Stone.png",
     "story": "Ein magisches Werkzeug, das die Form der Sonne hat. Es wurde aus einem Stein hergestellt und soll die Essenz des Feuers verkörpern. Außerdem hat es die Macht, alle bösen Energien rund um seinen Besitzer zu reinigen.",
     "aliases": null,
@@ -1318,8 +1472,11 @@
   {
     "id": "Sorcerous Black Dagger",
     "name": "Schwarzer Magierdolch",
-    "description": "Jeder normale Angriff hat eine 10 %-Chance, das Mana des Gegners um 600 zu verringern. 6 Sek. Cooldown.",
-    "value": {},
+    "description": "Jeder normale Angriff hat eine {0} %-Chance, das Mana des Gegners um {1} zu verringern. 6 Sek. Cooldown.",
+    "value": {
+      "0": "10, 12, 14, 16, 18, 20",
+      "1": "600, 700, 800, 1000, 1200, 1500"
+    },
     "thumbnail": "artifacts/Sorcerous Black Dagger.png",
     "story": "Ein antiker, magischer Dolch, der anscheinend für Meuchelmorde verwendet wurde. Er ist mit einem niederträchtigen Zauber verwunschen, der Mana zerrüttet.",
     "aliases": null,
@@ -1335,8 +1492,11 @@
   {
     "id": "Soul Spring Water",
     "name": "Seelenquellwasser",
-    "description": "Regeneriert zum Kampfbeginn 24 % TP und 12 % Mana.",
-    "value": {},
+    "description": "Regeneriert zum Kampfbeginn {0} % TP und {1} % Mana.",
+    "value": {
+      "0": "24, 28, 34, 42, 50, 60",
+      "1": "12, 14, 17, 21, 25, 30"
+    },
     "thumbnail": "artifacts/Soul Spring Water.png",
     "story": "Es heißt, dass davon nur ein Tropfen in hundert Jahren aus der Seelenquelle läuft. Ein sehr seltenes und wirkungsvolles Wundermittel.",
     "aliases": [
@@ -1354,25 +1514,31 @@
   {
     "id": "Talismans of Resistance",
     "name": "Talisman des Widerstands",
-    "description": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 1 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 20 Sek.",
-    "value": {},
+    "description": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für {0} Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt {1} Sek.",
+    "value": {
+      "0": "1, 1.5, 2, 2.5, 3, 3.5",
+      "1": "20, 19, 18, 17, 16, 15"
+    },
     "thumbnail": "artifacts/Talismans of Resistance.png",
     "story": "Eine Reihe alter, exotischer Talismane, die schädliche Geister vertreiben. Hat man sie eine Weile in Gebrauch gehabt, werden sie wirkungslos.",
     "aliases": null,
     "descriptionByStar": {
       "0": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 1 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 20 Sek.",
-      "1": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 1,5 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 19 Sek.",
+      "1": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 1.5 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 19 Sek.",
       "2": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 2 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 18 Sek.",
-      "3": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 2,5 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 17 Sek.",
+      "3": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 2.5 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 17 Sek.",
       "4": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 3 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 16 Sek.",
-      "5": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 3,5 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 15 Sek."
+      "5": "Sobald ein negativer Effekt erlitten wir, werden alle negativen Effekt entfernt. Gewährt danach für 3.5 Sek. Massenkontroll-Immunität. Der Cooldown dafür beträgt 15 Sek."
     }
   },
   {
     "id": "Tarot Card of Loss",
     "name": "Tarotkarte des Verlusts",
-    "description": "Reduziert Krit. Chance um 150 und erhöht ANG um 30 %.",
-    "value": {},
+    "description": "Reduziert Krit. Chance um {0} und erhöht ANG um {1} %.",
+    "value": {
+      "0": "150, 180, 210, 260, 310, 375",
+      "1": "30, 36, 43, 52, 63, 75"
+    },
     "thumbnail": "artifacts/Tarot Card of Loss.png",
     "story": "Ein Stapel Tarotkarten, dem unvergleichliche Magie innewohnt. Es hat den Anschein, jemand hätte die Karten einst verloren. Es heißt zudem, der Stapel wurde von Eucalytus zu Ehren des Todes ihrer Liebsten zusammengestellt.",
     "aliases": null,
@@ -1388,42 +1554,50 @@
   {
     "id": "The Ancient Scope",
     "name": "Antikes Fernglas",
-    "description": "Bei 100 % MP steigen Krit. Chance und Präzision um 40 % für 10 Sek. Hat einen 20 Sek. Cooldown.",
-    "value": {},
+    "description": "Bei 100 % MP steigen Krit. Chance und Präzision um {0} für 10 Sek. Hat einen 20 Sek. Cooldown.",
+    "value": {
+      "0": "400, 480, 570, 690, 830, 1000"
+    },
     "thumbnail": "artifacts/The Ancient Scope.png",
     "story": "Ein Zielfernrohr, das von einem antiken Technomagier erschaffen wurde. Ein nützliches Werkzeug, mit dem selbst weit entfernte Objekte detailgenau begutachtet werden können.",
     "aliases": null,
     "descriptionByStar": {
-      "0": "Bei 100 % MP steigen Krit. Chance und Präzision um 40 % für 10 Sek. Hat einen 20 Sek. Cooldown.",
-      "1": "Bei 100 % MP steigen Krit. Chance und Präzision um 48 % für 10 Sek. Hat einen 20 Sek. Cooldown.",
-      "2": "Bei 100 % MP steigen Krit. Chance und Präzision um 57 % für 10 Sek. Hat einen 20 Sek. Cooldown.",
-      "3": "Bei 100 % MP steigen Krit. Chance und Präzision um 69 % für 10 Sek. Hat einen 20 Sek. Cooldown.",
-      "4": "Bei 100 % MP steigen Krit. Chance und Präzision um 83 % für 10 Sek. Hat einen 20 Sek. Cooldown.",
-      "5": "Bei 100 % MP steigen Krit. Chance und Präzision um 100 % für 10 Sek. Hat einen 20 Sek. Cooldown."
+      "0": "Bei 100 % MP steigen Krit. Chance und Präzision um 400 für 10 Sek. Hat einen 20 Sek. Cooldown.",
+      "1": "Bei 100 % MP steigen Krit. Chance und Präzision um 480 für 10 Sek. Hat einen 20 Sek. Cooldown.",
+      "2": "Bei 100 % MP steigen Krit. Chance und Präzision um 570 für 10 Sek. Hat einen 20 Sek. Cooldown.",
+      "3": "Bei 100 % MP steigen Krit. Chance und Präzision um 690 für 10 Sek. Hat einen 20 Sek. Cooldown.",
+      "4": "Bei 100 % MP steigen Krit. Chance und Präzision um 830 für 10 Sek. Hat einen 20 Sek. Cooldown.",
+      "5": "Bei 100 % MP steigen Krit. Chance und Präzision um 1000 für 10 Sek. Hat einen 20 Sek. Cooldown."
     }
   },
   {
     "id": "Tome of Black Magic",
     "name": "Schwarzmagie-Foliant",
-    "description": "Suche alle 10 Sek. ein Ziel aus. Dieses nimmt 5 Sek. lang jede Sek. VERT ignorierenden Schaden in Höhe von 2 % der aktuellen TP und reduziert Mana um 200. Dieser Skill funktioniert nur in der Arena.",
-    "value": {},
+    "description": "Suche alle 10 Sek. ein Ziel aus. Dieses nimmt 5 Sek. lang jede Sek. VERT ignorierenden Schaden in Höhe von {0} % der aktuellen TP und reduziert Mana um {1}. Dieser Skill funktioniert nur in der Arena.",
+    "value": {
+      "0": "2, 2.4, 2.9, 3.5, 4.2, 5",
+      "1": "200, 240, 290, 350, 420, 500"
+    },
     "thumbnail": "artifacts/Tome of Black Magic.png",
     "story": "Ein Buch mit böser, schwarzer Magie. Es ist voll von Zaubersprüchen, die der Teufel den Menschen beibrachte.",
     "aliases": null,
     "descriptionByStar": {
       "0": "Suche alle 10 Sek. ein Ziel aus. Dieses nimmt 5 Sek. lang jede Sek. VERT ignorierenden Schaden in Höhe von 2 % der aktuellen TP und reduziert Mana um 200. Dieser Skill funktioniert nur in der Arena.",
-      "1": "Suche alle 10 Sek. ein Ziel aus. Dieses nimmt 5 Sek. lang jede Sek. VERT ignorierenden Schaden in Höhe von 2,4 % der aktuellen TP und reduziert Mana um 240. Dieser Skill funktioniert nur in der Arena.",
-      "2": "Suche alle 10 Sek. ein Ziel aus. Dieses nimmt 5 Sek. lang jede Sek. VERT ignorierenden Schaden in Höhe von 2,9 % der aktuellen TP und reduziert Mana um 290. Dieser Skill funktioniert nur in der Arena.",
-      "3": "Suche alle 10 Sek. ein Ziel aus. Dieses nimmt 5 Sek. lang jede Sek. VERT ignorierenden Schaden in Höhe von 3,5 % der aktuellen TP und reduziert Mana um 350. Dieser Skill funktioniert nur in der Arena.",
-      "4": "Suche alle 10 Sek. ein Ziel aus. Dieses nimmt 5 Sek. lang jede Sek. VERT ignorierenden Schaden in Höhe von 4,2 % der aktuellen TP und reduziert Mana um 420. Dieser Skill funktioniert nur in der Arena.",
+      "1": "Suche alle 10 Sek. ein Ziel aus. Dieses nimmt 5 Sek. lang jede Sek. VERT ignorierenden Schaden in Höhe von 2.4 % der aktuellen TP und reduziert Mana um 240. Dieser Skill funktioniert nur in der Arena.",
+      "2": "Suche alle 10 Sek. ein Ziel aus. Dieses nimmt 5 Sek. lang jede Sek. VERT ignorierenden Schaden in Höhe von 2.9 % der aktuellen TP und reduziert Mana um 290. Dieser Skill funktioniert nur in der Arena.",
+      "3": "Suche alle 10 Sek. ein Ziel aus. Dieses nimmt 5 Sek. lang jede Sek. VERT ignorierenden Schaden in Höhe von 3.5 % der aktuellen TP und reduziert Mana um 350. Dieser Skill funktioniert nur in der Arena.",
+      "4": "Suche alle 10 Sek. ein Ziel aus. Dieses nimmt 5 Sek. lang jede Sek. VERT ignorierenden Schaden in Höhe von 4.2 % der aktuellen TP und reduziert Mana um 420. Dieser Skill funktioniert nur in der Arena.",
       "5": "Suche alle 10 Sek. ein Ziel aus. Dieses nimmt 5 Sek. lang jede Sek. VERT ignorierenden Schaden in Höhe von 5 % der aktuellen TP und reduziert Mana um 500. Dieser Skill funktioniert nur in der Arena."
     }
   },
   {
     "id": "Vase of Sacrifice",
     "name": "Vase der Opferung",
-    "description": "Stellt nach 50-maligem Erleiden von SCH die LP von 1 zufälligen Verbündeten in Höhe von 200% des eigenen ANG wieder her und erhöht den ANG des Ziels 10 Sek. lang um 30%.",
-    "value": {},
+    "description": "Stellt nach 50-maligem Erleiden von SCH die LP von 1 zufälligen Verbündeten in Höhe von {0}% des eigenen ANG wieder her und erhöht den ANG des Ziels 10 Sek. lang um {1}%.",
+    "value": {
+      "0": "200, 240, 290, 350, 420, 500",
+      "1": "30, 36, 43, 51, 63, 75"
+    },
     "thumbnail": "artifacts/Vase of Sacrifice.png",
     "story": "Die Vase wurde zu Ehren eines Dämonengenerals gefertigt, der im Dämonenkrieg fiel. In ihr fließt das klare, glitzernde Wasser des Flusses Eden.",
     "aliases": null,
@@ -1439,15 +1613,18 @@
   {
     "id": "Fragment of an Ancient Kingdom",
     "name": "Fragment eines antiken Königreichs",
-    "description": "Erhöht den Massenkontroll-Widerstand um 200 und die Massenkontroll-PRÄZ um 200.",
-    "value": {},
+    "description": "Erhöht den Massenkontroll-Widerstand um {0} und die Massenkontroll-PRÄZ um {1}.",
+    "value": {
+      "0": "200, 240, 290, 350, 420, 500",
+      "1": "200, 240, 290, 350, 420, 500"
+    },
     "thumbnail": "artifacts/Fragment of an Ancient Kingdom.png",
     "story": "Eine Komponente einer antiken und geheimnisvollen Maschine. Es soll angeblich Teil eines Teleportationsgeräts sein.",
     "aliases": null,
     "descriptionByStar": {
       "0": "Erhöht den Massenkontroll-Widerstand um 200 und die Massenkontroll-PRÄZ um 200.",
       "1": "Erhöht den Massenkontroll-Widerstand um 240 und die Massenkontroll-PRÄZ um 240.",
-      "2": "Erhöht den Massenkontroll-Widerstand um 290 und die MassenkontrollPRÄZ um 290.",
+      "2": "Erhöht den Massenkontroll-Widerstand um 290 und die Massenkontroll-PRÄZ um 290.",
       "3": "Erhöht den Massenkontroll-Widerstand um 350 und die Massenkontroll-PRÄZ um 350.",
       "4": "Erhöht den Massenkontroll-Widerstand um 420 und die Massenkontroll-PRÄZ um 420.",
       "5": "Erhöht den Massenkontroll-Widerstand um 500 und die Massenkontroll-PRÄZ um 500."
@@ -1456,8 +1633,10 @@
   {
     "id": "Goddess of Glory",
     "name": "Göttin des Ruhms",
-    "description": "Erhöht die ANG-GESCHW. von 4 Verbündeten für 20 Sek. um 100, wenn der Kampf beginnt. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar.",
-    "value": {},
+    "description": "Erhöht die ANG-GESCHW. von 4 Verbündeten für 20 Sek. um {0}, wenn der Kampf beginnt. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar.",
+    "value": {
+      "0": "100, 120, 140, 170, 210, 250"
+    },
     "thumbnail": "artifacts/Goddess of Glory.png",
     "story": "Eine goldene Statue einer Göttin, die einen Lorbeerzweig hält. Sie verhilft ihrem Besitzer zum Sieg.",
     "aliases": null,
@@ -1493,8 +1672,10 @@
   {
     "id": "Pendulum of Fantasy",
     "name": "Fantasie-Pendel",
-    "description": "Bei jedem Kampfbeginn wird permanent der ANG um 10 % erhöht. Dieser Effekt kann max. 5x gestapelt werden und ist nicht entfernbar.",
-    "value": {},
+    "description": "Bei jedem Kampfbeginn wird permanent der ANG um {0} % erhöht. Dieser Effekt kann max. 5x gestapelt werden und ist nicht entfernbar.",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25"
+    },
     "thumbnail": "artifacts/Pendulum of Fantasy.png",
     "story": "Ein Artefakt, von dem bekannt ist, dass es von Hexipolia verwendet wurde, bevor er im Besitz der Würfel kam.\nWenn man das Pendel betrachtet, das von Seite zu Seite schwingt, scheint so, als ob man in die Welt der Fantasie hineingezogen wird.",
     "aliases": null,
@@ -1530,8 +1711,10 @@
   {
     "id": "Ancient God King's Coin",
     "name": "Antike Münze des Gottkönigs",
-    "description": "Erhöht ANG um 20 % und Krit. Schaden um 20 %.",
-    "value": {},
+    "description": "Erhöht ANG um {0} % und Krit. Schaden um {0} %.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50"
+    },
     "thumbnail": "artifacts/Ancient God King's Coin.png",
     "story": "In der Antike führte Gottkönig Cain das Wüstenreich Sekireinel in ein goldenes Zeitalter.\nDies ist eine Gedenkmünze, die aus dem Gold hergestellt wurde, das er in der Wüste entdeckte.\nSie birgt eine geheimnisvolle Kraft und gibt die Wärme und Kraft der Sonne ab, wenn sie gehalten wird.",
     "aliases": null,
@@ -1547,8 +1730,10 @@
   {
     "id": "Amethyst Pendulum",
     "name": "Amethystenpendel",
-    "description": "Erhöht Krit. Widerstand gesamt 7 Sek. lang alle 10 Sek. um 200.",
-    "value": {},
+    "description": "Erhöht Krit. Widerstand gesamt 7 Sek. lang alle 10 Sek. um {0}.",
+    "value": {
+      "0": "200, 240, 290, 350, 420, 500"
+    },
     "thumbnail": "artifacts/Amethyst Pendulum.png",
     "story": "Pendel aus Amethyst. Kann die böse Energie vertreiben und finstere Energie im Voraus erkennen.",
     "aliases": [
@@ -1692,8 +1877,11 @@
   {
     "id": "Academic Achievement Award",
     "name": "Auszeichnung für akademische Leistungen",
-    "description": "Erhöht den ANG aller Verbündeten um 8 % und alle eigenen VERT um 10 %. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar.",
-    "value": {},
+    "description": "Erhöht den ANG aller Verbündeten um {0} % und alle eigenen VERT um {1} %. Dieser Effekt ist nicht mit anderen ähnlichen Effekten, die von Verbündeten angewendet werden, stapelbar.",
+    "value": {
+      "0": "8, 10, 12, 14, 17, 20",
+      "1": "10, 12, 14, 17, 21, 25"
+    },
     "thumbnail": "artifacts/Academic Achievement Award.png",
     "story": "In Anerkennung deiner überragenden Leistungen, hervorragenden Ergebnisse und großen Erfolge verleihen wir dir hiermit diese Medaille. \n– Direktor Rephy",
     "aliases": [

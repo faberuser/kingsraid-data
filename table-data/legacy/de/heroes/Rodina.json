@@ -130,8 +130,17 @@
   },
   "uw": {
     "name": "Rodina Spezial Gewehr Mod.0",
-    "description": "20 %ige Chance, bei einem Angriff zusätzlichen Körp. Schaden (200 % d. ANG) zuzufügen und den Feind zurückzuwerfen. Anschließend ist PRÄZ für 10 Sek. um 100 erhöht. Dieser Effekt kann sich max. 3 Mal kumulieren.",
-    "value": {},
+    "description": "20 %ige Chance, bei einem Angriff zusätzlichen Körp. Schaden ({0} % d. ANG) zuzufügen und den Feind zurückzuwerfen. Anschließend ist PRÄZ für 10 Sek. um 100 erhöht. Dieser Effekt kann sich max. 3 Mal kumulieren.",
+    "value": {
+      "0": {
+        "0": "200",
+        "1": "240",
+        "2": "288",
+        "3": "344",
+        "4": "414",
+        "5": "500"
+      }
+    },
     "thumbnail": "heroes/Rodina/uw.png",
     "story": "Der Inbegriff hochentwickelter kaiserlicher Technologie. Dieses Gewehr benötigt übermenschliche Präzision und kann nicht von einer normalen Person genutzt werden. Es wurde verzaubert, um dem Schützen eine Sicht über schier unmögliche Distanzen zu gewähren. Doch selbst das größte Zielfernrohr ist nutzlos, wenn es von jemandem benutzt wird, der nicht damit zielen kann. Die Leistung des Gewehrs hängt also stark von den Fähigkeiten seiner Benutzer ab. Rodina, allerdings, ist mit ihrer enormen Sehkraft und ihrer Genauigkeit eine angemessene Besitzerin des Gewehrs. Sie ging noch einen Schritt weiter, passte es nach ihren Vorstellungen an und nannte es „Rodina Spezial“.",
     "descriptionByStar": {
@@ -146,8 +155,17 @@
   "uts": {
     "1": {
       "name": "Stoßdämpfender Spezialschutz",
-      "description": "[Durchdringender Schuss] erleidet um 40 % verringerten Körp. Schaden und Mag. Schaden für die Dauer des Skills und erhöht den ANG bei einem kritischen Treffer 10 Sek. lang um 10 %. Die ANG-Erhöhung kann bis zu 4-mal gestapelt werden.",
-      "value": {},
+      "description": "[Durchdringender Schuss] erleidet um 40 % verringerten Körp. Schaden und Mag. Schaden für die Dauer des Skills und erhöht den ANG bei einem kritischen Treffer 10 Sek. lang um {0} %. Die ANG-Erhöhung kann bis zu 4-mal gestapelt werden.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Rodina/ut/1.png",
       "story": "Ein spezieller Schulterschutz, den Fluss nur schwer für die zierliche Rodina finden konnte.\nEr wurde aus dem Leder schwarzer Larven hergestellt und ist sehr hart und widerstandsfähig. Er gehört zu Rodinas Lieblingsgegenständen, da er ideal dafür geeignet ist, den Rückstoß abzufangen.",
       "descriptionByStar": {
@@ -161,8 +179,17 @@
     },
     "2": {
       "name": "Kristallene Unterstützung",
-      "description": "[Ziel Anvisieren] wechselt auf einen zufälligen Feind, wenn Rodinas Ziel stirbt. Erhöht den ANG 10 Sek. lang um 20 %.",
-      "value": {},
+      "description": "[Ziel Anvisieren] wechselt auf einen zufälligen Feind, wenn Rodinas Ziel stirbt. Erhöht den ANG 10 Sek. lang um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Rodina/ut/2.png",
       "story": "Ein Scharfschützengewehr, das von Pavel so angefertigt wurde, dass es zu Rodinas kleinem Körper passt.\nEs ist aus Kristallen hergestellt, ist also sehr hart und stabil. So ist es in der Lage, auf jedes Ziel zu schießen.",
       "descriptionByStar": {
@@ -176,8 +203,17 @@
     },
     "3": {
       "name": "Spezielles Sperrfeuer VII",
-      "description": "[Fokus-Feuer] erhöht den Schaden um 20 % und fügt mit den letzten 2 Schüssen ungeachtet der VERT des Ziels Schaden zu.",
-      "value": {},
+      "description": "[Fokus-Feuer] erhöht den Schaden um {0} % und fügt mit den letzten 2 Schüssen ungeachtet der VERT des Ziels Schaden zu.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Rodina/ut/3.png",
       "story": "Ein Sperrfeuer, für das der legendäre Schmied des Kaiserreiches beauftragt wurde. Es enthält Schießpulver aus dem robusten Ei eines Pitta und dem Kieferknochen einer Drachenschildkröte. Es wurde klein gefertigt, so dass Rodina es leicht benutzen kann, aber sie besitzt die Kraft, alles zu zerstören.",
       "descriptionByStar": {
@@ -191,8 +227,17 @@
     },
     "4": {
       "name": "Gewehr-Enzyklopädie",
-      "description": "[Dauerfeuer] ändert die Anzahl an Zielen auf 2. Der Körp. Krit. Widerstand von getroffenen Feinden wird für 10 Sek. um 200 verringert.",
-      "value": {},
+      "description": "[Dauerfeuer] ändert die Anzahl an Zielen auf 2. Der Körp. Krit. Widerstand von getroffenen Feinden wird für 10 Sek. um {0} verringert.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Rodina/ut/4.png",
       "story": "Ein Magazin für Schusswaffenfanatiker im Kaiserreich.\nEs wird regelmäßig von Magos Le'Flamme herausgegeben und enthält verschiedenste Informationen über die neusten Gewehre und Waffen.\nRodina besitzt jede Ausgabe und zweifelt niemals an den Inhalten des Magazins, da es von der Leiterin Valance herausgegeben wird, in die er verliebt ist.",
       "descriptionByStar": {

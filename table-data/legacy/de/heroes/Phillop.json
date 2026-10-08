@@ -130,24 +130,50 @@
   },
   "uw": {
     "name": "Drachenruinen, Atein",
-    "description": "Erhöht 3 Sek. lang alle VERT aller Verbündeten außer des Wirkers um 10 % und stapelt beim Wirker 1 Drachenwut, immer wenn er Schaden erleidet. Drachenwut kann bis zu 100-mal gestapelt werden und pro Stapel steigen 10 Sek. lang sein ANG und seine VERT um 0,8 %.",
-    "value": {},
+    "description": "Erhöht 3 Sek. lang alle VERT aller Verbündeten außer des Wirkers um {0} % und stapelt beim Wirker 1 Drachenwut, immer wenn er Schaden erleidet. Drachenwut kann bis zu 100-mal gestapelt werden und pro Stapel steigen 10 Sek. lang sein ANG und seine VERT um {1} %.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "0.8",
+        "1": "1",
+        "2": "1.2",
+        "3": "1.4",
+        "4": "1.7",
+        "5": "2"
+      }
+    },
     "thumbnail": "heroes/Phillop/uw.png",
     "story": "Die Draconics sind Dämonen, die erschaffen wurden, um die Drachen, die Richter der Welt, zu erschlagen. Während des Krieges vor 100 Jahren töteten und verschlangen diese Draconics zahllose Drachen. Ein paar der überlebenden Drachen wurden vor Zorn und Schande wahnsinnig und verwandelten sich in Wahnsinnige Drachen. Nun sind sie nichts weiter als riesige Monster, die von ihren zerstörerischen Instinkten angetrieben werden. Phillop und seine Zwerge jagten die Draconics und die Wahnsinnigen Drachen seit dem Dämonenkrieg und sammeln deren Überreste, um legendäre Gegenstände zu schmieden.",
     "descriptionByStar": {
-      "0": "Erhöht 3 Sek. lang alle VERT aller Verbündeten außer des Wirkers um 10 % und stapelt beim Wirker 1 Drachenwut, immer wenn er Schaden erleidet. Drachenwut kann bis zu 100-mal gestapelt werden und pro Stapel steigen 10 Sek. lang sein ANG und seine VERT um 0,8 %.",
+      "0": "Erhöht 3 Sek. lang alle VERT aller Verbündeten außer des Wirkers um 10 % und stapelt beim Wirker 1 Drachenwut, immer wenn er Schaden erleidet. Drachenwut kann bis zu 100-mal gestapelt werden und pro Stapel steigen 10 Sek. lang sein ANG und seine VERT um 0.8 %.",
       "1": "Erhöht 3 Sek. lang alle VERT aller Verbündeten außer des Wirkers um 12 % und stapelt beim Wirker 1 Drachenwut, immer wenn er Schaden erleidet. Drachenwut kann bis zu 100-mal gestapelt werden und pro Stapel steigen 10 Sek. lang sein ANG und seine VERT um 1 %.",
-      "2": "Erhöht 3 Sek. lang alle VERT aller Verbündeten außer des Wirkers um 14 % und stapelt beim Wirker 1 Drachenwut, immer wenn er Schaden erleidet. Drachenwut kann bis zu 100-mal gestapelt werden und pro Stapel steigen 10 Sek. lang sein ANG und seine VERT um 1,2 %.",
-      "3": "Erhöht 3 Sek. lang alle VERT aller Verbündeten außer des Wirkers um 17 % und stapelt beim Wirker 1 Drachenwut, immer wenn er Schaden erleidet. Drachenwut kann bis zu 100-mal gestapelt werden und pro Stapel steigen 10 Sek. lang sein ANG und seine VERT um 1,4 %.",
-      "4": "Erhöht 3 Sek. lang alle VERT aller Verbündeten außer des Wirkers um 21 % und stapelt beim Wirker 1 Drachenwut, immer wenn er Schaden erleidet. Drachenwut kann bis zu 100-mal gestapelt werden und pro Stapel steigen 10 Sek. lang sein ANG und seine VERT um 1,7 %.",
+      "2": "Erhöht 3 Sek. lang alle VERT aller Verbündeten außer des Wirkers um 14 % und stapelt beim Wirker 1 Drachenwut, immer wenn er Schaden erleidet. Drachenwut kann bis zu 100-mal gestapelt werden und pro Stapel steigen 10 Sek. lang sein ANG und seine VERT um 1.2 %.",
+      "3": "Erhöht 3 Sek. lang alle VERT aller Verbündeten außer des Wirkers um 17 % und stapelt beim Wirker 1 Drachenwut, immer wenn er Schaden erleidet. Drachenwut kann bis zu 100-mal gestapelt werden und pro Stapel steigen 10 Sek. lang sein ANG und seine VERT um 1.4 %.",
+      "4": "Erhöht 3 Sek. lang alle VERT aller Verbündeten außer des Wirkers um 21 % und stapelt beim Wirker 1 Drachenwut, immer wenn er Schaden erleidet. Drachenwut kann bis zu 100-mal gestapelt werden und pro Stapel steigen 10 Sek. lang sein ANG und seine VERT um 1.7 %.",
       "5": "Erhöht 3 Sek. lang alle VERT aller Verbündeten außer des Wirkers um 25 % und stapelt beim Wirker 1 Drachenwut, immer wenn er Schaden erleidet. Drachenwut kann bis zu 100-mal gestapelt werden und pro Stapel steigen 10 Sek. lang sein ANG und seine VERT um 2 %."
     }
   },
   "uts": {
     "1": {
       "name": "Schilddekoration des Wahnsinnigen Drachen",
-      "description": "[Zusammenstoß] verringert 10 Sek. lang den Massenkontroll-Widerstand des Ziels um 250 und Körp. Blockchance um 200.",
-      "value": {},
+      "description": "[Zusammenstoß] verringert 10 Sek. lang den Massenkontroll-Widerstand des Ziels um 250 und Körp. Blockchance um {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Phillop/ut/1.png",
       "story": "Eine goldene Schilddekoration, auf der das Bild eines Wahnsinnigen Drachen eingraviert ist.\nZwergische Meisterhandwerker haben sie König Phillop als Geschenk für seine beeindruckende Jagd auf Wahnsinnige Drachen übergeben. Phillop brachte sie nicht an seinem Schild an, da sie etwas zu edel für den Einsatz im Kampf war, aber er trägt sie immer als Glücksbringer bei sich.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Zwergischer Steinbockhelm",
-      "description": "[Kopfnuss] verringert die Manakosten um 1 und den Körp. Krit. Widerstand des betroffenen Feindes 10 Sek. lang um 200.",
-      "value": {},
+      "description": "[Kopfnuss] verringert die Manakosten um 1 und den Körp. Krit. Widerstand des betroffenen Feindes 10 Sek. lang um {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Phillop/ut/2.png",
       "story": "Der Steinbockhelm des uralten Zwergenkönigs. \nEr wurde aus dem Gold von Drachen geschaffen, das nach dem Sieg über den dunklen Drachen Bokrug geborgen wurde. Das prächtige goldene Horn des Helms ist mit dunkler Drachenmagie durchwirkt, die einen Feind verlangsamt, der von „Kopfnuss“ getroffen wurde.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Zeremonienhammer der Zwergen",
-      "description": "[Eins mit der Erde] erhöht eigene ANG-GESCHW. und Krit. Chance um 250, Körp. VERT-Boost erhöht sich um 20 % während der Wirkungsdauer.",
-      "value": {},
+      "description": "[Eins mit der Erde] erhöht eigene ANG-GESCHW. und Krit. Chance um 250, Körp. VERT-Boost erhöht sich um {0} % während der Wirkungsdauer.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Phillop/ut/3.png",
       "story": "Ein Hammer, den der uralte Zwergenkönig als Geschenk von einem Erdelementar erhielt. Er war ein Geschenk, das der König dafür erhielt, dass er das Königreich der Gnome vor den Angriffen des bösartigen Erddrachen Azi Dhaka beschützte. Beim Einsatz von „Eins mit der Erde“ erhöht dieser mit dem Segen des Erdgeistes durchwirkte Zeremonienhammer die VERT durch die Macht des Erdgeistes und verleiht Immunität gegen TP-Erholung und Immun gegenüber Massenkontrolle.",
       "descriptionByStar": {
@@ -191,16 +235,25 @@
     },
     "4": {
       "name": "Titanhammer",
-      "description": "[Rüstung zerreißen] verringert bei einem Angriff pro Zähler den ANG des Ziels um 20 % und die Heilungsrate um 4 %.",
-      "value": {},
+      "description": "[Rüstung zerreißen] verringert bei einem Angriff pro Zähler den ANG des Ziels um 20 % und die Heilungsrate um {0} %.",
+      "value": {
+        "0": {
+          "0": "4",
+          "1": "4.8",
+          "2": "5.8",
+          "3": "7",
+          "4": "8.4",
+          "5": "10"
+        }
+      },
       "thumbnail": "heroes/Phillop/ut/4.png",
       "story": "Ein Hammer aus Titan, dem legendären Metall, das von Riesen geschmiedet wird.\nEr ist mächtig genug, um jede legendäre Waffe und Rüstung zu zerstören. Seit dem Ende des Dämonenkriegs gibt es in Orvelia nur noch 3 bekannte Exemplare.",
       "descriptionByStar": {
         "0": "[Rüstung zerreißen] verringert bei einem Angriff pro Zähler den ANG des Ziels um 20 % und die Heilungsrate um 4 %.",
-        "1": "[Rüstung zerreißen] verringert bei einem Angriff pro Zähler den ANG des Ziels um 20 % und die Heilungsrate um 4,8 %.",
-        "2": "[Rüstung zerreißen] verringert bei einem Angriff pro Zähler den ANG des Ziels um 20 % und die Heilungsrate um 5,8 %.",
+        "1": "[Rüstung zerreißen] verringert bei einem Angriff pro Zähler den ANG des Ziels um 20 % und die Heilungsrate um 4.8 %.",
+        "2": "[Rüstung zerreißen] verringert bei einem Angriff pro Zähler den ANG des Ziels um 20 % und die Heilungsrate um 5.8 %.",
         "3": "[Rüstung zerreißen] verringert bei einem Angriff pro Zähler den ANG des Ziels um 20 % und die Heilungsrate um 7 %.",
-        "4": "[Rüstung zerreißen] verringert bei einem Angriff pro Zähler den ANG des Ziels um 20 % und die Heilungsrate um 8,4 %.",
+        "4": "[Rüstung zerreißen] verringert bei einem Angriff pro Zähler den ANG des Ziels um 20 % und die Heilungsrate um 8.4 %.",
         "5": "[Rüstung zerreißen] verringert bei einem Angriff pro Zähler den ANG des Ziels um 20 % und die Heilungsrate um 10 %."
       }
     }

@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Wings of Corruption, Apoliox",
-    "description": "Every 20 sec, gains 'The Vessel of Curses' and increases ATK by 20% for 10 sec.",
-    "value": {},
+    "description": "Every {0} sec, gains 'The Vessel of Curses' and increases ATK by {1}% for 10 sec.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "18",
+        "2": "16",
+        "3": "14",
+        "4": "12",
+        "5": "10"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      }
+    },
     "thumbnail": "heroes/Shamilla/uw.png",
     "story": "Curses are born from negative feelings such as hatred, jealousy, and resentment. These are the best food for Shamilla. The wings that grew powerful during the Demon War by absorbing the curses of countless people are terrifying to normal people. Those who are touched by the feathers are said to be bound by many curses, and they fall into a vortex of emotions. In that abyss, a captivating and seductive laughter echoes. The laughter of a demon that enjoys the different kinds of human feelings.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Liberation of Curses",
-      "description": "[Curse of Petrification] Increases the number of targets by 1, and for 10 sec, reduces the target's M.Dodge by 120.",
-      "value": {},
+      "description": "[Curse of Petrification] Increases the number of targets by 1, and for 10 sec, reduces the target's M.Dodge by {0}.",
+      "value": {
+        "0": {
+          "0": "120",
+          "1": "140",
+          "2": "170",
+          "3": "210",
+          "4": "250",
+          "5": "300"
+        }
+      },
       "thumbnail": "heroes/Shamilla/ut/1.png",
       "story": "A jewel that releases the curses that Shamilla has inside her.\nShamilla sometimes uses this jewel to release curses from her body, just to watch an exciting story unfold according to her plans. The most common curse she releases is petrification, mostly to make sure that the right characters are in play for her scheme.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Ancient Demon's Heart",
-      "description": "[Curse of Time] Additionally increases Cooldown by 0.7 sec and reduces M.DEF of the target by 10% for 10 sec.",
-      "value": {},
+      "description": "[Curse of Time] Additionally increases Cooldown by 0.7 sec and reduces M.DEF of the target by {0}% for 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Shamilla/ut/2.png",
       "story": "A strange jewel from which the resentful whispers of ancient demons can be heard.\nA cursed item filled with the souls of long forgotten ancient demons.\nThey wish to escape every day, but she won't let them out that easily.\nHer soul has accepted all the curses of the world,\nso it is as deep and dark as the abyss.",
       "descriptionByStar": {
@@ -191,11 +226,11 @@
       "story": "Shamilla has been cursed to hold all the curses in the world inside her,\nbut could also be seen as a savior who binds all those curses.\nHer death would mean that all the evil she holds within would go back out into the world.\nThis Jar of Curses that Shamilla made is used to retrieve the curses that Shamilla spat out.",
       "descriptionByStar": {
         "0": "[Curse of Pain] Increases DMG by 20%, and continuous DMG becomes irremovable.",
-        "1": "[Curse of Pain] DMG is increased by 24%, and gains a stack of 'The Vessel of Curses' upon killing an enemy.",
-        "2": "[Curse of Pain] DMG is increased by 29%, and gains a stack of 'The Vessel of Curses' upon killing an enemy.",
-        "3": "[Curse of Pain] DMG is increased by 35%, and gains a stack of 'The Vessel of Curses' upon killing an enemy.",
-        "4": "[Curse of Pain] DMG is increased by 42%, and gains a stack of 'The Vessel of Curses' upon killing an enemy.",
-        "5": "[Curse of Pain] DMG is increased by 50%, and gains a stack of 'The Vessel of Curses' upon killing an enemy."
+        "1": "[Curse of Pain] Increases DMG by 24%, and continuous DMG becomes irremovable.",
+        "2": "[Curse of Pain] Increases DMG by 29%, and continuous DMG becomes irremovable.",
+        "3": "[Curse of Pain] Increases DMG by 35%, and continuous DMG becomes irremovable.",
+        "4": "[Curse of Pain] Increases DMG by 42%, and continuous DMG becomes irremovable.",
+        "5": "[Curse of Pain] Increases DMG by 50%, and continuous DMG becomes irremovable."
       }
     },
     "4": {
@@ -215,11 +250,11 @@
       "story": "The very source of all curses.\nIts root sprouted when hatred was born, and the evil became known to world at the beginning.\nIt is located in deep within Shamilla, the Vessel of Curses, growing more hideous as more curses are derived from it.",
       "descriptionByStar": {
         "0": "[The Vessel of Curses] Upon gaining The Vessel of Curses, reduces self's Cooldown of all Skills by 12%, and increases All DEF by 50% for 5 sec. The DEF Boost effect is irremovable.",
-        "1": "[The Vessel of Curses] Upon gaining the Vessel of Curses, self's Cooldown of all Skills is reduced by 14% and All DEF is increased by 50% for 5 sec.",
-        "2": "[The Vessel of Curses] Upon gaining the Vessel of Curses, self's Cooldown of all Skills is reduced by 17% and All DEF is increased by 50% for 5 sec.",
-        "3": "[The Vessel of Curses] Upon gaining the Vessel of Curses, self's Cooldown of all Skills is reduced by 21% and All DEF is increased by 50% for 5 sec.",
-        "4": "[The Vessel of Curses] Upon gaining the Vessel of Curses, self's Cooldown of all Skills is reduced by 25% and All DEF is increased by 50% for 5 sec.",
-        "5": "[The Vessel of Curses] Upon gaining the Vessel of Curses, self's Cooldown of all Skills is reduced by 30% and All DEF is increased by 50% for 5 sec."
+        "1": "[The Vessel of Curses] Upon gaining The Vessel of Curses, reduces self's Cooldown of all Skills by 14%, and increases All DEF by 50% for 5 sec. The DEF Boost effect is irremovable.",
+        "2": "[The Vessel of Curses] Upon gaining The Vessel of Curses, reduces self's Cooldown of all Skills by 17%, and increases All DEF by 50% for 5 sec. The DEF Boost effect is irremovable.",
+        "3": "[The Vessel of Curses] Upon gaining The Vessel of Curses, reduces self's Cooldown of all Skills by 21%, and increases All DEF by 50% for 5 sec. The DEF Boost effect is irremovable.",
+        "4": "[The Vessel of Curses] Upon gaining The Vessel of Curses, reduces self's Cooldown of all Skills by 25%, and increases All DEF by 50% for 5 sec. The DEF Boost effect is irremovable.",
+        "5": "[The Vessel of Curses] Upon gaining The Vessel of Curses, reduces self's Cooldown of all Skills by 30%, and increases All DEF by 50% for 5 sec. The DEF Boost effect is irremovable."
       }
     }
   },

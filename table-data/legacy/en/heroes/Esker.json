@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Wanderer's Pleasure, Lu Etrona Dice",
-    "description": "Upon a Critical Skill Hit, increases M.DMG that target receives by 20% for 10 sec and recovers own Mana by 100.",
-    "value": {},
+    "description": "Upon a Critical Skill Hit, increases M.DMG that target receives by {0}% for 10 sec and recovers own Mana by {1}.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      }
+    },
     "thumbnail": "heroes/Esker/uw.png",
     "story": "A pair dice once used by Hexipolia, the Wandering Illusion Clown.\nHe was a renowned mage and artist in ancient times who traveled all across the continent to give joy to people and help them forget their troubles.\nHis performance was a solace and hope to people living in confusing times, and they loved him to the extent that they made the Moon of Hexipolia after he passed away in honor of his noble spirit.\nHowever, the mentally demanding nature of Hexipolia's craft slowly gnawed into his soul, making him suffer from loneliness and depression.\nHe wanted to give up on his natural gift, but the shadow cast upon people was just too deep; he knew too well what his performances meant to his audience.\nIt was his destiny to amuse people.\n\nLu Etrona Dice is what he made to amuse himself during his painful journey of entertainment.\nHe condensed his Mana into the dice and gave it the power to form a dimensional illusion.\nWhen rolled, the dice opened up an imaginary world where Hexipolia could find some peace.\n\nThe dice was passed down to the descendants of his life-long pursuit for clowning, but it disappeared when the ancient civilization collapsed.\n\nAnd now, the dice is in the hands of a man called the Illusion Gambler.\nBeing used in a completely different way, against its maker's intentions...\n\nIt is said that the dice appeared in Esker's hands with blinding lights when he desperately wanted to escape this world.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Mumbo Jumbo Runic Cube",
-      "description": "[This Is My Game] Increases DMG by 20% and the number of hits by 1.",
-      "value": {},
+      "description": "[This Is My Game] Increases DMG by {0}% and the number of hits by 1.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Esker/ut/1.png",
       "story": "A toy cube that Esker used to play with Ophelia when she was feeling down.\nThe Cube lets out a gleaming light when the Runic letters are put together,\nand starts playing a beautiful melody when completely solved.\n\nOphelia would often feel depressed that she didn't know what the man of her destiny she met in her dreams looked like.\nIn such cases, Esker would, just as he did to calm his sister down, take this cube out and let her watch him solve the cube.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Indispensable Chess Piece",
-      "description": "[My Turn] The effect of My Turn becomes irremovable, and additionally grants 30 ATK Spd per stack to the ally with the highest ATK.",
-      "value": {},
+      "description": "[My Turn] The effect of My Turn becomes irremovable, and additionally grants {0} ATK Spd per stack to the ally with the highest ATK.",
+      "value": {
+        "0": {
+          "0": "30",
+          "1": "36",
+          "2": "43",
+          "3": "52",
+          "4": "63",
+          "5": "75"
+        }
+      },
       "thumbnail": "heroes/Esker/ut/2.png",
       "story": "A chess piece that belonged to Esker's performance partner in Stardust.\nWhen the magic show was over, the duo would play chess and talk about their performance earlier. \nThe day that the 'incident' happened and Esker decided to leave the troupe, no one but his partner knew what he had in mind.\nHanding this chess piece in Esker's hands, he told Esker not to forget Stardust and to come back when he could.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Old Fishing Rod",
-      "description": "[Shall I Try My Luck?] Reduces Mana Cost by 1 and increases M.DMG target receives by 10% for 10 sec.",
-      "value": {},
+      "description": "[Shall I Try My Luck?] Reduces Mana Cost by 1 and increases M.DMG target receives by {0}% for 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Esker/ut/3.png",
       "story": "A fishing rod for kids that Esker's childhood friend gave him as a present.\nThere was an annoying boy living in a town that Stardust would visit during annual tours.\nThe boy, Lucias, would read the boring bible to Esker and frighten him with stag beetles.\nEsker hated him for always smiling like an idiot at first, but they soon became close friends.\n\nWhen Stardust came to visit Lucias's town on another tour, the two exchanged a token of friendship, and this fishing rod was what Lucias gave Esker.\nSince then, Esker had to go fishing with Lucias every time he would come to the town.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Shady Chip",
-      "description": "[This Is Not a Trick] Increases ATK and DEF boost by 50%. ATK Spd of self is increased by 20 per stack.",
-      "value": {},
+      "description": "[This Is Not a Trick] Increases ATK and DEF boost by 50%. ATK Spd of self is increased by {0} per stack.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Esker/ut/4.png",
       "story": "A strange gambling chip used in black market gambling houses.\nThis is the most valuable chip of them all, and only the best adventurer in the secret gambling house could own it.\nIt looks like a regular golden gambling chip, but it holds life forces of countless souls due to the spell of Dark Wizards cast on it.",
       "descriptionByStar": {

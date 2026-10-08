@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Nerius, les Larmes de la Lune",
-    "description": "Attaquer un ennemi confère 10% de chance d'infliger des DEG M (100% de l'ATK) et réduit le temps de recharge de la compétence de 10%",
-    "value": {},
+    "description": "Attaquer un ennemi confère {0}% de chance d'infliger des DEG M ({1}% de l'ATK) et réduit le temps de recharge de la compétence de 10%",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "20",
+        "5": "25"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      }
+    },
     "thumbnail": "heroes/Dimael/uw.png",
     "story": "Un trésor des Elfes-Sombres fut créé à l'aide d'une puissante pierre de rayon de lune d'Arrovina et d'une branche d'arbre de lune de la meilleure qualité. Nerius est idéal pour la magie Clair de Lune et c'est l'une des armes magiques les plus puissantes des Elfes-Sombres. Cependant, on dit que sa superbe lueur lunaire peut facilement être souillée par les ténèbres. Un amour sublime s'est retrouvé plongé dans une obscurité profonde et l'Elfe-Sombre cherchant à se venger a fusionné les ténèbres dans cette arme.",
     "descriptionByStar": {
@@ -146,23 +163,41 @@
   "uts": {
     "1": {
       "name": "Vœu de la lune noire",
-      "description": "[Carnage de l'Ombre] Dissipe tous les effets négatifs qui pèsent sur le lanceur et réduit le temps de recharge de 1 sec.",
-      "value": {},
+      "description": "[Carnage de l'Ombre] Dissipe tous les effets négatifs qui pèsent sur le lanceur et réduit le temps de recharge de {0} sec.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Dimael/ut/1.png",
       "story": "C'est l'une des dagues que Dimael a partagé avec ses camarades déployés à Aegina.\nIl leur remit ces dagues dans le désert, par une nuit de Lune noire. Après quoi, tous firent le vœu d'affronter leur destin.\nIls s'aidèrent et se soignèrent mutuellement, tout en repoussant les créatures maléfiques qui surgissaient de la faille.\nPar malheur, Dimael fut le seul à revenir vivant d'Aegina.",
       "descriptionByStar": {
         "0": "[Carnage de l'Ombre] Dissipe tous les effets négatifs qui pèsent sur le lanceur et réduit le temps de recharge de 1 sec.",
-        "1": "[Carnage de l'Ombre] Dissipe tous les effets négatifs qui pèsent sur le lanceur et réduit le temps de recharge de 1,2 sec.",
-        "2": "[Carnage de l'Ombre] Dissipe tous les effets négatifs qui pèsent sur le lanceur et réduit le temps de recharge de 1,4 sec.",
-        "3": "[Carnage de l'Ombre] Dissipe tous les effets négatifs qui pèsent sur le lanceur et réduit le temps de recharge de 1,7 sec.",
-        "4": "[Carnage de l'Ombre] Dissipe tous les effets négatifs qui pèsent sur le lanceur et réduit le temps de recharge de 2,1 sec.",
-        "5": "[Carnage de l'Ombre] Dissipe tous les effets négatifs qui pèsent sur le lanceur et réduit le temps de recharge de 2,5 sec."
+        "1": "[Carnage de l'Ombre] Dissipe tous les effets négatifs qui pèsent sur le lanceur et réduit le temps de recharge de 1.2 sec.",
+        "2": "[Carnage de l'Ombre] Dissipe tous les effets négatifs qui pèsent sur le lanceur et réduit le temps de recharge de 1.4 sec.",
+        "3": "[Carnage de l'Ombre] Dissipe tous les effets négatifs qui pèsent sur le lanceur et réduit le temps de recharge de 1.7 sec.",
+        "4": "[Carnage de l'Ombre] Dissipe tous les effets négatifs qui pèsent sur le lanceur et réduit le temps de recharge de 2.1 sec.",
+        "5": "[Carnage de l'Ombre] Dissipe tous les effets négatifs qui pèsent sur le lanceur et réduit le temps de recharge de 2.5 sec."
       }
     },
     "2": {
       "name": "Bracelet incassable",
-      "description": "[Entrave noire] Augmente les DEG de 50 % et augmente la Resist M Faible de la cible de 10 % pendant 10 sec.",
-      "value": {},
+      "description": "[Entrave noire] Augmente les DEG de 50 % et augmente la Resist M Faible de la cible de {0} % pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Dimael/ut/2.png",
       "story": "Bracelet porté par Epigael il y a fort longtemps. Il comporte du morion de l’ombre, joyaux infiniment précieux aux yeux des Elfes-Sombres. \nL’on raconte que les âmes de ceux qui taillent le morion de l’ombre sont liées par un fil et qu’ils se reverront dans leur prochaine vie.",
       "descriptionByStar": {
@@ -176,31 +211,49 @@
     },
     "3": {
       "name": "Œil des ombres",
-      "description": "[Vague de l'Ombre] Les DEG sont augmentés de 50% et la dure d'Aveuglement est augmentée de 2 sec.",
-      "value": {},
+      "description": "[Vague de l'Ombre] Les DEG sont augmentés de 50% et la dure d'Aveuglement est augmentée de {0} sec.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.5",
+          "2": "3",
+          "3": "3.5",
+          "4": "4",
+          "5": "4.5"
+        }
+      },
       "thumbnail": "heroes/Dimael/ut/3.png",
       "story": "Fragments de larmes de la bête Heltanios, qui vivait au fond de la Fontaine de Vie. Elle libérait des ténèbres pures et ceux qui croisaient son regard se faisaient dérober l’âme par la puissante énergie ténébreuse.\nCeux qui maîtrisent ses yeux obtiennent énormément de puissance et de connaissances. Lorsque Dimael fut capturé à Aegina et se retrouva aux portes de la mort, Maria incrusta ces fragments d’yeux.",
       "descriptionByStar": {
         "0": "[Vague de l'Ombre] Les DEG sont augmentés de 50% et la dure d'Aveuglement est augmentée de 2 sec.",
-        "1": "[Vague de l'Ombre] Les DEG sont augmentés de 50% et la dure d'Aveuglement est augmentée de 2,5 sec.",
+        "1": "[Vague de l'Ombre] Les DEG sont augmentés de 50% et la dure d'Aveuglement est augmentée de 2.5 sec.",
         "2": "[Vague de l'Ombre] Les DEG sont augmentés de 50% et la dure d'Aveuglement est augmentée de 3 sec.",
-        "3": "[Vague de l'Ombre] Les DEG sont augmentés de 50% et la dure d'Aveuglement est augmentée de 3,5 sec.",
+        "3": "[Vague de l'Ombre] Les DEG sont augmentés de 50% et la dure d'Aveuglement est augmentée de 3.5 sec.",
         "4": "[Vague de l'Ombre] Les DEG sont augmentés de 50% et la dure d'Aveuglement est augmentée de 4 sec.",
-        "5": "[Vague de l'Ombre] Les DEG sont augmentés de 50% et la dure d'Aveuglement est augmentée de 4,5 sec."
+        "5": "[Vague de l'Ombre] Les DEG sont augmentés de 50% et la dure d'Aveuglement est augmentée de 4.5 sec."
       }
     },
     "4": {
       "name": "Couronne noire",
-      "description": "[Tache noire] Augmente la portée des attaques normales de 20 % et chaque coup augmente les DEG qu'elles infligent de 2 %. Cet effet peut se cumuler jusqu'à 10 fois.",
-      "value": {},
+      "description": "[Tache noire] Augmente la portée des attaques normales de 20 % et chaque coup augmente les DEG qu'elles infligent de {0} %. Cet effet peut se cumuler jusqu'à 10 fois.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Dimael/ut/4.png",
       "story": "La couronne des Elfes-Sombres.\nDimael ne peut se résoudre à porter cette couronne sanglante, car la tragédie s'étant abattue sur son peuple et la famille royale le hante encore.\nIl attend le jour où il pourra transmettre la couronne au véritable roi des Elfes-Sombres.",
       "descriptionByStar": {
         "0": "[Tache noire] Augmente la portée des attaques normales de 20 % et chaque coup augmente les DEG qu'elles infligent de 2 %. Cet effet peut se cumuler jusqu'à 10 fois.",
-        "1": "[Tache noire] Augmente la portée des attaques normales de 20 % et chaque coup augmente les DEG qu'elles infligent de 2,4 %. Cet effet peut se cumuler jusqu'à 10 fois.",
-        "2": "[Tache noire] Augmente la portée des attaques normales de 20 % et chaque coup augmente les DEG qu'elles infligent de 2,9 %. Cet effet peut se cumuler jusqu'à 10 fois.",
-        "3": "[Tache noire] Augmente la portée des attaques normales de 20 % et chaque coup augmente les DEG qu'elles infligent de 3,5 %. Cet effet peut se cumuler jusqu'à 10 fois.",
-        "4": "[Tache noire] Augmente la portée des attaques normales de 20 % et chaque coup augmente les DEG qu'elles infligent de 4,2 %. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "1": "[Tache noire] Augmente la portée des attaques normales de 20 % et chaque coup augmente les DEG qu'elles infligent de 2.4 %. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "2": "[Tache noire] Augmente la portée des attaques normales de 20 % et chaque coup augmente les DEG qu'elles infligent de 2.9 %. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "3": "[Tache noire] Augmente la portée des attaques normales de 20 % et chaque coup augmente les DEG qu'elles infligent de 3.5 %. Cet effet peut se cumuler jusqu'à 10 fois.",
+        "4": "[Tache noire] Augmente la portée des attaques normales de 20 % et chaque coup augmente les DEG qu'elles infligent de 4.2 %. Cet effet peut se cumuler jusqu'à 10 fois.",
         "5": "[Tache noire] Augmente la portée des attaques normales de 20 % et chaque coup augmente les DEG qu'elles infligent de 5 %. Cet effet peut se cumuler jusqu'à 10 fois."
       }
     }

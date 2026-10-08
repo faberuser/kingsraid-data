@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Fließender Kreis, Eltoirre",
-    "description": "Erhöht die Heilungsrate aller Verbündeten um 8 % und Mag. VERT um 5 % von Laias ANG. Heilt alle 5 Sek. die TP des Verbündeten mit den niedrigsten TP um 100 % des eigenen ANG.",
-    "value": {},
+    "description": "Erhöht die Heilungsrate aller Verbündeten um {0} % und Mag. VERT um 5 % von Laias ANG. Heilt alle 5 Sek. die TP des Verbündeten mit den niedrigsten TP um {1} % des eigenen ANG.",
+    "value": {
+      "0": {
+        "0": "8",
+        "1": "10",
+        "2": "12",
+        "3": "14",
+        "4": "17",
+        "5": "20"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      }
+    },
     "thumbnail": "heroes/Laias/uw.png",
     "story": "Ein Ankh in Gestalt eines Phönix. Es symbolisiert den natürlichen Kreislauf des Lebens. In der Urzeit verehrten die Nomaden der Wüste die Blaue Drachin der Oase als ihre Beschützerin. Im Gegenzug segnete sie sie mit Regen und schenkte ihren Feldfrüchten Leben. Um ihre Dankbarkeit zu zeigen, boten die Nomaden allerlei Schätze dar, darunter Lazulia, den Edelstein des Wassers. Obwohl sie eigentlich kein Interesse an materiellem Reichtum hatte, nahm sie ihre Erkenntlichkeit dankend an und verwendete die Schätze dazu, einen Tempel in der Oase zu errichten. Dieses Ankh ist das geheiligte Symbol des Tempels und enthält die mächtige Kraft des Wassers.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Wasserdrachenschuppe",
-      "description": "[Heilende Tropfen] erhöht die Heilungsrate um 50 % und Mag. Blockchance des Ziels 10 Sek. lang um 200.",
-      "value": {},
+      "description": "[Heilende Tropfen] erhöht die Heilungsrate um 50 % und Mag. Blockchance des Ziels 10 Sek. lang um {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Laias/ut/1.png",
       "story": "Eine Schuppe, mit der Laias ihren Haarschmuck dekoriert. Darin ist ihre Heilkraft gespeichert, sollte ihr jemals die Energie ausgehen. Als sie im Schrein des Flusses von innigen Gebeten des Trovatia-Stammes aufgeweckt wurde, kam sie zu dem Schluss, dass die junge Lilia die Kinder der Wüste nicht beschützen konnte, sollte sie noch einmal in einen tiefen Schlaf wie vor 100 Jahren verfallen. Sie entschloss sich deshalb, ihre Kraft in der Schuppe zu speichern, damit sie sie an Lilia weitergeben kann, sollte etwas passieren.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Oasenkristall",
-      "description": "[Schildblase] verringert den Cooldown um 12 % und entfernt negative Effekte vom Ziel.",
-      "value": {},
+      "description": "[Schildblase] verringert den Cooldown um {0} % und entfernt negative Effekte vom Ziel.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
       "thumbnail": "heroes/Laias/ut/2.png",
       "story": "Wasseressenz, die von den Blauen Drachen beschützt wird. \nDie Essenz einer Oase, die von den Blauen Drachen zu Beginn der Welt in die Wüste gebracht wurde. Es ist die heilige Mission der Wasserpriesterin Laias, diese Essenz zu beschützen und es ist ihre liebste Aufgabe. Der Oasenkristall führt die Wasserpriesterin, die die Schildblase einsetzt, zu der Person, die ihre Hilfe am nötigsten braucht.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Papyrus des Flusses",
-      "description": "[Fest des Wassers] Wirbel-Effekt zielt auf 2 Gegner und alle Verbündeten stellen zus. 500 Mana wieder her.",
-      "value": {},
+      "description": "[Fest des Wassers] Wirbel-Effekt zielt auf 2 Gegner und alle Verbündeten stellen zus. {0} Mana wieder her.",
+      "value": {
+        "0": {
+          "0": "500",
+          "1": "600",
+          "2": "720",
+          "3": "860",
+          "4": "1040",
+          "5": "1250"
+        }
+      },
       "thumbnail": "heroes/Laias/ut/3.png",
       "story": "Ein Ausschnitt aus der uralten Schrift, dem Buch des Chaos, das als verschwunden gilt. Das Buch des Chaos ist eine historische Schrift, die an den Priester des Wassers weitergegeben wurde und Aufzeichnungen über Kultur, Magie und viele andere Themen enthält. Es wurde zusammen mit Laias im goldenen Schrein des Flusses eingeschlossen, aber der größte Teil des Buches verschwand nach und nach, während sie schlief. Der verbleibende Papyrus des Flusses ist ein verstärkender Zauber für das „Fest des Wassers“.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Träne des Gottdrachen",
-      "description": "[Segen des Wasserdrachens] erhöht den VERT-Boost um 50 %. Alle Verbündeten stellen pro Sek. 40 Mana wieder her.",
-      "value": {},
+      "description": "[Segen des Wasserdrachens] erhöht den VERT-Boost um 50 %. Alle Verbündeten stellen pro Sek. {0} Mana wieder her.",
+      "value": {
+        "0": {
+          "0": "40",
+          "1": "48",
+          "2": "58",
+          "3": "70",
+          "4": "84",
+          "5": "100"
+        }
+      },
       "thumbnail": "heroes/Laias/ut/4.png",
       "story": "Ein bläuliches, durchsichtiges Juwel, das dort gefunden wurde, wo der erste Wasserdrache in die Umarmung des Manas zurückgekehrt ist.\nEs ist auch als die Verletzte Seele des Ersten Wasserdrachen bekannt, da die Leute glauben, dass es das Leid und die Sehnsucht des Drachen nach seinem verstorbenen Ehepartner enthält.\nSo hat es auch seinen Namen bekommen: Träne des Gottdrachens.",
       "descriptionByStar": {

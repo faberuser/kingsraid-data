@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Cielamaha, la Source infinie",
-    "description": "Récupère 50 PM toutes les secondes et pour chaque attaque automatique infligée, confère 80% de chances d'infliger 20% d'ATQ sous forme de DEG P",
-    "value": {},
+    "description": "Récupère {0} PM toutes les secondes et pour chaque attaque automatique infligée, confère 80% de chances d'infliger {1}% d'ATQ sous forme de DEG P",
+    "value": {
+      "0": {
+        "0": "50",
+        "1": "60",
+        "2": "70",
+        "3": "85",
+        "4": "105",
+        "5": "125"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "28",
+        "3": "34",
+        "4": "42",
+        "5": "50"
+      }
+    },
     "thumbnail": "heroes/Lilia/uw.png",
     "story": "Une source dont l'eau jaillit éternellement. \nCette jarre fut fabriquée par le premier dragon bleu, maître des mers et des océans.\nElle réagit à l'imagination de son porteur. \nPour une jeune fille sensible et imaginative comme Lilia, cette jarre n'est pas seulement un trésor, c'est une arme.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Murmure de la mer",
-      "description": "[Tempête marine] Réduit le temps de recharge de 2,5 sec et augmente les DEG P reçus par les ennemis touchés de 10 %.",
-      "value": {},
+      "description": "[Tempête marine] Réduit le temps de recharge de 2,5 sec et augmente les DEG P reçus par les ennemis touchés de {0} %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Lilia/ut/1.png",
       "story": "Une épingle à cheveux en pierres précieuses et en corail de la mer de l'Éternité, qui fut offerte à Lilia par Laias.\nElle ressemble à une simple épingle d'enfant, mais les pierres de la mer de l'Éternité qu'elle arbore renferment l'énergie des dragons d'eau, ce qui amplifie la Tempête marine de Lilia.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Cœur des flots",
-      "description": "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de 20 % pendant la durée de la compétence.",
-      "value": {},
+      "description": "[Oasis éternelle] L'effet ne peut pas être dissipé et les DEG Crit augmentent de {0} % pendant la durée de la compétence.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Lilia/ut/2.png",
       "story": "Ce collier en or, serti d'une gemme de protection, fut fabriqué par Laias pour Lilia. \nIl irradie de l'énergie des élémentaires d'eau qu'il contient. \nIl symbolise l'amour de Laias pour sa petite sœur.",
       "descriptionByStar": {
@@ -176,23 +211,41 @@
     },
     "3": {
       "name": "Marmite sans fond d'élémentaires",
-      "description": "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 2% pendant 7 sec.",
-      "value": {},
+      "description": "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de {0}% pendant 7 sec.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Lilia/ut/3.png",
       "story": "Cette marmite fut forgée par les vieux amis cactus de Lilia pour son anniversaire. \nElle produit sans discontinuer l'eau la plus pure qui soit. \nCependant, lorsqu'une certaine quantité d'eau a été utilisée, plus rien ne coule. Cette caractéristique a été imaginée par les cactus pour empêcher Lilia de perdre le contrôle de l'eau, au moins jusqu'à ce qu'elle se fasse la main.",
       "descriptionByStar": {
         "0": "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 2% pendant 7 sec.",
-        "1": "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 2,4% pendant 7 sec.",
-        "2": "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 2,8% pendant 7 sec.",
-        "3": "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 3,4% pendant 7 sec.",
-        "4": "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 4,2% pendant 7 sec.",
+        "1": "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 2.4% pendant 7 sec.",
+        "2": "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 2.9% pendant 7 sec.",
+        "3": "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 3.5% pendant 7 sec.",
+        "4": "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 4.2% pendant 7 sec.",
         "5": "[Cascade céleste] À chaque ATQ, vous avez 7% de chances de lancer une grosse goutte d'eau qui inflige 100% de l'ATQ sous forme de DEG P et augmente les DEG Crit du lanceur de 5% pendant 7 sec."
       }
     },
     "4": {
       "name": "Clé de pureté",
-      "description": "[Purification marine] Toutes les 10 sec, augmente les DEG Crit de 80 % et la récupération PM/sec de 30 % pendant 5 sec.",
-      "value": {},
+      "description": "[Purification marine] Toutes les 10 sec, augmente les DEG Crit de 80 % et la récupération PM/sec de {0} % pendant 5 sec.",
+      "value": {
+        "0": {
+          "0": "30",
+          "1": "36",
+          "2": "43",
+          "3": "52",
+          "4": "63",
+          "5": "75"
+        }
+      },
       "thumbnail": "heroes/Lilia/ut/4.png",
       "story": "Une clé sacrée trouvée au cœur d'une oasis.\nAlors que la tribu pratiquait un rituel de purification du mal pour le premier dragon d'eau, un étrange coffre fit surface au centre de l'oasis.\nPersonne ne réussit à l'ouvrir jusqu'à l'arrivée de Lilia, convoquée par ses homologues tribaux.\nLe coffre se mit à trembler quand Lilia s'en approcha et s'ouvrit de lui-même en irradiant une lumière intense.\nUne clé se trouvait à l'intérieur.\nDès qu'elle posa les yeux dessus, Lilia sut que ce n'était pas une clé ordinaire et qu'elle avait été protégée jusqu'à ce jour.\nOn ne sait toujours pas ce qu'elle ouvre, mais une chose est sûre : cette clé optimise les pouvoirs de purification de Lilia.",
       "descriptionByStar": {

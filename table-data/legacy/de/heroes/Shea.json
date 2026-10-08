@@ -140,14 +140,23 @@
       "2": "Erhöht den Massenkontroll-Widerstand um 430. Verringert alle Skill-Cooldowns um 14 % und stellt 580 Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält.",
       "3": "Erhöht den Massenkontroll-Widerstand um 520. Verringert alle Skill-Cooldowns um 17 % und stellt 700 Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält.",
       "4": "Erhöht den Massenkontroll-Widerstand um 630. Verringert alle Skill-Cooldowns um 21 % und stellt 840 Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält.",
-      "5": "Erhöht den Massenkontroll-Widerstand um 750. Verringert alle Skill-Cooldowns um 25 % und stellt 1.000 Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält."
+      "5": "Erhöht den Massenkontroll-Widerstand um 750. Verringert alle Skill-Cooldowns um 25 % und stellt 1000 Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält."
     }
   },
   "uts": {
     "1": {
       "name": "Blume des Lebens",
-      "description": "[Grüne Naturmelodie] erhöht die Heilungsrate um 50 % und den Massenkontroll-Widerstand des Ziels 8 Sek. lang um 100.",
-      "value": {},
+      "description": "[Grüne Naturmelodie] erhöht die Heilungsrate um 50 % und den Massenkontroll-Widerstand des Ziels 8 Sek. lang um {0}.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Shea/ut/1.png",
       "story": "Eine mystische Blume, der die Energie des Lebens innewohnt.\nIm Gegensatz zur Pflanzenwelt des Pandämoniums, die nur üble Gewächse hervorbringt, holt sich die Blume des Lebens ihre Nährstoffe aus sauberen und reinen Substanzen wie den Tautropfen der Morgendämmerung und der Energie von den Sternen der Milchstraße. Die reine Energie, die die Blume während ihres Wachstums speichert, hilft Shea dabei, die grüne Naturmelodie zu spielen.",
       "descriptionByStar": {
@@ -161,8 +170,17 @@
     },
     "2": {
       "name": "Windblume",
-      "description": "[Blauer Windgesang] erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 160 MP her, wenn ein Verbündeter einen Skill einsetzt.",
-      "value": {},
+      "description": "[Blauer Windgesang] erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal {0} MP her, wenn ein Verbündeter einen Skill einsetzt.",
+      "value": {
+        "0": {
+          "0": "160",
+          "1": "190",
+          "2": "230",
+          "3": "270",
+          "4": "330",
+          "5": "400"
+        }
+      },
       "thumbnail": "heroes/Shea/ut/2.png",
       "story": "Der Kranz schmückte am Tag, nachdem sie „Glück des Windes“ aufführte, den Kopf von Shea.\nSchwanheit zufolge war er außerdem ein Geschenk der Feen des Waldes für ihre wunderschöne Musik. \nEr enthält Sheas Wunsch, dass der Wind Glück über die Welt bringen möge.",
       "descriptionByStar": {
@@ -176,8 +194,17 @@
     },
     "3": {
       "name": "Feenkrone",
-      "description": "[Roter Leidenschaftstanz] bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 20 % erhöht.",
-      "value": {},
+      "description": "[Roter Leidenschaftstanz] bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um {0} % erhöht.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Shea/ut/3.png",
       "story": "Der Kranz schmückte am Tag, nachdem sie im Wald das Schlaflied für die Träume vollführte, den Kopf von Shea. Schwanheit zufolge war er ein Geschenk der Feen des Waldes für ihre wunderschöne Musik. Es heißt, dass Gegenstände, welche die Hände von Feen berühren, die Kraft besitzen, eine Seele zu ihrer reinsten Form zurückzubringen.",
       "descriptionByStar": {
@@ -191,8 +218,17 @@
     },
     "4": {
       "name": "Traum von Mira",
-      "description": "[Trance] erhöht während der Wirkungsdauer von [Trance] den eigenen ANG um 20 % und die ANG-GESCHW. um 200.",
-      "value": {},
+      "description": "[Trance] erhöht während der Wirkungsdauer von [Trance] den eigenen ANG um 20 % und die ANG-GESCHW. um {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Shea/ut/4.png",
       "story": "Als Shea zusammen mit den Geistern das Lied des Lebens für die Kreaturen auf der Erde sang, überreichte ihr Mira, die Göttin der Liebe, im Traum dieses Juwel.\nAls Shea aufwachte, hatte sie es in ihrer Hand.\nDas Juwel glänzte wie die Göttin der Liebe selbst und die Menschen waren allein durch seinen Anblick verblüfft.\nShea beschloss, es Traum von Mira zu nennen.",
       "descriptionByStar": {

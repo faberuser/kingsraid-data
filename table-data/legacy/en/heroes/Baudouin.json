@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "God's Book, Genesis",
-    "description": "Increases the casting speed of all skills, and upon every skill use, increases ATK by 2% and DEF by 2% for all allies. This effect can stack up to 7 times.",
-    "value": {},
+    "description": "Increases the casting speed of all skills, and upon every skill use, increases ATK by {0}% and DEF by {1}% for all allies. This effect can stack up to 7 times.",
+    "value": {
+      "0": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.9",
+        "3": "3.5",
+        "4": "4.2",
+        "5": "5"
+      },
+      "1": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.9",
+        "3": "3.5",
+        "4": "4.2",
+        "5": "5"
+      }
+    },
     "thumbnail": "heroes/Baudouin/uw.png",
     "story": "Even among the holy relics bestowed to the high priests of the Church of Lua, the God's Book Genesis is special. According to the legend, this book, guarded throughout the ages by the Grand Priests of the church, was written by Lua herself. Iris, the current Grand Priest, upon receiving a revelation regarding Baudouin, entrusted this book to his step father, Berman. Later, the book was given to Baudouin when he became a high priest. It is said that this divine relic provides infinite holy energy to its owner, along with the power to unlock the true potential of those who have faith.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Old Holy Grail",
-      "description": "[Holy Nova] Reduces Mana Cost by 1 and increases Heal Rate by 20%.",
-      "value": {},
+      "description": "[Holy Nova] Reduces Mana Cost by 1 and increases Heal Rate by {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Baudouin/ut/1.png",
       "story": "A wooden grail that has Goddess Lua's face engraved on it.\nWhen the people first learned of Lua's existence, they made a grail for her in praise of her divinity. As the civilization in Orbis Continent fell, the grail was also buried underground, and it's only been mentioned in records. However, on the day that Baudouin repented his sins and realized the truth of the holy book, this old grail appeared in front of him, shining like the sun.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Last Chapter of the Bible",
-      "description": "[Spear of Light] Gains Immunity to CC for the skill's duration and increases M.Weakness of the target by 10% for 10 sec.",
-      "value": {},
+      "description": "[Spear of Light] Gains Immunity to CC for the skill's duration and increases M.Weakness of the target by {0}% for 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Baudouin/ut/2.png",
       "story": "The last chapter of the legend that was too horrifying and terrifying to put in the Bible. \nIt talks about the holy light that kills the darkest enemy in the world.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Well-Worn Rosary",
-      "description": "[Holy Sanctuary] Increases ATK by 25% and recovers 120 Mana every sec for the duration of Skill.",
-      "value": {},
+      "description": "[Holy Sanctuary] Increases ATK by 25% and recovers {0} Mana every sec for the duration of Skill.",
+      "value": {
+        "0": {
+          "0": "120",
+          "1": "140",
+          "2": "170",
+          "3": "200",
+          "4": "250",
+          "5": "300"
+        }
+      },
       "thumbnail": "heroes/Baudouin/ut/3.png",
       "story": "The rosary that holy priest Evelyn of the Church of Lua carried until her death. It's as if Lua's holy voice can be heard from the rosary, praying that the world won't collapse. The undeniable holy energy engulfs the body, and it maximizes Baudouin's power.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Scorched Journal",
-      "description": "[Training of God] Increases Stun duration by 0.5 sec. Hit enemies take 25% increased M.DMG for 5 sec.",
-      "value": {},
+      "description": "[Training of God] Increases Stun duration by {0} sec. Hit enemies take 25% increased M.DMG for 5 sec.",
+      "value": {
+        "0": {
+          "0": "0.5",
+          "1": "0.6",
+          "2": "0.7",
+          "3": "0.8",
+          "4": "0.9",
+          "5": "1"
+        }
+      },
       "thumbnail": "heroes/Baudouin/ut/4.png",
       "story": "The last journal of a great teacher.\nIt contains the treatment that Priest Berman carried out for Dark Plague patients, and his own battle with his illness.\nBaudouin managed to save this from the flames when they were burning the teacher's belongings after he died. Then, he transcribed it with Leo and named it Berman's Journal, which made a great contribution to Dark Plague treatment.\nThe original journal is kept by Baudouin in safekeeping, reminding him of his teacher's will.",
       "descriptionByStar": {

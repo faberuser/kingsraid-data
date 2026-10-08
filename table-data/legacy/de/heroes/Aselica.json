@@ -145,18 +145,27 @@
     "story": "Die Legende erzählt von einem geheimnisvollen Metall, golden wie die Strahlen der Sonne, blau wie der reine Himmel und weiß wie ein blendendes Licht. Dieses heilige Set aus Schwert und Schild wurde aus jenem speziellen Metall geschmiedet, das nur von Engeln gehandhabt werden kann. Diese Relikten des Schutzes wurden erschaffen, um die Dunkelheit zu bannen und die Welt mit Licht zu durchfluten. Nur der redlichste aller Wachritter der Engel darf sie führen und sie sind in der Lage, jeden Dämon, der ihres Lichts gewahr wird, zu entzünden.",
     "descriptionByStar": {
       "0": "Wenn ein normaler ANG den Feind 5-mal trifft, erleidet das Ziel für 10 Sek. um 20 % erhöhten Mag. Schaden und wird 0.5 Sek. lang betäubt. Der erhaltene Mag. Schaden-Boost kann nicht entfernt werden.",
-      "1": "Wenn ein normaler Angriff den Feind 5-mal trifft, erleidet das Ziel für 10 Sek. um 24 % erhöhten Mag. Schaden und wird 0,5 Sek. lang betäubt.",
-      "2": "Wenn ein normaler Angriff den Feind 5-mal trifft, erleidet das Ziel für 10 Sek. um 29 % erhöhten Mag. Schaden und wird 0,5 Sek. lang betäubt.",
-      "3": "Wenn ein normaler Angriff den Feind 5-mal trifft, erleidet das Ziel für 10 Sek. um 35 % erhöhten Mag. Schaden und wird 0,5 Sek. lang betäubt.",
-      "4": "Wenn ein normaler Angriff den Feind 5-mal trifft, erleidet das Ziel für 10 Sek. um 42 % erhöhten Mag. Schaden und wird 0,5 Sek. lang betäubt.",
-      "5": "Wenn ein normaler Angriff den Feind 5-mal trifft, erleidet das Ziel für 10 Sek. um 50 % erhöhten Mag. Schaden und wird 0,5 Sek. lang betäubt."
+      "1": "Wenn ein normaler ANG den Feind 5-mal trifft, erleidet das Ziel für 10 Sek. um 24 % erhöhten Mag. Schaden und wird 0.5 Sek. lang betäubt. Der erhaltene Mag. Schaden-Boost kann nicht entfernt werden.",
+      "2": "Wenn ein normaler ANG den Feind 5-mal trifft, erleidet das Ziel für 10 Sek. um 29 % erhöhten Mag. Schaden und wird 0.5 Sek. lang betäubt. Der erhaltene Mag. Schaden-Boost kann nicht entfernt werden.",
+      "3": "Wenn ein normaler ANG den Feind 5-mal trifft, erleidet das Ziel für 10 Sek. um 35 % erhöhten Mag. Schaden und wird 0.5 Sek. lang betäubt. Der erhaltene Mag. Schaden-Boost kann nicht entfernt werden.",
+      "4": "Wenn ein normaler ANG den Feind 5-mal trifft, erleidet das Ziel für 10 Sek. um 42 % erhöhten Mag. Schaden und wird 0.5 Sek. lang betäubt. Der erhaltene Mag. Schaden-Boost kann nicht entfernt werden.",
+      "5": "Wenn ein normaler ANG den Feind 5-mal trifft, erleidet das Ziel für 10 Sek. um 50 % erhöhten Mag. Schaden und wird 0.5 Sek. lang betäubt. Der erhaltene Mag. Schaden-Boost kann nicht entfernt werden."
     }
   },
   "uts": {
     "1": {
       "name": "Licht der Morgendämmerung",
-      "description": "[Schwert der Sonne] entfernt alle positiven Effekte von Feinden in Reichweite und stellt bei einem Treffer 200 Mana wieder her.",
-      "value": {},
+      "description": "[Schwert der Sonne] entfernt alle positiven Effekte von Feinden in Reichweite und stellt bei einem Treffer {0} Mana wieder her.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Aselica/ut/1.png",
       "story": "Ein Fragment, das vom ewig leuchtenden Morgenstern gefallen ist.\nDer Morgenstern ist das heilige Licht, das schon seit Anbeginn der Zeit existiert. Er wacht über die Himmel und sorgt dafür, dass die heiligen Flammen der Schwerter der Engel nicht erlöschen. Der Erzengel übergab es Aselica zusammen mit dem Schwert der Sonne, bevor sie auf die Erde abgestiegen ist.",
       "descriptionByStar": {
@@ -170,8 +179,17 @@
     },
     "2": {
       "name": "Armreif der Sonne",
-      "description": "[Segen der Sonne] reduziert Manakosten um 1 und verringert den Körp. Schaden des Ziels 10 Sek. lang um 10 %.",
-      "value": {},
+      "description": "[Segen der Sonne] reduziert Manakosten um 1 und verringert den Körp. Schaden des Ziels 10 Sek. lang um {0} %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Aselica/ut/2.png",
       "story": "Armreif, der von den Erzengeln geschaffen wurde, um die Engel zu schützen, wenn sie auf die Erde herabsteigen. Er enthält die Sonne, also leuchtet er strahlend hell.\nWenn die Engel Furcht empfinden, soll das Sonnenlicht aus dem Armreif ihre Seelen schützen. \nUnd die Schicksale der Engel sind in dem Armreif miteinander verwoben, wenn sich also ein Engel in Lebensgefahr befindet, spüren die anderen instinktiv dessen Schmerz.",
       "descriptionByStar": {
@@ -209,8 +227,17 @@
     },
     "4": {
       "name": "Wille des Lichts",
-      "description": "[Fluch der Sonne] erhöht die Blendungsdauer um 1 Sekunde. Bei Aktivierung erleiden Gegner für 10 Sek. 10 % mehr Mag. Schaden.",
-      "value": {},
+      "description": "[Fluch der Sonne] erhöht die Blendungsdauer um 1 Sekunde. Bei Aktivierung erleiden Gegner für 10 Sek. {0} % mehr Mag. Schaden.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Aselica/ut/4.png",
       "story": "Ein Haarschmuck, der mit goldenen Lorbeerblättern und einer Feder des heiligen Vogels „Illaira“ verziert ist. Er leuchtet auch in absoluter Dunkelheit.\nDer Haarschmuck schützt seinen Träger vor Flüchen und verbrennt unheilvolle Energien mit seinem Licht.\nAselica hat sie bei ihrer Ernennung zu einem Schutzengel vom Erzengel erhalten.",
       "descriptionByStar": {

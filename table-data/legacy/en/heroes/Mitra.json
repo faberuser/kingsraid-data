@@ -130,8 +130,17 @@
   },
   "uw": {
     "name": "Roar of Madness, Velkinoth",
-    "description": "Upon a normal attack, increases own DEF Penetration and ATK Spd by 8. This effect cannot be dispelled, and can be stacked up to max 30 times.",
-    "value": {},
+    "description": "Upon a normal attack, increases own DEF Penetration and ATK Spd by {0}. This effect cannot be dispelled, and can be stacked up to max 30 times.",
+    "value": {
+      "0": {
+        "0": "8",
+        "1": "10",
+        "2": "12",
+        "3": "14",
+        "4": "17",
+        "5": "20"
+      }
+    },
     "thumbnail": "heroes/Mitra/uw.png",
     "story": "A pair of magical weapons that absorb the bloodlust of their user to enhance their own firepower. Each pull of their triggers pushes the user deeper and deeper into the craze of the battle. It is said that when a master craftsman creates a weapon, it develops a soul. Berkinos seem to have the soul of the war god. According to the story, when their creator pulled their triggers for the first time, he suddenly turned pale with terror and threw them into a river.",
     "descriptionByStar": {
@@ -146,8 +155,17 @@
   "uts": {
     "1": {
       "name": "Potential Madness",
-      "description": "[Bang! Bang!!] Increases DMG by 50% and reduces Cooldown by 0.8 sec.",
-      "value": {},
+      "description": "[Bang! Bang!!] Increases DMG by 50% and reduces Cooldown by {0} sec.",
+      "value": {
+        "0": {
+          "0": "0.8",
+          "1": "1",
+          "2": "1.2",
+          "3": "1.4",
+          "4": "1.7",
+          "5": "2"
+        }
+      },
       "thumbnail": "heroes/Mitra/ut/1.png",
       "story": "Velkinoth's speedloader that's custom-made for faster reload.\nHot-tempered Mitra used to complain that he wanted to shoot his enemies faster with Velkinoth's crazy rate of fire, but its slow reload speed kept getting in the way. One day, when Mitra was complaining as he always had been, Crow suddenly appeared in front of him.\n- Oh? Old... Kugh!\nCrow punched Mitra in the stomach, threw something at him, then went away.\n- Use that and stop complaining.\nIs this just his unique way of showing he cares?",
       "descriptionByStar": {
@@ -161,8 +179,17 @@
     },
     "2": {
       "name": "Wolf's Barrage Box",
-      "description": "[Time to Die!] Reduces Mana Cost by 1, and increases DMG dealt to bosses by 20% for the duration of Skill.",
-      "value": {},
+      "description": "[Time to Die!] Reduces Mana Cost by 1, and increases DMG dealt to bosses by {0}% for the duration of Skill.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Mitra/ut/2.png",
       "story": "Steel Wolf's special barrage box. \nThe Steel Wolves were infamous for being too violent and making it impossible to revitalize their enemies. \nThe most infamous Silver Wolf only uses the maximized Wolf Barrage Box that he got from the owner of the Gold Bar.",
       "descriptionByStar": {
@@ -176,8 +203,17 @@
     },
     "3": {
       "name": "Wolfhead Mercenary Insignia",
-      "description": "[Dance with me!!] DMG is increased by 20% and per every activation, skill cooldown is reduced by 5%. This effect can be stacked max 8 times.",
-      "value": {},
+      "description": "[Dance with me!!] DMG is increased by {0}% and per every activation, skill cooldown is reduced by 5%. This effect can be stacked max 8 times.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Mitra/ut/3.png",
       "story": "Rune of the greatest mercenaries, the Steel Wolves. A rune that symbolizes the mercenary Steel Wolves, who were called the demons of the battlefield. Mitra was called the Silver Wolf of the battlefield. Even after he's left the mercenaries, he carries it in remembrance of the battle against the naval officer of the empire.",
       "descriptionByStar": {
@@ -191,8 +227,17 @@
     },
     "4": {
       "name": "Song of Madness",
-      "description": "[You're Next!!] Increases DMG by 20%. Upon attacking enemies inflicted with 100 or more stacks of Death Mark, increases own Crit DMG by 2% for 10 sec. Crit DMG boost can be stacked up to max 25 times.",
-      "value": {},
+      "description": "[You're Next!!] Increases DMG by {0}%. Upon attacking enemies inflicted with 100 or more stacks of Death Mark, increases own Crit DMG by 2% for 10 sec. Crit DMG boost can be stacked up to max 25 times.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Mitra/ut/4.png",
       "story": "A bullet necklace that Valance, the chief of Magos Le'Flamme, made especially for Mitra.\nIt looks like an ordinary necklace, but it is actually a bullet with devastating explosive power.\nWith the cutting-edge technology of Magos Le'Flamme, it was made solely to be loaded to Velkinoth. As its ingredients were very rare, making a single bullet took a long time.\nValance decided to call it the Song of Madness, a name that fits the madness that Mitra shows in the battlefield.",
       "descriptionByStar": {

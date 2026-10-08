@@ -130,8 +130,33 @@
   },
   "uw": {
     "name": "Höllenhund, Akistra",
-    "description": "Normale Angriffe feuern eine zusätzliche Kugel ab, die physischen Schaden in Höhe von 50% des ANG verursacht. Nach Ende einer Fähigkeit wird Höllenhund Akistra aktiviert und erhöht für 20 Sek. den ANG um 30% und den Krit.-Schaden um 30%. Dieser Effekt wird höchstens einmal alle 20 Sek. ausgelöst.",
-    "value": {},
+    "description": "Normale Angriffe feuern eine zusätzliche Kugel ab, die physischen Schaden in Höhe von {0}% des ANG verursacht. Nach Ende einer Fähigkeit wird Höllenhund Akistra aktiviert und erhöht für 20 Sek. den ANG um {1}% und den Krit.-Schaden um {2}%. Dieser Effekt wird höchstens einmal alle 20 Sek. ausgelöst.",
+    "value": {
+      "0": {
+        "0": "50",
+        "1": "60",
+        "2": "70",
+        "3": "85",
+        "4": "100",
+        "5": "125"
+      },
+      "1": {
+        "0": "30",
+        "1": "36",
+        "2": "43",
+        "3": "52",
+        "4": "62",
+        "5": "75"
+      },
+      "2": {
+        "0": "30",
+        "1": "36",
+        "2": "43",
+        "3": "52",
+        "4": "62",
+        "5": "75"
+      }
+    },
     "thumbnail": "heroes/Crow/uw.png",
     "story": "Es handelt sich dabei unbestreitbar um die neueste kaiserliche technomagische Technologie. Sie kann auf drei Arten verwendet werden, wobei der letzte von ihnen eine Magie nützt, die so zerstörerisch ist, dass man ihren Gebrauch beschränken musste. Valance, die Leiterin der kaiserlichen Waffenentwicklungsorganisation Magos Le’Flamme meint, die neue Waffe Archistra wurde direkt nach ihrer Entwicklung von Crow, einem ehemaligen und unehrenhaft entlassenen Marineoffizier gestohlen. Ob Crow es tatsächlich geschafft hatte, eine der wichtigsten Organisationen des Kaiserreichs zu unterwandern und Archistra zu stehlen, muss noch untersucht werden ... Es ist ebenfalls denkbar, dass Valance sie ihm aufgrund ihrer langen Freundschaft einfach aushändigte.",
     "descriptionByStar": {
@@ -146,8 +171,17 @@
   "uts": {
     "1": {
       "name": "Kugel mit Bissspuren",
-      "description": "[Ziel wird eliminiert.] verringert den Cooldown um 3 Sek. und das Mana des Ziels bei jedem Treffer um 20.",
-      "value": {},
+      "description": "[Ziel wird eliminiert.] verringert den Cooldown um 3 Sek. und das Mana des Ziels bei jedem Treffer um {0}.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Crow/ut/1.png",
       "story": "Eine Kugel mit den Bissspuren eines Höllenhundes.\nWird man von dieser Kugel getroffen, wird man mit dem Brandmal des Höllenhundes belegt, das erst dann verschwindet, wenn man seinen letzten Atemzug getan hat. Egal, wie weit man davonrennt, man kann dem Höllenhund nicht entkommen.",
       "descriptionByStar": {
@@ -161,8 +195,17 @@
     },
     "2": {
       "name": "Kälte-Sperrfeuer",
-      "description": "[Widerstand ist zwecklos] verringert die Manakosten um 1 und hat eine Chance von 10 %, das Ziel bei jedem Treffer 3 Sek. lang einzufrieren.",
-      "value": {},
+      "description": "[Widerstand ist zwecklos] verringert die Manakosten um 1 und hat eine Chance von {0} %, das Ziel bei jedem Treffer 3 Sek. lang einzufrieren.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Crow/ut/2.png",
       "story": "Magos Le’Flamme, die kaiserliche Waffenentwicklungsorganisation, hat es geschafft, die Bodenfrostrakete zu verbessern. Sie versuchten, sie auf die neue Waffe Akistra zu bauen, um sie zu testen. Crow stahl jedoch Akistra, und damit auch die ausgerüstete Rakete. Diese Rakete enthält einen mächtigen Frost und ist stark genug, um das ganze umgebende Land einzufrieren.",
       "descriptionByStar": {
@@ -176,8 +219,17 @@
     },
     "3": {
       "name": "Halskette der Erinnerungen",
-      "description": "[Auch Götter sterben] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden um 20 %.",
-      "value": {},
+      "description": "[Auch Götter sterben] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht Schaden um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Crow/ut/3.png",
       "story": "Ein kostbarer Anhänger, der das Bild von Crows verstorbener Frau und Tochter enthält. Er starrt das Bild oft an, während er Bonbons lutscht, wobei er extrem traurig, und doch ruhig scheint. Der Anhänger ist für ihn wertvoller als sein eigenes Leben; es sollte also von niemandem angerührt werden. Selbst ein Gott würde dafür mit dem Leben bezahlen.",
       "descriptionByStar": {
@@ -191,8 +243,17 @@
     },
     "4": {
       "name": "Karussellspieldose",
-      "description": "[Jagdvorbereitung] erhöht den ANG-Boost um 20 %. Bissmal des Jagdhunds kann nicht mehr entfernt werden.",
-      "value": {},
+      "description": "[Jagdvorbereitung] erhöht den ANG-Boost um {0} %. Bissmal des Jagdhunds kann nicht mehr entfernt werden.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Crow/ut/4.png",
       "story": "Eine Karussellspieldose, die Crows Frau Rose gern hatte.\nCrow spazierte durch die Straßen von Orvelia und sah die alte Spieldose in der Auslage eines Ladens.\nEr blieb auf der Straße stehen und sah sie sich lange an. Danach ging er in den Laden. Er zog die Spieldose auf und hörte sich ihr Lied an.\n– Es ist die Gleiche.\n– Ich habe ihr gesagt, dass ich ihr eine neue kaufe, aber sie mochte nur die alte, abgenutzte Spieldose.\nEr murmelte leise vor sich hin und kaufte die Spieldose.\nEr stellte sich vor, wie seine Frau seiner Tochter das Lied der Spieldose mit einem breiten Lächeln auf dem Gesicht vorspielt.",
       "descriptionByStar": {

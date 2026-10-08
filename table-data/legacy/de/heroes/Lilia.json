@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Nie versiegende Quelle, Cielamaha",
-    "description": "50 MP-Reg. pro Sek. Chance von 80%, bei einem Angriff zusätzlichen Körp. Schaden in Höhe von 20% des ANG zu verursachen.",
-    "value": {},
+    "description": "{0} MP-Reg. pro Sek. Chance von 80%, bei einem Angriff zusätzlichen Körp. Schaden in Höhe von {1}% des ANG zu verursachen.",
+    "value": {
+      "0": {
+        "0": "50",
+        "1": "60",
+        "2": "70",
+        "3": "85",
+        "4": "105",
+        "5": "125"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "28",
+        "3": "34",
+        "4": "42",
+        "5": "50"
+      }
+    },
     "thumbnail": "heroes/Lilia/uw.png",
     "story": "Ein unendlicher Quell, aus der ohne Unterlass Wasser sprudelt. \nEin Gefäß, das vom ersten blauen Drachen erschaffen wurde, der alles Wasser auf Erden beherrschte.\nEs reagiert auf die Vorstellungskraft seines Trägers. \nFür ein junges, sensibles und kreatives Mädchen wie Lilia ist es der größte Schatz und die größte Waffe.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Geflüster des Meers",
-      "description": "[Gezeitensturm] verringert den Cooldown um 2,5 Sek. und erhöht den Körp. Schaden von betroffenen Gegnern um 10 %.",
-      "value": {},
+      "description": "[Gezeitensturm] verringert den Cooldown um 2,5 Sek. und erhöht den Körp. Schaden von betroffenen Gegnern um {0} %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Lilia/ut/1.png",
       "story": "Eine Haarnadel aus Edelsteinen und Korallengestein aus dem Meer der Ewigkeit, die Lilia von Laias erhalten hat.\nSie sieht wie eine einfache Haarnadel für ein Kind aus, aber die Bestandteile aus dem Meer der Ewigkeit beinhalten die Energie der Wasserdrachen, die Lilias Gezeitensturm verstärkt.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Herz des Flusses",
-      "description": "[Immergrüne Oase] kann den Effekt nicht entfernen. Erhöht den Krit. Schaden während der Dauer um 20 %.",
-      "value": {},
+      "description": "[Immergrüne Oase] kann den Effekt nicht entfernen. Erhöht den Krit. Schaden während der Dauer um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Lilia/ut/2.png",
       "story": "Eine goldene Kette für Mädchen, die Laias für Lilia mit einem Schutzjuwel versehen hat. \nEr leuchtet mit der Energie der Wasserelementare darin. \nEin Symbol für Laias Sorge um ihre kleine Schwester.",
       "descriptionByStar": {
@@ -176,23 +211,41 @@
     },
     "3": {
       "name": "Bodenloser Kessel der Elementare",
-      "description": "[Himmlischer Wasserfall] Skill-ANG haben eine Chance von 7 %, einen großen Wassertropfen zu werfen, der 100 % des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2 % erhöht.",
-      "value": {},
+      "description": "[Himmlischer Wasserfall] Skill-ANG haben eine Chance von 7 %, einen großen Wassertropfen zu werfen, der 100 % des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um {0} % erhöht.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Lilia/ut/3.png",
       "story": "Ein Kessel, den Lilias alte Kaktusfreunde an ihrem Geburtstag für sie herstellten. \nDer Kessel bringt stetig das sauberste und reinste Wasser hervor, das es gibt. \nWenn jedoch zu viel Wasser auf einmal eingesetzt wird, schließt er seinen Ausguss – eine Funktion, die von den Kakteen hinzugefügt wurde, um Lilia zu helfen, das Wasser zu kontrollieren, bis sie es besser beherrscht.",
       "descriptionByStar": {
         "0": "[Himmlischer Wasserfall] Skill-ANG haben eine Chance von 7 %, einen großen Wassertropfen zu werfen, der 100 % des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2 % erhöht.",
-        "1": "[Himmlischer Wasserfall] Skill-ANG haben eine Chance von 7 %, einen großen Wassertropfen zu werfen, der 100 % des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2,4 % erhöht.",
-        "2": "[Himmlischer Wasserfall] Skill-ANGhaben eine Chance von 7 %, einen großen Wassertropfen zu werfen, der 100 % des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2,9 % erhöht.",
-        "3": "[Himmlischer Wasserfall] Skill-ANG haben eine Chance von 7 %, einen großen Wassertropfen zu werfen, der 100 % des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 3,5 % erhöht.",
-        "4": "[Himmlischer Wasserfall] Skill-ANG haben eine Chance von 7 %, einen großen Wassertropfen zu werfen, der 100 % des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 4,2 % erhöht.",
+        "1": "[Himmlischer Wasserfall] Skill-ANG haben eine Chance von 7 %, einen großen Wassertropfen zu werfen, der 100 % des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2.4 % erhöht.",
+        "2": "[Himmlischer Wasserfall] Skill-ANG haben eine Chance von 7 %, einen großen Wassertropfen zu werfen, der 100 % des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 2.9 % erhöht.",
+        "3": "[Himmlischer Wasserfall] Skill-ANG haben eine Chance von 7 %, einen großen Wassertropfen zu werfen, der 100 % des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 3.5 % erhöht.",
+        "4": "[Himmlischer Wasserfall] Skill-ANG haben eine Chance von 7 %, einen großen Wassertropfen zu werfen, der 100 % des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 4.2 % erhöht.",
         "5": "[Himmlischer Wasserfall] Skill-ANG haben eine Chance von 7 %, einen großen Wassertropfen zu werfen, der 100 % des ANG als Körp. Schaden verursacht und den eigenen Krit. Schaden 7 Sek. lang um 5 % erhöht."
       }
     },
     "4": {
       "name": "Schlüssel der Reinheit",
-      "description": "[Gezeitenreinigung] erhöht aller 10 Sek. den eigenen Krit. Schaden 5 Sek. lang um 80 % und die MP-Regeneration/Sek. um 30 %.",
-      "value": {},
+      "description": "[Gezeitenreinigung] erhöht aller 10 Sek. den eigenen Krit. Schaden 5 Sek. lang um 80 % und die MP-Regeneration/Sek. um {0} %.",
+      "value": {
+        "0": {
+          "0": "30",
+          "1": "36",
+          "2": "43",
+          "3": "52",
+          "4": "63",
+          "5": "75"
+        }
+      },
       "thumbnail": "heroes/Lilia/ut/4.png",
       "story": "Ein heiliger Schlüssel, der in der Mitte der Oase gefunden wurde.\nAls der Stamm ein Ritual zur Säuberung des Bösen für den ersten Wasserdrachen abhielt, erschien plötzlich eine seltsame Truhe in der Mitte der Oase.\nNiemand konnte sie öffnen, bis der Stamm Lilia herbeirief.\nAls sie sich der Truhe näherte, begann diese zu wackeln und sich mit einem hellen Leuchten zu öffnen.\nIm Inneren der Truhe lag ein Schlüssel.\nLilia wusste sofort, dass es sich dabei um keinen gewöhnlichen Schlüssel handelte. Seither bewahrt sie ihn an einem sicheren Ort auf.\nBis heute ist unklar, was der Schlüssel öffnet, er maximiert jedoch Lilias Reinigungskräfte.",
       "descriptionByStar": {
@@ -200,7 +253,7 @@
         "1": "[Gezeitenreinigung] erhöht aller 10 Sek. den eigenen Krit. Schaden 5 Sek. lang um 80 % und die MP-Regeneration/Sek. um 36 %.",
         "2": "[Gezeitenreinigung] erhöht aller 10 Sek. den eigenen Krit. Schaden 5 Sek. lang um 80 % und die MP-Regeneration/Sek. um 43 %.",
         "3": "[Gezeitenreinigung] erhöht aller 10 Sek. den eigenen Krit. Schaden 5 Sek. lang um 80 % und die MP-Regeneration/Sek. um 52 %.",
-        "4": "[Gezeitenreinigung] erhöht aller 10 Sek. den eigenen Krit. Schaden 5 Sek. lang um 80 % und die MP-Regeneration/Sek.  um 63 %.",
+        "4": "[Gezeitenreinigung] erhöht aller 10 Sek. den eigenen Krit. Schaden 5 Sek. lang um 80 % und die MP-Regeneration/Sek. um 63 %.",
         "5": "[Gezeitenreinigung] erhöht aller 10 Sek. den eigenen Krit. Schaden 5 Sek. lang um 80 % und die MP-Regeneration/Sek. um 75 %."
       }
     }

@@ -160,18 +160,27 @@
     "story": "The most legendary sword in Orvelia. This sacred blade has been passed down the royal lineage of Orvelia since the kingdom's birth, symbolizing the true authority of the monarch. King Kyle used this sword as well, until he was chosen by the Holy Sword Aea. Blessed with the power of light, its blade can disable any magic by cutting through its flow. Only a knight of noble bloodline and righteous pride can wield this sword. Those who wish to lift it must pass the trial of the royal family, a feat only accomplished by Scarlet, aside from Kyle.",
     "descriptionByStar": {
       "0": "Per every 1 active Skill on Cooldown, increases own DMG dealt by 8%. For the duration of [Blessing of the Kings], increases DEF Penetration by 200.",
-      "1": "Per every active Skill on Cooldown, increases DMG by 10%.",
-      "2": "Per every active Skill on Cooldown, increases DMG by 12%.",
-      "3": "Per every active Skill on Cooldown, increases DMG by 14%.",
-      "4": "Per every active Skill on Cooldown, increases DMG by 17%.",
-      "5": "Per every active Skill on Cooldown, increases DMG by 20%."
+      "1": "Per every 1 active Skill on Cooldown, increases own DMG dealt by 10%. For the duration of [Blessing of the Kings], increases DEF Penetration by 240.",
+      "2": "Per every 1 active Skill on Cooldown, increases own DMG dealt by 12%. For the duration of [Blessing of the Kings], increases DEF Penetration by 290.",
+      "3": "Per every 1 active Skill on Cooldown, increases own DMG dealt by 14%. For the duration of [Blessing of the Kings], increases DEF Penetration by 350.",
+      "4": "Per every 1 active Skill on Cooldown, increases own DMG dealt by 17%. For the duration of [Blessing of the Kings], increases DEF Penetration by 420.",
+      "5": "Per every 1 active Skill on Cooldown, increases own DMG dealt by 20%. For the duration of [Blessing of the Kings], increases DEF Penetration by 500."
     }
   },
   "uts": {
     "1": {
       "name": "Gauntlet of Wave",
-      "description": "[Halt!] Increases DMG by 20% and for 10 sec, target receives 25% increased P.DMG.",
-      "value": {},
+      "description": "[Halt!] Increases DMG by {0}% and for 10 sec, target receives 25% increased P.DMG.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Scarlet/ut/1.png",
       "story": "A gauntlet made by rare, high-density ores found in the Ziltrion family's mine.\nIt is what Scarlet received from Demia when they exchanged gifts after completing the final part of their swordsmanship training together. Scarlet considers it as a token that proves Demia is her best training partner as well as her closest friend. Scarlet has never used it, worrying that it might get a scratch.",
       "descriptionByStar": {
@@ -185,8 +194,17 @@
     },
     "2": {
       "name": "Wings of Justice",
-      "description": "[Justice Served!] Increases DMG by 20% and reduces all allies' Cooldown of active Skills by 10%.",
-      "value": {},
+      "description": "[Justice Served!] Increases DMG by {0}% and reduces all allies' Cooldown of active Skills by 10%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Scarlet/ut/2.png",
       "story": "Pendant made by Scarlet, whose principles won't let her ignore injustice or kneel in the face of cowardice. She gifted one each to the people she relies on: Clause and Demia. \nThe shining wings of the royal emerald, which symbolize justice, are embedded inside the pendant. One can straighten oneself out by staring at the pendant that reflects one's eyes.\nShe looks at it each time she feels despair by looking at the people who lay blame on her father Veroglance II.",
       "descriptionByStar": {
@@ -215,17 +233,26 @@
       "story": "A celebratory flag that was made to praise the king when Orvelia was first founded. Whenever she sees the flag in the office, it angers her to think of the treacherous subjects who reduced her father to a scarecrow and the flatterers who ruined the country. This made Scarlet even more determined to restore Orvelia's days of glory and to establish a stronger throne.",
       "descriptionByStar": {
         "0": "[Sword of Honor!!] Increases DMG by 20% and reduces Cooldown by 30%.",
-        "1": "[Sword of Honor!!] Increases DMG by 24% and each attack inflicts Stun on the enemy for 3 sec.",
-        "2": "[Sword of Honor!!] Increases DMG by 29% and each attack inflicts Stun on the enemy for 3 sec.",
-        "3": "[Sword of Honor!!] Increases DMG by 35% and each attack inflicts Stun on the enemy for 3 sec.",
-        "4": "[Sword of Honor!!] Increases DMG by 42% and each attack inflicts Stun on the enemy for 3 sec.",
-        "5": "[Sword of Honor!!] Increases DMG by 50% and each attack inflicts Stun on the enemy for 3 sec."
+        "1": "[Sword of Honor!!] Increases DMG by 24% and reduces Cooldown by 30%.",
+        "2": "[Sword of Honor!!] Increases DMG by 29% and reduces Cooldown by 30%.",
+        "3": "[Sword of Honor!!] Increases DMG by 35% and reduces Cooldown by 30%.",
+        "4": "[Sword of Honor!!] Increases DMG by 42% and reduces Cooldown by 30%.",
+        "5": "[Sword of Honor!!] Increases DMG by 50% and reduces Cooldown by 30%."
       }
     },
     "4": {
       "name": "Heart of Silver",
-      "description": "[Goddess of War] Activation chance changes to 20%. Upon activation, increases own ATK Spd by 200 for 5 sec.",
-      "value": {},
+      "description": "[Goddess of War] Activation chance changes to 20%. Upon activation, increases own ATK Spd by {0} for 5 sec.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Scarlet/ut/4.png",
       "story": "Blacksmith Jin especially worked on this jewel for Scarlet of Orvel.\nIt was made as a pendant at first, but later was crafted again into a charm that Scarlet could put on and take off from her armor and clothes when she joined the war as a knight.\nWhen she was in the battlefield with the Heart of Silver, soldiers would think of her as the goddess of victory.",
       "descriptionByStar": {

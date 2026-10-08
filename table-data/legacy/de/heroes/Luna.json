@@ -161,18 +161,27 @@
     "story": "Eine Schleuder, die aus einer Hyazinthe hergestellt wurde. Dieser silbrige Baum wächst nur in sehr kalten Regionen. Es heißt, Hyazinthen hätten den Segen der Eiskönigin erhalten und wären in der Lage, selbst bei extremer Kälte leuchtend-rote Beeren zu tragen. Allein die Berührung eines Hyazinthenzweiges ermöglicht es einer Person, die Kälte um sie herum zu vergessen. Diese gesegneten Bäume haben außerdem die Macht, Schneestürme und Frost herbeizurufen. Selbstverständlich können diese Kräfte am besten genutzt werden, wenn man die Bäume zum Schnitzen von Waffen verwendet.",
     "descriptionByStar": {
       "0": "Erhöht Krit. Schaden um 40 %, Schaden durch normale Angriffe um 20 % und Reichweite um 6 %.",
-      "1": "Erhöht Schaden durch normale Angriffe um 24 % und Reichweite um 7,2 %.",
-      "2": "Erhöht Schaden durch normale Angriffe um 29 % und Reichweite um 8,6 %.",
-      "3": "Erhöht Schaden durch normale Angriffe um 35 % und Reichweite um 10,5 %.",
-      "4": "Erhöht Schaden durch normale Angriffe um 42 % und Reichweite um 12,5 %.",
-      "5": "Erhöht Schaden durch normale Angriffe um 50 % und Reichweite um 15 %."
+      "1": "Erhöht Krit. Schaden um 48 %, Schaden durch normale Angriffe um 24 % und Reichweite um 7.2 %.",
+      "2": "Erhöht Krit. Schaden um 58 %, Schaden durch normale Angriffe um 29 % und Reichweite um 8.6 %.",
+      "3": "Erhöht Krit. Schaden um 70 %, Schaden durch normale Angriffe um 35 % und Reichweite um 10.5 %.",
+      "4": "Erhöht Krit. Schaden um 84 %, Schaden durch normale Angriffe um 42 % und Reichweite um 12.5 %.",
+      "5": "Erhöht Krit. Schaden um 100 %, Schaden durch normale Angriffe um 50 % und Reichweite um 15 %."
     }
   },
   "uts": {
     "1": {
       "name": "Goldene Glocke des Glücks",
-      "description": "[Pew!] erhöht den Schaden um 20 % und stellt bei einem Krit. Treffer 200 Mana wieder her.",
-      "value": {},
+      "description": "[Pew!] erhöht den Schaden um {0} % und stellt bei einem Krit. Treffer 200 Mana wieder her.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Luna/ut/1.png",
       "story": "Eine goldene Glocke, die Glück bringt.\nLuna liebt diese Glocke und sie glitzert hell, wenn sie umherwandert. Nur Karotten bedeuten ihr noch mehr. Der Klang der goldenen Glocke hat eine mystische Kraft, mit der sie das Glück ihrer Heimat beschwören kann.",
       "descriptionByStar": {
@@ -186,8 +195,17 @@
     },
     "2": {
       "name": "Mondlicht-Karotte",
-      "description": "[Achtung, oben!] erhöht den Schaden um 20 % und verringert den Cooldown um 10 % bei einem Krit. Treffer.",
-      "value": {},
+      "description": "[Achtung, oben!] erhöht den Schaden um {0} % und verringert den Cooldown um 10 % bei einem Krit. Treffer.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Luna/ut/2.png",
       "story": "Eine Karotte, die gewachsen ist, indem sie tausendmal Mondlicht erhielt. \nWird jemand von der Karotte getroffen, wird alles Böse aus ihm entfernt und er ist in der Lage, Gut und Böse zu unterscheiden.",
       "descriptionByStar": {
@@ -201,31 +219,49 @@
     },
     "3": {
       "name": "Niemals schmelzende Schneeblume",
-      "description": "[Funkel Funkel] Krit. Chance-Reduktionseffekt kann nicht entfernt werden und die Skill-Dauer wird um 2 Sek. erhöht.",
-      "value": {},
+      "description": "[Funkel Funkel] Krit. Chance-Reduktionseffekt kann nicht entfernt werden und die Skill-Dauer wird um {0} Sek. erhöht.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Luna/ut/3.png",
       "story": "Eine legendäre Blume der Schneefelder, die im niemals schmelzenden Land des Windland-Schneegebirges blüht. Es heißt, dass sie die Energie im Körper ihres Meisters klar und schön fließen lässt. Ein Gegenstand, der Lunas reine Energie noch heller scheinen lässt.",
       "descriptionByStar": {
         "0": "[Funkel Funkel] Krit. Chance-Reduktionseffekt kann nicht entfernt werden und die Skill-Dauer wird um 2 Sek. erhöht.",
-        "1": "[Funkel Funkel] Krit. Chance-Reduktionseffekt kann nicht entfernt werden und die Skill-Dauer wird um 2,4 Sek. erhöht.",
-        "2": "[Funkel Funkel] Krit. Chance-Reduktionseffekt kann nicht entfernt werden und die Skill-Dauer wird um 2,9 Sek. erhöht.",
-        "3": "[Funkel Funkel] Krit. Chance-Reduktionseffekt kann nicht entfernt werden und die Skill-Dauer wird um 3,5 Sek. erhöht.",
-        "4": "[Funkel Funkel] Krit. Chance-Reduktionseffekt kann nicht entfernt werden und die Skill-Dauer wird um 4,2 Sek. erhöht.",
+        "1": "[Funkel Funkel] Krit. Chance-Reduktionseffekt kann nicht entfernt werden und die Skill-Dauer wird um 2.4 Sek. erhöht.",
+        "2": "[Funkel Funkel] Krit. Chance-Reduktionseffekt kann nicht entfernt werden und die Skill-Dauer wird um 2.9 Sek. erhöht.",
+        "3": "[Funkel Funkel] Krit. Chance-Reduktionseffekt kann nicht entfernt werden und die Skill-Dauer wird um 3.5 Sek. erhöht.",
+        "4": "[Funkel Funkel] Krit. Chance-Reduktionseffekt kann nicht entfernt werden und die Skill-Dauer wird um 4.2 Sek. erhöht.",
         "5": "[Funkel Funkel] Krit. Chance-Reduktionseffekt kann nicht entfernt werden und die Skill-Dauer wird um 5 Sek. erhöht."
       }
     },
     "4": {
       "name": "Karottenkuchen",
-      "description": "[Hab dich!] Skill erhöht deutlich die Zurückwerfen-Entfernung und verringert das Cooldown um 2 Sek.",
-      "value": {},
+      "description": "[Hab dich!] Skill erhöht deutlich die Zurückwerfen-Entfernung und verringert das Cooldown um {0} Sek.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Luna/ut/4.png",
       "story": "Junos spezieller Karottenkuchen.\nDieser spezielle Karottenkuchen wurde für Luna gebacken, die ihre Familie in ihrer Heimat und die Karotten, die sie immer gegessen hat, vermisst.\nDa der Kuchen gleich schmeckt wie die Karotten, die Luna immer zu Hause gegessen hat, ist er zu ihrer neuen Seelennahrung geworden.",
       "descriptionByStar": {
         "0": "[Hab dich!] Skill erhöht deutlich die Zurückwerfen-Entfernung und verringert das Cooldown um 2 Sek.",
-        "1": "[Hab dich!] Skill erhöht deutlich die Zurückwerfen-Entfernung und verringert das Cooldown um 2,4 Sek.",
-        "2": "[Hab dich!] Skill erhöht deutlich die Zurückwerfen-Entfernung und verringert das Cooldown um 2,9 Sek.",
-        "3": "[Hab dich!] Skill erhöht deutlich die Zurückwerfen-Entfernung und verringert das Cooldown um 3,5 Sek.",
-        "4": "[Hab dich!] Skill erhöht deutlich die Zurückwerfen-Entfernung und verringert das Cooldown um 4,2 Sek.",
+        "1": "[Hab dich!] Skill erhöht deutlich die Zurückwerfen-Entfernung und verringert das Cooldown um 2.4 Sek.",
+        "2": "[Hab dich!] Skill erhöht deutlich die Zurückwerfen-Entfernung und verringert das Cooldown um 2.9 Sek.",
+        "3": "[Hab dich!] Skill erhöht deutlich die Zurückwerfen-Entfernung und verringert das Cooldown um 3.5 Sek.",
+        "4": "[Hab dich!] Skill erhöht deutlich die Zurückwerfen-Entfernung und verringert das Cooldown um 4.2 Sek.",
         "5": "[Hab dich!] Skill erhöht deutlich die Zurückwerfen-Entfernung und verringert das Cooldown um 5 Sek."
       }
     }

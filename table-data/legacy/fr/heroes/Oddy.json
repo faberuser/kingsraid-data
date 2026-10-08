@@ -27,7 +27,7 @@
       "name": "Fracture Temporelle",
       "cost": "2",
       "cooldown": "7",
-      "description": "Touche les ennemis en ligne droite pour ??? points de DEG M et les Pétrifie.",
+      "description": "Inflige ??? points de DEG M aux ennemis en ligne droite et les Pétrifie pendant 3 sec.",
       "thumbnail": "heroes/Oddy/skills/1.png"
     },
     "2": {
@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Tempodiana, le Compte à Rebours d'Ombrelune",
-    "description": "Utiliser Distorsion Temporelle réduit les Temps de Recharge de tous les alliés de 2 sec, et leur ATQ est boostée de 14% pendant 10 sec.",
-    "value": {},
+    "description": "Utiliser Distorsion Temporelle réduit les Temps de Recharge de tous les alliés de {0} sec, et leur ATQ est boostée de {1}% pendant 10 sec.",
+    "value": {
+      "0": {
+        "0": "2",
+        "1": "3",
+        "2": "4",
+        "3": "5",
+        "4": "6",
+        "5": "7"
+      },
+      "1": {
+        "0": "14",
+        "1": "17",
+        "2": "21",
+        "3": "25",
+        "4": "30",
+        "5": "35"
+      }
+    },
     "thumbnail": "heroes/Oddy/uw.png",
     "story": "Une fois sa montre frappée par la malédiction des Redpur et dotée du pouvoir de contrôler le temps pour les êtres vivants, Oddy mit à profit le temps infini dont il bénéficiait pour chercher des applications possibles à son pouvoir. Après maints efforts, il finit par créer une montre contenant l'essence de la magie temporelle et découvrit que la magie des Redpur tirait son origine du rayonnement lunaire et des zones d'ombre qu'il génère. Il baptisa son chef-d'œuvre « Tempodiana » et le surnomma « Compte à Rebours d'Ombrelune ».",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Orbe raffiné",
-      "description": "[Fracture temporelle] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit le PM de la cible de 400.",
-      "value": {},
+      "description": "[Fracture temporelle] Confère l'immunité contre les contrôles pendant la durée de la compétence et réduit le PM de la cible de {0}.",
+      "value": {
+        "0": {
+          "0": "400",
+          "1": "480",
+          "2": "580",
+          "3": "700",
+          "4": "840",
+          "5": "1000"
+        }
+      },
       "thumbnail": "heroes/Oddy/ut/1.png",
       "story": "Ce dispositif est capable d'ajuster les failles temporelles.\nLa manipulation du temps provoque parfois l'apparition de failles temporelles dans lesquelles s'accumule une énergie colossale. Ceux qui ne les maîtrisent pas risquent de se retrouvent coincés à l'intérieur pour l'éternité. Oddy, mage du temps chevronné, confectionna cet orbe raffiné pour agir sur les failles temporelles, canalisant leur énergie pour décupler l'efficacité de Tempodiana.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Collection de fragments",
-      "description": "[Fragments du temps] A 25 % de chances de réinitialiser le temps de recharge et augmente les DEG de 20 %.",
-      "value": {},
+      "description": "[Fragments du temps] A 25 % de chances de réinitialiser le temps de recharge et augmente les DEG de {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Oddy/ut/2.png",
       "story": "Fragments du Temps tombés de la face cachée de la lune.\nParfois, il arrive que des fragments du temps tombent d’une autre dimension sous l’effet de la face cachée de la lune, révélée par la magie temporelle. \nLes fragments du temps ont beau être petits, lorsqu’ils sont rassemblés, ils forment une collection gigantesque qui donne au lanceur une inspiration sans limites.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Fils du temps",
-      "description": "[Distorsion Temporelle] Les DEG sont augmentés de 20% et tous les effets négatifs sont dissipés sur les alliés.",
-      "value": {},
+      "description": "[Distorsion Temporelle] Les DEG sont augmentés de {0}% et tous les effets négatifs sont dissipés sur les alliés.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Oddy/ut/3.png",
       "story": "La fourrure du Chef à Fourrure Rouge qui est suspendue à la lueur de la lune. On raconte que la créature mythique, le Chef à Fourrure Rouge, utilise l’ombre de la pleine lune pour traverser les dimensions en dansant. Le Chef à Fourrure Rouge danse jusqu’à disparition de l’ombre de la lune et on dit que sa queue reste parfois coincée dans le passage. La fourrure de la créature mythique reste bloquée dans le flux de l’espace-temps, ce qui arrête temporairement le temps. Oddy utilise la fourrure avec les traces de l’ombre de la lune pour créer une peau et l’utiliser avec efficacité lors de la Distorsion Temporelle.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Mécanisme de manipulation temporelle",
-      "description": "[Horloge magique] Augmente les DEG de 50 %. Les ennemis touchés subissent 10 % DEG M supplémentaires pendant 10 sec.",
-      "value": {},
+      "description": "[Horloge magique] Augmente les DEG de 50 %. Les ennemis touchés subissent {0} % DEG M supplémentaires pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Oddy/ut/4.png",
       "story": "Un appareil crée par Oddy pour contrôler le cours du temps.\nOddy passa un temps fou à rechercher et développer le mécanisme parfait, mais en vain.\nLa conception était impeccable, mais il ne possédait pas le bon réceptacle catalytique pour sa puissante Horloge magique.\nUn seul tic-tac de cette horloge ferait fondre n'importe quel métal en ce monde.\nAlors qu'il se creusait la tête, quelque chose lui revint : Nyx lui avait offert une pierre spatiale décorative.\nIl la tailla pour en faire un mécanisme, et le résultat fut parfait.",
       "descriptionByStar": {

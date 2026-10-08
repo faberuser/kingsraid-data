@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Flowing Circle, Eltoirre",
-    "description": "Increases the Heal Rate of all allies by 8% and M.DEF by 5% of Laias's ATK. Every 5 sec, heals the ally with the lowest HP by 100% of own ATK.",
-    "value": {},
+    "description": "Increases the Heal Rate of all allies by {0}% and M.DEF by 5% of Laias's ATK. Every 5 sec, heals the ally with the lowest HP by {1}% of own ATK.",
+    "value": {
+      "0": {
+        "0": "8",
+        "1": "10",
+        "2": "12",
+        "3": "14",
+        "4": "17",
+        "5": "20"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      }
+    },
     "thumbnail": "heroes/Laias/uw.png",
     "story": "An ankh crafted in the shape of a phoenix. It symbolizes the natural cycle of life. In the ancient days, the nomads of the desert worshipped the blue dragon of the oasis as their protector. In return, she blessed them with rain and gave life to their crops. To show their gratitude, the nomads offered her various treasures, including Lazulia, the gem of water. Although she had no particular interest in material wealth, she accepted their gratitude, and used the treasures to build a temple within the oasis. This ankh is the sacred symbol of the temple, and contains the mighty power of water.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Water Dragon Scale",
-      "description": "[Healing Droplets] Increases Heal Rate by 50%, and for 10 sec, increases the target's M.Block by 200.",
-      "value": {},
+      "description": "[Healing Droplets] Increases Heal Rate by 50%, and for 10 sec, increases the target's M.Block by {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Laias/ut/1.png",
       "story": "A scale used to decorate Laias's hair accessory, where she has stored her own healing power in case she runs out of energy. When she woke up in the Shrine of Flow by the earnest prayers of Trovatia tribe, she came to think that young Lilia would not be able to protect the children of desert safely if she falls asleep again like she did 100 years ago. After contemplation, she stored her power in the scale so that she could give it to Lilia if anything happens.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Oasis Crystal",
-      "description": "[Bubble Shield] Reduces Cooldown by 12% and dispels Negative Effects from the target.",
-      "value": {},
+      "description": "[Bubble Shield] Reduces Cooldown by {0}% and dispels Negative Effects from the target.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
       "thumbnail": "heroes/Laias/ut/2.png",
       "story": "Water essence that the Blue Dragons protect. \nThe essence of an oasis that the Blue Dragons brought to the desert at the beginning of the world. Protecting and defending this is the sacred mission of the Priestess of Water Laias, and it is her favorite thing to do. The Oasis Crystal leads the Priestess of Water who uses the Bubble Shield to the person who most needs her help.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Papyrus of the Flow",
-      "description": "[Festival of the Flow] The Whirlpool effect targets 2 enemies and all allies recover 500 additional Mana.",
-      "value": {},
+      "description": "[Festival of the Flow] The Whirlpool effect targets 2 enemies and all allies recover {0} additional Mana.",
+      "value": {
+        "0": {
+          "0": "500",
+          "1": "600",
+          "2": "720",
+          "3": "860",
+          "4": "1040",
+          "5": "1250"
+        }
+      },
       "thumbnail": "heroes/Laias/ut/3.png",
       "story": "A sample of the ancient scripture, the Book of Chaos, that was swept away. The Book of Chaos is a historic scripture that is passed down to the Priest of Water, and it has records of culture, magic, and various fields. It was sealed in the golden Shrine of Flow along with Laias, but most of the book disappeared while she was asleep. The remaining Papyrus of the Flow is a boosting spell of the Festival of the Flow.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Tear of God Dragon",
-      "description": "[Blessing of the Water Dragon] Increases DEF boost by 50%. All allies recover Mana by 40 every sec.",
-      "value": {},
+      "description": "[Blessing of the Water Dragon] Increases DEF boost by 50%. All allies recover Mana by {0} every sec.",
+      "value": {
+        "0": {
+          "0": "40",
+          "1": "48",
+          "2": "58",
+          "3": "70",
+          "4": "84",
+          "5": "100"
+        }
+      },
       "thumbnail": "heroes/Laias/ut/4.png",
       "story": "A bluish, transparent jewel found where the first Water Dragon returned to the embrace of Mana.\nIt is also known as the Hurt Soul of the First Water Dragon, as people think it contains the sorrow and yearning of the dragon toward its late spouse.\nTear-like ripples form around the jewel when it is placed in the water. This is how it got its name, Tear of God Dragon.",
       "descriptionByStar": {

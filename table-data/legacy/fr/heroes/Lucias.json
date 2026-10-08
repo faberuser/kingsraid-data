@@ -160,14 +160,28 @@
     "thumbnail": "heroes/Lucias/uw.png",
     "story": "Drapeau béni représentant le soleil, la lune et tout le ciel.\nIl renferme les enseignements et le pouvoir de Lua, la créatrice.\nLorsque Lucias agite ce drapeau, il répand le pouvoir de la lumière,\napaisant l'esprit de ses alliés en repoussant les ténèbres.\nCet objet saint fut remis à Lucias, autrefois porte-drapeau des Chevaliers sacrés de Lua.",
     "descriptionByStar": {
-      "0": "Pendant 30 sec au début du combat, réduit les DEG P reçus par tous les alliés de 10%. Augmente également leur Vitesse d'ATQ de 100 et les DEG infligés aux ennemis non-Héros de 8%."
+      "0": "Pendant 30 sec au début du combat, réduit les DEG P reçus par tous les alliés de 10%. Augmente également leur Vitesse d'ATQ de 100 et les DEG infligés aux ennemis non-Héros de 8%.",
+      "1": "Pendant 30 sec au début du combat, réduit les DEG P reçus par tous les alliés de 12%. Augmente également leur Vitesse d'ATQ de 120 et les DEG infligés aux ennemis non-Héros de 10%.",
+      "2": "Pendant 30 sec au début du combat, réduit les DEG P reçus par tous les alliés de 14%. Augmente également leur Vitesse d'ATQ de 140 et les DEG infligés aux ennemis non-Héros de 12%.",
+      "3": "Pendant 30 sec au début du combat, réduit les DEG P reçus par tous les alliés de 17%. Augmente également leur Vitesse d'ATQ de 170 et les DEG infligés aux ennemis non-Héros de 14%.",
+      "4": "Pendant 30 sec au début du combat, réduit les DEG P reçus par tous les alliés de 21%. Augmente également leur Vitesse d'ATQ de 210 et les DEG infligés aux ennemis non-Héros de 17%.",
+      "5": "Pendant 30 sec au début du combat, réduit les DEG P reçus par tous les alliés de 25%. Augmente également leur Vitesse d'ATQ de 250 et les DEG infligés aux ennemis non-Héros de 20%."
     }
   },
   "uts": {
     "1": {
       "name": "Livre des bénédictions",
-      "description": "[Voie des bénédictions] Réduit le coût en PM de 1 et le temps de recharge de 12 %.",
-      "value": {},
+      "description": "[Voie des bénédictions] Réduit le coût en PM de 1 et le temps de recharge de {0} %.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
       "thumbnail": "heroes/Lucias/ut/1.png",
       "story": "Une bible de l'infini dans laquelle une famille de sages des bénédictions a consigné son travail.\nLe titre de « sage » étant transmis avec les souvenirs de son prédécesseur, il n'y a apparemment aucune raison pour qu'un sage ait besoin de consigner quoi que ce soit.\nToutefois, l'accumulation des souvenirs ayant tendance à prendre le pas sur l'identité du sage qui les reçoit, un tel ouvrage s'avère finalement nécessaire.",
       "descriptionByStar": {
@@ -181,8 +195,17 @@
     },
     "2": {
       "name": "Dé du souvenir",
-      "description": "[Zone de foi] Réduit le coût en PM de 1 et le PM des ennemis à portée de 200 par sec.",
-      "value": {},
+      "description": "[Zone de foi] Réduit le coût en PM de 1 et le PM des ennemis à portée de {0} par sec.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Lucias/ut/2.png",
       "story": "Lorsqu'il était plus jeune, Lucias avait un ami très cher\nqui faisait partie d'une bande appelée Stardust. Ses mains étaient très adroites malgré son jeune âge,\net il s'en servait pour vider les poches des parieurs.\nMalheureusement, Stardust ne se rendait dans la ville de Lucias qu'une seule fois par an,\nce qui amena les deux amis à s'échanger quelque chose de précieux à leurs yeux pour entretenir leur amitié.\nCe dé pipé fut fabriqué par Esker, l'ami de Lucias.",
       "descriptionByStar": {
@@ -196,8 +219,17 @@
     },
     "3": {
       "name": "Enseignements de l'étoile du Berger",
-      "description": "[Stigmates] L'effet de Stigmates ne peut pas être dissipé par une compétence qui retire les effets positifs. Réduit le temps de recharge de 12 %.",
-      "value": {},
+      "description": "[Stigmates] L'effet de Stigmates ne peut pas être dissipé par une compétence qui retire les effets positifs. Réduit le temps de recharge de {0} %.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
       "thumbnail": "heroes/Lucias/ut/3.png",
       "story": "Le résultat de recherches concernant les stigmates du Saint béni.\nMême si Lucias possède les souvenirs des saints, ceux-ci ne savent pas tout.\nLes prêtres de Lua produisirent ce document après avoir étudié les secrets des stigmates,\nmais ils ne parvinrent pas à tout découvrir.",
       "descriptionByStar": {
@@ -211,8 +243,17 @@
     },
     "4": {
       "name": "Épée du sacrifice",
-      "description": "[Saint sacrifice] Augmente le boost de DEF de 50 % et la ATQ des cibles de 8 % pendant 5 sec.",
-      "value": {},
+      "description": "[Saint sacrifice] Augmente le boost de DEF de 50 % et la ATQ des cibles de {0} % pendant 5 sec.",
+      "value": {
+        "0": {
+          "0": "8",
+          "1": "10",
+          "2": "12",
+          "3": "14",
+          "4": "17",
+          "5": "20"
+        }
+      },
       "thumbnail": "heroes/Lucias/ut/4.png",
       "story": "L'épée sacrée utilisée par Lucias lorsqu'il était un Chevalier sacré sous les ordres de Ricardo.\nLes grands prêtres de Lua la bénirent, lui insufflant une puissante énergie sacrée.\nLucias fut ensuite désigné Saint béni, et ses bénédictions sont d'ailleurs bien plus puissantes que celles de son épée.\n\nIl la porte toujours sur lui pour se rappeler l'époque où il était Chevalier sacré, mais ne la dégaine jamais.\nOn raconte qu'il pense qu'on ne le verrait plus comme un saint s'il brandissait une épée...",
       "descriptionByStar": {

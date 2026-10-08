@@ -144,24 +144,50 @@
   },
   "uw": {
     "name": "Flüsternder Sand, Arlaq",
-    "description": "[Segen der Oase] kann bis zu 14-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um 4 % zu senken.",
-    "value": {},
+    "description": "[Segen der Oase] kann bis zu {0}-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um {1} % zu senken.",
+    "value": {
+      "0": {
+        "0": "14",
+        "1": "15",
+        "2": "16",
+        "3": "17",
+        "4": "18",
+        "5": "20"
+      },
+      "1": {
+        "0": "4",
+        "1": "4.8",
+        "2": "5.8",
+        "3": "7",
+        "4": "8.4",
+        "5": "10"
+      }
+    },
     "thumbnail": "heroes/Laudia/uw.png",
     "story": "Ein seltener Schatz, der die Leidenschaft verkörpert, die wie eine Flamme in der Wüste lodert. \nEin Paar dieser wunderschönen Waffen soll sich im Lager des uralten Gottkönigs befinden. \nWenn man sie schwingt, klingen sie schön wie der Wind. \nEine süße und gleichzeitig tödliche Verlockung, genau wie eine Fata Morgana in der Wüste ...",
     "descriptionByStar": {
       "0": "[Segen der Oase] kann bis zu 14-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um 4 % zu senken.",
-      "1": "Segen der Oase kann bis zu 15-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um 4,8 % zu senken.",
-      "2": "Segen der Oase kann bis zu 16-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um 5,8 % zu senken.",
-      "3": "Segen der Oase kann bis zu 17-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um 7 % zu senken.",
-      "4": "Segen der Oase kann bis zu 18-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um 8,4 % zu senken.",
-      "5": "Segen der Oase kann bis zu 20-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um 10 % zu senken."
+      "1": "[Segen der Oase] kann bis zu 15-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um 4.8 % zu senken.",
+      "2": "[Segen der Oase] kann bis zu 16-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um 5.8 % zu senken.",
+      "3": "[Segen der Oase] kann bis zu 17-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um 7 % zu senken.",
+      "4": "[Segen der Oase] kann bis zu 18-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um 8.4 % zu senken.",
+      "5": "[Segen der Oase] kann bis zu 20-mal gestapelt werden. Normale Angriffe haben eine Chance von 10 % alle Skill-Cooldowns um 10 % zu senken."
     }
   },
   "uts": {
     "1": {
       "name": "Fußkettchen der Oase",
-      "description": "[Flüstern des Sandes] kann den Effekt nicht entfernen. Stellt bei einem Krit. Treffer 140 Mana wieder her.",
-      "value": {},
+      "description": "[Flüstern des Sandes] kann den Effekt nicht entfernen. Stellt bei einem Krit. Treffer {0} Mana wieder her.",
+      "value": {
+        "0": {
+          "0": "140",
+          "1": "170",
+          "2": "210",
+          "3": "250",
+          "4": "300",
+          "5": "360"
+        }
+      },
       "thumbnail": "heroes/Laudia/ut/1.png",
       "story": "Ein Fußkettchen vom Trovatia-Stamm. Es wurde beim Tanzritual zur Beschwörung des Gottdrachen im Schrein des Flusses verwendet. Nur der Auserwählte der großen Wüste durfte es nach der Prüfung des Sandsturms tragen. Momentan befindet es sich im Besitz von Laudia, der Anführerin von Trovatia. Das Fußkettchen zeigt seine wahre Macht erst, wenn es mehrere Tage lang in der heiligen Oase getränkt wird, die sich nur dem Auserwählten offenbart.",
       "descriptionByStar": {
@@ -175,8 +201,17 @@
     },
     "2": {
       "name": "Heiligtum von Trovatia",
-      "description": "[Verzauberndes Fließen] absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von 160 % des ANG. Danach wird ein Schild erschaffen, der immun gegen Massenkontrolle ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
-      "value": {},
+      "description": "[Verzauberndes Fließen] absorbiert nach Bewegung 3 Sek. lang Schaden in Höhe von {0} % des ANG. Danach wird ein Schild erschaffen, der immun gegen Massenkontrolle ist und die Manakosten von [Verlockender Hinterhalt] werden um 1 gesenkt.",
+      "value": {
+        "0": {
+          "0": "160",
+          "1": "190",
+          "2": "230",
+          "3": "270",
+          "4": "330",
+          "5": "400"
+        }
+      },
       "thumbnail": "heroes/Laudia/ut/2.png",
       "story": "Eine Truhe mit Artefakten, die für Rituale zur Anbetung des Wasserdrachen benötigt werden. \nEin Teil des Schmucks darauf ist aus „Azurblauem Lapislazuli“ gefertigt, einem Edelstein, der Fülle verkörpert. \nSie ist der größte Schatz von Laudias Vater und wird nur denen verliehen, welche den ganzen Trovatia-Stamm führen können.",
       "descriptionByStar": {
@@ -190,8 +225,17 @@
     },
     "3": {
       "name": "Schleier der Bezauberung",
-      "description": "[Tanz der Wüste] Skill-Cooldown wird um 30 % gesenkt und die VERT-Durchdr. um 100 erhöht, wenn Skill aktiviert ist.",
-      "value": {},
+      "description": "[Tanz der Wüste] Skill-Cooldown wird um 30 % gesenkt und die VERT-Durchdr. um {0} erhöht, wenn Skill aktiviert ist.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Laudia/ut/3.png",
       "story": "Ein legendärer Schleier, der nur der besten Tänzerin auf dem Kontinent verliehen wird. \nWenn mit ihm ein Tanz vollführt wird, werden alle Zuschauer bezaubert. \nLaudia setzte den Schleier mit ihrem betörenden Tanz ein und erreichte so alles, was sie wollte.",
       "descriptionByStar": {
@@ -205,8 +249,17 @@
     },
     "4": {
       "name": "Ohrringe des Gottdrachen",
-      "description": "[Segen der Oase] erhöht den VERT-Boost um 50 %. Nach dem Erlangen von Skill wird die ANG-GESCHW. für 5 Sek. um 100 erhöht.",
-      "value": {},
+      "description": "[Segen der Oase] erhöht den VERT-Boost um 50 %. Nach dem Erlangen von Skill wird die ANG-GESCHW. für 5 Sek. um {0} erhöht.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Laudia/ut/4.png",
       "story": "Ohrringe, die der Gottdrache Laias Laudia überreicht hat. Am letzten Tag, an dem Laudia das Ritual für den Gottdrachen beim Schrein des Flusses durchführte, öffnete Laias endlich ihre Augen.\nDaraufhin erschienen rund um Laudia Wasserkugeln, die in einem grellen blauen Licht erstrahlten.\nDie Kugeln landeten auf Laudias Händen und wurden zu wunderschönen Ohrringen.\nEs war ein von der Oase gesegnetes Geschenk und ein Zeichen der Dankbarkeit, das Laias Laudia für die schmerzvollen Mühen überreichte, die sie auf sich genommen hatte, um Laias wieder zurückzubringen.",
       "descriptionByStar": {

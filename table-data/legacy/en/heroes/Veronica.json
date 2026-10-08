@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Infinite Charter, Accordio",
-    "description": "Changes the max number of stacks for Top Financier's Knowledge to 9 and gains additional Experience stack every 14 sec.",
-    "value": {},
+    "description": "Changes the max number of stacks for Top Financier's Knowledge to {0} and gains additional Experience stack every {1} sec.",
+    "value": {
+      "0": {
+        "0": "9",
+        "1": "10",
+        "2": "11",
+        "3": "12",
+        "4": "13",
+        "5": "15"
+      },
+      "1": {
+        "0": "14",
+        "1": "13",
+        "2": "12",
+        "3": "11",
+        "4": "10",
+        "5": "9"
+      }
+    },
     "thumbnail": "heroes/Veronica/uw.png",
     "story": "Her approval is needed to process any important items in the Guild Alliance. An office item cherished by the founder of the Guild Alliance. A feather pen and folder put together in a set. The pen has a mana ball embedded in it so it requires mana instead of ink, and it must be used on a magic parchment that cannot be written on with a regular pen. The letters that are written by the writer cannot be erased without the writer's mana. Also, text can be written on the magic parchment without any limit, and it has a function to search for stuff one has written before. It makes Veronica's work that much more effective. Of course, it's useful when it's used for work, but outside of work...",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Guild Code of Conduct",
-      "description": "[This Will Hurt A Little!] increases DMG by 50%, and increases DMG to Bosses by 2% for 30 sec upon Critical Hit. This effect stacks up to max 10 times.",
-      "value": {},
+      "description": "[This Will Hurt A Little!] increases DMG by 50%, and increases DMG to Bosses by {0}% for 30 sec upon Critical Hit. This effect stacks up to max 10 times.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Veronica/ut/1.png",
       "story": "A manual that provides behavioral guidelines for the members of the guild.\nIt is more than 3 times as thick as an ordinary book, and it's proof of Veronica's meticulous nature. It would take a long time for any reader to cover with all of its content.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Pen Point of Firm Will",
-      "description": "[Let Me Help You] Reduces Mana Cost by 1 and increases skill duration by 1.6 sec.",
-      "value": {},
+      "description": "[Let Me Help You] Reduces Mana Cost by 1 and increases skill duration by {0} sec.",
+      "value": {
+        "0": {
+          "0": "1.6",
+          "1": "1.9",
+          "2": "2.3",
+          "3": "2.7",
+          "4": "3.3",
+          "5": "4"
+        }
+      },
       "thumbnail": "heroes/Veronica/ut/2.png",
       "story": "Pen point that Veronica always carries around. She had soaked it in the Spring of Promise for 100 days, just like Blacksmith Jin had advised. With the power of magic, the letters written by this pen turn red when the actions are not carried out accordingly. Veronica says it's very helpful when managing supplies.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Seal of Guild Manager",
-      "description": "[Get out of my sight!] DMG is increased by 20% and per each enemy hit, cooldown is reduced by 10%.",
-      "value": {},
+      "description": "[Get out of my sight!] DMG is increased by {0}% and per each enemy hit, cooldown is reduced by 10%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Veronica/ut/3.png",
       "story": "A seal given to the best guild manager of Orvel. All guild affairs can't be processed without this seal. The meticulous Veronica doesn't stamp a document unless it's perfect. An item that shows Veronica's professional spirit.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Guild Accounts Report",
-      "description": "[Top Financier's Knowledge] Increases ATK boost by 50%. Upon gaining Top Financier's Knowledge, increases Crit DMG of all allies by 20% for 10 sec.",
-      "value": {},
+      "description": "[Top Financier's Knowledge] Increases ATK boost by 50%. Upon gaining Top Financier's Knowledge, increases Crit DMG of all allies by {0}% for 10 sec.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Veronica/ut/4.png",
       "story": "A compilation of guild account reports that Veronica makes every month and every year. No one can process these documents as perfectly as she does.\nThose who saw the height of documents piled up would immediately walk out of the room every single time.\nThese piled documents are the evidence that shows why Veronica is the Top Financier.",
       "descriptionByStar": {

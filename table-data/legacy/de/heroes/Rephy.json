@@ -130,24 +130,42 @@
   },
   "uw": {
     "name": "Lampe Gottes, Kurulati",
-    "description": "Alle 20 Sek. wird der Held mit der niedrigsten TP unsichtbar für 5 Sek. Der Verbündete wird immun gegen Körp. Schaden, und die TP fallen nicht unter 1 %. MP-Reg. steigt auf 120 % pro Sek.",
-    "value": {},
+    "description": "Alle 20 Sek. wird der Held mit der niedrigsten TP unsichtbar für 5 Sek. Der Verbündete wird immun gegen Körp. Schaden, und die TP fallen nicht unter 1 %. Die Mana-Regeneration pro Sek. steigt auf {0} % des normalen Werts.",
+    "value": {
+      "0": {
+        "0": "120",
+        "1": "144",
+        "2": "172",
+        "3": "207",
+        "4": "248",
+        "5": "300"
+      }
+    },
     "thumbnail": "heroes/Rephy/uw.png",
     "story": "Es ist die Pflicht einer Seelenführerin, die verlorenen Seelen zurück auf den richtigen Pfad zu geleiten, und ihnen beim Übergang ins Jenseits zur Seite zu stehen. Diese Lampe, erleuchtet von einer geheimnisvollen Kugel, die vor langer Zeit von einem Drachen aus einem weit entfernten Land erschaffen wurde, ist ein Schatz der Tamian. Der Kern der Kugel erlaubt Seelen in der Nähe, sich zu materialisieren, wodurch ihr Besitzer direkt mit ihnen kommunizieren kann. Insofern ist sie das optimale Werkzeug für eine Seelenführerin. Tamian-Häuptlinge verwendeten diese Reliquie seit Generationen, um damit die heiligen Pflichten einer Seelenführerin zu verrichten. Jetzt, wo die Welt von großer Gefahr bedroht wird, ging die Lampe an Rephy, der mächtigsten Seelenführerin von allen.",
     "descriptionByStar": {
-      "0": "Alle 20 Sek. wird der Held mit der niedrigsten TP unsichtbar für 5 Sek. Der Verbündete wird immun gegen Körp. Schaden, und die TP fallen nicht unter 1 %. MP-Reg. steigt auf 120 % pro Sek.",
-      "1": "Alle 20 Sek. wird der Held mit der niedrigsten TP unsichtbar für 6 Sek. Der Verbündete wird immun gegen Körp. Schaden, und die TP fallen nicht unter 1 %. MP-Reg. steigt auf 120 % pro Sek.",
-      "2": "Alle 20 Sek. wird der Held mit der niedrigsten TP unsichtbar für 7 Sek. Der Verbündete wird immun gegen Körp. Schaden, und die TP fallen nicht unter 1 %. MP-Reg. steigt auf 120 % pro Sek.",
-      "3": "Alle 20 Sek. wird der Held mit der niedrigsten TP unsichtbar für 8 Sek. Der Verbündete wird immun gegen Körp. Schaden, und die TP fallen nicht unter 1 %. MP-Reg. steigt auf 120 % pro Sek.",
-      "4": "Alle 20 Sek. wird der Held mit der niedrigsten TP unsichtbar für 9 Sek. Der Verbündete wird immun gegen Körp. Schaden, und die TP fallen nicht unter 1 %. MP-Reg. steigt auf 120 % pro Sek.",
-      "5": "Alle 20 Sek. wird der Held mit der niedrigsten TP unsichtbar für 10 Sek. Der Verbündete wird immun gegen Körp. Schaden, und die TP fallen nicht unter 1 %. MP-Reg. steigt auf 120 % pro Sek."
+      "0": "Alle 20 Sek. wird der Held mit der niedrigsten TP unsichtbar für 5 Sek. Der Verbündete wird immun gegen Körp. Schaden, und die TP fallen nicht unter 1 %. Die Mana-Regeneration pro Sek. steigt auf 120 % des normalen Werts.",
+      "1": "Alle 20 Sek. wird der Held mit der niedrigsten TP unsichtbar für 5 Sek. Der Verbündete wird immun gegen Körp. Schaden, und die TP fallen nicht unter 1 %. Die Mana-Regeneration pro Sek. steigt auf 144 % des normalen Werts.",
+      "2": "Alle 20 Sek. wird der Held mit der niedrigsten TP unsichtbar für 5 Sek. Der Verbündete wird immun gegen Körp. Schaden, und die TP fallen nicht unter 1 %. Die Mana-Regeneration pro Sek. steigt auf 172 % des normalen Werts.",
+      "3": "Alle 20 Sek. wird der Held mit der niedrigsten TP unsichtbar für 5 Sek. Der Verbündete wird immun gegen Körp. Schaden, und die TP fallen nicht unter 1 %. Die Mana-Regeneration pro Sek. steigt auf 207 % des normalen Werts.",
+      "4": "Alle 20 Sek. wird der Held mit der niedrigsten TP unsichtbar für 5 Sek. Der Verbündete wird immun gegen Körp. Schaden, und die TP fallen nicht unter 1 %. Die Mana-Regeneration pro Sek. steigt auf 248 % des normalen Werts.",
+      "5": "Alle 20 Sek. wird der Held mit der niedrigsten TP unsichtbar für 5 Sek. Der Verbündete wird immun gegen Körp. Schaden, und die TP fallen nicht unter 1 %. Die Mana-Regeneration pro Sek. steigt auf 300 % des normalen Werts."
     }
   },
   "uts": {
     "1": {
       "name": "Melodie eines Blauen Sterns",
-      "description": "[Seelenheilung] verringert die Manakosten um 1 und erhöht die Massenkontrolle-PRÄZ des Ziels während der Wirkungsdauer um 100.",
-      "value": {},
+      "description": "[Seelenheilung] verringert die Manakosten um 1 und erhöht die Massenkontrolle-PRÄZ des Ziels während der Wirkungsdauer um {0}.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Rephy/ut/1.png",
       "story": "Eine kleine Spieldose, die die Stimme von Asiphia, der Königin des Blauen Sterns, beinhaltet. Rephy öffnet sie, wenn er Seelen führt.\nDie Seelen, die zum Garten der Ruhe unterwegs sind, erhalten den Segen des Blauen Sterns, indem sie dem Gesang von Asiphia lauschen.\nWenn Asiphias Stimme erklingt, kann weder Dunkelheit noch Verderbnis den Seelen etwas anhaben.",
       "descriptionByStar": {
@@ -161,8 +179,17 @@
     },
     "2": {
       "name": "Saat der Geburt",
-      "description": "[Errettung] erhöht den Mag. VERT-Boost um 50 % und verringert den Cooldown um 12 %.",
-      "value": {},
+      "description": "[Errettung] erhöht den Mag. VERT-Boost um 50 % und verringert den Cooldown um {0} %.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
       "thumbnail": "heroes/Rephy/ut/2.png",
       "story": "Eine Sammlung der Energie, die freigesetzt wird, wenn ein Leben geboren wird. Sie ist sehr warm und gütig, weshalb Seelen sie mögen. Rephy nutzt sie, um in einer Lampe ein Feuer zu entfachen, um die Kraft der Seelen zu nutzen. Wenn eine Saat in eine Lampe gesetzt wird, leuchtet sie hell, als wäre die Sonne neu geboren.",
       "descriptionByStar": {
@@ -176,8 +203,17 @@
     },
     "3": {
       "name": "Seelenhafen",
-      "description": "[Seelensturm] verringert die Manakosten um 1 und heilt alle Verbündete um 8 % des Schadens.",
-      "value": {},
+      "description": "[Seelensturm] verringert die Manakosten um 1 und heilt alle Verbündete um {0} % des Schadens.",
+      "value": {
+        "0": {
+          "0": "8",
+          "1": "10",
+          "2": "12",
+          "3": "14",
+          "4": "17",
+          "5": "20"
+        }
+      },
       "thumbnail": "heroes/Rephy/ut/3.png",
       "story": "Ein Ornament, das in grauer Vorzeit für Gedenkfeiern verstorbener Könige benutzt wurde. In dem grünen Juwel befindet sich eine kristallisierte Träne des mythischen Wesens, das Menschen in den Tod führt. Es wird als Ruhestätte verwendet, um der Leere innerhalb von Seelen Trost zu spenden.",
       "descriptionByStar": {
@@ -191,8 +227,17 @@
     },
     "4": {
       "name": "Blauer-Stern-Süßigkeit",
-      "description": "[Spirituelle Anpassung] erhöht die Heilungsrate um 50 %. Der ANG von Zielen wird für 4 Sek. um 20 % erhöht.",
-      "value": {},
+      "description": "[Spirituelle Anpassung] erhöht die Heilungsrate um 50 %. Der ANG von Zielen wird für 4 Sek. um {0} % erhöht.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Rephy/ut/4.png",
       "story": "Eine Spezialität der Stadt der Lampenhüter.\nDiese Süßigkeit in Form eines Sterns ist Rephys Lieblingssnack.\nSie besteht aus „Wachrüttelblatt“, einem blauen Kraut, das nur in der Stadt der Lampenhüter wächst. Jedes Mal wenn Rephy die Stadt verlässt, gibt ihm das Oberhaupt der Stadt etwas davon mit.",
       "descriptionByStar": {

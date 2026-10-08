@@ -145,18 +145,27 @@
     "story": "Giant scissors created with crimson arcane crystals that form Kirze's body.\nThey are based on antique scissors her mother used to have.\nIt is a very versatile weapon that can be swung like a great sword or split into two like double swords.\n\nThe weapon is built with prayers of a girl who wants no one to be tormented by the Demons anymore.\nThese scissors resonate with her emotions to unleash greater power.",
     "descriptionByStar": {
       "0": "Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 500% of ATK. DMG is increased by 2 times against Bosses.",
-      "1": "Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 600% of ATK. DMG is doubled against Bosses.",
-      "2": "Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 720% of ATK. DMG is doubled against Bosses.",
-      "3": "Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 860% of ATK. DMG is doubled against Bosses.",
-      "4": "Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 1000% of ATK. DMG is doubled against Bosses.",
-      "5": "Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 1250% of ATK. DMG is doubled against Bosses."
+      "1": "Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 600% of ATK. DMG is increased by 2 times against Bosses.",
+      "2": "Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 720% of ATK. DMG is increased by 2 times against Bosses.",
+      "3": "Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 860% of ATK. DMG is increased by 2 times against Bosses.",
+      "4": "Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 1000% of ATK. DMG is increased by 2 times against Bosses.",
+      "5": "Amplifies the power of Arcane Crystals and greatly increases the effect range of [Bloom, Crimson Flower!]. Normal and Skill attacks have a 4% chance to deal additional M.DMG equal to 1250% of ATK. DMG is increased by 2 times against Bosses."
     }
   },
   "uts": {
     "1": {
       "name": "Lotus of Crimson Crystal",
-      "description": "[Slash, Blade of Judgment!] Increases DMG by 20% and reduces Mana Cost by 1.",
-      "value": {},
+      "description": "[Slash, Blade of Judgment!] Increases DMG by {0}% and reduces Mana Cost by 1.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Kirze/ut/1.png",
       "story": "Crystal fragments sometimes sprout from Kirze's body and fall off.\nUnable to toss away what used to be part of her body, she picks them up and collects them.\nWhile being unsure of what to do with her growing collection, she stopped by Orvel, and a glass decoration in May's General Shop caught her eyes.\n\nKirze thought it was beautiful, and with high hopes, gave all the fragments she collected to May.\n\nIn return, May gave her the first piece she made using those fragments - this crimson lotus trinket as a gift.",
       "descriptionByStar": {
@@ -185,17 +194,26 @@
       "story": "Kirze adores dolls ever since she was a child, but all she had were rag dolls her mother made for her since her family did not have good living.\nWhile living with her mother, Kirze was able to learn some tips and tricks for sewing and doll making.\n\nAfter all this time, she still loves dolls, but now she makes them not only for herself but for others as well.\nEspecially for children who lost their loved ones at the hands of rouge Demons.",
       "descriptionByStar": {
         "0": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional 100 and increases DEF Penetration of all allies by 250 for the duration of Skill.",
-        "1": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional 120 and the duration of [Arcane Crystal Awakening] by 7 sec.",
-        "2": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional 140 and the duration of [Arcane Crystal Awakening] by 7 sec.",
-        "3": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional 170 and the duration of [Arcane Crystal Awakening] by 7 sec.",
-        "4": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional 210 and the duration of [Arcane Crystal Awakening] by 7 sec.",
-        "5": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional 250 and the duration of [Arcane Crystal Awakening] by 7 sec."
+        "1": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional 120 and increases DEF Penetration of all allies by 250 for the duration of Skill.",
+        "2": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional 140 and increases DEF Penetration of all allies by 250 for the duration of Skill.",
+        "3": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional 170 and increases DEF Penetration of all allies by 250 for the duration of Skill.",
+        "4": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional 210 and increases DEF Penetration of all allies by 250 for the duration of Skill.",
+        "5": "[Disperse, Crystal Haze!] Increases ATK Spd by an additional 250 and increases DEF Penetration of all allies by 250 for the duration of Skill."
       }
     },
     "3": {
       "name": "Reminiscence of Escape",
-      "description": "[Bloom, Crimson Flower!] Reduces Cooldown by 30%, and upon gaining a stack of [Arcane Crystal Energy], there is a 40% chance to gain 3 additional stacks.",
-      "value": {},
+      "description": "[Bloom, Crimson Flower!] Reduces Cooldown by 30%, and upon gaining a stack of [Arcane Crystal Energy], there is a {0}% chance to gain 3 additional stacks.",
+      "value": {
+        "0": {
+          "0": "40",
+          "1": "48",
+          "2": "58",
+          "3": "70",
+          "4": "84",
+          "5": "100"
+        }
+      },
       "thumbnail": "heroes/Kirze/ut/3.png",
       "story": "The first makeshift weapon Kirze made when she escaped from the Demon lab. They were made in haste-\nsince this was her first time she resonated with the crimson arcane crystals-\njust so that she can escape.\nThis pair of daggers are barely finished, crude and on the verge of breaking.\n\nThese daggers are the very weapons that saved her and the other children.\nThey hold important memory, so she carries them as keepsakes.",
       "descriptionByStar": {
@@ -224,11 +242,11 @@
       "story": "Sewing tool that Kirze uses for her hobby.\nIt is a must for her doll making pastime.\nRecently she was able to get her hands on special kinds of string and cotton.\nShe can happily make better dolls with them.\n\nOn the side note, the scissors are miniature version of her weapon.",
       "descriptionByStar": {
         "0": "[End to Evil Deeds!] Increases Crit Chance by an additional 250 and the duration of CC increase effect by an additional 10%.",
-        "1": "[End to Evil Deeds!] Increases Crit Chance by an additional 250 and the effect of the duration of CC increase changes to 32%.",
-        "2": "[End to Evil Deeds!] Increases Crit Chance by an additional 250 and the effect of the duration of CC increase changes to 34%.",
-        "3": "[End to Evil Deeds!] Increases Crit Chance by an additional 250 and the effect of the duration of CC increase changes to 37%.",
-        "4": "[End to Evil Deeds!] Increases Crit Chance by an additional 250 and the effect of the duration of CC increase changes to 41%.",
-        "5": "[End to Evil Deeds!] Increases Crit Chance by an additional 250 and the effect of the duration of CC increase changes to 45%."
+        "1": "[End to Evil Deeds!] Increases Crit Chance by an additional 250 and the duration of CC increase effect by an additional 12%.",
+        "2": "[End to Evil Deeds!] Increases Crit Chance by an additional 250 and the duration of CC increase effect by an additional 14%.",
+        "3": "[End to Evil Deeds!] Increases Crit Chance by an additional 250 and the duration of CC increase effect by an additional 17%.",
+        "4": "[End to Evil Deeds!] Increases Crit Chance by an additional 250 and the duration of CC increase effect by an additional 21%.",
+        "5": "[End to Evil Deeds!] Increases Crit Chance by an additional 250 and the duration of CC increase effect by an additional 25%."
       }
     }
   },

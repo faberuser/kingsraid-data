@@ -153,33 +153,51 @@
     "story": "Dans la Tour des Sages, le titre de Violet indique la plus haute des capacités de mana. Le mana apparemment infini d'Aisha était trop important pour les outils habituels. C'est pour cela que la famille Daphnel acheta toutes les pierres de mana qu'elle put trouver afin de les amener à Annette, la meilleure technomage du château d'Orvel. Annette accepta avec joie ce nouveau projet. Elle créa peu de temps après Mahitra, une magnifique ombrelle idéale pour une mage de noble lignée.",
     "descriptionByStar": {
       "0": "Augmente les DEG Crit du lanceur de 10% et la Pénétration DEF de 100. Multiplie ces effets par 2 s'il inflige des DEG aux ennemis 500 fois.",
-      "1": "Lors d'une attaque, 35% de chance d'infliger des DEG supplémentaires (48% de l'ATQ).",
-      "2": "Lors d'une attaque, 35% de chance d'infliger des DEG supplémentaires (57% de l'ATQ).",
-      "3": "Lors d'une attaque, 35% de chance d'infliger des DEG supplémentaires (69% de l'ATQ).",
-      "4": "Lors d'une attaque, 35% de chance d'infliger des DEG supplémentaires (83% de l'ATQ).",
-      "5": "Lors d'une attaque, 35% de chance d'infliger des DEG supplémentaires (100% de l'ATQ)."
+      "1": "Augmente les DEG Crit du lanceur de 12% et la Pénétration DEF de 120. Multiplie ces effets par 2 s'il inflige des DEG aux ennemis 500 fois.",
+      "2": "Augmente les DEG Crit du lanceur de 14% et la Pénétration DEF de 140. Multiplie ces effets par 2 s'il inflige des DEG aux ennemis 500 fois.",
+      "3": "Augmente les DEG Crit du lanceur de 17% et la Pénétration DEF de 170. Multiplie ces effets par 2 s'il inflige des DEG aux ennemis 500 fois.",
+      "4": "Augmente les DEG Crit du lanceur de 21% et la Pénétration DEF de 210. Multiplie ces effets par 2 s'il inflige des DEG aux ennemis 500 fois.",
+      "5": "Augmente les DEG Crit du lanceur de 25% et la Pénétration DEF de 250. Multiplie ces effets par 2 s'il inflige des DEG aux ennemis 500 fois."
     }
   },
   "uts": {
     "1": {
       "name": "Fleur de Violet",
-      "description": "[Barrage mystique] Réduit le temps de recharge de 1 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec.",
-      "value": {},
+      "description": "[Barrage mystique] Réduit le temps de recharge de {0} sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Aisha/ut/1.png",
       "story": "Cette fleur est l'un des objets que la Tour du sage qualifie de « Violets ». Elle est assortie à l'Anneau de mana.\nLe Violet est associé à une abondance de mana et en effet, la fleur de Violet est ornée d'une sphère de cristal qui décuple le mana d'Aisha et le fait exploser. Sa puissance est si grande que Priscilla fit promettre à Aisha de ne l'utiliser qu'en cas d'absolue nécessité.",
       "descriptionByStar": {
         "0": "[Barrage mystique] Réduit le temps de recharge de 1 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec.",
-        "1": "[Barrage mystique] Réduit le temps de recharge de 1,2 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec.",
-        "2": "[Barrage mystique] Réduit le temps de recharge de 1,4 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec.",
-        "3": "[Barrage mystique] Réduit le temps de recharge de 1,7 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec.",
-        "4": "[Barrage mystique] Réduit le temps de recharge de 2,1 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec.",
-        "5": "[Barrage mystique] Réduit le temps de recharge de 2,5 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec."
+        "1": "[Barrage mystique] Réduit le temps de recharge de 1.2 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec.",
+        "2": "[Barrage mystique] Réduit le temps de recharge de 1.4 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec.",
+        "3": "[Barrage mystique] Réduit le temps de recharge de 1.7 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec.",
+        "4": "[Barrage mystique] Réduit le temps de recharge de 2.1 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec.",
+        "5": "[Barrage mystique] Réduit le temps de recharge de 2.5 sec et augmente les DEG M reçus par la cible de 25 % pendant 10 sec."
       }
     },
     "2": {
       "name": "Miroir à main noble",
-      "description": "[Rayon destructeur] Augmente les DEG infligés de 50 % et récupère 500 PM immédiatement à l'utilisation.",
-      "value": {},
+      "description": "[Rayon destructeur] Augmente les DEG infligés de 50 % et récupère {0} PM immédiatement à l'utilisation.",
+      "value": {
+        "0": {
+          "0": "500",
+          "1": "600",
+          "2": "720",
+          "3": "860",
+          "4": "1040",
+          "5": "1250"
+        }
+      },
       "thumbnail": "heroes/Aisha/ut/2.png",
       "story": "Trésor sacré transmis de génération en génération à la famille Daphnel. Il s’agit d’un outil ancestral de chaman servant à conserver le mana.\nAprès qu’Aisha a inclus la gemme violette noble avec son mana, son pouvoir s’est révélé. Ce miroir brille désormais de mille feux.",
       "descriptionByStar": {
@@ -187,14 +205,23 @@
         "1": "[Rayon destructeur] Augmente les DEG infligés de 50 % et récupère 600 PM immédiatement à l'utilisation.",
         "2": "[Rayon destructeur] Augmente les DEG infligés de 50 % et récupère 720 PM immédiatement à l'utilisation.",
         "3": "[Rayon destructeur] Augmente les DEG infligés de 50 % et récupère 860 PM immédiatement à l'utilisation.",
-        "4": "[Rayon destructeur] Augmente les DEG infligés de 50 % et récupère 1 040 PM immédiatement à l'utilisation.",
-        "5": "[Rayon destructeur] Augmente les DEG infligés de 50 % et récupère 1 250 PM immédiatement à l'utilisation."
+        "4": "[Rayon destructeur] Augmente les DEG infligés de 50 % et récupère 1040 PM immédiatement à l'utilisation.",
+        "5": "[Rayon destructeur] Augmente les DEG infligés de 50 % et récupère 1250 PM immédiatement à l'utilisation."
       }
     },
     "3": {
       "name": "Anneau de magie infinie",
-      "description": "[Pluie Torrentielle] Augmente les DEG infligés de 50% et chaque coup critique réussi rend 30 PM.",
-      "value": {},
+      "description": "[Pluie Torrentielle] Augmente les DEG infligés de 50% et chaque coup critique réussi rend {0} PM.",
+      "value": {
+        "0": {
+          "0": "30",
+          "1": "36",
+          "2": "43",
+          "3": "52",
+          "4": "62",
+          "5": "75"
+        }
+      },
       "thumbnail": "heroes/Aisha/ut/3.png",
       "story": "Un anneau offert avec le titre de Violet à la Tour des Sages. C’est une relique de la sorcière Eucaletus, qui vivait dans le Marais de la Sagesse. Le pouvoir qu’elle affiche dépend des talents de son porteur. Pour certains, ce peut être une source illimitée de mana. C’est idéal pour Aisha, qui utilise de puissants canons magiques.",
       "descriptionByStar": {
@@ -208,17 +235,26 @@
     },
     "4": {
       "name": "Yeux de la vérité",
-      "description": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de 1 %. Cet effet peut se cumuler jusqu'à 20 fois.",
-      "value": {},
+      "description": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de {0} %. Cet effet peut se cumuler jusqu'à 20 fois.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Aisha/ut/4.png",
       "story": "Un mystérieux pendentif trouvé dans des ruines antiques.\nIl fut découvert dans le tombeau de quelqu'un que l'on appelait « dieu de la Sagesse et du Savoir ancestral ».\nFascinée par sa teinte violette, Aisha l'acheta dans un magasin d'une petite ruelle.\nQuand elle découvrit qu'il renforçait ses pouvoirs mystiques, elle l'appela les Yeux de la vérité, et le porte très souvent depuis.",
       "descriptionByStar": {
         "0": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de 1 %. Cet effet peut se cumuler jusqu'à 20 fois.",
-        "1": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de 1,2 %. Cet effet peut se cumuler jusqu'à 20 fois.",
-        "2": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de 1,4 %. Cet effet peut se cumuler jusqu'à 20 fois.",
-        "3": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de 1,7 %. Cet effet peut se cumuler jusqu'à 20 fois.",
-        "4": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de 2,1 %. Cet effet peut se cumuler jusqu'à 20 fois.",
-        "5": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de 2,5 %. Cet effet peut se cumuler jusqu'à 20 fois."
+        "1": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de 1.2 %. Cet effet peut se cumuler jusqu'à 20 fois.",
+        "2": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de 1.4 %. Cet effet peut se cumuler jusqu'à 20 fois.",
+        "3": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de 1.7 %. Cet effet peut se cumuler jusqu'à 20 fois.",
+        "4": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de 2.1 %. Cet effet peut se cumuler jusqu'à 20 fois.",
+        "5": "[Boost mystique] Augmente les DEG de 50 % et les DEG Crit du lanceur de 2.5 %. Cet effet peut se cumuler jusqu'à 20 fois."
       }
     }
   },

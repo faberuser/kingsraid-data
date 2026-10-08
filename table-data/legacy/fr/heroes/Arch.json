@@ -130,8 +130,17 @@
   },
   "uw": {
     "name": "Sherrkyle, le Ciel bleu clair",
-    "description": "Toutes les 10 sec, appose une Marque du jugement pendant 15 sec à 1 ennemi choisi au hasard, puis lui inflige des DEG M à hauteur de 200% de l'ATQ. Si la cible n'est pas un Héros, ces DEG M ignorent sa DEF.",
-    "value": {},
+    "description": "Toutes les 10 sec, appose une Marque du jugement pendant 15 sec à 1 ennemi choisi au hasard, puis lui inflige des DEG M à hauteur de {0}% de l'ATQ. Si la cible n'est pas un Héros, ces DEG M ignorent sa DEF.",
+    "value": {
+      "0": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      }
+    },
     "thumbnail": "heroes/Arch/uw.png",
     "story": "Une puissante arme de lumière pouvant prendre la forme d'une lance, d'une dague ou d'un arc. Béni par un archange, c'est l'un des trésors divins des anges. On dit qu'il peut incinérer le mal. Grâce à sa polyvalence, on le donne généralement à l'éclaireur le plus talentueux. D'innombrables démons furent anéantis par sa lumière.",
     "descriptionByStar": {
@@ -146,8 +155,17 @@
   "uts": {
     "1": {
       "name": "Flèche sainte dorée",
-      "description": "[Flèche céleste] Augmente les DEG de 20 % et le nombre de cibles de 1.",
-      "value": {},
+      "description": "[Flèche céleste] Augmente les DEG de {0} % et le nombre de cibles de 1.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Arch/ut/1.png",
       "story": "Cette flèche dorée a été générée par le pouvoir divin d'Arch.\nElle puise dans les cieux la lumière la plus pure et la plus sainte qui soit et la matérialise. Sa puissance augmente avec la quantité de pouvoir divin qu'elle reçoit. Pour les cœurs purs, c'est un spectacle splendide, mais pour les créatures maléfiques, recevoir une telle flèche signifie mutilation et relégation dans une dimension immatérielle.",
       "descriptionByStar": {
@@ -161,8 +179,17 @@
     },
     "2": {
       "name": "Quadruple Cercle Magique de Poursuite",
-      "description": "[Feu purificateur] Réduit le coût en PM de 1 et augmente les DEG infligés de 20 %.",
-      "value": {},
+      "description": "[Feu purificateur] Réduit le coût en PM de 1 et augmente les DEG infligés de {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Arch/ut/2.png",
       "story": "Cet objet est le symbole de l'armée des arbitres de feu qui ont mené un combat acharné contre des démons ancestraux. \nLorsque vous utilisez le Quadruple Cercle Magique de Poursuite béni par Lua, la déesse de la Lumière, Arch se transforme en arbitre sans pitié.",
       "descriptionByStar": {
@@ -176,8 +203,17 @@
     },
     "3": {
       "name": "Œil du paradis",
-      "description": "[Arbitre] Les DEG sont augmentés de 20% et l'ATQ de tous les alliés est augmentée de 30% pendant la durée du Bouclier M.",
-      "value": {},
+      "description": "[Arbitre] Les DEG sont augmentés de {0}% et l'ATQ de tous les alliés est augmentée de 30% pendant la durée du Bouclier M.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Arch/ut/3.png",
       "story": "L’œuf d’âme de l’ange arbitre Pilier. Pilier naquit de la première flamme de Lua et c’est le maître d’Arch. Pilier fut le meilleur guerrier ange et l’un de ceux qui permit de mettre fin à la guerre contre les démons. Cependant, après avoir utilisé tous ses pouvoirs, il redevint un Œil du paradis, qui est une forme d’œuf d’âme. Arch détient donc l’âme de son maître.",
       "descriptionByStar": {
@@ -191,17 +227,26 @@
     },
     "4": {
       "name": "Cloche du châtiment",
-      "description": "[Le jugement dernier] Restaure les PV de tous les alliés à hauteur de 15 % des PV max à la réception de DEG fatals, et réduit au silence tous les ennemis pendant 1 sec.",
-      "value": {},
+      "description": "[Le jugement dernier] Restaure les PV de tous les alliés à hauteur de 15 % des PV max à la réception de DEG fatals, et réduit au silence tous les ennemis pendant {0} sec.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Arch/ut/4.png",
       "story": "Une cloche divine que l'on sonne à l'aube.\nElle avertit les guerriers anges lorsque le monde est en grand danger, leur faisant savoir qu'un châtiment divin s'impose.\nSitôt qu'ils entendent cette cloche, les guerriers savent qu'il est temps d'aller trancher la gorge des émissaires de l'apocalypse au nom de Lua.",
       "descriptionByStar": {
         "0": "[Le jugement dernier] Restaure les PV de tous les alliés à hauteur de 15 % des PV max à la réception de DEG fatals, et réduit au silence tous les ennemis pendant 1 sec.",
-        "1": "[Le jugement dernier] Restaure les PV de tous les alliés à hauteur de 15 % des PV max à la réception de DEG fatals, et réduit au silence tous les ennemis pendant 1,2 sec.",
-        "2": "[Le jugement dernier] Restaure les PV de tous les alliés à hauteur de 15 % des PV max à la réception de DEG fatals, et réduit au silence tous les ennemis pendant 1,4 sec.",
-        "3": "[Le jugement dernier] Restaure les PV de tous les alliés à hauteur de 15 % des PV max à la réception de DEG fatals, et réduit au silence tous les ennemis pendant 1,7 sec.",
-        "4": "[Le jugement dernier] Restaure les PV de tous les alliés à hauteur de 15 % des PV max à la réception de DEG fatals, et réduit au silence tous les ennemis pendant 2,1 sec.",
-        "5": "[Le jugement dernier] Restaure les PV de tous les alliés à hauteur de 15 % des PV max à la réception de DEG fatals, et réduit au silence tous les ennemis pendant 2,5 sec."
+        "1": "[Le jugement dernier] Restaure les PV de tous les alliés à hauteur de 15 % des PV max à la réception de DEG fatals, et réduit au silence tous les ennemis pendant 1.2 sec.",
+        "2": "[Le jugement dernier] Restaure les PV de tous les alliés à hauteur de 15 % des PV max à la réception de DEG fatals, et réduit au silence tous les ennemis pendant 1.4 sec.",
+        "3": "[Le jugement dernier] Restaure les PV de tous les alliés à hauteur de 15 % des PV max à la réception de DEG fatals, et réduit au silence tous les ennemis pendant 1.7 sec.",
+        "4": "[Le jugement dernier] Restaure les PV de tous les alliés à hauteur de 15 % des PV max à la réception de DEG fatals, et réduit au silence tous les ennemis pendant 2.1 sec.",
+        "5": "[Le jugement dernier] Restaure les PV de tous les alliés à hauteur de 15 % des PV max à la réception de DEG fatals, et réduit au silence tous les ennemis pendant 2.5 sec."
       }
     }
   },

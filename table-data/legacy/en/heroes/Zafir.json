@@ -130,8 +130,17 @@
   },
   "uw": {
     "name": "Glory of the God King, Zaries",
-    "description": "Upon using a skill, gains a stack of 'Will of Desert.' 'Will of Desert' increases ATK and Crit DMG by 4% for 30 sec, and can be stacked up to max 8 times. This effect cannot be dispelled.",
-    "value": {},
+    "description": "Upon using a skill, gains a stack of 'Will of Desert.' 'Will of Desert' increases ATK and Crit DMG by {0}% for 30 sec, and can be stacked up to max 8 times. This effect cannot be dispelled.",
+    "value": {
+      "0": {
+        "0": "4",
+        "1": "4.8",
+        "2": "5.6",
+        "3": "6.8",
+        "4": "8.4",
+        "5": "10"
+      }
+    },
     "thumbnail": "heroes/Zafir/uw.png",
     "story": "An ancient Weapon forged for the most glorious being on earth. \nOnly permitted to the successor to the God King, one should undergo tremendous ordeals to prove his worth as its owner. \nThis bow, allowed only for the chosen successor to the God King, has absolute power in the desert.",
     "descriptionByStar": {
@@ -146,8 +155,17 @@
   "uts": {
     "1": {
       "name": "Sandstorm Arrow",
-      "description": "[Judgment of the Desert] Increases DMG by 2% upon every use. There is a 30% chance that the hit enemy is inflicted with the Mark of Desert. DMG increase effect can be stacked up to max 20 times.",
-      "value": {},
+      "description": "[Judgment of the Desert] Increases DMG by {0}% upon every use. There is a 30% chance that the hit enemy is inflicted with the Mark of Desert. DMG increase effect can be stacked up to max 20 times.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Zafir/ut/1.png",
       "story": "A treasure that Zafir received from the Mauhata tribe. It's an arrow made with the tail feather of an animal regarded as holy in the ancient kingdom.\nIts radiance is blinding, as if representing the honor and glory of the ancient kingdom. Normally, it's hung on a wall and used in ceremonies, but it's actually one of the best defense weapons used by the royal family. Enemies shot by this arrow face the Judgment of the Desert within a massive sandstorm.",
       "descriptionByStar": {
@@ -161,8 +179,17 @@
     },
     "2": {
       "name": "Sand of Mirage",
-      "description": "[Blessing of the Sand Spirit] Dispels negative effects from self, and recovers 80 Mana every sec while the shield is active.",
-      "value": {},
+      "description": "[Blessing of the Sand Spirit] Dispels negative effects from self, and recovers {0} Mana every sec while the shield is active.",
+      "value": {
+        "0": {
+          "0": "80",
+          "1": "100",
+          "2": "120",
+          "3": "140",
+          "4": "170",
+          "5": "200"
+        }
+      },
       "thumbnail": "heroes/Zafir/ut/2.png",
       "story": "An hourglass that was buried underground for a long time by an enormous sandstorm that struck Aegina Desert.\nWhen the sand in the hourglass moves, it calls for the mirage of an ancient city coming back to life.\nThe high priest of the ancient kingdom used this to show the glory of the kingdom to its people in the past.\nSeeing their city shining in gold, people grew proud of their kingdom.",
       "descriptionByStar": {
@@ -176,8 +203,17 @@
     },
     "3": {
       "name": "Soul of Oasis",
-      "description": "[Doom of the Desert] Skill cooldown is decreased by 30% and effect activation chance is increased by 8%.",
-      "value": {},
+      "description": "[Doom of the Desert] Skill cooldown is decreased by 30% and effect activation chance is increased by {0}%.",
+      "value": {
+        "0": {
+          "0": "8",
+          "1": "9.6",
+          "2": "11.5",
+          "3": "13.8",
+          "4": "16.5",
+          "5": "20"
+        }
+      },
       "thumbnail": "heroes/Zafir/ut/3.png",
       "story": "A magical sword passed down through the God King's descendants. The name 'Oasis' comes from how it was used to serve the people in dire times.\nAfter the kingdom fell, its whereabouts was unknown to the world until Zafir saw it among Kumuro's art collections and bought it at an incredibly high price. \nWith the sword finally returning to the worthy descendant, Zafir was able to inherit his forefather's spirits, maximizing his potentials.",
       "descriptionByStar": {
@@ -191,8 +227,17 @@
     },
     "4": {
       "name": "Black Cat, Hoabis",
-      "description": "[Calling of the Guardian] Upon a Critical Hit, stuns the target for 2 sec and increases P.DMG it takes by 10% for 10 sec.",
-      "value": {},
+      "description": "[Calling of the Guardian] Upon a Critical Hit, stuns the target for 2 sec and increases P.DMG it takes by {0}% for 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Zafir/ut/4.png",
       "story": "It is known that a black cat always stayed next to the God King in the Ancient Desert Kingdom as a symbol of peace and prosperity.\nNo one knows how the sacred black cat appears generation after generation. When the same black cat came to Zafir, he named it 'Hoabis,' and he has been taking care of it wholeheartedly.",
       "descriptionByStar": {

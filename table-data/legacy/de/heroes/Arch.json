@@ -130,8 +130,17 @@
   },
   "uw": {
     "name": "Klarer blauer Himmel, Sherrkyle",
-    "description": "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann Mag. Schaden in Höhe von 200 % ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist.",
-    "value": {},
+    "description": "Markiert alle 10 Sek. 1 zufälligen Gegner mit Urteilssiegel, das 15 Sek. andauert, und fügt dann Mag. Schaden in Höhe von {0} % ANG zu. Ignoriert VERT, wenn das Ziel kein Held ist.",
+    "value": {
+      "0": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      }
+    },
     "thumbnail": "heroes/Arch/uw.png",
     "story": "Eine mächtige Lichtwaffe, die die Form eines Speeres, Dolches oder Bogens annehmen kann. Einer der göttlichen Schätze der Engel, gesegnet durch einen Erzengel. Es heißt, sie wäre in der Lage, das Böse zu entzünden. Wegen ihrer Vielseitigkeit gab man sie traditionell dem talentiertesten Späher. Die Zahl der Dämonen, die angesichts ihres Lichts ihr Ende fanden, ist schier unendlich.",
     "descriptionByStar": {
@@ -146,8 +155,17 @@
   "uts": {
     "1": {
       "name": "Heiliger goldener Pfeil",
-      "description": "[Himmlischer Pfeil] erhöht den Schaden um 20 % und die Anzahl an Zielen um 1.",
-      "value": {},
+      "description": "[Himmlischer Pfeil] erhöht den Schaden um {0} % und die Anzahl an Zielen um 1.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Arch/ut/1.png",
       "story": "Eine goldener Pfeil, der durch Archs göttliche Kraft erschaffen wurde.\nEr beschwört und materialisiert das reinste und heiligste Licht des Himmels. Wie stark der Pfeil tatsächlich ist, hängt davon ab, wie viel göttliche Kraft ihm gewährt wird. Für gutherzige Wesen ist es ein wunderschönes Schauspiel, doch wenn eine böse Kreatur davon getroffen wird, wird sie verstümmelt und in eine immaterielle Dimension befördert.",
       "descriptionByStar": {
@@ -161,8 +179,17 @@
     },
     "2": {
       "name": "Magisches Quadrat der Verfolgung",
-      "description": "[Reinigende Flamme] verringert die Manakosten um 1 und erhöht den Schaden um 20 %.",
-      "value": {},
+      "description": "[Reinigende Flamme] verringert die Manakosten um 1 und erhöht den Schaden um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Arch/ut/2.png",
       "story": "Das Symbol der Armee der Feuerschlichter, die einen erbitterten Kampf gegen uralte Dämonen fochten. \nBei Benutzung des von Lua, der Göttin des Lichts gesegneten Magischen Quadrats der Verfolgung wird Arch zu einem gnadenlosen Schlichter.",
       "descriptionByStar": {
@@ -176,8 +203,17 @@
     },
     "3": {
       "name": "Himmelsauge",
-      "description": "[Schlichter] erhöht den Schaden um 20 % und ANG aller Verbündeten um 30 % während der Wirkungsdauer des Mag. Schilds.",
-      "value": {},
+      "description": "[Schlichter] erhöht den Schaden um {0} % und ANG aller Verbündeten um 30 % während der Wirkungsdauer des Mag. Schilds.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Arch/ut/3.png",
       "story": "Das Seelen-Ei des Engelsschlichters Pilier. Pilier wurde aus Luas erster Flamme geboren und ist der Meister von Arch. Pilier war der Beste unter den Engelskriegern und einer von denen, die den Krieg gegen die Dämonen beendeten. Nachdem er jedoch all seine Kraft aufgebraucht hatte, kehrte er zurück und wurde wieder ein Himmlisches Auge, seine Gestalt als Seelen-Ei, und Arch trägt die Seele seines Meisters immer bei sich.",
       "descriptionByStar": {
@@ -191,17 +227,26 @@
     },
     "4": {
       "name": "Glocke der Bestrafung",
-      "description": "[Das jüngste Gericht] heilt beim Erleiden von tödlichem Schaden die TP von allen Verbündeten um 15 % der max. TP und alle Feinde werden für 1 Sek. zum Schweigen gebracht.",
-      "value": {},
+      "description": "[Das jüngste Gericht] heilt beim Erleiden von tödlichem Schaden die TP von allen Verbündeten um 15 % der max. TP und alle Feinde werden für {0} Sek. zum Schweigen gebracht.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Arch/ut/4.png",
       "story": "Eine himmlische Glocke, die im Morgenstern geläutet wird.\nDie Glocke läutet, um die Engelskrieger zu warnen, wenn die Welt mit großen Problemen zu kämpfen hat und auf ein göttliches Eingreifen hofft.\nSobald die Glocke erklingt, wissen die Krieger, dass sie Luas Überbringern der Apokalypse die Kehlen aufschlitzen müssen.",
       "descriptionByStar": {
         "0": "[Das jüngste Gericht] heilt beim Erleiden von tödlichem Schaden die TP von allen Verbündeten um 15 % der max. TP und alle Feinde werden für 1 Sek. zum Schweigen gebracht.",
-        "1": "[Das jüngste Gericht] heilt beim Erleiden von tödlichem Schaden die TP von allen Verbündeten um 15 % der max. TP und alle Feinde werden für 1,2 Sek. zum Schweigen gebracht.",
-        "2": "[Das jüngste Gericht] heilt beim Erleiden von tödlichem Schaden die TP von allen Verbündeten um 15 % der max. TP und alle Feinde werden für 1,4 Sek. zum Schweigen gebracht.",
-        "3": "[Das jüngste Gericht] heilt beim Erleiden von tödlichem Schaden die TP von allen Verbündeten um 15 % der max. TP und alle Feinde werden für 1,7 Sek. zum Schweigen gebracht.",
-        "4": "[Das jüngste Gericht] heilt beim Erleiden von tödlichem Schaden die TP von allen Verbündeten um 15 % der max. TP und alle Feinde werden für 2,1 Sek. zum Schweigen gebracht.",
-        "5": "[Das jüngste Gericht] heilt beim Erleiden von tödlichem Schaden die TP von allen Verbündeten um 15 % der max. TP und alle Feinde werden für 2,5 Sek. zum Schweigen gebracht."
+        "1": "[Das jüngste Gericht] heilt beim Erleiden von tödlichem Schaden die TP von allen Verbündeten um 15 % der max. TP und alle Feinde werden für 1.2 Sek. zum Schweigen gebracht.",
+        "2": "[Das jüngste Gericht] heilt beim Erleiden von tödlichem Schaden die TP von allen Verbündeten um 15 % der max. TP und alle Feinde werden für 1.4 Sek. zum Schweigen gebracht.",
+        "3": "[Das jüngste Gericht] heilt beim Erleiden von tödlichem Schaden die TP von allen Verbündeten um 15 % der max. TP und alle Feinde werden für 1.7 Sek. zum Schweigen gebracht.",
+        "4": "[Das jüngste Gericht] heilt beim Erleiden von tödlichem Schaden die TP von allen Verbündeten um 15 % der max. TP und alle Feinde werden für 2.1 Sek. zum Schweigen gebracht.",
+        "5": "[Das jüngste Gericht] heilt beim Erleiden von tödlichem Schaden die TP von allen Verbündeten um 15 % der max. TP und alle Feinde werden für 2.5 Sek. zum Schweigen gebracht."
       }
     }
   },

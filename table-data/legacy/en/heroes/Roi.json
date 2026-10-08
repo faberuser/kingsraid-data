@@ -152,14 +152,28 @@
     "thumbnail": "heroes/Roi/uw.png",
     "story": "The group of assassins known as the Laughing Mask has been the master of the Orvel's underworld for a long time. Only the best assassin of the Laughing Mask is allowed to wield this dreadful pair of daggers. It is said that the wounds inflicted by these daggers never heal, and that their victims inevitably bleed to death. According to the legend, these daggers were made from the scythe of the Grim Reaper.",
     "descriptionByStar": {
-      "0": "Normal attacks and Hack have a 20% chance of inflicting 1 stack of [Mortal Wound]. Each stack of [Mortal Wound] deals additional DMG equal to 12% of ATK."
+      "0": "Normal attacks and Hack have a 20% chance of inflicting 1 stack of [Mortal Wound]. Each stack of [Mortal Wound] deals additional DMG equal to 12% of ATK.",
+      "1": "Normal attacks and Hack have a 24% chance of inflicting 1 stack of [Mortal Wound]. Each stack of [Mortal Wound] deals additional DMG equal to 14% of ATK.",
+      "2": "Normal attacks and Hack have a 29% chance of inflicting 1 stack of [Mortal Wound]. Each stack of [Mortal Wound] deals additional DMG equal to 17% of ATK.",
+      "3": "Normal attacks and Hack have a 35% chance of inflicting 1 stack of [Mortal Wound]. Each stack of [Mortal Wound] deals additional DMG equal to 21% of ATK.",
+      "4": "Normal attacks and Hack have a 42% chance of inflicting 1 stack of [Mortal Wound]. Each stack of [Mortal Wound] deals additional DMG equal to 25% of ATK.",
+      "5": "Normal attacks and Hack have a 50% chance of inflicting 1 stack of [Mortal Wound]. Each stack of [Mortal Wound] deals additional DMG equal to 30% of ATK."
     }
   },
   "uts": {
     "1": {
       "name": "Shadow Blade",
-      "description": "[Merciless] Dispels all negative effects from self, and recovers Mana by 200 upon Critical Hit.",
-      "value": {},
+      "description": "[Merciless] Dispels all negative effects from self, and recovers Mana by {0} upon Critical Hit.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Roi/ut/1.png",
       "story": "A bagh nakh in the shape of a beast's claw.\nIt's a concealed weapon made with a Damascus blade, used by the assassins from the east, to maximize the effect of Shadow Blade. Forged with heat and blood, Shadow Blade is known as a cursed weapon lusting for blood. Most people, with the exception of skilled assassins, keep away from it.",
       "descriptionByStar": {
@@ -187,7 +201,12 @@
       "thumbnail": "heroes/Roi/ut/2.png",
       "story": "A dangerous hood made with the secret method of the Laughing Mask. \nIt was made with the legendary soma that is said to provide endless vitality and the secret of the Laughing Mask. \nSoma's hood increases the morale of an assassin inside the dark curtain, increasing their ATK, and granting dexterity, maximizing P. Dodge.",
       "descriptionByStar": {
-        "0": "[Curtain of Darkness] For the duration of Skill, recovers own Mana by 150 every sec and increases own DMG dealt against Bosses by 10%."
+        "0": "[Curtain of Darkness] For the duration of Skill, recovers own Mana by 150 every sec and increases own DMG dealt against Bosses by 10%.",
+        "1": "[Curtain of Darkness] For the duration of Skill, recovers own Mana by 150 every sec and increases own DMG dealt against Bosses by 12%.",
+        "2": "[Curtain of Darkness] For the duration of Skill, recovers own Mana by 150 every sec and increases own DMG dealt against Bosses by 14%.",
+        "3": "[Curtain of Darkness] For the duration of Skill, recovers own Mana by 150 every sec and increases own DMG dealt against Bosses by 17%.",
+        "4": "[Curtain of Darkness] For the duration of Skill, recovers own Mana by 150 every sec and increases own DMG dealt against Bosses by 21%.",
+        "5": "[Curtain of Darkness] For the duration of Skill, recovers own Mana by 150 every sec and increases own DMG dealt against Bosses by 25%."
       }
     },
     "3": {
@@ -207,17 +226,26 @@
       "story": "The mask that Roi destroyed when he left the Laughing Mask assassins. Assassins mercilessly aim for their enemy's vital points, and they wear masks to suppress their emotions when they eliminate their targets. Roi faces the split mask, and goes behind his enemies to kill them with his Blade Claws to protect his friends.",
       "descriptionByStar": {
         "0": "[Blade Claw] Reduces Cooldown by 1 sec and increases DMG by 20%.",
-        "1": "[Blade Claw] Increases DMG by 24%, and upon Crit Hit, recovers Mana by an additional 300.",
-        "2": "[Blade Claw] Increases DMG by 29%, and upon Crit Hit, recovers Mana by an additional 300.",
-        "3": "[Blade Claw] Increases DMG by 35%, and upon Crit Hit, recovers Mana by an additional 300.",
-        "4": "[Blade Claw] Increases DMG by 42%, and upon Crit Hit, recovers Mana by an additional 300.",
-        "5": "[Blade Claw] Increases DMG by 50%, and upon Crit Hit, recovers Mana by an additional 300."
+        "1": "[Blade Claw] Reduces Cooldown by 1 sec and increases DMG by 24%.",
+        "2": "[Blade Claw] Reduces Cooldown by 1 sec and increases DMG by 29%.",
+        "3": "[Blade Claw] Reduces Cooldown by 1 sec and increases DMG by 35%.",
+        "4": "[Blade Claw] Reduces Cooldown by 1 sec and increases DMG by 42%.",
+        "5": "[Blade Claw] Reduces Cooldown by 1 sec and increases DMG by 50%."
       }
     },
     "4": {
       "name": "Specter's Ring",
-      "description": "[Hack] Increases DMG by 50%. Upon a Critical Hit, increases own ATK Spd by 200 for 5 sec.",
-      "value": {},
+      "description": "[Hack] Increases DMG by 50%. Upon a Critical Hit, increases own ATK Spd by {0} for 5 sec.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Roi/ut/4.png",
       "story": "A ring to commemorate Roy's completion of mastering a new skill.\nRoy crafted this ring to celebrate for mastering his new Hacking techniques without relying on the techniques of the Laughing Masks. \nEngraved on the ring is an image of Specter Redeal, which serves as a purpose to overcome the past and remind him of his mistakes.",
       "descriptionByStar": {

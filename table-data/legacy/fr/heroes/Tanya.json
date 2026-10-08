@@ -153,18 +153,27 @@
     "story": "La guerre démoniaque remonte à cent ans. Durant cette guerre, la plus grande menace que connut l'humanité fut incontestablement les officiers démoniaques supérieurs. Caethasis, le Démon de la Tranquillité, était le plus dangereux d'entre eux. Convoitant spécifiquement l'âme des utilisateurs de la magie, il massacra un nombre incalculable de mages et de prêtres. Caethasis finit par être vaincu par Kyle et son noyau scellé. Cependant, des années plus tard, le Masque Rieur entra en possession de son noyau, le hissant de nouveau au rang d'instrument de mort.",
     "descriptionByStar": {
       "0": "Au début de chaque bataille, se met en état de Furtivité pendant 10 sec et esquive toutes les attaques pendant 2 sec. En état de Furtivité, augmente les DEG Crit de 30% pendant 10 sec.",
-      "1": "Au début de chaque bataille, le Héros se met en mode Furtivité pendant 10 secondes. Lorsque le Héros est en Furtivité, les DEG Crit sont augmentés de 36% pendant 10 secondes.",
-      "2": "Au début de chaque bataille, le Héros se met en mode Furtivité pendant 10 secondes. Lorsque le Héros est en Furtivité, les DEG Crit sont augmentés de 43% pendant 10 secondes.",
-      "3": "Au début de chaque bataille, le Héros se met en mode Furtivité pendant 10 secondes. Lorsque le Héros est en Furtivité, les DEG Crit sont augmentés de 52% pendant 10 secondes.",
-      "4": "Au début de chaque bataille, le Héros se met en mode Furtivité pendant 10 secondes. Lorsque le Héros est en Furtivité, les DEG Crit sont augmentés de 62% pendant 10 secondes.",
-      "5": "Au début de chaque bataille, le Héros se met en mode Furtivité pendant 10 secondes. Lorsque le Héros est en Furtivité, les DEG Crit sont augmentés de 75% pendant 10 secondes."
+      "1": "Au début de chaque bataille, se met en état de Furtivité pendant 10 sec et esquive toutes les attaques pendant 2.4 sec. En état de Furtivité, augmente les DEG Crit de 36% pendant 10 sec.",
+      "2": "Au début de chaque bataille, se met en état de Furtivité pendant 10 sec et esquive toutes les attaques pendant 2.9 sec. En état de Furtivité, augmente les DEG Crit de 43% pendant 10 sec.",
+      "3": "Au début de chaque bataille, se met en état de Furtivité pendant 10 sec et esquive toutes les attaques pendant 3.5 sec. En état de Furtivité, augmente les DEG Crit de 52% pendant 10 sec.",
+      "4": "Au début de chaque bataille, se met en état de Furtivité pendant 10 sec et esquive toutes les attaques pendant 4.2 sec. En état de Furtivité, augmente les DEG Crit de 62% pendant 10 sec.",
+      "5": "Au début de chaque bataille, se met en état de Furtivité pendant 10 sec et esquive toutes les attaques pendant 5 sec. En état de Furtivité, augmente les DEG Crit de 75% pendant 10 sec."
     }
   },
   "uts": {
     "1": {
       "name": "Copie du manuel de discrétion",
-      "description": "[Cible acquise] Augmente les DEG de 50 % et restaure le PM de 400.",
-      "value": {},
+      "description": "[Cible acquise] Augmente les DEG de 50 % et restaure le PM de {0}.",
+      "value": {
+        "0": {
+          "0": "400",
+          "1": "480",
+          "2": "580",
+          "3": "700",
+          "4": "840",
+          "5": "1000"
+        }
+      },
       "thumbnail": "heroes/Tanya/ut/1.png",
       "story": "Le Masque rieur dispose d'un manuel secret de formation aux techniques furtives d'assassin.\nCe livre décrit les compétences furtives et leurs applications concrètes. Tanya y a ajouté ses propres conseils, ce qui rend ce manuel encore plus précieux.",
       "descriptionByStar": {
@@ -178,8 +187,17 @@
     },
     "2": {
       "name": "Ceinture Masque Rieur",
-      "description": "[Tornade de lames] Augmente les DEG de 20 % et réduit le temps de recharge de 8 % lorsque vous assénez un coup critique.",
-      "value": {},
+      "description": "[Tornade de lames] Augmente les DEG de {0} % et réduit le temps de recharge de 8 % lorsque vous assénez un coup critique.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Tanya/ut/2.png",
       "story": "Cet outil multifonction sert aux membres du Masque rieur pour commettre leurs assassinats. \nIl est propre au Masque rieur, dont les membres sont connus pour leur vitesse et leur efficacité dans l'élimination de leurs cibles. \nOptimisé d'après le schéma d'attaque de son porteur, il permet d'améliorer la manipulation des armes de jet et renforce les attaques continues pendant Tornade de lames.",
       "descriptionByStar": {
@@ -193,8 +211,17 @@
     },
     "3": {
       "name": "Dague de silence",
-      "description": "[Chuchotement de la Mort] Augmente les DEG de 20% et donne Furtivité. Si le mode Furtivité est déjà activé, l'ATQ est aussi augmentée de 20% pendant 10 sec.",
-      "value": {},
+      "description": "[Chuchotement de la Mort] Augmente les DEG de {0}% et donne Furtivité. Si le mode Furtivité est déjà activé, l'ATQ est aussi augmentée de 20% pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Tanya/ut/3.png",
       "story": "Une dague donnée à ceux qui complètent la première mission du Masque Rieur. La règle oblige les assassins à toujours porter la dague qui piste sa cible. \nLa dague que les assassins portent comme une amulette leur murmure constamment des propos sur la mort.",
       "descriptionByStar": {
@@ -208,8 +235,17 @@
     },
     "4": {
       "name": "Aiguille silencieuse",
-      "description": "[Embuscade silencieuse] Restaure le 100 PM du lanceur et réduit celui de la cible de 200.",
-      "value": {},
+      "description": "[Embuscade silencieuse] Restaure le {0} PM du lanceur et réduit celui de la cible de 200.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Tanya/ut/4.png",
       "story": "Une arme secrète que le chef des Masques rieurs créa pour Tanya.\nAprès avoir observé que Tanya enchaînait les succès, le chef décida qu'elle était la personne la plus à même d'effectuer les missions les plus périlleuses, et lui fit remettre cette arme secrète des Masques rieurs, « l'Aiguille silencieuse ».\nCréée à l'aide de biotechnologies avancées, elle canalise et déchaîne l'énergie qui circule à l'intérieur du corps, tuant instantanément l'ennemi.\nPlus important encore, elle permettra à Tanya de respecter son vœu de silence si la situation dégénère et que la mission est compromise.",
       "descriptionByStar": {

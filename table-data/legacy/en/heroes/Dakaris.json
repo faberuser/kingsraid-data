@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Lake of Remembrance, Armekith",
-    "description": "Dakaris takes 10% reduced DMG, and increases CC Resist by 100. After using a Skill, the effects are doubled for 2 sec.",
-    "value": {},
+    "description": "Dakaris takes {0}% reduced DMG, and increases CC Resist by {1}. After using a Skill, the effects are doubled for 2 sec.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      }
+    },
     "thumbnail": "heroes/Dakaris/uw.png",
     "story": "A treasure of the tribe that was hidden deep inside Lake Eretana.\nIt contains hundreds of years of Lizardmen wisdom and magic.\nIts power is normally calm like still water,\nbut this magical item can unleash devastating tsunami-like power if a user wishes to.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Lakeside Banquet",
-      "description": "[Judgment Upon Them!] Increases DMG by 50% and heals additional HP equal to 1% of the healed ally's Max HP.",
-      "value": {},
+      "description": "[Judgment Upon Them!] Increases DMG by 50% and heals additional HP equal to {0}% of the healed ally's Max HP.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
       "thumbnail": "heroes/Dakaris/ut/1.png",
       "story": "Dakaris' favorite and signature dish.\nIt is one of the dishes that represent his tribe.\nIt is a dish made with crawfish, clams, and many sides.\nHe normally eats fish, but dines on this on special occasions.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Traditional Bracelet",
-      "description": "[Grant Me Strength!] Reduces Cooldown by 5 sec, and increases Heal Rate and Mana Recovery by 20%.",
-      "value": {},
+      "description": "[Grant Me Strength!] Reduces Cooldown by 5 sec, and increases Heal Rate and Mana Recovery by {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Dakaris/ut/2.png",
       "story": "A trinket Dakaris received from his parents.\nThis bracelet is made with intertwined gold and silver bracelets.\nIt is a traditional wedding bracelet that symbolizes everlasting bond.\nDakaris has this bracelet as a memento of his parents.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Dagger of Sorcery",
-      "description": "[May Their Agony End!] Increases DMG by 20%. If this Skill kills an enemy, it will cast once more.",
-      "value": {},
+      "description": "[May Their Agony End!] Increases DMG by {0}%. If this Skill kills an enemy, it will cast once more.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Dakaris/ut/3.png",
       "story": "A ceremonial dagger used by the Lizardmen of Lake Eretana.\nIt was used as a decoration, especially in festivals and coming of age ceremonies.\nHowever, after the Empire's invasion,\nit got customized as a weapon by imbuing it with magic.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Tome of the Dragon",
-      "description": "[Might of the Ancestors!] Increases shield amount by 20% and applies shield to all allies.",
-      "value": {},
+      "description": "[Might of the Ancestors!] Increases shield amount by {0}% and applies shield to all allies.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Dakaris/ut/4.png",
       "story": "A spellbook passed down from generation to generation.\nThis is renowned as a history book passed down to the next sage of the tribe.\nIt holds history of war, footsteps of great individuals, everyday life of the tribe, and many more.\nIt has mystical power to bring those records out into reality for a little while via magic.",
       "descriptionByStar": {

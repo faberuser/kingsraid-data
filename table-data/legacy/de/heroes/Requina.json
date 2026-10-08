@@ -130,54 +130,98 @@
   },
   "uw": {
     "name": "Flöte der Stillen Winde, Rakshathar",
-    "description": "Max. Anzahl von Kille-Kille-Trank ist auf 55 erhöht. Jeder Angriff hat eine 10 %igeChance einen zufälligen Gegner anzugreifen und 20 % des ANG als Schaden zu verursachen, sowie 1 Sek. lang Schweigen auszulösen.",
-    "value": {},
+    "description": "Max. Anzahl von Kille-Kille-Trank ist auf {0} erhöht. Jeder Angriff hat eine 10 %igeChance einen zufälligen Gegner anzugreifen und {1} % des ANG als Schaden zu verursachen, sowie 1 Sek. lang Schweigen auszulösen.",
+    "value": {
+      "0": {
+        "0": "55",
+        "1": "60",
+        "2": "65",
+        "3": "70",
+        "4": "75",
+        "5": "80"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      }
+    },
     "thumbnail": "heroes/Requina/uw.png",
     "story": "Ein äußerst treffsicheres Blasrohr, das von Requina selbst hergestellt wurde. Ein spezieller Schalldämpfer am Ende macht diese ohnehin leise Waffe fast komplett lautlos. Als die Anwesenheit der Dämonen ihrem Geschäft zu schaden begann, entschied sie sich dazu, nicht nur Gifte, sondern auch alles Nützliche gegen sie einzusetzen. Sie suchte Hilfe bei ihrem elementaren Freund, der das Blasrohr mit dem Segen des Windes versah. Dadurch erhielt die Waffe eine Feuerkraft, die der einer magischen Kanone gleicht. Nachdem Requina ihr tödliches, Dämonen schlachtendes Gift hinzufügte, wurde daraus eine mächtige und tödliche Waffe, die fähig ist, jedes Lebewesen zu töten.",
     "descriptionByStar": {
       "0": "Max. Anzahl von Kille-Kille-Trank ist auf 55 erhöht. Jeder Angriff hat eine 10 %igeChance einen zufälligen Gegner anzugreifen und 20 % des ANG als Schaden zu verursachen, sowie 1 Sek. lang Schweigen auszulösen.",
-      "1": "Max. Anzahl von Kille-Kille-Trank ist auf 60 erhöht. Jeder Angriff hat eine 10 %ige Chance einen zufälligen Gegner anzugreifen und 24 % des ANG als Schaden zu verursachen, sowie 1 Sek. lang Schweigen auszulösen.",
-      "2": "Max. Anzahl von Kille-Kille-Trank ist auf 65 erhöht. Jeder Angriff hat eine 10 %ige Chance einen zufälligen Gegner anzugreifen und 29 % des ANG als Schaden zu verursachen, sowie 1 Sek. lang Schweigen auszulösen.",
-      "3": "Max. Anzahl von Kille-Kille-Trank ist auf 70 erhöht. Jeder Angriff hat eine 10 %ige Chance einen zufälligen Gegner anzugreifen und 35 % des ANG als Schaden zu verursachen, sowie 1 Sek. lang Schweigen auszulösen.",
-      "4": "Max. Anzahl von Kille-Kille-Trank ist auf 75 erhöht. Jeder Angriff hat eine 10 %ige Chance einen zufälligen Gegner anzugreifen und 42 % des ANG als Schaden zu verursachen, sowie 1 Sek. lang Schweigen auszulösen.",
-      "5": "Max. Anzahl von Kille-Kille-Trank ist auf 80 erhöht. Jeder Angriff hat eine 10 %ige Chance einen zufälligen Gegner anzugreifen und 50 % des ANG als Schaden zu verursachen, sowie 1 Sek. lang Schweigen auszulösen."
+      "1": "Max. Anzahl von Kille-Kille-Trank ist auf 60 erhöht. Jeder Angriff hat eine 10 %igeChance einen zufälligen Gegner anzugreifen und 24 % des ANG als Schaden zu verursachen, sowie 1 Sek. lang Schweigen auszulösen.",
+      "2": "Max. Anzahl von Kille-Kille-Trank ist auf 65 erhöht. Jeder Angriff hat eine 10 %igeChance einen zufälligen Gegner anzugreifen und 29 % des ANG als Schaden zu verursachen, sowie 1 Sek. lang Schweigen auszulösen.",
+      "3": "Max. Anzahl von Kille-Kille-Trank ist auf 70 erhöht. Jeder Angriff hat eine 10 %igeChance einen zufälligen Gegner anzugreifen und 35 % des ANG als Schaden zu verursachen, sowie 1 Sek. lang Schweigen auszulösen.",
+      "4": "Max. Anzahl von Kille-Kille-Trank ist auf 75 erhöht. Jeder Angriff hat eine 10 %igeChance einen zufälligen Gegner anzugreifen und 42 % des ANG als Schaden zu verursachen, sowie 1 Sek. lang Schweigen auszulösen.",
+      "5": "Max. Anzahl von Kille-Kille-Trank ist auf 80 erhöht. Jeder Angriff hat eine 10 %igeChance einen zufälligen Gegner anzugreifen und 50 % des ANG als Schaden zu verursachen, sowie 1 Sek. lang Schweigen auszulösen."
     }
   },
   "uts": {
     "1": {
       "name": "Giftträne",
-      "description": "[Tränen der großen Schlange!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht die Skill-Dauer um 0,8 Sek.",
-      "value": {},
+      "description": "[Tränen der großen Schlange!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht die Skill-Dauer um {0} Sek.",
+      "value": {
+        "0": {
+          "0": "0.8",
+          "1": "1",
+          "2": "1.2",
+          "3": "1.4",
+          "4": "1.7",
+          "5": "2"
+        }
+      },
       "thumbnail": "heroes/Requina/ut/1.png",
       "story": "Das Extrakt der Wurzel der Schlangenalraune, die nur einmal alle einhundert Jahre wächst.\nRequina fand sie, nachdem sie den gesamten Kontinent abgesucht hatte, um das tödlichste Gift herzustellen. Sie stellte das Gift her und nannte es die Tränen der großen Schlange. Das Wurzelextrakt der Schlangenalraune sorgt für unerträgliche Schmerzen, die ausgelöst werden, weil der verdorbene Teil der Seele des Opfers abgenagt wird. Übersteht der Vergiftete jedoch die Schmerzen, kann seine Seele gereinigt werden.",
       "descriptionByStar": {
-        "0": "[Tränen der großen Schlange!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht die Skill-Dauer um 0,8 Sek.",
+        "0": "[Tränen der großen Schlange!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht die Skill-Dauer um 0.8 Sek.",
         "1": "[Tränen der großen Schlange!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht die Skill-Dauer um 1 Sek.",
-        "2": "[Tränen der großen Schlange!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht die Skill-Dauer um 1,2 Sek.",
-        "3": "[Tränen der großen Schlange!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht die Skill-Dauer um 1,4 Sek.",
-        "4": "[Tränen der großen Schlange!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht die Skill-Dauer um 1,7 Sek.",
+        "2": "[Tränen der großen Schlange!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht die Skill-Dauer um 1.2 Sek.",
+        "3": "[Tränen der großen Schlange!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht die Skill-Dauer um 1.4 Sek.",
+        "4": "[Tränen der großen Schlange!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht die Skill-Dauer um 1.7 Sek.",
         "5": "[Tränen der großen Schlange!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht die Skill-Dauer um 2 Sek."
       }
     },
     "2": {
       "name": "Basilisken-Giftzahn",
-      "description": "[Kreischgras-Extrakt!] verringert den Skill-Cooldown um 30 % und verursacht 3 % des ANG als zus. Körp. Schaden pro gegn. 'Kille-Kille-Trank!'-Stapel.",
-      "value": {},
+      "description": "[Kreischgras-Extrakt!] verringert den Skill-Cooldown um 30 % und verursacht {0} % des ANG als zus. Körp. Schaden pro gegn. 'Kille-Kille-Trank!'-Stapel.",
+      "value": {
+        "0": {
+          "0": "3",
+          "1": "3.6",
+          "2": "4.3",
+          "3": "5.2",
+          "4": "6.2",
+          "5": "7.5"
+        }
+      },
       "thumbnail": "heroes/Requina/ut/2.png",
       "story": "Der üble Fangzahn eines Basilisken, der nur böse Energie absorbiert. Sein Gift ist tatsächlich stark genug, um Seelen zum Schmelzen zu bringen. Wenn das Gift des Zahns mit Kreischgras gemischt wird, kann es zu einer starken Droge werden, die kein Organismus überleben kann. Requinas Herz schlägt vor lauter Vorfreude schneller.",
       "descriptionByStar": {
         "0": "[Kreischgras-Extrakt!] verringert den Skill-Cooldown um 30 % und verursacht 3 % des ANG als zus. Körp. Schaden pro gegn. 'Kille-Kille-Trank!'-Stapel.",
-        "1": "[Kreischgras-Extrakt!] verringert den Skill-Cooldown um 30 % und verursacht 3,6 % des ANG als zus. Körp. Schaden pro gegn. 'Kille-Kille-Trank!'-Stapel.",
-        "2": "[Kreischgras-Extrakt!] verringert  den Skill-Cooldown um 30 % und verursacht 4,3 % des ANG als zus. Körp. Schaden pro gegn. 'Kille-Kille-Trank!'-Stapel.",
-        "3": "[Kreischgras-Extrakt!] verringert den Skill-Cooldown um 30 % und verursacht 5,2 % des ANG als zus. Körp. Schaden pro gegn. 'Kille-Kille-Trank!'-Stapel.",
-        "4": "[Kreischgras-Extrakt!] verringert den Skill-Cooldown um 30 % und verursacht 6,2 % des ANG als zus. Körp. Schaden pro gegn. 'Kille-Kille-Trank!'-Stapel.",
-        "5": "[Kreischgras-Extrakt!] verringert den Skill-Cooldown um 30 % und verursacht 7,5 % des ANG als zus. Körp. Schaden pro gegn. 'Kille-Kille-Trank!'-Stapel."
+        "1": "[Kreischgras-Extrakt!] verringert den Skill-Cooldown um 30 % und verursacht 3.6 % des ANG als zus. Körp. Schaden pro gegn. 'Kille-Kille-Trank!'-Stapel.",
+        "2": "[Kreischgras-Extrakt!] verringert den Skill-Cooldown um 30 % und verursacht 4.3 % des ANG als zus. Körp. Schaden pro gegn. 'Kille-Kille-Trank!'-Stapel.",
+        "3": "[Kreischgras-Extrakt!] verringert den Skill-Cooldown um 30 % und verursacht 5.2 % des ANG als zus. Körp. Schaden pro gegn. 'Kille-Kille-Trank!'-Stapel.",
+        "4": "[Kreischgras-Extrakt!] verringert den Skill-Cooldown um 30 % und verursacht 6.2 % des ANG als zus. Körp. Schaden pro gegn. 'Kille-Kille-Trank!'-Stapel.",
+        "5": "[Kreischgras-Extrakt!] verringert den Skill-Cooldown um 30 % und verursacht 7.5 % des ANG als zus. Körp. Schaden pro gegn. 'Kille-Kille-Trank!'-Stapel."
       }
     },
     "3": {
       "name": "Leuchtender Trank",
-      "description": "[Mehr! Stärker!] greift 1 zus. Ziel an und erhöht ANG-GESCHW. um 100 während der Wirkungsdauer.",
-      "value": {},
+      "description": "[Mehr! Stärker!] greift 1 zus. Ziel an und erhöht ANG-GESCHW. um {0} während der Wirkungsdauer.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Requina/ut/3.png",
       "story": "Medizin, die durch das Kochen des Pulvers vom siebzigsten Regenbogen und der Zunge der riesigen Bestie Kiselaton gewonnen wird, welche die Hölle durchqueren kann. Trinkt man es, verbrennt es sofort die Eingeweide, aber es heißt, dass derjenige, der es langsam trinkt, glücklich stirbt.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Lachen des Todes",
-      "description": "[Kille-Kille-Trank!] erhöht den Schaden um 20 %. Bei getroffenen Feinden wird der Körp. Krit. Widerstand um 250 verringert.",
-      "value": {},
+      "description": "[Kille-Kille-Trank!] erhöht den Schaden um {0} %. Bei getroffenen Feinden wird der Körp. Krit. Widerstand um 250 verringert.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Requina/ut/4.png",
       "story": "Behandelter Blütenstaub von Kraseir, einer gelben Blume, die dafür bekannt ist, die Leute dazu zu bringen, sich zu Tode zu lachen.\nObwohl Kraseir als gefährliche und giftige Pflanze gilt, ist es eigentlich ihr Blütenstaub, der sich auf das Nervensystem auswirkt.\nRequina baut diese Blume in ihrem Garten an, um immer genug Kraseir-Blütenstaub zu haben.",
       "descriptionByStar": {

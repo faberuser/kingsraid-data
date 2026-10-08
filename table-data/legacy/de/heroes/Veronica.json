@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Unendlicher Aufzeichner, Accordio",
-    "description": "Ändert das Stapel-Maximum für Wissen des Hauptgeldgebers zu 9 und erhält alle 14 Sek. einen zusätzlichen Erfahrungs-Stapel.",
-    "value": {},
+    "description": "Ändert das Stapel-Maximum für Wissen des Hauptgeldgebers zu {0} und erhält alle {1} Sek. einen zusätzlichen Erfahrungs-Stapel.",
+    "value": {
+      "0": {
+        "0": "9",
+        "1": "10",
+        "2": "11",
+        "3": "12",
+        "4": "13",
+        "5": "15"
+      },
+      "1": {
+        "0": "14",
+        "1": "13",
+        "2": "12",
+        "3": "11",
+        "4": "10",
+        "5": "9"
+      }
+    },
     "thumbnail": "heroes/Veronica/uw.png",
     "story": "Ihre Erlaubnis wird benötigt, um wichtige Gegenstände in der Gildenallianz zu verarbeiten. Ein Bürogegenstand, der vom Gründer der Gildenallianz hoch geschätzt wird. Ein Set, bestehend aus einer Schreibfeder und einem Aktenordner. Die Feder besitzt eine Manakugel, benötigt als Mana anstelle von Tinte, und man muss damit auf magischem Pergament schreiben, auf dem mit einer normalen Feder nicht geschrieben werden kann. Die vom Schreiber geschriebenen Buchstaben Können nicht ohne das Mana des Schreibers gelöscht werden. Außerdem kann unbegrenzt viel Text auf das magische Pergament geschrieben werden und es besitzt eine Funktion, nach bereits Geschriebenem zu suchen. Es macht Veronicas Arbeit so viel effektiver. Natürlich ist es nützlich für die Arbeit, aber außerhalb der Arbeit ...",
     "descriptionByStar": {
@@ -146,38 +163,65 @@
   "uts": {
     "1": {
       "name": "Verhaltenskodex der Gilde",
-      "description": "[Das wird jetzt ein wenig wehtun!] erhöht 30 Sek. lang nach einem Krit. Treffer den Schaden um 50 % und den Schaden gegen Bosse um 2 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-      "value": {},
+      "description": "[Das wird jetzt ein wenig wehtun!] erhöht 30 Sek. lang nach einem Krit. Treffer den Schaden um 50 % und den Schaden gegen Bosse um {0} %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+      "value": {
+        "0": {
+          "0": "2",
+          "1": "2.4",
+          "2": "2.9",
+          "3": "3.5",
+          "4": "4.2",
+          "5": "5"
+        }
+      },
       "thumbnail": "heroes/Veronica/ut/1.png",
       "story": "Ein Handbuch, in dem die Verhaltensregeln für Mitglieder der Gilde niedergeschrieben sind.\nEs ist dreimal so dick wie ein normales Buch und der Beweis für Veronicas akribische Arbeit. Es würde ewig dauern, das Buch zur Gänze zu lesen.",
       "descriptionByStar": {
         "0": "[Das wird jetzt ein wenig wehtun!] erhöht 30 Sek. lang nach einem Krit. Treffer den Schaden um 50 % und den Schaden gegen Bosse um 2 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "1": "[Das wird jetzt ein wenig wehtun!] erhöht 30 Sek. lang nach einem Krit. Treffer den Schaden um 50 % und den Schaden gegen Bosse um 2,4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "2": "[Das wird jetzt ein wenig wehtun!] erhöht 30 Sek. lang nach einem Krit. Treffer den Schaden um 50 % und den Schaden gegen Bosse um 2,9 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "3": "[Das wird jetzt ein wenig wehtun!] erhöht 30 Sek. lang nach einem Krit. Treffer den Schaden um 50 % und den Schaden gegen Bosse um 3,5 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
-        "4": "[Das wird jetzt ein wenig wehtun!] erhöht 30 Sek. lang nach einem Krit. Treffer den Schaden um 50 % und den Schaden gegen Bosse um 4,2 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "1": "[Das wird jetzt ein wenig wehtun!] erhöht 30 Sek. lang nach einem Krit. Treffer den Schaden um 50 % und den Schaden gegen Bosse um 2.4 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "2": "[Das wird jetzt ein wenig wehtun!] erhöht 30 Sek. lang nach einem Krit. Treffer den Schaden um 50 % und den Schaden gegen Bosse um 2.9 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "3": "[Das wird jetzt ein wenig wehtun!] erhöht 30 Sek. lang nach einem Krit. Treffer den Schaden um 50 % und den Schaden gegen Bosse um 3.5 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+        "4": "[Das wird jetzt ein wenig wehtun!] erhöht 30 Sek. lang nach einem Krit. Treffer den Schaden um 50 % und den Schaden gegen Bosse um 4.2 %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
         "5": "[Das wird jetzt ein wenig wehtun!] erhöht 30 Sek. lang nach einem Krit. Treffer den Schaden um 50 % und den Schaden gegen Bosse um 5 %. Dieser Effekt kann bis zu 10-mal gestapelt werden."
       }
     },
     "2": {
       "name": "Stiftspitze des festen Willens",
-      "description": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um 1,6 Sek.",
-      "value": {},
+      "description": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um {0} Sek.",
+      "value": {
+        "0": {
+          "0": "1.6",
+          "1": "1.9",
+          "2": "2.3",
+          "3": "2.7",
+          "4": "3.3",
+          "5": "4"
+        }
+      },
       "thumbnail": "heroes/Veronica/ut/2.png",
       "story": "Stiftspitze, die Veronica immer bei sich trägt. Sie hat sie 100 Tage lang in der Quelle des Versprechens eingelegt, wie der Schmied Jin es ihr empfahl. Mit der Kraft der Magie färben sich die mit diesem Stift geschriebenen Buchstaben rot, wenn die Handlungen nicht entsprechend ausgeführt werden. Veronica sagt, es sei hilfreich beim Verwalten von Vorräten.",
       "descriptionByStar": {
-        "0": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um 1,6 Sek.",
-        "1": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um 1,9 Sek.",
-        "2": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um 2,3 Sek.",
-        "3": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um 2,7 Sek.",
-        "4": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um 3,3 Sek.",
+        "0": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um 1.6 Sek.",
+        "1": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um 1.9 Sek.",
+        "2": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um 2.3 Sek.",
+        "3": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um 2.7 Sek.",
+        "4": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um 3.3 Sek.",
         "5": "[Ich werde dir helfen!] verringert die Manakosten um 1 und erhöht die Skill-Dauer um 4 Sek."
       }
     },
     "3": {
       "name": "Siegel des Gilden-Verwalters",
-      "description": "[Geh mir aus den Augen!] erhöht den Schaden um 20 % und für jeden getroffenen Gegner wird der Cooldown um 10 % verringert.",
-      "value": {},
+      "description": "[Geh mir aus den Augen!] erhöht den Schaden um {0} % und für jeden getroffenen Gegner wird der Cooldown um 10 % verringert.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Veronica/ut/3.png",
       "story": "Ein Siegel, das dem besten Gilden-Verwalter von Orvel verliehen wurde. Keine Gildenangelegenheit kann ohne dieses Siegel geregelt werden. Die pedantische Veronica stempelt kein Dokument, wenn es nicht perfekt ist. Ein Gegenstand, der Veronicas professionellen Stolz verkörpert.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Gildenkontobericht",
-      "description": "[Wissen des Hauptgeldgebers] erhöht den ANG-Boost um 50 %. Nach dem Erlangen von dieses Skill wird der Krit. Schaden aller Verbündeten für 10 Sek. um 20 % erhöht.",
-      "value": {},
+      "description": "[Wissen des Hauptgeldgebers] erhöht den ANG-Boost um 50 %. Nach dem Erlangen von dieses Skill wird der Krit. Schaden aller Verbündeten für 10 Sek. um {0} % erhöht.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Veronica/ut/4.png",
       "story": "Eine Sammlung an Gildenkontoberichten, die Veronica monatlich und jährlich verfasst. Niemand führt so genau Buch wie sie.\nJene, die die schiere Anzahl an Dokumente zu Gesicht bekamen, verließen instinktiv den Raum.\nDieser Haufen aus Dokumenten ist der Beweis dafür, dass es keinen besseren Bankier als Veronica gibt.",
       "descriptionByStar": {

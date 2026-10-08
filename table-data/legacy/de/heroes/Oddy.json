@@ -27,7 +27,7 @@
       "name": "Zeitriss",
       "cost": "2",
       "cooldown": "7",
-      "description": "Fügt Feinden in einer Linie Mag. Schaden in Höhe von ??? zu und versteinert sie.",
+      "description": "Fügt Feinden in einer geraden Linie ??? Mag. Schaden zu und versteinert sie für 3 Sek.",
       "thumbnail": "heroes/Oddy/skills/1.png"
     },
     "2": {
@@ -130,8 +130,25 @@
   },
   "uw": {
     "name": "Zeit des Mondschattens, Tempodiana",
-    "description": "Nach der Nutzung von Zeitkrümmung sind die Cooldowns aller Verbündeten um 2 Sek. reduziert und ihr ANG für 10 Sek. um 14 % erhöht.",
-    "value": {},
+    "description": "Nach der Nutzung von Zeitkrümmung sind die Cooldowns aller Verbündeten um {0} Sek. reduziert und ihr ANG für 10 Sek. um {1} % erhöht.",
+    "value": {
+      "0": {
+        "0": "2",
+        "1": "3",
+        "2": "4",
+        "3": "5",
+        "4": "6",
+        "5": "7"
+      },
+      "1": {
+        "0": "14",
+        "1": "17",
+        "2": "21",
+        "3": "25",
+        "4": "30",
+        "5": "35"
+      }
+    },
     "thumbnail": "heroes/Oddy/uw.png",
     "story": "Nachdem Oddys Uhr mit dem Fluch der Redpur belegt wurde und die Macht der Zeitkontrolle über lebendige Wesen erlangte, nützte er die gewonnene, unendliche Zeit, deren Anwendungsmöglichkeiten zu erforschen. Als er schließlich nach vielen Versuchen eine Uhr erschaffen hatte, die die Essenz der Zeitmagie enthielt, fand Oddy heraus, dass das Geheimnis der Redpur-Magie dem Mondlicht und den so erzeugten Schatten entstammt. Er nannte sein Meisterwerk „Tempodiana“ und gab ihr den Spitznamen „Zeit des Mondschattens“.",
     "descriptionByStar": {
@@ -146,8 +163,17 @@
   "uts": {
     "1": {
       "name": "Ausgezeichnete Kugel",
-      "description": "[Zeitriss] gewährt Massenkontroll-Immunität für die Dauer des Skills und verringert das Mana des Ziels um 400.",
-      "value": {},
+      "description": "[Zeitriss] gewährt Massenkontroll-Immunität für die Dauer des Skills und verringert das Mana des Ziels um {0}.",
+      "value": {
+        "0": {
+          "0": "400",
+          "1": "480",
+          "2": "580",
+          "3": "700",
+          "4": "840",
+          "5": "1000"
+        }
+      },
       "thumbnail": "heroes/Oddy/ut/1.png",
       "story": "Ein Gerät, das zur Anpassung von Zeitrissen verwendet wird.\nZeitmanipulation kann zu Zeitrissen führen, in denen sich mächtige Energie sammelt. Jene, die nicht dazu in der Lage sind, die Risse zu kontrollieren, können auf ewig darin gefangen sein. Oddy, ein erfahrener Zeitzauberer, hat diese ausgezeichnete Kugel hergestellt, um Zeitrisse zu justieren und die Energie dazu einzusetzen, die Leistung von Tempodiana zu maximieren.",
       "descriptionByStar": {
@@ -161,8 +187,17 @@
     },
     "2": {
       "name": "Fragmentsammlung",
-      "description": "[Zeitfragmente] erhöht die Chance, den Cooldown zurückzusetzen um zus. 25 %, und den Schaden um 20 %.",
-      "value": {},
+      "description": "[Zeitfragmente] erhöht die Chance, den Cooldown zurückzusetzen um zus. 25 %, und den Schaden um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Oddy/ut/2.png",
       "story": "Zeitfragmente, die aus dem Schatten des Mondes fielen.\nManchmal sorgt der Effekt des Mondschattens, der erscheint, wenn Zeitmagie gewirkt wird, dafür, dass Zeitfragmente aus anderen Dimensionen fallen. \nDie Zeitfragmente sind zwar klein, aber wenn man mehrere davon sammelt, werden sie zu einer riesigen Fragmentsammlung, die dem Beschwörer unentwegt Inspirationen bieten.",
       "descriptionByStar": {
@@ -176,8 +211,17 @@
     },
     "3": {
       "name": "Faden der Zeit",
-      "description": "[Zeitkrümmung] erhöht Schaden um 20 % und hebt negative Effekte auf allen Verbündeten auf.",
-      "value": {},
+      "description": "[Zeitkrümmung] erhöht Schaden um {0} % und hebt negative Effekte auf allen Verbündeten auf.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Oddy/ut/3.png",
       "story": "Fell des Rotfellhäuptlings, das im Schatten des Mondes aufgehängt wurde. Das mythische Wesen „Rotfellhäuptling“ soll den Mondschatten bei Vollmond nutzen, um Dimensionen zu durchqueren und zu tanzen. Der Rotfellhäuptling tanzt, bis der Mondschatten verschwindet und es heißt, dass sein Schwanz manchmal auf dem Pfad steckenbleibt. Das Fell des farbenfrohen mythischen Wesens verbleibt so eine Weile im Riss zwischen Raum und Zeit. Oddy bindet das Fell aus den Spuren der Schatten des Mondes zu einer Strähne zusammen und nutzt diese für die „Zeitkrümmung“.",
       "descriptionByStar": {
@@ -191,8 +235,17 @@
     },
     "4": {
       "name": "Zeit manipulierendes Uhrwerk",
-      "description": "[Uhrenmagie] erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um 10 % erhöhten Mag. Schaden.",
-      "value": {},
+      "description": "[Uhrenmagie] erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um {0} % erhöhten Mag. Schaden.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
       "thumbnail": "heroes/Oddy/ut/4.png",
       "story": "Ein Uhrwerk, das Oddy angefertigt hat, um den Fluss der Zeit zu kontrollieren.\nOddy verbrachte unzählige Tage vergebens damit, das perfekte Uhrwerk zu erforschen und zu entwickeln.\nDas Design war perfekt, er hatte jedoch keinen passenden Katalysatorencontainer für seine mächtige Uhrenmagie.\nKein Metall der Welt konnte der Hitze eines einzigen Tickens der Uhr standhalten.\nAls er verzweifelt über seinen Plan nachdachte, viel ihm plötzlich etwas ein: Er hatte von Nyx einmal einen Stein aus dem Weltall erhalten.\nEr erdete ihn und machte daraus das perfekte Uhrwerk.",
       "descriptionByStar": {

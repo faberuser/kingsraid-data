@@ -144,8 +144,25 @@
   },
   "uw": {
     "name": "Whispering Sands, Arlaq",
-    "description": "[Blessing of Oasis] can be stacked up to max 14 times, and upon auto attack, all skill cooldown is decreased by 4% with 10% chance.",
-    "value": {},
+    "description": "[Blessing of Oasis] can be stacked up to max {0} times, and upon auto attack, all skill cooldown is decreased by {1}% with 10% chance.",
+    "value": {
+      "0": {
+        "0": "14",
+        "1": "15",
+        "2": "16",
+        "3": "17",
+        "4": "18",
+        "5": "20"
+      },
+      "1": {
+        "0": "4",
+        "1": "4.8",
+        "2": "5.8",
+        "3": "7",
+        "4": "8.4",
+        "5": "10"
+      }
+    },
     "thumbnail": "heroes/Laudia/uw.png",
     "story": "A rare treasure that is the manifestation of passion burning like a flame in the desert. \nA pair of these beautiful weapons is known to have been stored in the ancient God King's repositorium. \nWhen swung, they beautifully sound like the wind with the scent of a breeze. \nIt is a sweet but lethal temptation, just like a mirage in the desert...",
     "descriptionByStar": {
@@ -160,8 +177,17 @@
   "uts": {
     "1": {
       "name": "Anklet of Oasis",
-      "description": "[Whisper of Sand] Makes the effect irremovable, and recovers Mana by 140 upon Critical Hit.",
-      "value": {},
+      "description": "[Whisper of Sand] Makes the effect irremovable, and recovers Mana by {0} upon Critical Hit.",
+      "value": {
+        "0": {
+          "0": "140",
+          "1": "170",
+          "2": "210",
+          "3": "250",
+          "4": "300",
+          "5": "360"
+        }
+      },
       "thumbnail": "heroes/Laudia/ut/1.png",
       "story": "An anklet of the Trovatia tribe that's used for the dance to summon the God Dragon in the Shrine of Flow. Only one individual chosen by the great desert can wear it after being tested by the sandstorm. Laudia, the leader of Trovatia, is its current owner. The anklet does not reveal its true powers until it is soaked for days in the holy oasis that only shows itself to the chosen one.",
       "descriptionByStar": {
@@ -175,8 +201,17 @@
     },
     "2": {
       "name": "Halidom of Trovatia",
-      "description": "[Enchanting Flow] After movement, absorbs DMG equal to 160% of ATK for 3 sec, then creates a shield that is immune to CC, and mana cost of [Alluring Ambush] is decreased by 1.",
-      "value": {},
+      "description": "[Enchanting Flow] After movement, absorbs DMG equal to {0}% of ATK for 3 sec, then creates a shield that is immune to CC, and mana cost of [Alluring Ambush] is decreased by 1.",
+      "value": {
+        "0": {
+          "0": "160",
+          "1": "190",
+          "2": "230",
+          "3": "270",
+          "4": "330",
+          "5": "400"
+        }
+      },
       "thumbnail": "heroes/Laudia/ut/2.png",
       "story": "A chest containing the artifacts needed for worship rituals for the Dragon of Water. \nSome ornaments on it are crafted with 'Azure Lapis Lazuli,' a gem that represents complete fullness. \nIt is the dearest thing that Laudia's father treasures, and is only given to those who have the ability to lead the entire Trovatia tribe.",
       "descriptionByStar": {
@@ -190,8 +225,17 @@
     },
     "3": {
       "name": "Veil of Charm",
-      "description": "[Dance of the Desert] Skill cooldown is decreased by 30% and Penetration is increased by 100 during skill activation.",
-      "value": {},
+      "description": "[Dance of the Desert] Skill cooldown is decreased by 30% and Penetration is increased by {0} during skill activation.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Laudia/ut/3.png",
       "story": "A legendary Veil only given to the best dancer in the continent. \nPerforming a dance with it on can mesmerize those who are watching. \nLaudia used the veil to mesmerize enemies with her seductive dance and achieved everything she wanted.",
       "descriptionByStar": {
@@ -205,8 +249,17 @@
     },
     "4": {
       "name": "Earrings of God Dragon",
-      "description": "[Blessing of Oasis] Increases DEF boost by 50%. Upon gaining Blessing of Oasis, increases ATK Spd by 100 for 5 sec.",
-      "value": {},
+      "description": "[Blessing of Oasis] Increases DEF boost by 50%. Upon gaining Blessing of Oasis, increases ATK Spd by {0} for 5 sec.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
       "thumbnail": "heroes/Laudia/ut/4.png",
       "story": "Earrings that the God Dragon Laias bestowed upon Laudia. On the last day Laudia performed the ritual for the God Dragon at the Shrine of Flow, Laias finally opened her eyes.\nThen, some orbs of water appeared around Laudia, releasing blue, blinding light.\nThe orbs landed upon the hands of Laudia and became a beautiful pair of earrings.\nIt was a gift blessed by the oasis, the token of gratitude that Laias gave to Laudia in recognition of the painstaking effort Laudia made to bring her back.",
       "descriptionByStar": {

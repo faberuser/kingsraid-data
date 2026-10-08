@@ -160,14 +160,28 @@
     "thumbnail": "heroes/Lucias/uw.png",
     "story": "A blessed flag representing the Sun, Moon, and the entire sky.\nIt contains the power and teachings of the Creator, Lua.\nThe power of light spreads when he waves the flag,\nbringing peace to his allies' minds, defeating the powers of darkness.\nA halidom bestowed upon Lucias, who used to be a flag bearer in Lua's Holy Knights.",
     "descriptionByStar": {
-      "0": "When the battle starts, reduces P.DMG all allies take by 10%, increases their ATK Spd by 100, and increases DMG dealt to Non-Hero enemies by 8% for 30 sec."
+      "0": "When the battle starts, reduces P.DMG all allies take by 10%, increases their ATK Spd by 100, and increases DMG dealt to Non-Hero enemies by 8% for 30 sec.",
+      "1": "When the battle starts, reduces P.DMG all allies take by 12%, increases their ATK Spd by 120, and increases DMG dealt to Non-Hero enemies by 10% for 30 sec.",
+      "2": "When the battle starts, reduces P.DMG all allies take by 14%, increases their ATK Spd by 140, and increases DMG dealt to Non-Hero enemies by 12% for 30 sec.",
+      "3": "When the battle starts, reduces P.DMG all allies take by 17%, increases their ATK Spd by 170, and increases DMG dealt to Non-Hero enemies by 14% for 30 sec.",
+      "4": "When the battle starts, reduces P.DMG all allies take by 21%, increases their ATK Spd by 210, and increases DMG dealt to Non-Hero enemies by 17% for 30 sec.",
+      "5": "When the battle starts, reduces P.DMG all allies take by 25%, increases their ATK Spd by 250, and increases DMG dealt to Non-Hero enemies by 20% for 30 sec."
     }
   },
   "uts": {
     "1": {
       "name": "Book of Blessings",
-      "description": "[Path of Blessings] Reduces Mana Cost by 1 and Cooldown by 12%.",
-      "value": {},
+      "description": "[Path of Blessings] Reduces Mana Cost by 1 and Cooldown by {0}%.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
       "thumbnail": "heroes/Lucias/ut/1.png",
       "story": "The bible of infinity that a line of Sages of Blessings used to record their works.\nThe title of a sage is passed down with the memories of its predecessor, so it would seem that there is no reason for them to write anything down.\nHowever, the danger of the accumulated memories erasing the identity of the present sage made writing this bible necessary.",
       "descriptionByStar": {
@@ -181,8 +195,17 @@
     },
     "2": {
       "name": "Dice of Remembrance",
-      "description": "[Zone of Faith] Reduces Mana Cost by 1, and reduces Mana of enemies within range by 200 per sec.",
-      "value": {},
+      "description": "[Zone of Faith] Reduces Mana Cost by 1, and reduces Mana of enemies within range by {0} per sec.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
       "thumbnail": "heroes/Lucias/ut/2.png",
       "story": "Lucias had a cherished friend back when he was young.\nThis friend was a member of a troupe named Stardust. He had very nimble hands despite his young age\nand used to pickpocket countless wallets from gamblers.\nHowever, Stardust would only visit Lucias's town once a year,\nand so the two friends gave each other something they treasured to remember their friendship.\nThis dice is the special trick dice made by Lucias's friend, Esker.",
       "descriptionByStar": {
@@ -196,8 +219,17 @@
     },
     "3": {
       "name": "Guidance of Morning Star",
-      "description": "[Stigmata] The effect of Stigmata cannot be dispelled by skill removing the positive effects. Reduces Cooldown by 12%.",
-      "value": {},
+      "description": "[Stigmata] The effect of Stigmata cannot be dispelled by skill removing the positive effects. Reduces Cooldown by {0}%.",
+      "value": {
+        "0": {
+          "0": "12",
+          "1": "14",
+          "2": "17",
+          "3": "21",
+          "4": "25",
+          "5": "30"
+        }
+      },
       "thumbnail": "heroes/Lucias/ut/3.png",
       "story": "Research materials about the stigmata of the Saint of Blessings.\nAlthough Lucias has the memories of the saints, they did not know everything.\nLua's priests left this document after researching the secret behind the stigmata,\nbut it was impossible for them to bring everything to light.",
       "descriptionByStar": {
@@ -211,8 +243,17 @@
     },
     "4": {
       "name": "Sword of Sacrifice",
-      "description": "[Holy Sacrifice] Increases DEF boost by 50%. Targets have their ATK increased by 8% for 5 sec.",
-      "value": {},
+      "description": "[Holy Sacrifice] Increases DEF boost by 50%. Targets have their ATK increased by {0}% for 5 sec.",
+      "value": {
+        "0": {
+          "0": "8",
+          "1": "10",
+          "2": "12",
+          "3": "14",
+          "4": "17",
+          "5": "20"
+        }
+      },
       "thumbnail": "heroes/Lucias/ut/4.png",
       "story": "The holy sword that Lucias used when he was under Ricardo's command as a Holy Knight.\nHigh priests of Lua blessed it directly, imbuing it with strong holy energy.\nLucia was later chosen as the Saint of Blessings, and his blessings are actually much more powerful than the blessing invested in the sword.\n\nHe always carries the sword to remember his days as the Holy Knight, but he never draws it.\nGossipers say that it is because he fears he would not look like a saint if he is to be seen wielding a sword...",
       "descriptionByStar": {

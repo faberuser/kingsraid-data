@@ -153,11 +153,11 @@
     "story": "A sword and shield set engraved with various Runes and infused with ancient magic. These legendary items are said to have been created eons ago by an ancient dragon named Exian, using its own scales. As one of the royal treasures of Orvel, the sword is bestowed only to the knight of the most honorable principles. Its wielder shall serve as the defender of the kingdom and its people, and the protector of life.",
     "descriptionByStar": {
       "0": "After using own active Skill 3 times, increases all allies' P.DEF by 10% and ATK by 10% for 15 sec. The ATK Boost effect multiplies by 2 for the ally with the highest ATK.",
-      "1": "Upon casting an active skill 3 times, increases P.DEF and ATK for all allies by 12% for 10 sec. ATK boost is doubled for the ally with the highest ATK.",
-      "2": "Upon casting an active skill 3 times, increases P.DEF and ATK for all allies by 14% for 10 sec. ATK boost is doubled for the ally with the highest ATK.",
-      "3": "Upon casting an active skill 3 times, increases P.DEF and ATK for all allies by 17% for 10 sec. ATK boost is doubled for the ally with the highest ATK.",
-      "4": "Upon casting an active skill 3 times, increases P.DEF and ATK for all allies by 21% for 10 sec. ATK boost is doubled for the ally with the highest ATK.",
-      "5": "Upon casting an active skill 3 times, increases P.DEF and ATK for all allies by 25% for 10 sec. ATK boost is doubled for the ally with the highest ATK."
+      "1": "After using own active Skill 3 times, increases all allies' P.DEF by 12% and ATK by 12% for 15 sec. The ATK Boost effect multiplies by 2 for the ally with the highest ATK.",
+      "2": "After using own active Skill 3 times, increases all allies' P.DEF by 14% and ATK by 14% for 15 sec. The ATK Boost effect multiplies by 2 for the ally with the highest ATK.",
+      "3": "After using own active Skill 3 times, increases all allies' P.DEF by 17% and ATK by 17% for 15 sec. The ATK Boost effect multiplies by 2 for the ally with the highest ATK.",
+      "4": "After using own active Skill 3 times, increases all allies' P.DEF by 21% and ATK by 21% for 15 sec. The ATK Boost effect multiplies by 2 for the ally with the highest ATK.",
+      "5": "After using own active Skill 3 times, increases all allies' P.DEF by 25% and ATK by 25% for 15 sec. The ATK Boost effect multiplies by 2 for the ally with the highest ATK."
     }
   },
   "uts": {
@@ -178,11 +178,11 @@
       "story": "A ceremonial cape used on special occasions of Orvelia.\nEver since it was bestowed upon Clause on the day he was knighted, it reminds Clause of his early resolutions. Whenever he wants to quit, exhausted from all the battles, Clause would bring it out and contemplate on it. Young Kasel used to watch Clause do this and dream of becoming a knight.",
       "descriptionByStar": {
         "0": "[Cut Ground] Increases All DMG the target takes by 10% for 10 sec and recovers own Mana by 400 per 1 hit enemy.",
-        "1": "[Cut Ground] Increases P.DMG target receives by 12% for 10 sec, and recovers own Mana by 400 per every hit enemy.",
-        "2": "[Cut Ground] Increases P.DMG target receives by 14% for 10 sec, and recovers own Mana by 400 per every hit enemy.",
-        "3": "[Cut Ground] Increases P.DMG target receives by 17% for 10 sec, and recovers own Mana by 400 per every hit enemy.",
-        "4": "[Cut Ground] Increases P.DMG target receives by 21% for 10 sec, and recovers own Mana by 400 per every hit enemy.",
-        "5": "[Cut Ground] Increases P.DMG target receives by 25% for 10 sec, and recovers own Mana by 400 per every hit enemy."
+        "1": "[Cut Ground] Increases All DMG the target takes by 12% for 10 sec and recovers own Mana by 400 per 1 hit enemy.",
+        "2": "[Cut Ground] Increases All DMG the target takes by 14% for 10 sec and recovers own Mana by 400 per 1 hit enemy.",
+        "3": "[Cut Ground] Increases All DMG the target takes by 17% for 10 sec and recovers own Mana by 400 per 1 hit enemy.",
+        "4": "[Cut Ground] Increases All DMG the target takes by 21% for 10 sec and recovers own Mana by 400 per 1 hit enemy.",
+        "5": "[Cut Ground] Increases All DMG the target takes by 25% for 10 sec and recovers own Mana by 400 per 1 hit enemy."
       }
     },
     "2": {
@@ -202,17 +202,26 @@
       "story": "Old wooden shield of the knight of the Iron Wall. \nIt's a precious shield that Clause used when he first started training. He has since engraved the names of his deceased comrades in order to remember his determination as a guardian knight. \nEach time he pushes away enemies with the shield, the knight's firm determination helps him tap into power beyond his limits.",
       "descriptionByStar": {
         "0": "[Shield Strike] Reduces hit enemies' All Crit Resistance by 500 and Crit Chance by 100 for 10 sec.",
-        "1": "[Shield Strike] Reduces P.Crit Resistance of the affected enemy by 500 and Crit Chance by 120 for 10 sec.",
-        "2": "[Shield Strike] Reduces P.Crit Resistance of the affected enemy by 500 and Crit Chance by 140 for 10 sec.",
-        "3": "[Shield Strike] Reduces P.Crit Resistance of the affected enemy by 500 and Crit Chance by 170 for 10 sec.",
-        "4": "[Shield Strike] Reduces P.Crit Resistance of the affected enemy by 500 and Crit Chance by 210 for 10 sec.",
-        "5": "[Shield Strike] Reduces P.Crit Resistance of the affected enemy by 500 and Crit Chance by 250 for 10 sec."
+        "1": "[Shield Strike] Reduces hit enemies' All Crit Resistance by 500 and Crit Chance by 120 for 10 sec.",
+        "2": "[Shield Strike] Reduces hit enemies' All Crit Resistance by 500 and Crit Chance by 140 for 10 sec.",
+        "3": "[Shield Strike] Reduces hit enemies' All Crit Resistance by 500 and Crit Chance by 170 for 10 sec.",
+        "4": "[Shield Strike] Reduces hit enemies' All Crit Resistance by 500 and Crit Chance by 210 for 10 sec.",
+        "5": "[Shield Strike] Reduces hit enemies' All Crit Resistance by 500 and Crit Chance by 250 for 10 sec."
       }
     },
     "3": {
       "name": "Guardian Knight Insignia",
-      "description": "[Guardian Shield] Upon activation, dispels all negative effects from self and increases DEF Boost by 20%.",
-      "value": {},
+      "description": "[Guardian Shield] Upon activation, dispels all negative effects from self and increases DEF Boost by {0}%.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Clause/ut/3.png",
       "story": "Rune of the Orvel Guardian Knights. A Gold Lion Rune that is given to knights when they first join the Guardian Knights, along with the vow that they will give their lives to protect the kingdom. \nThe rune from the Guardian Knights bolsters a knight's iron will and loyalty, increasing the effectiveness of the Guardian Shield.",
       "descriptionByStar": {
@@ -226,8 +235,17 @@
     },
     "4": {
       "name": "Mittens",
-      "description": "[Vow of Knights] Upon activation, heals HP by 2% of Max HP, and increases own P.DEF by 20% for 5 sec.",
-      "value": {},
+      "description": "[Vow of Knights] Upon activation, heals HP by 2% of Max HP, and increases own P.DEF by {0}% for 5 sec.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Clause/ut/4.png",
       "story": "A pair of gloves that Clause cherishes the most.\nYoung Kasel and Frey gave him these when Clause was ordained a knight during a particularly cold winter.\nAlthough it wasn't knitted perfectly, each of them knitted each piece with their initials engraved on it.",
       "descriptionByStar": {
