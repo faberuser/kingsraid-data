@@ -130,18 +130,35 @@
   },
   "uw": {
     "name": "Bezaubernde Melodie, Schwanheite",
-    "description": "Erhöht den Massenkontroll-Widerstand um 300. Verringert alle Skill-Cooldowns um 10 % und stellt 400 Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält.",
-    "value": {},
+    "description": "Erhöht den Massenkontroll-Widerstand um {0}. Verringert alle Skill-Cooldowns um {1} % und stellt {2} Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält.",
+    "value": {
+      "0": {
+        "0": "300",
+        "1": "360",
+        "2": "430",
+        "3": "520",
+        "4": "630",
+        "5": "750"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "2": {
+        "0": "400",
+        "1": "480",
+        "2": "580",
+        "3": "700",
+        "4": "840",
+        "5": "1000"
+      }
+    },
     "thumbnail": "heroes/Shea/uw.png",
-    "story": "Diese mächtige und ehrfurchtsgebietende Ausrüstung steht in Wechselwirkung zu ihren Trägern und kann ihre Besitzer sogar dominieren. Schwanheit zählt zu diesen überwältigenden Waffen. Diese Harfe, die lieber „Mr. Schute“ genannt werden möchte, verstärkt das Mana des Benutzers deutlich und versprüht es um ihn herum. Weil das verstärkte Mana verstreut wird, kann es nicht effektiv für offensive Magie genutzt werden. Doch bei anderer Verwendung kann es sich durchaus als sehr effektiv herausstellen. Mr. Schute ist eine ziemliche Quasselstrippe, aber nur, wenn er unter Freunden ist. Dieser Tage spricht er nur mit Shea.",
-    "descriptionByStar": {
-      "0": "Erhöht den Massenkontroll-Widerstand um 300. Verringert alle Skill-Cooldowns um 10 % und stellt 400 Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält.",
-      "1": "Erhöht den Massenkontroll-Widerstand um 360. Verringert alle Skill-Cooldowns um 12 % und stellt 480 Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält.",
-      "2": "Erhöht den Massenkontroll-Widerstand um 430. Verringert alle Skill-Cooldowns um 14 % und stellt 580 Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält.",
-      "3": "Erhöht den Massenkontroll-Widerstand um 520. Verringert alle Skill-Cooldowns um 17 % und stellt 700 Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält.",
-      "4": "Erhöht den Massenkontroll-Widerstand um 630. Verringert alle Skill-Cooldowns um 21 % und stellt 840 Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält.",
-      "5": "Erhöht den Massenkontroll-Widerstand um 750. Verringert alle Skill-Cooldowns um 25 % und stellt 1000 Mana wieder her, wenn [Bezaubernde Aufführung] einen Stapel erhält."
-    }
+    "story": "Diese mächtige und ehrfurchtsgebietende Ausrüstung steht in Wechselwirkung zu ihren Trägern und kann ihre Besitzer sogar dominieren. Schwanheit zählt zu diesen überwältigenden Waffen. Diese Harfe, die lieber „Mr. Schute“ genannt werden möchte, verstärkt das Mana des Benutzers deutlich und versprüht es um ihn herum. Weil das verstärkte Mana verstreut wird, kann es nicht effektiv für offensive Magie genutzt werden. Doch bei anderer Verwendung kann es sich durchaus als sehr effektiv herausstellen. Mr. Schute ist eine ziemliche Quasselstrippe, aber nur, wenn er unter Freunden ist. Dieser Tage spricht er nur mit Shea."
   },
   "uts": {
     "1": {
@@ -158,15 +175,7 @@
         }
       },
       "thumbnail": "heroes/Shea/ut/1.png",
-      "story": "Eine mystische Blume, der die Energie des Lebens innewohnt.\nIm Gegensatz zur Pflanzenwelt des Pandämoniums, die nur üble Gewächse hervorbringt, holt sich die Blume des Lebens ihre Nährstoffe aus sauberen und reinen Substanzen wie den Tautropfen der Morgendämmerung und der Energie von den Sternen der Milchstraße. Die reine Energie, die die Blume während ihres Wachstums speichert, hilft Shea dabei, die grüne Naturmelodie zu spielen.",
-      "descriptionByStar": {
-        "0": "[Grüne Naturmelodie] erhöht die Heilungsrate um 50 % und den Massenkontroll-Widerstand des Ziels 8 Sek. lang um 100.",
-        "1": "[Grüne Naturmelodie] erhöht die Heilungsrate um 50 % und den Massenkontroll-Widerstand des Ziels 8 Sek. lang um 120.",
-        "2": "[Grüne Naturmelodie] erhöht die Heilungsrate um 50 % und den Massenkontroll-Widerstand des Ziels 8 Sek. lang um 140.",
-        "3": "[Grüne Naturmelodie] erhöht die Heilungsrate um 50 % und den Massenkontroll-Widerstand des Ziels 8 Sek. lang um 170.",
-        "4": "[Grüne Naturmelodie] erhöht die Heilungsrate um 50 % und den Massenkontroll-Widerstand des Ziels 8 Sek. lang um 210.",
-        "5": "[Grüne Naturmelodie] erhöht die Heilungsrate um 50 % und den Massenkontroll-Widerstand des Ziels 8 Sek. lang um 250."
-      }
+      "story": "Eine mystische Blume, der die Energie des Lebens innewohnt.\nIm Gegensatz zur Pflanzenwelt des Pandämoniums, die nur üble Gewächse hervorbringt, holt sich die Blume des Lebens ihre Nährstoffe aus sauberen und reinen Substanzen wie den Tautropfen der Morgendämmerung und der Energie von den Sternen der Milchstraße. Die reine Energie, die die Blume während ihres Wachstums speichert, hilft Shea dabei, die grüne Naturmelodie zu spielen."
     },
     "2": {
       "name": "Windblume",
@@ -182,15 +191,7 @@
         }
       },
       "thumbnail": "heroes/Shea/ut/2.png",
-      "story": "Der Kranz schmückte am Tag, nachdem sie „Glück des Windes“ aufführte, den Kopf von Shea.\nSchwanheit zufolge war er außerdem ein Geschenk der Feen des Waldes für ihre wunderschöne Musik. \nEr enthält Sheas Wunsch, dass der Wind Glück über die Welt bringen möge.",
-      "descriptionByStar": {
-        "0": "[Blauer Windgesang] erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 160 MP her, wenn ein Verbündeter einen Skill einsetzt.",
-        "1": "[Blauer Windgesang] erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 190 MP her, wenn ein Verbündeter einen Skill einsetzt.",
-        "2": "[Blauer Windgesang] erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 230 MP her, wenn ein Verbündeter einen Skill einsetzt.",
-        "3": "[Blauer Windgesang] erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 270 MP her, wenn ein Verbündeter einen Skill einsetzt.",
-        "4": "[Blauer Windgesang] erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 330 MP her, wenn ein Verbündeter einen Skill einsetzt.",
-        "5": "[Blauer Windgesang] erhöht 8 Sek. lang die PRÄZ um 250 und stellt jedes Mal 400 MP her, wenn ein Verbündeter einen Skill einsetzt."
-      }
+      "story": "Der Kranz schmückte am Tag, nachdem sie „Glück des Windes“ aufführte, den Kopf von Shea.\nSchwanheit zufolge war er außerdem ein Geschenk der Feen des Waldes für ihre wunderschöne Musik. \nEr enthält Sheas Wunsch, dass der Wind Glück über die Welt bringen möge."
     },
     "3": {
       "name": "Feenkrone",
@@ -206,15 +207,7 @@
         }
       },
       "thumbnail": "heroes/Shea/ut/3.png",
-      "story": "Der Kranz schmückte am Tag, nachdem sie im Wald das Schlaflied für die Träume vollführte, den Kopf von Shea. Schwanheit zufolge war er ein Geschenk der Feen des Waldes für ihre wunderschöne Musik. Es heißt, dass Gegenstände, welche die Hände von Feen berühren, die Kraft besitzen, eine Seele zu ihrer reinsten Form zurückzubringen.",
-      "descriptionByStar": {
-        "0": "[Roter Leidenschaftstanz] bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 20 % erhöht.",
-        "1": "[Roter Leidenschaftstanz] bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 24 % erhöht.",
-        "2": "[Roter Leidenschaftstanz] bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 29 % erhöht.",
-        "3": "[Roter Leidenschaftstanz] bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 35 % erhöht.",
-        "4": "[Roter Leidenschaftstanz] bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 42 % erhöht.",
-        "5": "[Roter Leidenschaftstanz] bei Wirkung werden Feinde 2 Sek. lang zum Schweigen gebracht und Krit. Schaden aller Verbündeter ist während der Wirkungsdauer um 50 % erhöht."
-      }
+      "story": "Der Kranz schmückte am Tag, nachdem sie im Wald das Schlaflied für die Träume vollführte, den Kopf von Shea. Schwanheit zufolge war er ein Geschenk der Feen des Waldes für ihre wunderschöne Musik. Es heißt, dass Gegenstände, welche die Hände von Feen berühren, die Kraft besitzen, eine Seele zu ihrer reinsten Form zurückzubringen."
     },
     "4": {
       "name": "Traum von Mira",
@@ -230,15 +223,7 @@
         }
       },
       "thumbnail": "heroes/Shea/ut/4.png",
-      "story": "Als Shea zusammen mit den Geistern das Lied des Lebens für die Kreaturen auf der Erde sang, überreichte ihr Mira, die Göttin der Liebe, im Traum dieses Juwel.\nAls Shea aufwachte, hatte sie es in ihrer Hand.\nDas Juwel glänzte wie die Göttin der Liebe selbst und die Menschen waren allein durch seinen Anblick verblüfft.\nShea beschloss, es Traum von Mira zu nennen.",
-      "descriptionByStar": {
-        "0": "[Trance] erhöht während der Wirkungsdauer von [Trance] den eigenen ANG um 20 % und die ANG-GESCHW. um 200.",
-        "1": "[Trance] erhöht während der Wirkungsdauer von [Trance] den eigenen ANG um 20 % und die ANG-GESCHW. um 240.",
-        "2": "[Trance] erhöht während der Wirkungsdauer von [Trance] den eigenen ANG um 20 % und die ANG-GESCHW. um 290.",
-        "3": "[Trance] erhöht während der Wirkungsdauer von [Trance] den eigenen ANG um 20 % und die ANG-GESCHW. um 350.",
-        "4": "[Trance] erhöht während der Wirkungsdauer von [Trance] den eigenen ANG um 20 % und die ANG-GESCHW. um 420.",
-        "5": "[Trance] erhöht während der Wirkungsdauer von [Trance] den eigenen ANG um 20 % und die ANG-GESCHW. um 500."
-      }
+      "story": "Als Shea zusammen mit den Geistern das Lied des Lebens für die Kreaturen auf der Erde sang, überreichte ihr Mira, die Göttin der Liebe, im Traum dieses Juwel.\nAls Shea aufwachte, hatte sie es in ihrer Hand.\nDas Juwel glänzte wie die Göttin der Liebe selbst und die Menschen waren allein durch seinen Anblick verblüfft.\nShea beschloss, es Traum von Mira zu nennen."
     }
   },
   "sw": {
@@ -255,10 +240,5 @@
   },
   "splashart": "heroes/Shea/sa.png",
   "costumes": "heroes/Shea/cos",
-  "aliases": null,
-  "_localization": {
-    "locale": "de",
-    "sourceBuild": 1558,
-    "englishFallbackFields": []
-  }
+  "aliases": null
 }

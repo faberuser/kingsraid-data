@@ -130,18 +130,27 @@
   },
   "uw": {
     "name": "Grünwind, Notos",
-    "description": "Nach einem Krit. Treffer erhöht sich die ANG-GESCHW. um 200 für 10 Sek. Während dieser Dauer wird mit jedem normalen Angrff ein zusätzlicher Pfeil mit 100% Körp. Schaden abgefeuert.",
-    "value": {},
+    "description": "Nach einem Krit. Treffer erhöht sich die ANG-GESCHW. um {0} für 10 Sek. Während dieser Dauer wird mit jedem normalen Angrff ein zusätzlicher Pfeil mit {1}% Körp. Schaden abgefeuert.",
+    "value": {
+      "0": {
+        "0": "200",
+        "1": "240",
+        "2": "280",
+        "3": "340",
+        "4": "410",
+        "5": "500"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      }
+    },
     "thumbnail": "heroes/Selene/uw.png",
-    "story": "Ein Bogen, gesegnet mit dem Atem Sylphid, des Wind-Elementars. Nur eine Person mit edlem Charakter vermag ihn zu führen. Wird er gezogen, spannt er sich selbst mit einem tödlichen, magischen Pfeil, der aus dem Atem des Elementars gefertigt ist. Vom Wind-Elementar geleitet verfehlt dieser Bogen niemals sein Ziel, egal wo es sich versteckt. Selene hat seit der Kindheit eine besondere Verbindung zu Elementaren. Zu Sylph hatte sie eine besonders intensive Beziehung und als Zeichen ihrer Freundschaft verzauberte diese dafür ihren Bogen.",
-    "descriptionByStar": {
-      "0": "Nach einem Krit. Treffer erhöht sich die ANG-GESCHW. um 200 für 10 Sek. Während dieser Dauer wird mit jedem normalen Angrff ein zusätzlicher Pfeil mit 100% Körp. Schaden abgefeuert.",
-      "1": "Nach einem Krit. Treffer erhöht sich die ANG-GESCHW. um 240 für 10 Sek. Während dieser Dauer wird mit jedem normalen Angrff ein zusätzlicher Pfeil mit 120% Körp. Schaden abgefeuert.",
-      "2": "Nach einem Krit. Treffer erhöht sich die ANG-GESCHW. um 280 für 10 Sek. Während dieser Dauer wird mit jedem normalen Angrff ein zusätzlicher Pfeil mit 140% Körp. Schaden abgefeuert.",
-      "3": "Nach einem Krit. Treffer erhöht sich die ANG-GESCHW. um 340 für 10 Sek. Während dieser Dauer wird mit jedem normalen Angrff ein zusätzlicher Pfeil mit 170% Körp. Schaden abgefeuert.",
-      "4": "Nach einem Krit. Treffer erhöht sich die ANG-GESCHW. um 410 für 10 Sek. Während dieser Dauer wird mit jedem normalen Angrff ein zusätzlicher Pfeil mit 210% Körp. Schaden abgefeuert.",
-      "5": "Nach einem Krit. Treffer erhöht sich die ANG-GESCHW. um 500 für 10 Sek. Während dieser Dauer wird mit jedem normalen Angrff ein zusätzlicher Pfeil mit 250% Körp. Schaden abgefeuert."
-    }
+    "story": "Ein Bogen, gesegnet mit dem Atem Sylphid, des Wind-Elementars. Nur eine Person mit edlem Charakter vermag ihn zu führen. Wird er gezogen, spannt er sich selbst mit einem tödlichen, magischen Pfeil, der aus dem Atem des Elementars gefertigt ist. Vom Wind-Elementar geleitet verfehlt dieser Bogen niemals sein Ziel, egal wo es sich versteckt. Selene hat seit der Kindheit eine besondere Verbindung zu Elementaren. Zu Sylph hatte sie eine besonders intensive Beziehung und als Zeichen ihrer Freundschaft verzauberte diese dafür ihren Bogen."
   },
   "uts": {
     "1": {
@@ -158,15 +167,7 @@
         }
       },
       "thumbnail": "heroes/Selene/ut/1.png",
-      "story": "Die Handschuhe wurden von einem Wind-Elementar gesegnet.\nDosarta schenkte diese Handschuhe ihrer Schwester Selene als Dank dafür, dass sie den Frieden der Elfen gewahrt hat. Sie wurden aus Stoff hergestellt, der mit der Magie des Wind-Elementars Sylphid verstärkt wurde. Anschließend bestickte Dosarta sie mit Mondlichtfaden.",
-      "descriptionByStar": {
-        "0": "[Pfeilregen] verringert die Manakosten um 1 und den Cooldown um 1 Sek.",
-        "1": "[Pfeilregen] verringert die Manakosten um 1 und den Cooldown um 1.2 Sek.",
-        "2": "[Pfeilregen] verringert die Manakosten um 1 und den Cooldown um 1.4 Sek.",
-        "3": "[Pfeilregen] verringert die Manakosten um 1 und den Cooldown um 1.7 Sek.",
-        "4": "[Pfeilregen] verringert die Manakosten um 1 und den Cooldown um 2.1 Sek.",
-        "5": "[Pfeilregen] verringert die Manakosten um 1 und den Cooldown um 2.5 Sek."
-      }
+      "story": "Die Handschuhe wurden von einem Wind-Elementar gesegnet.\nDosarta schenkte diese Handschuhe ihrer Schwester Selene als Dank dafür, dass sie den Frieden der Elfen gewahrt hat. Sie wurden aus Stoff hergestellt, der mit der Magie des Wind-Elementars Sylphid verstärkt wurde. Anschließend bestickte Dosarta sie mit Mondlichtfaden."
     },
     "2": {
       "name": "Windgeist-Siegelstein",
@@ -182,15 +183,7 @@
         }
       },
       "thumbnail": "heroes/Selene/ut/2.png",
-      "story": "Ein Stein, in dem ein rücksichtsloser Windbogengeist eingeschlossen ist. \nDas Elementar richtete mit seinen bösen Streichen allerhand Ärger an, weshalb es vom Feenkönig eingeschlossen wurde. \nDas angriffslustige Windelementar durchwirkt Pfeile mit zerstörerischem Wund und erhöht so ihre Zerstörungskraft mindestens um das Fünffache.",
-      "descriptionByStar": {
-        "0": "[Ansturm] erhöht den Schaden um 20 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören.",
-        "1": "[Ansturm] erhöht den Schaden um 24 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören.",
-        "2": "[Ansturm] erhöht den Schaden um 29 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören.",
-        "3": "[Ansturm] erhöht den Schaden um 35 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören.",
-        "4": "[Ansturm] erhöht den Schaden um 42 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören.",
-        "5": "[Ansturm] erhöht den Schaden um 50 % und hat eine Chance von 15 %, 1 Ansturm-Pfeil bei einem normalen Angriff zu beschwören."
-      }
+      "story": "Ein Stein, in dem ein rücksichtsloser Windbogengeist eingeschlossen ist. \nDas Elementar richtete mit seinen bösen Streichen allerhand Ärger an, weshalb es vom Feenkönig eingeschlossen wurde. \nDas angriffslustige Windelementar durchwirkt Pfeile mit zerstörerischem Wund und erhöht so ihre Zerstörungskraft mindestens um das Fünffache."
     },
     "3": {
       "name": "Silberpfeil",
@@ -206,15 +199,7 @@
         }
       },
       "thumbnail": "heroes/Selene/ut/3.png",
-      "story": "Eine Pfeilspitze, die vom Segen der Göttin der Jagd und des Mondes durchwirkt ist. Ein uraltes Artefakt, das dem besten Elfenjäger vererbt wird. Es heißt, dass sich die Göttin der Jagd und des Mondes um die Elfen kümmerte, die den heiligen Wald beschützten und sie verlieh ihnen durch dieses Artefakt ihre Macht. Der silberne Pfeil mit der Macht der Mondgöttin besitzt eine mysteriöse Kraft, die es dem Träger erlaubt, seinen Feind zu besiegen und den Schaden zu erhöhen.",
-      "descriptionByStar": {
-        "0": "[Mondlicht-Blitz] erhöht den Schaden um 20 % und das Ziel erleidet 10 Sek. lang 20 % zus. Körp. Schaden.",
-        "1": "[Mondlicht-Blitz] erhöht den Schaden um 24 % und das Ziel erleidet 10 Sek. lang 20 % zus. Körp. Schaden.",
-        "2": "[Mondlicht-Blitz] erhöht den Schaden um 29 % und das Ziel erleidet 10 Sek. lang 20 % zus. Körp. Schaden.",
-        "3": "[Mondlicht-Blitz] erhöht den Schaden um 35 % und das Ziel erleidet 10 Sek. lang 20 % zus. Körp. Schaden.",
-        "4": "[Mondlicht-Blitz] erhöht den Schaden um 42 % und das Ziel erleidet 10 Sek. lang 20 % zus. Körp. Schaden.",
-        "5": "[Mondlicht-Blitz] erhöht den Schaden um 50 % und das Ziel erleidet 10 Sek. lang 20 % zus. Körp. Schaden."
-      }
+      "story": "Eine Pfeilspitze, die vom Segen der Göttin der Jagd und des Mondes durchwirkt ist. Ein uraltes Artefakt, das dem besten Elfenjäger vererbt wird. Es heißt, dass sich die Göttin der Jagd und des Mondes um die Elfen kümmerte, die den heiligen Wald beschützten und sie verlieh ihnen durch dieses Artefakt ihre Macht. Der silberne Pfeil mit der Macht der Mondgöttin besitzt eine mysteriöse Kraft, die es dem Träger erlaubt, seinen Feind zu besiegen und den Schaden zu erhöhen."
     },
     "4": {
       "name": "Diadem des Windes",
@@ -230,15 +215,7 @@
         }
       },
       "thumbnail": "heroes/Selene/ut/4.png",
-      "story": "Ein Diadem, dem die Anmut von Notos und den Wind-Elementaren innewohnt.\nDas Diadem des Windes wird von Generation zu Generation an den besten Elfenbogenschützen weitergegeben. Aktuell gehört es Selene.",
-      "descriptionByStar": {
-        "0": "[Mondlichtpfeil] Erhöht das Angriffstempo um 100. Jeder Stapel erhöht den Schaden an Nicht-Helden um 2%.",
-        "1": "[Mondlichtpfeil] Erhöht das Angriffstempo um 100. Jeder Stapel erhöht den Schaden an Nicht-Helden um 2.4%.",
-        "2": "[Mondlichtpfeil] Erhöht das Angriffstempo um 100. Jeder Stapel erhöht den Schaden an Nicht-Helden um 2.9%.",
-        "3": "[Mondlichtpfeil] Erhöht das Angriffstempo um 100. Jeder Stapel erhöht den Schaden an Nicht-Helden um 3.5%.",
-        "4": "[Mondlichtpfeil] Erhöht das Angriffstempo um 100. Jeder Stapel erhöht den Schaden an Nicht-Helden um 4.2%.",
-        "5": "[Mondlichtpfeil] Erhöht das Angriffstempo um 100. Jeder Stapel erhöht den Schaden an Nicht-Helden um 5%."
-      }
+      "story": "Ein Diadem, dem die Anmut von Notos und den Wind-Elementaren innewohnt.\nDas Diadem des Windes wird von Generation zu Generation an den besten Elfenbogenschützen weitergegeben. Aktuell gehört es Selene."
     }
   },
   "sw": {
@@ -255,10 +232,5 @@
   },
   "splashart": "heroes/Selene/sa.png",
   "costumes": "heroes/Selene/cos",
-  "aliases": null,
-  "_localization": {
-    "locale": "de",
-    "sourceBuild": 1558,
-    "englishFallbackFields": []
-  }
+  "aliases": null
 }

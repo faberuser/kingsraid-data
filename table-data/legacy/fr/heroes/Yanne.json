@@ -150,15 +150,7 @@
       }
     },
     "thumbnail": "heroes/Yanne/uw.png",
-    "story": "Une arme enchantée fabriquée à base d'ossements, de tendons et de fragments de peau du dragon fou Svelta. Trop lourd pour être soulevé par un humain ordinaire et encore moins bandé, cet arc long monstrueux combine les technologies de siège des Elfes-Sombres et des Nains. Seuls les individus à la musculature exceptionnelle tels que Yanne peuvent espérer pouvoir manier cet arc ridicule. L'âme du dragon fou est toujours emprisonnée dans cette arme. Son énergie féroce se transmet à chaque flèche qu'il décoche, leur conférant la puissance nécessaire pour transpercer même les murs les plus solides.",
-    "descriptionByStar": {
-      "0": "Lors d'un coup critique, inflige des DEG P supplémentaires à hauteur de 50% de l'ATQ et récupère 150 PM. Si la cible est un Dragon, modifie les DEG P supplémentaires en 80% de l'ATQ et étourdit pendant 1.5 sec. Cet effet possède 0.5 sec de temps de recharge.",
-      "1": "Lors d'un coup critique, inflige des DEG P supplémentaires à hauteur de 60% de l'ATQ et récupère 150 PM. Si la cible est un Dragon, modifie les DEG P supplémentaires en 96% de l'ATQ et étourdit pendant 1.5 sec. Cet effet possède 0.5 sec de temps de recharge.",
-      "2": "Lors d'un coup critique, inflige des DEG P supplémentaires à hauteur de 72% de l'ATQ et récupère 150 PM. Si la cible est un Dragon, modifie les DEG P supplémentaires en 115% de l'ATQ et étourdit pendant 1.5 sec. Cet effet possède 0.5 sec de temps de recharge.",
-      "3": "Lors d'un coup critique, inflige des DEG P supplémentaires à hauteur de 86% de l'ATQ et récupère 150 PM. Si la cible est un Dragon, modifie les DEG P supplémentaires en 138% de l'ATQ et étourdit pendant 1.5 sec. Cet effet possède 0.5 sec de temps de recharge.",
-      "4": "Lors d'un coup critique, inflige des DEG P supplémentaires à hauteur de 103% de l'ATQ et récupère 150 PM. Si la cible est un Dragon, modifie les DEG P supplémentaires en 166% de l'ATQ et étourdit pendant 1.5 sec. Cet effet possède 0.5 sec de temps de recharge.",
-      "5": "Lors d'un coup critique, inflige des DEG P supplémentaires à hauteur de 125% de l'ATQ et récupère 150 PM. Si la cible est un Dragon, modifie les DEG P supplémentaires en 200% de l'ATQ et étourdit pendant 1.5 sec. Cet effet possède 0.5 sec de temps de recharge."
-    }
+    "story": "Une arme enchantée fabriquée à base d'ossements, de tendons et de fragments de peau du dragon fou Svelta. Trop lourd pour être soulevé par un humain ordinaire et encore moins bandé, cet arc long monstrueux combine les technologies de siège des Elfes-Sombres et des Nains. Seuls les individus à la musculature exceptionnelle tels que Yanne peuvent espérer pouvoir manier cet arc ridicule. L'âme du dragon fou est toujours emprisonnée dans cette arme. Son énergie féroce se transmet à chaque flèche qu'il décoche, leur conférant la puissance nécessaire pour transpercer même les murs les plus solides."
   },
   "uts": {
     "1": {
@@ -175,30 +167,23 @@
         }
       },
       "thumbnail": "heroes/Yanne/ut/1.png",
-      "story": "Ce bracelet fut offert à Yanne par les habitants pour avoir terrassé Svelta.\nRéalisé en cuir de dragon rouge, il rassemble l'énergie du yang dans le porteur, ce qui lui permet d'atteindre un niveau de concentration hors du commun. Quand Yanne vise, ce bracelet lui permet de décocher une seule flèche, mortelle.",
-      "descriptionByStar": {
-        "0": "[Tir focalisé !] Pendant l'utilisation de la compétence, confère au lanceur l'immunité aux Contrôles et augmente les DEG P reçus par la cible de 10% pendant 10 sec.",
-        "1": "[Tir focalisé !] Pendant l'utilisation de la compétence, confère au lanceur l'immunité aux Contrôles et augmente les DEG P reçus par la cible de 12% pendant 10 sec.",
-        "2": "[Tir focalisé !] Pendant l'utilisation de la compétence, confère au lanceur l'immunité aux Contrôles et augmente les DEG P reçus par la cible de 14% pendant 10 sec.",
-        "3": "[Tir focalisé !] Pendant l'utilisation de la compétence, confère au lanceur l'immunité aux Contrôles et augmente les DEG P reçus par la cible de 17% pendant 10 sec.",
-        "4": "[Tir focalisé !] Pendant l'utilisation de la compétence, confère au lanceur l'immunité aux Contrôles et augmente les DEG P reçus par la cible de 21% pendant 10 sec.",
-        "5": "[Tir focalisé !] Pendant l'utilisation de la compétence, confère au lanceur l'immunité aux Contrôles et augmente les DEG P reçus par la cible de 25% pendant 10 sec."
-      }
+      "story": "Ce bracelet fut offert à Yanne par les habitants pour avoir terrassé Svelta.\nRéalisé en cuir de dragon rouge, il rassemble l'énergie du yang dans le porteur, ce qui lui permet d'atteindre un niveau de concentration hors du commun. Quand Yanne vise, ce bracelet lui permet de décocher une seule flèche, mortelle."
     },
     "2": {
       "name": "Flèche géante de la mort subite",
-      "description": "[Anéantissement !] Augmente les DEG de 20 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique.",
-      "value": {},
+      "description": "[Anéantissement !] Augmente les DEG de {0} % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Yanne/ut/2.png",
-      "story": "Flèche taillée dans la colonne vertébrale de Svelta le dragon fou, capable de décocher des déflagrations magiques. Cet objet appartient à Yanne. La tête de flèche comporte l’œil rouge en feu du dragon fou. La flèche tout entière suinte sa folie et s’apprête à mettre le feu à l’ennemi.",
-      "descriptionByStar": {
-        "0": "[Anéantissement !] Augmente les DEG de 20 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique.",
-        "1": "[Anéantissement !] Augmente les DEG de 24 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique.",
-        "2": "[Anéantissement !] Augmente les DEG de 29 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique.",
-        "3": "[Anéantissement !] Augmente les DEG de 35 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique.",
-        "4": "[Anéantissement !] Augmente les DEG de 42 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique.",
-        "5": "[Anéantissement !] Augmente les DEG de 50 % et réduit le temps de recharge de 12 % lorsque vous assénez un coup critique."
-      }
+      "story": "Flèche taillée dans la colonne vertébrale de Svelta le dragon fou, capable de décocher des déflagrations magiques. Cet objet appartient à Yanne. La tête de flèche comporte l’œil rouge en feu du dragon fou. La flèche tout entière suinte sa folie et s’apprête à mettre le feu à l’ennemi."
     },
     "3": {
       "name": "Steak de dragon",
@@ -214,15 +199,7 @@
         }
       },
       "thumbnail": "heroes/Yanne/ut/3.png",
-      "story": "Un gros steak permettant de goûter à la fois la surlonge et le filet d’un dragon. Le goût est exquis. L’énergie du dragon pénètre dans le corps et augmente l’endurance de combat de Yanne à son maximum.",
-      "descriptionByStar": {
-        "0": "[Aucune retenue !] Réduit le coût en PM de 1 et augmente les DEG infligés aux ennemis non-Héros de 12% pendant la durée de la compétence.",
-        "1": "[Aucune retenue !] Réduit le coût en PM de 1 et augmente les DEG infligés aux ennemis non-Héros de 14% pendant la durée de la compétence.",
-        "2": "[Aucune retenue !] Réduit le coût en PM de 1 et augmente les DEG infligés aux ennemis non-Héros de 17% pendant la durée de la compétence.",
-        "3": "[Aucune retenue !] Réduit le coût en PM de 1 et augmente les DEG infligés aux ennemis non-Héros de 21% pendant la durée de la compétence.",
-        "4": "[Aucune retenue !] Réduit le coût en PM de 1 et augmente les DEG infligés aux ennemis non-Héros de 25% pendant la durée de la compétence.",
-        "5": "[Aucune retenue !] Réduit le coût en PM de 1 et augmente les DEG infligés aux ennemis non-Héros de 30% pendant la durée de la compétence."
-      }
+      "story": "Un gros steak permettant de goûter à la fois la surlonge et le filet d’un dragon. Le goût est exquis. L’énergie du dragon pénètre dans le corps et augmente l’endurance de combat de Yanne à son maximum."
     },
     "4": {
       "name": "Cœur ardent de géant",
@@ -238,15 +215,7 @@
         }
       },
       "thumbnail": "heroes/Yanne/ut/4.png",
-      "story": "Lorsqu'on ordonna à Yanne de tuer les géants, elle rencontra leur chef, le géant de feu, et le combattit trois jours et trois nuits avant de le vaincre.\nLe cœur du géant de feu fut transpercé, mais des flammes ardentes y brûlaient encore. Elle trouva à l'intérieur une pierre de la taille d'un poing.\nLorsqu'elle la retira, les flammes s'éteignirent. Depuis, les flèches de Yanne sont imprégnées d'énergie enflammée.",
-      "descriptionByStar": {
-        "0": "[Pourfendeur de Dragon] Réduit les DEG reçus par les alliés de la part des Dragons de 10% supplémentaires et augmente les DEG infligés aux Dragons de 6%.",
-        "1": "[Pourfendeur de Dragon] Réduit les DEG reçus par les alliés de la part des Dragons de 10% supplémentaires et augmente les DEG infligés aux Dragons de 7.2%.",
-        "2": "[Pourfendeur de Dragon] Réduit les DEG reçus par les alliés de la part des Dragons de 10% supplémentaires et augmente les DEG infligés aux Dragons de 8.6%.",
-        "3": "[Pourfendeur de Dragon] Réduit les DEG reçus par les alliés de la part des Dragons de 10% supplémentaires et augmente les DEG infligés aux Dragons de 10.4%.",
-        "4": "[Pourfendeur de Dragon] Réduit les DEG reçus par les alliés de la part des Dragons de 10% supplémentaires et augmente les DEG infligés aux Dragons de 12.6%.",
-        "5": "[Pourfendeur de Dragon] Réduit les DEG reçus par les alliés de la part des Dragons de 10% supplémentaires et augmente les DEG infligés aux Dragons de 15%."
-      }
+      "story": "Lorsqu'on ordonna à Yanne de tuer les géants, elle rencontra leur chef, le géant de feu, et le combattit trois jours et trois nuits avant de le vaincre.\nLe cœur du géant de feu fut transpercé, mais des flammes ardentes y brûlaient encore. Elle trouva à l'intérieur une pierre de la taille d'un poing.\nLorsqu'elle la retira, les flammes s'éteignirent. Depuis, les flèches de Yanne sont imprégnées d'énergie enflammée."
     }
   },
   "sw": {
@@ -263,10 +232,5 @@
   },
   "splashart": "heroes/Yanne/sa.png",
   "costumes": "heroes/Yanne/cos",
-  "aliases": null,
-  "_localization": {
-    "locale": "fr",
-    "sourceBuild": 1558,
-    "englishFallbackFields": []
-  }
+  "aliases": null
 }

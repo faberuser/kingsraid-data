@@ -130,18 +130,35 @@
   },
   "uw": {
     "name": "Gaiamenes, la Vague de Protection",
-    "description": "Chaque compétence cumule Fierté d'Orvelia, indissipable. À 3 cumuls, Bénédiction d'Orvelia inflige aux ennemis dans une vaste zone des DEG P égaux à 200% de l'ATQ, augmente leurs DEG P subis de 25% pendant 20 sec et augmente sa propre DEF M de 10% pendant 10 sec.",
-    "value": {},
+    "description": "Chaque compétence cumule Fierté d'Orvelia, indissipable. À 3 cumuls, Bénédiction d'Orvelia inflige aux ennemis dans une vaste zone des DEG P égaux à {0}% de l'ATQ, augmente leurs DEG P subis de {1}% pendant 20 sec et augmente sa propre DEF M de {2}% pendant 10 sec.",
+    "value": {
+      "0": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      },
+      "1": {
+        "0": "25",
+        "1": "30",
+        "2": "36",
+        "3": "43",
+        "4": "51",
+        "5": "60"
+      },
+      "2": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
     "thumbnail": "heroes/Loman/uw.png",
-    "story": "Cette hallebarde était portée par une statue antique défendant les portes du labyrinthe royal récemment découvert. Vieille et usée, la statue la tenait fermement, comme si elle voulait protéger le labyrinthe de toute intrusion. Loman, qui était chargé des fouilles du labyrinthe, sentit à quel point la statue était sublime et lui rendit les honneurs. Alors, la statue lâcha la hallebarde avant de tomber en poussière. L'arme elle-même semblait intacte et possédait une mystérieuse énergie.\n« La statue lâcha la hallebarde avant de tomber en poussière... »\ndit Scarlet, lisant le rapport.\n« Oui, madame. »\nScarlet leva les yeux vers Loman.\n« Protéger un lieu avec une indéfectible loyauté jusqu'à ce que son corps finisse par lâcher... Je connais un homme comme cela. »\n« Je vous demande pardon, madame ? »\nIl regarda Scarlet avec étonnement. Souriante, elle lui tendait la hallebarde.",
-    "descriptionByStar": {
-      "0": "Chaque compétence cumule Fierté d'Orvelia, indissipable. À 3 cumuls, Bénédiction d'Orvelia inflige aux ennemis dans une vaste zone des DEG P égaux à 200% de l'ATQ, augmente leurs DEG P subis de 25% pendant 20 sec et augmente sa propre DEF M de 10% pendant 10 sec.",
-      "1": "Chaque compétence cumule Fierté d'Orvelia, indissipable. À 3 cumuls, Bénédiction d'Orvelia inflige aux ennemis dans une vaste zone des DEG P égaux à 240% de l'ATQ, augmente leurs DEG P subis de 30% pendant 20 sec et augmente sa propre DEF M de 12% pendant 10 sec.",
-      "2": "Chaque compétence cumule Fierté d'Orvelia, indissipable. À 3 cumuls, Bénédiction d'Orvelia inflige aux ennemis dans une vaste zone des DEG P égaux à 290% de l'ATQ, augmente leurs DEG P subis de 36% pendant 20 sec et augmente sa propre DEF M de 14% pendant 10 sec.",
-      "3": "Chaque compétence cumule Fierté d'Orvelia, indissipable. À 3 cumuls, Bénédiction d'Orvelia inflige aux ennemis dans une vaste zone des DEG P égaux à 350% de l'ATQ, augmente leurs DEG P subis de 43% pendant 20 sec et augmente sa propre DEF M de 17% pendant 10 sec.",
-      "4": "Chaque compétence cumule Fierté d'Orvelia, indissipable. À 3 cumuls, Bénédiction d'Orvelia inflige aux ennemis dans une vaste zone des DEG P égaux à 420% de l'ATQ, augmente leurs DEG P subis de 51% pendant 20 sec et augmente sa propre DEF M de 21% pendant 10 sec.",
-      "5": "Chaque compétence cumule Fierté d'Orvelia, indissipable. À 3 cumuls, Bénédiction d'Orvelia inflige aux ennemis dans une vaste zone des DEG P égaux à 500% de l'ATQ, augmente leurs DEG P subis de 60% pendant 20 sec et augmente sa propre DEF M de 25% pendant 10 sec."
-    }
+    "story": "Cette hallebarde était portée par une statue antique défendant les portes du labyrinthe royal récemment découvert. Vieille et usée, la statue la tenait fermement, comme si elle voulait protéger le labyrinthe de toute intrusion. Loman, qui était chargé des fouilles du labyrinthe, sentit à quel point la statue était sublime et lui rendit les honneurs. Alors, la statue lâcha la hallebarde avant de tomber en poussière. L'arme elle-même semblait intacte et possédait une mystérieuse énergie.\n« La statue lâcha la hallebarde avant de tomber en poussière... »\ndit Scarlet, lisant le rapport.\n« Oui, madame. »\nScarlet leva les yeux vers Loman.\n« Protéger un lieu avec une indéfectible loyauté jusqu'à ce que son corps finisse par lâcher... Je connais un homme comme cela. »\n« Je vous demande pardon, madame ? »\nIl regarda Scarlet avec étonnement. Souriante, elle lui tendait la hallebarde."
   },
   "uts": {
     "1": {
@@ -158,15 +175,7 @@
         }
       },
       "thumbnail": "heroes/Loman/ut/1.png",
-      "story": "Ce traité couvre les bases maîtrisées par tous les chevaliers d'Orvel. Parmi les nombreuses compétences citées figure Sol déchiré, le point de départ de toutes leurs techniques de combat. C'est l'une des premières compétences qu'ils apprennent, mais sa complexité permet de distinguer aisément les néophytes des experts. Loman a lu cette œuvre plus d'un millier de fois depuis qu'il est chevalier, et il s'y reporte à chaque fois qu'il souhaite parfaire sa technique.",
-      "descriptionByStar": {
-        "0": "[Sol déchiré] Réduit le Blocage P de la cible de 500 points et la résistance aux contrôles de 100 pendant 10 sec.",
-        "1": "[Sol déchiré] Réduit le Blocage P de la cible de 500 points et la résistance aux contrôles de 120 pendant 10 sec.",
-        "2": "[Sol déchiré] Réduit le Blocage P de la cible de 500 points et la résistance aux contrôles de 140 pendant 10 sec.",
-        "3": "[Sol déchiré] Réduit le Blocage P de la cible de 500 points et la résistance aux contrôles de 170 pendant 10 sec.",
-        "4": "[Sol déchiré] Réduit le Blocage P de la cible de 500 points et la résistance aux contrôles de 210 pendant 10 sec.",
-        "5": "[Sol déchiré] Réduit le Blocage P de la cible de 500 points et la résistance aux contrôles de 250 pendant 10 sec."
-      }
+      "story": "Ce traité couvre les bases maîtrisées par tous les chevaliers d'Orvel. Parmi les nombreuses compétences citées figure Sol déchiré, le point de départ de toutes leurs techniques de combat. C'est l'une des premières compétences qu'ils apprennent, mais sa complexité permet de distinguer aisément les néophytes des experts. Loman a lu cette œuvre plus d'un millier de fois depuis qu'il est chevalier, et il s'y reporte à chaque fois qu'il souhaite parfaire sa technique."
     },
     "2": {
       "name": "Poupée en bois miniature",
@@ -182,15 +191,7 @@
         }
       },
       "thumbnail": "heroes/Loman/ut/2.png",
-      "story": "Lorsqu'il était contrarié et cherchait à mettre de l'ordre dans son esprit, Loman sculptait des figurines grandes comme sa main. Lorsqu'il taillait ses morceaux de bois, il se sentait en paix et revivait le temps où il n'était qu'un bleu. Ce qui n'était qu'un passe-temps devint une passion, et il remplit ses quartiers avec des centaines de sculptures. Un beau jour, Loman se mit à sculpter des poupées en bois pour les offrir à ses amis et à ses hommes. À l'époque, les poupées ensorcelées, censées protéger contre le mal, étaient à la mode à Orvelia. Loman demanda à un vieux chaman adepte des remèdes ancestraux d'enchanter ses poupées avec un sort de protection et les offrit à ses proches.",
-      "descriptionByStar": {
-        "0": "[Credo voilé] Réduit le coût en PM de 1 et restaure le PM de la cible de 400.",
-        "1": "[Credo voilé] Réduit le coût en PM de 1 et restaure le PM de la cible de 480.",
-        "2": "[Credo voilé] Réduit le coût en PM de 1 et restaure le PM de la cible de 580.",
-        "3": "[Credo voilé] Réduit le coût en PM de 1 et restaure le PM de la cible de 700.",
-        "4": "[Credo voilé] Réduit le coût en PM de 1 et restaure le PM de la cible de 840.",
-        "5": "[Credo voilé] Réduit le coût en PM de 1 et restaure le PM de la cible de 1000."
-      }
+      "story": "Lorsqu'il était contrarié et cherchait à mettre de l'ordre dans son esprit, Loman sculptait des figurines grandes comme sa main. Lorsqu'il taillait ses morceaux de bois, il se sentait en paix et revivait le temps où il n'était qu'un bleu. Ce qui n'était qu'un passe-temps devint une passion, et il remplit ses quartiers avec des centaines de sculptures. Un beau jour, Loman se mit à sculpter des poupées en bois pour les offrir à ses amis et à ses hommes. À l'époque, les poupées ensorcelées, censées protéger contre le mal, étaient à la mode à Orvelia. Loman demanda à un vieux chaman adepte des remèdes ancestraux d'enchanter ses poupées avec un sort de protection et les offrit à ses proches."
     },
     "3": {
       "name": "Océan d'invocation",
@@ -206,15 +207,7 @@
         }
       },
       "thumbnail": "heroes/Loman/ut/3.png",
-      "story": "Ce pendentif spécial fut décerné par le premier roi d'Orvelia à la famille de Loman pour récompenser sa loyauté et la protection qu'elle offrit à la monarchie d'Orvel. Sa véritable origine reste un mystère, mais certains pensent que cet accessoire renferme l'esprit du gardien du continent d'Orbis, appartenant à une civilisation depuis longtemps disparue. Tous les propriétaires de ce pendentif ont raconté la même histoire : lorsqu'ils se sont résolus à risquer leur vie pour ce qui leur importante, ils invoquent une force supérieure telle que les vagues de l'océan. Certains pensent à présent que la gemme bleue de ce pendentif peut invoquer les esprits, et c'est pour cette raison qu'on l'appelle l'Océan d'invocation. Loman en a hérité de son père lorsqu'il est entré au château et le garde toujours avec lui.",
-      "descriptionByStar": {
-        "0": "[Credo du chevalier] Réduit le temps de recharge de 30% et augmente la Résist P faible de la cible de 10% pendant 10 secondes.",
-        "1": "[Credo du chevalier] Réduit le temps de recharge de 30% et augmente la Résist P faible de la cible de 12% pendant 10 secondes.",
-        "2": "[Credo du chevalier] Réduit le temps de recharge de 30% et augmente la Résist P faible de la cible de 14% pendant 10 secondes.",
-        "3": "[Credo du chevalier] Réduit le temps de recharge de 30% et augmente la Résist P faible de la cible de 17% pendant 10 secondes.",
-        "4": "[Credo du chevalier] Réduit le temps de recharge de 30% et augmente la Résist P faible de la cible de 21% pendant 10 secondes.",
-        "5": "[Credo du chevalier] Réduit le temps de recharge de 30% et augmente la Résist P faible de la cible de 25% pendant 10 secondes."
-      }
+      "story": "Ce pendentif spécial fut décerné par le premier roi d'Orvelia à la famille de Loman pour récompenser sa loyauté et la protection qu'elle offrit à la monarchie d'Orvel. Sa véritable origine reste un mystère, mais certains pensent que cet accessoire renferme l'esprit du gardien du continent d'Orbis, appartenant à une civilisation depuis longtemps disparue. Tous les propriétaires de ce pendentif ont raconté la même histoire : lorsqu'ils se sont résolus à risquer leur vie pour ce qui leur importante, ils invoquent une force supérieure telle que les vagues de l'océan. Certains pensent à présent que la gemme bleue de ce pendentif peut invoquer les esprits, et c'est pour cette raison qu'on l'appelle l'Océan d'invocation. Loman en a hérité de son père lorsqu'il est entré au château et le garde toujours avec lui."
     },
     "4": {
       "name": "Bouclier paternel",
@@ -230,15 +223,7 @@
         }
       },
       "thumbnail": "heroes/Loman/ut/4.png",
-      "story": "Un bouclier autrefois utilisé par Loman, qu'il chérit comme un trésor. Il lui vient de son père qui travaillait comme gardien de la famille royale.\nBien qu'il ne l'utilise plus depuis qu'il a sa hallebarde, il garde au fond de son cœur les paroles de son père : « Sois la porte qui protège Orvelia. »\nLoman vivant, jamais il ne laissera le moindre ennemi franchir la porte d'Orvelia.",
-      "descriptionByStar": {
-        "0": "[Le dernier gardien] Augmente le Blocage M de 200 points et le nombre de charges d'Endurance infligées par blocage réussi de 1.",
-        "1": "[Le dernier gardien] Augmente le Blocage M de 240 points et le nombre de charges d'Endurance infligées par blocage réussi de 1.",
-        "2": "[Le dernier gardien] Augmente le Blocage M de 290 points et le nombre de charges d'Endurance infligées par blocage réussi de 1.",
-        "3": "[Le dernier gardien] Augmente le Blocage M de 350 points et le nombre de charges d'Endurance infligées par blocage réussi de 1.",
-        "4": "[Le dernier gardien] Augmente le Blocage M de 420 points et le nombre de charges d'Endurance infligées par blocage réussi de 1.",
-        "5": "[Le dernier gardien] Augmente le Blocage M de 500 points et le nombre de charges d'Endurance infligées par blocage réussi de 1."
-      }
+      "story": "Un bouclier autrefois utilisé par Loman, qu'il chérit comme un trésor. Il lui vient de son père qui travaillait comme gardien de la famille royale.\nBien qu'il ne l'utilise plus depuis qu'il a sa hallebarde, il garde au fond de son cœur les paroles de son père : « Sois la porte qui protège Orvelia. »\nLoman vivant, jamais il ne laissera le moindre ennemi franchir la porte d'Orvelia."
     }
   },
   "sw": {
@@ -255,10 +240,5 @@
   },
   "splashart": "heroes/Loman/sa.png",
   "costumes": "heroes/Loman/cos",
-  "aliases": null,
-  "_localization": {
-    "locale": "fr",
-    "sourceBuild": 1558,
-    "englishFallbackFields": []
-  }
+  "aliases": null
 }

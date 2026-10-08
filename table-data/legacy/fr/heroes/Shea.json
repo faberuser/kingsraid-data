@@ -130,18 +130,35 @@
   },
   "uw": {
     "name": "Schwanheite, la Mélodie charmante",
-    "description": "Augmente la résistance aux Contrôles de 300. En obtenant [Concert fantastique], réduit le temps de recharge de toutes ses compétences de 10% et récupère 400 PM.",
-    "value": {},
+    "description": "Augmente la résistance aux Contrôles de {0}. En obtenant [Concert fantastique], réduit le temps de recharge de toutes ses compétences de {1}% et récupère {2} PM.",
+    "value": {
+      "0": {
+        "0": "300",
+        "1": "360",
+        "2": "430",
+        "3": "520",
+        "4": "630",
+        "5": "750"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "2": {
+        "0": "400",
+        "1": "480",
+        "2": "580",
+        "3": "700",
+        "4": "840",
+        "5": "1000"
+      }
+    },
     "thumbnail": "heroes/Shea/uw.png",
-    "story": "Certaines pièces d'équipement aussi puissantes qu'impressionnantes peuvent dialoguer avec leur porteur, voire parfois le contrôler. Schwanheit figure parmi ces armes redoutables. Cette harpe, qui insiste pour se faire appeler « M. Schute », peut considérablement amplifier le mana de son porteur et en asperger tout autour de lui. Une fois le mana ainsi éparpillé, il ne peut plus servir à de la magie offensive. En revanche, s'il est utilisé intelligemment, cela peut s'avérer tout à fait redoutable. M. Schute est plutôt bavard, mais seulement envers ceux qu'il considère comme ses amis. En ce moment, il ne s'adresse qu'à Shea.",
-    "descriptionByStar": {
-      "0": "Augmente la résistance aux Contrôles de 300. En obtenant [Concert fantastique], réduit le temps de recharge de toutes ses compétences de 10% et récupère 400 PM.",
-      "1": "Augmente la résistance aux Contrôles de 360. En obtenant [Concert fantastique], réduit le temps de recharge de toutes ses compétences de 12% et récupère 480 PM.",
-      "2": "Augmente la résistance aux Contrôles de 430. En obtenant [Concert fantastique], réduit le temps de recharge de toutes ses compétences de 14% et récupère 580 PM.",
-      "3": "Augmente la résistance aux Contrôles de 520. En obtenant [Concert fantastique], réduit le temps de recharge de toutes ses compétences de 17% et récupère 700 PM.",
-      "4": "Augmente la résistance aux Contrôles de 630. En obtenant [Concert fantastique], réduit le temps de recharge de toutes ses compétences de 21% et récupère 840 PM.",
-      "5": "Augmente la résistance aux Contrôles de 750. En obtenant [Concert fantastique], réduit le temps de recharge de toutes ses compétences de 25% et récupère 1000 PM."
-    }
+    "story": "Certaines pièces d'équipement aussi puissantes qu'impressionnantes peuvent dialoguer avec leur porteur, voire parfois le contrôler. Schwanheit figure parmi ces armes redoutables. Cette harpe, qui insiste pour se faire appeler « M. Schute », peut considérablement amplifier le mana de son porteur et en asperger tout autour de lui. Une fois le mana ainsi éparpillé, il ne peut plus servir à de la magie offensive. En revanche, s'il est utilisé intelligemment, cela peut s'avérer tout à fait redoutable. M. Schute est plutôt bavard, mais seulement envers ceux qu'il considère comme ses amis. En ce moment, il ne s'adresse qu'à Shea."
   },
   "uts": {
     "1": {
@@ -158,15 +175,7 @@
         }
       },
       "thumbnail": "heroes/Shea/ut/1.png",
-      "story": "Cette fleur mystique renferme l'énergie de la vie.\nContrairement à la flore du Pandémonium qui se nourrit de débris maléfiques, la fleur de la vie subsiste grâce aux nutriments les plus purs, tels que la rosée du matin et l'énergie étoilée de la Voie lactée. Au cours de sa croissance, cette fleur accumule une énergie pure, qui aide Shea à exécuter la Mélodie de la nature verte de Shea.",
-      "descriptionByStar": {
-        "0": "[Mélodie de la nature verte] Accélère les soins de 50 % et augmente la résistance aux contrôles de la cible de 100 points pendant 8 sec.",
-        "1": "[Mélodie de la nature verte] Accélère les soins de 50 % et augmente la résistance aux contrôles de la cible de 120 points pendant 8 sec.",
-        "2": "[Mélodie de la nature verte] Accélère les soins de 50 % et augmente la résistance aux contrôles de la cible de 140 points pendant 8 sec.",
-        "3": "[Mélodie de la nature verte] Accélère les soins de 50 % et augmente la résistance aux contrôles de la cible de 170 points pendant 8 sec.",
-        "4": "[Mélodie de la nature verte] Accélère les soins de 50 % et augmente la résistance aux contrôles de la cible de 210 points pendant 8 sec.",
-        "5": "[Mélodie de la nature verte] Accélère les soins de 50 % et augmente la résistance aux contrôles de la cible de 250 points pendant 8 sec."
-      }
+      "story": "Cette fleur mystique renferme l'énergie de la vie.\nContrairement à la flore du Pandémonium qui se nourrit de débris maléfiques, la fleur de la vie subsiste grâce aux nutriments les plus purs, tels que la rosée du matin et l'énergie étoilée de la Voie lactée. Au cours de sa croissance, cette fleur accumule une énergie pure, qui aide Shea à exécuter la Mélodie de la nature verte de Shea."
     },
     "2": {
       "name": "Fleur venteuse",
@@ -182,15 +191,7 @@
         }
       },
       "thumbnail": "heroes/Shea/ut/2.png",
-      "story": "Fleur retrouvée sur la tête de Shea le lendemain de son interprétation de Bonheur du vent.\nD’après Schwanheit, cette fleur est aussi un cadeau des fées de la forêt en remerciement de sa douce musique. \nElle renferme le souhait de Shea de voir le vent répandre la joie à travers le monde.",
-      "descriptionByStar": {
-        "0": "[Chant du vent bleu] Augmente la Précision de 250 pendant 8 sec et récupère 160 PM chaque fois qu'un allié utilise une compétence.",
-        "1": "[Chant du vent bleu] Augmente la Précision de 250 pendant 8 sec et récupère 190 PM chaque fois qu'un allié utilise une compétence.",
-        "2": "[Chant du vent bleu] Augmente la Précision de 250 pendant 8 sec et récupère 230 PM chaque fois qu'un allié utilise une compétence.",
-        "3": "[Chant du vent bleu] Augmente la Précision de 250 pendant 8 sec et récupère 270 PM chaque fois qu'un allié utilise une compétence.",
-        "4": "[Chant du vent bleu] Augmente la Précision de 250 pendant 8 sec et récupère 330 PM chaque fois qu'un allié utilise une compétence.",
-        "5": "[Chant du vent bleu] Augmente la Précision de 250 pendant 8 sec et récupère 400 PM chaque fois qu'un allié utilise une compétence."
-      }
+      "story": "Fleur retrouvée sur la tête de Shea le lendemain de son interprétation de Bonheur du vent.\nD’après Schwanheit, cette fleur est aussi un cadeau des fées de la forêt en remerciement de sa douce musique. \nElle renferme le souhait de Shea de voir le vent répandre la joie à travers le monde."
     },
     "3": {
       "name": "Couronne de fée",
@@ -206,15 +207,7 @@
         }
       },
       "thumbnail": "heroes/Shea/ut/3.png",
-      "story": "Chapelet retrouvé sur la tête de Shea le lendemain de son interprétation de Berceuse pour les rêves dans la forêt. D’après Schwanheit, il s’agit d’un cadeau des fées de la forêt en remerciement de sa douce musique. Il paraît que des objets passés entre les mains des fées comme celui-ci ont le pouvoir de rendre à une âme sa forme la plus pure.",
-      "descriptionByStar": {
-        "0": "[Danse de la Passion Rouge] Applique Silence pendant 2 sec sur les ennemis et les DEG Crit de tous les alliés sont augmentés de 20% pendant la durée de la compétence.",
-        "1": "[Danse de la Passion Rouge] Applique Silence pendant 2 sec sur les ennemis et les DEG Crit de tous les alliés sont augmentés de 24% pendant la durée de la compétence.",
-        "2": "[Danse de la Passion Rouge] Applique Silence pendant 2 sec sur les ennemis et les DEG Crit de tous les alliés sont augmentés de 29% pendant la durée de la compétence.",
-        "3": "[Danse de la Passion Rouge] Applique Silence pendant 2 sec sur les ennemis et les DEG Crit de tous les alliés sont augmentés de 35% pendant la durée de la compétence.",
-        "4": "[Danse de la Passion Rouge] Applique Silence pendant 2 sec sur les ennemis et les DEG Crit de tous les alliés sont augmentés de 42% pendant la durée de la compétence.",
-        "5": "[Danse de la Passion Rouge] Applique Silence pendant 2 sec sur les ennemis et les DEG Crit de tous les alliés sont augmentés de 50% pendant la durée de la compétence."
-      }
+      "story": "Chapelet retrouvé sur la tête de Shea le lendemain de son interprétation de Berceuse pour les rêves dans la forêt. D’après Schwanheit, il s’agit d’un cadeau des fées de la forêt en remerciement de sa douce musique. Il paraît que des objets passés entre les mains des fées comme celui-ci ont le pouvoir de rendre à une âme sa forme la plus pure."
     },
     "4": {
       "name": "Rêve de Mira",
@@ -230,15 +223,7 @@
         }
       },
       "thumbnail": "heroes/Shea/ut/4.png",
-      "story": "Lorsque Shea entonna le chant de la vie avec les esprits pour bénir les créatures terrestres, Mira, déesse de l'amour, lui offrit ce bijou en retour au cours d'un rêve.\nÀ son réveil, Shea le tenait dans sa main.\nLe bijou brille telle la déesse de l'amour elle-même, et sa seule vue suscite l'émerveillement.\nShea décida de l'appeler le Rêve de Mira.",
-      "descriptionByStar": {
-        "0": "[Transe] Augmente son ATQ de 20% et sa Vitesse d'ATQ de 200 pendant la durée de [Transe].",
-        "1": "[Transe] Augmente son ATQ de 20% et sa Vitesse d'ATQ de 240 pendant la durée de [Transe].",
-        "2": "[Transe] Augmente son ATQ de 20% et sa Vitesse d'ATQ de 290 pendant la durée de [Transe].",
-        "3": "[Transe] Augmente son ATQ de 20% et sa Vitesse d'ATQ de 350 pendant la durée de [Transe].",
-        "4": "[Transe] Augmente son ATQ de 20% et sa Vitesse d'ATQ de 420 pendant la durée de [Transe].",
-        "5": "[Transe] Augmente son ATQ de 20% et sa Vitesse d'ATQ de 500 pendant la durée de [Transe]."
-      }
+      "story": "Lorsque Shea entonna le chant de la vie avec les esprits pour bénir les créatures terrestres, Mira, déesse de l'amour, lui offrit ce bijou en retour au cours d'un rêve.\nÀ son réveil, Shea le tenait dans sa main.\nLe bijou brille telle la déesse de l'amour elle-même, et sa seule vue suscite l'émerveillement.\nShea décida de l'appeler le Rêve de Mira."
     }
   },
   "sw": {
@@ -255,10 +240,5 @@
   },
   "splashart": "heroes/Shea/sa.png",
   "costumes": "heroes/Shea/cos",
-  "aliases": null,
-  "_localization": {
-    "locale": "fr",
-    "sourceBuild": 1558,
-    "englishFallbackFields": []
-  }
+  "aliases": null
 }

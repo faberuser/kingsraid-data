@@ -174,31 +174,24 @@
       }
     },
     "thumbnail": "heroes/Nicky/uw.png",
-    "story": "The mace wielded by the Chief Guard to keep the inmates under control.\nIt is known as the Mace of Rehabilitation for the unruly monsters in captivity.\nAlthough it was passed down from one Stockade Chief Guard in Orvelia to another across generations, soon after Nicky became the new chief, she broke a part of the mace while mercilessly swinging it at the prisoners.\n\n- ... ... ...\n\nShe was staring at the broken mace when she turned her eyes to the prisoners. Her eyes stopped at the Hell Beast Hartnon whose entire body was covered with horns.\nA cruel grin appeared on her face.\n\n- You! You've got a pretty eyeball for a piece of trash!\n\nIn time, the monster's eye went through Blacksmith Jin's hands and became Nicky's new mace.\nThe new mace was perfect for her.\nThe horns sprouting from the mace exuded an excruciating curse, while the deep grudge ingrained in the monster's iris offering ensured a soul-crushing pain.\nThe inmates began to call the new mace 'Hartnon' in remembrance of the beast sacrificed for the weapon.\nNicky felt a surge of incomparable pleasure whenever she'd swing the new mace at the prisoners.",
-    "descriptionByStar": {
-      "0": "Skill attacks increase P.DMG the target takes by 20% for 5 sec, reduce its Mana by 80 every sec, and grant [Sadism] effect upon self. [Sadism] activates once every 2 sec and stacks up to max 5 times. Upon reaching the max number of stacks, consumes all stacks and inflicts [Masochism] on all enemies for 5 sec, reducing their CC Resist by 200 and increasing the duration of CC effects inflicted on them by 10% for the duration. [Sadism] and [Masochism] are irremovable. In the Arena, Skill attacks deal additional P.DMG equal to 0.8% of the target's Max HP.",
-      "1": "Skill attacks increase P.DMG the target takes by 24% for 5 sec, reduce its Mana by 100 every sec, and grant [Sadism] effect upon self. [Sadism] activates once every 2 sec and stacks up to max 5 times. Upon reaching the max number of stacks, consumes all stacks and inflicts [Masochism] on all enemies for 5 sec, reducing their CC Resist by 240 and increasing the duration of CC effects inflicted on them by 13% for the duration. [Sadism] and [Masochism] are irremovable. In the Arena, Skill attacks deal additional P.DMG equal to 1% of the target's Max HP.",
-      "2": "Skill attacks increase P.DMG the target takes by 29% for 5 sec, reduce its Mana by 120 every sec, and grant [Sadism] effect upon self. [Sadism] activates once every 2 sec and stacks up to max 5 times. Upon reaching the max number of stacks, consumes all stacks and inflicts [Masochism] on all enemies for 5 sec, reducing their CC Resist by 290 and increasing the duration of CC effects inflicted on them by 16% for the duration. [Sadism] and [Masochism] are irremovable. In the Arena, Skill attacks deal additional P.DMG equal to 1.2% of the target's Max HP.",
-      "3": "Skill attacks increase P.DMG the target takes by 35% for 5 sec, reduce its Mana by 140 every sec, and grant [Sadism] effect upon self. [Sadism] activates once every 2 sec and stacks up to max 5 times. Upon reaching the max number of stacks, consumes all stacks and inflicts [Masochism] on all enemies for 5 sec, reducing their CC Resist by 350 and increasing the duration of CC effects inflicted on them by 20% for the duration. [Sadism] and [Masochism] are irremovable. In the Arena, Skill attacks deal additional P.DMG equal to 1.4% of the target's Max HP.",
-      "4": "Skill attacks increase P.DMG the target takes by 42% for 5 sec, reduce its Mana by 170 every sec, and grant [Sadism] effect upon self. [Sadism] activates once every 2 sec and stacks up to max 5 times. Upon reaching the max number of stacks, consumes all stacks and inflicts [Masochism] on all enemies for 5 sec, reducing their CC Resist by 420 and increasing the duration of CC effects inflicted on them by 25% for the duration. [Sadism] and [Masochism] are irremovable. In the Arena, Skill attacks deal additional P.DMG equal to 1.7% of the target's Max HP.",
-      "5": "Skill attacks increase P.DMG the target takes by 50% for 5 sec, reduce its Mana by 200 every sec, and grant [Sadism] effect upon self. [Sadism] activates once every 2 sec and stacks up to max 5 times. Upon reaching the max number of stacks, consumes all stacks and inflicts [Masochism] on all enemies for 5 sec, reducing their CC Resist by 500 and increasing the duration of CC effects inflicted on them by 30% for the duration. [Sadism] and [Masochism] are irremovable. In the Arena, Skill attacks deal additional P.DMG equal to 2% of the target's Max HP."
-    }
+    "story": "The mace wielded by the Chief Guard to keep the inmates under control.\nIt is known as the Mace of Rehabilitation for the unruly monsters in captivity.\nAlthough it was passed down from one Stockade Chief Guard in Orvelia to another across generations, soon after Nicky became the new chief, she broke a part of the mace while mercilessly swinging it at the prisoners.\n\n- ... ... ...\n\nShe was staring at the broken mace when she turned her eyes to the prisoners. Her eyes stopped at the Hell Beast Hartnon whose entire body was covered with horns.\nA cruel grin appeared on her face.\n\n- You! You've got a pretty eyeball for a piece of trash!\n\nIn time, the monster's eye went through Blacksmith Jin's hands and became Nicky's new mace.\nThe new mace was perfect for her.\nThe horns sprouting from the mace exuded an excruciating curse, while the deep grudge ingrained in the monster's iris offering ensured a soul-crushing pain.\nThe inmates began to call the new mace 'Hartnon' in remembrance of the beast sacrificed for the weapon.\nNicky felt a surge of incomparable pleasure whenever she'd swing the new mace at the prisoners."
   },
   "uts": {
     "1": {
       "name": "Special Boots of Stockade",
-      "description": "[Mace of Rehabilitation] Reduces P.DEF of hit enemy by 25% for 10 sec, and additionally reduces Heal Rate by 30% during 'Disarmament' state.",
-      "value": {},
+      "description": "[Mace of Rehabilitation] Reduces P.DEF of hit enemy by 25% for 10 sec, and adds Reduction Effect on Heal Rate by {0}% in Disarmament state.",
+      "value": {
+        "0": {
+          "0": "30",
+          "1": "36",
+          "2": "43",
+          "3": "52",
+          "4": "62",
+          "5": "75"
+        }
+      },
       "thumbnail": "heroes/Nicky/ut/1.png",
-      "story": "A pair of boots made with the leather of monsters rampaging in the Stockade.\nOn the first day that Nicky started working as the chief guard, she was upset to see the monsters wreaking havoc in the place. As the monsters lunged at her, she swung her mace and smashed their skulls with a cold smile on her face. Nicky then skinned the monsters and made a pair of boots out of their leather.\nSince then, none of the prisoners at the Stockade have ever given her any trouble.",
-      "descriptionByStar": {
-        "0": "[Mace of Rehabilitation] Reduces P.DEF of hit enemy by 25% for 10 sec, and additionally reduces Heal Rate by 30% during 'Disarmament' state.",
-        "1": "[Mace of Rehabilitation] Reduces P.DEF of hit enemy by 25% for 10 sec, and adds Reduction Effect on Heal Rate by 36% in Disarmament state.",
-        "2": "[Mace of Rehabilitation] Reduces P.DEF of hit enemy by 25% for 10 sec, and adds Reduction Effect on Heal Rate by 43% in Disarmament state.",
-        "3": "[Mace of Rehabilitation] Reduces P.DEF of hit enemy by 25% for 10 sec, and adds Reduction Effect on Heal Rate by 52% in Disarmament state.",
-        "4": "[Mace of Rehabilitation] Reduces P.DEF of hit enemy by 25% for 10 sec, and adds Reduction Effect on Heal Rate by 62% in Disarmament state.",
-        "5": "[Mace of Rehabilitation] Reduces P.DEF of hit enemy by 25% for 10 sec, and adds Reduction Effect on Heal Rate by 75% in Disarmament state."
-      }
+      "story": "A pair of boots made with the leather of monsters rampaging in the Stockade.\nOn the first day that Nicky started working as the chief guard, she was upset to see the monsters wreaking havoc in the place. As the monsters lunged at her, she swung her mace and smashed their skulls with a cold smile on her face. Nicky then skinned the monsters and made a pair of boots out of their leather.\nSince then, none of the prisoners at the Stockade have ever given her any trouble."
     },
     "2": {
       "name": "Pendant of War God",
@@ -214,30 +207,23 @@
         }
       },
       "thumbnail": "heroes/Nicky/ut/2.png",
-      "story": "A pendant acquired from a fight with the Gladi, Nicky's lifelong rival.\nIt is known that in the past, the War God of Orbis Continent imbued his power into the pendant so that it could be used for possible future crisis.\nInside the jewel is a flame, blazing like the soul of a fighter.\nWhen it came to the auction house, Gladi and Nicky fought days and nights for it, neither having the upper hand. \nWas what happened next an act of mischief by the Goddess? When the fight grew particularly fierce, the wind delivered the scent of silver vine. Gladi, lured by the sweet scent, gave up the fight and ran outside.\nEventually, Nicky won the pendant.",
-      "descriptionByStar": {
-        "0": "[Merciless Gale] Increases DMG by 50% and reduces Cooldown by 1.6% for each enemy hit.",
-        "1": "[Merciless Gale] Increases DMG by 50% and reduces Cooldown by 1.9% for each enemy hit.",
-        "2": "[Merciless Gale] Increases DMG by 50% and reduces Cooldown by 2.3% for each enemy hit.",
-        "3": "[Merciless Gale] Increases DMG by 50% and reduces Cooldown by 2.7% for each enemy hit.",
-        "4": "[Merciless Gale] Increases DMG by 50% and reduces Cooldown by 3.3% for each enemy hit.",
-        "5": "[Merciless Gale] Increases DMG by 50% and reduces Cooldown by 4% for each enemy hit."
-      }
+      "story": "A pendant acquired from a fight with the Gladi, Nicky's lifelong rival.\nIt is known that in the past, the War God of Orbis Continent imbued his power into the pendant so that it could be used for possible future crisis.\nInside the jewel is a flame, blazing like the soul of a fighter.\nWhen it came to the auction house, Gladi and Nicky fought days and nights for it, neither having the upper hand. \nWas what happened next an act of mischief by the Goddess? When the fight grew particularly fierce, the wind delivered the scent of silver vine. Gladi, lured by the sweet scent, gave up the fight and ran outside.\nEventually, Nicky won the pendant."
     },
     "3": {
       "name": "Merciless Skull Knuckle",
-      "description": "[Last Execution] Reduces Cooldown by 30% and increases own DMG to Bosses by 4% each use. This effect can be stacked up to max 10 times.",
-      "value": {},
+      "description": "[Last Execution] Reduces Cooldown by 30% and increases own DMG to Boss by {0}% per use. This effect can be stacked up to max 10 times.",
+      "value": {
+        "0": {
+          "0": "4",
+          "1": "4.8",
+          "2": "5.8",
+          "3": "7",
+          "4": "8.4",
+          "5": "10"
+        }
+      },
       "thumbnail": "heroes/Nicky/ut/3.png",
-      "story": "A strange knuckle bought from Cassandra while she was visiting Orvelia.\nCassandra met Nicky at the Inn, cursing and complaining about her disobedient prisoners, and sold her this item.\nAccording to Cassandra, the skulls on the knuckle are made from the bones of high wizards, and the one with red eyes has the ability to cause hallucinations and endlessly torture enemies.\nNicky is using it, along with her mace, to punish felons.",
-      "descriptionByStar": {
-        "0": "[Last Execution] Reduces Cooldown by 30% and increases own DMG to Bosses by 4% each use. This effect can be stacked up to max 10 times.",
-        "1": "[Last Execution] Reduces Cooldown by 30% and increases own DMG to Boss by 4.8% per use. This effect can be stacked up to max 10 times.",
-        "2": "[Last Execution] Reduces Cooldown by 30% and increases own DMG to Boss by 5.8% per use. This effect can be stacked up to max 10 times.",
-        "3": "[Last Execution] Reduces Cooldown by 30% and increases own DMG to Boss by 7% per use. This effect can be stacked up to max 10 times.",
-        "4": "[Last Execution] Reduces Cooldown by 30% and increases own DMG to Boss by 8.4% per use. This effect can be stacked up to max 10 times.",
-        "5": "[Last Execution] Reduces Cooldown by 30% and increases own DMG to Boss by 10% per use. This effect can be stacked up to max 10 times."
-      }
+      "story": "A strange knuckle bought from Cassandra while she was visiting Orvelia.\nCassandra met Nicky at the Inn, cursing and complaining about her disobedient prisoners, and sold her this item.\nAccording to Cassandra, the skulls on the knuckle are made from the bones of high wizards, and the one with red eyes has the ability to cause hallucinations and endlessly torture enemies.\nNicky is using it, along with her mace, to punish felons."
     },
     "4": {
       "name": "Ominous Manicure",
@@ -253,15 +239,7 @@
         }
       },
       "thumbnail": "heroes/Nicky/ut/4.png",
-      "story": "A black manicure that Nicky puts on the day of waste disposal in the Stockade.\nNicky always hated when her nails would be stained with blood after completing waste disposal'.\nDifferent monsters had different blood colors, and her nails would get very messy after.\nOne day, she was letting loose a stream of abuse, infuriated by her messy nails, when she saw a lady with nails of various colors and came up with an idea.\nIf she didn't like her nails getting stained with different colors, all she had to do was put some dark color on her nails beforehand!\nShe picked the monsters with the darkest blood and made a bottle of special manicure. She now applies it on her nails every waste disposal day.\nWhen she comes into the Stockade with her nails in black, all the prisoners shiver in fear of death.",
-      "descriptionByStar": {
-        "0": "[Massacre Instinct] Upon activation of 'Cruel Madness,' immediately reduces self's Cooldown of all Skills by 30% and additionally increases Heal Rate by 50% for the duration.",
-        "1": "[Massacre Instinct] Upon activation of 'Cruel Madness,' immediately reduces self's Cooldown of all Skills by 36% and additionally increases Heal Rate by 50% for the duration.",
-        "2": "[Massacre Instinct] Upon activation of 'Cruel Madness,' immediately reduces self's Cooldown of all Skills by 43% and additionally increases Heal Rate by 50% for the duration.",
-        "3": "[Massacre Instinct] Upon activation of 'Cruel Madness,' immediately reduces self's Cooldown of all Skills by 52% and additionally increases Heal Rate by 50% for the duration.",
-        "4": "[Massacre Instinct] Upon activation of 'Cruel Madness,' immediately reduces self's Cooldown of all Skills by 63% and additionally increases Heal Rate by 50% for the duration.",
-        "5": "[Massacre Instinct] Upon activation of 'Cruel Madness,' immediately reduces self's Cooldown of all Skills by 75% and additionally increases Heal Rate by 50% for the duration."
-      }
+      "story": "A black manicure that Nicky puts on the day of waste disposal in the Stockade.\nNicky always hated when her nails would be stained with blood after completing waste disposal'.\nDifferent monsters had different blood colors, and her nails would get very messy after.\nOne day, she was letting loose a stream of abuse, infuriated by her messy nails, when she saw a lady with nails of various colors and came up with an idea.\nIf she didn't like her nails getting stained with different colors, all she had to do was put some dark color on her nails beforehand!\nShe picked the monsters with the darkest blood and made a bottle of special manicure. She now applies it on her nails every waste disposal day.\nWhen she comes into the Stockade with her nails in black, all the prisoners shiver in fear of death."
     }
   },
   "sw": {
@@ -278,10 +256,5 @@
   },
   "splashart": "heroes/Nicky/sa.png",
   "costumes": "heroes/Nicky/cos",
-  "aliases": null,
-  "_localization": {
-    "locale": "en",
-    "sourceBuild": 1558,
-    "englishFallbackFields": []
-  }
+  "aliases": null
 }

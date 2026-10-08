@@ -150,15 +150,7 @@
       }
     },
     "thumbnail": "heroes/Yanne/uw.png",
-    "story": "An enchanted weapon made from the bones, tendons, and pieces of hide the Mad Dragon Svelta. Too heavy for a normal human to even lift, let alone draw, this monstrous greatbow is a combination of the siege weapon technologies from the Dark Elves and Dwarves. Only those with incredible muscular strength such as Yanne can hope to handle this ridiculous bow. The Mad Dragon's soul still remains in this bow. Her ferocious energy rides on every arrow it fires, granting it the power to shatter through even the mightiest of walls.",
-    "descriptionByStar": {
-      "0": "Upon a Crit Hit, deals additional P.DMG equal to 50% of ATK and recovers 150 Mana. If the target is a Dragon, deals additional P.DMG equal to 80% of ATK and inflicts Stun for 1.5 sec. A 0.5 sec Cooldown is applied to this effect.",
-      "1": "Upon a Crit Hit, deals additional P.DMG equal to 60% of ATK and recovers 150 Mana. If the target is a Dragon, deals additional P.DMG equal to 96% of ATK and inflicts Stun for 1.5 sec. A 0.5 sec Cooldown is applied to this effect.",
-      "2": "Upon a Crit Hit, deals additional P.DMG equal to 72% of ATK and recovers 150 Mana. If the target is a Dragon, deals additional P.DMG equal to 115% of ATK and inflicts Stun for 1.5 sec. A 0.5 sec Cooldown is applied to this effect.",
-      "3": "Upon a Crit Hit, deals additional P.DMG equal to 86% of ATK and recovers 150 Mana. If the target is a Dragon, deals additional P.DMG equal to 138% of ATK and inflicts Stun for 1.5 sec. A 0.5 sec Cooldown is applied to this effect.",
-      "4": "Upon a Crit Hit, deals additional P.DMG equal to 103% of ATK and recovers 150 Mana. If the target is a Dragon, deals additional P.DMG equal to 166% of ATK and inflicts Stun for 1.5 sec. A 0.5 sec Cooldown is applied to this effect.",
-      "5": "Upon a Crit Hit, deals additional P.DMG equal to 125% of ATK and recovers 150 Mana. If the target is a Dragon, deals additional P.DMG equal to 200% of ATK and inflicts Stun for 1.5 sec. A 0.5 sec Cooldown is applied to this effect."
-    }
+    "story": "An enchanted weapon made from the bones, tendons, and pieces of hide the Mad Dragon Svelta. Too heavy for a normal human to even lift, let alone draw, this monstrous greatbow is a combination of the siege weapon technologies from the Dark Elves and Dwarves. Only those with incredible muscular strength such as Yanne can hope to handle this ridiculous bow. The Mad Dragon's soul still remains in this bow. Her ferocious energy rides on every arrow it fires, granting it the power to shatter through even the mightiest of walls."
   },
   "uts": {
     "1": {
@@ -175,30 +167,23 @@
         }
       },
       "thumbnail": "heroes/Yanne/ut/1.png",
-      "story": "Bracelet that Yanne received from the townspeople when she slayed Svelta.\nMade from Red Dragon leather, it gathers the yang energy inside the wearer to allow them to achieve a high level of concentration. When Yanne takes aim, it helps her successfully fire a single, killing shot.",
-      "descriptionByStar": {
-        "0": "[Focus Shot!] Gains immunity to CC while in use and increases P.DMG the target takes by 10% for 10 sec.",
-        "1": "[Focus Shot!] Gains immunity to CC while in use and increases P.DMG the target takes by 12% for 10 sec.",
-        "2": "[Focus Shot!] Gains immunity to CC while in use and increases P.DMG the target takes by 14% for 10 sec.",
-        "3": "[Focus Shot!] Gains immunity to CC while in use and increases P.DMG the target takes by 17% for 10 sec.",
-        "4": "[Focus Shot!] Gains immunity to CC while in use and increases P.DMG the target takes by 21% for 10 sec.",
-        "5": "[Focus Shot!] Gains immunity to CC while in use and increases P.DMG the target takes by 25% for 10 sec."
-      }
+      "story": "Bracelet that Yanne received from the townspeople when she slayed Svelta.\nMade from Red Dragon leather, it gathers the yang energy inside the wearer to allow them to achieve a high level of concentration. When Yanne takes aim, it helps her successfully fire a single, killing shot."
     },
     "2": {
       "name": "Giant Arrow of Sudden Death",
-      "description": "[Wipeout!] Increases DMG by 20% and reduces Cooldown by 12% upon a Crit Hit.",
-      "value": {},
+      "description": "[Wipeout!] Increases DMG by {0}% and reduces Cooldown by 12% upon a Crit Hit.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Yanne/ut/2.png",
-      "story": "An arrow made from Mad Dragon Svelta's spine, who spews out powerful magic cannons. It's Yanne's loot. The arrowhead has the Mad Dragon's burning red eye. It's still imbued with its madness, always ready to burn the enemy.",
-      "descriptionByStar": {
-        "0": "[Wipeout!] Increases DMG by 20% and reduces Cooldown by 12% upon a Crit Hit.",
-        "1": "[Wipeout!] Increases DMG by 24% and reduces Cooldown by 12% upon a Crit Hit",
-        "2": "[Wipeout!] Increases DMG by 29% and reduces Cooldown by 12% upon a Crit Hit",
-        "3": "[Wipeout!] Increases DMG by 35% and reduces Cooldown by 12% upon a Crit Hit",
-        "4": "[Wipeout!] Increases DMG by 42% and reduces Cooldown by 12% upon a Crit Hit",
-        "5": "[Wipeout!] Increases DMG by 50% and reduces Cooldown by 12% upon a Crit Hit"
-      }
+      "story": "An arrow made from Mad Dragon Svelta's spine, who spews out powerful magic cannons. It's Yanne's loot. The arrowhead has the Mad Dragon's burning red eye. It's still imbued with its madness, always ready to burn the enemy."
     },
     "3": {
       "name": "Dragon Steak",
@@ -214,15 +199,7 @@
         }
       },
       "thumbnail": "heroes/Yanne/ut/3.png",
-      "story": "T-bone steak from which you can taste a dragon's sirloin and tenderloin at the same time. The taste is truly wonderful. The dragon's holy energy enters the body, and increases Yanne's battle stamina to the max.",
-      "descriptionByStar": {
-        "0": "[No Holding Back!] Reduces Mana Cost by 1, and increases DMG dealt to Non-Hero enemies by 12% for the duration of Skill.",
-        "1": "[No Holding Back!] Reduces Mana Cost by 1, and increases DMG dealt to Non-Hero enemies by 14% for the duration of Skill.",
-        "2": "[No Holding Back!] Reduces Mana Cost by 1, and increases DMG dealt to Non-Hero enemies by 17% for the duration of Skill.",
-        "3": "[No Holding Back!] Reduces Mana Cost by 1, and increases DMG dealt to Non-Hero enemies by 21% for the duration of Skill.",
-        "4": "[No Holding Back!] Reduces Mana Cost by 1, and increases DMG dealt to Non-Hero enemies by 25% for the duration of Skill.",
-        "5": "[No Holding Back!] Reduces Mana Cost by 1, and increases DMG dealt to Non-Hero enemies by 30% for the duration of Skill."
-      }
+      "story": "T-bone steak from which you can taste a dragon's sirloin and tenderloin at the same time. The taste is truly wonderful. The dragon's holy energy enters the body, and increases Yanne's battle stamina to the max."
     },
     "4": {
       "name": "Blazing Heart of Giant",
@@ -238,15 +215,7 @@
         }
       },
       "thumbnail": "heroes/Yanne/ut/4.png",
-      "story": "When Yanne was requested to kill off the giants, she met the Fire Giant, the leader of them all, and fought three days and three nights to defeat it.\nThe heart of the Fire Giant was pierced, but strong flames were still blazing in it. There, she found a fist-sized stone.\nWhen she took the stone out, the flames died out. Since then, Yanne's arrows have been imbued with flame energy.",
-      "descriptionByStar": {
-        "0": "[Dragon Slayer] Reduces DMG that allies take from Dragons by an additional 10% and increases DMG dealt to Dragons by 6%.",
-        "1": "[Dragon Slayer] Reduces DMG that allies take from Dragons by an additional 10% and increases DMG dealt to Dragons by 7.2%.",
-        "2": "[Dragon Slayer] Reduces DMG that allies take from Dragons by an additional 10% and increases DMG dealt to Dragons by 8.6%.",
-        "3": "[Dragon Slayer] Reduces DMG that allies take from Dragons by an additional 10% and increases DMG dealt to Dragons by 10.4%.",
-        "4": "[Dragon Slayer] Reduces DMG that allies take from Dragons by an additional 10% and increases DMG dealt to Dragons by 12.6%.",
-        "5": "[Dragon Slayer] Reduces DMG that allies take from Dragons by an additional 10% and increases DMG dealt to Dragons by 15%."
-      }
+      "story": "When Yanne was requested to kill off the giants, she met the Fire Giant, the leader of them all, and fought three days and three nights to defeat it.\nThe heart of the Fire Giant was pierced, but strong flames were still blazing in it. There, she found a fist-sized stone.\nWhen she took the stone out, the flames died out. Since then, Yanne's arrows have been imbued with flame energy."
     }
   },
   "sw": {
@@ -263,10 +232,5 @@
   },
   "splashart": "heroes/Yanne/sa.png",
   "costumes": "heroes/Yanne/cos",
-  "aliases": null,
-  "_localization": {
-    "locale": "en",
-    "sourceBuild": 1558,
-    "englishFallbackFields": []
-  }
+  "aliases": null
 }

@@ -130,18 +130,35 @@
   },
   "uw": {
     "name": "Wave of Protection, Gaiamenes",
-    "description": "'Pride of Orvelia' is stacked upon every Skill use. 'Pride of Orvelia' is irremovable. At 3 stacks, 'Blessing of Orvelia' activates, dealing P.DMG equal to 200% of ATK to enemies within a wide range and increasing P.DMG the target takes by 25% for 20 sec. Additionally, 'Blessing of Orvelia' increases own M.DEF by 10% for 10 sec.",
-    "value": {},
+    "description": "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing {0}% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by {1}% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by {2}% for 10 seconds.",
+    "value": {
+      "0": {
+        "0": "200",
+        "1": "240",
+        "2": "290",
+        "3": "350",
+        "4": "420",
+        "5": "500"
+      },
+      "1": {
+        "0": "25",
+        "1": "30",
+        "2": "36",
+        "3": "43",
+        "4": "51",
+        "5": "60"
+      },
+      "2": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
     "thumbnail": "heroes/Loman/uw.png",
-    "story": "The halberd held by an ancient guardian statue defending the gate of the labyrinth that was recently discovered at the Royal Underground. The old, eroded statue was holding the halberd firmly in its hands, as if showing its determination to protect the labyrinth against intruders. Loman, who was in charge of the labyrinth excavation, felt something indescribably sublime from the statue and showed due courtesy in front of it. At that moment, the statue dropped its halberd to the ground and began to crumble away. The halberd itself seemed unaffected by time and was imbued with a mysterious energy.\n'That statue suddenly crumbled and dropped the halberd...'\nScarlet said, glancing over the report.\n'Yes, ma'am.'\nScarlet then gazed at Loman.\n'The unyielding sincerity of protecting a place until his very body collapses... I know a man like that.'\n'Pardon, ma'am?'\nHe looked at Scarlet with a puzzled face as she handed over the halberd, smiling.",
-    "descriptionByStar": {
-      "0": "'Pride of Orvelia' is stacked upon every Skill use. 'Pride of Orvelia' is irremovable. At 3 stacks, 'Blessing of Orvelia' activates, dealing P.DMG equal to 200% of ATK to enemies within a wide range and increasing P.DMG the target takes by 25% for 20 sec. Additionally, 'Blessing of Orvelia' increases own M.DEF by 10% for 10 sec.",
-      "1": "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 240% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 30% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 12% for 10 seconds.",
-      "2": "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 290% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 36% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 14% for 10 seconds.",
-      "3": "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 350% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 43% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 17% for 10 seconds.",
-      "4": "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 420% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 51% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 21% for 10 seconds.",
-      "5": "Pride of Orvelia' is stacked on every use of skills. 'Pride of Orvelia' cannot be dispelled, and when stacked 3 times, 'Blessing of Orvelia' is activated, dealing 500% of ATK as P.DMG to enemies within a wide range and increasing P.Weakness of the targets by 60% for 20 seconds. 'Blessing of Orvelia' also increases M.DEF by 25% for 10 seconds."
-    }
+    "story": "The halberd held by an ancient guardian statue defending the gate of the labyrinth that was recently discovered at the Royal Underground. The old, eroded statue was holding the halberd firmly in its hands, as if showing its determination to protect the labyrinth against intruders. Loman, who was in charge of the labyrinth excavation, felt something indescribably sublime from the statue and showed due courtesy in front of it. At that moment, the statue dropped its halberd to the ground and began to crumble away. The halberd itself seemed unaffected by time and was imbued with a mysterious energy.\n'That statue suddenly crumbled and dropped the halberd...'\nScarlet said, glancing over the report.\n'Yes, ma'am.'\nScarlet then gazed at Loman.\n'The unyielding sincerity of protecting a place until his very body collapses... I know a man like that.'\n'Pardon, ma'am?'\nHe looked at Scarlet with a puzzled face as she handed over the halberd, smiling."
   },
   "uts": {
     "1": {
@@ -158,15 +175,7 @@
         }
       },
       "thumbnail": "heroes/Loman/ut/1.png",
-      "story": "A basic martial arts that covers the basics that all Orvel knights learn. Among their many skills, Cut Ground provides a solid foundation for a knight's fighting style. It is one of the first skills knights learn, but its complicated mechanism creates a big difference in power between the novice and the proficient. Loman has read it more than a thousand times since he became a knight, and he always goes back to it whenever he feels the need for further improvement.",
-      "descriptionByStar": {
-        "0": "[Cut Ground] For 10 sec, reduces the target's P.Block by 500 and CC Resist by 100.",
-        "1": "[Cut Ground] For 10 sec, reduces the target's P.Block by 500 and CC Resist by 120.",
-        "2": "[Cut Ground] For 10 sec, reduces the target's P.Block by 500 and CC Resist by 140.",
-        "3": "[Cut Ground] For 10 sec, reduces the target's P.Block by 500 and CC Resist by 170.",
-        "4": "[Cut Ground] For 10 sec, reduces the target's P.Block by 500 and CC Resist by 210.",
-        "5": "[Cut Ground] For 10 sec, reduces the target's P.Block by 500 and CC Resist by 250."
-      }
+      "story": "A basic martial arts that covers the basics that all Orvel knights learn. Among their many skills, Cut Ground provides a solid foundation for a knight's fighting style. It is one of the first skills knights learn, but its complicated mechanism creates a big difference in power between the novice and the proficient. Loman has read it more than a thousand times since he became a knight, and he always goes back to it whenever he feels the need for further improvement."
     },
     "2": {
       "name": "Wooden Doll Miniature",
@@ -182,15 +191,7 @@
         }
       },
       "thumbnail": "heroes/Loman/ut/2.png",
-      "story": "Loman used to carve small sculptures as big as his hand while sorting out his thoughts when things went wrong. As he smoothed out their edges, he'd feel at peace, recalling how he was when he was just learning the basics. It was just a pastime at first, but soon it became his hobby, a passion that filled his room with hundreds of sculptures. And one day, Loman started to make wooden dolls to give to his friends and his men. Back then, sorcerous dolls known to protect hearts from evil were popular in Orvelia. Loman asked an old shaman who practiced ancient folk remedies to enchant his wooden dolls with a spell of protection, and he gave them to his colleagues.",
-      "descriptionByStar": {
-        "0": "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 400.",
-        "1": "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 480.",
-        "2": "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 580.",
-        "3": "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 700.",
-        "4": "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 840.",
-        "5": "[Shrouding Creed] Reduces Mana Cost by 1 and recovers target's Mana by 1000."
-      }
+      "story": "Loman used to carve small sculptures as big as his hand while sorting out his thoughts when things went wrong. As he smoothed out their edges, he'd feel at peace, recalling how he was when he was just learning the basics. It was just a pastime at first, but soon it became his hobby, a passion that filled his room with hundreds of sculptures. And one day, Loman started to make wooden dolls to give to his friends and his men. Back then, sorcerous dolls known to protect hearts from evil were popular in Orvelia. Loman asked an old shaman who practiced ancient folk remedies to enchant his wooden dolls with a spell of protection, and he gave them to his colleagues."
     },
     "3": {
       "name": "Sea of Invocation",
@@ -206,15 +207,7 @@
         }
       },
       "thumbnail": "heroes/Loman/ut/3.png",
-      "story": "An heirloom of Loman's family, this special pendant is bestowed by the first King of Orvelia to Loman's family in honor of their service and loyalty to protect the Orvel Monarchy. Its true origin is unknown, but it is believed to be an accessory that has the spirit of the Guardian of Orbis Continent from an ancient civilization. The owners of this item have said the same thing. When they resolve to stake their lives to defend what is important to them, they invoke a mighty power like the waves of the sea. People now believe this blue gem invokes spirits, and it started to be called the Sea of Invocation. Loman received it as an heirloom from his father when he entered the castle, and he always keeps it with him.",
-      "descriptionByStar": {
-        "0": "[Knight's Creed] Reduces Cooldown by 30% and increases P.DMG the target takes by 10% for 10 sec.",
-        "1": "[Knight's Creed] Reduces Cooldown by 30% and increases P.DMG the target takes by 12% for 10 sec.",
-        "2": "[Knight's Creed] Reduces Cooldown by 30% and increases P.DMG the target takes by 14% for 10 sec.",
-        "3": "[Knight's Creed] Reduces Cooldown by 30% and increases P.DMG the target takes by 17% for 10 sec.",
-        "4": "[Knight's Creed] Reduces Cooldown by 30% and increases P.DMG the target takes by 21% for 10 sec.",
-        "5": "[Knight's Creed] Reduces Cooldown by 30% and increases P.DMG the target takes by 25% for 10 sec."
-      }
+      "story": "An heirloom of Loman's family, this special pendant is bestowed by the first King of Orvelia to Loman's family in honor of their service and loyalty to protect the Orvel Monarchy. Its true origin is unknown, but it is believed to be an accessory that has the spirit of the Guardian of Orbis Continent from an ancient civilization. The owners of this item have said the same thing. When they resolve to stake their lives to defend what is important to them, they invoke a mighty power like the waves of the sea. People now believe this blue gem invokes spirits, and it started to be called the Sea of Invocation. Loman received it as an heirloom from his father when he entered the castle, and he always keeps it with him."
     },
     "4": {
       "name": "Father's Shield",
@@ -230,15 +223,7 @@
         }
       },
       "thumbnail": "heroes/Loman/ut/4.png",
-      "story": "A shield that Loman used in the past. It is his treasure that his father, who was a gatekeeper of the royal family, gave him.\nAlthough he has not used it since he started using his halberd, he has kept the words of his father in his heart: be the gate that protects Orvelia.\nWhatever may come, Loman will never allow the edge of an enemy sword to cross the gate of Orvelia while he breathes.",
-      "descriptionByStar": {
-        "0": "[The Last Gatekeeper] Increases own M.Block by 200. Upon block, the number of Endurance Stacks increases by 1.",
-        "1": "[The Last Gatekeeper] Increases own M.Block by 240. Upon block, the number of Endurance Stacks increases by 1.",
-        "2": "[The Last Gatekeeper] Increases own M.Block by 290. Upon block, the number of Endurance Stacks increases by 1.",
-        "3": "[The Last Gatekeeper] Increases own M.Block by 350. Upon block, the number of Endurance Stacks increases by 1.",
-        "4": "[The Last Gatekeeper] Increases own M.Block by 420. Upon block, the number of Endurance Stacks increases by 1.",
-        "5": "[The Last Gatekeeper] Increases own M.Block by 500. Upon block, the number of Endurance Stacks increases by 1."
-      }
+      "story": "A shield that Loman used in the past. It is his treasure that his father, who was a gatekeeper of the royal family, gave him.\nAlthough he has not used it since he started using his halberd, he has kept the words of his father in his heart: be the gate that protects Orvelia.\nWhatever may come, Loman will never allow the edge of an enemy sword to cross the gate of Orvelia while he breathes."
     }
   },
   "sw": {
@@ -255,10 +240,5 @@
   },
   "splashart": "heroes/Loman/sa.png",
   "costumes": "heroes/Loman/cos",
-  "aliases": null,
-  "_localization": {
-    "locale": "en",
-    "sourceBuild": 1558,
-    "englishFallbackFields": []
-  }
+  "aliases": null
 }

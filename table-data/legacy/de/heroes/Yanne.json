@@ -150,15 +150,7 @@
       }
     },
     "thumbnail": "heroes/Yanne/uw.png",
-    "story": "Eine verzauberte Waffe, hergestellt aus Knochen, Sehnen und Haut des Wahnsinnigen Drachen Svelta. Dieser monströse Großbogen, der die Belagerungswaffentechnologie der Dunkelelfen und Zwerge vereint, ist zu schwer, um von einem Menschen aufgehoben oder gezogen zu werden. Nur Leute mit riesiger Muskelkraft wie Yanne können überhaupt daran denken, diesen unvorstellbaren Bogen handzuhaben. Die Seele des Wahnsinnigen Drachen schlummert immer noch in diesem Bogen. Seine grausame Energie steckt in jedem abgefeuerten Pfeil, wodurch sie die Kraft haben, selbst die mächtigste Mauer zu durchschlagen.",
-    "descriptionByStar": {
-      "0": "Verursacht bei einem Krit. Treffer zus. Körp. Schaden in Höhe von 50 % des ANG und regeneriert 150 MP. Ist das Ziel ein Drache, wird 80 % zus. Körp. Schaden zugefügt und er wird 1.5 Sek. lang betäubt. Dieser Effekt hat einen 0.5 Sek. Cooldown.",
-      "1": "Verursacht bei einem Krit. Treffer zus. Körp. Schaden in Höhe von 60 % des ANG und regeneriert 150 MP. Ist das Ziel ein Drache, wird 96 % zus. Körp. Schaden zugefügt und er wird 1.5 Sek. lang betäubt. Dieser Effekt hat einen 0.5 Sek. Cooldown.",
-      "2": "Verursacht bei einem Krit. Treffer zus. Körp. Schaden in Höhe von 72 % des ANG und regeneriert 150 MP. Ist das Ziel ein Drache, wird 115 % zus. Körp. Schaden zugefügt und er wird 1.5 Sek. lang betäubt. Dieser Effekt hat einen 0.5 Sek. Cooldown.",
-      "3": "Verursacht bei einem Krit. Treffer zus. Körp. Schaden in Höhe von 86 % des ANG und regeneriert 150 MP. Ist das Ziel ein Drache, wird 138 % zus. Körp. Schaden zugefügt und er wird 1.5 Sek. lang betäubt. Dieser Effekt hat einen 0.5 Sek. Cooldown.",
-      "4": "Verursacht bei einem Krit. Treffer zus. Körp. Schaden in Höhe von 103 % des ANG und regeneriert 150 MP. Ist das Ziel ein Drache, wird 166 % zus. Körp. Schaden zugefügt und er wird 1.5 Sek. lang betäubt. Dieser Effekt hat einen 0.5 Sek. Cooldown.",
-      "5": "Verursacht bei einem Krit. Treffer zus. Körp. Schaden in Höhe von 125 % des ANG und regeneriert 150 MP. Ist das Ziel ein Drache, wird 200 % zus. Körp. Schaden zugefügt und er wird 1.5 Sek. lang betäubt. Dieser Effekt hat einen 0.5 Sek. Cooldown."
-    }
+    "story": "Eine verzauberte Waffe, hergestellt aus Knochen, Sehnen und Haut des Wahnsinnigen Drachen Svelta. Dieser monströse Großbogen, der die Belagerungswaffentechnologie der Dunkelelfen und Zwerge vereint, ist zu schwer, um von einem Menschen aufgehoben oder gezogen zu werden. Nur Leute mit riesiger Muskelkraft wie Yanne können überhaupt daran denken, diesen unvorstellbaren Bogen handzuhaben. Die Seele des Wahnsinnigen Drachen schlummert immer noch in diesem Bogen. Seine grausame Energie steckt in jedem abgefeuerten Pfeil, wodurch sie die Kraft haben, selbst die mächtigste Mauer zu durchschlagen."
   },
   "uts": {
     "1": {
@@ -175,30 +167,23 @@
         }
       },
       "thumbnail": "heroes/Yanne/ut/1.png",
-      "story": "Ein Armreif, den Yanne von den Stadtbewohnern erhalten hat, nachdem sie Svelta erschlagen hatte.\nEr wurde aus dem Leder eines Roten Drachen hergestellt und erlaubt es dem Träger Yang-Energie zu sammeln, um ein hohes Maß an Konzentration zu erreichen. Wenn Yanne ihr Ziel anvisiert, hilft es ihr dabei, einen einzigen tödlichen Schuss abzufeuern.",
-      "descriptionByStar": {
-        "0": "[Fokussierter Schuss!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht 10 Sek. lang den erhaltenen Körp. Schaden des Ziels um 10 %.",
-        "1": "[Fokussierter Schuss!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht 10 Sek. lang den erhaltenen Körp. Schaden des Ziels um 12 %.",
-        "2": "[Fokussierter Schuss!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht 10 Sek. lang den erhaltenen Körp. Schaden des Ziels um 14 %.",
-        "3": "[Fokussierter Schuss!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht 10 Sek. lang den erhaltenen Körp. Schaden des Ziels um 17 %.",
-        "4": "[Fokussierter Schuss!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht 10 Sek. lang den erhaltenen Körp. Schaden des Ziels um 21 %.",
-        "5": "[Fokussierter Schuss!] gewährt Massenkontroll-Immunität für die Dauer des Skills und erhöht 10 Sek. lang den erhaltenen Körp. Schaden des Ziels um 25 %."
-      }
+      "story": "Ein Armreif, den Yanne von den Stadtbewohnern erhalten hat, nachdem sie Svelta erschlagen hatte.\nEr wurde aus dem Leder eines Roten Drachen hergestellt und erlaubt es dem Träger Yang-Energie zu sammeln, um ein hohes Maß an Konzentration zu erreichen. Wenn Yanne ihr Ziel anvisiert, hilft es ihr dabei, einen einzigen tödlichen Schuss abzufeuern."
     },
     "2": {
       "name": "Riesiger Pfeil des plötzlichen Todes",
-      "description": "[Auslöschung!] erhöht den Schaden um 20 % und verringert den Cooldown um 12 % bei einem Krit. Treffer.",
-      "value": {},
+      "description": "[Auslöschung!] erhöht den Schaden um {0} % und verringert den Cooldown um 12 % bei einem Krit. Treffer.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
       "thumbnail": "heroes/Yanne/ut/2.png",
-      "story": "Ein Pfeil, der aus dem Rückgrat des Verrückten Drachen Svelta hergestellt wurde und der mächtige magische Kanonen speit. Er gehört zu Yannes Beute. Die Pfeilspitze besitzt das brennende Rote Auge des Verrückten Drachen und ist immer noch mit seinem Wahnsinn getränkt, immer bereit, den Feind zu verbrennen.",
-      "descriptionByStar": {
-        "0": "[Auslöschung!] erhöht den Schaden um 20 % und verringert den Cooldown um 12 % bei einem Krit. Treffer.",
-        "1": "[Auslöschung!] erhöht den Schaden um 24 % und verringert den Cooldown um 12 % bei einem Krit. Treffer.",
-        "2": "[Auslöschung!] erhöht den Schaden um 29 % und verringert den Cooldown um 12 % bei einem Krit. Treffer.",
-        "3": "[Auslöschung!] erhöht den Schaden um 35 % und verringert den Cooldown um 12 % bei einem Krit. Treffer.",
-        "4": "[Auslöschung!] erhöht den Schaden um 42 % und verringert den Cooldown um 12 % bei einem Krit. Treffer.",
-        "5": "[Auslöschung!] erhöht den Schaden um 50 % und verringert den Cooldown um 12 % bei einem Krit. Treffer."
-      }
+      "story": "Ein Pfeil, der aus dem Rückgrat des Verrückten Drachen Svelta hergestellt wurde und der mächtige magische Kanonen speit. Er gehört zu Yannes Beute. Die Pfeilspitze besitzt das brennende Rote Auge des Verrückten Drachen und ist immer noch mit seinem Wahnsinn getränkt, immer bereit, den Feind zu verbrennen."
     },
     "3": {
       "name": "Drachen-Steak",
@@ -214,15 +199,7 @@
         }
       },
       "thumbnail": "heroes/Yanne/ut/3.png",
-      "story": "T-Bone-Steak, das gleichzeitig wie ein Rumpsteak und ein Filetsteak eines Drachen schmeckt. Der Geschmack ist wirklich köstlich. Die heilige Energie des Drachen wird in den Körper aufgenommen und erhöht Yannes Ausdauer im Kampf auf das Maximum.",
-      "descriptionByStar": {
-        "0": "[Keine Gnade!] verringert die Manakosten um 1 und erhöht den Schaden gegen Gegner, die keine Helden sind, während der Wirkungsdauer um 12 %.",
-        "1": "[Keine Gnade!] verringert die Manakosten um 1 und erhöht den Schaden gegen Gegner, die keine Helden sind, während der Wirkungsdauer um 14 %.",
-        "2": "[Keine Gnade!] verringert die Manakosten um 1 und erhöht den Schaden gegen Gegner, die keine Helden sind, während der Wirkungsdauer um 17 %.",
-        "3": "[Keine Gnade!] verringert die Manakosten um 1 und erhöht den Schaden gegen Gegner, die keine Helden sind, während der Wirkungsdauer um 21 %.",
-        "4": "[Keine Gnade!] verringert die Manakosten um 1 und erhöht den Schaden gegen Gegner, die keine Helden sind, während der Wirkungsdauer um 25 %.",
-        "5": "[Keine Gnade!] verringert die Manakosten um 1 und erhöht den Schaden gegen Gegner, die keine Helden sind, während der Wirkungsdauer um 30 %."
-      }
+      "story": "T-Bone-Steak, das gleichzeitig wie ein Rumpsteak und ein Filetsteak eines Drachen schmeckt. Der Geschmack ist wirklich köstlich. Die heilige Energie des Drachen wird in den Körper aufgenommen und erhöht Yannes Ausdauer im Kampf auf das Maximum."
     },
     "4": {
       "name": "Das lodernde Herz des Riesen",
@@ -238,15 +215,7 @@
         }
       },
       "thumbnail": "heroes/Yanne/ut/4.png",
-      "story": "Als Yanne damit beauftragt wurde, die Riesen zu töten, traf sie auf deren Anführer, den Feuerriesen, und kämpfte drei Tage und drei Nächte gegen ihn, bis sie ihn schließlich besiegen konnte.\nAls sie das Herz des Feuerriesen durchbohrte, entdeckte sie trotz der lodernden Flammen einen faustgroßen Stein.\nAls sie den Stein an sich nahm, erloschen die Flammen. Seit diesem Tag versprühen Yannes Pfeile Flammenenergie.",
-      "descriptionByStar": {
-        "0": "[Drachenjäger] verringert den Schaden, den Verbündete von Drachen erhalten, um zus. 10 % und erhöht den Drachen zugefügten Schaden um 6 %.",
-        "1": "[Drachenjäger] verringert den Schaden, den Verbündete von Drachen erhalten, um zus. 10 % und erhöht den Drachen zugefügten Schaden um 7.2 %.",
-        "2": "[Drachenjäger] verringert den Schaden, den Verbündete von Drachen erhalten, um zus. 10 % und erhöht den Drachen zugefügten Schaden um 8.6 %.",
-        "3": "[Drachenjäger] verringert den Schaden, den Verbündete von Drachen erhalten, um zus. 10 % und erhöht den Drachen zugefügten Schaden um 10.4 %.",
-        "4": "[Drachenjäger] verringert den Schaden, den Verbündete von Drachen erhalten, um zus. 10 % und erhöht den Drachen zugefügten Schaden um 12.6 %.",
-        "5": "[Drachenjäger] verringert den Schaden, den Verbündete von Drachen erhalten, um zus. 10 % und erhöht den Drachen zugefügten Schaden um 15 %."
-      }
+      "story": "Als Yanne damit beauftragt wurde, die Riesen zu töten, traf sie auf deren Anführer, den Feuerriesen, und kämpfte drei Tage und drei Nächte gegen ihn, bis sie ihn schließlich besiegen konnte.\nAls sie das Herz des Feuerriesen durchbohrte, entdeckte sie trotz der lodernden Flammen einen faustgroßen Stein.\nAls sie den Stein an sich nahm, erloschen die Flammen. Seit diesem Tag versprühen Yannes Pfeile Flammenenergie."
     }
   },
   "sw": {
@@ -263,10 +232,5 @@
   },
   "splashart": "heroes/Yanne/sa.png",
   "costumes": "heroes/Yanne/cos",
-  "aliases": null,
-  "_localization": {
-    "locale": "de",
-    "sourceBuild": 1558,
-    "englishFallbackFields": []
-  }
+  "aliases": null
 }

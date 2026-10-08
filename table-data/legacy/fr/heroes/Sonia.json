@@ -130,18 +130,27 @@
   },
   "uw": {
     "name": "Yanadis, l'Œil du Cyclone",
-    "description": "La durée de Décharge Électrique est augmentée de 2 sec. Infliger une attaque auto pendant que l'ennemi subit Décharge Électrique réduit tous les Temps de Recharges de 1,6%.",
-    "value": {},
+    "description": "La durée de Décharge Électrique est augmentée de {0} sec. Infliger une attaque auto pendant que l'ennemi subit Décharge Électrique réduit tous les Temps de Recharges de {1}%.",
+    "value": {
+      "0": {
+        "0": "2",
+        "1": "3",
+        "2": "4",
+        "3": "5",
+        "4": "6",
+        "5": "7"
+      },
+      "1": {
+        "0": "1,6",
+        "1": "1,9",
+        "2": "2,3",
+        "3": "2,7",
+        "4": "3,3",
+        "5": "4"
+      }
+    },
     "thumbnail": "heroes/Sonia/uw.png",
-    "story": "Une sphère d'électricité créée par Sonia, basée sur le noyau bestial qui lui sert aujourd'hui de cœur. Sonia a démontré un talent certain pour fabriquer de l'équipement magique. Il s'agit là de la première arme qu'elle ait jamais créée. Elle manque de stabilité à cause de l'immense flux électrique qu'elle contient. La puissante tempête électrique générée par cette arme représente une véritable menace pour n'importe quel ennemi. En vérité, à part Sonia, quiconque touche cette arme est instantanément grillé par l'intense courant qui la traverse.",
-    "descriptionByStar": {
-      "0": "La durée de Décharge Électrique est augmentée de 2 sec. Infliger une attaque auto pendant que l'ennemi subit Décharge Électrique réduit tous les Temps de Recharges de 1,6%.",
-      "1": "La durée de Décharge Électrique est augmentée de 3 sec. Infliger une attaque auto pendant que l'ennemi subit Décharge Électrique réduit tous les Temps de Recharges de 1,9%.",
-      "2": "La durée de Décharge Électrique est augmentée de 4 sec. Infliger une attaque auto pendant que l'ennemi subit Décharge Électrique réduit tous les Temps de Recharges de 2,3%.",
-      "3": "La durée de Décharge Électrique est augmentée de 5 sec. Infliger une attaque auto pendant que l'ennemi subit Décharge Électrique réduit tous les Temps de Recharges de 2,7%.",
-      "4": "La durée de Décharge Électrique est augmentée de 6 sec. Infliger une attaque auto pendant que l'ennemi subit Décharge Électrique réduit tous les Temps de Recharges de 3,3%.",
-      "5": "La durée de Décharge Électrique est augmentée de 7 sec. Infliger une attaque auto pendant que l'ennemi subit Décharge Électrique réduit tous les Temps de Recharges de 4%."
-    }
+    "story": "Une sphère d'électricité créée par Sonia, basée sur le noyau bestial qui lui sert aujourd'hui de cœur. Sonia a démontré un talent certain pour fabriquer de l'équipement magique. Il s'agit là de la première arme qu'elle ait jamais créée. Elle manque de stabilité à cause de l'immense flux électrique qu'elle contient. La puissante tempête électrique générée par cette arme représente une véritable menace pour n'importe quel ennemi. En vérité, à part Sonia, quiconque touche cette arme est instantanément grillé par l'intense courant qui la traverse."
   },
   "uts": {
     "1": {
@@ -158,15 +167,7 @@
         }
       },
       "thumbnail": "heroes/Sonia/ut/1.png",
-      "story": "Ce joyau fut remis à Sonia lorsque la Tour des Sages lui conféra le titre de Bleu. Il a pour particularité de condenser et d'amplifier l'énergie foudroyante. Les sages de la tour espéraient que ce cadeau la ferait rester. Malheureusement, ce ne fut pas le cas, car la présence des mages la révulsait. Elle laissa le joyau dans la tour, mais au cours de son périple, elle se rendit compte qu'il s'était retrouvé dans sa poche.",
-      "descriptionByStar": {
-        "0": "[Frappe d'éclair!] Allonge la durée du champ électrique de 1 sec et augmente la Vitesse d'ATQ de 10 points pendant 5 sec à chaque coup. Cet effet peut se cumuler jusqu'à 30 fois.",
-        "1": "[Frappe d'éclair!] Allonge la durée du champ électrique de 1 sec et augmente la Vitesse d'ATQ de 12 points pendant 5 sec à chaque coup. Cet effet peut se cumuler jusqu'à 30 fois.",
-        "2": "[Frappe d'éclair!] Allonge la durée du champ électrique de 1 sec et augmente la Vitesse d'ATQ de 14 points pendant 5 sec à chaque coup. Cet effet peut se cumuler jusqu'à 30 fois.",
-        "3": "[Frappe d'éclair!] Allonge la durée du champ électrique de 1 sec et augmente la Vitesse d'ATQ de 17 points pendant 5 sec à chaque coup. Cet effet peut se cumuler jusqu'à 30 fois.",
-        "4": "[Frappe d'éclair!] Allonge la durée du champ électrique de 1 sec et augmente la Vitesse d'ATQ de 21 points pendant 5 sec à chaque coup. Cet effet peut se cumuler jusqu'à 30 fois.",
-        "5": "[Frappe d'éclair!] Allonge la durée du champ électrique de 1 sec et augmente la Vitesse d'ATQ de 25 points pendant 5 sec à chaque coup. Cet effet peut se cumuler jusqu'à 30 fois."
-      }
+      "story": "Ce joyau fut remis à Sonia lorsque la Tour des Sages lui conféra le titre de Bleu. Il a pour particularité de condenser et d'amplifier l'énergie foudroyante. Les sages de la tour espéraient que ce cadeau la ferait rester. Malheureusement, ce ne fut pas le cas, car la présence des mages la révulsait. Elle laissa le joyau dans la tour, mais au cours de son périple, elle se rendit compte qu'il s'était retrouvé dans sa poche."
     },
     "2": {
       "name": "Manteau éclair",
@@ -182,15 +183,7 @@
         }
       },
       "thumbnail": "heroes/Sonia/ut/2.png",
-      "story": "Manteau que Mirianne a confectionné pour Sonia en affrontant un terrible danger. En effet, l’électricité qui parcourt le corps de Sonia mit un jour feu à ses vêtements. Voyant cela, Mirianne arracha de l’ereth, cette plante supposée pousser dans la terre frappée par la foudre. Elle en tira des fils avec lesquels elle confectionna un manteau. Sonia vit les mains brûlées de Mirianne à cause de l’électricité, mais celle-ci souffrait en silence. Ce vêtement unique en son genre fut conçu spécialement pour Sonia.",
-      "descriptionByStar": {
-        "0": "[Puissance de la foudre !] Rend l'effet inamovible et augmente les chances de déclencher des dégâts supplémentaires de 10 %.",
-        "1": "[Puissance de la foudre !] Rend l'effet inamovible et augmente les chances de déclencher des dégâts supplémentaires de 12 %.",
-        "2": "[Puissance de la foudre !] Rend l'effet inamovible et augmente les chances de déclencher des dégâts supplémentaires de 14 %.",
-        "3": "[Puissance de la foudre !] Rend l'effet inamovible et augmente les chances de déclencher des dégâts supplémentaires de 17 %.",
-        "4": "[Puissance de la foudre !] Rend l'effet inamovible et augmente les chances de déclencher des dégâts supplémentaires de 21 %.",
-        "5": "[Puissance de la foudre !] Rend l'effet inamovible et augmente les chances de déclencher des dégâts supplémentaires de 25 %."
-      }
+      "story": "Manteau que Mirianne a confectionné pour Sonia en affrontant un terrible danger. En effet, l’électricité qui parcourt le corps de Sonia mit un jour feu à ses vêtements. Voyant cela, Mirianne arracha de l’ereth, cette plante supposée pousser dans la terre frappée par la foudre. Elle en tira des fils avec lesquels elle confectionna un manteau. Sonia vit les mains brûlées de Mirianne à cause de l’électricité, mais celle-ci souffrait en silence. Ce vêtement unique en son genre fut conçu spécialement pour Sonia."
     },
     "3": {
       "name": "Cœur de Baikal",
@@ -206,15 +199,7 @@
         }
       },
       "thumbnail": "heroes/Sonia/ut/3.png",
-      "story": "Le cœur de Vaïkal, qu’on appelle la créature céleste. Il mange les éléments de lumière et de ténèbres du monde, son cœur est donc rempli de cette collision entre les deux éléments. Si quelqu’un de malhabile le touche, il serait absorbé par sa puissance. Cependant, Sonia est faite de foudre pure et elle a pu absorber son pouvoir et obtenir une mana inimaginable.",
-      "descriptionByStar": {
-        "0": "[Explosion Électrique!] Lors d'une attaque sur un ennemi affecté par Décharge Électrique, celui-ci reçoit des DEG M supplémentaires à hauteur de 100% de l'ATQ et ses DEF M et P sont réduites de 10% pendant 5 sec.",
-        "1": "[Explosion Électrique!] Lors d'une attaque sur un ennemi affecté par Décharge Électrique, celui-ci reçoit des DEG M supplémentaires à hauteur de 100% de l'ATQ et ses DEF M et P sont réduites de 12% pendant 5 sec.",
-        "2": "[Explosion Électrique!] Lors d'une attaque sur un ennemi affecté par Décharge Électrique, celui-ci reçoit des DEG M supplémentaires à hauteur de 100% de l'ATQ et ses DEF M et P sont réduites de 14% pendant 5 sec.",
-        "3": "[Explosion Électrique!] Lors d'une attaque sur un ennemi affecté par Décharge Électrique, celui-ci reçoit des DEG M supplémentaires à hauteur de 100% de l'ATQ et ses DEF M et P sont réduites de 17% pendant 5 sec.",
-        "4": "[Explosion Électrique!] Lors d'une attaque sur un ennemi affecté par Décharge Électrique, celui-ci reçoit des DEG M supplémentaires à hauteur de 100% de l'ATQ et ses DEF M et P sont réduites de 21% pendant 5 sec.",
-        "5": "[Explosion Électrique!] Lors d'une attaque sur un ennemi affecté par Décharge Électrique, celui-ci reçoit des DEG M supplémentaires à hauteur de 100% de l'ATQ et ses DEF M et P sont réduites de 25% pendant 5 sec."
-      }
+      "story": "Le cœur de Vaïkal, qu’on appelle la créature céleste. Il mange les éléments de lumière et de ténèbres du monde, son cœur est donc rempli de cette collision entre les deux éléments. Si quelqu’un de malhabile le touche, il serait absorbé par sa puissance. Cependant, Sonia est faite de foudre pure et elle a pu absorber son pouvoir et obtenir une mana inimaginable."
     },
     "4": {
       "name": "Gants de foudre",
@@ -230,15 +215,7 @@
         }
       },
       "thumbnail": "heroes/Sonia/ut/4.png",
-      "story": "Une relique fabriquée par Sonia elle-même, qui contient l'énergie de foudre colossale que génère son cœur.\nLorsque le cœur de Vaïkal se déchaînait en elle, Sonia recevait une surcharge d'énergie de foudre, provoquant une implosion.\nMais elle ne pouvait pas libérer cette puissance, car cela aurait pu blesser Mirianne. Inquiète, Mirianne lui suggéra de fabriquer une relique capable de canaliser tout cela.\nCela prit beaucoup de temps à Sonia pour concevoir une paire de gants suffisamment résistante pour supporter toute cette énergie de foudre.\nMais le résultat dépassa toutes ses espérances.\nElle réussit à créer une énorme réserve d'énergie qui lui permettait d'en utiliser de façon quasi inépuisable.\nDe plus, les gants protégeaient Mirianne des explosions potentielles, ce dont Sonia n'était pas peu fière.",
-      "descriptionByStar": {
-        "0": "[Décharge] L'augmentation des DEG M infligés par Décharge passe à 100 %. Les attaques normales ont 10 % de chances d'infliger 1 charge d'Électricité à la cible. Sur les ennemis, cet effet se combine à celui de Décharge.",
-        "1": "[Décharge] L'augmentation des DEG M infligés par Décharge passe à 100 %. Les attaques normales ont 12 % de chances d'infliger 1 charge d'Électricité à la cible. Sur les ennemis, cet effet se combine à celui de Décharge.",
-        "2": "[Décharge] L'augmentation des DEG M infligés par Décharge passe à 100 %. Les attaques normales ont 14 % de chances d'infliger 1 charge d'Électricité à la cible. Sur les ennemis, cet effet se combine à celui de Décharge.",
-        "3": "[Décharge] L'augmentation des DEG M infligés par Décharge passe à 100 %. Les attaques normales ont 17 % de chances d'infliger 1 charge d'Électricité à la cible. Sur les ennemis, cet effet se combine à celui de Décharge.",
-        "4": "[Décharge] L'augmentation des DEG M infligés par Décharge passe à 100 %. Les attaques normales ont 21 % de chances d'infliger 1 charge d'Électricité à la cible. Sur les ennemis, cet effet se combine à celui de Décharge.",
-        "5": "[Décharge] L'augmentation des DEG M infligés par Décharge passe à 100 %. Les attaques normales ont 25 % de chances d'infliger 1 charge d'Électricité à la cible. Sur les ennemis, cet effet se combine à celui de Décharge."
-      }
+      "story": "Une relique fabriquée par Sonia elle-même, qui contient l'énergie de foudre colossale que génère son cœur.\nLorsque le cœur de Vaïkal se déchaînait en elle, Sonia recevait une surcharge d'énergie de foudre, provoquant une implosion.\nMais elle ne pouvait pas libérer cette puissance, car cela aurait pu blesser Mirianne. Inquiète, Mirianne lui suggéra de fabriquer une relique capable de canaliser tout cela.\nCela prit beaucoup de temps à Sonia pour concevoir une paire de gants suffisamment résistante pour supporter toute cette énergie de foudre.\nMais le résultat dépassa toutes ses espérances.\nElle réussit à créer une énorme réserve d'énergie qui lui permettait d'en utiliser de façon quasi inépuisable.\nDe plus, les gants protégeaient Mirianne des explosions potentielles, ce dont Sonia n'était pas peu fière."
     }
   },
   "sw": {
@@ -255,10 +232,5 @@
   },
   "splashart": "heroes/Sonia/sa.png",
   "costumes": "heroes/Sonia/cos",
-  "aliases": null,
-  "_localization": {
-    "locale": "fr",
-    "sourceBuild": 1558,
-    "englishFallbackFields": []
-  }
+  "aliases": null
 }

@@ -130,18 +130,27 @@
   },
   "uw": {
     "name": "Eye of the Storm, Yanadis",
-    "description": "Shock duration is increased by 2 sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by 1.6%.",
-    "value": {},
+    "description": "Shock duration is increased by {0} sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by {1}%.",
+    "value": {
+      "0": {
+        "0": "2",
+        "1": "3",
+        "2": "4",
+        "3": "5",
+        "4": "6",
+        "5": "7"
+      },
+      "1": {
+        "0": "1.6",
+        "1": "1.9",
+        "2": "2.3",
+        "3": "2.7",
+        "4": "3.3",
+        "5": "4"
+      }
+    },
     "thumbnail": "heroes/Sonia/uw.png",
-    "story": "A sphere of electricity created by Sonia based on the beast core that is now her own heart. She has shown great talent in making magic gear, and this is the first weapon she ever created. It's a bit lacking in stability, mostly due to the overwhelming electricity it contains. The powerful electrical storm created by this weapon is truly dangerous for any enemy. In fact, anyone besides Sonia who touches it would be instantly fried by the immense current that flows through it.",
-    "descriptionByStar": {
-      "0": "Shock duration is increased by 2 sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by 1.6%.",
-      "1": "Shock duration is increased by 3 sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by 1.9%.",
-      "2": "Shock duration is increased by 4 sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by 2.3%",
-      "3": "Shock duration is increased by 5 sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by 2.7%.",
-      "4": "Shock duration is increased by 6 sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by 3.3%.",
-      "5": "Shock duration is increased by 7 sec. When auto attacking an enemy inflicted by Shock, all cooldowns are reduced by 4%."
-    }
+    "story": "A sphere of electricity created by Sonia based on the beast core that is now her own heart. She has shown great talent in making magic gear, and this is the first weapon she ever created. It's a bit lacking in stability, mostly due to the overwhelming electricity it contains. The powerful electrical storm created by this weapon is truly dangerous for any enemy. In fact, anyone besides Sonia who touches it would be instantly fried by the immense current that flows through it."
   },
   "uts": {
     "1": {
@@ -158,15 +167,7 @@
         }
       },
       "thumbnail": "heroes/Sonia/ut/1.png",
-      "story": "A jewel that the Tower of Sage bestowed upon Sonia with the title of Blue. It has a special function of condensing and amplifying Sonia's lightning energy. The sages in the tower gave her the jewel, hoping that she would stay. However, she left the tower anyway, repulsed by the existence of wizards. She left the jewel in the tower, but at some point during her journey, she realized that it somehow ended up in her pocket.",
-      "descriptionByStar": {
-        "0": "[Lightning Strike!] Extends the duration of electric field by 1 sec, and upon each hit, increases own ATK Spd by 10 for 5 sec. This effect can be stacked up to max 30 times.",
-        "1": "[Lightning Strike!] Extends the duration of electric field by 1 sec, and upon each hit, increases own ATK Spd by 12 for 5 sec. This effect can be stacked up to max 30 times.",
-        "2": "[Lightning Strike!] Extends the duration of electric field by 1 sec, and upon each hit, increases own ATK Spd by 14 for 5 sec. This effect can be stacked up to max 30 times.",
-        "3": "[Lightning Strike!] Extends the duration of electric field by 1 sec, and upon each hit, increases own ATK Spd by 17 for 5 sec. This effect can be stacked up to max 30 times.",
-        "4": "[Lightning Strike!] Extends the duration of electric field by 1 sec, and upon each hit, increases own ATK Spd by 21 for 5 sec. This effect can be stacked up to max 30 times.",
-        "5": "[Lightning Strike!] Extends the duration of electric field by 1 sec, and upon each hit, increases own ATK Spd by 25 for 5 sec. This effect can be stacked up to max 30 times."
-      }
+      "story": "A jewel that the Tower of Sage bestowed upon Sonia with the title of Blue. It has a special function of condensing and amplifying Sonia's lightning energy. The sages in the tower gave her the jewel, hoping that she would stay. However, she left the tower anyway, repulsed by the existence of wizards. She left the jewel in the tower, but at some point during her journey, she realized that it somehow ended up in her pocket."
     },
     "2": {
       "name": "Lightning Tent",
@@ -182,15 +183,7 @@
         }
       },
       "thumbnail": "heroes/Sonia/ut/2.png",
-      "story": "A cloak that Mirianne made for Sonia by braving a danger. There was a time when Sonia's clothes would burn from the explosion of the electricity that ran through her body. Mirianne saw that and plucked out the ereth plant that is said to grow by being struck by lightning. She pulled out its thread and completed a cloak with it. Sonia saw Mirianne's blistered hands from the electricity, and she cried in silence for a long time. A piece of clothing just for Sonia that can't be found anywhere else.",
-      "descriptionByStar": {
-        "0": "[Power of Lightning!] Changes the effect irremovable and increases the chance to trigger an additional damage by 10% additionally.",
-        "1": "[Power of Lightning!] Changes the effect irremovable and increases the chance to trigger an additional damage by 12% additionally.",
-        "2": "[Power of Lightning!] Changes the effect irremovable and increases the chance to trigger an additional damage by 14% additionally.",
-        "3": "[Power of Lightning!] Changes the effect irremovable and increases the chance to trigger an additional damage by 17% additionally.",
-        "4": "[Power of Lightning!] Changes the effect irremovable and increases the chance to trigger an additional damage by 21% additionally.",
-        "5": "[Power of Lightning!] Changes the effect irremovable and increases the chance to trigger an additional damage by 25% additionally."
-      }
+      "story": "A cloak that Mirianne made for Sonia by braving a danger. There was a time when Sonia's clothes would burn from the explosion of the electricity that ran through her body. Mirianne saw that and plucked out the ereth plant that is said to grow by being struck by lightning. She pulled out its thread and completed a cloak with it. Sonia saw Mirianne's blistered hands from the electricity, and she cried in silence for a long time. A piece of clothing just for Sonia that can't be found anywhere else."
     },
     "3": {
       "name": "Heart of Baikal",
@@ -206,15 +199,7 @@
         }
       },
       "thumbnail": "heroes/Sonia/ut/3.png",
-      "story": "Heart of Baikal, who is called a holy beast. He eats the elements of light and dark from the world, so his heart is full of thunder from the collision between the two elements. If someone unskilled were to touch it, he would be absorbed by its power. But Sonia, who is made up of the core of lightning, absorbed that power and obtained mana that is beyond imaginable.",
-      "descriptionByStar": {
-        "0": "[Electric Explosion!] When attacking enemy inflicted by Shock, enemy takes 100% of ATK as extra M.DMG and target's M.DEF and P.DEF is reduced by 10% for 5 sec.",
-        "1": "[Electric Explosion!] When attacking enemy inflicted by Shock, enemy takes 100% of ATK as extra M.DMG and target's M.DEF and P.DEF is reduced by 12% for 5 sec.",
-        "2": "[Electric Explosion!] When attacking enemy inflicted by Shock, enemy takes 100% of ATK as extra M.DMG and target's M.DEF and P.DEF is reduced by 14% for 5 sec.",
-        "3": "[Electric Explosion!] When attacking enemy inflicted by Shock, enemy takes 100% of ATK as extra M.DMG and target's M.DEF and P.DEF is reduced by 17% for 5 sec.",
-        "4": "[Electric Explosion!] When attacking enemy inflicted by Shock, enemy takes 100% of ATK as extra M.DMG and target's M.DEF and P.DEF is reduced by 21% for 5 sec.",
-        "5": "[Electric Explosion!] When attacking enemy inflicted by Shock, enemy takes 100% of ATK as extra M.DMG and target's M.DEF and P.DEF is reduced by 25% for 5 sec."
-      }
+      "story": "Heart of Baikal, who is called a holy beast. He eats the elements of light and dark from the world, so his heart is full of thunder from the collision between the two elements. If someone unskilled were to touch it, he would be absorbed by its power. But Sonia, who is made up of the core of lightning, absorbed that power and obtained mana that is beyond imaginable."
     },
     "4": {
       "name": "Lightning Gloves",
@@ -230,15 +215,7 @@
         }
       },
       "thumbnail": "heroes/Sonia/ut/4.png",
-      "story": "An artifact crafted by Sonia herself that contains the enormous lightning energy generated from her heart.\nWhen the core of Baikal within her broke loose, Sonia's lightning energy would overflow and cause an inner explosion. \nShe could not release the power as it could hurt Mirianne. Out of concern, Mirianne suggested that she make an artifact that could control it.\nIt took Sonia a long time to make this pair of gloves durable enough to withstand her lightning energy.\nThe result exceeded her wildest expectations.\nWhat she made was an enormous reserve of energy, which enabled her to use and control the energy without having to worry about exhaustion.\nMoreover, the gloves would protect Mirianne from possible explosions, which made Sonia proud.",
-      "descriptionByStar": {
-        "0": "[Shock] Enemies under [Shock] take 100% increased M.DMG, and normal attacks have 10% chance to inflict 1 stack of Electricity to the enemy. This effect also applies to enemies under [Shock].",
-        "1": "[Shock] Enemies under [Shock] take 100% increased M.DMG, and normal attacks have 12% chance to inflict 1 stack of Electricity to the enemy. This effect also applies to enemies under [Shock].",
-        "2": "[Shock] Enemies under [Shock] take 100% increased M.DMG, and normal attacks have 14% chance to inflict 1 stack of Electricity to the enemy. This effect also applies to enemies under [Shock].",
-        "3": "[Shock] Enemies under [Shock] take 100% increased M.DMG, and normal attacks have 17% chance to inflict 1 stack of Electricity to the enemy. This effect also applies to enemies under [Shock].",
-        "4": "[Shock] Enemies under [Shock] take 100% increased M.DMG, and normal attacks have 21% chance to inflict 1 stack of Electricity to the enemy. This effect also applies to enemies under [Shock].",
-        "5": "[Shock] Enemies under [Shock] take 100% increased M.DMG, and normal attacks have 25% chance to inflict 1 stack of Electricity to the enemy. This effect also applies to enemies under [Shock]."
-      }
+      "story": "An artifact crafted by Sonia herself that contains the enormous lightning energy generated from her heart.\nWhen the core of Baikal within her broke loose, Sonia's lightning energy would overflow and cause an inner explosion. \nShe could not release the power as it could hurt Mirianne. Out of concern, Mirianne suggested that she make an artifact that could control it.\nIt took Sonia a long time to make this pair of gloves durable enough to withstand her lightning energy.\nThe result exceeded her wildest expectations.\nWhat she made was an enormous reserve of energy, which enabled her to use and control the energy without having to worry about exhaustion.\nMoreover, the gloves would protect Mirianne from possible explosions, which made Sonia proud."
     }
   },
   "sw": {
@@ -255,10 +232,5 @@
   },
   "splashart": "heroes/Sonia/sa.png",
   "costumes": "heroes/Sonia/cos",
-  "aliases": null,
-  "_localization": {
-    "locale": "en",
-    "sourceBuild": 1558,
-    "englishFallbackFields": []
-  }
+  "aliases": null
 }

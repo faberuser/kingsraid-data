@@ -130,18 +130,27 @@
   },
   "uw": {
     "name": "Notos, le Vent vert",
-    "description": "Un coup critique augmente la Vitesse d'ATQ de 200 pendant 10 sec. Pendant cette durée, les attaques automatiques tirent une flèche supplémentaire infligeant 100% des DEG P.",
-    "value": {},
+    "description": "Un coup critique augmente la Vitesse d'ATQ de {0} pendant 10 sec. Pendant cette durée, les attaques automatiques tirent une flèche supplémentaire infligeant {1}% des DEG P.",
+    "value": {
+      "0": {
+        "0": "200",
+        "1": "240",
+        "2": "280",
+        "3": "340",
+        "4": "410",
+        "5": "500"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      }
+    },
     "thumbnail": "heroes/Selene/uw.png",
-    "story": "Un arc béni par le souffle de Sylphid, l'Élémental de Vent. Seule une personne au caractère noble peut la manier. Une fois encoché, l'arc tire une flèche magique mortelle faite de souffle élémentaire. Guidée par l'Élémental de Vent, elle ne manque jamais sa cible, peu importe où elle se cache. Selene a des liens spéciaux avec les Élémentaux depuis son enfance. Elle fut particulièrement proche de Sylphid, qui enchanta son arc en signe d'amitié.",
-    "descriptionByStar": {
-      "0": "Un coup critique augmente la Vitesse d'ATQ de 200 pendant 10 sec. Pendant cette durée, les attaques automatiques tirent une flèche supplémentaire infligeant 100% des DEG P.",
-      "1": "Un coup critique augmente la Vitesse d'ATQ de 240 pendant 10 sec. Pendant cette durée, les attaques automatiques tirent une flèche supplémentaire infligeant 120% des DEG P.",
-      "2": "Un coup critique augmente la Vitesse d'ATQ de 280 pendant 10 sec. Pendant cette durée, les attaques automatiques tirent une flèche supplémentaire infligeant 140% des DEG P.",
-      "3": "Un coup critique augmente la Vitesse d'ATQ de 340 pendant 10 sec. Pendant cette durée, les attaques automatiques tirent une flèche supplémentaire infligeant 170% des DEG P.",
-      "4": "Un coup critique augmente la Vitesse d'ATQ de 410 pendant 10 sec. Pendant cette durée, les attaques automatiques tirent une flèche supplémentaire infligeant 210% des DEG P.",
-      "5": "Un coup critique augmente la Vitesse d'ATQ de 500 pendant 10 sec. Pendant cette durée, les attaques automatiques tirent une flèche supplémentaire infligeant 250% des DEG P."
-    }
+    "story": "Un arc béni par le souffle de Sylphid, l'Élémental de Vent. Seule une personne au caractère noble peut la manier. Une fois encoché, l'arc tire une flèche magique mortelle faite de souffle élémentaire. Guidée par l'Élémental de Vent, elle ne manque jamais sa cible, peu importe où elle se cache. Selene a des liens spéciaux avec les Élémentaux depuis son enfance. Elle fut particulièrement proche de Sylphid, qui enchanta son arc en signe d'amitié."
   },
   "uts": {
     "1": {
@@ -158,15 +167,7 @@
         }
       },
       "thumbnail": "heroes/Selene/ut/1.png",
-      "story": "Ces gants ont été bénis par un élémentaire de vent.\nDosarta les offrit à sa sœur Selene pour la remercier d'avoir maintenu la paix parmi les elfes. Le tissu dont ils sont faits est imprégné de la magie de Sylphid, un élémental de vent, et orné de broderies réalisées en fil de clair de lune par Dosarta.",
-      "descriptionByStar": {
-        "0": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 1 sec.",
-        "1": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 1.2 sec.",
-        "2": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 1.4 sec.",
-        "3": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 1.7 sec.",
-        "4": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 2.1 sec.",
-        "5": "[Pluie de flèches] Réduit le coût en PM de 1 point et le temps de recharge de 2.5 sec."
-      }
+      "story": "Ces gants ont été bénis par un élémentaire de vent.\nDosarta les offrit à sa sœur Selene pour la remercier d'avoir maintenu la paix parmi les elfes. Le tissu dont ils sont faits est imprégné de la magie de Sylphid, un élémental de vent, et orné de broderies réalisées en fil de clair de lune par Dosarta."
     },
     "2": {
       "name": "Pierre de sceau de l’esprit du vent",
@@ -182,15 +183,7 @@
         }
       },
       "thumbnail": "heroes/Selene/ut/2.png",
-      "story": "Cette pierre est la prison d'un élémentaire aventureux de l'arc de vent. \nIl a causé tellement d'ennuis qu'il a été scellé dans cette pierre par le roi des fées. \nIl imprègne les flèches d'un vent destructeur, ce qui multiplie leur force par 5, au minimum.",
-      "descriptionByStar": {
-        "0": "[Ruée] Augmente les DEG de 20 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale.",
-        "1": "[Ruée] Augmente les DEG de 24 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale.",
-        "2": "[Ruée] Augmente les DEG de 29 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale.",
-        "3": "[Ruée] Augmente les DEG de 35 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale.",
-        "4": "[Ruée] Augmente les DEG de 42 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale.",
-        "5": "[Ruée] Augmente les DEG de 50 % et donne 15 % de chances d'invoquer 1 Flèche de ruée lors d'une attaque normale."
-      }
+      "story": "Cette pierre est la prison d'un élémentaire aventureux de l'arc de vent. \nIl a causé tellement d'ennuis qu'il a été scellé dans cette pierre par le roi des fées. \nIl imprègne les flèches d'un vent destructeur, ce qui multiplie leur force par 5, au minimum."
     },
     "3": {
       "name": "Flèche d'argent",
@@ -206,15 +199,7 @@
         }
       },
       "thumbnail": "heroes/Selene/ut/3.png",
-      "story": "Une pointe de flèche imprégnée de la bénédiction de la Déesse de la chasse et de la lune. Une ancienne relique dont hérite le meilleur chasseur elfique. On dit que la Déesse de la chasse et de la lune s’occupait des Elfes protégeant la forêt sacrée et qu’elle leur accorda du pouvoir via la relique. La flèche d’argent imprégnée du pouvoir de la Déesse de la lune dispose d’un pouvoir mystérieux permettant à l’utilisateur de vaincre son ennemi et améliorer ses DEG.",
-      "descriptionByStar": {
-        "0": "[Flash Clair de Lune] Les DEG sont augmentés de 20% et la cible reçoit 20% de DEG P supplémentaires pendant 10 sec.",
-        "1": "[Flash Clair de Lune] Les DEG sont augmentés de 24% et la cible reçoit 20% de DEG P supplémentaires pendant 10 sec.",
-        "2": "[Flash Clair de Lune] Les DEG sont augmentés de 29% et la cible reçoit 20% de DEG P supplémentaires pendant 10 sec.",
-        "3": "[Flash Clair de Lune] Les DEG sont augmentés de 35% et la cible reçoit 20% de DEG P supplémentaires pendant 10 sec.",
-        "4": "[Flash Clair de Lune] Les DEG sont augmentés de 42% et la cible reçoit 20% de DEG P supplémentaires pendant 10 sec.",
-        "5": "[Flash Clair de Lune] Les DEG sont augmentés de 50% et la cible reçoit 20% de DEG P supplémentaires pendant 10 sec."
-      }
+      "story": "Une pointe de flèche imprégnée de la bénédiction de la Déesse de la chasse et de la lune. Une ancienne relique dont hérite le meilleur chasseur elfique. On dit que la Déesse de la chasse et de la lune s’occupait des Elfes protégeant la forêt sacrée et qu’elle leur accorda du pouvoir via la relique. La flèche d’argent imprégnée du pouvoir de la Déesse de la lune dispose d’un pouvoir mystérieux permettant à l’utilisateur de vaincre son ennemi et améliorer ses DEG."
     },
     "4": {
       "name": "Diadème du vent",
@@ -230,15 +215,7 @@
         }
       },
       "thumbnail": "heroes/Selene/ut/4.png",
-      "story": "Un diadème qui contient la grâce de Notos et des élémentaux de vent.\nLe Diadème du vent se transmet de génération en génération au meilleur archer des elfes. Son propriétaire actuel est Selene.",
-      "descriptionByStar": {
-        "0": "[Flèche de clair de lune] Augmente la vitesse d'attaque de 100. Chaque cumul augmente les dégâts aux non-héros de 2%.",
-        "1": "[Flèche de clair de lune] Augmente la vitesse d'attaque de 100. Chaque cumul augmente les dégâts aux non-héros de 2.4%.",
-        "2": "[Flèche de clair de lune] Augmente la vitesse d'attaque de 100. Chaque cumul augmente les dégâts aux non-héros de 2.9%.",
-        "3": "[Flèche de clair de lune] Augmente la vitesse d'attaque de 100. Chaque cumul augmente les dégâts aux non-héros de 3.5%.",
-        "4": "[Flèche de clair de lune] Augmente la vitesse d'attaque de 100. Chaque cumul augmente les dégâts aux non-héros de 4.2%.",
-        "5": "[Flèche de clair de lune] Augmente la vitesse d'attaque de 100. Chaque cumul augmente les dégâts aux non-héros de 5%."
-      }
+      "story": "Un diadème qui contient la grâce de Notos et des élémentaux de vent.\nLe Diadème du vent se transmet de génération en génération au meilleur archer des elfes. Son propriétaire actuel est Selene."
     }
   },
   "sw": {
@@ -255,10 +232,5 @@
   },
   "splashart": "heroes/Selene/sa.png",
   "costumes": "heroes/Selene/cos",
-  "aliases": null,
-  "_localization": {
-    "locale": "fr",
-    "sourceBuild": 1558,
-    "englishFallbackFields": []
-  }
+  "aliases": null
 }
