@@ -130,7 +130,7 @@
   },
   "uw": {
     "name": "Verfluchte Klauen, Baroro",
-    "description": "Erhöht bei einem Treffer den erlittenen Körp. Schaden des Ziels um {0}% und reduziert seinen Widerstand gegen Kontrolleffekte für {1} Sek. um 100. Ist das Ziel ein Boss, steigt der Schaden gegen den Boss um {4}%. Diese Bossschadenerhöhung ist bis zu 10-mal stapelbar.",
+    "description": "Erhöht bei einem Treffer den erlittenen Körp. Schaden des Ziels um {0}% und reduziert seinen Widerstand gegen Kontrolleffekte für 10 Sek. um {1}. Ist das Ziel ein Boss, steigt der Schaden gegen den Boss um {2}%. Diese Bossschadenerhöhung ist bis zu 10-mal stapelbar.",
     "thumbnail": "heroes/Naila/uw.png",
     "story": "Ein verfluchtes Paar Kampfhandschuhe aus den Klauen des Wahnsinnigen Dämons Baroro, der während des Kriegs besiegt worden war. Die Handschuhe sind um ein Vielfaches größer als menschliche Hände und verbinden sich direkt mit dem Nervensystem ihres Trägers, wodurch dieser sie ohne Anstrengung führen kann. Sie verfügen zwar über eine immense Kraft, doch korrumpieren auch den Verstand ihres Trägers und fressen dessen Seele langsam auf. Nur ein Krieger mit wahrhaft edlen Absichten, einem starken Willen und einem unsterblichen Geist vermag es, mit diesen verfluchten Waffen umzugehen. Sie sind die perfekten Waffen für einen Krieger mit starkem Willen, der selbst in der Dunkelheit des Abgrunds zu strahlen vermag.",
     "value": {
@@ -143,12 +143,20 @@
         "5": "20"
       },
       "1": {
-        "0": "10",
-        "1": "12",
-        "2": "14",
-        "3": "16",
-        "4": "18",
-        "5": "20"
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "160",
+        "4": "180",
+        "5": "200"
+      },
+      "2": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.9",
+        "3": "3.5",
+        "4": "4.2",
+        "5": "5"
       }
     }
   },

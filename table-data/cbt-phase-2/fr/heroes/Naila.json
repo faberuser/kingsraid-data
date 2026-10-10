@@ -130,7 +130,7 @@
   },
   "uw": {
     "name": "Baroro, les Griffes maudites",
-    "description": "Lors d'une attaque, augmente les DEG P subis par la cible de {0}% et réduit sa résistance aux contrôles de 100 pendant {1} sec. Si la cible est un boss, augmente les DEG infligés au boss de {4}%. Ce bonus de DEG contre les boss est cumulable jusqu'à 10 fois.",
+    "description": "Lors d'une attaque, augmente les DEG P subis par la cible de {0}% et réduit sa résistance aux contrôles de {1} pendant 10 sec. Si la cible est un boss, augmente les DEG infligés au boss de {2}%. Ce bonus de DEG contre les boss est cumulable jusqu'à 10 fois.",
     "thumbnail": "heroes/Naila/uw.png",
     "story": "Une paire de gantelets maudits fabriqués à l'aide des griffes du démon fou Baroro, qui fut vaincu durant la guerre. Ces gantelets font plusieurs fois la taille de mains humaines et sont directement connectés aux nerfs de leur porteur, ce qui lui permet de les contrôler sans effort. Bien qu'ils accordent énormément de puissance, ils brisent également l'esprit du porteur, grignotant peu à peu son âme. Seul un guerrier aux nobles convictions, à la volonté forte et à l'esprit inflexible peut manier ces armes maudites. Elles sont idéales pour le guerrier à la volonté puissante dont l'éclat resplendit même au milieu des ténèbres abyssales.",
     "value": {
@@ -143,12 +143,20 @@
         "5": "20"
       },
       "1": {
-        "0": "10",
-        "1": "12",
-        "2": "14",
-        "3": "16",
-        "4": "18",
-        "5": "20"
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "160",
+        "4": "180",
+        "5": "200"
+      },
+      "2": {
+        "0": "2",
+        "1": "2.4",
+        "2": "2.9",
+        "3": "3.5",
+        "4": "4.2",
+        "5": "5"
       }
     }
   },
