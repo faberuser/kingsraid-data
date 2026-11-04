@@ -1,0 +1,58 @@
+{
+  "id": "Musama",
+  "profile": {
+    "name": "Musama",
+    "title": "Augen der Sonne",
+    "type": [
+      "Temple of the God King"
+    ],
+    "race": "Golem",
+    "damage_type": "Physical",
+    "recommended_heroes": "Nia, Zafir, Annette",
+    "characteristics": "Die Heilbarriere des Himmlischen Relikts hebt den Schaden auf, entfernt neg. Effekte kontinuierlich und behindert die Heilung von Fernhelden. Alle Effekte werden deaktiviert, wenn Musama sein [Symbol der Sonne] Skill verwendet, daher wird die Entfernung von Himmlischer Relikt empfohlen.",
+    "thumbnail": "bosses/Musama.png",
+    "recommendedHeroNames": [
+      "Nia",
+      "Zafir",
+      "Annette"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Sonnenwelle",
+      "cost": null,
+      "cooldown": "20",
+      "description": "Greift Feinde in einer geraden an, verursacht dabei Mag. Schaden und verringert die MP."
+    },
+    "2": {
+      "name": "Sandteufel",
+      "cost": null,
+      "cooldown": "25",
+      "description": "Erzeugt einen Sandteufel, der einen Teil des erlittenen Schadens widerspiegelt, Gegner in Reichweite angreift, innerhalb von 20 Runden Körp. Schaden verursacht und die VERT für kurze Zeit verringert. Der VERT-Reduktionseffekt ist bis zu 20-mal stapelbar. Nach 15 oder mehr Stapeln wird für weitere 30 Sek. ein Sandfluch hinzugefügt, wodurch die VERT erheblich reduziert wird. Der Sandfluch kann nicht aufgehoben werden."
+    },
+    "3": {
+      "name": "Symbol der Sonne",
+      "cost": null,
+      "cooldown": "30",
+      "description": "Nach dem Deaktivieren des Himmlischen Relikts wird eine starke Sandkugel erschaffen, die jeglichen erlittenen Schaden auf 1 reduziert. Wenn es voll aufgeladen ist, werden alle pos. Effekte entfernt und der Feind wird angegriffen, wodurch Körp. Schaden und Betäubung verursacht werden. Nur wenn alle Himmlischen Relikte entfernt sind, wird dieser Skill auch abgebrochen und Musama erleidet großen Schaden, wodurch er für kurzer Zeit außer Gefecht gesetzt wird."
+    },
+    "4": {
+      "name": "Wächter von Sekireinel",
+      "cost": null,
+      "cooldown": null,
+      "description": "Ein Wächter von Sekireinel wird stärker und seine VERT & ANG-GESCHW können nicht beeinflusst werden. Nach der 6. Kampf-Phase werden im Kampf Musamas TP kontinuierlich regeneriert."
+    },
+    "5": {
+      "name": "Himmlischer Relikt",
+      "cost": null,
+      "cooldown": null,
+      "description": "Musama ruft einen Himmlischen Relikt herbei, wenn keins aktiviert wurde. Wenn dieser Skill aktiviert wird, reduziert es den Schaden um 1, wird immun gegen neg. Effekte und schafft eine Heilbarriere um Musama herum. Innerhalb der Barriere wird die Heilungsrate stark erhöht, außerhalb dagegen ist Heilung nicht möglich."
+    }
+  },
+  "aliases": [
+    "TrialoftheSky",
+    "TrialofSky",
+    "TrialSky",
+    "Musama"
+  ]
+}

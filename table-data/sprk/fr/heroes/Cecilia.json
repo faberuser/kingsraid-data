@@ -1,0 +1,257 @@
+{
+  "id": "Cecilia",
+  "profile": {
+    "name": "Cecilia",
+    "title": "Cecilia, Rafale écarlate de Justice",
+    "class": "Mechanic",
+    "position": "Front-400",
+    "attack_range": "7000",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "16",
+    "height": "169",
+    "race": "Humain",
+    "constellation": "Kandala le Conquérant",
+    "birth": {
+      "month": 8,
+      "day": 19,
+      "monthName": "Mois de la Vitalité"
+    },
+    "like": "L'harmonica, les nouilles épicées, les paris, la course",
+    "dislike": "L'injustice, les mauvaises blagues, les critiques, les serpents",
+    "story": "Une fille rêvant d'un monde sans injustice.\nCecilia, surnommée Vent rouge de la justice, terrasse ses ennemis avec ses coups de pied ailés, tout en faisant voltiger son ruban rouge dans les airs.\nSon grand-père est Ricardo, capitaine des Chevaliers sacrés d'Orvelia.\nElle a grandi en regardant son grand-père rendre la justice avec un cœur d'acier\net rêve désormais de faire la même chose en éradiquant le mal dans l'Empire en tant que membre de la Résistance.\n\nRicardo s'inquiète pour sa petite-fille, car sa quête de justice pourrait la mettre en péril. Cependant, ses cris et coups de pieds sont aussi dynamiques qu'héroïques et elle se rit du danger.",
+    "thumbnail": "heroes/Cecilia/ico.png"
+  },
+  "skills": {
+    "1 (1)": {
+      "name": "Hors de mon chemin !",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Cible l'ennemi le plus éloigné et le désigne comme [fa96fa][Méchant][-], réduisant sa Vitesse d'ATQ de [ff6464]200[-] pendant [64ffff]15[-] sec. Se déplace vers la cible pour lui infliger [ffc800]386 + 386 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 154.5% de P.ATK[-] DEG P [fa96fa][Coup de pied haché !][-] devient disponible après avoir utilisé cette compétence.",
+      "thumbnail": "heroes/Cecilia/skills/1 (1).png"
+    },
+    "1 (2)": {
+      "name": "Coup de pied haché !",
+      "cost": null,
+      "cooldown": null,
+      "description": "Attaque l'ennemi, infligeant [ffc800]403 + 403 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 234.5% de P.ATK[-] DEG P et le repoussant pendant [64ffff]4[-] sec. Les ennemis ayant le statut de [fa96fa][Méchant][-] sont attaqués en priorité. [fa96fa][Coup de pied tempête !][-] devient disponible après avoir utilisé cette compétence.",
+      "thumbnail": "heroes/Cecilia/skills/1 (2).png"
+    },
+    "1 (3)": {
+      "name": "Coup de pied tempête !",
+      "cost": null,
+      "cooldown": null,
+      "description": "Se déplace à l'ennemi le plus proche et lui inflige [ffc800]483 + 483 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 277.7% de P.ATK[-] DEG P, l'étourdissant pendant [64ff64]4[-] sec. Les ennemis ayant le statut de [fa96fa][Méchant][-] sont attaqués en priorité.",
+      "thumbnail": "heroes/Cecilia/skills/1 (3).png"
+    },
+    "2": {
+      "name": "Potentiel infini",
+      "cost": "3",
+      "cooldown": "20",
+      "description": "Inflige [ffc800]485 + 485 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 245% de P.ATK[-] DEG P aux ennemis proches dans une zone circulaire, les renversant pendant [64ffff]3[-] sec. Accorde [fa96fa][Potentiel infini][-], qui augmente la Vitesse d'ATQ de [64ff64]300[-] pendant [64ffff]15[-] sec. Pendant que [fa96fa][Potentiel infini][-] est activé, les attaques normales et de compétence infligent[ffc800]83 + 83 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 38.8% de P.ATK[-] DEG P aux cibles Héros et [ffc800]249 + 249 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 116.4% de P.ATK[-] DEG P aux cibles non-Héros. L'effet de cette compétence ne peut pas être dissipé.",
+      "thumbnail": "heroes/Cecilia/skills/2.png"
+    },
+    "3 (1)": {
+      "name": "WA-TAAAAAH !",
+      "cost": "3",
+      "cooldown": "21",
+      "description": "Attaque les ennemis proches dans une zone circulaire et inflige [ffc800]6 * (218 + 218 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 121.3% de P.ATK)[-] DEG P au total pendant [64ffff]6[-] fois. Ensuite, inflige [ffc800]615 + 615 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 394.5% de P.ATK[-] DEG P à la cible ennemie et à ceux qui l'entourent, les renversant pendant [64ffff]4[-] sec. Si [fa96fa][Potentiel infini][-] est effectif au moment où la compétence est utilisée, [fa96fa][Mouvement spécial. Coup de pied météore !][-] devient disponible pendant [64ffff]10[-] sec.",
+      "thumbnail": "heroes/Cecilia/skills/3 (1).png"
+    },
+    "3 (2)": {
+      "name": "Mouvement spécial. Coup de pied météore !",
+      "cost": "1",
+      "cooldown": null,
+      "description": "Lance une attaque à pleine puissance qui inflige [ffc800]1888 + 1888 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 1234.5% de P.ATK[-] DEG P à la cible ennemie et à ceux qui l'entourent, les assommant pendant [64ffff]5[-] sec. Cette compétence garantit un coup critique.",
+      "thumbnail": "heroes/Cecilia/skills/3 (2).png"
+    },
+    "4": {
+      "name": "Talent inné",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente la DEF de [64ff64]21 + 21 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil[-] et le Crit de [64ff64]200[-]. Les attaques automatiques et de compétence de Cecilia ne manquent pas leurs cibles.",
+      "thumbnail": "heroes/Cecilia/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Augmente le boost de DEF de 10%.",
+      "III": "Augmente le boost de DEF de 15%.",
+      "IV": "Augmente le boost de DEF de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Augmente les DEG P reçus par la cible de 25% pendant 10 sec.",
+          "thumbnail": "heroes/Cecilia/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Dissipe les effets positifs dont bénéficie la cible.",
+          "thumbnail": "heroes/Cecilia/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Augmente de 20% les DEG infligés aux ennemis non-Héros pendant la durée de la compétence.",
+          "thumbnail": "heroes/Cecilia/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Pendant la durée de la compétence, les DEG subis sont réduits de 20%.",
+          "thumbnail": "heroes/Cecilia/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Augmente les DEG de 100% lorsqu'il ne reste plus que 1 ennemi.",
+          "thumbnail": "heroes/Cecilia/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Confère l'immunité contre les contrôles pendant la durée de la compétence.",
+          "thumbnail": "heroes/Cecilia/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Subit 15% de DEG de moins.",
+          "thumbnail": "heroes/Cecilia/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Augmente les DEG aux Héros de 15%.",
+          "thumbnail": "heroes/Cecilia/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Cecilia/perks/light.png"
+      },
+      "dark": {
+        "effect": "Augmente sa propre ATQ de 0.5% lorsque [Potentiel infini] inflige des DEG supplémentaires à l'ennemi. Cet effet s'accumule jusqu'à 200 fois et ne peut être annulé.",
+        "thumbnail": "heroes/Cecilia/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Gigantix, la Tempête supersonique",
+    "description": "Augmente la Vitesse d'ATQ de {0}. Les attaques normales et de compétence accordent une charge d'Explosion et donnent 3% de chances d'étourdir les cibles touchées pendant 4 sec. Gigantix explose lorsque le nombre de charges d'Explosion atteint 100, augmentant la Vitesse d'ATQ de {1} et Toutes chances d'esquiver de {0}. L'effet de cette compétence ne peut pas être dissipé.",
+    "value": {
+      "0": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      },
+      "1": {
+        "0": "100",
+        "1": "120",
+        "2": "140",
+        "3": "170",
+        "4": "210",
+        "5": "250"
+      }
+    },
+    "thumbnail": "heroes/Cecilia/uw.png",
+    "story": "Une paire de bottes technomagiques, créée à partir de la Pierre magique de tempête dénichée dans d'antiques ruines technomagiques.\nDès que leur porteur passe à l'attaque, la pierre magique libère une vague d'énergie permettant d'atteindre une vitesse supersonique et une puissance destructrice assez forte pour plier l'acier comme du papier.\n\nC'est Ricardo qui a offert à Cecilia la Pierre magique de tempête qui forme la base de ces bottes.\nD'après elle, Ricardo la gardait de côté, mais ne lui a jamais dit où il l'avait trouvée.\n\nUn jour, Ricardo vint rendre visite à Cecilia dans l'Empire et celle-ci lui annonça qu'elle rejoignait la Résistance.\nIl vit dans son regard qu'elle ne changerait pas d'avis.\nIl lui offrit alors la Pierre magique de tempête en lui disant : « Fais comprendre au monde ce que tu ressens. »\n\nLes bottes furent créées plus tard par Landet, l'ingénieur futé de la Résistance."
+  },
+  "uts": {
+    "1": {
+      "name": "Premier pas de Héros",
+      "description": "[Hors de mon chemin !] Réduit le coût en PM de 1 et la cible touchée reçoit {0} % de DEG P supplémentaires pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Cecilia/ut/1.png",
+      "story": "Une paire de bottes spéciales que Cecilia portait avant celles qu'elle arbore actuellement.\nAprès des années d'entraînement à différents arts martiaux, elle a développé son propre style de combat qui s'appuie sur ses jambes rapides.\nPour prouver ses talents à son grand-père, elle s'est entraînée dur avec ces bottes spéciales.\nLes rayures et griffures sont autant de cicatrices glorieuses de cette époque où elle s'entraînait dur."
+    },
+    "2": {
+      "name": "Souvenir d'enfance",
+      "description": "[Potentiel infini] Dissipe les effets négatifs sur le lanceur et augmente les DEG de {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Cecilia/ut/2.png",
+      "story": "Des ballons que Cecilia s'amuse à balancer partout.\nLe ballon de foot lui a notamment permis d'améliorer son coup de pied.\nQuand elle était petite, elle était la chef de sa petite bande d'amies. Elle garde ces ballons comme autant de souvenirs de son enfance heureuse.\nElle les sort dès qu'elle se sent déprimée ou frustrée."
+    },
+    "3": {
+      "name": "Moment de loisir",
+      "description": "[WA-TAAAAAH !] Augmente les DEG infligés aux boss de {0} %, à chaque utilisation. Cet effet peut se cumuler 10 fois. Réduit le coût en PM de [Mouvement spécial. Coup de pied météore !] de 1.",
+      "value": {
+        "0": {
+          "0": "4",
+          "1": "4.8",
+          "2": "5.8",
+          "3": "7",
+          "4": "8.4",
+          "5": "10"
+        }
+      },
+      "thumbnail": "heroes/Cecilia/ut/3.png",
+      "story": "Un harmonica dont Cecilia joue de temps en temps.\nRicardo le lui offrit en cadeau pour son 15e anniversaire.\nIl voulait que sa petite-fille n'oublie pas de se détendre alors qu'elle voyageait de par le monde en répandant la justice.\nAprès avoir longtemps songé à la question, il décida d'offrir à Cecilia ce petit harmonica avec son nom gravé dessus.\nCependant, Cecilia ne s'est jamais embêtée à apprendre plus d'une chanson, car elle ignorait tout des intentions de son grand-père."
+    },
+    "4": {
+      "name": "Cœur de justice",
+      "description": "[Talent inné] Au début de chaque bataille, inflige {0} % de DEG supplémentaires aux ennemis non-héros et réduit les DEG reçus de 25 % pendant 20 sec.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Cecilia/ut/4.png",
+      "story": "Un cadeau reçu par Cecilia après son premier acte de justice.\nÀ l'époque, la petite fille que Cecilia avait secourue lui avait attaché ce ruban rouge autour de la blessure qu'elle avait subie en la sauvant.\nDepuis, elle le porte toujours au poignet durant les missions. Les gens la surnomment donc Vent rouge de la justice."
+    }
+  },
+  "sw": {
+    "requirement": "Utilisez les compétences du Héros 7 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "description": "Invoque l'âme de Gigantix, la Tempête supersonique, pendant [64ffff]12[-] sec, ce qui attaque les ennemis avec une probabilité de 10% pour chaque attaque automatique et celle de compétence. Cette attaque inflige [ffc800]160% de P.ATK[-] DEG P à la cible ainsi qu'à la zone réduite autour d'elle et les étourdit pendant [64ffff]1[-] sec.",
+    "cooldown": "22",
+    "uses": "7",
+    "thumbnail": "heroes/Cecilia/sw.png",
+    "advancement": {
+      "1": "Augmente le taux d'ATQ de 40% pendant la durée de la compétence.",
+      "2": "Augmente la probabilité d'activation de 20%."
+    },
+    "story": "Landet, l'ingénieur insolite de la résistance, était un personnage reconnu dans les milieux de technomagie, de l'ingénierie mécanique, et dans bien d'autres domaines. \nSeulement, son caractère était si étrange qu'aucun atelier ne voulut travailler avec lui.\n\nIl considérait toutes ses œuvres comme ses enfants, et les traitait comme des êtres doués de conscience. \nC'est pour cela qu'il devenait enragé quand ses créations étaient utilisées avec de mauvaises intentions ou d'une manière qui s'opposait à sa volonté.\n\nCependant, on raconte que les objets créés par des artisans sont dotés d'âmes. \nBien différent des autres artistes, Landet n'aurait-il pas insufflé des âmes dans toutes ses œuvres ? \nLe technicien, avec un grand esprit professionel, connaissait le but et les intentions de Cecilia, \net étant d'accord avec elle, usa de toutes ses techniques pour façonner la meilleure œuvre qu'il n'ait jamais créée.\n\nL'âme sœur et le meilleur partenaire, qui fera pousser des ailes à la justice de Cecilia. - Tempête supersonique, Gigantix.\n\nPortant sur son dos cette force et ce rêve, Cecilia continue de courir, aujourd'hui aussi.\nPour la vraie justice."
+  },
+  "splashart": "heroes/Cecilia/sa.png",
+  "costumes": "heroes/Cecilia/cos",
+  "aliases": null
+}

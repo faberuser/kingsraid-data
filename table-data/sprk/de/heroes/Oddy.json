@@ -1,0 +1,236 @@
+{
+  "id": "Oddy",
+  "profile": {
+    "name": "Oddy",
+    "title": "Uhrenmacher des ewigen Lebens Oddy",
+    "class": "Mechanic",
+    "position": "Middle-200",
+    "attack_range": "4200",
+    "damage_type": "Magical",
+    "gender": "Männlich",
+    "age": "???",
+    "height": "125",
+    "race": "Redpur (ehemalige Menschen)",
+    "constellation": "Asiphia, die Herrscherin",
+    "birth": {
+      "month": 10,
+      "day": 4,
+      "monthName": "Monat der Freundschaft"
+    },
+    "like": "Uhren",
+    "dislike": "Wilderer",
+    "story": "Vor langer Zeit war er ein Mechaniker im königlichen Palast von Orvelia. Doch die mythischen Redpur-Kreaturen verfluchten ihn, wodurch er selbst zu einem Redpur wurde. Seit seiner Verwandlung vergingen Ewigkeiten, woraufhin er sein eigenes Alter vergaß. Als er noch ein Mensch war, erfand er die erste tragbare Uhr, doch niemand in Orvelia erkannte ihren Wert. Um seiner Erfindung die nötige Anerkennung zu verschaffen, machte er sich auf, ins Kaiserreich zu reisen. Unterwegs wurde er von einer Gruppe Redpur verflucht, die ihn für einen Wilderer hielten. Der Fluch veränderte auch seine Uhr, wodurch sie die magische Fähigkeit bekam, den Zeitfluss in einem lebenden Körper zu kontrollieren. Außerdem hielt Oddys eigene Zeit ebenfalls an.",
+    "thumbnail": "heroes/Oddy/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Zeitriss",
+      "cost": "2",
+      "cooldown": "7",
+      "description": "Fügt Feinden in einer geraden Linie 535 + 336.1% von M.ATK Mag. Schaden zu und versteinert sie für 3 Sek.",
+      "thumbnail": "heroes/Oddy/skills/1.png"
+    },
+    "2": {
+      "name": "Zeitfragmente",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Greift 6 zufällige Gegner an und verursacht einen Gesamtschaden von [ffc800]6 * (200 + 200 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 131.3% von M.ATK)[-] Mag. Schaden. 50 %ige Chance, dass der Cooldown für 'Zeitfragmente' zurückgesetzt wird und der Skill beim nächsten Mal kein Mana verbraucht.",
+      "thumbnail": "heroes/Oddy/skills/2.png"
+    },
+    "3": {
+      "name": "Zeitkrümmung",
+      "cost": "4",
+      "cooldown": "35",
+      "description": "Verursacht [ffc800]887 + 887 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 577.7% von M.ATK[-] Mag. Schaden an allen Feinden und erhöht ANG-GESCHW. der Verbündeten um [64ff64]250[-] für 15 Sek. Anschließend wird bei Verbündeten-Skills, die noch Cooldown haben, dieser um 50 % reduziert. Dieser Skill wird davon jedoch nicht beeinflusst.",
+      "thumbnail": "heroes/Oddy/skills/3.png"
+    },
+    "4": {
+      "name": "Uhrmagie",
+      "cost": null,
+      "cooldown": null,
+      "description": "Beim Einsatz des Skills verursachen die nächsten 2 Angriffe [ffc800]531 + 531 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 277.6% von M.ATK[-] zusätzlichen Mag. Schaden mit einer Chance von 30 %, das Ziel für 3 Sek. zu versteinern. Dieser Effekt wird 1-mal pro Sek. aktiviert.",
+      "thumbnail": "heroes/Oddy/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Krit. Chance um 250 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Krit. Chance um 250 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Krit. Chance um 250 %."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Krit. Chance um 250 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht Schaden um 40 %.",
+          "thumbnail": "heroes/Oddy/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Reduziert Cooldown um 1,5 Sek.",
+          "thumbnail": "heroes/Oddy/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Ziel ändert sich zu 2 zufällige Feinde.",
+          "thumbnail": "heroes/Oddy/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Während des Cooldowns reduzieren normale Angriffe den Cooldown von 'Zeitfragmente' um 1 Sek.",
+          "thumbnail": "heroes/Oddy/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht die Manakosten um 2 und stellt das Mana aller Verbündeten wieder zur Gänze her.",
+          "thumbnail": "heroes/Oddy/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Erhöht bei 5 oder mehr Feinden den Schaden um 100 %. Getroffene Feinde erleiden für 10 Sek. zusätzlich 50 % Schaden.",
+          "thumbnail": "heroes/Oddy/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Ändert die Gelegenheiten, zusätzlichen Schaden durch Benutzung des Skills zu erhalten, auf 3-mal.",
+          "thumbnail": "heroes/Oddy/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Ändert die Chance, zu versteinern, um 40 %.",
+          "thumbnail": "heroes/Oddy/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/ANG-GESCHW. +100",
+        "thumbnail": "heroes/Oddy/perks/light.png"
+      },
+      "dark": {
+        "effect": "Reduziert alle 10 Sek. den Cooldown von 4 zufälligen Helden um 1 Sek.",
+        "thumbnail": "heroes/Oddy/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Zeit des Mondschattens, Tempodiana",
+    "description": "Nach der Nutzung von Zeitkrümmung sind die Cooldowns aller Verbündeten um {0} Sek. reduziert und ihr ANG für 10 Sek. um {1} % erhöht.",
+    "value": {
+      "0": {
+        "0": "2",
+        "1": "3",
+        "2": "4",
+        "3": "5",
+        "4": "6",
+        "5": "7"
+      },
+      "1": {
+        "0": "14",
+        "1": "17",
+        "2": "21",
+        "3": "25",
+        "4": "30",
+        "5": "35"
+      }
+    },
+    "thumbnail": "heroes/Oddy/uw.png",
+    "story": "Nachdem Oddys Uhr mit dem Fluch der Redpur belegt wurde und die Macht der Zeitkontrolle über lebendige Wesen erlangte, nützte er die gewonnene, unendliche Zeit, deren Anwendungsmöglichkeiten zu erforschen. Als er schließlich nach vielen Versuchen eine Uhr erschaffen hatte, die die Essenz der Zeitmagie enthielt, fand Oddy heraus, dass das Geheimnis der Redpur-Magie dem Mondlicht und den so erzeugten Schatten entstammt. Er nannte sein Meisterwerk „Tempodiana“ und gab ihr den Spitznamen „Zeit des Mondschattens“."
+  },
+  "uts": {
+    "1": {
+      "name": "Ausgezeichnete Kugel",
+      "description": "[Zeitriss] gewährt Massenkontroll-Immunität für die Dauer des Skills und verringert das Mana des Ziels um {0}.",
+      "value": {
+        "0": {
+          "0": "400",
+          "1": "480",
+          "2": "580",
+          "3": "700",
+          "4": "840",
+          "5": "1000"
+        }
+      },
+      "thumbnail": "heroes/Oddy/ut/1.png",
+      "story": "Ein Gerät, das zur Anpassung von Zeitrissen verwendet wird.\nZeitmanipulation kann zu Zeitrissen führen, in denen sich mächtige Energie sammelt. Jene, die nicht dazu in der Lage sind, die Risse zu kontrollieren, können auf ewig darin gefangen sein. Oddy, ein erfahrener Zeitzauberer, hat diese ausgezeichnete Kugel hergestellt, um Zeitrisse zu justieren und die Energie dazu einzusetzen, die Leistung von Tempodiana zu maximieren."
+    },
+    "2": {
+      "name": "Fragmentsammlung",
+      "description": "[Zeitfragmente] erhöht die Chance, den Cooldown zurückzusetzen um zus. 25 %, und den Schaden um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Oddy/ut/2.png",
+      "story": "Zeitfragmente, die aus dem Schatten des Mondes fielen.\nManchmal sorgt der Effekt des Mondschattens, der erscheint, wenn Zeitmagie gewirkt wird, dafür, dass Zeitfragmente aus anderen Dimensionen fallen. \nDie Zeitfragmente sind zwar klein, aber wenn man mehrere davon sammelt, werden sie zu einer riesigen Fragmentsammlung, die dem Beschwörer unentwegt Inspirationen bieten."
+    },
+    "3": {
+      "name": "Faden der Zeit",
+      "description": "[Zeitkrümmung] erhöht Schaden um {0} % und hebt negative Effekte auf allen Verbündeten auf.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Oddy/ut/3.png",
+      "story": "Fell des Rotfellhäuptlings, das im Schatten des Mondes aufgehängt wurde. Das mythische Wesen „Rotfellhäuptling“ soll den Mondschatten bei Vollmond nutzen, um Dimensionen zu durchqueren und zu tanzen. Der Rotfellhäuptling tanzt, bis der Mondschatten verschwindet und es heißt, dass sein Schwanz manchmal auf dem Pfad steckenbleibt. Das Fell des farbenfrohen mythischen Wesens verbleibt so eine Weile im Riss zwischen Raum und Zeit. Oddy bindet das Fell aus den Spuren der Schatten des Mondes zu einer Strähne zusammen und nutzt diese für die „Zeitkrümmung“."
+    },
+    "4": {
+      "name": "Zeit manipulierendes Uhrwerk",
+      "description": "[Uhrenmagie] erhöht den Schaden um 50 %. Getroffene Feinde erleiden für 10 Sek. um {0} % erhöhten Mag. Schaden.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Oddy/ut/4.png",
+      "story": "Ein Uhrwerk, das Oddy angefertigt hat, um den Fluss der Zeit zu kontrollieren.\nOddy verbrachte unzählige Tage vergebens damit, das perfekte Uhrwerk zu erforschen und zu entwickeln.\nDas Design war perfekt, er hatte jedoch keinen passenden Katalysatorencontainer für seine mächtige Uhrenmagie.\nKein Metall der Welt konnte der Hitze eines einzigen Tickens der Uhr standhalten.\nAls er verzweifelt über seinen Plan nachdachte, viel ihm plötzlich etwas ein: Er hatte von Nyx einmal einen Stein aus dem Weltall erhalten.\nEr erdete ihn und machte daraus das perfekte Uhrwerk."
+    }
+  },
+  "sw": {
+    "requirement": "Für 23 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Zeit des Mondschattens, Tempodiana und erhöht [64ffff]15[-] Sek. lang den Krit. Schaden des Verbündeten mit dem höchsten ANG um [64ff64]80[-] %. Jede Sek. wird der Cooldown aller aktiven Skills um [64ffff]1[-] Sek. verringert.",
+    "cooldown": "25",
+    "uses": "7",
+    "thumbnail": "heroes/Oddy/sw.png",
+    "advancement": {
+      "1": "Erhöht die VERT-Durchdr. des Gegners während der Wirkungsdauer um 350.",
+      "2": "Effekt-Gegneranzahl wird auf 3 Gegner geändert."
+    },
+    "story": "Tempodiana wurde basierend auf der Magie der Redpurs hergestellt, weshalb sie auch über dessen Kraft verfügte.\nDas Abtrocknen der Uhr mit der die Redpurs gespielt haben, gehörte daher zu eine der täglichen Routinen von Oddy.\n- Diese Jungs! Das ist kein Spielzeug!\nFür die Redpurs waren Oddys Verärgnis und Schimpfereien nur eines der vielen lustigen Spielen.\nVerzweifelt lief Oddy den Redpurs hinterher, bis er die Uhr zurückholte und dann schaute er sofort nach, ob diese defekte Stellen hatte ...\nDaraufhin schwebte Tempodiana mit hellen Lichtern hoch in die Luft.\n- Du meine Güte! Was ist los?\nVor dem verblüfften Oddy tauchte plötzlich ein Redpur in der Uhrfeder auf.\n\n- Kyu?\n\nDer unbekannte Redpur lächelte Oddy vertraut an.\nDie mysteriöse Magie des Redpurs erweckte das Mondlicht und die Seele von Tempodiana.\nEr weiß nicht, ob es an dem Aussehen des Redpurs lag ... aber Oddy lächelte es sofort an.\n\n- Das ist eine riesige Entdeckung! Das muss ich mir unbedingt näher anschauen!"
+  },
+  "splashart": "heroes/Oddy/sa.png",
+  "costumes": "heroes/Oddy/cos",
+  "aliases": null
+}

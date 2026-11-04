@@ -1,0 +1,60 @@
+{
+  "id": "Ascalon",
+  "profile": {
+    "name": "Ascalon",
+    "title": "Surveillant du Sanctuaire",
+    "type": [
+      "Technomagic Kingdom Raid"
+    ],
+    "race": "Ange",
+    "damage_type": "Physical",
+    "recommended_heroes": "Nyx, Rehartna, Erze, Glenwys",
+    "characteristics": "Ascalon réduit constamment les PM de ses ennemis, alors il faut bien gérer l'état des PM de vos Héros lorsque vous vous lancez dans la bataille.\nSoyez prudent, car en subissant des DEG de la part d'Ascalon, la récupération des PM des Héros se réduit, et les compétences de ces derniers sont scellées pendant un certain temps, si jamais leurs PM tombent à 0.",
+    "thumbnail": "bosses/Ascalon.png",
+    "recommendedHeroNames": [
+      "Nyx",
+      "Rehartna",
+      "Erze",
+      "Glenwys"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Bombardement multidimensionnel",
+      "cost": null,
+      "cooldown": "13",
+      "description": "Concentre l'énergie des dimensions et applique le Bombardement dimensionnel 4 fois à la cible ayant infligé le plus de DEG. À chaque Bombardement dimensionnel, réduit les DEG infligés par la cible à l'ennemi de 3%. Cet effet est cumulable jusqu'à 20 fois et ne peut être dissipé."
+    },
+    "2": {
+      "name": "Altération de Dimension",
+      "cost": null,
+      "cooldown": "33",
+      "description": "Invoque des monstres artificiels autour d'Ascalon et altère la dimension, réduisant considérablement tous les DEG reçus pendant 20 sec. Si tous les monstres artificiels sont éliminés avant la fin de la durée de cette compétence, les PV d'Ascalon diminuent et il est neutralisé, augmentant considérablement les DEG qu'il reçoit. Si les monstres ne sont pas tous éliminés avant la fin de la durée de cette compétence, l'ATQ d'Ascalon augmente de manière permanente."
+    },
+    "3": {
+      "name": "Terrain de Destruction",
+      "cost": null,
+      "cooldown": "22",
+      "description": "Pousse un cri assourdissant, dissipant le bouclier de l'ennemi. Ensuite, étourdit temporairement la cible, avant d'infliger des DEG P à 2 reprises à tous les ennemis, et les renverse."
+    },
+    "4": {
+      "name": "Bombardement dimensionnel",
+      "cost": null,
+      "cooldown": null,
+      "description": "Invoque des portails dimensionnels sur 2 ennemis aléatoires pour leur infliger le Bombardement dimensionnel toutes les 7 sec. Le Bombardement dimensionnel inflige des DEG P à la cible et réduit les PM de la cible touchée de 1000, avant de la mettre à l'état [Interférence dimensionnelle], ce qui réduit la récupération des PM de 1.5%. L'état [Interférence dimensionnelle] peut se cumuler jusqu'à 30 fois et ne peut être dissipé. Si les PM de la cible sont de 0 après la réduction des PM, scelle toutes les compétences de la cible pendant 7 sec. Lors des batailles de niveau 4 ou plus, invoque les portails dimensionnels sur 4 ennemis aléatoires et s'ajoute l'effet d'augmentation de DEG reçus à l'état [Interférence dimensionnelle] de 1.5%."
+    },
+    "5": {
+      "name": "Surveillance d'Ascalon",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lors des batailles de la 1e à la 4e vague, invoque des portails dimensionnels sur tous les ennemis et leur inflige le bombardement de surveillance toutes les 7 sec. Le bombardement de surveillance inflige des DEG P à la cible, réduit les PM de la cible touchée de 500, et la met à l'état [Interférence dimensionnelle], ce qui réduit la récupération des PM de 1.5%. L'état [Interférence dimensionnelle] peut se cumuler jusqu'à 30 fois et ne peut être dissipé. Si les PM de la cible sont de 0 après la réduction des PM, scelle toutes les compétences de la cible pendant 4 sec. Lors des batailles de niveau 4 ou plus, s'ajoute l'effet d'augmentation de DEG reçus à l'état [Interférence dimensionnelle] de 1.5%."
+    },
+    "6": {
+      "name": "Pouvoir d'Ascalon",
+      "cost": null,
+      "cooldown": null,
+      "description": "Ascalon n'est pas affecté par les effets concernant la Vitesse d'ATQ et l'augmentation des DEG reçus. Le même effet s'applique à la cible touchée par Pouvoir d'Ascalon."
+    }
+  },
+  "aliases": null
+}

@@ -1,0 +1,63 @@
+{
+  "id": "Mountain Fortress",
+  "profile": {
+    "name": "Forteresse de la Montagne",
+    "title": "Héritage de Technomage Royal Antique",
+    "type": [
+      "World Boss"
+    ],
+    "race": "Golem",
+    "damage_type": "Physical",
+    "recommended_heroes": "Frey, Luna, Jane",
+    "characteristics": "Forteresse de la Montagne voit sa DEF réduite et reçoit des DEG M. augmentés lorsque son Noyau est vulnerable. Lorsqu'elle est en [Mode Défensif], attaquez avec des DEG M. pour atteindre le Noyau, créant ainsi une opportunité d'infliger d'énormes DEG.",
+    "thumbnail": "bosses/Mountain Fortress.png",
+    "recommendedHeroNames": [
+      "Frey",
+      "Luna",
+      "Jane"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Autorité",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Tire des lasers sur une cible unique à 6 reprises, infligeant d'énormes DEG. Chaque coup reduit la DEF de la cible de 10% pendant 10 sec. Cette attaque a une grande chance de réussir un coup critique."
+    },
+    "2": {
+      "name": "Purifier",
+      "cost": null,
+      "cooldown": "18",
+      "description": "Augmente de beaucoup les DEF P et M pendant 15 sec et active [Avalanche] pendant 15 sec. Pendant ce temps, les DEG M rendent le Noyau beaucoup plus vulnérable."
+    },
+    "3": {
+      "name": "Souffle Terrestre",
+      "cost": null,
+      "cooldown": "26",
+      "description": "Frappe le sol, infligeant des DEG P à tous les ennemis sur une large zone et les renverse pendant 5 sec."
+    },
+    "4": {
+      "name": "Rayon d'Annihilation",
+      "cost": null,
+      "cooldown": "40",
+      "description": "Tire un rayon qui explose tous les ennemis sur une longue ligne droite en infligeant des DEG P. Les ennemis touchés au-delà d'une certaine distance subissent un Étourdissement pendant 5 sec."
+    },
+    "5": {
+      "name": "Avalanche",
+      "cost": null,
+      "cooldown": null,
+      "description": "Toutes les 3 secondes, applique 1 charge d'Avalanche. L'application de 5 charges provoquent l'attaque de 5 ennemis aléatoires à 3 reprises, ce qui inflige d'énormes DEG P et applique Étourdissement pendant 5 secondes."
+    },
+    "6": {
+      "name": "Coquille de Roche",
+      "cost": null,
+      "cooldown": null,
+      "description": "La gigantesque Forteresse de la Montagne est immunisée aux effets de Vitessse d'ATQ et l'ATQ augmente au fil du temps. Des rochers sont progressivement jetés sur les ennemis, appliquant l'effet Étourdissement."
+    }
+  },
+  "aliases": [
+    "MountainFortress",
+    "WB1",
+    "WB 1"
+  ]
+}

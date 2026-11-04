@@ -1,0 +1,58 @@
+{
+  "id": "Musama",
+  "profile": {
+    "name": "Musama",
+    "title": "Œil du Soleil",
+    "type": [
+      "Temple of the God King"
+    ],
+    "race": "Golem",
+    "damage_type": "Physical",
+    "recommended_heroes": "Nia, Zafir, Annette",
+    "characteristics": "La barrière de soin du Trésor sacré du Firmament immunise tous les DEG reçus par le Trésor sacré et dissipe continuellement les effets négatifs. Elle empêche également la récupération des PV des Héros aux attaques à distance. Tous ces effets sont désactivés lorsque Musama utilise la compétence [Symbole du Soleil], alors profitez-en pour vous débarrasser du Trésor sacré du Firmament.",
+    "thumbnail": "bosses/Musama.png",
+    "recommendedHeroNames": [
+      "Nia",
+      "Zafir",
+      "Annette"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Onde solaire",
+      "cost": null,
+      "cooldown": "20",
+      "description": "Inflige des DEG P aux ennemis situés en face en ligne droite et diminue leurs PM."
+    },
+    "2": {
+      "name": "Tempête de Sable",
+      "cost": null,
+      "cooldown": "25",
+      "description": "Génère une tempête de sable pour renvoyer une partie des DEG reçus. Elle attaque les ennemis à portée pour leur infliger des DEG P à 20 reprises et diminue la DEF pendant une courte durée. L'effet de réduction de DEF est cumulable jusqu'à 20 charges, et à 15 charges cumulées, applique la malédiction de sable à la cible qui réduit considérablement sa DEF pendant 30 sec. La malédiction de sable ne peut être dissipée."
+    },
+    "3": {
+      "name": "Symbole du Soleil",
+      "cost": null,
+      "cooldown": "30",
+      "description": "Après avoir désactivé le Trésor sacré du Firmament, génère une puissante sphère de sable en assemblant sa force et diminue tous les DEG reçus à 1. Une fois toute sa force assemblée, dissipe tous les effets positifs sur les Héros et leur inflige des DEG P avant de les étourdir. Si tous les Trésors sacrés du Firmament sont supprimés, cette compétence est annulée. Musama reçoit d'importants DEG et il est temporairement neutralisé."
+    },
+    "4": {
+      "name": "Gardien de Sekireinel",
+      "cost": null,
+      "cooldown": null,
+      "description": "Le Gardien de Sekireinel, doté d'une grande force, est immunisé contre les effets négatifs qui réduisent la DEF et la Vitesse d'ATQ. Durant la bataille au niveau supérieur à 6, Musama récupère ses PV en continu."
+    },
+    "5": {
+      "name": "Trésor sacré du Firmament",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lorsqu'il n'y a aucun Trésor sacré de Firmament, Musama en invoque un. Une fois le Trésor sacré du Firmament activé, tous les DEG reçus par ce dernier sont réduits à 1, et il est immunisé aux Contrôles. Il génère une barrière de soin autour de Musama. À l'intérieur de la barrière de soin, Musama récupère des PV tout en bénéficiant d'une augmentation considérable de récupération, mais à l'extérieur, aucune récupération ne peut être appliquée."
+    }
+  },
+  "aliases": [
+    "TrialoftheSky",
+    "TrialofSky",
+    "TrialSky",
+    "Musama"
+  ]
+}

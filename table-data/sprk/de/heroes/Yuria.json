@@ -1,0 +1,244 @@
+{
+  "id": "Yuria",
+  "profile": {
+    "name": "Yuria",
+    "title": "Mysteriöse Schneiderin Yuria",
+    "class": "Archer",
+    "position": "Back-300",
+    "attack_range": "4700",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "24",
+    "height": "170",
+    "race": "Menschen",
+    "constellation": "Lasiphil, die Prophetin",
+    "birth": {
+      "month": 3,
+      "day": 12,
+      "monthName": "Monat der Einsicht"
+    },
+    "like": "Reisen, ihre Arbeit, warme Bäder, Bardengedichte und Lieder",
+    "dislike": "Verächter von guter Kleidung, Rücksichtslosigkeit gegenüber dem Schicksal anderer, Lügen",
+    "story": "Die meisten Leute wissen keine Antwort,\nwenn man nach der berühmtesten Schneiderin des Orbis-Kontinents fragt.\nWer aber über Gewänder Bescheid weiß,\nwird stets den gleichen Namen nennen: Yuria.\nYuria, eine Schneiderin aus Penteonia,\nstellt für ihre Aufträge immer die gleichen zwei Bedingungen.\nErstens will sie etwas Zeit mit ihrer Kundschaft verbringen,\ndamit sie eine Inspiration für die Kleidung findet.\nZweitens darf ihre Kundschaft nicht lügen\noder sich anders als sie wirklich ist darstellen.\nDie erste Bedingung rührt aus ihrer Gabe der ‚Voraussicht‘ her,\nmit der sie den Schicksalsfaden ihrer Kunden erspürt und mit der Nadel in den Stoff näht.\nDie zweite Bedingung kommt daher, dass sie die Wahrheit erspüren kann und Lügen abstoßend findet.\nFür jene, die nicht aufrichtig sein können, will sie nicht arbeiten.\nIhre Meisterstücke aus den gelesenen Schicksalen sind wertvoll wie Sternenlicht.\nUm sie zu erlangen, haben Adlige gemordet und sind gestorben.",
+    "thumbnail": "heroes/Yuria/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Bindendes Karma",
+      "cost": "2",
+      "cooldown": "12",
+      "description": "Fügt [64ffff]2[-] Gegnern [ffc800]769 + 769 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 405.6% von M.ATK[-] Mag. Schaden zu, der Mag. Blockchance ignoriert und ihre MP um [ff6464]500[-] verringert. Fügt außerdem Ziele, die keine Helden sind, zusätzlich [ffc800]385 + 385 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 202.8% von M.ATK[-] VERT-ignorierenden Mag. Schaden zu.\nFalls das Ziel sich im [fa96fa]„Schicksalsfaden“[-] Zustand befindet, werden alle Schäden in VERT-ignorierenden Schaden geändert und angewendet, und [fa96fa]„Schicksalsfaden“[-] wird entfernt.",
+      "thumbnail": "heroes/Yuria/skills/1.png"
+    },
+    "2": {
+      "name": "Sternenlichtnaht",
+      "cost": "2",
+      "cooldown": "15",
+      "description": "Entfernt eigene negative Effekte und zaubert ein Schild auf sich selbst, der [ffc800]10[-] Sek. lang [64ffff]1035 + 1035 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 6466 * M.ATK / 1000[-] Schaden absorbiert.\nSolange der Schild wirkt, erhält der Wirker Massenkontroll-Immunität, wobei der ANG um [64ff64]30[-] % und die Krit. Chance um [64ff64]300[-] erhöht werden. Zudem treffen alle Angriffe von [fa96fa]Yuria[-] [64ffff]1[-] zusätzliche(s) Ziel(e).",
+      "thumbnail": "heroes/Yuria/skills/2.png"
+    },
+    "3": {
+      "name": "Kreis des Schicksals",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Fügt [64ffff]2[-] Gegnern [ffc800]1143 + 1143 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 550.2% von M.ATK[-] Mag. Schaden zu, wodurch sie für [64ffff]10[-] Sek. [ff6464]30[-] % mehr Mag. Schaden erleiden und [64ffff]10[-] Sek. lang mit [fa96fa]Schicksalsfaden[-] belegt werden. Dieser Skill wendet [64ff64]250[-] höhere VERT-Durchdr. an und unter [fa96fa]Schicksalsfaden[-] wird die ANG-GESCHW. des Gegners um [ff6464]250[-] verringert. Ist das Ziel kein Held, wird [ffc800]571 + 571 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 275.1% von M.ATK[-] zus. Mag. Schaden zugefügt.",
+      "thumbnail": "heroes/Yuria/skills/3.png"
+    },
+    "4": {
+      "name": "Segen der Wahrheit",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht sämtliche eigene Abwehr um 41 + 41 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient und das Angriffstempo um 300. Normale Angriffe treffen 2 Gegner und erzeugen jeweils einen Stapel [Sternenstigma]. Pro Stapel erleiden Ziele 1% mehr Magieschaden. Bis zu 15-mal stapelbar und unentfernbar.",
+      "thumbnail": "heroes/Yuria/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schild-TP um 10 %.",
+      "III": "Erhöht Schild-TP um 15 %.",
+      "IV": "Erhöht Schild-TP um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht den VERT-Boost um 10 %.",
+      "III": "Erhöht den VERT-Boost um 15 %.",
+      "IV": "Erhöht den VERT-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Lässt den Skill 1.000 Mana reduzieren.",
+          "thumbnail": "heroes/Yuria/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Betäubt getroffene Ziele für 3 Sek.",
+          "thumbnail": "heroes/Yuria/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert die Schildmenge um 50 % und kann den Schild nicht entfernen.",
+          "thumbnail": "heroes/Yuria/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht Manakosten um 1 und verleiht den gleichen Effekt 1 Verbündetem mit dem höchsten ANG.",
+          "thumbnail": "heroes/Yuria/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Lässt den Skill 500 ANG-GESCHW. reduzieren.",
+          "thumbnail": "heroes/Yuria/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Entfernt positiven Effekt vom Ziel.",
+          "thumbnail": "heroes/Yuria/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Ändert erhaltene Mag. Schadenserhöhung auf 2.5 %.",
+          "thumbnail": "heroes/Yuria/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erhöht den VERT und ANG-GESCHW.-Boost um 50 %.",
+          "thumbnail": "heroes/Yuria/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 % / ANG-GESCHW. +100",
+        "thumbnail": "heroes/Yuria/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhält zu Beginn des ersten Kampfes „Segen der Voraussicht“. „Segen der Voraussicht“ erhöht 20 Sek. lang die Ausweichchance um 300 und verringert den erlittenen Schaden um 300. Dieser Effekt kann nicht entfernt werden. Steht Yuria unter Massenkontrolle während „Segen der Voraussicht“ aktiv ist, wird sofort „Segen der Voraussicht“ verwendet, um alle negativen Effekte sofort zu entfernen. Dann erhält sie 3 Sek. lang Massenkontroll-Immunität und 1 Mana-Kugel werden wiederhergestellt.",
+        "thumbnail": "heroes/Yuria/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Sternhimmelweber, Mellifluo",
+    "description": "Erhöht bei jedem Normal-ANG 10 Sek. lang den ANG um {0} % und Krit. Schaden um {1} %. Dieser Effekt kann bis zu 20-mal gestapelt werden und kann nicht entfernt werden. Bei Verwendung des Skills werden {2} MP regeneriert.",
+    "value": {
+      "0": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.7",
+        "4": "2.1",
+        "5": "2.5"
+      },
+      "1": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.7",
+        "4": "2.1",
+        "5": "2.5"
+      },
+      "2": {
+        "0": "400",
+        "1": "480",
+        "2": "580",
+        "3": "700",
+        "4": "840",
+        "5": "1000"
+      }
+    },
+    "thumbnail": "heroes/Yuria/uw.png",
+    "story": "Yurias Lieblingssatz von Nadel, Faden und Schere.\nMit diesem Werkzeug schuf sie all ihre Meisterwerke.\nDer Faden ist vom Sternenlicht des Nachthimmels durchwoben\nund Nadel und Schere wurden aus dem Metall eines Meteoriten geschmiedet.\nZusammen geben sie Yuria die Macht, die Zukunft zu lesen."
+  },
+  "uts": {
+    "1": {
+      "name": "Flüstern des Nachthimmels",
+      "description": "[Bindendes Karma] gewährt für die Dauer des Skills Immunität gegen Massenkontrolle und erhöht den Schaden um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Yuria/ut/1.png",
+      "story": "Der einzige Schal der Welt, der aus Yurias selbstgesponnenem Sternenlichtfaden besteht.\nAls stetig Reisende muss sich Yuria vor den Elementen beschützen,\nweswegen sie sich etwas Bequemes schneiderte.\nDas Ergebnis war dieser Schal, der sich den Temperaturen auf magische Weise anpasst.\nMit diesem Kleidungsstück um ihre Schultern hält Yuria weder Sturm noch Hagel vom Reisen ab.\nDer einzige Nachteil ist, dass das schimmernde Material Beobachter aus der Ferne dazu verleitet,\nYuria für eine Fee oder einen Geist zu halten und voller Furcht zu fliehen."
+    },
+    "2": {
+      "name": "Voraussehende Augen",
+      "description": "[Sternenlichtnaht] erhöht die Schildmenge um 50 % und verringert erlittenen Körp. Schaden um {0} % für die Schilddauer.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Yuria/ut/2.png",
+      "story": "Eines der Vermächtnisse des Wahrsagers Lasiphil, dem entfernten Vorfahren von Yuria.\nEs handelt sich um einen Satz aus 3 Ringen, die trotz ihres Alters nie ihren Glanz verloren haben.\nIhre besonderen Mächte kann selbst Yuria nicht einschätzen.\nEines der Bücher, die Yurias Großeltern ihr hinterlassen haben,\nbehauptet, dass die Voraussehenden Augen ihr Licht sein werden\nund den Propheten auf den rechten Pfad führen können."
+    },
+    "3": {
+      "name": "Jenseits des Spiegels",
+      "description": "[Kreis des Schicksals] erhöht den Schaden um 50 % und erhöht erlittenen Mag. Schaden am Ziel 10 Sek. lang um {0} %.",
+      "value": {
+        "0": {
+          "0": "10",
+          "1": "12",
+          "2": "14",
+          "3": "17",
+          "4": "21",
+          "5": "25"
+        }
+      },
+      "thumbnail": "heroes/Yuria/ut/3.png",
+      "story": "Eines der Vermächtnisse des Wahrsagers Lasiphil, dem entfernten Vorfahren von Yuria.\nDer von bläulicher Energie durchzogene Spiegel,\nden Yuria nun in ihrem Reisewagen aufbewahrt,\nzeigt Reflexionen, aber auch das Schicksal.\nYuria begreift in Grundzügen, was der Spiegel ihr zeigt,\ndoch selbst sie kann nicht alle Visionen interpretieren."
+    },
+    "4": {
+      "name": "Tränen des Himmels",
+      "description": "[Segen der Wahrheit] erhöht die max. Zählerzahl des ‚Stigmas der Sterne‘ um 10. Schaden von normalen Angriffen steigt um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Yuria/ut/4.png",
+      "story": "Ein starker, aber erfrischender Schnaps aus Penteonia.\nAls eine der besten Spirituosen auf Orbis ist er sehr wertvoll.\nDurch ihre häufigen Reisen\nkann Yuria ihre Lieblingssorte nur selten erhalten.\nDeshalb kehrt sie mindestens einmal im Jahr zurück,\nfertigt ein Kleid für die Königin an und lässt sich in ein paar Flaschen auszahlen."
+    }
+  },
+  "sw": {
+    "requirement": "Für 20 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Sternhimmelweber, Mellifluo und setzt den Cooldown des [Bindendes Karma]-Skills zurück. Danach greift es den Gegner an, fügt ihm [ffc800]400% von M.ATK[-] Mag. Schaden zu, verringert [64ffff]10[-] Sek. lang seine Heilungsrate um [ff6464]50[-] % und setzt ihn [64ffff]10[-] Sek. lang unter ‘Schicksalsfaden‘. Handelt es sich um einen Boss wird ihm zus. [ffc800]400% von M.ATK[-] VERT-ignorierender Mag. Schaden zugefügt.",
+    "cooldown": "20",
+    "uses": "6",
+    "thumbnail": "heroes/Yuria/sw.png",
+    "advancement": {
+      "1": "Verwendungsbedingungen werden um 5 Sek. verringert und der Schaden um 70 % erhöht.",
+      "2": "Entfernt die negativen Effekte des Wirkers und aktiviert diesen Skill, wobei [Segen der Voraussicht] erhalten wird."
+    },
+    "story": "Den Schicksal zu sehen, erfordert einen Preis. Yuria wusste das von Anfang an, als sie begann, die Vorhersage zu sehen. Sie war also vorsichtig, selbst wenn sie den Faden abschnitt, wenn sie mit der Nadel stickte oder etwas mit der Schere abschnitt. Bei all diesen normalen Aufgaben war ihre Vorsicht geboten. Als ihre Scharfsinnigkeit und der Ernst, der den Schicksal sieht, den Endpunkt erreichten, sah sie die ewige Zukunft und die Möglichkeiten, die ihr Faden stickt.\n- Oh, das ist ... ein schwerer Schicksal. Aber das muss ich akzeptieren. Auch wenn mich das meine Macht kostet ...\nYuria könnte den Faden des Schicksals exquisiter behandeln. Während sie die Sterne in einer Galaxie berührt, wirkt sie elegant und zart."
+  },
+  "splashart": "heroes/Yuria/sa.png",
+  "costumes": "heroes/Yuria/cos",
+  "aliases": null
+}

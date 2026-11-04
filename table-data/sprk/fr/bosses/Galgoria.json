@@ -1,0 +1,61 @@
+{
+  "id": "Galgoria",
+  "profile": {
+    "name": "Galgoria",
+    "title": "Détenteur de la Mort",
+    "type": [
+      "Technomagic Kingdom Raid"
+    ],
+    "race": "Ange",
+    "damage_type": "Magical",
+    "recommended_heroes": "Morrah, Arch, Annette",
+    "characteristics": "Comme Galgoria récupère constamment ses PV, il faut réduire sa Récupération des PV ou lui infliger des DEG très puissants afin de le terrasser.\nSi des DEG lui sont infligés à plusieurs reprises, les Héros qui lui ont fait subir le plus de DEG seront scellés pendant un certain temps, alors prenez garde.",
+    "thumbnail": "bosses/Galgoria.png",
+    "recommendedHeroNames": [
+      "Morrah",
+      "Arch",
+      "Annette"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Destructeur des Marais",
+      "cost": null,
+      "cooldown": "10",
+      "description": "Attaque 3 fois les ennemis à portée situé à l'avant de Galgoria, infligeant des DEG M. Ensuite, attaque les ennemis dans une large zone, leur infligeant des DEG M en fonction des PV actuels de la cible et les renversant pendant 3 sec."
+    },
+    "2": {
+      "name": "Marais toxique",
+      "cost": null,
+      "cooldown": "17",
+      "description": "Génère [Marais toxique] dans une zone circulaire à l'avant de Galgoria pendant 5 sec. Inflige toutes les sec des DEG M aux ennemis touchés, et réduit leur Récupération des PM de 40%, mais augmente leur ATQ de 40%."
+    },
+    "3": {
+      "name": "Explosion de Poison",
+      "cost": null,
+      "cooldown": "18",
+      "description": "Galgoria attaque tous les ennemis à 2 reprises. La première attaque réduit l’ATQ de la cible de 50% pendant 10 sec, et la seconde attaque réduit sa Crit de 500 pendant 10 sec."
+    },
+    "4": {
+      "name": "Venin létal",
+      "cost": null,
+      "cooldown": null,
+      "description": "Après avoir utilisé une compétence 3 fois, attaque tous les ennemis, leur infligeant des DEG M. De manière permanente, réduit la Récupération des PV des ennemis touchés et augmente l’ATQ de Galgoria."
+    },
+    "5": {
+      "name": "Vitalité impérissable",
+      "cost": null,
+      "cooldown": null,
+      "description": "Galgoria n'est pas affecté par les effets concernant la Vitesse d'ATQ, possède une Récupération des PV très élevée, et récupère les PV toutes les sec. Pendant la bataille contre Galgoria, les Héros ne peuvent bénéficier de Vol de vie. Lors des batailles de niveau 4 ou plus, la Récupération des PV de Galgoria augmente de 50%, tandis que la Récupération des PV des Héros est réduite de 40%, et le taux de bouclier des Héros est réduit de 60%."
+    },
+    "6": {
+      "name": "Entrave du Marais",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lorsque Galgoria subit des DEG 150 fois, dissipe l'entrave de tous les Héros. Ensuite, entrave 1 Héros lui ayant infligé le plus de DEG pendant 8 sec, les mettant à l'écart de la bataille, et augmente les DEG infligés par tous les Héros non entravés pendant 8 sec."
+    }
+  },
+  "aliases": [
+    "Gal"
+  ]
+}

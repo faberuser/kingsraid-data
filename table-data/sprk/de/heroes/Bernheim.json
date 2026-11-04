@@ -1,0 +1,244 @@
+{
+  "id": "Bernheim",
+  "profile": {
+    "name": "Bernheim",
+    "title": "Verwüsterschwert Bernheim",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "7800",
+    "damage_type": "Magical",
+    "gender": "Männlich",
+    "age": "30",
+    "height": "194",
+    "race": "Menschen",
+    "constellation": "Hexipolia, der Wanderer",
+    "birth": {
+      "month": 12,
+      "day": 30,
+      "monthName": "Monat der Geduld"
+    },
+    "like": "Heimische Landschaft, gemächliche Lektüre, Zeit für einen alleine, Königin Artemia",
+    "dislike": "Schwächeres Selbst in der Vergangenheit, Targarios",
+    "story": "Bernheim von Lachelima entstammt einem Adelshaus von Penteonia und war von Kindheit an ein begnadeter Kämpfer.\nEr hatte die Kraft eines Riesen und ein hervorragendes Urteilsvermögen, also war es unbestreitbar, dass er ein großer Ritter werden würde.\nEin fataler Fehler verwehrte ihm aber den Erfolg: Er konnte die Macht des Lichts nicht nutzen.\nEgal, wie er sich auch mühte, wie stark sein Glaube und Wille waren, die Macht des Lichts antwortete nicht auf seinen Ruf.\nObwohl er stets nur Königin und Vaterland dienen wollte, brachte er es nur zum niederen Ritter – eine Quelle steter Frustration für ihn.\nEr gab nicht auf und trainierte hart, um die Macht des Lichts zu meistern, aber sein ständiges Scheitern begann langsam, seinen Geist zu schwächen.\nEines Tages besuchte er die Zentralkirche, um die Macht des Lichts und seine Funktion zu studieren.\nAls er in ein Buch versunken dasaß, vernahm er einen Klang.\nEs war eine engelshafte Stimme, die nach ihm rief.\nBernheims lange angestaute Frustration führte ihn zu einer Kammer, versiegelt in den Tiefen der Kirche, aus der die Stimme drang.\nAls er sich ihr näherte, verschwanden die Barrieren, als wären sie nie da gewesen. Im Raum fand er ein Schwert in Form eines Engels, das blendendes Licht verströmte.\n\n„Du bist der Auserwählte“, sagte das Schwert und lockte ihn mit heiligem Licht zu sich.\nIm Glauben, seine endlosen Anstrengungen würden endlich belohnt, packte er den Stahl.\n\nDarauf versank sein Geist in tiefstem Dunkel.\n\nDie Dunkelheit, die ihn einhüllte – dies war die endlose, schattige Leere der Vergeblichkeit.\nEin Gefäß, das nie gefüllt werden könnte; ein ganz anderes Universum.\nIn der endlosen Finsternis fühlte Bernheim, wie sein Geist zerfiel und seine Existenz verblasste.\nSein Geist und sein Körper wurden langsam von einer dunklen, unheilvollen Kraft heimgesucht.\n\nDoch Bernheim war auch einer der Ritter Penteonias, ein Kämpe des Lichts, eingeschworen, niemals dem Dunkel anheimzufallen.\nEr erhob sich aus der trügerischen Dunkelheit und erlangte dank seines unbezwingbaren Geistes das Bewusstsein zurück.\n\nAls er zur Besinnung kam und auf dem Boden lag, ruhte ein riesiges schwarzes Schwert in seiner Hand.\nDie Klinge mit der Fratze eines Dämons lachte und verhöhnte den Ritter, der sich vom Pfad des Lichts abwandte.\n\nSchließlich wurde Bernheim aus Penteonia verbannt und begann ein neues Leben als Söldner im Kaiserreich Vespia,\ndas bösartige, vorlaute Schwert in Händen ...",
+    "thumbnail": "heroes/Bernheim/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Kreis der Vergeblichkeit",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Greift das Ziel und alle Feinde innerhalb der Reichweite an, verursacht dabei [ffc800]659 + 659 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 225.6% von M.ATK[-] Mag. Schaden und erzeugt einen [fa96fa][Kreis der Vergeblichkeit][-]. [fa96fa][Kreis der Vergeblichkeit][-] greift für [64ffff]4[-] Sek. an und verursacht [ffc800]4 * (310 + 310 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 81.6% von M.ATK)[-] Mag. Schaden, wobei die ANG-GESCHW. um [ff6464]300[-] verringert wird und verhindert wird, dass Gegner durch positive Effekte verstärkt werden können.\n\n[ff6464]Hat nach Beginn des ersten Kampfes einen Cooldown von 4 Sek.[-]",
+      "thumbnail": "heroes/Bernheim/skills/1.png"
+    },
+    "2": {
+      "name": "Kampferöffnung",
+      "cost": null,
+      "cooldown": "22",
+      "description": "Fügt Frontfeinden in Reichweite [ffc800]759 + 759 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 308.4% von M.ATK[-] Mag. Schaden zu und wirft sie zurück. Erhöht danach für [64ffff]15[-] Sek. alle eigenen Resistenzen um [64ff64]200[-], die eigene VERT um [64ff64]110 + 110 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient[-] und gewährt Massenkontroll-Immunität.\n\n[ff6464]Hat nach Beginn des ersten Kampfes einen Cooldown von 8 Sek.[-]",
+      "thumbnail": "heroes/Bernheim/skills/2.png"
+    },
+    "3": {
+      "name": "Zerstörer",
+      "cost": null,
+      "cooldown": "22",
+      "description": "Greift nahe Feinde in ringförmiger Reichweite [64ffff]10[-]-mal an und verursacht [ffc800]10 * (125 + 125 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 59% von M.ATK)[-] Mag. Schaden. Greift dann die Gegner in einem noch größeren Umgebungsbereich an, verursacht dabei [ffc800]1115 + 1115 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 498.3% von M.ATK[-] Mag. Schaden und betäubt sie für [64ffff]5[-] Sek.\nGegner, die keine Helden sind, erleiden noch einmal zusätzlich [ffc800]123 + 123 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 57.2% von M.ATK[-] Mag. Schaden.\n\n[ff6464]Hat nach Beginn des ersten Kampfes einen Cooldown von 10 Sek.[-]",
+      "thumbnail": "heroes/Bernheim/skills/3.png"
+    },
+    "4": {
+      "name": "Zusammenbruch",
+      "cost": null,
+      "cooldown": null,
+      "description": "Bernheim kann kein Mana wiederherstellen und keine seiner Skills verbrauchen Mana. Nach Normal- und Skill-Angriffen erleiden Gegner für [64ffff]10[-] Sek. einen Zusammenbruch, ihre Heilungsrate wird um [ff6464]1[-] % gesenkt sowie der eigene ANG um [64ff64]13 + 13 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient[-] und die eigene Heilungsrate um [64ff64]0.5[-] % erhöht. Alle Effekte können bis zu [64ffff]50[-]-mal gestapelt werden.",
+      "thumbnail": "heroes/Bernheim/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht VERT-Erhöhungsrate um 10 %.",
+      "III": "Erhöht VERT-Erhöhungsrate um 15 %.",
+      "IV": "Erhöht VERT-Erhöhungsrate um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht den erhaltenen Mag. Schaden von Feinden im [Kreis der Vergeblichkeit] um 25 %.",
+          "thumbnail": "heroes/Bernheim/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Wenn [Kreis der Vergeblichkeit] gewirkt wird, während [Kampferöffnung] aktiv ist, wird seine Dauer um 4 Sek. verlängert.",
+          "thumbnail": "heroes/Bernheim/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Entfernt alle eigenen negativen Effekte.",
+          "thumbnail": "heroes/Bernheim/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Erhöht die Heilungsrate während der Effekt-Wirkungsdauer um 30 %.",
+          "thumbnail": "heroes/Bernheim/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Ignoriert feindliche Blockeffekte.",
+          "thumbnail": "heroes/Bernheim/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Zusätzlicher Schaden gegen Feinde, die keine Helden sind; VERT wird ignoriert.",
+          "thumbnail": "heroes/Bernheim/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Stapel von Zusammenbruch kann nicht mehr entfernt werden.",
+          "thumbnail": "heroes/Bernheim/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erhöhungen von ANG und Heilungsrate können nicht mehr entfernt werden.",
+          "thumbnail": "heroes/Bernheim/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 % / Krit. Chance +100",
+        "thumbnail": "heroes/Bernheim/perks/light.png"
+      },
+      "dark": {
+        "effect": "Verringert zu Beginn des ersten Kampfes den eigenen Skill-Cooldown um 5 Sek. Im Gildenkrieg aktiviert, wird der Effekt verdoppelt.",
+        "thumbnail": "heroes/Bernheim/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Brennofen der Vergeblichkeit, Targarios",
+    "description": "Erhöht alle 10 Sek. eigenen ANG um {0} %, alle VERT um {1} % und reduziert den Cooldown aller Skills um {2} Sek. Während der [Kampferöffnung] wird die Cooldown-Reduzierung verdoppelt. Dieser ANG- und VERT-Boost kann bis zu 4-mal gestapelt und nicht mehr entfernt werden.",
+    "value": {
+      "0": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      },
+      "2": {
+        "0": "1",
+        "1": "1.2",
+        "2": "1.4",
+        "3": "1.7",
+        "4": "2.1",
+        "5": "2.5"
+      }
+    },
+    "thumbnail": "heroes/Bernheim/uw.png",
+    "story": "Der Name des Schwerts lautet 'Es, das nie gesättigt werden kann', 'Es, das endlos giert'.\nEs hat die Macht, alle Formen von Energie, böse wie heilige, aufzunehmen und sie als die eigenen zu nutzen.\nEs hat seinen eigenen Willen und einen sehr temperamentvollen, zerstreuten und grausamen Charakter.\nSelbst Königin Artemia kennt den genauen Grund für die Einkerkerung der Klinge unter der Zentralkirche von Penteonia nicht, aber es heißt, Targarios sei einst ein Dunkler Lord gewesen.\nEs mag angesichts seines leichtfertigen Charakters unwahrscheinlich erscheinen, aber es besteht kein Zweifel daran, dass es über verheerende Kräfte gebietet."
+  },
+  "uts": {
+    "1": {
+      "name": "Verblichenes Schwert",
+      "description": "[Kreis der Vergeblichkeit] verringert das Mana der Ziele um {0} und erhöht den Mag. Schaden, den sie erleiden, für 5 Sek. um 25 %.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Bernheim/ut/1.png",
+      "story": "Eine Standardausgabe der Ritterklingen Penteonias, die Bernheim nutzte, bevor er Targarios in die Falle ging.\nEs wurde geschaffen, um große Macht zu verleihen, wenn es von der Kraft des Lichts durchdrungen ist. Eines Tages bemerkte Targarios, dass Bernheim auch andere Waffen verwenden wollte. Aus Neid und Wahnsinn zerstörte es Bernheims ganzes Arsenal und absorbierte alle Kräfte, Schutzzauber und Segen der Waffen.\nBernheim sah dies, tat einen lauten Seufzer und warf den zerbrochenen Schrott fort – doch dieses Schwert behielt er bei sich."
+    },
+    "2": {
+      "name": "Medaille des Lichts",
+      "description": "[Kampferöffnung] verbraucht {0} % der derzeitigen TP, damit der Effekt nach Wirkung nicht mehr entfernt werden kann.",
+      "value": {
+        "0": {
+          "0": "50",
+          "1": "46",
+          "2": "41",
+          "3": "35",
+          "4": "28",
+          "5": "20"
+        }
+      },
+      "thumbnail": "heroes/Bernheim/ut/2.png",
+      "story": "Ein Lichtsymbol, das ihm verliehen wurde, als er in Penteonia den Ritterschlag erhielt.\nDie eingravierte Sonne versichert dem Träger dieser Medaille, dass das Licht stets auf seiner Seite ist.\nAuch wenn Bernheim sein Ritterstand entzogen und er aus dem Land verbannt wurde, ist er den stolzen Rittern von Penteonia noch immer treu ergeben."
+    },
+    "3": {
+      "name": "Söldnerkelch",
+      "description": "[Zerstörer] erhöht den Schaden um {0} % und betäubt den betroffenen Feind 0,5 Sek. lang mit einer Wahrscheinlichkeit von 20 % nach jedem Treffer.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Bernheim/ut/3.png",
+      "story": "Ein Gedenkkelch, Geschenk für mächtige und mutige Söldner im Kaiserreich.\nDer eingravierte Wolf ist das Symbol des Kaiserreichs.\nIn Anerkennung der unzähligen Siege, die Bernheim für das Kaiserreich errang, gab ihm die Königsfamilie diesen herrlichen Kelch, von denen weltweit nur fünf Stück existieren.\nGerüchten zufolge birgt der Kelch einen Zauber, mit dem jedes daraus genossene Getränk die Ausdauer wiederherstellt."
+    },
+    "4": {
+      "name": "Unverschickter Brief",
+      "description": "[Zusammenbruch] ändert die Anzahl der Zähler für sich selbst und das Ziel zu 2 und erhöht die max. Stapelanzahl aller Effekte um {0}.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Bernheim/ut/4.png",
+      "story": "Briefe, die Bernheim nach seiner Verbannung an seine Familie schrieb.\nEr verfasste sie zwar, hat sich aber noch nicht entschieden, ob er sie nun, sieben Jahre nach seiner Ächtung, endlich senden sollte.\nDie Briefe richten sich hauptsächlich an seinen Bruder und seine Schwester, die zum Zeitpunkt seiner Verbannung fünf bzw. zehn Jahre jünger waren als er."
+    }
+  },
+  "sw": {
+    "requirement": "Wenn du 70-mal Schaden erleidest, wird dies aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Brennofen der Vergeblichkeit Targarios, greift für [64ffff]10[-] Sek. jede Sek. alle Gegner an und fügt [ffc800]60% von M.ATK[-] Mag. Schaden zu. Immer wenn dem Gegner geschadet wird, wird die gegn. Kraft aufgesaugt und für [64ffff]10[-] Sek. dem Gegner zugefügter Schaden um [64ff64]2[-] % erhöht. Dieser Effekt ist bis zu 15-mal stapelbar.",
+    "cooldown": "22",
+    "uses": "6",
+    "thumbnail": "heroes/Bernheim/sw.png",
+    "advancement": {
+      "1": "Das Ziel wird für 1 Sek. betäubt.",
+      "2": "Die max. Effekt-Stapelung wird auf 30 geändert."
+    },
+    "story": "Dunkler Lord, der alles gierig aufnimmt, wird nie satt und fällt in dem endlosen Hunger und Durst. Dunkler Lord war eine Katastrophe wie die Pest, die alles frisst, und war ein Symbol der Angst, genannt Brennofen der Vergeblichkeit.\nDer junge Prinz von Penteonia kämpfte mit Dunkler Lord gegen die Krise in der Welt und scheiterte. Dunkler Lord wurde im Schwert versiegelt, heißt Targarios und ist in die Zentralkirche von Penteonia gezogen.\nDanach hat Targarios, der nach dem schwachen schwarzen Schaf suchte, das ihn freisetzen würde, ständig versucht jemanden anzulocken und wurde letzendlich von Bernheim befreit. Seiner schlechten Vergangenheit entsprechend war er ständig schlecht gelaunt. Also fing er die Dunkelheit in Bernheim ein.\nDunkler Lord wartete und beobachtete die Dunkelheit von Bernheim, die er nicht erkannte, und dachte, dass er und dieser schwache Mensch gut zusammenpassen würden. Er wird seine Macht als Dunkler Lord der Sinnlosigkeit demonstrieren, wenn er wirklich die Chance haben will, obwohl er im Schwert steckt."
+  },
+  "splashart": "heroes/Bernheim/sa.png",
+  "costumes": "heroes/Bernheim/cos",
+  "aliases": null
+}

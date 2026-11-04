@@ -1,0 +1,259 @@
+{
+  "id": "Seria",
+  "profile": {
+    "name": "Seria",
+    "title": "Schatten des Abgrunds Seria",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "5500",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "19",
+    "height": "172",
+    "race": "Menschen",
+    "constellation": "Notmun, der Stimmer",
+    "birth": {
+      "month": 7,
+      "day": 6,
+      "monthName": "Monat der Harmonie"
+    },
+    "like": "Ihre Schwester Erze, Erdbeerparfait, feine Schwerter, den Mond.",
+    "dislike": "Vampir-Erze, Spinnen",
+    "story": "Die 101. Erbin der ShadowHilt und Erzes Schwester.\nDie Leute bezeichnen sie wegen ihrer unwirschen Art als kaltblütig, doch einst war sie fröhlich – früher, als sie noch mit ihrer geliebten Schwester Erze gemeinsam lebte. Seria war stets voller Mitgefühl für ihre schwächliche Schwester und überfürsorglich, bemerkte aber dabei nicht, dass sie Erze damit in noch größere Verzweiflung trieb.\nEines Tages geriet Erze während einer Mission in eine Falle. Sie wurde gerettet, doch ihre Krankheit begann sich drastisch zu verschlechtern. In der Zwischenzeit wurde Seria ins Windland-Schneegebirge geschickt, um die Vampirprinzessin aufzuspüren.\nSie bekam den Zustand ihrer Schwester zwar flüchtig mit, begab sich aber auf ihre höchst wichtige Mission und betete, dass alles gut gehen würde.\nDoch die Tragödie nahm ihren Lauf, als würde sie sich über Serias Gebete lustig machen.\n- Oh, meine geliebte Schwester, Seria!\nSeria kehrte zurück und fand die Leichen ihrer Kameraden tot am Boden liegend, kalt wie Eis.\nErze empfing sie mit zwei scharfen Fangzähnen und voller Blutdurst.\nSeria verfiel in ein Wechselbad der Gefühle.\nIhr Herz war gebrochen, doch sie sprach mit kühler, ruhiger Stimme.\n- Du ... du bist nicht länger meine kleine Schwester. Du bist eine verfluchte Blutsaugerin.",
+    "thumbnail": "heroes/Seria/ico.png"
+  },
+  "skills": {
+    "1 (1)": {
+      "name": "Mysteriöses Schwert – gefallene Blütenblätter",
+      "cost": "1",
+      "cooldown": "7",
+      "description": "Führt einen horizontalen Schlag nach vorne aus und verursacht [ffc800]485 + 485 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 295% von M.ATK[-] Mag. Schaden am Ziel und dessen unmittelbarer Umgebung. Kann innerhalb von 5 Sek. nach Benutzung einmalig [fa96fa]Mysteriöses Schwert – Blüte][-] aktivieren.",
+      "thumbnail": "heroes/Seria/skills/1 (1).png"
+    },
+    "1 (2)": {
+      "name": "Mysteriöses Schwert – Blüte",
+      "cost": "1",
+      "cooldown": null,
+      "description": "Führt einen vertikalen Schlag nach vorne aus und verursacht [ffc800]510 + 510 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 320% von M.ATK[-] Mag. Schaden am Ziel und dessen unmittelbarer Umgebung.",
+      "thumbnail": "heroes/Seria/skills/1 (2).png"
+    },
+    "2": {
+      "name": "Blutspritzerklinge",
+      "cost": "2",
+      "cooldown": "13",
+      "description": "Stürmt blitzschnell nach vorne, verursacht [ffc800]86 + 86 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 54.5% von M.ATK[-] Mag. Schaden und belegt Feinde für [64ffff]3[-] Sek. mit dem Effekt [fa96fa]Ursünde des Blutes[-], der nicht entfernt werden kann. Feinde mit dem Effekt [fa96fa]Ursünde des Blutes[-] haben eine verringerte ANG-GESCHW. von [ff6464]300[-].\nGreift Feinde mit dem Effekt [fa96fa]Ursünde des Blutes[-] kurz danach ein zweites Mal an und verursacht [ffc800]2 * (151 + 151 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 81.1% von M.ATK)[-] Mag. Schaden. Zusätzlich dazu erleiden Feinde, die keine Helden sind, [ffc800]2 * (147 + 147 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 80.3% von M.ATK)[-] Mag. Schaden, der die VERT ignoriert.",
+      "thumbnail": "heroes/Seria/skills/2.png"
+    },
+    "3": {
+      "name": "Klinge des roten Mondes",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Schwingt eine Mondblutklinge und fügt den Gegnern im weiten Umkreis [ffc800]1120 + 1120 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 699% von M.ATK[-] Mag. Schaden zu. Fügt [ffc800]734 + 734 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 436.8% von M.ATK[-] zus. VERT-ignorierenden Mag. Schaden an Gegnern, die keine Helden sind. Wenn der Mond voll ist, wird [64ffff]1[-] Sek. lang [fa96fa]Mondlicht[-] gewährt, das [ffc800]1230 + 1230 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 782% von M.ATK[-] Mag. Schaden verursacht und die Heilungsrate um [ff6464]100[-] % verringert, wenn es gewirkt wird. Gegner, die keine Helden sind, erleiden [ffc800]773 + 773 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 456.9% von M.ATK[-] zus. VERT-ignorierenden Mag. Schaden. Der Wirker ist beim Beschwören nicht von Effekten betroffen, die die ANG-GESCHW. beeinflussen.",
+      "thumbnail": "heroes/Seria/skills/3.png"
+    },
+    "4": {
+      "name": "Kaltblütige Hexe",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht den ANG um [64ff64]183 + 183 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient[-]. Erhöht den eigenen Krit. Schaden bei einem Krit. Treffer um [64ff64]10[-] % und den Schaden an Feinde, die keine Helden sind, um [64ff64]1[-] %. Dieser Effekt ist bis zu [64ffff]15[-]-mal stapelbar und kann nicht entfernt werden.",
+      "thumbnail": "heroes/Seria/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht ANG-Boost um 10 %.",
+      "III": "Erhöht ANG-Boost um 15 %.",
+      "IV": "Erhöht ANG-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "[Mysteriöses Schwert – gefallene Blütenblätter] – Verringert die Manakosten um 1.\n[Mysteriöses Schwert – Blüte] – Verringert die Heilungsrate von getroffenen Feinden für 5 Sek. um 50 %.",
+          "thumbnail": "heroes/Seria/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "[Mysteriöses Schwert – gefallene Blütenblätter] – Ziel erleidet für 10 Sek. um 25 % erhöhten Mag. Schaden.\n[Mysteriöses Schwert – Blüte] – Erhöht die Manakosten um 1 und ignoriert die VERT des Feindes.",
+          "thumbnail": "heroes/Seria/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert den Cooldown pro getroffene 1 Gegner(n) um 5 %.",
+          "thumbnail": "heroes/Seria/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Stellt 200 Mana wieder her, jedes Mal wenn Schaden verursacht wird.",
+          "thumbnail": "heroes/Seria/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Positive Effekte aller Gegner in Reichweite werden aufgehoben.",
+          "thumbnail": "heroes/Seria/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Immer, wenn der [Klinge des roten Mondes] Skill verwendet wird, erhöht sich der Schaden des [Klinge des roten Mondes] Skills um 15 %. Dieser Effekt ist bis zu 10-mal stapelbar.",
+          "thumbnail": "heroes/Seria/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Verringert pro Stapelanzahl den eigenen erhaltenen Schaden um zus. 1.5 %.",
+          "thumbnail": "heroes/Seria/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erhöht bei jedem Kampfbeginn 200 Sek. lang den Schaden an Gegner, die keine Helden sind, um 25 %.",
+          "thumbnail": "heroes/Seria/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Schaden +20 %",
+        "thumbnail": "heroes/Seria/perks/light.png"
+      },
+      "dark": {
+        "effect": "Alle Angriffe des Wirkers treffen kritisch, der Wirker kann allerdings nicht blocken und erleidet um 15 % erhöhten Schaden von Helden.",
+        "thumbnail": "heroes/Seria/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Imperialer Henker, Elsion",
+    "description": "Verursacht bei einem Krit. Skilltreffer zusätzlich Mag. Schaden in Höhe von {0} % des ANG. Verringert 5 Sek. lang die Heilungsrate des getroffenen Ziels um {1} % und erhöht 20 Sek. lang die eigene Heilungsrate um {2} %. Der Effekt zur Erhöhung der Heilungsrate ist max. 5-mal stapelbar und kann nicht entfernt werden.",
+    "value": {
+      "0": {
+        "0": "50",
+        "1": "60",
+        "2": "72",
+        "3": "86",
+        "4": "103",
+        "5": "125"
+      },
+      "1": {
+        "0": "24",
+        "1": "29",
+        "2": "35",
+        "3": "42",
+        "4": "50",
+        "5": "60"
+      },
+      "2": {
+        "0": "4",
+        "1": "5",
+        "2": "6",
+        "3": "7",
+        "4": "9",
+        "5": "10"
+      }
+    },
+    "thumbnail": "heroes/Seria/uw.png",
+    "story": "Ein Schwert und Machtsymbol, das unter Meistern der ShadowHilt weitergegeben wird.\nDiesem Schwert wohnt die Kraft mächtiger Wesen inne, die einen Pakt mit den ShadowHilt geschlossen haben, um ihnen zu dienen.\nEinige von ihnen waren Elementare, einige unschuldige Geister, andere sogar Dämonen.\nEs ist bekannt, dass zehntausende böse Krieger durch dieses Schwert den Tod fanden.\nEs hat die dämonische Kraft, die Geister der Getöteten in der Klinge zu bannen.\nTrotz der großen Macht des Schwerts konnte es in den letzten 600 Jahren von weniger als einer Handvoll Leuten geführt werden.\nSeria, die 101. Erbin der ShadowHilt und die einzige Meisterin der Geschichte, die durch das Schwert erwählt wurde,\nschloss einen Pakt mit dem Schwert, um ihrer geliebten Schwester Ruhe zu bringen."
+  },
+  "uts": {
+    "1": {
+      "name": "Wetzstein des Dämons",
+      "description": "[Mysteriöses Schwert – gefallene Blütenblätter] erhöht den Schaden um 50 % und stellt bei einem Krit. Treffer {0} Mana wieder her.\n[Mysteriöses Schwert – Blüte] erhöht den Schaden um 50 % und verringert den Cooldown von [Mysteriöses Schwert – gefallene Blütenblätter] bei einem Krit. Treffer um {1} Sek.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        },
+        "1": {
+          "0": "0.8",
+          "1": "1",
+          "2": "1.2",
+          "3": "1.4",
+          "4": "1.7",
+          "5": "2"
+        }
+      },
+      "thumbnail": "heroes/Seria/ut/1.png",
+      "story": "Ein unheilvoller Wetzstein, in dem die Seele eines Dämons eingeschlossen ist.\nSchwerter, die mit dem Pakt der Knechtschaft belegt sind, müssen mit diesem Wetzstein geschärft werden, da gewöhnlich Wetzsteine bei ihnen nicht funktionieren. Zusammen mit „Erhellendes Kerzenlicht“ wird Elisons Widerstand gegen Dämonen auf das Maximum erhöht."
+    },
+    "2": {
+      "name": "Ring des Abgrunds",
+      "description": "[Blutspritzerklinge] erhöht den Schaden um 50 % und verringert Mag. Blockchance von betroffenen Feinden um {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
+      "thumbnail": "heroes/Seria/ut/2.png",
+      "story": "Ein silberner Ring, der die ShadowHilt repräsentiert. Seria berührt ihn immer dann, wenn sie ihr Leben als bedeutungslos erachtet.\nWenn sie es tut, erinnert sie sich an ihre toten Kameraden, wodurch Rachegefühle gegen ihre Schwester Erze in ihrem Herzen aufflammen.\nIronischerweise trägt der Ring eine Botschaft Erzes in sich, die diese dort im Inneren des Juwels versteckte, als sie noch jung war. Doch Seria weiß nichts davon."
+    },
+    "3": {
+      "name": "Erhellendes Kerzenlicht",
+      "description": "[Klinge des roten Mondes] erhält für die Dauer des Skills Immunität gegen Massenkontrolle. Erhöht bei Kampfbeginn den Schaden {0}x um 70 %.",
+      "value": {
+        "0": {
+          "0": "5",
+          "1": "7",
+          "2": "9",
+          "3": "11",
+          "4": "13",
+          "5": "15"
+        }
+      },
+      "thumbnail": "heroes/Seria/ut/3.png",
+      "story": "Die Kerze von der Tafel der Versammlungshalle, in der sich antike Krieger aus verschiedenen Kontinenten trafen, um gemeinsam übernatürliche Wesen zu besiegen.\nAus dieser alten Kerze lodert eine blaue Flamme.\nSobald die Flamme mit einem bösen Wesen in Berührung kommt, saugt sie die Lebenskraft aus dem Körper der Kreatur.\nDieses Material nutzt Seria bevorzugt zur Verbesserung ihres Schwerts."
+    },
+    "4": {
+      "name": "Die acht dämonischen Diagramme",
+      "description": "[Kaltblütige Hexe] erhöht den ANG-Boost um 50 % und den Schaden-Boost an Feinde, die keine Helden sind, pro Stapel um zus. {0} %.",
+      "value": {
+        "0": {
+          "0": "0.6",
+          "1": "0.7",
+          "2": "0.8",
+          "3": "1",
+          "4": "1.2",
+          "5": "1.5"
+        }
+      },
+      "thumbnail": "heroes/Seria/ut/4.png",
+      "story": "Hierbei handelt es sich um die acht Trigramme, die das erste Oberhaupt der Familie Shadow Hilt von einem übernatürlichen Wesen erhalten hat.\nNur die Oberhäupter von Shadow Hilt können damit umgehen und die Macht von Elsion durch die dämonische Energie im Inneren des Steins kanalisieren.\nIn den Trigrammen sind 8 verschiedene Bestien versiegelt, die das Böse bestraft haben, und je nachdem, ob die Trigramme auf Yin oder Yang zeigen, entfalten sie unterschiedliche Mächte.\nWenn alle 8 Trigramme perfekt auf Yin zeigen, verfärbt sich der Vollmond der Kaltblütigen Hexe blutrot."
+    }
+  },
+  "sw": {
+    "requirement": "Für 20 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört die Seele von Imperialer Henker, Elsion, fügt nahen Feinden in ringförmiger Reichweite [ffc800]250% von M.ATK[-] Mag. Schaden zu und erhöht den erhaltenen Mag. Schaden [64ffff]5[-] Sek. lang um [64ff64]30[-] %. Danach wird [64ffff]10[-] Sek. lang die Seele von Imperialer Henker, Elsion absorbiert und alle [64ffff]1[-] Sek. zufälligen Gegnern [ffc800]80% von M.ATK[-] Mag. Schaden zugefügt. Wenn es sich bei den Gegnern um keinen Held handelt, erhöht dieser Skill den Schaden um [64ff64]100[-] %.",
+    "cooldown": "24",
+    "uses": "5",
+    "thumbnail": "heroes/Seria/sw.png",
+    "advancement": {
+      "1": "Erhöht eigenen ANG um 25 % und Krit. Schaden um 50 % während der Wirkungsdauer.",
+      "2": "Aller 1 Sek. ignoriert der entstandene ANG-Schaden die gegn. VERT."
+    },
+    "story": "Zaunlang, eines der mächtigen Wesen und das große Monster, das einen Vertrag mit der Familie Shadow Hilt abgeschlossen hat.\nAber sie ist besser in der Schwertkunst als mit der Magie, mit der sie geboren wurde.\nIhre natürliche Energie fließt mit dem Schwert und die lila Wolke erscheint mit der Spur des Schwertes und zerstreut die Fantasie und das Phantom des Objekts.\nSie leiht ihre Macht nicht so einfach aus, aber sie reagiert auf die Entscheidung von Seria, die ihre Schwester Erze töten will, und beschließt, ihr die Macht zu verleihen."
+  },
+  "splashart": "heroes/Seria/sa.png",
+  "costumes": "heroes/Seria/cos",
+  "aliases": null
+}

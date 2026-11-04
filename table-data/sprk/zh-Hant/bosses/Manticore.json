@@ -1,0 +1,57 @@
+{
+  "id": "Manticore",
+  "profile": {
+    "name": "蠍尾獅",
+    "title": "渾沌魔獸",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "野獸",
+    "damage_type": "Physical",
+    "recommended_heroes": "凱瑟, 克勞斯, 米特拉",
+    "characteristics": "[劇毒]會召喚蠍子在短時間內對英雄造成巨大傷害，如果英雄撐不住，陣型會被摧毀必須多多利用[控場]來避免因[猛擊]而對英雄造成的巨大物理傷害",
+    "thumbnail": "bosses/Manticore.png",
+    "recommendedHeroNames": [
+      "Kasel",
+      "Clause",
+      "Mitra"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "闇黑火焰",
+      "cost": null,
+      "cooldown": null,
+      "description": "從羊頭吐出闇黑火焰造成7次物理傷害。生命值力低於50%的敵人將被石化5秒。"
+    },
+    "2": {
+      "name": "滅世火焰",
+      "cost": null,
+      "cooldown": "17",
+      "description": "從獅頭吐出闇黑火焰造成7次物理傷害。每次攻擊時將消除敵人的強化效果。"
+    },
+    "3": {
+      "name": "蠍尾獅劇毒",
+      "cost": null,
+      "cooldown": "22",
+      "description": "對敵人射出劇毒，5秒內每隔0.5秒造成目前生命值33%的傷害，同時召喚3只蠍子。"
+    },
+    "4": {
+      "name": "死亡猛襲",
+      "cost": null,
+      "cooldown": "27",
+      "description": "蠍尾獅在前腳聚積強勁的力量，對前方大範圍內敵人造成物理傷害，並擊倒他們4秒。"
+    },
+    "5": {
+      "name": "淨化",
+      "cost": null,
+      "cooldown": null,
+      "description": "每30秒解除自身的負面效果，並提升攻擊速度。"
+    }
+  },
+  "aliases": [
+    "Manticore",
+    "GR6",
+    "GR 6"
+  ]
+}

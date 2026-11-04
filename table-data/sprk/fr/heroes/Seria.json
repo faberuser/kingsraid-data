@@ -1,0 +1,259 @@
+{
+  "id": "Seria",
+  "profile": {
+    "name": "Seria",
+    "title": "Seria, Ombre des Abysses",
+    "class": "Warrior",
+    "position": "Front-600",
+    "attack_range": "5500",
+    "damage_type": "Magical",
+    "gender": "Femme",
+    "age": "19",
+    "height": "172",
+    "race": "Humain",
+    "constellation": "Notmun l'Accordeur",
+    "birth": {
+      "month": 7,
+      "day": 6,
+      "monthName": "Mois de l'Harmonie"
+    },
+    "like": "Sa petite sœur Erze, le parfait à la fraise, les épées raffinées, la lune.",
+    "dislike": "Erze en tant que vampiresse, les araignées",
+    "story": "101e héritière de la famille ShadowHilt et sœur d'Erze.\nSon attitude peu amicale lui vaut le qualificatif de sang-froid. Et pourtant, elle ne cessait jamais de sourire lorsqu'elle était aux côtés d'Erze, sa sœur adorée. Seria a toujours eu de la compassion pour sa sœur fragile et l'a toujours protégée, sans se rendre compte que cela n'était pas dans l'intérêt d'Erze.\nAu cours d'une mission, Erze tomba dans un piège. Elle fut sauvée, mais sa maladie empira soudainement. Dans le même temps, Seria fut envoyée à la montagne enneigée Terre-Venteuse à la recherche de la princesse vampire.\nElle eut vent de l'infortune de sa sœur, mais choisit de donner priorité à sa mission, en espérant que tout irait bien.\nMais le sort s'acharnait sur sa sœur, comme pour balayer d'un revers de la main les prières de Seria.\n- Oh, Seria, ma chère sœur !\nSeria revint, mais uniquement pour découvrir les dépouilles de ses camarades, froides comme la glace.\nErze l'accueillit de deux crocs acérés, assoiffée de sang.\nSeria tremblait d'émotion.\nSon cœur brisé, elle dit ces mots d'un ton calme et froid.\n- Tu... Tu n'es plus ma sœur. Tu n'es qu'une maudite suceuse de sang.",
+    "thumbnail": "heroes/Seria/ico.png"
+  },
+  "skills": {
+    "1 (1)": {
+      "name": "Épée mystérieuse - Pétales tombants",
+      "cost": "1",
+      "cooldown": "7",
+      "description": "Assène une entaille horizontale vers l'avant et inflige [ffc800]485 + 485 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 295% de M.ATK[-] points de DEG M à la cible ainsi que dans une petite zone autour d'elle. Peut déclencher une fois [fa96fa][Épée mystérieuse - Fleur][-] dans les 5 sec qui suivent l'activation.",
+      "thumbnail": "heroes/Seria/skills/1 (1).png"
+    },
+    "1 (2)": {
+      "name": "Épée mystérieuse - Fleur",
+      "cost": "1",
+      "cooldown": null,
+      "description": "Assène une entaille verticale vers l'avant et inflige [ffc800]510 + 510 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 320% de M.ATK[-] points de DEG M à la cible ainsi que dans une petite zone autour d'elle.",
+      "thumbnail": "heroes/Seria/skills/1 (2).png"
+    },
+    "2": {
+      "name": "Lame d'effusion de sang",
+      "cost": "2",
+      "cooldown": "13",
+      "description": "Fonce rapidement vers l'avant pour infliger [ffc800]86 + 86 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 54.5% de M.ATK[-] points de DEG M ainsi que [fa96fa]Péché originel du sang[-] (inamovible) pendant [64ffff]3[-] sec. La Vitesse d'ATQ des ennemis sous le coup de [fa96fa]Péché originel du sang[-] est réduite de [ff6464]300[-] points.\nPeu après, attaque deux fois les ennemis sous le coup de [fa96fa]Péché originel du sang[-] pour leur infliger [ffc800]2 * (151 + 151 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 81.1% de M.ATK)[-] points de DEG M supplémentaires ainsi que [ffc800]2 * (147 + 147 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 80.3% de M.ATK)[-] points supplémentaires de DEG M ignorant la DEF aux ennemis non-Héros.",
+      "thumbnail": "heroes/Seria/skills/2.png"
+    },
+    "3": {
+      "name": "Lame de la lune rouge",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Agite une épée de lune sanglante, infligeant [ffc800]1120 + 1120 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 699% de M.ATK[-] DEG M aux ennemis dans une vaste zone et [ffc800]734 + 734 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 436.8% de M.ATK[-] DEG M supplémentaires ignorant la DEF aux cibles non-Héros. Lorsque la lune est pleine, se met à l'état de [fa96fa]Clair de lune[-] pendant [64ffff]1[-] sec, infligeant [ffc800]1230 + 1230 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 782% de M.ATK[-] DEG M et réduisant la récupération des PV de [ff6464]100[-]%. Inflige [ffc800]773 + 773 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 456.9% de M.ATK[-] DEG M supplémentaires ignorant la DEF aux cibles non-Héros. Pendant la durée de la compétence, le lanceur n'est pas affecté par le changement de la Vitesse d'ATQ.",
+      "thumbnail": "heroes/Seria/skills/3.png"
+    },
+    "4": {
+      "name": "Sorcière sans pitié",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente l'ATQ de [64ff64]183 + 183 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil[-]. Augmente les DEG Crit de [64ff64]10[-]% et les DEG infligés aux ennemis non-Héros de [64ff64]1[-]% à chaque coup critique de compétence porté. Cet effet peut se cumuler [64ffff]15[-] fois et ne peut être dissipé.",
+      "thumbnail": "heroes/Seria/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "2": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 10%.",
+      "III": "Augmente les DEG infligés de 15%.",
+      "IV": "Augmente les DEG infligés de 25%."
+    },
+    "4": {
+      "II": "Le taux d'augmentation d'Attaque augmente de 10%.",
+      "III": "Le taux d'augmentation d'Attaque augmente de 15%.",
+      "IV": "Le taux d'augmentation d'Attaque augmente de 25%."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "[Épée mystérieuse - Pétales tombants] - Réduit le coût en PM de 1.\n[Épée mystérieuse - Fleur] - Réduit la récupération de l'ennemi touché de 50% pendant 5 sec.",
+          "thumbnail": "heroes/Seria/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "[Épée mystérieuse - Pétales tombants] – Augmente les DEG M reçus par la cible de 25% pendant 10 sec.\n[Épée mystérieuse - Fleur] - Augmente le coût en PM de 1 et ignore la DEF de l'ennemi.",
+          "thumbnail": "heroes/Seria/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Réduit le temps de recharge de compétence de 5% pour 1 ennemis touchés.",
+          "thumbnail": "heroes/Seria/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Récupère 200 PM à chaque fois que le lanceur inflige des DEG.",
+          "thumbnail": "heroes/Seria/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Les Améliorations de tous les ennemis à portée sont dissipées.",
+          "thumbnail": "heroes/Seria/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "À chaque utilisation de [Lame de la lune rouge], augmente les DEG infligés par cette compétence de 15%. Cet effet peut se cumuler jusqu'à 10 fois.",
+          "thumbnail": "heroes/Seria/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Réduit les DEG reçus de 1.5% pour chaque charge cumulée.",
+          "thumbnail": "heroes/Seria/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Au début de chaque bataille, augmente les DEG infligés aux ennemis non-Héros de 25% pendant 200 sec.",
+          "thumbnail": "heroes/Seria/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Seria/perks/light.png"
+      },
+      "dark": {
+        "effect": "Toutes les attaques du lanceur infligent des coups critiques, mais il ne peut plus faire de Blocage et les DEG reçus de la part des ennemis Héros augmentent de 15%.",
+        "thumbnail": "heroes/Seria/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Elsion, l'Exécutrice des Foyers",
+    "description": "Inflige des DEG M supplémentaires à hauteur de {0}% de l'ATQ à chaque coup critique de compétence porté. Réduit la récupération des PV de la cible touchée de {1}% pendant 5 sec et augmente celle du lanceur de {2}% pendant 20 sec. L'effet d'augmentation de la récupération des PV peut se cumuler jusqu'à 5 fois et ne peut être dissipé.",
+    "value": {
+      "0": {
+        "0": "50",
+        "1": "60",
+        "2": "72",
+        "3": "86",
+        "4": "103",
+        "5": "125"
+      },
+      "1": {
+        "0": "24",
+        "1": "29",
+        "2": "35",
+        "3": "42",
+        "4": "50",
+        "5": "60"
+      },
+      "2": {
+        "0": "4",
+        "1": "5",
+        "2": "6",
+        "3": "7",
+        "4": "9",
+        "5": "10"
+      }
+    },
+    "thumbnail": "heroes/Seria/uw.png",
+    "story": "Épée d'autorité transmise aux maîtres de la famille ShadowHilt.\nElle renferme le pouvoir des êtres suprêmes qui ont juré de servir la famille ShadowHilt.\nCertains d'entre eux étaient des élémentaires, d'autres des esprits innocents et d'autres encore des démons.\nDes dizaines de milliers de forces maléfiques ont été pourfendues par cette épée.\nElle possède également une propriété démoniaque qui lie l'esprit du mal vaincu à sa lame.\nMalgré sa grande puissance, moins de 5 personnes ont pu manier cette épée en 600 ans.\nSeria, la 101e héritière de la famille ShadowHilt et seule maîtresse à avoir été choisie par l'épée,\na juré à l'épée quelle apporterait le repos éternel à sa sœur adorée."
+  },
+  "uts": {
+    "1": {
+      "name": "Pierre à aiguiser du démon",
+      "description": "[Épée mystérieuse - Pétales tombants] Augmente les DEG de 50 % et restaure {0} PM à chaque coup critique infligé.\n[Épée mystérieuse - Fleur] Augmente les DEG de 50 % et réduit le temps de recharge de [Épée mystérieuse - Pétales tombants] de {1} sec à chaque coup critique.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        },
+        "1": {
+          "0": "0.8",
+          "1": "1",
+          "2": "1.2",
+          "3": "1.4",
+          "4": "1.7",
+          "5": "2"
+        }
+      },
+      "thumbnail": "heroes/Seria/ut/1.png",
+      "story": "Cette pierre à aiguiser menaçante est censée renfermer l'âme d'un démon.\nLes épées liées par un pacte de servitude doivent être affûtées avec cette pierre à aiguiser, car aucune autre ne fonctionnerait. Combinée avec Bougie purifiante, elle décuple la résistance d'Elsion contre les démons."
+    },
+    "2": {
+      "name": "Anneau des abysses",
+      "description": "[Lame d'effusion de sang] Augmente les DEG de 50 % et réduit le Blocage M des ennemis touchés de {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
+      "thumbnail": "heroes/Seria/ut/2.png",
+      "story": "Anneau d'argent à l'effigie de la famille ShadowHilt. Seria le touche à chaque fois qu'elle pense que sa vie n'a aucun sens.\nCela lui rappelle alors ses camarades qui ne sont plus là et la vengeance qu'elle doit obtenir auprès de sa sœur Erze.\nIronie du sort, cet anneau comporte une note écrite par Erze quand elle était petite et dissimulée parmi les joyaux, et Seria ignore tout de cette note, encore aujourd'hui."
+    },
+    "3": {
+      "name": "Bougie purifiante",
+      "description": "[Lame de la lune rouge] Confère l'immunité contre les contrôles pendant la durée de la compétence. Au début de la bataille, augmente {0} fois les DEG de 70%.",
+      "value": {
+        "0": {
+          "0": "5",
+          "1": "7",
+          "2": "9",
+          "3": "11",
+          "4": "13",
+          "5": "15"
+        }
+      },
+      "thumbnail": "heroes/Seria/ut/3.png",
+      "story": "Cette bougie est connue pour avoir siégé sur la table où se sont réunis les guerriers ancestraux de différents continents pour vaincre les êtres surnaturels.\nCette vieille bougie dégage une flamme bleue au pouvoir exorcisant.\nLorsque la flamme entre en contact avec un être maléfique, elle en aspire toute la vitalité.\nIl s'agit du matériau que Seria utilise en priorité pour renforcer son épée."
+    },
+    "4": {
+      "name": "Les huit trigrammes démoniaques",
+      "description": "[Sorcière sans pitié] Augmente l'augmentation d'ATQ de 50% et l'augmentation des DEG infligés aux ennemis non-Héros de {0}% supplémentaires par charge cumulée.",
+      "value": {
+        "0": {
+          "0": "0.6",
+          "1": "0.7",
+          "2": "0.8",
+          "3": "1",
+          "4": "1.2",
+          "5": "1.5"
+        }
+      },
+      "thumbnail": "heroes/Seria/ut/4.png",
+      "story": "Les huit trigrammes offerts au premier chef de la famille Shadow Hilt par une créature surnaturelle.\nSeuls les chefs des Shadow Hilt peuvent les manipuler et optimiser le pouvoir d'Elsion grâce à l'énergie démoniaque qu'ils renferment.\n8 créatures différentes ayant puni le mal sont enfermées dans ces trigrammes, et leurs effets varient en fonction de l'inclination de chaque trigramme vers le yin ou le yang.\nLorsque les 8 trigrammes tendent vers le yin parfait, la pleine lune invoquée par la sorcière sans pitié devient rouge comme le sang."
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 20 sec avant de devenir utilisable.",
+    "description": "Invoque l'âme d'Elsion, l'Exécutrice des Foyers, ce qui inflige [ffc800]250% de M.ATK[-] DEG M aux ennemis proches dans une zone circulaire et augmente les DEG M infligés de [64ff64]30[-]% pendant [64ffff]5[-] sec. Ensuite, absorbe l'âme d'Elsion, l'Exécutrice des Foyers, pendant [64ffff]10[-] sec et inflige à 1 ennemi aléatoire [ffc800]80% de M.ATK[-] DEG M toutes les [64ffff]1[-] sec. Cette compétence augmente les DEG de [64ff64]100[-]% si la cible n'est pas un Héros.",
+    "cooldown": "24",
+    "uses": "5",
+    "thumbnail": "heroes/Seria/sw.png",
+    "advancement": {
+      "1": "Pendant la durée de la compétence, augmente le taux d'ATQ de Seria de 25%, et les DEG Crit de 50%.",
+      "2": "Les DEG infligés à l'ennemi ignorent la DEF de la cible toutes les 1 sec."
+    },
+    "story": "Zaunlang, l'une des puissantes créatures diaboliques, a passé un pacte avec la famille de Shadow Hilt.\nMais elle excelle dans l'art de manier l'épée, plutôt que dans l'art inné de la sorcellerie.\nUne puissante énergie coule dans son épée, et un nuage violet se produit suivant la trajectoire de la lame, dispersant l'illusion et la fantasmagorie de l'ennemi.\nPar son caractère insolite, elle ne prête pas facilement ses pouvoirs, mais en réagissant à la résolution de Seria qui veut ôter la vie de sa propre sœur, Erze, elle décide de lui accorder ses forces."
+  },
+  "splashart": "heroes/Seria/sa.png",
+  "costumes": "heroes/Seria/cos",
+  "aliases": null
+}

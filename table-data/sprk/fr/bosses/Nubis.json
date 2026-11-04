@@ -1,0 +1,57 @@
+{
+  "id": "Nubis",
+  "profile": {
+    "name": "Nubis",
+    "title": "Reine des Entraves",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "Bête",
+    "damage_type": "Magical, Physical",
+    "recommended_heroes": "Kaulah, Epis, Lorraine",
+    "characteristics": "[Les enfants de la Reine] augmentent considérablement l'ATQ et la DEF du boss pour chaque sbire invoqué. Les Héros qui ont des sorts de zone sont favorisés pour ce niveau.",
+    "thumbnail": "bosses/Nubis.png",
+    "recommendedHeroNames": [
+      "Kaulah",
+      "Epis",
+      "Lorraine"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Dard du Désert",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Tire un dard de poison sur un ennemi aléatoire, infligeant des DEG M et des DoT M. Invoque également 4 scorpions."
+    },
+    "2": {
+      "name": "Absorption de Venin",
+      "cost": null,
+      "cooldown": "20",
+      "description": "Absorbe le poison de la zone proche. Renvoie une partie des DEG P reçus et Pétrifie l'ennemi qui les a lancés pendant 5 sec. lorsque l'absorption s'achève, une onde de choc inflige des DEG M aux ennemis et les renverse pendant 3 sec."
+    },
+    "3": {
+      "name": "Venin de Pétrification",
+      "cost": null,
+      "cooldown": "20",
+      "description": "Injecte du poison dans l'ennemi le plus éloigné, infligeant des DEG M. À la fin de l'injection, l'ennemi est pétrifié pendant 5 sec."
+    },
+    "4": {
+      "name": "Enfants de la Reine",
+      "cost": null,
+      "cooldown": null,
+      "description": "Augmente ATQ et DEF en fonction du nombre de Scorpions restants. Nubis n'est pas affecté par les effets sur la Vitesse d'ATQ."
+    },
+    "5": {
+      "name": "Purifier",
+      "cost": null,
+      "cooldown": null,
+      "description": "Retire les effets négatifs toutes les 30 sec et augmente la Vitesse d'ATQ."
+    }
+  },
+  "aliases": [
+    "Nubis",
+    "GR3",
+    "GR 3"
+  ]
+}

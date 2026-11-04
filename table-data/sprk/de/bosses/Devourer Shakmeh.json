@@ -1,0 +1,71 @@
+{
+  "id": "Devourer Shakmeh",
+  "profile": {
+    "name": "Verschlinger Shakmeh",
+    "title": "Verschlinger",
+    "type": [
+      "Shakmeh"
+    ],
+    "race": "Tidhar",
+    "damage_type": "Physical",
+    "recommended_heroes": "Lakrak, Rehartna, Xerah",
+    "characteristics": "Der Verschlinger Shakmeh-Dungeon besteht aus 5 Wellen. Das Sekireinel-Totem, das in den Wellen erscheint, verringert in regelmäßigen Abständen die Heilungsrate. In einem Kampf bei Phase 5 oder höher entfernt es die positiven Effekte des Gegners mit dem höchsten ANG, daher musst du vorsichtig sein. Shakmeh wird mit höherem Mana stärker und jeder ANG ignoriert die VERT des Gegners. Du musst also Helden, die das Mana reduzieren, und die, die den Schaden des Gegners verringern, verwenden und strategisch einsetzen.",
+    "thumbnail": "bosses/Devourer Shakmeh.png",
+    "recommendedHeroNames": [
+      "Lakrak",
+      "Rehartna",
+      "Xerah"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Schatten des Schwertes",
+      "cost": null,
+      "cooldown": "14",
+      "description": "Greift alle Gegner in weitem Umkreis vor einem mit Schatten des Schwertes an, fügt Körp. Schaden zu und stellt Shakmehs MP wieder her. Je höher die aktuellen MP von Shakmeh sind, desto höher der Schaden. Je niedriger sie sind, desto mehr MP werden wiederhergestellt."
+    },
+    "2": {
+      "name": "Flut der Sünde",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Beschwört ein Jenseitiges Schwert, um die Flut der Sünde zu erzeugen, wobei Gegnern in großer Reichweite Körp. Schaden und [Vergnügen der Sünde] zugefügt wird. Helden im [Vergnügen der Sünde]-Zustand können kein Leben rauben, ihre Heilungsrate verringert sich und sie erhalten kontinuierlichen Körp. Schaden, jedoch verursachen sie erhöhten Schaden. [Vergnügen der Sünde] wird dann entfernt, wenn die aktuellen TP des Ziels unter 30 % liegen."
+    },
+    "3": {
+      "name": "Sturm des Hasses",
+      "cost": null,
+      "cooldown": "21",
+      "description": "Beschwört einen Sturm des Hasses auf alle Gegner in weitem Umkreis vor einem, wobei 7 Körp. Schaden zugefügt wird und 10 Sek. lang die ANG-GESCHW. verringert wird. Dieser Skill fügt starken Schaden zu, je niedriger die ANG-GESCHW. ist."
+    },
+    "4": {
+      "name": "Gefäß der Dunkelheit",
+      "cost": null,
+      "cooldown": null,
+      "description": "Shakmeh erhält keine ANG-GESCHW.- und VERT-Reduktionseffekte. Weiterhin kann er seine Mana schnell wiederherstellen, sodass alle Blockchancen sich erhöhen, je höher seine Mana ist. Wenn Shakmehs MP 0 erreichen, kann er zwar für 7 Sek. seine Mana nicht wiederherstellen und alle erhaltenen Schäden erhöhen sich, aber dafür erhält er einen unauflösbaren Schild. Nach 7 Sek. stellt enorm viel Mana wieder her."
+    },
+    "5": {
+      "name": "Fall des verzehrenden Abgrunds",
+      "cost": null,
+      "cooldown": null,
+      "description": "Shakmeh nutzt die Macht des Abgrunds, wodurch zwar alle ANG erfolgreich werden und ungeachtet der VERT des Gegners Schaden zugefügt wird, aber dafür ist seine VERT sehr niedrig."
+    },
+    "6": {
+      "name": "Verdorbene Macht des Verschlinger Shakmeh",
+      "cost": null,
+      "cooldown": null,
+      "description": "Verschlinger Shakmeh besitzt verdorbene Macht, sodass diese Macht verringert wird, wenn Shakmeh unter Massenkontrolle steht. Wenn die verdorbene Macht vollständig verbraucht wird, wird zwar Shakmeh neutralisiert und der erhaltene Schaden permanent erhöht, aber dafür wird Shakmeh stärker."
+    },
+    "7": {
+      "name": "Sekireinel-Totem",
+      "cost": null,
+      "cooldown": null,
+      "description": "Stellt in in regelmäßigen Abständen die TP aller Verbündeten wieder her und verringert die ANG-GESCHW. und den erhaltenen Schaden von Gegnern mit dem höchsten ANG, wobei die Heilungsrate aller Gegnern verringert wird. In einem Kampf bei Phase 5 oder höher entfernt es die positiven Effekte des Gegners mit dem höchsten ANG."
+    }
+  },
+  "aliases": [
+    "DevourerShakmeh",
+    "SmallShakmeh",
+    "TinyShakmeh",
+    "BabyShakmeh",
+    "SmolShakmeh"
+  ]
+}

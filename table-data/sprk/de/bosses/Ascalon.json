@@ -1,0 +1,60 @@
+{
+  "id": "Ascalon",
+  "profile": {
+    "name": "Ascalon",
+    "title": "Heiligtum Beobachter",
+    "type": [
+      "Technomagic Kingdom Raid"
+    ],
+    "race": "Engel",
+    "damage_type": "Physical",
+    "recommended_heroes": "Nyx, Rehartna, Erze, Glenwys",
+    "characteristics": "Ascalon reduziert kontinuierlich das Mana. Sei also vorsichtig mit dem Manavebrauch.\nAchtung: Wenn Ascalon Schaden zugefügt wird, nimmt die MP-Regeneration ab und wenn Mana 0 erreicht, wird der Skill für eine bestimmte Zeit versiegelt.",
+    "thumbnail": "bosses/Ascalon.png",
+    "recommendedHeroNames": [
+      "Nyx",
+      "Rehartna",
+      "Erze",
+      "Glenwys"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Mehrdimensionale Bombardierung",
+      "cost": null,
+      "cooldown": "13",
+      "description": "Zieht die Kraft der Dimension an und zielt auf dem Ziel mit dem höchsten verusachten Schaden. Erzeugt dabei 4-mal eine Dimensionale Bombardierung und verringert pro Dimensionale Bombardierung den verursachten Schaden an Feinden um 3 %. Dieser Effekt kann bis zu 20-mal gestapelt werden und kann nicht entfernt werden."
+    },
+    "2": {
+      "name": "Dimensionale Verzzerung",
+      "cost": null,
+      "cooldown": "33",
+      "description": "Beschwört eine snythetische Bestie um Ascalon herum, wobei 20 Sek. lang die eigene Dimension verzerrt wird und alle Schäden stark verringert werden. Wenn alle synthetischen Bestien innerhalb der Wirkungsdauer getötet werden, werden Ascalons TP verringert, er wird neutralisiert und alle erhaltenen Schäden werden stark erhöht. Wenn die synthetische Bestie innerhalb der Wirkungsdauer nicht getötet wird, wird Ascalons ANG kontinuierlich erhöht."
+    },
+    "3": {
+      "name": "Erde der Zerstörung",
+      "cost": null,
+      "cooldown": "22",
+      "description": "Brüllt laut, zerstört dabei den gegnerischen Schild und betäubt die Gegner. Fügt danach allen Gegnern 2-mal Körp. Schaden zu und wirft sie zu Boden."
+    },
+    "4": {
+      "name": "Dimensionale Bombardierung",
+      "cost": null,
+      "cooldown": null,
+      "description": "Beschwört alle 7 Sek. bei 2 zufälligen Gegner(n) eine dimensionale Tür und erzeugt eine Dimensionale Bombardierung. Dimensionale Bombardierung fügt dem Ziel Körp. Schaden zu, verringert die MP des getroffenen Ziels um 1000 und versetzt ihn danach im [Dimensionale Interferenz] Zustand, wobei dir MP-Regeneration um 1.5 % verringert wird. [Dimensionale Interferenz] Zustand kann max. 30-mal gestapelt werden und kann nicht entfernt werden. Wenn nach der MP-Verringerung die MP des Gegners bei unter 0 liegen, werden 7 Sek. lang alle Skills des Ziels versiegelt. In einem Kampf der Phase 4 und höher wird eine dimensionale Tür bei 4 zufälligen Gegner(n) beschwört und der erhaltene Schaden im [Dimensionale Interferenz] Zustand um 1.5 % erhöht."
+    },
+    "5": {
+      "name": "Ascalons Überwachung",
+      "cost": null,
+      "cooldown": null,
+      "description": "Beschwört in Kampfwelle 1-4 alle 7 Sek. bei jeden Gegner eine dimensionale Tür und erzeugt eine Überwachende Bombardierung. Überwachende Bombardierung fügt dem Ziel Körp. Schaden zu, verringert die MP des getroffenen Ziels um 500 und versetzt ihn danach im [Dimensionale Interferenz] Zustand, wobei die MP-Regeneration um 1.5 % verringert wird. [Dimensionale Interferenz] Zustand kann max. 30-mal gestapelt werden und kann nicht entfernt werden. Wenn nach der MP-Verringerung die MP des Gegners bei unter 0 liegen, werden 4 Sek. lang alle Skills des Ziels versiegelt. In einem Kampf der Phase 4 und höher wird der erhaltene Schaden im [Dimensionale Interferenz] Zustand um 1.5 % erhöht."
+    },
+    "6": {
+      "name": "Ascalons Autorität",
+      "cost": null,
+      "cooldown": null,
+      "description": "Ascalon wird nicht von ANG-GESCHW.-Veränderungen beeinflusst, wobei jegliche Schaden-Boost-Effekte von Feinden nicht angewendet werden. Der gleiche Effekt gilt auch für Testobjekte, die Ascalons Autorität erhalten haben."
+    }
+  },
+  "aliases": null
+}

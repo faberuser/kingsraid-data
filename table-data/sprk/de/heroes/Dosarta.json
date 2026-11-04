@@ -1,0 +1,244 @@
+{
+  "id": "Dosarta",
+  "profile": {
+    "name": "Dosarta",
+    "title": "Wind der Reinheit Dosarta",
+    "class": "Knight",
+    "position": "Front-700",
+    "attack_range": "9600",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "???",
+    "height": "166",
+    "race": "Elfen",
+    "constellation": "Kandala, der Eroberer",
+    "birth": {
+      "month": 8,
+      "day": 27,
+      "monthName": "Monat der Lebenskraft"
+    },
+    "like": "Das Flüstern der Elementaren, Selene, Freunde gewinnen",
+    "dislike": "Einsamkeit, Langeweile",
+    "story": "Eine Wache des Königreichs Elidora, die den Turm der Herausforderung beschützt.\nDen Regeln nach werden Wächter, die Mitglied einer königlichen Familie sind, fast nie von ihren Pflichten befreit, bevor ihr Dienst zu Ende geht.\nVerzweifelte Situationen erfordern jedoch verzweifelte Maßnahmen.\nDosarta durfte den Turm der Herausforderung verlassen, um Aufträge zu erledigen, wenn es sein muss.\nJetzt ist sie fest entschlossen, durch diese Gelegenheit viele neue Freundschaften zu schließen.\nWie viele Freunde wird diese Elfenwächterin wohl finden?",
+    "thumbnail": "heroes/Dosarta/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Das wird wehtun!",
+      "cost": "3",
+      "cooldown": "14",
+      "description": "Erhöht den Massenkontroll-Widerstand aller Verbündeten in der eigenen Umgebung für 10 Sek. um [64ffff]200[-], verursacht [ffc800]859 + 859 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 325.6% von M.ATK[-] Mag. Schaden an Feinden, erhöht den erlittenen Mag. Schaden für [64ffff]10[-] Sek. um [ff6464]30[-] % und verhindert für [64ffff]3[-] Sek. die Mana-Erholung.",
+      "thumbnail": "heroes/Dosarta/skills/1.png"
+    },
+    "2": {
+      "name": "Sei wachsam!",
+      "cost": "2",
+      "cooldown": "16",
+      "description": "Entfernt negative Effekte von allen Verbündeten, erhöht für 10 Sek. ihre physische VTD um 66 + 66 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 4% von Dosartas ANG und verstärkt den Effekt von Stellen wir uns gemeinsam der Herausforderung! auf das 2-Fache.",
+      "thumbnail": "heroes/Dosarta/skills/2.png"
+    },
+    "3": {
+      "name": "Ha! Ha! Nimm das!",
+      "cost": "4",
+      "cooldown": "20",
+      "description": "Greift ein feindliches Ziel 4-mal an, verursacht insgesamt [ffc800]4 * (635 + 635 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 335.1% von M.ATK)[-] Mag. Schaden und betäubt es für 4 Sek. Danach wird ein finaler Angriff gegen den frontalen Feind ausgelöst, der [ffc800]855 + 855 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 455.3% von M.ATK[-] Mag. Schaden verursacht und den Feind ins Zentrum zieht. Jeder Angriff gegen ein Ziel, das kein Held ist, verursacht zusätzlich [ffc800]425 + 425 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 248.3% von M.ATK[-] Mag. Schaden, der VERT umgeht.\n",
+      "thumbnail": "heroes/Dosarta/skills/3.png"
+    },
+    "4": {
+      "name": "Wir schaffen das gemeinsam!",
+      "cost": null,
+      "cooldown": "4",
+      "description": "Bei Fähigkeitseinsatz blockt Dosarta sämtlichen Schaden. Beim Blocken sinken ihre aktiven Fähigkeitsabklingzeiten um 1 Sek.; für 4 Sek. steigen ihre physische VTD um 37 + 37 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 1% ihres ANG und ihr physischer Krit.-Widerstand um 250. Dieser Effekt hat 4 Sek. Abklingzeit.",
+      "thumbnail": "heroes/Dosarta/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht VERT-Erhöhungsrate um 10 %.",
+      "III": "Erhöht VERT-Erhöhungsrate um 15 %.",
+      "IV": "Erhöht VERT-Erhöhungsrate um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht VERT-Erhöhungsrate um 10 %.",
+      "III": "Erhöht VERT-Erhöhungsrate um 15 %.",
+      "IV": "Erhöht VERT-Erhöhungsrate um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Stellt 1 Mana-Kugel eines Verbündeten in der Umgebung wieder her.",
+          "thumbnail": "heroes/Dosarta/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Verringert Mag. Blockchance des Ziels für 5 Sek. um 500.",
+          "thumbnail": "heroes/Dosarta/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Dosarta/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Gewährt für 2 Sek. Massenkontroll-Immunität.",
+          "thumbnail": "heroes/Dosarta/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Massenkontroll-Immunität für die Dauer des Skills.",
+          "thumbnail": "heroes/Dosarta/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Erhöht den Mag. Schaden, den das Ziel erleidet, für 10 Sek. um 25 %.",
+          "thumbnail": "heroes/Dosarta/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "VERT-Boost und Körp. Krit. Widerstand-Boost können nun nicht mehr entfernt werden.",
+          "thumbnail": "heroes/Dosarta/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erhöht bei Aktivierung 5 Sek. lang die Körp. Blockchance aller Verbündeten um 250. Dieser Effekt wird einmal alle 10 Sek. aktiviert.",
+          "thumbnail": "heroes/Dosarta/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 % / TP +10 %",
+        "thumbnail": "heroes/Dosarta/perks/light.png"
+      },
+      "dark": {
+        "effect": "Verringert den zugefügten VERT-ignorierenden Schaden aller Gegner um 25 %. Dieser Effekt wird beim Aktivieren von Dosartas Skill 3 Sek. lang 2-fach angewendet.",
+        "thumbnail": "heroes/Dosarta/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Antike Tapferkeit, Seliere",
+    "description": "Erhöht den ANG aller Verbündeten um {0} % und alle VERT um {1} %. Dieser Effekt wird zu Beginn des Kampfes {2} Sek. lang 2-fach angewendet. Verringert zu Beginn jedes Kampfes die Manakosten des nächsten Skills, der selbst benutzt wird, um 1. Alle Effekte können nicht entfernt werden.",
+    "value": {
+      "0": {
+        "0": "5",
+        "1": "6",
+        "2": "7",
+        "3": "8.5",
+        "4": "10.5",
+        "5": "12.5"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14.5",
+        "3": "17.5",
+        "4": "21",
+        "5": "25"
+      },
+      "2": {
+        "0": "10",
+        "1": "11",
+        "2": "12",
+        "3": "13",
+        "4": "14",
+        "5": "15"
+      }
+    },
+    "thumbnail": "heroes/Dosarta/uw.png",
+    "story": "Eine Zeichnung aus dem Turm der Herausforderung und ein antiker Schild, der aus Artefaktbruchstücken besteht.\nDer Schild steckt voller antiker Schutzmagie, deren Grenzen niemand auf der Welt kennt.\nSelbst Dosarta kennt das volle Ausmaß seiner Kräfte nicht,\nes interessiert sie aber auch nicht wirklich.\n„Ich hatte viel Zeit, damit zu spielen und herauszufinden, was er so kann“, sagt sie.\nDas Bewachen des Turms der Herausforderung ist so langweilig geworden, dass selbst das Training ihrer Fähigkeiten für sie zur Freizeitbeschäftigung wurde."
+  },
+  "uts": {
+    "1": {
+      "name": "Armreif von Elidora",
+      "description": "[Das wird wehtun!] erhöht die Heilungsrate eines Verbündeten in der Umgebung für 4 Sek. um {0} % und verringert die Heilungsrate des getroffenen Feindes für 4 Sek. um 50 %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Dosarta/ut/1.png",
+      "story": "Ein Paar blauer Armbänder, die den dichten und lebendigen Wald von Elidora repräsentieren.\nEines der Hobbies, das sich Dosarta in ihren einsamen Stunden im Turm der Herausforderung angeeignet hat, ist das Handwerk.\nDieses mächtige magische Werkzeug, in dem die Lebenskraft von Elidora steckt, ist das Resultat ihrer Freizeitbeschäftigung.\nDosarta denkt, dass es sich dabei nur um hübschen Schmuck handelt, aber ..."
+    },
+    "2": {
+      "name": "Kristall des Waldes",
+      "description": "[Sei wachsam!] erhöht für 5 Sek. den VERT-Boost um 50 % und die Krit. Chance um {0}.",
+      "value": {
+        "0": {
+          "0": "200",
+          "1": "240",
+          "2": "290",
+          "3": "350",
+          "4": "420",
+          "5": "500"
+        }
+      },
+      "thumbnail": "heroes/Dosarta/ut/2.png",
+      "story": "Eine antike Kristallkugel, die in der königlichen Familie von Elidora vererbt wurde.\nEs ist ein magisches Werkzeug und besteht aus Artefaktbruchstücken der königlichen Elfen, die über den Turm der Herausforderung herrschen.\nMan sagt, dass der Besitzer der Kristallkugel mit jedem auf der Welt sprechen kann, egal, wo sich diese Person befindet.\nUm auf alle Umstände im Turm der Herausforderung vorbereitet zu sein,\nhat die königliche Familie bestimmt, dass die Kugel nur im Besitz der Leitung des Turms der Herausforderung bleiben darf.\nTrotz seines strategischen und historischen Wertes, dient die Kugel nur als Kommunikationsmittel für Dosarta, mit dem sie banale Gespräche mit ihrer Schwester Selene führt."
+    },
+    "3": {
+      "name": "Nest des Wind-Elementars",
+      "description": "[Ha! Ha! Nimm das!] erhöht für die Dauer des Skills die PRÄZ um 750 und die Massenkontrolle-PRÄZ um {0}.",
+      "value": {
+        "0": {
+          "0": "300",
+          "1": "360",
+          "2": "430",
+          "3": "520",
+          "4": "630",
+          "5": "750"
+        }
+      },
+      "thumbnail": "heroes/Dosarta/ut/3.png",
+      "story": "Ein Schmuckstück, das Dosarta hergestellt hat, um mit den Wind-Elementaren zu spielen, während sie den Turm der Herausforderung alleine bewacht hat.\nSie hat von den Elementaren bevorzugte Manasteine gemahlen, das Pulver mit durch Elfenmagie verzaubertem Metall vermischt und das ganze mit Runenmagie behandelt. Vielleicht hat sie etwas zu großen Aufwand betrieben.\nEs kann die natürlichen Kräfte der Elementaren wieder herstellen.\nAllerdings sagt man, dass Dosarta sehr enttäuscht war, als die Elementaren gekommen sind und nichts anderes getan haben, als um das Schmuckstück herumzusitzen ohne mit seiner Schöpferin zu spielen."
+    },
+    "4": {
+      "name": "Feder des Windes",
+      "description": "[Wir schaffen das gemeinsam!] gewährt allen Verbündeten einen Körp. VERT- & Körp. Krit. Widerstand-Boost und fügt eine {0} % Verringerung des erhaltenen Körp. Schadens aller Verbündeten während der Wirkungsdauer zu.",
+      "value": {
+        "0": {
+          "0": "6",
+          "1": "7",
+          "2": "8",
+          "3": "10",
+          "4": "12",
+          "5": "15"
+        }
+      },
+      "thumbnail": "heroes/Dosarta/ut/4.png",
+      "story": "Auren, der Vogel des Windes, ist das Symbol der Königsfamilie von Elidora.\nSeine blauen Federn sorgen für einen sanften, erfrischenden Wind.\nSelene hatte einen Auren als Haustier, um den sich Dosarta liebevoll gekümmert hat.\nAls Dosarta ihr Zuhause in Richtung Turm der Herausforderung verließ,\ngab Selene ihr diese Schreibfeder, bestehend aus einer Schwanzfeder ihres geliebten Auren. So sollte sie sich ihm immer nahe fühlen.\nDosarta hat sie nie benutzt, seit sie in ihrem Besitz ist, aber sie bewahrt sie an einem sicheren Ort auf."
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 5-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört die Seele von Antike Tapferkeit, Seliere und erhöht [64ffff]10[-] Sek. lang die Körp. Blockchance aller Verbündeten um [64ff64]500[-]. Danach wird aller [64ffff]3[-] Sek. allen Gegner in der Nähe [ffc800]200% von M.ATK[-] Mag. Schaden zugefügt. Zusätzlich werden die Gegner [64ffff]1[-] Sek. lang zum Schweigen gebracht, wobei [64ffff]5[-] Sek. lang der erhaltene Mag. Schaden um [64ff64]25[-] % erhöht wird und bei [64ffff]1[-] Verbündeten mit den niedrigsten TP ein Schild erzeugt wird, der [64ffff]4[-] Sek. lang Schaden in Höhe von [64ff64]300[-] % des Dosarta-ANG absorbiert und Massenkontroll-Immunität gewährleistet.",
+    "cooldown": "25",
+    "uses": "6",
+    "thumbnail": "heroes/Dosarta/sw.png",
+    "advancement": {
+      "1": "Erhöht die Wirkungsdauer um 5 Sek. und entfernt die negativen Effekte des Ziels, wenn ein Schild erzeugt wird.",
+      "2": "Verringert die Skill-Bedingungen um 1 und ändert die Anzahl der Schild-Träger auf 3."
+    },
+    "story": "Dosarta kümmerte sich nie darum, die Macht von Seliere kennenzulernen. Es war die lockere Einstellung, die sie sich beim Turm der Herausforderung verdient hat. Es war noch mehr so, weil sie Seliere als einen guten Freund erkannte, der hörte, was sie sagte. Eines Tages bemerkte Dosarta, dass Seliere sich nicht so bewegt, wie sie wollte.\n‘- Warum macht er mir Schwierigkeiten? Er hat sich bis jetzt gut benommen!\nDosarta, die schon lange nicht mehr mit ihm gesprochen hatte, stellte fest, dass sie nichts über ihn wusste. Und die Tatsache, dass sie ihn verlieren könnte ... Dosarta bereute es, aber Seliere reagierte nicht. Aber Dosarta konnte Seliere nicht so gehen lassen.\n- Es tut mir leid, du bist mein bester Freund ... Ich möchte dich nicht verlieren!\nAls Dosarta voller Bedauern und Entschlossenheit war, schaute sie sich den Seliere und seinen Grundriss an. Der Schild flog um sie herum und beschützte sie, als ob es ihr verzeihen würde. In der Form von Vertrauen und Zuneigung zu Dosarta …"
+  },
+  "splashart": "heroes/Dosarta/sa.png",
+  "costumes": "heroes/Dosarta/cos",
+  "aliases": null
+}

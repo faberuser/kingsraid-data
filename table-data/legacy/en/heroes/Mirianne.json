@@ -27,28 +27,28 @@
       "name": "Target Lock On",
       "cost": "1",
       "cooldown": "6",
-      "description": "Attacks the enemy with the lowest M.DEF 3 times, dealing a total of ??? M.DMG and inflicting stun for 1 sec, and if the target is under 'Target Lock On', target takes additional ??? M.DMG. The last attack inflicts 'Target Lock On' on the enemy for 10 sec. Lock On cannot be dispelled, and the target's M.Block rate has decreased by 500.",
+      "description": "Attacks the enemy with the lowest M.DEF 3 times, dealing a total of [ffc800]???[-] M.DMG and inflicting stun for 1 sec, and if the target is under 'Target Lock On', target takes additional [ffc800]???[-] M.DMG. The last attack inflicts 'Target Lock On' on the enemy for 10 sec. Lock On cannot be dispelled, and the target's M.Block rate has decreased by 500.",
       "thumbnail": "heroes/Mirianne/skills/1.png"
     },
     "2": {
       "name": "Restrain and Protect",
       "cost": "3",
       "cooldown": "12",
-      "description": "Deals ??? M.DMG to target enemy and other enemies in range, and Stuns them for 2 sec. Then moves to an ally with the lowest P.DEF, excluding self, and creates Shield for two that can block ??? DMG for 10 sec. Shield will be ineffective when there is no ally. Gains immunity to CC while the Shield lasts.",
+      "description": "Deals [ffc800]???[-] M.DMG to target enemy and other enemies in range, and Stuns them for 2 sec. Then moves to an ally with the lowest P.DEF, excluding self, and creates Shield for two that can block [ffc800]???[-] DMG for 10 sec. Shield will be ineffective when there is no ally. Gains immunity to CC while the Shield lasts.",
       "thumbnail": "heroes/Mirianne/skills/2.png"
     },
     "3": {
       "name": "Assassination",
       "cost": "2",
       "cooldown": "14",
-      "description": "Moves to an enemy with the lowest HP, deals ??? M.DMG then returns to the furthest ally. If the enemy is not a hero, deals ??? additional M.DMG that ignores DEF. Defeating a target with this skill instantly triggers 'Restrain and Protect'.",
+      "description": "Moves to an enemy with the lowest HP, deals [ffc800]???[-] M.DMG then returns to the furthest ally. If the enemy is not a hero, deals [ffc800]???[-] additional M.DMG that ignores DEF. Defeating a target with this skill instantly triggers 'Restrain and Protect'.",
       "thumbnail": "heroes/Mirianne/skills/3.png"
     },
     "4": {
       "name": "Target Eliminated",
       "cost": null,
       "cooldown": null,
-      "description": "If an enemy is inflicted by 'Target Lock On', ATK increases by ??? and all attacks skills prioritize Locked On enemies. When the Locked On enemies dies, 'Target Lock On' is inflicted on another enemy for 10 sec.",
+      "description": "If an enemy is inflicted by 'Target Lock On', ATK increases by [64ff64]???[-] and all attacks skills prioritize Locked On enemies. When the Locked On enemies dies, 'Target Lock On' is inflicted on another enemy for 10 sec.",
       "thumbnail": "heroes/Mirianne/skills/4.png"
     }
   },
@@ -220,7 +220,7 @@
   },
   "sw": {
     "requirement": "Charges up upon using Skills 5 times.",
-    "description": "Places Endless Acceleration, Riventina on the ground for 10 sec. Endless Acceleration, Riventina attacks the enemy with the lowest M.DEF, dealing ??? M.DMG and inflicting Target Lock On. Afterwards, attacks the enemy every 3 sec, dealing ??? M.DMG and inflicting stun for 2 sec. All effects prioritize the enemy inflicted with Target Lock On.",
+    "description": "Places Endless Acceleration, Riventina on the ground for [64ffff]10[-] sec. Endless Acceleration, Riventina attacks the enemy with the lowest M.DEF, dealing [ffc800]???[-] M.DMG and inflicting Target Lock On. Afterwards, attacks the enemy every 3 sec, dealing [ffc800]???[-] M.DMG and inflicting stun for [64ffff]2[-] sec. All effects prioritize the enemy inflicted with Target Lock On.",
     "cooldown": "23",
     "uses": "6",
     "thumbnail": "heroes/Mirianne/sw.png",

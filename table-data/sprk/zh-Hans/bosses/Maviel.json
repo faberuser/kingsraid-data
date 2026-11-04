@@ -1,0 +1,57 @@
+{
+  "id": "Maviel",
+  "profile": {
+    "name": "马彼耶尔",
+    "title": "疯狂刺客",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "黑暗精灵",
+    "damage_type": "Physical",
+    "recommended_heroes": "黛弥儿, 巴杜因, 爱纱",
+    "characteristics": "[暗影隐形]会以一种特殊的状态回避所有攻击，当累计回避达100次时将现出原形。必须运用打击次数多且攻击速度快的英雄来进行有效应对。",
+    "thumbnail": "bosses/Maviel.png",
+    "recommendedHeroNames": [
+      "Demia",
+      "Baudouin",
+      "Aisha"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "影之斩击",
+      "cost": null,
+      "cooldown": "15",
+      "description": "快速向任意目标移动，造成5次物理伤害。每次攻击都会造成10秒的出血状态与永久持续、无法被解除的回复力降低。"
+    },
+    "2": {
+      "name": "狂怒暴发",
+      "cost": null,
+      "cooldown": "15",
+      "description": "陷入狂怒状态，10秒内提升攻击力、暴击机率及攻击速度。"
+    },
+    "3": {
+      "name": "凶残",
+      "cost": null,
+      "cooldown": "30",
+      "description": "向生命值最低的敌人移动造成大量物理伤害。"
+    },
+    "4": {
+      "name": "影之隐匿",
+      "cost": null,
+      "cooldown": "40",
+      "description": "每隔40秒将回避一定次数的所有攻击，回避固定次数的攻击后将陷入晕眩状态。非隐身状态时，将增加受到的伤害，并固定攻击速度。"
+    },
+    "5": {
+      "name": "净化",
+      "cost": null,
+      "cooldown": null,
+      "description": "每30秒解除自身的负面效果，并提升攻击速度。"
+    }
+  },
+  "aliases": [
+    "Maviel",
+    "GR5",
+    "GR 5"
+  ]
+}

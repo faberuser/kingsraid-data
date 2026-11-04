@@ -1,0 +1,63 @@
+{
+  "id": "Mountain Fortress",
+  "profile": {
+    "name": "마운틴 포트리스",
+    "title": "고대 마도왕국의 유산",
+    "type": [
+      "World Boss"
+    ],
+    "race": "골렘",
+    "damage_type": "Physical",
+    "recommended_heroes": "프레이, 루나, 제인",
+    "characteristics": "마운틴 포트리스는 핵이 노출되면 방어력이 크게 감소되며 받는 마법 피해량이 크게 증가합니다. [방어모드 활성화] 스킬을 사용할 때 마법피해를 활용하여 핵을 노출시켜 큰 피해를 입힐 수 있습니다.",
+    "thumbnail": "bosses/Mountain Fortress.png",
+    "recommendedHeroNames": [
+      "Frey",
+      "Luna",
+      "Jane"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "목표 제거",
+      "cost": null,
+      "cooldown": "15",
+      "description": "레이저를 발사하여 단일 대상을 6번 공격하고 큰 물리 피해를 입힙니다. 1회 공격마다 피해입은 대상의 모든 방어력이 10초간 10%씩 감소합니다. 이 공격은 치명타가 발생할 확률이 높습니다."
+    },
+    "2": {
+      "name": "방어모드 활성화",
+      "cost": null,
+      "cooldown": "18",
+      "description": "15초간 자신의 모든 방어력을 매우 큰 폭으로 증가시키고 [산사태] 스킬을 15초간 활성화 합니다. 지속시간 동안 마법피해에 의해 더 쉽게 핵이 노출됩니다."
+    },
+    "3": {
+      "name": "대지 가격",
+      "cost": null,
+      "cooldown": "26",
+      "description": "대지를 강타하여 매우 넓은 범위내 적에게 물리 피해를 입히고 5초간 넘어뜨립니다."
+    },
+    "4": {
+      "name": "파괴 광선",
+      "cost": null,
+      "cooldown": "40",
+      "description": "직선상의 적에게 파괴 광선을 발사하여 물리 피해를 입히고 매우 멀리 밀어냅니다. 일정 거리 이상 밀려난 적은 5초간 기절 시킵니다."
+    },
+    "5": {
+      "name": "산사태",
+      "cost": null,
+      "cooldown": null,
+      "description": "매 3초마다 산사태 중첩이 1중첩씩 증가하며 5중첩이 되면 임의의 적 5명을 3번 공격하여 큰 물리 피해를 입히고 5초간 기절 시킵니다."
+    },
+    "6": {
+      "name": "바위 피부",
+      "cost": null,
+      "cooldown": null,
+      "description": "거대한 마운틴 포트리스는 공격 속도 증감에 영향을 받지 않고 시간이 지날 수록 공격력이 증가합니다. 또한 때때로 적에게 바위를 낙하시켜 대상을 기절시킵니다"
+    }
+  },
+  "aliases": [
+    "MountainFortress",
+    "WB1",
+    "WB 1"
+  ]
+}

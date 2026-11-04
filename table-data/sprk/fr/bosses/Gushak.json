@@ -1,0 +1,57 @@
+{
+  "id": "Gushak",
+  "profile": {
+    "name": "Gushak",
+    "title": "Chef de l'Autel Sanglant",
+    "type": [
+      "Guild Raid"
+    ],
+    "race": "Orc",
+    "damage_type": "Physical",
+    "recommended_heroes": "Leo, Nyx, Tanya",
+    "characteristics": "Applique [Rage d'Orc] chaque fois que le boss prend des DEG. Cumulable 100 fois, ce qui provoque l'Enragement et augmente considérablement les statistiques. Les Héros qui peuvent [Disisper] les Améliorations sont favorisés pour ce niveau.",
+    "thumbnail": "bosses/Gushak.png",
+    "recommendedHeroNames": [
+      "Leo",
+      "Nyx",
+      "Tanya"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Tranchant Vermillon",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Fait tournoyer l'arme, infligeant des DEG P aux ennemis proches. Le coup final provoque une onde de choc et frappe les ennemis pendant 2 secondes."
+    },
+    "2": {
+      "name": "Lame Frénétique",
+      "cost": null,
+      "cooldown": "25",
+      "description": "Attaque l'ennemi à 3 reprises fois, puis frappe vers le bas, infligeant des DEG P aux ennemis proches et provoque Étourdissement pendant 5 sec."
+    },
+    "3": {
+      "name": "Frappe de Sang",
+      "cost": null,
+      "cooldown": "45",
+      "description": "Frappe le sol, appliquant Étourdissement sur les ennemis proches pendant 4 sec. Puis attaque les ennemis avec une large coup, infligeant de gros DEG P aux ennemis proches."
+    },
+    "4": {
+      "name": "Rage d'Orc",
+      "cost": null,
+      "cooldown": null,
+      "description": "Applique 1 charge de Rage d'Orc pour chaque attaque reçue, pendant 10 sec. Pour chaque charge, augmente de 0.4% l'ATQ et la DEF. Cumulable 100 fois. Au-delà de 100 charges, donne une immunité aux Contrôles et booste les Caractéristiques pendant 10 sec."
+    },
+    "5": {
+      "name": "Purifier",
+      "cost": null,
+      "cooldown": null,
+      "description": "Retire les effets négatifs toutes les 30 sec et augmente la Vitesse d'ATQ."
+    }
+  },
+  "aliases": [
+    "Gushak",
+    "GR4",
+    "GR 4"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "Xanadus",
+  "profile": {
+    "name": "札娜杜思",
+    "title": "深淵聖母",
+    "type": [
+      "World Boss"
+    ],
+    "race": "精怪",
+    "damage_type": "Magical, Physical",
+    "recommended_heroes": "賽莉亞, 克莉莎, 克洛, 普莉西拉",
+    "characteristics": "她曾是被歷史遺忘的冥界女神。這位古老的存在獲得深淵黑暗的力量後，成為了世界首領。",
+    "thumbnail": "bosses/Xanadus.png",
+    "recommendedHeroNames": [
+      "Seria",
+      "Chrisha",
+      "Crow",
+      "Priscilla"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "來自深淵的邀請",
+      "cost": null,
+      "cooldown": "18",
+      "description": "魅惑1名敵人，施加魔法傷害並使其脫離戰鬥8秒。脫離戰鬥的敵人無法採取任何行動且不會被指定為目標。受到傷害的目標其傷害量將永久性減少。"
+    },
+    "2": {
+      "name": "黑暗籠罩",
+      "cost": null,
+      "cooldown": "21",
+      "description": "在10秒內於自身前方形成黑暗籠罩，每0.5秒給予全體敵人魔法傷害，並在20秒內使其攻擊力減少50%。"
+    },
+    "3": {
+      "name": "刀刃之翼",
+      "cost": null,
+      "cooldown": "26",
+      "description": "使用巨大的翅膀攻擊地面，對全體敵人造成物理傷害並推開敵人。"
+    },
+    "4": {
+      "name": "深淵的惡夢",
+      "cost": null,
+      "cooldown": null,
+      "description": "於10秒內每0.5秒對全體敵人造成魔法傷害，並回復自己的體力。每次回復時將永久減少自身受到的傷害量。\n當處於[深淵的惡夢]狀態時將顯示[深淵之眼]，自身受到的傷害量將大幅增加。"
+    },
+    "5": {
+      "name": "古代種的抵抗",
+      "cost": null,
+      "cooldown": null,
+      "description": "札娜杜思的攻擊速度與防禦力固定不變，同時擁有300暴擊抵抗力。使用技能3次時就會施展[深淵的惡夢]。\n札娜杜思會代為承受[深淵詛咒石]與[深淵靈魂石]的一部分傷害。"
+    },
+    "6": {
+      "name": "漆黑聖母",
+      "cost": null,
+      "cooldown": null,
+      "description": "札娜杜思的[深淵詛咒石]與[深淵靈魂石]在防護罩破裂之前受到的所有傷害皆為1。\n在施展[深淵的惡夢]的期間內會解除防護罩，[深淵的惡夢]施展結束時會再次生成防護罩。"
+    },
+    "7": {
+      "name": "深淵之核",
+      "cost": null,
+      "cooldown": null,
+      "description": "[深淵靈魂石]每30秒將提升札娜杜思的攻擊力50%，每次持續10秒。\n[深淵詛咒石]每20秒將減少距離最遠的2名敵人的攻擊力30%，此效果無法解除。"
+    }
+  },
+  "aliases": [
+    "Xanadus",
+    "WB3",
+    "WB 3"
+  ]
+}

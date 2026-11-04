@@ -1,0 +1,66 @@
+{
+  "id": "Lakreil",
+  "profile": {
+    "name": "劳格雷尔",
+    "title": "憎恶荆棘",
+    "type": [
+      "Guild Conquest",
+      "Guild Raid"
+    ],
+    "race": "蜥蜴人",
+    "damage_type": "Physical",
+    "recommended_heroes": "奈拉, 朱诺, 罗迪娜",
+    "characteristics": "使用[肉弹突击]后施放[致命回力镖]对敌人造成永久性的伤痕。需要闪避劳格雷尔的攻击或对劳格雷尔造成大量的物理伤害，才能结束[劳格雷尔的愤怒]效果，使其停止施放。",
+    "thumbnail": "bosses/Lakreil.png",
+    "recommendedHeroNames": [
+      "Naila",
+      "Juno",
+      "Rodina"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "致命回力镖",
+      "cost": null,
+      "cooldown": null,
+      "description": "对前方所有敌人投掷回力镖攻击4次造成物理伤害，并使敌人的回复力永久降低1%。[劳格雷尔的愤怒]效果结束前不会停止。"
+    },
+    "2": {
+      "name": "肉弹突击",
+      "cost": null,
+      "cooldown": "30",
+      "description": "冲向敌军造成物理伤害并击倒敌人，往前冲后将呈现[劳格雷尔的愤怒]状态且施放[致命回力镖]。"
+    },
+    "3": {
+      "name": "愤怒强打",
+      "cost": null,
+      "cooldown": "25",
+      "description": "奋力跳跃猛击地面，在清除全体敌军的正面效果后对敌人造成物理伤害，并于10秒内使其回避率减少300，此攻击无法回避。"
+    },
+    "4": {
+      "name": "狂暴化",
+      "cost": null,
+      "cooldown": "18",
+      "description": "自身的攻击力提高50%、命中率提高300，持续20秒。"
+    },
+    "5": {
+      "name": "劳格雷尔的愤怒",
+      "cost": null,
+      "cooldown": null,
+      "description": "劳格雷尔的攻击被敌人闪避时会降低愤怒5，自身每次受到物理伤害时会降低愤怒1。\n劳格雷尔的愤怒结束时在一定时间内会呈现无力状态且受到的伤害提高。"
+    },
+    "6": {
+      "name": "憎恶荆棘",
+      "cost": null,
+      "cooldown": null,
+      "description": "劳格雷尔的攻击速度与防御力不会降低，而且无视敌人受到的所有伤害降低效果。\n敌人使用技能时，可额外造成使用者在1秒内无法回复魔力。"
+    }
+  },
+  "aliases": [
+    "Lakreil",
+    "GC2",
+    "GC 2",
+    "GR8",
+    "GR 8"
+  ]
+}

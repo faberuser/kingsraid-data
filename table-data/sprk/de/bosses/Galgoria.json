@@ -1,0 +1,61 @@
+{
+  "id": "Galgoria",
+  "profile": {
+    "name": "Galgoria",
+    "title": "Todgreifende Hand",
+    "type": [
+      "Technomagic Kingdom Raid"
+    ],
+    "race": "Engel",
+    "damage_type": "Magical",
+    "recommended_heroes": "Morrah, Arch, Annette",
+    "characteristics": "Galgoria heilt ständig ihre Gesundheit, daher musst du entweder die Heilungsrate reduzieren oder sehr starken Schaden zufügen.\nAchtung: Wenn du Galgoria mehrmals Schaden zufügst, werden die Verbündeten mit dem höchsten Schaden für eine bestimmte Zeit versiegelt.",
+    "thumbnail": "bosses/Galgoria.png",
+    "recommendedHeroNames": [
+      "Morrah",
+      "Arch",
+      "Annette"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Sumpfzerstörer",
+      "cost": null,
+      "cooldown": "10",
+      "description": "Galgoria greift Frontfeinde in Reichweite 3-mal an und fügt ihnen Mag. Schaden zu. Zuletzt greift sie Feinde in größerer Reichweite an, fügt ihnen dabei Mag. Schaden in Höhe der aktuellen TP des Ziels zu und wirft sie für 3 Sek. zu Boden."
+    },
+    "2": {
+      "name": "Giftsumpf",
+      "cost": null,
+      "cooldown": "17",
+      "description": "Galgoria erzeugt 5 Sek. lang vorne im Umkreis [Giftsumpf]. Fügt Feinden in Reichweite jede Sek. Mag. Schaden zu, wobei ihre MP-Regenerationsrate um 40 % verringert und der ANG um 40 % erhöht wird."
+    },
+    "3": {
+      "name": "Giftexplosion",
+      "cost": null,
+      "cooldown": "18",
+      "description": "Galgoria greift alle Gegner 2-mal an. Der erste Angriff verringert 10 Sek. lang den ANG des Ziels um 50 % und der zweite Angriff verringert 10 Sek. lang die Krit. Chance des Ziels um 500."
+    },
+    "4": {
+      "name": "Tödliches Gift",
+      "cost": null,
+      "cooldown": null,
+      "description": "Verwendet den Skill 3-mal. greift danach alle Gegner an und fügt ihnen Mag. Schaden zu. Getroffene Gegner verringern dauerhaft die Heilungsrate und Galgoria erhöht dauerhaft den ANG."
+    },
+    "5": {
+      "name": "Zähe Lebenskraft",
+      "cost": null,
+      "cooldown": null,
+      "description": "Galgoria wird nicht von ANG-GESCHW.-Veränderungen betroffen, wobei seine Heilungsrate sehr hoch ist und er jede Sek. seine TP regeneriert. Helden können in einem Kampf mit Galgoria kein Lebensraub einsetzen. Dabei wird in einem Kampf mit Phase 4 oder höher die Heilungsrate von Galgoria um 50 % erhöht und die Heilungsrate der Helden um 40 % und die Schildmenge wird um 60 % verringert."
+    },
+    "6": {
+      "name": "Sumpfhaft",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erleidet Galgoria 150-mal Schaden, wird die Haft von allen Helden entfernt. Danach wird/werden 1 Held(en) mit dem höchsten Schaden gegen Galgoria 8 Sek. lang inhaftiert und aus dem Kampf entfernt. Der zugefügte Schaden von allen Helden nicht in Haft wird 8 Sek. lang erhöht."
+    }
+  },
+  "aliases": [
+    "Gal"
+  ]
+}

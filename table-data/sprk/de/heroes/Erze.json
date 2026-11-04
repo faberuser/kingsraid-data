@@ -1,0 +1,228 @@
+{
+  "id": "Erze",
+  "profile": {
+    "name": "Erze",
+    "title": "Endloser Durst Erze",
+    "class": "Assassin",
+    "position": "Middle-500",
+    "attack_range": "5600",
+    "damage_type": "Physical",
+    "gender": "Weiblich",
+    "age": "18",
+    "height": "170",
+    "race": "Vampire",
+    "constellation": "Notmun, der Stimmer",
+    "birth": {
+      "month": 7,
+      "day": 6,
+      "monthName": "Monat der Harmonie"
+    },
+    "like": "Seria als Schwester, Schokoladen-Parfait, Blut der Verdorbenen",
+    "dislike": "Seria als Vampirjägerin, Spinnen",
+    "story": "Erze war die zweite Tochter der Familie ShadowHilt und beschloss, in die Fußstapfen ihrer geliebten Schwester Seria zu treten und ebenfalls eine Vampirjägerin zu werden. Aufgrund ihres schwachen Körperbaus konnte sie nie lernen, mit Schwertern zu kämpfen, aber dank ihrer magischen Talente wurde sie dennoch eine bekannte Jägerin. Eines Tages tappte sie während einer Operation in eine Falle und wurde von einem mysteriösen Vampir in die Schulter gebissen.\nIhre ohnehin schon schwache Konstitution verschlechterte sich weiter und manifestierte sich in starken Kopfschmerzen und allnächtlichem Durst. Erze wusste, was das bedeutet und was mit ihr passieren würde. Sie versteckte den Biss und versuchte, selbst ein Heilmittel zu finden, woraufhin sie sich von ihren Kameraden distanzierte.\nIn der Zwischenzeit wurde Seria zum Windland-Schneegebirge entsandt, um nach der Vampir-Prinzessin zu suchen, die vor 100 Jahren verschwand.\nEines Tages ging ihre Schwester ...\n– Ah, Seria ... Ich kann es nicht mehr kontrollieren ...\nStill und heimlich fing Erze an, ihren Kameraden die Kehle durchzuschneiden.",
+    "thumbnail": "heroes/Erze/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Süßes Blut",
+      "cost": "2",
+      "cooldown": "5",
+      "description": "Verursacht [ffc800]326 + 326 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 163% von P.ATK[-] Körp. Schaden an allen Feinden und raubt TP in Höhe von [64ff64]10[-] % des verursachten Schadens. Verringert den Cooldown von [fa96fa][Süßes Blut][-] mit jedem Treffer um [64ffff]0.5[-] Sek. und stapelt mit jedem Treffer [64ffff]1[-]x [fa96fa][Süßes Blut][-], das nicht entfernt werden kann. [fa96fa][Süßes Blut][-] ist bis zu [64ffff]5[-]-mal stapelbar. Wird der Skill mit [64ffff]5[-] Stapeln von [fa96fa][Süßes Blut][-] verwendet, werden/wird [64ffff]1[-] zus. Treffer gewährt und die Stapel von [fa96fa][Süßes Blut][-] entfernt.\nVerringert im [fa96fa][Ewiger Durst][-] Zustand den Cooldown um [64ff64]100[-] % und die [fa96fa][Süßes Blut][-] Stapel werden nicht entfernt, wenn der Skill bei [64ffff]5[-] Stapel [fa96fa][Süßes Blut][-] verwendet wird.",
+      "thumbnail": "heroes/Erze/skills/1.png"
+    },
+    "2": {
+      "name": "Triefendes Blut",
+      "cost": "2",
+      "cooldown": "35",
+      "description": "Hebt alle eigenen negativen Effekte auf, gewährt [64ffff]5[-] Sek. lang Gesamtschaden- & Massenkontroll-Immunität und erzeugt [64ffff]15[-] Sek. lang [fa96fa][Ewiger Durst][-]. Stapelt danach bei allen Gegnern [64ffff]1[-]x [fa96fa][Triefendes Blut][-] sowie weitere [64ffff]1[-]x, wenn ein Ziel im [fa96fa][Triefendes Blut][-] Zustand mit einem beliebigen Skill angegriffen wird. [fa96fa][Triefendes Blut][-] kann bis zu [64ffff]6[-]-mal gestapelt werden. Fügt dem Gegner im [fa96fa][Triefendes Blut][-] Zustand nach [64ffff]5[-] Sek. [ffc800]240 + 240 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 120% von P.ATK[-] Körp. Schaden zu und raubt TP in Höhe von [64ff64]25[-] % des verursachten Schadens. Für alle [64ffff]3[-] Stapel [fa96fa][Triefendes Blut][-] erhöht sich die Trefferzahl um [64ffff]1[-]. [fa96fa][Triefendes Blut][-] Zustand wird danach entfernt. Im [fa96fa][Ewiger Durst][-] Zustand wird der von Erze verursachte Schaden an Gegner um [64ff64]25[-] % erhöht und der Cooldown des Skills wird bei Aktivierung des Skills um [64ff64]1[-] Sek. verringert.",
+      "thumbnail": "heroes/Erze/skills/2.png"
+    },
+    "3": {
+      "name": "Blutbefreiung",
+      "cost": "3",
+      "cooldown": "14",
+      "description": "Fügt [64ffff]10[-] Sek. lang allen Gegnern alle [64ffff]1[-] Sek. [ffc800]158 + 158 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 78.8% von P.ATK[-] Körp. Schaden zu und regeneriert mit jedem Treffer [64ff64]75[-] MP. Jeder Treffer von [fa96fa][Blutbefreiung][-] trifft zus. [64ffff]1[-] zufällige(n) Feind(en).\nIm [fa96fa][Ewiger Durst][-] Zustand wird der Cooldown um [64ff64]4[-] Sek. erhöht und einem Ziel, der kein Held ist, wird pro Treffer [ffc800]79 + 79 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 39.4% von P.ATK[-] zus. Körp. Schaden zugefügt.",
+      "thumbnail": "heroes/Erze/skills/3.png"
+    },
+    "4": {
+      "name": "Lebenstrinker",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erhöht den ANG um [64ff64]40 + 40 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient[-], die Max. TP um [64ff64]200 + 200 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient[-] und den Schaden an Zielen, die keine Helden sind, um [64ff64]1[-] %, wenn ein Gegner getötet wird. Diese Effekte können bis zu [64ffff]25[-]-mal gestapelt werden. Wirkt beim Erleiden von tödlichem Schaden [fa96fa][Triefendes Blut][-] und verringert die eigenen max. TP um [ff6464]40[-] %. Der Effekt [fa96fa][Ewiger Durst][-] wird auf den Skill [fa96fa][Triefendes Blut][-] nicht angewendet, wenn tödlicher Schaden erlitten wird. Der Skill [fa96fa][Triefendes Blut][-] tritt nicht auf, solange sein Cooldown aktiv ist. Dieser Skill verbraucht bei Aktivierung das gesamte Mana.",
+      "thumbnail": "heroes/Erze/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht den ANG- und den max. TP-Boost um 10 %.",
+      "III": "Erhöht den ANG- und max. TP-Boost um 15 %.",
+      "IV": "Erhöht den ANG- und max. TP-Boost um 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Regeneriert bei jedem Angriff 150 Mana.",
+          "thumbnail": "heroes/Erze/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Jede Nutzung erhöht Schaden um 10 %. Dieser Effekt ist bis zu 30-mal stapelbar und kann nicht entfernt werden.",
+          "thumbnail": "heroes/Erze/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Betäubt das Ziel bei einem Treffer für 3 Sek.",
+          "thumbnail": "heroes/Erze/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Manakosten sind um 1 reduziert.",
+          "thumbnail": "heroes/Erze/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Ändert die MP-Regeneration pro Treffer auf 150.",
+          "thumbnail": "heroes/Erze/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Manakosten sind um 1 erhöht, aber Schaden ist +100 %.",
+          "thumbnail": "heroes/Erze/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Erhöht die Max. TP um 100 %, wenn ein Feind getötet wird, und verändert die Verringerung der max. TP nach dem automatischen Wirken von [Triefendes Blut] um 33 %.",
+          "thumbnail": "heroes/Erze/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erhöht den ANG um 200 %, wenn ein Feind getötet wird, die max. TP werden jedoch nicht erhöht.",
+          "thumbnail": "heroes/Erze/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Chance +100",
+        "thumbnail": "heroes/Erze/perks/light.png"
+      },
+      "dark": {
+        "effect": "Raubt mit dem letzten Angriff TP in Höhe von 25 % des zugefügten Schadens und stapelt 1x [Süßes Blut], wobei pro [Süßes Blut] Stapel im Besitz der ANG um 10 % erhöht wird.",
+        "thumbnail": "heroes/Erze/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Essenz der Gier, Perion",
+    "description": "Jeder Skill-Treffer erhöht den eigenen ANG und die ANG-GESCHW. für 30 Sek. um jeweils 0.5 %. Dieser Effekt ist bis zu {0}-mal stapelbar und kann nicht entfernt werden.",
+    "value": {
+      "0": {
+        "0": "80",
+        "1": "90",
+        "2": "110",
+        "3": "130",
+        "4": "160",
+        "5": "200"
+      }
+    },
+    "thumbnail": "heroes/Erze/uw.png",
+    "story": "Wann hat all das begonnen ...?\nDiese Qual und dieser unstillbare Durst ...\nAber wenn dieser Durst gelöscht ist ...\nPocht mein Herz vor Hass dir gegenüber, Seria ...\nAh, Seria. Ich habe keine andere Wahl.\nIch brauche diese Macht, um diesen endlosen Durst zu stillen.\nDiese immerwährende Essenz der Macht ist die einzige Heilung für meine ewige Qual.\nAh ... Diese Ekstase ...\nMehr ... Ich brauche mehr Erregung."
+  },
+  "uts": {
+    "1": {
+      "name": "Fangzahn des Durstes",
+      "description": "[Süßes Blut] verringert die Manakosten um 1 und erhöht den vom getroffenen Feind erlittenen Körp. Schaden um {0} %. Dieser Effekt kann bis zu 10-mal gestapelt werden.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
+      "thumbnail": "heroes/Erze/ut/1.png",
+      "story": "Ein Fangzahn des Vampirs, der Erze gebissen hat.\nNachdem Erze endlich die Macht des Blutes erlangt hatte, nach der sie sich schon so lange sehnte, ermordete sie diesen Vampir brutal und nahm sich seinen Fangzahn. Bei Vollmond spielt sie immer mit dem Fangzahn herum, der einst mit ihrem Blut beschmiert war. Dann denkt sie an die Zeit zurück, als sie noch ein Mensch war und noch nicht von ihrem Blutdurst beherrscht wurde."
+    },
+    "2": {
+      "name": "Wein des Schauderns",
+      "description": "[Triefendes Blut] erhöht den Schaden von [Triefendes Blut] um 50 % und verringert den Cooldown von [Triefendes Blut] um {0} Sek.",
+      "value": {
+        "0": {
+          "0": "5",
+          "1": "6",
+          "2": "7",
+          "3": "8",
+          "4": "9",
+          "5": "10"
+        }
+      },
+      "thumbnail": "heroes/Erze/ut/2.png",
+      "story": "Ein Wein, den Erze persönlich aus dem Blut gefallener Priester hergestellt hat.\nEine ihrer größten Freuden ist es, einst Heilige dazu zu zwingen, vor ihr zu knien.\nIn der Flasche befindet sich ein blutiges Kreuz, und jene, die Erze den Wein trinken hören, erschaudern und erzittern aufgrund des klirrenden Kreuzes."
+    },
+    "3": {
+      "name": "Lippenstift der Schande",
+      "description": "[Blutbefreiung] erhöht den Schaden von [Blutbefreiung] um {0} % und erhält für die Dauer von [Blutbefreiung] Immunität gegen Massenkontrolle.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Erze/ut/3.png",
+      "story": "Ein dunkelroter Lippenstift aus dem Blut jener, die eines schändlichen Todes gestorben sind.\nJene, die ihre Würde als Menschen aufgegeben und ihrem unersättlichen Verlangen nachgegeben haben, konnten Erze nicht entkommen.\nSie starben in einem kompletten Trancezustand, doch vielleicht sind sie immer noch glücklich, von Erze gebraucht worden zu sein.\nErze benutzt ihn, um ein Mal auf dem Hals ihrer Beute zu hinterlassen, nachdem sie sich an ihr gelabt hat."
+    },
+    "4": {
+      "name": "Mondlichtklavier",
+      "description": "[Lebenstrinker] erhöht den ANG-Boost und den max. TP-Boost um {0} %. Lebenstrinker kann nicht mehr entfernt werden.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Erze/ut/4.png",
+      "story": "Ein Klavier, das von Erze während des Festes des Bluts in einer Vollmondnacht gespielt wurde.\nNachdem sie eine komplette Stadt ausgelöscht hatte, um ihren Blutdurst zu stillen,\nerwischte sie sich dabei, wie sie reglos auf dem blutgetränkten Boden stand.\nJedes Leben gehörte ihr und sie wollte ihr stilles Publikum mit einem schönen Lied erfreuen.\nDie Sonate hallte über den Leichenberg wider."
+    }
+  },
+  "sw": {
+    "requirement": "Für 22 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Für [64ffff]7[-] Sek. wird die Seele von Essenz der Gier, Perion beschwört. Während die Seele besteht, erhältst du ein [fa96fa]Kristall der Gier[-]-Stapel, jedes mal wenn du dem Gegner Skill-Schaden zufügst. Nach [64ffff]7[-] Sek. explodiert die Seele und allen Gegnern wird [ffc800]600% von P.ATK[-] Körp. Schaden zugefügt. Verwende den [fa96fa]Kristall der Gier[-]-Stapel, um den pro Stapel erzeugten Schaden um [64ff64]2[-] % zu erhöhen. [fa96fa]Kristall der Gier[-] kann max. 15-mal gestapelt werden.",
+    "cooldown": "15",
+    "uses": "6",
+    "thumbnail": "heroes/Erze/sw.png",
+    "advancement": {
+      "1": "Der pro Kristall der Gier-Stapel erzeugte Schaden wird auf 4 % geändert.",
+      "2": "Die max. Anzahl an Kristall der Gier-Stapel erhöht sich um 15 und der erzeugte Schaden des max. Stapels wird um 200 % erhöht."
+    },
+    "story": "Perion ist der Kristall, der hergestellt wurde, als Erze den Vampir tötete, der ihr ewigen Durst gab, und seine Kraft aufnahm.\nIn diesem Moment war es schwach und nur eine kleine Kugel. Aber es traf das verborgene Talent der Erze und hatte einen zirkulierenden Charakter, um den ewigen Durst zu stillen. Der gestillte Durst ist als Gier und Kraft erschienen.\nDer Durst von Erze war größer und der Hass gegen die Schwester setzte sich auch im Strudel der Zirkulation fort. Perion hat Erze zugestimmt und versucht, die Grenze zu überschreiten und in neuem Aussehen aufzuwachen."
+  },
+  "splashart": "heroes/Erze/sa.png",
+  "costumes": "heroes/Erze/cos",
+  "aliases": null
+}

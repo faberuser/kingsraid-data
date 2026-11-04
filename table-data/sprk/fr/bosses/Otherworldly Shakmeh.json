@@ -1,0 +1,101 @@
+{
+  "id": "Otherworldly Shakmeh",
+  "profile": {
+    "name": "Shakmeh les Ténèbres dissonantes",
+    "title": "Ténèbres dissonantes",
+    "type": [
+      "Shakmeh"
+    ],
+    "race": "Tidhar",
+    "damage_type": "Physical",
+    "recommended_heroes": "Kirze, Xerah, Lakrak",
+    "characteristics": "Vous devez affronter Shakmeh les Ténèbres dissonantes en 2 équipes. Prenez garde au fait que chaque équipe ne peut intervenir dans l'autre. De plus, Shakmeh dispose de nouvelles compétences à partir du niveau 3, et du niveau 5 de la bataille, donc vous devez vous préparer afin de pouvoir repousser ses compétences. Durant la bataille contre Shakmeh les Ténèbres dissonantes, vous pouvez vous servir des compétences [Bénédiction de l'Oasis] et [Ire du Désert]. Employez-les à bon escient afin de le vaincre.",
+    "thumbnail": "bosses/Otherworldly Darkness Shakmeh.png",
+    "recommendedHeroNames": [
+      "Kirze",
+      "Xerah",
+      "Lakrak"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Ombre de l'Épée engloutissant la Rancœur",
+      "cost": null,
+      "cooldown": "9",
+      "description": "Attaque tous les ennemis avec l'Ombre de l'Épée, infligeant des DEG P et restaurant les PM de Shakmeh. Plus les PM actuels de Shakmeh sont élevés, plus les DEG infligés augmentent et plus les PM sont bas, plus la récupération de PM augmente."
+    },
+    "2": {
+      "name": "Vague de Péché engloutissant les Ténèbres",
+      "cost": null,
+      "cooldown": "20",
+      "description": "Invoque l'Épée dissonante et provoque la Vague de Péché sur la Voie de l'Ombre, infligeant des DEG P et met en état de [Jouissance des Péchés]. Le Héros en état de [Jouissance des Péchés] ne peut bénéficier de Vol de vie, la récupération est réduite et subit des DEG P en continu, mais les DEG infligés augmentent. [Jouissance des Péchés] n'est pas dissipée jusqu'à ce que les PV de la cible soit inférieure à 25%."
+    },
+    "3": {
+      "name": "Tempête de Haine engloutissant le Désespoir",
+      "cost": null,
+      "cooldown": "20",
+      "description": "Invoque la Tempête de Haine sur la Voie du Soleil, infligeant des DEG P à 14 reprises, réduisant la Vitesse d'ATQ pendant 10 sec et empêchant le Vol de vie à l'intérieur de la tempête. Plus la Vitesse d'ATQ est basse, plus cette compétence inflige des DEG importants aux ennemis."
+    },
+    "4": {
+      "name": "Jugement de Splendeur engloutissant la Vie",
+      "cost": null,
+      "cooldown": "23",
+      "description": "Porte un jugement aux ennemis sur la Voie de l'Ombre toutes les 2 sec à 6 reprises, dissipant les effets positifs et infligeant des DEG P, avant de les étourdir. Si la cible est déjà étourdie, réduit de façon perpétuelle la récupération de la cible et restaure les PM de Shakmeh. Plus les PM actuels de Shakmeh sont élevés, plus les DEG infligés augmentent. Plus les PM sont bas, plus la récupération de PM augmente."
+    },
+    "5": {
+      "name": "Palpitation du Noir engloutissant la Fureur",
+      "cost": null,
+      "cooldown": "23",
+      "description": "Attaque les ennemis sur la Voie du Soleil, infligeant des DEG P et réduisant les DEG infligés par ces derniers, avant d'invoquer l'[Arbre des Péchés] pendant 12 sec. L'[Arbre des Péchés] réduit toutes les sec l'ATQ des ennemis à portée. Si l'[Arbre des Péchés] est éliminé en moins de 12 sec, la [Puissance corrompue] de Shakmeh est réduite considérablement. Si l'[Arbre des Péchés] est encore en vie après 12 sec, Shakmeh provoque Palpitation du Noir et achève les ennemis sur la Voie du Soleil."
+    },
+    "6": {
+      "name": "Vengeance du Prince déchu du Trône",
+      "cost": null,
+      "cooldown": null,
+      "description": "À chaque fois que les PV de Shakmeh atteignent 66% et 33%, invoque une lame de vengeance, dissipant les effets positifs de tous les ennemis, avant d'infliger des DEG P. Si la puissance corrompue est supérieure à 50%, élimine tous les ennemis."
+    },
+    "7": {
+      "name": "Réceptacle engloutissant les Péchés",
+      "cost": null,
+      "cooldown": null,
+      "description": "Shakmeh est immunisé contre les effets de la réduction de Vitesse d'ATQ et de DEF. De plus, récupère rapidement les PM, et plus les PM sont élevés, plus le Blocage augmente. Shakmeh ne peut récupérer de PM pendant 7 sec et tous ses DEG reçus augmentent, lorsque ses PM sont à 0. Mais il obtient un bouclier qui ne peut être dissipé. Il récupère une quantité importante de PM après 7 sec."
+    },
+    "8": {
+      "name": "Chute de l'Englouti par l'Abîme",
+      "cost": null,
+      "cooldown": null,
+      "description": "Les attaques de Shakmeh frappent la cible à coup sûr et infligent des DEG qui ignorent la DEF de l'ennemi grâce à la puissance de l'abîme, mais sa propre DEF est très basse.\nShakmeh peut utiliser la compétence [Vengeance du Prince déchu du Trône] à partir du niveau 3 de la bataille et de la compétence [Palpitation du Noir engloutissant la Fureur] à partir du niveau 5 de la bataille."
+    },
+    "9": {
+      "name": "Puissance corrompue de Shakmeh les Ténèbres dissonantes",
+      "cost": null,
+      "cooldown": null,
+      "description": "Shakmeh les Ténèbres dissonantes possède la puissance corrompue, et cette dernière est réduite lorsque Shakmeh est soumis à un Contrôle. Si la puissance corrompue est entièrement vide, les DEG subis par Shakmeh augmentent, mais en utilisant la compétence [Vengeance du Prince déchu du Trône], il récupère toute la puissance corrompue."
+    },
+    "10": {
+      "name": "Voie du Soleil / Voie de l'Ombre",
+      "cost": null,
+      "cooldown": null,
+      "description": "Durant la bataille de Shakmeh, les Héros au corps-à-corps doivent suivre la [Voie du Soleil], et les Héros aux attaques à distance doivent suivre la [Voie de l'Ombre]. Les Héros suivant l'une des voies ne peuvent aucunement intervenir dans l'autre voie."
+    },
+    "11": {
+      "name": "Bénédiction de l'Oasis",
+      "cost": null,
+      "cooldown": "5",
+      "description": "Pendant 9 sec, réduit les DEG reçus par les Héros placés sur la Voie du Soleil, augmente leur ATQ, les immunise contre les effets négatifs et restaure leurs PV toutes les sec proportionnellement à leur PV max. La compétence est rechargée après 10 sec et devient utilisable."
+    },
+    "12": {
+      "name": "Ire du Désert",
+      "cost": null,
+      "cooldown": "5",
+      "description": "Attaque Shakmeh, réduisant considérablement ses PM et [Puissance corrompue], avant de détruire son bouclier. La compétence est rechargée après 12 sec et devient utilisable. Après l'avoir utilisée une fois, elle peut être rechargée de manière supplémentaire pendant 12 sec, renforçant tous ses effets."
+    }
+  },
+  "aliases": [
+    "OtherworldlyShakmeh",
+    "DarknessShakmeh",
+    "BigShakmeh",
+    "HugeShakmeh",
+    "AdultShakmeh"
+  ]
+}

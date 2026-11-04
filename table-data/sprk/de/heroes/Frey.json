@@ -1,0 +1,236 @@
+{
+  "id": "Frey",
+  "profile": {
+    "name": "Frey",
+    "title": "Priesterin des Lichts Frey",
+    "class": "Priest",
+    "position": "Back-100",
+    "attack_range": "200",
+    "damage_type": "Magical",
+    "gender": "Weiblich",
+    "age": "18",
+    "height": "170",
+    "race": "Menschen",
+    "constellation": "Mertis, die Wächterin",
+    "birth": {
+      "month": 1,
+      "day": 1,
+      "monthName": "Monat des Schutzes"
+    },
+    "like": "Lua; derzeitige Arbeit",
+    "dislike": "Ungerechtigkeit",
+    "story": "Eine angehende Priesterin in den Diensten der Göttin Lua. Die Kirche hat hohe Erwartungen an sie als zukünftige Priesterin. Seit den ersten Tagen ihrer Ausbildung begeisterte sie mit ihrem starken Glauben und ihrer natürlichen Gabe, Luas Macht zu beschwören selbst die Hohepriester. Sie selbst sieht das Priestertum als ihre Bestimmung und ihr gütiges Herz spiegelt ihre Entschlossenheit wider. Für Frevler hat sie allerdings keine Gnade übrig.",
+    "thumbnail": "heroes/Frey/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Wundersames Licht",
+      "cost": "2",
+      "cooldown": "8",
+      "description": "Entfernt negative Effekte vom Verbündeten mit den niedrigsten LP, heilt ihn um 3 * (529 + 529 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 330.6% von M.ATK) LP und Verbündete in seiner Nähe um 40% dieser Heilmenge.",
+      "thumbnail": "heroes/Frey/skills/1.png"
+    },
+    "2": {
+      "name": "Segen des Lichts",
+      "cost": "2",
+      "cooldown": "15",
+      "description": "Gewährt allen Verbündeten für 12 Sek. einen Schild, der 831 + 831 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 5197 * M.ATK / 1000 Schaden absorbiert. Solange der Schild besteht, steigen der ANG des Ziels um 20% und seine erhaltene Heilung um 50%; es ist gegen Kontrolleffekte immun.",
+      "thumbnail": "heroes/Frey/skills/2.png"
+    },
+    "3": {
+      "name": "Himmlische Rache",
+      "cost": "3",
+      "cooldown": "22",
+      "description": "Greift das Ziel und Gegner in der Nähe 6-mal an und verursacht bis zu 177 + 177 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 110.8% von M.ATK Magieschaden. Diese Fähigkeit erhält 500 zusätzliche Krit.-Chance. Getroffene Ziele werden für 6 Sek. geblendet und erleiden für 10 Sek. 25% mehr Schaden aller Art.",
+      "thumbnail": "heroes/Frey/skills/3.png"
+    },
+    "4": {
+      "name": "Anmut der Göttin",
+      "cost": null,
+      "cooldown": null,
+      "description": "Verringert sämtlichen erlittenen Schaden um 15%. Zu Kampfbeginn und alle 15 Sek. steigt die magische VTD der 1 Verbündeten mit den niedrigsten LP für 10 Sek. um 46 + 46 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient; während der Fähigkeitsdauer werden 15% ihrer LP geheilt.",
+      "thumbnail": "heroes/Frey/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Heilungsrate um 10 %.",
+      "III": "Erhöht Heilungsrate um 15 %.",
+      "IV": "Erhöht Heilungsrate um 25 %."
+    },
+    "2": {
+      "II": "Erhöht Schild um 10 %.",
+      "III": "Erhöht Schild um 15 %.",
+      "IV": "Erhöht Schild um 25 %."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 10 %.",
+      "III": "Erhöht Schaden um 15 %.",
+      "IV": "Erhöht Schaden um 25 %."
+    },
+    "4": {
+      "II": "Erhöht Mag. VERT-Boost um 10 %.",
+      "III": "Erhöht Mag. VERT-Boost um 15 %.",
+      "IV": "Erhöht Mag. VERT-Boost 25 %."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Skill trifft 2 Feinde für 1 extra Mana.",
+          "thumbnail": "heroes/Frey/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Geheilte Verbündete nehmen 25 % weniger Mag. Schaden für 10 Sek.",
+          "thumbnail": "heroes/Frey/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Erhöht Schild-TP um 40 %.",
+          "thumbnail": "heroes/Frey/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Verringert Cooldown um 3 Sek.",
+          "thumbnail": "heroes/Frey/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "In exchange for 1 additional Mana Cost, Erhöht Schaden um 80 %.",
+          "thumbnail": "heroes/Frey/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Ziel wird in einem zufälligen Gegner geändert.",
+          "thumbnail": "heroes/Frey/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Verringert während der Wirkungsdauer den Schaden, den das getroffene Ziel von Feinde, die keinen Helden sind, erhalten um 30 %.",
+          "thumbnail": "heroes/Frey/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Erhöht die Anzahl der Ziele auf 2.",
+          "thumbnail": "heroes/Frey/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Mag. Blockchance +200",
+        "thumbnail": "heroes/Frey/perks/light.png"
+      },
+      "dark": {
+        "effect": "Erhöht den ANG. aller Verbündeten um 5 % des eigenen ANG.",
+        "thumbnail": "heroes/Frey/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Autorität Gottes, Rosmerta",
+    "description": "Heilt alle 8 Sek. die TP von 4 Verbündeten mit den niedrigsten TP um {0} % des ANG und erhöht für 8 Sek. für den Verbündeten mit dem höchsten ANG die Krit. Chance um 300 und den Krit. Schaden um {1} %.",
+    "value": {
+      "0": {
+        "0": "80",
+        "1": "96",
+        "2": "115",
+        "3": "138",
+        "4": "165",
+        "5": "200"
+      },
+      "1": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      }
+    },
+    "thumbnail": "heroes/Frey/uw.png",
+    "story": "Es heißt, die Engel wären Lua ähnlicher als jedes andere Volk. Ein hochrangiger Engel, Rosmerta, vermachte ihren Kern der Kirche von Lua. Dieser heilige Stab wurde aus der göttlichen Energie des Kerns erzeugt."
+  },
+  "uts": {
+    "1": {
+      "name": "Ei des Engels",
+      "description": "[Wundersames Licht] erhöht die Heilungsrate um 50 % und macht das Ziel {0} Sek. lang immun gegen Schaden.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.2",
+          "2": "1.4",
+          "3": "1.7",
+          "4": "2.1",
+          "5": "2.5"
+        }
+      },
+      "thumbnail": "heroes/Frey/ut/1.png",
+      "story": "Freys heißgeliebter Schatz.\nFrey trug diese Kristallkugel bei sich, als sie als Kleinkind unter dem Weltenbaum gefunden wurde. Frey nannte sie das Ei des Engels, weil sie wie Engelshaar glänzte. Sie pflegte es ihr ganzes Leben lang."
+    },
+    "2": {
+      "name": "Wundersame Medaille",
+      "description": "[Segen des Lichts] erhöht die Schildmenge um 50 % und stellt 4 Sek. lang jede Sekunde {0} Mana wieder her.",
+      "value": {
+        "0": {
+          "0": "100",
+          "1": "120",
+          "2": "140",
+          "3": "170",
+          "4": "210",
+          "5": "250"
+        }
+      },
+      "thumbnail": "heroes/Frey/ut/2.png",
+      "story": "Medaille, die mit der Offenbarung der Göttin von Yvonne, der Heiligen Jungfrau der Wunder geschaffen wurde. \nDie Medaille der Wunder ist ein Relikt, welches die Magie des Lichts enthält. Es heißt, dass die Heilige Jungfrau Yvonne mit dem durch die Medaille verstärkten Segen des Lichts die Stadt rettete, die von den Dämonen angegriffen wurde."
+    },
+    "3": {
+      "name": "Feder des Vergessenen Schlichters",
+      "description": "[Himmlische Vergeltung] Erhöht den erlittenen Magieschaden des Ziels für 10 Sek. um 20% und verlängert die Blenddauer um {0} Sek.",
+      "value": {
+        "0": {
+          "0": "1",
+          "1": "1.5",
+          "2": "2",
+          "3": "2.5",
+          "4": "3",
+          "5": "3.5"
+        }
+      },
+      "thumbnail": "heroes/Frey/ut/3.png",
+      "story": "Feder des Wächters der Sonne. Feder eines Engels, der in der Vergangenheit die Menschheit durch den Kampf gegen die Dämonen gerettet hat. Er ließ seine Feder als Versprechen zurück, wiederzukommen, wenn die Welt erneut im Chaos versinken sollte. Ein Relikt der Kirche von Lua, das heilige Strahlen der Sonne beschwört, um den Feind zu blenden."
+    },
+    "4": {
+      "name": "Die Ankunft der Engel",
+      "description": "[Anmut der Göttin] entfernt bei Aktivierung alle negativen Effekte vom Ziel und erhöht die Heilungsrate des Ziels für die Dauer des Skills um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Frey/ut/4.png",
+      "story": "Ein altes Geschichtsbuch, das Frey gehört.\nEs ist das erste Buch, das Frey geschenkt bekommen hat, und es erzählt die Geschichte eines Kampfes zwischen Engeln und Dämonen.\nFrey mag vor allem den Teil, in dem die Engel als Sieger hervorgehen und alle Dämonen besiegen."
+    }
+  },
+  "sw": {
+    "requirement": "Wenn der Skill 5-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "description": "Beschwört die Seele von Autorität Gottes Rosmerta für [64ffff]12[-] Sek. und regeneriert [ffc800]240% von M.ATK[-] TP von 1 Verbündete mit den niedrigsten TP. Zusätzlich werden aller 1 Sek. die Gegner mit dem hächsten ANG angegriffen, ihnen [ffc800]100% von M.ATK[-] Mag. Schaden zugefügt und für [64ffff]1[-] Sek. betäubt.",
+    "cooldown": "25",
+    "uses": "6",
+    "thumbnail": "heroes/Frey/sw.png",
+    "advancement": {
+      "1": "Seelen-Wirkungsdauer wird auf 15 Sek. geändert.",
+      "2": "Die Heilungsrate erhöht sich um 50 % und die bereits geheilten Ziele blocken 5 Sek. lang alle ANG."
+    },
+    "story": "Rosmerta ist der Engel, der Menschen sehr liebte. Sie konnte die Macht von Lua nicht erreichen, aber der Wille, geliebte Menschen zu beschützen, ist der gleiche wie der der Göttin.\n- Obwohl die Göttin sie im Stich lässt, möchte ich sie beschützen. Auch wenn es der Weg ist, meine Anwesenheit zu leugnen ...\nAls die Gebetszeit von Frey ansammelte, hat sie ihre Flügel ausgebreitet und ist geflogen.\nDas Licht, das Lua ähnelt, aber doch nicht gleich ist.\nUnd doch so großzügig und warm ist wie sie.\n\nWenn Frey um Liebe betet, wird sie immer antworten und ihre kostbaren Wesen segnen."
+  },
+  "splashart": "heroes/Frey/sa.png",
+  "costumes": "heroes/Frey/cos",
+  "aliases": null
+}

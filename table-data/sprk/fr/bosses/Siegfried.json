@@ -1,0 +1,56 @@
+{
+  "id": "Siegfried",
+  "profile": {
+    "name": "Siegfried",
+    "title": "Aube dénaturée",
+    "type": [
+      "Technomagic Kingdom Raid"
+    ],
+    "race": "Ange",
+    "damage_type": "Physical",
+    "recommended_heroes": "Dosarta, Hilda, Requina, Nicky",
+    "characteristics": "Lorsque Siegfried est sur le point de mourir, il revient à la vie, et cela jusqu'à 2 fois durant la bataille. Chaque fois que cela se produit, la puissance de son épée devient de plus en plus forte. Au stade final, l'énergie de son épée s'étend considérablement, jusqu'à menacer même les Héros placés à l'arrière, alors il est important de protéger ces derniers.\nDe plus, Siegfried devient encore plus puissant quand ses PM sont au maximum, alors assurez-vous que ses PM ne se remplissent pas.",
+    "thumbnail": "bosses/Siegfried.png",
+    "recommendedHeroNames": [
+      "Dosarta",
+      "Hilda",
+      "Requina",
+      "Nicky"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Frappe sanctifiée",
+      "cost": null,
+      "cooldown": "17",
+      "description": "Siegfried concentre son énergie et attaque les ennemis situés en face en ligne droite avec son épée, leur infligeant des DEG P. Ensuite, leur inflige de nouveau des DEG P, avant de les renverser pendant 3 sec. La DEF de la cible touchée par cette compétence est réduite de manière permanente. Plus la difficulté de la bataille est élevée, plus le taux de réduction de la DEF augmente.\n(Réduction de DEF au niveau 1 : 2 000)"
+    },
+    "2": {
+      "name": "Pluie d'Épées sanctifiées",
+      "cost": null,
+      "cooldown": "21",
+      "description": "Siegfried invoque plusieurs petites épées de lumière, infligeant des DEG P à tous les ennemis à 20 reprises. La cible récupère ses PM à chaque coup reçu. Ensuite, Siegfried inflige des DEG P à tous les ennemis avec l'épée sanctifiée de lumière, scellant toutes les compétences de la cible pendant 7 sec, si les PM de cette dernière sont au maximum. Après cela, Siegfried perd sa puissance et s'écroule pendant 7 sec, ce qui augmente considérablement tous ses DEG reçus."
+    },
+    "3": {
+      "name": "Force sanctifiée",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lorsque Siegfried subit des DEG fatals, il reçoit de la Force sanctifiée. Il dissipe ses effets négatifs, récupère tous ses PV et augmente de manière permanente son ATQ de 30%. Cette compétence ne peut être utilisée que 2 fois durant la bataille. À chaque utilisation, les PV max de Siegfried augmentent et la puissance de l'épée sanctifiée s'amplifie, augmentant la portée de ses attaques automatiques. L'effet de la Récupération des PV n'est pas affecté par celui de la réduction des PV."
+    },
+    "4": {
+      "name": "Furie sanctifiée",
+      "cost": null,
+      "cooldown": null,
+      "description": "Siegfried n'est pas affecté par les effets concernant la DEF et la Vitesse d'ATQ. Grâce à sa Force sanctifiée, son Blocage augmente de 1000, puis de 1000 en supplément lors des batailles de niveau 4 ou plus. Quand ses PM atteignent le maximum, sa puissance entre en état de furie, augmentant considérablement la Pénétration DEF pendant 10 sec. Cet effet ne peut être dissipé et possède 10 sec de temps de recharge."
+    },
+    "5": {
+      "name": "Aube dénaturée",
+      "cost": null,
+      "cooldown": null,
+      "description": "Siegfried récupère ses PM à chaque coup porté à l'ennemi. Cependant, ses PM sont réduits à chaque Blocage de son attaque. Toutes ses attaques dissipent le bouclier de la cible. Lors des batailles de niveau 4 ou plus, les DEG infligés par les attaques automatiques de Siegfried augmentent considérablement, mais les DEG qu'il reçoit par les attaques automatiques augmentent également."
+    }
+  },
+  "aliases": [
+    "Sieg"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "Mountain Fortress",
+  "profile": {
+    "name": "山脈堡壘",
+    "title": "古代皇家遺產",
+    "type": [
+      "World Boss"
+    ],
+    "race": "魔像",
+    "damage_type": "Physical",
+    "recommended_heroes": "芙萊兒, 露娜, 珍",
+    "characteristics": "當山脈堡壘的核心暴露時，防禦力將大幅減少，所受到的魔法傷害也會大幅增加，使用[啟動防禦模式]技能時，可以使用魔法傷害使核心暴露以造成極大的傷害",
+    "thumbnail": "bosses/Mountain Fortress.png",
+    "recommendedHeroNames": [
+      "Frey",
+      "Luna",
+      "Jane"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "目標清除",
+      "cost": null,
+      "cooldown": "15",
+      "description": "發射射線攻擊單一目標6次，造成大量物理傷害。每次攻擊時，目標的所有防禦力將降低10%，持續10秒。此技能的暴擊機率相當高。"
+    },
+    "2": {
+      "name": "啟動防禦模式",
+      "cost": null,
+      "cooldown": "18",
+      "description": "15秒內大幅增加自身所有防禦力，並發動「山崩」技能15秒。持續時間內，受到魔法傷害更容易露出核心。"
+    },
+    "3": {
+      "name": "大地強擊",
+      "cost": null,
+      "cooldown": "26",
+      "description": "強力攻擊地面，對大範圍內敵人造成物理傷害，並擊倒他們5秒。"
+    },
+    "4": {
+      "name": "破壞光線",
+      "cost": null,
+      "cooldown": "40",
+      "description": "對一直線的敵人發射破壞光線，造成物理傷害並將他們擊退至遠方。被擊退超過一定距離的敵人將暈眩5秒。"
+    },
+    "5": {
+      "name": "山崩",
+      "cost": null,
+      "cooldown": null,
+      "description": "每3秒增加一層山崩堆疊，當達到5層時將攻擊任意5名敵人3次，造成大量物理傷害並使敵人陷入暈眩5秒。"
+    },
+    "6": {
+      "name": "岩石皮膚",
+      "cost": null,
+      "cooldown": null,
+      "description": "巨大的山脈堡壘不受攻擊速度增減影響，隨時間提高自身攻擊力，並且會不時降下落石使敵人暈眩。"
+    }
+  },
+  "aliases": [
+    "MountainFortress",
+    "WB1",
+    "WB 1"
+  ]
+}

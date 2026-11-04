@@ -1,0 +1,1175 @@
+[
+  {
+    "id": "Solenis' Engraving",
+    "name": "Empreinte de Solenis",
+    "description": "Toutes les 10 sec, augmente la DEF de tous les alliés de {0}% et augmente leurs PV max de {1}%. Cet effet peut se cumuler jusqu'à 12 fois et ne peut être dissipé. Si plusieurs Héros dans l'équipe portent la même relique, une seule d'entre elles s'active.",
+    "value": {
+      "0": "2, 2.4, 2.8, 3.4, 4.2, 5",
+      "1": "1, 1.2, 1.4, 1.7, 2.1, 2.5"
+    },
+    "thumbnail": "artifacts/Solenis' Engraving.png",
+    "story": "Un couvercle qui porte le motif gravé d'un Ange et qui dissimule adroitement l'arme de Solenis. Cette gravure aurait été réalisée avec une minutie particulière par les artisans profondément croyants. Mais après la disparition tragique du successeur de l'Accordeur, ce motif serait considéré comme maudit et tabou par les descendants de ces artisans.",
+    "aliases": null
+  },
+  {
+    "id": "Golem's Fuel",
+    "name": "Alimentation de Golem",
+    "description": "Augmente les DEG infligés aux ennemis non-Héros de {0}% et réduit les DEG reçus de la part de ceux-ci de {1}%. Multiplie l'effet par 3 si la cible est un Golem sacré.",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25",
+      "1": "5, 6, 7, 8.5, 10.5, 12.5"
+    },
+    "thumbnail": "artifacts/Golem's Fuel.png",
+    "story": "Une partie de la source d'alimentation de Golem sacré. Selon les études conduites par Magos Le'Flamme, cet objet serait imprégné de la grâce protectrice de Lua.",
+    "aliases": null
+  },
+  {
+    "id": "Earth Storm",
+    "name": "Tempête de Terre",
+    "description": "Touché par un contrôle, récupère {0} PM et obtient [Tempête de Terre] pendant 10 sec, ce qui augmente les DEG reçus par les ennemis à portée de {1}% toutes les sec. En cas d'activation dans l'Arène, [Tempête de Terre] inflige aux ennemis à portée des DEG P à hauteur de 3% des PV max de la cible. Cet effet n'inflige pas de coup critique, et le temps de recharge de l'effet [Tempête de Terre] est de 20 sec.",
+    "value": {
+      "0": "600, 700, 800, 1000, 1200, 1500",
+      "1": "12, 14, 17, 21, 25, 30"
+    },
+    "thumbnail": "artifacts/Earth Storm.png",
+    "story": "La version miniature de l'une des facettes de Forteresse de la Montagne. Ce beau visage vivant et extravagant semble nostalgique.",
+    "aliases": null
+  },
+  {
+    "id": "Earth Protection",
+    "name": "Protection de la Terre",
+    "description": "Au début de la bataille, gagne une immunité aux Contrôles et un boost de 50% aux DEF P et M pendant {0} sec.",
+    "value": {
+      "0": "8, 10, 12, 14, 17, 20"
+    },
+    "thumbnail": "artifacts/Earth Protection.png",
+    "story": "La version miniature de l'une des facettes de Forteresse de la Montagne. Il se dégage de ce visage taciturne une sensation d'intelligence.",
+    "aliases": null
+  },
+  {
+    "id": "Blessing of Earth",
+    "name": "Bénédiction de la terre",
+    "description": "En présence d'un ennemi, l'ATQ est augmentée de {0}%",
+    "value": {
+      "0": "40, 48, 58, 69, 83, 100"
+    },
+    "thumbnail": "artifacts/Blessing of Earth.png",
+    "story": "La version miniature de l'une des facettes de Forteresse de la Montagne. On sent distinctement la hargne et la nature belliqueuse de ce visage colérique.",
+    "aliases": [
+      "boe"
+    ]
+  },
+  {
+    "id": "Earth Core",
+    "name": "Noyau de Terre",
+    "description": "ATQ, PV et DEF (M et P) sont augmentés de {0}%",
+    "value": {
+      "0": "10, 12, 14, 17, 20, 25"
+    },
+    "thumbnail": "artifacts/Earth Core.png",
+    "story": "La version miniature du noyau de Forteresse de la Montagne. Cette source d'énergie infinie décuple la puissance de son propriétaire.",
+    "aliases": null
+  },
+  {
+    "id": "Earth Fortress",
+    "name": "Monument de la Terre",
+    "description": "Lorsqu'il y a 1 ennemi, réduit la récupération des PV de la cible de {0}% et augmente les DEG infligés au boss par le lanceur de {1}%. Si plusieurs Héros dans l'équipe portent la même relique, une seule d'entre elles s'active.",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25",
+      "1": "10, 12, 14, 17, 21, 25"
+    },
+    "thumbnail": "artifacts/Earth Fortress.png",
+    "story": "Miniature de l'épaule de la Forteresse de la Montagne. Faite de pierre et de bois combinés par la technomagie, elle porte en elle une énergie à la fois naturelle et artificielle.",
+    "aliases": null
+  },
+  {
+    "id": "Nail Ornament of the Deep",
+    "name": "Décoration à Ongles des Profondeurs",
+    "description": "Au début de chaque bataille, fixe la DEF du lanceur à 0 et augmente les DEG infligés aux boss de {0}%, pendant 200 sec. Cet effet ne peut être dissipé.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50"
+    },
+    "thumbnail": "artifacts/Nail Ornament of the Deep.png",
+    "story": "La version miniature de l'ornement pour ongle que portait Protianus. Il s'agit d'un artéfact magique hors de prix façonné à partir d'or enchanté.",
+    "aliases": [
+      "nod",
+      "nootd",
+      "nail deep"
+    ]
+  },
+  {
+    "id": "Belt Ornament of the Deep",
+    "name": "Ornement des Profondeurs",
+    "description": "Au début de la première bataille, et toutes les 30 sec, réduit les DEG reçus de tous les alliés de la part des ennemis de {0}% pendant 3 sec. Dissipe l'effet négatif de tous les alliés à la fin de chaque activation. Cet effet ne peut être dissipé. Si plusieurs Héros dans l'équipe portent la même relique, une seule d'entre elles s'active.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50"
+    },
+    "thumbnail": "artifacts/Belt Ornament of the Deep.png",
+    "story": "Miniature de l'accessoire que Protianus porte à sa taille. Elle dégage une aura aussi puissante mais aussi paisible que le courant d'une mer profonde.",
+    "aliases": [
+      "bod",
+      "bootd",
+      "belt deep"
+    ]
+  },
+  {
+    "id": "Trident of the Deep",
+    "name": "Trident des Profondeurs",
+    "description": "Infliger 100 fois des DEG aux ennemis augmente l'ATQ de {0}% et le Crit de {1} pendant 15 sec. Cet effet ne peut pas être dissipé",
+    "value": {
+      "0": "30, 36, 44, 53, 63, 75",
+      "1": "200, 240, 290, 350, 420, 500"
+    },
+    "thumbnail": "artifacts/Trident of the Deep.png",
+    "story": "Une arme mystique conçue sur le modèle du trident de Protianus. Elle contient en elle le pouvoir de l'eau, telle une déferlante.",
+    "aliases": [
+      "tod",
+      "totd",
+      "trident deep"
+    ]
+  },
+  {
+    "id": "Ring of Spirit Morph",
+    "name": "Anneau de métamorphose spirituelle",
+    "description": "Au début de chaque combat, les PV ne peuvent pas descendre en dessous de 10% pendant {0} sec. Lorsque les PV sont en dessous de 15%, réduit les DEG infligés aux Héros de 70% pendant 5 sec pendant la durée de la compétence. Tous les effets sont inamovibles.",
+    "value": {
+      "0": "4, 5, 6, 7, 8, 9"
+    },
+    "thumbnail": "artifacts/Ring of Spirit Morph.png",
+    "story": "Un anneau inquiétant habité par des esprits maléfiques issus de vos pires cauchemars. Lorsque vous êtes sous son emprise, vous perdez le contrôle de votre corps alors que votre âme est emprisonnée dans un rêve sans fin.",
+    "aliases": [
+      "rosm",
+      "rsm"
+    ]
+  },
+  {
+    "id": "Spellbound Ring of the Deep",
+    "name": "Anneau Enchanté des Profondeurs",
+    "description": "En début de Bataille et pendant {0} sec, limite à 1000 la Vitesse d'ATQ d'1 ennemi et réduit l'ATQ de {1}%.",
+    "value": {
+      "0": "8, 10, 12, 14, 17, 20",
+      "1": "20, 24, 29, 35, 42, 50"
+    },
+    "thumbnail": "artifacts/Spellbound Ring of the Deep.png",
+    "story": "La version miniature de l'anneau que portait Protianus. Il est chargé d'un sort maudissant et neutralisant les ennemis.",
+    "aliases": [
+      "spd",
+      "srotd",
+      "ring deep"
+    ]
+  },
+  {
+    "id": "Guardian Crystal of the Deep",
+    "name": "Cristal de Gardien des Profondeurs",
+    "description": "Lorsqu'il y a 1 ennemi, toutes les DEF sont augmentées de {0}%.",
+    "value": {
+      "0": "50, 60, 72, 86, 103, 125"
+    },
+    "thumbnail": "artifacts/Guardian Crystal of the Deep.png",
+    "story": "Une gemme bleue sertissant jadis la couronne de Protianus. Cette gemme claire représente la protection.",
+    "aliases": [
+      "gcd",
+      "gcotd",
+      "crystal deep",
+      "guardian deep"
+    ]
+  },
+  {
+    "id": "Abyssal Breath",
+    "name": "Souffle des Abysses",
+    "description": "Augmente de {0}% les DEG infligés aux ennemis non-Héros par 2 alliés à l'ATQ la plus élevée, en dehors du lanceur. Toutes les {1} sec, restaure les PV de tous les alliés de 2.5% de leurs PV max. Lorsqu'il y a 1 seul ennemi, multiplie le taux de restauration des PV par 2. Si plusieurs Héros dans l'équipe portent la même relique, une seule d'entre elles s'active.",
+    "value": {
+      "0": "5, 6, 7.2, 8.6, 10.4, 12.5",
+      "1": "10, 9, 8, 7, 6, 5"
+    },
+    "thumbnail": "artifacts/Abyssal Breath.png",
+    "story": "Accessoire que Xanadus la Déesse abyssale porte sur son bras. Il a la forme d'une tête du dragon doré et dégage une aura insolite.",
+    "aliases": null
+  },
+  {
+    "id": "Abyssal Crown",
+    "name": "Couronne des abysses",
+    "description": "30 sec après le début du premier combat, augmente l'ATQ de l'allié à l'ATQ la plus élevée de {0}%. Cet effet ne peut pas être dissipé. Si plusieurs Héros dans l'équipe portent la même relique, une seule d'entre elles s'active.",
+    "value": {
+      "0": "30, 36, 43, 52, 63, 75"
+    },
+    "thumbnail": "artifacts/Abyssal Crown.png",
+    "story": "La parure de Xanadus, la déesse abyssale. Cette couronne serpentiforme dégage un fumet mortel.",
+    "aliases": null
+  },
+  {
+    "id": "Abyssal Eye",
+    "name": "Œil des abysses",
+    "description": "Lorsque vous subissez des dégâts, inflige des DEG M à hauteur de {0}% de l'ATQ à la cible et réduit sa Vitesse d'ATQ de {1} pendant 1,5 sec. À la fin de la réduction d'effet de la Vitesse d'ATQ, la cible est pétrifiée pendant {2} sec. Cet effet ne s'active qu'une fois toutes les 30 sec.",
+    "value": {
+      "0": "50, 60, 72, 86, 105, 125",
+      "1": "400, 480, 580, 700, 840, 1000",
+      "2": "2, 2.4, 2.9, 3.5, 4.2, 5"
+    },
+    "thumbnail": "artifacts/Abyssal Eye.png",
+    "story": "La source de la puissance de Xanadus, la déesse abyssale. La pupille de cet œil donne l'impression de se dilater, alors qu'il est entièrement séparé de son corps d'origine.",
+    "aliases": null
+  },
+  {
+    "id": "Abyssal Nail Ornament",
+    "name": "Décoration d'ongle des abysses",
+    "description": "Lors d'une attaque, inflige à l'ennemi des DÉG P ignorant la DÉF équivalant à {0}% de l'ATQ toutes les 0.5 s pendant 10 s. Cet effet s'active une fois toutes les 20 s.",
+    "value": {
+      "0": "4, 4.8, 5.8, 7, 8.4, 10"
+    },
+    "thumbnail": "artifacts/Abyssal Nail Ornament.png",
+    "story": "Une décoration d'ongle de Xanadus, la déesse abyssale, fabriquée dans un alliage aussi particulier que mystérieux.",
+    "aliases": [
+      "abyss nail"
+    ]
+  },
+  {
+    "id": "Heart of the Abyss",
+    "name": "Noyau des Abysses",
+    "description": "Au début de chaque bataille, augmente l'ATQ de l'allié, à l'ATQ la plus élevée, de {0}% et réduit l'ATQ de l'ennemi, à l'ATQ la plus élevée, de 15%, pendant 100 sec. L'effet d'augmentation d'ATQ peut se cumuler jusqu'à 5 fois et tous les effets ne peuvent être dissipés.",
+    "value": {
+      "0": "8, 10, 12, 14, 17, 20"
+    },
+    "thumbnail": "artifacts/Heart of the Abyss.png",
+    "story": "Le noyau de cristal qu'invoque Xanadus, la déesse abyssale. Ce concentré magique brillant de mille feux séduit les pauvres hères afin de les précipiter vers la mort.",
+    "aliases": null
+  },
+  {
+    "id": "Infernal Bond",
+    "name": "Lien infernal",
+    "description": "Au début de chaque bataille, augmente le temps de recharge de toutes les compétences d'un ennemi aléatoire de {0} sec.",
+    "value": {
+      "0": "2.5, 3, 3.5, 4, 5, 6"
+    },
+    "thumbnail": "artifacts/Infernal Bond.png",
+    "story": "Lien flamboyant de Velkazar le Tortionnaire de l'enfer. La magie noire dont il est imprégné permet de contrôler les surcharges de puissance.",
+    "aliases": null
+  },
+  {
+    "id": "Otherworldly Sword",
+    "name": "Épée dissonante",
+    "description": "Consomme {0}% de PV actuels toutes les sec et ne peut plus bénéficier de l'effet du Vol de vie, mais augmente les DEG infligés à l'ennemi de 0.5% toutes les sec et les DEG Crit de 0.5%. Les effets de l'augmentation de DEG et de DEG Crit sont cumulables jusqu'à {1} fois. Se dissipe automatiquement lorsque les PV sont inférieurs à 25%.",
+    "value": {
+      "0": "4, 4.8, 5.7, 6.9, 8.3, 10",
+      "1": "50, 60, 70, 80, 90, 100"
+    },
+    "thumbnail": "artifacts/Otherworldly Sword.png",
+    "story": "Fragment des ténèbres de Shakmeh.\nSa taille varie de manière adéquate selon son utilisateur, ce qui permet même aux personnes de petites tailles de le porter sans souci. Les mornes émotions de Shakmeh tourbillonnant à l'intérieur de l'épée provoquent des douleurs dans l'esprit et le corps de l'utilisateur, mais une grande force est offerte à celui qui est capable de les supporter.",
+    "aliases": [
+      "shakmeh sword"
+    ]
+  },
+  {
+    "id": "Infernal Greatsword",
+    "name": "Grande épée infernale",
+    "description": "Réduit la récupération des PV du lanceur de 30% mais augmente la Pénétration DEF de {0} et les DEG Crit de {1}%.",
+    "value": {
+      "0": "300, 360, 430, 520, 630, 750",
+      "1": "30, 36, 43, 52, 63, 75"
+    },
+    "thumbnail": "artifacts/Infernal Greatsword.png",
+    "story": "Grande épée flamboyante de Velkazar le Tortionnaire de l'enfer. Ses flammes semblent capables de réduire en cendres l'univers tout entier.",
+    "aliases": [
+      "vel sword"
+    ]
+  },
+  {
+    "id": "Infernal Whip",
+    "name": "Fouet infernal",
+    "description": "Toutes les 8 sec, inflige des DEG M à hauteur de {0}% de l'ATQ du lanceur à tous les ennemis et augmente les DEG que ceux-ci reçoivent de {1}% pendant 5 sec. Augmente l'augmentation des DEG de {2}% à chaque activation et cela peut être cumulé jusqu'à 25 fois. Si plusieurs Héros dans l'équipe portent la même relique, une seule d'entre elles s'active.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50",
+      "1": "10, 12, 14, 17, 21, 25",
+      "2": "0.4, 0.5, 0.6, 0.7, 0.8, 1"
+    },
+    "thumbnail": "artifacts/Infernal Whip.png",
+    "story": "Queue flamboyante de Velkazar le Tortionnaire de l'enfer. On dirait un serpent enveloppé de flammes.",
+    "aliases": null
+  },
+  {
+    "id": "Infernal Gate",
+    "name": "Portail infernal",
+    "description": "Augmente la DEF de {0}%. Augmente également les DEG infligés à l'ennemi de {1}% et les DEG infligés à l'ennemi non-Héros de {2}%.",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25",
+      "1": "6, 7.2, 8.6, 10.5, 12.5, 15",
+      "2": "6, 7.2, 8.6, 10.5, 12.5, 15"
+    },
+    "thumbnail": "artifacts/Infernal Gate.png",
+    "story": "Corne flamboyante de Velkazar le Tortionnaire de l'enfer. Elle peut canaliser le pouvoir de l'âme.",
+    "aliases": null
+  },
+  {
+    "id": "Heart Cotton Candy",
+    "name": "Cœur en barbe à papa",
+    "description": "Pendant 20 sec au début de chaque combat, augmente l'ATQ du lanceur et de l'allié à l'ATQ la plus élevée en dehors du lanceur de {0}%. Si plusieurs Héros dans l'équipe portent la même relique, une seule d'entre elles s'active.",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25"
+    },
+    "thumbnail": "artifacts/Heart Cotton Candy.png",
+    "story": "Le cœur en barbe à papa, un objet indispensable pour vos sorties !\nIl fond instantanément dans votre bouche !",
+    "aliases": null
+  },
+  {
+    "id": "Cross Pumpkin Head",
+    "name": "Tête-Citrouille Ambrée",
+    "description": "Les PV max sont augmentés de {0}% et infligent des DEG P à hauteur de 2% des PV Max à tous les ennemis à courte distance.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50"
+    },
+    "thumbnail": "artifacts/Cross Pumpkin Head.png",
+    "story": "Un objet mystérieux ayant la forme d'une citrouille triste. Il paraît qu'elle émet un son étrange lorsqu'elle plane à proximité de son propriétaire.",
+    "aliases": [
+      "sad pumpkin"
+    ]
+  },
+  {
+    "id": "Angry Pumpkin Head",
+    "name": "Tête-Citrouille Énervée",
+    "description": "Tous les DEG reçus sont réduits de {0}% et les ennemis subissent {1}% de DEG supplémentaires.",
+    "value": {
+      "0": "10, 12, 14, 17, 20, 25",
+      "1": "10, 12, 14, 17, 20, 25"
+    },
+    "thumbnail": "artifacts/Angry Pumpkin Head.png",
+    "story": "Un objet mystérieux ayant la forme d'une citrouille contrariée. Elle pousse des soupirs excédés lorsqu'elle plane à proximité de son propriétaire.",
+    "aliases": null
+  },
+  {
+    "id": "Happy Pumpkin Head",
+    "name": "tête-citrouille joyeuse",
+    "description": "Toutes les 7 sec, accélère la récupération de {0}% et restaure les PV à hauteur de {1}% de l'ATQ. L'accélération de la récupération peut se cumuler jusqu'à 15 fois et ne peut pas être retirée.",
+    "value": {
+      "0": "2, 2.4, 2.8, 3.4, 4.2, 5",
+      "1": "100, 120, 140, 170, 210, 250"
+    },
+    "thumbnail": "artifacts/Happy Pumpkin Head.png",
+    "story": "Un objet mystérieux en forme de citrouille souriante. Il augmente l'énergie de son propriétaire.",
+    "aliases": null
+  },
+  {
+    "id": "Surprised Pumpkin Head",
+    "name": "tête-citrouille surprise",
+    "description": "Lorsque vous êtes touché par un contrôle, récupère immédiatement {0}% de PM et augmente la vitesse d'ATQ de {1} pendant 5 sec. Cet effet ne peut être activé qu'1 seule fois toutes les 30 sec.",
+    "value": {
+      "0": "12, 14, 17, 21, 25, 30",
+      "1": "200, 240, 290, 350, 420, 500"
+    },
+    "thumbnail": "artifacts/Surprised Pumpkin Head.png",
+    "story": "Un objet particulier en forme de citrouille à l'air surpris. Son aura suffit à donner le frisson.",
+    "aliases": null
+  },
+  {
+    "id": "Pumpkin-Stuck Evil Spirit",
+    "name": "Esprit maléfique coincé dans une citrouille",
+    "description": "Augmente les PV max du lanceur de {0}%. En présence d'un seul ennemi, augmente l'ATQ de tous les alliés de {1}%. Si plusieurs Héros dans l'équipe portent la même relique, une seule d'entre elles s'active.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50",
+      "1": "20, 24, 29, 35, 42, 50"
+    },
+    "thumbnail": "artifacts/Pumpkin-Stuck Evil Spirit.png",
+    "story": "Après avoir décidé de partir avec Lewisia, Lavril a suivi cette dernière dans le quartier commercial pour profiter de l'événement de Halloween célébré à Orvel.\n\nAfin de vivre parmi les hommes, il faut savoir prendre de l'initiative en se plongeant dans la foule.\nLavril, médusée devant l'affluence dans le quartier commercial, découvre par hasard une adorable peluche de fantôme qui leur ressemble, posée sur le présentoir.\nPlantée devant le présentoir, elle regarde longuement la peluche, avant de quitter les lieux, poussée par les mouvements de la foule. Néanmoins, Lewisia n'oublie pas la peluche qui a attiré l'attention de Lavril et finit par l'acheter.\n\nElle jette un sort sur la peluche, qui permet de cacher la présence de ces jeunes ténèbres et de les protéger de personnes menaçantes, puis l'offre à Lavril.",
+    "aliases": null
+  },
+  {
+    "id": "Frost Giant Mask",
+    "name": "Masque de Géant de Givre",
+    "description": "Contre les géants de givre, l'ATQ augmente de {0}% et la Résist. aux DEG de {1}%.",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
+    "thumbnail": "artifacts/Frost Giant Mask.png",
+    "story": "Un masque représentant le visage d'un Géant de Givre. Il dégage l'énergie d'une montagne enneigée.",
+    "aliases": null
+  },
+  {
+    "id": "Golden Mask of Ancient King",
+    "name": "Masque Doré de Roi Antique",
+    "description": "Après une attaque reçue, a 5% de chance d'être immunisé à tous les DEG pendant {0} sec. Cet effet possède 5 sec de temps de recharge.",
+    "value": {
+      "0": "3, 3.5, 4, 5, 6, 7.5"
+    },
+    "thumbnail": "artifacts/Golden Mask of Ancient King.png",
+    "story": "Un masque doré porté jadis par le dieu-roi du désert. Investi d'un sort d'autorité suprême, il est voué à protéger son porteur.",
+    "aliases": null
+  },
+  {
+    "id": "Mask of Dark Elf",
+    "name": "Masque d'Elfe-Sombre",
+    "description": "Contre les Elfes-Sombres, l'ATQ est augmentée de {0}% et la Résistance aux DEG de {1}%.",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
+    "thumbnail": "artifacts/Mask of Dark Elf.png",
+    "story": "Un masque représentant le visage d'un Elfes-Sombres. Il dégage la même aura qu'un doux clair de lune.",
+    "aliases": null
+  },
+  {
+    "id": "Mask of Draconic",
+    "name": "Masque de draconic",
+    "description": "L'ATQ contre les draconics est augmentée de {0}% et la Résistance aux DEG contre les draconics de {1}%.",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
+    "thumbnail": "artifacts/Mask of Draconic.png",
+    "story": "Un masque représentant le visage d'un draconic. Il émane de lui une terrible impression de mal et de flammes.",
+    "aliases": null
+  },
+  {
+    "id": "Mask of Goblin",
+    "name": "Masque de Gobelin",
+    "description": "L'ATQ contre les Gobelins est augmentée de {0}% et la Résistance aux DEG contre les Gobelins de {1}%",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
+    "thumbnail": "artifacts/Mask of Goblin.png",
+    "story": "Un masque représentant le visage d'un Gobelin. Il est plutôt mignon.",
+    "aliases": null
+  },
+  {
+    "id": "Mask of Harpy",
+    "name": "Masque de Harpie",
+    "description": "L'ATQ contre les Harpies est augmentée de {0}% et la Résistance aux DEG contre les Harpies de {1}%",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
+    "thumbnail": "artifacts/Mask of Harpy.png",
+    "story": "Un masque représentant le visage d'une Harpie. On peut entendre résonner le hurlement d'un vent vif.",
+    "aliases": null
+  },
+  {
+    "id": "Mask of Lizardman",
+    "name": "Masque d'Homme-Lézard",
+    "description": "L'ATQ contre les Homme-Lézards est augmentée de {0}% et la Résistance aux DEG contre les Homme-Lézards de {1}%",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
+    "thumbnail": "artifacts/Mask of Lizardman.png",
+    "story": "Un masque représentant le visage d'un Homme-Lézard. Il dégage une aura de sagesse.",
+    "aliases": null
+  },
+  {
+    "id": "Mask of Orc",
+    "name": "Masque d'Orc",
+    "description": "L'ATQ contre les Orcs est augmentée de {0}% et la Résistance aux DEG contre les Orcs de {1}%",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
+    "thumbnail": "artifacts/Mask of Orc.png",
+    "story": "Un masque représentant le visage d'un Orc. Il inspire une pulsion brutale.",
+    "aliases": null
+  },
+  {
+    "id": "Undead Mask",
+    "name": "Masque de mort-vivant",
+    "description": "Augmente les DEG contre les morts-vivants de {0}% et la résistance contre les morts-vivants de {1}%.",
+    "value": {
+      "0": "40, 48, 57, 69, 83, 100",
+      "1": "20, 24, 28, 34, 41, 50"
+    },
+    "thumbnail": "artifacts/Undead Mask.png",
+    "story": "Un masque représentant le visage d'un squelette. Il sent la mort.",
+    "aliases": null
+  },
+  {
+    "id": "Assassin's Veil",
+    "name": "Voile d'assassin",
+    "description": "Augmente l'Esquive P de {0} points. Chaque esquive réussie augmente l'ATQ de {1}%, cumulable 20 fois au maximum.",
+    "value": {
+      "0": "100, 120, 140, 170, 210, 250",
+      "1": "1, 1.2, 1.4, 1.7, 2.1, 2.5"
+    },
+    "thumbnail": "artifacts/Assassin's Veil.png",
+    "story": "Ce voile, à première vue trop excentrique et fantasque pour un assassin, est en réalité un outil magique capable d'engourdir les sens de la cible.",
+    "aliases": null
+  },
+  {
+    "id": "Book of the Mad",
+    "name": "Livre du fou",
+    "description": "Consomme {0} PM toutes les sec pour augmenter les DEG infligés aux ennemis de {1}%.",
+    "value": {
+      "0": "100, 120, 140, 170, 210, 250",
+      "1": "14, 17, 21, 25, 30, 35"
+    },
+    "thumbnail": "artifacts/Book of the Mad.png",
+    "story": "Le grimoire maudit d'un mage fou qui passa sa vie à errer dans le désert, qui fut fabriqué à partir de sang et de cuir humains. Il consomme du mana pour causer des accès de rage à son propriétaire, tout en préservant sa santé mentale. Malheureusement, il finit par le détruire, car il ne cesse jamais de consommer le mana.",
+    "aliases": [
+      "bom",
+      "botm"
+    ]
+  },
+  {
+    "id": "Burning Brazier of Elf",
+    "name": "Brasero en Feu de l'Elfe",
+    "description": "Les attaques automatiques ont {0}% de chances de récupérer 1 barre de PM.",
+    "value": {
+      "0": "10, 12, 14, 17, 20, 25"
+    },
+    "thumbnail": "artifacts/Burning Brazier of Elf.png",
+    "story": "Un mystérieux brasero conçu par les Elfes anciens afin d'honorer Dame Nature. Capable de générer une quantité infinie de mana, il représente le sommet de leurs arcanes magiques.",
+    "aliases": null
+  },
+  {
+    "id": "Christmas Star Ornament",
+    "name": "Étoile de Noël ornementale",
+    "description": "Au début de chaque bataille, augmente la récupération PM/sec de {0}%, la résistance Crit de {1}, pendant 5 sec. Cet effet ne peut être dissipé.",
+    "value": {
+      "0": "260, 310, 370, 450, 540, 650",
+      "1": "100, 120, 140, 170, 210, 250"
+    },
+    "thumbnail": "artifacts/Christmas Star Ornament.png",
+    "story": "Un ornement en forme d'étoile qui bénit les nuits sacrées. Elle s'élève dans le ciel pour y briller.",
+    "aliases": null
+  },
+  {
+    "id": "Warm Turkey Dish",
+    "name": "Dinde farcie",
+    "description": "Augmente les PV max de {0}% et toutes chances de bloquer de {1} points.",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25",
+      "1": "100, 120, 140, 170, 210, 250"
+    },
+    "thumbnail": "artifacts/Warm Turkey Dish.png",
+    "story": "Le plat emblématique de Thanksgiving. Cette dinde fraîchement rôtie s'accompagne à merveille de la sauce spéciale de la Taverne du héros.",
+    "aliases": null
+  },
+  {
+    "id": "Well-Done Turkey Roast",
+    "name": "Dinde Rôtie bien cuite",
+    "description": "Toutes les 15 sec, récupère des PV équivalents à {0}% des PV Max pendant 3 sec.",
+    "value": {
+      "0": "1, 1.2, 1.4, 1.7, 2, 2.5"
+    },
+    "thumbnail": "artifacts/Well-Done Turkey Roast.png",
+    "story": "Une spécialité exotique provenant d'un lointain pays par-delà la mer. On dit qu'elle se déguste durant la fête des moissons.",
+    "aliases": null
+  },
+  {
+    "id": "Christmas Tree of Holy Night",
+    "name": "Sapin de Noël de la sainte nuit",
+    "description": "Augmente les DEG Crit de {0}%.",
+    "value": {
+      "0": "50, 60, 72, 87, 105, 125"
+    },
+    "thumbnail": "artifacts/Christmas Tree of Holy Night.png",
+    "story": "Sapin de Noël légendaire miniature. Il n'exauce plus les vœux, mais sa finition extraordinaire vous réchauffera le cœur pendant la sainte nuit.",
+    "aliases": null
+  },
+  {
+    "id": "Cooling Delicacy in the Summer",
+    "name": "Plaisir d'été rafraîchissant",
+    "description": "Au début de chaque combat, réduit les DEG que le Héros reçoit par des ennemis non-Héros de {0}% pendant 30 sec et récupère {1} PM toutes les 2 sec.",
+    "value": {
+      "0": "20, 24, 28, 34, 42, 50",
+      "1": "100, 120, 140, 170, 210, 250"
+    },
+    "thumbnail": "artifacts/Cooling Delicacy in the Summer.png",
+    "story": "Cette spécialité d'Orvel est incontournable pour échapper à la chaleur de l'été.\n\nLa première gorgée fait tomber la chaleur, la seconde refroidit totalement.",
+    "aliases": null
+  },
+  {
+    "id": "Crystal Music Box",
+    "name": "Boîte à musique en cristal",
+    "description": "Les DEG infligés aux Héros augmentent de {0}% et les DEG reçus augmentent de {1}%.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50",
+      "1": "10, 12, 14, 17, 21, 25"
+    },
+    "thumbnail": "artifacts/Crystal Music Box.png",
+    "story": "Une boîte à musique en cristal découverte dans les ruines du Grand-Duché de Galluah. Sa mélodie est aussi belle que triste.",
+    "aliases": [
+      "cmb"
+    ]
+  },
+  {
+    "id": "Dice of Magical Letters",
+    "name": "Dé de Lettres Magiques",
+    "description": "Lors d'une attaque sur un ennemi, il y a 3% de chance d'infliger {0}% de DEG M.",
+    "value": {
+      "0": "400, 480, 575, 690, 830, 1000"
+    },
+    "thumbnail": "artifacts/Dice of Magical Letters.png",
+    "story": "Un dé divinatoire utilisé par une ancienne civilisation. De mystérieuses lettres illisibles sont gravées sur chaque face.",
+    "aliases": null
+  },
+  {
+    "id": "Drinking Horn of Ancient Cow",
+    "name": "Corne à Boire de Vache Antique",
+    "description": "Lors d'une attaque automatique, a 10% de chance d’augmenter l'ATQ de {0}% et la Vitesse d'ATQ de {1}, pendant 10 sec.",
+    "value": {
+      "0": "10, 12, 14, 17, 20, 25",
+      "1": "100, 120, 140, 170, 200, 250"
+    },
+    "thumbnail": "artifacts/Drinking Horn of Ancient Cow.png",
+    "story": "Un verre conçu à partir de la corne d'un taureau sacré arpentant les cieux. Cette corne magique symbolise l'essence de l'abondance.",
+    "aliases": null
+  },
+  {
+    "id": "Fancy Traditional Pendant",
+    "name": "Pendentif Fantaisie Traditionnel",
+    "description": "Augmente le Crit de {0} et les DEG Crit de {1}%.",
+    "value": {
+      "0": "100, 120, 140, 170, 210, 250",
+      "1": "20, 24, 29, 35, 42, 50"
+    },
+    "thumbnail": "artifacts/Fancy Traditional Pendant.png",
+    "story": "Un talisman mystique censé porter chance. Il a été fabriqué par un concepteur étranger d'articles magiques.",
+    "aliases": null
+  },
+  {
+    "id": "Fantastic Hybrid Animals",
+    "name": "Hybrides animaux fantastiques",
+    "description": "Au début du combat, les DEG infligés aux ennemis non-Héros augmentent de {0}% et les DEG reçus diminuent de {1}% pendant 200 sec.",
+    "value": {
+      "0": "12, 14, 17, 21, 25, 30",
+      "1": "12, 14, 17, 21, 25, 30"
+    },
+    "thumbnail": "artifacts/Fantastic Hybrid Animals.png",
+    "story": "Une encyclopédie en édition limitée, traitant des hybrides animaux d'Orvelia. Elle comporte la silhouette d'hybrides animaux brodée au fil d'or.",
+    "aliases": [
+      "fha"
+    ]
+  },
+  {
+    "id": "Feather of Sacrifice",
+    "name": "Plume du sacrifice",
+    "description": "Pendant 120 après le début du combat, augmente les DEG reçus par le Héros de {0} % et les DEG reçus par le boss de {1}%. Cet effet ne peut être dissipé. Si plusieurs Héros dans l'équipe portent la même relique, une seule d'entre elles s'active.",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25",
+      "1": "10, 12, 14, 17, 21, 25"
+    },
+    "thumbnail": "artifacts/Feather of Sacrifice.png",
+    "story": "Cette plume renferme une formule alchimique d'équivalence. Cette formule s'active lorsque le nom de l'ennemi est inscrit sur le corps de son porteur. L'ennemi et le porteur sont alors affaiblis pendant un bref instant.",
+    "aliases": null
+  },
+  {
+    "id": "Golden Apple of a Goddess",
+    "name": "Pomme Dorée de Déesse",
+    "description": "1 fois pendant la bataille, restaure {0}% des PV du lanceur si ceux-ci deviennent inférieurs ou égaux à 25% et dissipe tous ses effets négatifs.",
+    "value": {
+      "0": "30, 36, 43, 51, 62, 75"
+    },
+    "thumbnail": "artifacts/Golden Apple of a Goddess.png",
+    "story": "On dit qu'il s'agit de l'un des artéfacts sacrés confiés par la déesse. Ce remède miraculeux est censé soigner n'importe quelle blessure.",
+    "aliases": null
+  },
+  {
+    "id": "Golden Cat Statue",
+    "name": "Statue de Chat Doré",
+    "description": "Au début de chaque bataille, augmente la Vitesse d'ATQ de {0} pendant 15 sec.",
+    "value": {
+      "0": "400, 480, 570, 690, 830, 1000"
+    },
+    "thumbnail": "artifacts/Golden Cat Statue.png",
+    "story": "Une drôle de statue dorée en forme de chat, le symbole de la chance. Parfois, on a l'impression que le chat remue la patte.",
+    "aliases": null
+  },
+  {
+    "id": "Insignia of Iron Conviction",
+    "name": "Insigne de Conviction de Fer",
+    "description": "Toutes les 50 fois que ce personnage subit des DEG M, tous les Affaiblissements sont dissipés et un bouclier la protège pendant 5 sec à hauteur de {0}% de l'ATQ. Pendant que ce bouclier est actif, le Héros est immunisé aux Contrôles ainsi qu'aux effets d'Accumulation des DEG.",
+    "value": {
+      "0": "480, 580, 690, 830, 1000, 1200"
+    },
+    "thumbnail": "artifacts/Insignia of Iron Conviction.png",
+    "story": "Avant la guerre démoniaque, ce sceau était utilisé par les Chevaliers Gardiens d'Orvelia. Il en émane la volonté inflexible des chevaliers.",
+    "aliases": null
+  },
+  {
+    "id": "Judgment of Light Bracelet",
+    "name": "Bracelet Jugement de Lumière",
+    "description": "Augmente la Précision et les Affaiblissement Précision de {0}.",
+    "value": {
+      "0": "300, 360, 430, 520, 630, 750"
+    },
+    "thumbnail": "artifacts/Judgment of Light Bracelet.png",
+    "story": "Un bracelet béni créé il y a longtemps par les Chevaliers Sacrés de l'Église de Lua. Il ne subsiste plus que quelques exemplaires de cet artéfact antique.",
+    "aliases": null
+  },
+  {
+    "id": "Kiddy Chick",
+    "name": "Poussin junior",
+    "description": "Augmente la Vitesse d'ATQ de {0}.",
+    "value": {
+      "0": "80, 96, 115, 138, 165, 200"
+    },
+    "thumbnail": "artifacts/Kiddy Chick.png",
+    "story": "Poussin en peluche symbolisant l'innocence de l'enfance.",
+    "aliases": null
+  },
+  {
+    "id": "Lion of Protection",
+    "name": "Lion protecteur",
+    "description": "Augmente la DEF P personnelle de {0}% et le Blocage P de {1} points.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50",
+      "1": "100, 120, 140, 170, 210, 250"
+    },
+    "thumbnail": "artifacts/Lion of Protection.png",
+    "story": "Un lion d'argent aux yeux de saphir, qui représente la famille royale d'Orvel. Il symbolise le désir ardent de défendre le royaume, ce qui protège son propriétaire contre les forces du mal.",
+    "aliases": null
+  },
+  {
+    "id": "LuLu's Necklace",
+    "name": "Collier de LuLu",
+    "description": "Au début du combat, pendant 30 sec, les DEG infligés aux ennemis non-Héros augmentent de {0}% et récupère {1} PM toutes les 5 sec.",
+    "value": {
+      "0": "20, 24, 28, 34, 42, 50",
+      "1": "200, 240, 280, 340, 420, 500"
+    },
+    "thumbnail": "artifacts/LuLu's Necklace.png",
+    "story": "Collier éclatant, digne de LuLu le lapin lunaire.\nIl a été fabriqué à partir de fragments de pleine lune raffinés.\nLa puissance de la pleine lune se transmet ainsi au porteur du collier.",
+    "aliases": null
+  },
+  {
+    "id": "Juno's Special Dessert",
+    "name": "Dessert spécial de Juno",
+    "description": "Lorsque le lanceur subit des DEG, a 20% de chances d'augmenter les DEG reçus par la cible ennemie de {0}% pendant 5 sec. Si plusieurs Héros dans l'équipe portent la même relique, une seule d'entre elles s'active.",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25"
+    },
+    "thumbnail": "artifacts/Juno's Special Dessert.png",
+    "story": "Dessert à base de la gélatine de limon.\nPour obtenir ce dessert assez simple, il faut mélanger la gélatine avec les ingrédients sucrés tels que le jus de fruit et le sucre,\net la chauffer au point de la faire fondre, avant de la laisser refroidir.\nComme le mets est fait à base de monstre, Juno ne voulait pas qu'il porte son nom,\nmais Yanne a inscrit secrètement le nom de cette dernière dans le menu...\n\nIl paraîtrait que si les gelées sont vieillies pendant un long moment, il se peut qu'elles se ressuscitent en limon...",
+    "aliases": null
+  },
+  {
+    "id": "Juno's Special Vitality Stew",
+    "name": "Ragoût revigorant spécial de Juno",
+    "description": "Lorsque vous infligez des attaques automatiques à la cible, cette dernière reçoit des DEG P supplémentaires sur la durée, à la hauteur de {0}% de l'ATQ pendant 5 sec. Cet effet ne peut pas être appliqué simultanément avec des effets similaires d'autres alliés.",
+    "value": {
+      "0": "200, 240, 290, 350, 420, 500"
+    },
+    "thumbnail": "artifacts/Juno's Special Vitality Stew.png",
+    "story": "Un ragoût sain, cuisiné avec des ingrédients provenant de tout le continent d'Orbis.\nRiche en minéraux et autres nutriments, le plat revigore ceux qui en consomment.\nLe prix est modéré, au point de pouvoir en manger de temps à autre.\nUn mets de premier choix, cuisiné par les bons soins de Juno, pour les aventuriers épuisés qui visitent la Taverne du Héros.",
+    "aliases": null
+  },
+  {
+    "id": "Madame's Bronze Mirrors",
+    "name": "Miroirs en Bronze de Madame",
+    "description": "Augmente les Chances de Bloquer de {0} et la Réduction des DEG M de {1}.",
+    "value": {
+      "0": "300, 330, 360, 400, 440, 500",
+      "1": "100, 110, 120, 140, 160, 200"
+    },
+    "thumbnail": "artifacts/Madame's Bronze Mirrors.png",
+    "story": "Provenant du Royaume technomagique de l'antiquité, ce miroir de bronze fut offert par un mage doué à sa femme. Une rune de protection de l'être aimé est gravée dessus.",
+    "aliases": null
+  },
+  {
+    "id": "Magical Flute",
+    "name": "Flûte magique",
+    "description": "Toutes les 8 sec, augmente de {0} points la Vitesse d'ATQ du lanceur et de 2 alliés choisis au hasard pendant 4 sec.",
+    "value": {
+      "0": "100, 120, 140, 170, 210, 250"
+    },
+    "thumbnail": "artifacts/Magical Flute.png",
+    "story": "Une flûte antique taillée dans les os d'Orox, la bête gardienne des montagnes enneigées. Elle porte en elle le pouvoir des grands vents, qui exalte les guerriers. Sa mélodie suffit à accélérer leurs pas.",
+    "aliases": null
+  },
+  {
+    "id": "New Year's Fireworks",
+    "name": "Feux d'Artifice du Nouvel An",
+    "description": "L'ATQ est augmentée de {0}% pendant 60 sec au début de chaque bataille.",
+    "value": {
+      "0": "5, 6, 7.2, 8.6, 10.4, 12.5"
+    },
+    "thumbnail": "artifacts/New Year's Fireworks.png",
+    "story": "Un objet servant à dissiper les chagrins de 2017 et apporter le renouveau de 2018.",
+    "aliases": null
+  },
+  {
+    "id": "New Year's Fanfare",
+    "name": "Fanfare du Nouvel An",
+    "description": "Au début de chaque combat, augmente l'ATQ de 4 alliés de {0}% pendant 20 sec. Si plusieurs Héros dans l'équipe portent la même relique, une seule d'entre elles s'active.",
+    "value": {
+      "0": "5, 6, 7.2, 8.6, 10.4, 12.5"
+    },
+    "thumbnail": "artifacts/New Year's Fanfare.png",
+    "story": "Cette fanfare de trompettes exaltante répand la bénédiction du soleil levant.",
+    "aliases": null
+  },
+  {
+    "id": "New-Type Thruster",
+    "name": "Nouveau Modèle de Propulseur",
+    "description": "Si le Héros est touché par un Contrôle, réduit le temps de recharge de toutes les compétences de {0} sec et récupère {1} PM toutes les sec, pendant 3 sec. Le temps de recharge de cet effet est de 20 sec.",
+    "value": {
+      "0": "5, 6, 7, 8, 9, 10",
+      "1": "500, 600, 700, 800, 900, 1000"
+    },
+    "thumbnail": "artifacts/New-Type Thruster.png",
+    "story": "Nouveau modèle de propulseur que l'entreprise Selva a fourni à l'empire. Il a été fabriqué en édition spéciale Noël.\nCet objet a l'apparence d'un simple traîneau, mais c'est une nouveauté qui possède une vitesse phénoménale.\nSi seulement sa résistance peut être améliorée, il pourrait devenir une meilleure invention.",
+    "aliases": null
+  },
+  {
+    "id": "Orbs of Contract",
+    "name": "Orbes de Contrat",
+    "description": "Toutes les 7 sec, augmente la DEF M de {0}% de l'ATQ. Cumulable 6 fois.",
+    "value": {
+      "0": "1, 1.2, 1.4, 1.7, 2, 2.5"
+    },
+    "thumbnail": "artifacts/Orbs of Contract.png",
+    "story": "Des orbes partagés entre deux amants. Ils représentent le lien éternel unissant deux âmes malgré la distance.",
+    "aliases": null
+  },
+  {
+    "id": "Perfume of the Queen",
+    "name": "Parfum de la reine",
+    "description": "Lorsque vous êtes touché 3 fois par un contrôle, les effets négatifs qui pèsent sur vous sont dissipés, votre Vitesse d'ATQ augmente de 500 points et vous bénéficiez de l'immunité contre les contrôles pendant {0} sec.",
+    "value": {
+      "0": "4, 4.8, 5.8, 7, 8.4, 10"
+    },
+    "thumbnail": "artifacts/Perfume of the Queen.png",
+    "story": "Un parfum porté par la célèbre Reine dorée. Il s'agit de la fragrance légendaire qui séduit ceux qui la sentent.",
+    "aliases": null
+  },
+  {
+    "id": "Pocket Watch of Ancient Civilization",
+    "name": "Horloge de Civilisation Antique",
+    "description": "Toutes les 10 sec, tous les Temps de Recharge sont réduits de {0} sec et la Vitesse d'ATQ est augmentée de {1} pendant 5 sec.",
+    "value": {
+      "0": "1, 1.2, 1.4, 1.7, 2, 2.5",
+      "1": "80, 96, 115, 138, 165, 200"
+    },
+    "thumbnail": "artifacts/Pocket Watch of Ancient Civilization.png",
+    "story": "Une montre à gousset pouvant légèrement avancer le temps afin de donner un aperçu de l'avenir. À utiliser avec modération.",
+    "aliases": null
+  },
+  {
+    "id": "Primer for the Heroes",
+    "name": "Précis pour les Héros",
+    "description": "Lorsque les PV sont inférieurs ou égaux à 20%, augmente l'ATQ de {0}%, la Vitesse d'ATQ et la Réduction de tous les DEG de {1}.",
+    "value": {
+      "0": "30, 36, 43, 51, 62, 75",
+      "1": "300, 360, 430, 510, 620, 750"
+    },
+    "thumbnail": "artifacts/Primer for the Heroes.png",
+    "story": "Cet ouvrage chroniquant les aventures des héros d'antan est considéré comme un manuel pour les graines de héros. Il est écrit à l'aide d'un alphabet ancien.",
+    "aliases": null
+  },
+  {
+    "id": "Roaring Tiger Statue",
+    "name": "Statue de Tigre Rugissant",
+    "description": "Lorsque les PV du héros passent sous 35%, inflige des DÉG équivalant à 100% de l'ATQ aux ennemis proches et les renverse. Les ennemis ciblés perdent {0}% d'ATQ et {1} de VIT ATQ pendant 10 s. Temps de recharge : 30 s.",
+    "value": {
+      "0": "14, 16, 20, 24, 29, 35",
+      "1": "140, 160, 200, 240, 290, 350"
+    },
+    "thumbnail": "artifacts/Roaring Tiger Statue.png",
+    "story": "Une étrange statue en or en forme de tigre rugissant. Quand les conditions sont réunies, le tigre s'éveille et fait trembler les témoins comme des feuilles.",
+    "aliases": null
+  },
+  {
+    "id": "Sealed Chain of Ancient God",
+    "name": "Chaîne Scellée de Dieu Antique",
+    "description": "Toutes les {0} sec, applique Silence à un ennemi aléatoire pendant {1} sec et retire les Améliorations.",
+    "value": {
+      "0": "20, 19, 18, 17, 16, 15",
+      "1": "3, 3.5, 4, 4.5, 5, 6"
+    },
+    "thumbnail": "artifacts/Sealed Chain of Ancient God.png",
+    "story": "Une chaîne supposément employée par le dieu-roi du désert pour entraver ses esclaves. Ceux qui sont entravés par ces chaînes ne peuvent résister.",
+    "aliases": null
+  },
+  {
+    "id": "Solar Stone",
+    "name": "Pierre solaire",
+    "description": "Chaque seconde, inflige des DÉG P équivalant à {0}% de l'ATQ aux ennemis proches dans une zone circulaire autour de soi et réduit leur taux de récupération de {1}% pendant 5 s.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50",
+      "1": "30, 36, 43, 52, 62, 75"
+    },
+    "thumbnail": "artifacts/Solar Stone.png",
+    "story": "Outil magique sculpté à l'image du soleil dans une pierre incarnant l'essence du feu. Il a le pouvoir de purifier et de chasser toute l'énergie maléfique qui entoure son porteur.",
+    "aliases": null
+  },
+  {
+    "id": "Sorcerous Black Dagger",
+    "name": "Dague Noire de Sorcellerie",
+    "description": "Les attaques automatiques ont {0}% de chances de réduire les PM de la cible de {1}. Temps de recharge 6 sec.",
+    "value": {
+      "0": "10, 12, 14, 16, 18, 20",
+      "1": "600, 700, 800, 1000, 1200, 1500"
+    },
+    "thumbnail": "artifacts/Sorcerous Black Dagger.png",
+    "story": "Une ancienne dague ensorcelée ayant supposément servi à commettre des assassinats. Le sort fourbe dont elle est chargée perturbe le mana.",
+    "aliases": null
+  },
+  {
+    "id": "Soul Spring Water",
+    "name": "Eau de l'Âme Printanière",
+    "description": "Au début de chaque bataille, récupère de {0}% de PV et {1}% de PM.",
+    "value": {
+      "0": "24, 28, 34, 42, 50, 60",
+      "1": "12, 14, 17, 21, 25, 30"
+    },
+    "thumbnail": "artifacts/Soul Spring Water.png",
+    "story": "On dit qu'une seule goutte s'en écoule de la source spirituelle une fois par siècle. Une panacée extrêmement rare et efficace.",
+    "aliases": [
+      "ssw"
+    ]
+  },
+  {
+    "id": "Talismans of Resistance",
+    "name": "Talisman de Résistance",
+    "description": "Si l'on vous inflige un effet négatif, tous ceux qui pèsent sur vous sont retirés. Vous bénéficiez ensuite de l'immunité contre les contrôles pendant {0} sec. Un temps de recharge de {1} sec se met en place.",
+    "value": {
+      "0": "1, 1.5, 2, 2.5, 3, 3.5",
+      "1": "20, 19, 18, 17, 16, 15"
+    },
+    "thumbnail": "artifacts/Talismans of Resistance.png",
+    "story": "Un tas de vieux talismans exotiques chassant les esprits malins. Une fois employés, ils ne peuvent plus être utilisés quelque temps.",
+    "aliases": null
+  },
+  {
+    "id": "Tarot Card of Loss",
+    "name": "Carte de tarot de la perte",
+    "description": "Réduit le Crit de {0} et augmente l'ATQ de {1}%.",
+    "value": {
+      "0": "150, 180, 210, 260, 310, 375",
+      "1": "30, 36, 43, 52, 63, 75"
+    },
+    "thumbnail": "artifacts/Tarot Card of Loss.png",
+    "story": "Un jeu de tarot contenant une magie indicible. Quelqu'un l'a sans doute perdu. On dit qu'il a été créé par la sorcière Eucaletus pour commémorer la mort d'un proche.",
+    "aliases": null
+  },
+  {
+    "id": "The Ancient Scope",
+    "name": "Le Viseur Antique",
+    "description": "Lorsque les PM atteignent 100%, le Crit et la Précision augmentent de {0} pendant 10 sec. Cet effet possède 20 sec de temps de recharge.",
+    "value": {
+      "0": "400, 480, 570, 690, 830, 1000"
+    },
+    "thumbnail": "artifacts/The Ancient Scope.png",
+    "story": "Une lunette créée par une ancienne technomagie. Cet outil bien pratique peut zoomer vers un objet distant tout en offrant un bon niveau de détail.",
+    "aliases": null
+  },
+  {
+    "id": "Tome of Black Magic",
+    "name": "Tome de Magie Noire",
+    "description": "Toutes les 10 sec, inflige pendant 5 sec à un ennemi aléatoire des DEG équivalents à {0}% des PV actuels, ignorant la DEF, et réduit {1} PM. Cet effet n'est activé qu'à l'Arène.",
+    "value": {
+      "0": "2, 2.4, 2.9, 3.5, 4.2, 5",
+      "1": "200, 240, 290, 350, 420, 500"
+    },
+    "thumbnail": "artifacts/Tome of Black Magic.png",
+    "story": "Un grimoire de magie noire. Il regorge de sortilèges que le Malin a enseignés à l'humanité.",
+    "aliases": null
+  },
+  {
+    "id": "Vase of Sacrifice",
+    "name": "Vase du sacrifice",
+    "description": "Après avoir subi des DÉG 50 fois, restaure les PV de 1 allié aléatoire à hauteur de {0}% de sa propre ATQ et augmente l'ATQ de la cible de {1}% pendant 10 s.",
+    "value": {
+      "0": "200, 240, 290, 350, 420, 500",
+      "1": "30, 36, 43, 51, 63, 75"
+    },
+    "thumbnail": "artifacts/Vase of Sacrifice.png",
+    "story": "Un vase dédié au tombeau d'un général tombé durant la Guerre des démons. Il contient de l'eau étincelante de la rivière d'Eden.",
+    "aliases": null
+  },
+  {
+    "id": "Fragment of an Ancient Kingdom",
+    "name": "Fragment d'un royaume oublié",
+    "description": "Augmente la résistance aux contrôles de {0} points et la précision des contrôles de {1}.",
+    "value": {
+      "0": "200, 240, 290, 350, 420, 500",
+      "1": "200, 240, 290, 350, 420, 500"
+    },
+    "thumbnail": "artifacts/Fragment of an Ancient Kingdom.png",
+    "story": "Pièce découverte dans une étrange machine antique. On suppose qu'elle fait partie d'un dispositif de téléportation.",
+    "aliases": null
+  },
+  {
+    "id": "Goddess of Glory",
+    "name": "Déesse de la gloire",
+    "description": "Augmente la Vitesse d'ATQ de 4 alliés de {0} pendant 20 sec au début de chaque combat. Si plusieurs Héros dans l'équipe portent la même relique, une seule d'entre elles s'active.",
+    "value": {
+      "0": "100, 120, 140, 170, 210, 250"
+    },
+    "thumbnail": "artifacts/Goddess of Glory.png",
+    "story": "La statue dorée d'une déesse brandissant un rameau de laurier. Elle assure la victoire à son porteur.",
+    "aliases": null
+  },
+  {
+    "id": "Master Chef's Recipe Book",
+    "name": "Livre de Recettes du Roi des Cuisiniers",
+    "description": "Augmente les DEF M et P de {0}% et la Récupération de {1}%.",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25",
+      "1": "10, 12, 14, 17, 21, 25"
+    },
+    "thumbnail": "artifacts/Master Chef's Recipe Book.png",
+    "story": "Il existe des personnes surnommées les rois des cuisiniers de par le monde.\nCe titre est décerné au meilleur des cuisiniers, ayant marqué l'histoire de la cuisine.\n Dans ce précieux livre, les meilleures recettes de cuisine du monde, ainsi que la provenance des ingrédients qui y sont nécessaires, sont inscrites.\n\nBien entendu, la difficulté et le danger qu'il faut affronter pour se procurer de ces ingrédients y sont également marqués...\n\nPour information, le meilleur plat du roi des cuisiniers, qui est le premier auteur de ce livre de recettes, est le sandwich.",
+    "aliases": null
+  },
+  {
+    "id": "Pendulum of Fantasy",
+    "name": "Pendule d'Illusion",
+    "description": "Au début de chaque bataille, augmente le taux d'ATQ de {0}% de manière permanente. Cet effet peut se cumuler jusqu'à 5 fois et ne peut être dissipé.",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25"
+    },
+    "thumbnail": "artifacts/Pendulum of Fantasy.png",
+    "story": "Relique utilisée par Hexipolia avant qu'il n'utilise ses dés.\nObserver l'oscillement du pendule donne l'impression d'être aspiré dans un monde d'illusion.",
+    "aliases": null
+  },
+  {
+    "id": "Otherworldly Radiance",
+    "name": "Splendeur dissonante",
+    "description": "Obtient [Splendeur dissonante] qui dure pendant 4 sec, au début du premier combat et toutes les 15 sec. Ensuite, si le lanceur est en possession de [Splendeur dissonante] après 4 sec, dissipe tous les effets négatifs sur le lanceur et réduit tous les DEG reçus de {0}% pendant 4 sec. Lors de la dissipation de [Splendeur dissonante] dans 4 sec, dissipe les effets positifs de 2 ennemis aléatoires, les projette pendant 3 sec et leur réduit {1} PM. L'effet de la réduction de dégâts ne peut être dissipé.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50",
+      "1": "800, 1000, 1200, 1400, 1700, 2000"
+    },
+    "thumbnail": "artifacts/Otherworldly Radiance.png",
+    "story": "Fragment de la malveillance de Shakmeh.\nIl est possible d'emprunter le pouvoir des ténèbres dissonantes en portant foi aux ténèbres. La splendeur du mal défait la lignée des ennemis grâce à son intimidation, en paralysant la rationalité son utilisateur.\nMais, qu'il provoque l'apparition d'un brave guerrier ou d'un fou massacreur, tout dépend son utilisation.",
+    "aliases": null
+  },
+  {
+    "id": "Ancient God King's Coin",
+    "name": "Pièce antique du Dieu-Roi",
+    "description": "Augmente l'ATQ de {0}% et les DEG Crit de {0}%.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50"
+    },
+    "thumbnail": "artifacts/Ancient God King's Coin.png",
+    "story": "Il y a fort longtemps, Cain le dieu-roi mena le royaume du désert Sekireinel à un âge d'or.\nCette pièce commémorative fut fabriquée avec l'or qu'il trouva dans le désert.\nElle renferme un pouvoir mystérieux et dans les mains, elle dégage de la chaleur et la puissance du soleil.",
+    "aliases": null
+  },
+  {
+    "id": "Amethyst Pendulum",
+    "name": "Pendule d'améthyste",
+    "description": "Toutes les 10 sec, augmente la Résistance Crit de {0} pendant 7 sec.",
+    "value": {
+      "0": "200, 240, 290, 350, 420, 500"
+    },
+    "thumbnail": "artifacts/Amethyst Pendulum.png",
+    "story": "Un pendule d'améthyste. Il dégage une énergie maléfique et peut percevoir un danger qui s'approche.",
+    "aliases": [
+      "amethyst"
+    ]
+  },
+  {
+    "id": "Otherworldly Helm",
+    "name": "Heaume dissonant",
+    "description": "Augmente les PV max du Héros de {0}%. En subissant des DEG à 3 reprises, réduit de {1}% les [DEG infligés aux Héros] par le lanceur et par 2 ennemis aux ATQ les plus élevées pendant 5 sec. Cet effet ne peut être dissipé et possède 30 sec de recharge.",
+    "value": {
+      "0": "20, 24, 29, 35, 42, 50",
+      "1": "50, 55, 60, 65, 70, 75"
+    },
+    "thumbnail": "artifacts/Otherworldly Helm.png",
+    "story": "Fragment de la haine de Shakmeh.\nUn heaume prenant la forme d’une bête sauvage. Il expose un regard effroyable, qui fait trembler de peur la personne face à elle en tant que  proie chassée. Les utilisateurs sont également affectés par les craintes démoralisantes profondément ancrées au sein du casque.",
+    "aliases": null
+  },
+  {
+    "id": "Treasure Hunt Capsule",
+    "name": "Capsule Chasse au Trésor",
+    "description": "Au début de chaque bataille, réduit immédiatement le temps de recharge de toutes ses compétences de {0} sec et augmente les DEG infligés aux ennemis non-héros de {1}%. Les DEG infligés aux ennemis non-héros peuvent se cumuler jusqu'à 10 fois et ne peuvent être dissipés. Avec 10 charges cumulées, multiplie par 2 l'effet de réduction du temps de recharge.",
+    "value": {
+      "0": "1, 1.2, 1.4, 1.7, 2.1, 2.5",
+      "1": "1, 1.2, 1.4, 1.7, 2.1, 2.5"
+    },
+    "thumbnail": "artifacts/Treasure Hunt Capsule.png",
+    "story": "Une capsule utilisée durant l'événement de la chasse au trésor dans le parc aquatique d'Orvel. Hermétique et flottante, on peut l'ouvrir puis la fermer. L'intérieur est fait d'une matière qui se désintègre au contact de l'eau, alors il ne faut pas oublier de l'ouvrir hors de la piscine.\nCes capsules contiennent des billets, qui pour la plupart sont des billets blancs. Les trésors sont offerts à ceux qui trouvent les billets du 1er au 5ème prix, et la personne qui découvre le billet du 1er prix peut recevoir une récompense d'une valeur extraordinaire.",
+    "aliases": null
+  },
+  {
+    "id": "Forge Hammer MK-II",
+    "name": "Marteau de Forge n°2",
+    "description": "Lors d'une attaque automatique, augmente la Vitesse d'ATQ de {0} pendant 5 sec, avec une probabilité de 5%.",
+    "value": {
+      "0": "400, 480, 580, 700, 840, 1000"
+    },
+    "thumbnail": "artifacts/Forge Hammer MK-II.png",
+    "story": "Une imitation du marteau titanesque que Jin le Forgeron manie fréquemment.\nElle possède une intensité semblable aux marteaux titanesques, dont il ne reste que 3 exemplaires.\nElle est légère selon les critères des dragons, mais pour les humains ordinaires, elle est si lourde qu’elle ne peut être soulevée.",
+    "aliases": [
+      "hammer"
+    ]
+  },
+  {
+    "id": "Honorary Trophy",
+    "name": "Trophée d'Honneur",
+    "description": "Augmente l'ATQ de {0}% et le Crit de {1}.",
+    "value": {
+      "0": "25, 30, 35, 40, 45, 50",
+      "1": "250, 300, 350, 400, 450, 500"
+    },
+    "thumbnail": "artifacts/Honorary Trophy.png",
+    "story": "Trophée d'Honneur décerné aux Héros qui se sont entraînés avec assiduité",
+    "aliases": [
+      "trophy"
+    ]
+  },
+  {
+    "id": "Honorary Medal",
+    "name": "Médaille d'Honneur",
+    "description": "Augmente l'ATQ, les PV et la DEF de tous les alliés de {0}%. Si plusieurs Héros dans l'équipe portent la même relique, une seule d'entre elles s'active.",
+    "value": {
+      "0": "7.5, 9, 10.5, 12, 13.5, 15"
+    },
+    "thumbnail": "artifacts/Honorary Medal.png",
+    "story": "Médaille d'Honneur décernée aux Héros qui ont fait des efforts",
+    "aliases": [
+      "medal"
+    ]
+  },
+  {
+    "id": "Hero's Plaque of Appreciation",
+    "name": "Plaque de Remerciement du Héros",
+    "description": "Augmente les PV max du Héros de {0}%. 30 sec après le début de la bataille, augmente de {1}% les DEG Crit de l'allié à l'ATQ la plus élevée en dehors du lanceur. Cet effet ne peut être dissipé. Si plusieurs Héros dans l'équipe portent la même relique, une seule d'entre elles s'active.",
+    "value": {
+      "0": "25, 30, 35, 40, 45, 50",
+      "1": "50, 60, 70, 80, 90, 100"
+    },
+    "thumbnail": "artifacts/Hero's Plaque of Appreciation.png",
+    "story": "Plaque de Remerciement décernée aux Héros qui ont combattu sans renoncer",
+    "aliases": [
+      "plaque"
+    ]
+  },
+  {
+    "id": "Academic Achievement Award",
+    "name": "Récompense Exploit scolaire",
+    "description": "Augmente l'ATQ de tous les alliés de {0}% et la DEF du lanceur de {1}%. Si plusieurs Héros dans l'équipe portent la même relique, une seule d'entre elles s'active.",
+    "value": {
+      "0": "8, 10, 12, 14, 17, 20",
+      "1": "10, 12, 14, 17, 21, 25"
+    },
+    "thumbnail": "artifacts/Academic Achievement Award.png",
+    "story": "En récompense de vos excellents résultats, de vos performances et de vos exploits, nous vous décernons officiellement cette médaille. \n- Principal Rephy",
+    "aliases": [
+      "aaa"
+    ]
+  },
+  {
+    "id": "Dragon's Doomstone",
+    "name": "Joyau du Dragon mort",
+    "description": "Augmente les DEG infligés aux ennemis non-Héros de {0}% et réduit les DEG reçus de la part de ceux-ci de {1}%. Multiplie les effets par 3 si l'ennemi est un Dragon.",
+    "value": {
+      "0": "10, 12, 14, 17, 21, 25",
+      "1": "5, 6, 7, 8.5, 10.5, 12.5"
+    },
+    "thumbnail": "artifacts/Dragon's Doomstone.png",
+    "story": "Joyau imprégné de la colère des descendants d'Apocalypse. Il contiendrait la rancune ressentie envers leur ancêtre qui ne les avait pas pu sauver à temps.",
+    "aliases": null
+  },
+  {
+    "id": "Apocalypsion's Tear",
+    "name": "Larme d'Apocalypse",
+    "description": "S'il y a soit 1 seul ennemi soit 5 ennemis ou plus, augmente l'ATQ de tous les alliés de {0}% et les DEG Crit de {1}%. Si plusieurs Héros dans l'équipe portent la même relique, une seule d'entre elles s'active.",
+    "value": {
+      "0": "12, 14, 17, 21, 25, 30",
+      "1": "24, 28, 34, 42, 50, 60"
+    },
+    "thumbnail": "artifacts/Apocalypsion's Tear.png",
+    "story": "Joyau qui orne le front d'Apocalypse. Il serait fait de la larme cristallisée d'Apocalypse qu'elle aurait versée lorsqu'elle a perdu ses innombrables descendants dans le passé. La larme se serait transformée en joyau et elle n'aurait plus pleuré depuis. Ce joyau porte également le nom de Larme de Blancheur pure.",
+    "aliases": null
+  }
+]

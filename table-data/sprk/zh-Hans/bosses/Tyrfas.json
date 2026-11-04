@@ -1,0 +1,66 @@
+{
+  "id": "Tyrfas",
+  "profile": {
+    "name": "泰勒法斯",
+    "title": "终极神兽",
+    "type": [
+      "Guild Conquest",
+      "Guild Raid"
+    ],
+    "race": "野兽",
+    "damage_type": "Magical",
+    "recommended_heroes": "芙莱儿, 爱纱, 卡菈",
+    "characteristics": "泰勒法斯使用[雪崩]时会快速地造成魔法伤害，必须尽快中断才行。此外，泰勒法斯的寒气会降低生命回复，也须多加注意。",
+    "thumbnail": "bosses/Tyrfas.png",
+    "recommendedHeroNames": [
+      "Frey",
+      "Aisha",
+      "Kara"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "冰寒之鞭",
+      "cost": null,
+      "cooldown": "15",
+      "description": "对前方范围内的敌人造成魔法伤害并击退目标。"
+    },
+    "2": {
+      "name": "凝结的呼吸",
+      "cost": null,
+      "cooldown": "25",
+      "description": "攻击前方直线范围内的敌人6次，造成魔法伤害，并有30%机率堆叠寒气。如果目标的寒气堆叠50层以上，将会受到额外的魔法伤害。"
+    },
+    "3": {
+      "name": "冰之暴死",
+      "cost": null,
+      "cooldown": "20",
+      "description": "随机攻击3名敌人5次，造成魔法伤害，受到魔法伤害的敌人会堆叠寒气。"
+    },
+    "4": {
+      "name": "雪崩",
+      "cost": null,
+      "cooldown": "30",
+      "description": "准备好后持续攻击所有敌人，造成魔法伤害并堆叠寒气。此一技能的伤害力会随着时间而提高，使用过程中若是泰勒法斯受到魔法伤害50次就会取消施放，若是超过一定的时间，受到的伤害量就会大幅度提高，为了取消之后使用的雪崩，需要的魔法伤害次数会提高。"
+    },
+    "5": {
+      "name": "冰寒之波",
+      "cost": null,
+      "cooldown": null,
+      "description": "每秒对敌人造成魔法伤害，并有30%机率堆叠寒气，寒气会使目标的魔法防御力和回复力降低，最多可堆叠200层。寒气无法解除。"
+    },
+    "6": {
+      "name": "神兽之壳",
+      "cost": null,
+      "cooldown": null,
+      "description": "大地的神兽泰勒法斯免疫状态异常，攻击速度与防御力也不会受到影响。此外，根据敌人的寒气层数，所造成的伤害量也会提高。"
+    }
+  },
+  "aliases": [
+    "Tyrfas",
+    "GC1",
+    "GC 1",
+    "GR7",
+    "GR 7"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "Zeta",
+  "profile": {
+    "name": "Zeta",
+    "title": "Predator MK-XX",
+    "type": [
+      "Technomagic Enchantment Raid"
+    ],
+    "race": "Golem",
+    "damage_type": "Magical",
+    "recommended_heroes": "Theo, Laudia, Kaulah",
+    "characteristics": "ARCDIM X Zeta verursacht mächtigen Mag. Schaden, der dauerhaft die Heilungsrate der Helden verringert, bis er in bestimmten Situationen mehr als eine bestimmte Anzahl an Treffern erlitten hat. Daher ist es wichtig, Helden mit einer hohen Anzahl an Treffern und Helden, die die Heilungsrate erhöhen, zu verwenden.\nBeachte auch, dass ARCDIM X Zeta über hohen Krit. Widerstand verfügt.",
+    "thumbnail": "bosses/Zeta.png",
+    "recommendedHeroNames": [
+      "Theo",
+      "Laudia",
+      "Kaulah"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Aufladende Explosionskanone",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Fügt den Gegnern an der Frontlinie nach einer kurzen Kraftbündelung massiven Mag. Schaden zu und wirfst sie für 5 Sek. zu Boden."
+    },
+    "2": {
+      "name": "Meteor-Gefängnis der Auslöschung",
+      "cost": null,
+      "cooldown": "32",
+      "description": "Greift Gegner an der Frontlinie in ringförmiger Reichweite an, verursacht Mag. Schaden, verringert mit jedem Treffer die Heilungsrate des Ziels und zerstört Schild-Effekte des Ziels. Der Heilungsrate-Reduktions-Effekt kann bis zu 100-mal gestapelt werden und kann nicht entfernt werden. Dieser Angriff dauert so lange, bis der Bossmonster mehr als eine bestimmte Anzahl an Treffern erlitten hat und wird mit der Zeit stärker. Wenn die Anzahl der Treffer aufgebraucht ist, wird er für eine bestimmte Zeitraum neutralisiert und erleidet erheblichen Schaden.\nDie Anzahl der Treffer und die Heilungsrate-Verringerung erhöhen sich mit höheren Schwierigkeitsgraden.\n[Phase 1 Anzahl der Treffer: 140)\n(Phase 1 Heilungsrate-Verringerung: 0.5 %)"
+    },
+    "3": {
+      "name": "Vernichter-Pulslaser",
+      "cost": null,
+      "cooldown": null,
+      "description": "Sammelt Energie und greift zufällig einen Gegner 8-mal an. Fügt massiven Mag. Schaden zu und verringert die Mag. VERT um 30 %."
+    },
+    "4": {
+      "name": "Nanoschutz-Kraftfeld",
+      "cost": null,
+      "cooldown": null,
+      "description": "Erreichen die TP von ARCDIM X Zeta 66 % oder 33 %, wird ein [Nanoschutz-Kraftfeld] erzeugt, welches alle erhaltenen eigenen Schäden dauerhaft verringert. Bei der zweiten Verwendung wird ein stärkeres [Nanoschutz-Kraftfeld] erzeugt."
+    },
+    "5": {
+      "name": "Adaptive Metadium-Rüstung Zeta",
+      "cost": null,
+      "cooldown": null,
+      "description": "ARCDIM X Zeta erhält keine ANG-GESCHW.- und VERT-Reduktions-Effekte, ist immun gegen Schaden-Boost-Effekte und hat einen hohen Krit. Widerstand. Außerdem ignorieren alle Angriffe von ARCDIM X Zeta gegn. Schadenverringerungs-Effekte. Der Krit. Widerstand erhöht sich mit höheren Schwierigkeitsgraden.\n(Phase 1 Krit. Widerstand: 300)"
+    }
+  },
+  "aliases": null
+}

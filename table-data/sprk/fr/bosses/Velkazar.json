@@ -1,0 +1,69 @@
+{
+  "id": "Velkazar",
+  "profile": {
+    "name": "Velkazar",
+    "title": "Tortionnaire de l'Enfer",
+    "type": [
+      "Guild Conquest"
+    ],
+    "race": "Démon",
+    "damage_type": "Magical",
+    "recommended_heroes": "Cleo, Nyx, Shea",
+    "characteristics": "Les ennemis touchés par [Chaleur brûlante] sont repoussés dans la [Zone de brasier]. La [Zone de brasier] inflige d'importants dégâts et réduit votre DEF : il est donc essentiel d'en sortir rapidement. Lorsque le [Cercueil du Bourreau] est invoqué, concentrez vos attaques pour le détruire. Sa destruction inflige d'importants dégâts à Velkazar et interrompt [Flammes Infernales].",
+    "thumbnail": "bosses/Velkazar.png",
+    "recommendedHeroNames": [
+      "Cleo",
+      "Nyx",
+      "Shea"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Épée du châtiment",
+      "cost": null,
+      "cooldown": "11",
+      "description": "Frappe le sol avec l'épée de Velkazar, infligeant des DEG M et faisant tomber du ciel des boules enflammées qui étourdissent les ennemis pendant 4 sec et réduisent leur récupération de 10 sec."
+    },
+    "2": {
+      "name": "Chaleur brûlante",
+      "cost": null,
+      "cooldown": "14",
+      "description": "Inflige des DEG M à tous les ennemis dans l'effet de chaleur, les repoussant dans la Zone de brasier et les renversant pendant 6 sec. Cet effet ne peut pas être résisté."
+    },
+    "3": {
+      "name": "Rugissement du bourreau",
+      "cost": null,
+      "cooldown": "17",
+      "description": "Émet un rugissement qui inflige des DEG M et qui repousse tous les ennemis à proximité. Ensuite, crée un feu ardent autour du lanceur pendant 15 sec, infligeant des DEG M aux ennemis proches toutes les sec et réduisant leur PM."
+    },
+    "4": {
+      "name": "Conflagration Infernale",
+      "cost": null,
+      "cooldown": null,
+      "description": "Pour toutes les 3 compétences déclenchées par Velkazar, il invoque le Cercueil du Bourreau qui dure 20 sec et utilise ensuite Flammes Infernales.\nIl crache un souffle de flamme sur les ennemis en face pendant 15 sec, infligeant des DEG M. Les DEG infligés augmentent toutes les secondes."
+    },
+    "5": {
+      "name": "Chair infernale",
+      "cost": null,
+      "cooldown": null,
+      "description": "Si Velkazar reçoit des DEG 400 fois sans avoir subit des effets de Vitesse d'ATQ, des boules enflammées tombent du ciel, infligeant des DEG M et étourdissements à tous les ennemis.."
+    },
+    "6": {
+      "name": "Zone de brasier",
+      "cost": null,
+      "cooldown": null,
+      "description": "La Zone de brasier brûlante inflige énormément de DEG M chaque sec et diminue la DEF."
+    },
+    "7": {
+      "name": "Cercueil du Bourreau",
+      "cost": null,
+      "cooldown": null,
+      "description": "Le Cercueil du Bourreau n'est pas affecté par le changement de DEF, et toutes les 10 sec, il inflige des blessures permanentes aux ennemis à proximité, ce qui réduit leurs récupérations et augmente les dégâts qu'ils subissent. Velkazar subit une partie des DEG infligés au Cercueil du Bourreau à sa place.\n Les PV du Cercueil du Bourreau augmentent à chaque invocation. S'il est détruit avant sa disparition, Velkazar subira des DEG considérables et restera étourdi pendant quelque temps.\nLorsqu'il est étourdi, Velkazar invoque un Cercueil du Bourreau aux PV infinis."
+    }
+  },
+  "aliases": [
+    "Velkazar",
+    "GC3",
+    "GC 3"
+  ]
+}

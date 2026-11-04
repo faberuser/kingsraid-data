@@ -1,0 +1,53 @@
+{
+  "id": "Zeta",
+  "profile": {
+    "name": "Zêta",
+    "title": "Prédateur MK-XX",
+    "type": [
+      "Technomagic Enchantment Raid"
+    ],
+    "race": "Golem",
+    "damage_type": "Magical",
+    "recommended_heroes": "Theo, Laudia, Kaulah",
+    "characteristics": "Dans certaines circonstances, ARCDIM X Zêta inflige des DEG M qui réduisent de manière permanente la Récupération des PV des Héros, à moins de subir un certain nombre de coups. Employez des Héros pouvant asséner un grand nombre de coups et pouvant augmenter la Récupération des PV.\nARCDIM X Zêta bénéficie d'une Résistance Crit très élevée, alors prenez garde.",
+    "thumbnail": "bosses/Zeta.png",
+    "recommendedHeroNames": [
+      "Theo",
+      "Laudia",
+      "Kaulah"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "Canon dévastateur",
+      "cost": null,
+      "cooldown": "15",
+      "description": "Concentre son énergie pendant un court instant avant de l'émettre contre ses ennemis à portée en ligne droite, leur infligeant de graves DEG M et les renversant pendant 5 sec."
+    },
+    "2": {
+      "name": "Météorites de l'Extinction",
+      "cost": null,
+      "cooldown": "32",
+      "description": "Attaque les ennemis situés en face dans une zone circulaire, infligeant des DEG M. À chaque coup porté, réduit la Récupération des PV de la cible et dissipe son bouclier. L'effet de réduction de Récupération des PV est cumulable jusqu'à 100 fois et ne peut être dissipé. L'attaque devient de plus en plus puissante et dure jusqu'à ce qu'il reçoive un certain nombre de coups. Lorsque l'attaque est finie, il passe à l'état d'affaiblissement, ce qui augmente considérablement les DEG qu'il subit.\nLe nombre de coup requis et la réduction de Récupération des PV augmentent en fonction du niveau.\n(Nombre de coup requis au niveau 1 : 140)\n(Réduction de Récupération des PV au niveau 1 : 0.5%)"
+    },
+    "3": {
+      "name": "Pulse de l'Annihilation",
+      "cost": null,
+      "cooldown": null,
+      "description": "Concentre son énergie et attaque 8 fois un ennemi aléatoire, infligeant de graves DEG M et réduisant la DEF M de 30%."
+    },
+    "4": {
+      "name": "Champ à Nanoparticules",
+      "cost": null,
+      "cooldown": null,
+      "description": "Lorsque les PV d'ARCDIM X Zêta atteignent 66 % et 33 %, il génère le [Champ à Nanoparticules] qui réduit les DEG reçus en permanence. Le [Champ à Nanoparticules] généré la seconde fois est plus puissant que le premier."
+    },
+    "5": {
+      "name": "Défense adaptative Zêta au Méthadium",
+      "cost": null,
+      "cooldown": null,
+      "description": "ARCDIM X Zêta ne peut être affecté par les effets concernant la Vitesse d'ATQ et la réduction de DEF. Il est également immunisé contre l'augmentation des DEG reçus et sa Résistance Crit est très élevée. De plus, toutes les attaques d'ARCDIM X Zêta ignorent l'effet de réduction des DEG de la cible, et sa Résistance Crit augmente en fonction du niveau.\n(Résistance Crit au niveau 1 : 300)"
+    }
+  },
+  "aliases": null
+}

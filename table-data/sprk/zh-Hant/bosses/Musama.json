@@ -1,0 +1,58 @@
+{
+  "id": "Musama",
+  "profile": {
+    "name": "慕沙馬",
+    "title": "太陽之眼",
+    "type": [
+      "Temple of the God King"
+    ],
+    "race": "魔像",
+    "damage_type": "Physical",
+    "recommended_heroes": "倪婭, 查畢勒, 安妮特",
+    "characteristics": "蒼穹之聖物的回復結界會使聖物受到的傷害無效化，且持續解除負面效果並阻礙遠距離英雄們回復生命值。所有效果皆會在慕沙馬使用[太陽的象徵]技能時解除，因此必須抓緊時機將蒼穹之聖物給擊倒。",
+    "thumbnail": "bosses/Musama.png",
+    "recommendedHeroNames": [
+      "Nia",
+      "Zafir",
+      "Annette"
+    ]
+  },
+  "skills": {
+    "1": {
+      "name": "太陽的波動",
+      "cost": null,
+      "cooldown": "20",
+      "description": "攻擊前方直線範圍內的敵人使其受到物理傷害並減少魔力。"
+    },
+    "2": {
+      "name": "沙塵風暴",
+      "cost": null,
+      "cooldown": "25",
+      "description": "形成沙塵風暴並反彈自身受到的部分傷害，並對周遭範圍內的敵人造成共20次的物理傷害並暫時減少其防禦力。防禦力減少效果最多可堆疊20次，堆疊15次以上時，將額外於30秒內給予沙之詛咒大幅減少其防禦力。沙之詛咒無法解除。"
+    },
+    "3": {
+      "name": "太陽的象徵",
+      "cost": null,
+      "cooldown": "30",
+      "description": "解除蒼穹之聖物後，聚集力量形成強大的沙球並使自身所有受到的傷害降至1。當力量補滿時，將解除全體敵人的正面效果並給予物理傷害使其陷入暈眩。除去所有蒼穹之聖物時，此技能將被取消，會造成慕沙馬受到巨大傷害並暫時陷入無力狀態。"
+    },
+    "4": {
+      "name": "塞奇雷奈爾的守護者",
+      "cost": null,
+      "cooldown": null,
+      "description": "塞奇雷奈爾的守護者會被賦予強大的力量，且不會受防禦力及攻擊速度改變的影響。在第6階段以上的戰鬥中，慕沙馬將持續回復自己的生命值。"
+    },
+    "5": {
+      "name": "蒼穹之聖物",
+      "cost": null,
+      "cooldown": null,
+      "description": "慕沙馬在沒有蒼穹之聖物時，將會召喚蒼穹之聖物。發動蒼穹之聖物時，將使聖物受到的傷害減少為1且對負面效果免疫，並在慕沙馬周遭形成回復的結界。在結界內，會以大幅增加回復力的狀態來回復生命值，結界外則無法回復。"
+    }
+  },
+  "aliases": [
+    "TrialoftheSky",
+    "TrialofSky",
+    "TrialSky",
+    "Musama"
+  ]
+}
