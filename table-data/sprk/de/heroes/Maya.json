@@ -1,0 +1,236 @@
+{
+  "id": "Maya",
+  "profile": {
+    "name": "Maya",
+    "title": "Tapfere Biestmeisterin Maya",
+    "class": "Archer",
+    "position": "Middle-300",
+    "attack_range": "1400",
+    "damage_type": "Physical",
+    "gender": "Weiblich",
+    "age": "24",
+    "height": "168",
+    "race": "Menschen",
+    "constellation": "Graham, der Dieb",
+    "birth": {
+      "month": 5,
+      "day": 12,
+      "monthName": "Monat der Hoffnung"
+    },
+    "like": "Seves' warme Mähne, Der erste Schnee im tiefen Wald, Gebratenes Wildschwein, Ein Boomerang, der genau zurückkommt",
+    "dislike": "Wilderer, Käfige und Leinen, Der Lärm großer Städte, „Bändigerin“ genannt zu werden",
+    "story": "Maya wurde in einem Jägerdorf am Rand des großen Nordwalds von Orvel geboren, wo Kinder Fährten lesen lernen, bevor sie Buchstaben lesen können. Ihre Mutter war die beste Jägerin des Dorfes, und ihr Vater schnitzte die gebogenen Wurfklingen, mit denen die Dorfbewohner Vögel im Flug erlegten. Maya erbte beide Gaben. Mit fünfzehn konnte sie einen Boomerang durch die Lücke zwischen zwei Ästen werfen und ihn wieder fangen, ohne hinzusehen.\nIm selben Jahr fand sie ein verletztes Junges, das sich im Netz eines Wilderers verfangen hatte: ein seltsames Tier mit türkisfarbenem Fell, einer feurigen Mähne und einem Schwanz, der in einem harten, speerartigen Stachel endete. Neben dem Netz lag seine Mutter, gefällt von Giftpfeilen. Als die Wilderer zurückkamen, um ihre Beute zu holen, vertrieb Maya sie nur mit ihren Klingen und ihrer Stimme und pflegte das Junge einen ganzen Winter lang in einer Jägerhütte. Sie nannte es Seves, „der, der bleibt“, denn als der Frühling kam und der Wald rief, wich es nicht von ihrer Seite.\nSeves wuchs weit größer heran als jedes Tier, das die Dorfbewohner kannten, und manche begannen zu flüstern, die Kreatur werde sich eines Tages gegen sie wenden. Maya ging lieber fort, als ihren Gefährten im Käfig zu sehen. Seitdem ziehen die beiden als Jäger auf Zeit durch Orvel, räumen Monsternester von Straßen und Feldern und verkaufen ihre Beute an Händler (wobei Maya dich warnt, was davon furchtbar schmeckt). Aus den Schuppen eines Drachen, den sie gemeinsam erlegten, schmiedete sie Seves eine goldverzierte Rüstung, und sie selbst trägt einen Jägerhelm, geschnitzt aus denselben Hörnern.\nMaya ist direkt, stolz und unerschütterlich loyal. Für Adlige, die Seves ein „Haustier“ nennen, oder für jeden, der den Wald als Vorratskammer zum Leeren betrachtet, hat sie wenig Geduld. Im Kampf bewegen sich die beiden wie eins: Mayas Boomerangs reißen Wunden, und Seves vollendet, was sie beginnt. Man nennt sie eine Bestienmeisterin; Maya nennt Seves einfach Familie.",
+    "thumbnail": "heroes/Maya/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Durchdr. Boomerang",
+      "cost": "3",
+      "cooldown": "7",
+      "description": "Wirft einen Boomerang, der in einer geraden Linie hin- und zurückfliegt, bis zu [ffc800]550 + 550 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 250% von P.ATK[-] Körp. Schaden verursacht und [64ffff]10[-] Sek. lang Blutung zufügt.",
+      "thumbnail": "heroes/Maya/skills/1.png"
+    },
+    "2": {
+      "name": "Jagdbeginn",
+      "cost": "4",
+      "cooldown": "25",
+      "description": "Beschwört Seves, der mit [64ff64]100[-] % von Mayas aktuellen Werten, einschließlich ihrer aktiven Buffs, an ihrer Seite kämpft. Ist Seves bereits beschworen, übernimmt er erneut ihre aktuellen Werte und seine TP werden um [ffc800]200[-] % seines ANG geheilt.",
+      "thumbnail": "heroes/Maya/skills/2.png"
+    },
+    "3": {
+      "name": "Seves",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Wenn Maya einem Feind [ffc800]1040 + 1040 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 475% von P.ATK[-] Schaden zufügt, benutzt Seves einen mächtigen Skill diesem Ziel gegenüber. Während der Skill-Wirkungsdauer wird Seves immun gegenüber Massenkontrolle, und sein Skill-Cooldown setzt sich zurück, wenn er das Ziel mit diesem Angriff tötet.",
+      "thumbnail": "heroes/Maya/skills/3.png"
+    },
+    "4": {
+      "name": "Hops-Boomerang",
+      "cost": null,
+      "cooldown": null,
+      "description": "Mayas und Seves' Angriffe auf blutende Feinde verursachen zusätzlich [ffc800]220 + 220 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 100% von P.ATK[-] Mag. Schaden.",
+      "thumbnail": "heroes/Maya/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Erhöht Schaden um 20 %.",
+      "III": "Erhöht Schaden um 30 %.",
+      "IV": "Dieser Angriff ist immer ein Krit. Treffer gegen blutenden Feinden."
+    },
+    "2": {
+      "II": "Erhöht die Heilungsrate von Seves um 20 %.",
+      "III": "Erhöht die Heilungsrate von Seves um 30 %.",
+      "IV": "Erhöht Seves' ANG um 30 % für 10 Sek."
+    },
+    "3": {
+      "II": "Erhöht Schaden um 20 %.",
+      "III": "Erhöht Schaden um 30 %.",
+      "IV": "Erhöht Mayas ANG um 20 % für 10 Sek., wenn das Ziel stirbt."
+    },
+    "4": {
+      "II": "Erhöht Schaden um 20 %.",
+      "III": "Erhöht Schaden um 30 %.",
+      "IV": "Seves heilt sich um 50 % des Schadens, den er verursacht."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Erhöht Schaden um 40 %. Durch diesen Skill zugefügte Blutung hält 5 Sek. länger an.",
+          "thumbnail": "heroes/Maya/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Verringert die Manakosten um 1.",
+          "thumbnail": "heroes/Maya/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Wird Seves durch diesen Skill beschworen oder geheilt, erhöht sich der SCH von Maya und Seves gegen Nicht-Helden-Gegner 15 Sek. lang um 15 %.",
+          "thumbnail": "heroes/Maya/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Ist Seves bereits beschworen, werden außerdem alle negativen Effekte von Seves entfernt und er ist 5 Sek. lang immun gegen CC.",
+          "thumbnail": "heroes/Maya/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Erhöht Schaden um 40 %. Gegen Gegner mit Blutung wird der Schaden stattdessen um 80 % erhöht.",
+          "thumbnail": "heroes/Maya/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Seves greift den Gegner mit den prozentual niedrigsten TP an. Wird das Ziel durch diesen Skill getötet, regeneriert Maya 1000 MP.",
+          "thumbnail": "heroes/Maya/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Der zusätzliche Schaden dieses Skills erhöht sich pro Blutungsstapel auf dem Ziel um 20 %.",
+          "thumbnail": "heroes/Maya/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Gegner mit Blutung erleiden 15 % mehr Körp. Schaden, und ihre Heilungsrate wird um 30 % verringert.",
+          "thumbnail": "heroes/Maya/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ANG, VERT, TP +15 %/Krit. Schaden +20 %",
+        "thumbnail": "heroes/Maya/perks/light.png"
+      },
+      "dark": {
+        "effect": "[Rudeltaktik] Seves' ANG wird um 100 % erhöht. Trifft Mayas normaler Angriff einen Gegner mit Blutung, verursacht er zusätzlichen VERT-ignorierenden Körp. Schaden in Höhe von 200 % des ANG (Cooldown 1 Sek.).",
+        "thumbnail": "heroes/Maya/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Zackenklaue Satis",
+    "description": "Jeder normale Angriff fügt dem Gegner 10 Sek. lang Blutung zu, die jede Sekunde Körp. Schaden in Höhe von {0} % des ANG verursacht. Blutung ist bis zu 3-mal stapelbar. Gegner mit Blutung erleiden {1} % mehr Schaden.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
+    "thumbnail": "heroes/Maya/uw.png",
+    "story": "Ein Paar Hakenboomerangs, geschnitzt aus den Klauen von Seves' Mutter. Sie kehren immer in Mayas Hand zurück, und die Wunden, die sie hinterlassen, heilen nie sauber."
+  },
+  "uts": {
+    "1": {
+      "name": "Wetzstein des Jägers",
+      "description": "[Durchdr. Boomerang] Erhöht den Schaden um {0} %, und der Boomerang fügt 2 Stapel Blutung zu.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Maya/ut/1.png",
+      "story": "Ein flacher Flussstein, glattgeschliffen von jahrelangem Schärfen. Maya wirft nie einen Boomerang, den sie nicht selbst darauf geschärft hat."
+    },
+    "2": {
+      "name": "Bestienpfeife",
+      "description": "[Jagdbeginn] Verringert den Cooldown um 30 %. Wird Seves beschworen oder geheilt, erhöht sich sein ANG 15 Sek. lang um {0} %.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Maya/ut/2.png",
+      "story": "Aus einem hohlen Geweih geschnitzt. Ihr Ton ist zu tief für menschliche Ohren, doch Seves hört ihn noch von der anderen Seite eines Berges."
+    },
+    "3": {
+      "name": "Fangzahn-Amulett",
+      "description": "[Seves] Erhöht den Schaden um {0} %. Leidet das Ziel an Blutung, wird seine Körp. VERT 10 Sek. lang um 15 % verringert.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Maya/ut/3.png",
+      "story": "Seves' erster Milchzahn, mit Silberfaden umwickelt. Maya schwört, dass er mehr als einen Pfeil abgelenkt hat."
+    },
+    "4": {
+      "name": "Halsband des Rudelführers",
+      "description": "[Hops-Boomerang] Erhöht den Schaden um {0} %. Seves erleidet 20 % weniger Schaden.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Maya/ut/4.png",
+      "story": "Ein mit Perlen besetztes Lederband, das Maya am Handgelenk trägt. Seves trägt das Gegenstück, und keiner der beiden hat es je abgenommen."
+    }
+  },
+  "sw": {
+    "requirement": "Für 20 Sek. wird es aufgeladen und kann verwendet werden.",
+    "description": "Beschwört [64ffff]12[-] Sek. lang Fenra, die Seele von Zackenklaue Satis. Erhöht den ANG von Maya und Seves um [64ff64]40[-] %, und Mayas Angriffe fügen Blutung zu. Alle [64ffff]3[-] Sek. springt Fenra den Gegner mit den prozentual niedrigsten TP an und verursacht VERT-ignorierenden Körp. Schaden in Höhe von [ffc800]250[-] % des ANG. Während der Wirkungsdauer erleiden Gegner mit Blutung [64ff64]20[-] % mehr Körp. Schaden.",
+    "cooldown": "20",
+    "uses": "7",
+    "thumbnail": "heroes/Maya/sw.png",
+    "advancement": {
+      "1": "Erhöht die Wirkungsdauer um 4 Sek. Jeder Sprung regeneriert 500 MP für Maya.",
+      "2": "Ist Seves nicht beschworen, wird er beschworen. Seves ist während der Wirkungsdauer des Skills immun gegen CC."
+    },
+    "story": "Maya glaubte immer, die Klauen von Seves' Mutter seien nur ein Andenken: scharf, treffsicher und stumm. Doch in der Nacht, in der der Pfeil eines Wilderers Seves im Schnee niederstreckte, wurden die Boomerangs in ihren Händen warm, und sie hörte ein tiefes Knurren, das aus keiner lebenden Kehle kam.\n„-Du hast mein Kind am Leben erhalten. Nun werde ich euch beide beschützen.“\nEs war Fenra, die erste Bestie, die je gejagt hat, und die in den Klauen schlief, seit bevor Orvel einen Namen trug. Seit jener Nacht läuft, wann immer Maya und Seves wie eins jagen, ein Schatten mit türkisfarbenem Fell und brennender Mähne einen Schritt vor ihnen her, und noch keine Beute ist ihm je entkommen."
+  },
+  "splashart": "heroes/Maya/sa.png",
+  "costumes": "heroes/Maya/cos",
+  "aliases": null
+}

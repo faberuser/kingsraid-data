@@ -1,0 +1,236 @@
+{
+  "id": "Maya",
+  "profile": {
+    "name": "Maya",
+    "title": "Maya, Vaillante Maîtresse des Bêtes",
+    "class": "Archer",
+    "position": "Middle-300",
+    "attack_range": "1400",
+    "damage_type": "Physical",
+    "gender": "Femme",
+    "age": "24",
+    "height": "168",
+    "race": "Humain",
+    "constellation": "Graham le Grand Voleur",
+    "birth": {
+      "month": 5,
+      "day": 12,
+      "monthName": "Mois de l'Espoir"
+    },
+    "like": "La crinière chaude de Seves, Les premières neiges au cœur de la forêt, Le sanglier rôti, Un boomerang qui revient droit",
+    "dislike": "Les braconniers, Les cages et les laisses, Le bruit des grandes villes, Être appelée « dresseuse »",
+    "story": "Maya est née dans un village de chasseurs à l'orée de la grande forêt du nord d'Orvel, où les enfants apprennent à lire les traces avant de savoir lire les lettres. Sa mère était la meilleure chasseuse du village et son père taillait les lames de jet incurvées qui permettaient d'abattre les oiseaux en plein vol. Maya hérita de ces deux talents. À quinze ans, elle pouvait lancer un boomerang entre deux branches et le rattraper sans même regarder.\nCette même année, elle trouva un petit blessé pris dans le filet d'un braconnier : une étrange bête au pelage turquoise, à la crinière flamboyante et à la queue terminée par une pointe dure comme une lance. À côté du filet gisait sa mère, abattue par des flèches empoisonnées. Lorsque les braconniers revinrent chercher leur prise, Maya les chassa avec ses seules lames et sa voix, puis passa tout l'hiver à soigner le petit dans une cabane de chasseur. Elle le nomma Seves, « celui qui reste », car au printemps, lorsque la forêt l'appela, il ne quitta pas ses côtés.\nSeves devint bien plus grand que toutes les bêtes que connaissaient les villageois, et certains se mirent à murmurer que la créature finirait par se retourner contre eux. Plutôt que de voir son compagnon en cage, Maya choisit de partir. Depuis, tous deux parcourent Orvel en tant que chasseurs à gages, nettoient routes et champs des nids de monstres et vendent leurs prises aux marchands (même si Maya vous préviendra de ce qui a un goût affreux). Elle a forgé pour Seves une armure bordée d'or à partir des écailles d'un drake qu'ils ont abattu ensemble, et porte un casque de chasseuse taillé dans les mêmes cornes.\nMaya est franche, fière et d'une loyauté farouche. Elle n'a guère de patience pour les nobles qui traitent Seves d'« animal de compagnie », ni pour quiconque considère la forêt comme un garde-manger à vider. Au combat, ils ne font qu'un : les boomerangs de Maya ouvrent les plaies et Seves achève ce qu'elle a commencé. On l'appelle maîtresse des bêtes ; Maya, elle, dit simplement que Seves est sa famille.",
+    "thumbnail": "heroes/Maya/ico.png"
+  },
+  "skills": {
+    "1": {
+      "name": "Boomerang Pénétrant",
+      "cost": "3",
+      "cooldown": "7",
+      "description": "Lance un boomerang qui fait l'aller-retour en ligne droite pour infliger jusqu'à [ffc800]550 + 550 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 250% de P.ATK[-] DEG P et applique Saignement pendant [64ffff]10[-] sec.",
+      "thumbnail": "heroes/Maya/skills/1.png"
+    },
+    "2": {
+      "name": "Ouverture de la Chasse",
+      "cost": "4",
+      "cooldown": "25",
+      "description": "Invoque Seves, qui combat aux côtés de Maya avec [64ff64]100[-]% de ses statistiques actuelles, y compris ses buffs actifs. Si Seves est déjà invoqué, il copie à nouveau ses statistiques actuelles et restaure ses PV à hauteur de [ffc800]200[-]% de son ATQ.",
+      "thumbnail": "heroes/Maya/skills/2.png"
+    },
+    "3": {
+      "name": "Seves",
+      "cost": "3",
+      "cooldown": "12",
+      "description": "Lorsque Maya inflige [ffc800]1040 + 1040 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 475% de P.ATK[-] points de DEG à un ennemi, Seves utilise une puissante compétence contre la cible. Seves est alors immunisé contre tous les effets pendant la durée de la compétence, et le temps de recharge de cette compétence est réinitialisé si la cible meurt pendant cette attaque.",
+      "thumbnail": "heroes/Maya/skills/3.png"
+    },
+    "4": {
+      "name": "Rebond du Boomerang",
+      "cost": null,
+      "cooldown": null,
+      "description": "Les attaques de Maya et Seves sur des cibles affectées par Saignement infligent [ffc800]220 + 220 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 100% de P.ATK[-] points de DEG M supplémentaires.",
+      "thumbnail": "heroes/Maya/skills/4.png"
+    }
+  },
+  "books": {
+    "1": {
+      "II": "Augmente les DEG infligés de 20%.",
+      "III": "Augmente les DEG infligés de 30%.",
+      "IV": "Cette attaque produit toujours des coups critiques contre les ennemis affectés par Saignement."
+    },
+    "2": {
+      "II": "Augmente les soins de Seves 20%.",
+      "III": "Augmente les soins de Seves 30%.",
+      "IV": "Augmente l'ATQ de Seves de 30% pendant 10 sec."
+    },
+    "3": {
+      "II": "Augmente les DEG infligés de 20%.",
+      "III": "Augmente les DEG infligés de 30%.",
+      "IV": "Si la cible meurt, l'ATQ de Maya est augmentée de 20% pendant 10 sec."
+    },
+    "4": {
+      "II": "Augmente les DEG infligés de 20%.",
+      "III": "Augmente les DEG infligés de 30%.",
+      "IV": "Seves récupère des PV équivalents à 50% des DEG qu'il inflige."
+    }
+  },
+  "perks": {
+    "t3": {
+      "1": {
+        "light": {
+          "effect": "Les DEG sont augmentés de 40%. Le Saignement appliqué par cette compétence dure 5 sec de plus.",
+          "thumbnail": "heroes/Maya/perks/s1l.png"
+        },
+        "dark": {
+          "effect": "Réduit le coût en PM de 1 point.",
+          "thumbnail": "heroes/Maya/perks/s1d.png"
+        }
+      },
+      "2": {
+        "light": {
+          "effect": "Lorsque Seves est invoqué ou soigné par cette compétence, les DGT infligés aux ennemis non-Héros par Maya et Seves sont augmentés de 15% pendant 15 sec.",
+          "thumbnail": "heroes/Maya/perks/s2l.png"
+        },
+        "dark": {
+          "effect": "Si Seves est déjà invoqué, dissipe également tous ses effets négatifs et le rend immunisé contre les CC pendant 5 sec.",
+          "thumbnail": "heroes/Maya/perks/s2d.png"
+        }
+      },
+      "3": {
+        "light": {
+          "effect": "Les DEG sont augmentés de 40%. Contre les ennemis sous l'effet de Saignement, les DEG sont augmentés de 80% à la place.",
+          "thumbnail": "heroes/Maya/perks/s3l.png"
+        },
+        "dark": {
+          "effect": "Seves cible l'ennemi ayant le plus faible pourcentage de PV. Lorsque la cible est tuée par cette compétence, Maya récupère 1000 PM.",
+          "thumbnail": "heroes/Maya/perks/s3d.png"
+        }
+      },
+      "4": {
+        "light": {
+          "effect": "Les DEG supplémentaires de cette compétence sont augmentés de 20% par cumul de Saignement sur la cible.",
+          "thumbnail": "heroes/Maya/perks/s4l.png"
+        },
+        "dark": {
+          "effect": "Les ennemis sous l'effet de Saignement subissent 15% de DEG P en plus et leur taux de soin est réduit de 30%.",
+          "thumbnail": "heroes/Maya/perks/s4d.png"
+        }
+      }
+    },
+    "t5": {
+      "light": {
+        "effect": "ATQ, DEF, PV +15% / DEG Crit +20%",
+        "thumbnail": "heroes/Maya/perks/light.png"
+      },
+      "dark": {
+        "effect": "[Chasse en meute] L'ATQ de Seves est augmentée de 100%. Lorsqu'une attaque automatique de Maya touche un ennemi sous l'effet de Saignement, inflige des DEG P supplémentaires ignorant la DEF équivalents à 200% de l'ATQ (temps de recharge : 1 sec).",
+        "thumbnail": "heroes/Maya/perks/dark.png"
+      }
+    }
+  },
+  "uw": {
+    "name": "Satis Griffes Crantées",
+    "description": "Chaque attaque automatique applique Saignement à l'ennemi pendant 10 sec, infligeant des DEG P équivalents à {0}% de l'ATQ chaque seconde. Saignement se cumule jusqu'à 3 fois. Les ennemis sous l'effet de Saignement subissent {1}% de DEG en plus.",
+    "value": {
+      "0": {
+        "0": "20",
+        "1": "24",
+        "2": "29",
+        "3": "35",
+        "4": "42",
+        "5": "50"
+      },
+      "1": {
+        "0": "10",
+        "1": "12",
+        "2": "14",
+        "3": "17",
+        "4": "21",
+        "5": "25"
+      }
+    },
+    "thumbnail": "heroes/Maya/uw.png",
+    "story": "Une paire de boomerangs crochus taillés dans les griffes de la mère de Seves. Ils reviennent toujours dans la main de Maya, et les plaies qu'ils laissent ne se referment jamais proprement."
+  },
+  "uts": {
+    "1": {
+      "name": "Pierre à aiguiser du chasseur",
+      "description": "[Boomerang Pénétrant] Augmente les DEG de {0}% et le boomerang applique 2 cumuls de Saignement.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Maya/ut/1.png",
+      "story": "Une pierre de rivière plate, polie par des années d'affûtage. Maya ne lance jamais un boomerang qu'elle n'a pas aiguisé elle-même sur cette pierre."
+    },
+    "2": {
+      "name": "Sifflet d'appel des bêtes",
+      "description": "[Ouverture de la Chasse] Réduit le temps de recharge de 30%. Lorsque Seves est invoqué ou soigné, son ATQ est augmentée de {0}% pendant 15 sec.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Maya/ut/2.png",
+      "story": "Taillé dans un bois de cerf creux. Sa note est trop grave pour l'oreille humaine, mais Seves l'entend depuis l'autre versant d'une montagne."
+    },
+    "3": {
+      "name": "Amulette de croc",
+      "description": "[Seves] Augmente les DEG de {0}%. Si la cible subit Saignement, réduit sa DEF P de 15% pendant 10 sec.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Maya/ut/3.png",
+      "story": "La première dent de lait de Seves, entourée de fil d'argent. Maya jure qu'elle a détourné plus d'une flèche."
+    },
+    "4": {
+      "name": "Collier du chef de meute",
+      "description": "[Rebond du Boomerang] Augmente les DEG de {0}%. Seves subit 20% de DEG en moins.",
+      "value": {
+        "0": {
+          "0": "20",
+          "1": "24",
+          "2": "29",
+          "3": "35",
+          "4": "42",
+          "5": "50"
+        }
+      },
+      "thumbnail": "heroes/Maya/ut/4.png",
+      "story": "Un bracelet de cuir orné de perles que Maya porte au poignet. Seves en porte le jumeau, et aucun des deux ne l'a jamais retiré."
+    }
+  },
+  "sw": {
+    "requirement": "Elle se recharge pendant 20 sec avant de devenir utilisable.",
+    "description": "Invoque Fenra, l'âme de Satis Griffes Crantées, pendant [64ffff]12[-] sec. Augmente l'ATQ de Maya et de Seves de [64ff64]40[-]% et les attaques de Maya appliquent Saignement. Toutes les [64ffff]3[-] sec, Fenra bondit sur l'ennemi ayant le plus faible pourcentage de PV et inflige des DEG P ignorant la DEF équivalents à [ffc800]250[-]% de l'ATQ. Pendant la durée, les ennemis sous l'effet de Saignement subissent [64ff64]20[-]% de DEG P en plus.",
+    "cooldown": "20",
+    "uses": "7",
+    "thumbnail": "heroes/Maya/sw.png",
+    "advancement": {
+      "1": "Augmente la durée de 4 sec. Chaque bond restaure 500 PM à Maya.",
+      "2": "Si Seves n'est pas invoqué, l'invoque. Seves est immunisé contre les CC pendant la durée de la compétence."
+    },
+    "story": "Maya a toujours cru que les griffes de la mère de Seves n'étaient qu'un souvenir : tranchantes, précises et silencieuses. Mais la nuit où la flèche d'un braconnier abattit Seves dans la neige, les boomerangs se réchauffèrent entre ses mains, et elle entendit un grondement sourd qu'aucune gorge vivante n'aurait pu produire.\n« -Tu as gardé mon petit en vie. Désormais, c'est moi qui vous protégerai tous les deux. »\nC'était Fenra, la première bête à avoir jamais chassé, endormie dans ces griffes depuis avant même qu'Orvel ait un nom. Depuis cette nuit, chaque fois que Maya et Seves chassent comme un seul être, une ombre au pelage turquoise et à la crinière ardente court un pas devant eux, et aucune proie ne l'a jamais distancée."
+  },
+  "splashart": "heroes/Maya/sa.png",
+  "costumes": "heroes/Maya/cos",
+  "aliases": null
+}
