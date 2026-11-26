@@ -26,29 +26,29 @@
     "1": {
       "name": "Crash Final",
       "cost": "2",
-      "cooldown": "12",
-      "description": "Attaque l'ennemi à 16 reprises, infligeant un total de [ffc800]16 * (62 + 62 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 35% de M.ATK)[-] DEG M. Chaque coup critique augmente les DEG Crit de 3% pendant 10 sec et a 30% de chances d'infliger [ffc800]65 + 65 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 37.1% de M.ATK[-] DEG M supplémentaires tout en appliquant l'Étourdissement pendant 0,3 sec. L'effet des DEG Crit est cumulable 30 fois.",
+      "cooldown": "10",
+      "description": "Attaque l'ennemi à 16 reprises, infligeant un total de [ffc800]16 * (62 + 62 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 35% de M.ATK)[-] DEG M. Chaque coup critique augmente les DEG Crit de 3% pendant 20 sec et a 30% de chances d'infliger [ffc800]65 + 65 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 37.1% de M.ATK[-] DEG M supplémentaires tout en appliquant l'Étourdissement pendant 0,3 sec. L'effet des DEG Crit est cumulable 30 fois.",
       "thumbnail": "heroes/Theo/skills/1.png"
     },
     "2": {
       "name": "Dieu de la Foudre",
       "cost": "2",
-      "cooldown": "20",
-      "description": "Active l'état 'Dieu de la Foudre'. Projette une lance de foudre à l'ennemi, ce qui inflige [ffc800]561 + 561 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 393.2% de M.ATK[-] DEG M, et le repousse. Augmente les DEG M reçus par la cible touchée de [ffc800]50[-]% pendant [64ffff]10[-] sec. En état de 'Dieu de la Foudre', augmente les chances d'activation de la compétence 'Pour Jane' de 40% et l'ATQ de [64ff64]300 + 300 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil[-] pendant [64ffff]15[-] sec.",
+      "cooldown": "15",
+      "description": "Active l'état 'Dieu de la Foudre'. Projette une lance de foudre à l'ennemi, ce qui inflige [ffc800]561 + 561 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 393.2% de M.ATK[-] DEG M. Augmente les DEG M reçus par la cible touchée de [ffc800]50[-]% pendant [64ffff]20[-] sec. En état de 'Dieu de la Foudre', augmente les chances d'activation de la compétence 'Pour Jane' de 40% et l'ATQ de [64ff64]300 + 300 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil[-] pendant [64ffff]15[-] sec. L'état 'Dieu de la Foudre' ne peut pas être dissipé.",
       "thumbnail": "heroes/Theo/skills/2.png"
     },
     "3": {
       "name": "Explosion de Foudre",
       "cost": "3",
-      "cooldown": "22",
-      "description": "Saute vers l'avant sur un ennemi, frappant avec une lance vers le sol. Touche la cible à 5 reprises et inflige un total de [ffc800]5 * (186 + 186 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 111.7% de M.ATK)[-] points de DEG M à la cible et aux ennemis proches. Applique également Étourdissement pendant 3 sec.",
+      "cooldown": "20",
+      "description": "Saute vers l'avant sur un ennemi, frappant avec une lance vers le sol. Touche la cible à 5 reprises et inflige un total de [ffc800]5 * (186 + 186 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 111.7% de M.ATK)[-] points de DEG M à la cible et aux ennemis proches. Applique également Étourdissement pendant 3 sec. Si la cible est un Boss, les attaques ignorent la DEF de la cible et appliquent Étourdissement pendant 5 sec à la place.",
       "thumbnail": "heroes/Theo/skills/3.png"
     },
     "4": {
       "name": "Pour Jane",
       "cost": null,
       "cooldown": null,
-      "description": "Chaque attaque normale a 20% de chances d'infliger 353 + 353 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 171.6% de M.ATK DEG M et d'étourdir pendant 0.7 sec.",
+      "description": "Augmente le Crit de 100 points et Vol de vie de 200 points. Chaque attaque normale a 20% de chances d'infliger 353 + 353 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 171.6% de M.ATK DEG M et d'étourdir pendant 0.7 sec.",
       "thumbnail": "heroes/Theo/skills/4.png"
     }
   },
@@ -78,41 +78,41 @@
     "t3": {
       "1": {
         "light": {
-          "effect": "S'il y a 1 ennemi, les DEG sont augmentés de 100%.",
+          "effect": "Confère l'immunité aux Contrôles pendant l'utilisation de la compétence.",
           "thumbnail": "heroes/Theo/perks/s1l.png"
         },
         "dark": {
-          "effect": "Le temps de recharge est réduit de 2 sec.",
+          "effect": "Durée Étourdissement augmentée de 0,2 sec.",
           "thumbnail": "heroes/Theo/perks/s1d.png"
         }
       },
       "2": {
         "light": {
-          "effect": "Réduit le coût en PM de 1.",
+          "effect": "À l'état de Dieu de la Foudre, augmente les DEG aux Héros de 10%.",
           "thumbnail": "heroes/Theo/perks/s2l.png"
         },
         "dark": {
-          "effect": "Augmente l'augmentation de l'ATQ de 100% à l'état de Dieu de la Foudre.",
+          "effect": "À l'état de Dieu de la Foudre, augmente les DEG infligés aux boss de 10%.",
           "thumbnail": "heroes/Theo/perks/s2d.png"
         }
       },
       "3": {
         "light": {
-          "effect": "DEG augmentés de 40%.",
+          "effect": "S'il y a 1 ennemi, les DEG sont augmentés de 100%.",
           "thumbnail": "heroes/Theo/perks/s3l.png"
         },
         "dark": {
-          "effect": "Durée Étourdissement augmentée de 1 sec.",
+          "effect": "Dissipe les effets positifs des ennemis touchés.",
           "thumbnail": "heroes/Theo/perks/s3d.png"
         }
       },
       "4": {
         "light": {
-          "effect": "DEG augmentés de 40%.",
+          "effect": "S'il y a 1 ennemi, les DEG sont augmentés de 100%.",
           "thumbnail": "heroes/Theo/perks/s4l.png"
         },
         "dark": {
-          "effect": "Durée Étourdissement augmentée de 0,2 sec.",
+          "effect": "DEG augmentés de 40% et durée Étourdissement augmentée de 0,3 sec.",
           "thumbnail": "heroes/Theo/perks/s4d.png"
         }
       }
@@ -123,14 +123,14 @@
         "thumbnail": "heroes/Theo/perks/light.png"
       },
       "dark": {
-        "effect": "Augmente l'ATQ de 50% pendant 15 sec lorsque les PM sont au maximum. Cet effet n'est activé qu'1 fois toutes les 20 secondes.",
+        "effect": "En attaquant, obtient [Honneur du chevalier], ce qui augmente les DEG infligés aux ennemis non-Héros de 1%. Cet effet ne peut être dissipé et peut se cumuler jusqu'à 20 fois.",
         "thumbnail": "heroes/Theo/perks/dark.png"
       }
     }
   },
   "uw": {
     "name": "Legios, l'Éclair",
-    "description": "Lors de l'utilisation de compétence et de l'attaque automatique, cumule 'Éclat de Foudre' sur lui-même. Lorsque 50 charges sont cumulées, active 'Legios, l'Éclair', ce qui augmente la Vitesse d'ATQ de {0}, les DEG Crit de {1}% et la Pénétration DEF de {2}, pendant 15 sec. Pendant que 'Legios, l'Éclair' est activé, ne cumule pas d''Éclat de Foudre'. Cet effet ne peut pas être dissipé.",
+    "description": "Lors de l'utilisation de compétence et de l'attaque automatique, cumule 'Éclat de Foudre' sur lui-même. Lorsque 50 charges sont cumulées, active 'Legios, l'Éclair', ce qui augmente la Vitesse d'ATQ de {0}, les DEG Crit de {1}% et la Pénétration DEF de {2}, pendant 20 sec. 'Éclat de Foudre' continue de se cumuler pendant que 'Legios, l'Éclair' est activé. Cet effet ne peut pas être dissipé.",
     "value": {
       "0": {
         "0": "300",
@@ -179,15 +179,15 @@
     },
     "2": {
       "name": "Collier du Dieu de la Foudre",
-      "description": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 250 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de {0}% supplémentaires.",
+      "description": "[Dieu de la foudre] La Vitesse d'ATQ augmente de 300 points pendant la durée de la compétence, et les chances d'activer Pour Jane augmentent de {0}% supplémentaires.",
       "value": {
         "0": {
-          "0": "8",
-          "1": "9.6",
-          "2": "11.5",
-          "3": "13.8",
-          "4": "16.5",
-          "5": "20"
+          "0": "10",
+          "1": "12.5",
+          "2": "15.5",
+          "3": "20",
+          "4": "25",
+          "5": "30"
         }
       },
       "thumbnail": "heroes/Theo/ut/2.png",
@@ -211,7 +211,7 @@
     },
     "4": {
       "name": "Autre poupée funéraire",
-      "description": "[Pour Jane] Augmente les chances d'activation de {0} % et la Vitesse d'ATQ du lanceur de 350 points pendant 30 sec au début de chaque combat.",
+      "description": "[Pour Jane] Augmente les chances d'activation de {0} % et la Vitesse d'ATQ du lanceur de 500 points pendant 30 sec au début de chaque combat. Cet effet ne peut pas être dissipé.",
       "value": {
         "0": {
           "0": "20",

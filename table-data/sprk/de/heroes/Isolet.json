@@ -26,21 +26,21 @@
     "1": {
       "name": "Flammenschlucker – Caienne",
       "cost": "2",
-      "cooldown": "7",
+      "cooldown": "10",
       "description": "Greift Frontfeinde an, fügt ihnen [ffc800]408 + 408 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 255% von P.ATK[-] Körp. Schaden zu und setzt sie unter [ff6464][Brand][-]. Verringert [64ffff]7[-] Sek. lang die Heilungsrate der Gegner im [ff6464][Brand][-] Zustand um [ff6464]25[-] %.",
       "thumbnail": "heroes/Isolet/skills/1.png"
     },
     "2": {
       "name": "Absoluter Nullpunkt – Devion",
       "cost": "3",
-      "cooldown": "15",
+      "cooldown": "20",
       "description": "Greift Frontfeinde insgesamt [64ffff]5[-]-mal an und fügt ihnen insgesamt [ffc800](161 + 161 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 102% von P.ATK) * 5[-] Körp. Schaden zu. Friert bei jedem Treffer [64ffff]3[-] Sek. lang das Ziel ein. Fügt dem Gegner im [ff6464][Brand][-] Zustand mit jedem Treffer Schaden zu, erzeugt eine [64ffff][Explosionsreaktion][-] und fügt ihnen zusätzlich [ffc800]136 + 136 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 85.7% von P.ATK[-] VERT ignorierenden Schaden zu.",
       "thumbnail": "heroes/Isolet/skills/2.png"
     },
     "3": {
       "name": "Tobender Sturm – Icarus",
       "cost": "4",
-      "cooldown": "20",
+      "cooldown": "26",
       "description": "Greift [64ffff]10[-] Sek. lang Frontfeinde insgesamt [64ffff]20[-] an. Fügt ihnen mit jedem Treffer [ffc800]98 + 98 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 58.5% von P.ATK[-] Körp. Schaden zu und verringert [64ffff]10[-] Sek. lang den ANG des Ziels um [ff6464]15[-] %. Wechselt zu [64ff64][Flammensturm][-], wenn dem Gegner im [ff6464][Brand][-] Zustand Schaden zugefügt wird. Fügt ihm pro Treffer [ffc800]196 + 196 * Stufenskalierung(Fähigkeitsstufe) * Erweckungskoeffizient + 117% von P.ATK[-] Körp. Schaden zu und gewährt [64ffff]60[-] Sek. lang pro Treffer ein Heilungsrate-Verringerungseffekt um [ff6464]1.5[-] %. Dieser Effekt kann bis zu [64ffff]30[-]-mal gestapelt werden.",
       "thumbnail": "heroes/Isolet/skills/3.png"
     },
@@ -48,7 +48,7 @@
       "name": "Technomagie-Essenz",
       "cost": null,
       "cooldown": null,
-      "description": "Isolet legt die ANG-GESCHW. auf [64ffff]1000[-] fest und wird nicht von Skill-Cooldown Verringerung-Effekte beeinflusst. Stattdessen erhöht sie den Krit. Schaden um [64ff64]100[-] % und regeneriert bei jede Aktivierung der Skills [64ff64]1500[-] MP.\nErzeugt eine [64ffff][Explosionsreaktion][-] und erhöht den eigenen ANG um [64ff64]4[-] %. Dieser Effekt kann bis zu [64ffff]15[-]-mal gestapelt werden und kann nicht entfernt werden.\nErzeugt ein [64ff64][Flammensturm][-] und verringert den erhaltenen Mag. Schaden aller Verbündete um [64ff64]7[-] %. Dieser Effekt kann bis zu [64ffff]3[-]-mal gestapelt werden und kann nicht entfernt werden.",
+      "description": "Isolet erhöht den Krit. Schaden um [64ff64]100[-] % und regeneriert bei jede Aktivierung der Skills [64ff64]500[-] MP.\nErzeugt eine [64ffff][Explosionsreaktion][-] und erhöht den eigenen ANG um [64ff64]4[-] %. Dieser Effekt kann bis zu [64ffff]15[-]-mal gestapelt werden und kann nicht entfernt werden.\nErzeugt ein [64ff64][Flammensturm][-] und verringert den erhaltenen Mag. Schaden aller Verbündete um [64ff64]7[-] %. Dieser Effekt kann bis zu [64ffff]3[-]-mal gestapelt werden und kann nicht entfernt werden.",
       "thumbnail": "heroes/Isolet/skills/4.png"
     }
   },
@@ -82,23 +82,23 @@
           "thumbnail": "heroes/Isolet/perks/s1l.png"
         },
         "dark": {
-          "effect": "Erhöht die [Brand] Zustand-Wirkungsdauer um 5 Sek.",
+          "effect": "Verringert den Krit. Widerstand von Gegnern im [Brand] Zustand um 500.",
           "thumbnail": "heroes/Isolet/perks/s1d.png"
         }
       },
       "2": {
         "light": {
-          "effect": "Verringert die gegn. MP pro Treffer um 200.",
+          "effect": "Verringert die gegn. MP pro Treffer um 200. Bei Bossen werden die MP stattdessen um 500 verringert.",
           "thumbnail": "heroes/Isolet/perks/s2l.png"
         },
         "dark": {
-          "effect": "Erhöht den Schaden von [Explosionsreaktion] um 60 %, anstatt den Gefriereffekt zu entfernen.",
+          "effect": "Erhöht den Schaden von [Explosionsreaktion] um 30 %, anstatt den Gefriereffekt zu entfernen.",
           "thumbnail": "heroes/Isolet/perks/s2d.png"
         }
       },
       "3": {
         "light": {
-          "effect": "Verringert die Manakosten um 1.",
+          "effect": "[Flammensturm] verringert die MP des Ziels pro Treffer um 100.",
           "thumbnail": "heroes/Isolet/perks/s3l.png"
         },
         "dark": {
@@ -203,9 +203,17 @@
     },
     "4": {
       "name": "Astrologiekompass",
-      "description": "[Technomagie-Essenz] erhöht die max. Stapelungen von [Explosionsreaktion] um 5 und die max. Stapelungen von [Flammensturm] um 1. Krit. Schaden erhöht sich um {0} %.",
+      "description": "[Technomagie-Essenz] erhöht die max. Stapelungen von [Explosionsreaktion] um {0} und die max. Stapelungen von [Flammensturm] um 1. Krit. Schaden erhöht sich um {1} %. Jede erzeugte [Explosionsreaktion] stapelt 1-mal zusätzlich.",
       "value": {
         "0": {
+          "0": "5",
+          "1": "6",
+          "2": "7",
+          "3": "8",
+          "4": "9",
+          "5": "10"
+        },
+        "1": {
           "0": "20",
           "1": "24",
           "2": "29",
@@ -219,14 +227,14 @@
     }
   },
   "sw": {
-    "requirement": "Wenn der Skill 4-mal verwendet wird, kann es aufgeladen und verwendet werden.",
+    "requirement": "Wenn der Skill 5-mal verwendet wird, kann es aufgeladen und verwendet werden.",
     "description": "Beschwört die Seele von Bezwinger der Dunkelheit, Del Terravion und fügt allen Gegnern [ffc800]600% von P.ATK[-] Körp. Schaden zu. Fängt das getroffene Ziel in einer Raumbarriere ein, sodass er [64ffff]8[-] Sek. lang keine positive Effekte erhalten kann, und erhöht den erhaltenen Körp. Schaden um [ff6464]25[-] %. Danach wird die Seelenwaffen-Wirkung [64ffff]12[-] Sek. lang aufrechterhalten und Isolets ANG erhöht sich um [64ff64]30[-] %.",
     "cooldown": "20",
     "uses": "5",
     "thumbnail": "heroes/Isolet/sw.png",
     "advancement": {
       "1": "Erhöht die Wirkungsdauer der Raumbarriere um 4 Sek.",
-      "2": "Erhöht den Schaden von Isolet gegen Feinde, die keine Helden sind, um 35 % während der Seelen-Wirkungsdauer."
+      "2": "Erhöht den Schaden von Isolet gegen Feinde, die keine Helden sind, um 35 % und verringert jede Sek. den Cooldown ihrer aktiven Skills um 1 Sek. während der Seelen-Wirkungsdauer."
     },
     "story": "Menschen, die einen Verlust erlitten haben, fällt es schwer, in das alte Leben zurückzukehren. Das Fundament, das einst die Überzeugungen und Gedanken stützte, ist nicht mehr das gleiche wie zuvor, weshalb Stück für Stück ein Teil dessen, was den Menschen ausmacht, abgetragen wird. Auch Isolet hat sich durch den Verlust verändert.\nAuf den ersten Blick fällt nichts besonderes ins Auge, aber sie hat sich verändert. Es war nicht so, dass sie eine gebrochene Persönlichkeit gehabt hätte und bösartige Dinge tat, also blieb alles beim Alten. Sie war immer noch die Isolet, die nach dem Guten und der Gerechtigkeit strebte. Aber diejenigen, die sie gut kannten, konnten die Veränderung spüren. Die Veränderung kam zusammen mit Del Terravion,\nSie wurde Mitglied von Pandora, die dem Kaiserreich feindlich gesinnt sind, und fügte Del Terravion mit Hilfe von Pandoras technomagischen Technologie ein zusätzlichen Kraftverstärker hinzu. Sie musste stark sein, um ihr Versprechen, nie wieder so machtlos zu sein, einhalten zu können. Egal wie viel mehr Blut, Flüche oder Hass auch noch folgen würden.\nDer technomagische Kraftverstärker verschlang das Herz von Del Terravion mit Sonnenlicht und entfernte die Spuren der himmelblauen Farbe. Jedes Mal, wenn an dem Stab weiter gearbeitet wurde, konnte man die schmerzerfüllten Schreie von Del Terravion hören. Isolet hörte die Schreie, jedes einzige Mal, wenn sie vor der Werkstatt Pandoras Wache hielt. Sie ist die einzige, die die ohrenbetäubenden Schreie hören konnte und für sie klangen sie wie Schreie ihres Begleiters, der jede Nacht aufs Neue in ihren Albträumen stirbt. Für sie war es ein Prozess der Selbstbestrafung, da klar war, dass sie nur verlieren konnte.\nDel Terrivon, das Relikt der Hexen, erhielt durch die technomagische Technologie, die jegliche Magie in den Schatten stellt, eine unvergleichliche Macht. Der Drache im Inneren des Stabes, der einst den Himmel mit seinen riesigen Schwingen durchflog, verlor gänzlich seine Ehre als Wächter und wurde zu einer leeren Hülle, gefesselt an einen trostlosen Mechanismus. Isolet gab ihm den Namen Gigantes."
   },

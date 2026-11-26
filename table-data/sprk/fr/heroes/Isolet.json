@@ -26,21 +26,21 @@
     "1": {
       "name": "Flammes dévorantes – Caienne",
       "cost": "2",
-      "cooldown": "7",
+      "cooldown": "10",
       "description": "Inflige [ffc800]408 + 408 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 255% de P.ATK[-] DEG P aux ennemis à portée situés à l'avant, et leur applique l'état d'[ff6464][Ignition][-]. La récupération des PV de l'ennemi à l'état d'[ff6464][Ignition][-] est réduite de [ff6464]25[-]%, pendant [64ffff]7[-] sec.",
       "thumbnail": "heroes/Isolet/skills/1.png"
     },
     "2": {
       "name": "Froid du Zéro absolu – Devion",
       "cost": "3",
-      "cooldown": "15",
+      "cooldown": "20",
       "description": "Inflige à [64ffff]5[-] reprises [ffc800](161 + 161 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 102% de P.ATK) * 5[-] DEG P au total à l'ennemi à portée situé à l'avant, et gèle la cible pendant [64ffff]3[-] sec à chaque coup porté. En infligeant des DEG à l'ennemi à l'état d'[ff6464][Ignition][-], provoque [64ffff][Réaction explosive][-] à chaque coup porté, ce qui inflige [ffc800]136 + 136 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 85.7% de P.ATK[-] DEG supplémentaires ignorant la DEF.",
       "thumbnail": "heroes/Isolet/skills/2.png"
     },
     "3": {
       "name": "Ouragan déferlant – Icarus",
       "cost": "4",
-      "cooldown": "20",
+      "cooldown": "26",
       "description": "Inflige à l'ennemi à portée situé à l'avant [ffc800]98 + 98 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 58.5% de P.ATK[-] DEG P à chaque coup porté, à [64ffff]20[-] reprises, pendant [64ffff]10[-] sec. Ensuite, réduit l'ATQ de la cible de [ff6464]15[-]% pendant [64ffff]10[-] sec. En infligeant des DEG à l'ennemi à l'état d'[ff6464][Ignition][-], se modifie en [64ff64][Ouragan de Flammes][-], ce qui inflige [ffc800]196 + 196 * Échelle de niveau(Niveau de compétence) * Coefficient d'éveil + 117% de P.ATK[-] DEG P à chaque coup porté, et ajoute l'effet qui réduit la récupération des PV de l'ennemi de [ff6464]1.5[-]% pendant [64ffff]60[-] sec. Cet effet est cumulable jusqu'à [64ffff]30[-] fois.",
       "thumbnail": "heroes/Isolet/skills/3.png"
     },
@@ -48,7 +48,7 @@
       "name": "Cœur de Technomagie",
       "cost": null,
       "cooldown": null,
-      "description": "Fixe la Vitesse d'ATQ d'Isolet à [64ffff]1000[-]. Isolet n'est pas affectée par l'effet de réduction du temps de recharge de compétence, mais les DEG Crit sont augmentés de [64ff64]100[-]%, puis à chaque utilisation de compétence, elle récupère [64ff64]1500[-] PM.\nEn provoquant [64ffff][Réaction explosive][-], augmente son ATQ de [64ff64]4[-]%. Cet effet est cumulable jusqu'à [64ffff]15[-] fois et ne peut être dissipé.\nEn générant [64ff64][Ouragan de Flammes][-], réduit les DEG M reçus par tous les alliés de [64ff64]7[-]%. Cet effet est cumulable jusqu'à [64ffff]3[-] fois et ne peut être dissipé.",
+      "description": "Les DEG Crit d'Isolet sont augmentés de [64ff64]100[-]%, et à chaque utilisation de compétence, elle récupère [64ff64]500[-] PM.\nEn provoquant [64ffff][Réaction explosive][-], augmente son ATQ de [64ff64]4[-]%. Cet effet est cumulable jusqu'à [64ffff]15[-] fois et ne peut être dissipé.\nEn générant [64ff64][Ouragan de Flammes][-], réduit les DEG M reçus par tous les alliés de [64ff64]7[-]%. Cet effet est cumulable jusqu'à [64ffff]3[-] fois et ne peut être dissipé.",
       "thumbnail": "heroes/Isolet/skills/4.png"
     }
   },
@@ -82,23 +82,23 @@
           "thumbnail": "heroes/Isolet/perks/s1l.png"
         },
         "dark": {
-          "effect": "[Ignition] Augmente la durée de cet état de 5 sec.",
+          "effect": "Réduit la résistance Crit des ennemis en état d'[Ignition] de 500.",
           "thumbnail": "heroes/Isolet/perks/s1d.png"
         }
       },
       "2": {
         "light": {
-          "effect": "Réduit 200 PM de l'ennemi à chaque coup porté.",
+          "effect": "Réduit 200 PM de l'ennemi à chaque coup porté. Contre les Boss, réduit 500 PM à la place.",
           "thumbnail": "heroes/Isolet/perks/s2l.png"
         },
         "dark": {
-          "effect": "[Réaction explosive] Supprime l'effet de gel, mais augmente les DEG de cette réaction de 60%.",
+          "effect": "[Réaction explosive] Supprime l'effet de gel, mais augmente les DEG de cette réaction de 30%.",
           "thumbnail": "heroes/Isolet/perks/s2d.png"
         }
       },
       "3": {
         "light": {
-          "effect": "Réduit le coût en PM de 1.",
+          "effect": "[Ouragan de Flammes] réduit 100 PM de la cible à chaque coup porté.",
           "thumbnail": "heroes/Isolet/perks/s3l.png"
         },
         "dark": {
@@ -203,9 +203,17 @@
     },
     "4": {
       "name": "Boussole de Voûte céleste",
-      "description": "[Cœur de Technomagie] Augmente le nombre max de [Réaction explosive] cumulable de 5 et le nombre max d'[Ouragan de Flammes] cumulable de 1. Augmente les DEG Crit de {0}%.",
+      "description": "[Cœur de Technomagie] Augmente le nombre max de [Réaction explosive] cumulable de {0} et le nombre max d'[Ouragan de Flammes] cumulable de 1. Augmente les DEG Crit de {1}%. Chaque [Réaction explosive] provoquée cumule 1 charge supplémentaire.",
       "value": {
         "0": {
+          "0": "5",
+          "1": "6",
+          "2": "7",
+          "3": "8",
+          "4": "9",
+          "5": "10"
+        },
+        "1": {
           "0": "20",
           "1": "24",
           "2": "29",
@@ -219,14 +227,14 @@
     }
   },
   "sw": {
-    "requirement": "Utilisez les compétences du Héros 4 fois pour recharger l'âme avant de pouvoir l'utiliser.",
+    "requirement": "Utilisez les compétences du Héros 5 fois pour recharger l'âme avant de pouvoir l'utiliser.",
     "description": "Invoque l'âme de Del Terravion, le Conquérant des Ténèbres, ce qui inflige à tous les ennemis [ffc800]600% de P.ATK[-] DEG P. Ensuite, enferme la cible touchée dans une barrière d'espace qui ne peut être dissipée, ce qui l'empêche de recevoir des effets positifs et augmente ses DEG P reçus de [ff6464]25[-]%, pendant [64ffff]8[-] sec. Après, l'invocation de l'âme dure pendant [64ffff]12[-] sec, augmentant l'ATQ d'Isolet de [64ff64]30[-]%.",
     "cooldown": "20",
     "uses": "5",
     "thumbnail": "heroes/Isolet/sw.png",
     "advancement": {
       "1": "Augmente la durée de la barrière d'espace de 4 sec.",
-      "2": "Pendant la durée de l'invocation de l'âme, augmente de 35% les DEG infligés par Isolet à l'ennemi non-héros."
+      "2": "Pendant la durée de l'invocation de l'âme, augmente de 35% les DEG infligés par Isolet à l'ennemi non-héros et réduit le temps de recharge de ses compétences actives de 1 sec chaque seconde."
     },
     "story": "Une personne qui subit une lourde perte ne peut plus retrouver sa vie d'antan. Les piliers qui la soutiennent se retrouvant réduits, elle ne peut qu'éroder sa conviction et ses croyances, afin de s'adapter à la vie qui dure. C'est ce qui arriva à Isolet. Elle changea, bien que ses changements n'étaient pas clairement perceptibles.\nPuisque son caractère ne s'était pas modifié, et qu'elle ne commettait aucun acte répréhensible, elle semblait toujours pareille à elle-même, distinguant le bien du mal. Mais ceux qui lui étaient proches ressentaient que cette constance n'était qu'apparente. Le changement transparut à travers Del Terravion.\nDevenue membre de l'organisation Pandora, elle ajouta un dispositif additionnel sur Del Terravion, avec l'aide de la technomagie possédée par Pandora. Car elle était résolue à devenir plus puissante, afin de ne plus subir de perte par manque de pouvoir. Et ce, même si cela devait la souiller de sang, de malédiction ou de rancœur.\nLe dispositif technomagique força le cœur azuré de Del Terravion à se consumer, tel le soleil. Chaque fois que le bâton était reforgé, Del Terravion hurlait, se tordant dans une atroce douleur et du chagrin. Ce cri, uniquement audible aux oreilles d'Isolet, ressemblait fort à son propre hurlement, qu'elle entendait sans cesse lorsqu'elle revivait la mort de son ami dans le cauchemar, toutes les nuits. Malgré cela, elle continuait à se rendre à l'atelier de Pandora, afin d'observer l'ouvrage effectué sur le bâton. C'était comme si elle s'exécutait elle-même, pour se débarrasser d'Isolet du passé, qui avait subi des pertes parce qu'elle avait été trop candide.\nLorsque Del Terravion, le trésor sacré des sorcières, fut complètement reforgé par la technomagie, il obtint une puissance incommensurable. Le Dragon du bâton, contenant dans ses ailes toute la voûte céleste, fut entravé par le dispositif technomagique, perdant le statut du gardien. Il fut réduit à l'état d'une carapace vide, et Isolet le nomma Gigantes."
   },
