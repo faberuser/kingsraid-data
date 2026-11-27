@@ -48,7 +48,7 @@
       "name": "Quintessence of Technomagic",
       "cost": null,
       "cooldown": null,
-      "description": "Isolet recovers [64ff64]500[-] Mana every time she uses a Skill, and increases her Crit DMG by [64ff64]100[-]%.\nWhen she creates [64ffff][Explosive Reaction][-], her ATK increases by [64ff64]4[-]%. This effect can be stacked up to max [64ffff]15[-] times and is irremovable.\nWhen she creates [64ff64][Blazing Storm][-], M.DMG all allies take is reduced by [64ff64]7[-]%. This effect can be stacked up to max [64ffff]3[-] times and is irremovable.",
+      "description": "Isolet recovers [64ff64]1000[-] Mana every time she uses a Skill, and increases her Crit DMG by [64ff64]100[-]%.\nWhen she creates [64ffff][Explosive Reaction][-], her ATK increases by [64ff64]4[-]%. This effect can be stacked up to max [64ffff]15[-] times and is irremovable.\nWhen she creates [64ff64][Blazing Storm][-], M.DMG all allies take is reduced by [64ff64]7[-]%. This effect can be stacked up to max [64ffff]3[-] times and is irremovable.",
       "thumbnail": "heroes/Isolet/skills/4.png"
     }
   },
@@ -92,7 +92,7 @@
           "thumbnail": "heroes/Isolet/perks/s2l.png"
         },
         "dark": {
-          "effect": "Increases DMG of [Explosive Reaction] by 30% instead of freezing enemies.",
+          "effect": "Increases DMG of [Explosive Reaction] by 60% instead of freezing enemies.",
           "thumbnail": "heroes/Isolet/perks/s2d.png"
         }
       },
@@ -102,13 +102,13 @@
           "thumbnail": "heroes/Isolet/perks/s3l.png"
         },
         "dark": {
-          "effect": "Changes the Heal Rate Reduction effect of [Blazing Storm] to 2.5%.",
+          "effect": "Increases DMG by 60%.",
           "thumbnail": "heroes/Isolet/perks/s3d.png"
         }
       },
       "4": {
         "light": {
-          "effect": "Additionally increases DMG dealt to non-Hero enemies by 1% upon creating [Explosive Reaction].",
+          "effect": "Additionally increases DMG dealt to non-Hero enemies by 2% upon creating [Explosive Reaction].",
           "thumbnail": "heroes/Isolet/perks/s4l.png"
         },
         "dark": {
@@ -203,7 +203,7 @@
     },
     "4": {
       "name": "Celestial Compass",
-      "description": "[Quintessence of Technomagic] Increases the max number of stacks of [Explosive Reaction] by {0} and the max number of stacks of [Blazing Storm] by 1. Increases Crit DMG by {1}%. Gains 1 additional stack every time [Explosive Reaction] is created.",
+      "description": "[Quintessence of Technomagic] Increases the max number of stacks of [Explosive Reaction] by {0}. Gains 1 additional stack every time [Explosive Reaction] is created.",
       "value": {
         "0": {
           "0": "5",
@@ -212,14 +212,6 @@
           "3": "8",
           "4": "9",
           "5": "10"
-        },
-        "1": {
-          "0": "20",
-          "1": "24",
-          "2": "29",
-          "3": "35",
-          "4": "42",
-          "5": "50"
         }
       },
       "thumbnail": "heroes/Isolet/ut/4.png",
@@ -227,14 +219,14 @@
     }
   },
   "sw": {
-    "requirement": "Charges up upon using Skills 5 times.",
+    "requirement": "Charges up upon using Skills 4 times.",
     "description": "Summons the soul of Conqueror of Darkness, Del Terravion, dealing [ffc800]600% of P.ATK[-] P.DMG to all enemies and locking hit targets within an irremovable spacial barrier. Targets within the spacial barrier cannot receive positive effects and they take [ff6464]25[-]% increased P.DMG for [64ffff]8[-] sec. Afterward, the Skill lasts for [64ffff]12[-] sec and increases Isolet's ATK by [64ff64]30[-]%.",
     "cooldown": "20",
     "uses": "5",
     "thumbnail": "heroes/Isolet/sw.png",
     "advancement": {
       "1": "Increases the duration of the spacial barrier by 4 sec.",
-      "2": "Increases Isolet's DMG dealt to non-Hero enemies by 35% and reduces her Cooldown of active Skills by 1 sec every sec for the duration of soul."
+      "2": "Increases Isolet's DMG dealt to non-Hero enemies by 35% and reduces her Cooldown of active Skills by 2 sec every sec for the duration of soul."
     },
     "story": "The life of someone who has suffered loss can never be the same as before. The magnitude of those that once supported their faith and ideology is no longer the same as before and can no longer support them fully. Eventually, parts of themselves fall apart, little by little. Isolet was one of the people that changed due to loss.\nOn the surface, however, nothing seemed changed. Isolet's personality remained the same, and she didn't commit wrongs. She remained the same Isolet who's good and righteous. But those who know her well noticed that she had changed. Her change was manifested via Del Terravion.\nWhen Isolet joined Pandora, an organization that opposes the Empire, she was able to add an extra power output device on Del Terravion using Pandora's technomagic technology. She swore that she will never be powerless nor have anything taken away from her. To do so, she needed power more than ever, even if it meant that she will have to walk a path painted in blood and covered in curses and resentment.\nThe forced technomagic output device engulfed Del Terravion's heart with sunlight, removing any trace of the azure color that once existed. Each time the staff was processed, Isolet could hear Del Terravion's scream—the scream of Del Terravion struggling in pain and sorrow. Only Isolet who could hear these painful screams, and she thought that they sounded exactly like her. To her, it sounded exactly like her cries from her nightmare, from when she had to watch her friend die every night. Thus, Isolet guarded Pandora's workshop every time Del Terravion was processed. It was Isolet's way of executing herself. Because she was pure, she ended up experiencing loss.\nOnce Del Terravion, the relic of the witches, was combined with the power of technomagic that mocks magic, it exuded overwhelming power like nothing before. The dragon within the staff, with wings that once embraced the sky, is now bound to a desolate apparatus. It is now but an empty shell of a guardian that is stripped of its glory. Isolet named this shell Gigantes."
   },
